@@ -64,6 +64,29 @@ Identity keys: repo-owned **`local_id`** is the spine; GSO `code` is a per-era
 attribute keyed **`(code, era)`** — codes are reused across reforms at both
 province (`.02` A1) and ward (`.03`) level, so code is never a cross-era key.
 
+**Local entities vs Wikidata items are two layers (critical).** The local model
+is *always* new-entity-per-reform. **Reconciliation** then maps each local entity
+to the WD item that represents it — and this is **many-local-to-one-QID** where
+WD edited a survivor **in place**:
+
+- **Provinces:** WD kept one item per surviving province and edited it (e.g. old
+  Lào Cai *and* merged Lào Cai are both `Q36446`); the absorbed province (Yên
+  Bái `Q36349`) is a distinct item. So the pre and post local entities of a
+  survivor reconcile to the **same QID**.
+- **Wards:** WD minted **new** items even for the renamed-from primary (Ba Đình
+  `Q135651473` ≠ Trúc Bạch `Q10828647`).
+
+So each entity carries a reconciliation **`qid_status`**: `existing` (item
+pre-dates the reform — enrich only) vs `new` (freshly minted). This drives emit:
+
+- **`P571 inception` only when `qid_status == new`.** Never stamp an inception on
+  a pre-existing item (that would falsify a decades-old province's history).
+- **Emit skips any lineage edge where `pre.qid == post.qid`** (survivor edited in
+  place = one continuing item; emit no dissolved/merged/replaces self-references).
+- **Every statement is referenced** (`S248` → the Nghị quyết item if it exists,
+  else `S854` reference URL to the establishing resolution / NSO source) and
+  lineage statements carry `P585` = effective date. Non-negotiable (`.07`).
+
 > Constraint check required before any batch: `P1365`/`P1366`/`P7888` allowed-
 > qualifier and value-type constraints (we hit this class of issue with `P1107`
 > on `P39`). Verify against live property constraints.

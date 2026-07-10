@@ -130,9 +130,15 @@ URL = "https://danhmuchanhchinh.nso.gov.vn/DMDVHC.asmx"
 NS = "http://tempuri.org/"
 
 def parse_province_diffgram(xml: str) -> list[dict]:
-    """Extract province rows from a DanhMucTinh SOAP diffgram response."""
+    """Extract province rows from a DanhMucTinh SOAP diffgram response.
+
+    Scoped to the current-state <DocumentElement>; any <diffgr:before> block is
+    ignored (.02 confirmed reads return a single DocumentElement, no before-block —
+    this guard prevents double-counting if that ever changes)."""
+    m = re.search(r"<DocumentElement\b[^>]*>(.*?)</DocumentElement>", xml, re.S)
+    scope = m.group(1) if m else xml
     rows = []
-    for block in re.findall(r"<TABLE\b[^>]*>(.*?)</TABLE>", xml, re.S):
+    for block in re.findall(r"<TABLE\b[^>]*>(.*?)</TABLE>", scope, re.S):
         def field(name: str) -> str:
             m = re.search(rf"<{name}>(.*?)</{name}>", block)
             return m.group(1) if m else ""
@@ -199,6 +205,14 @@ def test_save_raw_writes_bytes_and_manifest(tmp_path, monkeypatch):
     line = json.loads((tmp_path / "manifest.jsonl").read_text(encoding="utf-8").splitlines()[0])
     assert line["path"] == "soap/x.xml" and line["rows"] == 1
     assert len(line["sha256"]) == 64 and "retrieved_at" in line
+
+def test_save_raw_is_idempotent(tmp_path, monkeypatch):
+    monkeypatch.setattr(rc, "RAW", tmp_path)
+    monkeypatch.setattr(rc, "MANIFEST", tmp_path / "manifest.jsonl")
+    rc.save_raw("soap/x.xml", b"<a/>", {"rows": 1})
+    rc.save_raw("soap/x.xml", b"<b/>", {"rows": 2})   # re-run same path
+    lines = (tmp_path / "manifest.jsonl").read_text(encoding="utf-8").strip().splitlines()
+    assert len(lines) == 1 and json.loads(lines[0])["rows"] == 2   # replaced, not duplicated
 ```
 
 - [ ] **Step 2: Run test to verify it fails**
@@ -218,7 +232,8 @@ RAW = Path("data/raw")
 MANIFEST = RAW / "manifest.jsonl"
 
 def save_raw(relpath: str, content: bytes, meta: dict) -> Path:
-    """Write verbatim bytes to data/raw/<relpath>; append a provenance manifest line."""
+    """Write verbatim bytes to data/raw/<relpath>; upsert a provenance manifest
+    line keyed on `path` (idempotent — re-running replaces, never duplicates)."""
     dest = RAW / relpath
     dest.parent.mkdir(parents=True, exist_ok=True)
     dest.write_bytes(content)
@@ -230,8 +245,13 @@ def save_raw(relpath: str, content: bytes, meta: dict) -> Path:
         **meta,
     }
     MANIFEST.parent.mkdir(parents=True, exist_ok=True)
-    with MANIFEST.open("a", encoding="utf-8") as f:
-        f.write(json.dumps(entry, ensure_ascii=False) + "\n")
+    existing = []
+    if MANIFEST.exists():
+        for line in MANIFEST.read_text(encoding="utf-8").splitlines():
+            if line.strip() and json.loads(line).get("path") != relpath:
+                existing.append(line)
+    existing.append(json.dumps(entry, ensure_ascii=False))
+    MANIFEST.write_text("\n".join(existing) + "\n", encoding="utf-8")
     return dest
 ```
 
@@ -356,12 +376,22 @@ _COLS = {
     "Ghi Chú": "ghi_chu",
 }
 
+def _code(v: str) -> str:
+    """Normalize a province code to 2-digit zero-padded (guards Excel numeric coercion)."""
+    v = str(v).strip()
+    if v.endswith(".0"):        # numeric cell coerced to "1.0"
+        v = v[:-2]
+    return v.zfill(2) if v.isdigit() else v
+
 def read_province_crosswalk(path: str) -> list[dict]:
     """Read the Đối Chiếu province .xls export into normalized rows."""
     df = pd.read_excel(path, engine="xlrd", dtype=str).fillna("")
     out = []
     for _, r in df.iterrows():
-        out.append({dest: str(r.get(src, "")).strip() for src, dest in _COLS.items()})
+        row = {dest: str(r.get(src, "")).strip() for src, dest in _COLS.items()}
+        row["base_ma"] = _code(row["base_ma"])
+        row["succ_ma"] = _code(row["succ_ma"]) if row["succ_ma"] else ""
+        out.append(row)
     return out
 ```
 
@@ -511,6 +541,7 @@ class Entity:
     valid_from: Optional[str]
     valid_to: Optional[str]
     wikidata_qid: Optional[str]
+    qid_status: Optional[str] = None   # "existing" | "new" — set during reconcile; gates P571
     def to_dict(self) -> dict:
         return asdict(self)
 
@@ -546,6 +577,15 @@ git commit -m "feat: entity + lineage model types"
 **Files:**
 - Modify: `src/vn_admin_units/model.py`
 - Test: `tests/test_build_entities.py`
+
+> **Known Phase-1 debt (per DESIGN §Temporal scope):** `build_entities` hard-codes
+> the 2025 reform date (`valid_to="2025-06-30"` / `valid_from="2025-07-01"`) and a
+> two-value `era` (`pre2025`/`post2025`) embedded in `local_id`. The full model is
+> generic dated records spanning 2002→present. Before Phase 1b, parameterize the
+> reform date/era (e.g. `build_entities(pre, post, boundary, era_pre, era_post)`);
+> a later hop (2008, 2004) will otherwise require reworking `local_id` and any
+> `data/` a downstream consumes. Acceptable for Phase 1; **do not treat the era
+> encoding as schema-final.**
 
 - [ ] **Step 1: Write the failing test** (`tests/test_build_entities.py`)
 
@@ -695,26 +735,45 @@ from pathlib import Path
 from vn_admin_units.model import build_entities, build_lineage
 from vn_admin_units.crosswalk import read_province_crosswalk
 
-UNCHANGED_CODES = {"01","04","11","12","14","20","22","38","40","42"}  # + verify against 'Giữ nguyên'
+# Verified predecessor(pre code) -> successor(post code) from the 63->34 reform.
+# Guards result-NAME correctness (a wrong result that still resolves to *some*
+# post entity would pass coverage but be wrong).
+KNOWN_EDGES = {
+    "15": "15",  # Yên Bái  -> merged Lào Cai (post code 15)
+    "10": "15",  # old Lào Cai -> merged Lào Cai (survivor, code 10->15)
+    "06": "19",  # Bắc Kạn  -> Thái Nguyên
+    "02": "08",  # Hà Giang -> Tuyên Quang
+    "01": "01",  # Hà Nội   -> unchanged
+}
 
-def test_every_post_province_has_predecessor():
+def _load():
     pre = json.loads(Path("data/provinces-2025-06-30.json").read_text(encoding="utf-8"))
     post = json.loads(Path("data/provinces-2026-07-10.json").read_text(encoding="utf-8"))
     ents = build_entities(pre, post)
     edges = build_lineage(ents, read_province_crosswalk("data/raw/crosswalk/DoiChieu_Tinh_2025.xls"))
-    post_ids = {e.local_id for e in ents if e.era=="post2025"}
+    return ents, edges
+
+def test_every_post_province_has_predecessor():
+    ents, edges = _load()
+    post_ids = {e.local_id for e in ents if e.era == "post2025"}
     covered = {e.successor for e in edges}
     missing = post_ids - covered
     assert not missing, f"post-reform provinces with no predecessor edge: {missing}"
-    # exactly 34 post entities, 63 pre entities
     assert len(post_ids) == 34
-    assert len([e for e in ents if e.era=="pre2025"]) == 63
+    assert len([e for e in ents if e.era == "pre2025"]) == 63
+
+def test_known_edges_resolve_to_correct_successor():
+    _, edges = _load()
+    by_pred = {e.predecessor: e.successor for e in edges}
+    for pre_code, post_code in KNOWN_EDGES.items():
+        assert by_pred.get(f"p-{pre_code}-pre2025") == f"p-{post_code}-post2025", \
+            f"pre {pre_code} should map to post {post_code}"
 ```
 
 - [ ] **Step 6: Run the ground-truth test**
 
 Run: `uv run pytest tests/test_lineage_groundtruth.py -q`
-Expected: PASS. If `missing` is non-empty, inspect those provinces' `Ghi Chú` for template variants (city establishments like Huế/Đà Nẵng/HCMC/Cần Thơ/Hải Phòng use "thành **thành phố** mới"; the regex already allows `thành phố`, but verify) and extend `parse_ghichu` until zero missing. Do not weaken the assertion.
+Expected: both tests PASS. If `missing` is non-empty, inspect those provinces' `Ghi Chú` for template variants (city establishments like Huế/Đà Nẵng/HCMC/Cần Thơ/Hải Phòng use "thành **thành phố** mới"; the regex already allows `thành phố`, but verify) and extend `parse_ghichu` until zero missing. If `test_known_edges…` fails, the parser resolved a *wrong* successor (e.g. greedy `_MERGE` result capture swallowed trailing prose) — fix the parse, don't adjust the expected map. **Do not weaken either assertion.**
 
 - [ ] **Step 7: Commit**
 
@@ -735,11 +794,19 @@ Province reconciliation is small (~97 entities) and high-stakes, so use a **cura
 - [ ] **Step 1: Create the seed** (`mappings/provinces-qid.csv`) with header and the verified rows known so far:
 
 ```csv
-gso_code,era,name_vi,wikidata_qid,status
-15,pre2025,Tỉnh Yên Bái,Q36349,verified
-10,pre2025,Tỉnh Lào Cai,Q36446,seed-check
-15,post2025,Tỉnh Lào Cai,Q36446,seed-check
+gso_code,era,name_vi,wikidata_qid,qid_status,match_status
+15,pre2025,Tỉnh Yên Bái,Q36349,existing,verified
+10,pre2025,Tỉnh Lào Cai,Q36446,existing,seed-check
+15,post2025,Tỉnh Lào Cai,Q36446,existing,seed-check
 ```
+
+`qid_status` = `existing` (WD item pre-dates the reform — enrich only, **no
+`P571`**) vs `new` (freshly minted). For Phase-1 provinces this is `existing`
+for **all** rows: WD edited surviving province items in place and the absorbed
+provinces already had items (`.08`). `match_status` is our own confidence
+(`verified`/`seed-check`/`needs-item`). Note the survivor maps its pre and post
+eras to the **same QID** (`10,pre2025` and `15,post2025` → `Q36446`) — this is
+correct; emit guards the same-QID case (Task 9).
 
 - [ ] **Step 2: Write the failing test** (`tests/test_reconcile.py`)
 
@@ -747,11 +814,12 @@ gso_code,era,name_vi,wikidata_qid,status
 from vn_admin_units.reconcile import load_seed, apply_seed
 from vn_admin_units.model import Entity
 
-def test_apply_seed_sets_qid():
+def test_apply_seed_sets_qid_and_status():
     seed = load_seed("mappings/provinces-qid.csv")
     e = Entity("p-15-pre2025","15","pre2025","Tỉnh Yên Bái","Tỉnh",None,"2025-06-30",None)
     [e2] = apply_seed([e], seed)
     assert e2.wikidata_qid == "Q36349"
+    assert e2.qid_status == "existing"
 ```
 
 - [ ] **Step 3: Run test to verify it fails**
@@ -770,17 +838,19 @@ from pathlib import Path
 from vn_admin_units.model import Entity
 
 def load_seed(path: str) -> dict:
-    """(gso_code, era) -> qid from the curated CSV."""
+    """(gso_code, era) -> {'qid', 'qid_status'} from the curated CSV."""
     seed = {}
     for row in csv.DictReader(Path(path).read_text(encoding="utf-8").splitlines()):
-        seed[(row["gso_code"], row["era"])] = row["wikidata_qid"]
+        seed[(row["gso_code"], row["era"])] = {
+            "qid": row["wikidata_qid"], "qid_status": row.get("qid_status", "existing")}
     return seed
 
 def apply_seed(entities: list[Entity], seed: dict) -> list[Entity]:
     for e in entities:
-        qid = seed.get((e.gso_code, e.era))
-        if qid:
-            e.wikidata_qid = qid
+        hit = seed.get((e.gso_code, e.era))
+        if hit:
+            e.wikidata_qid = hit["qid"]
+            e.qid_status = hit["qid_status"]
     return entities
 
 def wd_search(name: str, timeout: int = 30) -> list[dict]:
@@ -815,7 +885,15 @@ git commit -m "feat: province Wikidata reconciliation (seed + WD search)"
 **Files:**
 - Create: `src/vn_admin_units/emit.py`, `tests/test_emit.py`
 
-QuickStatements v2 syntax: `Q<item>\tP<prop>\t<value>` per line; qualifiers/refs appended tab-separated (`Pxxx\tvalue`); dates as `+2025-07-01T00:00:00Z/11`; item values are bare `Qxxx`; string values quoted. Reference: `S248\tQ<decree>` if the decree has an item, else `S854\t"<url>"` (reference URL). Property map per `DESIGN.md`: new entity `P571` inception + `P1365` replaces (per predecessor, qualified `P585` effective date, referenced); old entity `P576` dissolved + `P7888` merged into (+ `P1366`).
+QuickStatements v2 syntax: `Q<item>\tP<prop>\t<value>` per line; qualifiers/refs appended tab-separated; dates as `+2025-07-01T00:00:00Z/11`; item values bare `Qxxx`; strings quoted; reference URL as `S854\t"<url>"`.
+
+**Emit rules (per DESIGN §Identity, resolving review findings #1–#3):**
+1. **Same-QID guard** — skip any edge where `pre.qid == post.qid` (survivor edited in place = one continuing item; emitting dissolved/merged/replaces here would be self-referential garbage).
+2. **`P571` inception only when `post.qid_status == "new"`** — never stamp an inception on a pre-existing item (would falsify a decades-old province). For Phase-1 provinces (all `existing`) this emits **zero** `P571`.
+3. **Every statement referenced** — `S854` reference URL to the NSO source (operational source; satisfies the `.07` Statistics-Law citation duty). Lineage statements also carry `P585` = effective date. (Refinement for later: `S248` stated-in the Nghị quyết's WD item when it exists.)
+4. Skip any edge whose endpoints aren't both reconciled (missing QID) — those are logged, not emitted.
+
+For a distinct-QID absorbed/merged edge: old `P576` dissolved + `P7888` merged into + `P1366` replaced by → new; new `P1365` replaces → old. All dated + referenced.
 
 - [ ] **Step 1: Write the failing test** (`tests/test_emit.py`)
 
@@ -823,20 +901,37 @@ QuickStatements v2 syntax: `Q<item>\tP<prop>\t<value>` per line; qualifiers/refs
 from vn_admin_units.model import Entity, LineageEdge
 from vn_admin_units.emit import emit_quickstatements
 
-def test_emit_merge_batch():
+def test_emit_absorbed_merge_is_referenced_no_p571():
     ents = [
-        Entity("p-15-post2025","15","post2025","Tỉnh Lào Cai","Tỉnh","2025-07-01",None,"Q36446"),
-        Entity("p-15-pre2025","15","pre2025","Tỉnh Yên Bái","Tỉnh",None,"2025-06-30","Q36349"),
+        Entity("p-15-post2025","15","post2025","Tỉnh Lào Cai","Tỉnh","2025-07-01",None,"Q36446","existing"),
+        Entity("p-15-pre2025","15","pre2025","Tỉnh Yên Bái","Tỉnh",None,"2025-06-30","Q36349","existing"),
     ]
     edges = [LineageEdge("p-15-pre2025","p-15-post2025","merged_into","whole",False,
-                         "Số: 202/2025/QH15; Ngày: 12/06/2025","2025-07-01")]
+                         "Số: 202/2025/QH15","2025-07-01")]
     qs = emit_quickstatements(ents, edges)
-    # dissolved old province
-    assert "Q36349\tP576\t+2025-07-01T00:00:00Z/11" in qs
-    assert "Q36349\tP7888\tQ36446" in qs
-    # new/surviving province inception + replaces predecessor
-    assert "Q36446\tP571\t+2025-07-01T00:00:00Z/11" in qs
-    assert "Q36446\tP1365\tQ36349" in qs
+    assert "Q36349\tP576\t+2025-07-01T00:00:00Z/11\tS854" in qs        # dissolved, referenced
+    assert "Q36349\tP7888\tQ36446\tP585\t+2025-07-01T00:00:00Z/11\tS854" in qs
+    assert "Q36446\tP1365\tQ36349" in qs                              # replaces
+    assert 'S854\t"https://danhmuchanhchinh.nso.gov.vn/"' in qs        # citation present
+    assert "P571" not in qs                                           # existing item -> NO inception
+
+def test_emit_survivor_same_qid_emits_nothing():
+    ents = [
+        Entity("p-10-pre2025","10","pre2025","Tỉnh Lào Cai","Tỉnh",None,"2025-06-30","Q36446","existing"),
+        Entity("p-15-post2025","15","post2025","Tỉnh Lào Cai","Tỉnh","2025-07-01",None,"Q36446","existing"),
+    ]
+    edges = [LineageEdge("p-10-pre2025","p-15-post2025","replaces","whole",True,
+                         "Số: 202/2025/QH15","2025-07-01")]
+    assert emit_quickstatements(ents, edges) == ""   # same QID -> no self-referential statements
+
+def test_emit_p571_only_for_new_items():
+    ents = [
+        Entity("w-x-post","x","post2025","Phường Ba Đình","Phường","2025-07-01",None,"Q135651473","new"),
+        Entity("w-y-pre","y","pre2025","Phường Trúc Bạch","Phường",None,"2025-06-30","Q10828647","existing"),
+    ]
+    edges = [LineageEdge("w-y-pre","w-x-post","merged_into","whole",True,"Số: 1656","2025-07-01")]
+    qs = emit_quickstatements(ents, edges)
+    assert "Q135651473\tP571\t+2025-07-01T00:00:00Z/11\tS854" in qs   # NEW item -> inception
 ```
 
 - [ ] **Step 2: Run test to verify it fails**
@@ -847,30 +942,38 @@ Expected: FAIL — module missing.
 - [ ] **Step 3: Implement `emit.py`**
 
 ```python
+REFERENCE_URL = "https://danhmuchanhchinh.nso.gov.vn/"
+
 def _date(d: str) -> str:
     return f"+{d}T00:00:00Z/11"
 
 def emit_quickstatements(entities: list["Entity"], edges: list["LineageEdge"]) -> str:
     by_id = {e.local_id: e for e in entities}
     lines: list[str] = []
+    p571_done: set[str] = set()
+    ref = f'S854\t"{REFERENCE_URL}"'
     for e in edges:
         pre, post = by_id[e.predecessor], by_id[e.successor]
         if not (pre.wikidata_qid and post.wikidata_qid):
-            continue
+            continue                              # rule 4: unreconciled -> skip
+        if pre.wikidata_qid == post.wikidata_qid:
+            continue                              # rule 1: survivor edited in place -> no lineage
         eff = _date(e.effective_date)
-        # old side: dissolved + merged into
-        lines.append(f"{pre.wikidata_qid}\tP576\t{eff}")
-        lines.append(f"{pre.wikidata_qid}\tP7888\t{post.wikidata_qid}")
-        lines.append(f"{pre.wikidata_qid}\tP1366\t{post.wikidata_qid}")
-        # new side: inception + replaces (qualified with effective date)
-        lines.append(f"{post.wikidata_qid}\tP571\t{eff}")
-        lines.append(f"{post.wikidata_qid}\tP1365\t{pre.wikidata_qid}\tP585\t{eff}")
-    # de-dupe while preserving order (P571 emitted once per post entity)
-    seen, out = set(), []
+        # old (absorbed) side: dissolved + merged into + replaced by
+        lines.append(f"{pre.wikidata_qid}\tP576\t{eff}\t{ref}")
+        lines.append(f"{pre.wikidata_qid}\tP7888\t{post.wikidata_qid}\tP585\t{eff}\t{ref}")
+        lines.append(f"{pre.wikidata_qid}\tP1366\t{post.wikidata_qid}\tP585\t{eff}\t{ref}")
+        # new/surviving side: replaces predecessor
+        lines.append(f"{post.wikidata_qid}\tP1365\t{pre.wikidata_qid}\tP585\t{eff}\t{ref}")
+        # rule 2: inception ONLY for genuinely new items, once each
+        if post.qid_status == "new" and post.wikidata_qid not in p571_done:
+            lines.append(f"{post.wikidata_qid}\tP571\t{eff}\t{ref}")
+            p571_done.add(post.wikidata_qid)
+    seen, out = set(), []                          # de-dupe, preserve order
     for ln in lines:
         if ln not in seen:
             seen.add(ln); out.append(ln)
-    return "\n".join(out) + "\n"
+    return ("\n".join(out) + "\n") if out else ""
 ```
 
 - [ ] **Step 4: Run test to verify it passes**
@@ -927,12 +1030,23 @@ import json
 from pathlib import Path
 from vn_admin_units.cli import build_all
 
-def test_build_all_produces_artifacts(tmp_path, monkeypatch):
+def test_build_all_produces_artifacts():
+    """Integration test: runs the full build against the committed data/ and
+    data/raw/ inputs, writing the real data/ + statements/ artifacts. Requires
+    Task 2/3 inputs to exist. (No tmp isolation — build_all uses repo-relative
+    paths; this is an end-to-end check, not a unit test.)"""
     build_all()
     ents = json.loads(Path("data/entities.json").read_text(encoding="utf-8"))
-    assert len([e for e in ents if e["era"]=="post2025"]) == 34
+    assert len([e for e in ents if e["era"] == "post2025"]) == 34
     qs = Path("statements/na-provinces-2025.qs").read_text(encoding="utf-8")
     assert "P576" in qs and "P1365" in qs
+    # end-to-end safety net (guards review findings #1/#2 against regression):
+    for line in qs.splitlines():
+        parts = line.split("\t")
+        if len(parts) >= 3 and parts[1] in {"P7888", "P1366", "P1365"}:
+            assert parts[0] != parts[2], f"self-referential statement leaked: {line}"
+    assert "P571" not in qs, "no province item should get a (false) 2025 inception"
+    assert 'S854' in qs, "every statement must be referenced"
 ```
 
 - [ ] **Step 3: Run the full suite**
@@ -945,7 +1059,13 @@ Expected: all tests PASS (including the 34-coverage ground truth).
 Run: `uv run python -c "from vn_admin_units.cli import build_all; build_all()"`
 Expected: `built 97 entities, N lineage edges` (63 pre + 34 post = 97; N ≥ 63).
 
-- [ ] **Step 5: Manually spot-check the QuickStatements** — open `statements/na-provinces-2025.qs`, verify the Yên Bái/Lào Cai block reads sensibly, and confirm every referenced QID is filled (no blank predecessor/successor). Cross-check 3 rows against `DESIGN.md`'s intended encoding before any upload. **Do not upload in this plan** — emission only; upload is a separate, reviewed step.
+- [ ] **Step 5: Manually spot-check the QuickStatements** — open `statements/na-provinces-2025.qs` and confirm:
+  - The Yên Bái→Lào Cai block reads sensibly (`Q36349 P576/P7888 → Q36446`; `Q36446 P1365 → Q36349`).
+  - **No self-referential lines** (`Qx P7888/P1366/P1365 Qx`) — the same-QID survivors (Hà Nội, Cao Bằng, etc.) must produce *nothing*.
+  - **No `P571`** anywhere (all province items pre-exist; a false 2025 inception would be the #2 defect).
+  - **Every line carries an `S854` reference.**
+  - Every emitted QID is non-blank; any unreconciled entity was skipped (check the reconcile log / `mappings` for `needs-item`).
+  Cross-check 3 rows against `DESIGN.md`'s encoding. **Do not upload in this plan** — emission only; upload is a separate, reviewed step (and the `P1365`/`P7888` qualifier constraint-check must happen first).
 
 - [ ] **Step 6: Commit**
 
@@ -974,3 +1094,4 @@ git commit -m "feat: wire province pipeline; emit 2025 reform QuickStatements"
 - The `build_lineage` name-matching uses `_strip_prefix` consistently on both sides; province names are unique (`.05`), so name resolution is safe at this tier (ward tier will need disambiguation — deferred).
 - Ground-truth test (T7 Step 6) is the gate: if any post-province lacks a predecessor, extend the parser — never weaken the assertion.
 - Raw-data storage (decided 2026-07-10): T2 stores verbatim SOAP `.xml` + `manifest.jsonl`; T3 stores the verbatim crosswalk `.xls` + manifest; derived parsed JSON lives in `data/`. Consumers/tests read derived from `data/`, and the crosswalk reader reads the verbatim `.xls` directly (its parsed form is used in-memory, not re-committed).
+- Emit safety (T9, resolving review #1–#3): the local model is new-entity-per-reform but reconciliation maps to WD items (many-local→one-QID for edited survivors); emit therefore (1) skips same-QID edges, (2) sets `P571` only for `qid_status=="new"`, (3) references every statement (`S854`) + dates lineage (`P585`). Three emit unit tests + the T10 integration safety net (no self-refs, no `P571`, `S854` present) gate this. For Phase-1 provinces the batch has zero `P571` and zero self-references by construction.
