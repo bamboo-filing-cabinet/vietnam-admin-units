@@ -16,6 +16,7 @@
 
 - `pyproject.toml` — uv project + deps + pytest config.
 - `src/vn_admin_units/__init__.py`
+- `src/vn_admin_units/rawcache.py` — save exact source bytes + append provenance manifest.
 - `src/vn_admin_units/soap.py` — GSO SOAP client (`DanhMucTinh`) + diffgram parser.
 - `src/vn_admin_units/crosswalk.py` — read Đối Chiếu province `.xls` → rows.
 - `src/vn_admin_units/ghichu.py` — parse `Ghi Chú` → structured events.
@@ -23,8 +24,11 @@
 - `src/vn_admin_units/reconcile.py` — entity → Wikidata QID (province level).
 - `src/vn_admin_units/emit.py` — QuickStatements v2 generation.
 - `src/vn_admin_units/cli.py` — wire ingest→build→reconcile→emit.
-- `data/raw/` — committed cache: `provinces-{date}.json`, `crosswalk-tinh-2025.xls`.
-- `data/` — built artifacts: `entities.json`, `observations.json`, `lineage.json`.
+- `data/raw/` — **exact source bytes + provenance** (decided 2026-07-10):
+  - `data/raw/soap/DanhMucTinh_{iso}.xml` — verbatim SOAP responses
+  - `data/raw/crosswalk/DoiChieu_Tinh_2025.xls` — verbatim crosswalk download
+  - `data/raw/manifest.jsonl` — one JSON line per raw file (source URL, params, retrieved-at, sha256, rows)
+- `data/` — **normalized/derived**: `provinces-{iso}.json` (parsed snapshots), `entities.json`, `lineage.json`.
 - `mappings/provinces-qid.csv` — curated + reconciled `(gso_code, era) → QID`.
 - `statements/na-provinces-2025.qs` — emitted batch.
 - `tests/` — one test module per source module; fixtures in `tests/fixtures/`.
@@ -169,26 +173,115 @@ git commit -m "feat: SOAP DanhMucTinh client + diffgram parser"
 
 ---
 
-## Task 2: Cache province snapshots (raw data)
+## Task 2: Raw cache (verbatim + manifest) + derived snapshots
+
+Storage policy (decided 2026-07-10): `data/raw/` holds **exact source bytes** +
+`manifest.jsonl` provenance; `data/` holds the **parsed/derived** JSON. This task
+builds the manifest helper, saves the verbatim SOAP responses, and emits the
+derived snapshot JSON.
 
 **Files:**
-- Create: `src/vn_admin_units/cli.py`, `data/raw/provinces-2025-06-30.json`, `data/raw/provinces-2026-07-10.json`
+- Create: `src/vn_admin_units/rawcache.py`, `tests/test_rawcache.py`, `src/vn_admin_units/cli.py`
+- Modify: `src/vn_admin_units/soap.py` (add `fetch_provinces_raw`)
+- Produces: `data/raw/soap/DanhMucTinh_{iso}.xml`, `data/raw/manifest.jsonl`, `data/provinces-{iso}.json`
 
-- [ ] **Step 1: Add a `cache_snapshots` function to `cli.py`**
+- [ ] **Step 1: Write the failing test** (`tests/test_rawcache.py`)
+
+```python
+import json
+import vn_admin_units.rawcache as rc
+
+def test_save_raw_writes_bytes_and_manifest(tmp_path, monkeypatch):
+    monkeypatch.setattr(rc, "RAW", tmp_path)
+    monkeypatch.setattr(rc, "MANIFEST", tmp_path / "manifest.jsonl")
+    dest = rc.save_raw("soap/x.xml", b"<hello/>", {"source_url": "http://e", "rows": 1})
+    assert dest.read_bytes() == b"<hello/>"
+    line = json.loads((tmp_path / "manifest.jsonl").read_text(encoding="utf-8").splitlines()[0])
+    assert line["path"] == "soap/x.xml" and line["rows"] == 1
+    assert len(line["sha256"]) == 64 and "retrieved_at" in line
+```
+
+- [ ] **Step 2: Run test to verify it fails**
+
+Run: `uv run pytest tests/test_rawcache.py -q`
+Expected: FAIL — module missing.
+
+- [ ] **Step 3: Implement `rawcache.py`**
+
+```python
+import hashlib
+import json
+from datetime import datetime, timezone
+from pathlib import Path
+
+RAW = Path("data/raw")
+MANIFEST = RAW / "manifest.jsonl"
+
+def save_raw(relpath: str, content: bytes, meta: dict) -> Path:
+    """Write verbatim bytes to data/raw/<relpath>; append a provenance manifest line."""
+    dest = RAW / relpath
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    dest.write_bytes(content)
+    entry = {
+        "path": relpath,
+        "sha256": hashlib.sha256(content).hexdigest(),
+        "bytes": len(content),
+        "retrieved_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        **meta,
+    }
+    MANIFEST.parent.mkdir(parents=True, exist_ok=True)
+    with MANIFEST.open("a", encoding="utf-8") as f:
+        f.write(json.dumps(entry, ensure_ascii=False) + "\n")
+    return dest
+```
+
+- [ ] **Step 4: Run test to verify it passes**
+
+Run: `uv run pytest tests/test_rawcache.py -q`
+Expected: PASS.
+
+- [ ] **Step 5: Add `fetch_provinces_raw` to `soap.py`** (return the verbatim response so raw can be stored before parsing)
+
+```python
+def fetch_provinces_raw(den_ngay: str, timeout: int = 90) -> str:
+    """Return the verbatim DanhMucTinh SOAP XML response for an as-of date (dd/mm/yyyy)."""
+    env = (
+        '<?xml version="1.0" encoding="utf-8"?>'
+        '<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">'
+        f'<soap:Body><DanhMucTinh xmlns="{NS}"><DenNgay>{den_ngay}</DenNgay>'
+        "</DanhMucTinh></soap:Body></soap:Envelope>"
+    )
+    req = urllib.request.Request(
+        URL, data=env.encode("utf-8"),
+        headers={"Content-Type": "text/xml; charset=utf-8",
+                 "SOAPAction": f'"{NS}DanhMucTinh"'},
+    )
+    return urllib.request.urlopen(req, timeout=timeout).read().decode("utf-8")
+```
+
+Then simplify `fetch_provinces` to `return parse_province_diffgram(fetch_provinces_raw(den_ngay, timeout))`. Re-run `uv run pytest tests/test_soap.py -q` — still PASS.
+
+- [ ] **Step 6: Write `cache_snapshots` in `cli.py`** (verbatim XML → raw + manifest; parsed → derived)
 
 ```python
 import json
 from pathlib import Path
-from vn_admin_units.soap import fetch_provinces
+from vn_admin_units.soap import fetch_provinces_raw, parse_province_diffgram
+from vn_admin_units.rawcache import save_raw
 
 BOUNDARY_DATES = {"2025-06-30": "30/06/2025", "2026-07-10": "10/07/2026"}
-RAW = Path("data/raw")
+SOAP_URL = "https://danhmuchanhchinh.nso.gov.vn/DMDVHC.asmx"
+DATA = Path("data")
 
 def cache_snapshots() -> None:
-    RAW.mkdir(parents=True, exist_ok=True)
+    DATA.mkdir(exist_ok=True)
     for iso, ddmmyyyy in BOUNDARY_DATES.items():
-        rows = fetch_provinces(ddmmyyyy)
-        (RAW / f"provinces-{iso}.json").write_text(
+        xml = fetch_provinces_raw(ddmmyyyy)
+        rows = parse_province_diffgram(xml)
+        save_raw(f"soap/DanhMucTinh_{iso}.xml", xml.encode("utf-8"),
+                 {"source_url": SOAP_URL, "method": "DanhMucTinh",
+                  "params": {"DenNgay": ddmmyyyy}, "rows": len(rows)})
+        (DATA / f"provinces-{iso}.json").write_text(
             json.dumps(rows, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"cached {len(rows)} provinces @ {iso}")
 
@@ -196,16 +289,16 @@ if __name__ == "__main__":
     cache_snapshots()
 ```
 
-- [ ] **Step 2: Run it (live) to produce the cache**
+- [ ] **Step 7: Run it live to produce the cache**
 
 Run: `uv run python -m vn_admin_units.cli`
-Expected: prints `cached 63 provinces @ 2025-06-30` and `cached 34 provinces @ 2026-07-10`. Verify counts are exactly 63 and 34.
+Expected: `cached 63 provinces @ 2025-06-30` and `cached 34 provinces @ 2026-07-10`. Verify: `data/raw/soap/` has 2 `.xml` files, `data/raw/manifest.jsonl` has 2 lines with 64-char sha256 + `rows` 63/34, and `data/provinces-*.json` exist.
 
-- [ ] **Step 3: Commit the raw cache**
+- [ ] **Step 8: Commit**
 
 ```bash
-git add src/vn_admin_units/cli.py data/raw/provinces-2025-06-30.json data/raw/provinces-2026-07-10.json
-git commit -m "feat: cache province snapshots (63 pre-reform, 34 current)"
+git add src/vn_admin_units/rawcache.py tests/test_rawcache.py src/vn_admin_units/soap.py src/vn_admin_units/cli.py data/raw/soap/ data/raw/manifest.jsonl data/provinces-2025-06-30.json data/provinces-2026-07-10.json
+git commit -m "feat: raw cache (verbatim SOAP + manifest) + derived snapshots"
 ```
 
 ---
@@ -213,13 +306,22 @@ git commit -m "feat: cache province snapshots (63 pre-reform, 34 current)"
 ## Task 3: Crosswalk Excel reader
 
 **Files:**
-- Create: `src/vn_admin_units/crosswalk.py`, `tests/test_crosswalk.py`, `data/raw/crosswalk-tinh-2025.xls` (copy the province export from `~/Downloads/Đối chiếu đơn vị hành chính cấp Tỉnh _ 30_06_2025 và 10_07_2026.xls`)
+- Create: `src/vn_admin_units/crosswalk.py`, `tests/test_crosswalk.py`, `data/raw/crosswalk/DoiChieu_Tinh_2025.xls` (verbatim copy of the province export from `~/Downloads/Đối chiếu đơn vị hành chính cấp Tỉnh _ 30_06_2025 và 10_07_2026.xls`)
 
-- [ ] **Step 1: Copy the province crosswalk export into the repo**
+- [ ] **Step 1: Copy the verbatim crosswalk export into the raw cache + record provenance**
 
 ```bash
-cp "$HOME/Downloads/Đối chiếu đơn vị hành chính cấp Tỉnh _ 30_06_2025 và 10_07_2026.xls" data/raw/crosswalk-tinh-2025.xls
+mkdir -p data/raw/crosswalk
+cp "$HOME/Downloads/Đối chiếu đơn vị hành chính cấp Tỉnh _ 30_06_2025 và 10_07_2026.xls" data/raw/crosswalk/DoiChieu_Tinh_2025.xls
 ```
+
+Then append a manifest line (the crosswalk was downloaded via the `Doi_Chieu_Moi.aspx` Excel export, not a scriptable URL, so record params by hand):
+
+```bash
+uv run python -c "from vn_admin_units.rawcache import save_raw; from pathlib import Path; save_raw('crosswalk/DoiChieu_Tinh_2025.xls', Path('data/raw/crosswalk/DoiChieu_Tinh_2025.xls').read_bytes(), {'source_url':'https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx','method':'Excel export','params':{'Cap':'Tỉnh','base':'30/06/2025','compare':'10/07/2026'},'rows':63})"
+```
+
+Note: this rewrites the file identically (same bytes) and appends one manifest line — verify `data/raw/manifest.jsonl` now has the crosswalk entry with a 64-char sha256.
 
 - [ ] **Step 2: Write the failing test** (`tests/test_crosswalk.py`)
 
@@ -227,7 +329,7 @@ cp "$HOME/Downloads/Đối chiếu đơn vị hành chính cấp Tỉnh _ 30_06_
 from vn_admin_units.crosswalk import read_province_crosswalk
 
 def test_read_province_crosswalk():
-    rows = read_province_crosswalk("data/raw/crosswalk-tinh-2025.xls")
+    rows = read_province_crosswalk("data/raw/crosswalk/DoiChieu_Tinh_2025.xls")
     assert len(rows) == 63
     by_base = {r["base_ma"]: r for r in rows}
     # survivor with code change: old Lào Cai (10) -> new (15)
@@ -271,8 +373,8 @@ Expected: PASS.
 - [ ] **Step 6: Commit**
 
 ```bash
-git add src/vn_admin_units/crosswalk.py tests/test_crosswalk.py data/raw/crosswalk-tinh-2025.xls
-git commit -m "feat: province crosswalk Excel reader"
+git add src/vn_admin_units/crosswalk.py tests/test_crosswalk.py data/raw/crosswalk/DoiChieu_Tinh_2025.xls data/raw/manifest.jsonl
+git commit -m "feat: province crosswalk Excel reader + verbatim raw + manifest"
 ```
 
 ---
@@ -596,12 +698,10 @@ from vn_admin_units.crosswalk import read_province_crosswalk
 UNCHANGED_CODES = {"01","04","11","12","14","20","22","38","40","42"}  # + verify against 'Giữ nguyên'
 
 def test_every_post_province_has_predecessor():
-    pre = json.loads(Path("data/raw/provinces-2025-06-30.json").read_text(encoding="utf-8"))
-    post = json.loads(Path("data/raw/provinces-2026-07-10.json").read_text(encoding="utf-8"))
-    pre = [{"ma":r["ma"],"ten":r["ten"],"loai_hinh":r["loai_hinh"]} for r in pre]
-    post = [{"ma":r["ma"],"ten":r["ten"],"loai_hinh":r["loai_hinh"]} for r in post]
+    pre = json.loads(Path("data/provinces-2025-06-30.json").read_text(encoding="utf-8"))
+    post = json.loads(Path("data/provinces-2026-07-10.json").read_text(encoding="utf-8"))
     ents = build_entities(pre, post)
-    edges = build_lineage(ents, read_province_crosswalk("data/raw/crosswalk-tinh-2025.xls"))
+    edges = build_lineage(ents, read_province_crosswalk("data/raw/crosswalk/DoiChieu_Tinh_2025.xls"))
     post_ids = {e.local_id for e in ents if e.era=="post2025"}
     covered = {e.successor for e in edges}
     missing = post_ids - covered
@@ -802,13 +902,13 @@ from vn_admin_units.model import build_entities, build_lineage
 from vn_admin_units.reconcile import load_seed, apply_seed
 from vn_admin_units.emit import emit_quickstatements
 
-def _load(iso): 
-    return json.loads((RAW / f"provinces-{iso}.json").read_text(encoding="utf-8"))
+def _load(iso):
+    return json.loads((DATA / f"provinces-{iso}.json").read_text(encoding="utf-8"))
 
 def build_all() -> None:
     pre, post = _load("2025-06-30"), _load("2026-07-10")
     ents = apply_seed(build_entities(pre, post), load_seed("mappings/provinces-qid.csv"))
-    edges = build_lineage(ents, read_province_crosswalk("data/raw/crosswalk-tinh-2025.xls"))
+    edges = build_lineage(ents, read_province_crosswalk("data/raw/crosswalk/DoiChieu_Tinh_2025.xls"))
     Path("data").mkdir(exist_ok=True)
     Path("data/entities.json").write_text(
         json.dumps([e.to_dict() for e in ents], ensure_ascii=False, indent=2), encoding="utf-8")
@@ -858,7 +958,11 @@ git commit -m "feat: wire province pipeline; emit 2025 reform QuickStatements"
 
 ## Deferred to Phase 1b / later (explicitly out of scope here)
 
-- Ward tier (10,040↔3,321) + the name→code disambiguation step (`.11`).
+- Ward tier (10,040↔3,321) + the name→code disambiguation step (`.11`). The two
+  ward crosswalk exports already downloaded during recon (`~/Downloads/…cấp Xã…
+  10_07_2026 và 31_07_2025.xls` and `…30_06_2025 và 10_07_2026.xls`) should be
+  moved into `data/raw/crosswalk/` with manifest entries at the start of Phase 1b
+  (before they're lost from Downloads).
 - Verifying `P1365`/`P7888` allowed-qualifier constraints against live WD before upload.
 - The actual QuickStatements **upload** (separate reviewed step; needs personal WD account).
 - `P31`/`P131` fix statements (type change, 2-level re-parent) and the đặc-khu items.
@@ -869,3 +973,4 @@ git commit -m "feat: wire province pipeline; emit 2025 reform QuickStatements"
 - Spec coverage: ingest (T1–T3), Ghi Chú parse (T4), model+lineage (T5–T7), reconcile (T8), emit (T9), wiring+validation (T10) — covers the Phase-1 slice of `DESIGN.md`. Historical chaining, wards, and upload are explicitly deferred above.
 - The `build_lineage` name-matching uses `_strip_prefix` consistently on both sides; province names are unique (`.05`), so name resolution is safe at this tier (ward tier will need disambiguation — deferred).
 - Ground-truth test (T7 Step 6) is the gate: if any post-province lacks a predecessor, extend the parser — never weaken the assertion.
+- Raw-data storage (decided 2026-07-10): T2 stores verbatim SOAP `.xml` + `manifest.jsonl`; T3 stores the verbatim crosswalk `.xls` + manifest; derived parsed JSON lives in `data/`. Consumers/tests read derived from `data/`, and the crosswalk reader reads the verbatim `.xls` directly (its parsed form is used in-memory, not re-committed).

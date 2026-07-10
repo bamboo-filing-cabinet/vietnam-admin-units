@@ -32,7 +32,7 @@ reconciliation. Artifacts (each mirrors a Wikidata concept):
 
 | Artifact | What it is | WD analog |
 | --- | --- | --- |
-| **raw cache** | committed SOAP snapshots + crosswalk Excel exports, verbatim | provenance |
+| **raw cache** | `data/raw/` — **exact source bytes** (SOAP responses as `.xml`, crosswalk as `.xls`) + a **provenance manifest** (`manifest.jsonl`: source URL, params/`DenNgay`, retrieved-at, sha256, rows) | provenance |
 | **observations** | per-`(code, era)` records: name, type, parent-at-time, dates, decree | time-qualified statements |
 | **entities** | persistent `local_id`, existence span, current name/code, `wikidata_qid` | items |
 | **lineage** | edges `replaces`/`merged_into`/`split_from` + whole/partial + decree + date | P571/P576/P7888/P1365/P1366 |
@@ -175,7 +175,11 @@ Open task: browser-scrape Lịch Sử (DevExpress + Excel export, like the cross
 - **Data-quality normalization** pass (Ghi Chú typos/newlines; đặc-khu 12-vs-13),
   with a logged correction list.
 - **Ward `Ghi Chú` template variants** enumeration (city establishments, 3-way).
-- **Raw-cache format** to commit (CSV/parquet vs `.xls` verbatim).
+- ~~Raw-cache format~~ **Decided (2026-07-10):** verbatim raw + manifest +
+  derived. `data/raw/` = exact source bytes (`soap/*.xml`, `crosswalk/*.xls`) +
+  `manifest.jsonl` provenance; `data/` = normalized/derived (parsed JSON, built
+  entities/lineage). Best provenance + reproducibility; accepts binary `.xls` in
+  the raw layer.
 - Optional/later: propose a GSO-code WD property; update cadence (`DenNgay=today`
   diff, Phase 2).
 
