@@ -114,8 +114,14 @@ years" vision. It does **not** change the first *build* (Goal B, 2025 reform,
 province tier) — but it means the schema must be generic dated records (no
 event hard-coded to 2025), and it adds a **change-discovery** workstream:
 enumerating *every* change event + date across the span (not just the headline
-reforms), since ward-level changes occur between the big reforms too. See the
-open question on change-discovery mechanism.
+reforms), since ward-level changes occur between the big reforms too.
+
+**Change-discovery mechanism (decided 2026-07-10): hybrid.** The **Lịch Sử**
+change-log page is the authoritative event list (decree + effective date per
+change); the **Đối Chiếu crosswalk** supplies the old↔new lineage; **SOAP
+`DenNgay`** supplies membership snapshots. Each source does what it's best at.
+Open task: browser-scrape Lịch Sử (DevExpress + Excel export, like the crosswalk
+— mechanics still to verify).
 
 ## Phasing
 
