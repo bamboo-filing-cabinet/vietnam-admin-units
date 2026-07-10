@@ -1,0 +1,172 @@
+[
+  {
+    "ma": "01",
+    "ten": "Thành phố Hà Nội",
+    "loai_hinh": "Thành phố Trung ương"
+  },
+  {
+    "ma": "04",
+    "ten": "Tỉnh Cao Bằng",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "08",
+    "ten": "Tỉnh Tuyên Quang",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "11",
+    "ten": "Tỉnh Điện Biên",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "12",
+    "ten": "Tỉnh Lai Châu",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "14",
+    "ten": "Tỉnh Sơn La",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "15",
+    "ten": "Tỉnh Lào Cai",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "19",
+    "ten": "Tỉnh Thái Nguyên",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "20",
+    "ten": "Tỉnh Lạng Sơn",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "22",
+    "ten": "Tỉnh Quảng Ninh",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "24",
+    "ten": "Tỉnh Bắc Ninh",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "25",
+    "ten": "Tỉnh Phú Thọ",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "31",
+    "ten": "Thành phố Hải Phòng",
+    "loai_hinh": "Thành phố Trung ương"
+  },
+  {
+    "ma": "33",
+    "ten": "Tỉnh Hưng Yên",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "37",
+    "ten": "Tỉnh Ninh Bình",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "38",
+    "ten": "Tỉnh Thanh Hóa",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "40",
+    "ten": "Tỉnh Nghệ An",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "42",
+    "ten": "Tỉnh Hà Tĩnh",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "44",
+    "ten": "Tỉnh Quảng Trị",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "46",
+    "ten": "Thành phố Huế",
+    "loai_hinh": "Thành phố Trung ương"
+  },
+  {
+    "ma": "48",
+    "ten": "Thành phố Đà Nẵng",
+    "loai_hinh": "Thành phố Trung ương"
+  },
+  {
+    "ma": "51",
+    "ten": "Tỉnh Quảng Ngãi",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "52",
+    "ten": "Tỉnh Gia Lai",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "56",
+    "ten": "Tỉnh Khánh Hòa",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "66",
+    "ten": "Tỉnh Đắk Lắk",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "68",
+    "ten": "Tỉnh Lâm Đồng",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "75",
+    "ten": "Thành phố Đồng Nai",
+    "loai_hinh": "Thành phố Trung ương"
+  },
+  {
+    "ma": "79",
+    "ten": "Thành phố Hồ Chí Minh",
+    "loai_hinh": "Thành phố Trung ương"
+  },
+  {
+    "ma": "80",
+    "ten": "Tỉnh Tây Ninh",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "82",
+    "ten": "Tỉnh Đồng Tháp",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "86",
+    "ten": "Tỉnh Vĩnh Long",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "91",
+    "ten": "Tỉnh An Giang",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "92",
+    "ten": "Thành phố Cần Thơ",
+    "loai_hinh": "Thành phố Trung ương"
+  },
+  {
+    "ma": "96",
+    "ten": "Tỉnh Cà Mau",
+    "loai_hinh": "Tỉnh"
+  }
+]
