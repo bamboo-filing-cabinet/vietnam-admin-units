@@ -1,0 +1,17 @@
+[project]
+name = "vn-admin-units"
+version = "0.1.0"
+description = "Time-versioned Vietnam administrative-unit gazetteer, reconciled to Wikidata"
+requires-python = ">=3.11"
+dependencies = ["pandas>=2.0", "xlrd>=2.0"]
+
+[dependency-groups]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
