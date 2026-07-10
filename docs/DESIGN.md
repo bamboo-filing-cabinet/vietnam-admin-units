@@ -86,6 +86,23 @@ province (`.02` A1) and ward (`.03`) level, so code is never a cross-era key.
   WD holds ~11.6k items reflecting the **old** structure; new reform items exist
   but lack lineage (`.05`, `.08`).
 
+## Lineage resolution (decided 2026-07-10)
+
+Complete the many-to-many lineage by a **combination**, since `Ghi Chú` names
+constituents ambiguously (`.11`):
+
+1. **Anchor** code-level edges on the structured primary link (`Xã ĐC`/`Tỉnh ĐC`
+   — unambiguous, code-to-code).
+2. **Resolve** the absorbed/partial `hợp nhất` / `một phần` constituents by
+   matching each parsed name against the **pre-reform SOAP snapshot** within the
+   new unit's province + old-district context.
+3. **Validate** against `tranngocminhhieu/vietnamadminunits` (63→34 crosswalk +
+   split flag).
+4. **Manual curation file** for the unresolvable residue (logged, never silent).
+
+Provinces (unique names) exercise steps 1–3 trivially; the disambiguation work is
+real only at ward scale — budget it as its own Phase-1b sub-step with validation.
+
 ## Pipeline (regeneration tooling — secondary to the data)
 
 `ingest` (SOAP snapshots + crosswalk export → raw cache) → `build` (normalize →
