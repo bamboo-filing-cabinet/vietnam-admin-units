@@ -35,3 +35,22 @@ class LineageEdge:
 
     def to_dict(self) -> dict:
         return asdict(self)
+
+
+def build_entities(pre_rows: list[dict], post_rows: list[dict]) -> list["Entity"]:
+    """One entity per (code, era). Pre-reform entities end at the reform date.
+
+    Phase-1 debt: the reform date + era labels are hard-coded here; parameterize
+    before Phase 1b (see DESIGN §Temporal scope)."""
+    ents = []
+    for r in pre_rows:
+        ents.append(Entity(
+            local_id=local_id(r["ma"], "pre2025"), gso_code=r["ma"], era="pre2025",
+            name_vi=r["ten"], loai_hinh=r["loai_hinh"],
+            valid_from=None, valid_to="2025-06-30", wikidata_qid=None))
+    for r in post_rows:
+        ents.append(Entity(
+            local_id=local_id(r["ma"], "post2025"), gso_code=r["ma"], era="post2025",
+            name_vi=r["ten"], loai_hinh=r["loai_hinh"],
+            valid_from="2025-07-01", valid_to=None, wikidata_qid=None))
+    return ents
