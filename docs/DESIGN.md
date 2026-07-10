@@ -107,17 +107,25 @@ From the lineage graph, generate a referenced Wikidata correction batch that:
 
 ## Phasing
 
-- **Phase 1 (now): Goal B, 2025 reform.** Suggest **province tier first** (63↔34,
-  clean, validates the identity+lineage+qualifier encoding end-to-end), then the
-  ward tier (10,040↔3,321, the bulk, needs `Ghi Chú` parsing).
+- **Phase 1 (now): Goal B, 2025 reform — province tier first** (63↔34). This
+  builds the *entire* stack end-to-end on a small, fully-known set: identity +
+  lineage + **`Ghi Chú` parser** + qualifier encoding + WD batch. Provinces need
+  `Ghi Chú` parsing too (absorbed provinces' destinations are prose-only, `.09`)
+  — and are the ideal validation set (34 known outcomes → verify the parser to
+  100%). The parser is then reused for the ward tier.
+- **Phase 1b: ward tier** (10,040↔3,321) — same parser, no full ground-truth,
+  cross-checked against snapshot diffs.
 - **Phase 2: Goal A** — consumer exports + historical eras (2002–2021) for the
   election repos; and the abolished-district / old-item dissolution backfill.
 
 ## Open decisions (not blocking Phase 1 start)
 
 - Exact WD qualifier properties for partial/primary contributions (constraint-check).
-- `Ghi Chú` parsing approach (rule-based Vietnamese parse vs. snapshot-diff
-  cross-check vs. keep as human-readable reference + primary-link only).
+- ~~`Ghi Chú` parsing approach~~ **Decided (`.09`):** rule-based template parser
+  (a one-line regex already extracts the 12 province merge edges), validated to
+  100% against the 34 known province outcomes in Phase 1, then reused for wards
+  with snapshot-diff cross-check. Remaining sub-question: enumerating the handful
+  of template variants (city establishments, 3-way merges) at ward scale.
 - Reconcile-vs-create policy per unit (most new items exist; enrich by default).
 - Whether to formally propose a GSO-code Wikidata property.
 - Update cadence (scheduled `DenNgay=today` diff) — Phase 2.
