@@ -105,6 +105,18 @@ From the lineage graph, generate a referenced Wikidata correction batch that:
 3. Everything referenced to the establishing Nghị quyết (satisfies the Statistics
    Law citation duty, `.07`).
 
+## Temporal scope (decided 2026-07-10)
+
+**The model spans all reforms in the GSO window (2002→present) with multi-hop
+chained lineage** — a place is traceable across 2004 splits → 2008 (Hà Tây→Hà
+Nội) → 2025 reform → 2026 (Đồng Nai). This is the "complete gazetteer over the
+years" vision. It does **not** change the first *build* (Goal B, 2025 reform,
+province tier) — but it means the schema must be generic dated records (no
+event hard-coded to 2025), and it adds a **change-discovery** workstream:
+enumerating *every* change event + date across the span (not just the headline
+reforms), since ward-level changes occur between the big reforms too. See the
+open question on change-discovery mechanism.
+
 ## Phasing
 
 - **Phase 1 (now): Goal B, 2025 reform — province tier first** (63↔34). This
