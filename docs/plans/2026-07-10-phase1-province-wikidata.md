@@ -704,19 +704,22 @@ def build_lineage(entities: list["Entity"], crosswalk: list[dict]) -> list["Line
         pre = pre_by_code.get(row["base_ma"])
         if pre is None:
             continue
-        decree, eff = row["nghi_dinh"], row["hieu_luc"]
+        decree = row["nghi_dinh"]
+        # effective_date = the SUCCESSOR's inception (reform date). The crosswalk
+        # base-side `hieu_luc` is the predecessor's own last-change date (e.g. 2004),
+        # NOT this succession event — do not use it here.
         if row["succ_ma"]:                                   # (a) structured primary
             succ = post_by_code.get(row["succ_ma"])
             if succ:
                 edges.append(LineageEdge(pre.local_id, succ.local_id, "replaces",
-                                         "whole", True, decree, eff))
+                                         "whole", True, decree, succ.valid_from))
             continue
         parsed = parse_ghichu(row["ghi_chu"])               # (b) absorbed via prose
         if parsed["event"] == "merge" and parsed["result"]:
             succ = post_by_name.get(_strip_prefix(parsed["result"]))
             if succ:
                 edges.append(LineageEdge(pre.local_id, succ.local_id, "merged_into",
-                                         "whole", False, decree, eff))
+                                         "whole", False, decree, succ.valid_from))
     return edges
 ```
 
@@ -945,6 +948,8 @@ Expected: FAIL — module missing.
 REFERENCE_URL = "https://danhmuchanhchinh.nso.gov.vn/"
 
 def _date(d: str) -> str:
+    # take the date part defensively (guards a datetime string like "2025-07-01 00:00:00")
+    d = str(d).strip().split(" ")[0].split("T")[0]
     return f"+{d}T00:00:00Z/11"
 
 def emit_quickstatements(entities: list["Entity"], edges: list["LineageEdge"]) -> str:

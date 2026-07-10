@@ -74,17 +74,20 @@ def build_lineage(entities: list["Entity"], crosswalk: list[dict]) -> list["Line
         pre = pre_by_code.get(row["base_ma"])
         if pre is None:
             continue
-        decree, eff = row["nghi_dinh"], row["hieu_luc"]
+        decree = row["nghi_dinh"]
+        # The merge/succession takes effect when the SUCCESSOR comes into being
+        # (its valid_from = the reform date). The crosswalk base-side `hieu_luc`
+        # is the predecessor's own last-change date (e.g. 2004) — NOT this event.
         if row["succ_ma"]:                                   # (a) structured primary
             succ = post_by_code.get(row["succ_ma"])
             if succ:
                 edges.append(LineageEdge(pre.local_id, succ.local_id, "replaces",
-                                         "whole", True, decree, eff))
+                                         "whole", True, decree, succ.valid_from))
             continue
         parsed = parse_ghichu(row["ghi_chu"])               # (b) absorbed via prose
         if parsed["event"] == "merge" and parsed["result"]:
             succ = post_by_name.get(_strip_prefix(parsed["result"]))
             if succ:
                 edges.append(LineageEdge(pre.local_id, succ.local_id, "merged_into",
-                                         "whole", False, decree, eff))
+                                         "whole", False, decree, succ.valid_from))
     return edges

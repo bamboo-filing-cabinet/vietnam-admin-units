@@ -1,0 +1,569 @@
+[
+  {
+    "predecessor": "p-01-pre2025",
+    "successor": "p-01-post2025",
+    "relation": "replaces",
+    "share": "whole",
+    "primary": true,
+    "decree": "Số: 1656/NQ-UBTVQH15; Ngày: 16/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-02-pre2025",
+    "successor": "p-08-post2025",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "202/2025/QH15 - 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-04-pre2025",
+    "successor": "p-04-post2025",
+    "relation": "replaces",
+    "share": "whole",
+    "primary": true,
+    "decree": "Số: 1657/NQ-UBTVQH15; Ngày: 16/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-06-pre2025",
+    "successor": "p-19-post2025",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "202/2025/QH15 - 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-08-pre2025",
+    "successor": "p-08-post2025",
+    "relation": "replaces",
+    "share": "whole",
+    "primary": true,
+    "decree": "",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-10-pre2025",
+    "successor": "p-15-post2025",
+    "relation": "replaces",
+    "share": "whole",
+    "primary": true,
+    "decree": "",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-11-pre2025",
+    "successor": "p-11-post2025",
+    "relation": "replaces",
+    "share": "whole",
+    "primary": true,
+    "decree": "Số: 202/2025/QH15; Ngày: 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-12-pre2025",
+    "successor": "p-12-post2025",
+    "relation": "replaces",
+    "share": "whole",
+    "primary": true,
+    "decree": "Số: 202/2025/QH15; Ngày: 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-14-pre2025",
+    "successor": "p-14-post2025",
+    "relation": "replaces",
+    "share": "whole",
+    "primary": true,
+    "decree": "Số: 202/2025/QH15; Ngày: 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-15-pre2025",
+    "successor": "p-15-post2025",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "202/2025/QH15 - 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-17-pre2025",
+    "successor": "p-25-post2025",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "202/2025/QH15 - 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-19-pre2025",
+    "successor": "p-19-post2025",
+    "relation": "replaces",
+    "share": "whole",
+    "primary": true,
+    "decree": "",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-20-pre2025",
+    "successor": "p-20-post2025",
+    "relation": "replaces",
+    "share": "whole",
+    "primary": true,
+    "decree": "Số: 202/2025/QH15; Ngày: 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-22-pre2025",
+    "successor": "p-22-post2025",
+    "relation": "replaces",
+    "share": "whole",
+    "primary": true,
+    "decree": "Số: 202/2025/QH15; Ngày: 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-24-pre2025",
+    "successor": "p-24-post2025",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "202/2025/QH15 - 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-25-pre2025",
+    "successor": "p-25-post2025",
+    "relation": "replaces",
+    "share": "whole",
+    "primary": true,
+    "decree": "",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-26-pre2025",
+    "successor": "p-25-post2025",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "202/2025/QH15 - 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-27-pre2025",
+    "successor": "p-24-post2025",
+    "relation": "replaces",
+    "share": "whole",
+    "primary": true,
+    "decree": "",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-30-pre2025",
+    "successor": "p-31-post2025",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "202/2025/QH15 - 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-31-pre2025",
+    "successor": "p-31-post2025",
+    "relation": "replaces",
+    "share": "whole",
+    "primary": true,
+    "decree": "",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-33-pre2025",
+    "successor": "p-33-post2025",
+    "relation": "replaces",
+    "share": "whole",
+    "primary": true,
+    "decree": "",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-34-pre2025",
+    "successor": "p-33-post2025",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "202/2025/QH15 - 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-35-pre2025",
+    "successor": "p-37-post2025",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "202/2025/QH15 - 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-36-pre2025",
+    "successor": "p-37-post2025",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "202/2025/QH15 - 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-37-pre2025",
+    "successor": "p-37-post2025",
+    "relation": "replaces",
+    "share": "whole",
+    "primary": true,
+    "decree": "",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-38-pre2025",
+    "successor": "p-38-post2025",
+    "relation": "replaces",
+    "share": "whole",
+    "primary": true,
+    "decree": "Số: 202/2025/QH15; Ngày: 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-40-pre2025",
+    "successor": "p-40-post2025",
+    "relation": "replaces",
+    "share": "whole",
+    "primary": true,
+    "decree": "Số: 202/2025/QH15; Ngày: 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-42-pre2025",
+    "successor": "p-42-post2025",
+    "relation": "replaces",
+    "share": "whole",
+    "primary": true,
+    "decree": "Số: 202/2025/QH15; Ngày: 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-44-pre2025",
+    "successor": "p-44-post2025",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "202/2025/QH15 - 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-45-pre2025",
+    "successor": "p-44-post2025",
+    "relation": "replaces",
+    "share": "whole",
+    "primary": true,
+    "decree": "",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-46-pre2025",
+    "successor": "p-46-post2025",
+    "relation": "replaces",
+    "share": "whole",
+    "primary": true,
+    "decree": "Số: 202/2025/QH15; Ngày: 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-48-pre2025",
+    "successor": "p-48-post2025",
+    "relation": "replaces",
+    "share": "whole",
+    "primary": true,
+    "decree": "",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-49-pre2025",
+    "successor": "p-48-post2025",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "202/2025/QH15 - 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-51-pre2025",
+    "successor": "p-51-post2025",
+    "relation": "replaces",
+    "share": "whole",
+    "primary": true,
+    "decree": "",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-52-pre2025",
+    "successor": "p-52-post2025",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "202/2025/QH15 - 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-54-pre2025",
+    "successor": "p-66-post2025",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "202/2025/QH15 - 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-56-pre2025",
+    "successor": "p-56-post2025",
+    "relation": "replaces",
+    "share": "whole",
+    "primary": true,
+    "decree": "",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-58-pre2025",
+    "successor": "p-56-post2025",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "202/2025/QH15 - 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-60-pre2025",
+    "successor": "p-68-post2025",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "202/2025/QH15 - 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-62-pre2025",
+    "successor": "p-51-post2025",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "202/2025/QH15 - 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-64-pre2025",
+    "successor": "p-52-post2025",
+    "relation": "replaces",
+    "share": "whole",
+    "primary": true,
+    "decree": "",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-66-pre2025",
+    "successor": "p-66-post2025",
+    "relation": "replaces",
+    "share": "whole",
+    "primary": true,
+    "decree": "",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-67-pre2025",
+    "successor": "p-68-post2025",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "202/2025/QH15 - 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-68-pre2025",
+    "successor": "p-68-post2025",
+    "relation": "replaces",
+    "share": "whole",
+    "primary": true,
+    "decree": "",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-70-pre2025",
+    "successor": "p-75-post2025",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "202/2025/QH15 - 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-72-pre2025",
+    "successor": "p-80-post2025",
+    "relation": "replaces",
+    "share": "whole",
+    "primary": true,
+    "decree": "",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-74-pre2025",
+    "successor": "p-79-post2025",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "202/2025/QH15 - 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-75-pre2025",
+    "successor": "p-75-post2025",
+    "relation": "replaces",
+    "share": "whole",
+    "primary": true,
+    "decree": "",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-77-pre2025",
+    "successor": "p-79-post2025",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "202/2025/QH15 - 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-79-pre2025",
+    "successor": "p-79-post2025",
+    "relation": "replaces",
+    "share": "whole",
+    "primary": true,
+    "decree": "",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-80-pre2025",
+    "successor": "p-80-post2025",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "202/2025/QH15 - 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-82-pre2025",
+    "successor": "p-82-post2025",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "202/2025/QH15 - 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-83-pre2025",
+    "successor": "p-86-post2025",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "202/2025/QH15 - 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-84-pre2025",
+    "successor": "p-86-post2025",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "202/2025/QH15 - 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-86-pre2025",
+    "successor": "p-86-post2025",
+    "relation": "replaces",
+    "share": "whole",
+    "primary": true,
+    "decree": "",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-87-pre2025",
+    "successor": "p-82-post2025",
+    "relation": "replaces",
+    "share": "whole",
+    "primary": true,
+    "decree": "",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-89-pre2025",
+    "successor": "p-91-post2025",
+    "relation": "replaces",
+    "share": "whole",
+    "primary": true,
+    "decree": "",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-91-pre2025",
+    "successor": "p-91-post2025",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "202/2025/QH15 - 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-92-pre2025",
+    "successor": "p-92-post2025",
+    "relation": "replaces",
+    "share": "whole",
+    "primary": true,
+    "decree": "",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-93-pre2025",
+    "successor": "p-92-post2025",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "202/2025/QH15 - 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-94-pre2025",
+    "successor": "p-92-post2025",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "202/2025/QH15 - 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-95-pre2025",
+    "successor": "p-96-post2025",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "202/2025/QH15 - 12/06/2025",
+    "effective_date": "2025-07-01"
+  },
+  {
+    "predecessor": "p-96-pre2025",
+    "successor": "p-96-post2025",
+    "relation": "replaces",
+    "share": "whole",
+    "primary": true,
+    "decree": "",
+    "effective_date": "2025-07-01"
+  }
+]

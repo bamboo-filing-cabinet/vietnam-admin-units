@@ -2,6 +2,9 @@ REFERENCE_URL = "https://danhmuchanhchinh.nso.gov.vn/"
 
 
 def _date(d: str) -> str:
+    """Wikidata date literal (day precision). Defensively takes the date part in
+    case a source ever passes a datetime string like '2025-07-01 00:00:00'."""
+    d = str(d).strip().split(" ")[0].split("T")[0]
     return f"+{d}T00:00:00Z/11"
 
 

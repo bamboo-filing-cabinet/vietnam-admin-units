@@ -39,3 +39,12 @@ def test_known_edges_resolve_to_correct_successor():
     for pre_code, post_code in KNOWN_EDGES.items():
         assert by_pred.get(f"p-{pre_code}-pre2025") == f"p-{post_code}-post2025", \
             f"pre {pre_code} should map to post {post_code}"
+
+
+def test_edge_effective_date_is_reform_date_not_base_history():
+    """Regression: effective_date must be the successor's inception (reform date),
+    not the predecessor's own last-change date from the crosswalk (e.g. 2004)."""
+    _, edges = _load()
+    for e in edges:
+        assert e.effective_date == "2025-07-01", \
+            f"{e.predecessor}->{e.successor} has effective_date {e.effective_date}"
