@@ -36,7 +36,7 @@ reconciliation. Artifacts (each mirrors a Wikidata concept):
 | **observations** | per-`(code, era)` records: name, type, parent-at-time, dates, decree | time-qualified statements |
 | **entities** | persistent `local_id`, existence span, current name/code, `wikidata_qid` | items |
 | **lineage** | edges `replaces`/`merged_into`/`split_from` + whole/partial + decree + date | P571/P576/P7888/P1365/P1366 |
-| **reconciliation** | `(code, era)` / entity ↔ Wikidata QID, with match status | — |
+| **reconciliation** | `(code, era)` / entity ↔ Wikidata QID, with match status — **incremental edge-closure** (per phase, only entities on the edges being built; enrich existing items, create gaps) | — |
 | **exports** | WD correction batches (Goal B); consumer JSON (Goal A) | outputs |
 
 ## Identity model (decided 2026-07-10)
@@ -153,20 +153,34 @@ Open task: browser-scrape Lịch Sử (DevExpress + Excel export, like the cross
 - **Phase 2: Goal A** — consumer exports + historical eras (2002–2021) for the
   election repos; and the abolished-district / old-item dissolution backfill.
 
-## Open decisions (not blocking Phase 1 start)
+## Decisions log (all foundational forks now settled)
 
-- Exact WD qualifier properties for partial/primary contributions (constraint-check).
-- ~~`Ghi Chú` parsing approach~~ **Decided (`.09`):** rule-based template parser
-  (a one-line regex already extracts the 12 province merge edges), validated to
-  100% against the 34 known province outcomes in Phase 1, then reused for wards
-  with snapshot-diff cross-check. Remaining sub-question: enumerating the handful
-  of template variants (city establishments, 3-way merges) at ward scale.
-- Reconcile-vs-create policy per unit (most new items exist; enrich by default).
-- Whether to formally propose a GSO-code Wikidata property.
-- Update cadence (scheduled `DenNgay=today` diff) — Phase 2.
-- Raw-cache format to commit (CSV/parquet vs the `.xls` verbatim).
+1. First deliverable = **Goal B**, 2025 reform, **province tier first**.
+2. Identity = **new-entity-per-reform + lineage**; NSO continuity via
+   qualifiers/aliases (`.08`).
+3. Temporal scope = **all reforms 2002→present, chained** multi-hop.
+4. Change-discovery = **hybrid** (Lịch Sử events + crosswalk lineage + SOAP
+   snapshots).
+5. Lineage resolution = **combination** (anchor primary → resolve prose via
+   snapshot context → validate → manual residue).
+6. Reconciliation = **incremental edge-closure** (per phase; enrich, create gaps).
+7. Ghi Chú parsing = **rule-based template parser**, validated on provinces (`.09`).
+8. Licensing = **clear** for facts (`.07`).
+
+## Remaining items — execution tasks, not decisions (fold into the plan)
+
+- **Verify WD qualifier constraints** for `P1365`/`P7888` (partial/primary/date
+  qualifiers) — do before the emit step (WDQS was under outage).
+- **Browser-scrape Lịch Sử** mechanics (Excel export like the crosswalk).
+- **Data-quality normalization** pass (Ghi Chú typos/newlines; đặc-khu 12-vs-13),
+  with a logged correction list.
+- **Ward `Ghi Chú` template variants** enumeration (city establishments, 3-way).
+- **Raw-cache format** to commit (CSV/parquet vs `.xls` verbatim).
+- Optional/later: propose a GSO-code WD property; update cadence (`DenNgay=today`
+  diff, Phase 2).
 
 ## References
 
-Probe journals `docs/journals/2026-07-10.01`–`.08`; monorepo brainstorm spec
-`docs/journals/2026-07-10.vietnam-admin-units-design.md` (superseded by this doc).
+Probe/decision journals `docs/journals/2026-07-10.01`–`.11`; monorepo brainstorm
+spec `docs/journals/2026-07-10.vietnam-admin-units-design.md` (superseded by this
+doc).
