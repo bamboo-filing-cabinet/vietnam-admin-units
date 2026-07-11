@@ -195,8 +195,11 @@ Open task: browser-scrape Lịch Sử (DevExpress + Excel export, like the cross
 - **Verify WD qualifier constraints** for `P1365`/`P7888` (partial/primary/date
   qualifiers) — do before the emit step (WDQS was under outage).
 - **Browser-scrape Lịch Sử** mechanics (Excel export like the crosswalk).
-- **Data-quality normalization** pass (Ghi Chú typos/newlines; đặc-khu 12-vs-13),
-  with a logged correction list.
+- **Data-quality normalization** pass (Ghi Chú typos/newlines; đặc-khu 12-vs-13;
+  **exact-duplicate rows in historical ward snapshots** — 17 in 2019, 19 in 2020,
+  0 in 2025 per `.14`; dedupe on `(MaTinh, MaQuanHuyen, MaPhuongXa)` within a
+  snapshot), with a logged correction list. Always fetch via `vn_admin_units.fetch`
+  (canonical, DocumentElement-scoped), never ad-hoc scripts.
 - **Ward `Ghi Chú` template variants** enumeration (city establishments, 3-way).
 - ~~Raw-cache format~~ **Decided (2026-07-10):** verbatim raw + manifest +
   derived. `data/raw/` = exact source bytes (`soap/*.xml`, `crosswalk/*.xls`) +
