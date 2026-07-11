@@ -1,4 +1,98 @@
 gso_code,era,name_vi,wikidata_qid,qid_status,match_status
+01,pre2025,Thành phố Hà Nội,Q1858,existing,verified
+02,pre2025,Tỉnh Hà Giang,Q36685,existing,verified
+04,pre2025,Tỉnh Cao Bằng,Q36865,existing,verified
+06,pre2025,Tỉnh Bắc Kạn,Q36404,existing,verified
+08,pre2025,Tỉnh Tuyên Quang,Q2332060,existing,verified
+10,pre2025,Tỉnh Lào Cai,Q36446,existing,verified
+11,pre2025,Tỉnh Điện Biên,Q36955,existing,verified
+12,pre2025,Tỉnh Lai Châu,Q36409,existing,verified
+14,pre2025,Tỉnh Sơn La,Q33379,existing,verified
 15,pre2025,Tỉnh Yên Bái,Q36349,existing,verified
-10,pre2025,Tỉnh Lào Cai,Q36446,existing,seed-check
-15,post2025,Tỉnh Lào Cai,Q36446,existing,seed-check
+17,pre2025,Tỉnh Hoà Bình,Q36015,existing,verified
+19,pre2025,Tỉnh Thái Nguyên,Q26575,existing,verified
+20,pre2025,Tỉnh Lạng Sơn,Q33403,existing,verified
+22,pre2025,Tỉnh Quảng Ninh,Q33396,existing,verified
+24,pre2025,Tỉnh Bắc Giang,Q36367,existing,verified
+25,pre2025,Tỉnh Phú Thọ,Q36610,existing,verified
+26,pre2025,Tỉnh Vĩnh Phúc,Q27566,existing,verified
+27,pre2025,Tỉnh Bắc Ninh,Q33408,existing,verified
+30,pre2025,Tỉnh Hải Dương,Q36729,existing,verified
+31,pre2025,Thành phố Hải Phòng,Q72818,existing,verified
+33,pre2025,Tỉnh Hưng Yên,Q36235,existing,verified
+34,pre2025,Tỉnh Thái Bình,Q36681,existing,verified
+35,pre2025,Tỉnh Hà Nam,Q36413,existing,verified
+36,pre2025,Tỉnh Nam Định,Q36907,existing,verified
+37,pre2025,Tỉnh Ninh Bình,Q36900,existing,verified
+38,pre2025,Tỉnh Thanh Hóa,Q36512,existing,verified
+40,pre2025,Tỉnh Nghệ An,Q36587,existing,verified
+42,pre2025,Tỉnh Hà Tĩnh,Q33351,existing,verified
+44,pre2025,Tỉnh Quảng Bình,Q23533,existing,verified
+45,pre2025,Tỉnh Quảng Trị,Q36579,existing,verified
+46,pre2025,Thành phố Huế,Q36399,existing,verified
+48,pre2025,Thành phố Đà Nẵng,Q25282,existing,verified
+49,pre2025,Tỉnh Quảng Nam,Q33356,existing,verified
+51,pre2025,Tỉnh Quảng Ngãi,Q33304,existing,verified
+52,pre2025,Tỉnh Bình Định,Q36693,existing,verified
+54,pre2025,Tỉnh Phú Yên,Q36725,existing,verified
+56,pre2025,Tỉnh Khánh Hòa,Q33369,existing,verified
+58,pre2025,Tỉnh Ninh Thuận,Q36903,existing,verified
+60,pre2025,Tỉnh Bình Thuận,Q36869,existing,verified
+62,pre2025,Tỉnh Kon Tum,Q36315,existing,verified
+64,pre2025,Tỉnh Gia Lai,Q36662,existing,verified
+66,pre2025,Tỉnh Đắk Lắk,Q36690,existing,verified
+67,pre2025,Tỉnh Đắk Nông,Q36723,existing,verified
+68,pre2025,Tỉnh Lâm Đồng,Q36721,existing,verified
+70,pre2025,Tỉnh Bình Phước,Q36672,existing,verified
+72,pre2025,Tỉnh Tây Ninh,Q36608,existing,verified
+74,pre2025,Tỉnh Bình Dương,Q36866,existing,verified
+75,pre2025,Tỉnh Đồng Nai,Q33271,existing,verified
+77,pre2025,Tỉnh Bà Rịa - Vũng Tàu,Q36874,existing,verified
+79,pre2025,Thành phố Hồ Chí Minh,Q1854,existing,verified
+80,pre2025,Tỉnh Long An,Q26573,existing,verified
+82,pre2025,Tỉnh Tiền Giang,Q36666,existing,verified
+83,pre2025,Tỉnh Bến Tre,Q33366,existing,verified
+84,pre2025,Tỉnh Trà Vinh,Q36615,existing,verified
+86,pre2025,Tỉnh Vĩnh Long,Q7333405,existing,verified
+87,pre2025,Tỉnh Đồng Tháp,Q36676,existing,verified
+89,pre2025,Tỉnh An Giang,Q36592,existing,verified
+91,pre2025,Tỉnh Kiên Giang,Q36576,existing,verified
+92,pre2025,Thành phố Cần Thơ,Q216075,existing,verified
+93,pre2025,Tỉnh Hậu Giang,Q36320,existing,verified
+94,pre2025,Tỉnh Sóc Trăng,Q33272,existing,verified
+95,pre2025,Tỉnh Bạc Liêu,Q36658,existing,verified
+96,pre2025,Tỉnh Cà Mau,Q25262,existing,verified
+01,post2025,Thành phố Hà Nội,Q1858,existing,derived-primary
+04,post2025,Tỉnh Cao Bằng,Q36865,existing,derived-primary
+08,post2025,Tỉnh Tuyên Quang,Q2332060,existing,derived-primary
+11,post2025,Tỉnh Điện Biên,Q36955,existing,derived-primary
+12,post2025,Tỉnh Lai Châu,Q36409,existing,derived-primary
+14,post2025,Tỉnh Sơn La,Q33379,existing,derived-primary
+15,post2025,Tỉnh Lào Cai,Q36446,existing,derived-primary
+19,post2025,Tỉnh Thái Nguyên,Q26575,existing,derived-primary
+20,post2025,Tỉnh Lạng Sơn,Q33403,existing,derived-primary
+22,post2025,Tỉnh Quảng Ninh,Q33396,existing,derived-primary
+24,post2025,Tỉnh Bắc Ninh,Q33408,existing,derived-primary
+25,post2025,Tỉnh Phú Thọ,Q36610,existing,derived-primary
+31,post2025,Thành phố Hải Phòng,Q72818,existing,derived-primary
+33,post2025,Tỉnh Hưng Yên,Q36235,existing,derived-primary
+37,post2025,Tỉnh Ninh Bình,Q36900,existing,derived-primary
+38,post2025,Tỉnh Thanh Hóa,Q36512,existing,derived-primary
+40,post2025,Tỉnh Nghệ An,Q36587,existing,derived-primary
+42,post2025,Tỉnh Hà Tĩnh,Q33351,existing,derived-primary
+44,post2025,Tỉnh Quảng Trị,Q36579,existing,derived-primary
+46,post2025,Thành phố Huế,Q36399,existing,derived-primary
+48,post2025,Thành phố Đà Nẵng,Q25282,existing,derived-primary
+51,post2025,Tỉnh Quảng Ngãi,Q33304,existing,derived-primary
+52,post2025,Tỉnh Gia Lai,Q36662,existing,derived-primary
+56,post2025,Tỉnh Khánh Hòa,Q33369,existing,derived-primary
+66,post2025,Tỉnh Đắk Lắk,Q36690,existing,derived-primary
+68,post2025,Tỉnh Lâm Đồng,Q36721,existing,derived-primary
+75,post2025,Thành phố Đồng Nai,Q33271,existing,derived-primary
+79,post2025,Thành phố Hồ Chí Minh,Q1854,existing,derived-primary
+80,post2025,Tỉnh Tây Ninh,Q36608,existing,derived-primary
+82,post2025,Tỉnh Đồng Tháp,Q36676,existing,derived-primary
+86,post2025,Tỉnh Vĩnh Long,Q7333405,existing,derived-primary
+91,post2025,Tỉnh An Giang,Q36592,existing,derived-primary
+92,post2025,Thành phố Cần Thơ,Q216075,existing,derived-primary
+96,post2025,Tỉnh Cà Mau,Q25262,existing,derived-primary
