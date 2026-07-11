@@ -1,8 +1,20 @@
-# vietnam-admin-units — Design
+# vietnam-admin-units — Design (overarching)
 
-Living design doc. Supersedes the initial brainstorm spec
-(`../../docs/journals/2026-07-10.vietnam-admin-units-design.md`, monorepo), which
-predated the source reconnaissance. Grounded in probe journals `2026-07-10.01`–`.08`.
+**This is the overarching, cross-phase design + decisions log.** Per-phase detail
+lives in separate docs (see Document map). Supersedes the initial brainstorm spec
+(`../../docs/journals/2026-07-10.vietnam-admin-units-design-SUPERSEDED.md`,
+monorepo), which predated the source reconnaissance. Grounded in probe journals
+`2026-07-10.01`–`.15`.
+
+## Document map
+
+| Doc | Role |
+| --- | --- |
+| `docs/DESIGN.md` (this) | Overarching design: purpose, data model, identity, decisions log, phasing |
+| `docs/DESIGN-phase2.md` | Phase-2 design: ward tier, historical eras + chaining, Goal A, open decisions |
+| `docs/plans/2026-07-10-phase1-province-wikidata.md` | Phase-1 **implementation plan** (province tier, done) |
+| `docs/journals/2026-07-10.NN.*.md` | Dated decision/probe log (`.01`–`.15`): source recon, taxonomy, findings |
+| `../../docs/journals/2026-07-10.vietnam-admin-units-design-SUPERSEDED.md` | Original brainstorm spec (monorepo), **superseded by this doc** |
 
 ## Purpose
 
@@ -171,10 +183,10 @@ Open task: browser-scrape Lịch Sử (DevExpress + Excel export, like the cross
   `Ghi Chú` parsing too (absorbed provinces' destinations are prose-only, `.09`)
   — and are the ideal validation set (34 known outcomes → verify the parser to
   100%). The parser is then reused for the ward tier.
-- **Phase 1b: ward tier** (10,040↔3,321) — same parser, no full ground-truth,
-  cross-checked against snapshot diffs.
-- **Phase 2: Goal A** — consumer exports + historical eras (2002–2021) for the
-  election repos; and the abolished-district / old-item dissolution backfill.
+- **Phase 1b + Phase 2** — ward tier, historical eras (2002→2025) + chaining,
+  Goal A consumer exports, and freshness. **Detailed design:
+  [`DESIGN-phase2.md`](DESIGN-phase2.md)** (sub-projects P2a–P2d, hard problems,
+  open decisions). Phase 1 above is the province slice only.
 
 ## Decisions log (all foundational forks now settled)
 
@@ -212,5 +224,5 @@ Open task: browser-scrape Lịch Sử (DevExpress + Excel export, like the cross
 ## References
 
 Probe/decision journals `docs/journals/2026-07-10.01`–`.11`; monorepo brainstorm
-spec `docs/journals/2026-07-10.vietnam-admin-units-design.md` (superseded by this
+spec `docs/journals/2026-07-10.vietnam-admin-units-design-SUPERSEDED.md` (superseded by this
 doc).
