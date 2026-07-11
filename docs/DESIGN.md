@@ -222,8 +222,10 @@ assemblies need non-GSO sources.
 
 ## Remaining items — execution tasks, not decisions (fold into the plan)
 
-- **Verify WD qualifier constraints** for `P1365`/`P7888` (partial/primary/date
-  qualifiers) — do before the emit step (WDQS was under outage).
+- ~~**Verify WD qualifier constraints** for `P1365`/`P7888`~~ **DONE (`2026-07-11.01`):**
+  province batch is constraint-clean (P585 fine on P7888/P1366/P1365; P576 date-as-value).
+  Tool: `vn_admin_units.constraints`. Phase-2 note: `P571` rejects `P585` (keep
+  inception as value). Re-run the tool for new props (`P518`/`P1107`) in Phase 2.
 - **Browser-scrape Lịch Sử** mechanics (Excel export like the crosswalk).
 - **Data-quality normalization** pass (Ghi Chú typos/newlines; đặc-khu 12-vs-13;
   **exact-duplicate rows in historical ward snapshots** — 17 in 2019, 19 in 2020,
