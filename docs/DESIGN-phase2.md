@@ -10,6 +10,18 @@ This is a consolidation of constraints already established across the probe
 journals (cited inline), not a fresh brainstorm. Genuine open decisions are
 called out at the end for a short brainstorm before any plan.
 
+**Phase boundary (see the roadmap in `DESIGN.md`).** Phase 2 is **province + ward
+only, within the GSO window**. Two things are explicitly *out* and become later
+phases:
+- **Districts → Phase 3.** The district tier existed only pre-2025 (abolished by
+  the reform), so it's purely historical, and it's what feeds the
+  **district-composed NA11–NA15 electoral units**. Clean split: **post-2025 wards
+  attach directly to the province (no district)**, so Phase 2 needs no district
+  entities; **pre-2025 wards were parented to districts**, so historical ward
+  chaining rides along with districts in Phase 3.
+- **Pre-2002 history (NA1–NA10) → Phase 4** — below the GSO floor; different
+  sources.
+
 ## From the Phase-1 slice to the full gazetteer
 
 Phase 1 proved the pipeline shape on the easy tier (63↔34 provinces, unique
@@ -18,12 +30,12 @@ deliberately deferred:
 
 | dimension | Phase 1 | Phase 2 |
 | --- | --- | --- |
-| tiers | provinces | + districts (historical) + **wards** (10k+) |
-| reforms | 2025 only | **all: 2002 floor → 2004 → 2008 → 2019–24 → 2025 → 2026**, chained |
+| tiers | provinces | + **wards** (current, 10k→3.3k) — *districts = Phase 3* |
+| reforms | 2025 only | province chaining **2002→2025** (2004 renumber, 2008 merger) + the 2025 ward reform |
 | lineage source | structured crosswalk + trivial Ghi Chú | Ghi Chú **name→code disambiguation** + **Lịch Sử** events |
 | dates | one boundary | **event-level** effective dates per decree |
 | WD items | all pre-existing (enrich) | + **create** gaps (đặc khu, new wards) |
-| consumers | none | **Goal A** exports for vietnam-elections(-wikidata) |
+| consumers | none | **Goal A** exports for **NA16 (2026)** (ward-composed) |
 
 ## Sub-projects (each gets its own plan)
 
@@ -40,23 +52,26 @@ Finish what Phase 1 started, so the 2025 reform is fully on Wikidata.
 - **Pre-upload gate**: verify `P1365`/`P7888` qualifier constraints on live WD;
   then upload (reviewed step, personal WD account).
 
-### P2b — Historical eras + chaining (2002 → 2025)
-Make the model actually span time (the "all reforms, chained" decision).
-- **Ingest** snapshots at each boundary + **Lịch Sử** for event-level dates +
-  decrees (hybrid, `.13`/`.14`).
+### P2b — Province historical chaining (2002 → 2025)
+Make the **province** timeline actually span time (the "chained" decision) —
+province-level only; ward/district history is Phase 2-ward / Phase 3.
+- **Ingest** province snapshots at each boundary + **Lịch Sử** for event-level
+  dates + decrees (hybrid, `.13`/`.14`).
 - **Discontinuities to handle**: the **2004 code-scheme change** (3-digit→2-digit,
   `.15`) and the **2008 Hà Tây merger**; both need name/territory matching, not
   code equality.
-- **Volume**: the **2019–24 ward-merger waves** (thousands of events, `.13`).
-- **Chained multi-hop lineage**: a place traceable across every reform;
+- **Chained multi-hop lineage**: a province traceable across every reform;
   **scheme/era-aware `local_id`** (not naive `p-{code}-{era}`, `.15`).
+- (The **2019–24 ward-merger waves** — thousands of events, `.13` — are
+  *historical ward* work; they ride with districts in **Phase 3**, since
+  pre-2025 wards are parented to the district tier.)
 
-### P2c — Goal A: consumer exports (the original motivation)
+### P2c — Goal A: consumer exports for NA16 (the original motivation)
 Feed the election repos so electoral units → NA members can be built.
-- Slice the entity graph at each **election date** → clean JSON with QIDs:
-  electoral-unit `P527` parts, `P768` districts, old↔new crosswalk.
-- **Can start early for a single era** (e.g. NA15 2021) without full history —
-  arguably the highest *user* value, since it's why the project exists.
+- Slice the entity graph at the **NA16 (2026)** date → clean JSON with QIDs:
+  electoral-unit `P527` parts (**wards/communes**), `P768`, old↔new crosswalk.
+- **NA16 only in Phase 2** — its units are ward-composed. **NA11–NA15 units are
+  district-composed**, so exporting those waits on the **Phase 3** district tier.
 
 ### P2d — Freshness
 - Scheduled `DenNgay=today` diff to catch future changes (e.g. the next Đồng
@@ -73,14 +88,17 @@ Feed the election repos so electoral units → NA members can be built.
   `P1107` qualifiers (`.06`, `.11`); Phase 1 only handled whole merges.
 - **Normalization pass** — dedupe exact-duplicate rows (`.14`), Ghi Chú typos/
   newlines (`.11`), đặc-khu count wobble (`.03`); always log what's changed.
-- **District tier** — first-class historical former entities (`.03`), needed for
-  pre-2025 electoral units.
+- **District tier is NOT modeled in Phase 2** — it's Phase 3 (first-class
+  historical former entities, `.03`). Note: Phase 2 ward disambiguation still
+  *uses the district code* carried in each pre-2025 ward row (`MaQuanHuyen`) as a
+  disambiguation key — that needs the code, not a district entity.
 
 ## Hard problems (the real Phase-2 work, with pointers)
 
 1. **Ward name→code disambiguation** (`.11`) — Ghi Chú names constituents
-   ambiguously; resolving to codes needs province+district context + manual
-   residue. The core difficulty; provinces never expose it.
+   ambiguously; resolving to codes uses the province + the old ward's district
+   *code* (`MaQuanHuyen`, present in the row — no district entity needed) +
+   manual residue. The core difficulty; provinces never expose it.
 2. **2004 code-scheme discontinuity** (`.15`) — cross-era matching by name/
    territory across the 3-digit→2-digit boundary.
 3. **Lịch Sử scrape** — DevExpress WebForms (like the crosswalk); needs
@@ -88,17 +106,19 @@ Feed the election repos so electoral units → NA members can be built.
 4. **WD long-tail** (`.05`, `.08`) — ~11.6k existing VN items (mostly stale old
    structure) to enrich + gaps to create; batch size, bot approval, community
    modeling conventions.
-5. **Event volume** (`.13`) — thousands of ward events across the waves; ingest
-   must be event-driven, not annual.
+5. **Event volume** (`.13`) — the thousands of ward events across the 2019–24
+   waves are mostly **Phase 3** (historical wards + districts); Phase 2's ward
+   work is the single 2025 reform boundary. Ingest must still be event-driven.
 
 ## Sequencing & dependencies
 
-- **P2a** closes out the 2025 reform (natural completion of Phase 1's output).
-- **P2c** can run independently for a chosen era once that era's snapshots + QIDs
-  exist — it does *not* require full history.
-- **P2b** is the largest; it underpins complete P2c (all eras) and the "chained"
-  vision, but isn't required to feed a single election.
+- **P2a** closes out the 2025 reform (natural completion of Phase 1's output);
+  its ward tier is the prerequisite for **P2c (NA16)**.
+- **P2c (NA16)** needs only P2a (current wards) — not the province history.
+- **P2b** (province chaining) is independent and underpins the "chained" vision.
 - **P2d** is ongoing, low effort, any time after P2a.
+- **Cross-phase:** feeding **NA11–NA15** electoral units needs the district tier
+  → **Phase 3**; **NA1–NA10** → **Phase 4**. Phase 2 gets you NA16 only.
 
 ## Open decisions — resolve in a short Phase-2 brainstorm before planning
 
@@ -112,8 +132,9 @@ Feed the election repos so electoral units → NA members can be built.
    QuickStatements vs a bot; batch sizes; community coordination.
 4. **Goal A export contract:** exact JSON shape the election repos want (confirm
    with `vietnam-elections` / `vietnam-elections-wikidata`).
-5. **How far to chain:** every ward event 2002→now, or key eras only (per NA
-   term) first?
+5. **Province chaining depth:** every recorded province event 2002→now, or just
+   the boundaries needed (2004, 2008, 2025)? (Fine-grained *ward* history is a
+   Phase-3 question, not here.)
 
 ## Next step
 

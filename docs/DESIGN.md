@@ -11,7 +11,9 @@ monorepo), which predated the source reconnaissance. Grounded in probe journals
 | Doc | Role |
 | --- | --- |
 | `docs/DESIGN.md` (this) | Overarching design: purpose, data model, identity, decisions log, phasing |
-| `docs/DESIGN-phase2.md` | Phase-2 design: ward tier, historical eras + chaining, Goal A, open decisions |
+| `docs/DESIGN-phase2.md` | Phase-2 design: ward tier + province chaining (2002→2025), Goal A for NA16 |
+| `docs/DESIGN-phase3.md` (future) | Phase-3 design: **district tier** (2002→2025) → NA11–NA15 units. Not yet written |
+| `docs/DESIGN-phase4.md` (future) | Phase-4 design: **pre-2002 history** (NA1–NA10) via non-GSO sources. Not yet written |
 | `docs/plans/2026-07-10-phase1-province-wikidata.md` | Phase-1 **implementation plan** (province tier, done) |
 | `docs/journals/2026-07-10.NN.*.md` | Dated decision/probe log (`.01`–`.15`): source recon, taxonomy, findings |
 | `../../docs/journals/2026-07-10.vietnam-admin-units-design-SUPERSEDED.md` | Original brainstorm spec (monorepo), **superseded by this doc** |
@@ -175,18 +177,34 @@ change); the **Đối Chiếu crosswalk** supplies the old↔new lineage; **SOAP
 Open task: browser-scrape Lịch Sử (DevExpress + Excel export, like the crosswalk
 — mechanics still to verify).
 
-## Phasing
+## Phase roadmap
 
-- **Phase 1 (now): Goal B, 2025 reform — province tier first** (63↔34). This
-  builds the *entire* stack end-to-end on a small, fully-known set: identity +
-  lineage + **`Ghi Chú` parser** + qualifier encoding + WD batch. Provinces need
-  `Ghi Chú` parsing too (absorbed provinces' destinations are prose-only, `.09`)
-  — and are the ideal validation set (34 known outcomes → verify the parser to
-  100%). The parser is then reused for the ward tier.
-- **Phase 1b + Phase 2** — ward tier, historical eras (2002→2025) + chaining,
-  Goal A consumer exports, and freshness. **Detailed design:
-  [`DESIGN-phase2.md`](DESIGN-phase2.md)** (sub-projects P2a–P2d, hard problems,
-  open decisions). Phase 1 above is the province slice only.
+Phases are ordered by **tier + time-depth**, which map onto **which National
+Assembly era's electoral units they can feed** (Goal A). The hard boundary: the
+**GSO source floors at 2002-01-01** (`.02`), covering NA11→NA16; earlier
+assemblies need non-GSO sources.
+
+| Phase | Scope | Feeds (Goal A) | Source |
+| --- | --- | --- | --- |
+| **1** ✅ | 2025 reform, **province** tier | — | GSO |
+| **2** | **ward** tier + province historical chaining (2002→2025) + freshness | **NA16 (2026)** units (ward-composed) | GSO |
+| **3** | **district** tier (huyện/quận, 2002→2025 — the tier abolished in 2025) | **NA11–NA15 (2002–2021)** units (district-composed) | GSO |
+| **4** (aspirational) | **pre-2002 history** (NA1 1946 → NA10 1997), all tiers | earliest assemblies | **non-GSO** (decrees, archives, Wikipedia, gazetteers) |
+
+- **Phase 1** built the entire pipeline on the easy tier: identity + lineage +
+  `Ghi Chú` parser + qualifier encoding + WD batch, validated 100% on 34 known
+  province outcomes; the parser is reused downstream.
+- **Phase 2** — detailed design: **[`DESIGN-phase2.md`](DESIGN-phase2.md)**
+  (province+ward only; sub-projects P2a–P2d, hard problems, open decisions).
+- **Phase 3 (districts)** and **Phase 4 (pre-2002)** get their own
+  brainstorm→design→plan cycle when reached. **Why districts are their own phase:**
+  the district tier exists *only* pre-2025 (abolished by the reform), so it is
+  purely historical, and it is the trigger for the **district-composed NA11–NA15
+  electoral units** — decoupled from the ward work in Phase 2. Districts also
+  carry the 2004 code-scheme change (`.15`) and their own 2002–2025 churn.
+- **Phase 4** is the "back to NA1 (1946)" ambition. It is genuinely different: no
+  GSO data below 2002, so it's a distinct sourcing/provenance project, not more
+  of the same pipeline. Captured here so the ambition isn't lost.
 
 ## Decisions log (all foundational forks now settled)
 
