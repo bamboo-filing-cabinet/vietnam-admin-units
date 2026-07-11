@@ -96,16 +96,17 @@ def wd_claims_ids(ids: list[str], prop: str, timeout: int = 30) -> dict:
     return out
 
 
-def wd_labels(ids: list[str], timeout: int = 30) -> dict:
-    """{qid: english (or vi) label} batched."""
+def wd_labels(ids: list[str], langs: tuple = ("en", "vi"), timeout: int = 30) -> dict:
+    """{qid: label in the first available of `langs`} batched."""
     out: dict[str, str] = {}
     for i in range(0, len(ids), 50):
         u = "https://www.wikidata.org/w/api.php?" + urllib.parse.urlencode({
             "action": "wbgetentities", "ids": "|".join(ids[i:i + 50]),
-            "props": "labels", "languages": "en|vi", "format": "json"})
+            "props": "labels", "languages": "|".join(langs), "format": "json"})
         for qid, e in _get_json(u, timeout)["entities"].items():
             labs = e.get("labels", {})
-            out[qid] = (labs.get("en") or labs.get("vi") or {}).get("value", "")
+            val = next((labs[l]["value"] for l in langs if l in labs), "")
+            out[qid] = val
         time.sleep(1)
     return out
 
@@ -133,19 +134,35 @@ def audit_province_qids(path: str = "mappings/provinces-qid.csv") -> list[str]:
     qids = sorted({r["wikidata_qid"] for r in rows if r["wikidata_qid"]})
     inst = wd_claims_ids(qids, "P31")
     tl = wd_labels(sorted({t for v in inst.values() for t in v}))
-    log.info("=== instance-of per pre-reform province (name-aware) ===")
+    item_lbl = wd_labels(qids, langs=("vi", "en"))   # the province items' own labels (identity check)
+
+    import unicodedata
+
+    def _bare(s: str) -> str:
+        """Strip tier prefix, lowercase, and fold Vietnamese diacritics so tone-mark
+        placement variants match (GSO 'Hoà Bình' == Wikidata 'Hòa Bình')."""
+        s = re.sub(r"^(tỉnh|thành phố)\s+", "", s.strip().lower())
+        s = "".join(c for c in unicodedata.normalize("NFD", s)
+                    if unicodedata.category(c) != "Mn")
+        return s.replace("đ", "d")
+
+    log.info("=== per pre-reform province: type + label-match ===")
     for r in pre:
         labels = [tl.get(t, t) for t in inst.get(r["wikidata_qid"], [])]
         low = [l.lower() for l in labels]
-        if r["name_vi"].startswith("Thành phố"):     # centrally-run city
-            ok = any("city" in l or "municipal" in l for l in low)
-        else:                                          # Tỉnh -> province (incl. "former provinces")
-            ok = any("province" in l for l in low)
-        log.info("  %s %-26s %s : %s%s", r["gso_code"], r["name_vi"], r["wikidata_qid"],
-                 labels, "" if ok else "   <-- REVIEW (expected " +
-                 ("city" if r["name_vi"].startswith("Thành phố") else "province") + ")")
-        if not ok:
+        want_city = r["name_vi"].startswith("Thành phố")
+        type_ok = any(("city" in l or "municipal" in l) for l in low) if want_city \
+            else any("province" in l for l in low)
+        lbl = item_lbl.get(r["wikidata_qid"], "")
+        name_ok = _bare(r["name_vi"]) in _bare(lbl) or _bare(lbl) in _bare(r["name_vi"])
+        flag = "" if (type_ok and name_ok) else \
+            f"   <-- REVIEW ({'type' if not type_ok else ''}{',' if not type_ok and not name_ok else ''}{'label' if not name_ok else ''})"
+        log.info("  %s %-24s %s  label=%-22s type=%s%s",
+                 r["gso_code"], r["name_vi"], r["wikidata_qid"], lbl, labels, flag)
+        if not type_ok:
             issues.append(f"TYPE-MISMATCH {r['gso_code']} {r['name_vi']} {r['wikidata_qid']} {labels}")
+        if not name_ok:
+            issues.append(f"LABEL-MISMATCH {r['gso_code']} {r['name_vi']} {r['wikidata_qid']} label={lbl!r}")
     log.info("audit: pre=%d (distinct %d), post=%d, issues=%d",
              len(pre), len(preqids), len(post), len(issues))
     for i in issues:
