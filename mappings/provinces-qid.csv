@@ -61,7 +61,7 @@ gso_code,era,name_vi,wikidata_qid,qid_status,match_status
 93,pre2025,Tỉnh Hậu Giang,Q36320,existing,verified
 94,pre2025,Tỉnh Sóc Trăng,Q33272,existing,verified
 95,pre2025,Tỉnh Bạc Liêu,Q36658,existing,verified
-96,pre2025,Tỉnh Cà Mau,Q25262,existing,verified
+96,pre2025,Tỉnh Cà Mau,Q33354,existing,manual
 01,post2025,Thành phố Hà Nội,Q1858,existing,derived-primary
 04,post2025,Tỉnh Cao Bằng,Q36865,existing,derived-primary
 08,post2025,Tỉnh Tuyên Quang,Q2332060,existing,derived-primary
@@ -95,4 +95,4 @@ gso_code,era,name_vi,wikidata_qid,qid_status,match_status
 86,post2025,Tỉnh Vĩnh Long,Q7333405,existing,derived-primary
 91,post2025,Tỉnh An Giang,Q36592,existing,derived-primary
 92,post2025,Thành phố Cần Thơ,Q216075,existing,derived-primary
-96,post2025,Tỉnh Cà Mau,Q25262,existing,derived-primary
+96,post2025,Tỉnh Cà Mau,Q33354,existing,manual

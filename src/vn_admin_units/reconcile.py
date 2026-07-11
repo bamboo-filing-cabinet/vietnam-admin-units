@@ -78,13 +78,94 @@ def wd_country(ids: list[str], timeout: int = 30) -> dict:
     return out
 
 
+def wd_claims_ids(ids: list[str], prop: str, timeout: int = 30) -> dict:
+    """{qid: [target QIDs]} for an item-valued property, batched (<=50/call)."""
+    out: dict[str, list[str]] = {}
+    for i in range(0, len(ids), 50):
+        u = "https://www.wikidata.org/w/api.php?" + urllib.parse.urlencode({
+            "action": "wbgetentities", "ids": "|".join(ids[i:i + 50]),
+            "props": "claims", "format": "json"})
+        for qid, e in _get_json(u, timeout)["entities"].items():
+            vals = []
+            for c in e.get("claims", {}).get(prop, []):
+                dv = c.get("mainsnak", {}).get("datavalue", {}).get("value", {})
+                if isinstance(dv, dict) and dv.get("id"):
+                    vals.append(dv["id"])
+            out[qid] = vals
+        time.sleep(1)
+    return out
+
+
+def wd_labels(ids: list[str], timeout: int = 30) -> dict:
+    """{qid: english (or vi) label} batched."""
+    out: dict[str, str] = {}
+    for i in range(0, len(ids), 50):
+        u = "https://www.wikidata.org/w/api.php?" + urllib.parse.urlencode({
+            "action": "wbgetentities", "ids": "|".join(ids[i:i + 50]),
+            "props": "labels", "languages": "en|vi", "format": "json"})
+        for qid, e in _get_json(u, timeout)["entities"].items():
+            labs = e.get("labels", {})
+            out[qid] = (labs.get("en") or labs.get("vi") or {}).get("value", "")
+        time.sleep(1)
+    return out
+
+
+def audit_province_qids(path: str = "mappings/provinces-qid.csv") -> list[str]:
+    """Pre-upload correctness audit: completeness, pre-QID distinctness, post⊆pre,
+    and instance-of sanity (each QID is a VN province/city/territorial entity)."""
+    rows = list(csv.DictReader(Path(path).read_text(encoding="utf-8").splitlines()))
+    pre = [r for r in rows if r["era"] == "pre2025"]
+    post = [r for r in rows if r["era"] == "post2025"]
+    issues: list[str] = []
+    from collections import Counter
+    for r in rows:
+        if not r["wikidata_qid"]:
+            issues.append(f"UNRESOLVED {r['era']} {r['gso_code']} {r['name_vi']}")
+    prec = Counter(r["wikidata_qid"] for r in pre if r["wikidata_qid"])
+    for q, n in prec.items():
+        if n > 1:
+            issues.append(f"DUP pre QID {q} x{n}")
+    preqids = set(prec)
+    for r in post:
+        if r["wikidata_qid"] and r["wikidata_qid"] not in preqids:
+            issues.append(f"POST-NOT-IN-PRE {r['name_vi']} {r['wikidata_qid']}")
+
+    qids = sorted({r["wikidata_qid"] for r in rows if r["wikidata_qid"]})
+    inst = wd_claims_ids(qids, "P31")
+    tl = wd_labels(sorted({t for v in inst.values() for t in v}))
+    log.info("=== instance-of per pre-reform province (name-aware) ===")
+    for r in pre:
+        labels = [tl.get(t, t) for t in inst.get(r["wikidata_qid"], [])]
+        low = [l.lower() for l in labels]
+        if r["name_vi"].startswith("Thành phố"):     # centrally-run city
+            ok = any("city" in l or "municipal" in l for l in low)
+        else:                                          # Tỉnh -> province (incl. "former provinces")
+            ok = any("province" in l for l in low)
+        log.info("  %s %-26s %s : %s%s", r["gso_code"], r["name_vi"], r["wikidata_qid"],
+                 labels, "" if ok else "   <-- REVIEW (expected " +
+                 ("city" if r["name_vi"].startswith("Thành phố") else "province") + ")")
+        if not ok:
+            issues.append(f"TYPE-MISMATCH {r['gso_code']} {r['name_vi']} {r['wikidata_qid']} {labels}")
+    log.info("audit: pre=%d (distinct %d), post=%d, issues=%d",
+             len(pre), len(preqids), len(post), len(issues))
+    for i in issues:
+        log.warning(i)
+    return issues
+
+
 def _strip_prefix(name: str) -> str:
     return re.sub(r"^(Tỉnh|Thành phố)\s+", "", name).strip()
 
 
 def wd_lookup(name: str, timeout: int = 30) -> dict:
     """Best Wikidata item for a VN province name: search, then prefer a candidate
-    whose P17 = Vietnam (Q881). Returns {qid, label, desc, confidence}."""
+    whose P17 = Vietnam (Q881). Returns {qid, label, desc, confidence}.
+
+    CAVEAT: search can return a same-named entity of the wrong type (e.g. the
+    provincial *capital city* instead of the *province* — this happened for Cà
+    Mau: city Q25262 vs province Q33354). P17=Vietnam alone does not disambiguate
+    type. The `--audit` step (audit_province_qids, name-aware instance-of check)
+    is REQUIRED to catch these; fix flagged rows manually with match_status=manual."""
     hits = wd_search(_strip_prefix(name), timeout)
     if not hits:
         return {"qid": "", "label": "", "desc": "", "confidence": "none"}
@@ -175,7 +256,10 @@ def main() -> None:
     logging.basicConfig(level=logging.INFO,
                         format="%(asctime)s %(levelname)s %(message)s",
                         stream=sys.stdout)
-    build_province_qid_csv()
+    if "--audit" in sys.argv:
+        audit_province_qids()
+    else:
+        build_province_qid_csv()
 
 
 if __name__ == "__main__":

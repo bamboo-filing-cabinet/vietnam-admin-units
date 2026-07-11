@@ -217,6 +217,9 @@ assemblies need non-GSO sources.
 5. Lineage resolution = **combination** (anchor primary → resolve prose via
    snapshot context → validate → manual residue).
 6. Reconciliation = **incremental edge-closure** (per phase; enrich, create gaps).
+   **Always audit before upload** — `reconcile --audit` (name-aware instance-of)
+   is a required gate; it caught Cà Mau province mis-matched to the city
+   (`2026-07-11.02`). Manual fixes → `match_status=manual`.
 7. Ghi Chú parsing = **rule-based template parser**, validated on provinces (`.09`).
 8. Licensing = **clear** for facts (`.07`).
 

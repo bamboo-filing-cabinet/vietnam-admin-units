@@ -689,7 +689,7 @@
     "loai_hinh": "Tỉnh",
     "valid_from": null,
     "valid_to": "2025-06-30",
-    "wikidata_qid": "Q25262",
+    "wikidata_qid": "Q33354",
     "qid_status": "existing"
   },
   {
@@ -1063,7 +1063,7 @@
     "loai_hinh": "Tỉnh",
     "valid_from": "2025-07-01",
     "valid_to": null,
-    "wikidata_qid": "Q25262",
+    "wikidata_qid": "Q33354",
     "qid_status": "existing"
   }
 ]
