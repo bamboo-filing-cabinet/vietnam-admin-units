@@ -1,6 +1,6 @@
 from pathlib import Path
-from vn_admin_units.soap import parse_rows, TIERS
-from vn_admin_units.fetch import code_stats
+from vn_admin_units.soap import parse_rows, parse_rows_all, TIERS
+from vn_admin_units.fetch import code_stats, duplicate_detail
 
 
 def test_parse_rows_scopes_to_documentelement_and_extracts_fields():
@@ -21,3 +21,15 @@ def test_code_stats_counts_duplicates():
     st = code_stats(rows, "ward")
     assert st["rows"] == 3 and st["distinct"] == 2 and st["duplicates"] == 1
     assert "00004" in st["dup_codes"]
+
+
+def test_duplicate_detail_flags_differing_fields():
+    xml = Path("tests/fixtures/danhmucphuongxa_sample.xml").read_text(encoding="utf-8")
+    rows_full = parse_rows_all(xml)                 # all fields per row
+    detail = duplicate_detail(rows_full, "ward")
+    assert "00004" in detail
+    d = detail["00004"]
+    # the two 00004 rows are different wards (different district/name), NOT identical
+    assert d["count"] == 2 and d["identical"] is False
+    assert "MaQuanHuyen" in d["differing_fields"]
+    assert "TenPhuongXa" in d["differing_fields"]

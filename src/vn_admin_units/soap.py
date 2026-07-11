@@ -71,17 +71,39 @@ def parse_rows(xml: str, fields: list[str]) -> list[dict]:
     return rows
 
 
-def fetch_units(tier: str, den_ngay: str, tinh: str = "", quan_huyen: str = "",
-                timeout: int = 180) -> list[dict]:
-    """Canonical fetch of any tier at an as-of date. Params built in WSDL order.
-    tinh/quan_huyen empty = whole tier nationally."""
-    method, fields, _ = TIERS[tier]
+def parse_rows_all(xml: str) -> list[dict]:
+    """Like parse_rows but captures EVERY child tag of each <TABLE> (field-agnostic).
+    Use to inspect fields the fixed tier list omits (LoaiDoThi, Vung, KhuVuc, …)."""
+    m = re.search(r"<DocumentElement\b[^>]*>(.*?)</DocumentElement>", xml, re.S)
+    scope = m.group(1) if m else xml
+    rows = []
+    for block in re.findall(r"<TABLE\b[^>]*>(.*?)</TABLE>", scope, re.S):
+        rows.append(dict(re.findall(r"<(\w+)>(.*?)</\1>", block, re.S)))
+    return rows
+
+
+def _params(tier: str, den_ngay: str, tinh: str, quan_huyen: str) -> dict:
     params: dict[str, str] = {"DenNgay": den_ngay}
     if tier in ("district", "ward"):
         params["Tinh"] = tinh
     if tier == "ward":
         params["QuanHuyen"] = quan_huyen
-    return parse_rows(soap_call(method, timeout, **params), fields)
+    return params
+
+
+def fetch_units_full(tier: str, den_ngay: str, tinh: str = "", quan_huyen: str = "",
+                     timeout: int = 180) -> list[dict]:
+    """Canonical fetch returning ALL fields per row (for full-row comparison)."""
+    method = TIERS[tier][0]
+    return parse_rows_all(soap_call(method, timeout, **_params(tier, den_ngay, tinh, quan_huyen)))
+
+
+def fetch_units(tier: str, den_ngay: str, tinh: str = "", quan_huyen: str = "",
+                timeout: int = 180) -> list[dict]:
+    """Canonical fetch of any tier at an as-of date. Params built in WSDL order.
+    tinh/quan_huyen empty = whole tier nationally."""
+    method, fields, _ = TIERS[tier]
+    return parse_rows(soap_call(method, timeout, **_params(tier, den_ngay, tinh, quan_huyen)), fields)
 
 
 def fetch_provinces_raw(den_ngay: str, timeout: int = 90) -> str:
