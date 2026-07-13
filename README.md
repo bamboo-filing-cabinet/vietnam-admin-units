@@ -37,17 +37,17 @@ vietnam-elections     vietnam-elections-wikidata
 
 ## Status
 
-**Phase 1 complete** (2025-reform, province tier). The full pipeline runs
-end-to-end (SOAP ingest → verbatim raw cache → crosswalk → `Ghi Chú` parser →
-entities → lineage `34/34` gate → reconcile → emit), 27 tests pass, and it
-produces a **verified, upload-ready** Wikidata batch for the 63→34 province
-reform: `statements/na-provinces-2025.qs` (116 statements, 29 dissolutions → 23
-survivors; all referenced; constraint-clean; reconciliation audited via
-`reconcile --audit`).
+**Phase 1 complete and uploaded** (2025-reform, province tier). The full
+pipeline runs end-to-end (SOAP ingest → verbatim raw cache → crosswalk → `Ghi
+Chú` parser → entities → lineage `34/34` gate → reconcile → emit), 27 tests
+pass, and the Wikidata batch is **live**: `statements/na-provinces-2025.qs` (116
+statements, 29 dissolutions → 23 survivors; all referenced; constraint-clean;
+reconciliation audited via `reconcile --audit`). Uploaded 2026-07-12 via
+QuickStatements ([batch #260741](https://quickstatements.toolforge.org/#/batch/260741),
+319 ops, 0 errors).
 
-**Only remaining Phase-1 step:** a human-run QuickStatements **upload** of that
-batch. **Next phases:** wards (NA16), districts (NA11–NA15), pre-2002 history —
-see the roadmap in `docs/DESIGN.md` and `docs/DESIGN-phase2.md`.
+**Next phases:** wards (NA16), districts (NA11–NA15), pre-2002 history — see the
+roadmap in `docs/DESIGN.md` and `docs/DESIGN-phase2.md`.
 
 ## The model
 

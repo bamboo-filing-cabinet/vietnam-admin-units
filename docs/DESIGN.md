@@ -193,7 +193,8 @@ assemblies need non-GSO sources.
 
 - **Phase 1** built the entire pipeline on the easy tier: identity + lineage +
   `Ghi Chú` parser + qualifier encoding + WD batch, validated 100% on 34 known
-  province outcomes; the parser is reused downstream.
+  province outcomes; the parser is reused downstream. **Uploaded 2026-07-12**
+  ([batch #260741](https://quickstatements.toolforge.org/#/batch/260741), 0 errors).
 - **Phase 2** — detailed design: **[`DESIGN-phase2.md`](DESIGN-phase2.md)**
   (province+ward only; sub-projects P2a–P2d, hard problems, open decisions).
 - **Phase 3 (districts)** and **Phase 4 (pre-2002)** get their own

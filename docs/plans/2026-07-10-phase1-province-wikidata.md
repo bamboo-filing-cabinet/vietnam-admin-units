@@ -1088,8 +1088,8 @@ git commit -m "feat: wire province pipeline; emit 2025 reform QuickStatements"
   10_07_2026 và 31_07_2025.xls` and `…30_06_2025 và 10_07_2026.xls`) should be
   moved into `data/raw/crosswalk/` with manifest entries at the start of Phase 1b
   (before they're lost from Downloads).
-- Verifying `P1365`/`P7888` allowed-qualifier constraints against live WD before upload.
-- The actual QuickStatements **upload** (separate reviewed step; needs personal WD account).
+- ~~Verifying `P1365`/`P7888` allowed-qualifier constraints against live WD before upload.~~ Done (`constraints` gate passed).
+- ~~The actual QuickStatements **upload** (separate reviewed step; needs personal WD account).~~ Done 2026-07-12: [batch #260741](https://quickstatements.toolforge.org/#/batch/260741) (319 ops, 0 errors).
 - `P31`/`P131` fix statements (type change, 2-level re-parent) and the đặc-khu items.
 - Historical eras (2004/2008) + multi-hop chaining; Lịch Sử scrape; consumer (Goal A) exports.
 
