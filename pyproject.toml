@@ -7,6 +7,9 @@ dependencies = ["pandas>=2.0", "xlrd>=2.0"]
 
 [dependency-groups]
 dev = ["pytest>=8.0"]
+# Ingestion-only: browser automation to drive the GSO Đối Chiếu Excel export.
+# Not needed to parse cached data or run the test suite.
+ingest = ["playwright>=1.40"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
