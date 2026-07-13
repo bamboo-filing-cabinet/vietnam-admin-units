@@ -33,7 +33,8 @@ vietnam-elections     vietnam-elections-wikidata
 3. **Read the design — the single entry point:** [`docs/DESIGN.md`](docs/DESIGN.md).
    Its **Document map**, **decisions log**, and **phase roadmap** index everything
    else (per-phase designs, the plan, and the dated decision journals `.01`–`.15`,
-   `2026-07-11.*`). Phase-2 design: [`docs/DESIGN-phase2.md`](docs/DESIGN-phase2.md).
+   `2026-07-11.*`, `2026-07-13.*`). Ward/province design (to be revised):
+   [`docs/DESIGN-phase2.md`](docs/DESIGN-phase2.md).
 
 ## Status
 
@@ -45,6 +46,12 @@ statements, 29 dissolutions → 23 survivors; all referenced; constraint-clean;
 reconciliation audited via `reconcile --audit`). Uploaded 2026-07-12 via
 QuickStatements ([batch #260741](https://quickstatements.toolforge.org/#/batch/260741),
 319 ops, 0 errors).
+
+**Phase 2 (districts) — scouting complete.** District crosswalk exported from
+GSO (713 rows, 2002→2025, `data/raw/crosswalk/`). The 2004 code-scheme change
+is confirmed for districts (5-digit→3-digit). See
+[`docs/journals/2026-07-13.01`](docs/journals/2026-07-13.01.district-lich-su-and-crosswalk-probe.md).
+Next: parse the crosswalk, build district entities, reconcile to Wikidata.
 
 **Next phases:** districts (NA11–NA15), wards (NA16), pre-2002 history — see the
 roadmap in `docs/DESIGN.md`.
