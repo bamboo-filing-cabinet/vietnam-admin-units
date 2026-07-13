@@ -648,7 +648,9 @@ name = "vn-admin-units"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
+    { name = "lxml" },
     { name = "pandas" },
+    { name = "requests" },
     { name = "xlrd" },
 ]
 
@@ -657,24 +659,20 @@ dev = [
     { name = "pytest" },
 ]
 ingest = [
-    { name = "lxml" },
     { name = "playwright" },
-    { name = "requests" },
 ]
 
 [package.metadata]
 requires-dist = [
+    { name = "lxml", specifier = ">=5.0" },
     { name = "pandas", specifier = ">=2.0" },
+    { name = "requests", specifier = ">=2.31" },
     { name = "xlrd", specifier = ">=2.0" },
 ]
 
 [package.metadata.requires-dev]
 dev = [{ name = "pytest", specifier = ">=8.0" }]
-ingest = [
-    { name = "lxml", specifier = ">=5.0" },
-    { name = "playwright", specifier = ">=1.40" },
-    { name = "requests", specifier = ">=2.31" },
-]
+ingest = [{ name = "playwright", specifier = ">=1.40" }]
 
 [[package]]
 name = "xlrd"

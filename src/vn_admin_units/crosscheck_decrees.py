@@ -12,8 +12,8 @@ boundary-only adjustment that changes no district's identity (not a lineage even
 or (c) a decree-labeling mismatch — the event IS captured but the crosswalk row
 carries a blank or later decree. See the journal for the verdict.
 
-Needs the `ingest` dependency group (requests + lxml). Usage:
-  uv run --group ingest python -m vn_admin_units.crosscheck_decrees
+Usage (requests + lxml are core deps, so no extra group needed):
+  uv run python -m vn_admin_units.crosscheck_decrees
 """
 from __future__ import annotations
 
@@ -23,6 +23,7 @@ import io
 import re
 
 import pandas as pd
+import requests
 
 from vn_admin_units.crosswalk import read_district_crosswalk
 
@@ -58,8 +59,6 @@ def is_district_structural(noi_dung: str) -> bool:
 
 def fetch_decrees(url: str = NGHIDINH_URL) -> pd.DataFrame:
     """Fetch the Nghị định list into a DataFrame (code, dates, content, flags)."""
-    import requests  # lazy: only needed when hitting the live site (ingest group)
-
     html = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=60).text
     dec = next(
         t for t in pd.read_html(io.StringIO(html))

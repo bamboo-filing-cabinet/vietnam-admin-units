@@ -3,14 +3,15 @@ name = "vn-admin-units"
 version = "0.1.0"
 description = "Time-versioned Vietnam administrative-unit gazetteer, reconciled to Wikidata"
 requires-python = ">=3.11"
-dependencies = ["pandas>=2.0", "xlrd>=2.0"]
+dependencies = ["pandas>=2.0", "xlrd>=2.0", "requests>=2.31", "lxml>=5.0"]
 
 [dependency-groups]
 dev = ["pytest>=8.0"]
-# Ingestion-only: browser automation to drive the GSO Đối Chiếu Excel export,
-# plus HTTP + HTML parsing for the Nghị định / cross-check tooling.
-# Not needed to parse cached data or run the test suite.
-ingest = ["playwright>=1.40", "requests>=2.31", "lxml>=5.0"]
+# Browser automation to drive the GSO Đối Chiếu Excel export. Isolated because
+# it also needs a one-off `playwright install chromium` (~150MB) and isn't needed
+# to parse cached data or run the test suite. (HTTP/HTML deps for the Nghị định
+# cross-check — requests, lxml — live in core, above.)
+ingest = ["playwright>=1.40"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
