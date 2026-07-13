@@ -1,4 +1,11 @@
-# vietnam-admin-units — Phase 2 Design
+# vietnam-admin-units — Phase 3 Design (wards + province chaining)
+
+> **Stale internal numbering.** This doc was written when wards were "Phase 2" and
+> districts "Phase 3". The roadmap in `DESIGN.md` has since put **districts first
+> (Phase 2)** and **wards second (Phase 3)**. The file has been renamed to
+> `DESIGN-phase3.md` to match, but the body below still says "Phase 2" / "P2a–P2d"
+> and treats districts as a later phase — read those as the **ward** phase. The
+> body will be revised when this phase is reached.
 
 Extends `DESIGN.md` (the overarching design + decisions log). **Phase 1**
 delivered the *2025-reform province slice* (`docs/plans/2026-07-10-phase1-

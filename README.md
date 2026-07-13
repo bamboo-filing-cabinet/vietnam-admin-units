@@ -33,8 +33,8 @@ vietnam-elections     vietnam-elections-wikidata
 3. **Read the design — the single entry point:** [`docs/DESIGN.md`](docs/DESIGN.md).
    Its **Document map**, **decisions log**, and **phase roadmap** index everything
    else (per-phase designs, the plan, and the dated decision journals `.01`–`.15`,
-   `2026-07-11.*`, `2026-07-13.*`). Ward/province design (to be revised):
-   [`docs/DESIGN-phase2.md`](docs/DESIGN-phase2.md).
+   `2026-07-11.*`, `2026-07-13.*`). Ward/province design (Phase 3, to be revised):
+   [`docs/DESIGN-phase3.md`](docs/DESIGN-phase3.md).
 
 ## Status
 

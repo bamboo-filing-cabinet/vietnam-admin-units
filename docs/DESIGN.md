@@ -11,8 +11,8 @@ monorepo), which predated the source reconnaissance. Grounded in probe journals
 | Doc | Role |
 | --- | --- |
 | `docs/DESIGN.md` (this) | Overarching design: purpose, data model, identity, decisions log, phasing |
-| `docs/DESIGN-phase2.md` | Phase-2 design: ward tier + province chaining (2002→2025), Goal A for NA16 |
-| `docs/DESIGN-phase3.md` (future) | Phase-3 design: **district tier** (2002→2025) → NA11–NA15 units. Not yet written |
+| `docs/DESIGN-phase2.md` (future) | Phase-2 design: **district tier** (2002→2025) → NA11–NA15 units. Not yet written |
+| `docs/DESIGN-phase3.md` | Phase-3 design: ward tier + province chaining (2002→2025), Goal A for NA16. **Internal numbering is stale** (predates the district-first renumber); to be revised when reached |
 | `docs/DESIGN-phase4.md` (future) | Phase-4 design: **pre-2002 history** (NA1–NA10) via non-GSO sources. Not yet written |
 | `docs/plans/2026-07-10-phase1-province-wikidata.md` | Phase-1 **implementation plan** (province tier, done) |
 | `docs/journals/2026-07-10.NN.*.md` | Dated decision/probe log (`.01`–`.15`): source recon, taxonomy, findings |
@@ -203,8 +203,9 @@ assemblies need non-GSO sources.
   history can reference proper district QIDs.
 - **Phase 3 (wards)** — ward tier (10k→3.3k in 2025 reform), name→code
   disambiguation (the core difficulty), province historical chaining, Goal A
-  exports for NA16 (ward-composed). Formerly `DESIGN-phase2.md` sub-projects
-  P2a–P2d; to be revised when reached.
+  exports for NA16 (ward-composed). Documented in `DESIGN-phase3.md` (sub-projects
+  P2a–P2d; that doc's internal numbering predates the district-first renumber — to
+  be revised when reached).
 - **Phase 4** is the "back to NA1 (1946)" ambition. It is genuinely different: no
   GSO data below 2002, so it's a distinct sourcing/provenance project, not more
   of the same pipeline. Captured here so the ambition isn't lost.
