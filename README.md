@@ -46,8 +46,8 @@ reconciliation audited via `reconcile --audit`). Uploaded 2026-07-12 via
 QuickStatements ([batch #260741](https://quickstatements.toolforge.org/#/batch/260741),
 319 ops, 0 errors).
 
-**Next phases:** wards (NA16), districts (NA11–NA15), pre-2002 history — see the
-roadmap in `docs/DESIGN.md` and `docs/DESIGN-phase2.md`.
+**Next phases:** districts (NA11–NA15), wards (NA16), pre-2002 history — see the
+roadmap in `docs/DESIGN.md`.
 
 ## The model
 

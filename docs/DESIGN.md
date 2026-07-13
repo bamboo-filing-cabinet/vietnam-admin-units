@@ -187,22 +187,24 @@ assemblies need non-GSO sources.
 | Phase | Scope | Feeds (Goal A) | Source |
 | --- | --- | --- | --- |
 | **1** ✅ | 2025 reform, **province** tier | — | GSO |
-| **2** | **ward** tier + province historical chaining (2002→2025) + freshness | **NA16 (2026)** units (ward-composed) | GSO |
-| **3** | **district** tier (huyện/quận, 2002→2025 — the tier abolished in 2025) | **NA11–NA15 (2002–2021)** units (district-composed) | GSO |
+| **2** | **district** tier (huyện/quận, 2002→2025 — abolished in 2025) | **NA11–NA15 (2002–2021)** units (district-composed) | GSO |
+| **3** | **ward** tier + province historical chaining (2002→2025) + freshness | **NA16 (2026)** units (ward-composed) | GSO |
 | **4** (aspirational) | **pre-2002 history** (NA1 1946 → NA10 1997), all tiers | earliest assemblies | **non-GSO** (decrees, archives, Wikipedia, gazetteers) |
 
 - **Phase 1** built the entire pipeline on the easy tier: identity + lineage +
   `Ghi Chú` parser + qualifier encoding + WD batch, validated 100% on 34 known
   province outcomes; the parser is reused downstream. **Uploaded 2026-07-12**
   ([batch #260741](https://quickstatements.toolforge.org/#/batch/260741), 0 errors).
-- **Phase 2** — detailed design: **[`DESIGN-phase2.md`](DESIGN-phase2.md)**
-  (province+ward only; sub-projects P2a–P2d, hard problems, open decisions).
-- **Phase 3 (districts)** and **Phase 4 (pre-2002)** get their own
-  brainstorm→design→plan cycle when reached. **Why districts are their own phase:**
-  the district tier exists *only* pre-2025 (abolished by the reform), so it is
-  purely historical, and it is the trigger for the **district-composed NA11–NA15
-  electoral units** — decoupled from the ward work in Phase 2. Districts also
-  carry the 2004 code-scheme change (`.15`) and their own 2002–2025 churn.
+- **Phase 2 (districts)** — the district tier is purely historical (all
+  dissolved in 2025) and establishes the parent layer that wards need for P131
+  lineage. Districts are simpler (~700 entities vs ~10k wards) and feed the
+  district-composed NA11–NA15 electoral units. Challenges: the 2004 code-scheme
+  change (`.15`) and 2002–2025 churn. Districts before wards so that ward P131
+  history can reference proper district QIDs.
+- **Phase 3 (wards)** — ward tier (10k→3.3k in 2025 reform), name→code
+  disambiguation (the core difficulty), province historical chaining, Goal A
+  exports for NA16 (ward-composed). Formerly `DESIGN-phase2.md` sub-projects
+  P2a–P2d; to be revised when reached.
 - **Phase 4** is the "back to NA1 (1946)" ambition. It is genuinely different: no
   GSO data below 2002, so it's a distinct sourcing/provenance project, not more
   of the same pipeline. Captured here so the ambition isn't lost.
