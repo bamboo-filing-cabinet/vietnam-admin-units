@@ -11,7 +11,7 @@ monorepo), which predated the source reconnaissance. Grounded in probe journals
 | Doc | Role |
 | --- | --- |
 | `docs/DESIGN.md` (this) | Overarching design: purpose, data model, identity, decisions log, phasing |
-| `docs/DESIGN-phase2.md` (future) | Phase-2 design: **district tier** (2002→2025) → NA11–NA15 units. Not yet written |
+| `docs/DESIGN-phase2.md` | Phase-2 design: **district tier** (2004→2025), Goal B Wikidata lineage + 2025 abolition; feeds NA11–NA15 |
 | `docs/DESIGN-phase3.md` | Phase-3 design: ward tier + province chaining (2002→2025), Goal A for NA16. **Internal numbering is stale** (predates the district-first renumber); to be revised when reached |
 | `docs/DESIGN-phase4.md` (future) | Phase-4 design: **pre-2002 history** (NA1–NA10) via non-GSO sources. Not yet written |
 | `docs/plans/2026-07-10-phase1-province-wikidata.md` | Phase-1 **implementation plan** (province tier, done) |
