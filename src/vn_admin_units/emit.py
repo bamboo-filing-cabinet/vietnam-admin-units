@@ -43,9 +43,10 @@ def emit_quickstatements(entities: list, edges: list) -> str:
 # ── Phase 1b: relation-aware history emitter ──
 
 NSO_SOURCE_URL = "https://danhmuchanhchinh.nso.gov.vn/"
-# WD item QIDs for the two admin-unit types (CONFIRM via constraints.describe_items).
-P31_PROVINCE = "Q13079705"       # province of Vietnam
-P31_CITY_TW = "Q3623867"         # centrally-run city of Vietnam
+# WD item QIDs for the two admin-unit types (confirmed via constraints.describe_items
+# 2026-07-14: the placeholder QIDs were wrong — Myanmar settlement / Benin arrondissement).
+P31_PROVINCE = "Q2824648"        # "province of Vietnam"
+P31_CITY_TW = "Q1381899"         # "centrally-controlled city of Vietnam"
 
 
 def _ref(url: str) -> str:

@@ -97,7 +97,7 @@ def main(argv: list[str] | None = None) -> None:
     print("  P807 value-type: inspect https://www.wikidata.org/wiki/Property:P807 "
           "for 'administrative territorial entity' in the value-type constraint (manual).")
     print("\n=== Phase-1b P31 target items — CONFIRM before emit ===")
-    describe_items(["Q13079705", "Q3623867"])   # expect 'province of Vietnam' / 'centrally-run city'
+    describe_items(["Q2824648", "Q1381899"])   # expect 'province of Vietnam' / 'centrally-controlled city of Vietnam'
 
 
 if __name__ == "__main__":
