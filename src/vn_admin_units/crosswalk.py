@@ -68,6 +68,30 @@ def read_district_crosswalk(path: str) -> list[dict]:
     return out
 
 
+# Province HISTORY crosswalk (Đối Chiếu, Cấp=Tỉnh, base pre-reform) has 9 positional
+# columns with duplicate base/compare "Nghị định"/"Ngày hiệu lực" — read by index,
+# like the district reader. Distinct from read_province_crosswalk (7-col reform export).
+_PROVINCE_HISTORY_COLS = [
+    "base_ma", "base_ten", "base_nghi_dinh", "base_hieu_luc",
+    "succ_ten", "succ_ma", "succ_nghi_dinh", "succ_hieu_luc", "ghi_chu",
+]
+
+
+def read_province_history_crosswalk(path) -> list[dict]:
+    """Read a 9-col Đối Chiếu province-history window (.xls or file-like) into rows.
+
+    Province codes are NOT zero-padded to 2 digits here: pre-2004 codes are 3-digit
+    (e.g. '301') and post-2004 are 2-digit (e.g. '12'); keep both verbatim via _clean."""
+    df = pd.read_excel(path, engine="xlrd", dtype=str, header=0).fillna("")
+    out = []
+    for _, r in df.iterrows():
+        row = {name: _clean(r.iloc[i]) for i, name in enumerate(_PROVINCE_HISTORY_COLS)}
+        row["base_hieu_luc"] = _excel_date(row["base_hieu_luc"])
+        row["succ_hieu_luc"] = _excel_date(row["succ_hieu_luc"])
+        out.append(row)
+    return out
+
+
 def read_province_crosswalk(path: str) -> list[dict]:
     """Read the Đối Chiếu province .xls export into normalized rows."""
     df = pd.read_excel(path, engine="xlrd", dtype=str).fillna("")
