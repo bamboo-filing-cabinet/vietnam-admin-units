@@ -1,5 +1,9 @@
 # vietnam-admin-units — Phase 1b Design (province history, 2002→2025)
 
+> **Status: ✅ built + uploaded 2026-07-14** — [batch #260977](https://quickstatements.toolforge.org/#/batch/260977)
+> (14 statements). Implementation plan: `docs/plans/2026-07-14-phase1b-province-history.md`.
+> This doc is the as-built design.
+
 Extends `DESIGN.md` (the overarching design + decisions log). Grounded in the
 province-history probe [`2026-07-14.01`](journals/2026-07-14.01.province-history-doi-chieu-and-roster-probe.md)
 and the 2004 code-scheme journal [`2026-07-10.15`](journals/2026-07-10.15.province-code-scheme-change-2004.md).

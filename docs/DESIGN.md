@@ -188,7 +188,7 @@ assemblies need non-GSO sources.
 
 | Phase | Scope | Feeds (Goal A) | Source |
 | --- | --- | --- | --- |
-| **1** | **province** tier, full **2002→2025** history — **1a** ✅ 2025-reform slice (uploaded); **1b** historical chaining (2004 renumber, 2008 Hà Tây→Hà Nội) — *pending* | — (province parent layer) | GSO |
+| **1** ✅ | **province** tier, full **2002→2025** history — **1a** ✅ 2025-reform slice ([batch #260741](https://quickstatements.toolforge.org/#/batch/260741)); **1b** ✅ historical chaining (2004 renumber + carve-outs, 2008 Hà Tây, Cần Thơ/Huế retypes; [batch #260977](https://quickstatements.toolforge.org/#/batch/260977)) | — (province parent layer) | GSO |
 | **2** | **district** tier (huyện/quận, 2002→2025 — abolished in 2025) | **NA11–NA15 (2002–2021)** units (district-composed) | GSO |
 | **3** | **ward** tier + freshness | **NA16 (2026)** units (ward-composed) | GSO |
 | **4** (aspirational) | **pre-2002 history** (NA1 1946 → NA10 1997), all tiers | earliest assemblies | **non-GSO** (decrees, archives, Wikipedia, gazetteers) |
@@ -200,9 +200,10 @@ assemblies need non-GSO sources.
     validated 100% on 34 known province outcomes; the parser is reused downstream.
     **Uploaded 2026-07-12** ([batch #260741](https://quickstatements.toolforge.org/#/batch/260741),
     0 errors).
-  - **1b — historical chaining 2002→2025 (pending; design: `DESIGN-phase1b.md`).** The **2004 code-scheme change**
-    (3-digit→2-digit, `.15`), the **2008 Hà Tây→Hà Nội** merger, and chained
-    multi-hop lineage, with the historical province entities **reconciled to QIDs**.
+  - **1b — historical chaining 2002→2025 ✅ uploaded 2026-07-14 ([batch #260977](https://quickstatements.toolforge.org/#/batch/260977); design: `DESIGN-phase1b.md`, plan: `docs/plans/2026-07-14-phase1b-province-history.md`).** The **2004 code-scheme change**
+    (3-digit→2-digit, `.15`) + the three 2004 carve-outs (NQ 22/2003/QH11), the **2008
+    Hà Tây→Hà Nội** merger, and Cần Thơ/Huế retypes — chained, with the historical
+    province entities **reconciled to QIDs** (14 statements; audit 0 issues).
     Previously slotted under Phase 3 ("province historical chaining"); **moved here**
     because it completes the province tier and because **Phase 2 districts depend on
     it** — a district's pre-2008 `P131` span emits the Hà Tây (etc.) province QID,
