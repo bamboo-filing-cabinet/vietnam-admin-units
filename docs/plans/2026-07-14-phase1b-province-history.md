@@ -789,13 +789,13 @@ RETYPES = [
      "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-22-2003-QH11-chia-va-dieu-chinh-dia-gioi-hanh-chinh-tinh-51694.aspx"},
     {"code": "46", "old_name": "Tỉnh Thừa Thiên Huế", "date": "2025-01-01",
      "decree": "Số: 175/2024/QH15; Ngày: 30/11/2024",
-     "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-175-2024-QH15-thanh-pho-Hue-truc-thuoc-trung-uong-635867.aspx"},
+     "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-175-2024-QH15-thanh-lap-thanh-pho-Hue-truc-thuoc-trung-uong-634162.aspx"},
 ]
 
 # The 2008 Hà Tây absorption resolution (verify number + URL against the Nghị quyết list on execution).
 HA_TAY_2008 = {
     "decree": "Số: 15/2008/QH12; Ngày: 29/05/2008",
-    "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-15-2008-QH12-dieu-chinh-dia-gioi-hanh-chinh-thanh-pho-Ha-Noi-65328.aspx",
+    "reference_url": "https://thuvienphapluat.vn/van-ban/Bat-dong-san/Nghi-quyet-15-2008-QH12-dieu-chinh-dia-gioi-hanh-chinh-thanh-pho-Ha-Noi-va-mot-so-tinh-co-lien-quan-68076.aspx",
 }
 
 
