@@ -27,6 +27,39 @@ def cache_snapshots() -> None:
         print(f"cached {len(rows)} provinces @ {iso}")
 
 
+def history_snapshot_dates() -> list[tuple[str, str]]:
+    """(iso, dd/mm/yyyy) yearly 01/01 snapshots 2002..2025 + the event boundaries
+    that a 01/01 grid would straddle (2004 renumber service-date, 2008 Hà Tây,
+    2025 pre-reform). Terminal boundary = the 2025 reform; 2026 is out of scope."""
+    pairs = [(f"{y}-01-01", f"01/01/{y}") for y in range(2002, 2026)]
+    pairs += [("2004-07-01", "01/07/2004"),   # just after the 30/06/2004 renumber+carve-outs
+              ("2008-09-01", "01/09/2008"),   # just after 2008-08-01 Hà Tây
+              ("2025-06-30", "30/06/2025")]   # 1a pre-reform boundary (already cached by 1a)
+    seen, out = set(), []
+    for iso, ddmm in pairs:
+        if iso not in seen:
+            seen.add(iso)
+            out.append((iso, ddmm))
+    return sorted(out)
+
+
+def cache_history_snapshots() -> None:
+    """Yearly SOAP DanhMucTinh walk 2002→2025 (event-discovery backbone). Reuses
+    fetch_provinces_raw; caches verbatim + manifest + derived JSON, like
+    cache_snapshots but over the historical date set (cache_snapshots hardcodes only
+    the two 2025-reform boundary dates)."""
+    DATA.mkdir(exist_ok=True)
+    for iso, ddmmyyyy in history_snapshot_dates():
+        xml = fetch_provinces_raw(ddmmyyyy)
+        rows = parse_province_diffgram(xml)
+        save_raw(f"soap/DanhMucTinh_{iso}.xml", xml.encode("utf-8"),
+                 {"source_url": SOAP_URL, "method": "DanhMucTinh",
+                  "params": {"DenNgay": ddmmyyyy}, "rows": len(rows)})
+        (DATA / f"provinces-{iso}.json").write_text(
+            json.dumps(rows, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"cached {len(rows)} provinces @ {iso}")
+
+
 def _load(iso):
     return json.loads((DATA / f"provinces-{iso}.json").read_text(encoding="utf-8"))
 

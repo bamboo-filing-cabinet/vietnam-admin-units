@@ -1,4 +1,14 @@
 from vn_admin_units.province_history import diff_roster
+from vn_admin_units.cli import history_snapshot_dates
+
+
+def test_history_snapshot_dates_span_2002_to_2025():
+    dates = history_snapshot_dates()
+    assert dates[0] == ("2002-01-01", "01/01/2002")
+    assert ("2005-01-01", "01/01/2005") in dates
+    assert ("2008-09-01", "01/09/2008") in dates          # post-Hà Tây boundary
+    assert ("2025-06-30", "30/06/2025") in dates          # 1a pre-reform boundary
+    assert ("2026-07-10", "10/07/2026") not in dates      # 2026 out of scope
 
 
 def test_diff_detects_retype_and_rename_not_orthography_or_renumber():
