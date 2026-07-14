@@ -11,6 +11,7 @@ monorepo), which predated the source reconnaissance. Grounded in probe journals
 | Doc | Role |
 | --- | --- |
 | `docs/DESIGN.md` (this) | Overarching design: purpose, data model, identity, decisions log, phasing |
+| `docs/DESIGN-phase1b.md` | Phase-1b design: **province history** (2002→2025) — 2004 renumber + carve-outs, 2008 Hà Tây, chained; completes the province tier + unblocks Phase 2 |
 | `docs/DESIGN-phase2.md` | Phase-2 design: **district tier** (2004→2025), Goal B Wikidata lineage + 2025 abolition; feeds NA11–NA15 |
 | `docs/DESIGN-phase3.md` | Phase-3 design: ward tier + province chaining (2002→2025), Goal A for NA16. **Internal numbering is stale** (predates the district-first renumber); to be revised when reached |
 | `docs/DESIGN-phase4.md` (future) | Phase-4 design: **pre-2002 history** (NA1–NA10) via non-GSO sources. Not yet written |
@@ -138,7 +139,8 @@ constituents ambiguously (`.11`):
 4. **Manual curation file** for the unresolvable residue (logged, never silent).
 
 Provinces (unique names) exercise steps 1–3 trivially; the disambiguation work is
-real only at ward scale — budget it as its own Phase-1b sub-step with validation.
+real only at ward scale — budget it as its own **Phase-3** (ward) sub-step with
+validation.
 
 ## Pipeline (regeneration tooling — secondary to the data)
 
@@ -186,15 +188,26 @@ assemblies need non-GSO sources.
 
 | Phase | Scope | Feeds (Goal A) | Source |
 | --- | --- | --- | --- |
-| **1** ✅ | 2025 reform, **province** tier | — | GSO |
+| **1** | **province** tier, full **2002→2025** history — **1a** ✅ 2025-reform slice (uploaded); **1b** historical chaining (2004 renumber, 2008 Hà Tây→Hà Nội) — *pending* | — (province parent layer) | GSO |
 | **2** | **district** tier (huyện/quận, 2002→2025 — abolished in 2025) | **NA11–NA15 (2002–2021)** units (district-composed) | GSO |
-| **3** | **ward** tier + province historical chaining (2002→2025) + freshness | **NA16 (2026)** units (ward-composed) | GSO |
+| **3** | **ward** tier + freshness | **NA16 (2026)** units (ward-composed) | GSO |
 | **4** (aspirational) | **pre-2002 history** (NA1 1946 → NA10 1997), all tiers | earliest assemblies | **non-GSO** (decrees, archives, Wikipedia, gazetteers) |
 
-- **Phase 1** built the entire pipeline on the easy tier: identity + lineage +
-  `Ghi Chú` parser + qualifier encoding + WD batch, validated 100% on 34 known
-  province outcomes; the parser is reused downstream. **Uploaded 2026-07-12**
-  ([batch #260741](https://quickstatements.toolforge.org/#/batch/260741), 0 errors).
+- **Phase 1 (province tier, 2002→2025)** is *not* finished until the province tier
+  spans the full GSO window. It has two parts:
+  - **1a — 2025-reform slice ✅ uploaded.** Built the entire pipeline on the easy
+    tier: identity + lineage + `Ghi Chú` parser + qualifier encoding + WD batch,
+    validated 100% on 34 known province outcomes; the parser is reused downstream.
+    **Uploaded 2026-07-12** ([batch #260741](https://quickstatements.toolforge.org/#/batch/260741),
+    0 errors).
+  - **1b — historical chaining 2002→2025 (pending; design: `DESIGN-phase1b.md`).** The **2004 code-scheme change**
+    (3-digit→2-digit, `.15`), the **2008 Hà Tây→Hà Nội** merger, and chained
+    multi-hop lineage, with the historical province entities **reconciled to QIDs**.
+    Previously slotted under Phase 3 ("province historical chaining"); **moved here**
+    because it completes the province tier and because **Phase 2 districts depend on
+    it** — a district's pre-2008 `P131` span emits the Hà Tây (etc.) province QID,
+    which only 1b produces (1a reconciled 2025-era provinces only). **Sequencing: 1b
+    before Phase 2.**
 - **Phase 2 (districts)** — the district tier is purely historical (all
   dissolved in 2025) and establishes the parent layer that wards need for P131
   lineage. Districts are simpler (~700 entities vs ~10k wards) and feed the
@@ -202,10 +215,11 @@ assemblies need non-GSO sources.
   change (`.15`) and 2002–2025 churn. Districts before wards so that ward P131
   history can reference proper district QIDs.
 - **Phase 3 (wards)** — ward tier (10k→3.3k in 2025 reform), name→code
-  disambiguation (the core difficulty), province historical chaining, Goal A
-  exports for NA16 (ward-composed). Documented in `DESIGN-phase3.md` (sub-projects
-  P2a–P2d; that doc's internal numbering predates the district-first renumber — to
-  be revised when reached).
+  disambiguation (the core difficulty), Goal A exports for NA16 (ward-composed).
+  (**Province historical chaining moved to Phase 1b** — see above.) Documented in
+  `DESIGN-phase3.md` (sub-projects P2a–P2d; that doc's internal numbering predates
+  the district-first renumber and still houses province chaining under P2b — to be
+  revised when reached).
 - **Phase 4** is the "back to NA1 (1946)" ambition. It is genuinely different: no
   GSO data below 2002, so it's a distinct sourcing/provenance project, not more
   of the same pipeline. Captured here so the ambition isn't lost.
@@ -226,6 +240,11 @@ assemblies need non-GSO sources.
    (`2026-07-11.02`). Manual fixes → `match_status=manual`.
 7. Ghi Chú parsing = **rule-based template parser**, validated on provinces (`.09`).
 8. Licensing = **clear** for facts (`.07`).
+9. **Province tier = full 2002→2025** (Phase 1) — **1a** 2025-reform slice ✅ +
+   **1b** historical chaining (2004 renumber, 2008 Hà Tây), reconciled to QIDs —
+   completed **before** districts. Phase 2's historical `P131` depends on the
+   historical province QIDs that 1b reconciles (2026-07-14; supersedes the earlier
+   placement of province chaining under Phase 3).
 
 ## Remaining items — execution tasks, not decisions (fold into the plan)
 

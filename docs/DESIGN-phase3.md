@@ -6,6 +6,11 @@
 > `DESIGN-phase3.md` to match, but the body below still says "Phase 2" / "P2a–P2d"
 > and treats districts as a later phase — read those as the **ward** phase. The
 > body will be revised when this phase is reached.
+>
+> **Update (2026-07-14): "province historical chaining" (P2b below) has moved to
+> Phase 1b.** It completes the province tier (2002→2025) and is a prerequisite for
+> Phase 2 districts, not ward-phase work. Disregard **P2b** here — see `DESIGN.md`
+> roadmap + decision 9.
 
 Extends `DESIGN.md` (the overarching design + decisions log). **Phase 1**
 delivered the *2025-reform province slice* (`docs/plans/2026-07-10-phase1-

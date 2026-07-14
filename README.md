@@ -38,7 +38,7 @@ vietnam-elections     vietnam-elections-wikidata
 
 ## Status
 
-**Phase 1 complete and uploaded** (2025-reform, province tier). The full
+**Phase 1a complete and uploaded** (2025-reform slice, province tier). The full
 pipeline runs end-to-end (SOAP ingest → verbatim raw cache → crosswalk → `Ghi
 Chú` parser → entities → lineage `34/34` gate → reconcile → emit), 27 tests
 pass, and the Wikidata batch is **live**: `statements/na-provinces-2025.qs` (116
@@ -47,14 +47,23 @@ reconciliation audited via `reconcile --audit`). Uploaded 2026-07-12 via
 QuickStatements ([batch #260741](https://quickstatements.toolforge.org/#/batch/260741),
 319 ops, 0 errors).
 
+**Phase 1 is not finished, though.** The province tier still needs its full
+**2002→2025 history** — the 2004 code-scheme renumber (3-digit→2-digit) and the
+2008 Hà Tây→Hà Nội merger, chained, with the historical province entities
+**reconciled to QIDs** (**Phase 1b**, pending). This completes the province tier
+and is a **prerequisite for Phase 2 districts**, whose pre-2008 `P131` spans emit
+those historical province QIDs.
+
 **Phase 2 (districts) — scouting complete.** District crosswalk exported from
 GSO (713 rows, 2002→2025, `data/raw/crosswalk/`). The 2004 code-scheme change
 is confirmed for districts (5-digit→3-digit). See
 [`docs/journals/2026-07-13.01`](docs/journals/2026-07-13.01.district-lich-su-and-crosswalk-probe.md).
 Next: parse the crosswalk, build district entities, reconcile to Wikidata.
+**Prerequisite: Phase 1b**, so historical `P131` spans have province QIDs.
 
-**Next phases:** districts (NA11–NA15), wards (NA16), pre-2002 history — see the
-roadmap in `docs/DESIGN.md`.
+**Next phases:** finish the province tier (**Phase 1b**, 2002→2025 history), then
+districts (NA11–NA15), wards (NA16), pre-2002 history — see the roadmap in
+`docs/DESIGN.md`.
 
 ## The model
 

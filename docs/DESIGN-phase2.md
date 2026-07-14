@@ -47,9 +47,11 @@ wards need for historical `P131`.
 
 ## Data model
 
-Generic `Entity` / `LineageEdge` dataclasses (from `model.py`), with district
-assembly in a **new `district_model.py`** (Phase-1 `model.py` hardcodes province
-eras/dates — kept separate rather than overloaded).
+District assembly lives in a **new `district_model.py`**. Phase-1 `model.py`
+hardcodes province eras/dates, a province-only `relation` set, and `p-{code}-{era}`
+— so these are **district-shaped `Entity` / `LineageEdge` dataclasses, not a thin
+reuse** of the Phase-1 ones (treat the shared shape as a refactor target, not an
+import — see Dependencies & risks §2).
 
 **`Entity`** (district), extended with two fields beyond the Phase-1 shape:
 
@@ -183,16 +185,69 @@ province)**, not name alone.
 - **2025 abolition:** `P576 = 2025-07-01` on every district, referenced to the
   reform resolution; no successor.
 - Every statement **referenced** (`S248` → the Nghị quyết item if it exists, else
-  `S854` URL). Re-run the **`constraints` gate** for the new prop/qualifier combos
-  (`P131`+`P580`/`P582`; `P7888`/`P1365`+`P585`) before upload.
+  `S854` URL). **Extend then re-run the `constraints` gate**: it currently checks
+  allowed qualifiers for a single hard-coded qualifier (`P585`, `constraints.py`), so
+  the new combos (`P131`+`P580`/`P582`; `P807` value-type) need a tool extension, not
+  just a re-run, before upload.
+
+## Dependencies, risks & known gaps
+
+Surfaced in the 2026-07-14 design review; fold into the plan.
+
+1. **Prerequisite — Phase 1b (province history) lands first.** Historical `P131`
+   spans (e.g. Hà Tây districts before the 2008-08-01 merger) emit a province
+   **QID**, but Phase 1a reconciled **2025-era provinces only**. The Hà Tây /
+   pre-2004 province QIDs come from **Phase 1b** (province chaining 2002→2025 — now
+   a Phase-1 task, `DESIGN.md` roadmap + decision 9). **Sequencing: 1b before Phase
+   2.** If 1b is not yet done when districts are built, emit only the **final-era**
+   `P131` span and defer + log the earlier spans — **never emit a `P131` with an
+   unreconciled province value.**
+
+2. **"Extend/reuse" = substantial rewrite, not a thin extension.** Budget for it:
+   - `emit.py` currently emits `P576 + P7888 + P1366 + P1365` for *every* edge with
+     **no relation awareness**; every Phase-2 rule (`P576` only on ended entities,
+     `P807` for carve-outs, no-successor abolition, per-span `P131`) is net-new.
+     This is the largest single piece of Phase-2 code.
+   - `ghichu.py` is one hardcoded **province** regex; the district templates share
+     none of it — a sibling parser, not an extension.
+   - `model.py` hardcodes `p-{code}-{era}` and a 4-value province `relation` set;
+     hence the separate `district_model.py` + the new fields above.
+   - **Recommendation:** factor a tier-neutral core out of `model.py` / `emit.py`
+     *first*, rather than special-casing provinces a second time.
+
+3. **Reference quality — fix the Phase-1a shortcut.** The shipped emitter references
+   every statement with a single site-root URL (`emit.py` `REFERENCE_URL`), below
+   this design's own standard (`S248` → the Nghị quyết item, else `S854` → the
+   *establishing resolution*). Phase 2 already sources authoritative decrees from
+   the Nghị định list — use them for **per-statement decree references**, and
+   backfill Phase 1a.
+
+4. **Reconciliation match key leans on WD's stalest field.** Matching on `(folded
+   name + parent province)` trusts WD `P131`, which `2026-07-10.08` shows is
+   frequently stale (items still pointing at abolished parents). Treat the province
+   half as a *weak* disambiguator: prefer name + the per-item `wbsearchentities`
+   fallback, and don't discard a name match solely because WD's `P131` disagrees.
+
+5. **Carve-out vs. division discriminator — state the algorithm.** `carved_from`
+   (parent persists) vs. `split` (parent ends) for a new unit is decided by
+   **whether the named source district survives into the next window's roster**
+   (survives → carve-out + `P807`; gone → division + `P576`/`P1365`). Derivable but
+   non-obvious; make it explicit in the assembly step.
+
+6. **Yearly-window blind spot — an accepted risk, not a solved one.** Same-unit-
+   twice-in-a-year and create-and-dissolve-in-a-year collapse in snapshot diffs
+   (`2026-07-13.02`). For districts the **decree cross-check** (147 structural
+   decrees, no real miss) is the compensating control — record it as such. The
+   event-driven mitigation stays deferred to Phase 3.
 
 ## Pipeline & modules
 
 `crosswalk` (parser, done) → **`district_model`** (new: assemble entities +
-lineage; reuse extended `ghichu`; decree source = `crosscheck_decrees`) →
-`reconcile` (extended: province-aware, bulk SPARQL, audit) → `constraints` (gate)
-→ `emit` (extended). Artifacts: `data/districts.json`, `data/district-lineage.json`,
-`mappings/districts-qid.csv`, `statements/*.qs`.
+lineage; **district-template `ghichu`** — a sibling parser, §2; decree source =
+`crosscheck_decrees`) → `reconcile` (province-aware, bulk SPARQL, audit) →
+`constraints` (gate) → `emit` (**relation-aware rewrite**, §2). Artifacts:
+`data/districts.json`, `data/district-lineage.json`, `mappings/districts-qid.csv`,
+`statements/*.qs`.
 
 ## Testing (TDD)
 
