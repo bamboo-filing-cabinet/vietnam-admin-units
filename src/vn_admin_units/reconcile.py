@@ -269,6 +269,95 @@ def build_province_qid_csv(out_path: str = "mappings/provinces-qid.csv", pause: 
         log.warning("REVIEW: code=%s era=%s name=%s qid=%r status=%s", x[0], x[1], x[2], x[3], x[5])
 
 
+# ── Phase 1b: province history reconciliation (separate local_id-keyed mapping) ──
+
+HISTORY_HEADER = ["local_id", "terminal_code", "name_vi", "wikidata_qid", "qid_status", "match_status"]
+
+
+def reuse_1a_qids(entities: list, seed_1a_path: str = "mappings/provinces-qid.csv") -> list:
+    """Fill wikidata_qid/qid_status from 1a's (gso_code, era='pre2025') mapping by
+    terminal_code. Entities absent from 1a (e.g. Hà Tây, dissolved 2008) stay None
+    for fresh reconciliation."""
+    seed = {}
+    for row in csv.DictReader(Path(seed_1a_path).read_text(encoding="utf-8").splitlines()):
+        if row["era"] == "pre2025":
+            seed[row["gso_code"]] = (row["wikidata_qid"], row.get("qid_status", "existing"))
+    for e in entities:
+        hit = seed.get(e.terminal_code)
+        if hit:
+            e.wikidata_qid, e.qid_status = hit
+    return entities
+
+
+def load_history_seed(path: str = "mappings/provinces-history-qid.csv") -> dict:
+    """{local_id: (qid, qid_status)} for rows a human has verified/manually fixed
+    (match_status in {verified, manual}). Lets the pipeline preserve the hand-filled
+    Hà Tây QID across rebuilds (reuse_1a_qids can't supply it — Hà Tây isn't in 1a)."""
+    p = Path(path)
+    if not p.exists():
+        return {}
+    out = {}
+    for row in csv.DictReader(p.read_text(encoding="utf-8").splitlines()):
+        if row.get("wikidata_qid") and row.get("match_status") in {"verified", "manual"}:
+            out[row["local_id"]] = (row["wikidata_qid"], row.get("qid_status") or "existing")
+    return out
+
+
+def apply_history_seed(entities: list, seed: dict) -> list:
+    """Apply the trusted history seed (verified/manual rows). **Overrides** an
+    already-set QID — a human 'manual' correction must beat a reused-but-wrong 1a QID
+    (the pipeline runs reuse_1a_qids first, then this)."""
+    for e in entities:
+        if e.local_id in seed:
+            e.wikidata_qid, e.qid_status = seed[e.local_id]
+    return entities
+
+
+def write_history_mapping(entities: list, out_path: str = "mappings/provinces-history-qid.csv") -> None:
+    """Write the local_id-keyed history mapping (separate file — never mutates
+    provinces-qid.csv). Preserves the match_status of rows a human verified/fixed, so a
+    rebuild never downgrades a hand-filled QID (e.g. Hà Tây) back to needs-lookup."""
+    prior = {}
+    p = Path(out_path)
+    if p.exists():
+        for row in csv.DictReader(p.read_text(encoding="utf-8").splitlines()):
+            if row.get("match_status") in {"verified", "manual"}:
+                prior[row["local_id"]] = row["match_status"]
+    lines = [",".join(HISTORY_HEADER)]
+    for e in entities:
+        status = prior.get(e.local_id) or ("reused" if e.wikidata_qid else "needs-lookup")
+        lines.append(",".join([e.local_id, e.terminal_code, e.name_vi,
+                               e.wikidata_qid or "", e.qid_status or "", status]))
+    Path(out_path).write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def audit_history_qids(mapping_path: str = "mappings/provinces-history-qid.csv") -> list:
+    """Pre-upload audit over ALL history entities (1a's audit only checks era==pre2025).
+    Flags unresolved QIDs, the instance-of TYPE check, AND a NAME/label match — so a
+    same-type but WRONG item (e.g. a Hà Tây QID pointing at a different province) is
+    caught, not just a wrong type. Reuses fold_name for the label match."""
+    from vn_admin_units.names import fold_name
+    rows = list(csv.DictReader(Path(mapping_path).read_text(encoding="utf-8").splitlines()))
+    issues = [f"UNRESOLVED {r['local_id']} {r['name_vi']}" for r in rows if not r["wikidata_qid"]]
+    qids = sorted({r["wikidata_qid"] for r in rows if r["wikidata_qid"]})
+    inst = wd_claims_ids(qids, "P31")
+    tl = wd_labels(sorted({t for v in inst.values() for t in v}))
+    item_lbl = wd_labels(qids, langs=("vi", "en"))
+    for r in rows:
+        if not r["wikidata_qid"]:
+            continue
+        labels = [tl.get(t, t).lower() for t in inst.get(r["wikidata_qid"], [])]
+        want_city = r["name_vi"].startswith("Thành phố")
+        type_ok = any(("city" in l or "municipal" in l) for l in labels) if want_city \
+            else any("province" in l for l in labels)
+        if not type_ok:
+            issues.append(f"TYPE {r['local_id']} {r['name_vi']} {r['wikidata_qid']} -> {labels}")
+        lbl = item_lbl.get(r["wikidata_qid"], "")
+        if not (fold_name(r["name_vi"]) in fold_name(lbl) or fold_name(lbl) in fold_name(r["name_vi"])):
+            issues.append(f"LABEL {r['local_id']} {r['name_vi']} != {r['wikidata_qid']} ({lbl})")
+    return issues
+
+
 def main() -> None:
     logging.basicConfig(level=logging.INFO,
                         format="%(asctime)s %(levelname)s %(message)s",
