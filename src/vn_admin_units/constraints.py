@@ -48,6 +48,33 @@ def allowed_qualifiers(pid: str, timeout: int = 30) -> set | None:
     return _allowed_from_claims(claims)
 
 
+# ── Phase 1b additions ──
+
+PHASE1B_CHECKS = [("P31", "P580"), ("P31", "P582"), ("P7888", "P585"),
+                  ("P1365", "P585"), ("P1366", "P585")]
+
+
+def qualifier_allowed(allowed: set | None, qualifier_pid: str) -> bool:
+    """True if `qualifier_pid` is permitted: None = no allowed-qualifiers constraint
+    declared (anything allowed); otherwise membership in the allowed set."""
+    return True if allowed is None else qualifier_pid in allowed
+
+
+def describe_items(qids: list, timeout: int = 30) -> None:
+    """Print vi/en labels + en description of item QIDs, for MANUAL confirmation of
+    emit's P31 TARGET items (Q13079705 / Q3623867). The qualifier check does NOT
+    validate these — a wrong target QID would emit a wrong P31 while all tests pass."""
+    u = "https://www.wikidata.org/w/api.php?" + urllib.parse.urlencode({
+        "action": "wbgetentities", "ids": "|".join(qids),
+        "props": "labels|descriptions", "languages": "vi|en", "format": "json"})
+    ents = _get_json(u, timeout).get("entities", {})
+    for q in qids:
+        lab = ents.get(q, {}).get("labels", {})
+        desc = ents.get(q, {}).get("descriptions", {})
+        print(f"  {q}: en='{lab.get('en',{}).get('value','?')}' "
+              f"vi='{lab.get('vi',{}).get('value','?')}' — {desc.get('en',{}).get('value','')}")
+
+
 def main(argv: list[str] | None = None) -> None:
     pids = (argv if argv is not None else sys.argv[1:]) or BATCH_PROPS
     print(f"Checking allowed-qualifiers for {pids}; our qualifier = {OUR_QUALIFIER}\n")
@@ -62,6 +89,15 @@ def main(argv: list[str] | None = None) -> None:
         print(f"  {pid}: {verdict}")
         if aq is not None:
             print(f"       allowed: {sorted(aq)}")
+
+    print("\n=== Phase-1b qualifier checks ===")
+    for pid, qual in PHASE1B_CHECKS:
+        aq = allowed_qualifiers(pid)
+        print(f"  {pid} + {qual}: {'OK' if qualifier_allowed(aq, qual) else 'DISALLOWED'}")
+    print("  P807 value-type: inspect https://www.wikidata.org/wiki/Property:P807 "
+          "for 'administrative territorial entity' in the value-type constraint (manual).")
+    print("\n=== Phase-1b P31 target items — CONFIRM before emit ===")
+    describe_items(["Q13079705", "Q3623867"])   # expect 'province of Vietnam' / 'centrally-run city'
 
 
 if __name__ == "__main__":

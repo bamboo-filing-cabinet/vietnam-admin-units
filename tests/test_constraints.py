@@ -22,3 +22,10 @@ def test_extracts_allowed_qualifier_pids():
 def test_empty_allowed_set_is_not_none():
     # allowed-qualifiers constraint declared but lists nothing -> empty set (all disallowed)
     assert _allowed_from_claims([_constraint("Q21510851", [])]) == set()
+
+
+def test_check_qualifier_membership_helper():
+    from vn_admin_units.constraints import qualifier_allowed
+    assert qualifier_allowed({"P580", "P582"}, "P580") is True
+    assert qualifier_allowed({"P585"}, "P580") is False
+    assert qualifier_allowed(None, "P580") is True      # no constraint declared => allowed
