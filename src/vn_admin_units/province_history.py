@@ -5,8 +5,16 @@ children and the ended Hà Tây are their own entities. Kept separate from the 1
 `model.py` (which hardcodes the 2025 eras); the shared shape is a Phase-2 refactor
 target, not an import. See docs/DESIGN-phase1b.md.
 """
+import json
 from dataclasses import dataclass, asdict
+from pathlib import Path
 from typing import Optional
+
+
+def load_carve_outs(path: str = "data/decrees/2004-splits.json") -> dict:
+    """The curated 2004 carve-out pairings + decree/reference (parentage the GSO
+    Đối Chiếu omits below the 2004 floor)."""
+    return json.loads(Path(path).read_text(encoding="utf-8"))
 
 
 def hist_local_id(first_code: str, valid_from: Optional[str]) -> str:

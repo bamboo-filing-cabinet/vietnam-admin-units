@@ -23,3 +23,12 @@ def test_lineage_edge_has_reference_url():
                      "Số: 22/2003/QH11", "2004-01-01", "https://ref")
     assert ed.reference_url == "https://ref"
     assert ed.to_dict()["relation"] == "carved_from"
+
+
+def test_load_carve_outs():
+    from vn_admin_units.province_history import load_carve_outs
+    co = load_carve_outs("data/decrees/2004-splits.json")
+    assert co["effective_date"] == "2004-01-01"
+    pairs = {(c["child_code"], c["parent_code"]) for c in co["carve_outs"]}
+    assert pairs == {("11", "12"), ("67", "66"), ("93", "92")}
+    assert co["decree"].startswith("Số: 22/2003/QH11")

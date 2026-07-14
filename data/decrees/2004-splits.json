@@ -1,0 +1,11 @@
+{
+  "decree": "Số: 22/2003/QH11; Ngày: 26/11/2003",
+  "source": "data/raw/decrees/nq-22-2003-qh11.html",
+  "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-22-2003-QH11-chia-va-dieu-chinh-dia-gioi-hanh-chinh-tinh-51694.aspx",
+  "effective_date": "2004-01-01",
+  "carve_outs": [
+    {"child_code": "11", "child_name": "Tỉnh Điện Biên",  "parent_code": "12", "parent_name": "Tỉnh Lai Châu"},
+    {"child_code": "67", "child_name": "Tỉnh Đắk Nông",   "parent_code": "66", "parent_name": "Tỉnh Đắk Lắk"},
+    {"child_code": "93", "child_name": "Tỉnh Hậu Giang",  "parent_code": "92", "parent_name": "Thành phố Cần Thơ"}
+  ]
+}
