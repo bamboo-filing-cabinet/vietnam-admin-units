@@ -1358,7 +1358,7 @@ Expected: `built N entities, M lineage edges` (N ≈ 64: 63 terminal + Hà Tây;
 - [ ] **Step 5: Manual spot-check `statements/na-provinces-history.qs`** — confirm:
   - Three carve-out blocks: `Q<child> P571 +2004-01-01…`, `Q<child> P807 Q<parent>`; **no `P576` on Lai Châu/Đắk Lắk/Cần Thơ**.
   - Hà Tây block: `Q<hatay> P576 +2008-08-01…`, `P7888`/`P1366` → Hà Nội; `Q<hanoi> P1365 → Q<hatay>`; **no `P576` on Hà Nội**.
-  - Cần Thơ retype: dated `P31 … P580 +2004-06-30`.
+  - Cần Thơ retype: bounded `P31` — old province `… P582 +2004-01-01` and new city `… P580 +2004-01-01` (NQ22 legal date), both referenced to the decree.
   - Every line carries `S854`; no self-referential `Pxxx Qx Qx`.
   - Run `reconcile.audit_history_qids()` → zero unresolved/type issues. Run the Task-11 constraints gate → all combos OK.
   - **Do not upload** — emission only; upload is a separate reviewed step after the audit + constraints gates pass (personal WD account).
