@@ -1,36 +1,36 @@
-"""Fetch district (Huyện) Đối Chiếu crosswalk windows from the GSO web UI.
+"""Fetch Đối Chiếu crosswalk windows (province or district) from the GSO web UI.
 
-The GSO Đối Chiếu page (`Doi_Chieu_Moi.aspx`) is a DevExpress WebForms app whose
-Excel export is only reachable by driving the page: pick Cấp=Huyện, set the
-base/compare dates, run "Thực Hiện", then click "Excel". A plain HTTP replay
-fails (AJAX callbacks + client-populated state), so we drive it with Playwright
-and capture the `.xls` download, caching it verbatim. See
-`docs/journals/2026-07-13.02`.
+DevExpress WebForms app; the Excel export is only reachable by driving the page.
+Probe-confirmed Cấp combo values: Tỉnh=1, Huyện=2 (2026-07-13.02 / 2026-07-14.01).
+Use the Excel download (clean server-side file) — DOM scraping suffers stale-row
+contamination across tiers. See docs/journals/2026-07-14.01.
 
-Yearly windows within a single code-era isolate each year's district changes with
-precise effective dates and real `Ghi Chú` prose — unlike the flat 2002→2025
-export (whose `Ghi Chú` is code-conversion boilerplate).
-
-Usage (needs the `ingest` dependency group + `playwright install chromium`):
-  uv run --group ingest python -m vn_admin_units.crosswalk_fetch --sweep 2004 2024
-  uv run --group ingest python -m vn_admin_units.crosswalk_fetch --window 01/01/2013 01/01/2014
+Usage (needs the `ingest` group + `playwright install chromium`):
+  uv run --group ingest python -m vn_admin_units.crosswalk_fetch --tier province --sweep 2004 2024
+  uv run --group ingest python -m vn_admin_units.crosswalk_fetch --tier province --window 01/01/2008 01/01/2009
+  uv run --group ingest python -m vn_admin_units.crosswalk_fetch --sweep 2004 2024   # default tier=district
 """
 from __future__ import annotations
 
 import argparse
 import io
 
-from vn_admin_units.crosswalk import read_district_crosswalk
+from vn_admin_units.crosswalk import read_district_crosswalk, read_province_history_crosswalk
 from vn_admin_units.rawcache import save_raw
 
 URL = "https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx"
 
 # DevExpress control ids on the page
-_CAP = "ctl00_PlaceHolderMain_cmbCap"          # Cấp combo (value 2 = Huyện)
+_CAP = "ctl00_PlaceHolderMain_cmbCap"          # Cấp combo
 _BASE = "ctl00_PlaceHolderMain_txtNgay"        # Ngày gốc
 _COMPARE = "ctl00_PlaceHolderMain_txtNgayDC"   # Ngày đối chiếu
 _RUN = "ctl00_PlaceHolderMain_cmdThucHien"     # Thực Hiện
 _EXCEL = "ctl00_PlaceHolderMain_cmdExcel"      # Excel export
+
+TIER_CAP = {"province": "1", "district": "2"}          # DevExpress cmbCap values
+TIER_VI = {"province": "Tỉnh", "district": "Huyện"}    # manifest label
+TIER_READER = {"province": read_province_history_crosswalk,
+               "district": read_district_crosswalk}
 
 
 def _iso(ddmmyyyy: str) -> str:
@@ -38,9 +38,9 @@ def _iso(ddmmyyyy: str) -> str:
     return f"{y}-{m.zfill(2)}-{d.zfill(2)}"
 
 
-def cache_relpath(base: str, compare: str) -> str:
-    """Deterministic raw-cache path for a district window."""
-    return f"crosswalk/district_{_iso(base)}_{_iso(compare)}.xls"
+def cache_relpath(tier: str, base: str, compare: str) -> str:
+    """Deterministic raw-cache path for a window, namespaced by tier."""
+    return f"crosswalk/{tier}_{_iso(base)}_{_iso(compare)}.xls"
 
 
 def _set_date(page, control_id: str, ddmmyyyy: str) -> None:
@@ -52,17 +52,17 @@ def _set_date(page, control_id: str, ddmmyyyy: str) -> None:
     )
 
 
-def _switch_to_huyen(page) -> None:
-    """Set Cấp=Huyện and fire its autopostback (server switches to district mode)."""
+def _switch_cap(page, cap_value: str) -> None:
+    """Set Cấp and fire its autopostback (server switches tier mode)."""
     with page.expect_navigation(wait_until="networkidle", timeout=60000):
         page.evaluate(
-            "() => { ASPxClientControl.GetControlCollection().Get('%s').SetValue('2');"
-            " __doPostBack('ctl00$PlaceHolderMain$cmbCap',''); }" % _CAP
+            "(v) => { ASPxClientControl.GetControlCollection().Get('%s').SetValue(v);"
+            " __doPostBack('ctl00$PlaceHolderMain$cmbCap',''); }" % _CAP,
+            cap_value,
         )
 
 
 def _fetch_window_bytes(page, base: str, compare: str) -> bytes:
-    """Fetch one district window's Excel export (page must be in Huyện mode)."""
     _set_date(page, _BASE, base)
     _set_date(page, _COMPARE, compare)
     page.click(f"#{_RUN}")
@@ -74,27 +74,26 @@ def _fetch_window_bytes(page, base: str, compare: str) -> bytes:
         return f.read()
 
 
-def fetch_district_windows(windows: list[tuple[str, str]], headless: bool = True) -> list[dict]:
-    """Fetch + verbatim-cache each (base, compare) window. Returns manifest-ish info."""
+def fetch_windows(tier: str, windows: list[tuple[str, str]], headless: bool = True) -> list[dict]:
+    """Fetch + verbatim-cache each (base, compare) window for a tier."""
     from playwright.sync_api import sync_playwright
 
+    reader = TIER_READER[tier]
     results = []
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=headless)
         page = browser.new_page(accept_downloads=True)
         page.goto(URL, wait_until="networkidle", timeout=60000)
         page.wait_for_function("() => typeof ASPxClientControl !== 'undefined'")
-        _switch_to_huyen(page)
+        _switch_cap(page, TIER_CAP[tier])
         for base, compare in windows:
             data = _fetch_window_bytes(page, base, compare)
-            rows = read_district_crosswalk(io.BytesIO(data))
-            relpath = cache_relpath(base, compare)
+            rows = reader(io.BytesIO(data))
+            relpath = cache_relpath(tier, base, compare)
             save_raw(relpath, data, {
-                "source_url": URL,
-                "method": "Excel export (Playwright)",
-                "params": {"Cap": "Huyện", "base": base, "compare": compare},
-                "rows": len(rows),
-            })
+                "source_url": URL, "method": "Excel export (Playwright)",
+                "params": {"Cap": TIER_VI[tier], "base": base, "compare": compare},
+                "rows": len(rows)})
             print(f"  [{relpath}] {len(data)} bytes, {len(rows)} rows")
             results.append({"path": relpath, "rows": len(rows), "bytes": len(data)})
         browser.close()
@@ -107,7 +106,10 @@ def yearly_windows(start_year: int, end_year: int) -> list[tuple[str, str]]:
 
 
 def main(argv: list[str] | None = None) -> None:
-    ap = argparse.ArgumentParser(description="Fetch district Đối Chiếu crosswalk windows.")
+    ap = argparse.ArgumentParser(description="Fetch Đối Chiếu crosswalk windows.")
+    ap.add_argument("--tier", choices=list(TIER_CAP), default="district",
+                    help="province | district (default: district — preserves the "
+                         "existing '--sweep …' district commands in journal 2026-07-13.02)")
     g = ap.add_mutually_exclusive_group(required=True)
     g.add_argument("--window", nargs=2, metavar=("BASE", "COMPARE"),
                    help="one window, dd/mm/yyyy dd/mm/yyyy")
@@ -116,8 +118,8 @@ def main(argv: list[str] | None = None) -> None:
     ap.add_argument("--headed", action="store_true", help="show the browser (debug)")
     a = ap.parse_args(argv)
     windows = [tuple(a.window)] if a.window else yearly_windows(*a.sweep)
-    print(f"Fetching {len(windows)} district window(s)...")
-    fetch_district_windows(windows, headless=not a.headed)
+    print(f"Fetching {len(windows)} {a.tier} window(s)...")
+    fetch_windows(a.tier, windows, headless=not a.headed)
     print("Done.")
 
 
