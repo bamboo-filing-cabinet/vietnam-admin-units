@@ -1,0 +1,307 @@
+[
+  {
+    "ma": "101",
+    "ten": "Thành phố Hà Nội",
+    "loai_hinh": "Thành phố Trung ương"
+  },
+  {
+    "ma": "103",
+    "ten": "Thành phố Hải Phòng",
+    "loai_hinh": "Thành phố Trung ương"
+  },
+  {
+    "ma": "104",
+    "ten": "Tỉnh Vĩnh Phúc",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "105",
+    "ten": "Tỉnh Hà Tây",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "106",
+    "ten": "Tỉnh Bắc Ninh",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "107",
+    "ten": "Tỉnh Hải Dương",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "109",
+    "ten": "Tỉnh Hưng Yên",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "111",
+    "ten": "Tỉnh Hà Nam",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "113",
+    "ten": "Tỉnh Nam Định",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "115",
+    "ten": "Tỉnh Thái Bình",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "117",
+    "ten": "Tỉnh Ninh Bình",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "201",
+    "ten": "Tỉnh Hà Giang",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "203",
+    "ten": "Tỉnh Cao Bằng",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "205",
+    "ten": "Tỉnh Lào Cai",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "207",
+    "ten": "Tỉnh Bắc Kạn",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "209",
+    "ten": "Tỉnh Lạng Sơn",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "211",
+    "ten": "Tỉnh Tuyên Quang",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "213",
+    "ten": "Tỉnh Yên Bái",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "215",
+    "ten": "Tỉnh Thái Nguyên",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "217",
+    "ten": "Tỉnh Phú Thọ",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "221",
+    "ten": "Tỉnh Bắc Giang",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "225",
+    "ten": "Tỉnh Quảng Ninh",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "301",
+    "ten": "Tỉnh Lai Châu",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "303",
+    "ten": "Tỉnh Sơn La",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "305",
+    "ten": "Tỉnh Hòa Bình",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "401",
+    "ten": "Tỉnh Thanh Hóa",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "403",
+    "ten": "Tỉnh Nghệ An",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "405",
+    "ten": "Tỉnh Hà Tĩnh",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "407",
+    "ten": "Tỉnh Quảng Bình",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "409",
+    "ten": "Tỉnh Quảng Trị",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "411",
+    "ten": "Tỉnh Thừa Thiên Huế",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "501",
+    "ten": "Thành phố Đà Nẵng",
+    "loai_hinh": "Thành phố Trung ương"
+  },
+  {
+    "ma": "503",
+    "ten": "Tỉnh Quảng Nam",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "505",
+    "ten": "Tỉnh Quảng Ngãi",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "507",
+    "ten": "Tỉnh Bình Định",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "509",
+    "ten": "Tỉnh Phú Yên",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "511",
+    "ten": "Tỉnh Khánh Hòa",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "601",
+    "ten": "Tỉnh Kon Tum",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "603",
+    "ten": "Tỉnh Gia Lai",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "605",
+    "ten": "Tỉnh Đắk Lắk",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "607",
+    "ten": "Tỉnh Lâm Đồng",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "701",
+    "ten": "Thành phố Hồ Chí Minh",
+    "loai_hinh": "Thành phố Trung ương"
+  },
+  {
+    "ma": "705",
+    "ten": "Tỉnh Ninh Thuận",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "707",
+    "ten": "Tỉnh Bình Phước",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "709",
+    "ten": "Tỉnh Tây Ninh",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "711",
+    "ten": "Tỉnh Bình Dương",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "713",
+    "ten": "Tỉnh Đồng Nai",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "715",
+    "ten": "Tỉnh Bình Thuận",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "717",
+    "ten": "Tỉnh Bà Rịa - Vũng Tàu",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "801",
+    "ten": "Tỉnh Long An",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "803",
+    "ten": "Tỉnh Đồng Tháp",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "805",
+    "ten": "Tỉnh An Giang",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "807",
+    "ten": "Tỉnh Tiền Giang",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "809",
+    "ten": "Tỉnh Vĩnh Long",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "811",
+    "ten": "Tỉnh Bến Tre",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "813",
+    "ten": "Tỉnh Kiên Giang",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "815",
+    "ten": "Tỉnh Cần Thơ",
+    "loai_hinh": "Thành phố Trung ương"
+  },
+  {
+    "ma": "817",
+    "ten": "Tỉnh Trà Vinh",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "819",
+    "ten": "Tỉnh Sóc Trăng",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "821",
+    "ten": "Tỉnh Bạc Liêu",
+    "loai_hinh": "Tỉnh"
+  },
+  {
+    "ma": "823",
+    "ten": "Tỉnh Cà Mau",
+    "loai_hinh": "Tỉnh"
+  }
+]
