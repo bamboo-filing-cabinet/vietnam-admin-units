@@ -30,7 +30,7 @@
 
 **Model shape (defined once, used throughout).** `province_history.Entity`:
 `local_id: str`, `gso_codes: list[str]` (chronological; `[-1]` = terminal/reconcile code), `name_vi: str` (terminal), `loai_hinh: str` (terminal), `type_spans: list[dict]` (`{loai_hinh, from, to}`), `aliases: list[str]` (former names+codes), `valid_from: Optional[str]`, `valid_to: Optional[str]`, `wikidata_qid: Optional[str]`, `qid_status: Optional[str]`.
-`province_history.LineageEdge`: `predecessor: str`, `successor: str`, `relation: str` (`carved_from`|`absorbed_into`), `decree: str`, `effective_date: str`.
+`province_history.LineageEdge`: `predecessor: str`, `successor: str`, `relation: str` (`carved_from`|`absorbed_into`), `decree: str`, `effective_date: str`, `reference_url: str = ""` (per-event source for emit).
 
 ---
 
@@ -751,6 +751,7 @@ def test_cantho_retype_span_is_dated():
     assert "Tỉnh" in types and any("Thành phố" in t for t in types)
     assert ct.type_spans[-1]["from"] == "2004-01-01"          # NQ22 legal date; dated -> P31 emits
     assert ct.type_spans[0]["to"] == "2004-01-01"             # old province span end-dated (P582)
+    assert "Tỉnh Cần Thơ" in ct.aliases                       # former name kept (folds equal, differs literally)
 
 def test_hue_rename_and_retype_same_entity():
     ents, _ = _build()
@@ -760,8 +761,10 @@ def test_hue_rename_and_retype_same_entity():
     assert city_span["from"] == "2025-01-01" and "Thành phố" in city_span["loai_hinh"]
     assert hue.valid_from is None                             # existed pre-2004; retype != inception
     # gso_code history must survive the rename: the pre-2004 3-digit code is recovered
-    # via old_name even though the terminal-name renumber lookup missed it.
+    # via old_name even though the terminal-name renumber lookup missed it — and it is
+    # recovered BEFORE construction, so local_id uses the first-known code.
     assert hue.gso_codes[0] == "411" and "411" in hue.aliases
+    assert hue.local_id == "ph-411-base"                     # local_id consistent with gso_codes[0]
 ```
 
 - [ ] **Step 2: Run test to verify it fails**
@@ -818,12 +821,20 @@ def build_province_history(snapshot_dir: str, window_dir: str,
         if row["base_ma"] and row["succ_ma"]:
             renumber[fold_name(row["base_ten"])] = {"old": row["base_ma"], "new": row["succ_ma"]}
 
+    retype_by_code = {rt["code"]: rt for rt in RETYPES}
     ents: list[Entity] = []
     by_code: dict[str, Entity] = {}
     for r in terminal:
         code2 = r["ma"]
         fn = fold_name(r["ten"])
         old3 = renumber.get(fn, {}).get("old")
+        # Renamed retype (Huế): the renumber map is keyed by the OLD name, so the
+        # terminal-name lookup misses. Recover the pre-2004 code via old_name HERE,
+        # before the Entity is built, so gso_codes AND local_id both use the
+        # first-known code (patching it in afterward would desync local_id).
+        rt = retype_by_code.get(code2)
+        if old3 is None and rt and fold_name(rt["old_name"]) != fn:
+            old3 = renumber.get(fold_name(rt["old_name"]), {}).get("old")
         gso_codes = [old3, code2] if old3 else [code2]
         aliases = [old3] if old3 else []
         is_child = code2 in carve_child_codes
@@ -858,16 +869,12 @@ def build_province_history(snapshot_dir: str, window_dir: str,
         # the prior province span ENDS (P582) at the retype date; same decree bounds both.
         e.type_spans = [{"loai_hinh": "Tỉnh", "from": None, "to": rt["date"],
                          "decree": rt["decree"], "reference_url": rt["reference_url"]}] + e.type_spans
-        if fold_name(rt["old_name"]) != fold_name(e.name_vi):
+        # former name -> alias. Compare LITERALLY (NFC), not by folded bare-place name:
+        # "Tỉnh Cần Thơ" and "Thành phố Cần Thơ" fold equal but are distinct former names,
+        # so a folded comparison would drop Cần Thơ's former name. (The pre-2004 code was
+        # already recovered during construction, keeping local_id consistent.)
+        if rt["old_name"] != e.name_vi:
             e.aliases.append(rt["old_name"])
-            # Renamed retype (e.g. Huế: Thừa Thiên Huế→Huế): the renumber map above was
-            # keyed by the OLD folded name, so the terminal-name lookup missed the
-            # pre-2004 code. Recover it via old_name so gso_code history is complete.
-            rn = renumber.get(fold_name(rt["old_name"]))
-            if rn and rn["old"] not in e.gso_codes:
-                e.gso_codes.insert(0, rn["old"])
-                if rn["old"] not in e.aliases:
-                    e.aliases.append(rn["old"])
 
     # 2008 Hà Tây absorption: Hà Tây is NOT in the 2025 roster -> add it, ended.
     ht_window = read_province_history_crosswalk(f"{window_dir}/province_2008-01-01_2009-01-01.xls")
