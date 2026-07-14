@@ -383,9 +383,12 @@ Run:
 ```
 uv run python -c "from vn_admin_units.cli import cache_history_snapshots; cache_history_snapshots()"
 uv run --group ingest python -m vn_admin_units.crosswalk_fetch --tier province --sweep 2004 2024
-uv run --group ingest python -m vn_admin_units.crosswalk_fetch --tier province --window 01/01/2002 01/01/2004
 ```
-Expected: ~27 `provinces-*.json` (61 rows through 2004-01, 64 from 2004-07, 63 from 2008-09); ~22 `province_*.xls` windows cached. Spot-check `data/provinces-2004-07-01.json` has 64 and `data/provinces-2004-01-01.json` has 61.
+The sweep's first window (`province_2004-01-01_2005-01-01.xls`) IS the renumber map
+`build_province_history` reads (base 2004-01-01 is pre-switch → floored to the
+2002→2004 remap, and a post-switch compare exposes the 2-digit codes). The assembly
+also needs the `province_2008-01-01_2009-01-01.xls` window (Task 2 Step 0).
+Expected: ~27 `provinces-*.json` (61 rows through 2004-01, 64 from 2004-07, 63 from 2008-09); ~21 `province_*.xls` windows cached. Spot-check `data/provinces-2004-07-01.json` has 64 and `data/provinces-2004-01-01.json` has 61.
 
 - [ ] **Step 6: Commit**
 
@@ -816,9 +819,13 @@ def build_province_history(snapshot_dir: str, window_dir: str,
 
     # 2004 renumber map: old 3-digit -> new 2-digit, by folded name, from the
     # 2002→2004 window (blank-succ rows excluded).
+    # NOTE (corrected during execution): the renumber only appears in a window whose
+    # COMPARE date is post-30/06/2004. A 2002→2004 window is pre-switch (301→301, no
+    # renumber), so use base 2004-01-01 → compare 2005-01-01 (base pre-switch is
+    # floored to the 2002→2004 remap, which with a post-switch compare shows 2-digit).
     renumber = {}   # folded name -> {"old": code3, "new": code2}
-    for row in read_province_history_crosswalk(f"{window_dir}/province_2002-01-01_2004-01-01.xls"):
-        if row["base_ma"] and row["succ_ma"]:
+    for row in read_province_history_crosswalk(f"{window_dir}/province_2004-01-01_2005-01-01.xls"):
+        if row["base_ma"] and row["succ_ma"] and row["base_ma"] != row["succ_ma"]:
             renumber[fold_name(row["base_ten"])] = {"old": row["base_ma"], "new": row["succ_ma"]}
 
     retype_by_code = {rt["code"]: rt for rt in RETYPES}
