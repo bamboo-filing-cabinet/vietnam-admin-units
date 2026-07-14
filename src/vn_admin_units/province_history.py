@@ -1,0 +1,50 @@
+"""Phase 1b — province-tier history 2002→2025 (entity + lineage assembly).
+
+Continuous-entity model: one Entity per province across recode/retype; carve-out
+children and the ended Hà Tây are their own entities. Kept separate from the 1a
+`model.py` (which hardcodes the 2025 eras); the shared shape is a Phase-2 refactor
+target, not an import. See docs/DESIGN-phase1b.md.
+"""
+from dataclasses import dataclass, asdict
+from typing import Optional
+
+
+def hist_local_id(first_code: str, valid_from: Optional[str]) -> str:
+    """Entity-anchored id: first-known code + inception ('base' if pre-2004 root).
+    Codes reuse across reforms and the scheme changes at 2004 (journal .15), so the
+    bare code is never a key; valid_from disambiguates reused codes."""
+    return f"ph-{first_code}-{valid_from or 'base'}"
+
+
+@dataclass
+class Entity:
+    local_id: str
+    gso_codes: list                      # chronological; [-1] = terminal/reconcile code
+    name_vi: str                         # terminal name
+    loai_hinh: str                       # terminal type
+    type_spans: list                     # [{loai_hinh, from, to, decree?, reference_url?}]
+    aliases: list                        # former names + former codes
+    valid_from: Optional[str]
+    valid_to: Optional[str]
+    wikidata_qid: Optional[str]
+    qid_status: Optional[str] = None     # "existing" | "new"
+
+    @property
+    def terminal_code(self) -> str:
+        return self.gso_codes[-1] if self.gso_codes else ""
+
+    def to_dict(self) -> dict:
+        return asdict(self)
+
+
+@dataclass
+class LineageEdge:
+    predecessor: str                     # local_id
+    successor: str                       # local_id
+    relation: str                        # "carved_from" | "absorbed_into"
+    decree: str
+    effective_date: str
+    reference_url: str = ""              # event-specific source (per-edge, not per-batch)
+
+    def to_dict(self) -> dict:
+        return asdict(self)
