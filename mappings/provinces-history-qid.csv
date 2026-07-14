@@ -1,0 +1,65 @@
+local_id,terminal_code,name_vi,wikidata_qid,qid_status,match_status
+ph-101-base,01,Thành phố Hà Nội,Q1858,existing,reused
+ph-201-base,02,Tỉnh Hà Giang,Q36685,existing,reused
+ph-203-base,04,Tỉnh Cao Bằng,Q36865,existing,reused
+ph-207-base,06,Tỉnh Bắc Kạn,Q36404,existing,reused
+ph-211-base,08,Tỉnh Tuyên Quang,Q2332060,existing,reused
+ph-205-base,10,Tỉnh Lào Cai,Q36446,existing,reused
+ph-11-2004-01-01,11,Tỉnh Điện Biên,Q36955,existing,reused
+ph-301-base,12,Tỉnh Lai Châu,Q36409,existing,reused
+ph-303-base,14,Tỉnh Sơn La,Q33379,existing,reused
+ph-213-base,15,Tỉnh Yên Bái,Q36349,existing,reused
+ph-305-base,17,Tỉnh Hoà Bình,Q36015,existing,reused
+ph-215-base,19,Tỉnh Thái Nguyên,Q26575,existing,reused
+ph-209-base,20,Tỉnh Lạng Sơn,Q33403,existing,reused
+ph-225-base,22,Tỉnh Quảng Ninh,Q33396,existing,reused
+ph-221-base,24,Tỉnh Bắc Giang,Q36367,existing,reused
+ph-217-base,25,Tỉnh Phú Thọ,Q36610,existing,reused
+ph-104-base,26,Tỉnh Vĩnh Phúc,Q27566,existing,reused
+ph-106-base,27,Tỉnh Bắc Ninh,Q33408,existing,reused
+ph-107-base,30,Tỉnh Hải Dương,Q36729,existing,reused
+ph-103-base,31,Thành phố Hải Phòng,Q72818,existing,reused
+ph-109-base,33,Tỉnh Hưng Yên,Q36235,existing,reused
+ph-115-base,34,Tỉnh Thái Bình,Q36681,existing,reused
+ph-111-base,35,Tỉnh Hà Nam,Q36413,existing,reused
+ph-113-base,36,Tỉnh Nam Định,Q36907,existing,reused
+ph-117-base,37,Tỉnh Ninh Bình,Q36900,existing,reused
+ph-401-base,38,Tỉnh Thanh Hóa,Q36512,existing,reused
+ph-403-base,40,Tỉnh Nghệ An,Q36587,existing,reused
+ph-405-base,42,Tỉnh Hà Tĩnh,Q33351,existing,reused
+ph-407-base,44,Tỉnh Quảng Bình,Q23533,existing,reused
+ph-409-base,45,Tỉnh Quảng Trị,Q36579,existing,reused
+ph-411-base,46,Thành phố Huế,Q36399,existing,reused
+ph-501-base,48,Thành phố Đà Nẵng,Q25282,existing,reused
+ph-503-base,49,Tỉnh Quảng Nam,Q33356,existing,reused
+ph-505-base,51,Tỉnh Quảng Ngãi,Q33304,existing,reused
+ph-507-base,52,Tỉnh Bình Định,Q36693,existing,reused
+ph-509-base,54,Tỉnh Phú Yên,Q36725,existing,reused
+ph-511-base,56,Tỉnh Khánh Hòa,Q33369,existing,reused
+ph-705-base,58,Tỉnh Ninh Thuận,Q36903,existing,reused
+ph-715-base,60,Tỉnh Bình Thuận,Q36869,existing,reused
+ph-601-base,62,Tỉnh Kon Tum,Q36315,existing,reused
+ph-603-base,64,Tỉnh Gia Lai,Q36662,existing,reused
+ph-605-base,66,Tỉnh Đắk Lắk,Q36690,existing,reused
+ph-67-2004-01-01,67,Tỉnh Đắk Nông,Q36723,existing,reused
+ph-607-base,68,Tỉnh Lâm Đồng,Q36721,existing,reused
+ph-707-base,70,Tỉnh Bình Phước,Q36672,existing,reused
+ph-709-base,72,Tỉnh Tây Ninh,Q36608,existing,reused
+ph-711-base,74,Tỉnh Bình Dương,Q36866,existing,reused
+ph-713-base,75,Tỉnh Đồng Nai,Q33271,existing,reused
+ph-717-base,77,Tỉnh Bà Rịa - Vũng Tàu,Q36874,existing,reused
+ph-701-base,79,Thành phố Hồ Chí Minh,Q1854,existing,reused
+ph-801-base,80,Tỉnh Long An,Q26573,existing,reused
+ph-807-base,82,Tỉnh Tiền Giang,Q36666,existing,reused
+ph-811-base,83,Tỉnh Bến Tre,Q33366,existing,reused
+ph-817-base,84,Tỉnh Trà Vinh,Q36615,existing,reused
+ph-809-base,86,Tỉnh Vĩnh Long,Q7333405,existing,reused
+ph-803-base,87,Tỉnh Đồng Tháp,Q36676,existing,reused
+ph-805-base,89,Tỉnh An Giang,Q36592,existing,reused
+ph-813-base,91,Tỉnh Kiên Giang,Q36576,existing,reused
+ph-815-base,92,Thành phố Cần Thơ,Q216075,existing,reused
+ph-93-2004-01-01,93,Tỉnh Hậu Giang,Q36320,existing,reused
+ph-819-base,94,Tỉnh Sóc Trăng,Q33272,existing,reused
+ph-821-base,95,Tỉnh Bạc Liêu,Q36658,existing,reused
+ph-823-base,96,Tỉnh Cà Mau,Q33354,existing,reused
+ph-28-base,28,Tỉnh Hà Tây,,,needs-lookup

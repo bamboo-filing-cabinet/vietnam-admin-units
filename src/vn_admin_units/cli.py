@@ -79,5 +79,30 @@ def build_all() -> None:
     print(f"built {len(ents)} entities, {len(edges)} lineage edges")
 
 
+def build_province_history_all() -> None:
+    from vn_admin_units.province_history import build_province_history
+    from vn_admin_units.reconcile import (reuse_1a_qids, load_history_seed,
+                                          apply_history_seed, write_history_mapping)
+    from vn_admin_units.emit import emit_history_quickstatements, NSO_SOURCE_URL
+    ents, edges = build_province_history("data", "data/raw/crosswalk",
+                                         "data/decrees/2004-splits.json",
+                                         "mappings/provinces-qid.csv")
+    ents = reuse_1a_qids(ents, "mappings/provinces-qid.csv")
+    # Preserve the hand-verified Hà Tây QID (manual step) across rebuilds BEFORE emit,
+    # so the 2008 absorption edge isn't skipped for a missing QID.
+    ents = apply_history_seed(ents, load_history_seed())
+    write_history_mapping(ents)
+    DATA.mkdir(exist_ok=True)
+    (DATA / "provinces-history.json").write_text(
+        json.dumps([e.to_dict() for e in ents], ensure_ascii=False, indent=2), encoding="utf-8")
+    (DATA / "province-history-lineage.json").write_text(
+        json.dumps([e.to_dict() for e in edges], ensure_ascii=False, indent=2), encoding="utf-8")
+    Path("statements").mkdir(exist_ok=True)
+    # Per-statement references come from each edge/span/decree; NSO is the fallback.
+    Path("statements/na-provinces-history.qs").write_text(
+        emit_history_quickstatements(ents, edges, default_ref_url=NSO_SOURCE_URL), encoding="utf-8")
+    print(f"built {len(ents)} entities, {len(edges)} lineage edges")
+
+
 if __name__ == "__main__":
     cache_snapshots()

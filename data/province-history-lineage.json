@@ -1,0 +1,34 @@
+[
+  {
+    "predecessor": "ph-301-base",
+    "successor": "ph-11-2004-01-01",
+    "relation": "carved_from",
+    "decree": "Số: 22/2003/QH11; Ngày: 26/11/2003",
+    "effective_date": "2004-01-01",
+    "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-22-2003-QH11-chia-va-dieu-chinh-dia-gioi-hanh-chinh-tinh-51694.aspx"
+  },
+  {
+    "predecessor": "ph-605-base",
+    "successor": "ph-67-2004-01-01",
+    "relation": "carved_from",
+    "decree": "Số: 22/2003/QH11; Ngày: 26/11/2003",
+    "effective_date": "2004-01-01",
+    "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-22-2003-QH11-chia-va-dieu-chinh-dia-gioi-hanh-chinh-tinh-51694.aspx"
+  },
+  {
+    "predecessor": "ph-815-base",
+    "successor": "ph-93-2004-01-01",
+    "relation": "carved_from",
+    "decree": "Số: 22/2003/QH11; Ngày: 26/11/2003",
+    "effective_date": "2004-01-01",
+    "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-22-2003-QH11-chia-va-dieu-chinh-dia-gioi-hanh-chinh-tinh-51694.aspx"
+  },
+  {
+    "predecessor": "ph-28-base",
+    "successor": "ph-101-base",
+    "relation": "absorbed_into",
+    "decree": "Số: 15/2008/QH12; Ngày: 29/05/2008",
+    "effective_date": "2008-08-01",
+    "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-15-2008-QH12-dieu-chinh-dia-gioi-hanh-chinh-thanh-pho-Ha-Noi-65328.aspx"
+  }
+]
