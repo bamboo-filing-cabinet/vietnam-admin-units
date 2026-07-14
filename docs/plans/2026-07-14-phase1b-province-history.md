@@ -1156,8 +1156,8 @@ Expected: FAIL — `emit_history_quickstatements` not defined.
 ```python
 NSO_SOURCE_URL = "https://danhmuchanhchinh.nso.gov.vn/"
 # WD item QIDs for the two admin-unit types (verify at emit time via the constraints gate).
-P31_PROVINCE = "Q13079705"       # province of Vietnam
-P31_CITY_TW = "Q3623867"         # centrally-run city of Vietnam
+P31_PROVINCE = "Q2824648"        # "province of Vietnam" (verified 2026-07-14 via describe_items)
+P31_CITY_TW = "Q1381899"         # "centrally-controlled city of Vietnam" (verified)
 
 
 def _ref(url: str) -> str:
@@ -1306,7 +1306,7 @@ Add, inside `main`, after the existing loop:
     print("  P807 value-type: inspect https://www.wikidata.org/wiki/Property:P807 "
           "for 'administrative territorial entity' in the value-type constraint.")
     print("\n=== Phase-1b P31 target items — CONFIRM before emit ===")
-    describe_items(["Q13079705", "Q3623867"])   # expect 'province of Vietnam' / 'centrally-run city'
+    describe_items(["Q2824648", "Q1381899"])   # 'province of Vietnam' / 'centrally-controlled city of Vietnam'
 ```
 
 - [ ] **Step 4: Run test to verify it passes**
@@ -1433,7 +1433,7 @@ git commit -m "feat(phase1b): wire province-history pipeline; emit 2002-2025 Qui
 - **Review findings baked in:** carve-outs reuse 1a QIDs (T9), `P571` gated on `valid_from` not `qid_status` (T10 + test), separate `provinces-history-qid.csv` to avoid the `_write_csv` clobber (T9), audit extended past `pre2025` (T9), `cache_snapshots` parameterized not reused (T3), dated retypes / Đồng Nai out of scope (T3/T10), constraints tool extended not just re-run (T11).
 - **Type consistency:** `Entity.terminal_code`, `gso_codes`, `type_spans`, `valid_from`; `LineageEdge.relation ∈ {carved_from, absorbed_into}`; `hist_local_id`; `read_province_history_crosswalk`; `emit_history_quickstatements` — names identical across tasks.
 - **Data-dependent iteration (house style):** T8 is gated by `tests/test_province_history_groundtruth.py`; extend the assembly against real fetched data until green, never weaken the assertions; unclassifiable provinces go to a logged residue file.
-- **Unverified externals to confirm during execution (flagged in-task, not placeholders):** the Hà Tây 2008 decree string + URL (`HA_TAY_2008`), the Huế NQ 175/2024 URL (`RETYPES`), the Hà Tây QID (manual verify, T9), and the `P31` type-target QIDs (`Q13079705`/`Q3623867`, confirmed via the T11 `describe_items` label report — **not** by any test).
+- **Executed 2026-07-14 (inline):** all 12 tasks implemented; 62 tests pass; SOAP walk + province windows fetched headless; assembly ground-truth 6/6 on real data; `audit_history_qids` 0 issues over 64 QIDs; constraints qualifier combos all valid. The `describe_items` gate **caught the wrong placeholder P31 targets** (`Q13079705`=Myanmar settlement, `Q3623867`=Benin arrondissement) → corrected to `Q2824648`/`Q1381899`. Hà Tây reconciled to `Q1077294`. **Remaining reviewed steps (not done):** confirm the Huế/Hà Tây decree URLs; decide whether carve-out children should emit `P31` at all vs. only retypes (they already carry a `former provinces` P31 on WD — audit each item); then the upload (separate reviewed step).
 - **Sixth-review fixes baked in (2026-07-14):** Huế's renamed retype now recovers its pre-2004 code (411) via `old_name` (the terminal-name renumber lookup missed it), with a ground-truth assertion that `gso_codes` starts at `411` — satisfies the "gso_code history" requirement for renamed retypes; and the `P31` target QIDs are now confirmed by a real `describe_items` label report in T11 (the emit tests assert shape only), with the overclaim wording corrected in T10/self-review.
 - **Fifth-review fixes baked in (2026-07-14):** Cần Thơ retype uses the NQ22 **legal** date `2004-01-01` (was the GSO service date), consistent with the carve-out `P571`s and the ¹ footnote (now covering `P580`); the retype emitter bounds **both** the old type (`P582` end) and the new type (`P580` start), so the old province `P31` is no longer left unbounded; `apply_history_seed` now **overrides** a reused QID so a `manual` correction wins (Task 12 order: reuse → override); Task 7's red-step command uses the renamed test.
 - **Fourth-review fixes baked in (2026-07-14):** Hà Tây QID preserved across rebuilds via `load_history_seed`/`apply_history_seed` + `write_history_mapping` preserving verified rows (T9/T12), with a survival test; Cần Thơ retype span dated `from` so its `P31` actually emits (T8) + Huế added to `RETYPES` and `diff_roster` made code-keyed so rename+retype is SAME not dissolve+create (T7/T8) + Huế ground-truth test; per-event references carried on edges/spans (`reference_url`) instead of one batch URL (T5/T8/T10/T12); `audit_history_qids` now does name/label match, not just type (T9); `--tier` defaults to `district` to preserve existing commands (T1); T11 P807 value-type downgraded to an honest manual gate.
