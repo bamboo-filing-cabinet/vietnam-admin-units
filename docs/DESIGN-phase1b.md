@@ -56,8 +56,9 @@ unanticipated event is caught, not assumed away.
 | 30/04/2026 | Đồng Nai retype | retype | **out of scope** (post-reform freshness; see Out of scope + Emit) |
 
 ¹ GSO service-dates the 2004 change 30/06/2004; the **legal effective date is
-2004-01-01** (NQ 22/2003/QH11). Use the **legal date** for `P571`/`P585`; keep the
-decree as the reference.
+2004-01-01** (NQ 22/2003/QH11). Use the **legal date** for `P571`/`P585`/`P580`
+(status start) — these statements are referenced to the decree, so they must carry
+the decree's date, not the GSO roster-flip date; keep the decree as the reference.
 
 ## Data acquisition
 
@@ -160,10 +161,12 @@ Old Cần Thơ *province* is not a separate entity — Cần Thơ persists as th
 - **`P807` separated-from** child→parent (fits the carve-out; subject/value-type
   constraints allow administrative territorial entity — verified for districts,
   `2026-07-13`).
-- **`P31` retype**, **always date-qualified (`P580`/`P582`)** so city status is never
-  backdated, for Cần Thơ (2004) and Huế (2025). **Đồng Nai's 2026-04-30 upgrade is out
-  of scope** (post-reform), but the current `2026-07-10` snapshot already shows
-  `Thành phố Đồng Nai`, so whenever it is emitted it must use a **dated** `P31` span
+- **`P31` retype** for Cần Thơ (2004) and Huế (2025): **bound both statements** — the
+  old type end-dated (`P582` = the retype date) and the new type start-dated (`P580`),
+  at the **legal** effective date (see ¹), so city status is neither backdated nor left
+  unbounded. **Đồng Nai's 2026-04-30 upgrade is out of scope** (post-reform), but the
+  current `2026-07-10` snapshot already shows `Thành phố Đồng Nai`, so whenever it is
+  emitted it must use a **dated** `P31` span
   (`P580 = 2026-04-30`), never an undated one.
 - **`P576` + `P7888`/`P1366`/`P1365`** for Hà Tây→Hà Nội (`P585` = 2008-08-01).
 - **Recode** → former code carried as an era attribute/alias, **no statement**.

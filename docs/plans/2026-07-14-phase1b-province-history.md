@@ -649,7 +649,7 @@ def test_diff_detects_retype_and_rename_not_orthography_or_renumber():
 
 - [ ] **Step 2: Run test to verify it fails**
 
-Run: `uv run pytest tests/test_history_events.py::test_diff_detects_create_and_retype_not_orthography -q`
+Run: `uv run pytest tests/test_history_events.py::test_diff_detects_retype_and_rename_not_orthography_or_renumber -q`
 Expected: FAIL — `diff_roster` not defined.
 
 - [ ] **Step 3: Add `diff_roster` to `province_history.py`**
@@ -749,7 +749,8 @@ def test_cantho_retype_span_is_dated():
     ct = next(e for e in ents if e.terminal_code == "92")
     types = {s["loai_hinh"] for s in ct.type_spans}
     assert "Tỉnh" in types and any("Thành phố" in t for t in types)
-    assert ct.type_spans[-1]["from"] == "2004-06-30"          # dated -> P31 emits (was the bug)
+    assert ct.type_spans[-1]["from"] == "2004-01-01"          # NQ22 legal date; dated -> P31 emits
+    assert ct.type_spans[0]["to"] == "2004-01-01"             # old province span end-dated (P582)
 
 def test_hue_rename_and_retype_same_entity():
     ents, _ = _build()
@@ -774,7 +775,7 @@ from vn_admin_units.crosswalk import read_province_history_crosswalk
 # The effective date + decree aren't in the terminal snapshot, so name them here.
 # Covers Cần Thơ (2004) and Huế (2025, also a rename). Verify the Huế URL on execution.
 RETYPES = [
-    {"code": "92", "old_name": "Tỉnh Cần Thơ", "date": "2004-06-30",
+    {"code": "92", "old_name": "Tỉnh Cần Thơ", "date": "2004-01-01",   # NQ22 LEGAL date (not GSO 30/06)
      "decree": "Số: 22/2003/QH11; Ngày: 26/11/2003",
      "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-22-2003-QH11-chia-va-dieu-chinh-dia-gioi-hanh-chinh-tinh-51694.aspx"},
     {"code": "46", "old_name": "Tỉnh Thừa Thiên Huế", "date": "2025-01-01",
@@ -851,7 +852,9 @@ def build_province_history(snapshot_dir: str, window_dir: str,
         e.type_spans[-1]["from"] = rt["date"]
         e.type_spans[-1]["decree"] = rt["decree"]
         e.type_spans[-1]["reference_url"] = rt["reference_url"]
-        e.type_spans = [{"loai_hinh": "Tỉnh", "from": None, "to": rt["date"]}] + e.type_spans
+        # the prior province span ENDS (P582) at the retype date; same decree bounds both.
+        e.type_spans = [{"loai_hinh": "Tỉnh", "from": None, "to": rt["date"],
+                         "decree": rt["decree"], "reference_url": rt["reference_url"]}] + e.type_spans
         if fold_name(rt["old_name"]) != fold_name(e.name_vi):
             e.aliases.append(rt["old_name"])
 
@@ -926,8 +929,9 @@ def test_prefilled_ha_tay_qid_survives_rebuild(tmp_path):
     assert seed["ph-28-base"] == ("Q158668", "existing")
     ents = [Entity("ph-28-base", ["28"], "Tỉnh Hà Tây", "Tỉnh",
                    [{"loai_hinh":"Tỉnh","from":None,"to":"2008-07-31"}], [], None, "2008-07-31", None, None)]
+    ents[0].wikidata_qid = "Q_REUSED_WRONG"                    # simulate a reused-but-wrong 1a QID
     apply_history_seed(ents, seed)
-    assert ents[0].wikidata_qid == "Q158668"
+    assert ents[0].wikidata_qid == "Q158668"                   # manual seed OVERRIDES the reused QID
     write_history_mapping(ents, str(csv_path))                 # rebuild must not clobber
     txt = csv_path.read_text(encoding="utf-8")
     assert "Q158668" in txt and "verified" in txt
@@ -978,9 +982,11 @@ def load_history_seed(path: str = "mappings/provinces-history-qid.csv") -> dict:
 
 
 def apply_history_seed(entities: list, seed: dict) -> list:
-    """Fill QIDs from the trusted history seed (does not overwrite an already-set QID)."""
+    """Apply the trusted history seed (verified/manual rows). **Overrides** an already-set
+    QID — a human 'manual' correction must beat a reused-but-wrong 1a QID (Task 12 runs
+    reuse_1a_qids first, then this)."""
     for e in entities:
-        if not e.wikidata_qid and e.local_id in seed:
+        if e.local_id in seed:
             e.wikidata_qid, e.qid_status = seed[e.local_id]
     return entities
 
@@ -1102,14 +1108,17 @@ def test_absorption_emits_dissolution_and_succession_referenced_to_2008():
     assert "Q1858\tP1365\tQ158668" in qs
     assert "Q1858\tP576" not in qs                               # absorber persists
 
-def test_retype_span_is_dated_and_referenced():
+def test_retype_emits_bounded_p31_old_ended_new_started():
     ct = _e("92","Thành phố Cần Thơ","Q1552", vf=None, status="existing",
-            spans=[{"loai_hinh":"Tỉnh","from":None,"to":"2004-06-30"},
-                   {"loai_hinh":"Thành phố Trung ương","from":"2004-06-30","to":"2025-06-30",
+            spans=[{"loai_hinh":"Tỉnh","from":None,"to":"2004-01-01",
+                    "reference_url":"https://decree/22-2003"},
+                   {"loai_hinh":"Thành phố Trung ương","from":"2004-01-01","to":"2025-06-30",
                     "reference_url":"https://decree/22-2003"}])
     qs = emit_history_quickstatements([ct], [], default_ref_url="https://nso")
-    p31 = next(l for l in qs.splitlines() if l.startswith("Q1552\tP31"))
-    assert "P580\t+2004-06-30T00:00:00Z/11" in p31 and '"https://decree/22-2003"' in p31
+    p31 = [l for l in qs.splitlines() if l.startswith("Q1552\tP31")]
+    assert any("P582\t+2004-01-01T00:00:00Z/11" in l for l in p31)   # old province type end-dated
+    assert any("P580\t+2004-01-01T00:00:00Z/11" in l for l in p31)   # new city type start-dated
+    assert all('"https://decree/22-2003"' in l for l in p31)         # both referenced to the decree
 ```
 
 - [ ] **Step 2: Run test to verify it fails**
@@ -1153,13 +1162,18 @@ def emit_history_quickstatements(entities: list, edges: list, default_ref_url: s
             ce = carve_edge.get(e.local_id)
             ref = _ref(ce.reference_url if ce and ce.reference_url else default_ref_url)
             add(f"{e.wikidata_qid}\tP571\t{_date(e.valid_from)}\t{ref}")
-        # retype: dated P31 per span with a known start; referenced to the retype decree.
-        for span in e.type_spans:
-            if not span.get("from"):
-                continue
+        # retype: bound BOTH the old type (P582 end) and the new type (P580 start).
+        # Only retyped entities have >1 span. The terminal span's `to` is the entity's
+        # valid_to (reform/dissolution, handled by P576), NOT a type-change end -> no P582.
+        n = len(e.type_spans)
+        for i, span in enumerate(e.type_spans):
             target = P31_CITY_TW if span["loai_hinh"].startswith("Thành phố") else P31_PROVINCE
             ref = _ref(span.get("reference_url") or default_ref_url)
-            add(f"{e.wikidata_qid}\tP31\t{target}\tP580\t{_date(span['from'])}\t{ref}")
+            if i < n - 1:                               # an earlier type ended via retype
+                if span.get("to"):
+                    add(f"{e.wikidata_qid}\tP31\t{target}\tP582\t{_date(span['to'])}\t{ref}")
+            elif span.get("from"):                      # the terminal type started via retype
+                add(f"{e.wikidata_qid}\tP31\t{target}\tP580\t{_date(span['from'])}\t{ref}")
 
     for ed in edges:
         pre, post = by_id[ed.predecessor], by_id[ed.successor]
@@ -1373,4 +1387,5 @@ git commit -m "feat(phase1b): wire province-history pipeline; emit 2002-2025 Qui
 - **Type consistency:** `Entity.terminal_code`, `gso_codes`, `type_spans`, `valid_from`; `LineageEdge.relation ∈ {carved_from, absorbed_into}`; `hist_local_id`; `read_province_history_crosswalk`; `emit_history_quickstatements` — names identical across tasks.
 - **Data-dependent iteration (house style):** T8 is gated by `tests/test_province_history_groundtruth.py`; extend the assembly against real fetched data until green, never weaken the assertions; unclassifiable provinces go to a logged residue file.
 - **Unverified externals to confirm during execution (flagged in-task, not placeholders):** the Hà Tây 2008 decree string + URL (`HA_TAY_2008`), the Huế NQ 175/2024 URL (`RETYPES`), the Hà Tây QID (manual verify, T9), and the `P31` type-target QIDs (`Q13079705`/`Q3623867`, T11 gate).
+- **Fifth-review fixes baked in (2026-07-14):** Cần Thơ retype uses the NQ22 **legal** date `2004-01-01` (was the GSO service date), consistent with the carve-out `P571`s and the ¹ footnote (now covering `P580`); the retype emitter bounds **both** the old type (`P582` end) and the new type (`P580` start), so the old province `P31` is no longer left unbounded; `apply_history_seed` now **overrides** a reused QID so a `manual` correction wins (Task 12 order: reuse → override); Task 7's red-step command uses the renamed test.
 - **Fourth-review fixes baked in (2026-07-14):** Hà Tây QID preserved across rebuilds via `load_history_seed`/`apply_history_seed` + `write_history_mapping` preserving verified rows (T9/T12), with a survival test; Cần Thơ retype span dated `from` so its `P31` actually emits (T8) + Huế added to `RETYPES` and `diff_roster` made code-keyed so rename+retype is SAME not dissolve+create (T7/T8) + Huế ground-truth test; per-event references carried on edges/spans (`reference_url`) instead of one batch URL (T5/T8/T10/T12); `audit_history_qids` now does name/label match, not just type (T9); `--tier` defaults to `district` to preserve existing commands (T1); T11 P807 value-type downgraded to an honest manual gate.
