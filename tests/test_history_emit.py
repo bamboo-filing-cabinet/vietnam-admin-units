@@ -18,6 +18,7 @@ def test_carve_out_emits_p571_despite_existing_item_and_p807_referenced_to_decre
     assert '"https://decree/22-2003"' in p571                    # referenced to the carve-out decree
     assert "Q36955\tP807\tQ19608" in qs                          # separated from parent
     assert "Q19608\tP576" not in qs                              # parent persists
+    assert "\tP31\t" not in qs                                   # single-span entities: no restated P31
 
 
 def test_absorption_emits_dissolution_and_succession_referenced_to_2008():

@@ -78,17 +78,21 @@ def emit_history_quickstatements(entities: list, edges: list, default_ref_url: s
             ref = _ref(ce.reference_url if ce and ce.reference_url else default_ref_url)
             add(f"{e.wikidata_qid}\tP571\t{_date(e.valid_from)}\t{ref}")
         # retype: bound BOTH the old type (P582 end) and the new type (P580 start).
-        # Only retyped entities have >1 span. The terminal span's `to` is the entity's
-        # valid_to (reform/dissolution, handled by P576), NOT a type-change end -> no P582.
+        # ONLY for entities that GENUINELY retyped (>1 type span). A single-span entity
+        # did not change type — its existing WD P31 is correct, so don't restate it
+        # (that would add a redundant/competing P31, e.g. on the carve-out children).
+        # The terminal span's `to` is the entity's valid_to (reform/dissolution, handled
+        # by P576), NOT a type-change end -> no P582.
         n = len(e.type_spans)
-        for i, span in enumerate(e.type_spans):
-            target = P31_CITY_TW if span["loai_hinh"].startswith("Thành phố") else P31_PROVINCE
-            ref = _ref(span.get("reference_url") or default_ref_url)
-            if i < n - 1:                               # an earlier type ended via retype
-                if span.get("to"):
-                    add(f"{e.wikidata_qid}\tP31\t{target}\tP582\t{_date(span['to'])}\t{ref}")
-            elif span.get("from"):                      # the terminal type started via retype
-                add(f"{e.wikidata_qid}\tP31\t{target}\tP580\t{_date(span['from'])}\t{ref}")
+        if n > 1:
+            for i, span in enumerate(e.type_spans):
+                target = P31_CITY_TW if span["loai_hinh"].startswith("Thành phố") else P31_PROVINCE
+                ref = _ref(span.get("reference_url") or default_ref_url)
+                if i < n - 1:                           # an earlier type ended via retype
+                    if span.get("to"):
+                        add(f"{e.wikidata_qid}\tP31\t{target}\tP582\t{_date(span['to'])}\t{ref}")
+                elif span.get("from"):                  # the terminal type started via retype
+                    add(f"{e.wikidata_qid}\tP31\t{target}\tP580\t{_date(span['from'])}\t{ref}")
 
     for ed in edges:
         pre, post = by_id[ed.predecessor], by_id[ed.successor]
