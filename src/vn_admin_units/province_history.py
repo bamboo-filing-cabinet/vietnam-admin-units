@@ -10,6 +10,29 @@ from dataclasses import dataclass, asdict
 from pathlib import Path
 from typing import Optional
 
+from vn_admin_units.names import fold_name
+
+
+def diff_roster(before: list, after: list) -> dict:
+    """Code-keyed diff of two ADJACENT-year province snapshots (same code-era, so
+    codes are stable). Same code + changed type = retype; same code + changed folded
+    name = rename — both SAME entity (catches Huế: Thừa Thiên Huế→Huế, code 46), NOT
+    dissolve+create. 'Hoà'/'Hòa' orthography folds equal → no event. NOT valid across
+    the 2004 renumber (codes change there — that boundary is handled by the Đối Chiếu
+    remap window + carve-out decree, not this diff)."""
+    b = {r["ma"]: r for r in before}
+    a = {r["ma"]: r for r in after}
+    created = sorted(a[k]["ten"] for k in a.keys() - b.keys())
+    dissolved = sorted(b[k]["ten"] for k in b.keys() - a.keys())
+    retyped, renamed = [], []
+    for k in a.keys() & b.keys():
+        if b[k]["loai_hinh"] != a[k]["loai_hinh"]:
+            retyped.append({"from": b[k]["ten"], "to": a[k]["ten"],
+                            "loai_hinh_from": b[k]["loai_hinh"], "loai_hinh_to": a[k]["loai_hinh"]})
+        elif fold_name(b[k]["ten"]) != fold_name(a[k]["ten"]):
+            renamed.append({"from": b[k]["ten"], "to": a[k]["ten"]})
+    return {"created": created, "dissolved": dissolved, "retyped": retyped, "renamed": renamed}
+
 
 def load_carve_outs(path: str = "data/decrees/2004-splits.json") -> dict:
     """The curated 2004 carve-out pairings + decree/reference (parentage the GSO
