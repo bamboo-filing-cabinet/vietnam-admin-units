@@ -759,6 +759,9 @@ def test_hue_rename_and_retype_same_entity():
     city_span = hue.type_spans[-1]
     assert city_span["from"] == "2025-01-01" and "Thành phố" in city_span["loai_hinh"]
     assert hue.valid_from is None                             # existed pre-2004; retype != inception
+    # gso_code history must survive the rename: the pre-2004 3-digit code is recovered
+    # via old_name even though the terminal-name renumber lookup missed it.
+    assert hue.gso_codes[0] == "411" and "411" in hue.aliases
 ```
 
 - [ ] **Step 2: Run test to verify it fails**
@@ -857,6 +860,14 @@ def build_province_history(snapshot_dir: str, window_dir: str,
                          "decree": rt["decree"], "reference_url": rt["reference_url"]}] + e.type_spans
         if fold_name(rt["old_name"]) != fold_name(e.name_vi):
             e.aliases.append(rt["old_name"])
+            # Renamed retype (e.g. Huế: Thừa Thiên Huế→Huế): the renumber map above was
+            # keyed by the OLD folded name, so the terminal-name lookup missed the
+            # pre-2004 code. Recover it via old_name so gso_code history is complete.
+            rn = renumber.get(fold_name(rt["old_name"]))
+            if rn and rn["old"] not in e.gso_codes:
+                e.gso_codes.insert(0, rn["old"])
+                if rn["old"] not in e.aliases:
+                    e.aliases.append(rn["old"])
 
     # 2008 Hà Tây absorption: Hà Tây is NOT in the 2025 roster -> add it, ended.
     ht_window = read_province_history_crosswalk(f"{window_dir}/province_2008-01-01_2009-01-01.xls")
@@ -1197,7 +1208,7 @@ def emit_history_quickstatements(entities: list, edges: list, default_ref_url: s
 - [ ] **Step 4: Run test to verify it passes**
 
 Run: `uv run pytest tests/test_history_emit.py -q`
-Expected: PASS (3 tests). The `P31` target QIDs (`Q13079705`, `Q3623867`) must be confirmed against live WD in Task 11; if different, update the constants (the tests only assert the `P31`+`P580` shape, so they stay green).
+Expected: PASS (3 tests). ⚠️ The `P31` target QIDs (`Q13079705`, `Q3623867`) are **not** validated by these tests (they assert statement *shape* only) — they are confirmed by the **Task 11 `describe_items` step**, which prints the two items' labels. A wrong target QID would pass here and emit a wrong `P31`, so do not skip that confirmation.
 
 - [ ] **Step 5: Commit**
 
@@ -1245,6 +1256,21 @@ def qualifier_allowed(allowed: set | None, qualifier_pid: str) -> bool:
     """True if `qualifier_pid` is permitted: None = no allowed-qualifiers constraint
     declared (anything allowed); otherwise membership in the allowed set."""
     return True if allowed is None else qualifier_pid in allowed
+
+
+def describe_items(qids: list[str], timeout: int = 30) -> None:
+    """Print vi/en labels + en description of item QIDs, for MANUAL confirmation of
+    emit's P31 TARGET items (Q13079705 / Q3623867). The qualifier check does NOT
+    validate these — a wrong target QID would emit a wrong P31 while all tests pass."""
+    u = "https://www.wikidata.org/w/api.php?" + urllib.parse.urlencode({
+        "action": "wbgetentities", "ids": "|".join(qids),
+        "props": "labels|descriptions", "languages": "vi|en", "format": "json"})
+    ents = _get_json(u, timeout).get("entities", {})
+    for q in qids:
+        lab = ents.get(q, {}).get("labels", {})
+        desc = ents.get(q, {}).get("descriptions", {})
+        print(f"  {q}: en='{lab.get('en',{}).get('value','?')}' "
+              f"vi='{lab.get('vi',{}).get('value','?')}' — {desc.get('en',{}).get('value','')}")
 ```
 
 Then extend `main` to check the Phase-1b property/qualifier pairs and the `P807` value-type (report-only, like the existing tool):
@@ -1265,6 +1291,8 @@ Add, inside `main`, after the existing loop:
         print(f"  {pid} + {qual}: {'OK' if qualifier_allowed(aq, qual) else 'DISALLOWED'}")
     print("  P807 value-type: inspect https://www.wikidata.org/wiki/Property:P807 "
           "for 'administrative territorial entity' in the value-type constraint.")
+    print("\n=== Phase-1b P31 target items — CONFIRM before emit ===")
+    describe_items(["Q13079705", "Q3623867"])   # expect 'province of Vietnam' / 'centrally-run city'
 ```
 
 - [ ] **Step 4: Run test to verify it passes**
@@ -1275,7 +1303,12 @@ Expected: PASS.
 - [ ] **Step 5: Run the gate live (report)**
 
 Run: `uv run python -m vn_admin_units.constraints P31 P7888 P1365 P1366 P807`
-Expected: prints OK/DISALLOWED per combo. Record the result in the plan's Task-12 spot-check; if any combo is DISALLOWED, adjust emit (e.g. move a qualifier) before upload.
+Expected: prints OK/DISALLOWED per combo, **and** the labels of the two `P31` target
+items. **Confirm** `Q13079705` = "province of Vietnam" and `Q3623867` = "centrally-run
+city of Vietnam" (or the current WD equivalents); if either label is wrong, fix the
+`emit.py` constants `P31_PROVINCE`/`P31_CITY_TW` before emitting — the emit tests only
+assert statement shape, so a wrong target QID would pass them. If any qualifier combo
+is DISALLOWED, adjust emit (e.g. move a qualifier) before upload.
 
 - [ ] **Step 6: Commit**
 
@@ -1386,6 +1419,7 @@ git commit -m "feat(phase1b): wire province-history pipeline; emit 2002-2025 Qui
 - **Review findings baked in:** carve-outs reuse 1a QIDs (T9), `P571` gated on `valid_from` not `qid_status` (T10 + test), separate `provinces-history-qid.csv` to avoid the `_write_csv` clobber (T9), audit extended past `pre2025` (T9), `cache_snapshots` parameterized not reused (T3), dated retypes / Đồng Nai out of scope (T3/T10), constraints tool extended not just re-run (T11).
 - **Type consistency:** `Entity.terminal_code`, `gso_codes`, `type_spans`, `valid_from`; `LineageEdge.relation ∈ {carved_from, absorbed_into}`; `hist_local_id`; `read_province_history_crosswalk`; `emit_history_quickstatements` — names identical across tasks.
 - **Data-dependent iteration (house style):** T8 is gated by `tests/test_province_history_groundtruth.py`; extend the assembly against real fetched data until green, never weaken the assertions; unclassifiable provinces go to a logged residue file.
-- **Unverified externals to confirm during execution (flagged in-task, not placeholders):** the Hà Tây 2008 decree string + URL (`HA_TAY_2008`), the Huế NQ 175/2024 URL (`RETYPES`), the Hà Tây QID (manual verify, T9), and the `P31` type-target QIDs (`Q13079705`/`Q3623867`, T11 gate).
+- **Unverified externals to confirm during execution (flagged in-task, not placeholders):** the Hà Tây 2008 decree string + URL (`HA_TAY_2008`), the Huế NQ 175/2024 URL (`RETYPES`), the Hà Tây QID (manual verify, T9), and the `P31` type-target QIDs (`Q13079705`/`Q3623867`, confirmed via the T11 `describe_items` label report — **not** by any test).
+- **Sixth-review fixes baked in (2026-07-14):** Huế's renamed retype now recovers its pre-2004 code (411) via `old_name` (the terminal-name renumber lookup missed it), with a ground-truth assertion that `gso_codes` starts at `411` — satisfies the "gso_code history" requirement for renamed retypes; and the `P31` target QIDs are now confirmed by a real `describe_items` label report in T11 (the emit tests assert shape only), with the overclaim wording corrected in T10/self-review.
 - **Fifth-review fixes baked in (2026-07-14):** Cần Thơ retype uses the NQ22 **legal** date `2004-01-01` (was the GSO service date), consistent with the carve-out `P571`s and the ¹ footnote (now covering `P580`); the retype emitter bounds **both** the old type (`P582` end) and the new type (`P580` start), so the old province `P31` is no longer left unbounded; `apply_history_seed` now **overrides** a reused QID so a `manual` correction wins (Task 12 order: reuse → override); Task 7's red-step command uses the renamed test.
 - **Fourth-review fixes baked in (2026-07-14):** Hà Tây QID preserved across rebuilds via `load_history_seed`/`apply_history_seed` + `write_history_mapping` preserving verified rows (T9/T12), with a survival test; Cần Thơ retype span dated `from` so its `P31` actually emits (T8) + Huế added to `RETYPES` and `diff_roster` made code-keyed so rename+retype is SAME not dissolve+create (T7/T8) + Huế ground-truth test; per-event references carried on edges/spans (`reference_url`) instead of one batch URL (T5/T8/T10/T12); `audit_history_qids` now does name/label match, not just type (T9); `--tier` defaults to `district` to preserve existing commands (T1); T11 P807 value-type downgraded to an honest manual gate.
