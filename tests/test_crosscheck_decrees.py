@@ -22,3 +22,34 @@ def test_district_structural_false_for_ward_level_within_a_district():
 def test_district_structural_false_for_province_tier():
     # central-government city is the province tier, not a district
     assert not is_district_structural("Về việc thành lập thành phố Huế trực thuộc trung ương")
+
+
+from vn_admin_units.crosscheck_decrees import decree_index, decree_for
+
+_RECORDS = [
+    {"code": "897/NQ-UBTVQH14", "hieu_luc": "01/03/2020", "url": "https://vb/897",
+     "noi_dung": "sắp xếp các đơn vị hành chính cấp huyện; nhập huyện Thông Nông vào huyện Hà Quảng"},
+    {"code": "132/NQ-CP", "hieu_luc": "28/12/2013", "url": "https://vb/132",
+     "noi_dung": "điều chỉnh địa giới hành chính huyện Từ Liêm để thành lập 02 quận"},
+    {"code": "999/NQ-CP", "hieu_luc": "28/12/2013", "url": "https://vb/999",
+     "noi_dung": "thành lập thị xã khác, không liên quan"},
+    {"code": "133/NQ-CP", "hieu_luc": "30/12/2013", "url": "https://vb/133",
+     "noi_dung": "thành lập thị xã Ngã Năm thuộc tỉnh Sóc Trăng"},
+]
+
+def test_decree_for_matches_source_name_via_alias_on_ambiguous_date():
+    idx = decree_index(_RECORDS)
+    assert decree_for(idx, "Quận Nam Từ Liêm", "2013-12-28",
+                      aliases=["Huyện Từ Liêm"]) == ("132/NQ-CP", "https://vb/132")
+
+def test_decree_for_matches_by_own_name_and_returns_url():
+    idx = decree_index(_RECORDS)
+    assert decree_for(idx, "Huyện Hà Quảng", "2020-03-01") == ("897/NQ-UBTVQH14", "https://vb/897")
+
+def test_decree_for_single_candidate_falls_back_to_date_only():
+    idx = decree_index(_RECORDS)
+    assert decree_for(idx, "Thị xã Ngã Năm", "2013-12-30") == ("133/NQ-CP", "https://vb/133")
+
+def test_decree_for_returns_empty_pair_when_ambiguous_and_no_name_hit():
+    idx = decree_index(_RECORDS)
+    assert decree_for(idx, "Huyện Không Có", "2013-12-28") == ("", "")
