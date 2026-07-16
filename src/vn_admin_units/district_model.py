@@ -7,8 +7,10 @@ then applies the universal 2025 abolition. See docs/DESIGN-phase2.md."""
 from __future__ import annotations
 
 import logging
+from collections import defaultdict
 
 from vn_admin_units.core import Entity, LineageEdge
+from vn_admin_units.ghichu import parse_district_ghichu
 from vn_admin_units.names import fold_district_name
 
 log = logging.getLogger("vn_admin_units.district_model")
@@ -93,6 +95,36 @@ def District(code: str, valid_from, valid_to, name_vi: str, loai_hinh: str,
         valid_from=valid_from, valid_to=valid_to,
         wikidata_qid=wikidata_qid, qid_status=qid_status,
         parent_spans=parent_spans or [])
+
+
+def group_by_event(events: list) -> dict:
+    """{(effective_date, province): [events]} — candidate operation buckets. A
+    single bucket may still hold several independent operations (2020 Cao Bằng), so
+    callers pair predecessors to successors within it via prose/discriminator."""
+    g = defaultdict(list)
+    for e in events:
+        prov = e.get("tinh_to") or e.get("tinh_from")
+        g[(e["eff_date"], prov)].append(e)
+    return dict(g)
+
+
+def source_survives(source_name: str, roster_next_folds: set) -> bool:
+    """Carve-out vs. split discriminator (design §5): does the named source district
+    survive into the next window's roster? Survives → carve-out (parent persists,
+    P807). Gone → division/merger (predecessor ends, P576/P1365)."""
+    return fold_district_name(source_name) in roster_next_folds
+
+
+def resolve_merge_target(event: dict, code_by_fold: dict) -> str | None:
+    """CODE of the district a dissolved unit folds into (the caller resolves the code
+    to an Entity). Uses the Ghi Chú 'vào <huyện Y>' target; `code_by_fold` maps folded
+    unit names — built from BOTH base and successor names by the caller, so a 'vào
+    <old name>' target still resolves after the survivor was renamed. Returns None
+    when unresolvable (→ manual residue)."""
+    parsed = parse_district_ghichu(event.get("ghi_chu", ""))
+    if parsed["event"] == "merge" and parsed["target"]:
+        return code_by_fold.get(fold_district_name(parsed["target"]))
+    return None
 
 
 def detect_collisions(entities: list) -> list:
