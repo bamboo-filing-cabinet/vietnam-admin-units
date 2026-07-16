@@ -1,11 +1,10 @@
-REFERENCE_URL = "https://danhmuchanhchinh.nso.gov.vn/"
+from vn_admin_units.core import wd_date as _date, ref_s854 as _ref, REFERENCE_URL
 
-
-def _date(d: str) -> str:
-    """Wikidata date literal (day precision). Defensively takes the date part in
-    case a source ever passes a datetime string like '2025-07-01 00:00:00'."""
-    d = str(d).strip().split(" ")[0].split("T")[0]
-    return f"+{d}T00:00:00Z/11"
+NSO_SOURCE_URL = REFERENCE_URL
+# WD item QIDs for the two admin-unit types (confirmed via constraints.describe_items
+# 2026-07-14: the placeholder QIDs were wrong — Myanmar settlement / Benin arrondissement).
+P31_PROVINCE = "Q2824648"        # "province of Vietnam"
+P31_CITY_TW = "Q1381899"         # "centrally-controlled city of Vietnam"
 
 
 def emit_quickstatements(entities: list, edges: list) -> str:
@@ -41,16 +40,6 @@ def emit_quickstatements(entities: list, edges: list) -> str:
 
 
 # ── Phase 1b: relation-aware history emitter ──
-
-NSO_SOURCE_URL = "https://danhmuchanhchinh.nso.gov.vn/"
-# WD item QIDs for the two admin-unit types (confirmed via constraints.describe_items
-# 2026-07-14: the placeholder QIDs were wrong — Myanmar settlement / Benin arrondissement).
-P31_PROVINCE = "Q2824648"        # "province of Vietnam"
-P31_CITY_TW = "Q1381899"         # "centrally-controlled city of Vietnam"
-
-
-def _ref(url: str) -> str:
-    return f'S854\t"{url}"'
 
 
 def emit_history_quickstatements(entities: list, edges: list, default_ref_url: str) -> str:
