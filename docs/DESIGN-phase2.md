@@ -101,8 +101,9 @@ not an edge. (Taxonomy per journal `2026-07-10.10`.)
 For each yearly window in chronological order, harvest the **changed rows** (new /
 dissolved / renamed / type-changed / **re-parented**) as dated events carrying the
 crosswalk fields + `Ghi Chú`. Seed entities from the 2004 baseline roster, apply
-events chronologically — chaining by district code — to build each entity's
-timeline and the lineage edges, then apply the universal 2025 abolition.
+events chronologically — chaining by district code, with code reuse/inheritance
+across event boundaries disambiguated via `local_id` (`d-{code}-{gen}`) — to build
+each entity's timeline and the lineage edges, then apply the universal 2025 abolition.
 
 **Cross-validation (built in):** the events harvested for year Y must exactly
 explain the roster delta between the Y and Y+1 window snapshots; any mismatch is
@@ -137,7 +138,7 @@ blank), so it is never required:
 | pattern | event | edge |
 | --- | --- | --- |
 | `nhập (toàn bộ) … huyện X vào huyện Y` | merge | X `merged_into` Y |
-| `chia tách từ huyện X (cũ)` / `thành lập … trên cơ sở … X` | split | new `split_from` X |
+| `chia tách từ huyện X (cũ)` / `thành lập … trên cơ sở … X` | split / carve | new `split`/`carved_from` X (per the carve-vs-split discriminator) |
 | `thành lập (huyện/quận/thị xã/thành phố) X` | creation | new entity |
 | `đổi tên … thành …` | rename | relabel (same entity) |
 | `thay đổi loại hình` | type-upgrade | relabel (same entity) |
@@ -163,9 +164,13 @@ province)**, not name alone.
 ## Emit (extends `emit.py`)
 
 - **`P576` (dissolved) only on entities that actually END** — whose `valid_to`
-  equals this event's date. A `carved_from` or `absorbed_into` predecessor that
-  **persists** gets **no `P576`**. (Key fix: never dissolve a survivor of a
-  carve-out/absorption.)
+  is the day **before** this event's date (i.e. `valid_to` is the last in-force day
+  and the `P576` value is the event date = `valid_to` + 1; see §Date convention).
+  A `carved_from` predecessor **persists** (the parent shrinks) and an
+  absorption's **absorber** (the successor) persists, so neither gets `P576` — but
+  the `absorbed_into` **predecessor** itself does end and **does** get `P576` (it is
+  in `PREDECESSOR_ENDS`). (Key fix: never dissolve the *survivor* of a
+  carve-out/absorption — i.e. the persisting parent/absorber, not the absorbed unit.)
 - **Succession by relation:** an **ended** predecessor → `P7888`/`P1366` →
   successor, and successor → `P1365` → predecessor, `P585` = event date. A
   **`carved_from`** child (parent persists) instead uses **`P807` (separated from) →
