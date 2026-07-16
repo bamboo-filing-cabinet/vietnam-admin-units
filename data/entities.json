@@ -1,1069 +1,1554 @@
 [
   {
     "local_id": "p-01-pre2025",
-    "gso_code": "01",
-    "era": "pre2025",
+    "gso_codes": [
+      "01"
+    ],
     "name_vi": "Thành phố Hà Nội",
     "loai_hinh": "Thành phố Trung ương",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q1858",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-02-pre2025",
-    "gso_code": "02",
-    "era": "pre2025",
+    "gso_codes": [
+      "02"
+    ],
     "name_vi": "Tỉnh Hà Giang",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36685",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-04-pre2025",
-    "gso_code": "04",
-    "era": "pre2025",
+    "gso_codes": [
+      "04"
+    ],
     "name_vi": "Tỉnh Cao Bằng",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36865",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-06-pre2025",
-    "gso_code": "06",
-    "era": "pre2025",
+    "gso_codes": [
+      "06"
+    ],
     "name_vi": "Tỉnh Bắc Kạn",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36404",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-08-pre2025",
-    "gso_code": "08",
-    "era": "pre2025",
+    "gso_codes": [
+      "08"
+    ],
     "name_vi": "Tỉnh Tuyên Quang",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q2332060",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-10-pre2025",
-    "gso_code": "10",
-    "era": "pre2025",
+    "gso_codes": [
+      "10"
+    ],
     "name_vi": "Tỉnh Lào Cai",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36446",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-11-pre2025",
-    "gso_code": "11",
-    "era": "pre2025",
+    "gso_codes": [
+      "11"
+    ],
     "name_vi": "Tỉnh Điện Biên",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36955",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-12-pre2025",
-    "gso_code": "12",
-    "era": "pre2025",
+    "gso_codes": [
+      "12"
+    ],
     "name_vi": "Tỉnh Lai Châu",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36409",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-14-pre2025",
-    "gso_code": "14",
-    "era": "pre2025",
+    "gso_codes": [
+      "14"
+    ],
     "name_vi": "Tỉnh Sơn La",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q33379",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-15-pre2025",
-    "gso_code": "15",
-    "era": "pre2025",
+    "gso_codes": [
+      "15"
+    ],
     "name_vi": "Tỉnh Yên Bái",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36349",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-17-pre2025",
-    "gso_code": "17",
-    "era": "pre2025",
+    "gso_codes": [
+      "17"
+    ],
     "name_vi": "Tỉnh Hoà Bình",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36015",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-19-pre2025",
-    "gso_code": "19",
-    "era": "pre2025",
+    "gso_codes": [
+      "19"
+    ],
     "name_vi": "Tỉnh Thái Nguyên",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q26575",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-20-pre2025",
-    "gso_code": "20",
-    "era": "pre2025",
+    "gso_codes": [
+      "20"
+    ],
     "name_vi": "Tỉnh Lạng Sơn",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q33403",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-22-pre2025",
-    "gso_code": "22",
-    "era": "pre2025",
+    "gso_codes": [
+      "22"
+    ],
     "name_vi": "Tỉnh Quảng Ninh",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q33396",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-24-pre2025",
-    "gso_code": "24",
-    "era": "pre2025",
+    "gso_codes": [
+      "24"
+    ],
     "name_vi": "Tỉnh Bắc Giang",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36367",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-25-pre2025",
-    "gso_code": "25",
-    "era": "pre2025",
+    "gso_codes": [
+      "25"
+    ],
     "name_vi": "Tỉnh Phú Thọ",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36610",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-26-pre2025",
-    "gso_code": "26",
-    "era": "pre2025",
+    "gso_codes": [
+      "26"
+    ],
     "name_vi": "Tỉnh Vĩnh Phúc",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q27566",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-27-pre2025",
-    "gso_code": "27",
-    "era": "pre2025",
+    "gso_codes": [
+      "27"
+    ],
     "name_vi": "Tỉnh Bắc Ninh",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q33408",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-30-pre2025",
-    "gso_code": "30",
-    "era": "pre2025",
+    "gso_codes": [
+      "30"
+    ],
     "name_vi": "Tỉnh Hải Dương",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36729",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-31-pre2025",
-    "gso_code": "31",
-    "era": "pre2025",
+    "gso_codes": [
+      "31"
+    ],
     "name_vi": "Thành phố Hải Phòng",
     "loai_hinh": "Thành phố Trung ương",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q72818",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-33-pre2025",
-    "gso_code": "33",
-    "era": "pre2025",
+    "gso_codes": [
+      "33"
+    ],
     "name_vi": "Tỉnh Hưng Yên",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36235",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-34-pre2025",
-    "gso_code": "34",
-    "era": "pre2025",
+    "gso_codes": [
+      "34"
+    ],
     "name_vi": "Tỉnh Thái Bình",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36681",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-35-pre2025",
-    "gso_code": "35",
-    "era": "pre2025",
+    "gso_codes": [
+      "35"
+    ],
     "name_vi": "Tỉnh Hà Nam",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36413",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-36-pre2025",
-    "gso_code": "36",
-    "era": "pre2025",
+    "gso_codes": [
+      "36"
+    ],
     "name_vi": "Tỉnh Nam Định",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36907",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-37-pre2025",
-    "gso_code": "37",
-    "era": "pre2025",
+    "gso_codes": [
+      "37"
+    ],
     "name_vi": "Tỉnh Ninh Bình",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36900",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-38-pre2025",
-    "gso_code": "38",
-    "era": "pre2025",
+    "gso_codes": [
+      "38"
+    ],
     "name_vi": "Tỉnh Thanh Hóa",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36512",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-40-pre2025",
-    "gso_code": "40",
-    "era": "pre2025",
+    "gso_codes": [
+      "40"
+    ],
     "name_vi": "Tỉnh Nghệ An",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36587",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-42-pre2025",
-    "gso_code": "42",
-    "era": "pre2025",
+    "gso_codes": [
+      "42"
+    ],
     "name_vi": "Tỉnh Hà Tĩnh",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q33351",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-44-pre2025",
-    "gso_code": "44",
-    "era": "pre2025",
+    "gso_codes": [
+      "44"
+    ],
     "name_vi": "Tỉnh Quảng Bình",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q23533",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-45-pre2025",
-    "gso_code": "45",
-    "era": "pre2025",
+    "gso_codes": [
+      "45"
+    ],
     "name_vi": "Tỉnh Quảng Trị",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36579",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-46-pre2025",
-    "gso_code": "46",
-    "era": "pre2025",
+    "gso_codes": [
+      "46"
+    ],
     "name_vi": "Thành phố Huế",
     "loai_hinh": "Thành phố Trung ương",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36399",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-48-pre2025",
-    "gso_code": "48",
-    "era": "pre2025",
+    "gso_codes": [
+      "48"
+    ],
     "name_vi": "Thành phố Đà Nẵng",
     "loai_hinh": "Thành phố Trung ương",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q25282",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-49-pre2025",
-    "gso_code": "49",
-    "era": "pre2025",
+    "gso_codes": [
+      "49"
+    ],
     "name_vi": "Tỉnh Quảng Nam",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q33356",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-51-pre2025",
-    "gso_code": "51",
-    "era": "pre2025",
+    "gso_codes": [
+      "51"
+    ],
     "name_vi": "Tỉnh Quảng Ngãi",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q33304",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-52-pre2025",
-    "gso_code": "52",
-    "era": "pre2025",
+    "gso_codes": [
+      "52"
+    ],
     "name_vi": "Tỉnh Bình Định",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36693",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-54-pre2025",
-    "gso_code": "54",
-    "era": "pre2025",
+    "gso_codes": [
+      "54"
+    ],
     "name_vi": "Tỉnh Phú Yên",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36725",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-56-pre2025",
-    "gso_code": "56",
-    "era": "pre2025",
+    "gso_codes": [
+      "56"
+    ],
     "name_vi": "Tỉnh Khánh Hòa",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q33369",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-58-pre2025",
-    "gso_code": "58",
-    "era": "pre2025",
+    "gso_codes": [
+      "58"
+    ],
     "name_vi": "Tỉnh Ninh Thuận",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36903",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-60-pre2025",
-    "gso_code": "60",
-    "era": "pre2025",
+    "gso_codes": [
+      "60"
+    ],
     "name_vi": "Tỉnh Bình Thuận",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36869",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-62-pre2025",
-    "gso_code": "62",
-    "era": "pre2025",
+    "gso_codes": [
+      "62"
+    ],
     "name_vi": "Tỉnh Kon Tum",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36315",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-64-pre2025",
-    "gso_code": "64",
-    "era": "pre2025",
+    "gso_codes": [
+      "64"
+    ],
     "name_vi": "Tỉnh Gia Lai",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36662",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-66-pre2025",
-    "gso_code": "66",
-    "era": "pre2025",
+    "gso_codes": [
+      "66"
+    ],
     "name_vi": "Tỉnh Đắk Lắk",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36690",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-67-pre2025",
-    "gso_code": "67",
-    "era": "pre2025",
+    "gso_codes": [
+      "67"
+    ],
     "name_vi": "Tỉnh Đắk Nông",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36723",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-68-pre2025",
-    "gso_code": "68",
-    "era": "pre2025",
+    "gso_codes": [
+      "68"
+    ],
     "name_vi": "Tỉnh Lâm Đồng",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36721",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-70-pre2025",
-    "gso_code": "70",
-    "era": "pre2025",
+    "gso_codes": [
+      "70"
+    ],
     "name_vi": "Tỉnh Bình Phước",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36672",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-72-pre2025",
-    "gso_code": "72",
-    "era": "pre2025",
+    "gso_codes": [
+      "72"
+    ],
     "name_vi": "Tỉnh Tây Ninh",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36608",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-74-pre2025",
-    "gso_code": "74",
-    "era": "pre2025",
+    "gso_codes": [
+      "74"
+    ],
     "name_vi": "Tỉnh Bình Dương",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36866",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-75-pre2025",
-    "gso_code": "75",
-    "era": "pre2025",
+    "gso_codes": [
+      "75"
+    ],
     "name_vi": "Tỉnh Đồng Nai",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q33271",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-77-pre2025",
-    "gso_code": "77",
-    "era": "pre2025",
+    "gso_codes": [
+      "77"
+    ],
     "name_vi": "Tỉnh Bà Rịa - Vũng Tàu",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36874",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-79-pre2025",
-    "gso_code": "79",
-    "era": "pre2025",
+    "gso_codes": [
+      "79"
+    ],
     "name_vi": "Thành phố Hồ Chí Minh",
     "loai_hinh": "Thành phố Trung ương",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q1854",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-80-pre2025",
-    "gso_code": "80",
-    "era": "pre2025",
+    "gso_codes": [
+      "80"
+    ],
     "name_vi": "Tỉnh Long An",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q26573",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-82-pre2025",
-    "gso_code": "82",
-    "era": "pre2025",
+    "gso_codes": [
+      "82"
+    ],
     "name_vi": "Tỉnh Tiền Giang",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36666",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-83-pre2025",
-    "gso_code": "83",
-    "era": "pre2025",
+    "gso_codes": [
+      "83"
+    ],
     "name_vi": "Tỉnh Bến Tre",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q33366",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-84-pre2025",
-    "gso_code": "84",
-    "era": "pre2025",
+    "gso_codes": [
+      "84"
+    ],
     "name_vi": "Tỉnh Trà Vinh",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36615",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-86-pre2025",
-    "gso_code": "86",
-    "era": "pre2025",
+    "gso_codes": [
+      "86"
+    ],
     "name_vi": "Tỉnh Vĩnh Long",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q7333405",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-87-pre2025",
-    "gso_code": "87",
-    "era": "pre2025",
+    "gso_codes": [
+      "87"
+    ],
     "name_vi": "Tỉnh Đồng Tháp",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36676",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-89-pre2025",
-    "gso_code": "89",
-    "era": "pre2025",
+    "gso_codes": [
+      "89"
+    ],
     "name_vi": "Tỉnh An Giang",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36592",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-91-pre2025",
-    "gso_code": "91",
-    "era": "pre2025",
+    "gso_codes": [
+      "91"
+    ],
     "name_vi": "Tỉnh Kiên Giang",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36576",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-92-pre2025",
-    "gso_code": "92",
-    "era": "pre2025",
+    "gso_codes": [
+      "92"
+    ],
     "name_vi": "Thành phố Cần Thơ",
     "loai_hinh": "Thành phố Trung ương",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q216075",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-93-pre2025",
-    "gso_code": "93",
-    "era": "pre2025",
+    "gso_codes": [
+      "93"
+    ],
     "name_vi": "Tỉnh Hậu Giang",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36320",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-94-pre2025",
-    "gso_code": "94",
-    "era": "pre2025",
+    "gso_codes": [
+      "94"
+    ],
     "name_vi": "Tỉnh Sóc Trăng",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q33272",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-95-pre2025",
-    "gso_code": "95",
-    "era": "pre2025",
+    "gso_codes": [
+      "95"
+    ],
     "name_vi": "Tỉnh Bạc Liêu",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q36658",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-96-pre2025",
-    "gso_code": "96",
-    "era": "pre2025",
+    "gso_codes": [
+      "96"
+    ],
     "name_vi": "Tỉnh Cà Mau",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
     "wikidata_qid": "Q33354",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "pre2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-01-post2025",
-    "gso_code": "01",
-    "era": "post2025",
+    "gso_codes": [
+      "01"
+    ],
     "name_vi": "Thành phố Hà Nội",
     "loai_hinh": "Thành phố Trung ương",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": "2025-07-01",
     "valid_to": null,
     "wikidata_qid": "Q1858",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "post2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-04-post2025",
-    "gso_code": "04",
-    "era": "post2025",
+    "gso_codes": [
+      "04"
+    ],
     "name_vi": "Tỉnh Cao Bằng",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": "2025-07-01",
     "valid_to": null,
     "wikidata_qid": "Q36865",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "post2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-08-post2025",
-    "gso_code": "08",
-    "era": "post2025",
+    "gso_codes": [
+      "08"
+    ],
     "name_vi": "Tỉnh Tuyên Quang",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": "2025-07-01",
     "valid_to": null,
     "wikidata_qid": "Q2332060",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "post2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-11-post2025",
-    "gso_code": "11",
-    "era": "post2025",
+    "gso_codes": [
+      "11"
+    ],
     "name_vi": "Tỉnh Điện Biên",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": "2025-07-01",
     "valid_to": null,
     "wikidata_qid": "Q36955",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "post2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-12-post2025",
-    "gso_code": "12",
-    "era": "post2025",
+    "gso_codes": [
+      "12"
+    ],
     "name_vi": "Tỉnh Lai Châu",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": "2025-07-01",
     "valid_to": null,
     "wikidata_qid": "Q36409",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "post2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-14-post2025",
-    "gso_code": "14",
-    "era": "post2025",
+    "gso_codes": [
+      "14"
+    ],
     "name_vi": "Tỉnh Sơn La",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": "2025-07-01",
     "valid_to": null,
     "wikidata_qid": "Q33379",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "post2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-15-post2025",
-    "gso_code": "15",
-    "era": "post2025",
+    "gso_codes": [
+      "15"
+    ],
     "name_vi": "Tỉnh Lào Cai",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": "2025-07-01",
     "valid_to": null,
     "wikidata_qid": "Q36446",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "post2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-19-post2025",
-    "gso_code": "19",
-    "era": "post2025",
+    "gso_codes": [
+      "19"
+    ],
     "name_vi": "Tỉnh Thái Nguyên",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": "2025-07-01",
     "valid_to": null,
     "wikidata_qid": "Q26575",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "post2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-20-post2025",
-    "gso_code": "20",
-    "era": "post2025",
+    "gso_codes": [
+      "20"
+    ],
     "name_vi": "Tỉnh Lạng Sơn",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": "2025-07-01",
     "valid_to": null,
     "wikidata_qid": "Q33403",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "post2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-22-post2025",
-    "gso_code": "22",
-    "era": "post2025",
+    "gso_codes": [
+      "22"
+    ],
     "name_vi": "Tỉnh Quảng Ninh",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": "2025-07-01",
     "valid_to": null,
     "wikidata_qid": "Q33396",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "post2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-24-post2025",
-    "gso_code": "24",
-    "era": "post2025",
+    "gso_codes": [
+      "24"
+    ],
     "name_vi": "Tỉnh Bắc Ninh",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": "2025-07-01",
     "valid_to": null,
     "wikidata_qid": "Q33408",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "post2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-25-post2025",
-    "gso_code": "25",
-    "era": "post2025",
+    "gso_codes": [
+      "25"
+    ],
     "name_vi": "Tỉnh Phú Thọ",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": "2025-07-01",
     "valid_to": null,
     "wikidata_qid": "Q36610",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "post2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-31-post2025",
-    "gso_code": "31",
-    "era": "post2025",
+    "gso_codes": [
+      "31"
+    ],
     "name_vi": "Thành phố Hải Phòng",
     "loai_hinh": "Thành phố Trung ương",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": "2025-07-01",
     "valid_to": null,
     "wikidata_qid": "Q72818",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "post2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-33-post2025",
-    "gso_code": "33",
-    "era": "post2025",
+    "gso_codes": [
+      "33"
+    ],
     "name_vi": "Tỉnh Hưng Yên",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": "2025-07-01",
     "valid_to": null,
     "wikidata_qid": "Q36235",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "post2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-37-post2025",
-    "gso_code": "37",
-    "era": "post2025",
+    "gso_codes": [
+      "37"
+    ],
     "name_vi": "Tỉnh Ninh Bình",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": "2025-07-01",
     "valid_to": null,
     "wikidata_qid": "Q36900",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "post2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-38-post2025",
-    "gso_code": "38",
-    "era": "post2025",
+    "gso_codes": [
+      "38"
+    ],
     "name_vi": "Tỉnh Thanh Hóa",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": "2025-07-01",
     "valid_to": null,
     "wikidata_qid": "Q36512",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "post2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-40-post2025",
-    "gso_code": "40",
-    "era": "post2025",
+    "gso_codes": [
+      "40"
+    ],
     "name_vi": "Tỉnh Nghệ An",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": "2025-07-01",
     "valid_to": null,
     "wikidata_qid": "Q36587",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "post2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-42-post2025",
-    "gso_code": "42",
-    "era": "post2025",
+    "gso_codes": [
+      "42"
+    ],
     "name_vi": "Tỉnh Hà Tĩnh",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": "2025-07-01",
     "valid_to": null,
     "wikidata_qid": "Q33351",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "post2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-44-post2025",
-    "gso_code": "44",
-    "era": "post2025",
+    "gso_codes": [
+      "44"
+    ],
     "name_vi": "Tỉnh Quảng Trị",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": "2025-07-01",
     "valid_to": null,
     "wikidata_qid": "Q36579",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "post2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-46-post2025",
-    "gso_code": "46",
-    "era": "post2025",
+    "gso_codes": [
+      "46"
+    ],
     "name_vi": "Thành phố Huế",
     "loai_hinh": "Thành phố Trung ương",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": "2025-07-01",
     "valid_to": null,
     "wikidata_qid": "Q36399",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "post2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-48-post2025",
-    "gso_code": "48",
-    "era": "post2025",
+    "gso_codes": [
+      "48"
+    ],
     "name_vi": "Thành phố Đà Nẵng",
     "loai_hinh": "Thành phố Trung ương",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": "2025-07-01",
     "valid_to": null,
     "wikidata_qid": "Q25282",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "post2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-51-post2025",
-    "gso_code": "51",
-    "era": "post2025",
+    "gso_codes": [
+      "51"
+    ],
     "name_vi": "Tỉnh Quảng Ngãi",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": "2025-07-01",
     "valid_to": null,
     "wikidata_qid": "Q33304",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "post2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-52-post2025",
-    "gso_code": "52",
-    "era": "post2025",
+    "gso_codes": [
+      "52"
+    ],
     "name_vi": "Tỉnh Gia Lai",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": "2025-07-01",
     "valid_to": null,
     "wikidata_qid": "Q36662",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "post2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-56-post2025",
-    "gso_code": "56",
-    "era": "post2025",
+    "gso_codes": [
+      "56"
+    ],
     "name_vi": "Tỉnh Khánh Hòa",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": "2025-07-01",
     "valid_to": null,
     "wikidata_qid": "Q33369",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "post2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-66-post2025",
-    "gso_code": "66",
-    "era": "post2025",
+    "gso_codes": [
+      "66"
+    ],
     "name_vi": "Tỉnh Đắk Lắk",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": "2025-07-01",
     "valid_to": null,
     "wikidata_qid": "Q36690",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "post2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-68-post2025",
-    "gso_code": "68",
-    "era": "post2025",
+    "gso_codes": [
+      "68"
+    ],
     "name_vi": "Tỉnh Lâm Đồng",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": "2025-07-01",
     "valid_to": null,
     "wikidata_qid": "Q36721",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "post2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-75-post2025",
-    "gso_code": "75",
-    "era": "post2025",
+    "gso_codes": [
+      "75"
+    ],
     "name_vi": "Thành phố Đồng Nai",
     "loai_hinh": "Thành phố Trung ương",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": "2025-07-01",
     "valid_to": null,
     "wikidata_qid": "Q33271",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "post2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-79-post2025",
-    "gso_code": "79",
-    "era": "post2025",
+    "gso_codes": [
+      "79"
+    ],
     "name_vi": "Thành phố Hồ Chí Minh",
     "loai_hinh": "Thành phố Trung ương",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": "2025-07-01",
     "valid_to": null,
     "wikidata_qid": "Q1854",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "post2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-80-post2025",
-    "gso_code": "80",
-    "era": "post2025",
+    "gso_codes": [
+      "80"
+    ],
     "name_vi": "Tỉnh Tây Ninh",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": "2025-07-01",
     "valid_to": null,
     "wikidata_qid": "Q36608",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "post2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-82-post2025",
-    "gso_code": "82",
-    "era": "post2025",
+    "gso_codes": [
+      "82"
+    ],
     "name_vi": "Tỉnh Đồng Tháp",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": "2025-07-01",
     "valid_to": null,
     "wikidata_qid": "Q36676",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "post2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-86-post2025",
-    "gso_code": "86",
-    "era": "post2025",
+    "gso_codes": [
+      "86"
+    ],
     "name_vi": "Tỉnh Vĩnh Long",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": "2025-07-01",
     "valid_to": null,
     "wikidata_qid": "Q7333405",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "post2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-91-post2025",
-    "gso_code": "91",
-    "era": "post2025",
+    "gso_codes": [
+      "91"
+    ],
     "name_vi": "Tỉnh An Giang",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": "2025-07-01",
     "valid_to": null,
     "wikidata_qid": "Q36592",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "post2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-92-post2025",
-    "gso_code": "92",
-    "era": "post2025",
+    "gso_codes": [
+      "92"
+    ],
     "name_vi": "Thành phố Cần Thơ",
     "loai_hinh": "Thành phố Trung ương",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": "2025-07-01",
     "valid_to": null,
     "wikidata_qid": "Q216075",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "post2025",
+    "parent_spans": []
   },
   {
     "local_id": "p-96-post2025",
-    "gso_code": "96",
-    "era": "post2025",
+    "gso_codes": [
+      "96"
+    ],
     "name_vi": "Tỉnh Cà Mau",
     "loai_hinh": "Tỉnh",
+    "type_spans": [],
+    "aliases": [],
     "valid_from": "2025-07-01",
     "valid_to": null,
     "wikidata_qid": "Q33354",
-    "qid_status": "existing"
+    "qid_status": "existing",
+    "era": "post2025",
+    "parent_spans": []
   }
 ]

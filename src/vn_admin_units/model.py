@@ -1,43 +1,12 @@
 import re
-from dataclasses import dataclass, asdict
-from typing import Optional
 
+from vn_admin_units.core import Entity, LineageEdge
 from vn_admin_units.ghichu import parse_ghichu, _norm
 
 
 def local_id(gso_code: str, era: str) -> str:
     """Stable repo-owned id, keyed on (code, era) since codes are reused."""
     return f"p-{gso_code}-{era}"
-
-
-@dataclass
-class Entity:
-    local_id: str
-    gso_code: str
-    era: str            # "pre2025" | "post2025"
-    name_vi: str
-    loai_hinh: str
-    valid_from: Optional[str]
-    valid_to: Optional[str]
-    wikidata_qid: Optional[str]
-    qid_status: Optional[str] = None   # "existing" | "new" — set during reconcile; gates P571
-
-    def to_dict(self) -> dict:
-        return asdict(self)
-
-
-@dataclass
-class LineageEdge:
-    predecessor: str    # local_id
-    successor: str      # local_id
-    relation: str       # "merged_into" | "replaces" | "renamed_to" | "split_from"
-    share: str          # "whole" | "partial"
-    primary: bool       # True if predecessor is the code-inheriting/renamed-from primary
-    decree: str
-    effective_date: str
-
-    def to_dict(self) -> dict:
-        return asdict(self)
 
 
 def build_entities(pre_rows: list[dict], post_rows: list[dict]) -> list["Entity"]:
@@ -48,12 +17,12 @@ def build_entities(pre_rows: list[dict], post_rows: list[dict]) -> list["Entity"
     ents = []
     for r in pre_rows:
         ents.append(Entity(
-            local_id=local_id(r["ma"], "pre2025"), gso_code=r["ma"], era="pre2025",
+            local_id=local_id(r["ma"], "pre2025"), gso_codes=[r["ma"]], era="pre2025",
             name_vi=r["ten"], loai_hinh=r["loai_hinh"],
             valid_from=None, valid_to="2025-06-30", wikidata_qid=None))
     for r in post_rows:
         ents.append(Entity(
-            local_id=local_id(r["ma"], "post2025"), gso_code=r["ma"], era="post2025",
+            local_id=local_id(r["ma"], "post2025"), gso_codes=[r["ma"]], era="post2025",
             name_vi=r["ten"], loai_hinh=r["loai_hinh"],
             valid_from="2025-07-01", valid_to=None, wikidata_qid=None))
     return ents

@@ -8,7 +8,7 @@ def test_local_id_is_code_era_stable():
 
 
 def test_entity_roundtrip():
-    e = Entity(local_id="p-15-post2025", gso_code="15", era="post2025",
+    e = Entity(local_id="p-15-post2025", gso_codes=["15"], era="post2025",
                name_vi="Tỉnh Lào Cai", loai_hinh="Tỉnh",
                valid_from="2025-07-01", valid_to=None, wikidata_qid=None)
     assert e.to_dict()["local_id"] == "p-15-post2025"
