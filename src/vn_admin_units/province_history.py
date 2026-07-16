@@ -6,10 +6,10 @@ children and the ended Hà Tây are their own entities. Kept separate from the 1
 target, not an import. See docs/DESIGN-phase1b.md.
 """
 import json
-from dataclasses import dataclass, asdict
 from pathlib import Path
 from typing import Optional
 
+from vn_admin_units.core import Entity, LineageEdge
 from vn_admin_units.names import fold_name
 from vn_admin_units.crosswalk import read_province_history_crosswalk
 
@@ -64,40 +64,6 @@ def hist_local_id(first_code: str, valid_from: Optional[str]) -> str:
     Codes reuse across reforms and the scheme changes at 2004 (journal .15), so the
     bare code is never a key; valid_from disambiguates reused codes."""
     return f"ph-{first_code}-{valid_from or 'base'}"
-
-
-@dataclass
-class Entity:
-    local_id: str
-    gso_codes: list                      # chronological; [-1] = terminal/reconcile code
-    name_vi: str                         # terminal name
-    loai_hinh: str                       # terminal type
-    type_spans: list                     # [{loai_hinh, from, to, decree?, reference_url?}]
-    aliases: list                        # former names + former codes
-    valid_from: Optional[str]
-    valid_to: Optional[str]
-    wikidata_qid: Optional[str]
-    qid_status: Optional[str] = None     # "existing" | "new"
-
-    @property
-    def terminal_code(self) -> str:
-        return self.gso_codes[-1] if self.gso_codes else ""
-
-    def to_dict(self) -> dict:
-        return asdict(self)
-
-
-@dataclass
-class LineageEdge:
-    predecessor: str                     # local_id
-    successor: str                       # local_id
-    relation: str                        # "carved_from" | "absorbed_into"
-    decree: str
-    effective_date: str
-    reference_url: str = ""              # event-specific source (per-edge, not per-batch)
-
-    def to_dict(self) -> dict:
-        return asdict(self)
 
 
 def _load_json(path: str):
@@ -156,7 +122,8 @@ def build_province_history(snapshot_dir: str, window_dir: str,
         child, parent = by_code.get(c["child_code"]), by_code.get(c["parent_code"])
         if child and parent:
             edges.append(LineageEdge(parent.local_id, child.local_id, "carved_from",
-                                     co["decree"], co["effective_date"], co["reference_url"]))
+                                     decree=co["decree"], effective_date=co["effective_date"],
+                                     reference_url=co["reference_url"]))
 
     # Retypes (province -> centrally-run city): SAME entity, dated P31. Setting the
     # terminal span's `from` to the retype date is what makes the dated P31 emit.
@@ -188,6 +155,7 @@ def build_province_history(snapshot_dir: str, window_dir: str,
         ha_noi = by_code.get("01")
         if ha_noi:
             edges.append(LineageEdge(ht_e.local_id, ha_noi.local_id, "absorbed_into",
-                                     HA_TAY_2008["decree"], "2008-08-01", HA_TAY_2008["reference_url"]))
+                                     decree=HA_TAY_2008["decree"], effective_date="2008-08-01",
+                                     reference_url=HA_TAY_2008["reference_url"]))
 
     return ents, edges

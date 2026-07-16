@@ -20,7 +20,8 @@ def test_entity_terminal_code_and_roundtrip():
 
 def test_lineage_edge_has_reference_url():
     ed = LineageEdge("ph-12-base", "ph-11-2004-01-01", "carved_from",
-                     "Số: 22/2003/QH11", "2004-01-01", "https://ref")
+                     decree="Số: 22/2003/QH11", effective_date="2004-01-01",
+                     reference_url="https://ref")
     assert ed.reference_url == "https://ref"
     assert ed.to_dict()["relation"] == "carved_from"
 

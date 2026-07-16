@@ -11,7 +11,8 @@ def test_carve_out_emits_p571_despite_existing_item_and_p807_referenced_to_decre
     parent = _e("12", "Tỉnh Lai Châu", "Q19608")
     child = _e("11", "Tỉnh Điện Biên", "Q36955", vf="2004-01-01", status="existing")
     edges = [LineageEdge(parent.local_id, child.local_id, "carved_from",
-                         "Số: 22/2003/QH11", "2004-01-01", "https://decree/22-2003")]
+                         decree="Số: 22/2003/QH11", effective_date="2004-01-01",
+                         reference_url="https://decree/22-2003")]
     qs = emit_history_quickstatements([parent, child], edges, default_ref_url="https://nso")
     p571 = next(l for l in qs.splitlines() if l.startswith("Q36955\tP571"))
     assert "+2004-01-01T00:00:00Z/11" in p571                    # inception even though existing
@@ -25,7 +26,8 @@ def test_absorption_emits_dissolution_and_succession_referenced_to_2008():
     ha_tay = _e("28", "Tỉnh Hà Tây", "Q158668", vto="2008-07-31")
     ha_noi = _e("01", "Thành phố Hà Nội", "Q1858")
     edges = [LineageEdge(ha_tay.local_id, ha_noi.local_id, "absorbed_into",
-                         "Số: 15/2008/QH12", "2008-08-01", "https://decree/15-2008")]
+                         decree="Số: 15/2008/QH12", effective_date="2008-08-01",
+                         reference_url="https://decree/15-2008")]
     qs = emit_history_quickstatements([ha_tay, ha_noi], edges, default_ref_url="https://nso")
     p576 = next(l for l in qs.splitlines() if l.startswith("Q158668\tP576"))
     assert "+2008-08-01T00:00:00Z/11" in p576 and '"https://decree/15-2008"' in p576
