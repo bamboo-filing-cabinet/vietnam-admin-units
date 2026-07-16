@@ -17,3 +17,28 @@ def test_predecessor_ends_only_for_ending_relations():
     assert predecessor_ends("absorbed_into") and predecessor_ends("replaces")
     assert not predecessor_ends("carved_from")      # parent persists
     assert not predecessor_ends("renamed_to") and not predecessor_ends("retyped")
+
+from vn_admin_units.core import Entity, LineageEdge
+
+def test_entity_terminal_and_gso_code_accessors():
+    e = Entity("d-019-base", ["019"], "Huyện Từ Liêm", "Huyện", [], [], None, "2013-12-27")
+    assert e.terminal_code == "019" and e.gso_code == "019"
+    assert e.era is None and e.type_spans == [] and e.parent_spans == []
+
+def test_entity_1a_style_via_kwargs_and_1b_style_positional():
+    prov = Entity(local_id="p-15-post2025", gso_codes=["15"], name_vi="Tỉnh Lào Cai",
+                  loai_hinh="Tỉnh", valid_from="2025-07-01", valid_to=None,
+                  wikidata_qid="Q36446", qid_status="existing", era="post2025")
+    assert prov.gso_code == "15" and prov.era == "post2025"
+    hist = Entity("ph-28-base", ["28"], "Tỉnh Hà Tây", "Tỉnh",
+                  [{"loai_hinh": "Tỉnh", "from": None, "to": "2008-07-31"}], [],
+                  None, "2008-07-31", None, None)   # 1b positional order preserved
+    assert hist.terminal_code == "28" and hist.type_spans[0]["to"] == "2008-07-31"
+
+def test_lineage_edge_1a_positional_preserved():
+    ed = LineageEdge("p-10-pre2025", "p-15-post2025", "replaces", "whole", True,
+                     "Số: 1685", "2025-07-01")
+    assert ed.share == "whole" and ed.primary is True and ed.effective_date == "2025-07-01"
+    d = LineageEdge("a", "b", "carved_from", decree="Số: 22", effective_date="2004-01-01",
+                    reference_url="https://x")
+    assert d.reference_url == "https://x" and d.share == "whole"

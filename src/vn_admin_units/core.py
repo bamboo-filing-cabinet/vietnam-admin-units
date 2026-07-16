@@ -5,6 +5,9 @@ relation vocabulary (which relations END the predecessor -> P576). The Entity /
 LineageEdge dataclasses (added in R2) are supersets every tier constructs."""
 from __future__ import annotations
 
+from dataclasses import dataclass, asdict, field
+from typing import Optional
+
 REFERENCE_URL = "https://danhmuchanhchinh.nso.gov.vn/"
 
 # Wikidata item QIDs for admin-unit types (P31 targets). Province types were confirmed via
@@ -50,3 +53,58 @@ PREDECESSOR_ENDS = {"consolidated", "merged_into", "split", "absorbed_into", "re
 
 def predecessor_ends(relation: str) -> bool:
     return relation in PREDECESSOR_ENDS
+
+
+@dataclass
+class Entity:
+    """Tier-neutral admin-unit entity. Field ORDER matches 1b's province_history
+    (gso_codes list, type_spans, aliases) so 1b constructions stay positional; the
+    trailing era/parent_spans are defaulted so 1a/2 add them by keyword.
+
+    - gso_codes: chronological codes; [-1] = terminal/reconcile code.
+    - type_spans: [{loai_hinh, from, to, decree?, reference_url?}] — >1 span => retype.
+    - aliases: former names + former codes (-> WD aliases).
+    - era: 1a's "pre2025"/"post2025" label (None for history/districts).
+    - parent_spans: [{code, qid, from, to}] dated P131 parent-province spans (districts/wards).
+    """
+    local_id: str
+    gso_codes: list
+    name_vi: str
+    loai_hinh: str
+    type_spans: list = field(default_factory=list)
+    aliases: list = field(default_factory=list)
+    valid_from: Optional[str] = None
+    valid_to: Optional[str] = None
+    wikidata_qid: Optional[str] = None
+    qid_status: Optional[str] = None
+    era: Optional[str] = None
+    parent_spans: list = field(default_factory=list)
+
+    @property
+    def terminal_code(self) -> str:
+        return self.gso_codes[-1] if self.gso_codes else ""
+
+    @property
+    def gso_code(self) -> str:          # 1a back-compat accessor
+        return self.gso_codes[-1] if self.gso_codes else ""
+
+    def to_dict(self) -> dict:
+        return asdict(self)
+
+
+@dataclass
+class LineageEdge:
+    """Tier-neutral lineage edge. Field ORDER matches 1a's model.LineageEdge
+    (share, primary before decree) so 1a edges stay positional; 1b/2 use keywords
+    for decree/effective_date/reference_url."""
+    predecessor: str
+    successor: str
+    relation: str
+    share: str = "whole"
+    primary: bool = False
+    decree: str = ""
+    effective_date: str = ""
+    reference_url: str = ""
+
+    def to_dict(self) -> dict:
+        return asdict(self)
