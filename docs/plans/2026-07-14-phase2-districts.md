@@ -12,6 +12,14 @@
 
 **Scope discipline (from the design's Out-of-scope §):** Event floor at **2004** — pre-2004 ancestry is Phase 4 (the Đối Chiếu tool returns the 2002→2004 code-remap, not diffs, below the floor). Boundary-only adjustments ("điều chỉnh địa giới … để mở rộng …" with no identity change) are **not** lineage events. Goal A (district-composed NA11–NA15 exports) is a later build on this graph. Ward re-parenting at the 2025 abolition is Phase 3. **The Phase-1a reference backfill (design §3) is deferred to its own follow-up plan — not in scope here.** Upload is a separate reviewed step after the audit + constraints gates pass (personal WD account).
 
+## Execution corrections (2026-07-17) — supersede D4/D6.5/D7 where they conflict
+
+Discovered while executing against the real cached data; these OVERRIDE the as-written date/reference mechanism in D4/D6.5/D7:
+
+1. **Dissolve/merge DATE comes from the crosswalk *survivor* row, NOT the Nghị định list.** D6.5's `decrees_naming(unit_name, …)` finds **nothing** on real data — the Nghị định *list titles* name the **province** ("sắp xếp … tỉnh Cao Bằng"), not the dissolved district. But the merger's real per-unit effective date **and** decree code sit on the **absorbing survivor's** crosswalk row (`succ_hieu_luc` + `succ_nghi_dinh`), reachable via the dissolved row's Ghi Chú "vào Y" target (or the `district-merge-targets.json` override when there's no prose). So `_apply_dissolve` recovers date+decree from the survivor row; `decrees_naming`/`nghidinh.json` are retained only for the existing cross-check. The dissolved row's own `base_hieu_luc` (stale 2004 date) is never used.
+2. **Ground-truth dates corrected (per-unit, from real survivor rows):** Từ Liêm split `2013-12-28` (`132/NQ-CP`); **Thông Nông→Hà Quảng `2020-02-01` (`864/NQ-UBTVQH14`)** — NOT 2020-03-01; Trà Lĩnh→Trùng Khánh & Phục Hoà→Quảng Uyên(→Quảng Hòa) `2020-03-01` (`897/NQ-UBTVQH14`); **Nông Sơn→Quế Sơn `2025-01-01` (`1241/NQ-UBTVQH15`)** — no Ghi Chú target, so a curated `district-merge-targets.json` entry. (The plan's "three Cao Bằng mergers all at 2020-03-01 / decree 897" was wrong.)
+3. **Reference URLs come from thuvienphapluat via WebSearch, cached in `data/decree-urls.json`.** thuvienphapluat blocks direct fetch (Cloudflare 403), and the NSO `nghidinh.json` has no per-row URL column — so the D4 "fetch_decrees url extension via lxml" does **not** apply. Instead: WebSearch `<decree code>` restricted to `thuvienphapluat.vn`, take the confirmed `van-ban/…` result, cache `{code: url}`. This is proven (4/4 canonical decrees resolved). The cited reference set is **~150 distinct decrees** (measured: all 157 changed-row codes tie to real events; only 7 are garbled typos) — a large batch resolved incrementally, with garbled/unindexed codes as the manual residue.
+
 ---
 
 ## File Structure
@@ -1212,17 +1220,23 @@ def test_nong_son_create_then_dissolve_one_entity():
 
 def test_cao_bang_three_mergers_dates_and_references():
     ents, edges = _build()
-    # Dates ARE asserted now (D6.5): the merger effective date is 2020-03-01 (decree
-    # 897/NQ-UBTVQH14), so each dissolved predecessor ends 2020-02-29 — NOT its stale
-    # base date. A regression here means dissolve-date recovery is not wired in.
-    for gone in ("Huyện Thông Nông", "Huyện Trà Lĩnh", "Huyện Phục Hoà"):
+    # Real per-unit dates recovered from the SURVIVOR crosswalk rows (Execution corrections
+    # 2026-07-17) — they DIFFER: Thông Nông merged into Hà Quảng on 2020-02-01 under decree 864,
+    # while Trà Lĩnh/Phục Hoà are 2020-03-01 under 897. A regression = survivor-row recovery not wired.
+    expect = {  # dissolved -> (valid_to, edge effective_date, decree code)
+        "Huyện Thông Nông": ("2020-01-31", "2020-02-01", "864/NQ-UBTVQH14"),
+        "Huyện Trà Lĩnh":   ("2020-02-29", "2020-03-01", "897/NQ-UBTVQH14"),
+        "Huyện Phục Hoà":   ("2020-02-29", "2020-03-01", "897/NQ-UBTVQH14"),
+    }
+    for gone, (vto, eff, code) in expect.items():
         e = next(x for x in ents if x.name_vi == gone)
-        assert e.valid_to == "2020-02-29", f"{gone}: stale base date leaked into valid_to"
+        assert e.valid_to == vto, f"{gone}: {e.valid_to} != {vto} (stale base date leaked?)"
         merged = [x for x in edges if x.predecessor == e.local_id
                   and x.relation in ("merged_into", "consolidated")]
         assert merged, f"{gone} has no merge edge"
         m = merged[0]
-        assert m.effective_date == "2020-03-01", f"{gone}: merge edge carries the wrong (stale) date"
+        assert m.effective_date == eff, f"{gone}: merge edge date {m.effective_date} != {eff}"
+        assert code in m.decree, f"{gone}: decree {m.decree!r} lacks {code}"
         assert m.reference_url, f"{gone}: merge edge missing its establishing-resolution reference"
 
 def test_ha_tay_reparenting_second_parent_span_no_dissolution():
