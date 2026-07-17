@@ -53,3 +53,24 @@ def test_decree_for_single_candidate_falls_back_to_date_only():
 def test_decree_for_returns_empty_pair_when_ambiguous_and_no_name_hit():
     idx = decree_index(_RECORDS)
     assert decree_for(idx, "Huyện Không Có", "2013-12-28") == ("", "")
+
+
+from vn_admin_units.crosscheck_decrees import decrees_naming
+
+def test_decrees_naming_recovers_true_date_for_blank_successor_dissolve():
+    recs = [
+        {"code": "897/NQ-UBTVQH14", "hieu_luc": "01/03/2020", "url": "https://vb/897",
+         "noi_dung": "nhập huyện Thông Nông vào huyện Hà Quảng"},               # district merge -> kept
+        {"code": "111/NQ-CP", "hieu_luc": "10/01/2004", "url": "https://vb/111",
+         "noi_dung": "thành lập xã Cần Nông thuộc huyện Thông Nông"},           # COMMUNE op -> excluded (F3)
+    ]
+    hits = decrees_naming(recs, "Huyện Thông Nông", years={2019, 2020})
+    assert len(hits) == 1                                                      # the commune op is filtered out
+    assert hits[0]["effective_date"] == "2020-03-01" and hits[0]["code"] == "897/NQ-UBTVQH14"
+    assert hits[0]["url"] == "https://vb/897"
+
+def test_decrees_naming_year_window_and_alias():
+    recs = [{"code": "132/NQ-CP", "hieu_luc": "28/12/2013", "url": "https://vb/132",
+             "noi_dung": "thành lập quận Nam Từ Liêm và quận Bắc Từ Liêm trên cơ sở huyện Từ Liêm"}]
+    assert decrees_naming(recs, "Quận X", aliases=["Huyện Từ Liêm"], years={2013})
+    assert decrees_naming(recs, "Huyện Từ Liêm", years={2020}) == []      # out of the year window

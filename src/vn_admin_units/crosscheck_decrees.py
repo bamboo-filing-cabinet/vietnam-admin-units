@@ -149,6 +149,58 @@ def decree_for(idx: dict, unit_name: str, effective_date: str, aliases=()) -> tu
     return (cands[0]["code"], cands[0]["url"]) if len(cands) == 1 else ("", "")
 
 
+def decrees_naming(records, unit_name: str, aliases=(), years=None) -> list:
+    """District-structural decrees whose prose names `unit_name` (or an alias). "District-
+    structural" is decided by `is_district_structural` (a district unit is the OBJECT of a
+    structural verb — thành lập / chia tách / nhập / sáp nhập / giải thể / nâng cấp / đổi tên …),
+    which is what keeps a commune/ward op out. Optional `years` restricts to effective years in
+    the set (a tight window around the crosswalk snapshot) so an unrelated later decree that
+    mentions the unit can't hijack the date.
+
+    Returns [{code, url, effective_date, noi_dung}] sorted by effective_date. This is the
+    authoritative recovery for a blank-successor dissolve row, whose crosswalk date is the
+    predecessor's stale base date (journal 2026-07-13.02); the top hit's effective_date is
+    the true merger date and its url the establishing reference.
+
+    A verb-anywhere check would false-match a COMMUNE/WARD op that merely mentions the district
+    ('chia xã … thuộc huyện X'), assigning a bogus district dissolve date (2026-07-15 review, F3).
+    So the record must pass `is_district_structural` — the SAME object-level classifier the
+    cross-check uses (a district unit is the *object* of a structural verb; province tier
+    'trực thuộc trung ương' excluded). If a legitimate merge phrasing is missed, extend `_STRUCT`
+    (the single source of truth) — never loosen the gate here."""
+    folds = [f for f in (fold_district_name(n) for n in (unit_name, *aliases) if n) if f]
+    out = []
+    for r in records:
+        iso = _iso_from_dmy(str(r["hieu_luc"]))
+        yr = iso[:4]
+        if years is not None and not (yr.isdigit() and int(yr) in years):
+            continue
+        nd = str(r["noi_dung"])
+        if not is_district_structural(nd):          # exclude commune/ward-only + province-tier ops
+            continue
+        if any(fn in fold_district_name(nd) for fn in folds):
+            out.append({"code": r["code"], "url": _clean_url(r.get("url")),
+                        "effective_date": iso, "noi_dung": nd})
+    return sorted(out, key=lambda d: d["effective_date"])
+
+
+def cache_decrees(out: str = "data/raw/nghidinh.json") -> None:
+    """Fetch the Nghị định list ONCE and cache it (code, dates, noi_dung, url) so the offline
+    build + the D7 date assertions run without the network. Commit the JSON. `fetch_decrees`
+    is extended (D4) to carry a `url` column; until a decree has one, the emit gate (D11)
+    lists it for curation via data/decree-urls.json."""
+    import json
+    from pathlib import Path
+    dec = fetch_decrees()
+    cols = ["code", "hieu_luc", "noi_dung"] + (["url"] if "url" in dec.columns else [])
+    recs = dec[cols].astype(str).to_dict("records")
+    for r in recs:                                   # 'nan'/'none' -> "" so overrides + gate work
+        r["url"] = _clean_url(r.get("url"))
+    Path(out).parent.mkdir(parents=True, exist_ok=True)
+    Path(out).write_text(json.dumps(recs, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"cached {len(recs)} Nghị định records -> {out}")
+
+
 def main(argv: list[str] | None = None) -> None:
     ap = argparse.ArgumentParser(description="Cross-check district captures vs the Nghị định list.")
     ap.add_argument("--start", type=int, default=2004, help="first effective year (district event floor)")
