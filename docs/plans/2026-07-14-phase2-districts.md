@@ -1,5 +1,7 @@
 # Phase 2 — District tier 2004→2025 (Wikidata Goal B) — Implementation Plan
 
+> **EXECUTION STATUS (2026-07-17):** R1–R4 + D1–D6.5 **DONE & committed on `main`** (suite 91 passed, HEAD `9615ad0`). **D7 in progress; D8–D11 pending.** The **"Execution corrections (2026-07-17)"** section below **supersedes** the D4/D6.5/D7 date+reference mechanism (survivor-row dates, WebSearch references) — follow it, not the original code where they conflict. Full resume context + the open reference-residue decision are in the repo `README.md` ("Phase 2" block). Reference URLs so far: `data/decree-urls.json` (63 of ~156; 93 residue undecided).
+
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** Build the district tier (huyện / quận / thị xã / thành phố thuộc tỉnh) as a continuous-entity lineage graph 2004→2025 — every create / dissolve / merge / split / carve-out / rename / type-upgrade / **re-parenting** the yearly Đối Chiếu windows expose, plus the universal **2025-07-01 abolition** — reconcile ~700 districts to Wikidata QIDs, and emit a referenced, relation-aware QuickStatements batch. This drives Goal B (Wikidata district corrections) and lays the parent layer Phase 3 wards need for historical `P131`.
