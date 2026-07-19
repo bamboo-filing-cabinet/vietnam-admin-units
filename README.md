@@ -59,7 +59,7 @@ Uploaded 2026-07-14 via QuickStatements ([batch #260977](https://quickstatements
 This completes the **province tier** and unblocks Phase 2 districts (their pre-2008
 `P131` spans need these historical province QIDs).
 
-**Phase 2 (districts) — IN PROGRESS (last worked 2026-07-17). ◀ RESUME HERE.**
+**Phase 2 (districts) — IN PROGRESS (last worked 2026-07-18). ◀ RESUME HERE.**
 
 Building the district tier (huyện / quận / thị xã / thành phố thuộc tỉnh) as a
 continuous-entity lineage graph **2004→2025 + the universal 2025-07-01 abolition**,
@@ -70,7 +70,7 @@ which supersedes the as-written D4/D6.5/D7 mechanism. Tasks: R1–R4 ("Movement 
 tier-neutral `core.py` refactor) then D1–D11 (district build). Everything is committed on
 `main` (solo repo — commit directly on `main`, no branch).
 
-**Done & pushed** — suite **91 passed**, tree clean, HEAD `9615ad0`:
+**Done & pushed** — suite **91 passed**, tree clean:
 - **R1–R4:** extracted `src/vn_admin_units/core.py` (shared `Entity`/`LineageEdge` +
   emit primitives + relation vocabulary); migrated 1a (`model.py`) and 1b
   (`province_history.py`) onto it — **1a `mappings/` proven byte-identical**.
@@ -78,8 +78,14 @@ tier-neutral `core.py` refactor) then D1–D11 (district build). Everything is c
   `district_model.py` types + `unit_tier`/`classify_change`/`window_events` +
   `group_by_event`/`source_survives`/`resolve_merge_target`; `decree_index`/`decree_for`/
   `decrees_naming`/`cache_decrees` (`crosscheck_decrees.py`). Cached Nghị định list →
-  `data/raw/nghidinh.json` (544 recs). Reference URLs: `data/decree-urls.json` = **63**
-  thuvienphapluat `van-ban` URLs.
+  `data/raw/nghidinh.json` (544 recs).
+- **Reference URLs — RESOLVED (2026-07-18):** `data/decree-urls.json` = **155** URLs
+  (was 63); the entire residue is cleared. See journal
+  [`docs/journals/2026-07-18.01`](docs/journals/2026-07-18.01.district-decree-reference-residue.md)
+  for the worklist and the two follow-ups it hands to the D7 build (plan Execution
+  corrections 4–5): exclude `621/TCTK-PPCĐ` (a code-only re-code, not an event) and key
+  the 5 genuinely-ambiguous bare codes by `(code, effective_date)` — their 10 per-event
+  URLs sit in `data/decree-urls-residue-2026-07-18.json → residue_c_date_qualified`.
 
 **Execution corrections (the plan's section is authoritative — do NOT follow the old D6.5/D7 date path):**
 1. **Dissolve/merge DATE + decree come from the crosswalk SURVIVOR row**
@@ -93,15 +99,13 @@ tier-neutral `core.py` refactor) then D1–D11 (district build). Everything is c
    **2025-01-01** (`1241`, needs a `district-merge-targets.json` entry — no Ghi Chú target);
    Từ Liêm split 2013-12-28 (`132/NQ-CP`). The D7 ground-truth test already asserts these.
 
-**⚠ OPEN DECISION (blocks D11's reference gate — resolve this):** 93 of 156 decree
-reference URLs are unresolved (44 old `NĐ-CP` 2004–08, 31 `NQ-CP` 2009–13, 18 `NQ-UBTVQH`);
-WebSearch tops out ~40% (US-indexed, recency-biased). Options weighed with the maintainer,
-not yet chosen: **(a)** locality-keyed retry + authoritative fallback URL (`vbpl.vn` national
-gov DB or the NSO `NghiDinh.aspx` list) for the stubborn tail; **(b)** maintainer
-browser-resolves the residue (has Cloudflare access); **(c)** fallback URLs now, upgrade later.
-The 63 resolved are in `data/decree-urls.json`; the residue list regenerates from the
-crosswalk changed-rows (`decree_code(succ_nghi_dinh)` minus the resolved keys). *(An API
-session limit was hit mid-batch on 2026-07-17.)*
+**✅ RESOLVED (was the reference-residue OPEN DECISION):** the decree reference URLs are
+fully sourced (`data/decree-urls.json` 63→155). Two automated fan-out passes
+(thuvienphapluat, then authoritative-gov fallback) plus a maintainer browser-resolve of the
+unfindable tail closed it. **Also authoritative in the plan now (Execution corrections 4–5):**
+`621/TCTK-PPCĐ` is excluded as a code-only re-code (not a lineage event), and the 5
+genuinely-ambiguous bare codes (`04/11/19/33/34 NQ-CP`) are keyed by `(code, effective_date)`
+— both are D7-build code changes, not data. Full worklist: journal `2026-07-18.01`.
 
 **NEXT, in order:**
 1. **D7 (in progress)** — implement `build_districts` in `district_model.py` on the
@@ -114,9 +118,9 @@ session limit was hit mid-batch on 2026-07-17.)*
    (+ live-confirm the 4 district `P31` target QIDs) · **D11** wire pipeline (5 hard gates,
    offline test; live build; source the 2025 reform-resolution URL for the abolition reference).
 
-**Human touchpoints (don't auto-do these):** the reference-residue decision above; confirming
-the district `P31` QIDs (D10); confirming the 2025 reform-resolution URL (D11); reviewing and
-performing the **Wikidata upload** (always manual, maintainer's account).
+**Human touchpoints (don't auto-do these):** confirming the district `P31` QIDs (D10);
+confirming the 2025 reform-resolution URL (D11); reviewing and performing the **Wikidata
+upload** (always manual, maintainer's account).
 
 **Next phases after 2:** wards (NA16, Phase 3), pre-2002 history — see the roadmap in `docs/DESIGN.md`.
 
