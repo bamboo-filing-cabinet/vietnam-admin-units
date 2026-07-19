@@ -309,5 +309,88 @@
       "125/2007/NĐ-CP": "https://chinhphu.vn/default.aspx?pageid=27160&docid=34318",
       "84/2005-NĐ-CP": "https://thuvienphapluat.vn/van-ban/Bat-dong-san/Nghi-dinh-84-2005-ND-CP-thanh-lap-xa-thuoc-huyen-Ninh-Hai-Thuan-Bac-tinh-Ninh-Thuan-9280.aspx"
     }
+  },
+  "residue_c_date_qualified": {
+    "note": "Ambiguous bare codes: one decree_code() value = MULTIPLE real decrees, distinguished by the date embedded in the succ_nghi_dinh cell ('So: <code> ngay <dd/mm/yyyy>'). Recorded here keyed by (code, effective_date); NOT added to the flat decree-urls.json (a bare-code entry would mis-reference the sibling event). To be wired in via (code+effective_date) keying at D7/D11.",
+    "04/NQ-CP": {
+      "2011-01-14": {
+        "decree_date": "2011-01-13",
+        "event": "thanh lap thi xa Di An + thi xa Thuan An, tinh Binh Duong",
+        "url": "https://chinhphu.vn/default.aspx?pageid=27160&docid=98690",
+        "status": "resolved"
+      },
+      "2012-02-22": {
+        "decree_date": "2012-02-21",
+        "event": "Thi xa Cam Pha -> Thanh pho Cam Pha (retype), tinh Quang Ninh",
+        "url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-04-NQ-CP-thanh-lap-thanh-pho-Cam-Pha-tinh-Quang-Ninh-134997.aspx",
+        "status": "resolved"
+      }
+    },
+    "11/NQ-CP": {
+      "2010-03-05": {
+        "decree_date": "2010-03-04",
+        "event": "Thi xa Tra Vinh -> Thanh pho Tra Vinh (retype), tinh Tra Vinh",
+        "url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-11-NQ-CP-thanh-lap-thanh-pho-Tra-Vinh-101850.aspx",
+        "status": "resolved"
+      },
+      "2012-05-03": {
+        "decree_date": "2012-05-02",
+        "event": "Thi xa Thu Dau Mot -> Thanh pho Thu Dau Mot (retype), tinh Binh Duong",
+        "url": "https://luatvietnam.vn/dia-gioi-hanh-chinh/nghi-quyet-11-nq-cp-chinh-phu-70108-d1.html",
+        "status": "resolved"
+      }
+    },
+    "19/NQ-CP": {
+      "2010-04-09": {
+        "decree_date": "2010-04-08",
+        "event": "Thi xa Bao Loc -> Thanh pho Bao Loc (retype), tinh Lam Dong",
+        "url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-19-NQ-CP-thanh-lap-thanh-pho-Bao-Loc-thuoc-tinh-Lam-Dong-103726.aspx",
+        "status": "resolved"
+      },
+      "2009-05-09": {
+        "decree_date": "2009-05-08",
+        "event": "Ha Noi post-Ha Tay reorg: Ha Dong -> Quan Ha Dong; Son Tay thanh pho -> thi xa",
+        "url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-19-NQ-CP-xac-lap-dia-gioi-hanh-chinh-88093.aspx",
+        "status": "resolved"
+      }
+    },
+    "33/NQ-CP": {
+      "2009-08-12": {
+        "decree_date": "2009-08-11",
+        "event": "Thi xa Dong Ha -> Thanh pho Dong Ha, tinh Quang Tri",
+        "url": "https://thuvienphapluat.vn/van-ban/bo-may-hanh-chinh/nghi-quyet-33-nq-cp-thanh-lap-thanh-pho-dong-ha-thuoc-tinh-quang-tri-92867.aspx",
+        "status": "resolved"
+      },
+      "2013-03-19": {
+        "decree_date": "2013-03-18",
+        "event": "Thanh lap thi xa Kien Tuong (chia tach tu huyen Moc Hoa), tinh Long An",
+        "url": "https://thuvienphapluat.vn/van-ban/Xay-dung-Do-thi/Nghi-quyet-33-NQ-CP-nam-2013-dieu-chinh-dia-gioi-hanh-chinh-huyen-Moc-Hoa-176864.aspx",
+        "status": "resolved"
+      }
+    },
+    "34/NQ-CP": {
+      "2009-08-12": {
+        "decree_date": "2009-08-11",
+        "event": "Thi xa Ben Tre -> Thanh pho Ben Tre, tinh Ben Tre",
+        "url": "https://chinhphu.vn/default.aspx?pageid=27160&docid=90066",
+        "status": "resolved"
+      },
+      "2010-09-24": {
+        "decree_date": "2010-09-23",
+        "event": "Thi xa Vi Thanh -> Thanh pho Vi Thanh (retype), tinh Hau Giang",
+        "url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-34-NQ-CP-thanh-lap-thanh-pho-Vi-Thanh-thuoc-tinh-Hau-Giang-112091.aspx",
+        "status": "resolved"
+      }
+    }
+  },
+  "residue_c_reclassified_single": {
+    "65/NQ-CP": {
+      "url": "https://chinhphu.vn/default.aspx?pageid=27160&docid=98253",
+      "note": "NOT ambiguous: single decree 65/NQ-CP 23/12/2010 (TP Cam Ranh, Khanh Hoa). The '2007-04-26' hieu_luc was a stale placeholder on the base roster row; the Cam Lam 2007 split is the SEPARATE code 65/2007/ND-CP (already resolved). Added to flat decree-urls.json."
+    },
+    "89/NQ-CP": {
+      "url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-89-NQ-CP-nam-2012-thanh-lap-thi-xa-Binh-Minh-dieu-chinh-dia-gioi-162798.aspx",
+      "note": "NOT ambiguous: single decree 89/NQ-CP 28/12/2012 (thi xa Binh Minh, Vinh Long). The '2007-08-15' hieu_luc was a stale placeholder; the Binh Tan split is the SEPARATE code 125/2007/ND-CP (already resolved). Added to flat decree-urls.json."
+    }
   }
 }
