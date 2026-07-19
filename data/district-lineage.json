@@ -1,0 +1,252 @@
+[
+  {
+    "predecessor": "d-636-base",
+    "successor": "d-624-2007-04-14",
+    "relation": "split",
+    "share": "partial",
+    "primary": false,
+    "decree": "50/2007/NĐ-CP",
+    "effective_date": "2007-04-14",
+    "reference_url": "https://thuvienphapluat.vn/van-ban/Bat-dong-san/Nghi-dinh-50-2007-ND-CP-dieu-chinh-dia-gioi-hanh-chinh-huyen-Ayun-Pa-lap-thi-xa-Ayun-Pa-huyen-Phu-Thien-phuong-Cheo-Reo-Hoa-Binh-Doan-Ket-Song-Bo-17980.aspx"
+  },
+  {
+    "predecessor": "d-636-base",
+    "successor": "d-638-2007-04-14",
+    "relation": "split",
+    "share": "partial",
+    "primary": false,
+    "decree": "50/2007/NĐ-CP",
+    "effective_date": "2007-04-14",
+    "reference_url": "https://thuvienphapluat.vn/van-ban/Bat-dong-san/Nghi-dinh-50-2007-ND-CP-dieu-chinh-dia-gioi-hanh-chinh-huyen-Ayun-Pa-lap-thi-xa-Ayun-Pa-huyen-Phu-Thien-phuong-Cheo-Reo-Hoa-Binh-Doan-Ket-Song-Bo-17980.aspx"
+  },
+  {
+    "predecessor": "d-019-base",
+    "successor": "d-019-2013-12-28",
+    "relation": "split",
+    "share": "partial",
+    "primary": false,
+    "decree": "132/NQ-CP",
+    "effective_date": "2013-12-28",
+    "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-132-NQ-CP-nam-2013-dieu-chinh-dia-gioi-hanh-chinh-Tu-Liem-Ha-Noi-217666.aspx"
+  },
+  {
+    "predecessor": "d-019-base",
+    "successor": "d-021-2013-12-28",
+    "relation": "split",
+    "share": "partial",
+    "primary": false,
+    "decree": "132/NQ-CP",
+    "effective_date": "2013-12-28",
+    "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-132-NQ-CP-nam-2013-dieu-chinh-dia-gioi-hanh-chinh-Tu-Liem-Ha-Noi-217666.aspx"
+  },
+  {
+    "predecessor": "d-151-base",
+    "successor": "d-148-base",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "830/NQ-UBTVQH14",
+    "effective_date": "2020-01-01",
+    "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-830-NQ-UBTVQH14-2019-sap-xep-don-vi-hanh-chinh-cap-huyen-xa-thuoc-tinh-Hoa-Binh-432100.aspx"
+  },
+  {
+    "predecessor": "d-204-base",
+    "successor": "d-193-base",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "837/NQ-UBTVQH14",
+    "effective_date": "2020-01-01",
+    "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-837-NQ-UBTVQH14-2019-sap-xep-don-vi-hanh-chinh-cap-huyen-thuoc-tinh-Quang-Ninh-432106.aspx"
+  },
+  {
+    "predecessor": "d-044-base",
+    "successor": "d-045-base",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "864/NQ-UBTVQH14",
+    "effective_date": "2020-02-01",
+    "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-864-NQ-UBTVQH14-2020-sap-xep-cac-don-vi-hanh-chinh-cap-huyen-cap-xa-tinh-Cao-Bang-434042.aspx"
+  },
+  {
+    "predecessor": "d-046-base",
+    "successor": "d-047-base",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "897/NQ-UBTVQH14",
+    "effective_date": "2020-03-01",
+    "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-897-NQ-UBTVQH14-2020-sap-xep-cac-don-vi-hanh-chinh-cap-huyen-tinh-Cao-Bang-435414.aspx"
+  },
+  {
+    "predecessor": "d-050-base",
+    "successor": "d-049-base",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "897/NQ-UBTVQH14",
+    "effective_date": "2020-03-01",
+    "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-897-NQ-UBTVQH14-2020-sap-xep-cac-don-vi-hanh-chinh-cap-huyen-tinh-Cao-Bang-435414.aspx"
+  },
+  {
+    "predecessor": "d-526-base",
+    "successor": "d-525-base",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "867/NQ-UBTVQH14",
+    "effective_date": "2020-02-01",
+    "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-867-NQ-UBTVQH14-2020-sap-xep-cac-don-vi-hanh-chinh-cap-huyen-cap-xa-Quang-Ngai-434045.aspx"
+  },
+  {
+    "predecessor": "d-762-base",
+    "successor": "d-769-base",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "1111/NQ-UBTVQH14",
+    "effective_date": "2021-01-01",
+    "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-1111-NQ-UBTVQH14-2020-sap-xep-don-vi-hanh-chinh-cap-huyen-cap-xa-Ho-Chi-Minh-460049.aspx"
+  },
+  {
+    "predecessor": "d-763-base",
+    "successor": "d-769-base",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "1111/NQ-UBTVQH14",
+    "effective_date": "2021-01-01",
+    "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-1111-NQ-UBTVQH14-2020-sap-xep-don-vi-hanh-chinh-cap-huyen-cap-xa-Ho-Chi-Minh-460049.aspx"
+  },
+  {
+    "predecessor": "d-474-base",
+    "successor": "d-474-2025-01-01",
+    "relation": "split",
+    "share": "partial",
+    "primary": false,
+    "decree": "1314/NQ-UBTVQH15",
+    "effective_date": "2025-01-01",
+    "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-1314-NQ-UBTVQH15-2024-sap-xep-don-vi-hanh-chinh-cap-huyen-cap-xa-thanh-pho-Hue-634158.aspx"
+  },
+  {
+    "predecessor": "d-474-base",
+    "successor": "d-475-2025-01-01",
+    "relation": "split",
+    "share": "partial",
+    "primary": false,
+    "decree": "1314/NQ-UBTVQH15",
+    "effective_date": "2025-01-01",
+    "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-1314-NQ-UBTVQH15-2024-sap-xep-don-vi-hanh-chinh-cap-huyen-cap-xa-thanh-pho-Hue-634158.aspx"
+  },
+  {
+    "predecessor": "d-221-base",
+    "successor": "d-213-base",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "1191/NQ-UBTVQH15",
+    "effective_date": "2025-01-01",
+    "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-1191-NQ-UBTVQH15-2024-sap-xep-don-vi-hanh-chinh-cap-huyen-tinh-Bac-Giang-626922.aspx"
+  },
+  {
+    "predecessor": "d-358-base",
+    "successor": "d-356-base",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "1104/NQ-UBTVQH15",
+    "effective_date": "2024-09-01",
+    "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-1104-NQ-UBTVQH15-2024-sap-xep-don-vi-hanh-chinh-cap-huyen-Nam-Dinh-619245.aspx"
+  },
+  {
+    "predecessor": "d-369-base",
+    "successor": "d-374-base",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "1318/NQ-UBTVQH15",
+    "effective_date": "2025-01-01",
+    "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-1318-NQ-UBTVQH15-2024-sap-xep-don-vi-hanh-chinh-cap-huyen-Ninh-Binh-635682.aspx"
+  },
+  {
+    "predecessor": "d-405-base",
+    "successor": "d-380-base",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "1238/NQ-UBTVQH15",
+    "effective_date": "2025-01-01",
+    "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-1238-NQ-UBTVQH15-2024-sap-xep-don-vi-hanh-chinh-huyen-Thanh-Hoa-2023-2025-629958.aspx"
+  },
+  {
+    "predecessor": "d-413-base",
+    "successor": "d-412-base",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "1243/NQ-UBTVQH15",
+    "effective_date": "2024-12-01",
+    "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-1243-NQ-UBTVQH15-2024-sap-xep-don-vi-hanh-chinh-cap-huyen-Nghe-An-630119.aspx"
+  },
+  {
+    "predecessor": "d-448-2007-02-22",
+    "successor": "d-445-base",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "1283/NQ-UBTVQH15",
+    "effective_date": "2025-01-01",
+    "reference_url": "https://luatvietnam.vn/hanh-chinh/nghi-quyet-1283-nq-ubtvqh15-2024-sap-xep-don-vi-hanh-chinh-cua-tinh-ha-tinh-giai-doan-2023-2025-375035-d1.html"
+  },
+  {
+    "predecessor": "d-483-base",
+    "successor": "d-482-base",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "1314/NQ-UBTVQH15",
+    "effective_date": "2025-01-01",
+    "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-1314-NQ-UBTVQH15-2024-sap-xep-don-vi-hanh-chinh-cap-huyen-cap-xa-thanh-pho-Hue-634158.aspx"
+  },
+  {
+    "predecessor": "d-519-2008-04-23",
+    "successor": "d-509-base",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "1241/NQ-UBTVQH15",
+    "effective_date": "2025-01-01",
+    "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-1241-NQ-UBTVQH15-2024-sap-xep-don-vi-hanh-chinh-cap-huyen-tinh-Quang-Nam-629960.aspx"
+  },
+  {
+    "predecessor": "d-681-base",
+    "successor": "d-682-base",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "1245/NQ-UBTVQH15",
+    "effective_date": "2024-12-01",
+    "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-1245-NQ-UBTVQH15-2024-sap-xep-don-vi-hanh-chinh-cap-huyen-tinh-Lam-Dong-630121.aspx"
+  },
+  {
+    "predecessor": "d-683-base",
+    "successor": "d-682-base",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "1245/NQ-UBTVQH15",
+    "effective_date": "2024-12-01",
+    "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-1245-NQ-UBTVQH15-2024-sap-xep-don-vi-hanh-chinh-cap-huyen-tinh-Lam-Dong-630121.aspx"
+  },
+  {
+    "predecessor": "d-752-base",
+    "successor": "d-753-base",
+    "relation": "merged_into",
+    "share": "whole",
+    "primary": false,
+    "decree": "1256/NQ-UBTVQH15",
+    "effective_date": "2025-01-01",
+    "reference_url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-1256-nq-ubtvqh15-43144.htm"
+  }
+]
