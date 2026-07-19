@@ -9,8 +9,8 @@ d-007-base,007,Quận Hai Bà Trưng,01,Q1134523,existing,matched
 d-008-base,008,Quận Hoàng Mai,01,Q864747,existing,matched
 d-009-base,009,Quận Thanh Xuân,01,Q864779,existing,matched
 d-016-base,016,Huyện Sóc Sơn,01,Q5370348,existing,matched
-d-017-base,017,Huyện Đông Anh,01,,,gap
-d-018-base,018,Huyện Gia Lâm,01,,,gap
+d-017-base,017,Huyện Đông Anh,01,Q135672028,existing,verified
+d-018-base,018,Huyện Gia Lâm,01,Q135713939,existing,verified
 d-019-base,019,Huyện Từ Liêm,01,Q864791,existing,matched
 d-020-base,020,Huyện Thanh Trì,01,Q4403404,existing,matched
 d-024-base,024,Thành phố Hà Giang,02,Q36519,existing,matched
@@ -157,7 +157,7 @@ d-232-base,232,Huyện Thanh Ba,25,Q7710326,existing,matched
 d-233-base,233,Huyện Phù Ninh,25,Q7188256,existing,matched
 d-234-base,234,Huyện Yên Lập,25,Q8052187,existing,matched
 d-235-base,235,Huyện Cẩm Khê,25,Q5024839,existing,matched
-d-236-base,236,Huyện Tam Nông,25,,,gap
+d-236-base,236,Huyện Tam Nông,25,Q7680472,existing,verified
 d-237-base,237,Huyện Lâm Thao,25,Q6480707,existing,matched
 d-238-base,238,Huyện Thanh Sơn,25,Q7682118,existing,matched
 d-239-base,239,Huyện Thanh Thuỷ,25,Q7710377,existing,matched
@@ -167,7 +167,7 @@ d-246-base,246,Huyện Lập Thạch,26,Q1001799,existing,matched
 d-247-base,247,Huyện Tam Dương,26,Q7680452,existing,matched
 d-248-base,248,Huyện Tam Đảo,26,Q7680446,existing,matched
 d-249-base,249,Huyện Bình Xuyên,26,Q4914346,existing,matched
-d-250-base,250,Huyện Mê Linh,01,,,gap
+d-250-base,250,Huyện Mê Linh,01,Q135659859,existing,verified
 d-251-base,251,Huyện Yên Lạc,26,Q8052186,existing,matched
 d-252-base,252,Huyện Vĩnh Tường,26,Q7932544,existing,matched
 d-256-base,256,Thành phố Bắc Ninh,27,Q33381,existing,matched
@@ -377,7 +377,7 @@ d-530-base,530,Huyện Sơn Tây,51,Q10823419,existing,matched
 d-531-base,531,Huyện Minh Long,51,Q6864876,existing,matched
 d-532-base,532,Huyện Nghĩa Hành,51,Q7022331,existing,matched
 d-533-base,533,Huyện Mộ Đức,51,Q6886224,existing,matched
-d-534-base,534,Thị xã Đức Phổ,51,,,gap
+d-534-base,534,Thị xã Đức Phổ,51,Q5311205,existing,verified
 d-535-base,535,Huyện Ba Tơ,51,Q4837079,existing,matched
 d-536-base,536,Huyện Lý Sơn,51,,,gap
 d-540-base,540,Thành phố Quy Nhơn,52,Q36081,existing,matched
@@ -419,7 +419,7 @@ d-598-base,598,Huyện Hàm Thuận Nam,60,Q5643882,existing,matched
 d-599-base,599,Huyện Tánh Linh,60,Q7683199,existing,matched
 d-600-base,600,Huyện Đức Linh,60,Q5311204,existing,matched
 d-601-base,601,Huyện Hàm Tân,60,Q5643878,existing,matched
-d-602-base,602,Huyện Phú Quí,60,Q32192913,existing,verified
+d-602-base,602,Huyện Phú Quí,60,,,gap
 d-608-base,608,Thành phố Kon Tum,62,Q36493,existing,matched
 d-610-base,610,Huyện Đắk Glei,62,Q5209895,existing,matched
 d-611-base,611,Huyện Ngọc Hồi,62,Q10800618,existing,matched
@@ -590,7 +590,7 @@ d-866-base,866,Thành phố Cao Lãnh,87,Q10744220,existing,matched
 d-867-base,867,Thành phố Sa Đéc,87,Q2987563,existing,matched
 d-869-base,869,Huyện Tân Hồng,87,Q7682058,existing,matched
 d-870-base,870,Huyện Hồng Ngự,87,Q10772154,existing,matched
-d-871-base,871,Huyện Tam Nông,87,,,gap
+d-871-base,871,Huyện Tam Nông,87,Q7680471,existing,verified
 d-872-base,872,Huyện Tháp Mười,87,Q7710664,existing,matched
 d-873-base,873,Huyện Cao Lãnh,87,Q10744220,existing,matched
 d-874-base,874,Huyện Thanh Bình,87,Q7710327,existing,matched
@@ -649,7 +649,7 @@ d-956-base,956,Huyện Hồng Dân,95,Q10772115,existing,matched
 d-957-base,957,Huyện Phước Long,95,Q7188368,existing,matched
 d-958-base,958,Huyện Vĩnh Lợi,95,Q7932535,existing,matched
 d-959-base,959,Thị xã Giá Rai,95,Q5557806,existing,matched
-d-960-base,960,Huyện Đông Hải,95,,,gap
+d-960-base,960,Huyện Đông Hải,95,Q5295731,existing,verified
 d-964-base,964,Thành phố Cà Mau,96,Q25262,existing,matched
 d-966-base,966,Huyện U Minh,96,Q1001878,existing,matched
 d-967-base,967,Huyện Thới Bình,96,Q7786654,existing,matched

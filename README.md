@@ -62,11 +62,24 @@ This completes the **province tier** and unblocks Phase 2 districts (their pre-2
 **Phase 2 (districts) — BUILD COMPLETE, pre-upload (last worked 2026-07-19). ◀ RESUME HERE.**
 
 **◀◀ RESUME POINT:** the whole build (R1–D11) is done and the QuickStatements batch
-`statements/na-districts.qs` is emitted (707 clean districts). The only open work before
-upload is the **11-district "became-a-ward/đặc-khu" reconciliation tail** — a one-by-one
-maintainer decision list with Wikidata URLs in
-[`docs/journals/2026-07-19.01`](docs/journals/2026-07-19.01.district-reconciliation-successor-tail.md).
-Those 11 are `match_status='gap'` (emit nothing) so the current batch ships nothing wrong.
+`statements/na-districts.qs` is emitted (707 clean districts). The **11-district
+"became-a-ward/đặc-khu" reconciliation tail is now decided** (journals
+[`2026-07-19.01`](docs/journals/2026-07-19.01.district-reconciliation-successor-tail.md) =
+verdicts, [`2026-07-19.02`](docs/journals/2026-07-19.02.district-create-new-manual-instructions.md) =
+the create-new procedure). Live re-verification found the bulk pull had missed **same-tier**
+former-district items because the name-fold keeps the WD-label parenthetical `(huyện)`/`(thị xã)`
+— so all 11 have a real target, not just gaps:
+- **7 matched `verified` in `mappings/districts-qid.csv`** — Tier A (4 clean same-tier former-district
+  items: Đức Phổ Q5311205, Tam Nông/Phú Thọ Q7680472, Tam Nông/Đồng Tháp Q7680471, Đông Hải Q5295731)
+  + Tier B (3 Hanoi stub former-huyện, match+enrich: Đông Anh Q135672028, Gia Lâm Q135713939, Mê Linh
+  Q135659859).
+- **4 pending manual create-new** (Tier C — no former item on WD, only the successor đặc-khu/phường):
+  Hoàng Sa, Lý Sơn, Cát Hải, Thị xã Quảng Trị, **+ Phú Quí revised** off its old successor-match. These
+  5 stay `gap` (emit nothing) until the maintainer hand-creates their items per `2026-07-19.02`, then
+  become `verified`. **NEXT STEP:** run the `2026-07-19.02` QuickStatements `CREATE` batch, record the
+  5 new QIDs into the CSV, then regenerate + audit + upload.
+
+The still-`gap` rows emit nothing, so the current batch ships nothing wrong.
 
 Building the district tier (huyện / quận / thị xã / thành phố thuộc tỉnh) as a
 continuous-entity lineage graph **2004→2025 + the universal 2025-07-01 abolition**,
