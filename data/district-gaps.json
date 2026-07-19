@@ -1,0 +1,368 @@
+[
+  {
+    "local_id": "d-017-base",
+    "gso_codes": [
+      "017"
+    ],
+    "name_vi": "Huyện Đông Anh",
+    "loai_hinh": "Huyện",
+    "type_spans": [
+      {
+        "loai_hinh": "Huyện",
+        "from": null,
+        "to": "2025-06-30"
+      }
+    ],
+    "aliases": [
+      "10117"
+    ],
+    "valid_from": null,
+    "valid_to": "2025-06-30",
+    "wikidata_qid": null,
+    "qid_status": null,
+    "era": null,
+    "parent_spans": [
+      {
+        "code": "01",
+        "qid": "Q1858",
+        "from": null,
+        "to": "2025-06-30",
+        "reference_url": ""
+      }
+    ]
+  },
+  {
+    "local_id": "d-018-base",
+    "gso_codes": [
+      "018"
+    ],
+    "name_vi": "Huyện Gia Lâm",
+    "loai_hinh": "Huyện",
+    "type_spans": [
+      {
+        "loai_hinh": "Huyện",
+        "from": null,
+        "to": "2025-06-30"
+      }
+    ],
+    "aliases": [
+      "10119"
+    ],
+    "valid_from": null,
+    "valid_to": "2025-06-30",
+    "wikidata_qid": null,
+    "qid_status": null,
+    "era": null,
+    "parent_spans": [
+      {
+        "code": "01",
+        "qid": "Q1858",
+        "from": null,
+        "to": "2025-06-30",
+        "reference_url": ""
+      }
+    ]
+  },
+  {
+    "local_id": "d-236-base",
+    "gso_codes": [
+      "236"
+    ],
+    "name_vi": "Huyện Tam Nông",
+    "loai_hinh": "Huyện",
+    "type_spans": [
+      {
+        "loai_hinh": "Huyện",
+        "from": null,
+        "to": "2025-06-30"
+      }
+    ],
+    "aliases": [
+      "21717"
+    ],
+    "valid_from": null,
+    "valid_to": "2025-06-30",
+    "wikidata_qid": null,
+    "qid_status": null,
+    "era": null,
+    "parent_spans": [
+      {
+        "code": "25",
+        "qid": "Q36610",
+        "from": null,
+        "to": "2025-06-30",
+        "reference_url": ""
+      }
+    ]
+  },
+  {
+    "local_id": "d-250-base",
+    "gso_codes": [
+      "250"
+    ],
+    "name_vi": "Huyện Mê Linh",
+    "loai_hinh": "Huyện",
+    "type_spans": [
+      {
+        "loai_hinh": "Huyện",
+        "from": null,
+        "to": "2025-06-30"
+      }
+    ],
+    "aliases": [
+      "10411"
+    ],
+    "valid_from": null,
+    "valid_to": "2025-06-30",
+    "wikidata_qid": null,
+    "qid_status": null,
+    "era": null,
+    "parent_spans": [
+      {
+        "code": "26",
+        "qid": "Q27566",
+        "from": null,
+        "to": "2008-07-31",
+        "reference_url": "https://thuvienphapluat.vn/van-ban/Bat-dong-san/Nghi-quyet-15-2008-QH12-dieu-chinh-dia-gioi-hanh-chinh-thanh-pho-Ha-Noi-va-mot-so-tinh-co-lien-quan-68076.aspx"
+      },
+      {
+        "code": "01",
+        "qid": "Q1858",
+        "from": "2008-08-01",
+        "to": "2025-06-30",
+        "reference_url": "https://thuvienphapluat.vn/van-ban/Bat-dong-san/Nghi-quyet-15-2008-QH12-dieu-chinh-dia-gioi-hanh-chinh-thanh-pho-Ha-Noi-va-mot-so-tinh-co-lien-quan-68076.aspx"
+      }
+    ]
+  },
+  {
+    "local_id": "d-317-base",
+    "gso_codes": [
+      "317"
+    ],
+    "name_vi": "Huyện Cát Hải",
+    "loai_hinh": "Huyện",
+    "type_spans": [
+      {
+        "loai_hinh": "Huyện",
+        "from": null,
+        "to": "2025-06-30"
+      }
+    ],
+    "aliases": [
+      "10323"
+    ],
+    "valid_from": null,
+    "valid_to": "2025-06-30",
+    "wikidata_qid": null,
+    "qid_status": null,
+    "era": null,
+    "parent_spans": [
+      {
+        "code": "31",
+        "qid": "Q72818",
+        "from": null,
+        "to": "2025-06-30",
+        "reference_url": ""
+      }
+    ]
+  },
+  {
+    "local_id": "d-462-base",
+    "gso_codes": [
+      "462"
+    ],
+    "name_vi": "Thị xã Quảng Trị",
+    "loai_hinh": "Thị xã",
+    "type_spans": [
+      {
+        "loai_hinh": "Thị xã",
+        "from": null,
+        "to": "2025-06-30"
+      }
+    ],
+    "aliases": [
+      "40903"
+    ],
+    "valid_from": null,
+    "valid_to": "2025-06-30",
+    "wikidata_qid": null,
+    "qid_status": null,
+    "era": null,
+    "parent_spans": [
+      {
+        "code": "45",
+        "qid": "Q36579",
+        "from": null,
+        "to": "2025-06-30",
+        "reference_url": ""
+      }
+    ]
+  },
+  {
+    "local_id": "d-498-base",
+    "gso_codes": [
+      "498"
+    ],
+    "name_vi": "Huyện Hoàng Sa",
+    "loai_hinh": "Huyện",
+    "type_spans": [
+      {
+        "loai_hinh": "Huyện",
+        "from": null,
+        "to": "2025-06-30"
+      }
+    ],
+    "aliases": [
+      "50113"
+    ],
+    "valid_from": null,
+    "valid_to": "2025-06-30",
+    "wikidata_qid": null,
+    "qid_status": null,
+    "era": null,
+    "parent_spans": [
+      {
+        "code": "48",
+        "qid": "Q25282",
+        "from": null,
+        "to": "2025-06-30",
+        "reference_url": ""
+      }
+    ]
+  },
+  {
+    "local_id": "d-534-base",
+    "gso_codes": [
+      "534"
+    ],
+    "name_vi": "Thị xã Đức Phổ",
+    "loai_hinh": "Thị xã",
+    "type_spans": [
+      {
+        "loai_hinh": "Huyện",
+        "from": null,
+        "to": "2020-01-31",
+        "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-867-NQ-UBTVQH14-2020-sap-xep-cac-don-vi-hanh-chinh-cap-huyen-cap-xa-Quang-Ngai-434045.aspx"
+      },
+      {
+        "loai_hinh": "Thị xã",
+        "from": "2020-02-01",
+        "to": "2025-06-30",
+        "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-867-NQ-UBTVQH14-2020-sap-xep-cac-don-vi-hanh-chinh-cap-huyen-cap-xa-Quang-Ngai-434045.aspx"
+      }
+    ],
+    "aliases": [
+      "50523"
+    ],
+    "valid_from": null,
+    "valid_to": "2025-06-30",
+    "wikidata_qid": null,
+    "qid_status": null,
+    "era": null,
+    "parent_spans": [
+      {
+        "code": "51",
+        "qid": "Q33304",
+        "from": null,
+        "to": "2025-06-30",
+        "reference_url": ""
+      }
+    ]
+  },
+  {
+    "local_id": "d-536-base",
+    "gso_codes": [
+      "536"
+    ],
+    "name_vi": "Huyện Lý Sơn",
+    "loai_hinh": "Huyện",
+    "type_spans": [
+      {
+        "loai_hinh": "Huyện",
+        "from": null,
+        "to": "2025-06-30"
+      }
+    ],
+    "aliases": [
+      "50503"
+    ],
+    "valid_from": null,
+    "valid_to": "2025-06-30",
+    "wikidata_qid": null,
+    "qid_status": null,
+    "era": null,
+    "parent_spans": [
+      {
+        "code": "51",
+        "qid": "Q33304",
+        "from": null,
+        "to": "2025-06-30",
+        "reference_url": ""
+      }
+    ]
+  },
+  {
+    "local_id": "d-871-base",
+    "gso_codes": [
+      "871"
+    ],
+    "name_vi": "Huyện Tam Nông",
+    "loai_hinh": "Huyện",
+    "type_spans": [
+      {
+        "loai_hinh": "Huyện",
+        "from": null,
+        "to": "2025-06-30"
+      }
+    ],
+    "aliases": [
+      "80309"
+    ],
+    "valid_from": null,
+    "valid_to": "2025-06-30",
+    "wikidata_qid": null,
+    "qid_status": null,
+    "era": null,
+    "parent_spans": [
+      {
+        "code": "87",
+        "qid": "Q36676",
+        "from": null,
+        "to": "2025-06-30",
+        "reference_url": ""
+      }
+    ]
+  },
+  {
+    "local_id": "d-960-base",
+    "gso_codes": [
+      "960"
+    ],
+    "name_vi": "Huyện Đông Hải",
+    "loai_hinh": "Huyện",
+    "type_spans": [
+      {
+        "loai_hinh": "Huyện",
+        "from": null,
+        "to": "2025-06-30"
+      }
+    ],
+    "aliases": [
+      "82109"
+    ],
+    "valid_from": null,
+    "valid_to": "2025-06-30",
+    "wikidata_qid": null,
+    "qid_status": null,
+    "era": null,
+    "parent_spans": [
+      {
+        "code": "95",
+        "qid": "Q36658",
+        "from": null,
+        "to": "2025-06-30",
+        "reference_url": ""
+      }
+    ]
+  }
+]

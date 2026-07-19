@@ -59,7 +59,14 @@ Uploaded 2026-07-14 via QuickStatements ([batch #260977](https://quickstatements
 This completes the **province tier** and unblocks Phase 2 districts (their pre-2008
 `P131` spans need these historical province QIDs).
 
-**Phase 2 (districts) — IN PROGRESS (last worked 2026-07-18). ◀ RESUME HERE.**
+**Phase 2 (districts) — BUILD COMPLETE, pre-upload (last worked 2026-07-19). ◀ RESUME HERE.**
+
+**◀◀ RESUME POINT:** the whole build (R1–D11) is done and the QuickStatements batch
+`statements/na-districts.qs` is emitted (707 clean districts). The only open work before
+upload is the **11-district "became-a-ward/đặc-khu" reconciliation tail** — a one-by-one
+maintainer decision list with Wikidata URLs in
+[`docs/journals/2026-07-19.01`](docs/journals/2026-07-19.01.district-reconciliation-successor-tail.md).
+Those 11 are `match_status='gap'` (emit nothing) so the current batch ships nothing wrong.
 
 Building the district tier (huyện / quận / thị xã / thành phố thuộc tỉnh) as a
 continuous-entity lineage graph **2004→2025 + the universal 2025-07-01 abolition**,
@@ -70,7 +77,23 @@ which supersedes the as-written D4/D6.5/D7 mechanism. Tasks: R1–R4 ("Movement 
 tier-neutral `core.py` refactor) then D1–D11 (district build). Everything is committed on
 `main` (solo repo — commit directly on `main`, no branch).
 
-**Done & pushed** — suite **91 passed**, tree clean:
+**Done & pushed** — suite **118 passed**, tree clean. **R1–D11 all complete:**
+- **D7** `build_districts` — 718 entities, 25 lineage edges, 0 residue (survivor-row
+  dissolve mechanism; division-via-dissolve for Ayun Pa; curated
+  `data/district-merge-targets.json`). 8-test ground-truth gate.
+- **D8** reconciliation — bulk SPARQL + alias-aware match + audit; **live-reconciled
+  718/718** (the SPARQL class `Q13221722` was wrong → the four real district classes).
+- **D9** relation-aware emitter (P576-on-end, P807 carve, dated P131/P31, abolition).
+- **D10** constraints gate (P131+P580/P582) + **live-confirmed the 4 district `P31`
+  targets** (the placeholders were junk items — corrected in `core.py`).
+- **D11** pipeline (`build_districts_all`, 4 hard gates) + `event-decree overrides`
+  (`data/district-decree-overrides.json`) that cleared the whole-graph reference gate.
+  `ABOLITION_REF` = Luật 72/2025/QH15 (Điều 51 khoản 3). Emitted **1778 referenced
+  statements** — 0 self-edges, 0 reference-gate offenders.
+- Earlier, R1–R4 + D1–D6.5 (below) + the decree reference URLs (63→**156**).
+
+<details><summary>R1–D6.5 (earlier)</summary>
+
 - **R1–R4:** extracted `src/vn_admin_units/core.py` (shared `Entity`/`LineageEdge` +
   emit primitives + relation vocabulary); migrated 1a (`model.py`) and 1b
   (`province_history.py`) onto it — **1a `mappings/` proven byte-identical**.
@@ -86,6 +109,8 @@ tier-neutral `core.py` refactor) then D1–D11 (district build). Everything is c
   corrections 4–5): exclude `621/TCTK-PPCĐ` (a code-only re-code, not an event) and key
   the 5 genuinely-ambiguous bare codes by `(code, effective_date)` — their 10 per-event
   URLs sit in `data/decree-urls-residue-2026-07-18.json → residue_c_date_qualified`.
+
+</details>
 
 **Execution corrections (the plan's section is authoritative — do NOT follow the old D6.5/D7 date path):**
 1. **Dissolve/merge DATE + decree come from the crosswalk SURVIVOR row**
@@ -107,20 +132,22 @@ unfindable tail closed it. **Also authoritative in the plan now (Execution corre
 genuinely-ambiguous bare codes (`04/11/19/33/34 NQ-CP`) are keyed by `(code, effective_date)`
 — both are D7-build code changes, not data. Full worklist: journal `2026-07-18.01`.
 
-**NEXT, in order:**
-1. **D7 (in progress)** — implement `build_districts` in `district_model.py` on the
-   **survivor-row** date mechanism: seed roots from the 2005-01-01 roster, walk the yearly
-   windows applying reparent/rename/retype/create/dissolve, resolve split/carve/merge buckets
-   (D6 discriminator), curate `data/district-merge-targets.json` (incl. `Nông Sơn 519 → Quế Sơn 509`),
-   apply the universal 2025 abolition (~696 districts). Gate: `tests/test_district_groundtruth.py`
-   (corrected dates) + `test_no_blocking_residue`. Full code scaffold + the corrections are in plan Task D7.
-2. **D8** reconciliation (bulk SPARQL — live Wikidata) · **D9** emitter · **D10** constraints
-   (+ live-confirm the 4 district `P31` target QIDs) · **D11** wire pipeline (5 hard gates,
-   offline test; live build; source the 2025 reform-resolution URL for the abolition reference).
+**NEXT, in order (pre-upload) — see journal [`2026-07-19.01`](docs/journals/2026-07-19.01.district-reconciliation-successor-tail.md):**
+1. **Decide the 11 "became-a-ward/đặc-khu" districts one-by-one** (the journal lists each
+   with Wikidata URLs). Three groups: island huyện → 1 đặc khu (successor-match, = Phú Quý);
+   thị xã → ward (swap in the correct successor); mainland huyện → many wards (1:many — no
+   single successor → create-new or leave `gap`). Then update `mappings/districts-qid.csv`.
+2. **Land the reconciliation-fallback tier-check** (systemic): `_district_search_fallback`
+   must verify the candidate is district-tier (`P31 ∈ the 4 classes`), not just `P17=Vietnam`
+   — that P17-only check is what accepted the wrong same-named items (a province, a Thanh Hóa
+   commune). Do before the next `reconcile_districts_live`.
+3. *(only if any create-new)* add QuickStatements `CREATE` support to `emit_district_quickstatements`.
+4. Re-run `build_districts_all` → regenerate `statements/na-districts.qs`; re-run the pre-upload
+   **audit** (`reconcile.audit_district_qids` — clean except the accepted cross-tier `TYPE`
+   flags like Phú Quí) + the **D10 constraints gate**.
 
-**Human touchpoints (don't auto-do these):** confirming the district `P31` QIDs (D10);
-confirming the 2025 reform-resolution URL (D11); reviewing and performing the **Wikidata
-upload** (always manual, maintainer's account).
+**Human touchpoints (don't auto-do these):** the 11-district decisions above; reviewing and
+performing the **Wikidata upload** (always manual, maintainer's account — QuickStatements batch).
 
 **Next phases after 2:** wards (NA16, Phase 3), pre-2002 history — see the roadmap in `docs/DESIGN.md`.
 
