@@ -373,10 +373,16 @@ def sparql_vn_districts(timeout: int = 90) -> list:
     English or stale form), so matching must include them (design §Reconciliation). parent_qid
     is the WD P131 target (may be stale — a WEAK tiebreak only, after attach_parent_codes maps
     it to a GSO province code)."""
+    # The four Vietnamese DISTRICT-tier P31 classes (confirmed live 2026-07-19): rural district
+    # (huyện), urban district (quận), district-level town (thị xã), provincial city (thành phố
+    # thuộc tỉnh). NOT the commune-level town Q1070942 (ward tier) nor the umbrella Q137325575
+    # "former subdivisions of Vietnam" (P279* = 1381, includes wards + provinces). The plan's
+    # Q13221722 matched 0 VN items — these classes aren't under it.
     q = """SELECT ?item ?itemLabel ?parent
              (GROUP_CONCAT(DISTINCT ?alias; separator="|") AS ?aliases) WHERE {
-      ?item wdt:P31/wdt:P279* wd:Q13221722 .        # district-level admin unit
-      ?item wdt:P17 wd:Q881 .                        # country = Vietnam
+      VALUES ?dtype { wd:Q2582669 wd:Q6644510 wd:Q2112349 wd:Q3249005 }
+      ?item wdt:P31 ?dtype .                          # district-level admin unit (VN)
+      ?item wdt:P17 wd:Q881 .                         # country = Vietnam
       OPTIONAL { ?item wdt:P131 ?parent . }
       OPTIONAL { ?item skos:altLabel ?alias . FILTER(LANG(?alias) IN ("vi", "en")) }
       SERVICE wikibase:label { bd:serviceParam wikibase:language "vi,en". }

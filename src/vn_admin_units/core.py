@@ -19,11 +19,12 @@ P31_TARGETS = {
     "Tỉnh": "Q2824648",                       # province of Vietnam
     "Thành phố Trung ương": "Q1381899",       # centrally-controlled city of Vietnam
     # District tier (longest-key-first resolution: "Thành phố Trung ương" above wins over the
-    # provincial-city "Thành phố" here). PLACEHOLDERS — CONFIRM in D10.
-    "Huyện": "Q5057368",                      # rural district of Vietnam — CONFIRM (D10)
-    "Quận": "Q5124547",                       # urban district of Vietnam — CONFIRM (D10)
-    "Thị xã": "Q7973736",                     # district-level town (thị xã) — CONFIRM (D10)
-    "Thành phố": "Q20124469",                 # provincial city (thành phố thuộc tỉnh) — CONFIRM (D10)
+    # provincial-city "Thành phố" here). CONFIRMED live via SPARQL 2026-07-19 (D10) — the earlier
+    # placeholders were random junk items (would have emitted wrong P31, as bit Phase 1b).
+    "Huyện": "Q2582669",                      # rural district of Vietnam (579 VN items)
+    "Quận": "Q6644510",                       # urban district of Vietnam (52)
+    "Thị xã": "Q2112349",                     # District-level town of Vietnam / thị xã (64)
+    "Thành phố": "Q3249005",                  # provincial city of Vietnam / thành phố thuộc tỉnh (86)
 }
 
 
