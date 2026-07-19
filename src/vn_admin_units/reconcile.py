@@ -358,6 +358,221 @@ def audit_history_qids(mapping_path: str = "mappings/provinces-history-qid.csv")
     return issues
 
 
+# ── Phase 2: district reconciliation (separate local_id-keyed mapping) ──
+
+DISTRICT_HEADER = ["local_id", "terminal_code", "name_vi", "parent_code",
+                   "wikidata_qid", "qid_status", "match_status"]
+
+_WDQS = "https://query.wikidata.org/sparql"
+
+
+def sparql_vn_districts(timeout: int = 90) -> list:
+    """All Vietnamese district-level items (incl. abolished): {qid, label, aliases, parent_qid}.
+    One pull instead of ~700 wbsearchentities calls. `aliases` are the vi/en altLabels — a
+    near-empty item frequently holds the GSO name only as an ALIAS (its main label being an
+    English or stale form), so matching must include them (design §Reconciliation). parent_qid
+    is the WD P131 target (may be stale — a WEAK tiebreak only, after attach_parent_codes maps
+    it to a GSO province code)."""
+    q = """SELECT ?item ?itemLabel ?parent
+             (GROUP_CONCAT(DISTINCT ?alias; separator="|") AS ?aliases) WHERE {
+      ?item wdt:P31/wdt:P279* wd:Q13221722 .        # district-level admin unit
+      ?item wdt:P17 wd:Q881 .                        # country = Vietnam
+      OPTIONAL { ?item wdt:P131 ?parent . }
+      OPTIONAL { ?item skos:altLabel ?alias . FILTER(LANG(?alias) IN ("vi", "en")) }
+      SERVICE wikibase:label { bd:serviceParam wikibase:language "vi,en". }
+    } GROUP BY ?item ?itemLabel ?parent"""
+    u = _WDQS + "?" + urllib.parse.urlencode({"query": q, "format": "json"})
+    data = _get_json(u, timeout)
+    out = []
+    for b in data["results"]["bindings"]:
+        parent = b.get("parent", {}).get("value", "")
+        aliases = [a for a in b.get("aliases", {}).get("value", "").split("|") if a]
+        out.append({"qid": b["item"]["value"].rsplit("/", 1)[-1],
+                    "label": b.get("itemLabel", {}).get("value", ""),
+                    "aliases": aliases,
+                    "parent_qid": parent.rsplit("/", 1)[-1] if parent else None,
+                    "parent_code": None})     # filled by attach_parent_codes
+    return out
+
+
+def attach_parent_codes(candidates: list, prov_qid_to_code: dict) -> list:
+    """Map each candidate's parent_qid → GSO province code (via the reconciled province
+    mappings) so match_districts can use province as a weak tiebreak. A candidate whose
+    parent_qid isn't in the map keeps parent_code=None (name-only)."""
+    for c in candidates:
+        c["parent_code"] = prov_qid_to_code.get(c.get("parent_qid"))
+    return candidates
+
+
+def match_districts(entities: list, candidates: list, search_fn=None, verify_fn=None) -> list:
+    """Match each district Entity to a WD candidate by FOLDED NAME — indexing candidate
+    LABELS **and aliases**, and testing the entity's OWN aliases too (a near-empty item often
+    holds the GSO name only as an alias). Parent province is a WEAK tiebreak among same-name
+    hits; a lone name hit is accepted even if its P131 disagrees (WD P131 is stale — design §4).
+
+    A bulk miss is NOT immediately 'new': when `search_fn` (wbsearchentities) is supplied, fall
+    back to a per-item search verified by `verify_fn` (P17=Vietnam) before conceding a gap. Only
+    a *verified* no-hit becomes qid_status='new'. Both fns are injected so the unit tests stay
+    offline; the pipeline (D11) passes the live `wd_search`/`wd_country`."""
+    from collections import defaultdict
+    from vn_admin_units.names import fold_district_name
+    by_name = defaultdict(list)
+    for c in candidates:
+        for nm in (c.get("label", ""), *c.get("aliases", [])):
+            if nm:
+                by_name[fold_district_name(nm)].append(c)
+
+    def bulk_hit(e):
+        for k in (e.name_vi, *getattr(e, "aliases", [])):
+            hits = by_name.get(fold_district_name(k))
+            if hits:
+                return hits
+        return []
+
+    for e in entities:
+        hits = bulk_hit(e)
+        if hits:
+            prov = e.parent_spans[-1]["code"] if e.parent_spans else None
+            best = next((h for h in hits if h.get("parent_code") == prov), hits[0])
+            e.wikidata_qid, e.qid_status = best["qid"], "existing"
+            continue
+        found = _district_search_fallback(e, search_fn, verify_fn) if search_fn else ""
+        if found:
+            e.wikidata_qid, e.qid_status = found, "existing"
+        else:
+            e.qid_status = "new"
+    return entities
+
+
+def _district_search_fallback(e, search_fn, verify_fn=None) -> str:
+    """Per-item wbsearchentities for a bulk-SPARQL miss (design §Reconciliation fallback).
+    Returns a QID whose label folds to the entity name AND (when verify_fn is given) whose
+    P17 = Vietnam; else '' (a genuine gap)."""
+    from vn_admin_units.names import fold_district_name
+    want = fold_district_name(e.name_vi)
+    hits = search_fn(re.sub(r"^(Huyện|Quận|Thị xã|Thành phố)\s+", "", e.name_vi, flags=re.I))
+    ids = [h["id"] for h in hits]
+    vn = verify_fn(ids) if (verify_fn and ids) else {}
+    for h in hits:
+        name_ok = fold_district_name(h.get("label", "")) == want
+        vn_ok = (VIETNAM in vn.get(h["id"], [])) if verify_fn else True
+        if name_ok and vn_ok:
+            return h["id"]
+    return ""
+
+
+def load_district_seed(path: str = "mappings/districts-qid.csv") -> dict:
+    """{local_id: (qid, qid_status)} for HUMAN-LOCKED rows only (verified/manual). Used by the
+    live step to let a hand-fix beat a fresh auto-match. NOT what the offline build reads —
+    see load_district_mapping (auto `matched` rows must survive to emit)."""
+    p = Path(path)
+    if not p.exists():
+        return {}
+    out = {}
+    for row in csv.DictReader(p.read_text(encoding="utf-8").splitlines()):
+        if row.get("wikidata_qid") and row.get("match_status") in {"verified", "manual"}:
+            out[row["local_id"]] = (row["wikidata_qid"], row.get("qid_status") or "existing")
+    return out
+
+
+def load_district_mapping(path: str = "mappings/districts-qid.csv") -> dict:
+    """{local_id: (qid, qid_status)} for EVERY row that has a QID, regardless of match_status
+    (matched / verified / manual). This is what the OFFLINE build applies so the QIDs that
+    `reconcile_districts_live` wrote as `matched` reach the emitter instead of being dropped
+    (F1). Upload stays gated on the audit — `matched` is auto-but-usable, not human-approved."""
+    p = Path(path)
+    if not p.exists():
+        return {}
+    out = {}
+    for row in csv.DictReader(p.read_text(encoding="utf-8").splitlines()):
+        if row.get("wikidata_qid"):
+            out[row["local_id"]] = (row["wikidata_qid"], row.get("qid_status") or "existing")
+    return out
+
+
+def apply_district_seed(entities: list, seed: dict) -> list:
+    for e in entities:
+        if e.local_id in seed:
+            e.wikidata_qid, e.qid_status = seed[e.local_id]
+    return entities
+
+
+def load_acknowledged_gaps(path: str = "mappings/districts-qid.csv") -> set:
+    """local_ids a human has marked `match_status == "gap"` — a district with genuinely no WD
+    item, acknowledged as create-later (design §Reconciliation, e.g. Bắc Từ Liêm). The pre-emit
+    completeness gate (F1) lets these pass (they emit nothing NOW, by design) but fails on any
+    un-triaged `needs-lookup` row, so a silently-incomplete artifact can't ship."""
+    p = Path(path)
+    if not p.exists():
+        return set()
+    return {row["local_id"] for row in csv.DictReader(p.read_text(encoding="utf-8").splitlines())
+            if row.get("match_status") == "gap"}
+
+
+def write_district_mapping(entities: list, out_path: str = "mappings/districts-qid.csv") -> None:
+    """Write the local_id-keyed district mapping (separate file). Preserves the prior
+    match_status of ANY resolved row (matched/verified/manual) so a rebuild never downgrades a
+    QID-bearing row to needs-lookup (F1) — only a genuinely QID-less entity gets needs-lookup."""
+    prior = {}
+    p = Path(out_path)
+    if p.exists():
+        for row in csv.DictReader(p.read_text(encoding="utf-8").splitlines()):
+            if row.get("match_status"):
+                prior[row["local_id"]] = row["match_status"]
+    lines = [",".join(DISTRICT_HEADER)]
+    for e in entities:
+        prov = e.parent_spans[-1]["code"] if e.parent_spans else ""
+        if not e.wikidata_qid:
+            # a QID-less row keeps a human 'gap' acknowledgment (create-later); else needs-lookup.
+            status = "gap" if prior.get(e.local_id) == "gap" else "needs-lookup"
+        else:
+            # a resolved row keeps only a resolved prior status; a former 'gap' that now HAS a QID
+            # (e.g. later found by reconcile) must NOT stay 'gap' — it becomes 'matched' (F2).
+            prev = prior.get(e.local_id)
+            status = prev if prev in {"verified", "manual", "matched"} else "matched"
+        lines.append(",".join([e.local_id, e.terminal_code, e.name_vi, prov,
+                               e.wikidata_qid or "", e.qid_status or "", status]))
+    Path(out_path).write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def audit_district_qids(mapping_path: str = "mappings/districts-qid.csv") -> list:
+    """Pre-upload audit: unresolved rows, instance-of TYPE check (district-level), and a
+    NAME/label match (so a same-type but WRONG item is caught). Province half stays weak.
+
+    A QID-less row marked `match_status="gap"` is a REVIEWED create-later gap (consistent with the
+    completeness gate) — reported as an informational `GAP …` line, NOT an `UNRESOLVED` issue, so
+    the "resolve all issues" audit can go clean while acknowledged gaps remain. Only un-triaged
+    QID-less rows are `UNRESOLVED`."""
+    from vn_admin_units.names import fold_district_name
+    rows = list(csv.DictReader(Path(mapping_path).read_text(encoding="utf-8").splitlines()))
+    issues = [f"UNRESOLVED {r['local_id']} {r['name_vi']}"
+              for r in rows if not r["wikidata_qid"] and r.get("match_status") != "gap"]
+    gaps = [f"GAP {r['local_id']} {r['name_vi']}"
+            for r in rows if not r["wikidata_qid"] and r.get("match_status") == "gap"]
+    for g in gaps:
+        log.info("acknowledged %s", g)               # informational — a reviewed create-later gap
+    qids = sorted({r["wikidata_qid"] for r in rows if r["wikidata_qid"]})
+    if not qids:
+        return issues
+    inst = wd_claims_ids(qids, "P31")
+    tl = wd_labels(sorted({t for v in inst.values() for t in v}))
+    item_lbl = wd_labels(qids, langs=("vi", "en"))
+    for r in rows:
+        if not r["wikidata_qid"]:
+            continue
+        labels = [tl.get(t, t).lower() for t in inst.get(r["wikidata_qid"], [])]
+        # District-tier types only: district (huyện/quận), town (thị xã), city (thành phố
+        # thuộc tỉnh). "ward" is a LOWER tier (phường/xã) — a ward-typed item matched to a
+        # district is a wrong match (names overlap across tiers), so it must NOT pass (F3).
+        if not any(("district" in l or "town" in l or "city" in l) for l in labels):
+            issues.append(f"TYPE {r['local_id']} {r['name_vi']} {r['wikidata_qid']} -> {labels}")
+        lbl = item_lbl.get(r["wikidata_qid"], "")
+        if not (fold_district_name(r["name_vi"]) in fold_district_name(lbl)
+                or fold_district_name(lbl) in fold_district_name(r["name_vi"])):
+            issues.append(f"LABEL {r['local_id']} {r['name_vi']} != {r['wikidata_qid']} ({lbl})")
+    return issues
+
+
 def main() -> None:
     logging.basicConfig(level=logging.INFO,
                         format="%(asctime)s %(levelname)s %(message)s",
