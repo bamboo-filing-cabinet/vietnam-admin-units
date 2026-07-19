@@ -284,16 +284,7 @@
       "623/NQ-UBTVQH14": "https://luatvietnam.vn/hanh-chinh/nghi-quyet-623-nq-ubtvqh14-2019-thanh-lap-thanh-pho-chi-linh-tinh-hai-duong-171104-d1.html",
       "65/2007/NĐ-CP": "https://chinhphu.vn/default.aspx?pageid=27160&docid=22396"
     },
-    "held_medium_needs_review": {
-      "125/2007/NĐ-CP": {
-        "url": "https://baochinhphu.vn/thanh-lap-huyen-binh-tan-thuoc-tinh-vinh-long-10216629.htm",
-        "source": "chinhphu"
-      },
-      "84/2005-NĐ-CP": {
-        "url": "https://phapluat.gov.vn/vbpl/31249?tab=1",
-        "source": "vbpl"
-      }
-    },
+    "held_medium_needs_review": {},
     "still_unresolved_online": [],
     "excluded_not_a_decree": [
       "621/TCTK-PPCĐ"
@@ -314,7 +305,9 @@
       "930/NQ-UBTVQH13": "https://baodautu.vn/phat-trien-gia-rai-bac-lieu--xung-tam-voi-vi-the-d29779.html",
       "931/UBTVQH13": "https://baochinhphu.vn/cong-bo-thanh-lap-huyen-phu-rieng-binh-phuoc-102188099.htm",
       "933/NQ-UBTVQH13": "https://baodautu.vn/long-my-hau-giang-phat-trien-toan-dien-kinh-te-nong-nghiep-d39283.html",
-      "98/2008/NĐ-CP": "https://nhandan.vn/thanh-lap-thanh-pho-son-la-post597949.html"
+      "98/2008/NĐ-CP": "https://nhandan.vn/thanh-lap-thanh-pho-son-la-post597949.html",
+      "125/2007/NĐ-CP": "https://chinhphu.vn/default.aspx?pageid=27160&docid=34318",
+      "84/2005-NĐ-CP": "https://thuvienphapluat.vn/van-ban/Bat-dong-san/Nghi-dinh-84-2005-ND-CP-thanh-lap-xa-thuoc-huyen-Ninh-Hai-Thuan-Bac-tinh-Ninh-Thuan-9280.aspx"
     }
   }
 }
