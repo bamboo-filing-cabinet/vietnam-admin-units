@@ -139,7 +139,11 @@ def build_districts_all() -> None:
     # The reform resolution that abolished the district tier on 2025-07-01. Design §Emit requires
     # the abolition P576 reference THIS instrument, NOT the NSO root — so it starts empty and the
     # build hard-fails until the confirmed URL is set (F2). ~696 abolition statements ride on it.
-    ABOLITION_REF = ""    # <- set to the confirmed two-tier-reform resolution URL before emitting
+    # Luật Tổ chức chính quyền địa phương số 72/2025/QH15 (passed 16/6/2025), Điều 51 khoản 3:
+    # "Kể từ ngày 01/7/2025, không tổ chức chính quyền địa phương ở cấp huyện" — the instrument
+    # that abolished the district tier on 2025-07-01. Sourced + confirmed 2026-07-19.
+    ABOLITION_REF = ("https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/"
+                     "Luat-To-chuc-chinh-quyen-dia-phuong-2025-so-72-2025-QH15-649675.aspx")
     if not ABOLITION_REF or ABOLITION_REF == NSO_SOURCE_URL or not ABOLITION_REF.startswith("http"):
         raise SystemExit("ABOLITION_REF unset/placeholder: set it to the confirmed two-tier-reform "
                          "resolution URL (design §Emit — never the NSO root) before emitting.")
