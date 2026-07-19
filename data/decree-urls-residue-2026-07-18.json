@@ -7,7 +7,7 @@
     "typo_variants_added": 5,
     "held_ambiguous": 7,
     "still_missing": 33,
-    "still_missing_after_pass2": 15
+    "still_missing_after_pass2": 0
   },
   "held_ambiguous_need_per_date_keying": {
     "04/NQ-CP": {
@@ -294,26 +294,27 @@
         "source": "vbpl"
       }
     },
-    "still_unresolved_online": [
-      "07/NĐ-CP",
-      "126/2006/NĐ-CP",
-      "15/NĐ-CP",
-      "16/NĐ-CP",
-      "189/2004/NĐ-CP",
-      "27/NQ-CP",
-      "29/NQ-CP",
-      "368/NQ-UBTVQH14",
-      "60/NQ-CP",
-      "61/2007/NĐ-CP",
-      "904/NQ-UBTVQH13",
-      "930/NQ-UBTVQH13",
-      "931/UBTVQH13",
-      "933/NQ-UBTVQH13",
-      "98/2008/NĐ-CP"
-    ],
+    "still_unresolved_online": [],
     "excluded_not_a_decree": [
       "621/TCTK-PPCĐ"
     ],
-    "note": "Non-thuvienphapluat URLs (chinhphu/luatvietnam/vbpl/dangcongsan) are authoritative-gov fallbacks = open-decision option (a). Sources per code in agent notes."
+    "note": "Non-thuvienphapluat URLs (chinhphu/luatvietnam/vbpl/dangcongsan) are authoritative-gov fallbacks = open-decision option (a). Sources per code in agent notes.",
+    "resolved_by_maintainer": {
+      "07/NĐ-CP": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-dinh-07-ND-CP-dieu-chinh-dia-gioi-xa-thuoc-huyen-Krong-Buk-thanh-lap-thi-xa-Buon-Ho-phuong-thuoc-tinh-Dak-Lak-84045.aspx",
+      "126/2006/NĐ-CP": "https://chinhphu.vn/default.aspx?pageid=27160&docid=17099",
+      "15/NĐ-CP": "https://tuoitre.vn/cong-bo-nghi-dinh-thanh-lap-thanh-pho-kontum-313702.htm",
+      "16/NĐ-CP": "https://baocantho.com.vn/thanh-lap-thanh-pho-vinh-long-a43870.html",
+      "189/2004/NĐ-CP": "https://chinhphu.vn/?pageid=27160&docid=13556",
+      "27/NQ-CP": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-27-NQ-CP-thanh-lap-thanh-pho-Tuyen-Quang-108274.aspx",
+      "29/NQ-CP": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-29-NQ-CP-dieu-chinh-dia-gioi-hanh-chinh-91274.aspx",
+      "368/NQ-UBTVQH14": "https://baotintuc.vn/chinh-tri/ubtv-quoc-hoi-thong-qua-nghi-quyet-thanh-lap-tand-vksnd-tp-sam-son-thanh-hoa-20170811164032691.htm",
+      "60/NQ-CP": "https://isos.gov.vn/tin-hoat-dong/diem-tin/thanh-lap-thanh-pho-cao-bang-thuoc-tinh-cao-bang-41652.html",
+      "61/2007/NĐ-CP": "https://luatvietnam.vn/linh-vuc-khac/nghi-dinh-61-2007-nd-cp-chinh-phu-30586-d1.html",
+      "904/NQ-UBTVQH13": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-904-NQ-UBTVQH13-2015-thanh-lap-phuong-Yen-Binh-thuoc-thi-xa-Tam-Diep-Ninh-Binh-499725.aspx",
+      "930/NQ-UBTVQH13": "https://baodautu.vn/phat-trien-gia-rai-bac-lieu--xung-tam-voi-vi-the-d29779.html",
+      "931/UBTVQH13": "https://baochinhphu.vn/cong-bo-thanh-lap-huyen-phu-rieng-binh-phuoc-102188099.htm",
+      "933/NQ-UBTVQH13": "https://baodautu.vn/long-my-hau-giang-phat-trien-toan-dien-kinh-te-nong-nghiep-d39283.html",
+      "98/2008/NĐ-CP": "https://nhandan.vn/thanh-lap-thanh-pho-son-la-post597949.html"
+    }
   }
 }
