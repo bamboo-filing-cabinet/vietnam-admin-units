@@ -29,3 +29,16 @@ def test_check_qualifier_membership_helper():
     assert qualifier_allowed({"P580", "P582"}, "P580") is True
     assert qualifier_allowed({"P585"}, "P580") is False
     assert qualifier_allowed(None, "P580") is True      # no constraint declared => allowed
+
+
+def test_phase2_checks_include_p131_qualifiers():
+    from vn_admin_units import constraints as C
+    combos = dict((p, q) for p, q in C.PHASE2_CHECKS)
+    assert combos.get("P131") in ("P580", "P582") or ("P131", "P580") in C.PHASE2_CHECKS
+    assert ("P131", "P582") in C.PHASE2_CHECKS
+
+
+def test_district_p31_targets_registered():
+    from vn_admin_units.core import P31_TARGETS
+    for t in ("Huyện", "Quận", "Thị xã", "Thành phố"):
+        assert t in P31_TARGETS and P31_TARGETS[t].startswith("Q")

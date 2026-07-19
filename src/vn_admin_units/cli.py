@@ -104,5 +104,150 @@ def build_province_history_all() -> None:
     print(f"built {len(ents)} entities, {len(edges)} lineage edges")
 
 
+# ── Phase 2: district pipeline ──
+
+# Live reconciliation (networked) — a MANUAL/audit command, NOT run by the test suite.
+def reconcile_districts_live() -> None:
+    """LIVE Wikidata reconciliation: bulk SPARQL + per-item wbsearchentities fallback →
+    writes mappings/districts-qid.csv. Networked; run manually to refresh the mapping. The
+    offline build_districts_all and the test suite NEVER call it."""
+    from vn_admin_units.district_model import build_districts
+    from vn_admin_units.reconcile import (match_districts, sparql_vn_districts, attach_parent_codes,
+                                          load_district_seed, apply_district_seed,
+                                          write_district_mapping, wd_search, wd_country)
+    ents, _ = build_districts("data/raw/crosswalk")
+    code_qid, qid_code = _province_qid_maps("mappings/provinces-history-qid.csv",
+                                            "mappings/provinces-qid.csv")
+    _fill_parent_qids(ents, code_qid)                    # so province is a real weak tiebreak
+    cands = attach_parent_codes(sparql_vn_districts(), qid_code)   # candidate parent_qid → GSO code
+    ents = match_districts(ents, cands, search_fn=wd_search, verify_fn=wd_country)  # fallback before 'new'
+    ents = apply_district_seed(ents, load_district_seed())
+    write_district_mapping(ents)
+    print(f"reconciled {sum(1 for e in ents if e.wikidata_qid)}/{len(ents)} -> mappings/districts-qid.csv")
+
+
+# Offline assemble + emit — safe as a regression gate (no network).
+def build_districts_all() -> None:
+    """OFFLINE: assemble the graph from the cached crosswalk + cached Nghị định records, apply
+    QIDs from the COMMITTED mappings/districts-qid.csv (reconcile_districts_live refreshes it),
+    then write the artifacts + QuickStatements. No network — runs in the test suite."""
+    from vn_admin_units.district_model import build_districts
+    from vn_admin_units.reconcile import (load_district_mapping, apply_district_seed,
+                                          write_district_mapping, load_acknowledged_gaps)
+    from vn_admin_units.emit import emit_district_quickstatements, NSO_SOURCE_URL
+
+    # The reform resolution that abolished the district tier on 2025-07-01. Design §Emit requires
+    # the abolition P576 reference THIS instrument, NOT the NSO root — so it starts empty and the
+    # build hard-fails until the confirmed URL is set (F2). ~696 abolition statements ride on it.
+    ABOLITION_REF = ""    # <- set to the confirmed two-tier-reform resolution URL before emitting
+    if not ABOLITION_REF or ABOLITION_REF == NSO_SOURCE_URL or not ABOLITION_REF.startswith("http"):
+        raise SystemExit("ABOLITION_REF unset/placeholder: set it to the confirmed two-tier-reform "
+                         "resolution URL (design §Emit — never the NSO root) before emitting.")
+
+    ents, edges = build_districts("data/raw/crosswalk")
+    residue = getattr(build_districts, "residue", [])
+    blocking = [r for r in residue if r[0] == "dissolve-date-unrecovered"]
+    if blocking:
+        raise SystemExit(f"DISSOLVE-DATE GATE: {len(blocking)} dissolves have no recovered date "
+                         f"(never guessed). Recover it via the survivor row / curate merge targets, "
+                         f"then rebuild. First: {blocking[0][1].get('name_from')}")
+    unlinked = [r for r in residue if r[0] == "merge-target-unresolved"]
+    if unlinked:
+        raise SystemExit(f"MERGE-TARGET GATE: {len(unlinked)} dissolutions have no resolved "
+                         f"successor. Add {{dissolved_local_id: successor_local_id}} entries to "
+                         f"data/district-merge-targets.json, then rebuild. "
+                         f"First: {unlinked[0][1]['local_id']} ({unlinked[0][1]['name_from']})")
+    code_qid, _ = _province_qid_maps("mappings/provinces-history-qid.csv", "mappings/provinces-qid.csv")
+    _fill_parent_qids(ents, code_qid)                        # P131 province QIDs (dependency §1)
+    ents = apply_district_seed(ents, load_district_mapping())
+    ack = load_acknowledged_gaps()
+    gaps = [e for e in ents if not e.wikidata_qid]
+    unresolved = [e for e in gaps if e.local_id not in ack]
+    if gaps:
+        DATA.mkdir(exist_ok=True)
+        (DATA / "district-gaps.json").write_text(
+            json.dumps([e.to_dict() for e in gaps], ensure_ascii=False, indent=2), encoding="utf-8")
+    if unresolved:
+        raise SystemExit(f"COMPLETENESS GATE: {len(unresolved)} districts have no QID and are not "
+                         f"acknowledged gaps (match_status='gap') — they would emit NOTHING and drop "
+                         f"their lineage. Run reconcile_districts_live, or mark genuine no-item gaps "
+                         f"'gap' in mappings/districts-qid.csv. See data/district-gaps.json. "
+                         f"First: {unresolved[0].name_vi}")
+    qs = emit_district_quickstatements(ents, edges, default_ref_url=NSO_SOURCE_URL, abolition_ref=ABOLITION_REF)
+    missing = event_statements_missing_reference(qs, NSO_SOURCE_URL)
+    if missing:
+        raise SystemExit(f"REFERENCE GATE: {len(missing)} event statements lack a real decree URL "
+                         f"(missing / 'nan' / NSO root). Add their decrees to data/decree-urls.json, "
+                         f"then rebuild. First offenders:\n  " + "\n  ".join(missing[:10]))
+    write_district_mapping(ents)                             # refresh names/spans; preserve verified/manual
+    DATA.mkdir(exist_ok=True)
+    (DATA / "districts.json").write_text(
+        json.dumps([e.to_dict() for e in ents], ensure_ascii=False, indent=2), encoding="utf-8")
+    (DATA / "district-lineage.json").write_text(
+        json.dumps([e.to_dict() for e in edges], ensure_ascii=False, indent=2), encoding="utf-8")
+    Path("statements").mkdir(exist_ok=True)
+    Path("statements/na-districts.qs").write_text(qs, encoding="utf-8")
+    print(f"built {len(ents)} districts, {len(edges)} lineage edges")
+
+
+def event_statements_missing_reference(qs: str, root_url: str) -> list:
+    """Every EVENT-DRIVEN statement that must cite its establishing resolution (design §3) whose
+    S854 reference is NOT a real URL. Covered: succession/separation (P7888/P1366/P1365/P807), ALL
+    dissolution incl. the universal 2025 abolition (P576 — the reform resolution, NOT the NSO root),
+    inception (P571), and any DATED P131/P31 span (P580/P582). A reference is bad if missing, empty,
+    the literal 'nan', the generic root_url, or not http(s). EXEMPT only: a bare baseline P131 (no
+    date qualifier — the NSO source is legitimate for pre-floor province membership)."""
+    import re
+    bad = []
+    for line in qs.splitlines():
+        p = line.split("\t")
+        if len(p) < 2:
+            continue
+        prop = p[1]
+        dated = ("P580" in p) or ("P582" in p)
+        needs_ref = (
+            prop in {"P7888", "P1366", "P1365", "P807", "P571", "P576"}
+            or (prop in {"P131", "P31"} and dated)
+        )
+        if not needs_ref:
+            continue
+        m = re.search(r'S854\t"([^"]*)"', line)
+        ref = (m.group(1).strip() if m else "")
+        if (not ref) or ref == root_url or ref.lower() in ("nan", "none") \
+                or not ref.lower().startswith(("http://", "https://")):
+            bad.append(line)
+    return bad
+
+
+def _province_qid_maps(history_csv, seed_csv):
+    """(code→qid, qid→code) from the reconciled province mappings — 1a (2025-era,
+    keyed by `gso_code`) + 1b (historical, keyed by `terminal_code`)."""
+    import csv as _csv
+    from pathlib import Path as _P
+    code_qid = {}
+    for path, code_col in ((seed_csv, "gso_code"), (history_csv, "terminal_code")):
+        p = _P(path)
+        if not p.exists():
+            continue
+        for row in _csv.DictReader(p.read_text(encoding="utf-8").splitlines()):
+            if row.get("wikidata_qid"):
+                code_qid.setdefault(row[code_col], row["wikidata_qid"])
+    qid_code = {q: c for c, q in code_qid.items()}
+    return code_qid, qid_code
+
+
+def _fill_parent_qids(ents, code_qid) -> None:
+    """Set each parent_span's province QID from code_qid; a span with no QID stays
+    None and its P131 is skipped + logged by emit (dependency §1)."""
+    missing = set()
+    for e in ents:
+        for sp in e.parent_spans:
+            sp["qid"] = code_qid.get(sp["code"])
+            if not sp["qid"]:
+                missing.add(sp["code"])
+    if missing:
+        print(f"  WARNING: {len(missing)} province codes lack a QID (P131 skipped): {sorted(missing)}")
+
+
 if __name__ == "__main__":
     cache_snapshots()

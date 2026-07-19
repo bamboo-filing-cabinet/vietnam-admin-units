@@ -53,6 +53,9 @@ def allowed_qualifiers(pid: str, timeout: int = 30) -> set | None:
 PHASE1B_CHECKS = [("P31", "P580"), ("P31", "P582"), ("P7888", "P585"),
                   ("P1365", "P585"), ("P1366", "P585")]
 
+# Phase-2 (districts): the dated P131 re-parenting/creation spans add P580/P582 qualifiers.
+PHASE2_CHECKS = [("P131", "P580"), ("P131", "P582")]
+
 
 def qualifier_allowed(allowed: set | None, qualifier_pid: str) -> bool:
     """True if `qualifier_pid` is permitted: None = no allowed-qualifiers constraint
@@ -98,6 +101,15 @@ def main(argv: list[str] | None = None) -> None:
           "for 'administrative territorial entity' in the value-type constraint (manual).")
     print("\n=== Phase-1b P31 target items — CONFIRM before emit ===")
     describe_items(["Q2824648", "Q1381899"])   # expect 'province of Vietnam' / 'centrally-controlled city of Vietnam'
+
+    print("\n=== Phase-2 qualifier checks ===")
+    for pid, qual in PHASE2_CHECKS:
+        aq = allowed_qualifiers(pid)
+        print(f"  {pid} + {qual}: {'OK' if qualifier_allowed(aq, qual) else 'DISALLOWED'}")
+    print("\n=== Phase-2 district P31 target items — CONFIRM before emit ===")
+    from vn_admin_units.core import P31_TARGETS
+    # Confirmed live 2026-07-19: rural district / urban district / district-level town / provincial city.
+    describe_items([P31_TARGETS[t] for t in ("Huyện", "Quận", "Thị xã", "Thành phố")])
 
 
 if __name__ == "__main__":

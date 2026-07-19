@@ -219,6 +219,14 @@ def _load_dated_urls(path: str = "data/decree-urls-residue-2026-07-18.json") -> 
     return out
 
 
+def _load_decree_overrides(path: str = "data/district-decree-overrides.json") -> dict:
+    """Curated {"<code>|<eff_date>": "<real_decree_code>"} for events whose crosswalk decree
+    CELL is empty (2008 Hà Tây re-parenting, some retypes) or the stale 621/TCTK code (the 2015
+    huyện→thị xã splits) — the unreliable-decree-column problem (journal 2026-07-13.02). Applied
+    to window_events before assembly so the reference resolves via decree-urls.json. Missing → {}."""
+    return json.loads(Path(path).read_text(encoding="utf-8")) if os.path.exists(path) else {}
+
+
 def _mint(code, eff, name, tinh, aliases=None, ref_url=""):
     """A district minted mid-era (valid_from=eff): split product, carve child, or plain
     creation. `ref_url` stamps both the founding type span (P571) and the initial parent
@@ -418,6 +426,7 @@ def build_districts(window_dir: str):
     flat_urls = load_decree_urls()
     dated_urls = _load_dated_urls()
     manual_targets = _load_merge_targets()
+    decree_overrides = _load_decree_overrides()
 
     def ref(code, eff):
         return dated_urls.get((code, eff)) or flat_urls.get(code, "")
@@ -443,6 +452,11 @@ def build_districts(window_dir: str):
     for year, path in _yearly_paths(window_dir):
         rows = read_district_crosswalk(path)
         events = window_events(rows)
+        # correct the unreliable/empty decree cell for curated events so their reference resolves.
+        for ev in events:
+            key = f"{ev['code_to'] or ev['code_from']}|{ev['eff_date']}"
+            if key in decree_overrides:
+                ev["decree_raw"] = f"Số: {decree_overrides[key]}"
         roster_next = {fold_district_name(r["succ_ten"]) for r in rows if r["succ_ma"]}
         survivor_eff = {r["succ_ma"]: r["succ_hieu_luc"]
                         for r in rows if r["succ_ma"] and r["succ_hieu_luc"]}
