@@ -1,0 +1,319 @@
+{
+  "generated": "2026-07-18",
+  "summary": {
+    "decree_urls_before": 63,
+    "decree_urls_after": 121,
+    "found_urls_added": 53,
+    "typo_variants_added": 5,
+    "held_ambiguous": 7,
+    "still_missing": 33,
+    "still_missing_after_pass2": 15
+  },
+  "held_ambiguous_need_per_date_keying": {
+    "04/NQ-CP": {
+      "url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-04-NQ-CP-thanh-lap-thi-xa-Di-An-thanh-lap-phuong-thi-xa-Di-An-117533.aspx",
+      "confidence": "high",
+      "dates": [
+        "2011-01-14",
+        "2012-02-22"
+      ]
+    },
+    "11/NQ-CP": {
+      "url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-11-NQ-CP-thanh-lap-thanh-pho-Tra-Vinh-101850.aspx",
+      "confidence": "medium",
+      "dates": [
+        "2010-03-05",
+        "2012-05-03"
+      ]
+    },
+    "19/NQ-CP": {
+      "url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-19-NQ-CP-thanh-lap-thanh-pho-Bao-Loc-thuoc-tinh-Lam-Dong-103726.aspx",
+      "confidence": "high",
+      "dates": [
+        "2009-05-09",
+        "2010-04-09"
+      ]
+    },
+    "33/NQ-CP": {
+      "url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-33-NQ-CP-thanh-lap-thanh-pho-Dong-Ha-thuoc-tinh-Quang-Tri-92867.aspx",
+      "confidence": "high",
+      "dates": [
+        "2009-08-12",
+        "2013-03-19"
+      ]
+    },
+    "34/NQ-CP": {
+      "url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-34-NQ-CP-thanh-lap-thanh-pho-Ben-Tre-thuoc-tinh-Ben-Tre-92876.aspx",
+      "confidence": "high",
+      "dates": [
+        "2009-08-12",
+        "2010-09-24"
+      ]
+    },
+    "65/NQ-CP": {
+      "url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-65-NQ-CP-thanh-lap-thanh-pho-Cam-Ranh-thuoc-tinh-Khanh-Hoa-116309.aspx",
+      "confidence": "high",
+      "dates": [
+        "2007-04-26",
+        "2010-12-24"
+      ]
+    },
+    "89/NQ-CP": {
+      "url": "https://thuvienphapluat.vn/van-ban/bo-may-hanh-chinh/Nghi-quyet-89-NQ-CP-nam-2012-thanh-lap-thi-xa-Binh-Minh-dieu-chinh-dia-gioi-162798.aspx",
+      "confidence": "high",
+      "dates": [
+        "2007-08-15",
+        "2012-12-29"
+      ]
+    }
+  },
+  "still_missing": {
+    "07/NQ-CP": {
+      "confidence": "medium",
+      "dates": [
+        "2011-01-29"
+      ]
+    },
+    "07/NĐ-CP": {
+      "confidence": "medium",
+      "dates": [
+        "2009-01-07"
+      ]
+    },
+    "100/NQ-CP": {
+      "confidence": "medium",
+      "dates": [
+        "2011-11-26"
+      ]
+    },
+    "125/2007/NĐ-CP": {
+      "confidence": "medium",
+      "dates": [
+        "2007-08-15"
+      ]
+    },
+    "125/NQ-CP": {
+      "confidence": "medium",
+      "dates": [
+        "2013-12-21"
+      ]
+    },
+    "1256/NQ-UBTVQH15": {
+      "confidence": "medium",
+      "dates": [
+        "2025-01-01"
+      ]
+    },
+    "126/2006/NĐ-CP": {
+      "confidence": "medium",
+      "dates": [
+        "2006-11-11"
+      ]
+    },
+    "1283/NQ-UBTVQH15": {
+      "confidence": "medium",
+      "dates": [
+        "2007-02-22",
+        "2025-01-01"
+      ]
+    },
+    "135/NQ-CP": {
+      "confidence": "none",
+      "dates": [
+        "2013-12-30"
+      ]
+    },
+    "136/NQ-CP": {
+      "confidence": "none",
+      "dates": [
+        "2013-12-30"
+      ]
+    },
+    "142/2006/NĐ-CP": {
+      "confidence": "none",
+      "dates": [
+        "2006-12-07"
+      ]
+    },
+    "15/NĐ-CP": {
+      "confidence": "none",
+      "dates": [
+        "2009-04-11"
+      ]
+    },
+    "16/NĐ-CP": {
+      "confidence": "none",
+      "dates": [
+        "2009-04-11"
+      ]
+    },
+    "189/2004/NĐ-CP": {
+      "confidence": "none",
+      "dates": [
+        "2004-11-17"
+      ]
+    },
+    "26/NQ-CP": {
+      "confidence": "none",
+      "dates": [
+        "2009-06-11"
+      ]
+    },
+    "27/NQ-CP": {
+      "confidence": "none",
+      "dates": [
+        "2010-07-03"
+      ]
+    },
+    "29/NQ-CP": {
+      "confidence": "none",
+      "dates": [
+        "2009-06-30"
+      ]
+    },
+    "368/NQ-UBTVQH14": {
+      "confidence": "medium",
+      "dates": [
+        "2017-04-19"
+      ]
+    },
+    "387/NQ-UBTVQH15": {
+      "confidence": "medium",
+      "dates": [
+        "2021-11-01"
+      ]
+    },
+    "42/NQ-CP": {
+      "confidence": "medium",
+      "dates": [
+        "2009-08-28"
+      ]
+    },
+    "484/NQ-UBTVQH14": {
+      "confidence": "medium",
+      "dates": [
+        "2018-02-07"
+      ]
+    },
+    "573/NQ-UBTVQH14": {
+      "confidence": "medium",
+      "dates": [
+        "2018-09-11"
+      ]
+    },
+    "60/NQ-CP": {
+      "confidence": "medium",
+      "dates": [
+        "2012-09-26"
+      ]
+    },
+    "61/2007/NĐ-CP": {
+      "confidence": "medium",
+      "dates": [
+        "2007-04-24"
+      ]
+    },
+    "621/TCTK-PPCĐ": {
+      "confidence": "none",
+      "dates": [
+        "2015-08-31"
+      ]
+    },
+    "623/NQ-UBTVQH14": {
+      "confidence": "medium",
+      "dates": [
+        "2019-03-01"
+      ]
+    },
+    "65/2007/NĐ-CP": {
+      "confidence": "medium",
+      "dates": [
+        "2007-04-26"
+      ]
+    },
+    "84/2005-NĐ-CP": {
+      "confidence": "medium",
+      "dates": [
+        "2005-07-22"
+      ]
+    },
+    "904/NQ-UBTVQH13": {
+      "confidence": "medium",
+      "dates": [
+        "2015-04-11"
+      ]
+    },
+    "930/NQ-UBTVQH13": {
+      "confidence": "medium",
+      "dates": [
+        "2015-05-16"
+      ]
+    },
+    "931/UBTVQH13": {
+      "confidence": "medium",
+      "dates": [
+        "2015-05-16"
+      ]
+    },
+    "933/NQ-UBTVQH13": {
+      "confidence": "medium",
+      "dates": []
+    },
+    "98/2008/NĐ-CP": {
+      "confidence": "medium",
+      "dates": [
+        "2008-09-18"
+      ]
+    }
+  },
+  "pass2_2026-07-19": {
+    "added_high_confidence_gov_fallback": {
+      "07/NQ-CP": "https://chinhphu.vn/default.aspx?pageid=27160&docid=98887",
+      "100/NQ-CP": "https://luatvietnam.vn/dia-gioi-hanh-chinh/nghi-quyet-100-nq-cp-chinh-phu-66336-d1.html",
+      "125/NQ-CP": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-125-nq-cp-660/166.htm",
+      "1256/NQ-UBTVQH15": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-1256-nq-ubtvqh15-43144.htm",
+      "1283/NQ-UBTVQH15": "https://luatvietnam.vn/hanh-chinh/nghi-quyet-1283-nq-ubtvqh15-2024-sap-xep-don-vi-hanh-chinh-cua-tinh-ha-tinh-giai-doan-2023-2025-375035-d1.html",
+      "135/NQ-CP": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=171564",
+      "136/NQ-CP": "https://chinhphu.vn/default.aspx?pageid=27160&docid=171561",
+      "142/2006/NĐ-CP": "https://chinhphu.vn/default.aspx?pageid=27160&docid=17996",
+      "26/NQ-CP": "https://chinhphu.vn/default.aspx?pageid=27160&docid=88007",
+      "387/NQ-UBTVQH15": "https://luatvietnam.vn/hanh-chinh/nghi-quyet-387-nq-ubtvqh15-232773-d1.html",
+      "42/NQ-CP": "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=90364",
+      "484/NQ-UBTVQH14": "https://luatvietnam.vn/hanh-chinh/nghi-quyet-484-nq-ubtvqh14-2018-thanh-lap-phuong-tien-chau-va-thanh-pho-phuc-yen-272353-d1.html",
+      "573/NQ-UBTVQH14": "https://tulieuvankien.dangcongsan.vn/he-thong-van-ban/van-ban-quy-pham-phap-luat/nghi-quyet-so-573nq-ubtvqh14-ngay-1192018-cua-uy-ban-thuong-vu-quoc-hoi-ve-viec-thanh-lap-phuong-my-duc-thuoc-thi-xa-ha-tien-4805",
+      "623/NQ-UBTVQH14": "https://luatvietnam.vn/hanh-chinh/nghi-quyet-623-nq-ubtvqh14-2019-thanh-lap-thanh-pho-chi-linh-tinh-hai-duong-171104-d1.html",
+      "65/2007/NĐ-CP": "https://chinhphu.vn/default.aspx?pageid=27160&docid=22396"
+    },
+    "held_medium_needs_review": {
+      "125/2007/NĐ-CP": {
+        "url": "https://baochinhphu.vn/thanh-lap-huyen-binh-tan-thuoc-tinh-vinh-long-10216629.htm",
+        "source": "chinhphu"
+      },
+      "84/2005-NĐ-CP": {
+        "url": "https://phapluat.gov.vn/vbpl/31249?tab=1",
+        "source": "vbpl"
+      }
+    },
+    "still_unresolved_online": [
+      "07/NĐ-CP",
+      "126/2006/NĐ-CP",
+      "15/NĐ-CP",
+      "16/NĐ-CP",
+      "189/2004/NĐ-CP",
+      "27/NQ-CP",
+      "29/NQ-CP",
+      "368/NQ-UBTVQH14",
+      "60/NQ-CP",
+      "61/2007/NĐ-CP",
+      "904/NQ-UBTVQH13",
+      "930/NQ-UBTVQH13",
+      "931/UBTVQH13",
+      "933/NQ-UBTVQH13",
+      "98/2008/NĐ-CP"
+    ],
+    "excluded_not_a_decree": [
+      "621/TCTK-PPCĐ"
+    ],
+    "note": "Non-thuvienphapluat URLs (chinhphu/luatvietnam/vbpl/dangcongsan) are authoritative-gov fallbacks = open-decision option (a). Sources per code in agent notes."
+  }
+}
