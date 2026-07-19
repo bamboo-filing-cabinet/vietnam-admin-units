@@ -1,4 +1,5 @@
 from vn_admin_units.core import wd_date as _date, ref_s854 as _ref, REFERENCE_URL
+from vn_admin_units.core import wd_date, ref_s854, p31_target, predecessor_ends
 
 NSO_SOURCE_URL = REFERENCE_URL
 # WD item QIDs for the two admin-unit types (confirmed via constraints.describe_items
@@ -96,6 +97,103 @@ def emit_history_quickstatements(entities: list, edges: list, default_ref_url: s
             add(f"{post.wikidata_qid}\tP807\t{pre.wikidata_qid}\t{ref}")
         elif ed.relation == "absorbed_into":
             add(f"{pre.wikidata_qid}\tP576\t{eff}\t{ref}")
+            add(f"{pre.wikidata_qid}\tP7888\t{post.wikidata_qid}\tP585\t{eff}\t{ref}")
+            add(f"{pre.wikidata_qid}\tP1366\t{post.wikidata_qid}\tP585\t{eff}\t{ref}")
+            add(f"{post.wikidata_qid}\tP1365\t{pre.wikidata_qid}\tP585\t{eff}\t{ref}")
+    return ("\n".join(out) + "\n") if out else ""
+
+
+# ── Phase 2: relation-aware district emitter (built on core primitives) ──
+
+ABOLITION_DATE = "2025-07-01"        # two-tier reform; districts' P576 event date
+ABOLITION_VALID_TO = "2025-06-30"
+
+
+def emit_district_quickstatements(entities: list, edges: list, default_ref_url: str,
+                                  abolition_ref: str) -> str:
+    """Relation-aware QuickStatements for the district tier + the 2025 abolition.
+    P576 fires only on entities that end: from a lineage edge's effective_date for a
+    pre-abolition end, or ABOLITION_DATE for a survivor. carved_from parents never get
+    P576. See docs/DESIGN-phase2.md §Emit."""
+    by_id = {e.local_id: e for e in entities}
+    ends_at = {}                     # local_id -> (P576 date, reference) from ending edges
+    founding_ref = {}                # successor local_id -> its creating event's reference
+    # Only relations that actually MINT the successor supply its P571 founding reference. A
+    # merged_into / absorbed_into successor PERSISTS (it's the absorber, not newly founded), so
+    # its edge decree is a later merger — it must NOT become that district's inception ref (F3).
+    _MINTS_SUCCESSOR = {"split", "carved_from"}
+    for ed in edges:
+        if ed.reference_url and ed.relation in _MINTS_SUCCESSOR:
+            founding_ref[ed.successor] = ed.reference_url
+        if predecessor_ends(ed.relation):
+            ends_at[ed.predecessor] = (ed.effective_date, ed.reference_url or default_ref_url)
+    out, seen = [], set()
+
+    def add(line):
+        if line not in seen:
+            seen.add(line); out.append(line)
+
+    for e in entities:
+        if not e.wikidata_qid:
+            continue
+        # P571 inception (known valid_from; not gated on qid_status). Referenced to the creating
+        # event: the edge's decree if one exists (carve/split), else the founding reference the
+        # assembly stamped on type_spans[0] (plain creation / split product), else the default.
+        if e.valid_from:
+            founding = (founding_ref.get(e.local_id)
+                        or (e.type_spans[0].get("reference_url") if e.type_spans else ""))
+            ref = ref_s854(founding or default_ref_url)
+            add(f"{e.wikidata_qid}\tP571\t{wd_date(e.valid_from)}\t{ref}")
+        # P131 per dated parent span — skip unresolved province QIDs (dependency §1). A dated span
+        # (re-parenting / creation) references the decree the assembly stamped on the span; a bare
+        # baseline span (from=None, not end-dated) legitimately references the default NSO source.
+        n_p = len(e.parent_spans)
+        for i, sp in enumerate(e.parent_spans):
+            if not sp.get("qid"):
+                continue
+            ref = ref_s854(sp.get("reference_url") or default_ref_url)
+            quals = ""
+            if sp.get("from"):
+                quals += f"\tP580\t{wd_date(sp['from'])}"
+            if i < n_p - 1 and sp.get("to"):        # a superseded parent span is end-dated
+                quals += f"\tP582\t{wd_date(sp['to'])}"
+            add(f"{e.wikidata_qid}\tP131\t{sp['qid']}{quals}\t{ref}")
+        # P31 retype (only genuine retypes: >1 type span), dated.
+        n_t = len(e.type_spans)
+        if n_t > 1:
+            for i, sp in enumerate(e.type_spans):
+                target = p31_target(sp["loai_hinh"])
+                if not target:
+                    continue
+                ref = ref_s854(sp.get("reference_url") or default_ref_url)
+                if i < n_t - 1 and sp.get("to"):
+                    add(f"{e.wikidata_qid}\tP31\t{target}\tP582\t{wd_date(sp['to'])}\t{ref}")
+                elif i == n_t - 1 and sp.get("from"):
+                    add(f"{e.wikidata_qid}\tP31\t{target}\tP580\t{wd_date(sp['from'])}\t{ref}")
+        # P576: pre-abolition end (from an edge, referenced to its own decree) OR a dissolution
+        # with no resolved successor (entity-stamped e.dissolution — the district DID dissolve on
+        # the recovered date even if its merge target is manual-curation residue, F2) OR the
+        # universal abolition. Never on a carve-out parent (it persists).
+        if e.local_id in ends_at:
+            end_date, end_ref = ends_at[e.local_id]
+            add(f"{e.wikidata_qid}\tP576\t{wd_date(end_date)}\t{ref_s854(end_ref)}")
+        elif getattr(e, "dissolution", None):
+            diss_date, diss_ref = e.dissolution
+            add(f"{e.wikidata_qid}\tP576\t{wd_date(diss_date)}\t{ref_s854(diss_ref)}")
+        elif e.valid_to == ABOLITION_VALID_TO:
+            add(f"{e.wikidata_qid}\tP576\t{wd_date(ABOLITION_DATE)}\t{ref_s854(abolition_ref)}")
+
+    for ed in edges:
+        pre, post = by_id.get(ed.predecessor), by_id.get(ed.successor)
+        if not (pre and post and pre.wikidata_qid and post.wikidata_qid):
+            continue
+        if pre.wikidata_qid == post.wikidata_qid:
+            continue                                # same-QID survivor edited in place
+        eff = wd_date(ed.effective_date)
+        ref = ref_s854(ed.reference_url or default_ref_url)
+        if ed.relation == "carved_from":
+            add(f"{post.wikidata_qid}\tP807\t{pre.wikidata_qid}\t{ref}")     # parent persists
+        elif predecessor_ends(ed.relation):
             add(f"{pre.wikidata_qid}\tP7888\t{post.wikidata_qid}\tP585\t{eff}\t{ref}")
             add(f"{pre.wikidata_qid}\tP1366\t{post.wikidata_qid}\tP585\t{eff}\t{ref}")
             add(f"{post.wikidata_qid}\tP1365\t{pre.wikidata_qid}\tP585\t{eff}\t{ref}")
