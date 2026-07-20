@@ -114,13 +114,15 @@ def reconcile_districts_live() -> None:
     from vn_admin_units.district_model import build_districts
     from vn_admin_units.reconcile import (match_districts, sparql_vn_districts, attach_parent_codes,
                                           load_district_seed, apply_district_seed,
-                                          write_district_mapping, wd_search, wd_country)
+                                          write_district_mapping, wd_search, wd_claims_ids)
     ents, _ = build_districts("data/raw/crosswalk")
     code_qid, qid_code = _province_qid_maps("mappings/provinces-history-qid.csv",
                                             "mappings/provinces-qid.csv")
     _fill_parent_qids(ents, code_qid)                    # so province is a real weak tiebreak
     cands = attach_parent_codes(sparql_vn_districts(), qid_code)   # candidate parent_qid → GSO code
-    ents = match_districts(ents, cands, search_fn=wd_search, verify_fn=wd_country)  # fallback before 'new'
+    # verify_fn returns each candidate's P31 so the fallback enforces DISTRICT-tier (not just P17=VN)
+    ents = match_districts(ents, cands, search_fn=wd_search,
+                           verify_fn=lambda ids: wd_claims_ids(ids, "P31"))   # fallback before 'new'
     ents = apply_district_seed(ents, load_district_seed())
     write_district_mapping(ents)
     print(f"reconciled {sum(1 for e in ents if e.wikidata_qid)}/{len(ents)} -> mappings/districts-qid.csv")

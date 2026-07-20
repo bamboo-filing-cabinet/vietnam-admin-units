@@ -15,6 +15,10 @@ HEADER = ["gso_code", "era", "name_vi", "wikidata_qid", "qid_status", "match_sta
 REUSE = {"verified", "manual"}   # match_status values trusted on resume (skip re-lookup)
 
 VIETNAM = "Q881"
+# The four Vietnamese DISTRICT-tier P31 classes (huyện / quận / thị xã / thành phố thuộc tỉnh).
+# A fallback candidate must be one of these — P17=Vietnam alone accepted same-named provinces,
+# communes, and đặc khu (the 2026-07-19 wrong matches).
+DISTRICT_CLASSES = {"Q2582669", "Q6644510", "Q2112349", "Q3249005"}
 UA = {"User-Agent": "vn-admin-units/0.1 (research; contact via github.com/bamboo-filing-cabinet)"}
 WD_THROTTLE_S = 5    # min gap between batched Wikidata calls — 1s + short backoff still 429s a full-CSV audit
 
@@ -423,21 +427,27 @@ def match_districts(entities: list, candidates: list, search_fn=None, verify_fn=
     offline; the pipeline (D11) passes the live `wd_search`/`wd_country`."""
     from collections import defaultdict
     from vn_admin_units.names import fold_district_name
-    by_name = defaultdict(list)
+    by_label, by_alias = defaultdict(list), defaultdict(list)     # LABEL and ALIAS indexed apart
     for c in candidates:
-        for nm in (c.get("label", ""), *c.get("aliases", [])):
-            if nm:
-                by_name[fold_district_name(nm)].append(c)
+        if c.get("label"):
+            by_label[fold_district_name(c["label"])].append(c)
+        for a in c.get("aliases", []):
+            if a:
+                by_alias[fold_district_name(a)].append(c)
 
-    def bulk_hit(e):
+    def hit_in(index, e):
         for k in (e.name_vi, *getattr(e, "aliases", [])):
-            hits = by_name.get(fold_district_name(k))
+            hits = index.get(fold_district_name(k))
             if hits:
                 return hits
         return []
 
     for e in entities:
-        hits = bulk_hit(e)
+        # Prefer a LABEL match over an ALIAS match: a same-named alias on a DIFFERENT district's
+        # item (e.g. "Huyện Thanh Sơn" as an alias on Tân Sơn's item) must not steal the row when
+        # the unit has its own label item — the 2026-07-19 collision cause. Alias stays a fallback
+        # (a near-empty item may hold the GSO name only as an alias — test_alias_only_item_matches).
+        hits = hit_in(by_label, e) or hit_in(by_alias, e)
         if hits:
             prov = e.parent_spans[-1]["code"] if e.parent_spans else None
             best = next((h for h in hits if h.get("parent_code") == prov), hits[0])
@@ -454,16 +464,18 @@ def match_districts(entities: list, candidates: list, search_fn=None, verify_fn=
 def _district_search_fallback(e, search_fn, verify_fn=None) -> str:
     """Per-item wbsearchentities for a bulk-SPARQL miss (design §Reconciliation fallback).
     Returns a QID whose label folds to the entity name AND (when verify_fn is given) whose
-    P17 = Vietnam; else '' (a genuine gap)."""
+    P31 is one of the four DISTRICT_CLASSES; else '' (a genuine gap). verify_fn returns
+    {qid: [P31 targets]}; the tier check subsumes the old P17=Vietnam check (those classes
+    are Vietnam-specific) and rejects same-named provinces/communes/đặc khu."""
     from vn_admin_units.names import fold_district_name
     want = fold_district_name(e.name_vi)
     hits = search_fn(re.sub(r"^(Huyện|Quận|Thị xã|Thành phố)\s+", "", e.name_vi, flags=re.I))
     ids = [h["id"] for h in hits]
-    vn = verify_fn(ids) if (verify_fn and ids) else {}
+    p31 = verify_fn(ids) if (verify_fn and ids) else {}
     for h in hits:
         name_ok = fold_district_name(h.get("label", "")) == want
-        vn_ok = (VIETNAM in vn.get(h["id"], [])) if verify_fn else True
-        if name_ok and vn_ok:
+        tier_ok = bool(set(p31.get(h["id"], [])) & DISTRICT_CLASSES) if verify_fn else True
+        if name_ok and tier_ok:
             return h["id"]
     return ""
 
@@ -542,9 +554,25 @@ def write_district_mapping(entities: list, out_path: str = "mappings/districts-q
     Path(out_path).write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
+def _district_qid_collisions(rows: list) -> list:
+    """QIDs shared by rows with DIFFERENT folded names — two distinct units on one item, i.e. a
+    wrong match (Thanh Sơn on Tân Sơn's item). Rows that share a QID but fold to the SAME name are
+    legitimate continuity (one unit across two era-rows). Offline — no network."""
+    from collections import defaultdict
+    from vn_admin_units.names import fold_district_name
+    by_q = defaultdict(list)
+    for r in rows:
+        if r.get("wikidata_qid"):
+            by_q[r["wikidata_qid"]].append(r)
+    return [f"COLLISION {q} <- " + " | ".join(f"{r['local_id']} {r['name_vi']}" for r in rs)
+            for q, rs in sorted(by_q.items())
+            if len({fold_district_name(r["name_vi"]) for r in rs}) > 1]
+
+
 def audit_district_qids(mapping_path: str = "mappings/districts-qid.csv") -> list:
-    """Pre-upload audit: unresolved rows, instance-of TYPE check (district-level), and a
-    NAME/label match (so a same-type but WRONG item is caught). Province half stays weak.
+    """Pre-upload audit: QID collisions (distinctness), unresolved rows, instance-of TYPE check
+    (district-level), and a NAME/label match (so a same-type but WRONG item is caught). Province
+    half stays weak.
 
     A QID-less row marked `match_status="gap"` is a REVIEWED create-later gap (consistent with the
     completeness gate) — reported as an informational `GAP …` line, NOT an `UNRESOLVED` issue, so
@@ -552,8 +580,9 @@ def audit_district_qids(mapping_path: str = "mappings/districts-qid.csv") -> lis
     QID-less rows are `UNRESOLVED`."""
     from vn_admin_units.names import fold_district_name
     rows = list(csv.DictReader(Path(mapping_path).read_text(encoding="utf-8").splitlines()))
-    issues = [f"UNRESOLVED {r['local_id']} {r['name_vi']}"
-              for r in rows if not r["wikidata_qid"] and r.get("match_status") != "gap"]
+    issues = _district_qid_collisions(rows)                  # distinctness — offline, before any network
+    issues += [f"UNRESOLVED {r['local_id']} {r['name_vi']}"
+               for r in rows if not r["wikidata_qid"] and r.get("match_status") != "gap"]
     gaps = [f"GAP {r['local_id']} {r['name_vi']}"
             for r in rows if not r["wikidata_qid"] and r.get("match_status") == "gap"]
     for g in gaps:

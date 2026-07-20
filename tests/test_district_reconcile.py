@@ -36,6 +36,19 @@ def test_alias_only_item_matches_not_new():
     assert out[0].wikidata_qid == "Q123" and out[0].qid_status == "existing"   # matched via alias, not 'new'
 
 
+def test_prefers_label_match_over_alias_avoiding_collision():
+    # The 2026-07-19 collisions: an item whose LABEL is X but which carries Y as an ALIAS must not
+    # steal Y's row when Y has its own label item (Thanh Sơn→Tân Sơn's item; Thanh Khê→Cẩm Lệ's).
+    ents = [_d("238", "Huyện Thanh Sơn", "25"), _d("240", "Huyện Tân Sơn", "25")]
+    candidates = [
+        {"qid": "Q_TAN", "label": "Tân Sơn", "aliases": ["Huyện Thanh Sơn"], "parent_code": "25"},
+        {"qid": "Q_THANH", "label": "Thanh Sơn", "aliases": [], "parent_code": "25"},
+    ]
+    out = {e.terminal_code: e for e in match_districts(ents, candidates)}
+    assert out["238"].wikidata_qid == "Q_THANH"      # label match beats the alias on Q_TAN
+    assert out["240"].wikidata_qid == "Q_TAN"
+
+
 def test_bulk_miss_uses_search_fallback_before_new():
     ents = [_d("021", "Quận Bắc Từ Liêm", "01")]              # absent from the bulk pull
     calls = []
@@ -43,10 +56,22 @@ def test_bulk_miss_uses_search_fallback_before_new():
         calls.append(name)                                   # invoked with the tier-stripped name
         return [{"id": "Q999", "label": "Bắc Từ Liêm", "description": "district"}]
     def fake_verify(ids):
-        return {"Q999": ["Q881"]}                            # P17 = Vietnam
+        return {"Q999": ["Q6644510"]}                        # P31 = urban district (district-tier)
     out = match_districts(ents, [], search_fn=fake_search, verify_fn=fake_verify)
     assert out[0].wikidata_qid == "Q999" and out[0].qid_status == "existing"
     assert calls and "Từ Liêm" in calls[0] and "Quận" not in calls[0]
+
+
+def test_fallback_rejects_wrong_tier_candidate():
+    # The old P17-only fallback accepted same-named NON-districts (a province, a commune, an
+    # đặc khu). Verify the candidate is district-tier (P31 ∈ the 4 classes), else it's a gap.
+    ents = [_d("999", "Huyện Phú Quý", "60")]
+    def fake_search(name):
+        return [{"id": "Q_DK", "label": "Phú Quý", "description": "đặc khu"}]
+    def fake_verify(ids):
+        return {"Q_DK": ["Q134999516"]}                      # special admin region — NOT district-tier
+    out = match_districts(ents, [], search_fn=fake_search, verify_fn=fake_verify)
+    assert out[0].wikidata_qid is None and out[0].qid_status == "new"   # wrong tier -> honest gap
 
 
 def test_verified_no_hit_is_new():
@@ -94,6 +119,19 @@ def test_acknowledged_gap_is_loaded_and_not_downgraded(tmp_path):
     write_district_mapping([ent], str(p))
     row = next(l for l in p.read_text().splitlines() if l.startswith("d-021-2013-12-28"))
     assert row.endswith("gap") and "needs-lookup" not in row          # gap preserved, not downgraded
+
+
+def test_audit_flags_qid_collision_not_continuity():
+    from vn_admin_units.reconcile import _district_qid_collisions
+    rows = [
+        {"local_id": "d-238-base", "name_vi": "Huyện Thanh Sơn", "wikidata_qid": "Q7682118"},
+        {"local_id": "d-240-2007", "name_vi": "Huyện Tân Sơn", "wikidata_qid": "Q7682118"},   # collision
+        {"local_id": "d-519-base", "name_vi": "Huyện Nông Sơn", "wikidata_qid": "Q2541962"},
+        {"local_id": "d-519-2008", "name_vi": "Huyện Nông Sơn", "wikidata_qid": "Q2541962"},   # continuity
+    ]
+    out = _district_qid_collisions(rows)
+    assert any("Q7682118" in c for c in out)          # two different units -> flagged
+    assert not any("Q2541962" in c for c in out)      # same unit across era-rows -> not flagged
 
 
 def test_audit_reports_gap_separately_from_unresolved(tmp_path):

@@ -38,14 +38,14 @@ def test_group_by_event_buckets_same_date_and_province():
     assert len(g[("2020-03-01", "04")]) == 2 and len(g[("2020-06-01", "38")]) == 1
 
 def test_discriminator_carve_vs_split():
-    roster_next = {"quang trach", "ba don"}          # both survive -> Quảng Trạch persists = carve
+    roster_next = {"quangtrach", "badon"}            # both survive -> Quảng Trạch persists = carve
     assert source_survives("Huyện Quảng Trạch", roster_next) is True
-    roster_no_tu_liem = {"nam tu liem", "bac tu liem"}
+    roster_no_tu_liem = {"namtuliem", "bactuliem"}
     assert source_survives("Huyện Từ Liêm", roster_no_tu_liem) is False   # gone -> split
 
 def test_resolve_merge_target_prefers_ghichu_then_survivor():
     ev = {"ghi_chu": "Nhập toàn bộ ... của huyện Thông Nông  vào huyện Hà Quảng",
           "name_from": "Huyện Thông Nông"}
-    assert resolve_merge_target(ev, {"ha quang": "041"}) == "041"   # target CODE via prose 'vào Y'
+    assert resolve_merge_target(ev, {"haquang": "041"}) == "041"    # target CODE via prose 'vào Y'
     ev2 = {"ghi_chu": "", "name_from": "Huyện Phục Hoà"}
-    assert resolve_merge_target(ev2, {"quang hoa": "049"}) is None  # no prose target -> unresolved
+    assert resolve_merge_target(ev2, {"quanghoa": "049"}) is None   # no prose target -> unresolved
