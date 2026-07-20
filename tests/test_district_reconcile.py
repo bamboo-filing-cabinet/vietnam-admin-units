@@ -134,6 +134,22 @@ def test_audit_flags_qid_collision_not_continuity():
     assert not any("Q2541962" in c for c in out)      # same unit across era-rows -> not flagged
 
 
+def test_audit_flags_same_name_different_tier_collision():
+    # The 2026-07-20 miss: fold strips the tier prefix, so a city + rural district of one name
+    # ("Cao Lãnh") read as continuity. Key on (name, TIER, province) — flag the tier mismatch;
+    # genuine continuity (Đạ Huoai: same name+tier+province across a 2024 merge) stays clean.
+    from vn_admin_units.reconcile import _district_qid_collisions
+    rows = [
+        {"local_id": "d-866-base", "name_vi": "Thành phố Cao Lãnh", "parent_code": "87", "wikidata_qid": "Q_X"},
+        {"local_id": "d-873-base", "name_vi": "Huyện Cao Lãnh", "parent_code": "87", "wikidata_qid": "Q_X"},
+        {"local_id": "d-681-base", "name_vi": "Huyện Đạ Huoai", "parent_code": "68", "wikidata_qid": "Q_Y"},
+        {"local_id": "d-682-base", "name_vi": "Huyện Đạ Huoai", "parent_code": "68", "wikidata_qid": "Q_Y"},
+    ]
+    out = _district_qid_collisions(rows)
+    assert any("Q_X" in c for c in out)               # same name, different tier -> collision
+    assert not any("Q_Y" in c for c in out)           # same name+tier+province -> continuity
+
+
 def test_audit_reports_gap_separately_from_unresolved(tmp_path):
     # No QIDs in this mapping -> audit makes zero network calls (offline-safe). A 'gap' row is a
     # reviewed create-later gap, NOT an issue; an un-triaged QID-less row IS 'UNRESOLVED'.

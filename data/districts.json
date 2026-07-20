@@ -14349,8 +14349,8 @@
     ],
     "valid_from": null,
     "valid_to": "2007-04-13",
-    "wikidata_qid": "Q4831833",
-    "qid_status": "existing",
+    "wikidata_qid": null,
+    "qid_status": null,
     "era": null,
     "parent_spans": [
       {
@@ -17482,7 +17482,7 @@
     ],
     "valid_from": null,
     "valid_to": "2025-06-30",
-    "wikidata_qid": "Q1884726",
+    "wikidata_qid": "Q32005019",
     "qid_status": "existing",
     "era": null,
     "parent_spans": [
@@ -18548,7 +18548,7 @@
     "aliases": [],
     "valid_from": null,
     "valid_to": "2025-06-30",
-    "wikidata_qid": "Q5017488",
+    "wikidata_qid": "Q16480343",
     "qid_status": "existing",
     "era": null,
     "parent_spans": [
@@ -19274,8 +19274,8 @@
     ],
     "valid_from": null,
     "valid_to": "2025-06-30",
-    "wikidata_qid": "Q5317676",
-    "qid_status": "existing",
+    "wikidata_qid": null,
+    "qid_status": null,
     "era": null,
     "parent_spans": [
       {
@@ -19512,7 +19512,7 @@
     ],
     "valid_from": null,
     "valid_to": "2025-06-30",
-    "wikidata_qid": "Q10744220",
+    "wikidata_qid": "Q35656",
     "qid_status": "existing",
     "era": null,
     "parent_spans": [
@@ -19615,7 +19615,7 @@
     ],
     "valid_from": null,
     "valid_to": "2025-06-30",
-    "wikidata_qid": "Q10772154",
+    "wikidata_qid": "Q5895654",
     "qid_status": "existing",
     "era": null,
     "parent_spans": [
@@ -21106,8 +21106,8 @@
     ],
     "valid_from": null,
     "valid_to": "2025-06-30",
-    "wikidata_qid": "Q6673020",
-    "qid_status": "existing",
+    "wikidata_qid": null,
+    "qid_status": null,
     "era": null,
     "parent_spans": [
       {
@@ -23522,7 +23522,7 @@
     "aliases": [],
     "valid_from": "2015-08-31",
     "valid_to": "2025-06-30",
-    "wikidata_qid": "Q20025826",
+    "wikidata_qid": "Q6450589",
     "qid_status": "existing",
     "era": null,
     "parent_spans": [

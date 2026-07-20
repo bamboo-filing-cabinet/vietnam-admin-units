@@ -555,18 +555,30 @@ def write_district_mapping(entities: list, out_path: str = "mappings/districts-q
 
 
 def _district_qid_collisions(rows: list) -> list:
-    """QIDs shared by rows with DIFFERENT folded names — two distinct units on one item, i.e. a
-    wrong match (Thanh Sơn on Tân Sơn's item). Rows that share a QID but fold to the SAME name are
-    legitimate continuity (one unit across two era-rows). Offline — no network."""
+    """QIDs shared by rows that are NOT the same real-world unit — a wrong match. Two rows are the
+    same unit only if they agree on ALL of: folded name, tier (Huyện/Quận/Thị xã/Thành phố), and
+    parent province. Folding alone is insufficient — it strips the tier prefix, so a city + rural
+    district of the same name ("Thành phố Cao Lãnh" / "Huyện Cao Lãnh") or a thị xã + huyện split
+    pair fold identically yet are distinct units (the 2026-07-20 miss). Genuine continuity (e.g.
+    Đạ Huoai across the 2024 merge: same name + tier + province) stays unflagged. Offline."""
+    import re
     from collections import defaultdict
     from vn_admin_units.names import fold_district_name
+
+    def tier(n):
+        m = re.match(r"\s*(Thành phố|Thị xã|Huyện|Quận)", n or "")
+        return m.group(1) if m else ""
+
     by_q = defaultdict(list)
     for r in rows:
         if r.get("wikidata_qid"):
             by_q[r["wikidata_qid"]].append(r)
-    return [f"COLLISION {q} <- " + " | ".join(f"{r['local_id']} {r['name_vi']}" for r in rs)
-            for q, rs in sorted(by_q.items())
-            if len({fold_district_name(r["name_vi"]) for r in rs}) > 1]
+    out = []
+    for q, rs in sorted(by_q.items()):
+        keys = {(fold_district_name(r["name_vi"]), tier(r["name_vi"]), r.get("parent_code")) for r in rs}
+        if len(keys) > 1:
+            out.append(f"COLLISION {q} <- " + " | ".join(f"{r['local_id']} {r['name_vi']}" for r in rs))
+    return out
 
 
 def audit_district_qids(mapping_path: str = "mappings/districts-qid.csv") -> list:

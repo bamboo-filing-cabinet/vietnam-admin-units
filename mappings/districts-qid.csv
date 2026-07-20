@@ -430,7 +430,7 @@ d-615-base,615,Huyện Đắk Hà,62,Q5209898,existing,matched
 d-616-base,616,Huyện Sa Thầy,62,Q7395506,existing,matched
 d-622-base,622,Thành phố Pleiku,64,Q30599,existing,matched
 d-623-base,623,Thị xã An Khê,64,Q15179893,existing,matched
-d-636-base,636,Huyện Ayun Pa,64,Q4831833,existing,matched
+d-636-base,636,Huyện Ayun Pa,64,,,gap
 d-625-base,625,Huyện KBang,64,Q10774400,existing,matched
 d-626-base,626,Huyện Đăk Đoa,64,Q5209894,existing,matched
 d-627-base,627,Huyện Chư Păh,64,Q5115155,existing,matched
@@ -524,7 +524,7 @@ d-765-base,765,Quận Bình Thạnh,79,Q2552692,existing,matched
 d-766-base,766,Quận Tân Bình,79,Q2200028,existing,matched
 d-767-base,767,Quận Tân Phú,79,Q7682100,existing,matched
 d-768-base,768,Quận Phú Nhuận,79,Q2194003,existing,matched
-d-769-base,769,Thành phố Thủ Đức,79,Q1884726,existing,matched
+d-769-base,769,Thành phố Thủ Đức,79,Q32005019,existing,verified
 d-762-base,762,Quận Thủ Đức,79,Q1884726,existing,matched
 d-763-base,763,Quận 9,79,Q5283276,existing,matched
 d-770-base,770,Quận 3,79,Q1926820,existing,matched
@@ -557,7 +557,7 @@ d-807-base,807,Huyện Cần Giuộc,80,Q5029046,existing,matched
 d-808-base,808,Huyện Châu Thành,80,Q5088017,existing,matched
 d-815-base,815,Thành phố Mỹ Tho,82,Q33425,existing,matched
 d-816-base,816,Thành phố Gò Công,82,Q5626082,existing,matched
-d-817-base,817,Thị xã Cai Lậy,82,Q5017488,existing,matched
+d-817-base,817,Thị xã Cai Lậy,82,Q16480343,existing,verified
 d-818-base,818,Huyện Tân Phước,82,Q7682101,existing,matched
 d-819-base,819,Huyện Cái Bè,82,Q5017480,existing,matched
 d-821-base,821,Huyện Châu Thành,82,Q5088022,existing,matched
@@ -579,17 +579,17 @@ d-846-base,846,Huyện Tiểu Cần,84,Q7801156,existing,matched
 d-847-base,847,Huyện Châu Thành,84,Q5088024,existing,matched
 d-848-base,848,Huyện Cầu Ngang,84,Q5054232,existing,matched
 d-849-base,849,Huyện Trà Cú,84,Q7831038,existing,matched
-d-850-base,850,Thị xã Duyên Hải,84,Q5317676,existing,matched
+d-850-base,850,Thị xã Duyên Hải,84,,,gap
 d-855-base,855,Thành phố Vĩnh Long,86,Q34789,existing,matched
 d-857-base,857,Huyện Long Hồ,86,Q3711115,existing,matched
 d-858-base,858,Huyện Mang Thít,86,Q6748576,existing,matched
 d-859-base,859,Huyện  Vũng Liêm,86,Q7943654,existing,matched
 d-860-base,860,Huyện Tam Bình,86,Q7680445,existing,matched
 d-862-base,862,Huyện Trà Ôn,86,Q10828559,existing,matched
-d-866-base,866,Thành phố Cao Lãnh,87,Q10744220,existing,matched
+d-866-base,866,Thành phố Cao Lãnh,87,Q35656,existing,verified
 d-867-base,867,Thành phố Sa Đéc,87,Q2987563,existing,matched
 d-869-base,869,Huyện Tân Hồng,87,Q7682058,existing,matched
-d-870-base,870,Huyện Hồng Ngự,87,Q10772154,existing,matched
+d-870-base,870,Huyện Hồng Ngự,87,Q5895654,existing,verified
 d-871-base,871,Huyện Tam Nông,87,Q7680471,existing,verified
 d-872-base,872,Huyện Tháp Mười,87,Q7710664,existing,matched
 d-873-base,873,Huyện Cao Lãnh,87,Q10744220,existing,matched
@@ -634,7 +634,7 @@ d-932-base,932,Huyện Châu Thành A,93,Q5088011,existing,matched
 d-933-base,933,Huyện Châu Thành,93,Q5088014,existing,matched
 d-934-base,934,Huyện Phụng Hiệp,93,Q7188350,existing,matched
 d-935-base,935,Huyện Vị Thuỷ,93,Q7924332,existing,matched
-d-936-base,936,Thị xã Long Mỹ,93,Q6673020,existing,matched
+d-936-base,936,Thị xã Long Mỹ,93,,,gap
 d-941-base,941,Thành phố Sóc Trăng,94,Q33418,existing,matched
 d-943-base,943,Huyện Kế Sách,94,Q6382055,existing,matched
 d-944-base,944,Huyện Mỹ Tú,94,Q6946546,existing,matched
@@ -709,7 +709,7 @@ d-719-2013-12-30,719,Huyện Bàu Bàng,74,Q16480177,existing,matched
 d-726-2013-12-30,726,Huyện Bắc Tân Uyên,74,Q16480189,existing,matched
 d-795-2013-03-19,795,Thị xã Kiến Tường,80,Q10780333,existing,matched
 d-820-2013-12-27,820,Huyện Cai Lậy,82,Q5017488,existing,matched
-d-447-2015-08-31,447,Huyện Kỳ Anh,42,Q20025826,existing,matched
+d-447-2015-08-31,447,Huyện Kỳ Anh,42,Q6450589,existing,verified
 d-850-2015-08-31,850,Huyện Duyên Hải,84,Q5317676,existing,matched
 d-936-2015-08-31,936,Huyện Long Mỹ,93,Q6673020,existing,matched
 d-618-2015-03-12,618,Huyện Ia H' Drai,62,Q20025812,existing,verified

@@ -32,6 +32,11 @@ batch via `data/district-create-new.json`, so no corrective batch is needed.
 
 - `na-districts.qs` — full district tier (718 districts, 2004→2025 + abolition), incl. the 5
   create-former succession back-links above. Not yet uploaded.
+- `na-districts-create-former-2.qs` — **CREATE** 3 more former districts that a pre-upload QID-collision
+  audit split off their wrongly-shared item (Ayun Pa old huyện, Thị xã Duyên Hải, Thị xã Long Mỹ). See
+  [`docs/journals/2026-07-19.03`](../docs/journals/2026-07-19.03.district-qid-collision-audit.md). After
+  running: record the 3 QIDs in `mappings/districts-qid.csv` (`verified`) and regenerate `na-districts.qs`
+  (it then emits their temporal/succession statements). Not yet run.
 
 ## Rejected
 
