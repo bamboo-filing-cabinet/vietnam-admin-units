@@ -16,11 +16,12 @@ REUSE = {"verified", "manual"}   # match_status values trusted on resume (skip r
 
 VIETNAM = "Q881"
 UA = {"User-Agent": "vn-admin-units/0.1 (research; contact via github.com/bamboo-filing-cabinet)"}
+WD_THROTTLE_S = 5    # min gap between batched Wikidata calls — 1s + short backoff still 429s a full-CSV audit
 
 
-def _get_json(url: str, timeout: int = 30, retries: int = 5) -> dict:
+def _get_json(url: str, timeout: int = 30, retries: int = 6) -> dict:
     """GET JSON with exponential backoff on 429/5xx (Wikidata throttling)."""
-    delay = 2.0
+    delay = 5.0
     for attempt in range(retries):
         try:
             return json.load(urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=timeout))
@@ -92,7 +93,7 @@ def wd_claims_ids(ids: list[str], prop: str, timeout: int = 30) -> dict:
                 if isinstance(dv, dict) and dv.get("id"):
                     vals.append(dv["id"])
             out[qid] = vals
-        time.sleep(1)
+        time.sleep(WD_THROTTLE_S)
     return out
 
 
@@ -107,7 +108,7 @@ def wd_labels(ids: list[str], langs: tuple = ("en", "vi"), timeout: int = 30) ->
             labs = e.get("labels", {})
             val = next((labs[l]["value"] for l in langs if l in labs), "")
             out[qid] = val
-        time.sleep(1)
+        time.sleep(WD_THROTTLE_S)
     return out
 
 
