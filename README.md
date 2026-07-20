@@ -66,7 +66,7 @@ suite 127.** Three QuickStatements batches (personal account, 2026-07-20):
 
 - `statements/na-districts.qs` — the main tier: `P571`/`P131`/`P31`-retype/`P576` + succession, all
   referenced. Uploaded [batch #261331](https://quickstatements.toolforge.org/#/batch/261331)
-  (~4,001 ops). ◀ **verify batch shows 0 errors when it finishes processing.**
+  (4,001 ops, **0 errors**).
 - `statements/na-districts-create-former.qs` — CREATE the 5 Tier-C former districts WD lacked
   (island huyện→đặc khu, thị xã→ward): Hoàng Sa Q140626479, Lý Sơn Q140626480, Cát Hải Q140626481,
   Quảng Trị Q140626482, Phú Quí Q140626483. [batch #261329](https://quickstatements.toolforge.org/#/batch/261329).
