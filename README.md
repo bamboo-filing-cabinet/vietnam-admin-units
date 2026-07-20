@@ -28,10 +28,10 @@ vietnam-elections     vietnam-elections-wikidata
 2. **Set up + verify:**
    ```sh
    uv sync
-   uv run pytest -q                          # 91 tests pass (Phase 2 in progress)
+   uv run pytest -q                          # 127 tests pass (Phases 1–2 complete + uploaded)
    ```
 
-   **If you're resuming Phase 2 (districts), read the "Phase 2" block under [Status](#status) below — it is the authoritative resume point** (state, execution corrections, the open decision, and the exact next step), and it points you to the plan.
+   **Phases 1 and 2 are complete and uploaded to Wikidata (provinces + districts).** The next work is **Phase 3 (wards)** — read the "Phase 2" block under [Status](#status) for the post-upload verification step and the roadmap pointer.
 3. **Read the design — the single entry point:** [`docs/DESIGN.md`](docs/DESIGN.md).
    Its **Document map**, **decisions log**, and **phase roadmap** index everything
    else (per-phase designs, the plan, and the dated decision journals `.01`–`.15`,
@@ -59,39 +59,34 @@ Uploaded 2026-07-14 via QuickStatements ([batch #260977](https://quickstatements
 This completes the **province tier** and unblocks Phase 2 districts (their pre-2008
 `P131` spans need these historical province QIDs).
 
-**Phase 2 (districts) — BUILD COMPLETE, pre-upload (last worked 2026-07-19). ◀ RESUME HERE.**
+**Phase 2 (districts) — COMPLETE and uploaded (2026-07-20).** The district tier (huyện / quận /
+thị xã / thành phố thuộc tỉnh) is built as a continuous-entity lineage graph **2004→2025 + the
+universal 2025-07-01 abolition**, reconciled to Wikidata. **718 districts, 0 gaps, 0 collisions;
+suite 127.** Three QuickStatements batches (personal account, 2026-07-20):
 
-**◀◀ RESUME POINT:** the whole build (R1–D11) is done and the QuickStatements batch
-`statements/na-districts.qs` is emitted (707 clean districts). The **11-district
-"became-a-ward/đặc-khu" reconciliation tail is now decided** (journals
-[`2026-07-19.01`](docs/journals/2026-07-19.01.district-reconciliation-successor-tail.md) =
-verdicts, [`2026-07-19.02`](docs/journals/2026-07-19.02.district-create-new-manual-instructions.md) =
-the create-new procedure). Live re-verification found the bulk pull had missed **same-tier**
-former-district items because the name-fold keeps the WD-label parenthetical `(huyện)`/`(thị xã)`
-— so all 11 have a real target, not just gaps:
-- **7 matched `verified` in `mappings/districts-qid.csv`** — Tier A (4 clean same-tier former-district
-  items: Đức Phổ Q5311205, Tam Nông/Phú Thọ Q7680472, Tam Nông/Đồng Tháp Q7680471, Đông Hải Q5295731)
-  + Tier B (3 Hanoi stub former-huyện, match+enrich: Đông Anh Q135672028, Gia Lâm Q135713939, Mê Linh
-  Q135659859).
-- **5 create-new DONE** (Tier C — no former item on WD, only the successor đặc-khu/phường): Hoàng Sa
-  `Q140626479`, Lý Sơn `Q140626480`, Cát Hải `Q140626481`, Thị xã Quảng Trị `Q140626482`, Phú Quí
-  `Q140626483` — hand-created via QuickStatements [batch #261329](https://quickstatements.toolforge.org/#/batch/261329)
-  (2026-07-20; saved at `statements/na-districts-create-former.qs`), now `verified` in the CSV. The 5
-  `P1365` back-links errored there (`LAST`-as-value) and are re-emitted with explicit QIDs in
-  `na-districts.qs` via `data/district-create-new.json`.
+- `statements/na-districts.qs` — the main tier: `P571`/`P131`/`P31`-retype/`P576` + succession, all
+  referenced. Uploaded [batch #261331](https://quickstatements.toolforge.org/#/batch/261331)
+  (~4,001 ops). ◀ **verify batch shows 0 errors when it finishes processing.**
+- `statements/na-districts-create-former.qs` — CREATE the 5 Tier-C former districts WD lacked
+  (island huyện→đặc khu, thị xã→ward): Hoàng Sa Q140626479, Lý Sơn Q140626480, Cát Hải Q140626481,
+  Quảng Trị Q140626482, Phú Quí Q140626483. [batch #261329](https://quickstatements.toolforge.org/#/batch/261329).
+- `statements/na-districts-create-former-2.qs` — CREATE 3 more former districts split off a
+  wrongly-shared QID by the collision audit: Ayun Pa Q140626623, Duyên Hải Q140626624, Long Mỹ
+  Q140626625. [batch #261330](https://quickstatements.toolforge.org/#/batch/261330).
 
-All 11 resolved — **0 gaps**; `na-districts.qs` regenerated (718 districts, 1789 statements incl. the
-create-new succession). **NEXT STEP:** pre-upload audit (`reconcile.audit_district_qids`) + D10
-constraints gate, then upload `na-districts.qs` (manual, personal WD account).
+The 11-district "became-a-ward/đặc-khu" tail, 2 name-collisions (Thanh Sơn/Tân Sơn, Thanh Khê/Cẩm Lệ),
+and 8 same-name/different-tier QID collisions were all resolved — see journals
+[`2026-07-19.01`](docs/journals/2026-07-19.01.district-reconciliation-successor-tail.md) /
+[`.02`](docs/journals/2026-07-19.02.district-create-new-manual-instructions.md) /
+[`.03`](docs/journals/2026-07-19.03.district-qid-collision-audit.md). Reconcile + audit were hardened
+(fold-normalization, label-over-alias, tier-check, distinctness) so the class can't recur; an
+independent geo cross-check (P625 kNN) confirmed **0 wrong-place matches**. Build followed
+[`docs/plans/2026-07-14-phase2-districts.md`](docs/plans/2026-07-14-phase2-districts.md) (R1–R4 refactor
++ D1–D11), committed on `main` (solo repo — no branch).
 
-Building the district tier (huyện / quận / thị xã / thành phố thuộc tỉnh) as a
-continuous-entity lineage graph **2004→2025 + the universal 2025-07-01 abolition**,
-reconciled to Wikidata (Goal B). Execution is **task-by-task per the plan**:
-[`docs/plans/2026-07-14-phase2-districts.md`](docs/plans/2026-07-14-phase2-districts.md)
-— **read it, ESPECIALLY the "Execution corrections (2026-07-17)" section near the top**,
-which supersedes the as-written D4/D6.5/D7 mechanism. Tasks: R1–R4 ("Movement A" =
-tier-neutral `core.py` refactor) then D1–D11 (district build). Everything is committed on
-`main` (solo repo — commit directly on `main`, no branch).
+**◀ RESUME POINT (post-upload):** re-run `reconcile.audit_district_qids` — expect only the **1 accepted**
+Ninh Bình successor-relabel (the 3 Tier-B TYPE flags clear once #261331 lands their `P31`=huyện). Then
+**Phase 3 (wards, NA16)** — see the roadmap in `docs/DESIGN.md`.
 
 **Done & pushed** — suite **118 passed**, tree clean. **R1–D11 all complete:**
 - **D7** `build_districts` — 718 entities, 25 lineage edges, 0 residue (survivor-row
