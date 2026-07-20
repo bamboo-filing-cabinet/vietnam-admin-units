@@ -66,6 +66,37 @@ def test_retype_p31_both_spans_cite_the_decree():
     assert any("P582\t+2008-10-02" in l for l in p31) and any("P580\t+2008-10-03" in l for l in p31)
 
 
+def test_create_new_wires_two_way_succession_to_successor():
+    # Tier C: WD had no former-district item, only the 2025 successor (đặc khu / phường), so the
+    # former item was hand-created (manual CREATE batch) and its QID is now in the mapping. WD holds
+    # no lineage edge to the commune-tier successor, so the succession is wired from a curated
+    # {local_id: {successor, reference_url}} map — BOTH directions, referenced to the province
+    # arrangement resolution, P585 = the abolition date. (The manual batch's `<successor> P1365 LAST`
+    # back-link errored — LAST-as-value — so na-districts.qs must carry it.)
+    d = _d("602", "Huyện Phú Quí", "Qnew")
+    create_new = {d.local_id: {"successor": "Qsucc", "reference_url": "https://vb/1671"}}
+    qs = emit_district_quickstatements([d], [], default_ref_url="https://nso",
+                                       abolition_ref="https://reform", create_new=create_new)
+    lines = qs.splitlines()
+    fwd = next(l for l in lines if l.startswith("Qnew\tP1366\tQsucc"))
+    back = next(l for l in lines if l.startswith("Qsucc\tP1365\tQnew"))
+    assert f"P585\t+{ABOLITION_DATE}T00:00:00Z/11" in fwd and '"https://vb/1671"' in fwd
+    assert f"P585\t+{ABOLITION_DATE}T00:00:00Z/11" in back and '"https://vb/1671"' in back
+    assert any(l.startswith("Qnew\tP576") for l in lines)              # still carries the abolition
+    assert "P7888" not in qs                                          # replacement, not a merger
+
+
+def test_create_new_skips_entities_without_qid_or_not_listed():
+    d_gap = _d("602", "Huyện Phú Quí", None)                          # still a gap: no QID yet
+    d_gap.qid_status = None
+    other = _d("271", "Huyện Ba Vì", "Q1234")                         # has QID but not in create_new
+    create_new = {d_gap.local_id: {"successor": "Qsucc", "reference_url": "https://vb/1671"}}
+    qs = emit_district_quickstatements([d_gap, other], [], default_ref_url="https://nso",
+                                       abolition_ref="https://reform", create_new=create_new)
+    assert "P1365" not in qs and "Qsucc" not in qs                    # gap emits no succession
+    assert "Q1234\tP1365" not in qs                                   # non-listed item untouched
+
+
 def test_merge_target_unresolved_still_emits_dissolution_p576():
     # F2: a dissolve whose successor couldn't be resolved still emitted its P576 (we know it
     # dissolved on the recovered date). The missing succession link is manual-curation residue.

@@ -110,7 +110,7 @@ ABOLITION_VALID_TO = "2025-06-30"
 
 
 def emit_district_quickstatements(entities: list, edges: list, default_ref_url: str,
-                                  abolition_ref: str) -> str:
+                                  abolition_ref: str, create_new: dict | None = None) -> str:
     """Relation-aware QuickStatements for the district tier + the 2025 abolition.
     P576 fires only on entities that end: from a lineage edge's effective_date for a
     pre-abolition end, or ABOLITION_DATE for a survivor. carved_from parents never get
@@ -197,4 +197,19 @@ def emit_district_quickstatements(entities: list, edges: list, default_ref_url: 
             add(f"{pre.wikidata_qid}\tP7888\t{post.wikidata_qid}\tP585\t{eff}\t{ref}")
             add(f"{pre.wikidata_qid}\tP1366\t{post.wikidata_qid}\tP585\t{eff}\t{ref}")
             add(f"{post.wikidata_qid}\tP1365\t{pre.wikidata_qid}\tP585\t{eff}\t{ref}")
+
+    # Tier-C create-new succession: these former districts have no lineage edge to their 2025
+    # successor (the đặc-khu/phường is a commune-tier unit, out of our graph), so wire it from a
+    # curated {local_id: {successor, reference_url}} map. BOTH directions, referenced to the province
+    # arrangement resolution that created the successor, P585 = the abolition date. Not a merger →
+    # no P7888. (Rides in na-districts.qs because the manual CREATE batch's `<successor> P1365 LAST`
+    # back-link errored — QuickStatements can't use LAST as a value on another item.)
+    for e in entities:
+        info = (create_new or {}).get(e.local_id)
+        if not (info and e.wikidata_qid):
+            continue
+        succ, ref = info["successor"], ref_s854(info.get("reference_url") or default_ref_url)
+        eff = wd_date(ABOLITION_DATE)
+        add(f"{e.wikidata_qid}\tP1366\t{succ}\tP585\t{eff}\t{ref}")
+        add(f"{succ}\tP1365\t{e.wikidata_qid}\tP585\t{eff}\t{ref}")
     return ("\n".join(out) + "\n") if out else ""

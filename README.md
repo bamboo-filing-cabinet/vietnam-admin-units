@@ -73,13 +73,16 @@ former-district items because the name-fold keeps the WD-label parenthetical `(h
   items: Đức Phổ Q5311205, Tam Nông/Phú Thọ Q7680472, Tam Nông/Đồng Tháp Q7680471, Đông Hải Q5295731)
   + Tier B (3 Hanoi stub former-huyện, match+enrich: Đông Anh Q135672028, Gia Lâm Q135713939, Mê Linh
   Q135659859).
-- **4 pending manual create-new** (Tier C — no former item on WD, only the successor đặc-khu/phường):
-  Hoàng Sa, Lý Sơn, Cát Hải, Thị xã Quảng Trị, **+ Phú Quí revised** off its old successor-match. These
-  5 stay `gap` (emit nothing) until the maintainer hand-creates their items per `2026-07-19.02`, then
-  become `verified`. **NEXT STEP:** run the `2026-07-19.02` QuickStatements `CREATE` batch, record the
-  5 new QIDs into the CSV, then regenerate + audit + upload.
+- **5 create-new DONE** (Tier C — no former item on WD, only the successor đặc-khu/phường): Hoàng Sa
+  `Q140626479`, Lý Sơn `Q140626480`, Cát Hải `Q140626481`, Thị xã Quảng Trị `Q140626482`, Phú Quí
+  `Q140626483` — hand-created via QuickStatements [batch #261329](https://quickstatements.toolforge.org/#/batch/261329)
+  (2026-07-20; saved at `statements/na-districts-create-former.qs`), now `verified` in the CSV. The 5
+  `P1365` back-links errored there (`LAST`-as-value) and are re-emitted with explicit QIDs in
+  `na-districts.qs` via `data/district-create-new.json`.
 
-The still-`gap` rows emit nothing, so the current batch ships nothing wrong.
+All 11 resolved — **0 gaps**; `na-districts.qs` regenerated (718 districts, 1789 statements incl. the
+create-new succession). **NEXT STEP:** pre-upload audit (`reconcile.audit_district_qids`) + D10
+constraints gate, then upload `na-districts.qs` (manual, personal WD account).
 
 Building the district tier (huyện / quận / thị xã / thành phố thuộc tỉnh) as a
 continuous-entity lineage graph **2004→2025 + the universal 2025-07-01 abolition**,

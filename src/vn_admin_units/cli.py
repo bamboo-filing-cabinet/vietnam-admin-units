@@ -167,17 +167,21 @@ def build_districts_all() -> None:
     ack = load_acknowledged_gaps()
     gaps = [e for e in ents if not e.wikidata_qid]
     unresolved = [e for e in gaps if e.local_id not in ack]
-    if gaps:
-        DATA.mkdir(exist_ok=True)
-        (DATA / "district-gaps.json").write_text(
-            json.dumps([e.to_dict() for e in gaps], ensure_ascii=False, indent=2), encoding="utf-8")
+    DATA.mkdir(exist_ok=True)                                 # always refresh (write [] when none) so it can't go stale
+    (DATA / "district-gaps.json").write_text(
+        json.dumps([e.to_dict() for e in gaps], ensure_ascii=False, indent=2), encoding="utf-8")
     if unresolved:
         raise SystemExit(f"COMPLETENESS GATE: {len(unresolved)} districts have no QID and are not "
                          f"acknowledged gaps (match_status='gap') — they would emit NOTHING and drop "
                          f"their lineage. Run reconcile_districts_live, or mark genuine no-item gaps "
                          f"'gap' in mappings/districts-qid.csv. See data/district-gaps.json. "
                          f"First: {unresolved[0].name_vi}")
-    qs = emit_district_quickstatements(ents, edges, default_ref_url=NSO_SOURCE_URL, abolition_ref=ABOLITION_REF)
+    # Tier-C create-new succession (see docs/journals/2026-07-19.02): {local_id: {successor, reference_url}}
+    # for the 5 former districts whose WD items were hand-created (no former item existed, only the successor).
+    cn_path = DATA / "district-create-new.json"
+    create_new = json.loads(cn_path.read_text(encoding="utf-8")) if cn_path.exists() else {}
+    qs = emit_district_quickstatements(ents, edges, default_ref_url=NSO_SOURCE_URL,
+                                       abolition_ref=ABOLITION_REF, create_new=create_new)
     missing = event_statements_missing_reference(qs, NSO_SOURCE_URL)
     if missing:
         raise SystemExit(f"REFERENCE GATE: {len(missing)} event statements lack a real decree URL "

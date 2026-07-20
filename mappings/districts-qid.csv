@@ -216,7 +216,7 @@ d-313-base,313,Huyện An Lão,31,Q10733214,existing,matched
 d-314-base,314,Huyện Kiến Thuỵ,31,Q6405297,existing,matched
 d-315-base,315,Huyện Tiên Lãng,31,Q7801035,existing,matched
 d-316-base,316,Huyện Vĩnh Bảo,31,Q10833526,existing,matched
-d-317-base,317,Huyện Cát Hải,31,,,gap
+d-317-base,317,Huyện Cát Hải,31,Q140626481,existing,verified
 d-318-base,318,Huyện Bạch Long Vĩ,31,Q1136869,existing,matched
 d-323-base,323,Thành phố Hưng Yên,33,Q36485,existing,matched
 d-325-base,325,Huyện Văn Lâm,33,Q7913474,existing,matched
@@ -325,7 +325,7 @@ d-456-base,456,Huyện Quảng Ninh,44,Q596473,existing,matched
 d-457-base,457,Huyện Lệ Thủy,44,Q153692,existing,matched
 d-458-base,458,Thị xã Ba Đồn,44,Q83385,existing,matched
 d-461-base,461,Thành phố Đông Hà,45,Q33343,existing,matched
-d-462-base,462,Thị xã Quảng Trị,45,,,gap
+d-462-base,462,Thị xã Quảng Trị,45,Q140626482,existing,verified
 d-471-base,471,Huyện Cồn Cỏ,45,Q5202999,existing,matched
 d-465-base,465,Huyện Hướng Hóa,45,Q5946114,existing,matched
 d-466-base,466,Huyện Gio Linh,45,Q5563341,existing,matched
@@ -349,7 +349,7 @@ d-492-base,492,Quận Hải Châu,48,Q1068273,existing,matched
 d-493-base,493,Quận Sơn Trà,48,Q7560609,existing,matched
 d-494-base,494,Quận Ngũ Hành Sơn,48,Q7022659,existing,matched
 d-497-base,497,Huyện Hòa Vang,48,Q2236121,existing,matched
-d-498-base,498,Huyện Hoàng Sa,48,,,gap
+d-498-base,498,Huyện Hoàng Sa,48,Q140626479,existing,verified
 d-502-base,502,Thành phố Tam Kỳ,49,Q35661,existing,matched
 d-503-base,503,Thành phố Hội An,49,Q36160,existing,matched
 d-504-base,504,Huyện Tây Giang,49,Q1850337,existing,matched
@@ -379,7 +379,7 @@ d-532-base,532,Huyện Nghĩa Hành,51,Q7022331,existing,matched
 d-533-base,533,Huyện Mộ Đức,51,Q6886224,existing,matched
 d-534-base,534,Thị xã Đức Phổ,51,Q5311205,existing,verified
 d-535-base,535,Huyện Ba Tơ,51,Q4837079,existing,matched
-d-536-base,536,Huyện Lý Sơn,51,,,gap
+d-536-base,536,Huyện Lý Sơn,51,Q140626480,existing,verified
 d-540-base,540,Thành phố Quy Nhơn,52,Q36081,existing,matched
 d-542-base,542,Huyện An Lão,52,Q4750136,existing,matched
 d-543-base,543,Thị xã Hoài Nhơn,52,Q10768856,existing,matched
@@ -419,7 +419,7 @@ d-598-base,598,Huyện Hàm Thuận Nam,60,Q5643882,existing,matched
 d-599-base,599,Huyện Tánh Linh,60,Q7683199,existing,matched
 d-600-base,600,Huyện Đức Linh,60,Q5311204,existing,matched
 d-601-base,601,Huyện Hàm Tân,60,Q5643878,existing,matched
-d-602-base,602,Huyện Phú Quí,60,,,gap
+d-602-base,602,Huyện Phú Quí,60,Q140626483,existing,verified
 d-608-base,608,Thành phố Kon Tum,62,Q36493,existing,matched
 d-610-base,610,Huyện Đắk Glei,62,Q5209895,existing,matched
 d-611-base,611,Huyện Ngọc Hồi,62,Q10800618,existing,matched

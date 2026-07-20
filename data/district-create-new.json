@@ -1,0 +1,23 @@
+{
+  "_doc": "Tier-C former districts whose WD items were hand-created (batch #261329, 2026-07-20) because Wikidata had no former-district item, only the 2025 successor. Keyed by district local_id → {successor QID, the province cấp-xã arrangement resolution that created the successor}. build_districts_all emits both succession directions (P1366 on the former item, P1365 on the successor) into statements/na-districts.qs, referenced here — this carries the P1365 back-links that the manual batch's LAST-as-value lines could not. See docs/journals/2026-07-19.02.",
+  "d-498-base": {
+    "successor": "Q5874429",
+    "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-1659-NQ-UBTVQH15-2025-sap-xep-cac-don-vi-hanh-chinh-cap-xa-thanh-pho-Da-Nang-661063.aspx"
+  },
+  "d-536-base": {
+    "successor": "Q1320095",
+    "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-1677-NQ-UBTVQH15-2025-sap-xep-cac-don-vi-hanh-chinh-cap-xa-Quang-Ngai-661113.aspx"
+  },
+  "d-317-base": {
+    "successor": "Q5051032",
+    "reference_url": "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-quyet-so-1669-nq-ubtvqh15-sap-xep-cac-dvhc-cap-xa-cua-thanh-pho-hai-phong-nam-2025-119250616193209667.htm"
+  },
+  "d-462-base": {
+    "successor": "Q1320413",
+    "reference_url": "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-quyet-so-1680-nq-ubtvqh15-sap-xep-cac-dvhc-cap-xa-cua-tinh-quang-tri-nam-2025-119250616205443422.htm"
+  },
+  "d-602-base": {
+    "successor": "Q32192913",
+    "reference_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-1671-NQ-UBTVQH15-2025-sap-xep-cac-don-vi-hanh-chinh-cap-xa-Lam-Dong-661107.aspx"
+  }
+}
