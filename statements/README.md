@@ -9,6 +9,7 @@ Emitted QuickStatements batches for Wikidata.
 | `na-provinces-2025.qs` | 2026-07-12 | [#260741](https://quickstatements.toolforge.org/#/batch/260741) | 319 | 0 | 2025 province reform: P576 + P7888 + P1366/P1365 for 29 dissolutions → 23 survivors |
 | `na-provinces-history.qs` | 2026-07-14 | [#260977](https://quickstatements.toolforge.org/#/batch/260977) | — | 0 | 2002→2025 province history: P571/P807/P31-retype/P576 + succession |
 | `na-districts-create-former.qs` | 2026-07-20 | [#261329](https://quickstatements.toolforge.org/#/batch/261329) | 10 | 5 | CREATE the 5 Tier-C former districts WD lacked (huyện/thị xã that became a 2025 đặc-khu/phường). See note below. |
+| `na-districts-create-former-2.qs` | 2026-07-20 | [#261330](https://quickstatements.toolforge.org/#/batch/261330) | 3 | 0 | CREATE 3 former districts split off a wrongly-shared QID by the collision audit: Ayun Pa (huyện) Q140626623, Duyên Hải (thị xã) Q140626624, Long Mỹ (thị xã) Q140626625. |
 
 ### Note — `na-districts-create-former.qs` (#261329)
 
@@ -30,13 +31,9 @@ batch via `data/district-create-new.json`, so no corrective batch is needed.
 
 ## Pending upload
 
-- `na-districts.qs` — full district tier (718 districts, 2004→2025 + abolition), incl. the 5
-  create-former succession back-links above. Not yet uploaded.
-- `na-districts-create-former-2.qs` — **CREATE** 3 more former districts that a pre-upload QID-collision
-  audit split off their wrongly-shared item (Ayun Pa old huyện, Thị xã Duyên Hải, Thị xã Long Mỹ). See
-  [`docs/journals/2026-07-19.03`](../docs/journals/2026-07-19.03.district-qid-collision-audit.md). After
-  running: record the 3 QIDs in `mappings/districts-qid.csv` (`verified`) and regenerate `na-districts.qs`
-  (it then emits their temporal/succession statements). Not yet run.
+- `na-districts.qs` — full district tier (718 districts, 2004→2025 + abolition), incl. the 5+3
+  create-former succession statements above. **All 13 former-district items now created; 0 gaps.**
+  Not yet uploaded — the final step.
 
 ## Rejected
 

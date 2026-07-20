@@ -14349,8 +14349,8 @@
     ],
     "valid_from": null,
     "valid_to": "2007-04-13",
-    "wikidata_qid": null,
-    "qid_status": null,
+    "wikidata_qid": "Q140626623",
+    "qid_status": "existing",
     "era": null,
     "parent_spans": [
       {
@@ -19274,8 +19274,8 @@
     ],
     "valid_from": null,
     "valid_to": "2025-06-30",
-    "wikidata_qid": null,
-    "qid_status": null,
+    "wikidata_qid": "Q140626624",
+    "qid_status": "existing",
     "era": null,
     "parent_spans": [
       {
@@ -21106,8 +21106,8 @@
     ],
     "valid_from": null,
     "valid_to": "2025-06-30",
-    "wikidata_qid": null,
-    "qid_status": null,
+    "wikidata_qid": "Q140626625",
+    "qid_status": "existing",
     "era": null,
     "parent_spans": [
       {

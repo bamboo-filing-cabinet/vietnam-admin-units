@@ -430,7 +430,7 @@ d-615-base,615,Huyện Đắk Hà,62,Q5209898,existing,matched
 d-616-base,616,Huyện Sa Thầy,62,Q7395506,existing,matched
 d-622-base,622,Thành phố Pleiku,64,Q30599,existing,matched
 d-623-base,623,Thị xã An Khê,64,Q15179893,existing,matched
-d-636-base,636,Huyện Ayun Pa,64,,,gap
+d-636-base,636,Huyện Ayun Pa,64,Q140626623,existing,verified
 d-625-base,625,Huyện KBang,64,Q10774400,existing,matched
 d-626-base,626,Huyện Đăk Đoa,64,Q5209894,existing,matched
 d-627-base,627,Huyện Chư Păh,64,Q5115155,existing,matched
@@ -579,7 +579,7 @@ d-846-base,846,Huyện Tiểu Cần,84,Q7801156,existing,matched
 d-847-base,847,Huyện Châu Thành,84,Q5088024,existing,matched
 d-848-base,848,Huyện Cầu Ngang,84,Q5054232,existing,matched
 d-849-base,849,Huyện Trà Cú,84,Q7831038,existing,matched
-d-850-base,850,Thị xã Duyên Hải,84,,,gap
+d-850-base,850,Thị xã Duyên Hải,84,Q140626624,existing,verified
 d-855-base,855,Thành phố Vĩnh Long,86,Q34789,existing,matched
 d-857-base,857,Huyện Long Hồ,86,Q3711115,existing,matched
 d-858-base,858,Huyện Mang Thít,86,Q6748576,existing,matched
@@ -634,7 +634,7 @@ d-932-base,932,Huyện Châu Thành A,93,Q5088011,existing,matched
 d-933-base,933,Huyện Châu Thành,93,Q5088014,existing,matched
 d-934-base,934,Huyện Phụng Hiệp,93,Q7188350,existing,matched
 d-935-base,935,Huyện Vị Thuỷ,93,Q7924332,existing,matched
-d-936-base,936,Thị xã Long Mỹ,93,,,gap
+d-936-base,936,Thị xã Long Mỹ,93,Q140626625,existing,verified
 d-941-base,941,Thành phố Sóc Trăng,94,Q33418,existing,matched
 d-943-base,943,Huyện Kế Sách,94,Q6382055,existing,matched
 d-944-base,944,Huyện Mỹ Tú,94,Q6946546,existing,matched
