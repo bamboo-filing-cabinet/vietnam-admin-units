@@ -84,11 +84,22 @@ independent geo cross-check (P625 kNN) confirmed **0 wrong-place matches**. Buil
 [`docs/plans/2026-07-14-phase2-districts.md`](docs/plans/2026-07-14-phase2-districts.md) (R1–R4 refactor
 + D1–D11), committed on `main` (solo repo — no branch).
 
-**◀ RESUME POINT (post-upload):** re-run `reconcile.audit_district_qids` — expect only the **1 accepted**
-Ninh Bình successor-relabel (the 3 Tier-B TYPE flags clear once #261331 lands their `P31`=huyện). Then
-**Phase 3 (wards, NA16)** — see the roadmap in `docs/DESIGN.md`.
+**Post-upload verification (2026-07-20, DONE):** `reconcile.audit_district_qids` → **1 issue**, the
+*accepted* Ninh Bình → Hoa Lư successor-relabel; the 3 Tier-B TYPE flags cleared (batch #261331 stamped
+`P31`=huyện). Independent geo cross-check (P625 kNN): **0 wrong-place matches**. **Phase 2 fully verified.**
 
-**Done & pushed** — suite **118 passed**, tree clean. **R1–D11 all complete:**
+**◀◀ RESUME HERE (new session) — Phase 3: wards (xã / phường, commune tier, NA16).** Provinces (Phase 1)
+and districts (Phase 2) are complete + live on Wikidata with **no open work**. The ward tier is the next
+and largest layer (~10k units). Start from the roadmap in [`docs/DESIGN.md`](docs/DESIGN.md) and the ward
+design [`docs/DESIGN-phase3.md`](docs/DESIGN-phase3.md) (marked "to be revised"). Reusable from Phase 2:
+the tier-neutral `src/vn_admin_units/core.py`, and the hardened reconcile/audit (fold-normalization,
+label-over-alias, tier-check, QID-distinctness) — plus the P625-kNN geo cross-check as a verification
+pattern. First step of a Phase-3 session: read `docs/DESIGN.md` (document map + phase roadmap), then
+scope the ward source/crosswalk the same way districts were (`docs/plans/`).
+
+<details><summary><b>Phase 2 build log (historical — complete + uploaded 2026-07-20)</b></summary>
+
+**R1–D11 all complete:**
 - **D7** `build_districts` — 718 entities, 25 lineage edges, 0 residue (survivor-row
   dissolve mechanism; division-via-dissolve for Ayun Pa; curated
   `data/district-merge-targets.json`). 8-test ground-truth gate.
@@ -157,10 +168,13 @@ genuinely-ambiguous bare codes (`04/11/19/33/34 NQ-CP`) are keyed by `(code, eff
    **audit** (`reconcile.audit_district_qids` — clean except the accepted cross-tier `TYPE`
    flags like Phú Quí) + the **D10 constraints gate**.
 
-**Human touchpoints (don't auto-do these):** the 11-district decisions above; reviewing and
-performing the **Wikidata upload** (always manual, maintainer's account — QuickStatements batch).
+**Human touchpoints (were manual):** the 11-district decisions; the Wikidata uploads (maintainer's
+account — QuickStatements batches #261329/#261330/#261331).
 
-**Next phases after 2:** wards (NA16, Phase 3), pre-2002 history — see the roadmap in `docs/DESIGN.md`.
+</details>
+
+**Future phases:** Phase 3 wards (NA16) — the resume target above; then pre-2002 history. See the
+roadmap in [`docs/DESIGN.md`](docs/DESIGN.md).
 
 ## The model
 
