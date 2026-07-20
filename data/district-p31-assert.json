@@ -1,0 +1,6 @@
+{
+  "_doc": "local_ids whose matched Wikidata item is a former-district STUB carrying a generic P31 (Q56061 'administrative territorial entity') instead of a district class. build_districts_all stamps the correct district-tier P31 (bare, NSO-referenced) into na-districts.qs so the item is properly typed and the pre-upload audit TYPE flag clears. Tier-B Hanoi former huyện — see docs/journals/2026-07-19.01.",
+  "d-017-base": "Huyện Đông Anh -> Q135672028 (huyện)",
+  "d-018-base": "Huyện Gia Lâm -> Q135713939 (huyện)",
+  "d-250-base": "Huyện Mê Linh -> Q135659859 (huyện)"
+}

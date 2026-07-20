@@ -66,6 +66,21 @@ def test_retype_p31_both_spans_cite_the_decree():
     assert any("P582\t+2008-10-02" in l for l in p31) and any("P580\t+2008-10-03" in l for l in p31)
 
 
+def test_p31_assert_emits_bare_p31_for_stub_items():
+    # Tier-B: matched to a former-district WD STUB whose P31 is the generic "administrative
+    # territorial entity" (Q56061). A single-span entity normally emits no P31 (trusts WD's), so
+    # list it in p31_assert to stamp the correct district-tier P31 and clear the audit TYPE flag.
+    d = _d("017", "Huyện Đông Anh", "Qstub")                  # single type span, loai=Huyện
+    qs = emit_district_quickstatements([d], [], default_ref_url="https://nso",
+                                       abolition_ref="https://reform", p31_assert={d.local_id})
+    p31 = [l for l in qs.splitlines() if l.startswith("Qstub\tP31")]
+    assert p31 == ['Qstub\tP31\tQ2582669\tS854\t"https://nso"']   # bare huyện P31, NSO ref
+    # not listed -> no P31 for a single-span entity (unchanged behavior)
+    d2 = _d("999", "Huyện Ba Vì", "Qz")
+    qs2 = emit_district_quickstatements([d2], [], default_ref_url="https://nso", abolition_ref="https://reform")
+    assert not any(l.startswith("Qz\tP31") for l in qs2.splitlines())
+
+
 def test_create_new_wires_two_way_succession_to_successor():
     # Tier C: WD had no former-district item, only the 2025 successor (đặc khu / phường), so the
     # former item was hand-created (manual CREATE batch) and its QID is now in the mapping. WD holds

@@ -110,7 +110,8 @@ ABOLITION_VALID_TO = "2025-06-30"
 
 
 def emit_district_quickstatements(entities: list, edges: list, default_ref_url: str,
-                                  abolition_ref: str, create_new: dict | None = None) -> str:
+                                  abolition_ref: str, create_new: dict | None = None,
+                                  p31_assert: set | None = None) -> str:
     """Relation-aware QuickStatements for the district tier + the 2025 abolition.
     P576 fires only on entities that end: from a lineage edge's effective_date for a
     pre-abolition end, or ABOLITION_DATE for a survivor. carved_from parents never get
@@ -170,6 +171,13 @@ def emit_district_quickstatements(entities: list, edges: list, default_ref_url: 
                     add(f"{e.wikidata_qid}\tP31\t{target}\tP582\t{wd_date(sp['to'])}\t{ref}")
                 elif i == n_t - 1 and sp.get("from"):
                     add(f"{e.wikidata_qid}\tP31\t{target}\tP580\t{wd_date(sp['from'])}\t{ref}")
+        elif p31_assert and e.local_id in p31_assert:
+            # Tier-B: the matched WD item is a former-district STUB with a generic P31 (Q56061). A
+            # single-span entity normally emits no P31 (WD's is trusted) — here we stamp the correct
+            # district-tier P31 so the item is properly typed. Bare (no date), NSO-referenced.
+            target = p31_target(e.loai_hinh)
+            if target:
+                add(f"{e.wikidata_qid}\tP31\t{target}\t{ref_s854(default_ref_url)}")
         # P576: pre-abolition end (from an edge, referenced to its own decree) OR a dissolution
         # with no resolved successor (entity-stamped e.dissolution — the district DID dissolve on
         # the recovered date even if its merge target is manual-curation residue, F2) OR the

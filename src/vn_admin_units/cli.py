@@ -182,8 +182,13 @@ def build_districts_all() -> None:
     # for the 5 former districts whose WD items were hand-created (no former item existed, only the successor).
     cn_path = DATA / "district-create-new.json"
     create_new = json.loads(cn_path.read_text(encoding="utf-8")) if cn_path.exists() else {}
+    # Tier-B P31 fixups (see docs/journals/2026-07-19.01): former-district stubs with a generic P31.
+    pa_path = DATA / "district-p31-assert.json"
+    p31_assert = {k for k in json.loads(pa_path.read_text(encoding="utf-8")) if not k.startswith("_")} \
+        if pa_path.exists() else set()
     qs = emit_district_quickstatements(ents, edges, default_ref_url=NSO_SOURCE_URL,
-                                       abolition_ref=ABOLITION_REF, create_new=create_new)
+                                       abolition_ref=ABOLITION_REF, create_new=create_new,
+                                       p31_assert=p31_assert)
     missing = event_statements_missing_reference(qs, NSO_SOURCE_URL)
     if missing:
         raise SystemExit(f"REFERENCE GATE: {len(missing)} event statements lack a real decree URL "
