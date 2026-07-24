@@ -172,12 +172,19 @@ event hard-coded to 2025), and it adds a **change-discovery** workstream:
 enumerating *every* change event + date across the span (not just the headline
 reforms), since ward-level changes occur between the big reforms too.
 
-**Change-discovery mechanism (decided 2026-07-10): hybrid.** The **Lịch Sử**
-change-log page is the authoritative event list (decree + effective date per
-change); the **Đối Chiếu crosswalk** supplies the old↔new lineage; **SOAP
-`DenNgay`** supplies membership snapshots. Each source does what it's best at.
-Open task: browser-scrape Lịch Sử (DevExpress + Excel export, like the crosswalk
-— mechanics still to verify).
+**Change-discovery mechanism (decided 2026-07-10; revised 2026-07-20).** The
+mechanism is the **Đối Chiếu crosswalk yearly-sweep** (`01/01/Y → 01/01/(Y+1)`,
+each window inside one code-era) for old↔new lineage + effective dates +
+composition prose, **cross-checked against the Nghị định / Nghị quyết UBTVQH decree
+lists** to catch same-unit-twice-in-year and ephemeral units the net-only crosswalk
+misses; **SOAP `DenNgay`** supplies membership snapshots (and, for wards, the
+district code the crosswalk export drops). **Superseded: Lịch Sử is NOT an event
+source.** `Lich_Su_Moi.aspx` is a point-in-time *inventory* (code/name/level/decree
++ parent hierarchy), not an old→new change timeline — verified for districts
+(`2026-07-13.01`) and wards (`2026-07-20.01`); its Excel export is non-functional at
+sub-province level. Ward waves are **Nghị quyết UBTVQH** (e.g. `653/2019/UBTVQH14`),
+likely on a different GSO page than the district `NghiDinh.aspx` list — locating it
+is the first Phase-3 build task (`2026-07-20.01`).
 
 ## Phase roadmap
 
@@ -231,8 +238,11 @@ assemblies need non-GSO sources.
 2. Identity = **new-entity-per-reform + lineage**; NSO continuity via
    qualifiers/aliases (`.08`).
 3. Temporal scope = **all reforms 2002→present, chained** multi-hop.
-4. Change-discovery = **hybrid** (Lịch Sử events + crosswalk lineage + SOAP
-   snapshots).
+4. Change-discovery = **Đối Chiếu crosswalk yearly-sweep + Nghị định/Nghị quyết
+   cross-check + SOAP snapshots** (revised 2026-07-20). **Lịch Sử retired as an
+   event source** — it is an inventory, not a change timeline (`2026-07-13.01`
+   districts, `2026-07-20.01` wards). The crosswalk is net-only, so the decree/Nghị
+   quyết cross-check is required to bound the yearly-window blind spot.
 5. Lineage resolution = **combination** (anchor primary → resolve prose via
    snapshot context → validate → manual residue).
 6. Reconciliation = **incremental edge-closure** (per phase; enrich, create gaps).
@@ -253,7 +263,10 @@ assemblies need non-GSO sources.
   province batch is constraint-clean (P585 fine on P7888/P1366/P1365; P576 date-as-value).
   Tool: `vn_admin_units.constraints`. Phase-2 note: `P571` rejects `P585` (keep
   inception as value). Re-run the tool for new props (`P518`/`P1107`) in Phase 2.
-- **Browser-scrape Lịch Sử** mechanics (Excel export like the crosswalk).
+- ~~**Browser-scrape Lịch Sử** mechanics~~ **Dropped (2026-07-20):** Lịch Sử is an
+  inventory, not an event source (`2026-07-13.01`, `2026-07-20.01`); no scrape
+  needed. Replacement build task: locate the **Nghị quyết UBTVQH** list page for the
+  ward-arrangement waves (the crosswalk net-only cross-check source).
 - **Data-quality normalization** pass (Ghi Chú typos/newlines; đặc-khu 12-vs-13;
   **exact-duplicate rows in historical ward snapshots** — 17 in 2019, 19 in 2020,
   0 in 2025 per `.14`; dedupe on `(MaTinh, MaQuanHuyen, MaPhuongXa)` within a

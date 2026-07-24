@@ -11,6 +11,14 @@
 > Phase 1b.** It completes the province tier (2002→2025) and is a prerequisite for
 > Phase 2 districts, not ward-phase work. Disregard **P2b** here — see `DESIGN.md`
 > roadmap + decision 9.
+>
+> **Update (2026-07-20): Lịch Sử retired as an event source.** Everywhere this doc
+> lists **"Lịch Sử events"** or a **Lịch Sử scrape** as the change/event mechanism,
+> disregard it: `Lich_Su_Moi.aspx` is a point-in-time *inventory*, not a change
+> timeline (verified districts `2026-07-13.01`, wards `2026-07-20.01`). The actual
+> mechanism is the **Đối Chiếu crosswalk yearly-sweep + Nghị định/Nghị quyết UBTVQH
+> cross-check** (the crosswalk is net-only; the decree list bounds the yearly-window
+> blind spot). See `DESIGN.md` decision 4 + spike journal `2026-07-20.01`.
 
 Extends `DESIGN.md` (the overarching design + decisions log). **Phase 1**
 delivered the *2025-reform province slice* (`docs/plans/2026-07-10-phase1-
@@ -44,7 +52,7 @@ deliberately deferred:
 | --- | --- | --- |
 | tiers | provinces | + **wards** (current, 10k→3.3k) — *districts = Phase 3* |
 | reforms | 2025 only | province chaining **2002→2025** (2004 renumber, 2008 merger) + the 2025 ward reform |
-| lineage source | structured crosswalk + trivial Ghi Chú | Ghi Chú **name→code disambiguation** + **Lịch Sử** events |
+| lineage source | structured crosswalk + trivial Ghi Chú | Ghi Chú **name→code disambiguation** + ~~**Lịch Sử** events~~ **crosswalk yearly-sweep + Nghị quyết/Nghị định cross-check** (Lịch Sử retired — see banner + `2026-07-20.01`) |
 | dates | one boundary | **event-level** effective dates per decree |
 | WD items | all pre-existing (enrich) | + **create** gaps (đặc khu, new wards) |
 | consumers | none | **Goal A** exports for **NA16 (2026)** (ward-composed) |
