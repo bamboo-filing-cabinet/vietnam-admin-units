@@ -27,10 +27,11 @@ _COMPARE = "ctl00_PlaceHolderMain_txtNgayDC"   # Ngày đối chiếu
 _RUN = "ctl00_PlaceHolderMain_cmdThucHien"     # Thực Hiện
 _EXCEL = "ctl00_PlaceHolderMain_cmdExcel"      # Excel export
 
-TIER_CAP = {"province": "1", "district": "2"}          # DevExpress cmbCap values
-TIER_VI = {"province": "Tỉnh", "district": "Huyện"}    # manifest label
+TIER_CAP = {"province": "1", "district": "2", "ward": "3"}   # DevExpress cmbCap values (ward "3" to confirm live in Task 2)
+TIER_VI = {"province": "Tỉnh", "district": "Huyện", "ward": "Xã"}    # manifest label
 TIER_READER = {"province": read_province_history_crosswalk,
                "district": read_district_crosswalk}
+               # ward reader wired in Task 3 (read_ward_crosswalk) once the schema is known
 
 
 def _iso(ddmmyyyy: str) -> str:
@@ -78,7 +79,7 @@ def fetch_windows(tier: str, windows: list[tuple[str, str]], headless: bool = Tr
     """Fetch + verbatim-cache each (base, compare) window for a tier."""
     from playwright.sync_api import sync_playwright
 
-    reader = TIER_READER[tier]
+    reader = TIER_READER.get(tier)
     results = []
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=headless)
@@ -88,13 +89,14 @@ def fetch_windows(tier: str, windows: list[tuple[str, str]], headless: bool = Tr
         _switch_cap(page, TIER_CAP[tier])
         for base, compare in windows:
             data = _fetch_window_bytes(page, base, compare)
-            rows = reader(io.BytesIO(data))
+            rows = reader(io.BytesIO(data)) if reader else []
             relpath = cache_relpath(tier, base, compare)
             save_raw(relpath, data, {
                 "source_url": URL, "method": "Excel export (Playwright)",
                 "params": {"Cap": TIER_VI[tier], "base": base, "compare": compare},
                 "rows": len(rows)})
-            print(f"  [{relpath}] {len(data)} bytes, {len(rows)} rows")
+            print(f"  [{relpath}] {len(data)} bytes, {len(rows)} rows"
+                  + ("" if reader else "  (unparsed — no ward reader yet)"))
             results.append({"path": relpath, "rows": len(rows), "bytes": len(data)})
         browser.close()
     return results
