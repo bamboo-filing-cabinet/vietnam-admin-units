@@ -182,9 +182,13 @@ district code the crosswalk export drops). **Superseded: Lịch Sử is NOT an e
 source.** `Lich_Su_Moi.aspx` is a point-in-time *inventory* (code/name/level/decree
 + parent hierarchy), not an old→new change timeline — verified for districts
 (`2026-07-13.01`) and wards (`2026-07-20.01`); its Excel export is non-functional at
-sub-province level. Ward waves are **Nghị quyết UBTVQH** (e.g. `653/2019/UBTVQH14`),
-likely on a different GSO page than the district `NghiDinh.aspx` list — locating it
-is the first Phase-3 build task (`2026-07-20.01`).
+sub-province level. Ward waves are **Nghị quyết UBTVQH**, and they are **already on
+the existing `NghiDinh.aspx` list** — a mixed legal-document list, not Nghị-định-only
+(202 UBTVQH resolutions, 177 ward-level, 2015→2026, per-resolution effective dates
+matching the crosswalk's; probe `2026-07-20.01` §Follow-up). So `crosscheck_decrees.py`
+extends to wards — no new source. The criteria-framework resolutions
+(`653/2019/UBTVQH14`, `35/2023/UBTVQH15`) are NOT in that list, but the per-province
+arrangement resolutions with effective dates are.
 
 ## Phase roadmap
 
@@ -265,8 +269,9 @@ assemblies need non-GSO sources.
   inception as value). Re-run the tool for new props (`P518`/`P1107`) in Phase 2.
 - ~~**Browser-scrape Lịch Sử** mechanics~~ **Dropped (2026-07-20):** Lịch Sử is an
   inventory, not an event source (`2026-07-13.01`, `2026-07-20.01`); no scrape
-  needed. Replacement build task: locate the **Nghị quyết UBTVQH** list page for the
-  ward-arrangement waves (the crosswalk net-only cross-check source).
+  needed. The ward net-only cross-check source is the **existing `NghiDinh.aspx`**
+  (it already lists the ward-arrangement Nghị quyết UBTVQH — probe `2026-07-20.01`
+  §Follow-up); extend `crosscheck_decrees.py` to wards.
 - **Data-quality normalization** pass (Ghi Chú typos/newlines; đặc-khu 12-vs-13;
   **exact-duplicate rows in historical ward snapshots** — 17 in 2019, 19 in 2020,
   0 in 2025 per `.14`; dedupe on `(MaTinh, MaQuanHuyen, MaPhuongXa)` within a
