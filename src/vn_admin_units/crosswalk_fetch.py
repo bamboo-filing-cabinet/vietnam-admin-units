@@ -15,7 +15,9 @@ from __future__ import annotations
 import argparse
 import io
 
-from vn_admin_units.crosswalk import read_district_crosswalk, read_province_history_crosswalk
+from vn_admin_units.crosswalk import (
+    read_district_crosswalk, read_province_history_crosswalk, read_ward_crosswalk,
+)
 from vn_admin_units.rawcache import save_raw
 
 URL = "https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx"
@@ -30,8 +32,8 @@ _EXCEL = "ctl00_PlaceHolderMain_cmdExcel"      # Excel export
 TIER_CAP = {"province": "1", "district": "2", "ward": "3"}   # DevExpress cmbCap values (ward "3" to confirm live in Task 2)
 TIER_VI = {"province": "Tỉnh", "district": "Huyện", "ward": "Xã"}    # manifest label
 TIER_READER = {"province": read_province_history_crosswalk,
-               "district": read_district_crosswalk}
-               # ward reader wired in Task 3 (read_ward_crosswalk) once the schema is known
+               "district": read_district_crosswalk,
+               "ward": read_ward_crosswalk}
 
 
 def _iso(ddmmyyyy: str) -> str:
