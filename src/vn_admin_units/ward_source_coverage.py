@@ -8,6 +8,7 @@ discarding their variants; and exposes every remaining classification gap.
 Usage:
   uv run python -m vn_admin_units.ward_source_coverage
   uv run python -m vn_admin_units.ward_source_coverage --audit
+  uv run python -m vn_admin_units.ward_source_coverage --open-note
   uv run python -m vn_admin_units.ward_source_coverage --check
 """
 from __future__ import annotations
@@ -37,6 +38,7 @@ OBSERVED_CHANGES = Path("data/ward-observed-changes.json")
 RECONCILIATION = Path("data/ward-crosswalk-reconciliation.json")
 LEGAL_SOURCES = Path("data/ward-legal-sources.json")
 OUTPUT = Path("data/ward-source-coverage.json")
+OPEN_NOTE = Path("docs/ward-source-open-instruments.md")
 
 SOURCE_FLOOR = "2002-01-01"
 AS_OF = "2026-08-27"
@@ -808,6 +810,96 @@ def write_coverage(coverage: dict, output: Path = OUTPUT) -> None:
     temporary.replace(output)
 
 
+def render_open_source_note(coverage: dict) -> str:
+    """Render the source-open instruments as a human-searchable checklist."""
+    open_ids = set(coverage["residue"]["primary_source_open_instrument_ids"])
+    change_bearing_ids = set(
+        coverage["residue"]["change_bearing_source_open_instrument_ids"]
+    )
+    instruments = [
+        instrument for instrument in coverage["legal_instruments"]
+        if instrument["instrument_id"] in open_ids
+    ]
+    if len(instruments) != coverage["summary"]["primary_source_open_instruments"]:
+        raise ValueError("source-open note denominator does not match the audit")
+
+    lines = [
+        "# Ward legal sources still open",
+        "",
+        (
+            "Generated from `data/ward-source-coverage.json` by "
+            "`vn_admin_units.ward_source_coverage --open-note`."
+        ),
+        "",
+        (
+            f"Current audit: **{len(instruments)} primary-source-open instruments**; "
+            f"**{len(change_bearing_ids)} are tied to observed ward changes**."
+        ),
+        "",
+        "## What counts as a useful find",
+        "",
+        (
+            "Please look for a complete enacted text or original signed/publication "
+            "file on an official government source. Useful hosts include `vbpl.vn`, "
+            "`chinhphu.vn`, `quochoi.vn`, the Government Gazette, and provincial "
+            "or agency `gov.vn` sites."
+        ),
+        "",
+        (
+            "Send back the instrument ID below, the exact official page URL, and the "
+            "direct PDF/DOC/RTF/ZIP URL or a browser-saved copy when one exists. Date "
+            "or code discrepancies are useful evidence; do not edit them away."
+        ),
+        "",
+        (
+            "TVPL links are included only to confirm identity and title. TVPL pages, "
+            "search snippets, news articles, and editorial summaries do **not** close "
+            "the official-source requirement."
+        ),
+        "",
+        "## Checklist",
+    ]
+    current_year = None
+    evidence_labels = {
+        "missing": "no source URL recorded",
+        "secondary_only": "secondary identity reference only",
+        "official_metadata_only": "official metadata only; original still needed",
+    }
+    for instrument in instruments:
+        year = instrument["effective_date"][:4]
+        if year != current_year:
+            lines.extend(["", f"### {year}", ""])
+            current_year = year
+        priority = (
+            "**Change-bearing**"
+            if instrument["instrument_id"] in change_bearing_ids
+            else "**Context-only / superseded index row**"
+        )
+        title = " / ".join(instrument["title_variants"])
+        lines.append(
+            f"- [ ] {priority} `{instrument['instrument_id']}` — {title}"
+        )
+        lines.append(
+            "  - Current evidence: "
+            f"{evidence_labels.get(instrument['source_status'], instrument['source_status'])}."
+        )
+        references = sorted({
+            source["source_url"]
+            for source in instrument["secondary_sources"]
+            if source.get("source_url")
+        })
+        for reference in references:
+            lines.append(f"  - Identity reference only: <{reference}>")
+    return "\n".join(lines) + "\n"
+
+
+def write_open_source_note(coverage: dict, output: Path = OPEN_NOTE) -> None:
+    output.parent.mkdir(parents=True, exist_ok=True)
+    temporary = output.with_name(f".{output.name}.tmp")
+    temporary.write_text(render_open_source_note(coverage), encoding="utf-8")
+    temporary.replace(output)
+
+
 def format_audit(coverage: dict) -> str:
     """Render the concise Task-7 source gate and source-floor verdict."""
     summary = coverage["summary"]
@@ -839,6 +931,11 @@ def main(argv: list[str] | None = None) -> None:
         "--audit", action="store_true",
         help="print the concise source-gate and bounded source-floor verdict",
     )
+    parser.add_argument(
+        "--open-note", action="store_true",
+        help="write or check the human-searchable source-open checklist",
+    )
+    parser.add_argument("--open-note-output", type=Path, default=OPEN_NOTE)
     args = parser.parse_args(argv)
 
     coverage = build_coverage()
@@ -850,6 +947,20 @@ def main(argv: list[str] | None = None) -> None:
     else:
         write_coverage(coverage, args.output)
         action = "wrote"
+    if args.open_note:
+        open_note_rendered = render_open_source_note(coverage)
+        if args.check:
+            if (
+                not args.open_note_output.is_file()
+                or args.open_note_output.read_text(encoding="utf-8")
+                != open_note_rendered
+            ):
+                raise SystemExit(
+                    f"source-open note is missing or stale: {args.open_note_output}"
+                )
+        else:
+            write_open_source_note(coverage, args.open_note_output)
+        print(f"{action} {args.open_note_output}")
     if args.audit:
         print(f"{action} {args.output}\n{format_audit(coverage)}")
     else:

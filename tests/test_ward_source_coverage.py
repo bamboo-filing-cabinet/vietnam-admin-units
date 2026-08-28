@@ -7,6 +7,7 @@ from vn_admin_units.ward_source_coverage import (
     format_audit,
     index_legal_sources,
     normalize_date,
+    render_open_source_note,
     serialize_coverage,
     ward_crosswalk_manifest_fingerprint,
 )
@@ -204,6 +205,13 @@ def test_real_locked_baseline_builds_deterministically():
         "2002-01-01 and 2004-01-01 are identical; transient intra-interval "
         "changes are not excluded"
     )
+    open_note = render_open_source_note(coverage)
+    assert open_note.count("- [ ]") == 39
+    assert open_note.count("- [ ] **Change-bearing**") == 37
+    assert open_note.count("- [ ] **Context-only / superseded index row**") == 2
+    assert "`07/NĐ-CP@2009-01-07`" in open_note
+    assert "`721/NQ-UBTVQH15@2023-04-10`" in open_note
+    assert "TVPL links are included only to confirm identity" in open_note
     assert coverage["residue"]["crosswalk_residue_event_ids"] == [
         "soap:2004-01-01->2004-07-01",
     ]
