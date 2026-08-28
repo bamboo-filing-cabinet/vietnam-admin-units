@@ -97,15 +97,16 @@ label-over-alias, tier-check, QID-distinctness) — plus the P625-kNN geo cross-
 pattern. First step of a Phase-3 session: read `docs/DESIGN.md` (document map + phase roadmap), then
 scope the ward source/crosswalk the same way districts were (`docs/plans/`).
 
-**⚠ Phase-3 source blocker (2026-08-27): ward SOAP snapshots are not preserved yet.** The repository
-has five representative ward crosswalk exports but **zero real `DanhMucPhuongXa` payloads**; the
-crosswalk drops `MaQuanHuyen`, so it cannot replace the SOAP roster for pre-reform name
-disambiguation or point-in-time membership. The official NSO hostname returned DNS `SERVFAIL` during
-the source audit. Do not start the real ward entity graph until the critical snapshots are cached.
-Use the resumable `vn_admin_units.ward_rescue` workflow under [Emergency ward-source
-rescue](#emergency-ward-source-rescue), and read journal
-[`2026-08-27.01`](docs/journals/2026-08-27.01.ward-soap-source-rescue.md) for the outage evidence,
-recovery order, storage gate, and source-independent work that can proceed meanwhile.
+**Phase-3 source recovery (2026-08-27): the five critical ward SOAP snapshots are preserved.** The
+NSO hostname recovered after a DNS `SERVFAIL`, and `vn_admin_units.ward_rescue` cached + hash-verified
+the 2025 reform boundaries, 2026 Đồng Nai boundaries, and current roster. The pre-reform source has
+**10,035 wards, 691 province/district parent pairs, and complete `MaQuanHuyen` coverage**; the
+post-reform/current source has **3,321 wards**. This unblocks the 2025 ward slice. The full historical
+Phase-3 build still needs the generated 371-date crawl; decide deterministic compressed storage first
+(critical files: 6.5 MiB raw vs ~398 KiB gzip). See [Emergency ward-source
+rescue](#emergency-ward-source-rescue) and journal
+[`2026-08-27.01`](docs/journals/2026-08-27.01.ward-soap-source-rescue.md) for the audit, recovery,
+storage gate, and next work.
 
 <details><summary><b>Phase 2 build log (historical — complete + uploaded 2026-07-20)</b></summary>
 

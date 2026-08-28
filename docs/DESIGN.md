@@ -263,15 +263,16 @@ assemblies need non-GSO sources.
 
 ## Remaining items — execution tasks, not decisions (fold into the plan)
 
-- **Ward SOAP raw-cache blocker (2026-08-27).** No real `DanhMucPhuongXa` response
-  is present in the repository or its Git history; only the small parser fixture
-  exists. The five cached ward `.xls` files are crosswalk samples and omit
-  `MaQuanHuyen`, so Phase-3 graph assembly is blocked on roster preservation.
-  `vn_admin_units.ward_rescue` now provides critical-first, retrying,
-  hash-verified, resumable acquisition. Fetch and validate the five critical
-  2025/2026 dates first; measure their size and decide the full-history storage
-  strategy before running the generated 371-date high-recall crawl. Operational
-  record: journal `2026-08-27.01`.
+- **Ward SOAP raw-cache recovery (2026-08-27): critical slice DONE; history
+  pending.** The initial audit found no real `DanhMucPhuongXa` response in the
+  repository or its Git history. After the NSO hostname recovered, the rescue
+  workflow preserved all five critical 2025/2026 dates: 10,035 pre-reform wards
+  with complete `MaQuanHuyen`, then 3,321 post-reform/current wards, all unique.
+  This unblocks the 2025 ward slice. Before the generated 371-date historical
+  crawl, record the storage decision: the critical sample is 6.5 MiB raw but
+  only ~398 KiB under deterministic gzip, projecting roughly 1.1 GiB raw versus
+  60–70 MiB compressed for the full high-recall inventory. Operational record:
+  journal `2026-08-27.01`.
 - ~~**Verify WD qualifier constraints** for `P1365`/`P7888`~~ **DONE (`2026-07-11.01`):**
   province batch is constraint-clean (P585 fine on P7888/P1366/P1365; P576 date-as-value).
   Tool: `vn_admin_units.constraints`. Phase-2 note: `P571` rejects `P585` (keep
