@@ -313,9 +313,12 @@ assemblies need non-GSO sources.
   the yearly ward crosswalk sweep is **DONE** (21/21 yearly; 24/24 total ward
   crosswalk files; `2026-08-28.03`). The offline source/provenance coverage
   ledger is also **DONE** (`2026-08-28.04`): 449 unique legal instruments, 34
-  closed 2025 pairs, and 415 explicit unclassified/source-open records. Next,
-  enumerate normalized SOAP changes (plan Task 3). Full 2002→present provenance
-  is not yet closed. The next graph-building slice remains promotion
+  closed 2025 pairs, and 415 explicit unclassified/source-open records. The
+  normalized SOAP change inventory is **DONE** (`2026-08-28.05`): all 203
+  adjacent intervals are materialized as 179 change-bearing and 24 no-change
+  intervals, with source conflicts isolated from administrative deltas. Next,
+  reconcile those events to annual crosswalk evidence (plan Task 4). Full
+  2002→present provenance is not yet closed. The next graph-building slice remains promotion
   of this boundary topology into canonical ward entities/`LineageEdge` records.
   See `docs/plans/2026-08-28-phase3-ward-historical-source-closure.md`. Wikidata
   emission remains a later gate.

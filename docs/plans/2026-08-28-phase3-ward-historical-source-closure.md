@@ -15,8 +15,13 @@ re-scrape it.
 > **Task 2 complete (2026-08-28).** The deterministic offline ledger inventories
 > 204 SOAP artifacts, 24 crosswalks, and 449 unique legal instruments. It reuses
 > 34 verified 2025 source pairs and exposes 415 unclassified/source-open
-> instruments. See journal `2026-08-28.04`. **Resume at Task 3: enumerate
-> normalized SOAP changes.**
+> instruments. See journal `2026-08-28.04`.
+>
+> **Task 3 complete (2026-08-28).** The deterministic observed-change artifact
+> covers all 203 adjacent SOAP intervals: 179 change-bearing and 24 no-change.
+> It preserves conflicts as anomalies and makes no same-code identity claim.
+> See journal `2026-08-28.05`. **Resume at Task 4: reconcile annual crosswalk
+> events.**
 
 ## Outcome
 

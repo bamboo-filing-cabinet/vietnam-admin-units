@@ -115,6 +115,14 @@ def test_real_locked_baseline_builds_deterministically():
     assert summary["duplicate_instrument_keys"] == 4
     assert summary["verified_2025_resolution_pairs"] == 34
     assert summary["unclassified_instruments"] == 415
-    assert summary["events"] == 0
+    assert summary["observed_change_intervals"] == 179
+    assert summary["events"] == 179
+    assert coverage["scope"]["next_task"] == 4
+    assert coverage["residue"]["event_inventory_status"] == (
+        "complete_pending_task_4_crosswalk_reconciliation"
+    )
+    assert len(coverage["residue"]["unreconciled_event_ids"]) == 179
+    assert coverage["events"][0]["event_id"] == "soap:2004-01-01->2004-07-01"
+    assert coverage["events"][-1]["event_id"] == "soap:2026-04-29->2026-04-30"
     assert json.loads(serialize_coverage(coverage)) == coverage
     assert serialize_coverage(coverage) == serialize_coverage(coverage)

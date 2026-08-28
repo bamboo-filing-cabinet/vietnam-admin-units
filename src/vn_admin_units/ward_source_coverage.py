@@ -26,6 +26,7 @@ from vn_admin_units.crosscheck_decrees import is_ward_structural
 
 LEGAL_INDEX = Path("data/raw/nghidinh.json")
 MANIFEST = Path("data/raw/manifest.jsonl")
+OBSERVED_CHANGES = Path("data/ward-observed-changes.json")
 OUTPUT = Path("data/ward-source-coverage.json")
 
 SOURCE_FLOOR = "2002-01-01"
@@ -44,6 +45,7 @@ LOCKED = {
     "unique_ward_instruments": 449,
     "duplicate_instrument_keys": 4,
     "verified_2025_resolution_pairs": 34,
+    "observed_change_intervals": 179,
 }
 
 _WARD_CROSSWALK = re.compile(
@@ -313,9 +315,79 @@ def _resolution_pairs(instruments: list[dict]) -> list[dict]:
     return sorted(pairs, key=lambda pair: pair["code"])
 
 
+def _observed_change_inventory(path: Path, manifest_path: Path) -> tuple[dict, list[dict]]:
+    observed = json.loads(path.read_text(encoding="utf-8"))
+    summary = observed.get("summary", {})
+    scope = observed.get("scope", {})
+    manifest_sha256 = _sha256(manifest_path)
+    if observed.get("input_fingerprints", {}).get("manifest_sha256") != manifest_sha256:
+        raise ValueError("observed-change inventory was not built from the current raw manifest")
+    _require("observed-change source floor", scope.get("source_floor"), SOURCE_FLOOR)
+    _require("observed-change as-of date", scope.get("as_of"), AS_OF)
+    _require("observed-change snapshots", summary.get("snapshots"), LOCKED["soap_artifacts"])
+    _require("observed-change intervals", summary.get("intervals"), LOCKED["soap_artifacts"] - 1)
+    _require(
+        "materialized observed snapshot audits",
+        len(observed.get("snapshot_audits", [])),
+        summary["snapshots"],
+    )
+    _require(
+        "materialized observed intervals",
+        len(observed.get("intervals", [])),
+        summary["intervals"],
+    )
+    _require(
+        "observed change-bearing intervals",
+        summary.get("changed_intervals"),
+        LOCKED["observed_change_intervals"],
+    )
+
+    events = []
+    for interval in observed.get("intervals", []):
+        if not interval.get("normalized_changed"):
+            continue
+        events.append({
+            "event_id": interval["event_id"],
+            "kind": "observed_snapshot_delta",
+            "before_date": interval["before_date"],
+            "after_date": interval["after_date"],
+            "observation_counts": interval["counts"],
+            "observed_evidence": {
+                "artifact_path": path.as_posix(),
+                "before_path": interval["before_path"],
+                "before_content_sha256": interval["before_content_sha256"],
+                "after_path": interval["after_path"],
+                "after_content_sha256": interval["after_content_sha256"],
+            },
+            "crosswalk_evidence": [],
+            "legal_instrument_ids": [],
+            "status": "pending_crosswalk_legal_reconciliation",
+        })
+    _require("materialized observed events", len(events), summary["changed_intervals"])
+    event_ids = [event["event_id"] for event in events]
+    if len(event_ids) != len(set(event_ids)):
+        raise ValueError("observed-change inventory contains duplicate event IDs")
+
+    inventory = {
+        "path": path.as_posix(),
+        "sha256": _sha256(path),
+        "schema_version": observed.get("schema_version"),
+        "snapshots": summary["snapshots"],
+        "intervals": summary["intervals"],
+        "changed_intervals": summary["changed_intervals"],
+        "normalized_no_change_intervals": summary["normalized_no_change_intervals"],
+        "same_code_changes": summary["same_code_changes"],
+        "additions": summary["additions"],
+        "removals": summary["removals"],
+        "source_anomaly_transitions": summary["source_anomaly_transitions"],
+    }
+    return inventory, events
+
+
 def build_coverage(*, manifest_path: Path = MANIFEST,
-                   legal_index_path: Path = LEGAL_INDEX) -> dict:
-    """Build and validate the locked Task-2 baseline entirely offline."""
+                   legal_index_path: Path = LEGAL_INDEX,
+                   observed_changes_path: Path = OBSERVED_CHANGES) -> dict:
+    """Build and validate the offline source and observed-event ledger."""
     manifest = _load_manifest(manifest_path)
     legal_records = json.loads(legal_index_path.read_text(encoding="utf-8"))
     ward_records = [
@@ -327,6 +399,9 @@ def build_coverage(*, manifest_path: Path = MANIFEST,
     soap = _soap_inventory(manifest)
     crosswalks = _crosswalk_inventory(manifest)
     resolution_pairs = _resolution_pairs(instruments)
+    observed_changes, events = _observed_change_inventory(
+        observed_changes_path, manifest_path,
+    )
 
     effective_dates_from_2005 = {
         normalize_date(record["hieu_luc"])
@@ -360,9 +435,10 @@ def build_coverage(*, manifest_path: Path = MANIFEST,
         "unique_ward_instruments": len(instruments),
         "duplicate_instrument_keys": len(duplicate_instruments),
         "verified_2025_resolution_pairs": len(resolution_pairs),
+        "observed_change_intervals": len(events),
         "unclassified_instruments": len(unresolved),
         "primary_source_open_instruments": len(primary_source_open),
-        "events": 0,
+        "events": len(events),
     }
     for label, expected in LOCKED.items():
         _require(label, summary[label], expected)
@@ -371,30 +447,34 @@ def build_coverage(*, manifest_path: Path = MANIFEST,
     _require("SOAP missing parents", soap["missing_parent_codes"], 0)
 
     return {
-        "schema_version": 1,
+        "schema_version": 2,
         "scope": {
             "tier": "ward",
             "source_floor": SOURCE_FLOOR,
             "as_of": AS_OF,
-            "status": "baseline_inventory_complete_event_linking_pending",
-            "next_task": 3,
+            "status": "observed_changes_enumerated_reconciliation_pending",
+            "next_task": 4,
         },
         "input_fingerprints": {
             "manifest_path": manifest_path.as_posix(),
             "manifest_sha256": _sha256(manifest_path),
             "legal_index_path": legal_index_path.as_posix(),
             "legal_index_sha256": _sha256(legal_index_path),
+            "observed_changes_path": observed_changes_path.as_posix(),
+            "observed_changes_sha256": observed_changes["sha256"],
         },
         "summary": summary,
         "inventories": {
             "soap": soap,
             "crosswalks": crosswalks,
+            "observed_changes": observed_changes,
             "verified_2025_resolution_pairs": resolution_pairs,
         },
         "legal_instruments": instruments,
-        "events": [],
+        "events": events,
         "residue": {
-            "event_inventory_status": "pending_task_3",
+            "event_inventory_status": "complete_pending_task_4_crosswalk_reconciliation",
+            "unreconciled_event_ids": [event["event_id"] for event in events],
             "unclassified_instrument_ids": unresolved,
             "primary_source_open_instrument_ids": primary_source_open,
             "duplicate_legal_index_keys": [
@@ -415,7 +495,9 @@ def serialize_coverage(coverage: dict) -> str:
 
 def write_coverage(coverage: dict, output: Path = OUTPUT) -> None:
     output.parent.mkdir(parents=True, exist_ok=True)
-    output.write_text(serialize_coverage(coverage), encoding="utf-8")
+    temporary = output.with_name(f".{output.name}.tmp")
+    temporary.write_text(serialize_coverage(coverage), encoding="utf-8")
+    temporary.replace(output)
 
 
 def main(argv: list[str] | None = None) -> None:
