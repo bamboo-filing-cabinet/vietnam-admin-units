@@ -40,8 +40,8 @@ TIERS = {
 }
 
 
-def soap_call(method: str, timeout: int = 180, **params: str) -> str:
-    """POST a DMDVHC SOAP method with ordered string params; return verbatim XML."""
+def soap_call_bytes(method: str, timeout: int = 180, **params: str) -> bytes:
+    """POST a DMDVHC SOAP method with ordered string params; return response bytes."""
     body = "".join(f"<{k}>{v}</{k}>" for k, v in params.items())
     env = (
         '<?xml version="1.0" encoding="utf-8"?>'
@@ -53,7 +53,12 @@ def soap_call(method: str, timeout: int = 180, **params: str) -> str:
         headers={"Content-Type": "text/xml; charset=utf-8",
                  "SOAPAction": f'"{NS}{method}"'},
     )
-    return urllib.request.urlopen(req, timeout=timeout).read().decode("utf-8")
+    return urllib.request.urlopen(req, timeout=timeout).read()
+
+
+def soap_call(method: str, timeout: int = 180, **params: str) -> str:
+    """POST a DMDVHC SOAP method with ordered string params; return decoded XML."""
+    return soap_call_bytes(method, timeout, **params).decode("utf-8")
 
 
 def parse_rows(xml: str, fields: list[str]) -> list[dict]:
@@ -104,6 +109,13 @@ def fetch_units(tier: str, den_ngay: str, tinh: str = "", quan_huyen: str = "",
     tinh/quan_huyen empty = whole tier nationally."""
     method, fields, _ = TIERS[tier]
     return parse_rows(soap_call(method, timeout, **_params(tier, den_ngay, tinh, quan_huyen)), fields)
+
+
+def fetch_units_raw(tier: str, den_ngay: str, tinh: str = "", quan_huyen: str = "",
+                    timeout: int = 180) -> bytes:
+    """Fetch the exact SOAP response bytes for a tier/date snapshot."""
+    method = TIERS[tier][0]
+    return soap_call_bytes(method, timeout, **_params(tier, den_ngay, tinh, quan_huyen))
 
 
 def fetch_provinces_raw(den_ngay: str, timeout: int = 90) -> str:

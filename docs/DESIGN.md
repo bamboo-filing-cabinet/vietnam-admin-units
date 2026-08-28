@@ -263,6 +263,15 @@ assemblies need non-GSO sources.
 
 ## Remaining items — execution tasks, not decisions (fold into the plan)
 
+- **Ward SOAP raw-cache blocker (2026-08-27).** No real `DanhMucPhuongXa` response
+  is present in the repository or its Git history; only the small parser fixture
+  exists. The five cached ward `.xls` files are crosswalk samples and omit
+  `MaQuanHuyen`, so Phase-3 graph assembly is blocked on roster preservation.
+  `vn_admin_units.ward_rescue` now provides critical-first, retrying,
+  hash-verified, resumable acquisition. Fetch and validate the five critical
+  2025/2026 dates first; measure their size and decide the full-history storage
+  strategy before running the generated 371-date high-recall crawl. Operational
+  record: journal `2026-08-27.01`.
 - ~~**Verify WD qualifier constraints** for `P1365`/`P7888`~~ **DONE (`2026-07-11.01`):**
   province batch is constraint-clean (P585 fine on P7888/P1366/P1365; P576 date-as-value).
   Tool: `vn_admin_units.constraints`. Phase-2 note: `P571` rejects `P585` (keep
@@ -275,8 +284,10 @@ assemblies need non-GSO sources.
 - **Data-quality normalization** pass (Ghi Chú typos/newlines; đặc-khu 12-vs-13;
   **exact-duplicate rows in historical ward snapshots** — 17 in 2019, 19 in 2020,
   0 in 2025 per `.14`; dedupe on `(MaTinh, MaQuanHuyen, MaPhuongXa)` within a
-  snapshot), with a logged correction list. Always fetch via `vn_admin_units.fetch`
-  (canonical, DocumentElement-scoped), never ad-hoc scripts.
+  snapshot), with a logged correction list. Preserve build inputs via
+  `vn_admin_units.ward_rescue` (exact bytes + manifest); use
+  `vn_admin_units.fetch` only for ad-hoc diagnostics. Both use the canonical,
+  DocumentElement-scoped parser — never use ad-hoc source scripts.
 - **Ward `Ghi Chú` template variants** enumeration (city establishments, 3-way).
 - ~~Raw-cache format~~ **Decided (2026-07-10):** verbatim raw + manifest +
   derived. `data/raw/` = exact source bytes (`soap/*.xml`, `crosswalk/*.xls`) +

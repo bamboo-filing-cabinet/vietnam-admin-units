@@ -97,6 +97,16 @@ label-over-alias, tier-check, QID-distinctness) — plus the P625-kNN geo cross-
 pattern. First step of a Phase-3 session: read `docs/DESIGN.md` (document map + phase roadmap), then
 scope the ward source/crosswalk the same way districts were (`docs/plans/`).
 
+**⚠ Phase-3 source blocker (2026-08-27): ward SOAP snapshots are not preserved yet.** The repository
+has five representative ward crosswalk exports but **zero real `DanhMucPhuongXa` payloads**; the
+crosswalk drops `MaQuanHuyen`, so it cannot replace the SOAP roster for pre-reform name
+disambiguation or point-in-time membership. The official NSO hostname returned DNS `SERVFAIL` during
+the source audit. Do not start the real ward entity graph until the critical snapshots are cached.
+Use the resumable `vn_admin_units.ward_rescue` workflow under [Emergency ward-source
+rescue](#emergency-ward-source-rescue), and read journal
+[`2026-08-27.01`](docs/journals/2026-08-27.01.ward-soap-source-rescue.md) for the outage evidence,
+recovery order, storage gate, and source-independent work that can proceed meanwhile.
+
 <details><summary><b>Phase 2 build log (historical — complete + uploaded 2026-07-20)</b></summary>
 
 **R1–D11 all complete:**
@@ -195,7 +205,8 @@ maps almost one-to-one onto Wikidata (`P571`/`P576`/`P7888`/`P1365`/`P1366`/
   `province_history` (province 1b) · `district_model` (district assembly, Phase 2) ·
   `crosscheck_decrees` (Nghị định list fetch/cache + decree lookup) · `reconcile`
   (Wikidata QIDs + `--audit`) · `constraints` (pre-upload gate) · `emit`
-  (QuickStatements) · `cli` (`cache_snapshots`, `build_all`).
+  (QuickStatements) · `ward_rescue` (resumable raw ward SOAP preservation) ·
+  `cli` (`cache_snapshots`, `build_all`).
 - `data/raw/` — verbatim source bytes + `manifest.jsonl` (provenance); `crosswalk/`
   (23 district windows); `nghidinh.json` (cached Nghị định list, 544 recs). `data/` —
   derived JSON (snapshots, `entities.json`, `lineage.json`); Phase-2 curated inputs:
@@ -218,12 +229,41 @@ uv run python -m vn_admin_units.constraints         # check WD property constrai
 uv run python -m vn_admin_units.fetch --tier ward --date 01/01/2019 --dups   # ad-hoc source query
 ```
 
+### Emergency ward-source rescue
+
+The ward crosswalk omits the former district code (`MaQuanHuyen`), so exact
+`DanhMucPhuongXa` SOAP snapshots are required before the Phase-3 ward build.
+The rescue command verifies cached hashes, skips completed dates, retries
+transient failures with exponential backoff, and writes exact response bytes +
+provenance to `data/raw/`:
+
+```sh
+# Five highest-priority 2025/2026 dates (preview, then fetch)
+uv run python -m vn_admin_units.ward_rescue --dry-run
+uv run python -m vn_admin_units.ward_rescue
+
+# High-recall history: annual anchors + day-before/day-of legal-event dates.
+# Preview first; decide the raw-storage strategy after measuring the critical files.
+uv run python -m vn_admin_units.ward_rescue --scope history --dry-run
+uv run python -m vn_admin_units.ward_rescue --scope history
+
+# A short recovery window or an explicit date
+uv run python -m vn_admin_units.ward_rescue --scope history --limit 20
+uv run python -m vn_admin_units.ward_rescue --date 30/06/2025
+```
+
+Rerun the same command after any interruption; verified payloads are not fetched
+again unless `--force` is supplied. The rescue stops after the first date that
+exhausts its retries so it does not hammer an unavailable source; use
+`--continue-on-error` only to probe past a date-specific failure.
+
 ## Sources
 
 Authoritative upstream is the GSO/NSO *danh mục hành chính* service
 (`nso.gov.vn`): `DMDVHC.asmx` SOAP (point-in-time via `DenNgay`, all tiers) +
-`Doi_Chieu_Moi.aspx` crosswalk + `Lich_Su_Moi.aspx` change-log. Data is 2002→
-present. See `docs/journals/2026-07-10.01`–`.02` for the verified inventory.
+`Doi_Chieu_Moi.aspx` crosswalk + `NghiDinh.aspx` legal-document index.
+`Lich_Su_Moi.aspx` is an inventory, not an event source. Data is 2002→present.
+See `docs/DESIGN.md` and `docs/journals/2026-07-20.01` for the current source model.
 
 ## Development
 
