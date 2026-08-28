@@ -10,8 +10,13 @@ re-scrape it.
 
 > **Task 1 complete (2026-08-28).** The 18 missing yearly exports are preserved.
 > The cache now verifies 21/21 historical yearly windows and 24/24 ward
-> crosswalk files overall. See journal `2026-08-28.03`. **Resume at Task 2: build
-> the offline baseline ledger.**
+> crosswalk files overall. See journal `2026-08-28.03`.
+>
+> **Task 2 complete (2026-08-28).** The deterministic offline ledger inventories
+> 204 SOAP artifacts, 24 crosswalks, and 449 unique legal instruments. It reuses
+> 34 verified 2025 source pairs and exposes 415 unclassified/source-open
+> instruments. See journal `2026-08-28.04`. **Resume at Task 3: enumerate
+> normalized SOAP changes.**
 
 ## Outcome
 
@@ -161,7 +166,13 @@ run from the committed raw cache while the source is offline.
 
 ### Task 2 — build the offline baseline ledger
 
-**Status: NEXT.**
+**Status: DONE (`2026-08-28.04`).** `ward_source_coverage.py` verifies the locked
+offline inputs, collapses 453 legal-index rows to 449 unique instrument keys
+without losing four duplicate-key variants, reuses the 34 closed 2025 official
+source pairs, and writes a deterministic 552,506-byte
+`data/ward-source-coverage.json`. A fresh `--check` build is byte-identical. The
+empty event list and 415 unclassified/source-open instruments are explicit Task
+3/Task 5 residue, not a completeness claim.
 
 Add `ward_source_coverage.py` and fixture-focused tests. Without using the
 network, it must:

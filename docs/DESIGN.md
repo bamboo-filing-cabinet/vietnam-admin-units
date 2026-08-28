@@ -311,9 +311,11 @@ assemblies need non-GSO sources.
   arrangement clauses, classifies 127 unchanged successors, and emits 10,586
   edges with zero unresolved predecessors (`2026-08-28.01`–`.02`). **Next:**
   the yearly ward crosswalk sweep is **DONE** (21/21 yearly; 24/24 total ward
-  crosswalk files; `2026-08-28.03`). Next, execute the historical
-  source/provenance coverage ledger before claiming full 2002→present coverage.
-  The next graph-building slice remains promotion
+  crosswalk files; `2026-08-28.03`). The offline source/provenance coverage
+  ledger is also **DONE** (`2026-08-28.04`): 449 unique legal instruments, 34
+  closed 2025 pairs, and 415 explicit unclassified/source-open records. Next,
+  enumerate normalized SOAP changes (plan Task 3). Full 2002→present provenance
+  is not yet closed. The next graph-building slice remains promotion
   of this boundary topology into canonical ward entities/`LineageEdge` records.
   See `docs/plans/2026-08-28-phase3-ward-historical-source-closure.md`. Wikidata
   emission remains a later gate.
