@@ -9,15 +9,17 @@ Examples:
   uv run python -m vn_admin_units.ward_rescue --dry-run
   uv run python -m vn_admin_units.ward_rescue
 
-  # Full high-recall rescue: annual anchors plus pre/post legal-event snapshots.
+  # Reviewed history: annual anchors plus effective-date snapshots.
   uv run python -m vn_admin_units.ward_rescue --scope history --dry-run
   uv run python -m vn_admin_units.ward_rescue --scope history
+
+  # Emergency ceiling: add the day before every legal event.
+  uv run python -m vn_admin_units.ward_rescue --scope history-bracketed --dry-run
 """
 from __future__ import annotations
 
 import argparse
 import json
-import re
 import time
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta
@@ -25,11 +27,11 @@ from pathlib import Path
 from typing import Callable, Iterable
 
 from vn_admin_units import rawcache
+from vn_admin_units.crosscheck_decrees import is_ward_structural
 from vn_admin_units.soap import TIERS, URL as SOAP_URL, fetch_units_raw, parse_rows
 
 
 LEGAL_INDEX = Path("data/raw/nghidinh.json")
-WARD_TERMS = re.compile(r"(?:cấp xã|xã|phường|thị trấn|đặc khu)", re.I)
 
 # Ordered for a brief recovery window: preserve the core 2025 reform first,
 # then the known 2026 Đồng Nai boundary, then the current roster.
@@ -68,12 +70,8 @@ def load_legal_records(path: Path = LEGAL_INDEX) -> list[dict]:
 
 
 def is_ward_relevant(record: dict) -> bool:
-    """High-recall legal-index filter for any instrument touching ward units.
-
-    False positives cost an extra snapshot. A false negative could omit the only
-    authoritative observation around an event, so rescue deliberately errs wide.
-    """
-    return bool(WARD_TERMS.search(str(record.get("noi_dung", ""))))
+    """Legal-index filter for an instrument explicitly affecting ward units."""
+    return is_ward_structural(str(record.get("noi_dung", "")))
 
 
 def _add_reason(planned: dict[date, list[str]], when: date, reason: str, today: date) -> None:
@@ -85,8 +83,14 @@ def _add_reason(planned: dict[date, list[str]], when: date, reason: str, today: 
 
 def build_plan(records: Iterable[dict] = (), scope: str = "critical",
                today: date | None = None) -> list[SnapshotRequest]:
-    """Build a priority-ordered critical or full-history acquisition plan."""
-    if scope not in {"critical", "history"}:
+    """Build a priority-ordered critical or historical acquisition plan.
+
+    ``history`` requests each reviewed effective date once. Consecutive event
+    snapshots naturally bracket later events, avoiding a redundant day-before
+    request for every instrument. ``history-bracketed`` retains that expensive
+    high-recall ceiling for diagnosing an incomplete or ambiguous legal index.
+    """
+    if scope not in {"critical", "history", "history-bracketed"}:
         raise ValueError(f"unknown rescue scope: {scope}")
     today = today or date.today()
     planned: dict[date, list[str]] = {}
@@ -99,7 +103,7 @@ def build_plan(records: Iterable[dict] = (), scope: str = "critical",
     _add_reason(planned, today, "current roster", today)
     priority.append(today)
 
-    if scope == "history":
+    if scope in {"history", "history-bracketed"}:
         for when, reason in (
             (date(2002, 1, 1), "GSO source-floor anchor"),
             (date(2004, 1, 1), "pre-2004 code-transition anchor"),
@@ -121,7 +125,8 @@ def build_plan(records: Iterable[dict] = (), scope: str = "critical",
             if effective.year < 2005 or effective > today:
                 continue
             code = str(record.get("code", "unknown instrument"))
-            _add_reason(planned, effective - timedelta(days=1), f"pre-event: {code}", today)
+            if scope == "history-bracketed":
+                _add_reason(planned, effective - timedelta(days=1), f"pre-event: {code}", today)
             _add_reason(planned, effective, f"effective event: {code}", today)
 
     ordered = []
@@ -194,8 +199,12 @@ def print_checklist(plan: list[SnapshotRequest]) -> None:
 def main(argv: list[str] | None = None) -> None:
     parser = argparse.ArgumentParser(
         description="Rescue-cache exact DanhMucPhuongXa SOAP snapshots with resume + retries.")
-    parser.add_argument("--scope", choices=("critical", "history"), default="critical",
-                        help="critical (default, five priority dates) or full high-recall history")
+    parser.add_argument(
+        "--scope", choices=("critical", "history", "history-bracketed"),
+        default="critical",
+        help=("critical (default); reviewed event-date history; or emergency "
+              "history-bracketed with an extra pre-event date"),
+    )
     parser.add_argument("--date", action="append", default=[], metavar="DD/MM/YYYY",
                         help="fetch an explicit date instead of a predefined scope; repeatable")
     parser.add_argument("--dry-run", action="store_true", help="print checklist without fetching")
@@ -217,7 +226,7 @@ def main(argv: list[str] | None = None) -> None:
     if args.date:
         plan = explicit_plan(args.date)
     else:
-        records = load_legal_records(args.legal_index) if args.scope == "history" else []
+        records = load_legal_records(args.legal_index) if args.scope != "critical" else []
         plan = build_plan(records, args.scope)
     if args.limit:
         plan = plan[:args.limit]

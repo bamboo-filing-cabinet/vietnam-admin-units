@@ -268,10 +268,11 @@ assemblies need non-GSO sources.
   repository or its Git history. After the NSO hostname recovered, the rescue
   workflow preserved all five critical 2025/2026 dates: 10,035 pre-reform wards
   with complete `MaQuanHuyen`, then 3,321 post-reform/current wards, all unique.
-  This unblocks the 2025 ward slice. Before the generated 371-date historical
+  This unblocks the 2025 ward slice. Before the reviewed 204-date historical
   crawl, record the storage decision: the critical sample is 6.5 MiB raw but
-  only ~398 KiB under deterministic gzip, projecting roughly 1.1 GiB raw versus
-  60–70 MiB compressed for the full high-recall inventory. Operational record:
+  only ~398 KiB under deterministic gzip, projecting roughly 0.6 GiB raw versus
+  33–39 MiB compressed at the pre-reform worst-case size. The former 371-date
+  estimate was a broad, fully bracketed emergency ceiling. Operational record:
   journal `2026-08-27.01`.
 - ~~**Verify WD qualifier constraints** for `P1365`/`P7888`~~ **DONE (`2026-07-11.01`):**
   province batch is constraint-clean (P585 fine on P7888/P1366/P1365; P576 date-as-value).

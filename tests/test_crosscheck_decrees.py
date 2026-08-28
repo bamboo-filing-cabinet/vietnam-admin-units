@@ -1,4 +1,8 @@
-from vn_admin_units.crosscheck_decrees import decree_code, is_district_structural
+from vn_admin_units.crosscheck_decrees import (
+    decree_code,
+    is_district_structural,
+    is_ward_structural,
+)
 
 
 def test_decree_code_extracts_core_from_crosswalk_string():
@@ -22,6 +26,19 @@ def test_district_structural_false_for_ward_level_within_a_district():
 def test_district_structural_false_for_province_tier():
     # central-government city is the province tier, not a district
     assert not is_district_structural("Về việc thành lập thành phố Huế trực thuộc trung ương")
+
+
+def test_ward_structural_accepts_explicit_commune_tier_mentions():
+    assert is_ward_structural("Nghị quyết sắp xếp đơn vị hành chính cấp xã của tỉnh Cao Bằng")
+    assert is_ward_structural("Thành lập phường mới và thị trấn mới")
+    assert is_ward_structural("Điều chỉnh địa giới xã Tân Lập")
+    assert is_ward_structural("Sắp xếp các đặc khu")
+
+
+def test_ward_structural_does_not_match_district_type_thi_xa():
+    assert not is_ward_structural("Thành lập thị xã La Gi")
+    assert not is_ward_structural("Mở rộng   thị   xã Hà Đông")
+    assert is_ward_structural("Thành lập thị xã và các phường trực thuộc")
 
 
 from vn_admin_units.crosscheck_decrees import decree_index, decree_for

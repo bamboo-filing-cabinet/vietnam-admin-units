@@ -42,6 +42,14 @@ _STRUCT = re.compile(
     re.I,
 )
 
+# Match the commune tier without mistaking the district type ``thị xã`` for a
+# commune mention. Whitespace is normalized before applying this expression so
+# the one-character negative lookbehind remains sufficient.
+_WARD_TIER = re.compile(
+    r"\bcấp xã\b|\bphường\b|\bthị trấn\b|\bđặc khu\b|(?<!thị )\bxã\b",
+    re.I,
+)
+
 
 def decree_code(s: str) -> str:
     """Extract the canonical decree code (e.g. '132/NQ-CP') from a raw string."""
@@ -58,6 +66,19 @@ def is_district_structural(noi_dung: str) -> bool:
     if "trực thuộc trung ương" in x.lower():
         return False
     return bool(_STRUCT.search(x))
+
+
+def is_ward_structural(noi_dung: str) -> bool:
+    """True if an administrative instrument explicitly affects the ward tier.
+
+    Ward parent transfers matter even when a ward is not created or dissolved,
+    so an explicit commune-tier mention is the correct event-planning gate. The
+    normalized negative lookbehind excludes district-only titles containing
+    ``thị xã`` while retaining standalone ``xã``, ``phường``, ``thị trấn``,
+    ``đặc khu``, and the collective phrase ``cấp xã``.
+    """
+    normalized = " ".join((noi_dung or "").split())
+    return bool(_WARD_TIER.search(normalized))
 
 
 def fetch_decrees(url: str = NGHIDINH_URL) -> pd.DataFrame:

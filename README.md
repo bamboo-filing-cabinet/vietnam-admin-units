@@ -102,7 +102,7 @@ NSO hostname recovered after a DNS `SERVFAIL`, and `vn_admin_units.ward_rescue` 
 the 2025 reform boundaries, 2026 Đồng Nai boundaries, and current roster. The pre-reform source has
 **10,035 wards, 691 province/district parent pairs, and complete `MaQuanHuyen` coverage**; the
 post-reform/current source has **3,321 wards**. This unblocks the 2025 ward slice. The full historical
-Phase-3 build still needs the generated 371-date crawl; decide deterministic compressed storage first
+Phase-3 build still needs the reviewed 204-date crawl; decide deterministic compressed storage first
 (critical files: 6.5 MiB raw vs ~398 KiB gzip). See [Emergency ward-source
 rescue](#emergency-ward-source-rescue) and journal
 [`2026-08-27.01`](docs/journals/2026-08-27.01.ward-soap-source-rescue.md) for the audit, recovery,
@@ -243,10 +243,13 @@ provenance to `data/raw/`:
 uv run python -m vn_admin_units.ward_rescue --dry-run
 uv run python -m vn_admin_units.ward_rescue
 
-# High-recall history: annual anchors + day-before/day-of legal-event dates.
-# Preview first; decide the raw-storage strategy after measuring the critical files.
+# Reviewed history: source/annual anchors + each ward-event effective date.
+# Consecutive event observations supply the prior state for the next event.
 uv run python -m vn_admin_units.ward_rescue --scope history --dry-run
 uv run python -m vn_admin_units.ward_rescue --scope history
+
+# Emergency ceiling for suspected legal-index gaps: also request every day-before.
+uv run python -m vn_admin_units.ward_rescue --scope history-bracketed --dry-run
 
 # A short recovery window or an explicit date
 uv run python -m vn_admin_units.ward_rescue --scope history --limit 20

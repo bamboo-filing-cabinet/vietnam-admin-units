@@ -6,7 +6,7 @@ from vn_admin_units import rawcache
 from vn_admin_units.ward_rescue import SnapshotRequest, build_plan, cache_snapshot
 
 
-def test_build_plan_prioritizes_critical_dates_and_adds_event_boundaries():
+def test_build_plan_prioritizes_critical_dates_and_adds_effective_dates():
     records = [
         {"code": "WARD/NQ", "hieu_luc": "01/01/2020",
          "noi_dung": "Sắp xếp đơn vị hành chính cấp xã"},
@@ -22,12 +22,23 @@ def test_build_plan_prioritizes_critical_dates_and_adds_event_boundaries():
         date(2026, 4, 29), date(2026, 4, 30), today,
     ]
     by_date = {item.snapshot_date: item for item in plan}
-    assert date(2019, 12, 31) in by_date
-    assert "pre-event: WARD/NQ" in by_date[date(2019, 12, 31)].reasons
+    assert date(2019, 12, 31) not in by_date
     assert "effective event: WARD/NQ" in by_date[date(2020, 1, 1)].reasons
     assert "annual audit anchor" in by_date[date(2020, 1, 1)].reasons
     assert date(2020, 2, 1) not in by_date
     assert len(plan) == len({item.snapshot_date for item in plan})
+
+
+def test_bracketed_history_adds_explicit_pre_event_dates():
+    records = [{
+        "code": "WARD/NQ", "hieu_luc": "02/01/2020",
+        "noi_dung": "Sắp xếp đơn vị hành chính cấp xã",
+    }]
+    plan = build_plan(records, "history-bracketed", date(2026, 8, 27))
+    by_date = {item.snapshot_date: item for item in plan}
+
+    assert "pre-event: WARD/NQ" in by_date[date(2020, 1, 1)].reasons
+    assert "effective event: WARD/NQ" in by_date[date(2020, 1, 2)].reasons
 
 
 def test_cache_snapshot_retries_manifests_and_resumes(tmp_path, monkeypatch):
