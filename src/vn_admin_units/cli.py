@@ -205,6 +205,29 @@ def build_districts_all() -> None:
     print(f"built {len(ents)} districts, {len(edges)} lineage edges")
 
 
+# ── Phase 3: ward pipeline ──
+
+def build_wards_2025_boundary_all() -> None:
+    """OFFLINE: generate the verified observation + primary-link boundary spine.
+
+    This intentionally emits no Wikidata statements and no canonical ward
+    lineage file. Absorbed/partial constituent resolution is the next gated
+    Phase-3 slice; its 6,719-row residue remains embedded in the artifact.
+    """
+    from vn_admin_units.ward_model import write_2025_boundary
+
+    path = write_2025_boundary()
+    artifact = json.loads(path.read_text(encoding="utf-8"))
+    audit = artifact["audit"]
+    print(
+        f"built {audit['pre']['normalized_rows']} pre + "
+        f"{audit['post']['normalized_rows']} post ward observations, "
+        f"{audit['structured_primary_links']} structured primary links, "
+        f"{audit['blank_base_creations']} creations; "
+        f"{audit['absorbed_without_structured_target']} composition targets pending"
+    )
+
+
 def event_statements_missing_reference(qs: str, root_url: str) -> list:
     """Every EVENT-DRIVEN statement that must cite its establishing resolution (design §3) whose
     S854 reference is NOT a real URL. Covered: succession/separation (P7888/P1366/P1365/P807), ALL

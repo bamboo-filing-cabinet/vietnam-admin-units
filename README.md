@@ -88,7 +88,7 @@ independent geo cross-check (P625 kNN) confirmed **0 wrong-place matches**. Buil
 *accepted* Ninh Bình → Hoa Lư successor-relabel; the 3 Tier-B TYPE flags cleared (batch #261331 stamped
 `P31`=huyện). Independent geo cross-check (P625 kNN): **0 wrong-place matches**. **Phase 2 fully verified.**
 
-**◀◀ RESUME HERE (new session) — Phase 3: wards (xã / phường, commune tier, NA16).** Provinces (Phase 1)
+**◀◀ RESUME HERE — Phase 3: wards (xã / phường, commune tier, NA16).** Provinces (Phase 1)
 and districts (Phase 2) are complete + live on Wikidata with **no open work**. The ward tier is the next
 and largest layer (~10k units). Start from the roadmap in [`docs/DESIGN.md`](docs/DESIGN.md) and the ward
 design [`docs/DESIGN-phase3.md`](docs/DESIGN-phase3.md) (marked "to be revised"). Reusable from Phase 2:
@@ -109,7 +109,16 @@ from these preserved inputs.
 See [Emergency ward-source
 rescue](#emergency-ward-source-rescue) and journal
 [`2026-08-27.01`](docs/journals/2026-08-27.01.ward-soap-source-rescue.md) for the audit, recovery,
-storage contract, and next work.
+storage contract, and next work. The first build slice is now locked in
+[`docs/plans/2026-08-28-phase3-ward-2025-boundary.md`](docs/plans/2026-08-28-phase3-ward-2025-boundary.md):
+normalize the 2025 boundary, preserve all 3,316 structured primary links and
+five creations, then resolve the 6,719 absorbed predecessors from the newly
+cached 3,321-row post-reform composition export. Full lineage and Wikidata emit
+remain gated on explicit resolution of truncated or ambiguous notes. The
+boundary spine now builds as `data/ward-2025-boundary.json`; its audit also
+records the historical SOAP province-echo behavior (999 code differences) and
+the one source-backed blank-label repair. See journal
+[`2026-08-28.01`](docs/journals/2026-08-28.01.ward-2025-boundary-spine.md).
 
 <details><summary><b>Phase 2 build log (historical — complete + uploaded 2026-07-20)</b></summary>
 
@@ -210,7 +219,8 @@ maps almost one-to-one onto Wikidata (`P571`/`P576`/`P7888`/`P1365`/`P1366`/
   `crosscheck_decrees` (Nghị định list fetch/cache + decree lookup) · `reconcile`
   (Wikidata QIDs + `--audit`) · `constraints` (pre-upload gate) · `emit`
   (QuickStatements) · `ward_rescue` (resumable raw ward SOAP preservation) ·
-  `cli` (`cache_snapshots`, `build_all`).
+  `ward_model` (verified 2025 boundary observations + primary-link evidence) ·
+  `cli` (`cache_snapshots`, `build_all`, `build_wards_2025_boundary_all`).
 - `data/raw/` — exact source content, stored verbatim or in deterministic lossless
   gzip, + `manifest.jsonl` (artifact and decoded-content hashes); `crosswalk/`
   (23 district windows); `nghidinh.json` (cached Nghị định list, 544 recs). `data/` —
@@ -228,6 +238,7 @@ maps almost one-to-one onto Wikidata (`P571`/`P576`/`P7888`/`P1365`/`P1366`/
 ```sh
 uv run python -m vn_admin_units.cli                 # refresh raw cache + snapshots
 uv run python -c "from vn_admin_units.cli import build_all; build_all()"   # rebuild batch
+uv run python -c "from vn_admin_units.cli import build_wards_2025_boundary_all; build_wards_2025_boundary_all()"
 uv run python -m vn_admin_units.reconcile           # (re)reconcile provinces -> QIDs (resumable)
 uv run python -m vn_admin_units.reconcile --audit   # correctness gate (required before upload)
 uv run python -m vn_admin_units.constraints         # check WD property constraints
