@@ -7,6 +7,7 @@ from vn_admin_units.ward_rescue import (
     SnapshotRequest,
     build_plan,
     cache_snapshot,
+    main,
     roster_metrics,
 )
 
@@ -44,6 +45,17 @@ def test_bracketed_history_adds_explicit_pre_event_dates():
 
     assert "pre-event: WARD/NQ" in by_date[date(2020, 1, 1)].reasons
     assert "effective event: WARD/NQ" in by_date[date(2020, 1, 2)].reasons
+
+
+def test_main_plan_as_of_pins_current_roster(capsys):
+    main([
+        "--scope", "history", "--plan-as-of", "2026-08-27",
+        "--limit", "5", "--dry-run",
+    ])
+
+    output = capsys.readouterr().out
+    assert "27/08/2026" in output
+    assert "28/08/2026" not in output
 
 
 def test_cache_snapshot_retries_manifests_and_resumes(tmp_path, monkeypatch):

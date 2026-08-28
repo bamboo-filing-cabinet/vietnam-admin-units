@@ -235,6 +235,11 @@ def main(argv: list[str] | None = None) -> None:
                         help="fetch an explicit date instead of a predefined scope; repeatable")
     parser.add_argument("--dry-run", action="store_true", help="print checklist without fetching")
     parser.add_argument("--limit", type=int, help="process only the first N priority dates")
+    parser.add_argument(
+        "--plan-as-of", type=date.fromisoformat, metavar="YYYY-MM-DD",
+        help=("pin the plan's current-roster date for reproducible multi-session "
+              "history crawls"),
+    )
     parser.add_argument("--max-attempts", type=int, default=5)
     parser.add_argument("--base-delay", type=float, default=2.0)
     parser.add_argument("--timeout", type=int, default=180)
@@ -250,10 +255,12 @@ def main(argv: list[str] | None = None) -> None:
         parser.error("--limit must be at least 1")
 
     if args.date:
+        if args.plan_as_of:
+            parser.error("--plan-as-of cannot be used with --date")
         plan = explicit_plan(args.date)
     else:
         records = load_legal_records(args.legal_index) if args.scope != "critical" else []
-        plan = build_plan(records, args.scope)
+        plan = build_plan(records, args.scope, today=args.plan_as_of)
     if args.limit:
         plan = plan[:args.limit]
 

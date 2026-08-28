@@ -102,8 +102,8 @@ NSO hostname recovered after a DNS `SERVFAIL`, and `vn_admin_units.ward_rescue` 
 the 2025 reform boundaries, 2026 Đồng Nai boundaries, and current roster. The pre-reform source has
 **10,035 wards, 691 province/district parent pairs, and complete `MaQuanHuyen` coverage**; the
 post-reform/current source has **3,321 wards**. This unblocks the 2025 ward slice. The full historical
-Phase-3 build uses a reviewed 204-date crawl with deterministic gzip storage; **123 dates are verified
-and 81 remain** after the host recovered. The next resumable date is **2011-06-09** (plan entry 124).
+Phase-3 build uses a reviewed 204-date crawl, pinned as of 2026-08-27, with deterministic gzip storage;
+**140 dates are verified and 64 remain**. The next resumable date is **2013-04-04** (plan entry 141).
 See [Emergency ward-source
 rescue](#emergency-ward-source-rescue) and journal
 [`2026-08-27.01`](docs/journals/2026-08-27.01.ward-soap-source-rescue.md) for the audit, recovery,
@@ -247,18 +247,20 @@ uv run python -m vn_admin_units.ward_rescue
 
 # Reviewed history: source/annual anchors + each ward-event effective date.
 # Consecutive event observations supply the prior state for the next event.
-uv run python -m vn_admin_units.ward_rescue --scope history --dry-run
-uv run python -m vn_admin_units.ward_rescue --scope history
+uv run python -m vn_admin_units.ward_rescue --scope history --plan-as-of 2026-08-27 --dry-run
+uv run python -m vn_admin_units.ward_rescue --scope history --plan-as-of 2026-08-27
 
 # Emergency ceiling for suspected legal-index gaps: also request every day-before.
-uv run python -m vn_admin_units.ward_rescue --scope history-bracketed --dry-run
+uv run python -m vn_admin_units.ward_rescue --scope history-bracketed --plan-as-of 2026-08-27 --dry-run
 
 # A short recovery window or an explicit date
-uv run python -m vn_admin_units.ward_rescue --scope history --limit 20
+uv run python -m vn_admin_units.ward_rescue --scope history --plan-as-of 2026-08-27 --limit 20
 uv run python -m vn_admin_units.ward_rescue --date 30/06/2025
 ```
 
-Rerun the same command after any interruption; verified payloads are not fetched
+Keep `--plan-as-of` unchanged and rerun the same command after any interruption;
+otherwise the rolling current-roster request changes with the calendar date.
+Verified payloads are not fetched
 again unless `--force` is supplied. The rescue stops after the first date that
 exhausts its retries so it does not hammer an unavailable source; use
 `--continue-on-error` only to probe past a date-specific failure.
