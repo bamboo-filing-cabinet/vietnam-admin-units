@@ -1,2 +1,3 @@
 # Raw source payloads are immutable exact bytes; never text-normalize them.
 data/raw/soap/*.xml binary
+data/raw/soap/*.xml.gz binary

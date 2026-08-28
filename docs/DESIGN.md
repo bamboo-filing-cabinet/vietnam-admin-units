@@ -47,7 +47,7 @@ reconciliation. Artifacts (each mirrors a Wikidata concept):
 
 | Artifact | What it is | WD analog |
 | --- | --- | --- |
-| **raw cache** | `data/raw/` — **exact source bytes** (SOAP responses as `.xml`, crosswalk as `.xls`) + a **provenance manifest** (`manifest.jsonl`: source URL, params/`DenNgay`, retrieved-at, sha256, rows) | provenance |
+| **raw cache** | `data/raw/` — **exact source content** (SOAP responses as deterministic `.xml.gz`, other sources verbatim) + a **provenance manifest** (`manifest.jsonl`: source URL, params/`DenNgay`, retrieved-at, stored-artifact + decoded-content SHA-256/size, rows) | provenance |
 | **observations** | per-`(code, era)` records: name, type, parent-at-time, dates, decree | time-qualified statements |
 | **entities** | persistent `local_id`, existence span, current name/code, `wikidata_qid` | items |
 | **lineage** | edges `replaces`/`merged_into`/`split_from` + whole/partial + decree + date | P571/P576/P7888/P1365/P1366 |
@@ -263,17 +263,17 @@ assemblies need non-GSO sources.
 
 ## Remaining items — execution tasks, not decisions (fold into the plan)
 
-- **Ward SOAP raw-cache recovery (2026-08-27): critical slice DONE; history
-  pending.** The initial audit found no real `DanhMucPhuongXa` response in the
+- **Ward SOAP raw-cache recovery (2026-08-27/28): critical slice DONE; history
+  9/204.** The initial audit found no real `DanhMucPhuongXa` response in the
   repository or its Git history. After the NSO hostname recovered, the rescue
   workflow preserved all five critical 2025/2026 dates: 10,035 pre-reform wards
   with complete `MaQuanHuyen`, then 3,321 post-reform/current wards, all unique.
-  This unblocks the 2025 ward slice. Before the reviewed 204-date historical
-  crawl, record the storage decision: the critical sample is 6.5 MiB raw but
-  only ~398 KiB under deterministic gzip, projecting roughly 0.6 GiB raw versus
-  33–39 MiB compressed at the pre-reform worst-case size. The former 371-date
-  estimate was a broad, fully bracketed emergency ceiling. Operational record:
-  journal `2026-08-27.01`.
+  This unblocks the 2025 ward slice. Deterministic gzip storage is implemented:
+  the critical sample is 6.5 MiB decoded and ~388 KiB stored, with hashes for
+  both forms. The first historical batch preserved four anchors before DNS
+  failed again, leaving 195 dates. The former 371-date estimate was a broad,
+  fully bracketed emergency ceiling. Operational record: journal
+  `2026-08-27.01`.
 - ~~**Verify WD qualifier constraints** for `P1365`/`P7888`~~ **DONE (`2026-07-11.01`):**
   province batch is constraint-clean (P585 fine on P7888/P1366/P1365; P576 date-as-value).
   Tool: `vn_admin_units.constraints`. Phase-2 note: `P571` rejects `P585` (keep
@@ -291,11 +291,11 @@ assemblies need non-GSO sources.
   `vn_admin_units.fetch` only for ad-hoc diagnostics. Both use the canonical,
   DocumentElement-scoped parser — never use ad-hoc source scripts.
 - **Ward `Ghi Chú` template variants** enumeration (city establishments, 3-way).
-- ~~Raw-cache format~~ **Decided (2026-07-10):** verbatim raw + manifest +
-  derived. `data/raw/` = exact source bytes (`soap/*.xml`, `crosswalk/*.xls`) +
-  `manifest.jsonl` provenance; `data/` = normalized/derived (parsed JSON, built
-  entities/lineage). Best provenance + reproducibility; accepts binary `.xls` in
-  the raw layer.
+- ~~Raw-cache format~~ **Decided (2026-07-10; compressed SOAP extension
+  2026-08-28):** exact content + manifest + derived. SOAP content is wrapped in
+  deterministic level-9 gzip (`mtime=0`, no filename) as `soap/*.xml.gz`;
+  crosswalk `.xls` remains verbatim. The manifest hashes/sizes both the stored
+  artifact and decoded source content. `data/` remains normalized/derived.
 - Optional/later: propose a GSO-code WD property; update cadence (`DenNgay=today`
   diff, Phase 2).
 

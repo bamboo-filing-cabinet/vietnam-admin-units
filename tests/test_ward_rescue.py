@@ -3,7 +3,12 @@ from datetime import date
 from pathlib import Path
 
 from vn_admin_units import rawcache
-from vn_admin_units.ward_rescue import SnapshotRequest, build_plan, cache_snapshot
+from vn_admin_units.ward_rescue import (
+    SnapshotRequest,
+    build_plan,
+    cache_snapshot,
+    roster_metrics,
+)
 
 
 def test_build_plan_prioritizes_critical_dates_and_adds_effective_dates():
@@ -67,7 +72,12 @@ def test_cache_snapshot_retries_manifests_and_resumes(tmp_path, monkeypatch):
     assert entry["method"] == "DanhMucPhuongXa"
     assert entry["params"] == {"DenNgay": "30/06/2025", "Tinh": "", "QuanHuyen": ""}
     assert entry["rows"] == 3 and entry["distinct_codes"] == 2
-    assert entry["duplicate_rows"] == 1 and entry["reasons"] == ["critical test"]
+    assert entry["distinct_identity_keys"] == 3
+    assert entry["duplicate_identity_rows"] == 0
+    assert entry["duplicate_rows"] == 0
+    assert entry["conflicting_identity_rows"] == 0
+    assert entry["missing_parent_codes"] == 0 and entry["parent_pairs"] == 2
+    assert entry["reasons"] == ["critical test"]
 
     def must_not_fetch(*args, **kwargs):
         raise AssertionError("verified payload should be resumed without a network call")
@@ -88,3 +98,44 @@ def test_cache_snapshot_rejects_empty_soap_response(tmp_path, monkeypatch):
         raise AssertionError("empty SOAP response was accepted")
 
     assert not rawcache.raw_is_verified(request.relpath)
+
+
+def test_cache_snapshot_migrates_verified_plain_snapshot(tmp_path, monkeypatch):
+    monkeypatch.setattr(rawcache, "RAW", tmp_path)
+    monkeypatch.setattr(rawcache, "MANIFEST", tmp_path / "manifest.jsonl")
+    request = SnapshotRequest(date(2025, 6, 30), ("migration test",))
+    content = Path("tests/fixtures/danhmucphuongxa_sample.xml").read_bytes()
+    rawcache.save_raw(request.legacy_relpath, content, {
+        "retrieved_at": "2026-08-28T01:06:32Z", "rows": 3,
+    })
+
+    assert cache_snapshot(
+        request, fetcher=lambda *args, **kwargs: (_ for _ in ()).throw(
+            AssertionError("migration should not fetch"))
+    ) == "compressed"
+    assert not (tmp_path / request.legacy_relpath).exists()
+    assert rawcache.read_raw(request.relpath) == content
+
+
+def test_roster_metrics_separates_exact_duplicates_from_identity_conflicts():
+    base = {
+        "MaTinh": "70", "TenTinh": "Tỉnh X", "MaQuanHuyen": "694",
+        "TenQuanHuyen": "Huyện Y", "MaPhuongXa": "7070901",
+        "TenPhuongXa": "Thị trấn An Lộc", "LoaiHinh": "Thị trấn",
+    }
+    exact_duplicate = dict(base)
+    conflicting_type = {**base, "LoaiHinh": "Phường"}
+    other = {**base, "MaPhuongXa": "7070902", "TenPhuongXa": "Xã Khác"}
+
+    metrics = roster_metrics([base, exact_duplicate, conflicting_type, other])
+
+    assert metrics == {
+        "rows": 4,
+        "distinct_codes": 2,
+        "distinct_identity_keys": 2,
+        "duplicate_identity_rows": 2,
+        "duplicate_rows": 1,
+        "conflicting_identity_rows": 1,
+        "missing_parent_codes": 0,
+        "parent_pairs": 1,
+    }

@@ -58,6 +58,10 @@ class SnapshotRequest:
 
     @property
     def relpath(self) -> str:
+        return f"soap/DanhMucPhuongXa_{self.iso}.xml.gz"
+
+    @property
+    def legacy_relpath(self) -> str:
         return f"soap/DanhMucPhuongXa_{self.iso}.xml"
 
 
@@ -149,13 +153,38 @@ def explicit_plan(values: Iterable[str]) -> list[SnapshotRequest]:
     return out
 
 
+def roster_metrics(rows: list[dict]) -> dict:
+    """Return identity and duplicate metrics for one parsed ward roster."""
+    identity_keys = [
+        (row["MaTinh"], row["MaQuanHuyen"], row["MaPhuongXa"])
+        for row in rows
+    ]
+    exact_rows = [tuple(row.get(field, "") for field in TIERS["ward"][1]) for row in rows]
+    duplicate_identity_rows = len(rows) - len(set(identity_keys))
+    duplicate_rows = len(rows) - len(set(exact_rows))
+    return {
+        "rows": len(rows),
+        "distinct_codes": len({row["MaPhuongXa"] for row in rows}),
+        "distinct_identity_keys": len(set(identity_keys)),
+        "duplicate_identity_rows": duplicate_identity_rows,
+        "duplicate_rows": duplicate_rows,
+        "conflicting_identity_rows": duplicate_identity_rows - duplicate_rows,
+        "missing_parent_codes": sum(not row["MaQuanHuyen"] for row in rows),
+        "parent_pairs": len({(row["MaTinh"], row["MaQuanHuyen"]) for row in rows}),
+    }
+
+
 def cache_snapshot(request: SnapshotRequest, *, max_attempts: int = 5,
                    base_delay: float = 2.0, timeout: int = 180, force: bool = False,
                    fetcher: Callable | None = None, sleeper: Callable[[float], None] = time.sleep
                    ) -> str:
     """Fetch, validate, and manifest one ward snapshot; return cached/fetched."""
-    if not force and rawcache.raw_is_verified(request.relpath):
-        return "cached"
+    if not force:
+        if rawcache.raw_is_verified(request.relpath):
+            return "cached"
+        if rawcache.raw_is_verified(request.legacy_relpath):
+            rawcache.migrate_raw_to_gzip(request.legacy_relpath)
+            return "compressed"
     fetcher = fetcher or fetch_units_raw
     last_error: Exception | None = None
     for attempt in range(1, max_attempts + 1):
@@ -166,14 +195,11 @@ def cache_snapshot(request: SnapshotRequest, *, max_attempts: int = 5,
             rows = parse_rows(content.decode("utf-8"), TIERS["ward"][1])
             if not rows:
                 raise ValueError("SOAP response contained no ward rows")
-            distinct = len({row["MaPhuongXa"] for row in rows})
-            rawcache.save_raw(request.relpath, content, {
+            rawcache.save_raw_gzip(request.relpath, content, {
                 "source_url": SOAP_URL,
                 "method": "DanhMucPhuongXa",
                 "params": {"DenNgay": request.dmy, "Tinh": "", "QuanHuyen": ""},
-                "rows": len(rows),
-                "distinct_codes": distinct,
-                "duplicate_rows": len(rows) - distinct,
+                **roster_metrics(rows),
                 "reasons": list(request.reasons),
             })
             return "fetched"

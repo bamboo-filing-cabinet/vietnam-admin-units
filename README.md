@@ -102,11 +102,11 @@ NSO hostname recovered after a DNS `SERVFAIL`, and `vn_admin_units.ward_rescue` 
 the 2025 reform boundaries, 2026 Đồng Nai boundaries, and current roster. The pre-reform source has
 **10,035 wards, 691 province/district parent pairs, and complete `MaQuanHuyen` coverage**; the
 post-reform/current source has **3,321 wards**. This unblocks the 2025 ward slice. The full historical
-Phase-3 build still needs the reviewed 204-date crawl; decide deterministic compressed storage first
-(critical files: 6.5 MiB raw vs ~398 KiB gzip). See [Emergency ward-source
+Phase-3 build uses a reviewed 204-date crawl with deterministic gzip storage; **9 dates are verified
+and 195 remain** after the host failed again during the first historical batch. See [Emergency ward-source
 rescue](#emergency-ward-source-rescue) and journal
 [`2026-08-27.01`](docs/journals/2026-08-27.01.ward-soap-source-rescue.md) for the audit, recovery,
-storage gate, and next work.
+storage contract, and next work.
 
 <details><summary><b>Phase 2 build log (historical — complete + uploaded 2026-07-20)</b></summary>
 
@@ -208,7 +208,8 @@ maps almost one-to-one onto Wikidata (`P571`/`P576`/`P7888`/`P1365`/`P1366`/
   (Wikidata QIDs + `--audit`) · `constraints` (pre-upload gate) · `emit`
   (QuickStatements) · `ward_rescue` (resumable raw ward SOAP preservation) ·
   `cli` (`cache_snapshots`, `build_all`).
-- `data/raw/` — verbatim source bytes + `manifest.jsonl` (provenance); `crosswalk/`
+- `data/raw/` — exact source content, stored verbatim or in deterministic lossless
+  gzip, + `manifest.jsonl` (artifact and decoded-content hashes); `crosswalk/`
   (23 district windows); `nghidinh.json` (cached Nghị định list, 544 recs). `data/` —
   derived JSON (snapshots, `entities.json`, `lineage.json`); Phase-2 curated inputs:
   `decree-urls.json` (decree → thuvienphapluat URL), `district-merge-targets.json`
@@ -235,8 +236,8 @@ uv run python -m vn_admin_units.fetch --tier ward --date 01/01/2019 --dups   # a
 The ward crosswalk omits the former district code (`MaQuanHuyen`), so exact
 `DanhMucPhuongXa` SOAP snapshots are required before the Phase-3 ward build.
 The rescue command verifies cached hashes, skips completed dates, retries
-transient failures with exponential backoff, and writes exact response bytes +
-provenance to `data/raw/`:
+transient failures with exponential backoff, and writes exact response content
+in deterministic gzip + provenance to `data/raw/`:
 
 ```sh
 # Five highest-priority 2025/2026 dates (preview, then fetch)
