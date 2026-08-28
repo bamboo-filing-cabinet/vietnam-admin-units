@@ -28,7 +28,7 @@ vietnam-elections     vietnam-elections-wikidata
 2. **Set up + verify:**
    ```sh
    uv sync
-   uv run pytest -q                          # 163 tests pass
+   uv run pytest -q                          # 167 tests pass
    ```
 
    **Phases 1 and 2 are complete and uploaded to Wikidata (provinces + districts).** The next work is **Phase 3 (wards)** — read the "Phase 2" block under [Status](#status) for the post-upload verification step and the roadmap pointer.
@@ -91,10 +91,17 @@ independent geo cross-check (P625 kNN) confirmed **0 wrong-place matches**. Buil
 **◀◀ RESUME HERE — Phase 3: wards (xã / phường, commune tier, NA16).** Provinces
 (Phase 1) and districts (Phase 2) are complete + live on Wikidata with **no open
 work**. The 2025 ward boundary and its full predecessor→successor topology are
-now complete offline. The next implementation slice is to promote
-`data/ward-2025-boundary.json` + `data/ward-2025-composition.json` into canonical
-ward entities and `LineageEdge` records, then run reconciliation/audit; do not
-emit or upload Wikidata statements yet. Read journal
+now complete offline. Before claiming complete 2002→present ward provenance,
+execute the historical source-closure plan. **Task 1 is complete:** all 21
+historical yearly crosswalks and all 24 ward crosswalk artifacts verify. **Next,
+Task 2 builds the offline evidence ledger** before the legal-corpus and
+event-accounting passes. The next graph-building slice is
+still to promote `data/ward-2025-boundary.json` +
+`data/ward-2025-composition.json` into canonical ward entities and
+`LineageEdge` records, then run reconciliation/audit; do not emit or upload
+Wikidata statements yet. Read the source-closure
+[`plan`](docs/plans/2026-08-28-phase3-ward-historical-source-closure.md), its
+[`Task 1 journal`](docs/journals/2026-08-28.03.ward-yearly-crosswalk-sweep.md), and boundary journal
 [`2026-08-28.02`](docs/journals/2026-08-28.02.ward-2025-composition-lineage.md)
 for the exact handoff and acceptance counts.
 

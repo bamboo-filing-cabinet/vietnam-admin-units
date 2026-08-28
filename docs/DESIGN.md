@@ -13,7 +13,7 @@ monorepo), which predated the source reconnaissance. Grounded in probe journals
 | `docs/DESIGN.md` (this) | Overarching design: purpose, data model, identity, decisions log, phasing |
 | `docs/DESIGN-phase1b.md` | Phase-1b design: **province history** (2002→2025) — 2004 renumber + carve-outs, 2008 Hà Tây, chained; completes the province tier + unblocks Phase 2 |
 | `docs/DESIGN-phase2.md` | Phase-2 design: **district tier** (2004→2025), Goal B Wikidata lineage + 2025 abolition; feeds NA11–NA15 |
-| `docs/DESIGN-phase3.md` | Phase-3 design: ward tier + Goal A for NA16. Internal numbering below its update banner is stale; the active first slice is `docs/plans/2026-08-28-phase3-ward-2025-boundary.md` |
+| `docs/DESIGN-phase3.md` | Phase-3 design: ward tier + Goal A for NA16. Internal numbering below its update banner is stale; the completed first slice is `docs/plans/2026-08-28-phase3-ward-2025-boundary.md`, followed by the historical source-closure gate in `docs/plans/2026-08-28-phase3-ward-historical-source-closure.md` |
 | `docs/DESIGN-phase4.md` (future) | Phase-4 design: **pre-2002 history** (NA1–NA10) via non-GSO sources. Not yet written |
 | `docs/plans/2026-07-10-phase1-province-wikidata.md` | Phase-1 **implementation plan** (province tier, done) |
 | `docs/journals/2026-07-10.NN.*.md` | Dated decision/probe log (`.01`–`.15`): source recon, taxonomy, findings |
@@ -310,8 +310,13 @@ assemblies need non-GSO sources.
   preserves all 34 signed instruments + official HTML, extracts 3,194
   arrangement clauses, classifies 127 unchanged successors, and emits 10,586
   edges with zero unresolved predecessors (`2026-08-28.01`–`.02`). **Next:**
-  promote this boundary topology into canonical ward entities/`LineageEdge`
-  records, then reconcile and audit; Wikidata emission remains a later gate.
+  the yearly ward crosswalk sweep is **DONE** (21/21 yearly; 24/24 total ward
+  crosswalk files; `2026-08-28.03`). Next, execute the historical
+  source/provenance coverage ledger before claiming full 2002→present coverage.
+  The next graph-building slice remains promotion
+  of this boundary topology into canonical ward entities/`LineageEdge` records.
+  See `docs/plans/2026-08-28-phase3-ward-historical-source-closure.md`. Wikidata
+  emission remains a later gate.
 - **Ward `Ghi Chú` template variants** enumeration (city establishments, 3-way).
 - ~~Raw-cache format~~ **Decided (2026-07-10; compressed SOAP extension
   2026-08-28):** exact content + manifest + derived. SOAP content is wrapped in
