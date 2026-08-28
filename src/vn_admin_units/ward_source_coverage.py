@@ -22,6 +22,11 @@ from urllib.parse import urlparse
 
 from vn_admin_units import rawcache
 from vn_admin_units.crosscheck_decrees import is_ward_structural
+from vn_admin_units.ward_legal_linkage import (
+    COMPOSITION_2025,
+    OVERRIDES as LEGAL_LINKAGE_OVERRIDES,
+    build_legal_linkage,
+)
 from vn_admin_units.ward_observed_changes import soap_manifest_fingerprint
 
 
@@ -565,11 +570,31 @@ def build_coverage(*, manifest_path: Path = MANIFEST,
         event["candidate_legal_instrument_ids"] = reconciled[
             "candidate_legal_instrument_ids"
         ]
-        event["status"] = (
+        event["crosswalk_status"] = (
             "crosswalk_residue_legal_classification_pending"
             if reconciled["status"] != "crosswalk_supported"
             else "crosswalk_supported_legal_reconciliation_pending"
         )
+        event["status"] = event["crosswalk_status"]
+
+    linkage = build_legal_linkage(
+        instruments,
+        events,
+        json.loads(reconciliation_path.read_text(encoding="utf-8")),
+        json.loads(observed_changes_path.read_text(encoding="utf-8")),
+        sources,
+    )
+    for instrument in instruments:
+        review = linkage["instrument_reviews"][instrument["instrument_id"]]
+        instrument.update(review)
+    for event in events:
+        review = linkage["event_reviews"][event["event_id"]]
+        event["legal_instrument_ids"] = review["legal_instrument_ids"]
+        event["legal_evidence"] = {
+            key: value for key, value in review.items()
+            if key not in {"legal_instrument_ids", "status"}
+        }
+        event["status"] = review["status"]
 
     effective_dates_from_2005 = {
         normalize_date(record["hieu_luc"])
@@ -589,6 +614,13 @@ def build_coverage(*, manifest_path: Path = MANIFEST,
         for instrument in instruments
         if instrument["source_status"] != "verified_official_artifact"
     ]
+    change_bearing_source_open = sorted({
+        link["instrument_id"]
+        for review in linkage["event_reviews"].values()
+        for link in review["instrument_links"]
+        if link["component_count"]
+        and link["source_status"] != "verified_official_artifact"
+    })
 
     summary = {
         "soap_artifacts": len(soap["artifacts"]),
@@ -606,6 +638,14 @@ def build_coverage(*, manifest_path: Path = MANIFEST,
         "verified_2025_resolution_pairs": len(resolution_pairs),
         "observed_change_intervals": len(events),
         "unclassified_instruments": len(unresolved),
+        "classified_legal_index_rows": linkage["summary"]["classified_legal_index_rows"],
+        "classified_instruments": linkage["summary"]["classified_instruments"],
+        "instrument_classifications": linkage["summary"]["instrument_classifications"],
+        "instrument_observation_statuses": linkage["summary"]["instrument_observation_statuses"],
+        "reviewed_event_statuses": linkage["summary"]["event_statuses"],
+        "component_assignment_counts": linkage["summary"]["component_assignment_counts"],
+        "context_only_components": linkage["summary"]["context_only_components"],
+        "change_bearing_source_open_instruments": len(change_bearing_source_open),
         "primary_source_open_instruments": len(primary_source_open),
         "official_source_matches": legal_registry["summary"]["official_matches"],
         "official_source_not_found": legal_registry["summary"]["status_counts"].get(
@@ -614,11 +654,11 @@ def build_coverage(*, manifest_path: Path = MANIFEST,
         "secondary_tvpl_urls": legal_registry["summary"]["secondary_tvpl_urls"],
         "events": len(events),
         "crosswalk_supported_events": sum(
-            event["status"] == "crosswalk_supported_legal_reconciliation_pending"
+            event["crosswalk_status"] == "crosswalk_supported_legal_reconciliation_pending"
             for event in events
         ),
         "crosswalk_residue_events": sum(
-            event["status"] == "crosswalk_residue_legal_classification_pending"
+            event["crosswalk_status"] == "crosswalk_residue_legal_classification_pending"
             for event in events
         ),
     }
@@ -629,13 +669,13 @@ def build_coverage(*, manifest_path: Path = MANIFEST,
     _require("SOAP missing parents", soap["missing_parent_codes"], 0)
 
     return {
-        "schema_version": 4,
+        "schema_version": 5,
         "scope": {
             "tier": "ward",
             "source_floor": SOURCE_FLOOR,
             "as_of": AS_OF,
-            "status": "legal_source_corpus_preserved_classification_pending",
-            "next_task": 6,
+            "status": "legal_events_classified_source_audit_pending",
+            "next_task": 7,
         },
         "input_fingerprints": {
             "manifest_path": manifest_path.as_posix(),
@@ -648,6 +688,10 @@ def build_coverage(*, manifest_path: Path = MANIFEST,
             "crosswalk_reconciliation_sha256": reconciliation["sha256"],
             "legal_sources_path": legal_sources_path.as_posix(),
             "legal_sources_sha256": _sha256(legal_sources_path),
+            "legal_linkage_overrides_path": LEGAL_LINKAGE_OVERRIDES.as_posix(),
+            "legal_linkage_overrides_sha256": _sha256(LEGAL_LINKAGE_OVERRIDES),
+            "ward_2025_composition_path": COMPOSITION_2025.as_posix(),
+            "ward_2025_composition_sha256": _sha256(COMPOSITION_2025),
         },
         "summary": summary,
         "inventories": {
@@ -665,16 +709,18 @@ def build_coverage(*, manifest_path: Path = MANIFEST,
             "verified_2025_resolution_pairs": resolution_pairs,
         },
         "legal_instruments": instruments,
+        "supplemental_legal_instruments": linkage["supplemental_instruments"],
         "events": events,
         "residue": {
-            "event_inventory_status": "legal_sources_preserved_classification_linking_pending",
+            "event_inventory_status": "complete_legal_linkage_source_audit_pending",
             "crosswalk_residue_event_ids": [
                 event["event_id"] for event in events
-                if event["status"] == "crosswalk_residue_legal_classification_pending"
+                if event["crosswalk_status"] == "crosswalk_residue_legal_classification_pending"
             ],
-            "legal_unlinked_event_ids": [event["event_id"] for event in events],
+            "legal_unlinked_event_ids": [],
             "unclassified_instrument_ids": unresolved,
             "primary_source_open_instrument_ids": primary_source_open,
+            "change_bearing_source_open_instrument_ids": change_bearing_source_open,
             "duplicate_legal_index_keys": [
                 {
                     "instrument_id": instrument["instrument_id"],

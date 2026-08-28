@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "scope": "Manual corrections and event-level exceptions for historical ward legal linkage",
+  "instrument_corrections": {
+    "14/2008/NĐ-CP@2008-07-02": {
+      "canonical_instrument_id": "14/2008/QH12@2008-07-01",
+      "classification": "duplicate_or_superseded",
+      "review_note": "The NSO legal index mislabels Resolution 14/2008/QH12 as a Government decree and shifts its 2008-07-01 effective date to the following SOAP observation date. The canonical resolution is retained separately."
+    },
+    "14/2008/NĐ-CP@2008-08-03": {
+      "canonical_instrument_id": "14/2008/QH12@2008-07-01",
+      "classification": "duplicate_or_superseded",
+      "review_note": "The second NSO row repeats the same malformed instrument at the next SOAP observation date. It is not a second legal act and is superseded by the canonical Resolution 14/2008/QH12 record."
+    }
+  },
+  "supplemental_instruments": [
+    {
+      "instrument_id": "14/2008/QH12@2008-07-01",
+      "code": "14/2008/QH12",
+      "effective_date": "2008-07-01",
+      "issued_date": "2008-05-29",
+      "title": "Điều chỉnh địa giới hành chính giữa tỉnh Hà Tây và tỉnh Phú Thọ, giữa tỉnh Bình Phước và tỉnh Đồng Nai",
+      "classification": "parent_or_boundary_only",
+      "source_status": "official_url_unarchived",
+      "source_url": "https://ttptquydat.stnmt.dongnai.gov.vn/VN/Vanbanphapquy/DownloadFile?fileName=14_2008_QH12_68075.doc",
+      "review_note": "Canonical correction for the two malformed NSO 14/2008/NĐ-CP rows. Article 1 transfers Xã Tân Đức from Hà Tây to Việt Trì, Phú Thọ; Article 4 sets the 2008-07-01 effective date."
+    },
+    {
+      "instrument_id": "15/2008/QH12@2008-08-01",
+      "code": "15/2008/QH12",
+      "effective_date": "2008-08-01",
+      "issued_date": "2008-05-29",
+      "title": "Điều chỉnh địa giới hành chính thành phố Hà Nội và một số tỉnh có liên quan",
+      "classification": "parent_or_boundary_only",
+      "source_status": "verified_official_artifact",
+      "review_note": "Authority for the Hà Tây absorption, the Mê Linh transfer, and the four Hòa Bình commune transfers observed at the 2008-08-03 SOAP boundary."
+    }
+  ],
+  "event_overrides": {
+    "soap:2004-01-01->2004-07-01": {
+      "classification": "code_only",
+      "review_note": "The 21,287-component delta is the NSO old-to-national ward code-scheme transition. It is not a mass legal dissolution and creation event. The eight crosswalk omissions are retained as explicit source exceptions."
+    },
+    "soap:2008-07-02->2008-08-03": {
+      "classification": "parent_or_boundary_only",
+      "legal_instrument_ids": [
+        "14/2008/QH12@2008-07-01",
+        "15/2008/QH12@2008-08-01"
+      ],
+      "tan_duc_component_id": "soap:2008-07-02->2008-08-03#same_code:09622",
+      "review_note": "The SOAP boundary combines the delayed Tân Đức transfer under Resolution 14 with the Hà Tây/Hà Nội boundary changes under Resolution 15. Two stale ward rows disappear at the same boundary and are classified as source cleanup, not legal lineage."
+    }
+  }
+}

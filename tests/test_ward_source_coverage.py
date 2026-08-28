@@ -138,7 +138,24 @@ def test_real_locked_baseline_builds_deterministically():
     assert summary["unique_ward_instruments"] == 449
     assert summary["duplicate_instrument_keys"] == 4
     assert summary["verified_2025_resolution_pairs"] == 34
-    assert summary["unclassified_instruments"] == 415
+    assert summary["unclassified_instruments"] == 0
+    assert summary["classified_legal_index_rows"] == 453
+    assert summary["classified_instruments"] == 449
+    assert summary["instrument_classifications"] == {
+        "duplicate_or_superseded": 2,
+        "lineage": 430,
+        "parent_or_boundary_only": 12,
+        "rename_or_retype": 5,
+    }
+    assert summary["instrument_observation_statuses"] == {
+        "no_observable_roster_change": 4,
+        "resolution_clauses_linked": 34,
+        "source_only_before_first_reliable_national_code_transition": 36,
+        "source_only_inside_2004_code_scheme_transition": 18,
+        "source_only_normalized_quiet_soap_interval": 1,
+        "superseded_by_canonical_correction": 2,
+        "topology_components_linked": 354,
+    }
     assert summary["primary_source_open_instruments"] == 57
     assert summary["official_source_matches"] == 392
     assert summary["official_source_not_found"] == 57
@@ -147,15 +164,39 @@ def test_real_locked_baseline_builds_deterministically():
     assert summary["events"] == 179
     assert summary["crosswalk_supported_events"] == 178
     assert summary["crosswalk_residue_events"] == 1
-    assert coverage["scope"]["next_task"] == 6
+    assert coverage["scope"]["next_task"] == 7
     assert coverage["residue"]["event_inventory_status"] == (
-        "legal_sources_preserved_classification_linking_pending"
+        "complete_legal_linkage_source_audit_pending"
     )
     assert coverage["residue"]["crosswalk_residue_event_ids"] == [
         "soap:2004-01-01->2004-07-01",
     ]
-    assert len(coverage["residue"]["legal_unlinked_event_ids"]) == 179
+    assert coverage["residue"]["legal_unlinked_event_ids"] == []
+    assert coverage["residue"]["unclassified_instrument_ids"] == []
     assert coverage["events"][0]["event_id"] == "soap:2004-01-01->2004-07-01"
+    assert coverage["events"][0]["status"] == (
+        "explicitly_classified_non_legal_transition"
+    )
     assert coverage["events"][-1]["event_id"] == "soap:2026-04-29->2026-04-30"
+    boundary_2008 = next(
+        event for event in coverage["events"]
+        if event["event_id"] == "soap:2008-07-02->2008-08-03"
+    )
+    assert boundary_2008["legal_instrument_ids"] == [
+        "14/2008/QH12@2008-07-01",
+        "15/2008/QH12@2008-08-01",
+    ]
+    assert [
+        item["instrument_id"]
+        for item in coverage["supplemental_legal_instruments"]
+    ] == [
+        "14/2008/QH12@2008-07-01",
+        "15/2008/QH12@2008-08-01",
+    ]
+    assert all(
+        link["classification"] != "unresolved"
+        for event in coverage["events"]
+        for link in event["legal_evidence"]["instrument_links"]
+    )
     assert json.loads(serialize_coverage(coverage)) == coverage
     assert serialize_coverage(coverage) == serialize_coverage(coverage)
