@@ -4797,16 +4797,29 @@
       ]
     },
     {
-      "attachments": [],
+      "attachments": [
+        {
+          "media_type": "pdf",
+          "path": "legal/ward/2010-10-26/40-nq-cp.gazette.pdf",
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2010/10/3904/1698-1-2010618-619-40nq-cppdf"
+        }
+      ],
       "code": "40/NQ-CP",
-      "discovery_status": "official_not_found",
+      "code_match_status": "exact",
+      "date_match_status": "plausible_effective_lag",
+      "discovery_status": "verified_official_match",
       "effective_date": "2010-10-26",
+      "effective_gap_days": 1,
+      "gazette_record_id": 3904,
       "instrument_id": "40/NQ-CP@2010-10-26",
+      "issued_date": "2010-10-25",
       "metadata_path": "legal/ward/2010-10-26/40-nq-cp.metadata.html",
-      "metadata_url": "",
+      "metadata_url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-40-nq-cp-3904.htm",
+      "official_code": "40/NQ-CP",
       "secondary_urls": [
         "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-40-NQ-CP-dieu-chinh-dia-gioi-hanh-chinh-xa-thuoc-huyen-Tan-Chau-An-Phu-Phu-Tan-lap-thi-xa-Tan-Chau-phuong-thuoc-thi-xa-Tan-Chau-An-Giang-93664.aspx"
       ],
+      "source_provider": "government_gazette",
       "title_variants": [
         "Thành lập thị trấn Thanh Thủy thuộc huyện Thanh Thủy tỉnh Phú Thọ"
       ]
@@ -4914,27 +4927,53 @@
       ]
     },
     {
-      "attachments": [],
+      "attachments": [
+        {
+          "media_type": "pdf",
+          "path": "legal/ward/2011-01-11/03-nq-cp.gazette.pdf",
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2011/1/7892/4327-1-201167-68-03nq-cppdf"
+        }
+      ],
       "code": "03/NQ-CP",
-      "discovery_status": "official_not_found",
+      "code_match_status": "exact",
+      "date_match_status": "plausible_effective_lag",
+      "discovery_status": "verified_official_match",
       "effective_date": "2011-01-11",
+      "effective_gap_days": 1,
+      "gazette_record_id": 7892,
       "instrument_id": "03/NQ-CP@2011-01-11",
+      "issued_date": "2011-01-10",
       "metadata_path": "legal/ward/2011-01-11/03-nq-cp.metadata.html",
-      "metadata_url": "",
+      "metadata_url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-03-nq-cp-7892.htm",
+      "official_code": "03/NQ-CP",
       "secondary_urls": [],
+      "source_provider": "government_gazette",
       "title_variants": [
         "điều chỉnh địa giới hành chính xã, thành lập xã thuộc huyện Nam Giang, tỉnh Quảng Nam"
       ]
     },
     {
-      "attachments": [],
+      "attachments": [
+        {
+          "media_type": "pdf",
+          "path": "legal/ward/2011-01-14/04-nq-cp.gazette.pdf",
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2011/1/7341/3990-1-201173-74-04nq-cppdf"
+        }
+      ],
       "code": "04/NQ-CP",
-      "discovery_status": "official_not_found",
+      "code_match_status": "exact",
+      "date_match_status": "plausible_effective_lag",
+      "discovery_status": "verified_official_match",
       "effective_date": "2011-01-14",
+      "effective_gap_days": 1,
+      "gazette_record_id": 7341,
       "instrument_id": "04/NQ-CP@2011-01-14",
+      "issued_date": "2011-01-13",
       "metadata_path": "legal/ward/2011-01-14/04-nq-cp.metadata.html",
-      "metadata_url": "",
+      "metadata_url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-04-nq-cp-7341.htm",
+      "official_code": "04/NQ-CP",
       "secondary_urls": [],
+      "source_provider": "government_gazette",
       "title_variants": [
         "Thành lập thị xã Dĩ An, thành lập các phường thuộc thị xã Dĩ An và thành lập thị xã Thuận An, thành lập các phường thuộc thị xã Thuận An, tỉnh Bình Dương"
       ]
@@ -5036,14 +5075,27 @@
       ]
     },
     {
-      "attachments": [],
+      "attachments": [
+        {
+          "media_type": "pdf",
+          "path": "legal/ward/2011-06-09/85-nq-cp.gazette.pdf",
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2011/6/11101/6870-1-2011371-372-85nq-cppdf"
+        }
+      ],
       "code": "85/NQ-CP",
-      "discovery_status": "official_not_found",
+      "code_match_status": "exact",
+      "date_match_status": "plausible_effective_lag",
+      "discovery_status": "verified_official_match",
       "effective_date": "2011-06-09",
+      "effective_gap_days": 1,
+      "gazette_record_id": 11101,
       "instrument_id": "85/NQ-CP@2011-06-09",
+      "issued_date": "2011-06-08",
       "metadata_path": "legal/ward/2011-06-09/85-nq-cp.metadata.html",
-      "metadata_url": "",
+      "metadata_url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-85-nq-cp-11101.htm",
+      "official_code": "85/NQ-CP",
       "secondary_urls": [],
+      "source_provider": "government_gazette",
       "title_variants": [
         "điều chỉnh địa giới hành chính xã Long Khánh để thành lập thị trấn Long Thành thuộc huyện Duyên Hải, tỉnh Trà Vinh"
       ]
@@ -5199,16 +5251,29 @@
       ]
     },
     {
-      "attachments": [],
+      "attachments": [
+        {
+          "media_type": "pdf",
+          "path": "legal/ward/2011-11-29/101-nq-cp.gazette.pdf",
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2011/11/13473/8661-1-2011613-614-101nq-cppdf"
+        }
+      ],
       "code": "101/NQ-CP",
-      "discovery_status": "official_not_found",
+      "code_match_status": "exact",
+      "date_match_status": "plausible_effective_lag",
+      "discovery_status": "verified_official_match",
       "effective_date": "2011-11-29",
+      "effective_gap_days": 1,
+      "gazette_record_id": 13473,
       "instrument_id": "101/NQ-CP@2011-11-29",
+      "issued_date": "2011-11-28",
       "metadata_path": "legal/ward/2011-11-29/101-nq-cp.metadata.html",
-      "metadata_url": "",
+      "metadata_url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-101-nq-cp-13473.htm",
+      "official_code": "101/NQ-CP",
       "secondary_urls": [
         "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-101-NQ-CP-thanh-lap-thi-xa-An-Nhon-132303.aspx"
       ],
+      "source_provider": "government_gazette",
       "title_variants": [
         "thành lập thị xã An Nhơn và thành lập các phường thuộc thị xã An Nhơn, Bình Định"
       ]
@@ -6238,27 +6303,53 @@
       ]
     },
     {
-      "attachments": [],
+      "attachments": [
+        {
+          "media_type": "pdf",
+          "path": "legal/ward/2018-07-11/535-nq-ubtvqh14.gazette.pdf",
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2018/7/26998/23273-1-2018827-828535-nq-ubtvqh14.pdf"
+        }
+      ],
       "code": "535/NQ-UBTVQH14",
-      "discovery_status": "official_not_found",
+      "code_match_status": "exact",
+      "date_match_status": "plausible_effective_lag",
+      "discovery_status": "verified_official_match",
       "effective_date": "2018-07-11",
+      "effective_gap_days": 0,
+      "gazette_record_id": 26998,
       "instrument_id": "535/NQ-UBTVQH14@2018-07-11",
+      "issued_date": "2018-07-11",
       "metadata_path": "legal/ward/2018-07-11/535-nq-ubtvqh14.metadata.html",
-      "metadata_url": "",
+      "metadata_url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-535-nq-ubtvqh14-26998.htm",
+      "official_code": "535/NQ-UBTVQH14",
       "secondary_urls": [],
+      "source_provider": "government_gazette",
       "title_variants": [
         "Thành lập thị trấn Lau Uyên thuộc huyện Bàu Bàng và thị trấn Tân Thành thuộc huyện Tân Uyên, tỉnh Bình Dương"
       ]
     },
     {
-      "attachments": [],
+      "attachments": [
+        {
+          "media_type": "pdf",
+          "path": "legal/ward/2018-07-11/536-nq-ubtvqh14.gazette.pdf",
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2018/7/26999/23275-1-2018827-828536-nq-ubtvqh14.pdf"
+        }
+      ],
       "code": "536/NQ-UBTVQH14",
-      "discovery_status": "official_not_found",
+      "code_match_status": "exact",
+      "date_match_status": "plausible_effective_lag",
+      "discovery_status": "verified_official_match",
       "effective_date": "2018-07-11",
+      "effective_gap_days": 0,
+      "gazette_record_id": 26999,
       "instrument_id": "536/NQ-UBTVQH14@2018-07-11",
+      "issued_date": "2018-07-11",
       "metadata_path": "legal/ward/2018-07-11/536-nq-ubtvqh14.metadata.html",
-      "metadata_url": "",
+      "metadata_url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-536-nq-ubtvqh14-26999.htm",
+      "official_code": "536/NQ-UBTVQH14",
       "secondary_urls": [],
+      "source_provider": "government_gazette",
       "title_variants": [
         "Thành lập thị trấn Đồng Lộc thuộc huyện Can Lộc, tỉnh Hà Tĩnh"
       ]
@@ -8356,31 +8447,57 @@
       ]
     },
     {
-      "attachments": [],
+      "attachments": [
+        {
+          "media_type": "pdf",
+          "path": "legal/ward/2024-05-01/1012-nq-ubtvqh15.gazette.pdf",
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/3/41523/49400-1-2024479-4801012-nq-ubtvqh15.pdf"
+        }
+      ],
       "code": "1012/NQ-UBTVQH15",
-      "discovery_status": "official_not_found",
+      "code_match_status": "exact",
+      "date_match_status": "plausible_effective_lag",
+      "discovery_status": "verified_official_match",
       "effective_date": "2024-05-01",
+      "effective_gap_days": 43,
+      "gazette_record_id": 41523,
       "instrument_id": "1012/NQ-UBTVQH15@2024-05-01",
+      "issued_date": "2024-03-19",
       "metadata_path": "legal/ward/2024-05-01/1012-nq-ubtvqh15.metadata.html",
-      "metadata_url": "",
+      "metadata_url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-1012-nq-ubtvqh15-41523.htm",
+      "official_code": "1012/NQ-UBTVQH15",
       "secondary_urls": [
         "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-1012-NQ-UBTVQH15-2024-thanh-lap-phuong-An-Dien-Binh-Duong-606079.aspx"
       ],
+      "source_provider": "government_gazette",
       "title_variants": [
         "Nghị quyết vv thành lập phường An Điền, phường An Tây thuộc thị xã Bến Cát và thành lập thành phố Bến Cát, tỉnh Bình Dương"
       ]
     },
     {
-      "attachments": [],
+      "attachments": [
+        {
+          "media_type": "pdf",
+          "path": "legal/ward/2024-05-01/1013-nq-ubtvqh15.gazette.pdf",
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/3/41533/49417-1-2024485-4861013-nq-ubtvqh15.pdf"
+        }
+      ],
       "code": "1013/NQ-UBTVQH15",
-      "discovery_status": "official_not_found",
+      "code_match_status": "exact",
+      "date_match_status": "plausible_effective_lag",
+      "discovery_status": "verified_official_match",
       "effective_date": "2024-05-01",
+      "effective_gap_days": 43,
+      "gazette_record_id": 41533,
       "instrument_id": "1013/NQ-UBTVQH15@2024-05-01",
+      "issued_date": "2024-03-19",
       "metadata_path": "legal/ward/2024-05-01/1013-nq-ubtvqh15.metadata.html",
-      "metadata_url": "",
+      "metadata_url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-1013-nq-ubtvqh15-41533.htm",
+      "official_code": "1013/NQ-UBTVQH15",
       "secondary_urls": [
         "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-1013-NQ-UBTVQH15-2024-thanh-lap-cac-phuong-thuoc-thi-xa-Go-Cong-Tien-Giang-606022.aspx"
       ],
+      "source_provider": "government_gazette",
       "title_variants": [
         "Nghị quyết về việc sắp xếp, thành lập các phường thuộc thị xã Gò Công và thành lập thành phố Gò Công, tỉnh Tiền Giang"
       ]
@@ -8460,14 +8577,27 @@
       ]
     },
     {
-      "attachments": [],
+      "attachments": [
+        {
+          "media_type": "pdf",
+          "path": "legal/ward/2024-11-01/1192-nq-ubtvqh.gazette.pdf",
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42858/52017-1-20241117-11181192-nq-ubtvqh15.pdf"
+        }
+      ],
       "code": "1192/NQ-UBTVQH",
-      "discovery_status": "official_not_found",
+      "code_match_status": "official_code_differs",
+      "date_match_status": "plausible_effective_lag",
+      "discovery_status": "verified_official_match",
       "effective_date": "2024-11-01",
+      "effective_gap_days": 34,
+      "gazette_record_id": 42858,
       "instrument_id": "1192/NQ-UBTVQH@2024-11-01",
+      "issued_date": "2024-09-28",
       "metadata_path": "legal/ward/2024-11-01/1192-nq-ubtvqh.metadata.html",
-      "metadata_url": "",
+      "metadata_url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-1192-nq-ubtvqh15-42858.htm",
+      "official_code": "1192/NQ-UBTVQH15",
       "secondary_urls": [],
+      "source_provider": "government_gazette",
       "title_variants": [
         "Nghị quyết về việc sắp xếp đơn vị hành chính cấp xã của thành phố Cần Thơ giai đoạn 2023-2025"
       ]
@@ -10381,15 +10511,15 @@
   "summary": {
     "index_date_anomalies": 1,
     "instruments": 449,
-    "official_attachments": 392,
-    "official_code_differences": 9,
-    "official_matches": 392,
-    "preserved_artifacts": 784,
+    "official_attachments": 402,
+    "official_code_differences": 10,
+    "official_matches": 402,
+    "preserved_artifacts": 804,
     "secondary_tvpl_urls": 107,
     "status_counts": {
-      "official_not_found": 57,
+      "official_not_found": 47,
       "reused_existing_2025_pair": 34,
-      "verified_official_match": 358
+      "verified_official_match": 368
     }
   }
 }

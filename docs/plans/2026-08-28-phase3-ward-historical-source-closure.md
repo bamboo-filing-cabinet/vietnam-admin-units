@@ -294,6 +294,12 @@ territory, title, and named-unit checks.
 
 ### Task 7 — close the source audit
 
+> **2026-08-28 handoff:** Task 7 is in progress. Official Gazette recovery plus
+> canonical Resolution 14 reduced the change-bearing source residue from 55 to
+> 44 (26 missing, 18 secondary-only). The materialized coverage JSON is stale
+> at the old count, and official VBPL pages are the next recovery path. Resume from
+> `docs/journals/2026-08-28.09.ward-source-audit-handoff.md`; do not start Task 8.
+
 Add a command that regenerates the coverage JSON and prints a concise audit.
 Write a dated completion journal containing final counts, reviewed exceptions,
 source outages, and any corrections made only in derived data.

@@ -11,6 +11,8 @@ artifacts use paths derived from normalized effective date + instrument code.
 
 Usage:
   uv run python -m vn_admin_units.ward_legal_fetch --discover
+  uv run python -m vn_admin_units.ward_legal_fetch --gazette-recover
+  uv run python -m vn_admin_units.ward_legal_fetch --fetch-supplemental
   uv run python -m vn_admin_units.ward_legal_fetch --fetch
   uv run python -m vn_admin_units.ward_legal_fetch --check
 """
@@ -43,18 +45,23 @@ SECONDARY_URLS = (
     Path("data/ward-legal-secondary-urls.json"),
 )
 REGISTRY = Path("data/ward-legal-sources.json")
+LEGAL_LINKAGE_OVERRIDES = Path("data/ward-legal-linkage-overrides.json")
 
 PORTAL_ROOT = "https://chinhphu.vn"
 PORTAL_LIST = f"{PORTAL_ROOT}/he-thong-van-ban"
 FORM_PREFIX = "ctrl_191017_163$"
+GAZETTE_ROOT = "https://congbao.chinhphu.vn"
+GAZETTE_SEARCH = "https://api-searchcongbao.chinhphu.vn/search/van-ban"
 EXPECTED_INSTRUMENTS = 449
 EXPECTED_REUSED_2025 = 34
 
 _OFFICIAL_HOSTS = {
+    "api-searchcongbao.chinhphu.vn",
     "baochinhphu.vn",
     "chinhphu.vn",
     "congbao.chinhphu.vn",
     "datafiles.chinhphu.vn",
+    "gov.vn",
     "quochoi.vn",
     "vanban.chinhphu.vn",
     "vbpl.vn",
@@ -327,6 +334,110 @@ class PortalSearch:
         return parse_search_results(response.content)
 
 
+def _gazette_metadata_url(item: dict) -> str:
+    document_type = "-".join(
+        _fold_text(str(item.get("loai_van_ban", "van ban"))).split()
+    )
+    code = code_slug(str(item["so_ky_hieu"]))
+    return f"{GAZETTE_ROOT}/van-ban/{document_type}-so-{code}-{item['id_van_ban']}.htm"
+
+
+def _is_gazette_pdf(file: dict) -> bool:
+    extension = str(file.get("file_extension", "")).casefold()
+    url_path = urlparse(str(file.get("duong_dan", ""))).path.casefold()
+    return extension == "pdf" or extension.endswith("pdf") or url_path.endswith("pdf")
+
+
+def parse_gazette_results(payload: dict) -> list[dict]:
+    """Normalize official Gazette API hits and retain publication PDFs."""
+    if payload.get("success") is not True or not isinstance(payload.get("data"), list):
+        raise ValueError("official Gazette search response has an unexpected shape")
+    results = []
+    for item in payload["data"]:
+        required = ("id_van_ban", "so_ky_hieu", "ngay_ban_hanh", "trich_yeu")
+        if not all(item.get(key) for key in required):
+            continue
+        pdf_urls = list(dict.fromkeys(
+            str(file.get("duong_dan", ""))
+            for file in item.get("danh_sach_tep_van_ban") or []
+            if file.get("duong_dan") and _is_gazette_pdf(file)
+        ))
+        if not pdf_urls:
+            continue
+        results.append({
+            "code": normalize_code(item["so_ky_hieu"]),
+            "issued_date": normalize_issue_date(str(item["ngay_ban_hanh"])[:10]),
+            "title": " ".join(str(item["trich_yeu"]).split()),
+            "metadata_url": _gazette_metadata_url(item),
+            "attachment_urls": pdf_urls,
+            "gazette_record_id": int(item["id_van_ban"]),
+        })
+    return results
+
+
+def parse_gazette_detail(content: bytes, source_url: str) -> dict:
+    """Read validation fields and direct publication PDFs from a Gazette page."""
+    document = _decode_html(content, f"official Gazette metadata page {source_url}")
+    fields = {}
+    rows = document.xpath(
+        '//div[contains(concat(" ", normalize-space(@class), " "), " row ")]'
+    )
+    for row in rows:
+        label = _fold_text(
+            " ".join(row.xpath('string(.//*[contains(@class,"name")])').split())
+        )
+        value = " ".join(
+            row.xpath('string(.//*[contains(@class,"value")])').split()
+        )
+        if label in {"so ky hieu", "ngay ban hanh", "trich yeu"} and value:
+            fields[label] = value
+    missing = sorted({"so ky hieu", "ngay ban hanh", "trich yeu"} - fields.keys())
+    if missing:
+        raise ValueError(f"official Gazette metadata page is missing fields: {missing}")
+    attachments = list(dict.fromkeys(document.xpath(
+        '//div[@data-contentvanban="loadtep"]//a[@data-href]/@data-href'
+    )))
+    if not attachments:
+        raise ValueError("official Gazette metadata page has no direct publication PDF")
+    return {
+        "code": normalize_code(fields["so ky hieu"]),
+        "issued_date": normalize_issue_date(fields["ngay ban hanh"]),
+        "title": fields["trich yeu"],
+        "attachment_urls": attachments,
+    }
+
+
+class GazetteSearch:
+    """Search the public Government Gazette API with year-bounded titles."""
+
+    def __init__(self, *, timeout: int = 120, session=None):
+        self.timeout = timeout
+        self.session = session or requests.Session()
+
+    def search(self, record: dict) -> list[dict]:
+        effective_year = date.fromisoformat(record["effective_date"]).year
+        candidates = {}
+        for title in record["title_variants"]:
+            response = self.session.post(
+                GAZETTE_SEARCH,
+                json={
+                    "filters": {
+                        "filters_mode": "or",
+                        "nam": [str(effective_year - 1), str(effective_year)],
+                    },
+                    "page": 1,
+                    "page_size": 100,
+                    "query": title,
+                },
+                headers={"accept": "application/json"},
+                timeout=self.timeout,
+            )
+            response.raise_for_status()
+            for candidate in parse_gazette_results(response.json()):
+                candidates[candidate["metadata_url"]] = candidate
+        return list(candidates.values())
+
+
 def _secondary_url_map(paths: tuple[Path, ...] = SECONDARY_URLS) -> dict[str, list[str]]:
     result: dict[str, list[str]] = {}
     for path in paths:
@@ -468,6 +579,95 @@ def discover_instrument(record: dict, *, search: PortalSearch,
         }
 
 
+def _gazette_attachment_relpaths(code: str, effective_date: str,
+                                 count: int) -> list[str]:
+    base = cache_base(code, effective_date)
+    if count == 1:
+        return [f"{base}.gazette.pdf"]
+    return [f"{base}.gazette-{index:02d}.pdf" for index in range(1, count + 1)]
+
+
+def _same_instrument_number(left: str, right: str) -> bool:
+    left_match = re.match(r"^(\d+)", normalize_code(left))
+    right_match = re.match(r"^(\d+)", normalize_code(right))
+    return bool(
+        left_match and right_match and left_match.group(1) == right_match.group(1)
+    )
+
+
+def discover_gazette_instrument(record: dict, *, search: GazetteSearch,
+                                secondary_urls: list[str] | None = None) -> dict | None:
+    """Return a verified Gazette replacement, or ``None`` when none qualifies."""
+    try:
+        ranked = []
+        for candidate in search.search(record):
+            code_match_status = (
+                "exact" if candidate["code"] == record["code"]
+                else "official_code_differs"
+            )
+            similarity = _title_similarity(record["title_variants"], candidate["title"])
+            if code_match_status == "official_code_differs" and (
+                similarity < 0.85
+                or not _same_instrument_number(record["code"], candidate["code"])
+            ):
+                continue
+            try:
+                similarity = _validate_candidate(
+                    record,
+                    candidate,
+                    allow_code_mismatch=(code_match_status == "official_code_differs"),
+                )
+            except ValueError:
+                continue
+            issued = date.fromisoformat(candidate["issued_date"])
+            effective = date.fromisoformat(record["effective_date"])
+            ranked.append((
+                code_match_status != "exact",
+                -similarity,
+                (effective - issued).days,
+                candidate["metadata_url"],
+                code_match_status,
+                candidate,
+            ))
+        if not ranked:
+            return None
+        *_, code_match_status, candidate = sorted(ranked)[0]
+        _require_official_url(candidate["metadata_url"])
+        for url in candidate["attachment_urls"]:
+            _require_official_url(url)
+        paths = _gazette_attachment_relpaths(
+            record["code"], record["effective_date"], len(candidate["attachment_urls"]),
+        )
+        effective_gap_days = (
+            date.fromisoformat(record["effective_date"])
+            - date.fromisoformat(candidate["issued_date"])
+        ).days
+        return {
+            **record,
+            "discovery_status": "verified_official_match",
+            "source_provider": "government_gazette",
+            "gazette_record_id": candidate["gazette_record_id"],
+            "official_code": candidate["code"],
+            "code_match_status": code_match_status,
+            "issued_date": candidate["issued_date"],
+            "effective_gap_days": effective_gap_days,
+            "date_match_status": (
+                "plausible_effective_lag"
+                if effective_gap_days <= 366
+                else "index_date_anomaly"
+            ),
+            "metadata_url": candidate["metadata_url"],
+            "metadata_path": metadata_relpath(record["code"], record["effective_date"]),
+            "attachments": [
+                {"url": url, "path": path, "media_type": "pdf"}
+                for url, path in zip(candidate["attachment_urls"], paths, strict=True)
+            ],
+            "secondary_urls": secondary_urls or [],
+        }
+    except (requests.RequestException, ValueError):
+        return None
+
+
 def discover_registry(*, workers: int = 4, timeout: int = 120,
                       records: list[dict] | None = None) -> dict:
     instruments = records or _instrument_records()
@@ -540,6 +740,71 @@ def retry_registry(*, path: Path = REGISTRY, workers: int = 2,
             print(
                 f"  {completed:>3}/{len(unresolved)} "
                 f"{result['discovery_status']:<29} {result['instrument_id']}"
+            )
+    instruments = [
+        replacements.get(item["instrument_id"], item)
+        for item in registry["instruments"]
+    ]
+    registry["instruments"] = instruments
+    registry["summary"] = _registry_summary(instruments)
+    write_registry(registry, path)
+    return registry
+
+
+def recover_registry_from_gazette(*, path: Path = REGISTRY, workers: int = 4,
+                                  timeout: int = 120) -> dict:
+    """Search unresolved rows in the official Gazette and retain validated hits."""
+    registry = json.loads(path.read_text(encoding="utf-8"))
+    instruments = []
+    for item in registry["instruments"]:
+        if (
+            item.get("source_provider") == "government_gazette"
+            and item.get("code_match_status") == "official_code_differs"
+            and not _same_instrument_number(item["code"], item["official_code"])
+        ):
+            item = {
+                key: item[key]
+                for key in ("instrument_id", "code", "effective_date", "title_variants")
+            } | {
+                "discovery_status": "official_not_found",
+                "metadata_url": "",
+                "metadata_path": metadata_relpath(item["code"], item["effective_date"]),
+                "attachments": [],
+                "secondary_urls": item.get("secondary_urls", []),
+            }
+        instruments.append(item)
+    registry["instruments"] = instruments
+    unresolved = [
+        item for item in registry["instruments"]
+        if item["discovery_status"] == "official_not_found"
+    ]
+    local = threading.local()
+
+    def recover(item):
+        if not hasattr(local, "search"):
+            local.search = GazetteSearch(timeout=timeout)
+        record = {
+            key: item[key]
+            for key in ("instrument_id", "code", "effective_date", "title_variants")
+        }
+        result = discover_gazette_instrument(
+            record,
+            search=local.search,
+            secondary_urls=item.get("secondary_urls", []),
+        )
+        return item, result
+
+    replacements = {}
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        futures = {executor.submit(recover, item): item for item in unresolved}
+        for completed, future in enumerate(as_completed(futures), start=1):
+            original, result = future.result()
+            if result is not None:
+                replacements[result["instrument_id"]] = result
+            print(
+                f"  {completed:>3}/{len(unresolved)} "
+                f"{'verified_gazette_match' if result else 'gazette_not_found':<29} "
+                f"{original['instrument_id']}"
             )
     instruments = [
         replacements.get(item["instrument_id"], item)
@@ -689,7 +954,12 @@ def fetch_registry(*, registry_path: Path = REGISTRY, timeout: int = 120,
         metadata_status = "cached"
         if not rawcache.raw_is_verified(item["metadata_path"]):
             response = _get(session, item["metadata_url"], timeout=timeout)
-            detail = parse_official_detail(response.content, item["metadata_url"])
+            is_gazette = item.get("source_provider") == "government_gazette"
+            detail = (
+                parse_gazette_detail(response.content, item["metadata_url"])
+                if is_gazette
+                else parse_official_detail(response.content, item["metadata_url"])
+            )
             candidate = {**detail, "metadata_url": item["metadata_url"]}
             validation_item = {**item, "code": item.get("official_code", item["code"])}
             _validate_candidate(validation_item, candidate)
@@ -703,7 +973,12 @@ def fetch_registry(*, registry_path: Path = REGISTRY, timeout: int = 120,
                 "source_url": item["metadata_url"],
                 "source_class": "official",
                 "source_role": "legal_metadata",
-                "method": "official Government legal metadata HTML",
+                "method": (
+                    "official Government Gazette metadata HTML"
+                    if is_gazette
+                    else "official Government legal metadata HTML"
+                ),
+                "source_provider": item.get("source_provider", "government_legal_portal"),
                 "document_code": item["code"],
                 "official_document_code": item.get("official_code", item["code"]),
                 "issued_date": item["issued_date"],
@@ -727,7 +1002,12 @@ def fetch_registry(*, registry_path: Path = REGISTRY, timeout: int = 120,
                 "source_url": attachment["url"],
                 "source_class": "official",
                 "source_role": "legal_original_attachment",
-                "method": "official Government legal original attachment",
+                "method": (
+                    "official Government Gazette publication PDF"
+                    if item.get("source_provider") == "government_gazette"
+                    else "official Government legal original attachment"
+                ),
+                "source_provider": item.get("source_provider", "government_legal_portal"),
                 "document_code": item["code"],
                 "official_document_code": item.get("official_code", item["code"]),
                 "issued_date": item["issued_date"],
@@ -750,6 +1030,43 @@ def fetch_registry(*, registry_path: Path = REGISTRY, timeout: int = 120,
             f"  {item['instrument_id']}: metadata {metadata_status}, "
             f"attachments {','.join(attachment_statuses) or 'none'}"
         )
+    return results
+
+
+def fetch_supplemental_sources(*, overrides_path: Path = LEGAL_LINKAGE_OVERRIDES,
+                               timeout: int = 120, session=None) -> list[dict]:
+    """Archive official artifacts for canonical instruments absent from the index."""
+    overrides = json.loads(overrides_path.read_text(encoding="utf-8"))
+    session = session or requests.Session()
+    results = []
+    for item in overrides["supplemental_instruments"]:
+        source_url = item.get("source_url")
+        source_path = item.get("source_path") or (
+            f"{cache_base(item['code'], item['effective_date'])}.supplemental.doc"
+        )
+        if not source_url:
+            continue
+        if rawcache.raw_is_verified(source_path):
+            results.append({"instrument_id": item["instrument_id"], "status": "cached"})
+            continue
+        response = _get(session, source_url, timeout=timeout)
+        detected_media_type = _validate_attachment(response.content, "doc", source_url)
+        rawcache.save_raw(source_path, response.content, {
+            "source_url": source_url,
+            "source_class": "official",
+            "source_role": "legal_original_attachment",
+            "method": "official provincial government legal original attachment",
+            "source_provider": "dong_nai_provincial_legal_portal",
+            "document_code": item["code"],
+            "official_document_code": item["code"],
+            "issued_date": item["issued_date"],
+            "effective_date": item["effective_date"],
+            "title": item["title"],
+            "declared_media_type": "doc",
+            "detected_media_type": detected_media_type,
+        })
+        results.append({"instrument_id": item["instrument_id"], "status": "fetched"})
+        print(f"  {item['instrument_id']}: supplemental artifact fetched")
     return results
 
 
@@ -845,6 +1162,8 @@ def main(argv: list[str] | None = None) -> None:
     parser = argparse.ArgumentParser(description="Preserve historical ward legal sources.")
     actions = parser.add_mutually_exclusive_group(required=True)
     actions.add_argument("--discover", action="store_true")
+    actions.add_argument("--gazette-recover", action="store_true")
+    actions.add_argument("--fetch-supplemental", action="store_true")
     actions.add_argument("--retry", action="store_true")
     actions.add_argument("--fetch", action="store_true")
     actions.add_argument("--check", action="store_true")
@@ -858,6 +1177,18 @@ def main(argv: list[str] | None = None) -> None:
         registry = discover_registry(workers=args.workers, timeout=args.timeout)
         write_registry(registry, args.registry)
         print(f"wrote {args.registry}: {registry['summary']}")
+    elif args.gazette_recover:
+        registry = recover_registry_from_gazette(
+            path=args.registry, workers=args.workers, timeout=args.timeout,
+        )
+        print(f"updated {args.registry}: {registry['summary']}")
+    elif args.fetch_supplemental:
+        results = fetch_supplemental_sources(timeout=args.timeout)
+        counts = {
+            status: sum(row["status"] == status for row in results)
+            for status in sorted({row["status"] for row in results})
+        }
+        print(f"supplemental fetch complete: {counts}")
     elif args.retry:
         registry = retry_registry(
             path=args.registry, workers=args.workers, timeout=args.timeout,

@@ -34,6 +34,14 @@ class FakeSearch:
         return [] if query is None else [self.candidate]
 
 
+class FakeGazetteSearch:
+    def __init__(self, candidates):
+        self.candidates = candidates
+
+    def search(self, record):
+        return self.candidates
+
+
 def _search_result_html():
     return """
       <table id="ctrl_191017_163_grvDocument">
@@ -63,6 +71,25 @@ def _detail_html():
           <a class="view-file" href="https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/4/nq-237.pdf">nq-237.pdf</a>
         </td></tr>
       </table></body></html>
+    """.encode()
+
+
+def _gazette_detail_html():
+    return """
+      <html><body>
+        <div data-contentvanban="loadtep">
+          <a data-href="https://congbaocdn.chinhphu.vn/CongBaoCP/1192.pdf">issue</a>
+        </div>
+        <div class="table">
+          <div class="row"><span class="name">Số, ký hiệu</span>
+            <div class="value"><span class="child-value">1192/NQ-UBTVQH15</span></div></div>
+          <div class="row"><span class="name">Ngày ban hành</span>
+            <div class="value"><span class="child-value">28/09/2024</span></div></div>
+          <div class="row"><span class="name">Trích yếu</span>
+            <div class="value"><span class="child-value">về việc sắp xếp đơn vị hành chính
+              cấp xã của thành phố Cần Thơ giai đoạn 2023 - 2025.</span></div></div>
+        </div>
+      </body></html>
     """.encode()
 
 
@@ -105,6 +132,113 @@ def test_search_and_detail_parsers_validate_the_2026_acceptance_case():
         "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/4/nq-237.pdf",
     ]
     assert fetcher._validate_candidate(_record(), detail) > 0.85
+
+
+def test_gazette_parsers_retain_direct_publication_pdf_and_validate_metadata():
+    payload = {
+        "success": True,
+        "data": [{
+            "id_van_ban": 42858,
+            "so_ky_hieu": "1192/NQ-UBTVQH15",
+            "ngay_ban_hanh": "2024-09-28T00:00:00",
+            "trich_yeu": "về việc sắp xếp đơn vị hành chính cấp xã của thành phố Cần Thơ",
+            "loai_van_ban": "Nghị quyết",
+            "danh_sach_tep_van_ban": [
+                {
+                    "duong_dan": "https://congbaocdn.chinhphu.vn/CongBaoCP/1192.pdf",
+                    "file_extension": "pdf",
+                },
+                {
+                    "duong_dan": "https://congbaocdn.chinhphu.vn/CongBaoCP/1192.doc",
+                    "file_extension": "doc",
+                },
+            ],
+        }],
+    }
+    assert fetcher.parse_gazette_results(payload) == [{
+        "code": "1192/NQ-UBTVQH15",
+        "issued_date": "2024-09-28",
+        "title": "về việc sắp xếp đơn vị hành chính cấp xã của thành phố Cần Thơ",
+        "metadata_url": (
+            "https://congbao.chinhphu.vn/van-ban/"
+            "nghi-quyet-so-1192-nq-ubtvqh15-42858.htm"
+        ),
+        "attachment_urls": [
+            "https://congbaocdn.chinhphu.vn/CongBaoCP/1192.pdf",
+        ],
+        "gazette_record_id": 42858,
+    }]
+    detail = fetcher.parse_gazette_detail(
+        _gazette_detail_html(), payload["data"][0]["danh_sach_tep_van_ban"][0]["duong_dan"],
+    )
+    assert detail["code"] == "1192/NQ-UBTVQH15"
+    assert detail["issued_date"] == "2024-09-28"
+    assert detail["attachment_urls"] == [
+        "https://congbaocdn.chinhphu.vn/CongBaoCP/1192.pdf",
+    ]
+
+
+def test_gazette_recovery_records_confirmed_index_code_correction():
+    record = {
+        "instrument_id": "1192/NQ-UBTVQH@2024-11-01",
+        "code": "1192/NQ-UBTVQH",
+        "effective_date": "2024-11-01",
+        "title_variants": [
+            "Nghị quyết về việc sắp xếp đơn vị hành chính cấp xã của thành phố "
+            "Cần Thơ giai đoạn 2023-2025"
+        ],
+    }
+    candidate = {
+        "code": "1192/NQ-UBTVQH15",
+        "issued_date": "2024-09-28",
+        "title": (
+            "về việc sắp xếp đơn vị hành chính cấp xã của thành phố Cần Thơ "
+            "giai đoạn 2023 - 2025."
+        ),
+        "metadata_url": (
+            "https://congbao.chinhphu.vn/van-ban/"
+            "nghi-quyet-so-1192-nq-ubtvqh15-42858.htm"
+        ),
+        "attachment_urls": [
+            "https://congbaocdn.chinhphu.vn/CongBaoCP/1192.pdf",
+        ],
+        "gazette_record_id": 42858,
+    }
+    recovered = fetcher.discover_gazette_instrument(
+        record, search=FakeGazetteSearch([candidate]),
+    )
+    assert recovered["source_provider"] == "government_gazette"
+    assert recovered["official_code"] == "1192/NQ-UBTVQH15"
+    assert recovered["code_match_status"] == "official_code_differs"
+    assert recovered["attachments"][0]["path"].endswith(".gazette.pdf")
+
+
+def test_gazette_recovery_rejects_similar_boilerplate_with_different_number():
+    record = {
+        "instrument_id": "820/NQ-UBTVQH14@2020-01-01",
+        "code": "820/NQ-UBTVQH14",
+        "effective_date": "2020-01-01",
+        "title_variants": [
+            "Sắp xếp các đơn vị hành chính cấp xã thuộc tỉnh Bình Thuận"
+        ],
+    }
+    candidate = {
+        "code": "786/NQ-UBTVQH14",
+        "issued_date": "2019-10-16",
+        "title": "về việc sắp xếp các đơn vị hành chính cấp xã thuộc tỉnh Thanh Hóa.",
+        "metadata_url": (
+            "https://congbao.chinhphu.vn/van-ban/"
+            "nghi-quyet-so-786-nq-ubtvqh14-30046.htm"
+        ),
+        "attachment_urls": [
+            "https://congbaocdn.chinhphu.vn/CongBaoCP/786.pdf",
+        ],
+        "gazette_record_id": 30046,
+    }
+    recovered = fetcher.discover_gazette_instrument(
+        record, search=FakeGazetteSearch([candidate]),
+    )
+    assert recovered is None
 
 
 def test_attachment_validation_checks_real_file_signatures():
@@ -195,6 +329,36 @@ def test_fetch_is_offline_after_verified_metadata_and_attachment(tmp_path, monke
     )
     assert second[0]["metadata_status"] == "cached"
     assert second[0]["attachment_statuses"] == ["cached"]
+
+
+def test_supplemental_fetch_archives_canonical_official_artifact(tmp_path, monkeypatch):
+    monkeypatch.setattr(rawcache, "RAW", tmp_path / "raw")
+    monkeypatch.setattr(rawcache, "MANIFEST", tmp_path / "raw" / "manifest.jsonl")
+    overrides_path = tmp_path / "overrides.json"
+    item = {
+        "instrument_id": "14/2008/QH12@2008-07-01",
+        "code": "14/2008/QH12",
+        "effective_date": "2008-07-01",
+        "issued_date": "2008-05-29",
+        "title": "Điều chỉnh địa giới hành chính giữa tỉnh Hà Tây và tỉnh Phú Thọ",
+        "source_url": (
+            "https://ttptquydat.stnmt.dongnai.gov.vn/VN/Vanbanphapquy/"
+            "DownloadFile?fileName=14_2008_QH12.doc"
+        ),
+    }
+    overrides_path.write_text(
+        json.dumps({"supplemental_instruments": [item]}), encoding="utf-8",
+    )
+    session = FakeSession([b"\xd0\xcf\x11\xe0\xa1\xb1\x1a\xe1" + b"legal" * 40])
+
+    result = fetcher.fetch_supplemental_sources(
+        overrides_path=overrides_path, session=session,
+    )
+
+    path = "legal/ward/2008-07-01/14-2008-qh12.supplemental.doc"
+    assert result == [{"instrument_id": item["instrument_id"], "status": "fetched"}]
+    assert rawcache.raw_is_verified(path)
+    assert rawcache.manifest_entry(path)["source_class"] == "official"
 
 
 def test_real_legal_index_includes_2026_acceptance_and_reuses_34_pairs():

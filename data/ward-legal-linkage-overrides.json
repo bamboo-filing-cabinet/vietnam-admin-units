@@ -21,8 +21,9 @@
       "issued_date": "2008-05-29",
       "title": "Điều chỉnh địa giới hành chính giữa tỉnh Hà Tây và tỉnh Phú Thọ, giữa tỉnh Bình Phước và tỉnh Đồng Nai",
       "classification": "parent_or_boundary_only",
-      "source_status": "official_url_unarchived",
+      "source_status": "verified_official_artifact",
       "source_url": "https://ttptquydat.stnmt.dongnai.gov.vn/VN/Vanbanphapquy/DownloadFile?fileName=14_2008_QH12_68075.doc",
+      "source_path": "legal/ward/2008-07-01/14-2008-qh12.supplemental.doc",
       "review_note": "Canonical correction for the two malformed NSO 14/2008/NĐ-CP rows. Article 1 transfers Xã Tân Đức from Hà Tây to Việt Trì, Phú Thọ; Article 4 sets the 2008-07-01 effective date."
     },
     {
