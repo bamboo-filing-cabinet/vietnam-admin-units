@@ -8,7 +8,7 @@ Current audit: **38 primary-source-open instruments**; **36 are tied to observed
 
 The personal-search checkpoint at commit `89107d0` recorded **39 open instruments**, including **37 change-bearing instruments**. Resolution 721/NQ-UBTVQH15 was subsequently recovered from the National Assembly, leaving the current 38/36 queue above.
 
-Exact official-page leads are recorded below for **10 of the 38 current items**. These links are leads only: none count as recovered provenance until the full official page or original attachment is saved, hashed, registered, and verified offline.
+Exact official-page leads are recorded below for **15 of the 38 current items**. These links are leads only: none count as recovered provenance until the full official page or original attachment is saved, hashed, registered, and verified offline.
 
 ## What counts as a useful find
 
@@ -56,17 +56,33 @@ TVPL links are included only to confirm identity and title. TVPL pages, search s
   - Current evidence: no source URL recorded.
   - Official lead (not yet archived): <https://vbpl.vn/bonoivu/Pages/vbpq-toanvan.aspx?ItemID=16488>
   - Official lead (not yet archived): <https://vbpl.vn/bonoivu/Pages/vbpq-print.aspx?ItemID=16488&dvid=320>
-  - Retrieval note: The official page is indexed, but direct retrieval timed out or encountered the vbpl.vn automated-access challenge. Save the full page and any offered original attachment in a normal browser.
+  - Date discrepancy to preserve: registry effective 2006-04-06; official issue 2006-03-22; official effective 2006-04-13.
+  - Retrieval note: Preserve the official issue/effective dates alongside the registry date. The official page is indexed, but direct retrieval timed out or encountered the vbpl.vn automated-access challenge; save the full page and any offered original attachment in a normal browser.
 - [ ] **Change-bearing** `29/2006/NĐ-CP@2006-04-07` — Thành lập phường thuộc thị xã Sơn La, tỉnh Sơn La
   - Current evidence: no source URL recorded.
+  - Official lead (not yet archived): <https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=16493>
+  - Date discrepancy to preserve: registry effective 2006-04-07; official issue 2006-03-23; official effective 2006-04-15.
+  - Retrieval note: Preserve the official issue/effective dates alongside the registry date. Save the full page and any offered original attachment in a normal browser.
 - [ ] **Change-bearing** `34/2006/NĐ-CP@2006-04-15` — Thành lập thị trấn Cát Thành thuộc huyện Trực Ninh, tỉnh Nam Định
   - Current evidence: no source URL recorded.
+  - Official lead (not yet archived): <https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=16357>
+  - Date discrepancy to preserve: registry effective 2006-04-15; official issue 2006-03-31; official effective 2006-04-25.
+  - Retrieval note: Preserve the official issue/effective dates alongside the registry date. Save the full page and any offered original attachment in a normal browser.
 - [ ] **Change-bearing** `39/2006/NĐ-CP@2006-05-06` — Điều chỉnh địa giới hành chính, thành lập các xã thuộc các huyện Chư Sê, Kông Chro, Đăk Đoa, Ia Grai và KBang, tỉnh Gia Lai
   - Current evidence: no source URL recorded.
+  - Official lead (not yet archived): <https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=16253>
+  - Date discrepancy to preserve: registry effective 2006-05-06; official issue 2006-04-21; official effective 2006-05-15.
+  - Retrieval note: Preserve the official issue/effective dates alongside the registry date. Save the full page and any offered original attachment in a normal browser.
 - [ ] **Change-bearing** `60/2006/NĐ-CP@2006-07-04` — V/v điều chỉnh địa giới hành chính xã, phường; thành lập phường thuộc thị xã Tân An, tỉnh Long An
   - Current evidence: no source URL recorded.
+  - Official lead (not yet archived): <https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=15926>
+  - Date discrepancy to preserve: registry effective 2006-07-04; official issue 2006-06-19; official effective 2006-07-13.
+  - Retrieval note: Preserve the official issue/effective dates alongside the registry date. Save the full page and any offered original attachment in a normal browser.
 - [ ] **Change-bearing** `64/2006/NĐ-CP@2006-07-08` — V/v điều chỉnh địa giới hành chính xã, phường của thị xã Hà Giang và huyện Vị Xuyên, tỉnh Hà Giang
   - Current evidence: no source URL recorded.
+  - Official lead (not yet archived): <https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=15920>
+  - Date discrepancy to preserve: registry effective 2006-07-08; official issue 2006-06-23; official effective 2006-07-16.
+  - Retrieval note: Preserve the official issue/effective dates alongside the registry date. Save the full page and any offered original attachment in a normal browser.
 
 ### 2007
 
