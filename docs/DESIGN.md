@@ -320,8 +320,13 @@ assemblies need non-GSO sources.
   crosswalk reconciliation is **DONE** (`2026-08-28.06`): 15 narrowly targeted
   exports raise the verified inventory to 39 files, close 14/15 initial target
   windows, and leave eight components in four explicit 2004 code-transition
-  pairs as machine-counted source residue. Next, preserve the historical legal
-  corpus (plan Task 5). Full
+  pairs as machine-counted source residue. Historical legal preservation is
+  **DONE** (`2026-08-28.07`): 392/449 instruments have 784 verified official
+  artifacts, including 358 newly archived Government metadata/original pairs
+  and the 34 reused 2025 pairs. The 57 portal misses remain explicit (22 with
+  secondary TVPL discovery links, 35 missing); no secondary page is promoted to
+  authority. Next, classify all 449 instruments and link legal/source-clause
+  evidence to the 179 observed events (plan Task 6). Full
   2002→present provenance is not yet closed. The next graph-building slice remains promotion
   of this boundary topology into canonical ward entities/`LineageEdge` records.
   See `docs/plans/2026-08-28-phase3-ward-historical-source-closure.md`. Wikidata

@@ -26,7 +26,14 @@ re-scrape it.
 > supports 35,342/35,350 observed components after 15 targeted exports and a
 > long-range fallback. The eight remaining components are four paired 2004
 > code-transition omissions, retained as explicit residue. See journal
-> `2026-08-28.06`. **Resume at Task 5: preserve the historical legal corpus.**
+> `2026-08-28.06`.
+>
+> **Task 5 complete (2026-08-28).** The generic legal fetcher preserves 358 new
+> official metadata/original pairs and reuses the 34 closed 2025 pairs: 392/449
+> instruments now have 784 verified primary artifacts. The registry retains 57
+> official-portal misses, including 22 with secondary TVPL links and 35 with no
+> recovered source. See journal `2026-08-28.07`. **Resume at Task 6: classify
+> every legal record and link instruments/source clauses to observed events.**
 
 ## Outcome
 
@@ -239,6 +246,17 @@ effective dates. Do not blanket-download all 369 emergency-bracketed dates
 unless the ledger demonstrates that the reviewed 204-date plan is insufficient.
 
 ### Task 5 — preserve the historical legal corpus
+
+**Status: DONE (`2026-08-28.07`).** `ward_legal_fetch.py` discovers records
+through the Government legal portal, validates code/date/title metadata,
+preserves original bytes at deterministic code/date paths, and is offline and
+idempotent once the cache verifies. It recovered 358 new official pairs,
+reused 34 audited 2025 pairs, accepted `237/NQ-UBTVQH16` as the non-2025
+end-to-end case, and recorded all 57 portal misses without upgrading secondary
+links. Nine malformed index codes retain both index and official spellings; one
+long effective-date gap is labeled as an index anomaly. The 784 official
+artifacts remain verbatim rather than gzipped so their published formats and
+signatures are directly inspectable.
 
 Add a generic ward legal-source fetcher rather than extending the 2025-only
 resolution-number assumptions. For each confirmed or still-plausible

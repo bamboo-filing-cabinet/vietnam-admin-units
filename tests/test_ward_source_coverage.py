@@ -7,6 +7,7 @@ from vn_admin_units.ward_source_coverage import (
     index_legal_sources,
     normalize_date,
     serialize_coverage,
+    ward_crosswalk_manifest_fingerprint,
 )
 
 
@@ -46,6 +47,7 @@ def test_duplicate_legal_rows_collapse_without_losing_title_variants():
         "classification": "unresolved",
         "review_status": "pending",
         "source_status": "missing",
+        "source_discovery": {"discovery_status": "not_registered"},
         "primary_sources": [],
         "secondary_sources": [],
         "event_ids": [],
@@ -99,6 +101,27 @@ def test_crosswalk_kinds_are_explicit():
     assert crosswalk_kind("crosswalk/ward_2025-07-01_2026-08-27.xls") == "post_reform"
 
 
+def test_crosswalk_fingerprint_ignores_unrelated_legal_artifacts():
+    crosswalk = {
+        "path": "crosswalk/ward_2024-01-01_2025-01-01.xls",
+        "sha256": "crosswalk-hash",
+        "bytes": 123,
+        "rows": 10,
+    }
+    legal = {
+        "path": "legal/ward/2026-04-30/237.metadata.html",
+        "sha256": "legal-hash",
+        "bytes": 456,
+    }
+
+    assert ward_crosswalk_manifest_fingerprint([crosswalk]) == (
+        ward_crosswalk_manifest_fingerprint([crosswalk, legal])
+    )
+    assert ward_crosswalk_manifest_fingerprint([crosswalk]) != (
+        ward_crosswalk_manifest_fingerprint([{**crosswalk, "sha256": "changed"}])
+    )
+
+
 def test_real_locked_baseline_builds_deterministically():
     coverage = build_coverage()
     summary = coverage["summary"]
@@ -116,13 +139,17 @@ def test_real_locked_baseline_builds_deterministically():
     assert summary["duplicate_instrument_keys"] == 4
     assert summary["verified_2025_resolution_pairs"] == 34
     assert summary["unclassified_instruments"] == 415
+    assert summary["primary_source_open_instruments"] == 57
+    assert summary["official_source_matches"] == 392
+    assert summary["official_source_not_found"] == 57
+    assert summary["secondary_tvpl_urls"] == 107
     assert summary["observed_change_intervals"] == 179
     assert summary["events"] == 179
     assert summary["crosswalk_supported_events"] == 178
     assert summary["crosswalk_residue_events"] == 1
-    assert coverage["scope"]["next_task"] == 5
+    assert coverage["scope"]["next_task"] == 6
     assert coverage["residue"]["event_inventory_status"] == (
-        "crosswalk_reconciled_legal_linking_pending"
+        "legal_sources_preserved_classification_linking_pending"
     )
     assert coverage["residue"]["crosswalk_residue_event_ids"] == [
         "soap:2004-01-01->2004-07-01",

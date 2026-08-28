@@ -28,7 +28,7 @@ vietnam-elections     vietnam-elections-wikidata
 2. **Set up + verify:**
    ```sh
    uv sync
-   uv run pytest -q                          # 181 tests pass
+   uv run pytest -q                          # 188 tests pass
    ```
 
    **Phases 1 and 2 are complete and uploaded to Wikidata (provinces + districts).** The next work is **Phase 3 (wards)** — read the "Phase 2" block under [Status](#status) for the post-upload verification step and the roadmap pointer.
@@ -95,14 +95,18 @@ now complete offline. Before claiming complete 2002→present ward provenance,
 execute the historical source-closure plan. **Task 1 is complete:** all 21
 historical yearly crosswalks and all 24 ward crosswalk artifacts verify. **Task
 2 is also complete:** `data/ward-source-coverage.json` inventories the complete
-offline denominator and exposes 415 unclassified/source-open instruments.
+offline denominator and initially exposed 415 unclassified/source-open instruments.
 **Task 3 is complete:** `data/ward-observed-changes.json` deterministically
 enumerates all 203 adjacent SOAP intervals, including 179 change-bearing
 intervals and 24 verified no-change intervals. **Task 4 is complete:** 15
 targeted exports bring the verified crosswalk inventory to 39 files; 35,342 of
 35,350 observed components have crosswalk support, with the remaining eight
-confined to four explicit 2004 code-transition pairs. **Resume at Task 5:
-preserve the historical legal corpus.** The next graph-building
+confined to four explicit 2004 code-transition pairs. **Task 5 is complete:**
+`data/ward-legal-sources.json` records all 449 instruments; 392 have 784 verified
+official artifacts (358 newly preserved pairs plus the 34 reused 2025 pairs),
+while 57 official-portal misses remain explicit (22 secondary-only, 35 missing).
+**Resume at Task 6: classify all legal records and link instruments/source
+clauses to the 179 observed events.** The next graph-building
 slice is still to promote `data/ward-2025-boundary.json` +
 `data/ward-2025-composition.json` into canonical ward entities and
 `LineageEdge` records, then run reconciliation/audit; do not emit or upload
@@ -112,6 +116,7 @@ Wikidata statements yet. Read the source-closure
 [`Task 2 journal`](docs/journals/2026-08-28.04.ward-source-coverage-ledger.md),
 [`Task 3 journal`](docs/journals/2026-08-28.05.ward-observed-change-inventory.md),
 [`Task 4 journal`](docs/journals/2026-08-28.06.ward-crosswalk-reconciliation.md),
+[`Task 5 journal`](docs/journals/2026-08-28.07.ward-legal-source-corpus.md),
 and boundary journal
 [`2026-08-28.02`](docs/journals/2026-08-28.02.ward-2025-composition-lineage.md)
 for the exact handoff and acceptance counts.

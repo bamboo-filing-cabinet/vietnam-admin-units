@@ -27,9 +27,13 @@
 > `docs/plans/2026-08-28-phase3-ward-2025-boundary.md`. The composition follow-up
 > preserves 34 signed provincial resolutions plus official full-text HTML and
 > closes every predecessor: 10,586 edges, 459 split predecessors, zero residue
-> (`docs/journals/2026-08-28.02.ward-2025-composition-lineage.md`). Next, promote
-> these boundary records into canonical entities/`LineageEdge` objects and run
-> reconciliation/audit. Wikidata emission is still gated on that work.
+> (`docs/journals/2026-08-28.02.ward-2025-composition-lineage.md`). Historical
+> source Tasks 1–5 are also complete: the 204 SOAP snapshots and 39 crosswalks
+> verify, and 392/449 legal instruments now have 784 archived official artifacts
+> (`docs/journals/2026-08-28.03`–`.07`). Resume at source-closure Task 6:
+> classify every legal record and link source clauses to observed events. Only
+> after the source audit closes should the historical records be promoted into
+> canonical entities/`LineageEdge` objects. Wikidata emission remains gated.
 
 Extends `DESIGN.md` (the overarching design + decisions log). **Phase 1**
 delivered the *2025-reform province slice* (`docs/plans/2026-07-10-phase1-

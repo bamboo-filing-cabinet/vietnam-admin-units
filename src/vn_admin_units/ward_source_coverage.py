@@ -29,6 +29,7 @@ LEGAL_INDEX = Path("data/raw/nghidinh.json")
 MANIFEST = Path("data/raw/manifest.jsonl")
 OBSERVED_CHANGES = Path("data/ward-observed-changes.json")
 RECONCILIATION = Path("data/ward-crosswalk-reconciliation.json")
+LEGAL_SOURCES = Path("data/ward-legal-sources.json")
 OUTPUT = Path("data/ward-source-coverage.json")
 
 SOURCE_FLOOR = "2002-01-01"
@@ -92,6 +93,27 @@ def _load_manifest(path: Path = MANIFEST) -> list[dict]:
     return records
 
 
+def ward_crosswalk_manifest_fingerprint(entries: list[dict]) -> str:
+    """Hash only the raw crosswalk inputs consumed by reconciliation."""
+    relevant = [
+        {
+            "path": entry["path"],
+            "sha256": entry["sha256"],
+            "bytes": entry["bytes"],
+            "rows": entry.get("rows", 0),
+        }
+        for entry in entries
+        if _WARD_CROSSWALK.fullmatch(entry["path"])
+    ]
+    rendered = json.dumps(
+        sorted(relevant, key=lambda entry: entry["path"]),
+        ensure_ascii=False,
+        separators=(",", ":"),
+        sort_keys=True,
+    ).encode()
+    return hashlib.sha256(rendered).hexdigest()
+
+
 def _require(label: str, actual, expected) -> None:
     if actual != expected:
         raise ValueError(f"locked {label} drifted: expected {expected!r}, got {actual!r}")
@@ -125,6 +147,8 @@ def _source_descriptor(entry: dict) -> dict:
         "sha256": entry["sha256"],
         "bytes": entry["bytes"],
         "retrieved_at": entry.get("retrieved_at", ""),
+        "declared_media_type": entry.get("declared_media_type", ""),
+        "detected_media_type": entry.get("detected_media_type", ""),
     }
 
 
@@ -164,7 +188,58 @@ def _is_closed_2025_pair(code: str, effective_date: str, primary: list[dict]) ->
     )
 
 
-def build_instruments(records: list[dict], source_index: dict) -> list[dict]:
+def _load_legal_registry(path: Path) -> tuple[dict, dict]:
+    registry = json.loads(path.read_text(encoding="utf-8"))
+    instruments = registry.get("instruments", [])
+    if len(instruments) != LOCKED["unique_ward_instruments"]:
+        raise ValueError(
+            "legal source registry denominator drifted: "
+            f"expected {LOCKED['unique_ward_instruments']}, got {len(instruments)}"
+        )
+    indexed = {item["instrument_id"]: item for item in instruments}
+    if len(indexed) != len(instruments):
+        raise ValueError("legal source registry contains duplicate instrument IDs")
+    return registry, indexed
+
+
+def _secondary_registry_sources(item: dict) -> list[dict]:
+    return [
+        {
+            "path": "",
+            "source_url": url,
+            "source_class": "secondary",
+            "media_type": "metadata_url",
+            "method": "secondary legal discovery URL (not archived as primary evidence)",
+            "sha256": "",
+            "bytes": 0,
+            "retrieved_at": "",
+            "declared_media_type": "",
+            "detected_media_type": "",
+        }
+        for url in item.get("secondary_urls", [])
+    ]
+
+
+def _source_discovery(item: dict | None) -> dict:
+    if item is None:
+        return {"discovery_status": "not_registered"}
+    return {
+        key: item[key]
+        for key in (
+            "discovery_status",
+            "official_code",
+            "code_match_status",
+            "issued_date",
+            "effective_gap_days",
+            "date_match_status",
+            "metadata_url",
+        )
+        if key in item
+    }
+
+
+def build_instruments(records: list[dict], source_index: dict,
+                      registry_index: dict | None = None) -> list[dict]:
     """Collapse legal-index duplicates into stable instrument records."""
     grouped: dict[tuple[str, str], list[dict]] = defaultdict(list)
     for record in records:
@@ -172,10 +247,18 @@ def build_instruments(records: list[dict], source_index: dict) -> list[dict]:
         grouped[key].append(record)
 
     instruments = []
+    registry_index = registry_index or {}
     for (code, effective_date), variants in sorted(grouped.items(), key=lambda item: (item[0][1], item[0][0])):
         sources = source_index.get((code, effective_date), [])
         primary = [source for source in sources if source["source_class"] == "official"]
+        instrument_id = f"{code}@{effective_date}"
+        registry_item = registry_index.get(instrument_id)
         secondary = [source for source in sources if source["source_class"] != "official"]
+        secondary.extend(_secondary_registry_sources(registry_item or {}))
+        secondary = sorted(
+            {source["source_url"]: source for source in secondary}.values(),
+            key=lambda source: (source["media_type"], source["source_url"]),
+        )
         urls = sorted({str(record.get("url", "")).strip() for record in variants if str(record.get("url", "")).strip()})
         official_metadata = any(_source_class({"source_url": url}) == "official" for url in urls)
         if primary:
@@ -189,7 +272,7 @@ def build_instruments(records: list[dict], source_index: dict) -> list[dict]:
 
         closed_2025 = _is_closed_2025_pair(code, effective_date, primary)
         instruments.append({
-            "instrument_id": f"{code}@{effective_date}",
+            "instrument_id": instrument_id,
             "code": code,
             "effective_date": effective_date,
             "index_occurrences": len(variants),
@@ -198,6 +281,7 @@ def build_instruments(records: list[dict], source_index: dict) -> list[dict]:
             "classification": "lineage" if closed_2025 else "unresolved",
             "review_status": "verified_2025_boundary" if closed_2025 else "pending",
             "source_status": source_status,
+            "source_discovery": _source_discovery(registry_item),
             "primary_sources": primary,
             "secondary_sources": secondary,
             "event_ids": [],
@@ -403,7 +487,9 @@ def _crosswalk_reconciliation_inventory(path: Path, *, manifest_path: Path,
     reconciliation = json.loads(path.read_text(encoding="utf-8"))
     fingerprints = reconciliation.get("input_fingerprints", {})
     expected = {
-        "manifest_sha256": _sha256(manifest_path),
+        "ward_crosswalk_manifest_sha256": ward_crosswalk_manifest_fingerprint(
+            _load_manifest(manifest_path)
+        ),
         "legal_index_sha256": _sha256(legal_index_path),
         "observed_changes_sha256": _sha256(observed_changes_path),
     }
@@ -438,7 +524,8 @@ def _crosswalk_reconciliation_inventory(path: Path, *, manifest_path: Path,
 def build_coverage(*, manifest_path: Path = MANIFEST,
                    legal_index_path: Path = LEGAL_INDEX,
                    observed_changes_path: Path = OBSERVED_CHANGES,
-                   reconciliation_path: Path = RECONCILIATION) -> dict:
+                   reconciliation_path: Path = RECONCILIATION,
+                   legal_sources_path: Path = LEGAL_SOURCES) -> dict:
     """Build and validate the offline source and observed-event ledger."""
     manifest = _load_manifest(manifest_path)
     legal_records = json.loads(legal_index_path.read_text(encoding="utf-8"))
@@ -446,8 +533,9 @@ def build_coverage(*, manifest_path: Path = MANIFEST,
         record for record in legal_records
         if is_ward_structural(str(record.get("noi_dung", "")))
     ]
+    legal_registry, registry_index = _load_legal_registry(legal_sources_path)
     sources = index_legal_sources(manifest)
-    instruments = build_instruments(ward_records, sources)
+    instruments = build_instruments(ward_records, sources, registry_index)
     soap = _soap_inventory(manifest)
     crosswalks = _crosswalk_inventory(manifest)
     resolution_pairs = _resolution_pairs(instruments)
@@ -519,6 +607,11 @@ def build_coverage(*, manifest_path: Path = MANIFEST,
         "observed_change_intervals": len(events),
         "unclassified_instruments": len(unresolved),
         "primary_source_open_instruments": len(primary_source_open),
+        "official_source_matches": legal_registry["summary"]["official_matches"],
+        "official_source_not_found": legal_registry["summary"]["status_counts"].get(
+            "official_not_found", 0
+        ),
+        "secondary_tvpl_urls": legal_registry["summary"]["secondary_tvpl_urls"],
         "events": len(events),
         "crosswalk_supported_events": sum(
             event["status"] == "crosswalk_supported_legal_reconciliation_pending"
@@ -536,13 +629,13 @@ def build_coverage(*, manifest_path: Path = MANIFEST,
     _require("SOAP missing parents", soap["missing_parent_codes"], 0)
 
     return {
-        "schema_version": 3,
+        "schema_version": 4,
         "scope": {
             "tier": "ward",
             "source_floor": SOURCE_FLOOR,
             "as_of": AS_OF,
-            "status": "crosswalk_reconciliation_complete_legal_source_closure_pending",
-            "next_task": 5,
+            "status": "legal_source_corpus_preserved_classification_pending",
+            "next_task": 6,
         },
         "input_fingerprints": {
             "manifest_path": manifest_path.as_posix(),
@@ -553,6 +646,8 @@ def build_coverage(*, manifest_path: Path = MANIFEST,
             "observed_changes_sha256": observed_changes["sha256"],
             "crosswalk_reconciliation_path": reconciliation_path.as_posix(),
             "crosswalk_reconciliation_sha256": reconciliation["sha256"],
+            "legal_sources_path": legal_sources_path.as_posix(),
+            "legal_sources_sha256": _sha256(legal_sources_path),
         },
         "summary": summary,
         "inventories": {
@@ -560,12 +655,19 @@ def build_coverage(*, manifest_path: Path = MANIFEST,
             "crosswalks": crosswalks,
             "observed_changes": observed_changes,
             "crosswalk_reconciliation": reconciliation,
+            "legal_sources": {
+                "path": legal_sources_path.as_posix(),
+                "sha256": _sha256(legal_sources_path),
+                "schema_version": legal_registry.get("schema_version"),
+                "input_fingerprints": legal_registry.get("input_fingerprints", {}),
+                "summary": legal_registry["summary"],
+            },
             "verified_2025_resolution_pairs": resolution_pairs,
         },
         "legal_instruments": instruments,
         "events": events,
         "residue": {
-            "event_inventory_status": "crosswalk_reconciled_legal_linking_pending",
+            "event_inventory_status": "legal_sources_preserved_classification_linking_pending",
             "crosswalk_residue_event_ids": [
                 event["event_id"] for event in events
                 if event["status"] == "crosswalk_residue_legal_classification_pending"

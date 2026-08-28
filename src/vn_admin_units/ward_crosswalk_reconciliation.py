@@ -26,7 +26,11 @@ from vn_admin_units.crosscheck_decrees import decree_code, is_ward_structural
 from vn_admin_units.crosswalk import read_ward_crosswalk
 from vn_admin_units.ward_model import normalize_text
 from vn_admin_units.ward_observed_changes import soap_manifest_fingerprint
-from vn_admin_units.ward_source_coverage import normalize_code, normalize_date
+from vn_admin_units.ward_source_coverage import (
+    normalize_code,
+    normalize_date,
+    ward_crosswalk_manifest_fingerprint,
+)
 
 
 MANIFEST = Path("data/raw/manifest.jsonl")
@@ -840,7 +844,7 @@ def build_crosswalk_reconciliation(*, manifest_path: Path = MANIFEST,
         },
         "input_fingerprints": {
             "manifest_path": manifest_path.as_posix(),
-            "manifest_sha256": _sha256(manifest_path),
+            "ward_crosswalk_manifest_sha256": ward_crosswalk_manifest_fingerprint(manifest),
             "legal_index_path": legal_index_path.as_posix(),
             "legal_index_sha256": _sha256(legal_index_path),
             "observed_changes_path": observed_changes_path.as_posix(),
