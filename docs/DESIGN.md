@@ -114,11 +114,14 @@ pre-dates the reform — enrich only) vs `new` (freshly minted). This drives emi
   quirk, not a hard-coded date.
 - **Lineage (old↔new + decree + effective date + composition):** the
   `Doi_Chieu_Moi.aspx` crosswalk, Excel export (`.04`, `.06`). Structured `Xã DC`
-  gives only the **primary 1:1 successor** (code-inheriting); the full merge/split
-  membership ("hợp nhất …, một phần …") is **only in the `Ghi Chú` prose** — so
-  building complete edges requires **parsing `Ghi Chú`** (or cross-checking with
-  SOAP snapshot diffs). Effective dates are reliable for mergers (2025-07-01,
-  2008-08-01); anchor others to the decree.
+  gives only the **primary 1:1 successor** (code-inheriting). For the 2025 ward
+  boundary, the full merge/split membership comes from Article 1 of the 34
+  provincial `NQ-UBTVQH15` instruments; signed PDFs are preserved as authority
+  and the Government Newspaper HTML is the machine-readable transcription.
+  The NSO `Ghi Chú` prose remains an independent cross-check and the source for
+  127 unchanged units, but is not authoritative for the 20 truncated rows.
+  Effective dates are reliable for mergers (2025-07-01, 2008-08-01); anchor
+  others to the decree.
 - **Reconciliation:** no GSO-code property exists on WD (`.05`); match by
   `name-fold + province` (unique for current wards; add district for pre-reform).
   WD holds ~11.6k items reflecting the **old** structure; new reform items exist
@@ -137,6 +140,14 @@ constituents ambiguously (`.11`):
 3. **Validate** against `tranngocminhhieu/vietnamadminunits` (63→34 crosswalk +
    split flag).
 4. **Manual curation file** for the unresolvable residue (logged, never silent).
+
+**2025 ward implementation update (`2026-08-28.02`):** this gate is closed for
+the reform boundary. Resolution clauses + structured primary links + 192
+explicitly curated parser-resistant identities/splits resolve all 10,035
+predecessors into 10,586 edges. The curation key set is drift-gated, all 3,316
+primary edges are asserted, and the five blank-base creations are the only
+successors without a ward predecessor. The external community crosswalk was
+not needed to override official evidence.
 
 Provinces (unique names) exercise steps 1–3 trivially; the disambiguation work is
 real only at ward scale — budget it as its own **Phase-3** (ward) sub-step with
@@ -292,14 +303,15 @@ assemblies need non-GSO sources.
   `vn_admin_units.ward_rescue` (exact bytes + manifest); use
   `vn_admin_units.fetch` only for ad-hoc diagnostics. Both use the canonical,
   DocumentElement-scoped parser — never use ad-hoc source scripts.
-- **2025 ward boundary spine: DONE (2026-08-28).** A post-reform-base crosswalk
-  now preserves composition notes for all 3,321 successors. The offline build
-  emits 10,035 pre + 3,321 post observations, 3,316 structured primary links,
-  five blank-base creations, and explicit residue for all 6,719 absorbed
-  predecessors. It also records the SOAP current-province echo (999 code / 159
-  label differences) instead of treating it as historical parentage. Next:
-  resolve composition lists and supplement the 20 notes at the 255-character
-  source limit from their resolution annexes (`2026-08-28.01`).
+- ~~**2025 ward boundary + composition topology**~~ **DONE (2026-08-28).** The
+  boundary build emits 10,035 pre + 3,321 post observations, 3,316 structured
+  primary links, five blank-base creations, and the SOAP current-province echo
+  audit (999 code / 159 label differences). The follow-on resolution build
+  preserves all 34 signed instruments + official HTML, extracts 3,194
+  arrangement clauses, classifies 127 unchanged successors, and emits 10,586
+  edges with zero unresolved predecessors (`2026-08-28.01`–`.02`). **Next:**
+  promote this boundary topology into canonical ward entities/`LineageEdge`
+  records, then reconcile and audit; Wikidata emission remains a later gate.
 - **Ward `Ghi Chú` template variants** enumeration (city establishments, 3-way).
 - ~~Raw-cache format~~ **Decided (2026-07-10; compressed SOAP extension
   2026-08-28):** exact content + manifest + derived. SOAP content is wrapped in

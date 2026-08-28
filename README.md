@@ -28,7 +28,7 @@ vietnam-elections     vietnam-elections-wikidata
 2. **Set up + verify:**
    ```sh
    uv sync
-   uv run pytest -q                          # 127 tests pass (Phases 1–2 complete + uploaded)
+   uv run pytest -q                          # 163 tests pass
    ```
 
    **Phases 1 and 2 are complete and uploaded to Wikidata (provinces + districts).** The next work is **Phase 3 (wards)** — read the "Phase 2" block under [Status](#status) for the post-upload verification step and the roadmap pointer.
@@ -88,14 +88,15 @@ independent geo cross-check (P625 kNN) confirmed **0 wrong-place matches**. Buil
 *accepted* Ninh Bình → Hoa Lư successor-relabel; the 3 Tier-B TYPE flags cleared (batch #261331 stamped
 `P31`=huyện). Independent geo cross-check (P625 kNN): **0 wrong-place matches**. **Phase 2 fully verified.**
 
-**◀◀ RESUME HERE — Phase 3: wards (xã / phường, commune tier, NA16).** Provinces (Phase 1)
-and districts (Phase 2) are complete + live on Wikidata with **no open work**. The ward tier is the next
-and largest layer (~10k units). Start from the roadmap in [`docs/DESIGN.md`](docs/DESIGN.md) and the ward
-design [`docs/DESIGN-phase3.md`](docs/DESIGN-phase3.md) (marked "to be revised"). Reusable from Phase 2:
-the tier-neutral `src/vn_admin_units/core.py`, and the hardened reconcile/audit (fold-normalization,
-label-over-alias, tier-check, QID-distinctness) — plus the P625-kNN geo cross-check as a verification
-pattern. First step of a Phase-3 session: read `docs/DESIGN.md` (document map + phase roadmap), then
-scope the ward source/crosswalk the same way districts were (`docs/plans/`).
+**◀◀ RESUME HERE — Phase 3: wards (xã / phường, commune tier, NA16).** Provinces
+(Phase 1) and districts (Phase 2) are complete + live on Wikidata with **no open
+work**. The 2025 ward boundary and its full predecessor→successor topology are
+now complete offline. The next implementation slice is to promote
+`data/ward-2025-boundary.json` + `data/ward-2025-composition.json` into canonical
+ward entities and `LineageEdge` records, then run reconciliation/audit; do not
+emit or upload Wikidata statements yet. Read journal
+[`2026-08-28.02`](docs/journals/2026-08-28.02.ward-2025-composition-lineage.md)
+for the exact handoff and acceptance counts.
 
 **Phase-3 source recovery (2026-08-27/28): the ward SOAP archive is complete.** The
 NSO hostname recovered after a DNS `SERVFAIL`, and `vn_admin_units.ward_rescue` cached + hash-verified
@@ -104,21 +105,29 @@ the 2025 reform boundaries, 2026 Đồng Nai boundaries, and current roster. The
 post-reform/current source has **3,321 wards**. This unblocks the 2025 ward slice. The full historical
 Phase-3 build uses a reviewed 204-date crawl, pinned as of 2026-08-27, with deterministic gzip storage;
 **all 204 dates are verified**. The archive contains 180 unique decoded payloads and no missing
-district parent codes across 2,202,543 snapshot rows. The next task is to build and audit ward history
-from these preserved inputs.
+district parent codes across 2,202,543 snapshot rows. The historical archive remains the input for
+the later 2002→2025 chain.
 See [Emergency ward-source
 rescue](#emergency-ward-source-rescue) and journal
 [`2026-08-27.01`](docs/journals/2026-08-27.01.ward-soap-source-rescue.md) for the audit, recovery,
 storage contract, and next work. The first build slice is now locked in
 [`docs/plans/2026-08-28-phase3-ward-2025-boundary.md`](docs/plans/2026-08-28-phase3-ward-2025-boundary.md):
-normalize the 2025 boundary, preserve all 3,316 structured primary links and
-five creations, then resolve the 6,719 absorbed predecessors from the newly
-cached 3,321-row post-reform composition export. Full lineage and Wikidata emit
-remain gated on explicit resolution of truncated or ambiguous notes. The
-boundary spine now builds as `data/ward-2025-boundary.json`; its audit also
+normalize the 2025 boundary and preserve all 3,316 structured primary links and
+five creations. The boundary spine now builds as `data/ward-2025-boundary.json`; its audit also
 records the historical SOAP province-echo behavior (999 code differences) and
 the one source-backed blank-label repair. See journal
 [`2026-08-28.01`](docs/journals/2026-08-28.01.ward-2025-boundary-spine.md).
+
+**Phase-3 composition gate (2026-08-28, DONE).** All 34 provincial instruments
+(`1654`–`1687/NQ-UBTVQH15`) are preserved as signed PDFs plus official full-text
+HTML. Their 3,194 arrangement clauses, together with 127 unchanged-unit rows,
+resolve all 10,035 pre-reform wards into 10,586 edges. The graph has 459 split
+predecessors, five predecessorless special-unit creations, zero unresolved
+predecessors, and all 3,316 primary links. The parser deliberately excludes
+successor result names from constituent evidence; 192 parser-resistant
+predecessor identities/splits are explicit, resolution-backed curation. See
+`data/ward-2025-composition.json` and journal
+[`2026-08-28.02`](docs/journals/2026-08-28.02.ward-2025-composition-lineage.md).
 
 <details><summary><b>Phase 2 build log (historical — complete + uploaded 2026-07-20)</b></summary>
 

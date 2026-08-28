@@ -20,14 +20,16 @@
 > cross-check** (the crosswalk is net-only; the decree list bounds the yearly-window
 > blind spot). See `DESIGN.md` decision 4 + spike journal `2026-07-20.01`.
 >
-> **Update (2026-08-28): Phase 3 is active; first slice locked.** The complete
+> **Update (2026-08-28): Phase 3 is active; the 2025 source/topology gate is
+> complete.** The complete
 > 204-date SOAP archive supplies inventory and former-district parentage. The
-> first implementation milestone is the 2025 boundary observation + structured
-> primary-link spine in `docs/plans/2026-08-28-phase3-ward-2025-boundary.md`.
-> A newly cached post-reform-base NSO crosswalk supplies `Ghi Chú` for all 3,321
-> successors, but 20 notes hit the export's 255-character narrative limit;
-> canonical full lineage and Wikidata emission remain gated on composition
-> parsing + explicit residue.
+> boundary observation + structured primary-link spine is documented in
+> `docs/plans/2026-08-28-phase3-ward-2025-boundary.md`. The composition follow-up
+> preserves 34 signed provincial resolutions plus official full-text HTML and
+> closes every predecessor: 10,586 edges, 459 split predecessors, zero residue
+> (`docs/journals/2026-08-28.02.ward-2025-composition-lineage.md`). Next, promote
+> these boundary records into canonical entities/`LineageEdge` objects and run
+> reconciliation/audit. Wikidata emission is still gated on that work.
 
 Extends `DESIGN.md` (the overarching design + decisions log). **Phase 1**
 delivered the *2025-reform province slice* (`docs/plans/2026-07-10-phase1-

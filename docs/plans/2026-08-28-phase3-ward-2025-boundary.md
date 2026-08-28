@@ -5,6 +5,13 @@ Written 2026-08-28. This is the first implementation slice after the completed
 all-at-once Phase-3 design to one reproducible boundary before historical event
 chaining or Wikidata reconciliation.
 
+> **Completed and extended on 2026-08-28.** The boundary spine landed first;
+> the follow-on composition gate is also closed. All 34 provincial resolutions
+> are cached as signed PDF + official full-text HTML, and
+> `data/ward-2025-composition.json` resolves every one of the 10,035
+> predecessors. See journal `2026-08-28.02` for the final topology audit and
+> next-session handoff.
+
 ## Outcome
 
 Build a source-backed, offline-regenerable representation of the
@@ -57,6 +64,15 @@ this direction populates `Ghi Chú` for every current unit.
    full suite.
 
 ## Composition-lineage gate
+
+**Status: DONE (`2026-08-28.02`).** The implementation did not rely on the 20
+truncated NSO notes. It extracted 3,194 complete Article 1 arrangement clauses
+from the official resolution transcriptions, classified the remaining 127
+successors as unchanged from the NSO notes, and retained the signed PDFs as the
+authority. Strict name/tier/former-district matching plus explicit
+resolution-backed curation produces 10,586 edges, 459 split predecessors, and
+zero unresolved predecessors. The five blank-base creations are the only
+successors without ward-tier incoming edges.
 
 The new-direction export proves the composition source exists, but it is not
 yet safe to call the result complete lineage:
