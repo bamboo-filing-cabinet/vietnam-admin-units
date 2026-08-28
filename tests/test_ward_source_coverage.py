@@ -158,10 +158,10 @@ def test_real_locked_baseline_builds_deterministically():
         "superseded_by_canonical_correction": 2,
         "topology_components_linked": 354,
     }
-    assert summary["change_bearing_source_open_instruments"] == 37
-    assert summary["primary_source_open_instruments"] == 39
-    assert summary["official_source_matches"] == 410
-    assert summary["official_source_not_found"] == 39
+    assert summary["change_bearing_source_open_instruments"] == 36
+    assert summary["primary_source_open_instruments"] == 38
+    assert summary["official_source_matches"] == 411
+    assert summary["official_source_not_found"] == 38
     assert summary["secondary_tvpl_urls"] == 107
     assert summary["observed_change_intervals"] == 179
     assert summary["events"] == 179
@@ -199,18 +199,18 @@ def test_real_locked_baseline_builds_deterministically():
         },
     }
     assert format_audit(coverage) == (
-        "ward source audit: OPEN — 410/449 official; 39 primary-source open; "
-        "37 change-bearing open\n"
+        "ward source audit: OPEN — 411/449 official; 38 primary-source open; "
+        "36 change-bearing open\n"
         "source floor verdict: no_endpoint_state_difference_observed — "
         "2002-01-01 and 2004-01-01 are identical; transient intra-interval "
         "changes are not excluded"
     )
     open_note = render_open_source_note(coverage)
-    assert open_note.count("- [ ]") == 39
-    assert open_note.count("- [ ] **Change-bearing**") == 37
+    assert open_note.count("- [ ]") == 38
+    assert open_note.count("- [ ] **Change-bearing**") == 36
     assert open_note.count("- [ ] **Context-only / superseded index row**") == 2
     assert "`07/NĐ-CP@2009-01-07`" in open_note
-    assert "`721/NQ-UBTVQH15@2023-04-10`" in open_note
+    assert "`721/NQ-UBTVQH15@2023-04-10`" not in open_note
     assert "TVPL links are included only to confirm identity" in open_note
     assert coverage["residue"]["crosswalk_residue_event_ids"] == [
         "soap:2004-01-01->2004-07-01",

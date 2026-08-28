@@ -19159,8 +19159,10 @@
               "title_named_unit",
               "title_territory_or_named_unit"
             ],
-            "primary_source_paths": [],
-            "source_status": "secondary_only"
+            "primary_source_paths": [
+              "legal/ward/2023-04-10/721-nq-ubtvqh15.fulltext.html"
+            ],
+            "source_status": "verified_official_artifact"
           },
           {
             "classification": "lineage",
@@ -39165,9 +39167,9 @@
     "legal_linkage_overrides_path": "data/ward-legal-linkage-overrides.json",
     "legal_linkage_overrides_sha256": "c841b3dde6584196a5f273b7e6e65f129373f8bd1d51c14d9604a8dacc83872d",
     "legal_sources_path": "data/ward-legal-sources.json",
-    "legal_sources_sha256": "1d976b7783d66eb304d865aebecefe0eaa3596f717bec9420f3151435092c57b",
+    "legal_sources_sha256": "429d7548b2af047508493163916254ff1c620a4ecff96322ea9778f4a14f564c",
     "manifest_path": "data/raw/manifest.jsonl",
-    "manifest_sha256": "1a7ac11b447d1a5b332067489d568e583a2d38a856e31eae518a5d89dafccbb0",
+    "manifest_sha256": "151b65a8e45904388244967801f10320b9eaa7afeb82b09574bb88d5caac579b",
     "observed_changes_path": "data/ward-observed-changes.json",
     "observed_changes_sha256": "91f441b73d9489c30e26e4a1c585600fcf435b0648a4f87ad4bc86aa9ca9d1df",
     "ward_2025_composition_path": "data/ward-2025-composition.json",
@@ -39697,19 +39699,19 @@
       },
       "path": "data/ward-legal-sources.json",
       "schema_version": 1,
-      "sha256": "1d976b7783d66eb304d865aebecefe0eaa3596f717bec9420f3151435092c57b",
+      "sha256": "429d7548b2af047508493163916254ff1c620a4ecff96322ea9778f4a14f564c",
       "summary": {
         "index_date_anomalies": 1,
         "instruments": 449,
         "official_attachments": 402,
         "official_code_differences": 10,
-        "official_matches": 410,
-        "preserved_artifacts": 812,
+        "official_matches": 411,
+        "preserved_artifacts": 813,
         "secondary_tvpl_urls": 107,
         "status_counts": {
-          "official_not_found": 39,
+          "official_not_found": 38,
           "reused_existing_2025_pair": 34,
-          "verified_official_match": 376
+          "verified_official_match": 377
         }
       }
     },
@@ -66916,7 +66918,20 @@
       "index_urls": [],
       "instrument_id": "721/NQ-UBTVQH15@2023-04-10",
       "observation_status": "topology_components_linked",
-      "primary_sources": [],
+      "primary_sources": [
+        {
+          "bytes": 78129,
+          "declared_media_type": "",
+          "detected_media_type": "",
+          "media_type": "html",
+          "method": "official National Assembly enacted full-text HTML",
+          "path": "legal/ward/2023-04-10/721-nq-ubtvqh15.fulltext.html",
+          "retrieved_at": "2026-08-28T23:30:13Z",
+          "sha256": "03490a23a4c77e0fc2f1cf04552443073c9194fd4892f7823d0f8c23fa5ddd4a",
+          "source_class": "official",
+          "source_url": "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73336"
+        }
+      ],
       "review_status": "reviewed_title_and_source_scope",
       "secondary_sources": [
         {
@@ -66933,10 +66948,18 @@
         }
       ],
       "source_discovery": {
-        "discovery_status": "official_not_found",
-        "metadata_url": ""
+        "code_match_status": "exact",
+        "date_match_status": "plausible_effective_lag",
+        "discovery_status": "verified_official_match",
+        "effective_date_match_status": "exact",
+        "effective_gap_days": 56,
+        "issued_date": "2023-02-13",
+        "metadata_url": "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73336",
+        "official_code": "721/NQ-UBTVQH15",
+        "official_effective_date": "2023-04-10",
+        "source_provider": "national_assembly_full_text"
       },
-      "source_status": "secondary_only",
+      "source_status": "verified_official_artifact",
       "title_variants": [
         "Nghị quyết về việc thành lập thị xã Tịnh Biên, các phường thuộc thị xã Tịnh Biên, thị trấn Đa Phước thuộc huyện An Phú và thị trấn Hội An thuộc huyện Chợ Mới, tỉnh An Giang"
       ]
@@ -72867,7 +72890,6 @@
       "469/NQ-UBTVQH15@2022-04-10",
       "60/2006/NĐ-CP@2006-07-04",
       "64/2006/NĐ-CP@2006-07-08",
-      "721/NQ-UBTVQH15@2023-04-10",
       "820/NQ-UBTVQH14@2020-01-01",
       "84/2005-NĐ-CP@2005-07-22",
       "85/2005/NĐ-CP@2005-07-22",
@@ -72960,8 +72982,7 @@
       "422/NQ-UBTVQH14@2017-08-18",
       "460/NQ-UBTVQH14@2017-12-13",
       "820/NQ-UBTVQH14@2020-01-01",
-      "469/NQ-UBTVQH15@2022-04-10",
-      "721/NQ-UBTVQH15@2023-04-10"
+      "469/NQ-UBTVQH15@2022-04-10"
     ],
     "source_gate_status": "open",
     "unclassified_instrument_ids": []
@@ -72996,7 +73017,7 @@
     "verdict": "no_endpoint_state_difference_observed"
   },
   "summary": {
-    "change_bearing_source_open_instruments": 37,
+    "change_bearing_source_open_instruments": 36,
     "classified_instruments": 449,
     "classified_legal_index_rows": 453,
     "component_assignment_counts": {
@@ -73029,9 +73050,9 @@
     },
     "legal_index_records": 544,
     "observed_change_intervals": 179,
-    "official_source_matches": 410,
-    "official_source_not_found": 39,
-    "primary_source_open_instruments": 39,
+    "official_source_matches": 411,
+    "official_source_not_found": 38,
+    "primary_source_open_instruments": 38,
     "reviewed_event_statuses": {
       "explicitly_classified_non_legal_transition": 1,
       "legal_context_classified": 16,

@@ -2,7 +2,7 @@
 
 Generated from `data/ward-source-coverage.json` by `vn_admin_units.ward_source_coverage --open-note`.
 
-Current audit: **39 primary-source-open instruments**; **37 are tied to observed ward changes**.
+Current audit: **38 primary-source-open instruments**; **36 are tied to observed ward changes**.
 
 ## What counts as a useful find
 
@@ -132,9 +132,3 @@ TVPL links are included only to confirm identity and title. TVPL pages, search s
 - [ ] **Change-bearing** `469/NQ-UBTVQH15@2022-04-10` — Nghị quyết về việc thành lập các phường thuộc thị xã Phổ Yên và thành lập thành phố Phổ Yên, tỉnh Thái Nguyên
   - Current evidence: secondary identity reference only.
   - Identity reference only: <https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-469-NQ-UBTVQH15-2022-thanh-lap-phuong-thuoc-thi-xa-Pho-Yen-Thai-Nguyen-504359.aspx>
-
-### 2023
-
-- [ ] **Change-bearing** `721/NQ-UBTVQH15@2023-04-10` — Nghị quyết về việc thành lập thị xã Tịnh Biên, các phường thuộc thị xã Tịnh Biên, thị trấn Đa Phước thuộc huyện An Phú và thị trấn Hội An thuộc huyện Chợ Mới, tỉnh An Giang
-  - Current evidence: secondary identity reference only.
-  - Identity reference only: <https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-721-NQ-UBTVQH15-2023-thanh-lap-thi-xa-Tinh-Bien-va-phuong-thuoc-thi-xa-An-Giang-556498.aspx>

@@ -54,6 +54,9 @@ FORM_PREFIX = "ctrl_191017_163$"
 GAZETTE_ROOT = "https://congbao.chinhphu.vn"
 GAZETTE_SEARCH = "https://api-searchcongbao.chinhphu.vn/search/van-ban"
 NATIONAL_ASSEMBLY_FULL_TEXT = {
+    "721/NQ-UBTVQH15@2023-04-10": (
+        "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73336"
+    ),
     "722/NQ-UBTVQH15@2023-04-10": (
         "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73342"
     ),

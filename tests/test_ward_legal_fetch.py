@@ -478,3 +478,7 @@ def test_real_legal_index_includes_2026_acceptance_and_reuses_34_pairs():
         "Resolution-1656-NQ-UBTVQH15-2025-the-arrangement-of-commune-level-"
         "administrative-divisions-of-Hanoi-city/662762/tieng-anh.aspx"
     ]
+    assert set(fetcher.NATIONAL_ASSEMBLY_FULL_TEXT) == {
+        f"{number}/NQ-UBTVQH15@2023-04-10"
+        for number in (721, 722, 723, 724, 726, 727, 728, 729, 730)
+    }

@@ -8278,14 +8278,22 @@
     {
       "attachments": [],
       "code": "721/NQ-UBTVQH15",
-      "discovery_status": "official_not_found",
+      "code_match_status": "exact",
+      "date_match_status": "plausible_effective_lag",
+      "discovery_status": "verified_official_match",
       "effective_date": "2023-04-10",
+      "effective_date_match_status": "exact",
+      "effective_gap_days": 56,
       "instrument_id": "721/NQ-UBTVQH15@2023-04-10",
-      "metadata_path": "legal/ward/2023-04-10/721-nq-ubtvqh15.metadata.html",
-      "metadata_url": "",
+      "issued_date": "2023-02-13",
+      "metadata_path": "legal/ward/2023-04-10/721-nq-ubtvqh15.fulltext.html",
+      "metadata_url": "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73336",
+      "official_code": "721/NQ-UBTVQH15",
+      "official_effective_date": "2023-04-10",
       "secondary_urls": [
         "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-721-NQ-UBTVQH15-2023-thanh-lap-thi-xa-Tinh-Bien-va-phuong-thuoc-thi-xa-An-Giang-556498.aspx"
       ],
+      "source_provider": "national_assembly_full_text",
       "title_variants": [
         "Nghị quyết về việc thành lập thị xã Tịnh Biên, các phường thuộc thị xã Tịnh Biên, thị trấn Đa Phước thuộc huyện An Phú và thị trấn Hội An thuộc huyện Chợ Mới, tỉnh An Giang"
       ]
@@ -10577,13 +10585,13 @@
     "instruments": 449,
     "official_attachments": 402,
     "official_code_differences": 10,
-    "official_matches": 410,
-    "preserved_artifacts": 812,
+    "official_matches": 411,
+    "preserved_artifacts": 813,
     "secondary_tvpl_urls": 107,
     "status_counts": {
-      "official_not_found": 39,
+      "official_not_found": 38,
       "reused_existing_2025_pair": 34,
-      "verified_official_match": 376
+      "verified_official_match": 377
     }
   }
 }
