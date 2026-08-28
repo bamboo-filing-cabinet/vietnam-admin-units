@@ -1,4 +1,5 @@
 import json
+from pathlib import Path
 
 from vn_admin_units.ward_source_coverage import (
     build_coverage,
@@ -124,6 +125,32 @@ def test_crosswalk_fingerprint_ignores_unrelated_legal_artifacts():
     )
 
 
+def test_open_source_note_rejects_leads_that_are_no_longer_open(tmp_path: Path):
+    coverage = {
+        "summary": {"primary_source_open_instruments": 0},
+        "residue": {
+            "primary_source_open_instrument_ids": [],
+            "change_bearing_source_open_instrument_ids": [],
+        },
+        "legal_instruments": [],
+    }
+    leads = tmp_path / "leads.json"
+    leads.write_text(json.dumps({
+        "schema_version": 1,
+        "leads": [{
+            "instrument_id": "resolved@2026-08-28",
+            "official_page_urls": ["https://vbpl.vn/example"],
+        }],
+    }), encoding="utf-8")
+
+    try:
+        render_open_source_note(coverage, leads)
+    except ValueError as error:
+        assert "no longer source-open" in str(error)
+    else:
+        raise AssertionError("stale official lead was accepted")
+
+
 def test_real_locked_baseline_builds_deterministically():
     coverage = build_coverage()
     summary = coverage["summary"]
@@ -212,6 +239,11 @@ def test_real_locked_baseline_builds_deterministically():
     assert "`07/NĐ-CP@2009-01-07`" in open_note
     assert "`721/NQ-UBTVQH15@2023-04-10`" not in open_note
     assert "TVPL links are included only to confirm identity" in open_note
+    assert "commit `89107d0` recorded **39 open instruments**" in open_note
+    assert open_note.count("Official lead (not yet archived)") == 15
+    assert "**10 of the 38 current items**" in open_note
+    assert "`84.2005.ND.CP.doc`" in open_note
+    assert "official effective 2009-01-18" in open_note
     assert coverage["residue"]["crosswalk_residue_event_ids"] == [
         "soap:2004-01-01->2004-07-01",
     ]

@@ -4,6 +4,12 @@ Generated from `data/ward-source-coverage.json` by `vn_admin_units.ward_source_c
 
 Current audit: **38 primary-source-open instruments**; **36 are tied to observed ward changes**.
 
+## Queue history
+
+The personal-search checkpoint at commit `89107d0` recorded **39 open instruments**, including **37 change-bearing instruments**. Resolution 721/NQ-UBTVQH15 was subsequently recovered from the National Assembly, leaving the current 38/36 queue above.
+
+Exact official-page leads are recorded below for **10 of the 38 current items**. These links are leads only: none count as recovered provenance until the full official page or original attachment is saved, hashed, registered, and verified offline.
+
 ## What counts as a useful find
 
 Please look for a complete enacted text or original signed/publication file on an official government source. Useful hosts include `vbpl.vn`, `chinhphu.vn`, `quochoi.vn`, the Government Gazette, and provincial or agency `gov.vn` sites.
@@ -19,19 +25,38 @@ TVPL links are included only to confirm identity and title. TVPL pages, search s
 - [ ] **Change-bearing** `84/2005-NĐ-CP@2005-07-22` — Thành lập xã thuộc huyện Ninh Hải và thành lập huyện Thuận Bắc, tỉnh Ninh Thuận
   - Current evidence: secondary identity reference only.
   - Identity reference only: <https://thuvienphapluat.vn/van-ban/Bat-dong-san/Nghi-dinh-84-2005-ND-CP-thanh-lap-xa-thuoc-huyen-Ninh-Hai-Thuan-Bac-tinh-Ninh-Thuan-9280.aspx>
+  - Official lead (not yet archived): <https://vbpl.vn/bonoivu/Pages/vbpq-toanvan.aspx?ItemID=18009>
+  - Official lead (not yet archived): <https://vbpl.moj.gov.vn/bonoivu/Pages/vbpq-toanvan.aspx?ItemID=18009>
+  - Expected original attachment: `84.2005.ND.CP.doc`
+  - Retrieval note: The current vbpl.vn host presents an automated-access challenge; the legacy Ministry of Justice hostname did not resolve during the audit. A browser-saved full page and downloaded DOC are still needed.
 - [ ] **Change-bearing** `85/2005/NĐ-CP@2005-07-22` — Thành lập xã thuộc huyện Núi Thành và Điện Bàn, tỉnh Quảng Nam
   - Current evidence: no source URL recorded.
+  - Official lead (not yet archived): <https://vbpl.vn/bonoivu/Pages/vbpq-toanvan.aspx?ItemID=17899>
+  - Official lead (not yet archived): <https://vbpl.moj.gov.vn/bonoivu/Pages/vbpq-toanvan.aspx?ItemID=17899>
+  - Expected original attachment: `85.2005.ND.CP.doc`
+  - Retrieval note: The current vbpl.vn host presents an automated-access challenge; the legacy Ministry of Justice hostname did not resolve during the audit. A browser-saved full page and downloaded DOC are still needed.
 - [ ] **Change-bearing** `97/2005/NĐ-CP@2005-08-10` — Thành lập thành phố Rạch Giá, điều chỉnh địa giới hành chính, thành lập xã thuộc các huyện Gò Quao, Anh Minh, Châu Thành, Kiên Hải, Giồng Giềng, tỉnh Kiên Giang
   - Current evidence: secondary identity reference only.
   - Identity reference only: <https://thuvienphapluat.vn/van-ban/Bat-dong-san/Nghi-dinh-97-2005-ND-CP-thanh-lap-Rach-Gia-thuoc-tinh-Kien-Giang-dieu-chinh-dia-gioi-hanh-chinh-xa-thuoc-huyen-Go-Quao-An-Minh-Chau-Thanh-Kien-Hai-2566.aspx>
+  - Official lead (not yet archived): <https://vbpl.vn/bonoivu/Pages/vbpq-toanvan.aspx?ItemID=17967>
+  - Official lead (not yet archived): <https://vbpl.moj.gov.vn/bonoivu/Pages/vbpq-toanvan.aspx?ItemID=17967>
+  - Expected original attachment: `97.2005.ND.CP.doc`
+  - Retrieval note: The current vbpl.vn host presents an automated-access challenge; the legacy Ministry of Justice hostname did not resolve during the audit. A browser-saved full page and downloaded DOC are still needed.
 - [ ] **Change-bearing** `98/2005/NĐ-CP@2005-08-10` — Thành lập thị xã Tân HIệp, thành lập phường, xã thuộc thị xã Tân Hiệp, tỉnh Hậu Giang
   - Current evidence: secondary identity reference only.
   - Identity reference only: <https://thuvienphapluat.vn/van-ban/Bat-dong-san/Nghi-dinh-98-2005-ND-CP-thanh-lap-thi-xa-Tan-Hiep-tinh-Hau-Giang-thanh-lap-phuong-xa-thuoc-Tan-Hiep-2569.aspx>
+  - Official lead (not yet archived): <https://vbpl.vn/bonoivu/Pages/vbpq-toanvan.aspx?ItemID=17966>
+  - Official lead (not yet archived): <https://vbpl.moj.gov.vn/bonoivu/Pages/vbpq-toanvan.aspx?ItemID=17966>
+  - Expected original attachment: `98.2005.ND.CP.doc`
+  - Retrieval note: The current vbpl.vn host presents an automated-access challenge; the legacy Ministry of Justice hostname did not resolve during the audit. A browser-saved full page and downloaded DOC are still needed.
 
 ### 2006
 
 - [ ] **Change-bearing** `28/2006/NDD-CP@2006-04-06` — điều chỉnh địa giới hành chính xã Sa Nhơn, thành lập xã Hơ Moong thuộc huyện Sa Thầy, tỉnh Kon Tum
   - Current evidence: no source URL recorded.
+  - Official lead (not yet archived): <https://vbpl.vn/bonoivu/Pages/vbpq-toanvan.aspx?ItemID=16488>
+  - Official lead (not yet archived): <https://vbpl.vn/bonoivu/Pages/vbpq-print.aspx?ItemID=16488&dvid=320>
+  - Retrieval note: The official page is indexed, but direct retrieval timed out or encountered the vbpl.vn automated-access challenge. Save the full page and any offered original attachment in a normal browser.
 - [ ] **Change-bearing** `29/2006/NĐ-CP@2006-04-07` — Thành lập phường thuộc thị xã Sơn La, tỉnh Sơn La
   - Current evidence: no source URL recorded.
 - [ ] **Change-bearing** `34/2006/NĐ-CP@2006-04-15` — Thành lập thị trấn Cát Thành thuộc huyện Trực Ninh, tỉnh Nam Định
@@ -61,16 +86,31 @@ TVPL links are included only to confirm identity and title. TVPL pages, search s
 - [ ] **Change-bearing** `07/NĐ-CP@2009-01-07` — Điều chỉnh địa giới hành chính xã thuộc huyện Krông Búk, điều chỉnh địa giới hành chính huyện Krông Búk để thành lập thị xã Buôn Hồ và thành lập các phường trực thuộc thị xã Buôn Hồ, tỉnh Đắk Lắk.
   - Current evidence: secondary identity reference only.
   - Identity reference only: <https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-dinh-07-ND-CP-dieu-chinh-dia-gioi-xa-thuoc-huyen-Krong-Buk-thanh-lap-thi-xa-Buon-Ho-phuong-thuoc-tinh-Dak-Lak-84045.aspx>
+  - Official lead (not yet archived): <https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=12658>
+  - Date discrepancy to preserve: registry effective 2009-01-07; official issue 2008-12-23; official effective 2009-01-18.
+  - Retrieval note: Preserve the official issue/effective dates alongside the registry date rather than normalizing the discrepancy away. The full page and any original attachment still need to be browser-saved.
 - [ ] **Change-bearing** `08/NĐ-CP@2009-01-07` — ĐIỀU CHỈNH ĐỊA GIỚI HÀNH CHÍNH HUYỆN HỒNG NGỰ ĐỂ THÀNH LẬP THỊ XÃ HỒNG NGỰ; THÀNH LẬP PHƯỜNG THUỘC THỊ XÃ HỒNG NGỰ, TỈNH ĐỒNG THÁP
   - Current evidence: secondary identity reference only.
   - Identity reference only: <https://thuvienphapluat.vn/van-ban/Bat-dong-san/Nghi-dinh-08-ND-CP-de-nghi-dieu-chinh-dia-gioi-hanh-chinh-huyen-Hong-Ngu-thanh-lap-phuong-thuoc-tinh-Dong-Thap-84046.aspx>
+  - Official lead (not yet archived): <https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=12656>
+  - Date discrepancy to preserve: registry effective 2009-01-07; official issue 2008-12-23; official effective 2009-01-18.
+  - Retrieval note: Preserve the official issue/effective dates alongside the registry date rather than normalizing the discrepancy away. The full page and any original attachment still need to be browser-saved.
 - [ ] **Change-bearing** `10/NĐ-CP@2009-01-07` — điều chỉnh địa giới hành chính xã, thành lập xã thuộc huyện Ba Tơ, huyện Sơn Tây, tỉnh Quảng Ngãi
   - Current evidence: no source URL recorded.
+  - Official lead (not yet archived): <https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=12653>
+  - Date discrepancy to preserve: registry effective 2009-01-07; official issue 2008-12-23; official effective 2009-01-18.
+  - Retrieval note: Preserve the official issue/effective dates alongside the registry date rather than normalizing the discrepancy away. The full page and any original attachment still need to be browser-saved.
 - [ ] **Change-bearing** `11/NĐ-CP@2009-01-07` — điều chỉnh địa giới hành chính xã, thành lập xã thuộc huyện Mường Lát, huyện Quan Sơn, tỉnh Thanh Hoá
   - Current evidence: no source URL recorded.
+  - Official lead (not yet archived): <https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=12652>
+  - Date discrepancy to preserve: registry effective 2009-01-07; official issue 2008-12-23; official effective 2009-01-18.
+  - Retrieval note: Preserve the official issue/effective dates alongside the registry date rather than normalizing the discrepancy away. The full page and any original attachment still need to be browser-saved.
 - [ ] **Change-bearing** `12/NĐ-CP@2009-01-07` — Điều chỉnh địa giới xã, thành lập xã thuộc huyện Thốt Nốt, Vĩnh Thạnh, Cở Đỏ,thành lập mới quận Thốt Nốt và các phường trực thuộcl; điều chỉnh địa giới hành chính huyện Cở Đỏ để thành lập huyện Thới Lai thuộc TP Cần Thơ
   - Current evidence: secondary identity reference only.
   - Identity reference only: <https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-dinh-12-ND-CP-dieu-chinh-dia-gioi-hanh-chinh-xa-thanh-lap-thuoc-huyen-Thot-Not-Vinh-Thanh-Co-Do-quan-Thoi-Lai-thanh-pho-Can-Tho-84050.aspx>
+  - Official lead (not yet archived): <https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=12650>
+  - Date discrepancy to preserve: registry effective 2009-01-07; official issue 2008-12-23; official effective 2009-01-18.
+  - Retrieval note: Preserve the official issue/effective dates alongside the registry date rather than normalizing the discrepancy away. The full page and any original attachment still need to be browser-saved.
 - [ ] **Change-bearing** `14/NĐ-CP@2009-04-11` — điều chỉnh địa giới hành chính xã để thành lập xã thuộc huyện Chơn Thành, huyện Bù Đăng, tỉnh Bình Phước
   - Current evidence: no source URL recorded.
 - [ ] **Change-bearing** `26/NQ-CP@2009-06-11` — điều chỉnh địa giới hành chính xã để thành lập xã thuộc huyện Ninh Phước; điều chỉnh địa giới hành chính huyện Ninh Phước để thành lập huyện Thuận Nam thuộc tỉnh Ninh Thuận

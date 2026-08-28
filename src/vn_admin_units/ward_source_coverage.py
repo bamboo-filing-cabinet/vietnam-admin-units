@@ -37,6 +37,7 @@ MANIFEST = Path("data/raw/manifest.jsonl")
 OBSERVED_CHANGES = Path("data/ward-observed-changes.json")
 RECONCILIATION = Path("data/ward-crosswalk-reconciliation.json")
 LEGAL_SOURCES = Path("data/ward-legal-sources.json")
+OFFICIAL_LEADS = Path("data/ward-legal-official-leads.json")
 OUTPUT = Path("data/ward-source-coverage.json")
 OPEN_NOTE = Path("docs/ward-source-open-instruments.md")
 
@@ -810,7 +811,33 @@ def write_coverage(coverage: dict, output: Path = OUTPUT) -> None:
     temporary.replace(output)
 
 
-def render_open_source_note(coverage: dict) -> str:
+def _load_official_leads(path: Path = OFFICIAL_LEADS) -> dict[str, dict]:
+    """Load unarchived official-page leads without treating them as evidence."""
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    if payload.get("schema_version") != 1:
+        raise ValueError("unsupported official-lead schema")
+    leads = payload.get("leads", [])
+    indexed = {lead["instrument_id"]: lead for lead in leads}
+    if len(indexed) != len(leads):
+        raise ValueError("official leads contain duplicate instrument IDs")
+    for lead in leads:
+        if not lead.get("official_page_urls"):
+            raise ValueError(
+                f"official lead has no page URL: {lead['instrument_id']}"
+            )
+        for url in lead["official_page_urls"]:
+            host = (urlparse(url).hostname or "").lower()
+            if host not in {"vbpl.vn", "vbpl.moj.gov.vn"}:
+                raise ValueError(
+                    f"official lead has an unexpected host: {lead['instrument_id']}"
+                )
+    return indexed
+
+
+def render_open_source_note(
+    coverage: dict,
+    official_leads_path: Path = OFFICIAL_LEADS,
+) -> str:
     """Render the source-open instruments as a human-searchable checklist."""
     open_ids = set(coverage["residue"]["primary_source_open_instrument_ids"])
     change_bearing_ids = set(
@@ -822,6 +849,10 @@ def render_open_source_note(coverage: dict) -> str:
     ]
     if len(instruments) != coverage["summary"]["primary_source_open_instruments"]:
         raise ValueError("source-open note denominator does not match the audit")
+    official_leads = _load_official_leads(official_leads_path)
+    stale_leads = sorted(set(official_leads) - open_ids)
+    if stale_leads:
+        raise ValueError(f"official leads are no longer source-open: {stale_leads}")
 
     lines = [
         "# Ward legal sources still open",
@@ -834,6 +865,23 @@ def render_open_source_note(coverage: dict) -> str:
         (
             f"Current audit: **{len(instruments)} primary-source-open instruments**; "
             f"**{len(change_bearing_ids)} are tied to observed ward changes**."
+        ),
+        "",
+        "## Queue history",
+        "",
+        (
+            "The personal-search checkpoint at commit `89107d0` recorded **39 open "
+            "instruments**, including **37 change-bearing instruments**. Resolution "
+            "721/NQ-UBTVQH15 was subsequently recovered from the National Assembly, "
+            "leaving the current 38/36 queue above."
+        ),
+        "",
+        (
+            f"Exact official-page leads are recorded below for **{len(official_leads)} "
+            f"of the {len(instruments)} current items**. These links are leads only: "
+            "none count as "
+            "recovered provenance until the full official page or original attachment "
+            "is saved, hashed, registered, and verified offline."
         ),
         "",
         "## What counts as a useful find",
@@ -890,6 +938,21 @@ def render_open_source_note(coverage: dict) -> str:
         })
         for reference in references:
             lines.append(f"  - Identity reference only: <{reference}>")
+        lead = official_leads.get(instrument["instrument_id"])
+        if lead:
+            for url in lead["official_page_urls"]:
+                lines.append(f"  - Official lead (not yet archived): <{url}>")
+            for filename in lead.get("expected_attachment_names", []):
+                lines.append(f"  - Expected original attachment: `{filename}`")
+            discrepancy = lead.get("date_discrepancy")
+            if discrepancy:
+                lines.append(
+                    "  - Date discrepancy to preserve: registry effective "
+                    f"{discrepancy['registry_effective_date']}; official issue "
+                    f"{discrepancy['official_issue_date']}; official effective "
+                    f"{discrepancy['official_effective_date']}."
+                )
+            lines.append(f"  - Retrieval note: {lead['retrieval_notes']}")
     return "\n".join(lines) + "\n"
 
 

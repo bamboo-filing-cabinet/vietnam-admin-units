@@ -1,0 +1,144 @@
+{
+  "as_of": "2026-08-28",
+  "leads": [
+    {
+      "access_status": "official_page_indexed_raw_retrieval_blocked",
+      "expected_attachment_names": [
+        "84.2005.ND.CP.doc"
+      ],
+      "instrument_id": "84/2005-NĐ-CP@2005-07-22",
+      "lead_basis": "The indexed official full-text record matches the decree code and title and exposes the original DOC filename.",
+      "official_page_urls": [
+        "https://vbpl.vn/bonoivu/Pages/vbpq-toanvan.aspx?ItemID=18009",
+        "https://vbpl.moj.gov.vn/bonoivu/Pages/vbpq-toanvan.aspx?ItemID=18009"
+      ],
+      "retrieval_notes": "The current vbpl.vn host presents an automated-access challenge; the legacy Ministry of Justice hostname did not resolve during the audit. A browser-saved full page and downloaded DOC are still needed."
+    },
+    {
+      "access_status": "official_page_indexed_raw_retrieval_blocked",
+      "expected_attachment_names": [
+        "85.2005.ND.CP.doc"
+      ],
+      "instrument_id": "85/2005/NĐ-CP@2005-07-22",
+      "lead_basis": "The indexed official full-text record matches the decree code and title and exposes the original DOC filename.",
+      "official_page_urls": [
+        "https://vbpl.vn/bonoivu/Pages/vbpq-toanvan.aspx?ItemID=17899",
+        "https://vbpl.moj.gov.vn/bonoivu/Pages/vbpq-toanvan.aspx?ItemID=17899"
+      ],
+      "retrieval_notes": "The current vbpl.vn host presents an automated-access challenge; the legacy Ministry of Justice hostname did not resolve during the audit. A browser-saved full page and downloaded DOC are still needed."
+    },
+    {
+      "access_status": "official_page_indexed_raw_retrieval_blocked",
+      "expected_attachment_names": [
+        "97.2005.ND.CP.doc"
+      ],
+      "instrument_id": "97/2005/NĐ-CP@2005-08-10",
+      "lead_basis": "The indexed official full-text record matches the decree code and title and exposes the original DOC filename.",
+      "official_page_urls": [
+        "https://vbpl.vn/bonoivu/Pages/vbpq-toanvan.aspx?ItemID=17967",
+        "https://vbpl.moj.gov.vn/bonoivu/Pages/vbpq-toanvan.aspx?ItemID=17967"
+      ],
+      "retrieval_notes": "The current vbpl.vn host presents an automated-access challenge; the legacy Ministry of Justice hostname did not resolve during the audit. A browser-saved full page and downloaded DOC are still needed."
+    },
+    {
+      "access_status": "official_page_indexed_raw_retrieval_blocked",
+      "expected_attachment_names": [
+        "98.2005.ND.CP.doc"
+      ],
+      "instrument_id": "98/2005/NĐ-CP@2005-08-10",
+      "lead_basis": "The indexed official full-text record matches the decree code and title and exposes the original DOC filename.",
+      "official_page_urls": [
+        "https://vbpl.vn/bonoivu/Pages/vbpq-toanvan.aspx?ItemID=17966",
+        "https://vbpl.moj.gov.vn/bonoivu/Pages/vbpq-toanvan.aspx?ItemID=17966"
+      ],
+      "retrieval_notes": "The current vbpl.vn host presents an automated-access challenge; the legacy Ministry of Justice hostname did not resolve during the audit. A browser-saved full page and downloaded DOC are still needed."
+    },
+    {
+      "access_status": "official_page_indexed_raw_retrieval_blocked",
+      "expected_attachment_names": [],
+      "instrument_id": "28/2006/NDD-CP@2006-04-06",
+      "lead_basis": "The indexed official print view contains the complete enacted text for Decree 28/2006/NĐ-CP and matches the title.",
+      "official_page_urls": [
+        "https://vbpl.vn/bonoivu/Pages/vbpq-toanvan.aspx?ItemID=16488",
+        "https://vbpl.vn/bonoivu/Pages/vbpq-print.aspx?ItemID=16488&dvid=320"
+      ],
+      "retrieval_notes": "The official page is indexed, but direct retrieval timed out or encountered the vbpl.vn automated-access challenge. Save the full page and any offered original attachment in a normal browser."
+    },
+    {
+      "access_status": "official_page_indexed_raw_retrieval_blocked",
+      "date_discrepancy": {
+        "official_effective_date": "2009-01-18",
+        "official_issue_date": "2008-12-23",
+        "registry_effective_date": "2009-01-07"
+      },
+      "expected_attachment_names": [],
+      "instrument_id": "07/NĐ-CP@2009-01-07",
+      "lead_basis": "The indexed official VBPL record matches Decree 07/NĐ-CP and its administrative-boundary title.",
+      "official_page_urls": [
+        "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=12658"
+      ],
+      "retrieval_notes": "Preserve the official issue/effective dates alongside the registry date rather than normalizing the discrepancy away. The full page and any original attachment still need to be browser-saved."
+    },
+    {
+      "access_status": "official_page_indexed_raw_retrieval_blocked",
+      "date_discrepancy": {
+        "official_effective_date": "2009-01-18",
+        "official_issue_date": "2008-12-23",
+        "registry_effective_date": "2009-01-07"
+      },
+      "expected_attachment_names": [],
+      "instrument_id": "08/NĐ-CP@2009-01-07",
+      "lead_basis": "The indexed official VBPL record matches Decree 08/NĐ-CP and its administrative-boundary title.",
+      "official_page_urls": [
+        "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=12656"
+      ],
+      "retrieval_notes": "Preserve the official issue/effective dates alongside the registry date rather than normalizing the discrepancy away. The full page and any original attachment still need to be browser-saved."
+    },
+    {
+      "access_status": "official_page_indexed_raw_retrieval_blocked",
+      "date_discrepancy": {
+        "official_effective_date": "2009-01-18",
+        "official_issue_date": "2008-12-23",
+        "registry_effective_date": "2009-01-07"
+      },
+      "expected_attachment_names": [],
+      "instrument_id": "10/NĐ-CP@2009-01-07",
+      "lead_basis": "The indexed official VBPL record matches Decree 10/NĐ-CP and its administrative-boundary title.",
+      "official_page_urls": [
+        "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=12653"
+      ],
+      "retrieval_notes": "Preserve the official issue/effective dates alongside the registry date rather than normalizing the discrepancy away. The full page and any original attachment still need to be browser-saved."
+    },
+    {
+      "access_status": "official_page_indexed_raw_retrieval_blocked",
+      "date_discrepancy": {
+        "official_effective_date": "2009-01-18",
+        "official_issue_date": "2008-12-23",
+        "registry_effective_date": "2009-01-07"
+      },
+      "expected_attachment_names": [],
+      "instrument_id": "11/NĐ-CP@2009-01-07",
+      "lead_basis": "The indexed official VBPL record matches Decree 11/NĐ-CP and its administrative-boundary title.",
+      "official_page_urls": [
+        "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=12652"
+      ],
+      "retrieval_notes": "Preserve the official issue/effective dates alongside the registry date rather than normalizing the discrepancy away. The full page and any original attachment still need to be browser-saved."
+    },
+    {
+      "access_status": "official_page_indexed_raw_retrieval_blocked",
+      "date_discrepancy": {
+        "official_effective_date": "2009-01-18",
+        "official_issue_date": "2008-12-23",
+        "registry_effective_date": "2009-01-07"
+      },
+      "expected_attachment_names": [],
+      "instrument_id": "12/NĐ-CP@2009-01-07",
+      "lead_basis": "The indexed official VBPL record matches Decree 12/NĐ-CP and its administrative-boundary title.",
+      "official_page_urls": [
+        "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=12650"
+      ],
+      "retrieval_notes": "Preserve the official issue/effective dates alongside the registry date rather than normalizing the discrepancy away. The full page and any original attachment still need to be browser-saved."
+    }
+  ],
+  "schema_version": 1
+}
