@@ -106,9 +106,10 @@ def test_real_locked_baseline_builds_deterministically():
     assert summary["soap_artifacts"] == 204
     assert summary["soap_rows"] == 2_202_543
     assert summary["soap_unique_payloads"] == 180
-    assert summary["ward_crosswalk_artifacts"] == 24
-    assert summary["ward_crosswalk_rows"] == 256_149
+    assert summary["ward_crosswalk_artifacts"] == 39
+    assert summary["ward_crosswalk_rows"] == 417_158
     assert summary["yearly_crosswalks"] == 21
+    assert summary["targeted_crosswalks"] == 15
     assert summary["legal_index_records"] == 544
     assert summary["ward_relevant_legal_rows"] == 453
     assert summary["unique_ward_instruments"] == 449
@@ -117,11 +118,16 @@ def test_real_locked_baseline_builds_deterministically():
     assert summary["unclassified_instruments"] == 415
     assert summary["observed_change_intervals"] == 179
     assert summary["events"] == 179
-    assert coverage["scope"]["next_task"] == 4
+    assert summary["crosswalk_supported_events"] == 178
+    assert summary["crosswalk_residue_events"] == 1
+    assert coverage["scope"]["next_task"] == 5
     assert coverage["residue"]["event_inventory_status"] == (
-        "complete_pending_task_4_crosswalk_reconciliation"
+        "crosswalk_reconciled_legal_linking_pending"
     )
-    assert len(coverage["residue"]["unreconciled_event_ids"]) == 179
+    assert coverage["residue"]["crosswalk_residue_event_ids"] == [
+        "soap:2004-01-01->2004-07-01",
+    ]
+    assert len(coverage["residue"]["legal_unlinked_event_ids"]) == 179
     assert coverage["events"][0]["event_id"] == "soap:2004-01-01->2004-07-01"
     assert coverage["events"][-1]["event_id"] == "soap:2026-04-29->2026-04-30"
     assert json.loads(serialize_coverage(coverage)) == coverage

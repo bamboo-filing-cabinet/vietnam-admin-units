@@ -1,7 +1,7 @@
 {
   "input_fingerprints": {
     "manifest_path": "data/raw/manifest.jsonl",
-    "manifest_sha256": "977ea3d4e21ffb83c6ed7c27454c69e6003592da416a718b425e7491eb37fa5a"
+    "ward_soap_manifest_sha256": "57e7678cd2516186e857826c264dc3d9d4e846455e596aad0b4592cd3a88a9a5"
   },
   "intervals": [
     {

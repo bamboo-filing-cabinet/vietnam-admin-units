@@ -239,6 +239,12 @@ def _manifest_entries(path: Path = MANIFEST) -> list[dict]:
     return ward
 
 
+def soap_manifest_fingerprint(entries: list[dict]) -> str:
+    """Fingerprint only the SOAP entries consumed by this derived artifact."""
+    rendered = json.dumps(entries, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+    return hashlib.sha256(rendered.encode("utf-8")).hexdigest()
+
+
 def _snapshot_date(entry: dict) -> str:
     return entry["path"].removeprefix("soap/DanhMucPhuongXa_").removesuffix(".xml.gz")
 
@@ -392,7 +398,7 @@ def build_observed_changes(manifest_path: Path = MANIFEST) -> dict:
         },
         "input_fingerprints": {
             "manifest_path": manifest_path.as_posix(),
-            "manifest_sha256": hashlib.sha256(manifest_path.read_bytes()).hexdigest(),
+            "ward_soap_manifest_sha256": soap_manifest_fingerprint(entries),
         },
         "summary": summary,
         "snapshot_audits": snapshot_audits,

@@ -1,9 +1,9 @@
 """Build the deterministic ward source/provenance coverage ledger.
 
 This is the offline denominator for historical ward work. It inventories the
-verified SOAP, crosswalk, and legal-source cache; collapses duplicate legal-index
-rows without discarding their variants; and exposes source/classification
-residue before event matching begins.
+verified SOAP, crosswalk, legal-source, observed-change, and crosswalk-
+reconciliation artifacts; collapses duplicate legal-index rows without
+discarding their variants; and exposes every remaining classification gap.
 
 Usage:
   uv run python -m vn_admin_units.ward_source_coverage
@@ -15,18 +15,20 @@ import argparse
 import hashlib
 import json
 import re
-from collections import defaultdict
+from collections import Counter, defaultdict
 from datetime import datetime
 from pathlib import Path
 from urllib.parse import urlparse
 
 from vn_admin_units import rawcache
 from vn_admin_units.crosscheck_decrees import is_ward_structural
+from vn_admin_units.ward_observed_changes import soap_manifest_fingerprint
 
 
 LEGAL_INDEX = Path("data/raw/nghidinh.json")
 MANIFEST = Path("data/raw/manifest.jsonl")
 OBSERVED_CHANGES = Path("data/ward-observed-changes.json")
+RECONCILIATION = Path("data/ward-crosswalk-reconciliation.json")
 OUTPUT = Path("data/ward-source-coverage.json")
 
 SOURCE_FLOOR = "2002-01-01"
@@ -36,9 +38,10 @@ LOCKED = {
     "soap_artifacts": 204,
     "soap_rows": 2_202_543,
     "soap_unique_payloads": 180,
-    "ward_crosswalk_artifacts": 24,
-    "ward_crosswalk_rows": 256_149,
+    "ward_crosswalk_artifacts": 39,
+    "ward_crosswalk_rows": 417_158,
     "yearly_crosswalks": 21,
+    "targeted_crosswalks": 15,
     "legal_index_records": 544,
     "ward_relevant_legal_rows": 453,
     "ward_relevant_effective_dates_from_2005": 179,
@@ -295,6 +298,7 @@ def _crosswalk_inventory(entries: list[dict]) -> dict:
         "artifacts": artifacts,
         "rows": sum(item["rows"] for item in artifacts),
         "yearly_count": sum(item["kind"] == "yearly" for item in artifacts),
+        "targeted_count": sum(item["kind"] == "targeted" for item in artifacts),
         "bytes": sum(item["bytes"] for item in artifacts),
     }
 
@@ -315,13 +319,22 @@ def _resolution_pairs(instruments: list[dict]) -> list[dict]:
     return sorted(pairs, key=lambda pair: pair["code"])
 
 
-def _observed_change_inventory(path: Path, manifest_path: Path) -> tuple[dict, list[dict]]:
+def _observed_change_inventory(path: Path, manifest: list[dict]) -> tuple[dict, list[dict]]:
     observed = json.loads(path.read_text(encoding="utf-8"))
     summary = observed.get("summary", {})
     scope = observed.get("scope", {})
-    manifest_sha256 = _sha256(manifest_path)
-    if observed.get("input_fingerprints", {}).get("manifest_sha256") != manifest_sha256:
-        raise ValueError("observed-change inventory was not built from the current raw manifest")
+    ward_soap = sorted(
+        (
+            entry for entry in manifest
+            if _SOAP.fullmatch(entry["path"])
+        ),
+        key=lambda entry: entry["path"],
+    )
+    if (
+        observed.get("input_fingerprints", {}).get("ward_soap_manifest_sha256")
+        != soap_manifest_fingerprint(ward_soap)
+    ):
+        raise ValueError("observed-change inventory was not built from the current SOAP manifest")
     _require("observed-change source floor", scope.get("source_floor"), SOURCE_FLOOR)
     _require("observed-change as-of date", scope.get("as_of"), AS_OF)
     _require("observed-change snapshots", summary.get("snapshots"), LOCKED["soap_artifacts"])
@@ -384,9 +397,48 @@ def _observed_change_inventory(path: Path, manifest_path: Path) -> tuple[dict, l
     return inventory, events
 
 
+def _crosswalk_reconciliation_inventory(path: Path, *, manifest_path: Path,
+                                        legal_index_path: Path,
+                                        observed_changes_path: Path) -> tuple[dict, dict]:
+    reconciliation = json.loads(path.read_text(encoding="utf-8"))
+    fingerprints = reconciliation.get("input_fingerprints", {})
+    expected = {
+        "manifest_sha256": _sha256(manifest_path),
+        "legal_index_sha256": _sha256(legal_index_path),
+        "observed_changes_sha256": _sha256(observed_changes_path),
+    }
+    actual = {key: fingerprints.get(key) for key in expected}
+    if actual != expected:
+        raise ValueError(
+            "crosswalk reconciliation input fingerprints are stale: "
+            f"actual={actual}, expected={expected}"
+        )
+    summary = reconciliation.get("summary", {})
+    _require("reconciled observed events", summary.get("observed_events"), 179)
+    _require("reconciled targeted windows", summary.get("targeted_windows"), 15)
+    _require(
+        "targeted windows retaining residue",
+        summary.get("targeted_windows_with_residue"),
+        1,
+    )
+    events = reconciliation.get("events", [])
+    _require("materialized reconciled events", len(events), summary["observed_events"])
+    by_id = {event["event_id"]: event for event in events}
+    if len(by_id) != len(events):
+        raise ValueError("crosswalk reconciliation contains duplicate event IDs")
+    inventory = {
+        "path": path.as_posix(),
+        "sha256": _sha256(path),
+        "schema_version": reconciliation.get("schema_version"),
+        **summary,
+    }
+    return inventory, by_id
+
+
 def build_coverage(*, manifest_path: Path = MANIFEST,
                    legal_index_path: Path = LEGAL_INDEX,
-                   observed_changes_path: Path = OBSERVED_CHANGES) -> dict:
+                   observed_changes_path: Path = OBSERVED_CHANGES,
+                   reconciliation_path: Path = RECONCILIATION) -> dict:
     """Build and validate the offline source and observed-event ledger."""
     manifest = _load_manifest(manifest_path)
     legal_records = json.loads(legal_index_path.read_text(encoding="utf-8"))
@@ -400,8 +452,36 @@ def build_coverage(*, manifest_path: Path = MANIFEST,
     crosswalks = _crosswalk_inventory(manifest)
     resolution_pairs = _resolution_pairs(instruments)
     observed_changes, events = _observed_change_inventory(
-        observed_changes_path, manifest_path,
+        observed_changes_path, manifest,
     )
+    reconciliation, reconciled_events = _crosswalk_reconciliation_inventory(
+        reconciliation_path,
+        manifest_path=manifest_path,
+        legal_index_path=legal_index_path,
+        observed_changes_path=observed_changes_path,
+    )
+    for event in events:
+        reconciled = reconciled_events.get(event["event_id"])
+        if reconciled is None:
+            raise ValueError(f"event is absent from crosswalk reconciliation: {event['event_id']}")
+        component_statuses = Counter(
+            component["status"] for component in reconciled["components"]
+        )
+        event["crosswalk_evidence"] = {
+            "reconciliation_path": reconciliation_path.as_posix(),
+            "primary_crosswalk_path": reconciled["primary_crosswalk_path"],
+            "targeted_crosswalk_path": reconciled.get("targeted_crosswalk_path"),
+            "component_count": len(reconciled["components"]),
+            "component_statuses": dict(sorted(component_statuses.items())),
+        }
+        event["candidate_legal_instrument_ids"] = reconciled[
+            "candidate_legal_instrument_ids"
+        ]
+        event["status"] = (
+            "crosswalk_residue_legal_classification_pending"
+            if reconciled["status"] != "crosswalk_supported"
+            else "crosswalk_supported_legal_reconciliation_pending"
+        )
 
     effective_dates_from_2005 = {
         normalize_date(record["hieu_luc"])
@@ -429,6 +509,7 @@ def build_coverage(*, manifest_path: Path = MANIFEST,
         "ward_crosswalk_artifacts": len(crosswalks["artifacts"]),
         "ward_crosswalk_rows": crosswalks["rows"],
         "yearly_crosswalks": crosswalks["yearly_count"],
+        "targeted_crosswalks": crosswalks["targeted_count"],
         "legal_index_records": len(legal_records),
         "ward_relevant_legal_rows": len(ward_records),
         "ward_relevant_effective_dates_from_2005": len(effective_dates_from_2005),
@@ -439,6 +520,14 @@ def build_coverage(*, manifest_path: Path = MANIFEST,
         "unclassified_instruments": len(unresolved),
         "primary_source_open_instruments": len(primary_source_open),
         "events": len(events),
+        "crosswalk_supported_events": sum(
+            event["status"] == "crosswalk_supported_legal_reconciliation_pending"
+            for event in events
+        ),
+        "crosswalk_residue_events": sum(
+            event["status"] == "crosswalk_residue_legal_classification_pending"
+            for event in events
+        ),
     }
     for label, expected in LOCKED.items():
         _require(label, summary[label], expected)
@@ -447,13 +536,13 @@ def build_coverage(*, manifest_path: Path = MANIFEST,
     _require("SOAP missing parents", soap["missing_parent_codes"], 0)
 
     return {
-        "schema_version": 2,
+        "schema_version": 3,
         "scope": {
             "tier": "ward",
             "source_floor": SOURCE_FLOOR,
             "as_of": AS_OF,
-            "status": "observed_changes_enumerated_reconciliation_pending",
-            "next_task": 4,
+            "status": "crosswalk_reconciliation_complete_legal_source_closure_pending",
+            "next_task": 5,
         },
         "input_fingerprints": {
             "manifest_path": manifest_path.as_posix(),
@@ -462,19 +551,26 @@ def build_coverage(*, manifest_path: Path = MANIFEST,
             "legal_index_sha256": _sha256(legal_index_path),
             "observed_changes_path": observed_changes_path.as_posix(),
             "observed_changes_sha256": observed_changes["sha256"],
+            "crosswalk_reconciliation_path": reconciliation_path.as_posix(),
+            "crosswalk_reconciliation_sha256": reconciliation["sha256"],
         },
         "summary": summary,
         "inventories": {
             "soap": soap,
             "crosswalks": crosswalks,
             "observed_changes": observed_changes,
+            "crosswalk_reconciliation": reconciliation,
             "verified_2025_resolution_pairs": resolution_pairs,
         },
         "legal_instruments": instruments,
         "events": events,
         "residue": {
-            "event_inventory_status": "complete_pending_task_4_crosswalk_reconciliation",
-            "unreconciled_event_ids": [event["event_id"] for event in events],
+            "event_inventory_status": "crosswalk_reconciled_legal_linking_pending",
+            "crosswalk_residue_event_ids": [
+                event["event_id"] for event in events
+                if event["status"] == "crosswalk_residue_legal_classification_pending"
+            ],
+            "legal_unlinked_event_ids": [event["event_id"] for event in events],
             "unclassified_instrument_ids": unresolved,
             "primary_source_open_instrument_ids": primary_source_open,
             "duplicate_legal_index_keys": [

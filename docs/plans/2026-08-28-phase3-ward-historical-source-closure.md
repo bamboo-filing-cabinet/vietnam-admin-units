@@ -20,8 +20,13 @@ re-scrape it.
 > **Task 3 complete (2026-08-28).** The deterministic observed-change artifact
 > covers all 203 adjacent SOAP intervals: 179 change-bearing and 24 no-change.
 > It preserves conflicts as anomalies and makes no same-code identity claim.
-> See journal `2026-08-28.05`. **Resume at Task 4: reconcile annual crosswalk
-> events.**
+> See journal `2026-08-28.05`.
+>
+> **Task 4 complete (2026-08-28).** Annual, boundary, and post-reform evidence
+> supports 35,342/35,350 observed components after 15 targeted exports and a
+> long-range fallback. The eight remaining components are four paired 2004
+> code-transition omissions, retained as explicit residue. See journal
+> `2026-08-28.06`. **Resume at Task 5: preserve the historical legal corpus.**
 
 ## Outcome
 

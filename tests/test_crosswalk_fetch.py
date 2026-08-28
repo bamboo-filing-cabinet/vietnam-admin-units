@@ -98,5 +98,5 @@ def test_real_ward_source_closure_crosswalk_inventory_is_complete():
     assert report["planned_count"] == 21
     assert report["verified_planned_count"] == 21
     assert report["missing_count"] == 0
-    assert report["verified_tier_count"] == 24
+    assert report["verified_tier_count"] == 39
     assert report["invalid_tier_paths"] == []
