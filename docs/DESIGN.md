@@ -264,15 +264,16 @@ assemblies need non-GSO sources.
 ## Remaining items — execution tasks, not decisions (fold into the plan)
 
 - **Ward SOAP raw-cache recovery (2026-08-27/28): critical slice DONE; history
-  120/204.** The initial audit found no real `DanhMucPhuongXa` response in the
+  123/204.** The initial audit found no real `DanhMucPhuongXa` response in the
   repository or its Git history. After the NSO hostname recovered, the rescue
   workflow preserved all five critical 2025/2026 dates: 10,035 pre-reform wards
   with complete `MaQuanHuyen`, then 3,321 post-reform/current wards, all unique.
   This unblocks the 2025 ward slice. Deterministic gzip storage is implemented:
   the critical sample is 6.5 MiB decoded and ~388 KiB stored, with hashes for
   both forms. The first historical batch preserved four anchors before DNS
-  failed again. After recovery, six event batches completed through
-  2011-01-14, leaving 84 dates. The former 371-date estimate was a broad,
+  failed again. After recovery, six full event batches and three dates of the
+  seventh completed through 2011-05-31. Resume at 2011-06-09 (entry 124); 81
+  dates remain. The former 371-date estimate was a broad,
   fully bracketed emergency ceiling. Operational record: journal
   `2026-08-27.01`.
 - ~~**Verify WD qualifier constraints** for `P1365`/`P7888`~~ **DONE (`2026-07-11.01`):**

@@ -102,8 +102,9 @@ NSO hostname recovered after a DNS `SERVFAIL`, and `vn_admin_units.ward_rescue` 
 the 2025 reform boundaries, 2026 Đồng Nai boundaries, and current roster. The pre-reform source has
 **10,035 wards, 691 province/district parent pairs, and complete `MaQuanHuyen` coverage**; the
 post-reform/current source has **3,321 wards**. This unblocks the 2025 ward slice. The full historical
-Phase-3 build uses a reviewed 204-date crawl with deterministic gzip storage; **120 dates are verified
-and 84 remain** after the host recovered and six event batches completed. See [Emergency ward-source
+Phase-3 build uses a reviewed 204-date crawl with deterministic gzip storage; **123 dates are verified
+and 81 remain** after the host recovered. The next resumable date is **2011-06-09** (plan entry 124).
+See [Emergency ward-source
 rescue](#emergency-ward-source-rescue) and journal
 [`2026-08-27.01`](docs/journals/2026-08-27.01.ward-soap-source-rescue.md) for the audit, recovery,
 storage contract, and next work.
