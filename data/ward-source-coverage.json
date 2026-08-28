@@ -6695,8 +6695,10 @@
               "effective_date_precedes_delayed_soap_observation",
               "title_named_unit_xa_tan_duc"
             ],
-            "primary_source_paths": [],
-            "source_status": "official_url_unarchived"
+            "primary_source_paths": [
+              "legal/ward/2008-07-01/14-2008-qh12.supplemental.doc"
+            ],
+            "source_status": "verified_official_artifact"
           },
           {
             "classification": "parent_or_boundary_only",
@@ -10335,8 +10337,11 @@
               "effective_date_inside_observation_interval",
               "title_territory_or_named_unit"
             ],
-            "primary_source_paths": [],
-            "source_status": "secondary_only"
+            "primary_source_paths": [
+              "legal/ward/2010-10-26/40-nq-cp.gazette.pdf",
+              "legal/ward/2010-10-26/40-nq-cp.metadata.html"
+            ],
+            "source_status": "verified_official_artifact"
           },
           {
             "classification": "lineage",
@@ -10679,8 +10684,11 @@
               "effective_date_inside_observation_interval",
               "title_territory_or_named_unit"
             ],
-            "primary_source_paths": [],
-            "source_status": "missing"
+            "primary_source_paths": [
+              "legal/ward/2011-01-11/03-nq-cp.gazette.pdf",
+              "legal/ward/2011-01-11/03-nq-cp.metadata.html"
+            ],
+            "source_status": "verified_official_artifact"
           }
         ]
       },
@@ -10766,8 +10774,11 @@
               "effective_date_inside_observation_interval",
               "title_territory_or_named_unit"
             ],
-            "primary_source_paths": [],
-            "source_status": "missing"
+            "primary_source_paths": [
+              "legal/ward/2011-01-14/04-nq-cp.gazette.pdf",
+              "legal/ward/2011-01-14/04-nq-cp.metadata.html"
+            ],
+            "source_status": "verified_official_artifact"
           },
           {
             "classification": "lineage",
@@ -11117,8 +11128,11 @@
               "effective_date_inside_observation_interval",
               "title_named_unit"
             ],
-            "primary_source_paths": [],
-            "source_status": "missing"
+            "primary_source_paths": [
+              "legal/ward/2011-06-09/85-nq-cp.gazette.pdf",
+              "legal/ward/2011-06-09/85-nq-cp.metadata.html"
+            ],
+            "source_status": "verified_official_artifact"
           }
         ]
       },
@@ -11674,8 +11688,11 @@
               "effective_date_inside_observation_interval",
               "title_territory_or_named_unit"
             ],
-            "primary_source_paths": [],
-            "source_status": "secondary_only"
+            "primary_source_paths": [
+              "legal/ward/2011-11-29/101-nq-cp.gazette.pdf",
+              "legal/ward/2011-11-29/101-nq-cp.metadata.html"
+            ],
+            "source_status": "verified_official_artifact"
           }
         ]
       },
@@ -14819,8 +14836,11 @@
               "effective_date_inside_observation_interval",
               "title_territory_or_named_unit"
             ],
-            "primary_source_paths": [],
-            "source_status": "missing"
+            "primary_source_paths": [
+              "legal/ward/2018-07-11/535-nq-ubtvqh14.gazette.pdf",
+              "legal/ward/2018-07-11/535-nq-ubtvqh14.metadata.html"
+            ],
+            "source_status": "verified_official_artifact"
           },
           {
             "classification": "lineage",
@@ -14837,8 +14857,11 @@
               "effective_date_inside_observation_interval",
               "title_named_unit"
             ],
-            "primary_source_paths": [],
-            "source_status": "missing"
+            "primary_source_paths": [
+              "legal/ward/2018-07-11/536-nq-ubtvqh14.gazette.pdf",
+              "legal/ward/2018-07-11/536-nq-ubtvqh14.metadata.html"
+            ],
+            "source_status": "verified_official_artifact"
           }
         ]
       },
@@ -19155,8 +19178,10 @@
               "effective_date_inside_observation_interval",
               "title_territory_or_named_unit"
             ],
-            "primary_source_paths": [],
-            "source_status": "missing"
+            "primary_source_paths": [
+              "legal/ward/2023-04-10/722-nq-ubtvqh15.fulltext.html"
+            ],
+            "source_status": "verified_official_artifact"
           },
           {
             "classification": "lineage",
@@ -19195,8 +19220,10 @@
               "title_named_unit",
               "title_territory_or_named_unit"
             ],
-            "primary_source_paths": [],
-            "source_status": "secondary_only"
+            "primary_source_paths": [
+              "legal/ward/2023-04-10/723-nq-ubtvqh15.fulltext.html"
+            ],
+            "source_status": "verified_official_artifact"
           },
           {
             "classification": "lineage",
@@ -19216,8 +19243,10 @@
               "effective_date_inside_observation_interval",
               "title_territory_or_named_unit"
             ],
-            "primary_source_paths": [],
-            "source_status": "missing"
+            "primary_source_paths": [
+              "legal/ward/2023-04-10/724-nq-ubtvqh15.fulltext.html"
+            ],
+            "source_status": "verified_official_artifact"
           },
           {
             "classification": "lineage",
@@ -19234,8 +19263,10 @@
               "effective_date_inside_observation_interval",
               "title_named_unit"
             ],
-            "primary_source_paths": [],
-            "source_status": "missing"
+            "primary_source_paths": [
+              "legal/ward/2023-04-10/726-nq-ubtvqh15.fulltext.html"
+            ],
+            "source_status": "verified_official_artifact"
           },
           {
             "classification": "lineage",
@@ -19258,8 +19289,10 @@
               "effective_date_inside_observation_interval",
               "title_territory_or_named_unit"
             ],
-            "primary_source_paths": [],
-            "source_status": "missing"
+            "primary_source_paths": [
+              "legal/ward/2023-04-10/727-nq-ubtvqh15.fulltext.html"
+            ],
+            "source_status": "verified_official_artifact"
           },
           {
             "classification": "parent_or_boundary_only",
@@ -19273,8 +19306,10 @@
               "structural_title_review",
               "no_matching_soap_component"
             ],
-            "primary_source_paths": [],
-            "source_status": "missing"
+            "primary_source_paths": [
+              "legal/ward/2023-04-10/728-nq-ubtvqh15.fulltext.html"
+            ],
+            "source_status": "verified_official_artifact"
           },
           {
             "classification": "lineage",
@@ -19296,8 +19331,10 @@
               "title_named_unit",
               "title_territory_or_named_unit"
             ],
-            "primary_source_paths": [],
-            "source_status": "missing"
+            "primary_source_paths": [
+              "legal/ward/2023-04-10/729-nq-ubtvqh15.fulltext.html"
+            ],
+            "source_status": "verified_official_artifact"
           },
           {
             "classification": "lineage",
@@ -19317,8 +19354,10 @@
               "effective_date_inside_observation_interval",
               "title_territory_or_named_unit"
             ],
-            "primary_source_paths": [],
-            "source_status": "missing"
+            "primary_source_paths": [
+              "legal/ward/2023-04-10/730-nq-ubtvqh15.fulltext.html"
+            ],
+            "source_status": "verified_official_artifact"
           }
         ]
       },
@@ -19516,8 +19555,11 @@
               "effective_date_inside_observation_interval",
               "title_territory_or_named_unit"
             ],
-            "primary_source_paths": [],
-            "source_status": "secondary_only"
+            "primary_source_paths": [
+              "legal/ward/2024-05-01/1012-nq-ubtvqh15.gazette.pdf",
+              "legal/ward/2024-05-01/1012-nq-ubtvqh15.metadata.html"
+            ],
+            "source_status": "verified_official_artifact"
           },
           {
             "classification": "lineage",
@@ -19544,8 +19586,11 @@
               "structural_title_review",
               "title_territory_or_named_unit"
             ],
-            "primary_source_paths": [],
-            "source_status": "secondary_only"
+            "primary_source_paths": [
+              "legal/ward/2024-05-01/1013-nq-ubtvqh15.gazette.pdf",
+              "legal/ward/2024-05-01/1013-nq-ubtvqh15.metadata.html"
+            ],
+            "source_status": "verified_official_artifact"
           }
         ]
       },
@@ -19859,8 +19904,11 @@
               "effective_date_inside_observation_interval",
               "title_territory_or_named_unit"
             ],
-            "primary_source_paths": [],
-            "source_status": "missing"
+            "primary_source_paths": [
+              "legal/ward/2024-11-01/1192-nq-ubtvqh.gazette.pdf",
+              "legal/ward/2024-11-01/1192-nq-ubtvqh.metadata.html"
+            ],
+            "source_status": "verified_official_artifact"
           },
           {
             "classification": "lineage",
@@ -39115,11 +39163,11 @@
     "legal_index_path": "data/raw/nghidinh.json",
     "legal_index_sha256": "2d141ae52886f78bf476defe6f8275ea31a910d3c1f65288a1e8b067924756fb",
     "legal_linkage_overrides_path": "data/ward-legal-linkage-overrides.json",
-    "legal_linkage_overrides_sha256": "93971d43ec801676643c0e1204e6c37569a104196b123c27f7efdc471448aa16",
+    "legal_linkage_overrides_sha256": "c841b3dde6584196a5f273b7e6e65f129373f8bd1d51c14d9604a8dacc83872d",
     "legal_sources_path": "data/ward-legal-sources.json",
-    "legal_sources_sha256": "3fa442563c35297f46b253d6c3c7036d61706447ee073b6fdfbcf25590963a38",
+    "legal_sources_sha256": "1d976b7783d66eb304d865aebecefe0eaa3596f717bec9420f3151435092c57b",
     "manifest_path": "data/raw/manifest.jsonl",
-    "manifest_sha256": "c1be8a61c52b0a7923ef3944d01cb43473196b7b3279d827eaef80a1e87667a0",
+    "manifest_sha256": "1a7ac11b447d1a5b332067489d568e583a2d38a856e31eae518a5d89dafccbb0",
     "observed_changes_path": "data/ward-observed-changes.json",
     "observed_changes_sha256": "91f441b73d9489c30e26e4a1c585600fcf435b0648a4f87ad4bc86aa9ca9d1df",
     "ward_2025_composition_path": "data/ward-2025-composition.json",
@@ -39649,19 +39697,19 @@
       },
       "path": "data/ward-legal-sources.json",
       "schema_version": 1,
-      "sha256": "3fa442563c35297f46b253d6c3c7036d61706447ee073b6fdfbcf25590963a38",
+      "sha256": "1d976b7783d66eb304d865aebecefe0eaa3596f717bec9420f3151435092c57b",
       "summary": {
         "index_date_anomalies": 1,
         "instruments": 449,
-        "official_attachments": 392,
-        "official_code_differences": 9,
-        "official_matches": 392,
-        "preserved_artifacts": 784,
+        "official_attachments": 402,
+        "official_code_differences": 10,
+        "official_matches": 410,
+        "preserved_artifacts": 812,
         "secondary_tvpl_urls": 107,
         "status_counts": {
-          "official_not_found": 57,
+          "official_not_found": 39,
           "reused_existing_2025_pair": 34,
-          "verified_official_match": 358
+          "verified_official_match": 376
         }
       }
     },
@@ -57684,7 +57732,32 @@
       "index_urls": [],
       "instrument_id": "40/NQ-CP@2010-10-26",
       "observation_status": "topology_components_linked",
-      "primary_sources": [],
+      "primary_sources": [
+        {
+          "bytes": 148119,
+          "declared_media_type": "",
+          "detected_media_type": "",
+          "media_type": "html",
+          "method": "official Government Gazette metadata HTML",
+          "path": "legal/ward/2010-10-26/40-nq-cp.metadata.html",
+          "retrieved_at": "2026-08-28T21:06:51Z",
+          "sha256": "9c05c2b31b3ff32ff68ae421cbb367ece6a501ddbc4d1ac0d76b9627c227797c",
+          "source_class": "official",
+          "source_url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-40-nq-cp-3904.htm"
+        },
+        {
+          "bytes": 265755,
+          "declared_media_type": "pdf",
+          "detected_media_type": "pdf",
+          "media_type": "pdf",
+          "method": "official Government Gazette publication PDF",
+          "path": "legal/ward/2010-10-26/40-nq-cp.gazette.pdf",
+          "retrieved_at": "2026-08-28T21:06:55Z",
+          "sha256": "8c78e9badfa73aeb1c8abdae9d96f128364ee2a2235f0169dc31cfb230520d82",
+          "source_class": "official",
+          "source_url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2010/10/3904/1698-1-2010618-619-40nq-cppdf"
+        }
+      ],
       "review_status": "reviewed_title_and_source_scope",
       "secondary_sources": [
         {
@@ -57701,10 +57774,16 @@
         }
       ],
       "source_discovery": {
-        "discovery_status": "official_not_found",
-        "metadata_url": ""
+        "code_match_status": "exact",
+        "date_match_status": "plausible_effective_lag",
+        "discovery_status": "verified_official_match",
+        "effective_gap_days": 1,
+        "issued_date": "2010-10-25",
+        "metadata_url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-40-nq-cp-3904.htm",
+        "official_code": "40/NQ-CP",
+        "source_provider": "government_gazette"
       },
-      "source_status": "secondary_only",
+      "source_status": "verified_official_artifact",
       "title_variants": [
         "Thành lập thị trấn Thanh Thủy thuộc huyện Thanh Thủy tỉnh Phú Thọ"
       ]
@@ -58011,14 +58090,45 @@
       "index_urls": [],
       "instrument_id": "03/NQ-CP@2011-01-11",
       "observation_status": "topology_components_linked",
-      "primary_sources": [],
+      "primary_sources": [
+        {
+          "bytes": 148806,
+          "declared_media_type": "",
+          "detected_media_type": "",
+          "media_type": "html",
+          "method": "official Government Gazette metadata HTML",
+          "path": "legal/ward/2011-01-11/03-nq-cp.metadata.html",
+          "retrieved_at": "2026-08-28T21:06:56Z",
+          "sha256": "aa159d35df6dfb405126db4a995d615d9af88ca9bb9d1803363428dde7a80032",
+          "source_class": "official",
+          "source_url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-03-nq-cp-7892.htm"
+        },
+        {
+          "bytes": 1520001,
+          "declared_media_type": "pdf",
+          "detected_media_type": "pdf",
+          "media_type": "pdf",
+          "method": "official Government Gazette publication PDF",
+          "path": "legal/ward/2011-01-11/03-nq-cp.gazette.pdf",
+          "retrieved_at": "2026-08-28T21:06:58Z",
+          "sha256": "1809f0481343c5df9f3d5206158a906077312a3054aee2fdce5411331e7d2aee",
+          "source_class": "official",
+          "source_url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2011/1/7892/4327-1-201167-68-03nq-cppdf"
+        }
+      ],
       "review_status": "reviewed_title_and_source_scope",
       "secondary_sources": [],
       "source_discovery": {
-        "discovery_status": "official_not_found",
-        "metadata_url": ""
+        "code_match_status": "exact",
+        "date_match_status": "plausible_effective_lag",
+        "discovery_status": "verified_official_match",
+        "effective_gap_days": 1,
+        "issued_date": "2011-01-10",
+        "metadata_url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-03-nq-cp-7892.htm",
+        "official_code": "03/NQ-CP",
+        "source_provider": "government_gazette"
       },
-      "source_status": "missing",
+      "source_status": "verified_official_artifact",
       "title_variants": [
         "điều chỉnh địa giới hành chính xã, thành lập xã thuộc huyện Nam Giang, tỉnh Quảng Nam"
       ]
@@ -58042,14 +58152,45 @@
       "index_urls": [],
       "instrument_id": "04/NQ-CP@2011-01-14",
       "observation_status": "topology_components_linked",
-      "primary_sources": [],
+      "primary_sources": [
+        {
+          "bytes": 150422,
+          "declared_media_type": "",
+          "detected_media_type": "",
+          "media_type": "html",
+          "method": "official Government Gazette metadata HTML",
+          "path": "legal/ward/2011-01-14/04-nq-cp.metadata.html",
+          "retrieved_at": "2026-08-28T21:06:58Z",
+          "sha256": "6a01b60742b12ad393cd27aeff4d0da9eec123e6c41c959ae4d55d22606f3d14",
+          "source_class": "official",
+          "source_url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-04-nq-cp-7341.htm"
+        },
+        {
+          "bytes": 282884,
+          "declared_media_type": "pdf",
+          "detected_media_type": "pdf",
+          "media_type": "pdf",
+          "method": "official Government Gazette publication PDF",
+          "path": "legal/ward/2011-01-14/04-nq-cp.gazette.pdf",
+          "retrieved_at": "2026-08-28T21:06:59Z",
+          "sha256": "de012770f621cdffbdcceb6e3a7959db5cd034b3583a37f1d86fc1aa18eed6ec",
+          "source_class": "official",
+          "source_url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2011/1/7341/3990-1-201173-74-04nq-cppdf"
+        }
+      ],
       "review_status": "reviewed_title_and_source_scope",
       "secondary_sources": [],
       "source_discovery": {
-        "discovery_status": "official_not_found",
-        "metadata_url": ""
+        "code_match_status": "exact",
+        "date_match_status": "plausible_effective_lag",
+        "discovery_status": "verified_official_match",
+        "effective_gap_days": 1,
+        "issued_date": "2011-01-13",
+        "metadata_url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-04-nq-cp-7341.htm",
+        "official_code": "04/NQ-CP",
+        "source_provider": "government_gazette"
       },
-      "source_status": "missing",
+      "source_status": "verified_official_artifact",
       "title_variants": [
         "Thành lập thị xã Dĩ An, thành lập các phường thuộc thị xã Dĩ An và thành lập thị xã Thuận An, thành lập các phường thuộc thị xã Thuận An, tỉnh Bình Dương"
       ]
@@ -58319,14 +58460,45 @@
       "index_urls": [],
       "instrument_id": "85/NQ-CP@2011-06-09",
       "observation_status": "topology_components_linked",
-      "primary_sources": [],
+      "primary_sources": [
+        {
+          "bytes": 149425,
+          "declared_media_type": "",
+          "detected_media_type": "",
+          "media_type": "html",
+          "method": "official Government Gazette metadata HTML",
+          "path": "legal/ward/2011-06-09/85-nq-cp.metadata.html",
+          "retrieved_at": "2026-08-28T21:07:00Z",
+          "sha256": "1877ec2d709552c5537a1b44f4faa526317ebcd68da6297f75cbd1c6938cf262",
+          "source_class": "official",
+          "source_url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-85-nq-cp-11101.htm"
+        },
+        {
+          "bytes": 282504,
+          "declared_media_type": "pdf",
+          "detected_media_type": "pdf",
+          "media_type": "pdf",
+          "method": "official Government Gazette publication PDF",
+          "path": "legal/ward/2011-06-09/85-nq-cp.gazette.pdf",
+          "retrieved_at": "2026-08-28T21:07:01Z",
+          "sha256": "d59b41ea3cd3e390cca562cc990346e7c43bfe962dac27adae359ff36ae3f1be",
+          "source_class": "official",
+          "source_url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2011/6/11101/6870-1-2011371-372-85nq-cppdf"
+        }
+      ],
       "review_status": "reviewed_title_and_source_scope",
       "secondary_sources": [],
       "source_discovery": {
-        "discovery_status": "official_not_found",
-        "metadata_url": ""
+        "code_match_status": "exact",
+        "date_match_status": "plausible_effective_lag",
+        "discovery_status": "verified_official_match",
+        "effective_gap_days": 1,
+        "issued_date": "2011-06-08",
+        "metadata_url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-85-nq-cp-11101.htm",
+        "official_code": "85/NQ-CP",
+        "source_provider": "government_gazette"
       },
-      "source_status": "missing",
+      "source_status": "verified_official_artifact",
       "title_variants": [
         "điều chỉnh địa giới hành chính xã Long Khánh để thành lập thị trấn Long Thành thuộc huyện Duyên Hải, tỉnh Trà Vinh"
       ]
@@ -58755,7 +58927,32 @@
       "index_urls": [],
       "instrument_id": "101/NQ-CP@2011-11-29",
       "observation_status": "topology_components_linked",
-      "primary_sources": [],
+      "primary_sources": [
+        {
+          "bytes": 148821,
+          "declared_media_type": "",
+          "detected_media_type": "",
+          "media_type": "html",
+          "method": "official Government Gazette metadata HTML",
+          "path": "legal/ward/2011-11-29/101-nq-cp.metadata.html",
+          "retrieved_at": "2026-08-28T21:07:01Z",
+          "sha256": "c2933cf22cf04510afb334582103b37f17937c38cd068efe7850459ab8fb9fcb",
+          "source_class": "official",
+          "source_url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-101-nq-cp-13473.htm"
+        },
+        {
+          "bytes": 212138,
+          "declared_media_type": "pdf",
+          "detected_media_type": "pdf",
+          "media_type": "pdf",
+          "method": "official Government Gazette publication PDF",
+          "path": "legal/ward/2011-11-29/101-nq-cp.gazette.pdf",
+          "retrieved_at": "2026-08-28T21:07:02Z",
+          "sha256": "381c5c8bb07c4bbd16d95c5ab5b7d44104faedb5dcbf290fda867f05f697b52f",
+          "source_class": "official",
+          "source_url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2011/11/13473/8661-1-2011613-614-101nq-cppdf"
+        }
+      ],
       "review_status": "reviewed_title_and_source_scope",
       "secondary_sources": [
         {
@@ -58772,10 +58969,16 @@
         }
       ],
       "source_discovery": {
-        "discovery_status": "official_not_found",
-        "metadata_url": ""
+        "code_match_status": "exact",
+        "date_match_status": "plausible_effective_lag",
+        "discovery_status": "verified_official_match",
+        "effective_gap_days": 1,
+        "issued_date": "2011-11-28",
+        "metadata_url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-101-nq-cp-13473.htm",
+        "official_code": "101/NQ-CP",
+        "source_provider": "government_gazette"
       },
-      "source_status": "secondary_only",
+      "source_status": "verified_official_artifact",
       "title_variants": [
         "thành lập thị xã An Nhơn và thành lập các phường thuộc thị xã An Nhơn, Bình Định"
       ]
@@ -61526,14 +61729,45 @@
       "index_urls": [],
       "instrument_id": "535/NQ-UBTVQH14@2018-07-11",
       "observation_status": "topology_components_linked",
-      "primary_sources": [],
+      "primary_sources": [
+        {
+          "bytes": 150632,
+          "declared_media_type": "",
+          "detected_media_type": "",
+          "media_type": "html",
+          "method": "official Government Gazette metadata HTML",
+          "path": "legal/ward/2018-07-11/535-nq-ubtvqh14.metadata.html",
+          "retrieved_at": "2026-08-28T21:07:03Z",
+          "sha256": "f30600fe182cffe823e085475f8a6c35a75cead93d65797a40b51d4f550b4386",
+          "source_class": "official",
+          "source_url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-535-nq-ubtvqh14-26998.htm"
+        },
+        {
+          "bytes": 320301,
+          "declared_media_type": "pdf",
+          "detected_media_type": "pdf",
+          "media_type": "pdf",
+          "method": "official Government Gazette publication PDF",
+          "path": "legal/ward/2018-07-11/535-nq-ubtvqh14.gazette.pdf",
+          "retrieved_at": "2026-08-28T21:07:03Z",
+          "sha256": "cd9701b5fbabd4db0c2fcdcad62d6ea2698d5a83de957d08a2ef59b8aa116d35",
+          "source_class": "official",
+          "source_url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2018/7/26998/23273-1-2018827-828535-nq-ubtvqh14.pdf"
+        }
+      ],
       "review_status": "reviewed_title_and_source_scope",
       "secondary_sources": [],
       "source_discovery": {
-        "discovery_status": "official_not_found",
-        "metadata_url": ""
+        "code_match_status": "exact",
+        "date_match_status": "plausible_effective_lag",
+        "discovery_status": "verified_official_match",
+        "effective_gap_days": 0,
+        "issued_date": "2018-07-11",
+        "metadata_url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-535-nq-ubtvqh14-26998.htm",
+        "official_code": "535/NQ-UBTVQH14",
+        "source_provider": "government_gazette"
       },
-      "source_status": "missing",
+      "source_status": "verified_official_artifact",
       "title_variants": [
         "Thành lập thị trấn Lau Uyên thuộc huyện Bàu Bàng và thị trấn Tân Thành thuộc huyện Tân Uyên, tỉnh Bình Dương"
       ]
@@ -61557,14 +61791,45 @@
       "index_urls": [],
       "instrument_id": "536/NQ-UBTVQH14@2018-07-11",
       "observation_status": "topology_components_linked",
-      "primary_sources": [],
+      "primary_sources": [
+        {
+          "bytes": 149184,
+          "declared_media_type": "",
+          "detected_media_type": "",
+          "media_type": "html",
+          "method": "official Government Gazette metadata HTML",
+          "path": "legal/ward/2018-07-11/536-nq-ubtvqh14.metadata.html",
+          "retrieved_at": "2026-08-28T21:07:04Z",
+          "sha256": "5db2e6c22b0c1573596d0b36bf88961eb4ccd7b4a34405a19140ec6dfd1e7609",
+          "source_class": "official",
+          "source_url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-536-nq-ubtvqh14-26999.htm"
+        },
+        {
+          "bytes": 318712,
+          "declared_media_type": "pdf",
+          "detected_media_type": "pdf",
+          "media_type": "pdf",
+          "method": "official Government Gazette publication PDF",
+          "path": "legal/ward/2018-07-11/536-nq-ubtvqh14.gazette.pdf",
+          "retrieved_at": "2026-08-28T21:07:05Z",
+          "sha256": "c327d16c5eb7d1ac09879a95ef483584477ae25d5746ba93196b08e6289be9ff",
+          "source_class": "official",
+          "source_url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2018/7/26999/23275-1-2018827-828536-nq-ubtvqh14.pdf"
+        }
+      ],
       "review_status": "reviewed_title_and_source_scope",
       "secondary_sources": [],
       "source_discovery": {
-        "discovery_status": "official_not_found",
-        "metadata_url": ""
+        "code_match_status": "exact",
+        "date_match_status": "plausible_effective_lag",
+        "discovery_status": "verified_official_match",
+        "effective_gap_days": 0,
+        "issued_date": "2018-07-11",
+        "metadata_url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-536-nq-ubtvqh14-26999.htm",
+        "official_code": "536/NQ-UBTVQH14",
+        "source_provider": "government_gazette"
       },
-      "source_status": "missing",
+      "source_status": "verified_official_artifact",
       "title_variants": [
         "Thành lập thị trấn Đồng Lộc thuộc huyện Can Lộc, tỉnh Hà Tĩnh"
       ]
@@ -66695,14 +66960,35 @@
       "index_urls": [],
       "instrument_id": "722/NQ-UBTVQH15@2023-04-10",
       "observation_status": "topology_components_linked",
-      "primary_sources": [],
+      "primary_sources": [
+        {
+          "bytes": 72144,
+          "declared_media_type": "",
+          "detected_media_type": "",
+          "media_type": "html",
+          "method": "official National Assembly enacted full-text HTML",
+          "path": "legal/ward/2023-04-10/722-nq-ubtvqh15.fulltext.html",
+          "retrieved_at": "2026-08-28T23:11:17Z",
+          "sha256": "d9b749030696bf7542f2a6e93369650dbea4fabd0c70e9cd632baaffebc6bbbf",
+          "source_class": "official",
+          "source_url": "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73342"
+        }
+      ],
       "review_status": "reviewed_title_and_source_scope",
       "secondary_sources": [],
       "source_discovery": {
-        "discovery_status": "official_not_found",
-        "metadata_url": ""
+        "code_match_status": "exact",
+        "date_match_status": "plausible_effective_lag",
+        "discovery_status": "verified_official_match",
+        "effective_date_match_status": "exact",
+        "effective_gap_days": 56,
+        "issued_date": "2023-02-13",
+        "metadata_url": "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73342",
+        "official_code": "722/NQ-UBTVQH15",
+        "official_effective_date": "2023-04-10",
+        "source_provider": "national_assembly_full_text"
       },
-      "source_status": "missing",
+      "source_status": "verified_official_artifact",
       "title_variants": [
         "Nghị quyết về việc thành lập thị trấn Vân Tùng thuộc huyện Ngân Sơn, tỉnh Bắc Kạn"
       ]
@@ -66726,7 +67012,20 @@
       "index_urls": [],
       "instrument_id": "723/NQ-UBTVQH15@2023-04-10",
       "observation_status": "topology_components_linked",
-      "primary_sources": [],
+      "primary_sources": [
+        {
+          "bytes": 83715,
+          "declared_media_type": "",
+          "detected_media_type": "",
+          "media_type": "html",
+          "method": "official National Assembly enacted full-text HTML",
+          "path": "legal/ward/2023-04-10/723-nq-ubtvqh15.fulltext.html",
+          "retrieved_at": "2026-08-28T23:11:19Z",
+          "sha256": "3d49a67dee8c8d3c8014a270e97dce97818cacfcc12966b1fdc56939c6010905",
+          "source_class": "official",
+          "source_url": "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73341"
+        }
+      ],
       "review_status": "reviewed_title_and_source_scope",
       "secondary_sources": [
         {
@@ -66743,10 +67042,18 @@
         }
       ],
       "source_discovery": {
-        "discovery_status": "official_not_found",
-        "metadata_url": ""
+        "code_match_status": "exact",
+        "date_match_status": "plausible_effective_lag",
+        "discovery_status": "verified_official_match",
+        "effective_date_match_status": "exact",
+        "effective_gap_days": 56,
+        "issued_date": "2023-02-13",
+        "metadata_url": "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73341",
+        "official_code": "723/NQ-UBTVQH15",
+        "official_effective_date": "2023-04-10",
+        "source_provider": "national_assembly_full_text"
       },
-      "source_status": "secondary_only",
+      "source_status": "verified_official_artifact",
       "title_variants": [
         "Nghị quyết về việc thành lập thị xã Thuận Thành và các phường thuộc thị xã Thuận Thành, thị xã Quế Võ và các phường thuộc thị xã Quế Võ, tỉnh Bắc Ninh"
       ]
@@ -66770,14 +67077,35 @@
       "index_urls": [],
       "instrument_id": "724/NQ-UBTVQH15@2023-04-10",
       "observation_status": "topology_components_linked",
-      "primary_sources": [],
+      "primary_sources": [
+        {
+          "bytes": 74176,
+          "declared_media_type": "",
+          "detected_media_type": "",
+          "media_type": "html",
+          "method": "official National Assembly enacted full-text HTML",
+          "path": "legal/ward/2023-04-10/724-nq-ubtvqh15.fulltext.html",
+          "retrieved_at": "2026-08-28T23:11:53Z",
+          "sha256": "215134220c4a37bcca80c55753e72bbc52c0ede17b8766e285034e1cd21f90fc",
+          "source_class": "official",
+          "source_url": "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73337"
+        }
+      ],
       "review_status": "reviewed_title_and_source_scope",
       "secondary_sources": [],
       "source_discovery": {
-        "discovery_status": "official_not_found",
-        "metadata_url": ""
+        "code_match_status": "exact",
+        "date_match_status": "plausible_effective_lag",
+        "discovery_status": "verified_official_match",
+        "effective_date_match_status": "exact",
+        "effective_gap_days": 56,
+        "issued_date": "2023-02-13",
+        "metadata_url": "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73337",
+        "official_code": "724/NQ-UBTVQH15",
+        "official_effective_date": "2023-04-10",
+        "source_provider": "national_assembly_full_text"
       },
-      "source_status": "missing",
+      "source_status": "verified_official_artifact",
       "title_variants": [
         "Nghị quyết về việc thành lập thị trấn Tiên Thủy thuộc huyện Châu Thành, thị trấn Tiệm Tôm thuộc huyện Ba Tri và thị trấn Phước Mỹ Trung thuộc huyện Mỏ Cày Bắc, tỉnh Bến Tre"
       ]
@@ -66801,14 +67129,35 @@
       "index_urls": [],
       "instrument_id": "726/NQ-UBTVQH15@2023-04-10",
       "observation_status": "topology_components_linked",
-      "primary_sources": [],
+      "primary_sources": [
+        {
+          "bytes": 72021,
+          "declared_media_type": "",
+          "detected_media_type": "",
+          "media_type": "html",
+          "method": "official National Assembly enacted full-text HTML",
+          "path": "legal/ward/2023-04-10/726-nq-ubtvqh15.fulltext.html",
+          "retrieved_at": "2026-08-28T23:11:54Z",
+          "sha256": "09d9907c365e967a18def845d48c5ca63f3feb7438391ae1c7263a48d73324fc",
+          "source_class": "official",
+          "source_url": "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73338"
+        }
+      ],
       "review_status": "reviewed_title_and_source_scope",
       "secondary_sources": [],
       "source_discovery": {
-        "discovery_status": "official_not_found",
-        "metadata_url": ""
+        "code_match_status": "exact",
+        "date_match_status": "plausible_effective_lag",
+        "discovery_status": "verified_official_match",
+        "effective_date_match_status": "exact",
+        "effective_gap_days": 56,
+        "issued_date": "2023-02-13",
+        "metadata_url": "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73338",
+        "official_code": "726/NQ-UBTVQH15",
+        "official_effective_date": "2023-04-10",
+        "source_provider": "national_assembly_full_text"
       },
-      "source_status": "missing",
+      "source_status": "verified_official_artifact",
       "title_variants": [
         "Nghị quyết về việc thành lập thị trấn Powng Drang thuộc huyện Krông Búk, tỉnh Đắk Lắk"
       ]
@@ -66832,14 +67181,35 @@
       "index_urls": [],
       "instrument_id": "727/NQ-UBTVQH15@2023-04-10",
       "observation_status": "topology_components_linked",
-      "primary_sources": [],
+      "primary_sources": [
+        {
+          "bytes": 74727,
+          "declared_media_type": "",
+          "detected_media_type": "",
+          "media_type": "html",
+          "method": "official National Assembly enacted full-text HTML",
+          "path": "legal/ward/2023-04-10/727-nq-ubtvqh15.fulltext.html",
+          "retrieved_at": "2026-08-28T23:11:56Z",
+          "sha256": "544f4c1bb6d90862c33cfedd10397e3b10410e54461e9dc6c7fff0eca434c0b0",
+          "source_class": "official",
+          "source_url": "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73344"
+        }
+      ],
       "review_status": "reviewed_title_and_source_scope",
       "secondary_sources": [],
       "source_discovery": {
-        "discovery_status": "official_not_found",
-        "metadata_url": ""
+        "code_match_status": "exact",
+        "date_match_status": "plausible_effective_lag",
+        "discovery_status": "verified_official_match",
+        "effective_date_match_status": "exact",
+        "effective_gap_days": 56,
+        "issued_date": "2023-02-13",
+        "metadata_url": "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73344",
+        "official_code": "727/NQ-UBTVQH15",
+        "official_effective_date": "2023-04-10",
+        "source_provider": "national_assembly_full_text"
       },
-      "source_status": "missing",
+      "source_status": "verified_official_artifact",
       "title_variants": [
         "Nghị quyết về việc thành lập các phường thuộc thị xã Điện Bàn và thị trấn Trung Phước thuộc huyện Nông Sơn, tỉnh Quảng Nam"
       ]
@@ -66863,14 +67233,35 @@
       "index_urls": [],
       "instrument_id": "728/NQ-UBTVQH15@2023-04-10",
       "observation_status": "no_observable_roster_change",
-      "primary_sources": [],
+      "primary_sources": [
+        {
+          "bytes": 73115,
+          "declared_media_type": "",
+          "detected_media_type": "",
+          "media_type": "html",
+          "method": "official National Assembly enacted full-text HTML",
+          "path": "legal/ward/2023-04-10/728-nq-ubtvqh15.fulltext.html",
+          "retrieved_at": "2026-08-28T23:11:58Z",
+          "sha256": "1cae870de0d1ff62ad77cfa69d602e80b658772b94b915e051c3bbb7ceaa6cba",
+          "source_class": "official",
+          "source_url": "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73340"
+        }
+      ],
       "review_status": "reviewed_title_and_source_scope",
       "secondary_sources": [],
       "source_discovery": {
-        "discovery_status": "official_not_found",
-        "metadata_url": ""
+        "code_match_status": "exact",
+        "date_match_status": "plausible_effective_lag",
+        "discovery_status": "verified_official_match",
+        "effective_date_match_status": "index_effective_date_differs",
+        "effective_gap_days": 56,
+        "issued_date": "2023-02-13",
+        "metadata_url": "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73340",
+        "official_code": "728/NQ-UBTVQH15",
+        "official_effective_date": "2023-03-01",
+        "source_provider": "national_assembly_full_text"
       },
-      "source_status": "missing",
+      "source_status": "verified_official_artifact",
       "title_variants": [
         "Nghị quyết về việc điều chỉnh địa giới đơn vị hành chính giữa xã Long Khánh và xã Ngũ Lạc thuộc huyện Duyên Hải, tỉnh Trà Vinh"
       ]
@@ -66894,14 +67285,35 @@
       "index_urls": [],
       "instrument_id": "729/NQ-UBTVQH15@2023-04-10",
       "observation_status": "topology_components_linked",
-      "primary_sources": [],
+      "primary_sources": [
+        {
+          "bytes": 73744,
+          "declared_media_type": "",
+          "detected_media_type": "",
+          "media_type": "html",
+          "method": "official National Assembly enacted full-text HTML",
+          "path": "legal/ward/2023-04-10/729-nq-ubtvqh15.fulltext.html",
+          "retrieved_at": "2026-08-28T23:12:00Z",
+          "sha256": "a73dea8703ee1cf80ada5cdcf606cf4bccb9d34b79c2b4fea97d93b5263543c5",
+          "source_class": "official",
+          "source_url": "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73345"
+        }
+      ],
       "review_status": "reviewed_title_and_source_scope",
       "secondary_sources": [],
       "source_discovery": {
-        "discovery_status": "official_not_found",
-        "metadata_url": ""
+        "code_match_status": "exact",
+        "date_match_status": "plausible_effective_lag",
+        "discovery_status": "verified_official_match",
+        "effective_date_match_status": "exact",
+        "effective_gap_days": 56,
+        "issued_date": "2023-02-13",
+        "metadata_url": "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73345",
+        "official_code": "729/NQ-UBTVQH15",
+        "official_effective_date": "2023-04-10",
+        "source_provider": "national_assembly_full_text"
       },
-      "source_status": "missing",
+      "source_status": "verified_official_artifact",
       "title_variants": [
         "Nghị quyết về việc thành lập thị trấn Hóa Thượng thuộc huyện Đồng Hỷ và nhập xã Quân Chu vào thị trấn Quân Chu thuộc huyện Đại Từ, tỉnh Thái Nguyên"
       ]
@@ -66925,14 +67337,35 @@
       "index_urls": [],
       "instrument_id": "730/NQ-UBTVQH15@2023-04-10",
       "observation_status": "topology_components_linked",
-      "primary_sources": [],
+      "primary_sources": [
+        {
+          "bytes": 74061,
+          "declared_media_type": "",
+          "detected_media_type": "",
+          "media_type": "html",
+          "method": "official National Assembly enacted full-text HTML",
+          "path": "legal/ward/2023-04-10/730-nq-ubtvqh15.fulltext.html",
+          "retrieved_at": "2026-08-28T23:12:02Z",
+          "sha256": "9fc9a9d5fb89f0010e0d80b62db46645442478ee6f4e7cebb76f77096fb90215",
+          "source_class": "official",
+          "source_url": "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73343"
+        }
+      ],
       "review_status": "reviewed_title_and_source_scope",
       "secondary_sources": [],
       "source_discovery": {
-        "discovery_status": "official_not_found",
-        "metadata_url": ""
+        "code_match_status": "exact",
+        "date_match_status": "plausible_effective_lag",
+        "discovery_status": "verified_official_match",
+        "effective_date_match_status": "exact",
+        "effective_gap_days": 56,
+        "issued_date": "2023-02-13",
+        "metadata_url": "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73343",
+        "official_code": "730/NQ-UBTVQH15",
+        "official_effective_date": "2023-04-10",
+        "source_provider": "national_assembly_full_text"
       },
-      "source_status": "missing",
+      "source_status": "verified_official_artifact",
       "title_variants": [
         "Nghị quyết về việc thành lập thị trấn Kim Long thuộc huyện Tam Dương, thị trấn Tam Hồng thuộc huyện Yên Lạc và phường Định Trung thuộc thành phố Vĩnh Yên, tỉnh Vĩnh Phúc"
       ]
@@ -67091,7 +67524,32 @@
       "index_urls": [],
       "instrument_id": "1012/NQ-UBTVQH15@2024-05-01",
       "observation_status": "topology_components_linked",
-      "primary_sources": [],
+      "primary_sources": [
+        {
+          "bytes": 150481,
+          "declared_media_type": "",
+          "detected_media_type": "",
+          "media_type": "html",
+          "method": "official Government Gazette metadata HTML",
+          "path": "legal/ward/2024-05-01/1012-nq-ubtvqh15.metadata.html",
+          "retrieved_at": "2026-08-28T21:07:06Z",
+          "sha256": "e15af3745332e0603ecffb53aa956278268078dc9ac0f65cddf099e413f6f3f0",
+          "source_class": "official",
+          "source_url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-1012-nq-ubtvqh15-41523.htm"
+        },
+        {
+          "bytes": 341859,
+          "declared_media_type": "pdf",
+          "detected_media_type": "pdf",
+          "media_type": "pdf",
+          "method": "official Government Gazette publication PDF",
+          "path": "legal/ward/2024-05-01/1012-nq-ubtvqh15.gazette.pdf",
+          "retrieved_at": "2026-08-28T21:07:07Z",
+          "sha256": "6a55b9245cef9df1368fcbb4592a8a24213ae695983478fb4a802730d669aa9c",
+          "source_class": "official",
+          "source_url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/3/41523/49400-1-2024479-4801012-nq-ubtvqh15.pdf"
+        }
+      ],
       "review_status": "reviewed_title_and_source_scope",
       "secondary_sources": [
         {
@@ -67108,10 +67566,16 @@
         }
       ],
       "source_discovery": {
-        "discovery_status": "official_not_found",
-        "metadata_url": ""
+        "code_match_status": "exact",
+        "date_match_status": "plausible_effective_lag",
+        "discovery_status": "verified_official_match",
+        "effective_gap_days": 43,
+        "issued_date": "2024-03-19",
+        "metadata_url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-1012-nq-ubtvqh15-41523.htm",
+        "official_code": "1012/NQ-UBTVQH15",
+        "source_provider": "government_gazette"
       },
-      "source_status": "secondary_only",
+      "source_status": "verified_official_artifact",
       "title_variants": [
         "Nghị quyết vv thành lập phường An Điền, phường An Tây thuộc thị xã Bến Cát và thành lập thành phố Bến Cát, tỉnh Bình Dương"
       ]
@@ -67136,7 +67600,32 @@
       "index_urls": [],
       "instrument_id": "1013/NQ-UBTVQH15@2024-05-01",
       "observation_status": "topology_components_linked",
-      "primary_sources": [],
+      "primary_sources": [
+        {
+          "bytes": 150186,
+          "declared_media_type": "",
+          "detected_media_type": "",
+          "media_type": "html",
+          "method": "official Government Gazette metadata HTML",
+          "path": "legal/ward/2024-05-01/1013-nq-ubtvqh15.metadata.html",
+          "retrieved_at": "2026-08-28T21:07:07Z",
+          "sha256": "4dcc32dd63d1ca57a751b96b04be92f0ca94771c5bf44e5164c56487fc4ce505",
+          "source_class": "official",
+          "source_url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-1013-nq-ubtvqh15-41533.htm"
+        },
+        {
+          "bytes": 358665,
+          "declared_media_type": "pdf",
+          "detected_media_type": "pdf",
+          "media_type": "pdf",
+          "method": "official Government Gazette publication PDF",
+          "path": "legal/ward/2024-05-01/1013-nq-ubtvqh15.gazette.pdf",
+          "retrieved_at": "2026-08-28T21:07:08Z",
+          "sha256": "4f1bad42a5034f0148242096377bd226c67c67ca8b722ee1a861f66a0fd4dee3",
+          "source_class": "official",
+          "source_url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/3/41533/49417-1-2024485-4861013-nq-ubtvqh15.pdf"
+        }
+      ],
       "review_status": "reviewed_title_and_source_scope",
       "secondary_sources": [
         {
@@ -67153,10 +67642,16 @@
         }
       ],
       "source_discovery": {
-        "discovery_status": "official_not_found",
-        "metadata_url": ""
+        "code_match_status": "exact",
+        "date_match_status": "plausible_effective_lag",
+        "discovery_status": "verified_official_match",
+        "effective_gap_days": 43,
+        "issued_date": "2024-03-19",
+        "metadata_url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-1013-nq-ubtvqh15-41533.htm",
+        "official_code": "1013/NQ-UBTVQH15",
+        "source_provider": "government_gazette"
       },
-      "source_status": "secondary_only",
+      "source_status": "verified_official_artifact",
       "title_variants": [
         "Nghị quyết về việc sắp xếp, thành lập các phường thuộc thị xã Gò Công và thành lập thành phố Gò Công, tỉnh Tiền Giang"
       ]
@@ -67376,14 +67871,45 @@
       "index_urls": [],
       "instrument_id": "1192/NQ-UBTVQH@2024-11-01",
       "observation_status": "topology_components_linked",
-      "primary_sources": [],
+      "primary_sources": [
+        {
+          "bytes": 149774,
+          "declared_media_type": "",
+          "detected_media_type": "",
+          "media_type": "html",
+          "method": "official Government Gazette metadata HTML",
+          "path": "legal/ward/2024-11-01/1192-nq-ubtvqh.metadata.html",
+          "retrieved_at": "2026-08-28T21:07:09Z",
+          "sha256": "7d8d529db60f08e523f66537d6887912719442cc75800be3c9c1f8196c3cbb83",
+          "source_class": "official",
+          "source_url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-1192-nq-ubtvqh15-42858.htm"
+        },
+        {
+          "bytes": 350077,
+          "declared_media_type": "pdf",
+          "detected_media_type": "pdf",
+          "media_type": "pdf",
+          "method": "official Government Gazette publication PDF",
+          "path": "legal/ward/2024-11-01/1192-nq-ubtvqh.gazette.pdf",
+          "retrieved_at": "2026-08-28T21:07:10Z",
+          "sha256": "b2af749f4c27b34024f9583a034dc5661132bf86a76af76bfc09d8768c439f95",
+          "source_class": "official",
+          "source_url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2024/9/42858/52017-1-20241117-11181192-nq-ubtvqh15.pdf"
+        }
+      ],
       "review_status": "reviewed_title_and_source_scope",
       "secondary_sources": [],
       "source_discovery": {
-        "discovery_status": "official_not_found",
-        "metadata_url": ""
+        "code_match_status": "official_code_differs",
+        "date_match_status": "plausible_effective_lag",
+        "discovery_status": "verified_official_match",
+        "effective_gap_days": 34,
+        "issued_date": "2024-09-28",
+        "metadata_url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-1192-nq-ubtvqh15-42858.htm",
+        "official_code": "1192/NQ-UBTVQH15",
+        "source_provider": "government_gazette"
       },
-      "source_status": "missing",
+      "source_status": "verified_official_artifact",
       "title_variants": [
         "Nghị quyết về việc sắp xếp đơn vị hành chính cấp xã của thành phố Cần Thơ giai đoạn 2023-2025"
       ]
@@ -72320,19 +72846,12 @@
   ],
   "residue": {
     "change_bearing_source_open_instrument_ids": [
-      "03/NQ-CP@2011-01-11",
-      "04/NQ-CP@2011-01-14",
       "07/NĐ-CP@2009-01-07",
       "08/NĐ-CP@2009-01-07",
       "10/NĐ-CP@2009-01-07",
-      "101/NQ-CP@2011-11-29",
-      "1012/NQ-UBTVQH15@2024-05-01",
-      "1013/NQ-UBTVQH15@2024-05-01",
       "11/NĐ-CP@2009-01-07",
-      "1192/NQ-UBTVQH@2024-11-01",
       "12/NĐ-CP@2009-01-07",
       "137/2007N@2007-09-11",
-      "14/2008/QH12@2008-07-01",
       "14/NĐ-CP@2009-04-11",
       "26/NQ-CP@2009-06-11",
       "28/2006/NDD-CP@2006-04-06",
@@ -72343,26 +72862,15 @@
       "368/NQ-UBTVQH14@2017-04-19",
       "39/2006/NĐ-CP@2006-05-06",
       "39/NQ-CP@2009-08-15",
-      "40/NQ-CP@2010-10-26",
       "422/NQ-UBTVQH14@2017-08-18",
       "460/NQ-UBTVQH14@2017-12-13",
       "469/NQ-UBTVQH15@2022-04-10",
-      "535/NQ-UBTVQH14@2018-07-11",
-      "536/NQ-UBTVQH14@2018-07-11",
       "60/2006/NĐ-CP@2006-07-04",
       "64/2006/NĐ-CP@2006-07-08",
       "721/NQ-UBTVQH15@2023-04-10",
-      "722/NQ-UBTVQH15@2023-04-10",
-      "723/NQ-UBTVQH15@2023-04-10",
-      "724/NQ-UBTVQH15@2023-04-10",
-      "726/NQ-UBTVQH15@2023-04-10",
-      "727/NQ-UBTVQH15@2023-04-10",
-      "729/NQ-UBTVQH15@2023-04-10",
-      "730/NQ-UBTVQH15@2023-04-10",
       "820/NQ-UBTVQH14@2020-01-01",
       "84/2005-NĐ-CP@2005-07-22",
       "85/2005/NĐ-CP@2005-07-22",
-      "85/NQ-CP@2011-06-09",
       "889/NQ-UBTVQH13@2015-03-12",
       "891/NQ-UBTVQH13@2015-03-12",
       "892/NQ-UBTVQH13@2015-03-12",
@@ -72412,7 +72920,7 @@
         ]
       }
     ],
-    "event_inventory_status": "complete_legal_linkage_source_audit_pending",
+    "event_inventory_status": "complete_source_audit_bounded_residue",
     "legal_unlinked_event_ids": [],
     "primary_source_open_instrument_ids": [
       "84/2005-NĐ-CP@2005-07-22",
@@ -72438,11 +72946,6 @@
       "28/NQ-CP@2009-06-30",
       "29/NQ-CP@2009-06-30",
       "39/NQ-CP@2009-08-15",
-      "40/NQ-CP@2010-10-26",
-      "03/NQ-CP@2011-01-11",
-      "04/NQ-CP@2011-01-14",
-      "85/NQ-CP@2011-06-09",
-      "101/NQ-CP@2011-11-29",
       "889/NQ-UBTVQH13@2015-03-12",
       "891/NQ-UBTVQH13@2015-03-12",
       "892/NQ-UBTVQH13@2015-03-12",
@@ -72456,35 +72959,44 @@
       "368/NQ-UBTVQH14@2017-04-19",
       "422/NQ-UBTVQH14@2017-08-18",
       "460/NQ-UBTVQH14@2017-12-13",
-      "535/NQ-UBTVQH14@2018-07-11",
-      "536/NQ-UBTVQH14@2018-07-11",
       "820/NQ-UBTVQH14@2020-01-01",
       "469/NQ-UBTVQH15@2022-04-10",
-      "721/NQ-UBTVQH15@2023-04-10",
-      "722/NQ-UBTVQH15@2023-04-10",
-      "723/NQ-UBTVQH15@2023-04-10",
-      "724/NQ-UBTVQH15@2023-04-10",
-      "726/NQ-UBTVQH15@2023-04-10",
-      "727/NQ-UBTVQH15@2023-04-10",
-      "728/NQ-UBTVQH15@2023-04-10",
-      "729/NQ-UBTVQH15@2023-04-10",
-      "730/NQ-UBTVQH15@2023-04-10",
-      "1012/NQ-UBTVQH15@2024-05-01",
-      "1013/NQ-UBTVQH15@2024-05-01",
-      "1192/NQ-UBTVQH@2024-11-01"
+      "721/NQ-UBTVQH15@2023-04-10"
     ],
+    "source_gate_status": "open",
     "unclassified_instrument_ids": []
   },
-  "schema_version": 5,
+  "schema_version": 6,
   "scope": {
     "as_of": "2026-08-27",
     "next_task": 7,
     "source_floor": "2002-01-01",
-    "status": "legal_events_classified_source_audit_pending",
+    "source_gate_status": "open",
+    "status": "source_audit_complete_bounded_residue",
     "tier": "ward"
   },
+  "source_floor_evidence": {
+    "endpoint_interval": {
+      "after_date": "2004-01-01",
+      "after_path": "soap/DanhMucPhuongXa_2004-01-01.xml.gz",
+      "before_date": "2002-01-01",
+      "before_path": "soap/DanhMucPhuongXa_2002-01-01.xml.gz",
+      "content_sha256": "84ad76c48cc7dc291f5d3149a865c5bf3e767919a16766534f5fbdd90cb92724",
+      "payload_relation": "identical"
+    },
+    "first_observed_transition": {
+      "after_date": "2004-07-01",
+      "before_date": "2004-01-01",
+      "classification": "code_scheme_transition",
+      "component_count": 21287,
+      "event_id": "soap:2004-01-01->2004-07-01",
+      "status": "explicitly_classified_non_legal_transition"
+    },
+    "limitation": "matching_endpoint_payloads_do_not_exclude_transient_intra_interval_changes",
+    "verdict": "no_endpoint_state_difference_observed"
+  },
   "summary": {
-    "change_bearing_source_open_instruments": 55,
+    "change_bearing_source_open_instruments": 37,
     "classified_instruments": 449,
     "classified_legal_index_rows": 453,
     "component_assignment_counts": {
@@ -72517,9 +73029,9 @@
     },
     "legal_index_records": 544,
     "observed_change_intervals": 179,
-    "official_source_matches": 392,
-    "official_source_not_found": 57,
-    "primary_source_open_instruments": 57,
+    "official_source_matches": 410,
+    "official_source_not_found": 39,
+    "primary_source_open_instruments": 39,
     "reviewed_event_statuses": {
       "explicitly_classified_non_legal_transition": 1,
       "legal_context_classified": 16,
@@ -72547,10 +73059,26 @@
       "effective_date": "2008-07-01",
       "instrument_id": "14/2008/QH12@2008-07-01",
       "issued_date": "2008-05-29",
-      "primary_source_paths": [],
-      "primary_sources": [],
+      "primary_source_paths": [
+        "legal/ward/2008-07-01/14-2008-qh12.supplemental.doc"
+      ],
+      "primary_sources": [
+        {
+          "bytes": 6975,
+          "declared_media_type": "doc",
+          "detected_media_type": "html",
+          "media_type": "other",
+          "method": "official provincial government legal original attachment",
+          "path": "legal/ward/2008-07-01/14-2008-qh12.supplemental.doc",
+          "retrieved_at": "2026-08-28T21:08:59Z",
+          "sha256": "7391c3606e1a60633897a6ae774d33542faf4eb199348ffb6d98035d3ba75cee",
+          "source_class": "official",
+          "source_url": "https://ttptquydat.stnmt.dongnai.gov.vn/VN/Vanbanphapquy/DownloadFile?fileName=14_2008_QH12_68075.doc"
+        }
+      ],
       "review_note": "Canonical correction for the two malformed NSO 14/2008/NĐ-CP rows. Article 1 transfers Xã Tân Đức from Hà Tây to Việt Trì, Phú Thọ; Article 4 sets the 2008-07-01 effective date.",
-      "source_status": "official_url_unarchived",
+      "source_path": "legal/ward/2008-07-01/14-2008-qh12.supplemental.doc",
+      "source_status": "verified_official_artifact",
       "source_url": "https://ttptquydat.stnmt.dongnai.gov.vn/VN/Vanbanphapquy/DownloadFile?fileName=14_2008_QH12_68075.doc",
       "title": "Điều chỉnh địa giới hành chính giữa tỉnh Hà Tây và tỉnh Phú Thọ, giữa tỉnh Bình Phước và tỉnh Đồng Nai"
     },

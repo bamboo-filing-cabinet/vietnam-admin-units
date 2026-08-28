@@ -4,6 +4,7 @@ from vn_admin_units.ward_source_coverage import (
     build_coverage,
     build_instruments,
     crosswalk_kind,
+    format_audit,
     index_legal_sources,
     normalize_date,
     serialize_coverage,
@@ -156,17 +157,52 @@ def test_real_locked_baseline_builds_deterministically():
         "superseded_by_canonical_correction": 2,
         "topology_components_linked": 354,
     }
-    assert summary["primary_source_open_instruments"] == 57
-    assert summary["official_source_matches"] == 392
-    assert summary["official_source_not_found"] == 57
+    assert summary["change_bearing_source_open_instruments"] == 37
+    assert summary["primary_source_open_instruments"] == 39
+    assert summary["official_source_matches"] == 410
+    assert summary["official_source_not_found"] == 39
     assert summary["secondary_tvpl_urls"] == 107
     assert summary["observed_change_intervals"] == 179
     assert summary["events"] == 179
     assert summary["crosswalk_supported_events"] == 178
     assert summary["crosswalk_residue_events"] == 1
     assert coverage["scope"]["next_task"] == 7
+    assert coverage["scope"]["status"] == "source_audit_complete_bounded_residue"
+    assert coverage["scope"]["source_gate_status"] == "open"
     assert coverage["residue"]["event_inventory_status"] == (
-        "complete_legal_linkage_source_audit_pending"
+        "complete_source_audit_bounded_residue"
+    )
+    assert coverage["source_floor_evidence"] == {
+        "endpoint_interval": {
+            "before_date": "2002-01-01",
+            "before_path": "soap/DanhMucPhuongXa_2002-01-01.xml.gz",
+            "after_date": "2004-01-01",
+            "after_path": "soap/DanhMucPhuongXa_2004-01-01.xml.gz",
+            "content_sha256": (
+                "84ad76c48cc7dc291f5d3149a865c5bf3e767919a16766534f5fbdd90cb92724"
+            ),
+            "payload_relation": "identical",
+        },
+        "verdict": "no_endpoint_state_difference_observed",
+        "limitation": (
+            "matching_endpoint_payloads_do_not_exclude_transient_"
+            "intra_interval_changes"
+        ),
+        "first_observed_transition": {
+            "event_id": "soap:2004-01-01->2004-07-01",
+            "before_date": "2004-01-01",
+            "after_date": "2004-07-01",
+            "classification": "code_scheme_transition",
+            "component_count": 21_287,
+            "status": "explicitly_classified_non_legal_transition",
+        },
+    }
+    assert format_audit(coverage) == (
+        "ward source audit: OPEN — 410/449 official; 39 primary-source open; "
+        "37 change-bearing open\n"
+        "source floor verdict: no_endpoint_state_difference_observed — "
+        "2002-01-01 and 2004-01-01 are identical; transient intra-interval "
+        "changes are not excluded"
     )
     assert coverage["residue"]["crosswalk_residue_event_ids"] == [
         "soap:2004-01-01->2004-07-01",

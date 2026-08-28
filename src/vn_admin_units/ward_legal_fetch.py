@@ -12,6 +12,7 @@ artifacts use paths derived from normalized effective date + instrument code.
 Usage:
   uv run python -m vn_admin_units.ward_legal_fetch --discover
   uv run python -m vn_admin_units.ward_legal_fetch --gazette-recover
+  uv run python -m vn_admin_units.ward_legal_fetch --assembly-recover
   uv run python -m vn_admin_units.ward_legal_fetch --fetch-supplemental
   uv run python -m vn_admin_units.ward_legal_fetch --fetch
   uv run python -m vn_admin_units.ward_legal_fetch --check
@@ -52,6 +53,32 @@ PORTAL_LIST = f"{PORTAL_ROOT}/he-thong-van-ban"
 FORM_PREFIX = "ctrl_191017_163$"
 GAZETTE_ROOT = "https://congbao.chinhphu.vn"
 GAZETTE_SEARCH = "https://api-searchcongbao.chinhphu.vn/search/van-ban"
+NATIONAL_ASSEMBLY_FULL_TEXT = {
+    "722/NQ-UBTVQH15@2023-04-10": (
+        "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73342"
+    ),
+    "723/NQ-UBTVQH15@2023-04-10": (
+        "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73341"
+    ),
+    "724/NQ-UBTVQH15@2023-04-10": (
+        "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73337"
+    ),
+    "726/NQ-UBTVQH15@2023-04-10": (
+        "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73338"
+    ),
+    "727/NQ-UBTVQH15@2023-04-10": (
+        "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73344"
+    ),
+    "728/NQ-UBTVQH15@2023-04-10": (
+        "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73340"
+    ),
+    "729/NQ-UBTVQH15@2023-04-10": (
+        "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73345"
+    ),
+    "730/NQ-UBTVQH15@2023-04-10": (
+        "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73343"
+    ),
+}
 EXPECTED_INSTRUMENTS = 449
 EXPECTED_REUSED_2025 = 34
 
@@ -89,6 +116,10 @@ def cache_base(code: str, effective_date: str) -> str:
 
 def metadata_relpath(code: str, effective_date: str) -> str:
     return f"{cache_base(code, effective_date)}.metadata.html"
+
+
+def full_text_relpath(code: str, effective_date: str) -> str:
+    return f"{cache_base(code, effective_date)}.fulltext.html"
 
 
 def _attachment_extension(url: str) -> str:
@@ -405,6 +436,61 @@ def parse_gazette_detail(content: bytes, source_url: str) -> dict:
         "title": fields["trich yeu"],
         "attachment_urls": attachments,
     }
+
+
+def parse_national_assembly_full_text(content: bytes, source_url: str) -> dict:
+    """Validate one complete enacted text published by the National Assembly."""
+    document = _decode_html(content, f"official National Assembly page {source_url}")
+    heading = " ".join(document.xpath("string(//h1)").split())
+    description = " ".join(document.xpath(
+        'string(//meta[translate(@name,"ABCDEFGHIJKLMNOPQRSTUVWXYZ",'
+        '"abcdefghijklmnopqrstuvwxyz")="description"]/@content)'
+    ).split())
+    page_text = " ".join(" ".join(document.xpath("//body//text()")).split())
+    code_match = re.search(
+        r"\bSố\s*:\s*(\d+\s*/\s*NQ\s*-\s*UBTVQH\d+)\b",
+        page_text,
+        flags=re.IGNORECASE,
+    )
+    date_match = re.search(r"\bngày\s+(\d{1,2}/\d{1,2}/\d{4})\b", description)
+    formal_date_match = re.search(
+        r"thong qua ngay (\d{1,2}) thang (\d{1,2}) nam (\d{4})",
+        _fold_text(page_text),
+    )
+    title_parts = re.split(r"\bvề việc\b", description, maxsplit=1, flags=re.IGNORECASE)
+    effective_match = re.search(
+        r"co hieu luc thi hanh tu ngay (\d{1,2}) thang (\d{1,2}) nam (\d{4})",
+        _fold_text(page_text),
+    )
+    if (
+        not heading
+        or code_match is None
+        or (date_match is None and formal_date_match is None)
+        or len(title_parts) != 2
+    ):
+        raise ValueError("official National Assembly full-text page is missing validation fields")
+    code = normalize_code(code_match.group(1))
+    if code not in normalize_code(heading):
+        raise ValueError("official National Assembly heading does not contain the enacted code")
+    if "QUYẾT NGHỊ" not in page_text.upper():
+        raise ValueError("official National Assembly page does not contain the enacted full text")
+    if date_match is not None:
+        issued_date = normalize_issue_date(date_match.group(1))
+    else:
+        day, month, year = formal_date_match.groups()
+        issued_date = date(int(year), int(month), int(day)).isoformat()
+    result = {
+        "code": code,
+        "issued_date": issued_date,
+        "title": f"Về việc {title_parts[1].strip()}",
+        "attachment_urls": [],
+    }
+    if effective_match is not None:
+        day, month, year = effective_match.groups()
+        result["official_effective_date"] = date(
+            int(year), int(month), int(day)
+        ).isoformat()
+    return result
 
 
 class GazetteSearch:
@@ -816,6 +902,88 @@ def recover_registry_from_gazette(*, path: Path = REGISTRY, workers: int = 4,
     return registry
 
 
+def recover_registry_from_national_assembly(*, path: Path = REGISTRY,
+                                            timeout: int = 120,
+                                            session=None) -> dict:
+    """Archive curated complete texts from the official National Assembly portal."""
+    registry = json.loads(path.read_text(encoding="utf-8"))
+    session = session or requests.Session()
+    by_id = {item["instrument_id"]: item for item in registry["instruments"]}
+    replacements = {}
+    for instrument_id, source_url in NATIONAL_ASSEMBLY_FULL_TEXT.items():
+        item = by_id.get(instrument_id)
+        if item is None:
+            raise ValueError(f"curated National Assembly source is outside the index: {instrument_id}")
+        if item["discovery_status"] != "official_not_found":
+            continue
+        source_path = full_text_relpath(item["code"], item["effective_date"])
+        if rawcache.raw_is_verified(source_path):
+            content = rawcache.read_raw(source_path)
+            fetch_status = "cached"
+        else:
+            response = _get(session, source_url, timeout=timeout)
+            content = response.content
+            fetch_status = "fetched"
+        detail = parse_national_assembly_full_text(content, source_url)
+        _validate_candidate(item, detail)
+        effective_gap_days = (
+            date.fromisoformat(item["effective_date"])
+            - date.fromisoformat(detail["issued_date"])
+        ).days
+        official_effective_date = detail.get("official_effective_date")
+        replacement = {
+            **item,
+            "discovery_status": "verified_official_match",
+            "source_provider": "national_assembly_full_text",
+            "official_code": detail["code"],
+            "code_match_status": "exact",
+            "issued_date": detail["issued_date"],
+            "effective_gap_days": effective_gap_days,
+            "date_match_status": (
+                "plausible_effective_lag"
+                if effective_gap_days <= 366
+                else "index_date_anomaly"
+            ),
+            "metadata_url": source_url,
+            "metadata_path": source_path,
+            "attachments": [],
+        }
+        if official_effective_date is not None:
+            replacement["official_effective_date"] = official_effective_date
+            replacement["effective_date_match_status"] = (
+                "exact" if official_effective_date == item["effective_date"]
+                else "index_effective_date_differs"
+            )
+        if fetch_status == "fetched":
+            rawcache.save_raw(source_path, content, {
+                "source_url": source_url,
+                "source_class": "official",
+                "source_role": "legal_full_text",
+                "method": "official National Assembly enacted full-text HTML",
+                "source_provider": "national_assembly_full_text",
+                "document_code": item["code"],
+                "official_document_code": detail["code"],
+                "issued_date": detail["issued_date"],
+                "effective_date": item["effective_date"],
+                "official_effective_date": official_effective_date,
+                "effective_date_match_status": replacement.get(
+                    "effective_date_match_status", "not_stated"
+                ),
+                "title": item["title_variants"][0],
+                "secondary_urls": item.get("secondary_urls", []),
+            })
+        replacements[instrument_id] = replacement
+        print(f"  {instrument_id}: National Assembly full text {fetch_status}")
+
+    registry["instruments"] = [
+        replacements.get(item["instrument_id"], item)
+        for item in registry["instruments"]
+    ]
+    registry["summary"] = _registry_summary(registry["instruments"])
+    write_registry(registry, path)
+    return registry
+
+
 def _registry_summary(instruments: list[dict]) -> dict:
     statuses: dict[str, int] = {}
     for item in instruments:
@@ -919,15 +1087,37 @@ def _validate_attachment(content: bytes, media_type: str, label: str) -> str:
     return detected
 
 
+def _national_assembly_reload_cookie(content: bytes) -> str | None:
+    match = re.search(rb'document\.cookie="D1N=([0-9a-f]{32})"', content)
+    return match.group(1).decode("ascii") if match else None
+
+
 def _get(session, url: str, *, timeout: int):
     _require_official_url(url)
+    host = (urlparse(url).hostname or "").lower()
+    request_kwargs = {"timeout": timeout}
+    if host == "quochoi.vn" or host.endswith(".quochoi.vn"):
+        request_kwargs["headers"] = {
+            "User-Agent": (
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/140.0.0.0 Safari/537.36"
+            )
+        }
     last_error = None
     for attempt in range(1, 4):
         try:
-            response = session.get(url, timeout=timeout)
+            response = session.get(url, **request_kwargs)
             response.raise_for_status()
+            reload_cookie = _national_assembly_reload_cookie(response.content)
+            if reload_cookie is not None:
+                session.cookies.set("D1N", reload_cookie, domain="quochoi.vn", path="/")
+                response = session.get(url, **request_kwargs)
+                response.raise_for_status()
+                if _national_assembly_reload_cookie(response.content) is not None:
+                    raise ValueError("National Assembly reload cookie was not accepted")
             return response
-        except requests.RequestException as exc:
+        except (requests.RequestException, ValueError) as exc:
             last_error = exc
             if attempt < 3:
                 time.sleep(attempt)
@@ -955,10 +1145,19 @@ def fetch_registry(*, registry_path: Path = REGISTRY, timeout: int = 120,
         if not rawcache.raw_is_verified(item["metadata_path"]):
             response = _get(session, item["metadata_url"], timeout=timeout)
             is_gazette = item.get("source_provider") == "government_gazette"
+            is_assembly = (
+                item.get("source_provider") == "national_assembly_full_text"
+            )
             detail = (
                 parse_gazette_detail(response.content, item["metadata_url"])
                 if is_gazette
-                else parse_official_detail(response.content, item["metadata_url"])
+                else (
+                    parse_national_assembly_full_text(
+                        response.content, item["metadata_url"]
+                    )
+                    if is_assembly
+                    else parse_official_detail(response.content, item["metadata_url"])
+                )
             )
             candidate = {**detail, "metadata_url": item["metadata_url"]}
             validation_item = {**item, "code": item.get("official_code", item["code"])}
@@ -969,14 +1168,29 @@ def fetch_registry(*, registry_path: Path = REGISTRY, timeout: int = 120,
                     f"official attachments drifted for {item['instrument_id']}: "
                     f"expected {expected_urls}, got {detail['attachment_urls']}"
                 )
-            rawcache.save_raw(item["metadata_path"], response.content, {
+            if (
+                is_assembly
+                and item.get("official_effective_date")
+                and detail.get("official_effective_date")
+                != item["official_effective_date"]
+            ):
+                raise ValueError(
+                    f"official effective date drifted for {item['instrument_id']}: "
+                    f"expected {item['official_effective_date']}, "
+                    f"got {detail.get('official_effective_date')}"
+                )
+            source_metadata = {
                 "source_url": item["metadata_url"],
                 "source_class": "official",
-                "source_role": "legal_metadata",
+                "source_role": "legal_full_text" if is_assembly else "legal_metadata",
                 "method": (
                     "official Government Gazette metadata HTML"
                     if is_gazette
-                    else "official Government legal metadata HTML"
+                    else (
+                        "official National Assembly enacted full-text HTML"
+                        if is_assembly
+                        else "official Government legal metadata HTML"
+                    )
                 ),
                 "source_provider": item.get("source_provider", "government_legal_portal"),
                 "document_code": item["code"],
@@ -986,7 +1200,18 @@ def fetch_registry(*, registry_path: Path = REGISTRY, timeout: int = 120,
                 "title": item["title_variants"][0],
                 "attachment_urls": expected_urls,
                 "secondary_urls": item["secondary_urls"],
-            })
+            }
+            if is_assembly:
+                official_effective_date = detail.get("official_effective_date")
+                source_metadata["official_effective_date"] = official_effective_date
+                source_metadata["effective_date_match_status"] = (
+                    "exact"
+                    if official_effective_date == item["effective_date"]
+                    else "index_effective_date_differs"
+                )
+            rawcache.save_raw(
+                item["metadata_path"], response.content, source_metadata,
+            )
             metadata_status = "fetched"
 
         attachment_statuses = []
@@ -1135,9 +1360,30 @@ def check_registry(path: Path = REGISTRY) -> dict:
             or item["date_match_status"] != expected_date_status
             or gap < 0
             or gap > 730
-            or not item["attachments"]
         ):
             raise ValueError(f"verified legal metadata is inconsistent: {item['instrument_id']}")
+        is_assembly_full_text = (
+            item.get("source_provider") == "national_assembly_full_text"
+        )
+        if is_assembly_full_text:
+            if item["attachments"] or not item["metadata_path"].endswith(".fulltext.html"):
+                raise ValueError(
+                    f"National Assembly full-text source is inconsistent: "
+                    f"{item['instrument_id']}"
+                )
+        elif not item["attachments"]:
+            raise ValueError(f"verified legal source has no original: {item['instrument_id']}")
+        if "official_effective_date" in item:
+            expected_effective_status = (
+                "exact"
+                if item["official_effective_date"] == item["effective_date"]
+                else "index_effective_date_differs"
+            )
+            if item.get("effective_date_match_status") != expected_effective_status:
+                raise ValueError(
+                    f"official effective-date metadata is inconsistent: "
+                    f"{item['instrument_id']}"
+                )
         code_status_is_valid = (
             item["code_match_status"] == "exact"
             and item["official_code"] == item["code"]
@@ -1163,6 +1409,7 @@ def main(argv: list[str] | None = None) -> None:
     actions = parser.add_mutually_exclusive_group(required=True)
     actions.add_argument("--discover", action="store_true")
     actions.add_argument("--gazette-recover", action="store_true")
+    actions.add_argument("--assembly-recover", action="store_true")
     actions.add_argument("--fetch-supplemental", action="store_true")
     actions.add_argument("--retry", action="store_true")
     actions.add_argument("--fetch", action="store_true")
@@ -1180,6 +1427,11 @@ def main(argv: list[str] | None = None) -> None:
     elif args.gazette_recover:
         registry = recover_registry_from_gazette(
             path=args.registry, workers=args.workers, timeout=args.timeout,
+        )
+        print(f"updated {args.registry}: {registry['summary']}")
+    elif args.assembly_recover:
+        registry = recover_registry_from_national_assembly(
+            path=args.registry, timeout=args.timeout,
         )
         print(f"updated {args.registry}: {registry['summary']}")
     elif args.fetch_supplemental:

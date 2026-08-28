@@ -7,6 +7,7 @@ discarding their variants; and exposes every remaining classification gap.
 
 Usage:
   uv run python -m vn_admin_units.ward_source_coverage
+  uv run python -m vn_admin_units.ward_source_coverage --audit
   uv run python -m vn_admin_units.ward_source_coverage --check
 """
 from __future__ import annotations
@@ -232,11 +233,14 @@ def _source_discovery(item: dict | None) -> dict:
         key: item[key]
         for key in (
             "discovery_status",
+            "source_provider",
             "official_code",
             "code_match_status",
             "issued_date",
             "effective_gap_days",
             "date_match_status",
+            "official_effective_date",
+            "effective_date_match_status",
             "metadata_url",
         )
         if key in item
@@ -356,6 +360,57 @@ def _soap_inventory(entries: list[dict]) -> dict:
         "duplicate_rows": sum(item["duplicate_rows"] for item in artifacts),
         "conflicting_identity_rows": sum(item["conflicting_identity_rows"] for item in artifacts),
         "missing_parent_codes": sum(item["missing_parent_codes"] for item in artifacts),
+    }
+
+
+def _source_floor_evidence(soap: dict, events: list[dict]) -> dict:
+    """State the bounded conclusion supported by the earliest SOAP anchors."""
+    snapshots = {item["date"]: item for item in soap["artifacts"]}
+    floor = snapshots.get(SOURCE_FLOOR)
+    comparison = snapshots.get("2004-01-01")
+    if floor is None or comparison is None:
+        raise ValueError("source-floor evidence snapshots are missing")
+    _require(
+        "2002-to-2004 endpoint content hash",
+        comparison["content_sha256"],
+        floor["content_sha256"],
+    )
+
+    transition_id = "soap:2004-01-01->2004-07-01"
+    transition = next(
+        (event for event in events if event["event_id"] == transition_id), None,
+    )
+    if transition is None:
+        raise ValueError(f"first observed transition is missing: {transition_id}")
+    assignments = transition["legal_evidence"]["component_assignment_counts"]
+    if set(assignments) != {"code_scheme_transition"}:
+        raise ValueError(
+            "first observed transition is no longer exclusively a code-scheme "
+            f"transition: {assignments}"
+        )
+
+    return {
+        "endpoint_interval": {
+            "before_date": floor["date"],
+            "before_path": floor["path"],
+            "after_date": comparison["date"],
+            "after_path": comparison["path"],
+            "content_sha256": floor["content_sha256"],
+            "payload_relation": "identical",
+        },
+        "verdict": "no_endpoint_state_difference_observed",
+        "limitation": (
+            "matching_endpoint_payloads_do_not_exclude_transient_"
+            "intra_interval_changes"
+        ),
+        "first_observed_transition": {
+            "event_id": transition["event_id"],
+            "before_date": transition["before_date"],
+            "after_date": transition["after_date"],
+            "classification": "code_scheme_transition",
+            "component_count": assignments["code_scheme_transition"],
+            "status": transition["status"],
+        },
     }
 
 
@@ -621,6 +676,8 @@ def build_coverage(*, manifest_path: Path = MANIFEST,
         if link["component_count"]
         and link["source_status"] != "verified_official_artifact"
     })
+    source_floor_evidence = _source_floor_evidence(soap, events)
+    source_gate_status = "open" if change_bearing_source_open else "pass"
 
     summary = {
         "soap_artifacts": len(soap["artifacts"]),
@@ -669,14 +726,20 @@ def build_coverage(*, manifest_path: Path = MANIFEST,
     _require("SOAP missing parents", soap["missing_parent_codes"], 0)
 
     return {
-        "schema_version": 5,
+        "schema_version": 6,
         "scope": {
             "tier": "ward",
             "source_floor": SOURCE_FLOOR,
             "as_of": AS_OF,
-            "status": "legal_events_classified_source_audit_pending",
-            "next_task": 7,
+            "status": (
+                "source_audit_complete_bounded_residue"
+                if source_gate_status == "open"
+                else "source_audit_complete"
+            ),
+            "source_gate_status": source_gate_status,
+            "next_task": 7 if source_gate_status == "open" else 8,
         },
+        "source_floor_evidence": source_floor_evidence,
         "input_fingerprints": {
             "manifest_path": manifest_path.as_posix(),
             "manifest_sha256": _sha256(manifest_path),
@@ -712,7 +775,8 @@ def build_coverage(*, manifest_path: Path = MANIFEST,
         "supplemental_legal_instruments": linkage["supplemental_instruments"],
         "events": events,
         "residue": {
-            "event_inventory_status": "complete_legal_linkage_source_audit_pending",
+            "event_inventory_status": "complete_source_audit_bounded_residue",
+            "source_gate_status": source_gate_status,
             "crosswalk_residue_event_ids": [
                 event["event_id"] for event in events
                 if event["crosswalk_status"] == "crosswalk_residue_legal_classification_pending"
@@ -744,11 +808,37 @@ def write_coverage(coverage: dict, output: Path = OUTPUT) -> None:
     temporary.replace(output)
 
 
+def format_audit(coverage: dict) -> str:
+    """Render the concise Task-7 source gate and source-floor verdict."""
+    summary = coverage["summary"]
+    floor = coverage["source_floor_evidence"]
+    return "\n".join([
+        (
+            f"ward source audit: {coverage['scope']['source_gate_status'].upper()} — "
+            f"{summary['official_source_matches']}/"
+            f"{summary['unique_ward_instruments']} official; "
+            f"{summary['primary_source_open_instruments']} primary-source open; "
+            f"{summary['change_bearing_source_open_instruments']} "
+            "change-bearing open"
+        ),
+        (
+            f"source floor verdict: {floor['verdict']} — "
+            f"{floor['endpoint_interval']['before_date']} and "
+            f"{floor['endpoint_interval']['after_date']} are identical; "
+            "transient intra-interval changes are not excluded"
+        ),
+    ])
+
+
 def main(argv: list[str] | None = None) -> None:
     parser = argparse.ArgumentParser(description="Build the offline ward source coverage ledger.")
     parser.add_argument("--output", type=Path, default=OUTPUT)
     parser.add_argument("--check", action="store_true",
                         help="fail if the existing output differs from a fresh offline build")
+    parser.add_argument(
+        "--audit", action="store_true",
+        help="print the concise source-gate and bounded source-floor verdict",
+    )
     args = parser.parse_args(argv)
 
     coverage = build_coverage()
@@ -760,13 +850,16 @@ def main(argv: list[str] | None = None) -> None:
     else:
         write_coverage(coverage, args.output)
         action = "wrote"
-    summary = coverage["summary"]
-    print(
-        f"{action} {args.output}: {summary['soap_artifacts']} SOAP, "
-        f"{summary['ward_crosswalk_artifacts']} crosswalks, "
-        f"{summary['unique_ward_instruments']} instruments, "
-        f"{summary['unclassified_instruments']} unclassified"
-    )
+    if args.audit:
+        print(f"{action} {args.output}\n{format_audit(coverage)}")
+    else:
+        summary = coverage["summary"]
+        print(
+            f"{action} {args.output}: {summary['soap_artifacts']} SOAP, "
+            f"{summary['ward_crosswalk_artifacts']} crosswalks, "
+            f"{summary['unique_ward_instruments']} instruments, "
+            f"{summary['unclassified_instruments']} unclassified"
+        )
 
 
 if __name__ == "__main__":

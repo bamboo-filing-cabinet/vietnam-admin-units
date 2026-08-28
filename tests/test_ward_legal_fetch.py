@@ -93,6 +93,22 @@ def _gazette_detail_html():
     """.encode()
 
 
+def _national_assembly_full_text_html():
+    return """
+      <html><head>
+        <meta name="description" content="Thay mặt Uỷ ban Thường vụ Quốc hội,
+          ngày 13/02/2023, Chủ tịch Quốc hội đã ký ban hành Nghị quyết số
+          728/NQ-UBTVQH15 về việc điều chỉnh địa giới đơn vị hành chính giữa
+          xã Long Khánh và xã Ngũ Lạc thuộc huyện Duyên Hải, tỉnh Trà Vinh." />
+      </head><body>
+        <h1>NGHỊ QUYẾT SỐ 728/NQ-UBTVQH15 CỦA UBTVQH VỀ ĐIỀU CHỈNH ĐỊA GIỚI</h1>
+        <div>Số: 728/NQ-UBTVQH15</div>
+        <div>QUYẾT NGHỊ:</div>
+        <div>Nghị quyết này có hiệu lực thi hành từ ngày 1 tháng 3 năm 2023.</div>
+      </body></html>
+    """.encode()
+
+
 def _record():
     return {
         "instrument_id": "237/NQ-UBTVQH16@2026-04-30",
@@ -176,6 +192,47 @@ def test_gazette_parsers_retain_direct_publication_pdf_and_validate_metadata():
     assert detail["attachment_urls"] == [
         "https://congbaocdn.chinhphu.vn/CongBaoCP/1192.pdf",
     ]
+
+
+def test_national_assembly_parser_validates_full_text_and_effective_date():
+    source_url = (
+        "https://quochoi.vn/tintuc/Pages/"
+        "tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73340"
+    )
+    detail = fetcher.parse_national_assembly_full_text(
+        _national_assembly_full_text_html(), source_url,
+    )
+    assert detail == {
+        "code": "728/NQ-UBTVQH15",
+        "issued_date": "2023-02-13",
+        "official_effective_date": "2023-03-01",
+        "title": (
+            "Về việc điều chỉnh địa giới đơn vị hành chính giữa xã Long Khánh "
+            "và xã Ngũ Lạc thuộc huyện Duyên Hải, tỉnh Trà Vinh."
+        ),
+        "attachment_urls": [],
+    }
+    record = {
+        "instrument_id": "728/NQ-UBTVQH15@2023-04-10",
+        "code": "728/NQ-UBTVQH15",
+        "effective_date": "2023-04-10",
+        "title_variants": [
+            "Nghị quyết về việc điều chỉnh địa giới đơn vị hành chính giữa xã "
+            "Long Khánh và xã Ngũ Lạc thuộc huyện Duyên Hải, tỉnh Trà Vinh"
+        ],
+    }
+    assert fetcher._validate_candidate(record, detail) > 0.9
+
+
+def test_national_assembly_reload_cookie_is_extracted_strictly():
+    challenge = (
+        b'<script>document.cookie="D1N=ce11f8ea3e8479cff0198dc31f4fd711"+'
+        b'"; expires=Fri, 31 Dec 2099 23:59:59 GMT; path=/";</script>'
+    )
+    assert fetcher._national_assembly_reload_cookie(challenge) == (
+        "ce11f8ea3e8479cff0198dc31f4fd711"
+    )
+    assert fetcher._national_assembly_reload_cookie(b"<html>normal</html>") is None
 
 
 def test_gazette_recovery_records_confirmed_index_code_correction():
@@ -329,6 +386,55 @@ def test_fetch_is_offline_after_verified_metadata_and_attachment(tmp_path, monke
     )
     assert second[0]["metadata_status"] == "cached"
     assert second[0]["attachment_statuses"] == ["cached"]
+
+
+def test_fetch_accepts_archived_national_assembly_full_text_without_attachment(
+        tmp_path, monkeypatch):
+    monkeypatch.setattr(rawcache, "RAW", tmp_path / "raw")
+    monkeypatch.setattr(rawcache, "MANIFEST", tmp_path / "raw" / "manifest.jsonl")
+    registry_path = tmp_path / "registry.json"
+    item = {
+        "instrument_id": "728/NQ-UBTVQH15@2023-04-10",
+        "code": "728/NQ-UBTVQH15",
+        "effective_date": "2023-04-10",
+        "title_variants": [
+            "Nghị quyết về việc điều chỉnh địa giới đơn vị hành chính giữa xã "
+            "Long Khánh và xã Ngũ Lạc thuộc huyện Duyên Hải, tỉnh Trà Vinh"
+        ],
+        "discovery_status": "verified_official_match",
+        "source_provider": "national_assembly_full_text",
+        "issued_date": "2023-02-13",
+        "official_effective_date": "2023-03-01",
+        "effective_date_match_status": "index_effective_date_differs",
+        "metadata_url": (
+            "https://quochoi.vn/tintuc/Pages/"
+            "tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73340"
+        ),
+        "metadata_path": (
+            "legal/ward/2023-04-10/728-nq-ubtvqh15.fulltext.html"
+        ),
+        "attachments": [],
+        "secondary_urls": [],
+    }
+    registry_path.write_text(json.dumps({"instruments": [item]}), encoding="utf-8")
+
+    first = fetcher.fetch_registry(
+        registry_path=registry_path,
+        session=FakeSession([_national_assembly_full_text_html()]),
+    )
+
+    assert first[0]["metadata_status"] == "fetched"
+    assert first[0]["attachment_statuses"] == []
+    entry = rawcache.manifest_entry(item["metadata_path"])
+    assert entry["source_role"] == "legal_full_text"
+    assert entry["source_provider"] == "national_assembly_full_text"
+    assert entry["official_effective_date"] == "2023-03-01"
+    assert entry["effective_date_match_status"] == "index_effective_date_differs"
+
+    second = fetcher.fetch_registry(
+        registry_path=registry_path, session=FakeSession([]),
+    )
+    assert second[0]["metadata_status"] == "cached"
 
 
 def test_supplemental_fetch_archives_canonical_official_artifact(tmp_path, monkeypatch):

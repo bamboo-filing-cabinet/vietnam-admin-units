@@ -8293,12 +8293,20 @@
     {
       "attachments": [],
       "code": "722/NQ-UBTVQH15",
-      "discovery_status": "official_not_found",
+      "code_match_status": "exact",
+      "date_match_status": "plausible_effective_lag",
+      "discovery_status": "verified_official_match",
       "effective_date": "2023-04-10",
+      "effective_date_match_status": "exact",
+      "effective_gap_days": 56,
       "instrument_id": "722/NQ-UBTVQH15@2023-04-10",
-      "metadata_path": "legal/ward/2023-04-10/722-nq-ubtvqh15.metadata.html",
-      "metadata_url": "",
+      "issued_date": "2023-02-13",
+      "metadata_path": "legal/ward/2023-04-10/722-nq-ubtvqh15.fulltext.html",
+      "metadata_url": "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73342",
+      "official_code": "722/NQ-UBTVQH15",
+      "official_effective_date": "2023-04-10",
       "secondary_urls": [],
+      "source_provider": "national_assembly_full_text",
       "title_variants": [
         "Nghị quyết về việc thành lập thị trấn Vân Tùng thuộc huyện Ngân Sơn, tỉnh Bắc Kạn"
       ]
@@ -8306,14 +8314,22 @@
     {
       "attachments": [],
       "code": "723/NQ-UBTVQH15",
-      "discovery_status": "official_not_found",
+      "code_match_status": "exact",
+      "date_match_status": "plausible_effective_lag",
+      "discovery_status": "verified_official_match",
       "effective_date": "2023-04-10",
+      "effective_date_match_status": "exact",
+      "effective_gap_days": 56,
       "instrument_id": "723/NQ-UBTVQH15@2023-04-10",
-      "metadata_path": "legal/ward/2023-04-10/723-nq-ubtvqh15.metadata.html",
-      "metadata_url": "",
+      "issued_date": "2023-02-13",
+      "metadata_path": "legal/ward/2023-04-10/723-nq-ubtvqh15.fulltext.html",
+      "metadata_url": "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73341",
+      "official_code": "723/NQ-UBTVQH15",
+      "official_effective_date": "2023-04-10",
       "secondary_urls": [
         "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-723-NQ-UBTVQH15-2023-thanh-lap-thi-xa-Thuan-Thanh-va-phuong-thuoc-thi-xa-Bac-Ninh-556500.aspx"
       ],
+      "source_provider": "national_assembly_full_text",
       "title_variants": [
         "Nghị quyết về việc thành lập thị xã Thuận Thành và các phường thuộc thị xã Thuận Thành, thị xã Quế Võ và các phường thuộc thị xã Quế Võ, tỉnh Bắc Ninh"
       ]
@@ -8321,12 +8337,20 @@
     {
       "attachments": [],
       "code": "724/NQ-UBTVQH15",
-      "discovery_status": "official_not_found",
+      "code_match_status": "exact",
+      "date_match_status": "plausible_effective_lag",
+      "discovery_status": "verified_official_match",
       "effective_date": "2023-04-10",
+      "effective_date_match_status": "exact",
+      "effective_gap_days": 56,
       "instrument_id": "724/NQ-UBTVQH15@2023-04-10",
-      "metadata_path": "legal/ward/2023-04-10/724-nq-ubtvqh15.metadata.html",
-      "metadata_url": "",
+      "issued_date": "2023-02-13",
+      "metadata_path": "legal/ward/2023-04-10/724-nq-ubtvqh15.fulltext.html",
+      "metadata_url": "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73337",
+      "official_code": "724/NQ-UBTVQH15",
+      "official_effective_date": "2023-04-10",
       "secondary_urls": [],
+      "source_provider": "national_assembly_full_text",
       "title_variants": [
         "Nghị quyết về việc thành lập thị trấn Tiên Thủy thuộc huyện Châu Thành, thị trấn Tiệm Tôm thuộc huyện Ba Tri và thị trấn Phước Mỹ Trung thuộc huyện Mỏ Cày Bắc, tỉnh Bến Tre"
       ]
@@ -8334,12 +8358,20 @@
     {
       "attachments": [],
       "code": "726/NQ-UBTVQH15",
-      "discovery_status": "official_not_found",
+      "code_match_status": "exact",
+      "date_match_status": "plausible_effective_lag",
+      "discovery_status": "verified_official_match",
       "effective_date": "2023-04-10",
+      "effective_date_match_status": "exact",
+      "effective_gap_days": 56,
       "instrument_id": "726/NQ-UBTVQH15@2023-04-10",
-      "metadata_path": "legal/ward/2023-04-10/726-nq-ubtvqh15.metadata.html",
-      "metadata_url": "",
+      "issued_date": "2023-02-13",
+      "metadata_path": "legal/ward/2023-04-10/726-nq-ubtvqh15.fulltext.html",
+      "metadata_url": "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73338",
+      "official_code": "726/NQ-UBTVQH15",
+      "official_effective_date": "2023-04-10",
       "secondary_urls": [],
+      "source_provider": "national_assembly_full_text",
       "title_variants": [
         "Nghị quyết về việc thành lập thị trấn Powng Drang thuộc huyện Krông Búk, tỉnh Đắk Lắk"
       ]
@@ -8347,12 +8379,20 @@
     {
       "attachments": [],
       "code": "727/NQ-UBTVQH15",
-      "discovery_status": "official_not_found",
+      "code_match_status": "exact",
+      "date_match_status": "plausible_effective_lag",
+      "discovery_status": "verified_official_match",
       "effective_date": "2023-04-10",
+      "effective_date_match_status": "exact",
+      "effective_gap_days": 56,
       "instrument_id": "727/NQ-UBTVQH15@2023-04-10",
-      "metadata_path": "legal/ward/2023-04-10/727-nq-ubtvqh15.metadata.html",
-      "metadata_url": "",
+      "issued_date": "2023-02-13",
+      "metadata_path": "legal/ward/2023-04-10/727-nq-ubtvqh15.fulltext.html",
+      "metadata_url": "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73344",
+      "official_code": "727/NQ-UBTVQH15",
+      "official_effective_date": "2023-04-10",
       "secondary_urls": [],
+      "source_provider": "national_assembly_full_text",
       "title_variants": [
         "Nghị quyết về việc thành lập các phường thuộc thị xã Điện Bàn và thị trấn Trung Phước thuộc huyện Nông Sơn, tỉnh Quảng Nam"
       ]
@@ -8360,12 +8400,20 @@
     {
       "attachments": [],
       "code": "728/NQ-UBTVQH15",
-      "discovery_status": "official_not_found",
+      "code_match_status": "exact",
+      "date_match_status": "plausible_effective_lag",
+      "discovery_status": "verified_official_match",
       "effective_date": "2023-04-10",
+      "effective_date_match_status": "index_effective_date_differs",
+      "effective_gap_days": 56,
       "instrument_id": "728/NQ-UBTVQH15@2023-04-10",
-      "metadata_path": "legal/ward/2023-04-10/728-nq-ubtvqh15.metadata.html",
-      "metadata_url": "",
+      "issued_date": "2023-02-13",
+      "metadata_path": "legal/ward/2023-04-10/728-nq-ubtvqh15.fulltext.html",
+      "metadata_url": "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73340",
+      "official_code": "728/NQ-UBTVQH15",
+      "official_effective_date": "2023-03-01",
       "secondary_urls": [],
+      "source_provider": "national_assembly_full_text",
       "title_variants": [
         "Nghị quyết về việc điều chỉnh địa giới đơn vị hành chính giữa xã Long Khánh và xã Ngũ Lạc thuộc huyện Duyên Hải, tỉnh Trà Vinh"
       ]
@@ -8373,12 +8421,20 @@
     {
       "attachments": [],
       "code": "729/NQ-UBTVQH15",
-      "discovery_status": "official_not_found",
+      "code_match_status": "exact",
+      "date_match_status": "plausible_effective_lag",
+      "discovery_status": "verified_official_match",
       "effective_date": "2023-04-10",
+      "effective_date_match_status": "exact",
+      "effective_gap_days": 56,
       "instrument_id": "729/NQ-UBTVQH15@2023-04-10",
-      "metadata_path": "legal/ward/2023-04-10/729-nq-ubtvqh15.metadata.html",
-      "metadata_url": "",
+      "issued_date": "2023-02-13",
+      "metadata_path": "legal/ward/2023-04-10/729-nq-ubtvqh15.fulltext.html",
+      "metadata_url": "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73345",
+      "official_code": "729/NQ-UBTVQH15",
+      "official_effective_date": "2023-04-10",
       "secondary_urls": [],
+      "source_provider": "national_assembly_full_text",
       "title_variants": [
         "Nghị quyết về việc thành lập thị trấn Hóa Thượng thuộc huyện Đồng Hỷ và nhập xã Quân Chu vào thị trấn Quân Chu thuộc huyện Đại Từ, tỉnh Thái Nguyên"
       ]
@@ -8386,12 +8442,20 @@
     {
       "attachments": [],
       "code": "730/NQ-UBTVQH15",
-      "discovery_status": "official_not_found",
+      "code_match_status": "exact",
+      "date_match_status": "plausible_effective_lag",
+      "discovery_status": "verified_official_match",
       "effective_date": "2023-04-10",
+      "effective_date_match_status": "exact",
+      "effective_gap_days": 56,
       "instrument_id": "730/NQ-UBTVQH15@2023-04-10",
-      "metadata_path": "legal/ward/2023-04-10/730-nq-ubtvqh15.metadata.html",
-      "metadata_url": "",
+      "issued_date": "2023-02-13",
+      "metadata_path": "legal/ward/2023-04-10/730-nq-ubtvqh15.fulltext.html",
+      "metadata_url": "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73343",
+      "official_code": "730/NQ-UBTVQH15",
+      "official_effective_date": "2023-04-10",
       "secondary_urls": [],
+      "source_provider": "national_assembly_full_text",
       "title_variants": [
         "Nghị quyết về việc thành lập thị trấn Kim Long thuộc huyện Tam Dương, thị trấn Tam Hồng thuộc huyện Yên Lạc và phường Định Trung thuộc thành phố Vĩnh Yên, tỉnh Vĩnh Phúc"
       ]
@@ -10513,13 +10577,13 @@
     "instruments": 449,
     "official_attachments": 402,
     "official_code_differences": 10,
-    "official_matches": 402,
-    "preserved_artifacts": 804,
+    "official_matches": 410,
+    "preserved_artifacts": 812,
     "secondary_tvpl_urls": 107,
     "status_counts": {
-      "official_not_found": 47,
+      "official_not_found": 39,
       "reused_existing_2025_pair": 34,
-      "verified_official_match": 368
+      "verified_official_match": 376
     }
   }
 }
