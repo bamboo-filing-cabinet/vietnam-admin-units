@@ -8,7 +8,7 @@ Current audit: **38 primary-source-open instruments**; **36 are tied to observed
 
 The personal-search checkpoint at commit `89107d0` recorded **39 open instruments**, including **37 change-bearing instruments**. Resolution 721/NQ-UBTVQH15 was subsequently recovered from the National Assembly, leaving the current 38/36 queue above.
 
-Exact official-page leads are recorded below for **15 of the 38 current items**. These links are leads only: none count as recovered provenance until the full official page or original attachment is saved, hashed, registered, and verified offline.
+Exact official-page leads are recorded below for **18 of the 38 current items**. These links are leads only: none count as recovered provenance until the full official page or original attachment is saved, hashed, registered, and verified offline.
 
 ## What counts as a useful find
 
@@ -89,6 +89,10 @@ TVPL links are included only to confirm identity and title. TVPL pages, search s
 - [ ] **Change-bearing** `137/2007N@2007-09-11` — điều chỉnh địa giới hành chính xã thuộc các huyện: Krông An, Ea Kar, Krông Búk, M'Drắk, Ea H'Leo; điều chỉnh địa giới hành chính huyện Krông An để thành lập huyện Cư Kuin, tỉnh Đắk Lắk
   - Current evidence: secondary identity reference only.
   - Identity reference only: <https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-dinh-137-2007-ND-CP-dieu-chinh-dia-gioi-hanh-chinh-xa-de-thanh-lap-xa-thuoc-huyen-Krong-Ana-Ea-Kar-Krong-Buk-M-Drak-Ea-H-Leo-54828.aspx>
+  - Official lead (not yet archived): <https://vbpl.vn/daklak/Pages/vbpq-toanvan.aspx?ItemID=13641>
+  - Expected original attachment: `137.2007.ND.CP.zip`
+  - Date discrepancy to preserve: registry effective 2007-09-11; official issue 2007-08-27; official effective 2007-09-18.
+  - Retrieval note: Preserve the official issue/effective dates and corrected formal code alongside the registry values. Save the full page and original ZIP in a normal browser.
 
 ### 2008
 
@@ -131,11 +135,19 @@ TVPL links are included only to confirm identity and title. TVPL pages, search s
   - Current evidence: no source URL recorded.
 - [ ] **Change-bearing** `26/NQ-CP@2009-06-11` — điều chỉnh địa giới hành chính xã để thành lập xã thuộc huyện Ninh Phước; điều chỉnh địa giới hành chính huyện Ninh Phước để thành lập huyện Thuận Nam thuộc tỉnh Ninh Thuận
   - Current evidence: no source URL recorded.
+  - Official lead (not yet archived): <https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=11902>
+  - Expected original attachment: `26.NQ-CP.zip`
+  - Date discrepancy to preserve: registry effective 2009-06-11; official issue 2009-06-10; official effective 2009-06-10.
+  - Retrieval note: Preserve the one-day registry discrepancy. Save the full page and original ZIP in a normal browser; do not substitute the unrelated 2015 Resolution 26/NQ-CP record.
 - [ ] **Change-bearing** `28/NQ-CP@2009-06-30` — Điều chỉnh địa giới hành chính huyện Châu Thành, huyện Chợ Gạo để mở rộng địa giới hành chính thành phố Mỹ Tho; điều chỉnh địa giới hành chính xã, thành lập xã thuộc thành phố Mỹ Tho, huyện Châu Thành, huyện Chợ Gạo, tỉnh Tiền Giang
   - Current evidence: no source URL recorded.
 - [ ] **Change-bearing** `29/NQ-CP@2009-06-30` — điều chỉnh địa giới hành chính xã, phường, thành lập thuộc thị xã Hà Tiên và các huyện: Kiên Lương, Tân Hiệp, Giồng Riềng, Vĩnh Thuận; điều chỉnh địa giới hành chính huyện Kiên Lương để thành lập huyện Giang Thành, tỉnh Kiên Giang
   - Current evidence: secondary identity reference only.
   - Identity reference only: <https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-29-NQ-CP-dieu-chinh-dia-gioi-hanh-chinh-91274.aspx>
+  - Official lead (not yet archived): <https://vbpl.vn/kiengiang/Pages/vbpq-toanvan.aspx?ItemID=11845>
+  - Expected original attachment: `29.NQ-CP.zip`
+  - Date discrepancy to preserve: registry effective 2009-06-30; official issue 2009-06-29; official effective 2009-06-29.
+  - Retrieval note: Preserve the one-day registry discrepancy. Save the full page and original ZIP in a normal browser; do not substitute the unrelated 2013 Resolution 29/NQ-CP record.
 - [ ] **Change-bearing** `39/NQ-CP@2009-08-15` — Điều chỉnh địa giới hành chính xã, thành lập thị trấn Cửa Tùng thuộc huyện Vĩnh Linh, tỉnh Quảng Trị
   - Current evidence: no source URL recorded.
 

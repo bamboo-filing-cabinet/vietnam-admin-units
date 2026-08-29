@@ -147,6 +147,23 @@
     {
       "access_status": "official_page_indexed_raw_retrieval_blocked",
       "date_discrepancy": {
+        "official_effective_date": "2007-09-18",
+        "official_issue_date": "2007-08-27",
+        "registry_effective_date": "2007-09-11"
+      },
+      "expected_attachment_names": [
+        "137.2007.ND.CP.zip"
+      ],
+      "instrument_id": "137/2007N@2007-09-11",
+      "lead_basis": "The indexed official full-text record matches Decree 137/2007/NĐ-CP and its Đắk Lắk administrative-boundary title and exposes the original ZIP filename.",
+      "official_page_urls": [
+        "https://vbpl.vn/daklak/Pages/vbpq-toanvan.aspx?ItemID=13641"
+      ],
+      "retrieval_notes": "Preserve the official issue/effective dates and corrected formal code alongside the registry values. Save the full page and original ZIP in a normal browser."
+    },
+    {
+      "access_status": "official_page_indexed_raw_retrieval_blocked",
+      "date_discrepancy": {
         "official_effective_date": "2009-01-18",
         "official_issue_date": "2008-12-23",
         "registry_effective_date": "2009-01-07"
@@ -218,6 +235,40 @@
         "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=12650"
       ],
       "retrieval_notes": "Preserve the official issue/effective dates alongside the registry date rather than normalizing the discrepancy away. The full page and any original attachment still need to be browser-saved."
+    },
+    {
+      "access_status": "official_page_indexed_raw_retrieval_blocked",
+      "date_discrepancy": {
+        "official_effective_date": "2009-06-10",
+        "official_issue_date": "2009-06-10",
+        "registry_effective_date": "2009-06-11"
+      },
+      "expected_attachment_names": [
+        "26.NQ-CP.zip"
+      ],
+      "instrument_id": "26/NQ-CP@2009-06-11",
+      "lead_basis": "The indexed official full-text record matches Resolution 26/NQ-CP and its Ninh Thuận administrative-boundary title and exposes the original ZIP filename.",
+      "official_page_urls": [
+        "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=11902"
+      ],
+      "retrieval_notes": "Preserve the one-day registry discrepancy. Save the full page and original ZIP in a normal browser; do not substitute the unrelated 2015 Resolution 26/NQ-CP record."
+    },
+    {
+      "access_status": "official_page_indexed_raw_retrieval_blocked",
+      "date_discrepancy": {
+        "official_effective_date": "2009-06-29",
+        "official_issue_date": "2009-06-29",
+        "registry_effective_date": "2009-06-30"
+      },
+      "expected_attachment_names": [
+        "29.NQ-CP.zip"
+      ],
+      "instrument_id": "29/NQ-CP@2009-06-30",
+      "lead_basis": "The indexed official full-text record matches Resolution 29/NQ-CP and its Kiên Giang administrative-boundary title and exposes the original ZIP filename.",
+      "official_page_urls": [
+        "https://vbpl.vn/kiengiang/Pages/vbpq-toanvan.aspx?ItemID=11845"
+      ],
+      "retrieval_notes": "Preserve the one-day registry discrepancy. Save the full page and original ZIP in a normal browser; do not substitute the unrelated 2013 Resolution 29/NQ-CP record."
     }
   ],
   "schema_version": 1

@@ -240,11 +240,16 @@ def test_real_locked_baseline_builds_deterministically():
     assert "`721/NQ-UBTVQH15@2023-04-10`" not in open_note
     assert "TVPL links are included only to confirm identity" in open_note
     assert "commit `89107d0` recorded **39 open instruments**" in open_note
-    assert open_note.count("Official lead (not yet archived)") == 20
-    assert "**15 of the 38 current items**" in open_note
+    assert open_note.count("Official lead (not yet archived)") == 23
+    assert "**18 of the 38 current items**" in open_note
     assert "`84.2005.ND.CP.doc`" in open_note
+    assert "`137.2007.ND.CP.zip`" in open_note
+    assert "`26.NQ-CP.zip`" in open_note
+    assert "`29.NQ-CP.zip`" in open_note
     assert "official effective 2006-07-16" in open_note
+    assert "official effective 2007-09-18" in open_note
     assert "official effective 2009-01-18" in open_note
+    assert "official effective 2009-06-29" in open_note
     assert coverage["residue"]["crosswalk_residue_event_ids"] == [
         "soap:2004-01-01->2004-07-01",
     ]
