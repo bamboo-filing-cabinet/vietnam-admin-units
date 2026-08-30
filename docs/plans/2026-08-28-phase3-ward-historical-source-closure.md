@@ -50,8 +50,10 @@ re-scrape it.
 > exact official registry and PDF lead whose legacy server reset live retrieval
 > attempts (`2026-08-30.02`). Decree `85/2005/NĐ-CP@2005-07-22` now has an
 > exact print/DOC recovery path and complete secondary review
-> (`2026-08-30.04`). Continue with Decree `97/2005/NĐ-CP@2005-08-10`; do not
-> start Task 8.
+> (`2026-08-30.04`). Decree `97/2005/NĐ-CP@2005-08-10` now has a complete
+> indexed print view, official history, exact DOC path, and complete secondary
+> review (`2026-08-30.05`). Continue with Decree
+> `98/2005/NĐ-CP@2005-08-10`; do not start Task 8.
 
 ## Outcome
 
@@ -323,9 +325,9 @@ territory, title, and named-unit checks.
 > `secondary_only` rows. Resolution `469/NQ-UBTVQH15@2022-04-10` has a
 > structured official PDF recovery lead but remains open because its bytes are
 > not archived (`docs/journals/2026-08-30.02.ward-secondary-provenance-469.md`);
-> Decrees 84 and 85 now have exact official print/DOC recovery paths but remain
-> open for the same raw-byte requirement (`2026-08-30.03`–`.04`). Continue with
-> Decree `97/2005/NĐ-CP@2005-08-10`; do not start Task 8.
+> Decrees 84, 85, and 97 now have exact official print/DOC recovery paths but
+> remain open for the same raw-byte requirement (`2026-08-30.03`–`.05`).
+> Continue with Decree `98/2005/NĐ-CP@2005-08-10`; do not start Task 8.
 
 Add a command that regenerates the coverage JSON and prints a concise audit.
 Write a dated completion journal containing final counts, reviewed exceptions,

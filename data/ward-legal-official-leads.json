@@ -46,17 +46,27 @@
       "retrieval_notes": "Preserve the registry/official date discrepancy and the secondary boundary-transcription disagreement. Direct requests to the official print page and DOC timed out with zero bytes; the legacy Ministry of Justice hostname also did not resolve. Save the official page and original DOC when reachable and use them to adjudicate the Điện Thắng Nam eastern-boundary wording before closing the source gate."
     },
     {
-      "access_status": "official_page_indexed_raw_retrieval_blocked",
+      "access_status": "official_full_text_and_attachment_indexed_raw_retrieval_blocked",
+      "date_discrepancy": {
+        "official_effective_date": "2005-08-17",
+        "official_issue_date": "2005-07-26",
+        "registry_effective_date": "2005-08-10"
+      },
       "expected_attachment_names": [
         "97.2005.ND.CP.doc"
       ],
       "instrument_id": "97/2005/NĐ-CP@2005-08-10",
-      "lead_basis": "The indexed official full-text record matches the decree code and title and exposes the original DOC filename.",
+      "lead_basis": "The indexed official print view contains the complete enacted text for Decree 97/2005/NĐ-CP, the official history records its issue and effective dates, and the record exposes the original DOC attachment.",
+      "official_attachment_urls": [
+        "https://vbpl.vn/TW/Lists/vbpq/Attachments/17967/97.2005.ND.CP.doc"
+      ],
       "official_page_urls": [
         "https://vbpl.vn/bonoivu/Pages/vbpq-toanvan.aspx?ItemID=17967",
+        "https://vbpl.vn/bonoivu/Pages/vbpq-print.aspx?ItemID=17967",
+        "https://vbpl.vn/TW/Pages/vbpq-lichsu.aspx?ItemID=17967&Keyword=",
         "https://vbpl.moj.gov.vn/bonoivu/Pages/vbpq-toanvan.aspx?ItemID=17967"
       ],
-      "retrieval_notes": "The current vbpl.vn host presents an automated-access challenge; the legacy Ministry of Justice hostname did not resolve during the audit. A browser-saved full page and downloaded DOC are still needed."
+      "retrieval_notes": "Preserve the registry/official date discrepancy and the NSO title spellings `Anh Minh`/`Giồng Giềng` beside the official `An Minh`/`Giồng Riềng`. Direct requests to the official full-text page, print page, and DOC timed out with zero bytes; fresh Government legal-portal and Gazette searches returned no alternate artifact. Save the official page and original DOC when reachable, then verify both offline before closing the source gate."
     },
     {
       "access_status": "official_page_indexed_raw_retrieval_blocked",

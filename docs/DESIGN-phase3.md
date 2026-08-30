@@ -32,10 +32,10 @@
 > verify; all 453 candidate legal rows and 449 unique instruments are classified
 > and linked; and 414/449 instruments now have 821 archived official artifacts.
 > Resume at source-closure Task 7 with 35 primary-source-open instruments, 33 of
-> them change-bearing. Resolution `469/NQ-UBTVQH15@2022-04-10` and Decrees 84
-> and 85 of 2005 now have exact official attachment recovery paths, but their
+> them change-bearing. Resolution `469/NQ-UBTVQH15@2022-04-10` and Decrees 84,
+> 85, and 97 of 2005 now have exact official attachment recovery paths, but their
 > bytes remain unavailable from the live legacy endpoints; see journals
-> `2026-08-30.02`–`.04`. Only after the
+> `2026-08-30.02`–`.05`. Only after the
 > source audit closes should historical records be promoted into canonical
 > entities/`LineageEdge` objects. Wikidata emission remains gated.
 

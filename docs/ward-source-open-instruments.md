@@ -46,9 +46,13 @@ TVPL links are included only to confirm identity and title. TVPL pages, search s
   - Current evidence: secondary identity reference only.
   - Identity reference only: <https://thuvienphapluat.vn/van-ban/Bat-dong-san/Nghi-dinh-97-2005-ND-CP-thanh-lap-Rach-Gia-thuoc-tinh-Kien-Giang-dieu-chinh-dia-gioi-hanh-chinh-xa-thuoc-huyen-Go-Quao-An-Minh-Chau-Thanh-Kien-Hai-2566.aspx>
   - Official lead (not yet archived): <https://vbpl.vn/bonoivu/Pages/vbpq-toanvan.aspx?ItemID=17967>
+  - Official lead (not yet archived): <https://vbpl.vn/bonoivu/Pages/vbpq-print.aspx?ItemID=17967>
+  - Official lead (not yet archived): <https://vbpl.vn/TW/Pages/vbpq-lichsu.aspx?ItemID=17967&Keyword=>
   - Official lead (not yet archived): <https://vbpl.moj.gov.vn/bonoivu/Pages/vbpq-toanvan.aspx?ItemID=17967>
+  - Official attachment lead (not yet archived): <https://vbpl.vn/TW/Lists/vbpq/Attachments/17967/97.2005.ND.CP.doc>
   - Expected original attachment: `97.2005.ND.CP.doc`
-  - Retrieval note: The current vbpl.vn host presents an automated-access challenge; the legacy Ministry of Justice hostname did not resolve during the audit. A browser-saved full page and downloaded DOC are still needed.
+  - Date discrepancy to preserve: registry effective 2005-08-10; official issue 2005-07-26; official effective 2005-08-17.
+  - Retrieval note: Preserve the registry/official date discrepancy and the NSO title spellings `Anh Minh`/`Giồng Giềng` beside the official `An Minh`/`Giồng Riềng`. Direct requests to the official full-text page, print page, and DOC timed out with zero bytes; fresh Government legal-portal and Gazette searches returned no alternate artifact. Save the official page and original DOC when reachable, then verify both offline before closing the source gate.
 - [ ] **Change-bearing** `98/2005/NĐ-CP@2005-08-10` — Thành lập thị xã Tân HIệp, thành lập phường, xã thuộc thị xã Tân Hiệp, tỉnh Hậu Giang
   - Current evidence: secondary identity reference only.
   - Identity reference only: <https://thuvienphapluat.vn/van-ban/Bat-dong-san/Nghi-dinh-98-2005-ND-CP-thanh-lap-thi-xa-Tan-Hiep-tinh-Hau-Giang-thanh-lap-phuong-xa-thuoc-Tan-Hiep-2569.aspx>

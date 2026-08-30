@@ -109,10 +109,12 @@ the official bytes before closing it. Resolution
 `469/NQ-UBTVQH15@2022-04-10` likewise has an exact official registry and PDF
 lead whose legacy file server resets live retrieval attempts. Decree
 `85/2005/NĐ-CP@2005-07-22` now has the same exact VBPL print/DOC recovery path,
-a preserved date discrepancy, and complete secondary topology. The next
-bounded review target is Decree `97/2005/NĐ-CP@2005-08-10` (Kiên Giang). Do
-**not** start Task 8 or promote secondary evidence to primary merely to close
-the count.
+a preserved date discrepancy, and complete secondary topology. Decree
+`97/2005/NĐ-CP@2005-08-10` now has a complete indexed official print view,
+history record, and exact DOC recovery path; its 2005-08-17 legal effective
+date differs from the earlier registry date. The next bounded review target is
+Decree `98/2005/NĐ-CP@2005-08-10` (Hậu Giang). Do **not** start Task 8 or
+promote secondary evidence to primary merely to close the count.
 
 Read the current [shutdown handoff](docs/journals/2026-08-30.01.ward-source-audit-handoff.md),
 the generated [open-instrument checklist](docs/ward-source-open-instruments.md),
@@ -131,6 +133,9 @@ review are recorded in
 Decree 85's official recovery path, secondary topology, and local-press
 corroboration are recorded in
 [`2026-08-30.04`](docs/journals/2026-08-30.04.ward-secondary-provenance-85.md).
+Decree 97's official recovery path, five commune creations, date discrepancy,
+and supplied-source review are recorded in
+[`2026-08-30.05`](docs/journals/2026-08-30.05.ward-secondary-provenance-97.md).
 The later graph-building slice remains gated: only after Task 7 passes should
 the observations and resolved events be promoted into canonical ward entities
 and `LineageEdge` records. Do not emit or upload ward Wikidata statements yet.
