@@ -2,7 +2,7 @@
   "input_fingerprints": {
     "data/decree-urls.json": "7046a0d47c3e78114ba3dd10c1d77671ae76d32b62f4ae66b794487193676b0c",
     "data/raw/nghidinh.json": "2d141ae52886f78bf476defe6f8275ea31a910d3c1f65288a1e8b067924756fb",
-    "data/ward-legal-secondary-urls.json": "a5d36c842aa8c0a69bb51dc297b0b04ae13bd6d5eab1aa3813540aaf2e574abd"
+    "data/ward-legal-secondary-urls.json": "a282f4a5b8f765a4a84420e445299bf9a95e5b52de25906409b2e9a7da06f5f2"
   },
   "instruments": [
     {
@@ -1988,7 +1988,9 @@
       "instrument_id": "85/2005/NĐ-CP@2005-07-22",
       "metadata_path": "legal/ward/2005-07-22/85-2005-nd-cp.metadata.html",
       "metadata_url": "",
-      "secondary_urls": [],
+      "secondary_urls": [
+        "https://thuvienphapluat.vn/van-ban/Bat-dong-san/Nghi-dinh-85-2005-ND-CP-thanh-lap-xa-thuoc-huyen-Nui-Thanh-Dien-Ban-tinh-Quang-Nam-9281.aspx"
+      ],
       "title_variants": [
         "Thành lập xã thuộc huyện Núi Thành và Điện Bàn, tỉnh Quảng Nam"
       ]
@@ -10652,7 +10654,7 @@
     "official_code_differences": 10,
     "official_matches": 414,
     "preserved_artifacts": 821,
-    "secondary_tvpl_urls": 112,
+    "secondary_tvpl_urls": 113,
     "status_counts": {
       "official_not_found": 35,
       "reused_existing_2025_pair": 34,

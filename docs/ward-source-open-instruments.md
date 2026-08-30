@@ -33,11 +33,15 @@ TVPL links are included only to confirm identity and title. TVPL pages, search s
   - Date discrepancy to preserve: registry effective 2005-07-22; official issue 2005-07-07; official effective 2005-07-30.
   - Retrieval note: Preserve the registry/official date discrepancy. The public index renders the complete official print text and exact DOC URL, but direct command-line and normal-browser retrieval timed out during review; the legacy Ministry of Justice hostname also did not resolve. Save the official page and original DOC when the service is reachable, then verify both offline before closing the source gate.
 - [ ] **Change-bearing** `85/2005/NĐ-CP@2005-07-22` — Thành lập xã thuộc huyện Núi Thành và Điện Bàn, tỉnh Quảng Nam
-  - Current evidence: no source URL recorded.
+  - Current evidence: secondary identity reference only.
+  - Identity reference only: <https://thuvienphapluat.vn/van-ban/Bat-dong-san/Nghi-dinh-85-2005-ND-CP-thanh-lap-xa-thuoc-huyen-Nui-Thanh-Dien-Ban-tinh-Quang-Nam-9281.aspx>
   - Official lead (not yet archived): <https://vbpl.vn/bonoivu/Pages/vbpq-toanvan.aspx?ItemID=17899>
+  - Official lead (not yet archived): <https://vbpl.vn/bonoivu/Pages/vbpq-print.aspx?ItemID=17899>
   - Official lead (not yet archived): <https://vbpl.moj.gov.vn/bonoivu/Pages/vbpq-toanvan.aspx?ItemID=17899>
+  - Official attachment lead (not yet archived): <https://vbpl.vn/TW/Lists/vbpq/Attachments/17899/85.2005.ND.CP.doc>
   - Expected original attachment: `85.2005.ND.CP.doc`
-  - Retrieval note: The current vbpl.vn host presents an automated-access challenge; the legacy Ministry of Justice hostname did not resolve during the audit. A browser-saved full page and downloaded DOC are still needed.
+  - Date discrepancy to preserve: registry effective 2005-07-22; official issue 2005-07-07; official effective 2005-07-30.
+  - Retrieval note: Preserve the registry/official date discrepancy and the secondary boundary-transcription disagreement. Direct requests to the official print page and DOC timed out with zero bytes; the legacy Ministry of Justice hostname also did not resolve. Save the official page and original DOC when reachable and use them to adjudicate the Điện Thắng Nam eastern-boundary wording before closing the source gate.
 - [ ] **Change-bearing** `97/2005/NĐ-CP@2005-08-10` — Thành lập thành phố Rạch Giá, điều chỉnh địa giới hành chính, thành lập xã thuộc các huyện Gò Quao, Anh Minh, Châu Thành, Kiên Hải, Giồng Giềng, tỉnh Kiên Giang
   - Current evidence: secondary identity reference only.
   - Identity reference only: <https://thuvienphapluat.vn/van-ban/Bat-dong-san/Nghi-dinh-97-2005-ND-CP-thanh-lap-Rach-Gia-thuoc-tinh-Kien-Giang-dieu-chinh-dia-gioi-hanh-chinh-xa-thuoc-huyen-Go-Quao-An-Minh-Chau-Thanh-Kien-Hai-2566.aspx>

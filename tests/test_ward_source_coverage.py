@@ -227,7 +227,7 @@ def test_real_locked_baseline_builds_deterministically():
     assert summary["primary_source_open_instruments"] == 35
     assert summary["official_source_matches"] == 414
     assert summary["official_source_not_found"] == 35
-    assert summary["secondary_tvpl_urls"] == 112
+    assert summary["secondary_tvpl_urls"] == 113
     assert summary["observed_change_intervals"] == 179
     assert summary["events"] == 179
     assert summary["crosswalk_supported_events"] == 178
@@ -279,11 +279,12 @@ def test_real_locked_baseline_builds_deterministically():
     assert "`460/NQ-UBTVQH14@2017-12-13`" not in open_note
     assert "TVPL links are included only to confirm identity" in open_note
     assert "commit `89107d0` recorded **39 open instruments**" in open_note
-    assert open_note.count("Official lead (not yet archived)") == 25
-    assert open_note.count("Official attachment lead (not yet archived)") == 2
+    assert open_note.count("Official lead (not yet archived)") == 26
+    assert open_note.count("Official attachment lead (not yet archived)") == 3
     assert "**19 of the 35 current items**" in open_note
     assert "`84.2005.ND.CP.doc`" in open_note
-    assert "official effective 2005-07-30" in open_note
+    assert "`85.2005.ND.CP.doc`" in open_note
+    assert open_note.count("official effective 2005-07-30") == 2
     assert "`137.2007.ND.CP.zip`" in open_note
     assert "`26.NQ-CP.zip`" in open_note
     assert "`29.NQ-CP.zip`" in open_note

@@ -24,17 +24,26 @@
       "retrieval_notes": "Preserve the registry/official date discrepancy. The public index renders the complete official print text and exact DOC URL, but direct command-line and normal-browser retrieval timed out during review; the legacy Ministry of Justice hostname also did not resolve. Save the official page and original DOC when the service is reachable, then verify both offline before closing the source gate."
     },
     {
-      "access_status": "official_page_indexed_raw_retrieval_blocked",
+      "access_status": "official_page_and_attachment_indexed_raw_retrieval_blocked",
+      "date_discrepancy": {
+        "official_effective_date": "2005-07-30",
+        "official_issue_date": "2005-07-07",
+        "registry_effective_date": "2005-07-22"
+      },
       "expected_attachment_names": [
         "85.2005.ND.CP.doc"
       ],
       "instrument_id": "85/2005/NĐ-CP@2005-07-22",
-      "lead_basis": "The indexed official full-text record matches the decree code and title and exposes the original DOC filename.",
+      "lead_basis": "The indexed official record matches Decree 85/2005/NĐ-CP and its Quảng Nam title and exposes the original DOC filename; official search and systematization metadata confirm its issue and effective dates.",
+      "official_attachment_urls": [
+        "https://vbpl.vn/TW/Lists/vbpq/Attachments/17899/85.2005.ND.CP.doc"
+      ],
       "official_page_urls": [
         "https://vbpl.vn/bonoivu/Pages/vbpq-toanvan.aspx?ItemID=17899",
+        "https://vbpl.vn/bonoivu/Pages/vbpq-print.aspx?ItemID=17899",
         "https://vbpl.moj.gov.vn/bonoivu/Pages/vbpq-toanvan.aspx?ItemID=17899"
       ],
-      "retrieval_notes": "The current vbpl.vn host presents an automated-access challenge; the legacy Ministry of Justice hostname did not resolve during the audit. A browser-saved full page and downloaded DOC are still needed."
+      "retrieval_notes": "Preserve the registry/official date discrepancy and the secondary boundary-transcription disagreement. Direct requests to the official print page and DOC timed out with zero bytes; the legacy Ministry of Justice hostname also did not resolve. Save the official page and original DOC when reachable and use them to adjudicate the Điện Thắng Nam eastern-boundary wording before closing the source gate."
     },
     {
       "access_status": "official_page_indexed_raw_retrieval_blocked",
