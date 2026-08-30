@@ -28,14 +28,14 @@ vietnam-elections     vietnam-elections-wikidata
 2. **Set up + verify:**
    ```sh
    uv sync
-   uv run pytest -q                          # 188 tests pass
+   uv run pytest -q                          # 201 tests pass
    ```
 
    **Phases 1 and 2 are complete and uploaded to Wikidata (provinces + districts).** The next work is **Phase 3 (wards)** — read the "Phase 2" block under [Status](#status) for the post-upload verification step and the roadmap pointer.
 3. **Read the design — the single entry point:** [`docs/DESIGN.md`](docs/DESIGN.md).
    Its **Document map**, **decisions log**, and **phase roadmap** index everything
-   else (per-phase designs, the plan, and the dated decision journals `.01`–`.15`,
-   `2026-07-11.*`, `2026-07-13.*`). Ward/province design (Phase 3, to be revised):
+   else (per-phase designs, execution plans, and dated decision journals).
+   Ward/province design (Phase 3, to be revised):
    [`docs/DESIGN-phase3.md`](docs/DESIGN-phase3.md).
 
 ## Status
@@ -90,36 +90,37 @@ independent geo cross-check (P625 kNN) confirmed **0 wrong-place matches**. Buil
 
 **◀◀ RESUME HERE — Phase 3: wards (xã / phường, commune tier, NA16).** Provinces
 (Phase 1) and districts (Phase 2) are complete + live on Wikidata with **no open
-work**. The 2025 ward boundary and its full predecessor→successor topology are
-now complete offline. Before claiming complete 2002→present ward provenance,
-execute the historical source-closure plan. **Task 1 is complete:** all 21
-historical yearly crosswalks and all 24 ward crosswalk artifacts verify. **Task
-2 is also complete:** `data/ward-source-coverage.json` inventories the complete
-offline denominator and initially exposed 415 unclassified/source-open instruments.
-**Task 3 is complete:** `data/ward-observed-changes.json` deterministically
-enumerates all 203 adjacent SOAP intervals, including 179 change-bearing
-intervals and 24 verified no-change intervals. **Task 4 is complete:** 15
-targeted exports bring the verified crosswalk inventory to 39 files; 35,342 of
-35,350 observed components have crosswalk support, with the remaining eight
-confined to four explicit 2004 code-transition pairs. **Task 5 is complete:**
-`data/ward-legal-sources.json` records all 449 instruments; 392 have 784 verified
-official artifacts (358 newly preserved pairs plus the 34 reused 2025 pairs),
-while 57 official-portal misses remain explicit (22 secondary-only, 35 missing).
-**Resume at Task 6: classify all legal records and link instruments/source
-clauses to the 179 observed events.** The next graph-building
-slice is still to promote `data/ward-2025-boundary.json` +
-`data/ward-2025-composition.json` into canonical ward entities and
-`LineageEdge` records, then run reconciliation/audit; do not emit or upload
-Wikidata statements yet. Read the source-closure
-[`plan`](docs/plans/2026-08-28-phase3-ward-historical-source-closure.md), its
-[`Task 1 journal`](docs/journals/2026-08-28.03.ward-yearly-crosswalk-sweep.md),
-[`Task 2 journal`](docs/journals/2026-08-28.04.ward-source-coverage-ledger.md),
-[`Task 3 journal`](docs/journals/2026-08-28.05.ward-observed-change-inventory.md),
-[`Task 4 journal`](docs/journals/2026-08-28.06.ward-crosswalk-reconciliation.md),
-[`Task 5 journal`](docs/journals/2026-08-28.07.ward-legal-source-corpus.md),
-and boundary journal
-[`2026-08-28.02`](docs/journals/2026-08-28.02.ward-2025-composition-lineage.md)
-for the exact handoff and acceptance counts.
+work**. The 2025 ward boundary and full predecessor→successor topology are
+complete offline. Historical source-closure Tasks 1–6 are also complete: all
+204 SOAP snapshots, 39 crosswalks, 179 observed-change events, 453 candidate
+legal rows, and 449 unique instruments are deterministically inventoried,
+classified, and linked with zero unclassified instruments or legally unlinked
+observed events.
+
+**Resume at Task 7: close the remaining official-source residue one instrument
+at a time.** The current audit is **414/449 official**, with **35
+primary-source-open instruments**: 16 `missing` and 19 `secondary_only`; **33
+are change-bearing**. The registry preserves 407 official attachments and 821
+official artifacts. The next review target is
+`469/NQ-UBTVQH15@2022-04-10` (Phổ Yên, Thái Nguyên). Its TVPL transcription is
+already recorded; seek a complete official National Assembly, Government,
+Gazette, or provincial PDF/DOC/full-text copy. Resolution
+`820/NQ-UBTVQH14@2020-01-01` remains primary-source-open but now has strong
+secondary implementation provenance. Do **not** start Task 8 or promote
+secondary evidence to primary merely to close the count.
+
+Read the current [shutdown handoff](docs/journals/2026-08-30.01.ward-source-audit-handoff.md),
+the generated [open-instrument checklist](docs/ward-source-open-instruments.md),
+and the source-closure
+[`plan`](docs/plans/2026-08-28-phase3-ward-historical-source-closure.md).
+Resolution 460's official Vietlaw recovery and Resolution 820's bounded
+secondary review are recorded in journals
+[`2026-08-29.16`](docs/journals/2026-08-29.16.ward-source-460-nq-ubtvqh14.md)
+and
+[`2026-08-29.17`](docs/journals/2026-08-29.17.ward-secondary-provenance-820.md).
+The later graph-building slice remains gated: only after Task 7 passes should
+the observations and resolved events be promoted into canonical ward entities
+and `LineageEdge` records. Do not emit or upload ward Wikidata statements yet.
 
 **Phase-3 source recovery (2026-08-27/28): the ward SOAP archive is complete.** The
 NSO hostname recovered after a DNS `SERVFAIL`, and `vn_admin_units.ward_rescue` cached + hash-verified

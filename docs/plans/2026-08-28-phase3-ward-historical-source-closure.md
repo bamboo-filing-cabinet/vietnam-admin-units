@@ -32,8 +32,19 @@ re-scrape it.
 > official metadata/original pairs and reuses the 34 closed 2025 pairs: 392/449
 > instruments now have 784 verified primary artifacts. The registry retains 57
 > official-portal misses, including 22 with secondary TVPL links and 35 with no
-> recovered source. See journal `2026-08-28.07`. **Resume at Task 6: classify
-> every legal record and link instruments/source clauses to observed events.**
+> recovered source. These are the Task-5 checkpoint counts; see journal
+> `2026-08-28.07`.
+>
+> **Task 6 complete (2026-08-28).** All 453 candidate legal rows and 449 unique
+> instruments are classified; every observed event is linked or explicitly
+> explained, and the legal/event audit has zero unclassified instruments and
+> zero legally unlinked observed events. See journal `2026-08-28.08`.
+>
+> **Task 7 in progress (2026-08-30).** Official recovery and one-at-a-time
+> secondary reviews now leave 35 primary-source-open instruments: 16 `missing`
+> and 19 `secondary_only`; 33 are change-bearing. Official coverage is 414/449.
+> Resume with `469/NQ-UBTVQH15@2022-04-10` from journal
+> `2026-08-30.01.ward-source-audit-handoff.md`. Do not start Task 8.
 
 ## Outcome
 
@@ -279,6 +290,11 @@ case for the generic path.
 
 ### Task 6 — link instruments, events, and source clauses
 
+**Status: DONE (`2026-08-28.08`).** All candidate legal rows are classified,
+all observed events are linked or explicitly explained, and the deterministic
+coverage audit reports zero unclassified instruments and zero legally unlinked
+observed events.
+
 For each event, record the legal instrument and the specific evidence used for
 its effective date and topology. One instrument may create many events; one
 event may require more than one instrument or source passage.
@@ -294,11 +310,12 @@ territory, title, and named-unit checks.
 
 ### Task 7 — close the source audit
 
-> **2026-08-28 handoff:** Task 7 is in progress. Official Gazette recovery plus
-> canonical Resolution 14 reduced the change-bearing source residue from 55 to
-> 44 (26 missing, 18 secondary-only). The materialized coverage JSON is stale
-> at the old count, and official VBPL pages are the next recovery path. Resume from
-> `docs/journals/2026-08-28.09.ward-source-audit-handoff.md`; do not start Task 8.
+> **2026-08-30 handoff:** Task 7 remains in progress. The current materialized
+> ledger is fresh and verified at 414/449 official, 35 primary-source-open, and
+> 33 change-bearing-open instruments. The open set contains 16 `missing` and 19
+> `secondary_only` rows. Resume one instrument at a time with
+> `469/NQ-UBTVQH15@2022-04-10` from
+> `docs/journals/2026-08-30.01.ward-source-audit-handoff.md`; do not start Task 8.
 
 Add a command that regenerates the coverage JSON and prints a concise audit.
 Write a dated completion journal containing final counts, reviewed exceptions,

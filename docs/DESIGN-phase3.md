@@ -20,7 +20,7 @@
 > cross-check** (the crosswalk is net-only; the decree list bounds the yearly-window
 > blind spot). See `DESIGN.md` decision 4 + spike journal `2026-07-20.01`.
 >
-> **Update (2026-08-28): Phase 3 is active; the 2025 source/topology gate is
+> **Update (2026-08-30): Phase 3 is active; the 2025 source/topology gate is
 > complete.** The complete
 > 204-date SOAP archive supplies inventory and former-district parentage. The
 > boundary observation + structured primary-link spine is documented in
@@ -28,12 +28,14 @@
 > preserves 34 signed provincial resolutions plus official full-text HTML and
 > closes every predecessor: 10,586 edges, 459 split predecessors, zero residue
 > (`docs/journals/2026-08-28.02.ward-2025-composition-lineage.md`). Historical
-> source Tasks 1–5 are also complete: the 204 SOAP snapshots and 39 crosswalks
-> verify, and 392/449 legal instruments now have 784 archived official artifacts
-> (`docs/journals/2026-08-28.03`–`.07`). Resume at source-closure Task 6:
-> classify every legal record and link source clauses to observed events. Only
-> after the source audit closes should the historical records be promoted into
-> canonical entities/`LineageEdge` objects. Wikidata emission remains gated.
+> source Tasks 1–6 are also complete: the 204 SOAP snapshots and 39 crosswalks
+> verify; all 453 candidate legal rows and 449 unique instruments are classified
+> and linked; and 414/449 instruments now have 821 archived official artifacts.
+> Resume at source-closure Task 7 with 35 primary-source-open instruments, 33 of
+> them change-bearing. The next target is `469/NQ-UBTVQH15@2022-04-10`; see
+> `docs/journals/2026-08-30.01.ward-source-audit-handoff.md`. Only after the
+> source audit closes should historical records be promoted into canonical
+> entities/`LineageEdge` objects. Wikidata emission remains gated.
 
 Extends `DESIGN.md` (the overarching design + decisions log). **Phase 1**
 delivered the *2025-reform province slice* (`docs/plans/2026-07-10-phase1-
