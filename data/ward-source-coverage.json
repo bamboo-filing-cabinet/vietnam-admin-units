@@ -8231,7 +8231,7 @@
               "title_territory_or_named_unit"
             ],
             "primary_source_paths": [],
-            "source_status": "missing"
+            "source_status": "secondary_only"
           }
         ]
       },
@@ -8705,7 +8705,7 @@
               "title_territory_or_named_unit"
             ],
             "primary_source_paths": [],
-            "source_status": "missing"
+            "source_status": "secondary_only"
           },
           {
             "classification": "lineage",
@@ -39167,7 +39167,7 @@
     "legal_linkage_overrides_path": "data/ward-legal-linkage-overrides.json",
     "legal_linkage_overrides_sha256": "c841b3dde6584196a5f273b7e6e65f129373f8bd1d51c14d9604a8dacc83872d",
     "legal_sources_path": "data/ward-legal-sources.json",
-    "legal_sources_sha256": "429d7548b2af047508493163916254ff1c620a4ecff96322ea9778f4a14f564c",
+    "legal_sources_sha256": "9b872737169dfc96fdce81159cfb6028b10f6f6cadd36af32e6bd705ae6d245f",
     "manifest_path": "data/raw/manifest.jsonl",
     "manifest_sha256": "151b65a8e45904388244967801f10320b9eaa7afeb82b09574bb88d5caac579b",
     "observed_changes_path": "data/ward-observed-changes.json",
@@ -39695,11 +39695,11 @@
       "input_fingerprints": {
         "data/decree-urls.json": "7046a0d47c3e78114ba3dd10c1d77671ae76d32b62f4ae66b794487193676b0c",
         "data/raw/nghidinh.json": "2d141ae52886f78bf476defe6f8275ea31a910d3c1f65288a1e8b067924756fb",
-        "data/ward-legal-secondary-urls.json": "f5d30c44980961213702133ed16eba371879d31233ca8b56607d21396609a751"
+        "data/ward-legal-secondary-urls.json": "a8d4e0e42e0da59933f2d34c2012cd1b9bb17050e89a56693b7c47f9fcd5f194"
       },
       "path": "data/ward-legal-sources.json",
       "schema_version": 1,
-      "sha256": "429d7548b2af047508493163916254ff1c620a4ecff96322ea9778f4a14f564c",
+      "sha256": "9b872737169dfc96fdce81159cfb6028b10f6f6cadd36af32e6bd705ae6d245f",
       "summary": {
         "index_date_anomalies": 1,
         "instruments": 449,
@@ -39707,7 +39707,7 @@
         "official_code_differences": 10,
         "official_matches": 411,
         "preserved_artifacts": 813,
-        "secondary_tvpl_urls": 107,
+        "secondary_tvpl_urls": 109,
         "status_counts": {
           "official_not_found": 38,
           "reused_existing_2025_pair": 34,
@@ -55864,12 +55864,25 @@
       "observation_status": "topology_components_linked",
       "primary_sources": [],
       "review_status": "reviewed_title_and_source_scope",
-      "secondary_sources": [],
+      "secondary_sources": [
+        {
+          "bytes": 0,
+          "declared_media_type": "",
+          "detected_media_type": "",
+          "media_type": "metadata_url",
+          "method": "secondary legal discovery URL (not archived as primary evidence)",
+          "path": "",
+          "retrieved_at": "",
+          "sha256": "",
+          "source_class": "secondary",
+          "source_url": "https://thuvienphapluat.vn/cong-van/Lao-dong-Tien-luong/Cong-van-2800-BNV-TL-phu-cap-khu-vuc-94174.aspx"
+        }
+      ],
       "source_discovery": {
         "discovery_status": "official_not_found",
         "metadata_url": ""
       },
-      "source_status": "missing",
+      "source_status": "secondary_only",
       "title_variants": [
         "điều chỉnh địa giới hành chính xã để thành lập xã thuộc huyện Chơn Thành, huyện Bù Đăng, tỉnh Bình Phước"
       ]
@@ -56170,12 +56183,25 @@
       "observation_status": "topology_components_linked",
       "primary_sources": [],
       "review_status": "reviewed_title_and_source_scope",
-      "secondary_sources": [],
+      "secondary_sources": [
+        {
+          "bytes": 0,
+          "declared_media_type": "",
+          "detected_media_type": "",
+          "media_type": "metadata_url",
+          "method": "secondary legal discovery URL (not archived as primary evidence)",
+          "path": "",
+          "retrieved_at": "",
+          "sha256": "",
+          "source_class": "secondary",
+          "source_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-28-NQ-CP-dieu-chinh-va-mo-rong-dia-gioi-hanh-chinh-91273.aspx"
+        }
+      ],
       "source_discovery": {
         "discovery_status": "official_not_found",
         "metadata_url": ""
       },
-      "source_status": "missing",
+      "source_status": "secondary_only",
       "title_variants": [
         "Điều chỉnh địa giới hành chính huyện Châu Thành, huyện Chợ Gạo để mở rộng địa giới hành chính thành phố Mỹ Tho; điều chỉnh địa giới hành chính xã, thành lập xã thuộc thành phố Mỹ Tho, huyện Châu Thành, huyện Chợ Gạo, tỉnh Tiền Giang"
       ]
@@ -73059,7 +73085,7 @@
       "legal_topology_linked": 161,
       "legal_topology_linked_with_source_cleanup": 1
     },
-    "secondary_tvpl_urls": 107,
+    "secondary_tvpl_urls": 109,
     "soap_artifacts": 204,
     "soap_rows": 2202543,
     "soap_unique_payloads": 180,
