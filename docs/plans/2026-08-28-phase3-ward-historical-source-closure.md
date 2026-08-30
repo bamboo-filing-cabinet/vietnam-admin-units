@@ -43,8 +43,9 @@ re-scrape it.
 > **Task 7 in progress (2026-08-30).** Official recovery and one-at-a-time
 > secondary reviews now leave 35 primary-source-open instruments: 16 `missing`
 > and 19 `secondary_only`; 33 are change-bearing. Official coverage is 414/449.
-> Resume with `469/NQ-UBTVQH15@2022-04-10` from journal
-> `2026-08-30.01.ward-source-audit-handoff.md`. Do not start Task 8.
+> Resolution `469/NQ-UBTVQH15@2022-04-10` now has an exact official Thái
+> Nguyên Social Insurance registry and PDF lead, but the legacy file server
+> reset live retrieval attempts (`2026-08-30.02`). Do not start Task 8.
 
 ## Outcome
 
@@ -313,9 +314,10 @@ territory, title, and named-unit checks.
 > **2026-08-30 handoff:** Task 7 remains in progress. The current materialized
 > ledger is fresh and verified at 414/449 official, 35 primary-source-open, and
 > 33 change-bearing-open instruments. The open set contains 16 `missing` and 19
-> `secondary_only` rows. Resume one instrument at a time with
-> `469/NQ-UBTVQH15@2022-04-10` from
-> `docs/journals/2026-08-30.01.ward-source-audit-handoff.md`; do not start Task 8.
+> `secondary_only` rows. Resolution `469/NQ-UBTVQH15@2022-04-10` has a
+> structured official PDF recovery lead but remains open because its bytes are
+> not archived (`docs/journals/2026-08-30.02.ward-secondary-provenance-469.md`);
+> do not start Task 8.
 
 Add a command that regenerates the coverage JSON and prints a concise audit.
 Write a dated completion journal containing final counts, reviewed exceptions,

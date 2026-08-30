@@ -28,7 +28,7 @@ vietnam-elections     vietnam-elections-wikidata
 2. **Set up + verify:**
    ```sh
    uv sync
-   uv run pytest -q                          # 201 tests pass
+   uv run pytest -q                          # 202 tests pass
    ```
 
    **Phases 1 and 2 are complete and uploaded to Wikidata (provinces + districts).** The next work is **Phase 3 (wards)** — read the "Phase 2" block under [Status](#status) for the post-upload verification step and the roadmap pointer.
@@ -101,10 +101,10 @@ observed events.
 at a time.** The current audit is **414/449 official**, with **35
 primary-source-open instruments**: 16 `missing` and 19 `secondary_only`; **33
 are change-bearing**. The registry preserves 407 official attachments and 821
-official artifacts. The next review target is
-`469/NQ-UBTVQH15@2022-04-10` (Phổ Yên, Thái Nguyên). Its TVPL transcription is
-already recorded; seek a complete official National Assembly, Government,
-Gazette, or provincial PDF/DOC/full-text copy. Resolution
+official artifacts. Resolution `469/NQ-UBTVQH15@2022-04-10` (Phổ Yên, Thái
+Nguyên) now has an exact official Thái Nguyên Social Insurance registry page
+and PDF lead, but the legacy file server reset all live retrieval attempts.
+Retry and archive that PDF before closing the instrument. Resolution
 `820/NQ-UBTVQH14@2020-01-01` remains primary-source-open but now has strong
 secondary implementation provenance. Do **not** start Task 8 or promote
 secondary evidence to primary merely to close the count.
@@ -118,6 +118,8 @@ secondary review are recorded in journals
 [`2026-08-29.16`](docs/journals/2026-08-29.16.ward-source-460-nq-ubtvqh14.md)
 and
 [`2026-08-29.17`](docs/journals/2026-08-29.17.ward-secondary-provenance-820.md).
+Resolution 469's official PDF lead and supplied-source review are recorded in
+[`2026-08-30.02`](docs/journals/2026-08-30.02.ward-secondary-provenance-469.md).
 The later graph-building slice remains gated: only after Task 7 passes should
 the observations and resolved events be promoted into canonical ward entities
 and `LineageEdge` records. Do not emit or upload ward Wikidata statements yet.

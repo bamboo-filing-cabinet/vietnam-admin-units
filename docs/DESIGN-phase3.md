@@ -32,8 +32,10 @@
 > verify; all 453 candidate legal rows and 449 unique instruments are classified
 > and linked; and 414/449 instruments now have 821 archived official artifacts.
 > Resume at source-closure Task 7 with 35 primary-source-open instruments, 33 of
-> them change-bearing. The next target is `469/NQ-UBTVQH15@2022-04-10`; see
-> `docs/journals/2026-08-30.01.ward-source-audit-handoff.md`. Only after the
+> them change-bearing. Resolution `469/NQ-UBTVQH15@2022-04-10` now has an exact
+> official Thái Nguyên Social Insurance registry and PDF lead, but the legacy
+> file server reset all retrieval attempts; see journal `2026-08-30.02`. Only
+> after the
 > source audit closes should historical records be promoted into canonical
 > entities/`LineageEdge` objects. Wikidata emission remains gated.
 

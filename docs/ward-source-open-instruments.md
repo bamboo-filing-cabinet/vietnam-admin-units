@@ -8,7 +8,7 @@ Current audit: **35 primary-source-open instruments**; **33 are tied to observed
 
 The personal-search checkpoint at commit `89107d0` recorded **39 open instruments**, including **37 change-bearing instruments**. Resolution 721/NQ-UBTVQH15 was subsequently recovered from the National Assembly, Resolution 39/NQ-CP from the Government legal portal, and Resolution 904/NQ-UBTVQH13 from the Ninh Bình Provincial Historical Archives. Later recoveries, if any, are reflected in the live counts above.
 
-Exact official-page leads are recorded below for **18 of the 35 current items**. These links are leads only: none count as recovered provenance until the full official page or original attachment is saved, hashed, registered, and verified offline.
+Exact official-page leads are recorded below for **19 of the 35 current items**. These links are leads only: none count as recovered provenance until the full official page or original attachment is saved, hashed, registered, and verified offline.
 
 ## What counts as a useful find
 
@@ -197,3 +197,7 @@ TVPL links are included only to confirm identity and title. TVPL pages, search s
 - [ ] **Change-bearing** `469/NQ-UBTVQH15@2022-04-10` — Nghị quyết về việc thành lập các phường thuộc thị xã Phổ Yên và thành lập thành phố Phổ Yên, tỉnh Thái Nguyên
   - Current evidence: secondary identity reference only.
   - Identity reference only: <https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-469-NQ-UBTVQH15-2022-thanh-lap-phuong-thuoc-thi-xa-Pho-Yen-Thai-Nguyen-504359.aspx>
+  - Official lead (not yet archived): <https://thainguyen.baohiemxahoi.gov.vn/vanban/Pages/default.aspx?ItemID=9100>
+  - Official attachment lead (not yet archived): <https://thainguyen.baohiemxahoi.gov.vn:4545/File_Server_BHXH/documents/26362_28140_NQ%20469%20v%E1%BB%81%20th%C3%A0nh%20l%E1%BA%ADp%20c%C3%A1c%20ph%C6%B0%E1%BB%9Dng%20v%C3%A0%20th%C3%A0nh%20ph%E1%BB%91%20Ph%E1%BB%95%20Y%C3%AAn.pdf>
+  - Expected original attachment: `26362_28140_NQ 469 về thành lập các phường và thành phố Phổ Yên.pdf`
+  - Retrieval note: The official registry page and legacy attachment server reset direct command-line and normal-browser connections during review. Search indexing and a read-only renderer expose the exact metadata and PDF link, but neither supplies archivable source bytes. Save the official page and PDF when the service is reachable; do not close the source gate from indexed metadata alone.

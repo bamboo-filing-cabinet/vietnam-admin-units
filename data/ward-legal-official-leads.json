@@ -269,6 +269,21 @@
         "https://vbpl.vn/kiengiang/Pages/vbpq-toanvan.aspx?ItemID=11845"
       ],
       "retrieval_notes": "Preserve the one-day registry discrepancy. Save the full page and original ZIP in a normal browser; do not substitute the unrelated 2013 Resolution 29/NQ-CP record."
+    },
+    {
+      "access_status": "official_metadata_and_attachment_indexed_raw_retrieval_blocked",
+      "expected_attachment_names": [
+        "26362_28140_NQ 469 về thành lập các phường và thành phố Phổ Yên.pdf"
+      ],
+      "instrument_id": "469/NQ-UBTVQH15@2022-04-10",
+      "lead_basis": "The official Thái Nguyên Social Insurance document registry matches the resolution code, title, issuer, signatory, issue date, and effective date and exposes a dedicated PDF attachment URL.",
+      "official_attachment_urls": [
+        "https://thainguyen.baohiemxahoi.gov.vn:4545/File_Server_BHXH/documents/26362_28140_NQ%20469%20v%E1%BB%81%20th%C3%A0nh%20l%E1%BA%ADp%20c%C3%A1c%20ph%C6%B0%E1%BB%9Dng%20v%C3%A0%20th%C3%A0nh%20ph%E1%BB%91%20Ph%E1%BB%95%20Y%C3%AAn.pdf"
+      ],
+      "official_page_urls": [
+        "https://thainguyen.baohiemxahoi.gov.vn/vanban/Pages/default.aspx?ItemID=9100"
+      ],
+      "retrieval_notes": "The official registry page and legacy attachment server reset direct command-line and normal-browser connections during review. Search indexing and a read-only renderer expose the exact metadata and PDF link, but neither supplies archivable source bytes. Save the official page and PDF when the service is reachable; do not close the source gate from indexed metadata alone."
     }
   ],
   "schema_version": 1

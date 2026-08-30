@@ -827,9 +827,18 @@ def _load_official_leads(path: Path = OFFICIAL_LEADS) -> dict[str, dict]:
             raise ValueError(
                 f"official lead has no page URL: {lead['instrument_id']}"
             )
-        for url in lead["official_page_urls"]:
-            host = (urlparse(url).hostname or "").lower()
-            if host not in {"vbpl.vn", "vbpl.moj.gov.vn"}:
+        urls = [
+            *lead["official_page_urls"],
+            *lead.get("official_attachment_urls", []),
+        ]
+        for url in urls:
+            parsed = urlparse(url)
+            host = (parsed.hostname or "").lower()
+            if parsed.scheme != "https" or not (
+                host in {"vbpl.vn", "vbpl.moj.gov.vn", "gov.vn"}
+                or host.endswith(".vbpl.vn")
+                or host.endswith(".gov.vn")
+            ):
                 raise ValueError(
                     f"official lead has an unexpected host: {lead['instrument_id']}"
                 )
@@ -946,6 +955,11 @@ def render_open_source_note(
         if lead:
             for url in lead["official_page_urls"]:
                 lines.append(f"  - Official lead (not yet archived): <{url}>")
+            for url in lead.get("official_attachment_urls", []):
+                lines.append(
+                    "  - Official attachment lead (not yet archived): "
+                    f"<{url}>"
+                )
             for filename in lead.get("expected_attachment_names", []):
                 lines.append(f"  - Expected original attachment: `{filename}`")
             discrepancy = lead.get("date_discrepancy")

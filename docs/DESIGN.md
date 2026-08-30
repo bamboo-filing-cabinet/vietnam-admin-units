@@ -316,8 +316,10 @@ assemblies need non-GSO sources.
   **OPEN** at 414/449 official, 35 primary-source-open instruments, and 33
   change-bearing-open instruments; the registry preserves 407 official
   attachments and 821 official artifacts. No secondary page is promoted to
-  authority. Resume with `469/NQ-UBTVQH15@2022-04-10` from
-  `docs/journals/2026-08-30.01.ward-source-audit-handoff.md`. Full
+  authority. Resolution `469/NQ-UBTVQH15@2022-04-10` has an exact official
+  Thái Nguyên Social Insurance registry and PDF lead, but the PDF remains
+  unarchived because the legacy file server reset live retrieval attempts
+  (`2026-08-30.02`). Full
   2002→present provenance is not yet closed. The next graph-building slice—
   promotion into canonical ward entities/`LineageEdge` records—remains gated
   behind Task 7, and Wikidata emission remains a later gate.

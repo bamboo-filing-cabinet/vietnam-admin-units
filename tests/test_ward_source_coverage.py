@@ -151,6 +151,44 @@ def test_open_source_note_rejects_leads_that_are_no_longer_open(tmp_path: Path):
         raise AssertionError("stale official lead was accepted")
 
 
+def test_open_source_note_accepts_official_gov_attachment_lead(tmp_path: Path):
+    instrument_id = "469/NQ-UBTVQH15@2022-04-10"
+    coverage = {
+        "summary": {"primary_source_open_instruments": 1},
+        "residue": {
+            "primary_source_open_instrument_ids": [instrument_id],
+            "change_bearing_source_open_instrument_ids": [instrument_id],
+        },
+        "legal_instruments": [{
+            "instrument_id": instrument_id,
+            "effective_date": "2022-04-10",
+            "title_variants": ["Thành lập thành phố Phổ Yên"],
+            "source_status": "secondary_only",
+            "secondary_sources": [],
+        }],
+    }
+    leads = tmp_path / "leads.json"
+    leads.write_text(json.dumps({
+        "schema_version": 1,
+        "leads": [{
+            "instrument_id": instrument_id,
+            "official_page_urls": [
+                "https://thainguyen.baohiemxahoi.gov.vn/vanban/example"
+            ],
+            "official_attachment_urls": [
+                "https://thainguyen.baohiemxahoi.gov.vn:4545/example.pdf"
+            ],
+            "retrieval_notes": "Save the PDF when reachable.",
+        }],
+    }), encoding="utf-8")
+
+    note = render_open_source_note(coverage, leads)
+
+    assert "Official lead (not yet archived)" in note
+    assert "Official attachment lead (not yet archived)" in note
+    assert "Save the PDF when reachable" in note
+
+
 def test_real_locked_baseline_builds_deterministically():
     coverage = build_coverage()
     summary = coverage["summary"]
@@ -241,12 +279,14 @@ def test_real_locked_baseline_builds_deterministically():
     assert "`460/NQ-UBTVQH14@2017-12-13`" not in open_note
     assert "TVPL links are included only to confirm identity" in open_note
     assert "commit `89107d0` recorded **39 open instruments**" in open_note
-    assert open_note.count("Official lead (not yet archived)") == 23
-    assert "**18 of the 35 current items**" in open_note
+    assert open_note.count("Official lead (not yet archived)") == 24
+    assert open_note.count("Official attachment lead (not yet archived)") == 1
+    assert "**19 of the 35 current items**" in open_note
     assert "`84.2005.ND.CP.doc`" in open_note
     assert "`137.2007.ND.CP.zip`" in open_note
     assert "`26.NQ-CP.zip`" in open_note
     assert "`29.NQ-CP.zip`" in open_note
+    assert "`26362_28140_NQ 469 về thành lập các phường" in open_note
     assert "official effective 2006-07-16" in open_note
     assert "official effective 2007-09-18" in open_note
     assert "official effective 2009-01-18" in open_note
