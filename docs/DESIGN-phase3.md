@@ -33,9 +33,9 @@
 > and linked; and 414/449 instruments now have 821 archived official artifacts.
 > Resume at source-closure Task 7 with 35 primary-source-open instruments, 33 of
 > them change-bearing. Resolution `469/NQ-UBTVQH15@2022-04-10` and Decrees 84,
-> 85, and 97 of 2005 now have exact official attachment recovery paths, but their
-> bytes remain unavailable from the live legacy endpoints; see journals
-> `2026-08-30.02`–`.05`. Only after the
+> 85, 97, and 98 of 2005 now have exact official attachment recovery paths, but
+> their bytes remain unavailable from the live legacy endpoints; see journals
+> `2026-08-30.02`–`.06`. Only after the
 > source audit closes should historical records be promoted into canonical
 > entities/`LineageEdge` objects. Wikidata emission remains gated.
 

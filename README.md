@@ -112,9 +112,12 @@ lead whose legacy file server resets live retrieval attempts. Decree
 a preserved date discrepancy, and complete secondary topology. Decree
 `97/2005/NĐ-CP@2005-08-10` now has a complete indexed official print view,
 history record, and exact DOC recovery path; its 2005-08-17 legal effective
-date differs from the earlier registry date. The next bounded review target is
-Decree `98/2005/NĐ-CP@2005-08-10` (Hậu Giang). Do **not** start Task 8 or
-promote secondary evidence to primary merely to close the count.
+date differs from the earlier registry date. Decree
+`98/2005/NĐ-CP@2005-08-10` now has the same complete indexed print/DOC recovery
+path and preserved date discrepancy, plus a reconciled Tân Hiệp → Ngã Bảy name
+chain. The next bounded review target is Decree
+`28/2006/NDD-CP@2006-04-06` (Kon Tum). Do **not** start Task 8 or promote
+secondary evidence to primary merely to close the count.
 
 Read the current [shutdown handoff](docs/journals/2026-08-30.01.ward-source-audit-handoff.md),
 the generated [open-instrument checklist](docs/ward-source-open-instruments.md),
@@ -136,6 +139,9 @@ corroboration are recorded in
 Decree 97's official recovery path, five commune creations, date discrepancy,
 and supplied-source review are recorded in
 [`2026-08-30.05`](docs/journals/2026-08-30.05.ward-secondary-provenance-97.md).
+Decree 98's official recovery path, Tân Hiệp topology and date discrepancy,
+and supplied-source review are recorded in
+[`2026-08-30.06`](docs/journals/2026-08-30.06.ward-secondary-provenance-98.md).
 The later graph-building slice remains gated: only after Task 7 passes should
 the observations and resolved events be promoted into canonical ward entities
 and `LineageEdge` records. Do not emit or upload ward Wikidata statements yet.
