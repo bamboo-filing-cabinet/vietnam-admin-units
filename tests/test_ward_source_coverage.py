@@ -185,11 +185,11 @@ def test_real_locked_baseline_builds_deterministically():
         "superseded_by_canonical_correction": 2,
         "topology_components_linked": 354,
     }
-    assert summary["change_bearing_source_open_instruments"] == 34
-    assert summary["primary_source_open_instruments"] == 36
-    assert summary["official_source_matches"] == 413
-    assert summary["official_source_not_found"] == 36
-    assert summary["secondary_tvpl_urls"] == 110
+    assert summary["change_bearing_source_open_instruments"] == 33
+    assert summary["primary_source_open_instruments"] == 35
+    assert summary["official_source_matches"] == 414
+    assert summary["official_source_not_found"] == 35
+    assert summary["secondary_tvpl_urls"] == 111
     assert summary["observed_change_intervals"] == 179
     assert summary["events"] == 179
     assert summary["crosswalk_supported_events"] == 178
@@ -226,22 +226,23 @@ def test_real_locked_baseline_builds_deterministically():
         },
     }
     assert format_audit(coverage) == (
-        "ward source audit: OPEN — 413/449 official; 36 primary-source open; "
-        "34 change-bearing open\n"
+        "ward source audit: OPEN — 414/449 official; 35 primary-source open; "
+        "33 change-bearing open\n"
         "source floor verdict: no_endpoint_state_difference_observed — "
         "2002-01-01 and 2004-01-01 are identical; transient intra-interval "
         "changes are not excluded"
     )
     open_note = render_open_source_note(coverage)
-    assert open_note.count("- [ ]") == 36
-    assert open_note.count("- [ ] **Change-bearing**") == 34
+    assert open_note.count("- [ ]") == 35
+    assert open_note.count("- [ ] **Change-bearing**") == 33
     assert open_note.count("- [ ] **Context-only / superseded index row**") == 2
     assert "`07/NĐ-CP@2009-01-07`" in open_note
     assert "`721/NQ-UBTVQH15@2023-04-10`" not in open_note
+    assert "`460/NQ-UBTVQH14@2017-12-13`" not in open_note
     assert "TVPL links are included only to confirm identity" in open_note
     assert "commit `89107d0` recorded **39 open instruments**" in open_note
     assert open_note.count("Official lead (not yet archived)") == 23
-    assert "**18 of the 36 current items**" in open_note
+    assert "**18 of the 35 current items**" in open_note
     assert "`84.2005.ND.CP.doc`" in open_note
     assert "`137.2007.ND.CP.zip`" in open_note
     assert "`26.NQ-CP.zip`" in open_note

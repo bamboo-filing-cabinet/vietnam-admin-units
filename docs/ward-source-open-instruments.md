@@ -2,13 +2,13 @@
 
 Generated from `data/ward-source-coverage.json` by `vn_admin_units.ward_source_coverage --open-note`.
 
-Current audit: **36 primary-source-open instruments**; **34 are tied to observed ward changes**.
+Current audit: **35 primary-source-open instruments**; **33 are tied to observed ward changes**.
 
 ## Queue history
 
 The personal-search checkpoint at commit `89107d0` recorded **39 open instruments**, including **37 change-bearing instruments**. Resolution 721/NQ-UBTVQH15 was subsequently recovered from the National Assembly, Resolution 39/NQ-CP from the Government legal portal, and Resolution 904/NQ-UBTVQH13 from the Ninh Bình Provincial Historical Archives. Later recoveries, if any, are reflected in the live counts above.
 
-Exact official-page leads are recorded below for **18 of the 36 current items**. These links are leads only: none count as recovered provenance until the full official page or original attachment is saved, hashed, registered, and verified offline.
+Exact official-page leads are recorded below for **18 of the 35 current items**. These links are leads only: none count as recovered provenance until the full official page or original attachment is saved, hashed, registered, and verified offline.
 
 ## What counts as a useful find
 
@@ -185,8 +185,6 @@ TVPL links are included only to confirm identity and title. TVPL pages, search s
 - [ ] **Change-bearing** `422/NQ-UBTVQH14@2017-08-18` — Điều chỉnh mở rộng địa giới hành chính thành phố Thái Nguyên và thành lập 02 phường thuộc thành phố Thái Nguyên, tỉnh Thái Nguyên
   - Current evidence: secondary identity reference only.
   - Identity reference only: <https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-422-NQ-UBTVQH14-2017-dieu-chinh-mo-rong-dia-gioi-hanh-chinh-thanh-pho-Thai-Nguyen-373365.aspx>
-- [ ] **Change-bearing** `460/NQ-UBTVQH14@2017-12-13` — Thành lập thị trấn Ninh Cường thuộc huyện Trực Ninh, tỉnh Nam Định
-  - Current evidence: no source URL recorded.
 
 ### 2020
 

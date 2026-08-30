@@ -56,6 +56,9 @@ FORM_PREFIX = "ctrl_191017_163$"
 GAZETTE_ROOT = "https://congbao.chinhphu.vn"
 GAZETTE_SEARCH = "https://api-searchcongbao.chinhphu.vn/search/van-ban"
 NATIONAL_ASSEMBLY_FULL_TEXT = {
+    "460/NQ-UBTVQH14@2017-12-13": (
+        "https://vietlaw.quochoi.vn/Pages/vbpq-toan-van.aspx?ItemID=28138"
+    ),
     "721/NQ-UBTVQH15@2023-04-10": (
         "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73336"
     ),
@@ -539,11 +542,17 @@ def parse_national_assembly_full_text(content: bytes, source_url: str) -> dict:
     """Validate one complete enacted text published by the National Assembly."""
     document = _decode_html(content, f"official National Assembly page {source_url}")
     heading = " ".join(document.xpath("string(//h1)").split())
+    if not heading:
+        heading = " ".join(document.xpath(
+            'string(//div[contains(concat(" ",normalize-space(@class)," "),'
+            '" box-map ")]//li[last()])'
+        ).split())
     description = " ".join(document.xpath(
         'string(//meta[translate(@name,"ABCDEFGHIJKLMNOPQRSTUVWXYZ",'
         '"abcdefghijklmnopqrstuvwxyz")="description"]/@content)'
     ).split())
     page_text = " ".join(" ".join(document.xpath("//body//text()")).split())
+    folded_page_text = _fold_text(page_text)
     code_match = re.search(
         r"\bSố\s*:\s*(\d+\s*/\s*NQ\s*-\s*UBTVQH\d+)\b",
         page_text,
@@ -551,19 +560,43 @@ def parse_national_assembly_full_text(content: bytes, source_url: str) -> dict:
     )
     date_match = re.search(r"\bngày\s+(\d{1,2}/\d{1,2}/\d{4})\b", description)
     formal_date_match = re.search(
-        r"thong qua ngay (\d{1,2}) thang (\d{1,2}) nam (\d{4})",
-        _fold_text(page_text),
+        r"(?:thong qua|ha noi) ngay (\d{1,2}) thang (\d{1,2}) nam (\d{4})",
+        folded_page_text,
     )
     title_parts = re.split(r"\bvề việc\b", description, maxsplit=1, flags=re.IGNORECASE)
+    title = f"Về việc {title_parts[1].strip()}" if len(title_parts) == 2 else ""
+    if not title:
+        paragraphs = [
+            " ".join(paragraph.xpath("string(.)").split())
+            for paragraph in document.xpath(
+                '//div[contains(concat(" ",normalize-space(@class)," "),'
+                '" toanvan ")]//p'
+            )
+        ]
+        for index, paragraph in enumerate(paragraphs):
+            if paragraph.upper() != "NGHỊ QUYẾT":
+                continue
+            title_lines = []
+            for candidate in paragraphs[index + 1:]:
+                if candidate and set(candidate) == {"_"}:
+                    break
+                if candidate:
+                    title_lines.append(candidate)
+            title = " ".join(title_lines)
+            break
     effective_match = re.search(
         r"co hieu luc thi hanh tu ngay (\d{1,2}) thang (\d{1,2}) nam (\d{4})",
-        _fold_text(page_text),
+        folded_page_text,
+    )
+    effective_label_match = re.search(
+        r"Ngày có hiệu lực\s*:\s*(\d{1,2}/\d{1,2}/\d{4})",
+        page_text,
     )
     if (
         not heading
         or code_match is None
         or (date_match is None and formal_date_match is None)
-        or len(title_parts) != 2
+        or not title
     ):
         raise ValueError("official National Assembly full-text page is missing validation fields")
     code = normalize_code(code_match.group(1))
@@ -579,10 +612,20 @@ def parse_national_assembly_full_text(content: bytes, source_url: str) -> dict:
     result = {
         "code": code,
         "issued_date": issued_date,
-        "title": f"Về việc {title_parts[1].strip()}",
-        "attachment_urls": [],
+        "title": title,
+        "attachment_urls": list(dict.fromkeys(
+            urljoin(source_url, url)
+            for url in document.xpath(
+                '//a[.//b[contains(concat(" ",normalize-space(@class)," "),'
+                '" download ")]]/@href'
+            )
+        )),
     }
-    if effective_match is not None:
+    if effective_label_match is not None:
+        result["official_effective_date"] = normalize_issue_date(
+            effective_label_match.group(1)
+        )
+    elif effective_match is not None:
         day, month, year = effective_match.groups()
         result["official_effective_date"] = date(
             int(year), int(month), int(day)
@@ -1162,6 +1205,11 @@ def recover_registry_from_national_assembly(*, path: Path = REGISTRY,
             fetch_status = "fetched"
         detail = parse_national_assembly_full_text(content, source_url)
         _validate_candidate(item, detail)
+        for url in detail["attachment_urls"]:
+            _require_official_url(url)
+        attachment_paths = attachment_relpaths(
+            item["code"], item["effective_date"], detail["attachment_urls"],
+        )
         effective_gap_days = (
             date.fromisoformat(item["effective_date"])
             - date.fromisoformat(detail["issued_date"])
@@ -1178,7 +1226,12 @@ def recover_registry_from_national_assembly(*, path: Path = REGISTRY,
             "date_match_status": _date_match_status(effective_gap_days),
             "metadata_url": source_url,
             "metadata_path": source_path,
-            "attachments": [],
+            "attachments": [
+                {"url": url, "path": path, "media_type": _attachment_extension(url)}
+                for url, path in zip(
+                    detail["attachment_urls"], attachment_paths, strict=True,
+                )
+            ],
         }
         if official_effective_date is not None:
             replacement["official_effective_date"] = official_effective_date
@@ -1202,6 +1255,7 @@ def recover_registry_from_national_assembly(*, path: Path = REGISTRY,
                     "effective_date_match_status", "not_stated"
                 ),
                 "title": item["title_variants"][0],
+                "attachment_urls": detail["attachment_urls"],
                 "secondary_urls": item.get("secondary_urls", []),
             })
         replacements[instrument_id] = replacement
@@ -1526,7 +1580,12 @@ def fetch_registry(*, registry_path: Path = REGISTRY, timeout: int = 120,
                         "official provincial historical archive original scan"
                         if item.get("source_provider")
                         == "provincial_historical_archive"
-                        else "official Government legal original attachment"
+                        else (
+                            "official National Assembly original attachment"
+                            if item.get("source_provider")
+                            == "national_assembly_full_text"
+                            else "official Government legal original attachment"
+                        )
                     )
                 ),
                 "source_provider": item.get("source_provider", "government_legal_portal"),
@@ -1673,7 +1732,7 @@ def check_registry(path: Path = REGISTRY) -> dict:
             item.get("source_provider") == "national_assembly_full_text"
         )
         if is_assembly_full_text:
-            if item["attachments"] or not item["metadata_path"].endswith(".fulltext.html"):
+            if not item["metadata_path"].endswith(".fulltext.html"):
                 raise ValueError(
                     f"National Assembly full-text source is inconsistent: "
                     f"{item['instrument_id']}"

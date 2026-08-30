@@ -14585,8 +14585,11 @@
               "effective_date_inside_observation_interval",
               "title_territory_or_named_unit"
             ],
-            "primary_source_paths": [],
-            "source_status": "missing"
+            "primary_source_paths": [
+              "legal/ward/2017-12-13/460-nq-ubtvqh14.fulltext.html",
+              "legal/ward/2017-12-13/460-nq-ubtvqh14.original.doc"
+            ],
+            "source_status": "verified_official_artifact"
           }
         ]
       },
@@ -39175,9 +39178,9 @@
     "legal_linkage_overrides_path": "data/ward-legal-linkage-overrides.json",
     "legal_linkage_overrides_sha256": "c841b3dde6584196a5f273b7e6e65f129373f8bd1d51c14d9604a8dacc83872d",
     "legal_sources_path": "data/ward-legal-sources.json",
-    "legal_sources_sha256": "de593f92fd8cf9d250d2bb3ccc6edb321cb5811072098c2f087058979dba97c9",
+    "legal_sources_sha256": "da7c8d3e85779c14d320177352169232d7809d5dc6efe8d1fd06b587c50f0e13",
     "manifest_path": "data/raw/manifest.jsonl",
-    "manifest_sha256": "ecce6c4d1f945461267701c50772e8157ecb3e22e56e39221cd4875e3b432db2",
+    "manifest_sha256": "299f865e4a9d6f65bbd8d10d641623d22e22f9035ebb4e22c3800bd28b1a673d",
     "observed_changes_path": "data/ward-observed-changes.json",
     "observed_changes_sha256": "91f441b73d9489c30e26e4a1c585600fcf435b0648a4f87ad4bc86aa9ca9d1df",
     "ward_2025_composition_path": "data/ward-2025-composition.json",
@@ -39703,23 +39706,23 @@
       "input_fingerprints": {
         "data/decree-urls.json": "7046a0d47c3e78114ba3dd10c1d77671ae76d32b62f4ae66b794487193676b0c",
         "data/raw/nghidinh.json": "2d141ae52886f78bf476defe6f8275ea31a910d3c1f65288a1e8b067924756fb",
-        "data/ward-legal-secondary-urls.json": "6c74db1b12ab841861c505723209dd86a37b864e714392f8c47dc6cd58cf6519"
+        "data/ward-legal-secondary-urls.json": "801067eb520ead2392e8740439d37dde83c20968d4f6184b2cc56a0aa8a193a5"
       },
       "path": "data/ward-legal-sources.json",
       "schema_version": 1,
-      "sha256": "de593f92fd8cf9d250d2bb3ccc6edb321cb5811072098c2f087058979dba97c9",
+      "sha256": "da7c8d3e85779c14d320177352169232d7809d5dc6efe8d1fd06b587c50f0e13",
       "summary": {
         "index_date_anomalies": 2,
         "instruments": 449,
-        "official_attachments": 406,
+        "official_attachments": 407,
         "official_code_differences": 10,
-        "official_matches": 413,
-        "preserved_artifacts": 819,
-        "secondary_tvpl_urls": 110,
+        "official_matches": 414,
+        "preserved_artifacts": 821,
+        "secondary_tvpl_urls": 111,
         "status_counts": {
-          "official_not_found": 36,
+          "official_not_found": 35,
           "reused_existing_2025_pair": 34,
-          "verified_official_match": 379
+          "verified_official_match": 380
         }
       }
     },
@@ -61641,14 +61644,60 @@
       "index_urls": [],
       "instrument_id": "460/NQ-UBTVQH14@2017-12-13",
       "observation_status": "topology_components_linked",
-      "primary_sources": [],
+      "primary_sources": [
+        {
+          "bytes": 43871,
+          "declared_media_type": "",
+          "detected_media_type": "",
+          "media_type": "html",
+          "method": "official National Assembly enacted full-text HTML",
+          "path": "legal/ward/2017-12-13/460-nq-ubtvqh14.fulltext.html",
+          "retrieved_at": "2026-08-30T03:19:17Z",
+          "sha256": "8a34da3b529601e55ad4dcfb06c7c7be171c3eaf5ecfd195166d5154227e92f3",
+          "source_class": "official",
+          "source_url": "https://vietlaw.quochoi.vn/Pages/vbpq-toan-van.aspx?ItemID=28138"
+        },
+        {
+          "bytes": 79872,
+          "declared_media_type": "doc",
+          "detected_media_type": "doc",
+          "media_type": "other",
+          "method": "official National Assembly original attachment",
+          "path": "legal/ward/2017-12-13/460-nq-ubtvqh14.original.doc",
+          "retrieved_at": "2026-08-30T03:19:26Z",
+          "sha256": "acf227c7a2a0c34ac32808f87e4db5fb297506d32f26e25b786b51fcf8a00db8",
+          "source_class": "official",
+          "source_url": "https://vietlaw.quochoi.vn/vanban/Lists/VBPQConvert/Attachments/28138/NQ-UBTVQH TT Ninh Cuong (13.12.2017).doc"
+        }
+      ],
       "review_status": "reviewed_title_and_source_scope",
-      "secondary_sources": [],
+      "secondary_sources": [
+        {
+          "bytes": 0,
+          "declared_media_type": "",
+          "detected_media_type": "",
+          "media_type": "metadata_url",
+          "method": "secondary legal discovery URL (not archived as primary evidence)",
+          "path": "",
+          "retrieved_at": "",
+          "sha256": "",
+          "source_class": "secondary",
+          "source_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-460-NQ-UBTVQH14-2017-thanh-lap-thi-tran-Ninh-Cuong-thuoc-huyen-Truc-Ninh-Nam-Dinh-440312.aspx"
+        }
+      ],
       "source_discovery": {
-        "discovery_status": "official_not_found",
-        "metadata_url": ""
+        "code_match_status": "exact",
+        "date_match_status": "plausible_effective_lag",
+        "discovery_status": "verified_official_match",
+        "effective_date_match_status": "exact",
+        "effective_gap_days": 0,
+        "issued_date": "2017-12-13",
+        "metadata_url": "https://vietlaw.quochoi.vn/Pages/vbpq-toan-van.aspx?ItemID=28138",
+        "official_code": "460/NQ-UBTVQH14",
+        "official_effective_date": "2017-12-13",
+        "source_provider": "national_assembly_full_text"
       },
-      "source_status": "missing",
+      "source_status": "verified_official_artifact",
       "title_variants": [
         "Thành lập thị trấn Ninh Cường thuộc huyện Trực Ninh, tỉnh Nam Định"
       ]
@@ -73022,7 +73071,6 @@
       "368/NQ-UBTVQH14@2017-04-19",
       "39/2006/NĐ-CP@2006-05-06",
       "422/NQ-UBTVQH14@2017-08-18",
-      "460/NQ-UBTVQH14@2017-12-13",
       "469/NQ-UBTVQH15@2022-04-10",
       "60/2006/NĐ-CP@2006-07-04",
       "64/2006/NĐ-CP@2006-07-08",
@@ -73113,7 +73161,6 @@
       "935/NQ-UBTVQH13@2015-05-16",
       "368/NQ-UBTVQH14@2017-04-19",
       "422/NQ-UBTVQH14@2017-08-18",
-      "460/NQ-UBTVQH14@2017-12-13",
       "820/NQ-UBTVQH14@2020-01-01",
       "469/NQ-UBTVQH15@2022-04-10"
     ],
@@ -73150,7 +73197,7 @@
     "verdict": "no_endpoint_state_difference_observed"
   },
   "summary": {
-    "change_bearing_source_open_instruments": 34,
+    "change_bearing_source_open_instruments": 33,
     "classified_instruments": 449,
     "classified_legal_index_rows": 453,
     "component_assignment_counts": {
@@ -73183,16 +73230,16 @@
     },
     "legal_index_records": 544,
     "observed_change_intervals": 179,
-    "official_source_matches": 413,
-    "official_source_not_found": 36,
-    "primary_source_open_instruments": 36,
+    "official_source_matches": 414,
+    "official_source_not_found": 35,
+    "primary_source_open_instruments": 35,
     "reviewed_event_statuses": {
       "explicitly_classified_non_legal_transition": 1,
       "legal_context_classified": 16,
       "legal_topology_linked": 161,
       "legal_topology_linked_with_source_cleanup": 1
     },
-    "secondary_tvpl_urls": 110,
+    "secondary_tvpl_urls": 111,
     "soap_artifacts": 204,
     "soap_rows": 2202543,
     "soap_unique_payloads": 180,

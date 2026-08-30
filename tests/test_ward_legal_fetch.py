@@ -144,6 +144,31 @@ def _national_assembly_full_text_html():
     """.encode()
 
 
+def _national_assembly_vietlaw_full_text_html():
+    return """
+      <html><head><meta name="description" /></head><body>
+        <div class="box-map"><ul><li>Trang chủ</li>
+          <li>Nghị quyết 460/NQ-UBTVQH14</li></ul></div>
+        <a href="https://vietlaw.quochoi.vn/vanban/Lists/VBPQConvert/Attachments/28138/NQ-UBTVQH TT Ninh Cuong (13.12.2017).doc">
+          <b class="download">Tải về</b></a>
+        <div class="vbInfo">Ngày ban hành: 13/12/2017
+          Ngày có hiệu lực: 13/12/2017</div>
+        <div class="toanvan">
+          <p>Số: 460/NQ-UBTVQH14</p>
+          <p>Hà Nội, ngày 13 tháng 12 năm 2017</p>
+          <p>NGHỊ QUYẾT</p>
+          <p><strong>Về việc thành lập thị trấn Ninh Cường</strong></p>
+          <p><strong>thuộc huyện Trực Ninh, tỉnh Nam Định</strong></p>
+          <p>________________</p>
+          <p>QUYẾT NGHỊ:</p>
+          <p>Điều 1. Thành lập thị trấn Ninh Cường trên cơ sở toàn bộ 7,41 km2
+            diện tích tự nhiên và 10.244 người của xã Trực Phú.</p>
+          <p>Điều 3. Nghị quyết này có hiệu lực thi hành kể từ ngày ký.</p>
+        </div>
+      </body></html>
+    """.encode()
+
+
 def _record():
     return {
         "instrument_id": "237/NQ-UBTVQH16@2026-04-30",
@@ -392,6 +417,30 @@ def test_national_assembly_parser_validates_full_text_and_effective_date():
         ],
     }
     assert fetcher._validate_candidate(record, detail) > 0.9
+
+
+def test_national_assembly_parser_accepts_vietlaw_full_text_and_attachment():
+    source_url = (
+        "https://vietlaw.quochoi.vn/Pages/"
+        "vbpq-toan-van.aspx?ItemID=28138"
+    )
+    detail = fetcher.parse_national_assembly_full_text(
+        _national_assembly_vietlaw_full_text_html(), source_url,
+    )
+
+    assert detail == {
+        "code": "460/NQ-UBTVQH14",
+        "issued_date": "2017-12-13",
+        "official_effective_date": "2017-12-13",
+        "title": (
+            "Về việc thành lập thị trấn Ninh Cường thuộc huyện Trực Ninh, "
+            "tỉnh Nam Định"
+        ),
+        "attachment_urls": [
+            "https://vietlaw.quochoi.vn/vanban/Lists/VBPQConvert/Attachments/"
+            "28138/NQ-UBTVQH TT Ninh Cuong (13.12.2017).doc"
+        ],
+    }
 
 
 def test_national_assembly_reload_cookie_is_extracted_strictly():
@@ -652,8 +701,11 @@ def test_real_legal_index_includes_2026_acceptance_and_reuses_34_pairs():
         "administrative-divisions-of-Hanoi-city/662762/tieng-anh.aspx"
     ]
     assert set(fetcher.NATIONAL_ASSEMBLY_FULL_TEXT) == {
+        "460/NQ-UBTVQH14@2017-12-13",
+        *{
         f"{number}/NQ-UBTVQH15@2023-04-10"
         for number in (721, 722, 723, 724, 726, 727, 728, 729, 730)
+        },
     }
     assert fetcher.CURATED_GOVERNMENT_LEGAL_PAGES == {
         "39/NQ-CP@2009-08-15": {
