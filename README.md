@@ -101,13 +101,16 @@ observed events.
 at a time.** The current audit is **414/449 official**, with **35
 primary-source-open instruments**: 16 `missing` and 19 `secondary_only`; **33
 are change-bearing**. The registry preserves 407 official attachments and 821
-official artifacts. Resolution `469/NQ-UBTVQH15@2022-04-10` (Phổ Yên, Thái
-Nguyên) now has an exact official Thái Nguyên Social Insurance registry page
-and PDF lead, but the legacy file server reset all live retrieval attempts.
-Retry and archive that PDF before closing the instrument. Resolution
-`820/NQ-UBTVQH14@2020-01-01` remains primary-source-open but now has strong
-secondary implementation provenance. Do **not** start Task 8 or promote
-secondary evidence to primary merely to close the count.
+official artifacts. Decree `84/2005-NĐ-CP@2005-07-22` (Thuận Bắc, Ninh Thuận)
+now has a complete indexed official VBPL print view and exact DOC attachment
+URL, but live retrieval still times out. Preserve its official 2005-07-07 issue
+and 2005-07-30 effective dates alongside the earlier NSO registry date; archive
+the official bytes before closing it. Resolution
+`469/NQ-UBTVQH15@2022-04-10` likewise has an exact official registry and PDF
+lead whose legacy file server resets live retrieval attempts. The next bounded
+review target is Decree `85/2005/NĐ-CP@2005-07-22` (Núi Thành and Điện Bàn,
+Quảng Nam). Do **not** start Task 8 or promote secondary evidence to primary
+merely to close the count.
 
 Read the current [shutdown handoff](docs/journals/2026-08-30.01.ward-source-audit-handoff.md),
 the generated [open-instrument checklist](docs/ward-source-open-instruments.md),
@@ -120,6 +123,9 @@ and
 [`2026-08-29.17`](docs/journals/2026-08-29.17.ward-secondary-provenance-820.md).
 Resolution 469's official PDF lead and supplied-source review are recorded in
 [`2026-08-30.02`](docs/journals/2026-08-30.02.ward-secondary-provenance-469.md).
+Decree 84's official print/DOC leads, date discrepancy, and supplied-source
+review are recorded in
+[`2026-08-30.03`](docs/journals/2026-08-30.03.ward-secondary-provenance-84.md).
 The later graph-building slice remains gated: only after Task 7 passes should
 the observations and resolved events be promoted into canonical ward entities
 and `LineageEdge` records. Do not emit or upload ward Wikidata statements yet.

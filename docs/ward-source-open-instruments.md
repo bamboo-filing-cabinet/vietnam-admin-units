@@ -26,9 +26,12 @@ TVPL links are included only to confirm identity and title. TVPL pages, search s
   - Current evidence: secondary identity reference only.
   - Identity reference only: <https://thuvienphapluat.vn/van-ban/Bat-dong-san/Nghi-dinh-84-2005-ND-CP-thanh-lap-xa-thuoc-huyen-Ninh-Hai-Thuan-Bac-tinh-Ninh-Thuan-9280.aspx>
   - Official lead (not yet archived): <https://vbpl.vn/bonoivu/Pages/vbpq-toanvan.aspx?ItemID=18009>
+  - Official lead (not yet archived): <https://vbpl.vn/bonoivu/Pages/vbpq-print.aspx?ItemID=18009>
   - Official lead (not yet archived): <https://vbpl.moj.gov.vn/bonoivu/Pages/vbpq-toanvan.aspx?ItemID=18009>
+  - Official attachment lead (not yet archived): <https://vbpl.vn/TW/Lists/vbpq/Attachments/18009/84.2005.ND.CP.doc>
   - Expected original attachment: `84.2005.ND.CP.doc`
-  - Retrieval note: The current vbpl.vn host presents an automated-access challenge; the legacy Ministry of Justice hostname did not resolve during the audit. A browser-saved full page and downloaded DOC are still needed.
+  - Date discrepancy to preserve: registry effective 2005-07-22; official issue 2005-07-07; official effective 2005-07-30.
+  - Retrieval note: Preserve the registry/official date discrepancy. The public index renders the complete official print text and exact DOC URL, but direct command-line and normal-browser retrieval timed out during review; the legacy Ministry of Justice hostname also did not resolve. Save the official page and original DOC when the service is reachable, then verify both offline before closing the source gate.
 - [ ] **Change-bearing** `85/2005/NĐ-CP@2005-07-22` — Thành lập xã thuộc huyện Núi Thành và Điện Bàn, tỉnh Quảng Nam
   - Current evidence: no source URL recorded.
   - Official lead (not yet archived): <https://vbpl.vn/bonoivu/Pages/vbpq-toanvan.aspx?ItemID=17899>

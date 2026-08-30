@@ -1,18 +1,27 @@
 {
-  "as_of": "2026-08-28",
+  "as_of": "2026-08-30",
   "leads": [
     {
-      "access_status": "official_page_indexed_raw_retrieval_blocked",
+      "access_status": "official_full_text_and_attachment_indexed_raw_retrieval_blocked",
+      "date_discrepancy": {
+        "official_effective_date": "2005-07-30",
+        "official_issue_date": "2005-07-07",
+        "registry_effective_date": "2005-07-22"
+      },
       "expected_attachment_names": [
         "84.2005.ND.CP.doc"
       ],
       "instrument_id": "84/2005-NĐ-CP@2005-07-22",
-      "lead_basis": "The indexed official full-text record matches the decree code and title and exposes the original DOC filename.",
+      "lead_basis": "The indexed official print view contains the complete enacted text for Decree 84/2005/NĐ-CP, and the official record exposes the original DOC attachment.",
+      "official_attachment_urls": [
+        "https://vbpl.vn/TW/Lists/vbpq/Attachments/18009/84.2005.ND.CP.doc"
+      ],
       "official_page_urls": [
         "https://vbpl.vn/bonoivu/Pages/vbpq-toanvan.aspx?ItemID=18009",
+        "https://vbpl.vn/bonoivu/Pages/vbpq-print.aspx?ItemID=18009",
         "https://vbpl.moj.gov.vn/bonoivu/Pages/vbpq-toanvan.aspx?ItemID=18009"
       ],
-      "retrieval_notes": "The current vbpl.vn host presents an automated-access challenge; the legacy Ministry of Justice hostname did not resolve during the audit. A browser-saved full page and downloaded DOC are still needed."
+      "retrieval_notes": "Preserve the registry/official date discrepancy. The public index renders the complete official print text and exact DOC URL, but direct command-line and normal-browser retrieval timed out during review; the legacy Ministry of Justice hostname also did not resolve. Save the official page and original DOC when the service is reachable, then verify both offline before closing the source gate."
     },
     {
       "access_status": "official_page_indexed_raw_retrieval_blocked",

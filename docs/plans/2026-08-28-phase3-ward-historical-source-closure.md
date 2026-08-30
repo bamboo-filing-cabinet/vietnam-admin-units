@@ -43,9 +43,13 @@ re-scrape it.
 > **Task 7 in progress (2026-08-30).** Official recovery and one-at-a-time
 > secondary reviews now leave 35 primary-source-open instruments: 16 `missing`
 > and 19 `secondary_only`; 33 are change-bearing. Official coverage is 414/449.
-> Resolution `469/NQ-UBTVQH15@2022-04-10` now has an exact official Thái
-> Nguyên Social Insurance registry and PDF lead, but the legacy file server
-> reset live retrieval attempts (`2026-08-30.02`). Do not start Task 8.
+> Decree `84/2005-NĐ-CP@2005-07-22` now has a complete indexed official VBPL
+> print view and exact DOC URL, but the live endpoints timed out; its official
+> issue/effective dates differ from the earlier registry date
+> (`2026-08-30.03`). Resolution `469/NQ-UBTVQH15@2022-04-10` likewise has an
+> exact official registry and PDF lead whose legacy server reset live retrieval
+> attempts (`2026-08-30.02`). Continue with Decree
+> `85/2005/NĐ-CP@2005-07-22`; do not start Task 8.
 
 ## Outcome
 
