@@ -93,6 +93,22 @@ def _curated_government_portal_html():
     """.encode()
 
 
+def _provincial_archive_html():
+    return """
+      <html><body>
+        <p>Năm 2015, phường Yên Bình được thành lập thuộc thị xã Tam Điệp,
+          thị xã Tam Điệp lên thành phố Tam Điệp theo Nghị quyết số
+          904/NQ-UBTVQH13 ngày 10/4/2015 của Ủy ban Thường vụ Quốc hội khóa XIII.</p>
+        <p>
+          <img src="https://luutru.ninhbinh.gov.vn/uploads/TamDiep/
+            6-_NQ_904-NQ-UBTVQH13_(HSNT_2015_026_002)_Page1.png" />
+          <img src="https://luutru.ninhbinh.gov.vn/uploads/TamDiep/
+            6-2_NQ_904-NQ-UBTVQH13_(HSNT_2015_026_002)_Page2.png" />
+        </p>
+      </body></html>
+    """.replace("/\n            ", "/").encode()
+
+
 def _gazette_detail_html():
     return """
       <html><body>
@@ -225,6 +241,83 @@ def test_curated_government_portal_recovery_preserves_index_and_rendered_date_an
         "differs_from_official_issue_date"
     )
     assert len(recovered["attachments"]) == 2
+
+
+def test_provincial_archive_recovery_preserves_complete_signed_scan(
+        tmp_path, monkeypatch):
+    monkeypatch.setattr(rawcache, "RAW", tmp_path / "raw")
+    monkeypatch.setattr(rawcache, "MANIFEST", tmp_path / "raw" / "manifest.jsonl")
+    instrument_id = "904/NQ-UBTVQH13@2015-04-11"
+    source_url = (
+        "https://luutru.ninhbinh.gov.vn/gioi-thieu-tai-lieu-luu-tru/"
+        "lich-su-dia-gioi-hanh-chinh-thanh-pho-tam-diep-qua-tai-lieu-luu-tru-213.html"
+    )
+    item = {
+        "instrument_id": instrument_id,
+        "code": "904/NQ-UBTVQH13",
+        "effective_date": "2015-04-11",
+        "title_variants": [
+            "thành lập phường Yên Bình thuộc thị xã Tam Điệp và thành lập "
+            "thành phố Tam Điệp, tỉnh Ninh Bình"
+        ],
+        "discovery_status": "official_not_found",
+        "metadata_url": "",
+        "metadata_path": "legal/ward/2015-04-11/904-nq-ubtvqh13.metadata.html",
+        "attachments": [],
+        "secondary_urls": [],
+    }
+    registry_path = tmp_path / "registry.json"
+    registry_path.write_text(
+        json.dumps({"instruments": [item]}), encoding="utf-8",
+    )
+    source = {
+        "source_url": source_url,
+        "archive_id": "HSNT_2015_026_002",
+        "official_effective_date": "2015-04-10",
+    }
+    monkeypatch.setattr(
+        fetcher, "PROVINCIAL_HISTORICAL_ARCHIVE_PAGES", {instrument_id: source},
+    )
+
+    detail = fetcher.parse_provincial_historical_archive(
+        _provincial_archive_html(),
+        source_url,
+        code=item["code"],
+        archive_id=source["archive_id"],
+    )
+    assert detail["issued_date"] == "2015-04-10"
+    assert detail["archive_id"] == "HSNT_2015_026_002"
+    assert [url.rsplit("/", 1)[-1] for url in detail["attachment_urls"]] == [
+        "6-_NQ_904-NQ-UBTVQH13_(HSNT_2015_026_002)_Page1.png",
+        "6-2_NQ_904-NQ-UBTVQH13_(HSNT_2015_026_002)_Page2.png",
+    ]
+    assert fetcher._validate_candidate(item, detail) > 0.65
+
+    registry = fetcher.recover_registry_from_provincial_archive(
+        path=registry_path,
+        session=FakeSession([_provincial_archive_html()]),
+    )
+    recovered = registry["instruments"][0]
+    assert recovered["source_provider"] == "provincial_historical_archive"
+    assert recovered["official_effective_date"] == "2015-04-10"
+    assert recovered["effective_date_match_status"] == "index_effective_date_differs"
+    assert recovered["effective_gap_days"] == 1
+    assert recovered["date_match_status"] == "plausible_effective_lag"
+    assert [row["media_type"] for row in recovered["attachments"]] == ["png", "png"]
+
+    png = b"\x89PNG\r\n\x1a\n" + b"scan" * 30
+    results = fetcher.fetch_registry(
+        registry_path=registry_path,
+        session=FakeSession([_provincial_archive_html(), png, png]),
+    )
+    assert results[0]["metadata_status"] == "fetched"
+    assert results[0]["attachment_statuses"] == ["fetched", "fetched"]
+    metadata_entry = rawcache.manifest_entry(recovered["metadata_path"])
+    assert metadata_entry["source_role"] == "legal_archive_index"
+    assert metadata_entry["archive_id"] == "HSNT_2015_026_002"
+    scan_entry = rawcache.manifest_entry(recovered["attachments"][0]["path"])
+    assert scan_entry["source_role"] == "legal_original_scan"
+    assert scan_entry["detected_media_type"] == "png"
 
 
 def test_gazette_parsers_retain_direct_publication_pdf_and_validate_metadata():
@@ -387,6 +480,9 @@ def test_attachment_validation_checks_real_file_signatures():
         "rtf",
         "legacy-mislabeled.rtf",
     ) == "doc"
+    assert fetcher._validate_attachment(
+        b"\x89PNG\r\n\x1a\n" + b"x" * 100, "png", "official-scan.png",
+    ) == "png"
     assert fetcher._validate_attachment(
         b'<html xmlns:w="urn:word"><body>' + b"x" * 100 + b"</body></html>",
         "doc",
@@ -565,5 +661,16 @@ def test_real_legal_index_includes_2026_acceptance_and_reuses_34_pairs():
                 "https://chinhphu.vn/default.aspx?pageid=27160&docid=90252"
             ),
             "official_effective_date": "2009-08-24",
+        },
+    }
+    assert fetcher.PROVINCIAL_HISTORICAL_ARCHIVE_PAGES == {
+        "904/NQ-UBTVQH13@2015-04-11": {
+            "source_url": (
+                "https://luutru.ninhbinh.gov.vn/gioi-thieu-tai-lieu-luu-tru/"
+                "lich-su-dia-gioi-hanh-chinh-thanh-pho-tam-diep-qua-tai-lieu-"
+                "luu-tru-213.html"
+            ),
+            "archive_id": "HSNT_2015_026_002",
+            "official_effective_date": "2015-04-10",
         },
     }

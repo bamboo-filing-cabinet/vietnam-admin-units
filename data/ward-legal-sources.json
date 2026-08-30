@@ -6131,16 +6131,36 @@
       ]
     },
     {
-      "attachments": [],
+      "archive_id": "HSNT_2015_026_002",
+      "attachments": [
+        {
+          "media_type": "png",
+          "path": "legal/ward/2015-04-11/904-nq-ubtvqh13.original-01.png",
+          "url": "https://luutru.ninhbinh.gov.vn/uploads/images/anh_bai_viet/Gi%E1%BB%9Bi_thi%E1%BB%87u_TLLT/TamDiep/6-_NQ_904-NQ-UBTVQH13_(HSNT_2015_026_002)_Page1.png"
+        },
+        {
+          "media_type": "png",
+          "path": "legal/ward/2015-04-11/904-nq-ubtvqh13.original-02.png",
+          "url": "https://luutru.ninhbinh.gov.vn/uploads/images/anh_bai_viet/Gi%E1%BB%9Bi_thi%E1%BB%87u_TLLT/TamDiep/6-2_NQ_904-NQ-UBTVQH13_(HSNT_2015_026_002)_Page2.png"
+        }
+      ],
       "code": "904/NQ-UBTVQH13",
-      "discovery_status": "official_not_found",
+      "code_match_status": "exact",
+      "date_match_status": "plausible_effective_lag",
+      "discovery_status": "verified_official_match",
       "effective_date": "2015-04-11",
+      "effective_date_match_status": "index_effective_date_differs",
+      "effective_gap_days": 1,
       "instrument_id": "904/NQ-UBTVQH13@2015-04-11",
+      "issued_date": "2015-04-10",
       "metadata_path": "legal/ward/2015-04-11/904-nq-ubtvqh13.metadata.html",
-      "metadata_url": "",
+      "metadata_url": "https://luutru.ninhbinh.gov.vn/gioi-thieu-tai-lieu-luu-tru/lich-su-dia-gioi-hanh-chinh-thanh-pho-tam-diep-qua-tai-lieu-luu-tru-213.html",
+      "official_code": "904/NQ-UBTVQH13",
+      "official_effective_date": "2015-04-10",
       "secondary_urls": [
         "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-904-NQ-UBTVQH13-2015-thanh-lap-phuong-Yen-Binh-thuoc-thi-xa-Tam-Diep-Ninh-Binh-499725.aspx"
       ],
+      "source_provider": "provincial_historical_archive",
       "title_variants": [
         "thành lập phường Yên Bình thuộc thị xã Tam Điệp và thành lập thành phố Tam Điệp, tỉnh Ninh Bình"
       ]
@@ -10608,15 +10628,15 @@
   "summary": {
     "index_date_anomalies": 2,
     "instruments": 449,
-    "official_attachments": 404,
+    "official_attachments": 406,
     "official_code_differences": 10,
-    "official_matches": 412,
-    "preserved_artifacts": 816,
+    "official_matches": 413,
+    "preserved_artifacts": 819,
     "secondary_tvpl_urls": 109,
     "status_counts": {
-      "official_not_found": 37,
+      "official_not_found": 36,
       "reused_existing_2025_pair": 34,
-      "verified_official_match": 378
+      "verified_official_match": 379
     }
   }
 }

@@ -141,6 +141,8 @@ def _source_class(entry: dict) -> str:
 def _media_type(path: str) -> str:
     if path.endswith(".pdf"):
         return "pdf"
+    if path.endswith((".png", ".jpg", ".jpeg")):
+        return "image"
     if path.endswith(".html") or path.endswith(".htm"):
         return "html"
     return "other"
@@ -873,8 +875,9 @@ def render_open_source_note(
             "The personal-search checkpoint at commit `89107d0` recorded **39 open "
             "instruments**, including **37 change-bearing instruments**. Resolution "
             "721/NQ-UBTVQH15 was subsequently recovered from the National Assembly, "
-            "and Resolution 39/NQ-CP from the Government legal portal. Later "
-            "recoveries, if any, are reflected in the live counts above."
+            "Resolution 39/NQ-CP from the Government legal portal, and Resolution "
+            "904/NQ-UBTVQH13 from the Ninh Bình Provincial Historical Archives. "
+            "Later recoveries, if any, are reflected in the live counts above."
         ),
         "",
         (

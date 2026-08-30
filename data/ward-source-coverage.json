@@ -14132,8 +14132,12 @@
               "effective_date_inside_observation_interval",
               "title_territory_or_named_unit"
             ],
-            "primary_source_paths": [],
-            "source_status": "secondary_only"
+            "primary_source_paths": [
+              "legal/ward/2015-04-11/904-nq-ubtvqh13.metadata.html",
+              "legal/ward/2015-04-11/904-nq-ubtvqh13.original-01.png",
+              "legal/ward/2015-04-11/904-nq-ubtvqh13.original-02.png"
+            ],
+            "source_status": "verified_official_artifact"
           }
         ]
       },
@@ -39171,9 +39175,9 @@
     "legal_linkage_overrides_path": "data/ward-legal-linkage-overrides.json",
     "legal_linkage_overrides_sha256": "c841b3dde6584196a5f273b7e6e65f129373f8bd1d51c14d9604a8dacc83872d",
     "legal_sources_path": "data/ward-legal-sources.json",
-    "legal_sources_sha256": "f30a2967b16bd43ab512f5c4650b3b3e86a42cc77e137aeb67a7700899147d92",
+    "legal_sources_sha256": "b49c9e886441c22e136233c3f685f5931195d4a74f998ba87d470c82f957e97e",
     "manifest_path": "data/raw/manifest.jsonl",
-    "manifest_sha256": "e25d12a73e73d841bf766b6120a49c3f00183843b8f6b4b43565a611fcb84bea",
+    "manifest_sha256": "ecce6c4d1f945461267701c50772e8157ecb3e22e56e39221cd4875e3b432db2",
     "observed_changes_path": "data/ward-observed-changes.json",
     "observed_changes_sha256": "91f441b73d9489c30e26e4a1c585600fcf435b0648a4f87ad4bc86aa9ca9d1df",
     "ward_2025_composition_path": "data/ward-2025-composition.json",
@@ -39703,19 +39707,19 @@
       },
       "path": "data/ward-legal-sources.json",
       "schema_version": 1,
-      "sha256": "f30a2967b16bd43ab512f5c4650b3b3e86a42cc77e137aeb67a7700899147d92",
+      "sha256": "b49c9e886441c22e136233c3f685f5931195d4a74f998ba87d470c82f957e97e",
       "summary": {
         "index_date_anomalies": 2,
         "instruments": 449,
-        "official_attachments": 404,
+        "official_attachments": 406,
         "official_code_differences": 10,
-        "official_matches": 412,
-        "preserved_artifacts": 816,
+        "official_matches": 413,
+        "preserved_artifacts": 819,
         "secondary_tvpl_urls": 109,
         "status_counts": {
-          "official_not_found": 37,
+          "official_not_found": 36,
           "reused_existing_2025_pair": 34,
-          "verified_official_match": 378
+          "verified_official_match": 379
         }
       }
     },
@@ -61291,7 +61295,44 @@
       "index_urls": [],
       "instrument_id": "904/NQ-UBTVQH13@2015-04-11",
       "observation_status": "topology_components_linked",
-      "primary_sources": [],
+      "primary_sources": [
+        {
+          "bytes": 40631,
+          "declared_media_type": "",
+          "detected_media_type": "",
+          "media_type": "html",
+          "method": "official provincial historical archive index HTML",
+          "path": "legal/ward/2015-04-11/904-nq-ubtvqh13.metadata.html",
+          "retrieved_at": "2026-08-30T01:43:36Z",
+          "sha256": "8088f0a538c2bfda5a1e25264bd16c2c71e8e61c0a6b1f9e87cafe22ecc0474a",
+          "source_class": "official",
+          "source_url": "https://luutru.ninhbinh.gov.vn/gioi-thieu-tai-lieu-luu-tru/lich-su-dia-gioi-hanh-chinh-thanh-pho-tam-diep-qua-tai-lieu-luu-tru-213.html"
+        },
+        {
+          "bytes": 505723,
+          "declared_media_type": "png",
+          "detected_media_type": "png",
+          "media_type": "image",
+          "method": "official provincial historical archive original scan",
+          "path": "legal/ward/2015-04-11/904-nq-ubtvqh13.original-01.png",
+          "retrieved_at": "2026-08-30T01:43:37Z",
+          "sha256": "a9a84382739f8ba6027997680d9086f72f9618a3b9cc63ebfb81cdf03e98d9de",
+          "source_class": "official",
+          "source_url": "https://luutru.ninhbinh.gov.vn/uploads/images/anh_bai_viet/Gi%E1%BB%9Bi_thi%E1%BB%87u_TLLT/TamDiep/6-_NQ_904-NQ-UBTVQH13_(HSNT_2015_026_002)_Page1.png"
+        },
+        {
+          "bytes": 189487,
+          "declared_media_type": "png",
+          "detected_media_type": "png",
+          "media_type": "image",
+          "method": "official provincial historical archive original scan",
+          "path": "legal/ward/2015-04-11/904-nq-ubtvqh13.original-02.png",
+          "retrieved_at": "2026-08-30T01:43:38Z",
+          "sha256": "100b9620195fe73a42df69b33a11d5ee0f6eb4ec86ad964790f290c50616da0d",
+          "source_class": "official",
+          "source_url": "https://luutru.ninhbinh.gov.vn/uploads/images/anh_bai_viet/Gi%E1%BB%9Bi_thi%E1%BB%87u_TLLT/TamDiep/6-2_NQ_904-NQ-UBTVQH13_(HSNT_2015_026_002)_Page2.png"
+        }
+      ],
       "review_status": "reviewed_title_and_source_scope",
       "secondary_sources": [
         {
@@ -61308,10 +61349,18 @@
         }
       ],
       "source_discovery": {
-        "discovery_status": "official_not_found",
-        "metadata_url": ""
+        "code_match_status": "exact",
+        "date_match_status": "plausible_effective_lag",
+        "discovery_status": "verified_official_match",
+        "effective_date_match_status": "index_effective_date_differs",
+        "effective_gap_days": 1,
+        "issued_date": "2015-04-10",
+        "metadata_url": "https://luutru.ninhbinh.gov.vn/gioi-thieu-tai-lieu-luu-tru/lich-su-dia-gioi-hanh-chinh-thanh-pho-tam-diep-qua-tai-lieu-luu-tru-213.html",
+        "official_code": "904/NQ-UBTVQH13",
+        "official_effective_date": "2015-04-10",
+        "source_provider": "provincial_historical_archive"
       },
-      "source_status": "secondary_only",
+      "source_status": "verified_official_artifact",
       "title_variants": [
         "thành lập phường Yên Bình thuộc thị xã Tam Điệp và thành lập thành phố Tam Điệp, tỉnh Ninh Bình"
       ]
@@ -72971,7 +73020,6 @@
       "891/NQ-UBTVQH13@2015-03-12",
       "892/NQ-UBTVQH13@2015-03-12",
       "903/NQ-NBTVQH13@2015-04-11",
-      "904/NQ-UBTVQH13@2015-04-11",
       "930/NQ-UBTVQH13@2015-05-16",
       "932/NQ-UBTVQH13@2015-05-16",
       "933/NQ-UBTVQH13@2015-05-16",
@@ -73045,7 +73093,6 @@
       "891/NQ-UBTVQH13@2015-03-12",
       "892/NQ-UBTVQH13@2015-03-12",
       "903/NQ-NBTVQH13@2015-04-11",
-      "904/NQ-UBTVQH13@2015-04-11",
       "930/NQ-UBTVQH13@2015-05-16",
       "932/NQ-UBTVQH13@2015-05-16",
       "933/NQ-UBTVQH13@2015-05-16",
@@ -73090,7 +73137,7 @@
     "verdict": "no_endpoint_state_difference_observed"
   },
   "summary": {
-    "change_bearing_source_open_instruments": 35,
+    "change_bearing_source_open_instruments": 34,
     "classified_instruments": 449,
     "classified_legal_index_rows": 453,
     "component_assignment_counts": {
@@ -73123,9 +73170,9 @@
     },
     "legal_index_records": 544,
     "observed_change_intervals": 179,
-    "official_source_matches": 412,
-    "official_source_not_found": 37,
-    "primary_source_open_instruments": 37,
+    "official_source_matches": 413,
+    "official_source_not_found": 36,
+    "primary_source_open_instruments": 36,
     "reviewed_event_statuses": {
       "explicitly_classified_non_legal_transition": 1,
       "legal_context_classified": 16,

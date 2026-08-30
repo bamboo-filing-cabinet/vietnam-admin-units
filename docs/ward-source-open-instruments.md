@@ -2,13 +2,13 @@
 
 Generated from `data/ward-source-coverage.json` by `vn_admin_units.ward_source_coverage --open-note`.
 
-Current audit: **37 primary-source-open instruments**; **35 are tied to observed ward changes**.
+Current audit: **36 primary-source-open instruments**; **34 are tied to observed ward changes**.
 
 ## Queue history
 
-The personal-search checkpoint at commit `89107d0` recorded **39 open instruments**, including **37 change-bearing instruments**. Resolution 721/NQ-UBTVQH15 was subsequently recovered from the National Assembly, and Resolution 39/NQ-CP from the Government legal portal. Later recoveries, if any, are reflected in the live counts above.
+The personal-search checkpoint at commit `89107d0` recorded **39 open instruments**, including **37 change-bearing instruments**. Resolution 721/NQ-UBTVQH15 was subsequently recovered from the National Assembly, Resolution 39/NQ-CP from the Government legal portal, and Resolution 904/NQ-UBTVQH13 from the Ninh Bình Provincial Historical Archives. Later recoveries, if any, are reflected in the live counts above.
 
-Exact official-page leads are recorded below for **18 of the 37 current items**. These links are leads only: none count as recovered provenance until the full official page or original attachment is saved, hashed, registered, and verified offline.
+Exact official-page leads are recorded below for **18 of the 36 current items**. These links are leads only: none count as recovered provenance until the full official page or original attachment is saved, hashed, registered, and verified offline.
 
 ## What counts as a useful find
 
@@ -165,9 +165,6 @@ TVPL links are included only to confirm identity and title. TVPL pages, search s
 - [ ] **Change-bearing** `903/NQ-NBTVQH13@2015-04-11` — Điều chỉnh địa giới hành chính huyện Kỳ Anh để thành lập thị xã Kỳ Anh và 06 phường thuộc thị xã Kỳ Anh, tỉnh Hà Tĩnh
   - Current evidence: secondary identity reference only.
   - Identity reference only: <https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-903-NQ-UBTVQH13-dieu-chinh-dia-gioi-hanh-chinh-huyen-Ky-Anh-Ha-Tinh-2015-293976.aspx>
-- [ ] **Change-bearing** `904/NQ-UBTVQH13@2015-04-11` — thành lập phường Yên Bình thuộc thị xã Tam Điệp và thành lập thành phố Tam Điệp, tỉnh Ninh Bình
-  - Current evidence: secondary identity reference only.
-  - Identity reference only: <https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-904-NQ-UBTVQH13-2015-thanh-lap-phuong-Yen-Binh-thuoc-thi-xa-Tam-Diep-Ninh-Binh-499725.aspx>
 - [ ] **Change-bearing** `930/NQ-UBTVQH13@2015-05-16` — thành lập thị xã Giá Rai và 03 phường thuộc thị xã Giá Rai, tỉnh Bạc Liêu
   - Current evidence: no source URL recorded.
 - [ ] **Change-bearing** `932/NQ-UBTVQH13@2015-05-16` — thành lập thị xã Phổ Yên và 04 phường thuộc thị xã Phổ Yên, điều chỉnh địa giới hành chính thành phố Thái Nguyên để thành lập phường Lương Sơn thuộc thị xã Sông Công và thành lập phường Lương Sơn thuộc thị xã Sông Công và thành lập thành phố Sông Công, tỉnh Thái Nguyên
