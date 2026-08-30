@@ -2,7 +2,7 @@
   "input_fingerprints": {
     "data/decree-urls.json": "7046a0d47c3e78114ba3dd10c1d77671ae76d32b62f4ae66b794487193676b0c",
     "data/raw/nghidinh.json": "2d141ae52886f78bf476defe6f8275ea31a910d3c1f65288a1e8b067924756fb",
-    "data/ward-legal-secondary-urls.json": "a8d4e0e42e0da59933f2d34c2012cd1b9bb17050e89a56693b7c47f9fcd5f194"
+    "data/ward-legal-secondary-urls.json": "6c74db1b12ab841861c505723209dd86a37b864e714392f8c47dc6cd58cf6519"
   },
   "instruments": [
     {
@@ -6255,7 +6255,9 @@
       "instrument_id": "422/NQ-UBTVQH14@2017-08-18",
       "metadata_path": "legal/ward/2017-08-18/422-nq-ubtvqh14.metadata.html",
       "metadata_url": "",
-      "secondary_urls": [],
+      "secondary_urls": [
+        "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-422-NQ-UBTVQH14-2017-dieu-chinh-mo-rong-dia-gioi-hanh-chinh-thanh-pho-Thai-Nguyen-373365.aspx"
+      ],
       "title_variants": [
         "Điều chỉnh mở rộng địa giới hành chính thành phố Thái Nguyên và thành lập 02 phường thuộc thành phố Thái Nguyên, tỉnh Thái Nguyên"
       ]
@@ -10632,7 +10634,7 @@
     "official_code_differences": 10,
     "official_matches": 413,
     "preserved_artifacts": 819,
-    "secondary_tvpl_urls": 109,
+    "secondary_tvpl_urls": 110,
     "status_counts": {
       "official_not_found": 36,
       "reused_existing_2025_pair": 34,

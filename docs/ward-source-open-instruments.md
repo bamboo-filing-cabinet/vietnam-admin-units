@@ -183,7 +183,8 @@ TVPL links are included only to confirm identity and title. TVPL pages, search s
 - [ ] **Change-bearing** `368/NQ-UBTVQH14@2017-04-19` — Thành lập các phường Quảng Cư, Quảng Châu, Quảng Thọ, Quảng Vinh thuộc thị xã Sầm Sơn và thành phố Sầm Sơn, tỉnh Thanh Hóa
   - Current evidence: no source URL recorded.
 - [ ] **Change-bearing** `422/NQ-UBTVQH14@2017-08-18` — Điều chỉnh mở rộng địa giới hành chính thành phố Thái Nguyên và thành lập 02 phường thuộc thành phố Thái Nguyên, tỉnh Thái Nguyên
-  - Current evidence: no source URL recorded.
+  - Current evidence: secondary identity reference only.
+  - Identity reference only: <https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-422-NQ-UBTVQH14-2017-dieu-chinh-mo-rong-dia-gioi-hanh-chinh-thanh-pho-Thai-Nguyen-373365.aspx>
 - [ ] **Change-bearing** `460/NQ-UBTVQH14@2017-12-13` — Thành lập thị trấn Ninh Cường thuộc huyện Trực Ninh, tỉnh Nam Định
   - Current evidence: no source URL recorded.
 
