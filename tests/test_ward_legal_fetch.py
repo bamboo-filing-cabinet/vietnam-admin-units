@@ -74,6 +74,25 @@ def _detail_html():
     """.encode()
 
 
+def _curated_government_portal_html():
+    return """
+      <html><body><table>
+        <tr><td>Số ký hiệu</td><td>39/NQ-CP</td></tr>
+        <tr><td>Ngày ban hành</td><td>24-08-2009</td></tr>
+        <tr><td>Trích yếu</td><td>Về việc điều chỉnh địa giới hành chính xã,
+          thành lập thị trấn Cửa Tùng thuộc huyện Vĩnh Linh, tỉnh Quảng Trị</td></tr>
+        <tr><td>Tài liệu đính kèm</td><td>
+          <a class="view-file"
+             href="https://datafiles.chinhphu.vn/cpp/files/vbpq/2009/08/93875_nq39cp2.doc">2</a>
+          <a class="view-file"
+             href="https://datafiles.chinhphu.vn/cpp/files/vbpq/2009/08/93874_nq39cp1.doc">1</a>
+        </td></tr>
+      </table>
+      <div>Hà Nội, ngày 27 tháng 8 năm 2009</div>
+      </body></html>
+    """.encode()
+
+
 def _gazette_detail_html():
     return """
       <html><body>
@@ -148,6 +167,64 @@ def test_search_and_detail_parsers_validate_the_2026_acceptance_case():
         "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/4/nq-237.pdf",
     ]
     assert fetcher._validate_candidate(_record(), detail) > 0.85
+
+
+def test_curated_government_portal_recovery_preserves_index_and_rendered_date_anomalies(
+        tmp_path, monkeypatch):
+    instrument_id = "39/NQ-CP@2009-08-15"
+    source_url = "https://chinhphu.vn/default.aspx?pageid=27160&docid=90252"
+    item = {
+        "instrument_id": instrument_id,
+        "code": "39/NQ-CP",
+        "effective_date": "2009-08-15",
+        "title_variants": [
+            "Điều chỉnh địa giới hành chính xã, thành lập thị trấn Cửa Tùng "
+            "thuộc huyện Vĩnh Linh, tỉnh Quảng Trị"
+        ],
+        "discovery_status": "official_not_found",
+        "metadata_url": "",
+        "metadata_path": "legal/ward/2009-08-15/39-nq-cp.metadata.html",
+        "attachments": [],
+        "secondary_urls": [],
+    }
+    registry_path = tmp_path / "registry.json"
+    registry_path.write_text(
+        json.dumps({"instruments": [item]}), encoding="utf-8",
+    )
+    monkeypatch.setattr(fetcher, "CURATED_GOVERNMENT_LEGAL_PAGES", {
+        instrument_id: {
+            "source_url": source_url,
+            "official_effective_date": "2009-08-24",
+        },
+    })
+
+    detail = fetcher.parse_official_detail(
+        _curated_government_portal_html(), source_url,
+    )
+    with pytest.raises(ValueError, match="dates are inconsistent"):
+        fetcher._validate_candidate(item, detail)
+    assert fetcher._validate_candidate(
+        item, detail, allow_index_date_precedes_issue=True,
+    ) > 0.85
+
+    registry = fetcher.recover_registry_from_government_portal(
+        path=registry_path,
+        session=FakeSession([_curated_government_portal_html()]),
+    )
+
+    recovered = registry["instruments"][0]
+    assert recovered["discovery_status"] == "verified_official_match"
+    assert recovered["source_provider"] == "government_legal_portal"
+    assert recovered["issued_date"] == "2009-08-24"
+    assert recovered["official_effective_date"] == "2009-08-24"
+    assert recovered["effective_gap_days"] == -9
+    assert recovered["date_match_status"] == "index_date_precedes_official_issue"
+    assert recovered["effective_date_match_status"] == "index_effective_date_differs"
+    assert recovered["rendered_full_text_date"] == "2009-08-27"
+    assert recovered["rendered_full_text_date_match_status"] == (
+        "differs_from_official_issue_date"
+    )
+    assert len(recovered["attachments"]) == 2
 
 
 def test_gazette_parsers_retain_direct_publication_pdf_and_validate_metadata():
@@ -481,4 +558,12 @@ def test_real_legal_index_includes_2026_acceptance_and_reuses_34_pairs():
     assert set(fetcher.NATIONAL_ASSEMBLY_FULL_TEXT) == {
         f"{number}/NQ-UBTVQH15@2023-04-10"
         for number in (721, 722, 723, 724, 726, 727, 728, 729, 730)
+    }
+    assert fetcher.CURATED_GOVERNMENT_LEGAL_PAGES == {
+        "39/NQ-CP@2009-08-15": {
+            "source_url": (
+                "https://chinhphu.vn/default.aspx?pageid=27160&docid=90252"
+            ),
+            "official_effective_date": "2009-08-24",
+        },
     }

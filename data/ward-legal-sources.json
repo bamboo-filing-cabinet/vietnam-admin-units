@@ -4292,14 +4292,35 @@
       ]
     },
     {
-      "attachments": [],
+      "attachments": [
+        {
+          "media_type": "doc",
+          "path": "legal/ward/2009-08-15/39-nq-cp.original-01.doc",
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2009/08/93875_nq39cp2.doc"
+        },
+        {
+          "media_type": "doc",
+          "path": "legal/ward/2009-08-15/39-nq-cp.original-02.doc",
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2009/08/93874_nq39cp1.doc"
+        }
+      ],
       "code": "39/NQ-CP",
-      "discovery_status": "official_not_found",
+      "code_match_status": "exact",
+      "date_match_status": "index_date_precedes_official_issue",
+      "discovery_status": "verified_official_match",
       "effective_date": "2009-08-15",
+      "effective_date_match_status": "index_effective_date_differs",
+      "effective_gap_days": -9,
       "instrument_id": "39/NQ-CP@2009-08-15",
+      "issued_date": "2009-08-24",
       "metadata_path": "legal/ward/2009-08-15/39-nq-cp.metadata.html",
-      "metadata_url": "",
+      "metadata_url": "https://chinhphu.vn/default.aspx?pageid=27160&docid=90252",
+      "official_code": "39/NQ-CP",
+      "official_effective_date": "2009-08-24",
+      "rendered_full_text_date": "2009-08-27",
+      "rendered_full_text_date_match_status": "differs_from_official_issue_date",
       "secondary_urls": [],
+      "source_provider": "government_legal_portal",
       "title_variants": [
         "Điều chỉnh địa giới hành chính xã, thành lập thị trấn Cửa Tùng thuộc huyện Vĩnh Linh, tỉnh Quảng Trị"
       ]
@@ -10585,17 +10606,17 @@
     "secondary_thuvienphapluat"
   ],
   "summary": {
-    "index_date_anomalies": 1,
+    "index_date_anomalies": 2,
     "instruments": 449,
-    "official_attachments": 402,
+    "official_attachments": 404,
     "official_code_differences": 10,
-    "official_matches": 411,
-    "preserved_artifacts": 813,
+    "official_matches": 412,
+    "preserved_artifacts": 816,
     "secondary_tvpl_urls": 109,
     "status_counts": {
-      "official_not_found": 38,
+      "official_not_found": 37,
       "reused_existing_2025_pair": 34,
-      "verified_official_match": 377
+      "verified_official_match": 378
     }
   }
 }

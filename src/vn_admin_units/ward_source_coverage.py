@@ -873,7 +873,8 @@ def render_open_source_note(
             "The personal-search checkpoint at commit `89107d0` recorded **39 open "
             "instruments**, including **37 change-bearing instruments**. Resolution "
             "721/NQ-UBTVQH15 was subsequently recovered from the National Assembly, "
-            "leaving the current 38/36 queue above."
+            "and Resolution 39/NQ-CP from the Government legal portal. Later "
+            "recoveries, if any, are reflected in the live counts above."
         ),
         "",
         (

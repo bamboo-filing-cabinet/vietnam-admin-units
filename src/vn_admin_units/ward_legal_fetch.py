@@ -12,6 +12,7 @@ artifacts use paths derived from normalized effective date + instrument code.
 Usage:
   uv run python -m vn_admin_units.ward_legal_fetch --discover
   uv run python -m vn_admin_units.ward_legal_fetch --gazette-recover
+  uv run python -m vn_admin_units.ward_legal_fetch --portal-recover
   uv run python -m vn_admin_units.ward_legal_fetch --assembly-recover
   uv run python -m vn_admin_units.ward_legal_fetch --fetch-supplemental
   uv run python -m vn_admin_units.ward_legal_fetch --fetch
@@ -81,6 +82,12 @@ NATIONAL_ASSEMBLY_FULL_TEXT = {
     "730/NQ-UBTVQH15@2023-04-10": (
         "https://quochoi.vn/tintuc/Pages/tin-hoat-dong-cua-quoc-hoi.aspx?ItemID=73343"
     ),
+}
+CURATED_GOVERNMENT_LEGAL_PAGES = {
+    "39/NQ-CP@2009-08-15": {
+        "source_url": "https://chinhphu.vn/default.aspx?pageid=27160&docid=90252",
+        "official_effective_date": "2009-08-24",
+    },
 }
 EXPECTED_INSTRUMENTS = 449
 EXPECTED_REUSED_2025 = 34
@@ -289,12 +296,23 @@ def parse_official_detail(content: bytes, source_url: str) -> dict:
             urljoin(source_url, value)
             for value in document.xpath('//a[@download and contains(@href,"/files/vbpq/")]/@href')
         ]
-    return {
+    result = {
         "code": normalize_code(fields["so ky hieu"]),
         "issued_date": normalize_issue_date(fields["ngay ban hanh"]),
         "title": fields["trich yeu"],
         "attachment_urls": list(dict.fromkeys(attachments)),
     }
+    page_text = _fold_text(" ".join(document.xpath("//body//text()")))
+    rendered_date = re.search(
+        r"\bha noi ngay (\d{1,2}) thang (\d{1,2}) nam (\d{4})\b",
+        page_text,
+    )
+    if rendered_date is not None:
+        day, month, year = rendered_date.groups()
+        result["rendered_full_text_date"] = date(
+            int(year), int(month), int(day)
+        ).isoformat()
+    return result
 
 
 def _title_similarity(expected: list[str], actual: str) -> float:
@@ -305,8 +323,17 @@ def _title_similarity(expected: list[str], actual: str) -> float:
     )
 
 
+def _date_match_status(effective_gap_days: int) -> str:
+    if effective_gap_days < 0:
+        return "index_date_precedes_official_issue"
+    if effective_gap_days <= 366:
+        return "plausible_effective_lag"
+    return "index_date_anomaly"
+
+
 def _validate_candidate(record: dict, candidate: dict, *,
-                        allow_code_mismatch: bool = False) -> float:
+                        allow_code_mismatch: bool = False,
+                        allow_index_date_precedes_issue: bool = False) -> float:
     if candidate["code"] != record["code"] and not allow_code_mismatch:
         raise ValueError(
             f"official code mismatch: expected {record['code']}, got {candidate['code']}"
@@ -314,7 +341,9 @@ def _validate_candidate(record: dict, candidate: dict, *,
     issued = date.fromisoformat(candidate["issued_date"])
     effective = date.fromisoformat(record["effective_date"])
     delta = (effective - issued).days
-    if delta < 0 or delta > 730:
+    if delta < -730 or delta > 730 or (
+        delta < 0 and not allow_index_date_precedes_issue
+    ):
         raise ValueError(
             f"official issue/effective dates are inconsistent for {record['instrument_id']}: "
             f"issued {issued}, effective {effective}"
@@ -643,11 +672,7 @@ def discover_instrument(record: dict, *, search: PortalSearch,
             "code_match_status": candidate["code_match_status"],
             "issued_date": candidate["issued_date"],
             "effective_gap_days": effective_gap_days,
-            "date_match_status": (
-                "plausible_effective_lag"
-                if effective_gap_days <= 366
-                else "index_date_anomaly"
-            ),
+            "date_match_status": _date_match_status(effective_gap_days),
             "metadata_url": candidate["metadata_url"],
             "metadata_path": metadata_relpath(record["code"], record["effective_date"]),
             "attachments": [
@@ -740,11 +765,7 @@ def discover_gazette_instrument(record: dict, *, search: GazetteSearch,
             "code_match_status": code_match_status,
             "issued_date": candidate["issued_date"],
             "effective_gap_days": effective_gap_days,
-            "date_match_status": (
-                "plausible_effective_lag"
-                if effective_gap_days <= 366
-                else "index_date_anomaly"
-            ),
+            "date_match_status": _date_match_status(effective_gap_days),
             "metadata_url": candidate["metadata_url"],
             "metadata_path": metadata_relpath(record["code"], record["effective_date"]),
             "attachments": [
@@ -905,6 +926,83 @@ def recover_registry_from_gazette(*, path: Path = REGISTRY, workers: int = 4,
     return registry
 
 
+def recover_registry_from_government_portal(*, path: Path = REGISTRY,
+                                            timeout: int = 120,
+                                            session=None) -> dict:
+    """Validate curated enacted records from the official Government portal."""
+    registry = json.loads(path.read_text(encoding="utf-8"))
+    session = session or requests.Session()
+    by_id = {item["instrument_id"]: item for item in registry["instruments"]}
+    replacements = {}
+    for instrument_id, source in CURATED_GOVERNMENT_LEGAL_PAGES.items():
+        item = by_id.get(instrument_id)
+        if item is None:
+            raise ValueError(f"curated Government source is outside the index: {instrument_id}")
+        if item["discovery_status"] != "official_not_found":
+            continue
+        source_url = source["source_url"]
+        response = _get(session, source_url, timeout=timeout)
+        detail = parse_official_detail(response.content, source_url)
+        _validate_candidate(
+            item,
+            detail,
+            allow_index_date_precedes_issue=True,
+        )
+        _require_official_url(source_url)
+        for url in detail["attachment_urls"]:
+            _require_official_url(url)
+        if not detail["attachment_urls"]:
+            raise ValueError(f"curated Government source has no original: {instrument_id}")
+        paths = attachment_relpaths(
+            item["code"], item["effective_date"], detail["attachment_urls"],
+        )
+        effective_gap_days = (
+            date.fromisoformat(item["effective_date"])
+            - date.fromisoformat(detail["issued_date"])
+        ).days
+        official_effective_date = source["official_effective_date"]
+        replacement = {
+            **item,
+            "discovery_status": "verified_official_match",
+            "source_provider": "government_legal_portal",
+            "official_code": detail["code"],
+            "code_match_status": "exact",
+            "issued_date": detail["issued_date"],
+            "official_effective_date": official_effective_date,
+            "effective_date_match_status": (
+                "exact"
+                if official_effective_date == item["effective_date"]
+                else "index_effective_date_differs"
+            ),
+            "effective_gap_days": effective_gap_days,
+            "date_match_status": _date_match_status(effective_gap_days),
+            "metadata_url": source_url,
+            "metadata_path": metadata_relpath(item["code"], item["effective_date"]),
+            "attachments": [
+                {"url": url, "path": path, "media_type": _attachment_extension(url)}
+                for url, path in zip(detail["attachment_urls"], paths, strict=True)
+            ],
+        }
+        rendered_date = detail.get("rendered_full_text_date")
+        if rendered_date is not None:
+            replacement["rendered_full_text_date"] = rendered_date
+            replacement["rendered_full_text_date_match_status"] = (
+                "exact"
+                if rendered_date == detail["issued_date"]
+                else "differs_from_official_issue_date"
+            )
+        replacements[instrument_id] = replacement
+        print(f"  {instrument_id}: Government legal page verified")
+
+    registry["instruments"] = [
+        replacements.get(item["instrument_id"], item)
+        for item in registry["instruments"]
+    ]
+    registry["summary"] = _registry_summary(registry["instruments"])
+    write_registry(registry, path)
+    return registry
+
+
 def recover_registry_from_national_assembly(*, path: Path = REGISTRY,
                                             timeout: int = 120,
                                             session=None) -> dict:
@@ -942,11 +1040,7 @@ def recover_registry_from_national_assembly(*, path: Path = REGISTRY,
             "code_match_status": "exact",
             "issued_date": detail["issued_date"],
             "effective_gap_days": effective_gap_days,
-            "date_match_status": (
-                "plausible_effective_lag"
-                if effective_gap_days <= 366
-                else "index_date_anomaly"
-            ),
+            "date_match_status": _date_match_status(effective_gap_days),
             "metadata_url": source_url,
             "metadata_path": source_path,
             "attachments": [],
@@ -1013,7 +1107,9 @@ def _registry_summary(instruments: list[dict]) -> dict:
             for item in instruments
         ),
         "index_date_anomalies": sum(
-            item.get("date_match_status") == "index_date_anomaly"
+            item.get("date_match_status") in {
+                "index_date_anomaly", "index_date_precedes_official_issue",
+            }
             for item in instruments
         ),
         "secondary_tvpl_urls": sum(len(item["secondary_urls"]) for item in instruments),
@@ -1039,7 +1135,7 @@ def normalize_registry_metadata(registry: dict) -> dict:
         item.setdefault("effective_gap_days", gap)
         item.setdefault(
             "date_match_status",
-            "plausible_effective_lag" if gap <= 366 else "index_date_anomaly",
+            _date_match_status(gap),
         )
     registry["summary"] = _registry_summary(registry["instruments"])
     registry["input_fingerprints"] = _input_fingerprints()
@@ -1164,7 +1260,14 @@ def fetch_registry(*, registry_path: Path = REGISTRY, timeout: int = 120,
             )
             candidate = {**detail, "metadata_url": item["metadata_url"]}
             validation_item = {**item, "code": item.get("official_code", item["code"])}
-            _validate_candidate(validation_item, candidate)
+            _validate_candidate(
+                validation_item,
+                candidate,
+                allow_index_date_precedes_issue=(
+                    item.get("date_match_status")
+                    == "index_date_precedes_official_issue"
+                ),
+            )
             expected_urls = [attachment["url"] for attachment in item["attachments"]]
             if detail["attachment_urls"] != expected_urls:
                 raise ValueError(
@@ -1181,6 +1284,16 @@ def fetch_registry(*, registry_path: Path = REGISTRY, timeout: int = 120,
                     f"official effective date drifted for {item['instrument_id']}: "
                     f"expected {item['official_effective_date']}, "
                     f"got {detail.get('official_effective_date')}"
+                )
+            if (
+                "rendered_full_text_date" in item
+                and detail.get("rendered_full_text_date")
+                != item["rendered_full_text_date"]
+            ):
+                raise ValueError(
+                    f"rendered full-text date drifted for {item['instrument_id']}: "
+                    f"expected {item['rendered_full_text_date']}, "
+                    f"got {detail.get('rendered_full_text_date')}"
                 )
             source_metadata = {
                 "source_url": item["metadata_url"],
@@ -1204,14 +1317,20 @@ def fetch_registry(*, registry_path: Path = REGISTRY, timeout: int = 120,
                 "attachment_urls": expected_urls,
                 "secondary_urls": item["secondary_urls"],
             }
-            if is_assembly:
-                official_effective_date = detail.get("official_effective_date")
-                source_metadata["official_effective_date"] = official_effective_date
-                source_metadata["effective_date_match_status"] = (
-                    "exact"
-                    if official_effective_date == item["effective_date"]
-                    else "index_effective_date_differs"
-                )
+            if "official_effective_date" in item:
+                source_metadata["official_effective_date"] = item[
+                    "official_effective_date"
+                ]
+                source_metadata["effective_date_match_status"] = item[
+                    "effective_date_match_status"
+                ]
+            if "rendered_full_text_date" in item:
+                source_metadata["rendered_full_text_date"] = item[
+                    "rendered_full_text_date"
+                ]
+                source_metadata["rendered_full_text_date_match_status"] = item[
+                    "rendered_full_text_date_match_status"
+                ]
             rawcache.save_raw(
                 item["metadata_path"], response.content, source_metadata,
             )
@@ -1226,7 +1345,7 @@ def fetch_registry(*, registry_path: Path = REGISTRY, timeout: int = 120,
             detected_media_type = _validate_attachment(
                 response.content, attachment["media_type"], attachment["url"],
             )
-            rawcache.save_raw(attachment["path"], response.content, {
+            attachment_metadata = {
                 "source_url": attachment["url"],
                 "source_class": "official",
                 "source_role": "legal_original_attachment",
@@ -1246,7 +1365,17 @@ def fetch_registry(*, registry_path: Path = REGISTRY, timeout: int = 120,
                 "secondary_urls": item["secondary_urls"],
                 "declared_media_type": attachment["media_type"],
                 "detected_media_type": detected_media_type,
-            })
+            }
+            if "official_effective_date" in item:
+                attachment_metadata["official_effective_date"] = item[
+                    "official_effective_date"
+                ]
+                attachment_metadata["effective_date_match_status"] = item[
+                    "effective_date_match_status"
+                ]
+            rawcache.save_raw(
+                attachment["path"], response.content, attachment_metadata,
+            )
             attachment_statuses.append("fetched")
         results.append({
             "instrument_id": item["instrument_id"],
@@ -1355,13 +1484,11 @@ def check_registry(path: Path = REGISTRY) -> dict:
             date.fromisoformat(item["effective_date"])
             - date.fromisoformat(item["issued_date"])
         ).days
-        expected_date_status = (
-            "plausible_effective_lag" if gap <= 366 else "index_date_anomaly"
-        )
+        expected_date_status = _date_match_status(gap)
         if (
             item["effective_gap_days"] != gap
             or item["date_match_status"] != expected_date_status
-            or gap < 0
+            or gap < -730
             or gap > 730
         ):
             raise ValueError(f"verified legal metadata is inconsistent: {item['instrument_id']}")
@@ -1385,6 +1512,20 @@ def check_registry(path: Path = REGISTRY) -> dict:
             if item.get("effective_date_match_status") != expected_effective_status:
                 raise ValueError(
                     f"official effective-date metadata is inconsistent: "
+                    f"{item['instrument_id']}"
+                )
+        if "rendered_full_text_date" in item:
+            expected_rendered_status = (
+                "exact"
+                if item["rendered_full_text_date"] == item["issued_date"]
+                else "differs_from_official_issue_date"
+            )
+            if (
+                item.get("rendered_full_text_date_match_status")
+                != expected_rendered_status
+            ):
+                raise ValueError(
+                    f"rendered full-text date metadata is inconsistent: "
                     f"{item['instrument_id']}"
                 )
         code_status_is_valid = (
@@ -1412,6 +1553,7 @@ def main(argv: list[str] | None = None) -> None:
     actions = parser.add_mutually_exclusive_group(required=True)
     actions.add_argument("--discover", action="store_true")
     actions.add_argument("--gazette-recover", action="store_true")
+    actions.add_argument("--portal-recover", action="store_true")
     actions.add_argument("--assembly-recover", action="store_true")
     actions.add_argument("--fetch-supplemental", action="store_true")
     actions.add_argument("--retry", action="store_true")
@@ -1430,6 +1572,11 @@ def main(argv: list[str] | None = None) -> None:
     elif args.gazette_recover:
         registry = recover_registry_from_gazette(
             path=args.registry, workers=args.workers, timeout=args.timeout,
+        )
+        print(f"updated {args.registry}: {registry['summary']}")
+    elif args.portal_recover:
+        registry = recover_registry_from_government_portal(
+            path=args.registry, timeout=args.timeout,
         )
         print(f"updated {args.registry}: {registry['summary']}")
     elif args.assembly_recover:

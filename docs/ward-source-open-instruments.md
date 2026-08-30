@@ -2,13 +2,13 @@
 
 Generated from `data/ward-source-coverage.json` by `vn_admin_units.ward_source_coverage --open-note`.
 
-Current audit: **38 primary-source-open instruments**; **36 are tied to observed ward changes**.
+Current audit: **37 primary-source-open instruments**; **35 are tied to observed ward changes**.
 
 ## Queue history
 
-The personal-search checkpoint at commit `89107d0` recorded **39 open instruments**, including **37 change-bearing instruments**. Resolution 721/NQ-UBTVQH15 was subsequently recovered from the National Assembly, leaving the current 38/36 queue above.
+The personal-search checkpoint at commit `89107d0` recorded **39 open instruments**, including **37 change-bearing instruments**. Resolution 721/NQ-UBTVQH15 was subsequently recovered from the National Assembly, and Resolution 39/NQ-CP from the Government legal portal. Later recoveries, if any, are reflected in the live counts above.
 
-Exact official-page leads are recorded below for **18 of the 38 current items**. These links are leads only: none count as recovered provenance until the full official page or original attachment is saved, hashed, registered, and verified offline.
+Exact official-page leads are recorded below for **18 of the 37 current items**. These links are leads only: none count as recovered provenance until the full official page or original attachment is saved, hashed, registered, and verified offline.
 
 ## What counts as a useful find
 
@@ -150,8 +150,6 @@ TVPL links are included only to confirm identity and title. TVPL pages, search s
   - Expected original attachment: `29.NQ-CP.zip`
   - Date discrepancy to preserve: registry effective 2009-06-30; official issue 2009-06-29; official effective 2009-06-29.
   - Retrieval note: Preserve the one-day registry discrepancy. Save the full page and original ZIP in a normal browser; do not substitute the unrelated 2013 Resolution 29/NQ-CP record.
-- [ ] **Change-bearing** `39/NQ-CP@2009-08-15` — Điều chỉnh địa giới hành chính xã, thành lập thị trấn Cửa Tùng thuộc huyện Vĩnh Linh, tỉnh Quảng Trị
-  - Current evidence: no source URL recorded.
 
 ### 2015
 
