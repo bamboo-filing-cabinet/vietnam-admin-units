@@ -98,9 +98,9 @@ classified, and linked with zero unclassified instruments or legally unlinked
 observed events.
 
 **Resume at Task 7: close the remaining official-source residue one instrument
-at a time.** The current audit is **414/449 official**, with **35
-primary-source-open instruments**: 15 `missing` and 20 `secondary_only`; **33
-are change-bearing**. The registry preserves 407 official attachments and 821
+at a time.** The current audit is **415/449 official**, with **34
+primary-source-open instruments**: 14 `missing` and 20 `secondary_only`; **32
+are change-bearing**. The registry preserves 408 official attachments and 823
 official artifacts. Decree `84/2005-NĐ-CP@2005-07-22` (Thuận Bắc, Ninh Thuận)
 now has a complete indexed official VBPL print view and exact DOC attachment
 URL, but live retrieval still times out. Preserve its official 2005-07-07 issue
@@ -115,8 +115,11 @@ history record, and exact DOC recovery path; its 2005-08-17 legal effective
 date differs from the earlier registry date. Decree
 `98/2005/NĐ-CP@2005-08-10` now has the same complete indexed print/DOC recovery
 path and preserved date discrepancy, plus a reconciled Tân Hiệp → Ngã Bảy name
-chain. The next bounded review target is Decree
-`28/2006/NDD-CP@2006-04-06` (Kon Tum). Do **not** start Task 8 or promote
+chain. Decree `28/2006/NDD-CP@2006-04-06` is now closed with archived
+Government metadata and its original Word attachment; the registry preserves
+the raw `NDD-CP` code and 2006-04-06 observation date beside official
+`NĐ-CP` and 2006-04-13 legal effectiveness. The next bounded review target is
+Decree `29/2006/NĐ-CP@2006-04-07` (Sơn La). Do **not** start Task 8 or promote
 secondary evidence to primary merely to close the count.
 
 Read the current [shutdown handoff](docs/journals/2026-08-30.01.ward-source-audit-handoff.md),
@@ -142,6 +145,9 @@ and supplied-source review are recorded in
 Decree 98's official recovery path, Tân Hiệp topology and date discrepancy,
 and supplied-source review are recorded in
 [`2026-08-30.06`](docs/journals/2026-08-30.06.ward-secondary-provenance-98.md).
+Decree 28's archived Government artifacts, code/date correction, and Hơ Moong
+topology are recorded in
+[`2026-08-30.07`](docs/journals/2026-08-30.07.ward-source-28-2006-nd-cp.md).
 The later graph-building slice remains gated: only after Task 7 passes should
 the observations and resolved events be promoted into canonical ward entities
 and `LineageEdge` records. Do not emit or upload ward Wikidata statements yet.

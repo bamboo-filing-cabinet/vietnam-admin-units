@@ -313,13 +313,16 @@ assemblies need non-GSO sources.
   source Tasks 1–6 are **DONE** (`2026-08-28.03`–`.08`): all 204 SOAP snapshots,
   39 crosswalks, 179 observed-change events, 453 candidate legal rows, and 449
   unique instruments are inventoried, classified, and linked. Task 7 remains
-  **OPEN** at 414/449 official, 35 primary-source-open instruments, and 33
-  change-bearing-open instruments; the registry preserves 407 official
-  attachments and 821 official artifacts. No secondary page is promoted to
+  **OPEN** at 415/449 official, 34 primary-source-open instruments, and 32
+  change-bearing-open instruments; the registry preserves 408 official
+  attachments and 823 official artifacts. No secondary page is promoted to
   authority. Resolution `469/NQ-UBTVQH15@2022-04-10` and Decrees 84, 85, 97,
   and 98 of 2005 now have exact official attachment recovery paths, but their
   bytes remain unarchived because the legacy endpoints reset or time out
-  (`2026-08-30.02`–`.06`). Full
+  (`2026-08-30.02`–`.06`). Decree `28/2006/NDD-CP@2006-04-06` is closed from
+  the Government portal with metadata and the original Word attachment; its
+  raw/official code and observation/effective-date differences are explicit
+  (`2026-08-30.07`). Full
   2002→present provenance is not yet closed. The next graph-building slice—
   promotion into canonical ward entities/`LineageEdge` records—remains gated
   behind Task 7, and Wikidata emission remains a later gate.

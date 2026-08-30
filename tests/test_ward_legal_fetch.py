@@ -93,6 +93,21 @@ def _curated_government_portal_html():
     """.encode()
 
 
+def _curated_government_code_correction_html():
+    return """
+      <html><body><table>
+        <tr><td>Số ký hiệu</td><td>28/2006/NĐ-CP</td></tr>
+        <tr><td>Ngày ban hành</td><td>22-03-2006</td></tr>
+        <tr><td>Trích yếu</td><td>Điều chỉnh địa giới hành chính xã Sa Nhơn,
+          thành lập xã Hơ Moong thuộc huyện Sa Thầy, tỉnh Kon Tum</td></tr>
+        <tr><td>Tài liệu đính kèm</td><td>
+          <a class="view-file"
+             href="https://datafiles.chinhphu.vn/cpp/files/vbpq/2006/07/15701_nd28cp.rtf">original</a>
+        </td></tr>
+      </table></body></html>
+    """.encode()
+
+
 def _provincial_archive_html():
     return """
       <html><body>
@@ -266,6 +281,90 @@ def test_curated_government_portal_recovery_preserves_index_and_rendered_date_an
         "differs_from_official_issue_date"
     )
     assert len(recovered["attachments"]) == 2
+
+
+def test_curated_government_portal_recovery_records_index_code_correction(
+        tmp_path, monkeypatch):
+    monkeypatch.setattr(rawcache, "RAW", tmp_path / "raw")
+    monkeypatch.setattr(rawcache, "MANIFEST", tmp_path / "raw" / "manifest.jsonl")
+    instrument_id = "28/2006/NDD-CP@2006-04-06"
+    source_url = (
+        "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=15188"
+    )
+    item = {
+        "instrument_id": instrument_id,
+        "code": "28/2006/NDD-CP",
+        "effective_date": "2006-04-06",
+        "title_variants": [
+            "điều chỉnh địa giới hành chính xã Sa Nhơn, thành lập xã Hơ Moong "
+            "thuộc huyện Sa Thầy, tỉnh Kon Tum"
+        ],
+        "discovery_status": "official_not_found",
+        "metadata_url": "",
+        "metadata_path": "legal/ward/2006-04-06/28-2006-ndd-cp.metadata.html",
+        "attachments": [],
+        "secondary_urls": [],
+    }
+    registry_path = tmp_path / "registry.json"
+    registry_path.write_text(
+        json.dumps({"instruments": [item]}), encoding="utf-8",
+    )
+    monkeypatch.setattr(fetcher, "CURATED_GOVERNMENT_LEGAL_PAGES", {
+        instrument_id: {
+            "source_url": source_url,
+            "official_code": "28/2006/NĐ-CP",
+            "official_effective_date": "2006-04-13",
+            "official_title": (
+                "Điều chỉnh địa giới hành chính xã Sa Nhơn, thành lập xã Hơ "
+                "Moong thuộc huyện Sa Thầy, tỉnh Kon Tum"
+            ),
+        },
+    })
+
+    registry = fetcher.recover_registry_from_government_portal(
+        path=registry_path,
+        session=FakeSession([_curated_government_code_correction_html()]),
+    )
+
+    recovered = registry["instruments"][0]
+    assert recovered["official_code"] == "28/2006/NĐ-CP"
+    assert recovered["code_match_status"] == "official_code_differs"
+    assert recovered["official_title"] == (
+        "Điều chỉnh địa giới hành chính xã Sa Nhơn, thành lập xã Hơ Moong "
+        "thuộc huyện Sa Thầy, tỉnh Kon Tum"
+    )
+    assert recovered["official_effective_date"] == "2006-04-13"
+    assert recovered["effective_date_match_status"] == (
+        "index_effective_date_differs"
+    )
+    assert recovered["effective_gap_days"] == 15
+    assert recovered["date_match_status"] == "plausible_effective_lag"
+    assert recovered["attachments"] == [{
+        "url": (
+            "https://datafiles.chinhphu.vn/cpp/files/vbpq/2006/07/"
+            "15701_nd28cp.rtf"
+        ),
+        "path": "legal/ward/2006-04-06/28-2006-ndd-cp.original.rtf",
+        "media_type": "rtf",
+    }]
+
+    ole_document = b"\xd0\xcf\x11\xe0\xa1\xb1\x1a\xe1" + b"word" * 30
+    results = fetcher.fetch_registry(
+        registry_path=registry_path,
+        session=FakeSession([
+            _curated_government_code_correction_html(), ole_document,
+        ]),
+    )
+    assert results[0]["metadata_status"] == "fetched"
+    assert results[0]["attachment_statuses"] == ["fetched"]
+    metadata_entry = rawcache.manifest_entry(recovered["metadata_path"])
+    assert metadata_entry["document_code"] == "28/2006/NDD-CP"
+    assert metadata_entry["official_document_code"] == "28/2006/NĐ-CP"
+    attachment_entry = rawcache.manifest_entry(
+        recovered["attachments"][0]["path"]
+    )
+    assert attachment_entry["declared_media_type"] == "rtf"
+    assert attachment_entry["detected_media_type"] == "doc"
 
 
 def test_provincial_archive_recovery_preserves_complete_signed_scan(
@@ -705,6 +804,12 @@ def test_real_legal_index_includes_2026_acceptance_and_reuses_34_pairs():
         "Nghi-dinh-85-2005-ND-CP-thanh-lap-xa-thuoc-huyen-Nui-Thanh-"
         "Dien-Ban-tinh-Quang-Nam-9281.aspx"
     ]
+    assert secondary["28/2006/NDD-CP"] == [
+        "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/"
+        "Nghi-dinh-28-2006-ND-CP-dieu-chinh-nhan-khau-xa-thuoc-huyen-"
+        "Sa-Thay-Dak-Ha-thi-xa-Kon-Tum-dieu-chinh-dia-gioi-hanh-chinh-"
+        "Sa-Nhon-Ho-Moong-Kon-Tum-10289.aspx"
+    ]
     assert set(fetcher.NATIONAL_ASSEMBLY_FULL_TEXT) == {
         "460/NQ-UBTVQH14@2017-12-13",
         *{
@@ -713,6 +818,19 @@ def test_real_legal_index_includes_2026_acceptance_and_reuses_34_pairs():
         },
     }
     assert fetcher.CURATED_GOVERNMENT_LEGAL_PAGES == {
+        "28/2006/NDD-CP@2006-04-06": {
+            "source_url": (
+                "https://vanban.chinhphu.vn/default.aspx?"
+                "pageid=27160&docid=15188"
+            ),
+            "official_code": "28/2006/NĐ-CP",
+            "official_effective_date": "2006-04-13",
+            "official_title": (
+                "Nghị định về việc điều chỉnh nhân khẩu một số xã thuộc các "
+                "huyện Sa Thầy, Đắk Hà và thị xã Kon Tum; điều chỉnh địa giới "
+                "hành chính xã Sa Nhơn, thành lập xã Hơ Moong..."
+            ),
+        },
         "39/NQ-CP@2009-08-15": {
             "source_url": (
                 "https://chinhphu.vn/default.aspx?pageid=27160&docid=90252"

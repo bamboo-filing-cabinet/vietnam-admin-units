@@ -88,6 +88,18 @@ NATIONAL_ASSEMBLY_FULL_TEXT = {
     ),
 }
 CURATED_GOVERNMENT_LEGAL_PAGES = {
+    "28/2006/NDD-CP@2006-04-06": {
+        "source_url": (
+            "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=15188"
+        ),
+        "official_code": "28/2006/NĐ-CP",
+        "official_effective_date": "2006-04-13",
+        "official_title": (
+            "Nghị định về việc điều chỉnh nhân khẩu một số xã thuộc các huyện "
+            "Sa Thầy, Đắk Hà và thị xã Kon Tum; điều chỉnh địa giới hành chính "
+            "xã Sa Nhơn, thành lập xã Hơ Moong..."
+        ),
+    },
     "39/NQ-CP@2009-08-15": {
         "source_url": "https://chinhphu.vn/default.aspx?pageid=27160&docid=90252",
         "official_effective_date": "2009-08-24",
@@ -1046,13 +1058,37 @@ def recover_registry_from_government_portal(*, path: Path = REGISTRY,
         item = by_id.get(instrument_id)
         if item is None:
             raise ValueError(f"curated Government source is outside the index: {instrument_id}")
-        if item["discovery_status"] != "official_not_found":
+        needs_title_refresh = (
+            source.get("official_title") is not None
+            and item.get("official_title") != source["official_title"]
+        )
+        if (
+            item["discovery_status"] != "official_not_found"
+            and not needs_title_refresh
+        ):
             continue
         source_url = source["source_url"]
         response = _get(session, source_url, timeout=timeout)
         detail = parse_official_detail(response.content, source_url)
+        expected_official_code = normalize_code(
+            source.get("official_code", item["code"])
+        )
+        if detail["code"] != expected_official_code:
+            raise ValueError(
+                f"curated Government source code drifted for {instrument_id}: "
+                f"expected {expected_official_code}, got {detail['code']}"
+            )
+        validation_item = {**item, "code": expected_official_code}
+        expected_official_title = source.get("official_title")
+        if expected_official_title is not None:
+            if _fold_text(detail["title"]) != _fold_text(expected_official_title):
+                raise ValueError(
+                    f"curated Government source title drifted for {instrument_id}: "
+                    f"expected {expected_official_title!r}, got {detail['title']!r}"
+                )
+            validation_item["title_variants"] = [expected_official_title]
         _validate_candidate(
-            item,
+            validation_item,
             detail,
             allow_index_date_precedes_issue=True,
         )
@@ -1074,7 +1110,10 @@ def recover_registry_from_government_portal(*, path: Path = REGISTRY,
             "discovery_status": "verified_official_match",
             "source_provider": "government_legal_portal",
             "official_code": detail["code"],
-            "code_match_status": "exact",
+            "code_match_status": (
+                "exact" if detail["code"] == item["code"]
+                else "official_code_differs"
+            ),
             "issued_date": detail["issued_date"],
             "official_effective_date": official_effective_date,
             "effective_date_match_status": (
@@ -1099,6 +1138,8 @@ def recover_registry_from_government_portal(*, path: Path = REGISTRY,
                 if rendered_date == detail["issued_date"]
                 else "differs_from_official_issue_date"
             )
+        if expected_official_title is not None:
+            replacement["official_title"] = expected_official_title
         replacements[instrument_id] = replacement
         print(f"  {instrument_id}: Government legal page verified")
 
@@ -1465,7 +1506,19 @@ def fetch_registry(*, registry_path: Path = REGISTRY, timeout: int = 120,
                 )
             )
             candidate = {**detail, "metadata_url": item["metadata_url"]}
-            validation_item = {**item, "code": item.get("official_code", item["code"])}
+            validation_item = {
+                **item,
+                "code": item.get("official_code", item["code"]),
+            }
+            if item.get("official_title") is not None:
+                if _fold_text(detail["title"]) != _fold_text(
+                    item["official_title"]
+                ):
+                    raise ValueError(
+                        f"official title drifted for {item['instrument_id']}: "
+                        f"expected {item['official_title']!r}, got {detail['title']!r}"
+                    )
+                validation_item["title_variants"] = [item["official_title"]]
             _validate_candidate(
                 validation_item,
                 candidate,

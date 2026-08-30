@@ -2,13 +2,13 @@
 
 Generated from `data/ward-source-coverage.json` by `vn_admin_units.ward_source_coverage --open-note`.
 
-Current audit: **35 primary-source-open instruments**; **33 are tied to observed ward changes**.
+Current audit: **34 primary-source-open instruments**; **32 are tied to observed ward changes**.
 
 ## Queue history
 
 The personal-search checkpoint at commit `89107d0` recorded **39 open instruments**, including **37 change-bearing instruments**. Resolution 721/NQ-UBTVQH15 was subsequently recovered from the National Assembly, Resolution 39/NQ-CP from the Government legal portal, and Resolution 904/NQ-UBTVQH13 from the Ninh Bình Provincial Historical Archives. Later recoveries, if any, are reflected in the live counts above.
 
-Exact official-page leads are recorded below for **19 of the 35 current items**. These links are leads only: none count as recovered provenance until the full official page or original attachment is saved, hashed, registered, and verified offline.
+Exact official-page leads are recorded below for **18 of the 34 current items**. These links are leads only: none count as recovered provenance until the full official page or original attachment is saved, hashed, registered, and verified offline.
 
 ## What counts as a useful find
 
@@ -67,12 +67,6 @@ TVPL links are included only to confirm identity and title. TVPL pages, search s
 
 ### 2006
 
-- [ ] **Change-bearing** `28/2006/NDD-CP@2006-04-06` — điều chỉnh địa giới hành chính xã Sa Nhơn, thành lập xã Hơ Moong thuộc huyện Sa Thầy, tỉnh Kon Tum
-  - Current evidence: no source URL recorded.
-  - Official lead (not yet archived): <https://vbpl.vn/bonoivu/Pages/vbpq-toanvan.aspx?ItemID=16488>
-  - Official lead (not yet archived): <https://vbpl.vn/bonoivu/Pages/vbpq-print.aspx?ItemID=16488&dvid=320>
-  - Date discrepancy to preserve: registry effective 2006-04-06; official issue 2006-03-22; official effective 2006-04-13.
-  - Retrieval note: Preserve the official issue/effective dates alongside the registry date. The official page is indexed, but direct retrieval timed out or encountered the vbpl.vn automated-access challenge; save the full page and any offered original attachment in a normal browser.
 - [ ] **Change-bearing** `29/2006/NĐ-CP@2006-04-07` — Thành lập phường thuộc thị xã Sơn La, tỉnh Sơn La
   - Current evidence: no source URL recorded.
   - Official lead (not yet archived): <https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=16493>

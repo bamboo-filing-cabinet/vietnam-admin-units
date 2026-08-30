@@ -41,8 +41,8 @@ re-scrape it.
 > zero legally unlinked observed events. See journal `2026-08-28.08`.
 >
 > **Task 7 in progress (2026-08-30).** Official recovery and one-at-a-time
-> secondary reviews now leave 35 primary-source-open instruments: 15 `missing`
-> and 20 `secondary_only`; 33 are change-bearing. Official coverage is 414/449.
+> secondary reviews now leave 34 primary-source-open instruments: 14 `missing`
+> and 20 `secondary_only`; 32 are change-bearing. Official coverage is 415/449.
 > Decree `84/2005-NĐ-CP@2005-07-22` now has a complete indexed official VBPL
 > print view and exact DOC URL, but the live endpoints timed out; its official
 > issue/effective dates differ from the earlier registry date
@@ -54,8 +54,11 @@ re-scrape it.
 > indexed print view, official history, exact DOC path, and complete secondary
 > review (`2026-08-30.05`). Decree `98/2005/NĐ-CP@2005-08-10` now has the same
 > complete indexed print/DOC recovery path and a reconciled Tân Hiệp topology
-> and later name chain (`2026-08-30.06`). Continue with Decree
-> `28/2006/NDD-CP@2006-04-06`; do not start Task 8.
+> and later name chain (`2026-08-30.06`). Decree
+> `28/2006/NDD-CP@2006-04-06` is now closed with archived Government metadata
+> and its original Word attachment; its code and date discrepancies remain
+> explicit (`2026-08-30.07`). Continue with Decree
+> `29/2006/NĐ-CP@2006-04-07`; do not start Task 8.
 
 ## Outcome
 
@@ -322,14 +325,17 @@ territory, title, and named-unit checks.
 ### Task 7 — close the source audit
 
 > **2026-08-30 handoff:** Task 7 remains in progress. The current materialized
-> ledger is fresh and verified at 414/449 official, 35 primary-source-open, and
-> 33 change-bearing-open instruments. The open set contains 15 `missing` and 20
+> ledger is fresh and verified at 415/449 official, 34 primary-source-open, and
+> 32 change-bearing-open instruments. The open set contains 14 `missing` and 20
 > `secondary_only` rows. Resolution `469/NQ-UBTVQH15@2022-04-10` has a
 > structured official PDF recovery lead but remains open because its bytes are
 > not archived (`docs/journals/2026-08-30.02.ward-secondary-provenance-469.md`);
 > Decrees 84, 85, 97, and 98 now have exact official print/DOC recovery paths
 > but remain open for the same raw-byte requirement (`2026-08-30.03`–`.06`).
-> Continue with Decree `28/2006/NDD-CP@2006-04-06`; do not start Task 8.
+> Decree `28/2006/NDD-CP@2006-04-06` is now closed with archived Government
+> metadata and its original Word attachment, with its raw/official code and
+> observation/effective-date differences explicit (`2026-08-30.07`). Continue
+> with Decree `29/2006/NĐ-CP@2006-04-07`; do not start Task 8.
 
 Add a command that regenerates the coverage JSON and prints a concise audit.
 Write a dated completion journal containing final counts, reviewed exceptions,
