@@ -189,7 +189,8 @@ TVPL links are included only to confirm identity and title. TVPL pages, search s
 ### 2020
 
 - [ ] **Change-bearing** `820/NQ-UBTVQH14@2020-01-01` — Sắp xếp các đơn vị hành chính cấp xã thuộc tỉnh Bình Thuận
-  - Current evidence: no source URL recorded.
+  - Current evidence: secondary identity reference only.
+  - Identity reference only: <https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Quyet-dinh-3361-QD-UBND-2019-chuyen-thon-khu-pho-tai-cac-don-vi-hanh-chinh-cap-xa-Binh-Thuan-434928.aspx>
 
 ### 2022
 

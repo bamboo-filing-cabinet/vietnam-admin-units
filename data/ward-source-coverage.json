@@ -16459,7 +16459,7 @@
               "title_territory_or_named_unit"
             ],
             "primary_source_paths": [],
-            "source_status": "missing"
+            "source_status": "secondary_only"
           },
           {
             "classification": "lineage",
@@ -39178,7 +39178,7 @@
     "legal_linkage_overrides_path": "data/ward-legal-linkage-overrides.json",
     "legal_linkage_overrides_sha256": "c841b3dde6584196a5f273b7e6e65f129373f8bd1d51c14d9604a8dacc83872d",
     "legal_sources_path": "data/ward-legal-sources.json",
-    "legal_sources_sha256": "da7c8d3e85779c14d320177352169232d7809d5dc6efe8d1fd06b587c50f0e13",
+    "legal_sources_sha256": "c44cc4ca0704d529ff8eef4912fc37d375471e7944ff0f48c91c210eb8646300",
     "manifest_path": "data/raw/manifest.jsonl",
     "manifest_sha256": "299f865e4a9d6f65bbd8d10d641623d22e22f9035ebb4e22c3800bd28b1a673d",
     "observed_changes_path": "data/ward-observed-changes.json",
@@ -39706,11 +39706,11 @@
       "input_fingerprints": {
         "data/decree-urls.json": "7046a0d47c3e78114ba3dd10c1d77671ae76d32b62f4ae66b794487193676b0c",
         "data/raw/nghidinh.json": "2d141ae52886f78bf476defe6f8275ea31a910d3c1f65288a1e8b067924756fb",
-        "data/ward-legal-secondary-urls.json": "801067eb520ead2392e8740439d37dde83c20968d4f6184b2cc56a0aa8a193a5"
+        "data/ward-legal-secondary-urls.json": "a5d36c842aa8c0a69bb51dc297b0b04ae13bd6d5eab1aa3813540aaf2e574abd"
       },
       "path": "data/ward-legal-sources.json",
       "schema_version": 1,
-      "sha256": "da7c8d3e85779c14d320177352169232d7809d5dc6efe8d1fd06b587c50f0e13",
+      "sha256": "c44cc4ca0704d529ff8eef4912fc37d375471e7944ff0f48c91c210eb8646300",
       "summary": {
         "index_date_anomalies": 2,
         "instruments": 449,
@@ -39718,7 +39718,7 @@
         "official_code_differences": 10,
         "official_matches": 414,
         "preserved_artifacts": 821,
-        "secondary_tvpl_urls": 111,
+        "secondary_tvpl_urls": 112,
         "status_counts": {
           "official_not_found": 35,
           "reused_existing_2025_pair": 34,
@@ -63512,12 +63512,25 @@
       "observation_status": "topology_components_linked",
       "primary_sources": [],
       "review_status": "reviewed_title_and_source_scope",
-      "secondary_sources": [],
+      "secondary_sources": [
+        {
+          "bytes": 0,
+          "declared_media_type": "",
+          "detected_media_type": "",
+          "media_type": "metadata_url",
+          "method": "secondary legal discovery URL (not archived as primary evidence)",
+          "path": "",
+          "retrieved_at": "",
+          "sha256": "",
+          "source_class": "secondary",
+          "source_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Quyet-dinh-3361-QD-UBND-2019-chuyen-thon-khu-pho-tai-cac-don-vi-hanh-chinh-cap-xa-Binh-Thuan-434928.aspx"
+        }
+      ],
       "source_discovery": {
         "discovery_status": "official_not_found",
         "metadata_url": ""
       },
-      "source_status": "missing",
+      "source_status": "secondary_only",
       "title_variants": [
         "Sắp xếp các đơn vị hành chính cấp xã thuộc tỉnh Bình Thuận"
       ]
@@ -73239,7 +73252,7 @@
       "legal_topology_linked": 161,
       "legal_topology_linked_with_source_cleanup": 1
     },
-    "secondary_tvpl_urls": 111,
+    "secondary_tvpl_urls": 112,
     "soap_artifacts": 204,
     "soap_rows": 2202543,
     "soap_unique_payloads": 180,
