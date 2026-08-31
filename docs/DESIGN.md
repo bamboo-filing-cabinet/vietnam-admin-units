@@ -322,7 +322,10 @@ assemblies need non-GSO sources.
   (`2026-08-30.02`–`.06`). Decree `28/2006/NDD-CP@2006-04-06` is closed from
   the Government portal with metadata and the original Word attachment; its
   raw/official code and observation/effective-date differences are explicit
-  (`2026-08-30.07`). Full
+  (`2026-08-30.07`). Decree `29/2006/NĐ-CP@2006-04-07` now has complete
+  secondary text, contemporaneous Government press corroboration, and an
+  indexed official VBPL lead, but remains open because official retrieval is
+  blocked (`2026-08-31.01`). Full
   2002→present provenance is not yet closed. The next graph-building slice—
   promotion into canonical ward entities/`LineageEdge` records—remains gated
   behind Task 7, and Wikidata emission remains a later gate.

@@ -20,7 +20,7 @@
 > cross-check** (the crosswalk is net-only; the decree list bounds the yearly-window
 > blind spot). See `DESIGN.md` decision 4 + spike journal `2026-07-20.01`.
 >
-> **Update (2026-08-30): Phase 3 is active; the 2025 source/topology gate is
+> **Update (2026-08-31): Phase 3 is active; the 2025 source/topology gate is
 > complete.** The complete
 > 204-date SOAP archive supplies inventory and former-district parentage. The
 > boundary observation + structured primary-link spine is documented in
@@ -38,8 +38,11 @@
 > `2026-08-30.02`–`.06`. Decree `28/2006/NDD-CP@2006-04-06` is now closed with
 > archived Government metadata and its original Word attachment; the
 > raw/official code and observation/effective-date differences are preserved in
-> `2026-08-30.07`. Continue with Decree `29/2006/NĐ-CP@2006-04-07`. Only after the
-> source audit closes should historical records be promoted into canonical
+> `2026-08-30.07`. Decree `29/2006/NĐ-CP@2006-04-07` now has complete secondary
+> text, contemporaneous Government press corroboration, and an indexed official
+> VBPL lead, but remains open because official retrieval is blocked
+> (`2026-08-31.01`). Continue with Decree `34/2006/NĐ-CP@2006-04-15`. Only
+> after the source audit closes should historical records be promoted into canonical
 > entities/`LineageEdge` objects. Wikidata emission remains gated.
 
 Extends `DESIGN.md` (the overarching design + decisions log). **Phase 1**

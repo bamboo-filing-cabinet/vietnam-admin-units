@@ -2,7 +2,7 @@
   "input_fingerprints": {
     "data/decree-urls.json": "7046a0d47c3e78114ba3dd10c1d77671ae76d32b62f4ae66b794487193676b0c",
     "data/raw/nghidinh.json": "2d141ae52886f78bf476defe6f8275ea31a910d3c1f65288a1e8b067924756fb",
-    "data/ward-legal-secondary-urls.json": "a023fc105ba9fb021a38d5114ae9f239ae2802f18da4551ad1db42a439c177ba"
+    "data/ward-legal-secondary-urls.json": "865ef803efece9161336de9102856cbe37af2929f5f11a9bb545618e5fc5d677"
   },
   "instruments": [
     {
@@ -2233,7 +2233,9 @@
       "instrument_id": "29/2006/NĐ-CP@2006-04-07",
       "metadata_path": "legal/ward/2006-04-07/29-2006-nd-cp.metadata.html",
       "metadata_url": "",
-      "secondary_urls": [],
+      "secondary_urls": [
+        "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-dinh-29-2006-ND-CP-thanh-lap-phuong-thuoc-thi-xa-Son-La-tinh-Son-La-10845.aspx"
+      ],
       "title_variants": [
         "Thành lập phường thuộc thị xã Sơn La, tỉnh Sơn La"
       ]
@@ -10671,7 +10673,7 @@
     "official_code_differences": 11,
     "official_matches": 415,
     "preserved_artifacts": 823,
-    "secondary_tvpl_urls": 114,
+    "secondary_tvpl_urls": 115,
     "status_counts": {
       "official_not_found": 34,
       "reused_existing_2025_pair": 34,

@@ -810,6 +810,11 @@ def test_real_legal_index_includes_2026_acceptance_and_reuses_34_pairs():
         "Sa-Thay-Dak-Ha-thi-xa-Kon-Tum-dieu-chinh-dia-gioi-hanh-chinh-"
         "Sa-Nhon-Ho-Moong-Kon-Tum-10289.aspx"
     ]
+    assert secondary["29/2006/NĐ-CP"] == [
+        "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/"
+        "Nghi-dinh-29-2006-ND-CP-thanh-lap-phuong-thuoc-thi-xa-"
+        "Son-La-tinh-Son-La-10845.aspx"
+    ]
     assert set(fetcher.NATIONAL_ASSEMBLY_FULL_TEXT) == {
         "460/NQ-UBTVQH14@2017-12-13",
         *{

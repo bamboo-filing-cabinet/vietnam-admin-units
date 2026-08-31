@@ -68,10 +68,11 @@ TVPL links are included only to confirm identity and title. TVPL pages, search s
 ### 2006
 
 - [ ] **Change-bearing** `29/2006/NĐ-CP@2006-04-07` — Thành lập phường thuộc thị xã Sơn La, tỉnh Sơn La
-  - Current evidence: no source URL recorded.
+  - Current evidence: secondary identity reference only.
+  - Identity reference only: <https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-dinh-29-2006-ND-CP-thanh-lap-phuong-thuoc-thi-xa-Son-La-tinh-Son-La-10845.aspx>
   - Official lead (not yet archived): <https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=16493>
   - Date discrepancy to preserve: registry effective 2006-04-07; official issue 2006-03-23; official effective 2006-04-15.
-  - Retrieval note: Preserve the official issue/effective dates alongside the registry date. Save the full page and any offered original attachment in a normal browser.
+  - Retrieval note: Preserve the official issue/effective dates alongside the registry date. A direct request to the official full-text page returned an HTTP 403 challenge, and no interactive browser was available. The indexed output does not expose an exact attachment filename, so do not guess one. Exact-code and title searches on the Government legal portal found no matching record, and the Government Gazette API found no publication PDF. Save the full official page and any attachment it actually offers in a normal browser before closing the source gate.
 - [ ] **Change-bearing** `34/2006/NĐ-CP@2006-04-15` — Thành lập thị trấn Cát Thành thuộc huyện Trực Ninh, tỉnh Nam Định
   - Current evidence: no source URL recorded.
   - Official lead (not yet archived): <https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=16357>

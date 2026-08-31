@@ -28,7 +28,7 @@ vietnam-elections     vietnam-elections-wikidata
 2. **Set up + verify:**
    ```sh
    uv sync
-   uv run pytest -q                          # 202 tests pass
+   uv run pytest -q                          # 203 tests pass
    ```
 
    **Phases 1 and 2 are complete and uploaded to Wikidata (provinces + districts).** The next work is **Phase 3 (wards)** — read the "Phase 2" block under [Status](#status) for the post-upload verification step and the roadmap pointer.
@@ -99,7 +99,7 @@ observed events.
 
 **Resume at Task 7: close the remaining official-source residue one instrument
 at a time.** The current audit is **415/449 official**, with **34
-primary-source-open instruments**: 14 `missing` and 20 `secondary_only`; **32
+primary-source-open instruments**: 13 `missing` and 21 `secondary_only`; **32
 are change-bearing**. The registry preserves 408 official attachments and 823
 official artifacts. Decree `84/2005-NĐ-CP@2005-07-22` (Thuận Bắc, Ninh Thuận)
 now has a complete indexed official VBPL print view and exact DOC attachment
@@ -118,8 +118,12 @@ path and preserved date discrepancy, plus a reconciled Tân Hiệp → Ngã Bả
 chain. Decree `28/2006/NDD-CP@2006-04-06` is now closed with archived
 Government metadata and its original Word attachment; the registry preserves
 the raw `NDD-CP` code and 2006-04-06 observation date beside official
-`NĐ-CP` and 2006-04-13 legal effectiveness. The next bounded review target is
-Decree `29/2006/NĐ-CP@2006-04-07` (Sơn La). Do **not** start Task 8 or promote
+`NĐ-CP` and 2006-04-13 legal effectiveness. Decree
+`29/2006/NĐ-CP@2006-04-07` now has complete parallel secondary texts,
+contemporaneous Government press corroboration, and an indexed official VBPL
+lead, but remains open because the official bytes are blocked by HTTP 403. The
+next bounded review target is Decree `34/2006/NĐ-CP@2006-04-15` (Nam Định). Do
+**not** start Task 8 or promote
 secondary evidence to primary merely to close the count.
 
 Read the current [shutdown handoff](docs/journals/2026-08-30.01.ward-source-audit-handoff.md),
@@ -148,6 +152,9 @@ and supplied-source review are recorded in
 Decree 28's archived Government artifacts, code/date correction, and Hơ Moong
 topology are recorded in
 [`2026-08-30.07`](docs/journals/2026-08-30.07.ward-source-28-2006-nd-cp.md).
+Decree 29's official lead, two whole-commune retypes, date discrepancy, and
+supplied-source review are recorded in
+[`2026-08-31.01`](docs/journals/2026-08-31.01.ward-secondary-provenance-29.md).
 The later graph-building slice remains gated: only after Task 7 passes should
 the observations and resolved events be promoted into canonical ward entities
 and `LineageEdge` records. Do not emit or upload ward Wikidata statements yet.
