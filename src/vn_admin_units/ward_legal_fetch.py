@@ -15,6 +15,7 @@ Usage:
   uv run python -m vn_admin_units.ward_legal_fetch --portal-recover
   uv run python -m vn_admin_units.ward_legal_fetch --archive-recover
   uv run python -m vn_admin_units.ward_legal_fetch --assembly-recover
+  uv run python -m vn_admin_units.ward_legal_fetch --fetch-correction-evidence
   uv run python -m vn_admin_units.ward_legal_fetch --fetch-supplemental
   uv run python -m vn_admin_units.ward_legal_fetch --fetch
   uv run python -m vn_admin_units.ward_legal_fetch --check
@@ -1727,6 +1728,92 @@ def fetch_supplemental_sources(*, overrides_path: Path = LEGAL_LINKAGE_OVERRIDES
     return results
 
 
+def fetch_index_correction_evidence(
+        *, overrides_path: Path = LEGAL_LINKAGE_OVERRIDES,
+        timeout: int = 120, session=None) -> list[dict]:
+    """Archive official evidence proving that malformed index rows cannot exist."""
+    overrides = json.loads(overrides_path.read_text(encoding="utf-8"))
+    session = session or requests.Session()
+    results = []
+    for item in overrides.get("index_correction_evidence", []):
+        source_url = item["source_url"]
+        source_path = item["source_path"]
+        metadata_status = "cached"
+        if rawcache.raw_is_verified(source_path):
+            content = rawcache.read_raw(source_path)
+        else:
+            content = _get(session, source_url, timeout=timeout).content
+            metadata_status = "fetched"
+
+        detail = parse_official_detail(content, source_url)
+        expected_attachment_urls = [
+            attachment["url"] for attachment in item["attachments"]
+        ]
+        if (
+            detail["code"] != normalize_code(item["code"])
+            or detail["issued_date"] != item["issued_date"]
+            or _fold_text(detail["title"]) != _fold_text(item["title"])
+            or detail["attachment_urls"] != expected_attachment_urls
+        ):
+            raise ValueError(
+                f"official index-correction evidence drifted: {item['evidence_id']}"
+            )
+
+        common_metadata = {
+            "source_class": "official",
+            "source_provider": "government_legal_portal",
+            "document_code": item["code"],
+            "official_document_code": detail["code"],
+            "issued_date": item["issued_date"],
+            "effective_date": item["effective_date"],
+            "title": item["title"],
+            "index_correction_evidence_id": item["evidence_id"],
+            "invalidated_instrument_ids": item["invalidated_instrument_ids"],
+            "secondary_urls": item.get("secondary_urls", []),
+        }
+        if metadata_status == "fetched":
+            rawcache.save_raw(source_path, content, {
+                **common_metadata,
+                "source_url": source_url,
+                "source_role": "legal_index_correction_metadata",
+                "method": "official Government legal index-correction evidence HTML",
+                "attachment_urls": expected_attachment_urls,
+            })
+
+        attachment_statuses = []
+        for attachment in item["attachments"]:
+            if rawcache.raw_is_verified(attachment["path"]):
+                attachment_statuses.append("cached")
+                continue
+            response = _get(session, attachment["url"], timeout=timeout)
+            detected_media_type = _validate_attachment(
+                response.content, attachment["media_type"], attachment["url"],
+            )
+            rawcache.save_raw(attachment["path"], response.content, {
+                **common_metadata,
+                "source_url": attachment["url"],
+                "source_role": "legal_index_correction_original_attachment",
+                "method": (
+                    "official Government legal index-correction original attachment"
+                ),
+                "metadata_path": source_path,
+                "metadata_url": source_url,
+                "declared_media_type": attachment["media_type"],
+                "detected_media_type": detected_media_type,
+            })
+            attachment_statuses.append("fetched")
+        results.append({
+            "evidence_id": item["evidence_id"],
+            "metadata_status": metadata_status,
+            "attachment_statuses": attachment_statuses,
+        })
+        print(
+            f"  {item['evidence_id']}: metadata {metadata_status}, "
+            f"attachments {','.join(attachment_statuses) or 'none'}"
+        )
+    return results
+
+
 def check_registry(path: Path = REGISTRY) -> dict:
     registry = json.loads(path.read_text(encoding="utf-8"))
     instruments = registry.get("instruments", [])
@@ -1856,6 +1943,7 @@ def main(argv: list[str] | None = None) -> None:
     actions.add_argument("--portal-recover", action="store_true")
     actions.add_argument("--archive-recover", action="store_true")
     actions.add_argument("--assembly-recover", action="store_true")
+    actions.add_argument("--fetch-correction-evidence", action="store_true")
     actions.add_argument("--fetch-supplemental", action="store_true")
     actions.add_argument("--retry", action="store_true")
     actions.add_argument("--fetch", action="store_true")
@@ -1890,6 +1978,9 @@ def main(argv: list[str] | None = None) -> None:
             path=args.registry, timeout=args.timeout,
         )
         print(f"updated {args.registry}: {registry['summary']}")
+    elif args.fetch_correction_evidence:
+        results = fetch_index_correction_evidence(timeout=args.timeout)
+        print(f"index-correction fetch complete: {len(results)} evidence records")
     elif args.fetch_supplemental:
         results = fetch_supplemental_sources(timeout=args.timeout)
         counts = {

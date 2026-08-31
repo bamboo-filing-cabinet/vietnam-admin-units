@@ -2,13 +2,13 @@
 
 Generated from `data/ward-source-coverage.json` by `vn_admin_units.ward_source_coverage --open-note`.
 
-Current audit: **33 primary-source-open instruments**; **31 are tied to observed ward changes**.
+Current audit: **31 primary-source-open instruments**; **31 are tied to observed ward changes**.
 
 ## Queue history
 
 The personal-search checkpoint at commit `89107d0` recorded **39 open instruments**, including **37 change-bearing instruments**. Resolution 721/NQ-UBTVQH15 was subsequently recovered from the National Assembly, Resolution 39/NQ-CP from the Government legal portal, and Resolution 904/NQ-UBTVQH13 from the Ninh Bình Provincial Historical Archives. Later recoveries, if any, are reflected in the live counts above.
 
-Exact official-page leads are recorded below for **17 of the 33 current items**. These links are leads only: none count as recovered provenance until the full official page or original attachment is saved, hashed, registered, and verified offline.
+Exact official-page leads are recorded below for **17 of the 31 current items**. These links are leads only: none count as recovered provenance until the full official page or original attachment is saved, hashed, registered, and verified offline.
 
 ## What counts as a useful find
 
@@ -97,13 +97,6 @@ TVPL links are included only to confirm identity and title. TVPL pages, search s
   - Official lead (not yet archived): <https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=15920>
   - Date discrepancy to preserve: registry effective 2006-07-08; official issue 2006-06-23; official effective 2006-07-16.
   - Retrieval note: Preserve the official issue/effective dates alongside the registry date and the legal 2006 parent label `thị xã Hà Giang` beside the SOAP roster's later `Thành phố Hà Giang` echo. Direct requests to the official full-text, print, ministry-mirror, and properties pages returned HTTP 403 challenges; the legacy Ministry of Justice hostname did not resolve. The indexed output does not expose an exact attachment filename, so do not guess one. The Government legal portal returned HTTP 502 during bounded exact-code and title retries, web searches found no alternate record, and the Government Gazette API found no publication PDF. Save the full official page and any attachment it actually offers in a normal browser before closing the source gate.
-
-### 2008
-
-- [ ] **Context-only / superseded index row** `14/2008/NĐ-CP@2008-07-02` — Chuyển xã Tân Đức, huyện Ba Vì tỉnh Hà Tây về thành phố Việt Trì, tỉnh Phú Thọ
-  - Current evidence: no source URL recorded.
-- [ ] **Context-only / superseded index row** `14/2008/NĐ-CP@2008-08-03` — Chuyển xã Tân Đức, huyện Ba Vì tỉnh Hà Tây về thành phố Việt Trì, tỉnh Phú Thọ
-  - Current evidence: no source URL recorded.
 
 ### 2009
 

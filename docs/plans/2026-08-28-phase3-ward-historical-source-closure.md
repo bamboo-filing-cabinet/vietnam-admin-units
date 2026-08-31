@@ -41,8 +41,9 @@ re-scrape it.
 > zero legally unlinked observed events. See journal `2026-08-28.08`.
 >
 > **Task 7 in progress (2026-08-31).** Official recovery and one-at-a-time
-> secondary reviews now leave 33 primary-source-open instruments: 9 `missing`
-> and 24 `secondary_only`; 31 are change-bearing. Official coverage is 416/449.
+> secondary reviews now leave 31 primary-source-open instruments: 7 `missing`
+> and 24 `secondary_only`; all 31 are change-bearing. Official coverage is
+> 416/449.
 > Decree `84/2005-NĐ-CP@2005-07-22` now has a complete indexed official VBPL
 > print view and exact DOC URL, but the live endpoints timed out; its official
 > issue/effective dates differ from the earlier registry date
@@ -79,8 +80,11 @@ re-scrape it.
 > `137/2007N@2007-09-11` is now closed with archived Government metadata and
 > its original Word attachment; its formal code, official dates, five commune
 > creations, and seven continuing Cư Kuin parent changes are reconciled in
-> `2026-08-31.06`. Continue with the context-only
-> `14/2008/NĐ-CP@2008-07-02` index row; do not start Task 8.
+> `2026-08-31.06`. The supplied Government record for actual Decree
+> `14/2008/NĐ-CP` proves that both July/August NSO Tân Đức rows are invalid
+> code-title identities; the canonical Resolution `14/2008/QH12` remains the
+> event authority (`2026-08-31.07`). Continue with Decree
+> `07/NĐ-CP@2009-01-07`; do not start Task 8.
 
 ## Outcome
 
@@ -347,8 +351,8 @@ territory, title, and named-unit checks.
 ### Task 7 — close the source audit
 
 > **2026-08-31 handoff:** Task 7 remains in progress. The current materialized
-> ledger is fresh and verified at 416/449 official, 33 primary-source-open, and
-> 31 change-bearing-open instruments. The open set contains 9 `missing` and 24
+> ledger is fresh and verified at 416/449 official, 31 primary-source-open, and
+> 31 change-bearing-open instruments. The open set contains 7 `missing` and 24
 > `secondary_only` rows. Resolution `469/NQ-UBTVQH15@2022-04-10` has a
 > structured official PDF recovery lead but remains open because its bytes are
 > not archived (`docs/journals/2026-08-30.02.ward-secondary-provenance-469.md`);
@@ -378,8 +382,11 @@ territory, title, and named-unit checks.
 > `137/2007N@2007-09-11` is now closed with archived Government metadata and
 > its original Word attachment; its formal code, official dates, five commune
 > creations, and seven continuing Cư Kuin parent changes are reconciled in
-> `2026-08-31.06`. Continue with the context-only
-> `14/2008/NĐ-CP@2008-07-02` index row; do not start Task 8.
+> `2026-08-31.06`. The supplied Government record for actual Decree
+> `14/2008/NĐ-CP` proves that both July/August NSO Tân Đức rows are invalid
+> code-title identities; the canonical Resolution `14/2008/QH12` remains the
+> event authority (`2026-08-31.07`). Continue with Decree
+> `07/NĐ-CP@2009-01-07`; do not start Task 8.
 
 Add a command that regenerates the coverage JSON and prints a concise audit.
 Write a dated completion journal containing final counts, reviewed exceptions,

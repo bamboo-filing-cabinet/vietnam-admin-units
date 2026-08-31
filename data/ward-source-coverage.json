@@ -39176,17 +39176,75 @@
       "status": "legal_topology_linked"
     }
   ],
+  "index_correction_evidence": [
+    {
+      "attachments": [
+        {
+          "media_type": "doc",
+          "path": "legal/ward/index-corrections/14-2008-nd-cp.original.doc",
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2008/02/59034_nd14cp.doc"
+        }
+      ],
+      "code": "14/2008/NĐ-CP",
+      "effective_date": "2008-02-25",
+      "effective_date_source_url": "https://vbpl.vn/TW/Pages/vbpq-thuoctinh.aspx?ItemID=12850&Keyword=",
+      "evidence_id": "actual-14-2008-nd-cp@2008-02-25",
+      "invalidated_instrument_ids": [
+        "14/2008/NĐ-CP@2008-07-02",
+        "14/2008/NĐ-CP@2008-08-03"
+      ],
+      "issued_date": "2008-02-04",
+      "primary_source_paths": [
+        "legal/ward/index-corrections/14-2008-nd-cp.metadata.html",
+        "legal/ward/index-corrections/14-2008-nd-cp.original.doc"
+      ],
+      "primary_sources": [
+        {
+          "bytes": 191880,
+          "declared_media_type": "",
+          "detected_media_type": "",
+          "media_type": "html",
+          "method": "official Government legal index-correction evidence HTML",
+          "path": "legal/ward/index-corrections/14-2008-nd-cp.metadata.html",
+          "retrieved_at": "2026-08-31T18:43:37Z",
+          "sha256": "a324b23e41a268c7e2492367e5cde4b48d8c5704b32c094d6566df8f1fb55ad7",
+          "source_class": "official",
+          "source_url": "https://chinhphu.vn/default.aspx?pageid=27160&docid=57075"
+        },
+        {
+          "bytes": 79872,
+          "declared_media_type": "doc",
+          "detected_media_type": "doc",
+          "media_type": "other",
+          "method": "official Government legal index-correction original attachment",
+          "path": "legal/ward/index-corrections/14-2008-nd-cp.original.doc",
+          "retrieved_at": "2026-08-31T18:43:39Z",
+          "sha256": "3397a11b78bb27206303549b8bc85a5c418749e5fed334753f60f2b3a7b30642",
+          "source_class": "official",
+          "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2008/02/59034_nd14cp.doc"
+        }
+      ],
+      "secondary_urls": [
+        "https://luatvietnam.vn/co-cau-to-chuc/nghi-dinh-14-2008-nd-cp-chinh-phu-34534-d1.html",
+        "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-dinh-14-2008-ND-CP-to-chuc-co-quan-chuyen-mon-thuoc-Uy-ban-nhan-dan-huyen-quan-thi-xa-thanh-pho-thuoc-tinh-62233.aspx"
+      ],
+      "source_path": "legal/ward/index-corrections/14-2008-nd-cp.metadata.html",
+      "source_status": "verified_official_artifact",
+      "source_url": "https://chinhphu.vn/default.aspx?pageid=27160&docid=57075",
+      "title": "Quy định tổ chức các cơ quan chuyên môn thuộc Ủy ban nhân dân huyện, quận, thị xã, thành phố thuộc tỉnh"
+    }
+  ],
   "input_fingerprints": {
     "crosswalk_reconciliation_path": "data/ward-crosswalk-reconciliation.json",
     "crosswalk_reconciliation_sha256": "e3c9dd9c93be8e5579bb2be407f350ac19a626b42a399e01a551e5b8ef79d6cb",
     "legal_index_path": "data/raw/nghidinh.json",
     "legal_index_sha256": "2d141ae52886f78bf476defe6f8275ea31a910d3c1f65288a1e8b067924756fb",
     "legal_linkage_overrides_path": "data/ward-legal-linkage-overrides.json",
-    "legal_linkage_overrides_sha256": "c841b3dde6584196a5f273b7e6e65f129373f8bd1d51c14d9604a8dacc83872d",
+    "legal_linkage_overrides_sha256": "227e5e03b67fff76b5139bdef15f1736708d364efe5503485bf21f8c37de3eeb",
     "legal_sources_path": "data/ward-legal-sources.json",
     "legal_sources_sha256": "691365cba300deb530c0e82505c28e12a19021d250825bf5dde6d9dbca43b662",
     "manifest_path": "data/raw/manifest.jsonl",
-    "manifest_sha256": "110fc625cee4ed20127fe9f443aedc0888630d763a403fb2732a01e216408da9",
+    "manifest_sha256": "6152768baa163e589b38ef94e08d6db4f6568e87f3255529319091bab77477d9",
     "observed_changes_path": "data/ward-observed-changes.json",
     "observed_changes_sha256": "91f441b73d9489c30e26e4a1c585600fcf435b0648a4f87ad4bc86aa9ca9d1df",
     "ward_2025_composition_path": "data/ward-2025-composition.json",
@@ -54904,6 +54962,37 @@
       "classification": "duplicate_or_superseded",
       "classification_evidence": {
         "canonical_instrument_id": "14/2008/QH12@2008-07-01",
+        "identity_evidence_id": "actual-14-2008-nd-cp@2008-02-25",
+        "identity_evidence_paths": [
+          "legal/ward/index-corrections/14-2008-nd-cp.metadata.html",
+          "legal/ward/index-corrections/14-2008-nd-cp.original.doc"
+        ],
+        "identity_evidence_sources": [
+          {
+            "bytes": 191880,
+            "declared_media_type": "",
+            "detected_media_type": "",
+            "media_type": "html",
+            "method": "official Government legal index-correction evidence HTML",
+            "path": "legal/ward/index-corrections/14-2008-nd-cp.metadata.html",
+            "retrieved_at": "2026-08-31T18:43:37Z",
+            "sha256": "a324b23e41a268c7e2492367e5cde4b48d8c5704b32c094d6566df8f1fb55ad7",
+            "source_class": "official",
+            "source_url": "https://chinhphu.vn/default.aspx?pageid=27160&docid=57075"
+          },
+          {
+            "bytes": 79872,
+            "declared_media_type": "doc",
+            "detected_media_type": "doc",
+            "media_type": "other",
+            "method": "official Government legal index-correction original attachment",
+            "path": "legal/ward/index-corrections/14-2008-nd-cp.original.doc",
+            "retrieved_at": "2026-08-31T18:43:39Z",
+            "sha256": "3397a11b78bb27206303549b8bc85a5c418749e5fed334753f60f2b3a7b30642",
+            "source_class": "official",
+            "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2008/02/59034_nd14cp.doc"
+          }
+        ],
         "review_note": "The NSO legal index mislabels Resolution 14/2008/QH12 as a Government decree and shifts its 2008-07-01 effective date to the following SOAP observation date. The canonical resolution is retained separately."
       },
       "code": "14/2008/NĐ-CP",
@@ -54920,7 +55009,7 @@
         "discovery_status": "official_not_found",
         "metadata_url": ""
       },
-      "source_status": "missing",
+      "source_status": "invalid_index_identity_verified",
       "title_variants": [
         "Chuyển xã Tân Đức, huyện Ba Vì tỉnh Hà Tây về thành phố Việt Trì, tỉnh Phú Thọ"
       ]
@@ -54929,6 +55018,37 @@
       "classification": "duplicate_or_superseded",
       "classification_evidence": {
         "canonical_instrument_id": "14/2008/QH12@2008-07-01",
+        "identity_evidence_id": "actual-14-2008-nd-cp@2008-02-25",
+        "identity_evidence_paths": [
+          "legal/ward/index-corrections/14-2008-nd-cp.metadata.html",
+          "legal/ward/index-corrections/14-2008-nd-cp.original.doc"
+        ],
+        "identity_evidence_sources": [
+          {
+            "bytes": 191880,
+            "declared_media_type": "",
+            "detected_media_type": "",
+            "media_type": "html",
+            "method": "official Government legal index-correction evidence HTML",
+            "path": "legal/ward/index-corrections/14-2008-nd-cp.metadata.html",
+            "retrieved_at": "2026-08-31T18:43:37Z",
+            "sha256": "a324b23e41a268c7e2492367e5cde4b48d8c5704b32c094d6566df8f1fb55ad7",
+            "source_class": "official",
+            "source_url": "https://chinhphu.vn/default.aspx?pageid=27160&docid=57075"
+          },
+          {
+            "bytes": 79872,
+            "declared_media_type": "doc",
+            "detected_media_type": "doc",
+            "media_type": "other",
+            "method": "official Government legal index-correction original attachment",
+            "path": "legal/ward/index-corrections/14-2008-nd-cp.original.doc",
+            "retrieved_at": "2026-08-31T18:43:39Z",
+            "sha256": "3397a11b78bb27206303549b8bc85a5c418749e5fed334753f60f2b3a7b30642",
+            "source_class": "official",
+            "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2008/02/59034_nd14cp.doc"
+          }
+        ],
         "review_note": "The second NSO row repeats the same malformed instrument at the next SOAP observation date. It is not a second legal act and is superseded by the canonical Resolution 14/2008/QH12 record."
       },
       "code": "14/2008/NĐ-CP",
@@ -54945,7 +55065,7 @@
         "discovery_status": "official_not_found",
         "metadata_url": ""
       },
-      "source_status": "missing",
+      "source_status": "invalid_index_identity_verified",
       "title_variants": [
         "Chuyển xã Tân Đức, huyện Ba Vì tỉnh Hà Tây về thành phố Việt Trì, tỉnh Phú Thọ"
       ]
@@ -73311,8 +73431,6 @@
       "39/2006/NĐ-CP@2006-05-06",
       "60/2006/NĐ-CP@2006-07-04",
       "64/2006/NĐ-CP@2006-07-08",
-      "14/2008/NĐ-CP@2008-07-02",
-      "14/2008/NĐ-CP@2008-08-03",
       "07/NĐ-CP@2009-01-07",
       "08/NĐ-CP@2009-01-07",
       "10/NĐ-CP@2009-01-07",
@@ -73339,7 +73457,7 @@
     "source_gate_status": "open",
     "unclassified_instrument_ids": []
   },
-  "schema_version": 6,
+  "schema_version": 7,
   "scope": {
     "as_of": "2026-08-27",
     "next_task": 7,
@@ -73404,7 +73522,7 @@
     "observed_change_intervals": 179,
     "official_source_matches": 416,
     "official_source_not_found": 33,
-    "primary_source_open_instruments": 33,
+    "primary_source_open_instruments": 31,
     "reviewed_event_statuses": {
       "explicitly_classified_non_legal_transition": 1,
       "legal_context_classified": 16,
@@ -73419,6 +73537,7 @@
     "unclassified_instruments": 0,
     "unique_ward_instruments": 449,
     "verified_2025_resolution_pairs": 34,
+    "verified_index_identity_mismatches": 2,
     "ward_crosswalk_artifacts": 39,
     "ward_crosswalk_rows": 417158,
     "ward_relevant_effective_dates_from_2005": 179,

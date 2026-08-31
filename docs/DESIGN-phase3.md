@@ -31,8 +31,8 @@
 > source Tasks 1–6 are also complete: the 204 SOAP snapshots and 39 crosswalks
 > verify; all 453 candidate legal rows and 449 unique instruments are classified
 > and linked; and 416/449 instruments now have 825 archived official artifacts.
-> Resume at source-closure Task 7 with 33 primary-source-open instruments, 31 of
-> them change-bearing. Resolution `469/NQ-UBTVQH15@2022-04-10` and Decrees 84,
+> Resume at source-closure Task 7 with 31 primary-source-open instruments, all
+> change-bearing. Resolution `469/NQ-UBTVQH15@2022-04-10` and Decrees 84,
 > 85, 97, and 98 of 2005 now have exact official attachment recovery paths, but
 > their bytes remain unavailable from the live legacy endpoints; see journals
 > `2026-08-30.02`–`.06`. Decree `28/2006/NDD-CP@2006-04-06` is now closed with
@@ -58,8 +58,11 @@
 > `137/2007N@2007-09-11` is now closed with archived Government metadata and
 > its original Word attachment; five commune creations and seven continuing
 > Cư Kuin parent changes are reconciled separately from eleven concurrent Vĩnh
-> Long changes (`2026-08-31.06`). Continue with the context-only
-> `14/2008/NĐ-CP@2008-07-02` index row. Only
+> Long changes (`2026-08-31.06`). The actual Government decree and
+> original Word attachment prove that both July/August NSO rows are invalid
+> code-title identities; Resolution `14/2008/QH12` remains the canonical Tân
+> Đức authority (`2026-08-31.07`). Continue with Decree
+> `07/NĐ-CP@2009-01-07`. Only
 > after the source audit closes should historical records be promoted into canonical
 > entities/`LineageEdge` objects. Wikidata emission remains gated.
 

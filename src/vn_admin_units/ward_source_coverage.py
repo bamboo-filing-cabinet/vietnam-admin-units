@@ -44,6 +44,11 @@ OPEN_NOTE = Path("docs/ward-source-open-instruments.md")
 SOURCE_FLOOR = "2002-01-01"
 AS_OF = "2026-08-27"
 
+_CLOSED_SOURCE_STATUSES = {
+    "invalid_index_identity_verified",
+    "verified_official_artifact",
+}
+
 LOCKED = {
     "soap_artifacts": 204,
     "soap_rows": 2_202_543,
@@ -672,14 +677,14 @@ def build_coverage(*, manifest_path: Path = MANIFEST,
     primary_source_open = [
         instrument["instrument_id"]
         for instrument in instruments
-        if instrument["source_status"] != "verified_official_artifact"
+        if instrument["source_status"] not in _CLOSED_SOURCE_STATUSES
     ]
     change_bearing_source_open = sorted({
         link["instrument_id"]
         for review in linkage["event_reviews"].values()
         for link in review["instrument_links"]
         if link["component_count"]
-        and link["source_status"] != "verified_official_artifact"
+        and link["source_status"] not in _CLOSED_SOURCE_STATUSES
     })
     source_floor_evidence = _source_floor_evidence(soap, events)
     source_gate_status = "open" if change_bearing_source_open else "pass"
@@ -709,6 +714,10 @@ def build_coverage(*, manifest_path: Path = MANIFEST,
         "context_only_components": linkage["summary"]["context_only_components"],
         "change_bearing_source_open_instruments": len(change_bearing_source_open),
         "primary_source_open_instruments": len(primary_source_open),
+        "verified_index_identity_mismatches": sum(
+            instrument["source_status"] == "invalid_index_identity_verified"
+            for instrument in instruments
+        ),
         "official_source_matches": legal_registry["summary"]["official_matches"],
         "official_source_not_found": legal_registry["summary"]["status_counts"].get(
             "official_not_found", 0
@@ -731,7 +740,7 @@ def build_coverage(*, manifest_path: Path = MANIFEST,
     _require("SOAP missing parents", soap["missing_parent_codes"], 0)
 
     return {
-        "schema_version": 6,
+        "schema_version": 7,
         "scope": {
             "tier": "ward",
             "source_floor": SOURCE_FLOOR,
@@ -777,6 +786,7 @@ def build_coverage(*, manifest_path: Path = MANIFEST,
             "verified_2025_resolution_pairs": resolution_pairs,
         },
         "legal_instruments": instruments,
+        "index_correction_evidence": linkage["index_correction_evidence"],
         "supplemental_legal_instruments": linkage["supplemental_instruments"],
         "events": events,
         "residue": {

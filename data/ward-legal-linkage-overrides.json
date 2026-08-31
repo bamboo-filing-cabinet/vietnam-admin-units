@@ -1,18 +1,47 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "scope": "Manual corrections and event-level exceptions for historical ward legal linkage",
   "instrument_corrections": {
     "14/2008/NĐ-CP@2008-07-02": {
       "canonical_instrument_id": "14/2008/QH12@2008-07-01",
       "classification": "duplicate_or_superseded",
+      "identity_evidence_id": "actual-14-2008-nd-cp@2008-02-25",
       "review_note": "The NSO legal index mislabels Resolution 14/2008/QH12 as a Government decree and shifts its 2008-07-01 effective date to the following SOAP observation date. The canonical resolution is retained separately."
     },
     "14/2008/NĐ-CP@2008-08-03": {
       "canonical_instrument_id": "14/2008/QH12@2008-07-01",
       "classification": "duplicate_or_superseded",
+      "identity_evidence_id": "actual-14-2008-nd-cp@2008-02-25",
       "review_note": "The second NSO row repeats the same malformed instrument at the next SOAP observation date. It is not a second legal act and is superseded by the canonical Resolution 14/2008/QH12 record."
     }
   },
+  "index_correction_evidence": [
+    {
+      "evidence_id": "actual-14-2008-nd-cp@2008-02-25",
+      "code": "14/2008/NĐ-CP",
+      "issued_date": "2008-02-04",
+      "effective_date": "2008-02-25",
+      "effective_date_source_url": "https://vbpl.vn/TW/Pages/vbpq-thuoctinh.aspx?ItemID=12850&Keyword=",
+      "title": "Quy định tổ chức các cơ quan chuyên môn thuộc Ủy ban nhân dân huyện, quận, thị xã, thành phố thuộc tỉnh",
+      "source_url": "https://chinhphu.vn/default.aspx?pageid=27160&docid=57075",
+      "source_path": "legal/ward/index-corrections/14-2008-nd-cp.metadata.html",
+      "attachments": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2008/02/59034_nd14cp.doc",
+          "path": "legal/ward/index-corrections/14-2008-nd-cp.original.doc",
+          "media_type": "doc"
+        }
+      ],
+      "secondary_urls": [
+        "https://luatvietnam.vn/co-cau-to-chuc/nghi-dinh-14-2008-nd-cp-chinh-phu-34534-d1.html",
+        "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-dinh-14-2008-ND-CP-to-chuc-co-quan-chuyen-mon-thuoc-Uy-ban-nhan-dan-huyen-quan-thi-xa-thanh-pho-thuoc-tinh-62233.aspx"
+      ],
+      "invalidated_instrument_ids": [
+        "14/2008/NĐ-CP@2008-07-02",
+        "14/2008/NĐ-CP@2008-08-03"
+      ]
+    }
+  ],
   "supplemental_instruments": [
     {
       "instrument_id": "14/2008/QH12@2008-07-01",

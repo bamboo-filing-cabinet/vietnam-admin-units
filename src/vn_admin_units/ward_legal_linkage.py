@@ -511,16 +511,50 @@ def build_legal_linkage(instruments: list[dict], events: list[dict],
     composition = json.loads(composition_path.read_text(encoding="utf-8"))
     corrections = overrides["instrument_corrections"]
 
+    correction_evidence = {}
+    for item in overrides.get("index_correction_evidence", []):
+        sources = source_index.get((item["code"], item["effective_date"]), [])
+        primary_by_path = {
+            source["path"]: source
+            for source in sources
+            if source["source_class"] == "official"
+        }
+        expected_paths = {
+            item["source_path"],
+            *(attachment["path"] for attachment in item["attachments"]),
+        }
+        missing_paths = expected_paths - primary_by_path.keys()
+        if missing_paths:
+            raise ValueError(
+                f"index-correction evidence is incomplete: {item['evidence_id']} "
+                f"{sorted(missing_paths)}"
+            )
+        primary = [primary_by_path[path] for path in sorted(expected_paths)]
+        correction_evidence[item["evidence_id"]] = {
+            **item,
+            "source_status": "verified_official_artifact",
+            "primary_source_paths": sorted(expected_paths),
+            "primary_sources": sorted(
+                primary, key=lambda source: (source["media_type"], source["path"]),
+            ),
+        }
+
     reviews = {}
     for instrument in instruments:
         instrument_id = instrument["instrument_id"]
         if instrument_id in corrections:
             correction = corrections[instrument_id]
+            evidence_id = correction["identity_evidence_id"]
+            evidence = correction_evidence[evidence_id]
             reviews[instrument_id] = {
                 "classification": correction["classification"],
                 "review_status": "reviewed_index_correction",
+                "source_status": "invalid_index_identity_verified",
                 "classification_evidence": {
                     "canonical_instrument_id": correction["canonical_instrument_id"],
+                    "identity_evidence_id": evidence_id,
+                    "identity_evidence_paths": evidence["primary_source_paths"],
+                    "identity_evidence_sources": evidence["primary_sources"],
                     "review_note": correction["review_note"],
                 },
                 "observation_status": "superseded_by_canonical_correction",
@@ -628,6 +662,9 @@ def build_legal_linkage(instruments: list[dict], events: list[dict],
     return {
         "instrument_reviews": reviews,
         "event_reviews": event_reviews,
+        "index_correction_evidence": [
+            correction_evidence[key] for key in sorted(correction_evidence)
+        ],
         "supplemental_instruments": [supplemental[key] for key in sorted(supplemental)],
         "summary": {
             "classified_instruments": len(reviews),

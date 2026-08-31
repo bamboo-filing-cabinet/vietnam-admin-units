@@ -98,9 +98,9 @@ classified, and linked with zero unclassified instruments or legally unlinked
 observed events.
 
 **Resume at Task 7: close the remaining official-source residue one instrument
-at a time.** The current audit is **416/449 official**, with **33
-primary-source-open instruments**: 9 `missing` and 24 `secondary_only`; **31
-are change-bearing**. The registry preserves 409 official attachments and 825
+at a time.** The current audit is **416/449 official**, with **31
+primary-source-open instruments**: 7 `missing` and 24 `secondary_only`; **all
+31 are change-bearing**. The registry preserves 409 official attachments and 825
 official artifacts. Decree `84/2005-NĐ-CP@2005-07-22` (Thuận Bắc, Ninh Thuận)
 now has a complete indexed official VBPL print view and exact DOC attachment
 URL, but live retrieval still times out. Preserve its official 2005-07-07 issue
@@ -149,8 +149,13 @@ Government metadata and the original Word attachment for formal Decree
 date is 2007-09-18, while 2007-09-11 remains the NSO observation key. The
 document reconciles five commune creations and the seven continuing communes
 re-parented into newly created Cư Kuin; eleven concurrent Vĩnh Long parent
-changes in the same SOAP interval belong to Decree 125/2007/NĐ-CP. Continue
-with the context-only `14/2008/NĐ-CP@2008-07-02` index row. Do
+changes in the same SOAP interval belong to Decree 125/2007/NĐ-CP. The supplied
+Government page and original Word file prove that the actual decree was issued
+on 2008-02-04, effective 2008-02-25, and concerns district-level specialized
+agencies—not Tân Đức. Both July/August NSO rows are now closed as verified
+invalid index identities; the already archived Resolution `14/2008/QH12` is
+the canonical authority for the Tân Đức transfer. Continue with Decree
+`07/NĐ-CP@2009-01-07` (Buôn Hồ, Đắk Lắk). Do
 **not** start Task 8 or promote
 secondary evidence to primary merely to close the count.
 
@@ -198,6 +203,9 @@ supplied-source review are recorded in
 Decree 137's official Government recovery, code/date discrepancies, Cư Kuin
 topology, and concurrent-event disambiguation are recorded in
 [`2026-08-31.06`](docs/journals/2026-08-31.06.ward-source-137-2007-nd-cp.md).
+The two malformed Decree 14 index rows, the archived actual decree, and their
+canonical Resolution 14 correction are recorded in
+[`2026-08-31.07`](docs/journals/2026-08-31.07.ward-index-correction-14-2008.md).
 The later graph-building slice remains gated: only after Task 7 passes should
 the observations and resolved events be promoted into canonical ward entities
 and `LineageEdge` records. Do not emit or upload ward Wikidata statements yet.

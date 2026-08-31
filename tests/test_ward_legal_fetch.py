@@ -108,6 +108,21 @@ def _curated_government_code_correction_html():
     """.encode()
 
 
+def _index_correction_evidence_html():
+    return """
+      <html><body><table>
+        <tr><td>Số ký hiệu</td><td>14/2008/NĐ-CP</td></tr>
+        <tr><td>Ngày ban hành</td><td>04-02-2008</td></tr>
+        <tr><td>Trích yếu</td><td>Quy định tổ chức các cơ quan chuyên môn
+          thuộc Ủy ban nhân dân huyện, quận, thị xã, thành phố thuộc tỉnh</td></tr>
+        <tr><td>Tài liệu đính kèm</td><td>
+          <a class="view-file"
+             href="https://datafiles.chinhphu.vn/cpp/files/vbpq/2008/02/59034_nd14cp.doc">original</a>
+        </td></tr>
+      </table></body></html>
+    """.encode()
+
+
 def _provincial_archive_html():
     return """
       <html><body>
@@ -786,6 +801,60 @@ def test_supplemental_fetch_archives_canonical_official_artifact(tmp_path, monke
     assert result == [{"instrument_id": item["instrument_id"], "status": "fetched"}]
     assert rawcache.raw_is_verified(path)
     assert rawcache.manifest_entry(path)["source_class"] == "official"
+
+
+def test_index_correction_fetch_archives_verified_mismatch_evidence(
+        tmp_path, monkeypatch):
+    monkeypatch.setattr(rawcache, "RAW", tmp_path / "raw")
+    monkeypatch.setattr(rawcache, "MANIFEST", tmp_path / "raw" / "manifest.jsonl")
+    source_url = "https://chinhphu.vn/default.aspx?pageid=27160&docid=57075"
+    attachment_url = (
+        "https://datafiles.chinhphu.vn/cpp/files/vbpq/2008/02/59034_nd14cp.doc"
+    )
+    item = {
+        "evidence_id": "actual-14-2008-nd-cp@2008-02-25",
+        "code": "14/2008/NĐ-CP",
+        "issued_date": "2008-02-04",
+        "effective_date": "2008-02-25",
+        "title": (
+            "Quy định tổ chức các cơ quan chuyên môn thuộc Ủy ban nhân dân "
+            "huyện, quận, thị xã, thành phố thuộc tỉnh"
+        ),
+        "source_url": source_url,
+        "source_path": "legal/ward/index-corrections/14-2008-nd-cp.metadata.html",
+        "attachments": [{
+            "url": attachment_url,
+            "path": "legal/ward/index-corrections/14-2008-nd-cp.original.doc",
+            "media_type": "doc",
+        }],
+        "invalidated_instrument_ids": [
+            "14/2008/NĐ-CP@2008-07-02",
+            "14/2008/NĐ-CP@2008-08-03",
+        ],
+    }
+    overrides_path = tmp_path / "overrides.json"
+    overrides_path.write_text(
+        json.dumps({"index_correction_evidence": [item]}), encoding="utf-8",
+    )
+    ole_document = b"\xd0\xcf\x11\xe0\xa1\xb1\x1a\xe1" + b"word" * 30
+
+    result = fetcher.fetch_index_correction_evidence(
+        overrides_path=overrides_path,
+        session=FakeSession([_index_correction_evidence_html(), ole_document]),
+    )
+
+    assert result == [{
+        "evidence_id": item["evidence_id"],
+        "metadata_status": "fetched",
+        "attachment_statuses": ["fetched"],
+    }]
+    metadata = rawcache.manifest_entry(item["source_path"])
+    attachment = rawcache.manifest_entry(item["attachments"][0]["path"])
+    assert metadata["source_role"] == "legal_index_correction_metadata"
+    assert metadata["invalidated_instrument_ids"] == item[
+        "invalidated_instrument_ids"
+    ]
+    assert attachment["detected_media_type"] == "doc"
 
 
 def test_real_legal_index_includes_2026_acceptance_and_reuses_34_pairs():
