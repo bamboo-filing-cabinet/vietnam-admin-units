@@ -73,7 +73,13 @@
 > Ministry classification evidence, and seven reconciled topology components.
 > It remains open because the official bytes are blocked; date-qualified
 > provenance also removes the Hồng Ngự URL from the later Bến Tre Decree 08
-> (`2026-08-31.09`). Continue with Decree `10/NĐ-CP@2009-01-07`. Only
+> (`2026-08-31.09`). Decree `10/NĐ-CP@2009-01-07` now has a complete Ba
+> Tơ–Sơn Tây secondary transcription, contemporaneous Government Office
+> corroboration, exact official VBPL full-text and original ZIP leads, and
+> four reconciled commune creations. It remains open because the official
+> bytes are blocked; the 2008 decree date is preserved beside the 2009 NSO
+> observation key (`2026-08-31.10`). Continue with Decree
+> `11/NĐ-CP@2009-01-07`. Only
 > after the source audit closes should historical records be promoted into canonical
 > entities/`LineageEdge` objects. Wikidata emission remains gated.
 

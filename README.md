@@ -165,10 +165,15 @@ transcription, an exact official VBPL full-text and original ZIP lead,
 contemporaneous provincial implementation corroboration, and later Ministry
 classification evidence. Its seven linked topology components are reconciled,
 but the official bytes remain blocked by HTTP 403. Date-qualified provenance
-also removes this Hồng Ngự source from the later Bến Tre Decree 08. Continue
-with Decree `10/NĐ-CP@2009-01-07` (Ba Tơ and Sơn Tây, Quảng Ngãi). Do
-**not** start Task 8 or promote
-secondary evidence to primary merely to close the count.
+also removes this Hồng Ngự source from the later Bến Tre Decree 08.
+Decree `10/NĐ-CP@2009-01-07` now has a complete Ba Tơ–Sơn Tây secondary
+transcription, contemporaneous Government Office corroboration, and exact
+official VBPL full-text and original ZIP leads. Its four commune-creation
+components are reconciled, but the official bytes remain blocked. The decree
+was issued in 2008; `2009-01-07` remains the NSO observation key rather than
+the legal date. Continue with Decree `11/NĐ-CP@2009-01-07` (Mường Lát and
+Quan Sơn, Thanh Hóa). Do **not** start Task 8 or promote secondary evidence to
+primary merely to close the count.
 
 Read the current [shutdown handoff](docs/journals/2026-08-30.01.ward-source-audit-handoff.md),
 the generated [open-instrument checklist](docs/ward-source-open-instruments.md),
