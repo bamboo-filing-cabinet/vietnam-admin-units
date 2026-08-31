@@ -92,10 +92,11 @@ TVPL links are included only to confirm identity and title. TVPL pages, search s
   - Date discrepancy to preserve: registry effective 2006-07-04; official issue 2006-06-19; official effective 2006-07-13.
   - Retrieval note: Preserve the official issue/effective dates alongside the registry date and the legal 2006 parent label `thị xã Tân An` beside the SOAP roster's later `Thành phố Tân An` echo. Direct requests to the official full-text, print, ministry-mirror, and properties pages returned HTTP 403 challenges; the legacy Ministry of Justice hostname did not resolve. The indexed output does not expose an exact attachment filename, so do not guess one. The Government legal portal returned only an unrelated Decree 160 substring match for the exact-code query and no title match, and the Government Gazette API found no publication PDF. Save the full official page and any attachment it actually offers in a normal browser before closing the source gate.
 - [ ] **Change-bearing** `64/2006/NĐ-CP@2006-07-08` — V/v điều chỉnh địa giới hành chính xã, phường của thị xã Hà Giang và huyện Vị Xuyên, tỉnh Hà Giang
-  - Current evidence: no source URL recorded.
+  - Current evidence: secondary identity reference only.
+  - Identity reference only: <https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-dinh-64-2006-ND-CP-dieu-chinh-dia-gioi-hanh-chinh-xa-phuong-thi-xa-Ha-Giang-huyen-Vi-Xuyen-tinh-Ha-Giang-12776.aspx>
   - Official lead (not yet archived): <https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=15920>
   - Date discrepancy to preserve: registry effective 2006-07-08; official issue 2006-06-23; official effective 2006-07-16.
-  - Retrieval note: Preserve the official issue/effective dates alongside the registry date. Save the full page and any offered original attachment in a normal browser.
+  - Retrieval note: Preserve the official issue/effective dates alongside the registry date and the legal 2006 parent label `thị xã Hà Giang` beside the SOAP roster's later `Thành phố Hà Giang` echo. Direct requests to the official full-text, print, ministry-mirror, and properties pages returned HTTP 403 challenges; the legacy Ministry of Justice hostname did not resolve. The indexed output does not expose an exact attachment filename, so do not guess one. The Government legal portal returned HTTP 502 during bounded exact-code and title retries, web searches found no alternate record, and the Government Gazette API found no publication PDF. Save the full official page and any attachment it actually offers in a normal browser before closing the source gate.
 
 ### 2007
 

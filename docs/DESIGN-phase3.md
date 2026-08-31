@@ -51,7 +51,11 @@
 > complete parallel secondary texts, Government press corroboration, an
 > indexed official lead, and reconciled topology for three Tân An ward
 > establishments, but the official bytes remain blocked (`2026-08-31.04`).
-> Continue with Decree `64/2006/NĐ-CP@2006-07-08`. Only
+> Decree `64/2006/NĐ-CP@2006-07-08` now has complete parallel secondary texts,
+> an indexed official lead, and reconciled topology for five whole-commune
+> parent changes plus a roster-invisible boundary transfer, but the official
+> bytes remain blocked (`2026-08-31.05`). Continue with Decree
+> `137/2007N@2007-09-11`. Only
 > after the source audit closes should historical records be promoted into canonical
 > entities/`LineageEdge` objects. Wikidata emission remains gated.
 

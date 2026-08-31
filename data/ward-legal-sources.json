@@ -2,7 +2,7 @@
   "input_fingerprints": {
     "data/decree-urls.json": "7046a0d47c3e78114ba3dd10c1d77671ae76d32b62f4ae66b794487193676b0c",
     "data/raw/nghidinh.json": "2d141ae52886f78bf476defe6f8275ea31a910d3c1f65288a1e8b067924756fb",
-    "data/ward-legal-secondary-urls.json": "e774f503ec54443025550d273a773b78030398e44675c0684b88ff83f66431d0"
+    "data/ward-legal-secondary-urls.json": "3843be6496d8f39fb6e2082500a1a4dd002512bf4f10d2aa48c87013d4583ad9"
   },
   "instruments": [
     {
@@ -2413,7 +2413,9 @@
       "instrument_id": "64/2006/NĐ-CP@2006-07-08",
       "metadata_path": "legal/ward/2006-07-08/64-2006-nd-cp.metadata.html",
       "metadata_url": "",
-      "secondary_urls": [],
+      "secondary_urls": [
+        "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-dinh-64-2006-ND-CP-dieu-chinh-dia-gioi-hanh-chinh-xa-phuong-thi-xa-Ha-Giang-huyen-Vi-Xuyen-tinh-Ha-Giang-12776.aspx"
+      ],
       "title_variants": [
         "V/v điều chỉnh địa giới hành chính xã, phường của thị xã Hà Giang và huyện Vị Xuyên, tỉnh Hà Giang"
       ]
@@ -10679,7 +10681,7 @@
     "official_code_differences": 11,
     "official_matches": 415,
     "preserved_artifacts": 823,
-    "secondary_tvpl_urls": 118,
+    "secondary_tvpl_urls": 119,
     "status_counts": {
       "official_not_found": 34,
       "reused_existing_2025_pair": 34,

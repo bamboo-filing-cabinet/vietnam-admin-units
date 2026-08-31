@@ -41,8 +41,8 @@ re-scrape it.
 > zero legally unlinked observed events. See journal `2026-08-28.08`.
 >
 > **Task 7 in progress (2026-08-31).** Official recovery and one-at-a-time
-> secondary reviews now leave 34 primary-source-open instruments: 10 `missing`
-> and 24 `secondary_only`; 32 are change-bearing. Official coverage is 415/449.
+> secondary reviews now leave 34 primary-source-open instruments: 9 `missing`
+> and 25 `secondary_only`; 32 are change-bearing. Official coverage is 415/449.
 > Decree `84/2005-NĐ-CP@2005-07-22` now has a complete indexed official VBPL
 > print view and exact DOC URL, but the live endpoints timed out; its official
 > issue/effective dates differ from the earlier registry date
@@ -71,8 +71,12 @@ re-scrape it.
 > `60/2006/NĐ-CP@2006-07-04` now has complete parallel secondary texts,
 > contemporaneous Government press corroboration, an indexed official lead,
 > and reconciled topology for three Tân An ward establishments, but remains
-> open because the official bytes are blocked (`2026-08-31.04`). Continue with
-> Decree `64/2006/NĐ-CP@2006-07-08`; do not start Task 8.
+> open because the official bytes are blocked (`2026-08-31.04`). Decree
+> `64/2006/NĐ-CP@2006-07-08` now has complete parallel secondary texts, an
+> indexed official lead, and reconciled topology for five whole-commune parent
+> changes plus a roster-invisible boundary transfer, but remains open because
+> the official bytes are blocked (`2026-08-31.05`). Continue with Decree
+> `137/2007N@2007-09-11`; do not start Task 8.
 
 ## Outcome
 
@@ -340,7 +344,7 @@ territory, title, and named-unit checks.
 
 > **2026-08-31 handoff:** Task 7 remains in progress. The current materialized
 > ledger is fresh and verified at 415/449 official, 34 primary-source-open, and
-> 32 change-bearing-open instruments. The open set contains 10 `missing` and 24
+> 32 change-bearing-open instruments. The open set contains 9 `missing` and 25
 > `secondary_only` rows. Resolution `469/NQ-UBTVQH15@2022-04-10` has a
 > structured official PDF recovery lead but remains open because its bytes are
 > not archived (`docs/journals/2026-08-30.02.ward-secondary-provenance-469.md`);
@@ -362,8 +366,12 @@ territory, title, and named-unit checks.
 > `60/2006/NĐ-CP@2006-07-04` now has complete parallel secondary texts,
 > contemporaneous Government press corroboration, an indexed official lead,
 > and reconciled topology for three Tân An ward establishments, but remains
-> open because the official bytes are blocked (`2026-08-31.04`). Continue with
-> Decree `64/2006/NĐ-CP@2006-07-08`; do not start Task 8.
+> open because the official bytes are blocked (`2026-08-31.04`). Decree
+> `64/2006/NĐ-CP@2006-07-08` now has complete parallel secondary texts, an
+> indexed official lead, and reconciled topology for five whole-commune parent
+> changes plus a roster-invisible boundary transfer, but remains open because
+> the official bytes are blocked (`2026-08-31.05`). Continue with Decree
+> `137/2007N@2007-09-11`; do not start Task 8.
 
 Add a command that regenerates the coverage JSON and prints a concise audit.
 Write a dated completion journal containing final counts, reviewed exceptions,
