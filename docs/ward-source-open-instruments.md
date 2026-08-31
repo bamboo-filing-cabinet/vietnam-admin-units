@@ -2,13 +2,13 @@
 
 Generated from `data/ward-source-coverage.json` by `vn_admin_units.ward_source_coverage --open-note`.
 
-Current audit: **34 primary-source-open instruments**; **32 are tied to observed ward changes**.
+Current audit: **33 primary-source-open instruments**; **31 are tied to observed ward changes**.
 
 ## Queue history
 
 The personal-search checkpoint at commit `89107d0` recorded **39 open instruments**, including **37 change-bearing instruments**. Resolution 721/NQ-UBTVQH15 was subsequently recovered from the National Assembly, Resolution 39/NQ-CP from the Government legal portal, and Resolution 904/NQ-UBTVQH13 from the Ninh Bình Provincial Historical Archives. Later recoveries, if any, are reflected in the live counts above.
 
-Exact official-page leads are recorded below for **18 of the 34 current items**. These links are leads only: none count as recovered provenance until the full official page or original attachment is saved, hashed, registered, and verified offline.
+Exact official-page leads are recorded below for **17 of the 33 current items**. These links are leads only: none count as recovered provenance until the full official page or original attachment is saved, hashed, registered, and verified offline.
 
 ## What counts as a useful find
 
@@ -97,16 +97,6 @@ TVPL links are included only to confirm identity and title. TVPL pages, search s
   - Official lead (not yet archived): <https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=15920>
   - Date discrepancy to preserve: registry effective 2006-07-08; official issue 2006-06-23; official effective 2006-07-16.
   - Retrieval note: Preserve the official issue/effective dates alongside the registry date and the legal 2006 parent label `thị xã Hà Giang` beside the SOAP roster's later `Thành phố Hà Giang` echo. Direct requests to the official full-text, print, ministry-mirror, and properties pages returned HTTP 403 challenges; the legacy Ministry of Justice hostname did not resolve. The indexed output does not expose an exact attachment filename, so do not guess one. The Government legal portal returned HTTP 502 during bounded exact-code and title retries, web searches found no alternate record, and the Government Gazette API found no publication PDF. Save the full official page and any attachment it actually offers in a normal browser before closing the source gate.
-
-### 2007
-
-- [ ] **Change-bearing** `137/2007N@2007-09-11` — điều chỉnh địa giới hành chính xã thuộc các huyện: Krông An, Ea Kar, Krông Búk, M'Drắk, Ea H'Leo; điều chỉnh địa giới hành chính huyện Krông An để thành lập huyện Cư Kuin, tỉnh Đắk Lắk
-  - Current evidence: secondary identity reference only.
-  - Identity reference only: <https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-dinh-137-2007-ND-CP-dieu-chinh-dia-gioi-hanh-chinh-xa-de-thanh-lap-xa-thuoc-huyen-Krong-Ana-Ea-Kar-Krong-Buk-M-Drak-Ea-H-Leo-54828.aspx>
-  - Official lead (not yet archived): <https://vbpl.vn/daklak/Pages/vbpq-toanvan.aspx?ItemID=13641>
-  - Expected original attachment: `137.2007.ND.CP.zip`
-  - Date discrepancy to preserve: registry effective 2007-09-11; official issue 2007-08-27; official effective 2007-09-18.
-  - Retrieval note: Preserve the official issue/effective dates and corrected formal code alongside the registry values. Save the full page and original ZIP in a normal browser.
 
 ### 2008
 

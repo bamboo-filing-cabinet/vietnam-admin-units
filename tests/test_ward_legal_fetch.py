@@ -858,6 +858,19 @@ def test_real_legal_index_includes_2026_acceptance_and_reuses_34_pairs():
                 "hành chính xã Sa Nhơn, thành lập xã Hơ Moong..."
             ),
         },
+        "137/2007N@2007-09-11": {
+            "source_url": (
+                "https://chinhphu.vn/default.aspx?pageid=27160&docid=37761"
+            ),
+            "official_code": "137/2007/NĐ-CP",
+            "official_effective_date": "2007-09-18",
+            "official_title": (
+                "Về việc điều chỉnh địa giới hành chính xã để thành lập xã "
+                "thuộc các huyện: Krông Ana, Ea Kar, Krông Búk, M'Drắk, Ea "
+                "H'Leo; điều chỉnh địa giới hành chính huyện Krông Ana để "
+                "thành lập huyện Cư Kuin, tỉnh Đắk Lắk."
+            ),
+        },
         "39/NQ-CP@2009-08-15": {
             "source_url": (
                 "https://chinhphu.vn/default.aspx?pageid=27160&docid=90252"

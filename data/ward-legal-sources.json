@@ -3077,16 +3077,33 @@
       ]
     },
     {
-      "attachments": [],
+      "attachments": [
+        {
+          "media_type": "doc",
+          "path": "legal/ward/2007-09-11/137-2007n.original.doc",
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2007/09/39260_nd137ttg.doc"
+        }
+      ],
       "code": "137/2007N",
-      "discovery_status": "official_not_found",
+      "code_match_status": "official_code_differs",
+      "date_match_status": "plausible_effective_lag",
+      "discovery_status": "verified_official_match",
       "effective_date": "2007-09-11",
+      "effective_date_match_status": "index_effective_date_differs",
+      "effective_gap_days": 15,
       "instrument_id": "137/2007N@2007-09-11",
+      "issued_date": "2007-08-27",
       "metadata_path": "legal/ward/2007-09-11/137-2007n.metadata.html",
-      "metadata_url": "",
+      "metadata_url": "https://chinhphu.vn/default.aspx?pageid=27160&docid=37761",
+      "official_code": "137/2007/NĐ-CP",
+      "official_effective_date": "2007-09-18",
+      "official_title": "Về việc điều chỉnh địa giới hành chính xã để thành lập xã thuộc các huyện: Krông Ana, Ea Kar, Krông Búk, M'Drắk, Ea H'Leo; điều chỉnh địa giới hành chính huyện Krông Ana để thành lập huyện Cư Kuin, tỉnh Đắk Lắk.",
+      "rendered_full_text_date": "2007-08-27",
+      "rendered_full_text_date_match_status": "exact",
       "secondary_urls": [
         "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-dinh-137-2007-ND-CP-dieu-chinh-dia-gioi-hanh-chinh-xa-de-thanh-lap-xa-thuoc-huyen-Krong-Ana-Ea-Kar-Krong-Buk-M-Drak-Ea-H-Leo-54828.aspx"
       ],
+      "source_provider": "government_legal_portal",
       "title_variants": [
         "điều chỉnh địa giới hành chính xã thuộc các huyện: Krông An, Ea Kar, Krông Búk, M'Drắk, Ea H'Leo; điều chỉnh địa giới hành chính huyện Krông An để thành lập huyện Cư Kuin, tỉnh Đắk Lắk"
       ]
@@ -10677,15 +10694,15 @@
   "summary": {
     "index_date_anomalies": 2,
     "instruments": 449,
-    "official_attachments": 408,
-    "official_code_differences": 11,
-    "official_matches": 415,
-    "preserved_artifacts": 823,
+    "official_attachments": 409,
+    "official_code_differences": 12,
+    "official_matches": 416,
+    "preserved_artifacts": 825,
     "secondary_tvpl_urls": 119,
     "status_counts": {
-      "official_not_found": 34,
+      "official_not_found": 33,
       "reused_existing_2025_pair": 34,
-      "verified_official_match": 381
+      "verified_official_match": 382
     }
   }
 }

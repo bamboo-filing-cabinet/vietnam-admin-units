@@ -5070,8 +5070,11 @@
               "title_named_unit",
               "title_territory_or_named_unit"
             ],
-            "primary_source_paths": [],
-            "source_status": "secondary_only"
+            "primary_source_paths": [
+              "legal/ward/2007-09-11/137-2007n.metadata.html",
+              "legal/ward/2007-09-11/137-2007n.original.doc"
+            ],
+            "source_status": "verified_official_artifact"
           }
         ]
       },
@@ -39181,9 +39184,9 @@
     "legal_linkage_overrides_path": "data/ward-legal-linkage-overrides.json",
     "legal_linkage_overrides_sha256": "c841b3dde6584196a5f273b7e6e65f129373f8bd1d51c14d9604a8dacc83872d",
     "legal_sources_path": "data/ward-legal-sources.json",
-    "legal_sources_sha256": "fba53cf1b9f4d504f03f182640c92b55b20d560b4729405d44183832bb274c61",
+    "legal_sources_sha256": "691365cba300deb530c0e82505c28e12a19021d250825bf5dde6d9dbca43b662",
     "manifest_path": "data/raw/manifest.jsonl",
-    "manifest_sha256": "893de5fd38b06f1ea9c23afb72579a099d7707c485126eacaaabb3eebc5e10d3",
+    "manifest_sha256": "110fc625cee4ed20127fe9f443aedc0888630d763a403fb2732a01e216408da9",
     "observed_changes_path": "data/ward-observed-changes.json",
     "observed_changes_sha256": "91f441b73d9489c30e26e4a1c585600fcf435b0648a4f87ad4bc86aa9ca9d1df",
     "ward_2025_composition_path": "data/ward-2025-composition.json",
@@ -39713,19 +39716,19 @@
       },
       "path": "data/ward-legal-sources.json",
       "schema_version": 1,
-      "sha256": "fba53cf1b9f4d504f03f182640c92b55b20d560b4729405d44183832bb274c61",
+      "sha256": "691365cba300deb530c0e82505c28e12a19021d250825bf5dde6d9dbca43b662",
       "summary": {
         "index_date_anomalies": 2,
         "instruments": 449,
-        "official_attachments": 408,
-        "official_code_differences": 11,
-        "official_matches": 415,
-        "preserved_artifacts": 823,
+        "official_attachments": 409,
+        "official_code_differences": 12,
+        "official_matches": 416,
+        "preserved_artifacts": 825,
         "secondary_tvpl_urls": 119,
         "status_counts": {
-          "official_not_found": 34,
+          "official_not_found": 33,
           "reused_existing_2025_pair": 34,
-          "verified_official_match": 381
+          "verified_official_match": 382
         }
       }
     },
@@ -53288,7 +53291,32 @@
       "index_urls": [],
       "instrument_id": "137/2007N@2007-09-11",
       "observation_status": "topology_components_linked",
-      "primary_sources": [],
+      "primary_sources": [
+        {
+          "bytes": 126352,
+          "declared_media_type": "",
+          "detected_media_type": "",
+          "media_type": "html",
+          "method": "official Government legal metadata HTML",
+          "path": "legal/ward/2007-09-11/137-2007n.metadata.html",
+          "retrieved_at": "2026-08-31T17:24:05Z",
+          "sha256": "ff254534b5b0b4225867ae0fe1a39f58949d8d073b22ca76cf94897cfb681357",
+          "source_class": "official",
+          "source_url": "https://chinhphu.vn/default.aspx?pageid=27160&docid=37761"
+        },
+        {
+          "bytes": 50688,
+          "declared_media_type": "doc",
+          "detected_media_type": "doc",
+          "media_type": "other",
+          "method": "official Government legal original attachment",
+          "path": "legal/ward/2007-09-11/137-2007n.original.doc",
+          "retrieved_at": "2026-08-31T17:24:07Z",
+          "sha256": "88d6e0b7cd94250341a8477306faf695539aabfb7a17bd7ce5aed37ffcd59024",
+          "source_class": "official",
+          "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2007/09/39260_nd137ttg.doc"
+        }
+      ],
       "review_status": "reviewed_title_and_source_scope",
       "secondary_sources": [
         {
@@ -53305,10 +53333,18 @@
         }
       ],
       "source_discovery": {
-        "discovery_status": "official_not_found",
-        "metadata_url": ""
+        "code_match_status": "official_code_differs",
+        "date_match_status": "plausible_effective_lag",
+        "discovery_status": "verified_official_match",
+        "effective_date_match_status": "index_effective_date_differs",
+        "effective_gap_days": 15,
+        "issued_date": "2007-08-27",
+        "metadata_url": "https://chinhphu.vn/default.aspx?pageid=27160&docid=37761",
+        "official_code": "137/2007/NĐ-CP",
+        "official_effective_date": "2007-09-18",
+        "source_provider": "government_legal_portal"
       },
-      "source_status": "secondary_only",
+      "source_status": "verified_official_artifact",
       "title_variants": [
         "điều chỉnh địa giới hành chính xã thuộc các huyện: Krông An, Ea Kar, Krông Búk, M'Drắk, Ea H'Leo; điều chỉnh địa giới hành chính huyện Krông An để thành lập huyện Cư Kuin, tỉnh Đắk Lắk"
       ]
@@ -73200,7 +73236,6 @@
       "10/NĐ-CP@2009-01-07",
       "11/NĐ-CP@2009-01-07",
       "12/NĐ-CP@2009-01-07",
-      "137/2007N@2007-09-11",
       "14/NĐ-CP@2009-04-11",
       "26/NQ-CP@2009-06-11",
       "28/NQ-CP@2009-06-30",
@@ -73276,7 +73311,6 @@
       "39/2006/NĐ-CP@2006-05-06",
       "60/2006/NĐ-CP@2006-07-04",
       "64/2006/NĐ-CP@2006-07-08",
-      "137/2007N@2007-09-11",
       "14/2008/NĐ-CP@2008-07-02",
       "14/2008/NĐ-CP@2008-08-03",
       "07/NĐ-CP@2009-01-07",
@@ -73335,7 +73369,7 @@
     "verdict": "no_endpoint_state_difference_observed"
   },
   "summary": {
-    "change_bearing_source_open_instruments": 32,
+    "change_bearing_source_open_instruments": 31,
     "classified_instruments": 449,
     "classified_legal_index_rows": 453,
     "component_assignment_counts": {
@@ -73368,9 +73402,9 @@
     },
     "legal_index_records": 544,
     "observed_change_intervals": 179,
-    "official_source_matches": 415,
-    "official_source_not_found": 34,
-    "primary_source_open_instruments": 34,
+    "official_source_matches": 416,
+    "official_source_not_found": 33,
+    "primary_source_open_instruments": 33,
     "reviewed_event_statuses": {
       "explicitly_classified_non_legal_transition": 1,
       "legal_context_classified": 16,

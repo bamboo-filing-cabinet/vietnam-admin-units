@@ -30,8 +30,8 @@
 > (`docs/journals/2026-08-28.02.ward-2025-composition-lineage.md`). Historical
 > source Tasks 1–6 are also complete: the 204 SOAP snapshots and 39 crosswalks
 > verify; all 453 candidate legal rows and 449 unique instruments are classified
-> and linked; and 415/449 instruments now have 823 archived official artifacts.
-> Resume at source-closure Task 7 with 34 primary-source-open instruments, 32 of
+> and linked; and 416/449 instruments now have 825 archived official artifacts.
+> Resume at source-closure Task 7 with 33 primary-source-open instruments, 31 of
 > them change-bearing. Resolution `469/NQ-UBTVQH15@2022-04-10` and Decrees 84,
 > 85, 97, and 98 of 2005 now have exact official attachment recovery paths, but
 > their bytes remain unavailable from the live legacy endpoints; see journals
@@ -54,8 +54,12 @@
 > Decree `64/2006/NĐ-CP@2006-07-08` now has complete parallel secondary texts,
 > an indexed official lead, and reconciled topology for five whole-commune
 > parent changes plus a roster-invisible boundary transfer, but the official
-> bytes remain blocked (`2026-08-31.05`). Continue with Decree
-> `137/2007N@2007-09-11`. Only
+> bytes remain blocked (`2026-08-31.05`). Decree
+> `137/2007N@2007-09-11` is now closed with archived Government metadata and
+> its original Word attachment; five commune creations and seven continuing
+> Cư Kuin parent changes are reconciled separately from eleven concurrent Vĩnh
+> Long changes (`2026-08-31.06`). Continue with the context-only
+> `14/2008/NĐ-CP@2008-07-02` index row. Only
 > after the source audit closes should historical records be promoted into canonical
 > entities/`LineageEdge` objects. Wikidata emission remains gated.
 

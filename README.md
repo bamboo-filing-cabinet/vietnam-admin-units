@@ -98,9 +98,9 @@ classified, and linked with zero unclassified instruments or legally unlinked
 observed events.
 
 **Resume at Task 7: close the remaining official-source residue one instrument
-at a time.** The current audit is **415/449 official**, with **34
-primary-source-open instruments**: 9 `missing` and 25 `secondary_only`; **32
-are change-bearing**. The registry preserves 408 official attachments and 823
+at a time.** The current audit is **416/449 official**, with **33
+primary-source-open instruments**: 9 `missing` and 24 `secondary_only`; **31
+are change-bearing**. The registry preserves 409 official attachments and 825
 official artifacts. Decree `84/2005-NĐ-CP@2005-07-22` (Thuận Bắc, Ninh Thuận)
 now has a complete indexed official VBPL print view and exact DOC attachment
 URL, but live retrieval still times out. Preserve its official 2005-07-07 issue
@@ -142,8 +142,15 @@ indexed official lead, and reconciled topology for five
 whole-commune parent changes plus a roster-invisible boundary transfer. Its
 official bytes remain blocked by HTTP 403; the 2006-07-08 observation date
 remains distinct from the 2006-07-16 legal effective date, and SOAP's later
-`Thành phố Hà Giang` label is not projected backward. The next bounded review
-target is Decree `137/2007N@2007-09-11` (Đắk Lắk). Do
+`Thành phố Hà Giang` label is not projected backward. Decree
+`137/2007N@2007-09-11` is now closed with archived
+Government metadata and the original Word attachment for formal Decree
+`137/2007/NĐ-CP`. The official issue date is 2007-08-27 and legal effective
+date is 2007-09-18, while 2007-09-11 remains the NSO observation key. The
+document reconciles five commune creations and the seven continuing communes
+re-parented into newly created Cư Kuin; eleven concurrent Vĩnh Long parent
+changes in the same SOAP interval belong to Decree 125/2007/NĐ-CP. Continue
+with the context-only `14/2008/NĐ-CP@2008-07-02` index row. Do
 **not** start Task 8 or promote
 secondary evidence to primary merely to close the count.
 
@@ -188,6 +195,9 @@ supplied-source review are recorded in
 Decree 64's official lead, five parent changes, boundary transfer, and
 supplied-source review are recorded in
 [`2026-08-31.05`](docs/journals/2026-08-31.05.ward-secondary-provenance-64.md).
+Decree 137's official Government recovery, code/date discrepancies, Cư Kuin
+topology, and concurrent-event disambiguation are recorded in
+[`2026-08-31.06`](docs/journals/2026-08-31.06.ward-source-137-2007-nd-cp.md).
 The later graph-building slice remains gated: only after Task 7 passes should
 the observations and resolved events be promoted into canonical ward entities
 and `LineageEdge` records. Do not emit or upload ward Wikidata statements yet.

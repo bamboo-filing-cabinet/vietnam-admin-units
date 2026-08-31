@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-30",
+  "as_of": "2026-08-31",
   "leads": [
     {
       "access_status": "official_full_text_and_attachment_indexed_raw_retrieval_blocked",
@@ -165,23 +165,6 @@
         "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=15920"
       ],
       "retrieval_notes": "Preserve the official issue/effective dates alongside the registry date and the legal 2006 parent label `thị xã Hà Giang` beside the SOAP roster's later `Thành phố Hà Giang` echo. Direct requests to the official full-text, print, ministry-mirror, and properties pages returned HTTP 403 challenges; the legacy Ministry of Justice hostname did not resolve. The indexed output does not expose an exact attachment filename, so do not guess one. The Government legal portal returned HTTP 502 during bounded exact-code and title retries, web searches found no alternate record, and the Government Gazette API found no publication PDF. Save the full official page and any attachment it actually offers in a normal browser before closing the source gate."
-    },
-    {
-      "access_status": "official_page_indexed_raw_retrieval_blocked",
-      "date_discrepancy": {
-        "official_effective_date": "2007-09-18",
-        "official_issue_date": "2007-08-27",
-        "registry_effective_date": "2007-09-11"
-      },
-      "expected_attachment_names": [
-        "137.2007.ND.CP.zip"
-      ],
-      "instrument_id": "137/2007N@2007-09-11",
-      "lead_basis": "The indexed official full-text record matches Decree 137/2007/NĐ-CP and its Đắk Lắk administrative-boundary title and exposes the original ZIP filename.",
-      "official_page_urls": [
-        "https://vbpl.vn/daklak/Pages/vbpq-toanvan.aspx?ItemID=13641"
-      ],
-      "retrieval_notes": "Preserve the official issue/effective dates and corrected formal code alongside the registry values. Save the full page and original ZIP in a normal browser."
     },
     {
       "access_status": "official_page_indexed_raw_retrieval_blocked",
