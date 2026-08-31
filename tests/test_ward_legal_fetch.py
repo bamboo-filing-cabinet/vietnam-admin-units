@@ -857,6 +857,38 @@ def test_index_correction_fetch_archives_verified_mismatch_evidence(
     assert attachment["detected_media_type"] == "doc"
 
 
+def test_secondary_urls_support_date_qualified_empty_overrides(
+        tmp_path, monkeypatch):
+    tvpl_url = "https://thuvienphapluat.vn/van-ban/example.aspx"
+    secondary_path = tmp_path / "secondary.json"
+    secondary_path.write_text(json.dumps({
+        "07/NĐ-CP": tvpl_url,
+        "07/NĐ-CP@2009-01-07": tvpl_url,
+        "07/NĐ-CP@2009-02-24": [],
+    }), encoding="utf-8")
+
+    secondary = fetcher._secondary_url_map((secondary_path,))
+
+    assert fetcher._secondary_urls_for({
+        "code": "07/NĐ-CP", "effective_date": "2009-01-07",
+    }, secondary) == [tvpl_url]
+    assert fetcher._secondary_urls_for({
+        "code": "07/NĐ-CP", "effective_date": "2009-02-24",
+    }, secondary) == []
+
+    monkeypatch.setattr(fetcher, "_secondary_url_map", lambda: secondary)
+    registry = {"instruments": [{
+        "instrument_id": "07/NĐ-CP@2009-02-24",
+        "code": "07/NĐ-CP",
+        "effective_date": "2009-02-24",
+        "discovery_status": "official_not_found",
+        "attachments": [],
+        "secondary_urls": [tvpl_url],
+    }]}
+    normalized = fetcher.normalize_registry_metadata(registry)
+    assert normalized["instruments"][0]["secondary_urls"] == []
+
+
 def test_real_legal_index_includes_2026_acceptance_and_reuses_34_pairs():
     records = fetcher._instrument_records()
     secondary = fetcher._secondary_url_map()
@@ -868,6 +900,13 @@ def test_real_legal_index_includes_2026_acceptance_and_reuses_34_pairs():
         "Resolution-1656-NQ-UBTVQH15-2025-the-arrangement-of-commune-level-"
         "administrative-divisions-of-Hanoi-city/662762/tieng-anh.aspx"
     ]
+    buon_ho_url = (
+        "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/"
+        "Nghi-dinh-07-ND-CP-dieu-chinh-dia-gioi-xa-thuoc-huyen-Krong-Buk-"
+        "thanh-lap-thi-xa-Buon-Ho-phuong-thuoc-tinh-Dak-Lak-84045.aspx"
+    )
+    assert secondary["07/NĐ-CP@2009-01-07"] == [buon_ho_url]
+    assert secondary["07/NĐ-CP@2009-02-24"] == []
     assert secondary["85/2005/NĐ-CP"] == [
         "https://thuvienphapluat.vn/van-ban/Bat-dong-san/"
         "Nghi-dinh-85-2005-ND-CP-thanh-lap-xa-thuoc-huyen-Nui-Thanh-"

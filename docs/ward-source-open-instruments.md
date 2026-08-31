@@ -104,8 +104,10 @@ TVPL links are included only to confirm identity and title. TVPL pages, search s
   - Current evidence: secondary identity reference only.
   - Identity reference only: <https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-dinh-07-ND-CP-dieu-chinh-dia-gioi-xa-thuoc-huyen-Krong-Buk-thanh-lap-thi-xa-Buon-Ho-phuong-thuoc-tinh-Dak-Lak-84045.aspx>
   - Official lead (not yet archived): <https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=12658>
+  - Official lead (not yet archived): <https://vbpl.vn/TW/Pages/vbpq-thuoctinh.aspx?ItemID=12658&Keyword=>
+  - Expected original attachment: `07.NĐ.CP.zip`
   - Date discrepancy to preserve: registry effective 2009-01-07; official issue 2008-12-23; official effective 2009-01-18.
-  - Retrieval note: Preserve the official issue/effective dates alongside the registry date rather than normalizing the discrepancy away. The full page and any original attachment still need to be browser-saved.
+  - Retrieval note: Preserve the official issue/effective dates alongside the 2009-01-07 NSO observation key rather than normalizing the discrepancy away. Direct requests to the official full-text and properties pages returned HTTP 403 browser challenges, and no interactive browser was available to save the advertised ZIP. The Government legal portal exposed only a later, unrelated 07/NĐ-CP issued 2009-02-09 for Nghệ An; exact-code and Buôn Hồ title searches found no Government copy. The Government Gazette API returned no match, and its live web archive stops at July 2010. Save the official page and 07.NĐ.CP.zip in a normal browser before closing the source gate. Use the official bytes to adjudicate TVPL's apparent `109 nhân khẩu` transcription for Phường Đạt Hiếu against the 7,109-person source parcel and resulting totals.
 - [ ] **Change-bearing** `08/NĐ-CP@2009-01-07` — ĐIỀU CHỈNH ĐỊA GIỚI HÀNH CHÍNH HUYỆN HỒNG NGỰ ĐỂ THÀNH LẬP THỊ XÃ HỒNG NGỰ; THÀNH LẬP PHƯỜNG THUỘC THỊ XÃ HỒNG NGỰ, TỈNH ĐỒNG THÁP
   - Current evidence: secondary identity reference only.
   - Identity reference only: <https://thuvienphapluat.vn/van-ban/Bat-dong-san/Nghi-dinh-08-ND-CP-de-nghi-dieu-chinh-dia-gioi-hanh-chinh-huyen-Hong-Ngu-thanh-lap-phuong-thuoc-tinh-Dong-Thap-84046.aspx>

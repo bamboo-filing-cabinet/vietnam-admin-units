@@ -694,11 +694,27 @@ def _secondary_url_map(paths: tuple[Path, ...] = SECONDARY_URLS) -> dict[str, li
         if not path.is_file():
             continue
         urls = json.loads(path.read_text(encoding="utf-8"))
-        for code, url in urls.items():
-            host = (urlparse(str(url)).hostname or "").lower()
-            if host == "thuvienphapluat.vn" or host.endswith(".thuvienphapluat.vn"):
-                result.setdefault(normalize_code(code), []).append(str(url))
+        for key, value in urls.items():
+            if "@" in key:
+                code, effective_date = key.rsplit("@", 1)
+                normalized_key = f"{normalize_code(code)}@{normalize_date(effective_date)}"
+            else:
+                normalized_key = normalize_code(key)
+            result.setdefault(normalized_key, [])
+            for url in value if isinstance(value, list) else [value]:
+                host = (urlparse(str(url)).hostname or "").lower()
+                if host == "thuvienphapluat.vn" or host.endswith(".thuvienphapluat.vn"):
+                    result[normalized_key].append(str(url))
     return {key: sorted(set(value)) for key, value in result.items()}
+
+
+def _secondary_urls_for(record: dict, secondary: dict[str, list[str]]) -> list[str]:
+    instrument_id = (
+        f"{normalize_code(record['code'])}@{normalize_date(record['effective_date'])}"
+    )
+    if instrument_id in secondary:
+        return secondary[instrument_id]
+    return secondary.get(normalize_code(record["code"]), [])
 
 
 def _input_fingerprints() -> dict:
@@ -922,7 +938,7 @@ def discover_registry(*, workers: int = 4, timeout: int = 120,
         return discover_instrument(
             record,
             search=local.search,
-            secondary_urls=secondary.get(record["code"], []),
+            secondary_urls=_secondary_urls_for(record, secondary),
         )
 
     results = []
@@ -1362,9 +1378,16 @@ def normalize_registry_metadata(registry: dict) -> dict:
     """Fill validation metadata for rows discovered by older resumable passes."""
     secondary = _secondary_url_map()
     for item in registry["instruments"]:
-        item["secondary_urls"] = sorted(set(
-            item.get("secondary_urls", []) + secondary.get(item["code"], [])
-        ))
+        instrument_id = (
+            f"{normalize_code(item['code'])}@{normalize_date(item['effective_date'])}"
+        )
+        if instrument_id in secondary:
+            item["secondary_urls"] = secondary[instrument_id]
+        else:
+            item["secondary_urls"] = sorted(set(
+                item.get("secondary_urls", [])
+                + secondary.get(normalize_code(item["code"]), [])
+            ))
         if item["discovery_status"] not in {
                 "reused_existing_2025_pair", "verified_official_match"}:
             continue

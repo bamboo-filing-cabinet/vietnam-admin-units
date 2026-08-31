@@ -83,8 +83,13 @@ re-scrape it.
 > `2026-08-31.06`. The supplied Government record for actual Decree
 > `14/2008/NĐ-CP` proves that both July/August NSO Tân Đức rows are invalid
 > code-title identities; the canonical Resolution `14/2008/QH12` remains the
-> event authority (`2026-08-31.07`). Continue with Decree
-> `07/NĐ-CP@2009-01-07`; do not start Task 8.
+> event authority (`2026-08-31.07`). Decree `07/NĐ-CP@2009-01-07` now has an
+> exact official VBPL record and original ZIP lead plus 23 reconciled Buôn Hồ
+> topology components, but remains open because the official bytes are
+> blocked. The supplied LuatVietnam page belongs to the later Nghệ An Decree
+> 07, so date-qualified secondary mapping now prevents same-code contamination
+> (`2026-08-31.08`). Continue with Decree `08/NĐ-CP@2009-01-07`; do not start
+> Task 8.
 
 ## Outcome
 
@@ -385,8 +390,13 @@ territory, title, and named-unit checks.
 > `2026-08-31.06`. The supplied Government record for actual Decree
 > `14/2008/NĐ-CP` proves that both July/August NSO Tân Đức rows are invalid
 > code-title identities; the canonical Resolution `14/2008/QH12` remains the
-> event authority (`2026-08-31.07`). Continue with Decree
-> `07/NĐ-CP@2009-01-07`; do not start Task 8.
+> event authority (`2026-08-31.07`). Decree `07/NĐ-CP@2009-01-07` now has an
+> exact official VBPL record and original ZIP lead plus 23 reconciled Buôn Hồ
+> topology components, but remains open because the official bytes are
+> blocked. The supplied LuatVietnam page belongs to the later Nghệ An Decree
+> 07, so date-qualified secondary mapping now prevents same-code contamination
+> (`2026-08-31.08`). Continue with Decree `08/NĐ-CP@2009-01-07`; do not start
+> Task 8.
 
 Add a command that regenerates the coverage JSON and prints a concise audit.
 Write a dated completion journal containing final counts, reviewed exceptions,

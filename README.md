@@ -154,8 +154,13 @@ Government page and original Word file prove that the actual decree was issued
 on 2008-02-04, effective 2008-02-25, and concerns district-level specialized
 agencies—not Tân Đức. Both July/August NSO rows are now closed as verified
 invalid index identities; the already archived Resolution `14/2008/QH12` is
-the canonical authority for the Tân Đức transfer. Continue with Decree
-`07/NĐ-CP@2009-01-07` (Buôn Hồ, Đắk Lắk). Do
+the canonical authority for the Tân Đức transfer. Decree
+`07/NĐ-CP@2009-01-07` now has a complete Buôn Hồ secondary transcription, an
+exact official VBPL record, and an indexed original ZIP lead. Its 23 linked
+topology components are reconciled, but the official bytes remain blocked by
+HTTP 403. The supplied LuatVietnam URL belongs to the later Nghệ An Decree 07,
+so date-qualified secondary mappings now prevent same-code contamination.
+Continue with Decree `08/NĐ-CP@2009-01-07` (Hồng Ngự, Đồng Tháp). Do
 **not** start Task 8 or promote
 secondary evidence to primary merely to close the count.
 
@@ -206,6 +211,9 @@ topology, and concurrent-event disambiguation are recorded in
 The two malformed Decree 14 index rows, the archived actual decree, and their
 canonical Resolution 14 correction are recorded in
 [`2026-08-31.07`](docs/journals/2026-08-31.07.ward-index-correction-14-2008.md).
+Decree 07's exact official ZIP lead, Buôn Hồ topology, transcription anomaly,
+and same-code Nghệ An disambiguation are recorded in
+[`2026-08-31.08`](docs/journals/2026-08-31.08.ward-secondary-provenance-07-buon-ho.md).
 The later graph-building slice remains gated: only after Task 7 passes should
 the observations and resolved events be promoted into canonical ward entities
 and `LineageEdge` records. Do not emit or upload ward Wikidata statements yet.

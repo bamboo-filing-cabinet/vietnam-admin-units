@@ -2,7 +2,7 @@
   "input_fingerprints": {
     "data/decree-urls.json": "7046a0d47c3e78114ba3dd10c1d77671ae76d32b62f4ae66b794487193676b0c",
     "data/raw/nghidinh.json": "2d141ae52886f78bf476defe6f8275ea31a910d3c1f65288a1e8b067924756fb",
-    "data/ward-legal-secondary-urls.json": "3843be6496d8f39fb6e2082500a1a4dd002512bf4f10d2aa48c87013d4583ad9"
+    "data/ward-legal-secondary-urls.json": "3ea4810e37f33e27b28c3ad7e1862f9c76956657084224d108402a8cc7e069b6"
   },
   "instruments": [
     {
@@ -4052,9 +4052,7 @@
       "metadata_path": "legal/ward/2009-02-24/07-nd-cp.metadata.html",
       "metadata_url": "https://chinhphu.vn/?pageid=27160&docid=83293&classid=1",
       "official_code": "07/NĐ-CP",
-      "secondary_urls": [
-        "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-dinh-07-ND-CP-dieu-chinh-dia-gioi-xa-thuoc-huyen-Krong-Buk-thanh-lap-thi-xa-Buon-Ho-phuong-thuoc-tinh-Dak-Lak-84045.aspx"
-      ],
+      "secondary_urls": [],
       "title_variants": [
         "GIẢI THỂ XÃ VÀ ĐIỀU CHỈNH ĐỊA GIỚI HÀNH CHÍNH XÃ, THÀNH LẬP XÃ THUỘC CÁC HUYỆN TƯƠNG DƯƠNG, THANH CHƯƠNG, ANH SƠN, YÊN THÀNH, HƯNG NGUYÊN TỈNH NGHỆ AN"
       ]
@@ -10698,7 +10696,7 @@
     "official_code_differences": 12,
     "official_matches": 416,
     "preserved_artifacts": 825,
-    "secondary_tvpl_urls": 119,
+    "secondary_tvpl_urls": 118,
     "status_counts": {
       "official_not_found": 33,
       "reused_existing_2025_pair": 34,

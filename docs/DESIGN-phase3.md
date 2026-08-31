@@ -61,8 +61,13 @@
 > Long changes (`2026-08-31.06`). The actual Government decree and
 > original Word attachment prove that both July/August NSO rows are invalid
 > code-title identities; Resolution `14/2008/QH12` remains the canonical Tân
-> Đức authority (`2026-08-31.07`). Continue with Decree
-> `07/NĐ-CP@2009-01-07`. Only
+> Đức authority (`2026-08-31.07`). Decree `07/NĐ-CP@2009-01-07` now has a
+> complete Buôn Hồ secondary transcription, an exact official VBPL record,
+> an indexed original ZIP lead, and 23 reconciled topology components, but
+> remains open because the official bytes are blocked. The supplied
+> LuatVietnam page is the later Nghệ An Decree 07 and is excluded from this
+> row; date-qualified secondary mapping prevents that same-code contamination
+> (`2026-08-31.08`). Continue with Decree `08/NĐ-CP@2009-01-07`. Only
 > after the source audit closes should historical records be promoted into canonical
 > entities/`LineageEdge` objects. Wikidata emission remains gated.
 

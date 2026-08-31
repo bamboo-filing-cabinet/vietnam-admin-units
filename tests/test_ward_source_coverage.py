@@ -228,7 +228,7 @@ def test_real_locked_baseline_builds_deterministically():
     assert summary["verified_index_identity_mismatches"] == 2
     assert summary["official_source_matches"] == 416
     assert summary["official_source_not_found"] == 33
-    assert summary["secondary_tvpl_urls"] == 119
+    assert summary["secondary_tvpl_urls"] == 118
     assert summary["observed_change_intervals"] == 179
     assert summary["events"] == 179
     assert summary["crosswalk_supported_events"] == 178
@@ -280,7 +280,7 @@ def test_real_locked_baseline_builds_deterministically():
     assert "`460/NQ-UBTVQH14@2017-12-13`" not in open_note
     assert "TVPL links are included only to confirm identity" in open_note
     assert "commit `89107d0` recorded **39 open instruments**" in open_note
-    assert open_note.count("Official lead (not yet archived)") == 27
+    assert open_note.count("Official lead (not yet archived)") == 28
     assert open_note.count("Official attachment lead (not yet archived)") == 5
     assert "**17 of the 31 current items**" in open_note
     assert "`14/2008/NĐ-CP@2008-07-02`" not in open_note
