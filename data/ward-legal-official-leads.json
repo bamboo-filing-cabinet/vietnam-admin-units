@@ -185,19 +185,22 @@
       "retrieval_notes": "Preserve the official issue/effective dates alongside the 2009-01-07 NSO observation key rather than normalizing the discrepancy away. Direct requests to the official full-text and properties pages returned HTTP 403 browser challenges, and no interactive browser was available to save the advertised ZIP. The Government legal portal exposed only a later, unrelated 07/NĐ-CP issued 2009-02-09 for Nghệ An; exact-code and Buôn Hồ title searches found no Government copy. The Government Gazette API returned no match, and its live web archive stops at July 2010. Save the official page and 07.NĐ.CP.zip in a normal browser before closing the source gate. Use the official bytes to adjudicate TVPL's apparent `109 nhân khẩu` transcription for Phường Đạt Hiếu against the 7,109-person source parcel and resulting totals."
     },
     {
-      "access_status": "official_page_indexed_raw_retrieval_blocked",
+      "access_status": "official_full_text_and_attachment_indexed_raw_retrieval_blocked",
       "date_discrepancy": {
         "official_effective_date": "2009-01-18",
         "official_issue_date": "2008-12-23",
         "registry_effective_date": "2009-01-07"
       },
-      "expected_attachment_names": [],
-      "instrument_id": "08/NĐ-CP@2009-01-07",
-      "lead_basis": "The indexed official VBPL record matches Decree 08/NĐ-CP and its administrative-boundary title.",
-      "official_page_urls": [
-        "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=12656"
+      "expected_attachment_names": [
+        "08.NĐ.CP.zip"
       ],
-      "retrieval_notes": "Preserve the official issue/effective dates alongside the registry date rather than normalizing the discrepancy away. The full page and any original attachment still need to be browser-saved."
+      "instrument_id": "08/NĐ-CP@2009-01-07",
+      "lead_basis": "The official VBPL record renders the complete enacted text and matches Decree 08/NĐ-CP, its Hồng Ngự administrative-boundary title, 2008-12-23 issue date, 2009-01-18 effective date, Gazette issues 05+06 published 2009-01-03, and signer Nguyễn Tấn Dũng; it also indexes original attachment 08.NĐ.CP.zip.",
+      "official_page_urls": [
+        "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=12656",
+        "https://vbpl.vn/TW/Pages/vbpq-thuoctinh.aspx?ItemID=12656&Keyword="
+      ],
+      "retrieval_notes": "Preserve the official issue/effective dates alongside the 2009-01-07 NSO observation key rather than normalizing the discrepancy away. Direct requests to the official full-text page and likely attachment paths returned HTTP 403 browser challenges; the legacy Ministry of Justice hostname did not resolve, and no interactive browser was available. Exact-title Government legal-portal search found no target record. The supplied Government Decision 50/QĐ-UBND.HC is contemporaneous official implementation corroboration: it directs the Đồng Tháp Department of Home Affairs to prepare the February 2009 plan and roadmap for implementing Decree 08, but it is not the enacted decree. Save the complete VBPL page and 08.NĐ.CP.zip in a normal browser and verify both offline before closing the source gate."
     },
     {
       "access_status": "official_page_indexed_raw_retrieval_blocked",

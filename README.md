@@ -160,7 +160,13 @@ exact official VBPL record, and an indexed original ZIP lead. Its 23 linked
 topology components are reconciled, but the official bytes remain blocked by
 HTTP 403. The supplied LuatVietnam URL belongs to the later Nghệ An Decree 07,
 so date-qualified secondary mappings now prevent same-code contamination.
-Continue with Decree `08/NĐ-CP@2009-01-07` (Hồng Ngự, Đồng Tháp). Do
+Decree `08/NĐ-CP@2009-01-07` now has a complete Hồng Ngự secondary
+transcription, an exact official VBPL full-text and original ZIP lead,
+contemporaneous provincial implementation corroboration, and later Ministry
+classification evidence. Its seven linked topology components are reconciled,
+but the official bytes remain blocked by HTTP 403. Date-qualified provenance
+also removes this Hồng Ngự source from the later Bến Tre Decree 08. Continue
+with Decree `10/NĐ-CP@2009-01-07` (Ba Tơ and Sơn Tây, Quảng Ngãi). Do
 **not** start Task 8 or promote
 secondary evidence to primary merely to close the count.
 
@@ -214,6 +220,9 @@ canonical Resolution 14 correction are recorded in
 Decree 07's exact official ZIP lead, Buôn Hồ topology, transcription anomaly,
 and same-code Nghệ An disambiguation are recorded in
 [`2026-08-31.08`](docs/journals/2026-08-31.08.ward-secondary-provenance-07-buon-ho.md).
+Decree 08's official full-text/ZIP lead, Hồng Ngự topology, implementation and
+classification evidence, and same-code Bến Tre disambiguation are recorded in
+[`2026-08-31.09`](docs/journals/2026-08-31.09.ward-secondary-provenance-08-hong-ngu.md).
 The later graph-building slice remains gated: only after Task 7 passes should
 the observations and resolved events be promoted into canonical ward entities
 and `LineageEdge` records. Do not emit or upload ward Wikidata statements yet.

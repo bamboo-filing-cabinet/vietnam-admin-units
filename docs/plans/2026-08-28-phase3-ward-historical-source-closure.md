@@ -88,8 +88,13 @@ re-scrape it.
 > topology components, but remains open because the official bytes are
 > blocked. The supplied LuatVietnam page belongs to the later Nghệ An Decree
 > 07, so date-qualified secondary mapping now prevents same-code contamination
-> (`2026-08-31.08`). Continue with Decree `08/NĐ-CP@2009-01-07`; do not start
-> Task 8.
+> (`2026-08-31.08`). Decree `08/NĐ-CP@2009-01-07` now has exact official VBPL
+> full-text and original ZIP leads, contemporaneous implementation and later
+> Ministry classification evidence, and seven reconciled Hồng Ngự topology
+> components. It remains open because the official bytes are blocked;
+> date-qualified provenance also removes the Hồng Ngự URL from the later Bến
+> Tre Decree 08 (`2026-08-31.09`). Continue with Decree
+> `10/NĐ-CP@2009-01-07`; do not start Task 8.
 
 ## Outcome
 
@@ -395,8 +400,13 @@ territory, title, and named-unit checks.
 > topology components, but remains open because the official bytes are
 > blocked. The supplied LuatVietnam page belongs to the later Nghệ An Decree
 > 07, so date-qualified secondary mapping now prevents same-code contamination
-> (`2026-08-31.08`). Continue with Decree `08/NĐ-CP@2009-01-07`; do not start
-> Task 8.
+> (`2026-08-31.08`). Decree `08/NĐ-CP@2009-01-07` now has exact official VBPL
+> full-text and original ZIP leads, contemporaneous implementation and later
+> Ministry classification evidence, and seven reconciled Hồng Ngự topology
+> components. It remains open because the official bytes are blocked;
+> date-qualified provenance also removes the Hồng Ngự URL from the later Bến
+> Tre Decree 08 (`2026-08-31.09`). Continue with Decree
+> `10/NĐ-CP@2009-01-07`; do not start Task 8.
 
 Add a command that regenerates the coverage JSON and prints a concise audit.
 Write a dated completion journal containing final counts, reviewed exceptions,

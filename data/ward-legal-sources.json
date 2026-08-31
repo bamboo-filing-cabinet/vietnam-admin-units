@@ -2,7 +2,7 @@
   "input_fingerprints": {
     "data/decree-urls.json": "7046a0d47c3e78114ba3dd10c1d77671ae76d32b62f4ae66b794487193676b0c",
     "data/raw/nghidinh.json": "2d141ae52886f78bf476defe6f8275ea31a910d3c1f65288a1e8b067924756fb",
-    "data/ward-legal-secondary-urls.json": "3ea4810e37f33e27b28c3ad7e1862f9c76956657084224d108402a8cc7e069b6"
+    "data/ward-legal-secondary-urls.json": "c7b0b2180065b31cc0ae9cfe471c7cbe693cf154db5e943b366410fb0070618d"
   },
   "instruments": [
     {
@@ -4076,9 +4076,7 @@
       "metadata_path": "legal/ward/2009-02-24/08-nd-cp.metadata.html",
       "metadata_url": "https://chinhphu.vn/?pageid=27160&docid=83296&classid=1",
       "official_code": "08/NĐ-CP",
-      "secondary_urls": [
-        "https://thuvienphapluat.vn/van-ban/Bat-dong-san/Nghi-dinh-08-ND-CP-de-nghi-dieu-chinh-dia-gioi-hanh-chinh-huyen-Hong-Ngu-thanh-lap-phuong-thuoc-tinh-Dong-Thap-84046.aspx"
-      ],
+      "secondary_urls": [],
       "title_variants": [
         "ĐIỀU CHỈNH ĐỊA GIỚI HÀNH CHÍNH XÃ, PHƯỜNG ĐỂ THÀNH LẬP XÃ, PHƯỜNG THUỘC HUYỆN MỎ CÀY, HUYỆN CHỢ LÁCH, THỊ XÃ BẾN TRE; ĐIỀU CHỈNH ĐỊA GIỚI HÀNH CHÍNH HUYỆN MỎ CÀY, HUYỆN CHỢ LÁCH ĐỂ THÀNH LẬP HUYỆN MỎ CÀY BẮC THUỘC TỈNH BẾN TRE"
       ]
@@ -10696,7 +10694,7 @@
     "official_code_differences": 12,
     "official_matches": 416,
     "preserved_artifacts": 825,
-    "secondary_tvpl_urls": 118,
+    "secondary_tvpl_urls": 117,
     "status_counts": {
       "official_not_found": 33,
       "reused_existing_2025_pair": 34,

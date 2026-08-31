@@ -67,7 +67,13 @@
 > remains open because the official bytes are blocked. The supplied
 > LuatVietnam page is the later Nghệ An Decree 07 and is excluded from this
 > row; date-qualified secondary mapping prevents that same-code contamination
-> (`2026-08-31.08`). Continue with Decree `08/NĐ-CP@2009-01-07`. Only
+> (`2026-08-31.08`). Decree `08/NĐ-CP@2009-01-07` now has a complete Hồng Ngự
+> secondary transcription, exact official VBPL full-text and original ZIP
+> leads, contemporaneous provincial implementation corroboration, later
+> Ministry classification evidence, and seven reconciled topology components.
+> It remains open because the official bytes are blocked; date-qualified
+> provenance also removes the Hồng Ngự URL from the later Bến Tre Decree 08
+> (`2026-08-31.09`). Continue with Decree `10/NĐ-CP@2009-01-07`. Only
 > after the source audit closes should historical records be promoted into canonical
 > entities/`LineageEdge` objects. Wikidata emission remains gated.
 

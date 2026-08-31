@@ -39242,9 +39242,9 @@
     "legal_linkage_overrides_path": "data/ward-legal-linkage-overrides.json",
     "legal_linkage_overrides_sha256": "227e5e03b67fff76b5139bdef15f1736708d364efe5503485bf21f8c37de3eeb",
     "legal_sources_path": "data/ward-legal-sources.json",
-    "legal_sources_sha256": "1b975043d662a6166943a57d42d9afc54363263d29cd7e043d9b0bbb5b3d4815",
+    "legal_sources_sha256": "e6298dae6a5c928f75019131d0875014ed77b3e7ad4b0079448e740274e446eb",
     "manifest_path": "data/raw/manifest.jsonl",
-    "manifest_sha256": "92fac9aeaea3be2e94e8305700a8deb2608f8f998d49812e40ed83c6fb8571ca",
+    "manifest_sha256": "b9d66db03943b883d4e1f106bea3a830941a93036f2da23674d8f46fea3277c9",
     "observed_changes_path": "data/ward-observed-changes.json",
     "observed_changes_sha256": "91f441b73d9489c30e26e4a1c585600fcf435b0648a4f87ad4bc86aa9ca9d1df",
     "ward_2025_composition_path": "data/ward-2025-composition.json",
@@ -39770,11 +39770,11 @@
       "input_fingerprints": {
         "data/decree-urls.json": "7046a0d47c3e78114ba3dd10c1d77671ae76d32b62f4ae66b794487193676b0c",
         "data/raw/nghidinh.json": "2d141ae52886f78bf476defe6f8275ea31a910d3c1f65288a1e8b067924756fb",
-        "data/ward-legal-secondary-urls.json": "3ea4810e37f33e27b28c3ad7e1862f9c76956657084224d108402a8cc7e069b6"
+        "data/ward-legal-secondary-urls.json": "c7b0b2180065b31cc0ae9cfe471c7cbe693cf154db5e943b366410fb0070618d"
       },
       "path": "data/ward-legal-sources.json",
       "schema_version": 1,
-      "sha256": "1b975043d662a6166943a57d42d9afc54363263d29cd7e043d9b0bbb5b3d4815",
+      "sha256": "e6298dae6a5c928f75019131d0875014ed77b3e7ad4b0079448e740274e446eb",
       "summary": {
         "index_date_anomalies": 2,
         "instruments": 449,
@@ -39782,7 +39782,7 @@
         "official_code_differences": 12,
         "official_matches": 416,
         "preserved_artifacts": 825,
-        "secondary_tvpl_urls": 118,
+        "secondary_tvpl_urls": 117,
         "status_counts": {
           "official_not_found": 33,
           "reused_existing_2025_pair": 34,
@@ -55974,20 +55974,7 @@
         }
       ],
       "review_status": "reviewed_title_and_source_scope",
-      "secondary_sources": [
-        {
-          "bytes": 0,
-          "declared_media_type": "",
-          "detected_media_type": "",
-          "media_type": "metadata_url",
-          "method": "secondary legal discovery URL (not archived as primary evidence)",
-          "path": "",
-          "retrieved_at": "",
-          "sha256": "",
-          "source_class": "secondary",
-          "source_url": "https://thuvienphapluat.vn/van-ban/Bat-dong-san/Nghi-dinh-08-ND-CP-de-nghi-dieu-chinh-dia-gioi-hanh-chinh-huyen-Hong-Ngu-thanh-lap-phuong-thuoc-tinh-Dong-Thap-84046.aspx"
-        }
-      ],
+      "secondary_sources": [],
       "source_discovery": {
         "code_match_status": "exact",
         "date_match_status": "plausible_effective_lag",
@@ -73516,7 +73503,7 @@
       "legal_topology_linked": 161,
       "legal_topology_linked_with_source_cleanup": 1
     },
-    "secondary_tvpl_urls": 118,
+    "secondary_tvpl_urls": 117,
     "soap_artifacts": 204,
     "soap_rows": 2202543,
     "soap_unique_payloads": 180,

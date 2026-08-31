@@ -112,8 +112,10 @@ TVPL links are included only to confirm identity and title. TVPL pages, search s
   - Current evidence: secondary identity reference only.
   - Identity reference only: <https://thuvienphapluat.vn/van-ban/Bat-dong-san/Nghi-dinh-08-ND-CP-de-nghi-dieu-chinh-dia-gioi-hanh-chinh-huyen-Hong-Ngu-thanh-lap-phuong-thuoc-tinh-Dong-Thap-84046.aspx>
   - Official lead (not yet archived): <https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=12656>
+  - Official lead (not yet archived): <https://vbpl.vn/TW/Pages/vbpq-thuoctinh.aspx?ItemID=12656&Keyword=>
+  - Expected original attachment: `08.NĐ.CP.zip`
   - Date discrepancy to preserve: registry effective 2009-01-07; official issue 2008-12-23; official effective 2009-01-18.
-  - Retrieval note: Preserve the official issue/effective dates alongside the registry date rather than normalizing the discrepancy away. The full page and any original attachment still need to be browser-saved.
+  - Retrieval note: Preserve the official issue/effective dates alongside the 2009-01-07 NSO observation key rather than normalizing the discrepancy away. Direct requests to the official full-text page and likely attachment paths returned HTTP 403 browser challenges; the legacy Ministry of Justice hostname did not resolve, and no interactive browser was available. Exact-title Government legal-portal search found no target record. The supplied Government Decision 50/QĐ-UBND.HC is contemporaneous official implementation corroboration: it directs the Đồng Tháp Department of Home Affairs to prepare the February 2009 plan and roadmap for implementing Decree 08, but it is not the enacted decree. Save the complete VBPL page and 08.NĐ.CP.zip in a normal browser and verify both offline before closing the source gate.
 - [ ] **Change-bearing** `10/NĐ-CP@2009-01-07` — điều chỉnh địa giới hành chính xã, thành lập xã thuộc huyện Ba Tơ, huyện Sơn Tây, tỉnh Quảng Ngãi
   - Current evidence: no source URL recorded.
   - Official lead (not yet archived): <https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=12653>
