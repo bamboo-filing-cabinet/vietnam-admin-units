@@ -2,7 +2,7 @@
   "input_fingerprints": {
     "data/decree-urls.json": "7046a0d47c3e78114ba3dd10c1d77671ae76d32b62f4ae66b794487193676b0c",
     "data/raw/nghidinh.json": "2d141ae52886f78bf476defe6f8275ea31a910d3c1f65288a1e8b067924756fb",
-    "data/ward-legal-secondary-urls.json": "865ef803efece9161336de9102856cbe37af2929f5f11a9bb545618e5fc5d677"
+    "data/ward-legal-secondary-urls.json": "6daa08334f8d0f4c392edb56d6486b991e5919e8814e5b1b8a1a3bc2b32060d4"
   },
   "instruments": [
     {
@@ -2272,7 +2272,9 @@
       "instrument_id": "34/2006/NĐ-CP@2006-04-15",
       "metadata_path": "legal/ward/2006-04-15/34-2006-nd-cp.metadata.html",
       "metadata_url": "",
-      "secondary_urls": [],
+      "secondary_urls": [
+        "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-dinh-34-2006-ND-CP-thanh-lap-thi-tran-Cat-Thanh-thuoc-huyen-Truc-Ninh-tinh-Nam-Dinh-11014.aspx"
+      ],
       "title_variants": [
         "Thành lập thị trấn Cát Thành thuộc huyện Trực Ninh, tỉnh Nam Định"
       ]
@@ -10673,7 +10675,7 @@
     "official_code_differences": 11,
     "official_matches": 415,
     "preserved_artifacts": 823,
-    "secondary_tvpl_urls": 115,
+    "secondary_tvpl_urls": 116,
     "status_counts": {
       "official_not_found": 34,
       "reused_existing_2025_pair": 34,

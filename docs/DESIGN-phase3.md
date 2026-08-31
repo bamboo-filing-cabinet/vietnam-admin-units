@@ -41,7 +41,10 @@
 > `2026-08-30.07`. Decree `29/2006/NĐ-CP@2006-04-07` now has complete secondary
 > text, contemporaneous Government press corroboration, and an indexed official
 > VBPL lead, but remains open because official retrieval is blocked
-> (`2026-08-31.01`). Continue with Decree `34/2006/NĐ-CP@2006-04-15`. Only
+> (`2026-08-31.01`). Decree `34/2006/NĐ-CP@2006-04-15` now has complete
+> secondary text, an indexed official lead, and a reconciled whole-unit Cát
+> Thành retype, but the official bytes remain blocked (`2026-08-31.02`).
+> Continue with Decree `39/2006/NĐ-CP@2006-05-06`. Only
 > after the source audit closes should historical records be promoted into canonical
 > entities/`LineageEdge` objects. Wikidata emission remains gated.
 

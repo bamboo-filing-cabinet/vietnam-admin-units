@@ -99,7 +99,7 @@ observed events.
 
 **Resume at Task 7: close the remaining official-source residue one instrument
 at a time.** The current audit is **415/449 official**, with **34
-primary-source-open instruments**: 13 `missing` and 21 `secondary_only`; **32
+primary-source-open instruments**: 12 `missing` and 22 `secondary_only`; **32
 are change-bearing**. The registry preserves 408 official attachments and 823
 official artifacts. Decree `84/2005-NĐ-CP@2005-07-22` (Thuận Bắc, Ninh Thuận)
 now has a complete indexed official VBPL print view and exact DOC attachment
@@ -122,7 +122,11 @@ the raw `NDD-CP` code and 2006-04-06 observation date beside official
 `29/2006/NĐ-CP@2006-04-07` now has complete parallel secondary texts,
 contemporaneous Government press corroboration, and an indexed official VBPL
 lead, but remains open because the official bytes are blocked by HTTP 403. The
-next bounded review target is Decree `34/2006/NĐ-CP@2006-04-15` (Nam Định). Do
+complete parallel transcriptions of Decree `34/2006/NĐ-CP@2006-04-15` confirm
+the whole-unit Cát Thành retype, while the indexed official page remains
+blocked by HTTP 403. Its 2006-04-25 legal effective date remains distinct from
+the 2006-04-15 NSO observation date. The next bounded review target is Decree
+`39/2006/NĐ-CP@2006-05-06` (Gia Lai). Do
 **not** start Task 8 or promote
 secondary evidence to primary merely to close the count.
 
@@ -155,6 +159,9 @@ topology are recorded in
 Decree 29's official lead, two whole-commune retypes, date discrepancy, and
 supplied-source review are recorded in
 [`2026-08-31.01`](docs/journals/2026-08-31.01.ward-secondary-provenance-29.md).
+Decree 34's official lead, whole-commune retype, date discrepancy, and
+supplied-source review are recorded in
+[`2026-08-31.02`](docs/journals/2026-08-31.02.ward-secondary-provenance-34.md).
 The later graph-building slice remains gated: only after Task 7 passes should
 the observations and resolved events be promoted into canonical ward entities
 and `LineageEdge` records. Do not emit or upload ward Wikidata statements yet.

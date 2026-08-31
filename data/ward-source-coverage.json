@@ -2518,7 +2518,7 @@
               "title_territory_or_named_unit"
             ],
             "primary_source_paths": [],
-            "source_status": "missing"
+            "source_status": "secondary_only"
           }
         ]
       },
@@ -39181,7 +39181,7 @@
     "legal_linkage_overrides_path": "data/ward-legal-linkage-overrides.json",
     "legal_linkage_overrides_sha256": "c841b3dde6584196a5f273b7e6e65f129373f8bd1d51c14d9604a8dacc83872d",
     "legal_sources_path": "data/ward-legal-sources.json",
-    "legal_sources_sha256": "0df17a9fface28300039fa07fcee2724420977b11e454d10a73e5c5f9cd6d8be",
+    "legal_sources_sha256": "4e943f70eb9fb2c046cde58ccef38a65e547b74dfc8d3a61290bfbe22de9c866",
     "manifest_path": "data/raw/manifest.jsonl",
     "manifest_sha256": "893de5fd38b06f1ea9c23afb72579a099d7707c485126eacaaabb3eebc5e10d3",
     "observed_changes_path": "data/ward-observed-changes.json",
@@ -39709,11 +39709,11 @@
       "input_fingerprints": {
         "data/decree-urls.json": "7046a0d47c3e78114ba3dd10c1d77671ae76d32b62f4ae66b794487193676b0c",
         "data/raw/nghidinh.json": "2d141ae52886f78bf476defe6f8275ea31a910d3c1f65288a1e8b067924756fb",
-        "data/ward-legal-secondary-urls.json": "865ef803efece9161336de9102856cbe37af2929f5f11a9bb545618e5fc5d677"
+        "data/ward-legal-secondary-urls.json": "6daa08334f8d0f4c392edb56d6486b991e5919e8814e5b1b8a1a3bc2b32060d4"
       },
       "path": "data/ward-legal-sources.json",
       "schema_version": 1,
-      "sha256": "0df17a9fface28300039fa07fcee2724420977b11e454d10a73e5c5f9cd6d8be",
+      "sha256": "4e943f70eb9fb2c046cde58ccef38a65e547b74dfc8d3a61290bfbe22de9c866",
       "summary": {
         "index_date_anomalies": 2,
         "instruments": 449,
@@ -39721,7 +39721,7 @@
         "official_code_differences": 11,
         "official_matches": 415,
         "preserved_artifacts": 823,
-        "secondary_tvpl_urls": 115,
+        "secondary_tvpl_urls": 116,
         "status_counts": {
           "official_not_found": 34,
           "reused_existing_2025_pair": 34,
@@ -51170,12 +51170,25 @@
       "observation_status": "topology_components_linked",
       "primary_sources": [],
       "review_status": "reviewed_title_and_source_scope",
-      "secondary_sources": [],
+      "secondary_sources": [
+        {
+          "bytes": 0,
+          "declared_media_type": "",
+          "detected_media_type": "",
+          "media_type": "metadata_url",
+          "method": "secondary legal discovery URL (not archived as primary evidence)",
+          "path": "",
+          "retrieved_at": "",
+          "sha256": "",
+          "source_class": "secondary",
+          "source_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-dinh-34-2006-ND-CP-thanh-lap-thi-tran-Cat-Thanh-thuoc-huyen-Truc-Ninh-tinh-Nam-Dinh-11014.aspx"
+        }
+      ],
       "source_discovery": {
         "discovery_status": "official_not_found",
         "metadata_url": ""
       },
-      "source_status": "missing",
+      "source_status": "secondary_only",
       "title_variants": [
         "Thành lập thị trấn Cát Thành thuộc huyện Trực Ninh, tỉnh Nam Định"
       ]
@@ -73325,7 +73338,7 @@
       "legal_topology_linked": 161,
       "legal_topology_linked_with_source_cleanup": 1
     },
-    "secondary_tvpl_urls": 115,
+    "secondary_tvpl_urls": 116,
     "soap_artifacts": 204,
     "soap_rows": 2202543,
     "soap_unique_payloads": 180,
