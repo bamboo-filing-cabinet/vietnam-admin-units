@@ -47,8 +47,11 @@
 > Decree `39/2006/NĐ-CP@2006-05-06` now has reviewed topology for seven
 > commune creations and two boundary transfers, Government press
 > corroboration, and an indexed official lead, but the official bytes remain
-> blocked (`2026-08-31.03`). Continue with Decree
-> `60/2006/NĐ-CP@2006-07-04`. Only
+> blocked (`2026-08-31.03`). Decree `60/2006/NĐ-CP@2006-07-04` now has
+> complete parallel secondary texts, Government press corroboration, an
+> indexed official lead, and reconciled topology for three Tân An ward
+> establishments, but the official bytes remain blocked (`2026-08-31.04`).
+> Continue with Decree `64/2006/NĐ-CP@2006-07-08`. Only
 > after the source audit closes should historical records be promoted into canonical
 > entities/`LineageEdge` objects. Wikidata emission remains gated.
 

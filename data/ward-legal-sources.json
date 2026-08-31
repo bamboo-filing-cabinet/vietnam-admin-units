@@ -2,7 +2,7 @@
   "input_fingerprints": {
     "data/decree-urls.json": "7046a0d47c3e78114ba3dd10c1d77671ae76d32b62f4ae66b794487193676b0c",
     "data/raw/nghidinh.json": "2d141ae52886f78bf476defe6f8275ea31a910d3c1f65288a1e8b067924756fb",
-    "data/ward-legal-secondary-urls.json": "2ff63f55234e1114608bb03db5f89e3d463d2cc9ee9e8645f5717998518f9f48"
+    "data/ward-legal-secondary-urls.json": "e774f503ec54443025550d273a773b78030398e44675c0684b88ff83f66431d0"
   },
   "instruments": [
     {
@@ -2398,7 +2398,9 @@
       "instrument_id": "60/2006/NĐ-CP@2006-07-04",
       "metadata_path": "legal/ward/2006-07-04/60-2006-nd-cp.metadata.html",
       "metadata_url": "",
-      "secondary_urls": [],
+      "secondary_urls": [
+        "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-dinh-60-2006-ND-CP-dieu-chinh-dia-gioi-hanh-chinh-xa-phuong-thanh-lap-phuong-thuoc-thi-xa-Tan-An-tinh-Long-An-12579.aspx"
+      ],
       "title_variants": [
         "V/v điều chỉnh địa giới hành chính xã, phường; thành lập phường thuộc thị xã Tân An, tỉnh Long An"
       ]
@@ -10677,7 +10679,7 @@
     "official_code_differences": 11,
     "official_matches": 415,
     "preserved_artifacts": 823,
-    "secondary_tvpl_urls": 117,
+    "secondary_tvpl_urls": 118,
     "status_counts": {
       "official_not_found": 34,
       "reused_existing_2025_pair": 34,

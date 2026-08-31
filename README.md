@@ -99,7 +99,7 @@ observed events.
 
 **Resume at Task 7: close the remaining official-source residue one instrument
 at a time.** The current audit is **415/449 official**, with **34
-primary-source-open instruments**: 11 `missing` and 23 `secondary_only`; **32
+primary-source-open instruments**: 10 `missing` and 24 `secondary_only`; **32
 are change-bearing**. The registry preserves 408 official attachments and 823
 official artifacts. Decree `84/2005-NĐ-CP@2005-07-22` (Thuận Bắc, Ninh Thuận)
 now has a complete indexed official VBPL print view and exact DOC attachment
@@ -130,8 +130,14 @@ the 2006-04-15 NSO observation date. Decree
 Lai commune creations, two boundary transfers, contemporaneous Government
 press corroboration, and an indexed official lead. The official bytes remain
 blocked by HTTP 403, and the registry's 2006-05-06 date remains distinct from
-the 2006-05-15 legal effective date. The next bounded review target is Decree
-`60/2006/NĐ-CP@2006-07-04` (Long An). Do
+the 2006-05-15 legal effective date. Decree
+`60/2006/NĐ-CP@2006-07-04` now has complete parallel secondary texts,
+contemporaneous Government press corroboration, an indexed official lead, and
+reconciled topology for three Tân An ward establishments. The official bytes
+remain blocked by HTTP 403; the registry's 2006-07-04 observation date remains
+distinct from the 2006-07-13 legal effective date, and its later `Thành phố
+Tân An` parent-label echo is not projected backward. The next bounded review
+target is Decree `64/2006/NĐ-CP@2006-07-08` (Hà Giang). Do
 **not** start Task 8 or promote
 secondary evidence to primary merely to close the count.
 
@@ -170,6 +176,9 @@ supplied-source review are recorded in
 Decree 39's official lead, seven commune creations, boundary transfers,
 transcription discrepancy, and supplied-source review are recorded in
 [`2026-08-31.03`](docs/journals/2026-08-31.03.ward-secondary-provenance-39.md).
+Decree 60's official lead, three ward establishments, parent-label echo, and
+supplied-source review are recorded in
+[`2026-08-31.04`](docs/journals/2026-08-31.04.ward-secondary-provenance-60.md).
 The later graph-building slice remains gated: only after Task 7 passes should
 the observations and resolved events be promoted into canonical ward entities
 and `LineageEdge` records. Do not emit or upload ward Wikidata statements yet.

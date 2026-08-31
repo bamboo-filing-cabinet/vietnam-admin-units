@@ -145,11 +145,11 @@
       },
       "expected_attachment_names": [],
       "instrument_id": "60/2006/NĐ-CP@2006-07-04",
-      "lead_basis": "The public VBPL index record matches the decree code and Tân An administrative-boundary title.",
+      "lead_basis": "The public VBPL index and the Ministry of Home Affairs' official systematization match the decree code, Tân An administrative-boundary title, issue date, and effective date.",
       "official_page_urls": [
         "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=15926"
       ],
-      "retrieval_notes": "Preserve the official issue/effective dates alongside the registry date. Save the full page and any offered original attachment in a normal browser."
+      "retrieval_notes": "Preserve the official issue/effective dates alongside the registry date and the legal 2006 parent label `thị xã Tân An` beside the SOAP roster's later `Thành phố Tân An` echo. Direct requests to the official full-text, print, ministry-mirror, and properties pages returned HTTP 403 challenges; the legacy Ministry of Justice hostname did not resolve. The indexed output does not expose an exact attachment filename, so do not guess one. The Government legal portal returned only an unrelated Decree 160 substring match for the exact-code query and no title match, and the Government Gazette API found no publication PDF. Save the full official page and any attachment it actually offers in a normal browser before closing the source gate."
     },
     {
       "access_status": "official_page_indexed_raw_retrieval_blocked",
