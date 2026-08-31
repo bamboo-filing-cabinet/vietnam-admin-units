@@ -227,7 +227,7 @@ def test_real_locked_baseline_builds_deterministically():
     assert summary["primary_source_open_instruments"] == 34
     assert summary["official_source_matches"] == 415
     assert summary["official_source_not_found"] == 34
-    assert summary["secondary_tvpl_urls"] == 116
+    assert summary["secondary_tvpl_urls"] == 117
     assert summary["observed_change_intervals"] == 179
     assert summary["events"] == 179
     assert summary["crosswalk_supported_events"] == 178

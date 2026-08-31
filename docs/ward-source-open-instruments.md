@@ -80,10 +80,11 @@ TVPL links are included only to confirm identity and title. TVPL pages, search s
   - Date discrepancy to preserve: registry effective 2006-04-15; official issue 2006-03-31; official effective 2006-04-25.
   - Retrieval note: Preserve the official issue/effective dates alongside the registry date. Direct requests to the official full-text, print, ministry-mirror, and properties pages returned HTTP 403 challenges; the legacy Ministry of Justice hostname did not resolve. The indexed output does not expose an exact attachment filename, so do not guess one. Exact-code and title searches on the Government legal portal found no matching record, and the Government Gazette API found no publication PDF. Save the full official page and any attachment it actually offers in a normal browser before closing the source gate.
 - [ ] **Change-bearing** `39/2006/NĐ-CP@2006-05-06` — Điều chỉnh địa giới hành chính, thành lập các xã thuộc các huyện Chư Sê, Kông Chro, Đăk Đoa, Ia Grai và KBang, tỉnh Gia Lai
-  - Current evidence: no source URL recorded.
+  - Current evidence: secondary identity reference only.
+  - Identity reference only: <https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-dinh-39-2006-ND-CP-dieu-chinh-dia-gioi-hanh-chinh-thanh-lap-xa-thuoc-huyen-Chu-Se-Kong-Chro-Dak-Doa-Ia-Grai-KBang-tinh-Gia-Lai-11592.aspx>
   - Official lead (not yet archived): <https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=16253>
   - Date discrepancy to preserve: registry effective 2006-05-06; official issue 2006-04-21; official effective 2006-05-15.
-  - Retrieval note: Preserve the official issue/effective dates alongside the registry date. Save the full page and any offered original attachment in a normal browser.
+  - Retrieval note: Preserve the official issue/effective dates alongside the registry date and use the official bytes to adjudicate TVPL's omitted Đăk Kơ Ning total/boundary paragraph and Krong-to-Đông transfer. Direct requests to the official full-text, print, ministry-mirror, and properties pages returned HTTP 403 challenges; the legacy Ministry of Justice hostname did not resolve. The indexed output does not expose an exact attachment filename, so do not guess one. Exact-code and title searches on the Government legal portal found no matching record, and the Government Gazette API found no publication PDF. Save the full official page and any attachment it actually offers in a normal browser before closing the source gate.
 - [ ] **Change-bearing** `60/2006/NĐ-CP@2006-07-04` — V/v điều chỉnh địa giới hành chính xã, phường; thành lập phường thuộc thị xã Tân An, tỉnh Long An
   - Current evidence: no source URL recorded.
   - Official lead (not yet archived): <https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=15926>
