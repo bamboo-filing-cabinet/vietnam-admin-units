@@ -2,13 +2,13 @@
 
 Generated from `data/ward-source-coverage.json` by `vn_admin_units.ward_source_coverage --open-note`.
 
-Current audit: **30 primary-source-open instruments**; **30 are tied to observed ward changes**.
+Current audit: **29 primary-source-open instruments**; **29 are tied to observed ward changes**.
 
 ## Queue history
 
 The personal-search checkpoint at commit `89107d0` recorded **39 open instruments**, including **37 change-bearing instruments**. Resolution 721/NQ-UBTVQH15 was subsequently recovered from the National Assembly, Resolution 39/NQ-CP from the Government legal portal, and Resolution 904/NQ-UBTVQH13 from the Ninh Bình Provincial Historical Archives. Later recoveries, if any, are reflected in the live counts above.
 
-Exact official-page leads are recorded below for **16 of the 30 current items**. These links are leads only: none count as recovered provenance until the full official page or original attachment is saved, hashed, registered, and verified offline.
+Exact official-page leads are recorded below for **16 of the 29 current items**. These links are leads only: none count as recovered provenance until the full official page or original attachment is saved, hashed, registered, and verified offline.
 
 ## What counts as a useful find
 
@@ -142,9 +142,6 @@ TVPL links are included only to confirm identity and title. TVPL pages, search s
 - [ ] **Change-bearing** `14/NĐ-CP@2009-04-11` — điều chỉnh địa giới hành chính xã để thành lập xã thuộc huyện Chơn Thành, huyện Bù Đăng, tỉnh Bình Phước
   - Current evidence: secondary identity reference only.
   - Identity reference only: <https://thuvienphapluat.vn/cong-van/Lao-dong-Tien-luong/Cong-van-2800-BNV-TL-phu-cap-khu-vuc-94174.aspx>
-- [ ] **Change-bearing** `28/NQ-CP@2009-06-30` — Điều chỉnh địa giới hành chính huyện Châu Thành, huyện Chợ Gạo để mở rộng địa giới hành chính thành phố Mỹ Tho; điều chỉnh địa giới hành chính xã, thành lập xã thuộc thành phố Mỹ Tho, huyện Châu Thành, huyện Chợ Gạo, tỉnh Tiền Giang
-  - Current evidence: secondary identity reference only.
-  - Identity reference only: <https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-28-NQ-CP-dieu-chinh-va-mo-rong-dia-gioi-hanh-chinh-91273.aspx>
 - [ ] **Change-bearing** `29/NQ-CP@2009-06-30` — điều chỉnh địa giới hành chính xã, phường, thành lập thuộc thị xã Hà Tiên và các huyện: Kiên Lương, Tân Hiệp, Giồng Riềng, Vĩnh Thuận; điều chỉnh địa giới hành chính huyện Kiên Lương để thành lập huyện Giang Thành, tỉnh Kiên Giang
   - Current evidence: secondary identity reference only.
   - Identity reference only: <https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-29-NQ-CP-dieu-chinh-dia-gioi-hanh-chinh-91274.aspx>

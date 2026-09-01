@@ -41,9 +41,9 @@ re-scrape it.
 > zero legally unlinked observed events. See journal `2026-08-28.08`.
 >
 > **Task 7 in progress (2026-08-31).** Official recovery and one-at-a-time
-> secondary reviews now leave 30 primary-source-open instruments: 4 `missing`
-> and 26 `secondary_only`; all 30 are change-bearing. Official coverage is
-> 417/449.
+> secondary reviews now leave 29 primary-source-open instruments: 4 `missing`
+> and 25 `secondary_only`; all 29 are change-bearing. Official coverage is
+> 418/449.
 > Decree `84/2005-NĐ-CP@2005-07-22` now has a complete indexed official VBPL
 > print view and exact DOC URL, but the live endpoints timed out; its official
 > issue/effective dates differ from the earlier registry date
@@ -115,7 +115,11 @@ re-scrape it.
 > `26/NQ-CP@2009-06-11` is now closed with archived Government metadata and
 > original Word attachment. Its 2009-06-10 legal effective date, eight linked
 > Thuận Nam topology components, and secondary-source defects are recorded in
-> `2026-08-31.13`. Continue with Resolution `28/NQ-CP@2009-06-30`; do not
+> `2026-08-31.13`. Resolution `28/NQ-CP@2009-06-30` is closed with an
+> archived official Tiền Giang Gazette record and enacted PDF. Its 2009-06-29
+> legal date, two observed parent changes, and roster-invisible partial-area
+> transfers are recorded in `2026-08-31.14`. Continue with Resolution
+> `29/NQ-CP@2009-06-30`; do not
 > start Task 8.
 
 ## Outcome
@@ -383,8 +387,8 @@ territory, title, and named-unit checks.
 ### Task 7 — close the source audit
 
 > **2026-08-31 handoff:** Task 7 remains in progress. The current materialized
-> ledger is fresh and verified at 417/449 official, 30 primary-source-open, and
-> 30 change-bearing-open instruments. The open set contains 4 `missing` and 26
+> ledger is fresh and verified at 418/449 official, 29 primary-source-open, and
+> 29 change-bearing-open instruments. The open set contains 4 `missing` and 25
 > `secondary_only` rows. Resolution `469/NQ-UBTVQH15@2022-04-10` has a
 > structured official PDF recovery lead but remains open because its bytes are
 > not archived (`docs/journals/2026-08-30.02.ward-secondary-provenance-469.md`);
@@ -448,7 +452,11 @@ territory, title, and named-unit checks.
 > Decree 14 target. Resolution `26/NQ-CP@2009-06-11` is closed with archived
 > Government metadata and original Word attachment; its legal/observation date
 > distinction and all eight Thuận Nam components are recorded in
-> `2026-08-31.13`. Continue with Resolution `28/NQ-CP@2009-06-30`; do not
+> `2026-08-31.13`. Resolution `28/NQ-CP@2009-06-30` is closed with an
+> archived official Tiền Giang Gazette record and enacted PDF. Its 2009-06-29
+> legal date, two observed parent changes, and roster-invisible partial-area
+> transfers are recorded in `2026-08-31.14`. Continue with Resolution
+> `29/NQ-CP@2009-06-30`; do not
 > start Task 8.
 
 Add a command that regenerates the coverage JSON and prints a concise audit.

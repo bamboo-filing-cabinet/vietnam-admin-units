@@ -8726,8 +8726,11 @@
               "effective_date_inside_observation_interval",
               "title_territory_or_named_unit"
             ],
-            "primary_source_paths": [],
-            "source_status": "secondary_only"
+            "primary_source_paths": [
+              "legal/ward/2009-06-30/28-nq-cp.gazette.pdf",
+              "legal/ward/2009-06-30/28-nq-cp.metadata.html"
+            ],
+            "source_status": "verified_official_artifact"
           },
           {
             "classification": "lineage",
@@ -39258,9 +39261,9 @@
     "legal_linkage_overrides_path": "data/ward-legal-linkage-overrides.json",
     "legal_linkage_overrides_sha256": "61299d71b57ac8a9c173765d81cd7fe67e222ed2ede97d61df17a6a79d8c9afe",
     "legal_sources_path": "data/ward-legal-sources.json",
-    "legal_sources_sha256": "6c2582bbd7790dcfd4cb74a4006608f5e5eae8f74dab631085e862b64dab68f4",
+    "legal_sources_sha256": "cf616087017ce369d504ce34a2274d4f5a5ff0ba56139cdb968051ee3e5c84a7",
     "manifest_path": "data/raw/manifest.jsonl",
-    "manifest_sha256": "8bd79ca8edaad0a5bfc7c51067d1c44a9e76efc3e65b304a6f6f12f16719e778",
+    "manifest_sha256": "7ff697d2242293702230dc5b9dc8a6a73da128b00d6cb5c87e13c351791dbb4a",
     "observed_changes_path": "data/ward-observed-changes.json",
     "observed_changes_sha256": "91f441b73d9489c30e26e4a1c585600fcf435b0648a4f87ad4bc86aa9ca9d1df",
     "ward_2025_composition_path": "data/ward-2025-composition.json",
@@ -39790,19 +39793,19 @@
       },
       "path": "data/ward-legal-sources.json",
       "schema_version": 1,
-      "sha256": "6c2582bbd7790dcfd4cb74a4006608f5e5eae8f74dab631085e862b64dab68f4",
+      "sha256": "cf616087017ce369d504ce34a2274d4f5a5ff0ba56139cdb968051ee3e5c84a7",
       "summary": {
         "index_date_anomalies": 2,
         "instruments": 449,
-        "official_attachments": 410,
+        "official_attachments": 411,
         "official_code_differences": 12,
-        "official_matches": 417,
-        "preserved_artifacts": 827,
+        "official_matches": 418,
+        "preserved_artifacts": 829,
         "secondary_tvpl_urls": 121,
         "status_counts": {
-          "official_not_found": 32,
+          "official_not_found": 31,
           "reused_existing_2025_pair": 34,
-          "verified_official_match": 383
+          "verified_official_match": 384
         }
       }
     },
@@ -56550,7 +56553,32 @@
       "index_urls": [],
       "instrument_id": "28/NQ-CP@2009-06-30",
       "observation_status": "topology_components_linked",
-      "primary_sources": [],
+      "primary_sources": [
+        {
+          "bytes": 65959,
+          "declared_media_type": "",
+          "detected_media_type": "",
+          "media_type": "html",
+          "method": "official provincial Gazette metadata HTML",
+          "path": "legal/ward/2009-06-30/28-nq-cp.metadata.html",
+          "retrieved_at": "2026-09-01T01:38:24Z",
+          "sha256": "a22d321d95298bd7f4a461d556088af995aa1f1598c12caf75ee9a7a23d04412",
+          "source_class": "official",
+          "source_url": "https://congbao.dongthap.gov.vn/van-ban?Id=2897&tab=1"
+        },
+        {
+          "bytes": 320648,
+          "declared_media_type": "pdf",
+          "detected_media_type": "pdf",
+          "media_type": "pdf",
+          "method": "official provincial Gazette publication PDF",
+          "path": "legal/ward/2009-06-30/28-nq-cp.gazette.pdf",
+          "retrieved_at": "2026-09-01T01:38:25Z",
+          "sha256": "8bf31e86e0f27c326104129cb368035f87be3d9a70ab0789c83ee84b5af34b95",
+          "source_class": "official",
+          "source_url": "https://congbao.dongthap.gov.vn/DKC.FileManagement/FileStorage/ViewGazFilePart/1840"
+        }
+      ],
       "review_status": "reviewed_title_and_source_scope",
       "secondary_sources": [
         {
@@ -56567,10 +56595,18 @@
         }
       ],
       "source_discovery": {
-        "discovery_status": "official_not_found",
-        "metadata_url": ""
+        "code_match_status": "exact",
+        "date_match_status": "plausible_effective_lag",
+        "discovery_status": "verified_official_match",
+        "effective_date_match_status": "index_effective_date_differs",
+        "effective_gap_days": 1,
+        "issued_date": "2009-06-29",
+        "metadata_url": "https://congbao.dongthap.gov.vn/van-ban?Id=2897&tab=1",
+        "official_code": "28/NQ-CP",
+        "official_effective_date": "2009-06-29",
+        "source_provider": "provincial_official_gazette"
       },
-      "source_status": "secondary_only",
+      "source_status": "verified_official_artifact",
       "title_variants": [
         "Điều chỉnh địa giới hành chính huyện Châu Thành, huyện Chợ Gạo để mở rộng địa giới hành chính thành phố Mỹ Tho; điều chỉnh địa giới hành chính xã, thành lập xã thuộc thành phố Mỹ Tho, huyện Châu Thành, huyện Chợ Gạo, tỉnh Tiền Giang"
       ]
@@ -73432,7 +73468,6 @@
       "11/NĐ-CP@2009-01-07",
       "12/NĐ-CP@2009-01-07",
       "14/NĐ-CP@2009-04-11",
-      "28/NQ-CP@2009-06-30",
       "29/2006/NĐ-CP@2006-04-07",
       "29/NQ-CP@2009-06-30",
       "34/2006/NĐ-CP@2006-04-15",
@@ -73511,7 +73546,6 @@
       "11/NĐ-CP@2009-01-07",
       "12/NĐ-CP@2009-01-07",
       "14/NĐ-CP@2009-04-11",
-      "28/NQ-CP@2009-06-30",
       "29/NQ-CP@2009-06-30",
       "889/NQ-UBTVQH13@2015-03-12",
       "891/NQ-UBTVQH13@2015-03-12",
@@ -73560,7 +73594,7 @@
     "verdict": "no_endpoint_state_difference_observed"
   },
   "summary": {
-    "change_bearing_source_open_instruments": 30,
+    "change_bearing_source_open_instruments": 29,
     "classified_instruments": 449,
     "classified_legal_index_rows": 453,
     "component_assignment_counts": {
@@ -73593,9 +73627,9 @@
     },
     "legal_index_records": 544,
     "observed_change_intervals": 179,
-    "official_source_matches": 417,
-    "official_source_not_found": 32,
-    "primary_source_open_instruments": 30,
+    "official_source_matches": 418,
+    "official_source_not_found": 31,
+    "primary_source_open_instruments": 29,
     "reviewed_event_statuses": {
       "explicitly_classified_non_legal_transition": 1,
       "legal_context_classified": 16,

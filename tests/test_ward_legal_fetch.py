@@ -158,6 +158,39 @@ def _gazette_detail_html():
     """.encode()
 
 
+def _provincial_gazette_detail_html():
+    model = {
+        "Id": 2897,
+        "FileId": None,
+        "ListFileId": [],
+        "Name": "Nghị quyết",
+        "LegalPublishDate": "29/06/2009",
+        "LegalApplyDate": "29/06/2009",
+        "No": "28/NQ-CP",
+        "Organizations": "Chính phủ",
+        "Summary": (
+            "Về việc điều chỉnh địa giới hành chính huyện Châu Thành, "
+            "huyện Chợ Gạo để mở rộng địa giới hành chính thành phố Mỹ "
+            "Tho; điều chỉnh địa giới hành chính xã, thành lập xã thuộc "
+            "thành phố Mỹ Tho, huyện Châu Thành, huyện Chợ Gạo, tỉnh Tiền Giang"
+        ),
+        "GazeteList": [{
+            "LegalDocumentId": 2897,
+            "StartPage": 19,
+            "EndPage": 22,
+            "Id": 1840,
+            "GazetteId": 7404,
+            "FileId": 7403,
+            "GazetteName": "84",
+        }],
+    }
+    return (
+        "<html><body><script>var DocumentModel = "
+        + json.dumps(model, ensure_ascii=False)
+        + "; console.log(DocumentModel);</script></body></html>"
+    ).encode()
+
+
 def _national_assembly_full_text_html():
     return """
       <html><head>
@@ -457,6 +490,97 @@ def test_provincial_archive_recovery_preserves_complete_signed_scan(
     scan_entry = rawcache.manifest_entry(recovered["attachments"][0]["path"])
     assert scan_entry["source_role"] == "legal_original_scan"
     assert scan_entry["detected_media_type"] == "png"
+
+
+def test_provincial_gazette_recovery_preserves_publication_pdf(
+        tmp_path, monkeypatch):
+    monkeypatch.setattr(rawcache, "RAW", tmp_path / "raw")
+    monkeypatch.setattr(rawcache, "MANIFEST", tmp_path / "raw" / "manifest.jsonl")
+    instrument_id = "28/NQ-CP@2009-06-30"
+    source_url = "https://congbao.dongthap.gov.vn/van-ban?Id=2897&tab=1"
+    attachment_url = (
+        "https://congbao.dongthap.gov.vn/DKC.FileManagement/"
+        "FileStorage/ViewGazFilePart/1840"
+    )
+    item = {
+        "instrument_id": instrument_id,
+        "code": "28/NQ-CP",
+        "effective_date": "2009-06-30",
+        "title_variants": [
+            "Điều chỉnh địa giới hành chính huyện Châu Thành, huyện "
+            "Chợ Gạo để mở rộng địa giới hành chính thành phố Mỹ Tho; "
+            "điều chỉnh địa giới hành chính xã, thành lập xã thuộc "
+            "thành phố Mỹ Tho, huyện Châu Thành, huyện Chợ Gạo, tỉnh "
+            "Tiền Giang"
+        ],
+        "discovery_status": "official_not_found",
+        "metadata_url": "",
+        "metadata_path": "legal/ward/2009-06-30/28-nq-cp.metadata.html",
+        "attachments": [],
+        "secondary_urls": [],
+    }
+    registry_path = tmp_path / "registry.json"
+    registry_path.write_text(
+        json.dumps({"instruments": [item]}), encoding="utf-8",
+    )
+    source = {
+        "source_url": source_url,
+        "official_effective_date": "2009-06-29",
+    }
+    monkeypatch.setattr(
+        fetcher, "CURATED_PROVINCIAL_GAZETTE_PAGES", {instrument_id: source},
+    )
+
+    detail = fetcher.parse_provincial_gazette_detail(
+        _provincial_gazette_detail_html(), source_url,
+    )
+    assert detail["code"] == "28/NQ-CP"
+    assert detail["issued_date"] == "2009-06-29"
+    assert detail["official_effective_date"] == "2009-06-29"
+    assert detail["attachment_urls"] == [attachment_url]
+    assert detail["gazette_publications"] == [{
+        "publication_id": 1840,
+        "gazette_id": 7404,
+        "gazette_number": "84",
+        "start_page": 19,
+        "end_page": 22,
+        "file_id": 7403,
+        "url": attachment_url,
+    }]
+
+    registry = fetcher.recover_registry_from_provincial_gazette(
+        path=registry_path,
+        session=FakeSession([_provincial_gazette_detail_html()]),
+    )
+    recovered = registry["instruments"][0]
+    assert recovered["source_provider"] == "provincial_official_gazette"
+    assert recovered["official_effective_date"] == "2009-06-29"
+    assert recovered["effective_date_match_status"] == (
+        "index_effective_date_differs"
+    )
+    assert recovered["effective_gap_days"] == 1
+    assert recovered["date_match_status"] == "plausible_effective_lag"
+    assert recovered["attachments"] == [{
+        "url": attachment_url,
+        "path": "legal/ward/2009-06-30/28-nq-cp.gazette.pdf",
+        "media_type": "pdf",
+    }]
+
+    pdf = b"%PDF-1.4\n" + b"gazette" * 30
+    results = fetcher.fetch_registry(
+        registry_path=registry_path,
+        session=FakeSession([_provincial_gazette_detail_html(), pdf]),
+    )
+    assert results[0]["metadata_status"] == "fetched"
+    assert results[0]["attachment_statuses"] == ["fetched"]
+    metadata_entry = rawcache.manifest_entry(recovered["metadata_path"])
+    assert metadata_entry["source_role"] == "legal_gazette_index"
+    assert metadata_entry["gazette_record_id"] == 2897
+    publication_entry = rawcache.manifest_entry(
+        recovered["attachments"][0]["path"]
+    )
+    assert publication_entry["source_role"] == "legal_gazette_publication"
+    assert publication_entry["detected_media_type"] == "pdf"
 
 
 def test_gazette_parsers_retain_direct_publication_pdf_and_validate_metadata():
@@ -1030,6 +1154,14 @@ def test_real_legal_index_includes_2026_acceptance_and_reuses_34_pairs():
                 "https://chinhphu.vn/default.aspx?pageid=27160&docid=90252"
             ),
             "official_effective_date": "2009-08-24",
+        },
+    }
+    assert fetcher.CURATED_PROVINCIAL_GAZETTE_PAGES == {
+        "28/NQ-CP@2009-06-30": {
+            "source_url": (
+                "https://congbao.dongthap.gov.vn/van-ban?Id=2897&tab=1"
+            ),
+            "official_effective_date": "2009-06-29",
         },
     }
     assert fetcher.PROVINCIAL_HISTORICAL_ARCHIVE_PAGES == {

@@ -14,6 +14,7 @@ Usage:
   uv run python -m vn_admin_units.ward_legal_fetch --gazette-recover
   uv run python -m vn_admin_units.ward_legal_fetch --portal-recover
   uv run python -m vn_admin_units.ward_legal_fetch --archive-recover
+  uv run python -m vn_admin_units.ward_legal_fetch --provincial-gazette-recover
   uv run python -m vn_admin_units.ward_legal_fetch --assembly-recover
   uv run python -m vn_admin_units.ward_legal_fetch --fetch-correction-evidence
   uv run python -m vn_admin_units.ward_legal_fetch --fetch-supplemental
@@ -119,6 +120,14 @@ CURATED_GOVERNMENT_LEGAL_PAGES = {
     "39/NQ-CP@2009-08-15": {
         "source_url": "https://chinhphu.vn/default.aspx?pageid=27160&docid=90252",
         "official_effective_date": "2009-08-24",
+    },
+}
+CURATED_PROVINCIAL_GAZETTE_PAGES = {
+    "28/NQ-CP@2009-06-30": {
+        "source_url": (
+            "https://congbao.dongthap.gov.vn/van-ban?Id=2897&tab=1"
+        ),
+        "official_effective_date": "2009-06-29",
     },
 }
 PROVINCIAL_HISTORICAL_ARCHIVE_PAGES = {
@@ -563,6 +572,80 @@ def parse_gazette_detail(content: bytes, source_url: str) -> dict:
         "issued_date": normalize_issue_date(fields["ngay ban hanh"]),
         "title": fields["trich yeu"],
         "attachment_urls": attachments,
+    }
+
+
+def parse_provincial_gazette_detail(content: bytes, source_url: str) -> dict:
+    """Read an enacted-text PDF reference from an official provincial Gazette."""
+    document = _decode_html(
+        content, f"official provincial Gazette metadata page {source_url}",
+    )
+    scripts = document.xpath('//script[contains(.,"DocumentModel")]/text()')
+    matches = [
+        match
+        for script in scripts
+        if (match := re.search(
+            r"\bvar\s+DocumentModel\s*=\s*(\{.*?\})\s*;",
+            script,
+            flags=re.DOTALL,
+        ))
+    ]
+    if len(matches) != 1:
+        raise ValueError(
+            "official provincial Gazette page does not expose one DocumentModel"
+        )
+    try:
+        model = json.loads(matches[0].group(1))
+    except json.JSONDecodeError as exc:
+        raise ValueError(
+            "official provincial Gazette DocumentModel is invalid JSON"
+        ) from exc
+
+    required = {
+        "Id", "No", "LegalPublishDate", "LegalApplyDate", "Organizations",
+        "Summary", "GazeteList",
+    }
+    missing = sorted(key for key in required if not model.get(key))
+    if missing:
+        raise ValueError(
+            f"official provincial Gazette metadata is missing fields: {missing}"
+        )
+    if _fold_text(model["Organizations"]) != "chinh phu":
+        raise ValueError("official provincial Gazette issuer is not the Government")
+    if not isinstance(model["GazeteList"], list):
+        raise ValueError("official provincial Gazette publication list is invalid")
+
+    record_id = int(model["Id"])
+    origin = f"{urlparse(source_url).scheme}://{urlparse(source_url).netloc}"
+    publications = []
+    for gazette in model["GazeteList"]:
+        if int(gazette.get("LegalDocumentId", -1)) != record_id:
+            raise ValueError("official provincial Gazette publication identity drifted")
+        publication_id = int(gazette["Id"])
+        publications.append({
+            "publication_id": publication_id,
+            "gazette_id": int(gazette["GazetteId"]),
+            "gazette_number": str(gazette["GazetteName"]),
+            "start_page": int(gazette["StartPage"]),
+            "end_page": int(gazette["EndPage"]),
+            "file_id": int(gazette["FileId"]),
+            "url": urljoin(
+                origin,
+                "/DKC.FileManagement/FileStorage/"
+                f"ViewGazFilePart/{publication_id}",
+            ),
+        })
+    if not publications:
+        raise ValueError("official provincial Gazette page has no publication PDF")
+
+    return {
+        "code": normalize_code(model["No"]),
+        "issued_date": normalize_issue_date(model["LegalPublishDate"]),
+        "official_effective_date": normalize_issue_date(model["LegalApplyDate"]),
+        "title": " ".join(str(model["Summary"]).split()),
+        "attachment_urls": [row["url"] for row in publications],
+        "gazette_record_id": record_id,
+        "gazette_publications": publications,
     }
 
 
@@ -1254,6 +1337,80 @@ def recover_registry_from_provincial_archive(*, path: Path = REGISTRY,
     return registry
 
 
+def recover_registry_from_provincial_gazette(*, path: Path = REGISTRY,
+                                             timeout: int = 120,
+                                             session=None) -> dict:
+    """Validate curated enacted texts from official provincial Gazettes."""
+    registry = json.loads(path.read_text(encoding="utf-8"))
+    session = session or requests.Session()
+    by_id = {item["instrument_id"]: item for item in registry["instruments"]}
+    replacements = {}
+    for instrument_id, source in CURATED_PROVINCIAL_GAZETTE_PAGES.items():
+        item = by_id.get(instrument_id)
+        if item is None:
+            raise ValueError(
+                f"curated provincial Gazette is outside the index: {instrument_id}"
+            )
+        if item["discovery_status"] != "official_not_found":
+            continue
+        source_url = source["source_url"]
+        response = _get(session, source_url, timeout=timeout)
+        detail = parse_provincial_gazette_detail(response.content, source_url)
+        _validate_candidate(item, detail)
+        _require_official_url(source_url)
+        for url in detail["attachment_urls"]:
+            _require_official_url(url)
+        if detail["official_effective_date"] != source["official_effective_date"]:
+            raise ValueError(
+                f"official effective date drifted for {instrument_id}: "
+                f"expected {source['official_effective_date']}, "
+                f"got {detail['official_effective_date']}"
+            )
+        paths = _gazette_attachment_relpaths(
+            item["code"], item["effective_date"], len(detail["attachment_urls"]),
+        )
+        effective_gap_days = (
+            date.fromisoformat(item["effective_date"])
+            - date.fromisoformat(detail["issued_date"])
+        ).days
+        official_effective_date = detail["official_effective_date"]
+        replacements[instrument_id] = {
+            **item,
+            "discovery_status": "verified_official_match",
+            "source_provider": "provincial_official_gazette",
+            "gazette_record_id": detail["gazette_record_id"],
+            "gazette_publications": detail["gazette_publications"],
+            "official_code": detail["code"],
+            "code_match_status": "exact",
+            "issued_date": detail["issued_date"],
+            "official_effective_date": official_effective_date,
+            "effective_date_match_status": (
+                "exact"
+                if official_effective_date == item["effective_date"]
+                else "index_effective_date_differs"
+            ),
+            "effective_gap_days": effective_gap_days,
+            "date_match_status": _date_match_status(effective_gap_days),
+            "metadata_url": source_url,
+            "metadata_path": metadata_relpath(item["code"], item["effective_date"]),
+            "attachments": [
+                {"url": url, "path": artifact_path, "media_type": "pdf"}
+                for url, artifact_path in zip(
+                    detail["attachment_urls"], paths, strict=True,
+                )
+            ],
+        }
+        print(f"  {instrument_id}: provincial Gazette publication verified")
+
+    registry["instruments"] = [
+        replacements.get(item["instrument_id"], item)
+        for item in registry["instruments"]
+    ]
+    registry["summary"] = _registry_summary(registry["instruments"])
+    write_registry(registry, path)
+    return registry
+
+
 def recover_registry_from_national_assembly(*, path: Path = REGISTRY,
                                             timeout: int = 120,
                                             session=None) -> dict:
@@ -1516,34 +1673,38 @@ def fetch_registry(*, registry_path: Path = REGISTRY, timeout: int = 120,
         if not rawcache.raw_is_verified(item["metadata_path"]):
             response = _get(session, item["metadata_url"], timeout=timeout)
             is_gazette = item.get("source_provider") == "government_gazette"
+            is_provincial_gazette = (
+                item.get("source_provider") == "provincial_official_gazette"
+            )
             is_assembly = (
                 item.get("source_provider") == "national_assembly_full_text"
             )
             is_provincial_archive = (
                 item.get("source_provider") == "provincial_historical_archive"
             )
-            detail = (
-                parse_gazette_detail(response.content, item["metadata_url"])
-                if is_gazette
-                else (
-                    parse_national_assembly_full_text(
-                        response.content, item["metadata_url"]
-                    )
-                    if is_assembly
-                    else (
-                        parse_provincial_historical_archive(
-                            response.content,
-                            item["metadata_url"],
-                            code=item["official_code"],
-                            archive_id=item["archive_id"],
-                        )
-                        if is_provincial_archive
-                        else parse_official_detail(
-                            response.content, item["metadata_url"]
-                        )
-                    )
+            if is_gazette:
+                detail = parse_gazette_detail(
+                    response.content, item["metadata_url"],
                 )
-            )
+            elif is_provincial_gazette:
+                detail = parse_provincial_gazette_detail(
+                    response.content, item["metadata_url"],
+                )
+            elif is_assembly:
+                detail = parse_national_assembly_full_text(
+                    response.content, item["metadata_url"],
+                )
+            elif is_provincial_archive:
+                detail = parse_provincial_historical_archive(
+                    response.content,
+                    item["metadata_url"],
+                    code=item["official_code"],
+                    archive_id=item["archive_id"],
+                )
+            else:
+                detail = parse_official_detail(
+                    response.content, item["metadata_url"],
+                )
             candidate = {**detail, "metadata_url": item["metadata_url"]}
             validation_item = {
                 **item,
@@ -1573,7 +1734,7 @@ def fetch_registry(*, registry_path: Path = REGISTRY, timeout: int = 120,
                     f"expected {expected_urls}, got {detail['attachment_urls']}"
                 )
             if (
-                is_assembly
+                (is_assembly or is_provincial_gazette)
                 and item.get("official_effective_date")
                 and detail.get("official_effective_date")
                 != item["official_effective_date"]
@@ -1593,31 +1754,27 @@ def fetch_registry(*, registry_path: Path = REGISTRY, timeout: int = 120,
                     f"expected {item['rendered_full_text_date']}, "
                     f"got {detail.get('rendered_full_text_date')}"
                 )
+            if is_assembly:
+                metadata_role = "legal_full_text"
+                metadata_method = "official National Assembly enacted full-text HTML"
+            elif is_provincial_archive:
+                metadata_role = "legal_archive_index"
+                metadata_method = "official provincial historical archive index HTML"
+            elif is_provincial_gazette:
+                metadata_role = "legal_gazette_index"
+                metadata_method = "official provincial Gazette metadata HTML"
+            else:
+                metadata_role = "legal_metadata"
+                metadata_method = (
+                    "official Government Gazette metadata HTML"
+                    if is_gazette
+                    else "official Government legal metadata HTML"
+                )
             source_metadata = {
                 "source_url": item["metadata_url"],
                 "source_class": "official",
-                "source_role": (
-                    "legal_full_text"
-                    if is_assembly
-                    else (
-                        "legal_archive_index"
-                        if is_provincial_archive
-                        else "legal_metadata"
-                    )
-                ),
-                "method": (
-                    "official Government Gazette metadata HTML"
-                    if is_gazette
-                    else (
-                        "official National Assembly enacted full-text HTML"
-                        if is_assembly
-                        else (
-                            "official provincial historical archive index HTML"
-                            if is_provincial_archive
-                            else "official Government legal metadata HTML"
-                        )
-                    )
-                ),
+                "source_role": metadata_role,
+                "method": metadata_method,
                 "source_provider": item.get("source_provider", "government_legal_portal"),
                 "document_code": item["code"],
                 "official_document_code": item.get("official_code", item["code"]),
@@ -1629,6 +1786,11 @@ def fetch_registry(*, registry_path: Path = REGISTRY, timeout: int = 120,
             }
             if "archive_id" in item:
                 source_metadata["archive_id"] = item["archive_id"]
+            if "gazette_record_id" in item:
+                source_metadata["gazette_record_id"] = item["gazette_record_id"]
+                source_metadata["gazette_publications"] = item.get(
+                    "gazette_publications", []
+                )
             if "official_effective_date" in item:
                 source_metadata["official_effective_date"] = item[
                     "official_effective_date"
@@ -1661,22 +1823,33 @@ def fetch_registry(*, registry_path: Path = REGISTRY, timeout: int = 120,
                 "source_url": attachment["url"],
                 "source_class": "official",
                 "source_role": (
-                    "legal_original_scan"
-                    if item.get("source_provider") == "provincial_historical_archive"
-                    else "legal_original_attachment"
-                ),
-                "method": (
-                    "official Government Gazette publication PDF"
-                    if item.get("source_provider") == "government_gazette"
+                    "legal_gazette_publication"
+                    if item.get("source_provider")
+                    == "provincial_official_gazette"
                     else (
-                        "official provincial historical archive original scan"
+                        "legal_original_scan"
                         if item.get("source_provider")
                         == "provincial_historical_archive"
+                        else "legal_original_attachment"
+                    )
+                ),
+                "method": (
+                    "official provincial Gazette publication PDF"
+                    if item.get("source_provider")
+                    == "provincial_official_gazette"
+                    else (
+                        "official Government Gazette publication PDF"
+                        if item.get("source_provider") == "government_gazette"
                         else (
-                            "official National Assembly original attachment"
+                            "official provincial historical archive original scan"
                             if item.get("source_provider")
-                            == "national_assembly_full_text"
-                            else "official Government legal original attachment"
+                            == "provincial_historical_archive"
+                            else (
+                                "official National Assembly original attachment"
+                                if item.get("source_provider")
+                                == "national_assembly_full_text"
+                                else "official Government legal original attachment"
+                            )
                         )
                     )
                 ),
@@ -1694,6 +1867,13 @@ def fetch_registry(*, registry_path: Path = REGISTRY, timeout: int = 120,
             }
             if "archive_id" in item:
                 attachment_metadata["archive_id"] = item["archive_id"]
+            if "gazette_record_id" in item:
+                attachment_metadata["gazette_record_id"] = item[
+                    "gazette_record_id"
+                ]
+                attachment_metadata["gazette_publications"] = item.get(
+                    "gazette_publications", []
+                )
             if "official_effective_date" in item:
                 attachment_metadata["official_effective_date"] = item[
                     "official_effective_date"
@@ -1969,6 +2149,7 @@ def main(argv: list[str] | None = None) -> None:
     actions.add_argument("--gazette-recover", action="store_true")
     actions.add_argument("--portal-recover", action="store_true")
     actions.add_argument("--archive-recover", action="store_true")
+    actions.add_argument("--provincial-gazette-recover", action="store_true")
     actions.add_argument("--assembly-recover", action="store_true")
     actions.add_argument("--fetch-correction-evidence", action="store_true")
     actions.add_argument("--fetch-supplemental", action="store_true")
@@ -1997,6 +2178,11 @@ def main(argv: list[str] | None = None) -> None:
         print(f"updated {args.registry}: {registry['summary']}")
     elif args.archive_recover:
         registry = recover_registry_from_provincial_archive(
+            path=args.registry, timeout=args.timeout,
+        )
+        print(f"updated {args.registry}: {registry['summary']}")
+    elif args.provincial_gazette_recover:
+        registry = recover_registry_from_provincial_gazette(
             path=args.registry, timeout=args.timeout,
         )
         print(f"updated {args.registry}: {registry['summary']}")

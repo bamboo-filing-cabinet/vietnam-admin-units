@@ -98,9 +98,9 @@ classified, and linked with zero unclassified instruments or legally unlinked
 observed events.
 
 **Resume at Task 7: close the remaining official-source residue one instrument
-at a time.** The current audit is **417/449 official**, with **30
-primary-source-open instruments**: 4 `missing` and 26 `secondary_only`; **all
-30 are change-bearing**. The registry preserves 410 official attachments and 827
+at a time.** The current audit is **418/449 official**, with **29
+primary-source-open instruments**: 4 `missing` and 25 `secondary_only`; **all
+29 are change-bearing**. The registry preserves 411 official attachments and 829
 official artifacts. Decree `84/2005-NĐ-CP@2005-07-22` (Thuận Bắc, Ninh Thuận)
 now has a complete indexed official VBPL print view and exact DOC attachment
 URL, but live retrieval still times out. Preserve its official 2005-07-07 issue
@@ -190,8 +190,13 @@ No primary bytes were recovered, so that target remains `secondary_only`.
 Resolution `26/NQ-CP@2009-06-11` is now closed with archived Government
 metadata and original Word attachment. The legal issue/effective date is
 2009-06-10; the NSO date remains an observation key. Its two commune creations
-and six Thuận Nam parent changes are fully linked. Continue with Resolution
-`28/NQ-CP@2009-06-30`. Do
+and six Thuận Nam parent changes are fully linked. Resolution
+`28/NQ-CP@2009-06-30` is now closed with an archived official Tiền Giang
+Gazette record and enacted PDF. Its legal issue/effective date is 2009-06-29;
+the NSO date remains an observation key. The two observed whole-commune parent
+changes are linked, while the resolution's other partial-area transfers remain
+roster-invisible boundary changes. Continue with Resolution
+`29/NQ-CP@2009-06-30`. Do
 **not** start Task 8 or promote secondary evidence to primary merely to close
 the count.
 
@@ -263,6 +268,10 @@ Resolution 26's archived Government artifacts, Thuận Nam topology, date
 distinction, secondary-source defects, and preceding Decree 14 false hit are
 recorded in
 [`2026-08-31.13`](docs/journals/2026-08-31.13.ward-source-26-nq-cp.md).
+Resolution 28's archived official Gazette record and enacted PDF, Mỹ Tho
+topology, legal/observation date distinction, and supplied-source review are
+recorded in
+[`2026-08-31.14`](docs/journals/2026-08-31.14.ward-source-28-nq-cp.md).
 The later graph-building slice remains gated: only after Task 7 passes should
 the observations and resolved events be promoted into canonical ward entities
 and `LineageEdge` records. Do not emit or upload ward Wikidata statements yet.

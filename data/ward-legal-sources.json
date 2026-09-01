@@ -4278,16 +4278,42 @@
       ]
     },
     {
-      "attachments": [],
+      "attachments": [
+        {
+          "media_type": "pdf",
+          "path": "legal/ward/2009-06-30/28-nq-cp.gazette.pdf",
+          "url": "https://congbao.dongthap.gov.vn/DKC.FileManagement/FileStorage/ViewGazFilePart/1840"
+        }
+      ],
       "code": "28/NQ-CP",
-      "discovery_status": "official_not_found",
+      "code_match_status": "exact",
+      "date_match_status": "plausible_effective_lag",
+      "discovery_status": "verified_official_match",
       "effective_date": "2009-06-30",
+      "effective_date_match_status": "index_effective_date_differs",
+      "effective_gap_days": 1,
+      "gazette_publications": [
+        {
+          "end_page": 22,
+          "file_id": 7403,
+          "gazette_id": 7404,
+          "gazette_number": "84",
+          "publication_id": 1840,
+          "start_page": 19,
+          "url": "https://congbao.dongthap.gov.vn/DKC.FileManagement/FileStorage/ViewGazFilePart/1840"
+        }
+      ],
+      "gazette_record_id": 2897,
       "instrument_id": "28/NQ-CP@2009-06-30",
+      "issued_date": "2009-06-29",
       "metadata_path": "legal/ward/2009-06-30/28-nq-cp.metadata.html",
-      "metadata_url": "",
+      "metadata_url": "https://congbao.dongthap.gov.vn/van-ban?Id=2897&tab=1",
+      "official_code": "28/NQ-CP",
+      "official_effective_date": "2009-06-29",
       "secondary_urls": [
         "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-28-NQ-CP-dieu-chinh-va-mo-rong-dia-gioi-hanh-chinh-91273.aspx"
       ],
+      "source_provider": "provincial_official_gazette",
       "title_variants": [
         "Điều chỉnh địa giới hành chính huyện Châu Thành, huyện Chợ Gạo để mở rộng địa giới hành chính thành phố Mỹ Tho; điều chỉnh địa giới hành chính xã, thành lập xã thuộc thành phố Mỹ Tho, huyện Châu Thành, huyện Chợ Gạo, tỉnh Tiền Giang"
       ]
@@ -10714,15 +10740,15 @@
   "summary": {
     "index_date_anomalies": 2,
     "instruments": 449,
-    "official_attachments": 410,
+    "official_attachments": 411,
     "official_code_differences": 12,
-    "official_matches": 417,
-    "preserved_artifacts": 827,
+    "official_matches": 418,
+    "preserved_artifacts": 829,
     "secondary_tvpl_urls": 121,
     "status_counts": {
-      "official_not_found": 32,
+      "official_not_found": 31,
       "reused_existing_2025_pair": 34,
-      "verified_official_match": 383
+      "verified_official_match": 384
     }
   }
 }

@@ -1,0 +1,1395 @@
+
+
+<!DOCTYPE html> 
+<html lang="vi-VN" class="url-van-ban dkc-legaldocument"> 
+<head> 
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>C&#244;ng B&#225;o Đồng Th&#225;p</title> 
+    <link href="/Themes/CongBaoV2/Styles/styles.min.css" rel="stylesheet" type="text/css" />
+<link href="/Themes/CongBaoV2/Styles/tiengiangStyleNew.css" rel="stylesheet" type="text/css" />
+<script src="/Themes/CongBaoV2/scripts/jquery-3.1.1.min.js" type="text/javascript"></script>
+<script src="/Modules/Orchard.Resources/scripts/jquery-3.1.0.min.js" type="text/javascript"></script>
+<script src="/Modules/Orchard.Resources/scripts/bootstrap.min.js" type="text/javascript"></script>
+<script src="/Modules/Orchard.Resources/scripts/bootstrap-datepicker.js" type="text/javascript"></script>
+<script src="/Modules/Orchard.Resources/scripts/bootstrap-datepicker.vi.min.js" type="text/javascript"></script>
+<script src="/Modules/Orchard.Resources/scripts/angular.min.js" type="text/javascript"></script>
+<script src="/Modules/Orchard.Resources/scripts/angular-animate.min.js" type="text/javascript"></script>
+<script src="/Modules/Orchard.Resources/scripts/ui-bootstrap-tpls-2.0.1.min.js" type="text/javascript"></script>
+<script src="/Modules/Orchard.Resources/scripts/App.js" type="text/javascript"></script>
+<!--[if lt IE 9]>
+<script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" type="text/javascript"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="//oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js" type="text/javascript"></script>
+<![endif]-->
+<meta content="Orchard" name="generator" />
+<link href="/Themes/CongBaoV2/Content/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <script type="text/javascript">
+        var urlRoot = '/';
+
+        var datepicker = $.fn.datepicker.noConflict(); // return $.fn.datepicker to previously assigned value
+        $.fn.bootstrapDP = datepicker;// give $().bootstrapDP the bootstrap-datepicker functionality
+        $.fn.bootstrapDP.dates['vi'] = {
+            days: ["Chủ nhật", "Thứ hai", "Thứ ba", "Thứ tư", "Thứ năm", "Thứ sáu", "Thứ bảy"],
+            daysShort: ["CN", "Thứ 2", "Thứ 3", "Thứ 4", "Thứ 5", "Thứ 6", "Thứ 7"],
+            daysMin: ["CN", "T2", "T3", "T4", "T5", "T6", "T7"],
+            months: ["Tháng 1", "Tháng 2", "Tháng 3", "Tháng 4", "Tháng 5", "Tháng 6", "Tháng 7", "Tháng 8", "Tháng 9", "Tháng 10", "Tháng 11", "Tháng 12"],
+            monthsShort: ["Th1", "Th2", "Th3", "Th4", "Th5", "Th6", "Th7", "Th8", "Th9", "Th10", "Th11", "Th12"],
+            today: "Hôm nay",
+            clear: "Xóa",
+            format: "dd/mm/yyyy"
+        };
+    </script>
+
+
+    
+</head> 
+<body>
+
+
+<div id="layout-wrapper">
+<div class="container body-content non-padding-imp" ng-app="app" ng-cloak>
+<div class="row bgr-color non-padding header-tiengiang non-margin-imp">
+    <div id="slideshow">
+    </div>
+
+
+</div>
+    
+
+<nav class="navbar navbar-inverse" role="navigation" style="background: none; border: none; margin: 0">
+    <div class="container cusbanner" style="padding-left: 0px; padding-right: 0;border-bottom: 1px solid #c3c3c3;border-top: 1px solid #c3c3c3; display: flex; flex-direction: column;">
+        <div style="padding-left: 0px;" id="main-nav">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a class="selected" href="/">Trang chủ</a>
+                </li>
+                <li>
+                    <a class="" href="/gioi-thieu">Giới thiệu</a>
+                </li>
+                <li>
+                    <a class="" href="/muc-luc">Mục lục</a>
+                </li>
+                <li>
+                    <a class="" href="/cong-bao-chinh-phu">Công báo Chính phủ</a>
+                </li>
+                <li>
+                    <a class="" href="/gop-y">Góp ý</a>
+                </li>
+                <li>
+                    <a class="" href="/rss">Rss</a>
+                </li>
+                <li>
+                    <a class="" href="https://dongthap.gov.vn/cong-bao-dien-tu">Công báo tỉnh Đồng Tháp (cũ)</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="datetime" style="text-align: center; align-items:center; width:100%;">
+        <span id="date-time"></span>
+    </div>
+</nav>
+
+
+
+<script>
+    $(document).ready(function() {
+        $('#main-nav a').removeClass("selected");
+        $('#main-nav a[href="' + this.location.pathname + '"]').addClass('selected');
+
+        $('.menu-mobile a').removeClass("selected");
+        $('.menu-mobile a[href="' + this.location.pathname + '"]').addClass('selected-mobile');
+
+        var currentDay = new Date();
+        var thuInt = currentDay.getDay();
+        var thuString = "";
+        if (thuInt == 0) {
+            thuString = "Chủ nhật";
+        } else if (thuInt == 1) {
+            thuString = "Thứ hai";
+        } else if (thuInt == 2) {
+            thuString = "Thứ ba";
+        } else if (thuInt == 3) {
+            thuString = "Thứ tư";
+        } else if (thuInt == 4) {
+            thuString = "Thứ năm";
+        } else if (thuInt == 5) {
+            thuString = "Thứ sáu";
+        } else if (thuInt == 6) {
+            thuString = "Thứ bảy";
+        }
+        var day = ('0' + currentDay.getDate()).slice(-2);
+        var y = currentDay.getFullYear();
+        var m = ((currentDay.getMonth() + 1) < 3) ? ("0" + (currentDay.getMonth() + 1)) : currentDay.getMonth() + 1;
+        $('#date-time').text(thuString + ', ngày ' + day + ' tháng ' + m + ' năm ' + y);
+
+        var myIndex = 0;
+        function carousel() {
+            var i;
+            var x = $(".mySlides");
+            for (i = 0; i < x.length; i++) {
+                $(x[i]).addClass('w3-animate-fadeout');
+
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            $(x[myIndex - 1]).addClass('w3-animate-fading');
+            $(x[myIndex - 1]).removeClass('w3-animate-fadeout');
+         
+            setTimeout(carousel, 9000);
+        }
+        $.ajax({
+            url: urlRoot + "api/legaldoc/HomeApi/GetBanner",
+            success: function(data) {
+                var html = "";
+                for (var i = 0; i < data.Units.length; i++) {
+                    var item = data.Units[i];
+                    html +=
+                        '<img class="header-content mySlides" src="' +
+                        item.UrlImage +
+                        '"/>';
+               
+                }
+                $("#slideshow").html("");
+                $("#slideshow").html(html);
+
+                carousel();
+
+                var option = '<option value="">-- Chọn website liên kết --</option>';
+                for (var i = 0; i < data.listFooterLink.link.length; i++) {
+                    option += '<option value="' + data.listFooterLink.link[i].UrlLink + '">' +
+                        data.listFooterLink.link[i].DisplayName + '</option>';
+                }
+                $("#lienket").html(option);
+                debugger;
+
+
+//                setInterval(function() {
+//                        $('#slideshow > div:first')
+//                            .hide()
+//                            .next()
+//                            .show()
+//                            .end()
+//                            .appendTo('#slideshow');
+//                    },
+//                    3000);
+//                console.log(data);
+            }
+        });
+   
+
+
+    });
+</script>
+
+
+<div class="container body-content non-padding-left non-padding-right ">
+
+
+
+    <div id="content" class="group">
+    <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3 non-padding">
+
+    <div class="menu-left">
+    <div class="non-display-listmonth" style="clear: both">
+    <table class="table" data-toggle="table" style="background-color: #fff; border: 1px solid #d4d4d4">
+    <tbody>
+    <tr>
+        <th class="tdfirst">
+            <span> Các số công báo</span>
+        </th>
+    </tr>
+    <tr>
+        <td style="padding: 10px 10px">
+            <select ng-model="YearSelected" ng-options="year as year for year in ListYear" ng-change="update()" class="form-control" id="ChonNam" name="ChonNam"></select>
+        </td>
+    </tr>
+    <tr>
+    <td style="padding-left: 0!important;padding-right: 0 !important;padding-bottom: 10px !important">
+    <div class="display-hide" ng-class="{'display-show':ShowMonth}">
+    <div class="panel-group" id="accordion">
+    <div ng-if="Month12 && Month12.length > 0" class="panel panel-default" style="margin-top: 0px;">
+
+
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" style="font-weight: bold" data-parent="#accordion" href="#collapse-congbao1">Tháng 12</a>
+            </h4>
+        </div>
+
+        <div id="collapse-congbao1" ng-class="{in:12 == ActiveItem.Month}" class="panel-collapse collapse ">
+
+            <div ng-class="{selectedMonthActive:item.Id == ActiveItem.Id}" class="panel-body-custom" ng-repeat="item in Month12">
+                <a ng-class="{selectedRowActive:item.Id == ActiveItem.Id}" ng-href="/?id={{item.Id}}&year={{YearSelected}}">&nbsp;Số&nbsp;{{item.Title}} ngày {{item.IssuedDateTxt}}</a>
+            </div>
+
+        </div>
+
+    </div>
+    <div ng-if="Month11.length > 0" class="panel panel-default" style="margin-top: 0px;">
+
+
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" style="font-weight: bold" data-parent="#accordion" href="#collapse-congbao2">Tháng 11</a>
+            </h4>
+        </div>
+
+        <div id="collapse-congbao2" ng-class="{in:11 == ActiveItem.Month}" class="panel-collapse collapse ">
+
+            <div ng-class="{selectedMonthActive:item.Id == ActiveItem.Id}" class="panel-body-custom" ng-repeat="item in Month11">
+                <a ng-class="{selectedRowActive:item.Id == ActiveItem.Id}" ng-href="/?id={{item.Id}}&year={{YearSelected}}">&nbsp;Số&nbsp;{{item.Title}} ngày {{item.IssuedDateTxt}}</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div ng-if="Month10.length > 0" class="panel panel-default" style="margin-top: 0px;">
+
+
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" style="font-weight: bold" data-parent="#accordion" href="#collapse-congbao3">Tháng 10</a>
+            </h4>
+        </div>
+
+        <div id="collapse-congbao3" ng-class="{in: 10 == ActiveItem.Month}" class="panel-collapse collapse ">
+
+            <div ng-class="{selectedMonthActive:item.Id == ActiveItem.Id}" class="panel-body-custom" ng-repeat="item in Month10">
+                <a ng-class="{selectedRowActive:item.Id == ActiveItem.Id}" ng-href="/?id={{item.Id}}&year={{YearSelected}}">&nbsp;Số&nbsp;{{item.Title}} ngày {{item.IssuedDateTxt}}</a>
+            </div>
+        </div>
+
+    </div>
+    <div ng-if="Month9.length > 0" class="panel panel-default" style="margin-top: 0px;">
+
+
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" style="font-weight: bold" data-parent="#accordion" href="#collapse-congbao12">Tháng 9</a>
+            </h4>
+        </div>
+
+        <div id="collapse-congbao12" ng-class="{in:9 == ActiveItem.Month}" class="panel-collapse collapse ">
+
+            <div ng-class="{selectedMonthActive:item.Id == ActiveItem.Id}" class="panel-body-custom" ng-repeat="item in Month9">
+                <a ng-class="{selectedRowActive:item.Id == ActiveItem.Id}" ng-href="/?id={{item.Id}}&year={{YearSelected}}">&nbsp;Số&nbsp;{{item.Title}} ngày {{item.IssuedDateTxt}}</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div ng-if="Month8.length > 0" class="panel panel-default" style="margin-top: 0px;">
+
+
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" style="font-weight: bold" data-parent="#accordion" href="#collapse-congbao4">Tháng 8</a>
+            </h4>
+        </div>
+
+        <div id="collapse-congbao4" ng-class="{in:8 == ActiveItem.Month}" class="panel-collapse collapse ">
+
+            <div ng-class="{selectedMonthActive:item.Id == ActiveItem.Id}" class="panel-body-custom" ng-repeat="item in Month8">
+                <a ng-class="{selectedRowActive:item.Id == ActiveItem.Id}" ng-href="/?id={{item.Id}}&year={{YearSelected}}">&nbsp;Số&nbsp;{{item.Title}} ngày {{item.IssuedDateTxt}}</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div ng-if="Month7.length > 0" class="panel panel-default" style="margin-top: 0px;">
+
+
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" style="font-weight: bold" data-parent="#accordion" href="#collapse-congbao5">Tháng 7</a>
+            </h4>
+        </div>
+
+        <div id="collapse-congbao5" ng-class="{in:7 == ActiveItem.Month}" class="panel-collapse collapse ">
+
+            <div ng-class="{selectedMonthActive:item.Id == ActiveItem.Id}" class="panel-body-custom" ng-repeat="item in Month7">
+                <a ng-class="{selectedRowActive:item.Id == ActiveItem.Id}" ng-href="/?id={{item.Id}}&year={{YearSelected}}">&nbsp;Số&nbsp;{{item.Title}} ngày {{item.IssuedDateTxt}}</a>
+            </div>
+        </div>
+
+    </div>
+    <div ng-if="Month6.length > 0" class="panel panel-default" style="margin-top: 0px;">
+
+
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" style="font-weight: bold" data-parent="#accordion" href="#collapse-congbao6">Tháng 6</a>
+            </h4>
+        </div>
+
+        <div id="collapse-congbao6" ng-class="{in:6 == ActiveItem.Month}" class="panel-collapse collapse ">
+
+            <div ng-class="{selectedMonthActive:item.Id == ActiveItem.Id}" class="panel-body-custom" ng-repeat="item in Month6">
+                <a ng-class="{selectedRowActive:item.Id == ActiveItem.Id}" ng-href="/?id={{item.Id}}&year={{YearSelected}}">&nbsp;Số&nbsp;{{item.Title}} ngày {{item.IssuedDateTxt}}</a>
+            </div>
+        </div>
+
+    </div>
+    <div ng-if="Month5.length > 0" class="panel panel-default" style="margin-top: 0px;">
+
+
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" style="font-weight: bold" data-parent="#accordion" href="#collapse-congbao7">Tháng 5</a>
+            </h4>
+        </div>
+
+        <div id="collapse-congbao7" ng-class="{in:5 == ActiveItem.Month}" class="panel-collapse collapse ">
+
+            <div ng-class="{selectedMonthActive:item.Id == ActiveItem.Id}" class="panel-body-custom" ng-repeat="item in Month5">
+                <a ng-class="{selectedRowActive:item.Id == ActiveItem.Id}" ng-href="/?id={{item.Id}}&year={{YearSelected}}">&nbsp;Số&nbsp;{{item.Title}} ngày {{item.IssuedDateTxt}}</a>
+            </div>
+        </div>
+
+    </div>
+    <div ng-if="Month4.length > 0" class="panel panel-default" style="margin-top: 0px;">
+
+
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" style="font-weight: bold" data-parent="#accordion" href="#collapse-congbao0">Tháng 4</a>
+            </h4>
+        </div>
+
+        <div id="collapse-congbao0" ng-class="{in:4 == ActiveItem.Month}" class="panel-collapse collapse ">
+            <div ng-class="{selectedMonthActive:item.Id == ActiveItem.Id}" class="panel-body-custom" ng-repeat="item in Month4">
+                <a ng-class="{selectedRowActive:item.Id == ActiveItem.Id}" ng-href="/?id={{item.Id}}&year={{YearSelected}}">&nbsp;Số&nbsp;{{item.Title}} ngày {{item.IssuedDateTxt}}</a>
+            </div>
+        </div>
+
+    </div>
+    <div ng-if="Month3.length > 0" class="panel panel-default" style="margin-top: 0px;">
+
+
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" style="font-weight: bold" data-parent="#accordion" href="#collapse-congbao9">Tháng 3</a>
+            </h4>
+        </div>
+
+        <div id="collapse-congbao9" ng-class="{in:3 == ActiveItem.Month}" class="panel-collapse collapse ">
+
+            <div ng-class="{selectedMonthActive:item.Id == ActiveItem.Id}" class="panel-body-custom" ng-repeat="item in Month3">
+                <a ng-class="{selectedRowActive:item.Id == ActiveItem.Id}" ng-href="/?id={{item.Id}}&year={{YearSelected}}">&nbsp;Số&nbsp;{{item.Title}} ngày {{item.IssuedDateTxt}}</a>
+            </div>
+        </div>
+
+    </div>
+    <div ng-if="Month2.length > 0" class="panel panel-default" style="margin-top: 0px;">
+
+
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" style="font-weight: bold" data-parent="#accordion" href="#collapse-congbao10">Tháng 2</a>
+            </h4>
+        </div>
+
+        <div id="collapse-congbao10" ng-class="{in:2 == ActiveItem.Month}" class="panel-collapse collapse ">
+
+            <div ng-class="{selectedMonthActive:item.Id == ActiveItem.Id}" class="panel-body-custom" ng-repeat="item in Month2">
+                <a ng-class="{selectedRowActive:item.Id == ActiveItem.Id}" ng-href="/?id={{item.Id}}&year={{YearSelected}}">&nbsp;Số&nbsp;{{item.Title}} ngày {{item.IssuedDateTxt}}</a>
+            </div>
+        </div>
+
+    </div>
+    <div ng-if="Month1.length > 0" class="panel panel-default" style="margin-top: 0px;">
+
+
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" style="font-weight: bold" data-parent="#accordion" href="#collapse-congbao11">Tháng 1</a>
+            </h4>
+        </div>
+
+        <div id="collapse-congbao11" ng-class="{in:1 == ActiveItem.Month}" class="panel-collapse collapse ">
+
+            <div ng-class="{selectedMonthActive:item.Id == ActiveItem.Id}" class="panel-body-custom" ng-repeat="item in Month1">
+                <a ng-class="{selectedRowActive:item.Id == ActiveItem.Id}" ng-href="/?id={{item.Id}}&year={{YearSelected}}">&nbsp;Số&nbsp;{{item.Title}} ngày {{item.IssuedDateTxt}}</a>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    </div>
+    
+    </td>
+    </tr>
+    </tbody>
+    </table>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.selectedRow').click(function() {
+                var contentText = $(this).text();
+                $(".conttent-title-mobile").each(function(index) {
+                    $(this).hide();
+                    if ($(this).text() == contentText) {
+                        $(this).show();
+                    }
+                });
+
+
+                $(".selectedRow").each(function(index) {
+                    $(this).removeClass("selectedRowActive");
+                });
+                $("#divLoading").show();
+                $(this).addClass("selectedRowActive");
+
+                $("li.li-top").each(function(index) {
+                    $(this).removeClass("selected");
+                });
+                //$("#divLoading").show();
+                $(".li-first").addClass("selected");
+            });
+
+
+        });
+
+        function your_js_function() {
+            $("#divLoading").hide();
+        }
+
+
+    </script>
+    </div>
+        <div class="non-display-orgzanitation" style="clear:both">
+            <table class="table" data-toggle="table" style="background-color:#fff;border:1px solid #d4d4d4;margin-bottom:0px">
+                <tbody>
+                    <tr>
+                        <th class="tdfirst">
+                            <span>VĂN BẢN PHÁP LUẬT</span>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td style="padding-left: 0!important;padding-right: 0 !important;padding-bottom: 10px !important;">
+                            <div class="panel-group" id="accordion">
+
+                                <div class="panel panel-default" style="margin-top: 0px;">
+
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" style="font-weight:bold" data-parent="#accordion" href="#collapse-tinh">Tỉnh</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse-tinh" class="panel-collapse collapse out">
+                                        <div ng-repeat="item in HomeResult.Ogralizations track by $index">
+                                            <div class="panel-body-custom" ng-if="item.OrganizationType ==2">
+                                                <a ng-href="/van-ban-phap-luat?id={{item.Id}}&tab=2">&nbsp;{{item.Name}}</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+         
+                                </div>
+                                <div class="panel panel-default" style="margin-top: 0px;">
+
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" style="font-weight:bold" data-parent="#accordion" href="#collapse-ThanhPho">Thành Phố</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse-ThanhPho" class="panel-collapse collapse out">
+                                        <div ng-repeat="item in HomeResult.Ogralizations track by $index">
+                                            <div class="panel-body-custom" ng-if="item.OrganizationType ==0">
+                                                <a ng-href="/van-ban-phap-luat?id={{item.Id}}&tab=2">&nbsp;{{item.Name}}</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="panel panel-default" style="margin-top: 0px;">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" style="font-weight:bold" data-parent="#accordion" href="#collapse-QuanHuyen">Huyện</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse-QuanHuyen" class="panel-collapse collapse out">
+                                        <div ng-repeat="item in HomeResult.Ogralizations track by $index">
+                                            <div class="panel-body-custom" ng-if="item.OrganizationType ==0">
+                                                <a ng-href="/van-ban-phap-luat?id={{item.Id}}&tab=2">&nbsp;{{item.Name}}</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+
+            <script>
+
+            </script>
+
+        </div>
+        
+        <div class="non-display-field" style="clear:both">
+            <table class="table" data-toggle="table" style="background-color:#fff;border:1px solid #d4d4d4;margin-bottom:0px">
+                <tbody>
+                    <tr>
+                        <th class="tdfirst">
+                            <span>VĂN BẢN THEO LĨNH VỰC</span>
+                        </th>
+                    </tr>
+                    <tr >
+                        <td style="padding-left: 0!important;padding-right: 0 !important;padding-bottom: 10px !important;">
+                            <div class="panel-group" id="accordion">
+                                <div class="panel">
+                                    <div ng-repeat="item in HomeResult.fields track by $index">
+                                        <div ng-class="{'selectedLinhVuc':$index>15}" class="col-sm-12 panel-body-custom" style="padding: 5px 0">
+                                            <a ng-href="/linh-vuc?id={{item.Id}}&tab=3" class="hyperlink">{{item.Name}}</a>
+                                        </div>
+                                    </div>
+
+                                    <div style="float: right">
+                                        <a id="clickme" href="#clickme"><span id="idIconShowhide" class="glyphicon glyphicon-plus" style="font-size: 12px"></span>&nbsp;<span id="spanval">Hiển thị thêm</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <script type="text/javascript">
+        $(document).ready(function () {
+            $(".selectedLinhVuc").hide();
+        });
+        $("#clickme").click(function () {
+            $(".selectedLinhVuc").toggle("slow", function () {
+                var visible = $(".selectedLinhVuc").is(":visible");
+                if (visible) {
+                    $("#spanval").text("Hiển thị rút gọn");
+                    $("#idIconShowhide").removeClass("glyphicon-plus").addClass("glyphicon-minus");
+
+                }
+
+                var hiden = $(".selectedLinhVuc").is(':hidden');
+                if (hiden) {
+                    $("#spanval").text("Hiển thị thêm");
+                    $("#idIconShowhide").removeClass("glyphicon-minus").addClass("glyphicon-plus");
+                }
+            });
+        });
+            </script>
+        </div>
+    <div class="non-display-document" style="clear: both">
+        <table class="table" data-toggle="table" style="background-color: #fff; border: 1px solid #d4d4d4">
+            <tbody>
+            <tr>
+                <th class="tdfirst">
+                    <span> CÁC VĂN BẢN</span>
+                </th>
+            </tr>
+            <tr>
+                <td style="padding: 10px 10px">
+                    <select ng-model="YearSelected" ng-options="year as year for year in ListYear" ng-change="update()" class="form-control" id="ChonNam" name="ChonNam"></select>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-left: 0!important;padding-right: 0 !important;padding-bottom: 10px !important;">
+                    <div class="panel-group panel-default" id="accordion">
+
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="selectedRow" style="font-weight: bold" href="#ByMonth" aria-controls="home" role="tab" data-toggle="tab">Theo tháng ban hành</a>
+                            </h4>
+                        </div>
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="selectedRow" style="font-weight: bold" href="#ByOgranization" aria-controls="home" role="tab" data-toggle="tab">Theo cơ quan ban hành</a>
+                            </h4>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('.selectedRow').click(function() {
+                    $(".selectedRow").each(function(index) {
+                        $(this).removeClass("selectedRowActive");
+                    });
+                    $("#divLoading").show();
+                    $(this).addClass("selectedRowActive");
+
+                    $("li.li-top").each(function(index) {
+                        $(this).removeClass("selected");
+                    });
+                    //$("#divLoading").show();
+                    $(".li-first").addClass("selected");
+                });
+
+
+            });
+
+            function your_js_function() {
+                $("#divLoading").hide();
+            }
+
+
+        </script>
+    </div>
+        <div class="non-display-document-details" style="clear: both">
+            <table class="table" data-toggle="table" style="background-color: #fff; border: 1px solid #d4d4d4">
+                <tbody>
+                    <tr>
+                        <th class="tdfirst">
+                            <span> CÁC VĂN BẢN</span>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td style="padding: 10px 10px">
+                            <select ng-model="YearSelected" ng-options="year as year for year in ListYear" ng-change="update()" class="form-control" id="ChonNam" name="ChonNam"></select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="panel-group panel-default" id="accordion">
+
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a class="selectedRow" style="font-weight: bold" ng-href="/muc-luc?year={{YearSelected}}&amp;tab=0">Theo tháng ban hành</a>
+                                    </h4>
+                                </div>
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a class="selectedRow" style="font-weight: bold" href="/muc-luc?year={{YearSelected}}&amp;tab=1">Theo cơ quan ban hành</a>
+                                    </h4>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    <div class="non-display-linkrela" style="clear: both;padding-top: 5px;">
+        <table class="table" data-toggle="table" style="background-color: #fff; border: 1px solid #d4d4d4">
+            <tbody>
+            <tr>
+                <th class="tdfirst">
+                    <span>Liên kết Website</span>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <select class="form-control" id="lienket" name="lienket" onchange="RedirectLienKet();">
+                        <option value="">-- Chọn website liên kết --</option>
+                        <option value="http://tiengiang.gov.vn">Cổng thông tin điện tử tỉnh Tiền Giang</option>
+                    </select>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <script type="text/javascript">
+            function RedirectLienKet() {
+                var selectLienKet = $("#lienket option:selected").val();
+                if (selectLienKet != "") {
+                    window.open(selectLienKet);
+                    //window.location.href = selectLienKet;
+                }
+            }
+        </script>
+    </div>
+
+    <div class="non-display-usercount" style="clear: both;padding-top: 5px;">
+        <table class="table" data-toggle="table" style="background-color: #fff; border: 1px solid #d4d4d4">
+            <tbody>
+            <tr>
+                <th class="tdfirst" colspan="2">
+                    <span>Thống kê</span>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Số lượt đang online:
+                </td>
+                <td style="text-align: right">
+                    <span id="usersCount"></span>
+                </td>
+            </tr>
+                <tr>
+                    <td>
+                        Số lượt truy cập trong ngày:
+                    </td>
+                    <td style="text-align: right">
+                        <span id="usersViewedInDay"></span>
+                    </td>
+                </tr>
+            <tr>
+                <td>
+                    Số lượt truy cập trong tuần:
+                </td>
+                <td style="text-align: right">
+                    <span id="usersViewedInWeek"></span>
+                </td>
+            </tr>  
+               
+                <tr>
+                <td>
+                    Tổng số lượt truy cập:
+                </td>
+                <td style="text-align: right">
+                    <span id="usersViewed"></span>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    </div>
+    </div>
+    <div class="col-md-9 col-lg-9 col-sm-9 col-xs-9 non-padding">
+        <div class="zone zone-content">
+<style>
+    .non-display-field {
+        display: inherit;
+    }
+
+    .non-display-usercount {
+        display: inherit;
+    }
+
+    .non-display-linkrela {
+        display: block;
+    }
+</style>
+
+<script>
+    var DocumentModel = {"Id":2897,"FileId":null,"part":null,"ListFileId":[],"fields":[{"Name":"An ninh - Quốc phòng","Id":2},{"Name":"Báo chí - Xuất bản","Id":28},{"Name":"CBCC - Nguồn nhân lực","Id":3},{"Name":"Chính sách - Pháp luật","Id":4},{"Name":"Công nghiệp - Điện","Id":5},{"Name":"Cứu hộ - PCCC","Id":6},{"Name":"Đất đai - Kiến trúc - Quy hoạch - Xây dựng","Id":7},{"Name":"Giáo dục - Y tế","Id":8},{"Name":"Giao thông","Id":9},{"Name":"Hành chính","Id":10},{"Name":"Hợp tác - Đầu tư","Id":11},{"Name":"Kế hoạch- Dự án - Đầu tư","Id":29},{"Name":"Khiếu nại - Tố cáo - Phòng chống tham nhũng","Id":12},{"Name":"Khoa học - Công nghệ","Id":13},{"Name":"Kinh tế - xã hội","Id":31},{"Name":"Lĩnh vực khác","Id":26},{"Name":"Ngân sách","Id":14},{"Name":"Ngoại vụ","Id":15},{"Name":"Nông nghiệp - Nông thôn","Id":16},{"Name":"Phí - Lệ phí","Id":17},{"Name":"Tài nguyên - Môi trường","Id":18},{"Name":"Thể thao - Du lịch","Id":19},{"Name":"Thi đua - Khen thưởng","Id":20},{"Name":"Thông tin - Truyền thông","Id":21},{"Name":"Thương mại","Id":32},{"Name":"Tổ chức","Id":30},{"Name":"Tôn giáo","Id":22},{"Name":"Tổng hợp","Id":23},{"Name":"Văn bản","Id":27},{"Name":"Văn hóa - Nghệ thuật","Id":24},{"Name":"Văn thư - Lưu trữ","Id":25}],"Name":"Nghị quyết","LegalPublishDate":"29/06/2009","LegalApplyDate":"29/06/2009","LegalPublishDateTxt":"29-06-2009","LegalApplyDateTxt":"29-06-2009","No":"28/NQ-CP","tab":1,"LegalStatus":"Đang hiệu lực","ArticleChangeApplyDate":null,"LegalExpireDate":null,"LegalExpireDateTxt":"","Organizations":"Chính phủ","Summary":"Về việc điều chỉnh địa giới hành chính huyện Châu Thành, huyện Chợ Gạo để mở rộng địa giới hành chính thành phố Mỹ Tho; điều chỉnh địa giới hành chính xã, thành lập xã thuộc thành phố Mỹ Tho, huyện Châu Thành, huyện Chợ Gạo, tỉnh Tiền Giang","DocumentType":"Nghị quyết","DocumentFields":"Tổng hợp","Signers":"Chưa xác định","GazeteList":[{"LegalDocumentId":2897,"StartPage":19,"EndPage":22,"Id":1840,"GazetteId":7404,"FileId":7403,"GazetteName":"84"}],"Ref":[]};
+    console.log(DocumentModel);
+</script>
+<div class="row non-margin" ng-controller="HomeDocument">
+<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 non-padding-right">
+    <div>
+        <div class=" pull-left bgContent" id="basicSearch">
+            <form action="/tim-kiem" class="navbar-form" method="get" role="searchs">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="input-group">
+                            <input class="form-control input-group-lg" id="txtSearch" name="txtSearch" placeholder="Nhập từ khóa tìm kiếm" type="text" value="">
+
+                            <span class="input-group-btn">
+                                <button class="btn btn-primary" name="button" value="basicsearch" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                                <a class="btn-Advancesearch" id="btnAdvanceSearch"><span class="glyphicon glyphicon-plus"></span>&nbsp; Tìm kiếm nâng cao</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class=" pull-left bgContent" id="advanceSearch" style="display: none;">
+            <form action="/tim-kiem" class="form-horizontal" method="get" role="searchs">
+                <div class="form-group" style="padding-top: 10px">
+                    <div class="col-sm-9 col-xs-8">
+                        <input class="form-control" id="txtTuKhoa" name="txtSearch" placeholder="Từ khóa" type="text" value="">
+                    </div>
+                    <div class="col-sm-3 col-xs-4" style="margin-top: 5px">
+                        <div>
+                            <input type="checkbox" name="IsNoiDung" id="noidungcb" /><label class="label-text" for="noidungcb">Tìm theo nội dung</label>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-6 col-xs-6">
+                        <input class="form-control" id="txtSoVanBan" name="txtSoVanBan" placeholder="Số văn bản" type="text" value="">
+                    </div>
+                    <div class="col-sm-6 col-xs-6">
+                        <input ng-show="false" id="CoQuanBanHanhList" name="CoQuanBanHanhList" ng-model="organizationSelect" />
+                        <select ng-model="organizationSelect"
+                                ng-options="item.id as item.name for item in listOrganization"
+                                class="form-control">
+                            <option value="">--- Chọn cơ quan ban hành ---</option>
+
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-6 col-xs-6">
+                        <input ng-show="false" id="LinhVucList" name="LinhVucList" ng-model="fieldsSelect" />
+                        <select ng-model="fieldsSelect"
+                                ng-options="item.id as item.name for item in listFields"
+                                class="form-control">
+                            <option value="">--- Chọn lĩnh vực ---</option>
+                            
+                        </select>
+                    </div>
+                    <div class="col-sm-6 col-xs-6">
+                        <input ng-show="false" id="ListLoaiVanBan" name="ListLoaiVanBan" ng-model="loaiVanBanSelect" />
+                        <select ng-model="loaiVanBanSelect"
+                                ng-options="item.id as item.name for item in listDocumentType"
+                                class="form-control">
+                            <option value="">--- Chọn loại văn bản ---</option>
+                            
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-12 col-xs-12 ">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td style="min-width: 46px">
+                                        <label style="color: gray">Ban hành: </label>
+                                    </td>
+                                    <td class="td-input-date">
+                                        <input class="form-control input-datepicker" id="dtFrom" name="dtFrom" placeholder="Từ ngày" type="text" value="">
+                                    </td>
+                                    <td class="td-input-date">
+                                        <input class="form-control input-datepicker pull-left" id="dtTo" name="dtTo" placeholder="Đến ngày" type="text" value="">
+                                    </td>
+                                    <td>
+                                        <a class="btn-Advancesearch" id="btnBasicSearch"><span class="glyphicon glyphicon-minus"></span>&nbsp; Tìm kiếm đơn giản</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-10 col-xs-10">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td><label class="label-text"><input type="radio" name="status" value="-1" checked="checked"> Tất cả &nbsp;</label> </td>
+
+                                    <td><label class="label-text"><input type="radio" name="status" value="3"> Hết hiệu lực &nbsp;</label></td>
+
+                                    <td><label class="label-text"><input type="radio" name="status" value="2"> Đang hiệu lực &nbsp;</label></td>
+
+                                    <td><label class="label-text"><input type="radio" name="status" value="4"> Hết hiệu lực một phần</label></td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="input-group col-sm-2 col-xs-2">
+                        <span class="input-group-btn">
+                            <button class="btn btn-primary pull-right" name="button" value="advancesearch" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+
+                        </span>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+<div style="clear: both; height: 0px"></div>
+<div class="bgContent" style="min-height: 663px; position: relative">
+<div class="">
+    <h3 style="text-align: left;">
+        <span style="color: #000; font-size: 18px; font-weight: bold">{{HomeResult.DocumentType}} {{HomeResult.No}}</span>
+       
+    </h3>
+
+</div>
+    <ul id="main-nav-tab" class="nav nav-tabs nav-top">
+        <li role="presentation" class="li-top li-first active">
+            <a class="selectedRow  btn-top " href="#DocumentViewer" aria-controls="home" role="tab" data-toggle="tab">
+                Nội dung văn bản
+            </a>
+        </li>
+        <li role="presentation" id="id-vbm" class="li-top ">
+            <a class="selectedRow  btn-top " href="#DocumentProperty" aria-controls="home" role="tab" data-toggle="tab">
+                Thuộc tính
+            </a>
+        </li>
+        <li role="presentation" class=" li-top">
+            <a class="selectedRow  btn-top" href="#DocumentRelation" aria-controls="home" role="tab" data-toggle="tab">
+                Văn bản liên quan
+            </a>
+        </li>
+        <li role="presentation" class=" li-top">
+            <a class="selectedRow  btn-top  map" href="#DocumentMap" aria-controls="home" role="tab" data-toggle="tab">
+                Sơ đồ
+            </a>
+        </li>
+        <li role="presentation" class=" li-top">
+            <a class="selectedRow  btn-top " href="#DocumentDownload" aria-controls="home" role="tab" data-toggle="tab">
+                Tải về
+            </a>
+        </li>
+    </ul>
+ 
+<hr class="non-margin-imp">
+
+
+
+<div id="IdbgContent">
+<div class="tab-content">
+<div role="tabpanel" class="tab-pane active" id="DocumentViewer">
+    <div ng-if="HomeResult.GazeteList && HomeResult.GazeteList.length > 0">
+        <div class="list-gaz" style="padding-top: 10px; padding-bottom: 10px; font-size: 15px">
+            <span >Đăng trên các số công báo: </span>
+  
+                <a ng-repeat="gaz in HomeResult.GazeteList track by $index" href="" ng-click="ViewFile(gaz)">{{gaz.GazetteName}}</a>
+               
+                <br />
+      
+        </div>
+        
+
+    </div>
+    <div ng-if="HomeResult.GazeteList && HomeResult.GazeteList.length > 0">
+        <div ng-repeat="gaz in HomeResult.GazeteList track by $index">
+            <div ng-if="$first" id="file-view">
+                <iframe class="iframe-size" type="application/pdf" ng-src="{{RenderUrlViewGazFile(gaz)}}"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div ng-if="!HomeResult.GazeteList || HomeResult.GazeteList.length == 0">
+        
+        <iframe id="test" class="iframe-size" ng-if="HomeResult.FileId" type="application/pdf" ng-src="{{RenderUrlViewFile(HomeResult.FileId)}}"></iframe>
+    </div>
+    
+
+</div>
+<div role="tabpanel" class="tab-pane" id="DocumentProperty">
+    <table class="table-thuoctinh">
+        <colgroup>
+            <col class="col-lg-3 col-md-3 col-sm-3 col-sm-4">
+            <col class="col-lg-3 col-md-3 col-sm-3 col-sm-8">
+            <col class="col-lg-3 col-md-3 col-sm-3">
+            <col class="col-lg-3 col-md-3 col-sm-3">
+        </colgroup>
+        <tbody>
+            <tr class="hidden-xs">
+                <td class="label-ThuocTinh">
+                    <span>Loại văn bản:</span>
+                </td>
+                <td>
+                    <span>{{HomeResult.Name}}</span>
+                </td>
+                <td class="label-ThuocTinh">
+                    <span>Ngày ban hành:</span>
+                </td>
+                <td>
+                    <span>{{HomeResult.LegalPublishDateTxt}}</span>
+                </td>
+
+            </tr>
+            <tr class="hidden-xs">
+                <td class="label-ThuocTinh">
+                    <span>Tình trạng hiệu lực:</span>
+                </td>
+                <td>
+                    <span style="color: blue">{{HomeResult.LegalStatus}}</span>
+                </td>
+                <td class="label-ThuocTinh">
+                    <span>Ngày hiệu lực:</span>
+                </td>
+                <td>
+                    {{HomeResult.LegalApplyDateTxt}}
+                </td>
+            </tr>
+            <tr class="hidden-xs">
+                <td class="label-ThuocTinh">
+                    <span>Số, ký hiệu:</span>
+                </td>
+                <td>
+                    {{HomeResult.No}}
+                </td>
+                <td class="label-ThuocTinh">
+                    <span>Ngày hết hiệu lực:</span>
+                </td>
+                <td>
+                    {{HomeResult.LegalExpireDateTxt}}
+                </td>
+            </tr>
+            <tr class="hidden-xs">
+                <td class="label-ThuocTinh">
+                    <span>Cơ quan ban hành:</span></td>
+                <td colspan="3">{{HomeResult.Organizations}}</td>
+            </tr>
+            <tr class="hidden-xs">
+                <td class="label-ThuocTinh">
+                    <span>Trích yếu nội dung:</span>
+                </td>
+                <td colspan="3">
+                    {{HomeResult.Summary}}
+                </td>
+            </tr>
+            <tr class="hidden-xs">
+                <td class="label-ThuocTinh">
+                    <span>Lĩnh vực:</span>
+                </td>
+                <td colspan="3">
+                    {{HomeResult.DocumentFields}}
+                </td>
+            </tr>
+            <tr class="hidden-xs">
+                <td class="label-ThuocTinh">
+                    <span>Người ký:</span>
+                </td>
+                <td colspan="3">
+                    <span>{{HomeResult.Signers}}</span>
+                </td>
+            </tr>
+            <tr class="hidden-xs">
+                <td class="label-ThuocTinh">
+                    <span>Công báo:</span>
+                </td>
+                <td colspan="3">
+                    <div ng-repeat="gaz in HomeResult.GazeteList track by $index">
+                        <a ng-href="/?id={{gaz.GazetteId}}">{{gaz.GazetteName}}</a>
+                        <br/>
+                    </div>
+               
+
+                </td>
+            </tr>
+
+            <tr class="hidden-lg hidden-sm hidden-md">
+                <td class="label-ThuocTinh col-xs-4">
+                    <span>Loại văn bản:</span>
+                </td>
+                <td class="col-xs-8">
+                    <span>{{HomeResult.Name}}</span>
+                </td>
+
+            </tr> 
+            <tr class="hidden-lg hidden-sm hidden-md">
+
+                <td class="label-ThuocTinh col-xs-4">
+                    <span>Ngày ban hành:</span>
+                </td>
+                <td class="col-xs-8">
+                    <span>{{HomeResult.LegalPublishDateTxt}}</span>
+                </td>
+
+            </tr>
+            <tr class="hidden-lg hidden-sm hidden-md">
+                <td class="label-ThuocTinh col-xs-4">
+                    <span>Tình trạng hiệu lực:</span>
+                </td>
+                <td class="col-xs-8">
+                    <span style="color: blue">{{HomeResult.LegalStatus}}</span>
+                </td>
+
+            </tr>
+            <tr class="hidden-lg hidden-sm hidden-md">
+                <td class="label-ThuocTinh col-xs-4">
+                    <span>Ngày hiệu lực:</span>
+                </td>
+                <td class="col-xs-8">
+                    {{HomeResult.LegalApplyDateTxt}}
+                </td>
+            </tr>
+
+
+            <tr class="hidden-lg hidden-sm hidden-md">
+                <td class="label-ThuocTinh col-xs-4">
+                    <span>Số, ký hiệu:</span>
+                </td>
+                <td class="col-xs-8">
+                    {{HomeResult.No}}
+                </td>
+
+            </tr>
+            <tr class="hidden-lg hidden-sm hidden-md">
+                <td class="label-ThuocTinh col-xs-4">
+                    <span>Ngày hết hiệu lực:</span>
+                </td>
+                <td class="col-xs-8">
+                    {{HomeResult.LegalExpireDateTxt}}
+                </td>
+
+            </tr>
+            <tr class="hidden-lg hidden-sm hidden-md">
+                <td class="label-ThuocTinh col-xs-4">
+                    <span>Cơ quan ban hành:</span>
+                </td>
+                <td colspan="3" class="col-xs-8">{{HomeResult.Organizations}}</td>
+            </tr>
+            <tr class="hidden-lg hidden-sm hidden-md">
+                <td class="label-ThuocTinh col-xs-4">
+                    <span>Trích yếu nội dung:</span>
+                </td>
+                <td colspan="3" class="col-xs-8">
+                    {{HomeResult.Summary}}
+                </td>
+            </tr>
+            <tr class="hidden-lg hidden-sm hidden-md">
+                <td class="label-ThuocTinh col-xs-4">
+                    <span>Lĩnh vực:</span>
+                </td>
+                <td colspan="3" class="col-xs-8">
+                    {{HomeResult.DocumentFields}}
+                </td>
+            </tr>
+            <tr class="hidden-lg hidden-sm hidden-md">
+                <td class="label-ThuocTinh col-xs-4">
+                    <span>Người ký:</span>
+                </td>
+                <td colspan="3" class="col-xs-8">
+                    <span>{{HomeResult.Signers}}</span>
+                </td>
+            </tr>
+            <tr class="hidden-lg hidden-sm hidden-md">
+                <td class="label-ThuocTinh">
+                    <span>Công báo:</span>
+                </td>
+                <td colspan="3">
+            
+                    <div ng-repeat="gaz in HomeResult.GazeteList track by $index">
+                        <a ng-href="/?id={{gaz.GazetteId}}">{{gaz.GazetteName}}</a>
+                        <br />
+                    </div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+<div role="tabpanel" class="tab-pane" id="DocumentRelation">
+    <table class="table-vanbanlienquan">
+        <tbody>
+        <tr ng-repeat="(key, value) in DocumentRefByType track by $index">
+            <td style="vertical-align: top; padding: 5px 10px; width: 20%">
+                <span>Văn bản {{value.Type}}</span>
+            </td>
+            <td>
+                <table class="table-vanbanlienquan-sub" ng-repeat="item in value.Items track by $index">
+                    <tbody>
+                        <tr>
+                            <td style="width: 100%" ng-if="item.TargetLegalDoc">
+                                {{item.TargetLegalDoc.No}}
+                                <br/>
+                                {{item.TargetLegalDoc.Summary}}
+                            </td>
+                            <td style="width: 100%" ng-if="!item.TargetLegalDoc">
+                                {{item.TargetNo}}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul ng-if="item.TargetLegalDoc">
+                                    <li>
+                                        <span>Ngày ban hành: {{item.TargetLegalDoc.TargetIssuedDateTxt}}</span></li>
+                                    <li>
+                                        <span>Ngày hiệu lực: {{item.TargetLegalDoc.LegalApplyDateTxt}}</span></li>
+                                </ul>
+                                <ul ng-if="!item.TargetLegalDoc">
+                                    <li>
+                                        <span>Ngày ban hành: {{item.TargetIssuedDateTxt}}</span></li>
+                                    <li>
+                                        <span>Ngày hiệu lực:</span></li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div role="tabpanel" class="tab-pane" id="DocumentMap">
+    <div class="row container" >
+
+        <div class="col-sm-4 col-xs-4">
+            <div class="panel-group" role="tablist" aria-multiselectable="true" ng-repeat="(key, value) in DocumentRefByType track by $index">
+                <div class="panel panel-default sd1" id="accordionSoDo" ng-if="$index%3==0">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title" style="position: relative;">
+                            <a data-toggle="collapse" style="font-size: 14px" data-parent="#accordionSoDo" ng-href="{{'#collapsevbdhd'+$index}}" aria-expanded="true" aria-controls="collapsevbdhd">
+                                VB {{value.Type}}({{value.Items.length}})<span class="glyphicon glyphicon-chevron-down" style="position: absolute; right: 2px; top: -2px"></span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="{{'collapsevbdhd'+$index}}" class="panel-collapse collapse out" role="tabpanel" aria-labelledby="headingOne">
+
+                        <div class="panel-body panel-bodyCustom">
+                            <div class="div_sodo" ng-repeat="item in value.Items track by $index">
+                                <div style="padding: 5px 0" ng-if="item.TargetLegalDoc">
+                                    <a class="titleSoDo" ng-href="/van-ban?Id={{item.TargetLegalDoc.Id}}&tab=0">
+                                        <span>{{item.TargetLegalDoc.Name}}&nbsp;{{item.TargetLegalDoc.No}}</span>&nbsp;{{item.TargetLegalDoc.Summary}}
+                                    </a>
+                                </div>
+                                <div class="div_sodo" ng-if="item.TargetLegalDoc">
+                                    <a ng-href="/van-ban?Id={{item.TargetLegalDoc.Id}}&tab=1"><i class="glyphicon glyphicon-list"></i>Thuộc tính</a>&nbsp;
+                                    <a ng-href="/van-ban?Id={{item.TargetLegalDoc.Id}}&tab=2"><i class="vblq"></i>VB liên quan</a>
+                                </div>
+
+                                <div ng-if="!item.TargetLegalDoc"><span>{{item.TargetNo}} ban hành ngày {{item.TargetIssuedDateTxt}}</span></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-xs-4 non-padding">
+            <div class="panel-group" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default sddx" id="accordionSoDo">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title" style="position: relative">
+                            <a data-toggle="collapse" style="font-size: 14px" data-parent="#accordionSoDo" href="#collapsevbdx" aria-expanded="true" aria-controls="collapsevbdx">
+                                <span>VB đang xem</span><span class="glyphicon glyphicon-chevron-up" style="position: absolute; right: 2px; top: -2px"></span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapsevbdx" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body panel-bodyCustom">
+                            <div style="padding: 5px 0">
+                            
+                                <a class="titleSoDo" ng-href="/van-ban?Id={{HomeResult.Id}}&tab=0">
+                                    <span>{{HomeResult.Name}}&nbsp;{{HomeResult.No}}</span>&nbsp;
+                                    {{HomeResult.Summary}}
+                                </a>
+                            </div>
+                            <div class="div_sodo">
+                                <a ng-href="/van-ban?Id={{HomeResult.Id}}&tab=1"><i class="glyphicon glyphicon-list"></i>Thuộc tính</a>&nbsp;
+                                <a ng-href="/van-ban?Id={{HomeResult.Id}}&tab=2"><i class="vblq"></i>VB liên quan</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="panel-group" role="tablist" aria-multiselectable="true" ng-repeat="(key, value) in DocumentRefByType track by $index">
+                <div class="panel panel-default sd1" id="accordionSoDo" ng-if="$index%3==1">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title" style="position: relative;">
+                            <a data-toggle="collapse" style="font-size: 14px" data-parent="#accordionSoDo" ng-href="{{'#collapsevbdhd'+$index}}" aria-expanded="true" aria-controls="collapsevbdhd">
+                                VB {{value.Type}}({{value.Items.length}})<span class="glyphicon glyphicon-chevron-down" style="position: absolute; right: 2px; top: -2px"></span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="{{'collapsevbdhd'+$index}}" class="panel-collapse collapse out" role="tabpanel" aria-labelledby="headingOne">
+
+                        <div class="panel-body panel-bodyCustom">
+                            <div class="div_sodo" ng-repeat="item in value.Items track by $index">
+                                <div style="padding: 5px 0" ng-if="item.TargetLegalDoc">
+                                    <a class="titleSoDo" ng-href="/van-ban?Id={{item.TargetLegalDoc.Id}}&tab=0">
+                                        <span>{{item.TargetLegalDoc.Name}}&nbsp;{{item.TargetLegalDoc.No}}</span>&nbsp;{{item.TargetLegalDoc.Summary}}
+                                    </a>
+                                </div>
+                                <div class="div_sodo" ng-if="item.TargetLegalDoc">
+                                    <a ng-href="/van-ban?Id={{item.TargetLegalDoc.Id}}&tab=1"><i class="glyphicon glyphicon-list"></i>Thuộc tính</a>&nbsp;
+                                    <a ng-href="/van-ban?Id={{item.TargetLegalDoc.Id}}&tab=2"><i class="vblq"></i>VB liên quan</a>
+                                </div>
+                                <div ng-if="!item.TargetLegalDoc"><span>{{item.TargetNo}} ban hành ngày {{item.TargetIssuedDateTxt}}</span></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-xs-4">
+            <div class="panel-group" role="tablist" aria-multiselectable="true" ng-repeat="(key, value) in DocumentRefByType track by $index">
+                <div class="panel panel-default sd1" id="accordionSoDo" ng-if="$index%3==2">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title" style="position: relative;">
+                            <a data-toggle="collapse" style="font-size: 14px" data-parent="#accordionSoDo" ng-href="{{'#collapsevbdhd'+$index}}" aria-expanded="true" aria-controls="collapsevbdhd">
+                                VB {{value.Type}}({{value.Items.length}})<span class="glyphicon glyphicon-chevron-down" style="position: absolute; right: 2px; top: -2px"></span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="{{'collapsevbdhd'+$index}}" class="panel-collapse collapse out" role="tabpanel" aria-labelledby="headingOne">
+
+                        <div class="panel-body panel-bodyCustom">
+                            <div class="div_sodo" ng-repeat="item in value.Items track by $index">
+                                <div style="padding: 5px 0" ng-if="item.TargetLegalDoc">
+                                    <a class="titleSoDo" ng-href="/van-ban?Id={{item.TargetLegalDoc.Id}}&tab=0">
+                                        <span>{{item.TargetLegalDoc.Name}}&nbsp;{{item.TargetLegalDoc.No}}</span>&nbsp;{{item.TargetLegalDoc.Summary}}
+                                    </a>
+                                </div>
+                                <div class="div_sodo" ng-if="item.TargetLegalDoc">
+                                    <a ng-href="/van-ban?Id={{item.TargetLegalDoc.Id}}&tab=1"><i class="glyphicon glyphicon-list"></i>Thuộc tính</a>&nbsp;
+                                    <a ng-href="/van-ban?Id={{item.TargetLegalDoc.Id}}&tab=2"><i class="vblq"></i>VB liên quan</a>
+                                </div>
+
+                                <div ng-if="!item.TargetLegalDoc"><span>{{item.TargetNo}} ban hành ngày {{item.TargetIssuedDateTxt}}</span></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<div role="tabpanel" class="tab-pane" id="DocumentDownload">
+    <div style="padding: 5px 0" ng-repeat="file in HomeResult.ListFileId track by $index">
+        <a download="{{file.InputFileName}}" ng-href="{{RenderUrlDownload(file.Id)}}" target="_blank"><span class="glyphicon glyphicon-download-alt"></span>&nbsp;{{file.InputFileName}}</a>
+    </div>
+</div>
+</div>
+
+
+</div>
+
+</div>
+</div>
+</div></div>
+    </div>
+    </div>
+
+
+
+</div>
+
+<div class="zone zone-footer">
+<article class="widget-footer widget-html-widget widget">
+    
+<hr />
+<table id="table1" width="100%" cellpadding="2" border="0" bgcolor="#FFF2D9">
+<tbody>
+<tr>
+<td width="50%" align="left"><span style="color: #ff0000; font-size: large;" color="#FF0000" size="4"><b>C&Ocirc;NG B&Aacute;O TỈNH ĐỒNG TH&Aacute;P</b></span></td>
+<td width="50%">&nbsp;</td>
+</tr>
+<tr>
+<td width="50%" align="left">Địa chỉ: Số 23, Đường 30/4, Phường Mỹ Tho, Tỉnh Đồng Th&aacute;p</td>
+<td width="50%" align="right">@ Bản quyền thuộc Văn ph&ograve;ng Ủy ban nh&acirc;n d&acirc;n tỉnh Đồng Th&aacute;p.</td>
+</tr>
+<tr>
+<td width="50%" align="left">Điện thoại: 0273.3972622</td>
+<td width="50%" align="right">@Ghi r&otilde; nguồn "C&ocirc;ng b&aacute;o tỉnh Đồng Th&aacute;p"</td>
+</tr>
+<tr>
+<td width="50%" align="left">Email: congbao@dongthap.gov.vn</td>
+<td width="50%" align="right">khi sử dụng lại th&ocirc;ng tin từ Website n&agrave;y.</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+</article></div>
+
+</div>
+
+</div>
+<script src="/Modules/DKC.LegalDocument/scripts/HomeDocument.js" type="text/javascript"></script>
+
+
+
+</body>
+</html>
