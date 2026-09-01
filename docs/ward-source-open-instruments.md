@@ -148,7 +148,7 @@ TVPL links are included only to confirm identity and title. TVPL pages, search s
   - Official lead (not yet archived): <https://vbpl.vn/kiengiang/Pages/vbpq-toanvan.aspx?ItemID=11845>
   - Expected original attachment: `29.NQ-CP.zip`
   - Date discrepancy to preserve: registry effective 2009-06-30; official issue 2009-06-29; official effective 2009-06-29.
-  - Retrieval note: Preserve the one-day registry discrepancy. Save the full page and original ZIP in a normal browser; do not substitute the unrelated 2013 Resolution 29/NQ-CP record.
+  - Retrieval note: Preserve the one-day registry discrepancy. A renewed 2026-09-01 direct request to the official full-text page returned an HTTP 403 bot block, no interactive browser was available, title-qualified Government legal-portal searches returned no 2009 record, and the Government Gazette API returned no match. The supplied contemporaneous Government press report and Sài Gòn Giải Phóng implementation report corroborate the act and topology but are not the enacted resolution. Save the full official page and original 29.NQ-CP.zip in a normal browser; do not substitute the unrelated 2013 Resolution 29/NQ-CP record.
 
 ### 2015
 

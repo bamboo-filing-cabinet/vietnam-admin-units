@@ -332,7 +332,10 @@ assemblies need non-GSO sources.
   (`2026-08-31.13`). Resolution `28/NQ-CP@2009-06-30` is closed with the
   official Tiền Giang Gazette record and enacted PDF; its 2009-06-29 legal date,
   two observed parent changes, and roster-invisible partial-area transfers are
-  reconciled (`2026-08-31.14`). Full
+  reconciled (`2026-08-31.14`). Resolution `29/NQ-CP@2009-06-30` now has a
+  complete secondary review, contemporaneous press corroboration, an exact
+  official VBPL full-text/original-ZIP lead, and eight reconciled Kiên Giang
+  components. The official bytes remain blocked (`2026-09-01.01`). Full
   2002→present provenance is not yet closed. The next graph-building slice—
   promotion into canonical ward entities/`LineageEdge` records—remains gated
   behind Task 7, and Wikidata emission remains a later gate.

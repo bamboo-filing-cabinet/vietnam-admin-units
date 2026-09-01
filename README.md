@@ -195,8 +195,13 @@ and six Thuận Nam parent changes are fully linked. Resolution
 Gazette record and enacted PDF. Its legal issue/effective date is 2009-06-29;
 the NSO date remains an observation key. The two observed whole-commune parent
 changes are linked, while the resolution's other partial-area transfers remain
-roster-invisible boundary changes. Continue with Resolution
-`29/NQ-CP@2009-06-30`. Do
+roster-invisible boundary changes. Resolution `29/NQ-CP@2009-06-30` now has a
+complete secondary review, contemporaneous Government and implementation press
+corroboration, and an exact official VBPL full-text/original-ZIP lead. Its three
+commune creations and five Giang Thành parent changes are fully linked, while
+the partial Phú Mỹ→Đông Hồ transfer is roster-invisible. The official bytes
+remain blocked by HTTP 403, so it remains `secondary_only`. Continue with
+Resolution `889/NQ-UBTVQH13@2015-03-12`. Do
 **not** start Task 8 or promote secondary evidence to primary merely to close
 the count.
 
@@ -272,6 +277,9 @@ Resolution 28's archived official Gazette record and enacted PDF, Mỹ Tho
 topology, legal/observation date distinction, and supplied-source review are
 recorded in
 [`2026-08-31.14`](docs/journals/2026-08-31.14.ward-source-28-nq-cp.md).
+Resolution 29's official ZIP lead, Giang Thành topology, legal/observation date
+distinction, and supplied-source review are recorded in
+[`2026-09-01.01`](docs/journals/2026-09-01.01.ward-secondary-provenance-29-nq-cp.md).
 The later graph-building slice remains gated: only after Task 7 passes should
 the observations and resolved events be promoted into canonical ward entities
 and `LineageEdge` records. Do not emit or upload ward Wikidata statements yet.

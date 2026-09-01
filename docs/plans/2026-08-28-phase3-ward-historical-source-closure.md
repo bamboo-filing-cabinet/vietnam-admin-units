@@ -118,8 +118,12 @@ re-scrape it.
 > `2026-08-31.13`. Resolution `28/NQ-CP@2009-06-30` is closed with an
 > archived official Tiền Giang Gazette record and enacted PDF. Its 2009-06-29
 > legal date, two observed parent changes, and roster-invisible partial-area
-> transfers are recorded in `2026-08-31.14`. Continue with Resolution
-> `29/NQ-CP@2009-06-30`; do not
+> transfers are recorded in `2026-08-31.14`. Resolution
+> `29/NQ-CP@2009-06-30` now has complete secondary review, contemporaneous
+> Government and implementation press corroboration, an exact official VBPL
+> full-text/original-ZIP lead, and eight reconciled Kiên Giang components. The
+> official bytes remain blocked (`2026-09-01.01`). Continue with Resolution
+> `889/NQ-UBTVQH13@2015-03-12`; do not
 > start Task 8.
 
 ## Outcome
@@ -455,8 +459,12 @@ territory, title, and named-unit checks.
 > `2026-08-31.13`. Resolution `28/NQ-CP@2009-06-30` is closed with an
 > archived official Tiền Giang Gazette record and enacted PDF. Its 2009-06-29
 > legal date, two observed parent changes, and roster-invisible partial-area
-> transfers are recorded in `2026-08-31.14`. Continue with Resolution
-> `29/NQ-CP@2009-06-30`; do not
+> transfers are recorded in `2026-08-31.14`. Resolution
+> `29/NQ-CP@2009-06-30` now has complete secondary review, contemporaneous
+> Government and implementation press corroboration, an exact official VBPL
+> full-text/original-ZIP lead, and eight reconciled Kiên Giang components. The
+> official bytes remain blocked (`2026-09-01.01`). Continue with Resolution
+> `889/NQ-UBTVQH13@2015-03-12`; do not
 > start Task 8.
 
 Add a command that regenerates the coverage JSON and prints a concise audit.
