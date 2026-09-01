@@ -6,6 +6,7 @@ from vn_admin_units import rawcache
 from vn_admin_units.names import fold_ward_name
 from vn_admin_units.ward_reconcile import (
     CANDIDATE_CACHE,
+    BROAD_CANDIDATE_CACHE,
     MAPPING,
     QUERY_PATH,
     RAW_RESULT,
@@ -219,6 +220,66 @@ def test_mapping_keeps_a_qid_shared_by_current_rows_unassigned():
     assert all("candidate Q1 also matches" in row["match_notes"] for row in rows)
 
 
+def test_mapping_uses_predecessor_district_to_break_current_ambiguity():
+    history = {
+        "entities": [
+            _entity(
+                "w-old-base", "90001", "Xã Cũ", "001",
+                valid_from=None, valid_to="2025-06-30",
+            ),
+            _entity("w-new-2025-07-01", "00001", "Xã Tân Phú", "75"),
+        ],
+        "lineage_edges": [{
+            "predecessor": "w-old-base",
+            "successor": "w-new-2025-07-01",
+        }],
+    }
+    candidates = [
+        _candidate("Q1", "Tân Phú", parent="Q900"),
+        _candidate("Q2", "Tân Phú", parent="Q901"),
+    ]
+    verified = [
+        _verified("Q1", "Tân Phú", parent="Q900"),
+        _verified("Q2", "Tân Phú", parent="Q901"),
+    ]
+
+    rows = build_mapping_rows(
+        history,
+        _artifact(candidates, verified),
+        {"Q900": {"75"}, "Q901": {"75"}},
+        district_qid_index={"Q900": {"001"}, "Q901": {"002"}},
+    )
+    current = next(row for row in rows if not row["valid_to"])
+
+    assert current["wikidata_qid"] == "Q1"
+    assert current["match_status"] == "matched"
+    assert "predecessor-district" in current["match_notes"]
+
+
+def test_mapping_uses_one_exact_active_broad_candidate_after_primary_fails():
+    entity = _entity("w-1-2025-07-01", "00001", "Xã Tân Phú", "75")
+    broad = {
+        "candidates": [{"qid": "Q3"}],
+        "action_api_verification": {"entities": [_verified("Q3", "Tân Phú")]},
+        "review": [{
+            "local_id": entity["local_id"],
+            "auto_candidate_qids": ["Q3"],
+        }],
+    }
+
+    row = build_mapping_rows(
+        {"entities": [entity]},
+        _artifact([]),
+        {"QP": {"75"}},
+        broad_artifact=broad,
+    )[0]
+
+    assert row["wikidata_qid"] == "Q3"
+    assert row["match_status"] == "matched"
+    assert row["candidate_qids"] == "Q3"
+    assert row["match_notes"].startswith("broad-exact-vi")
+
+
 def test_action_api_verification_is_batched_and_compacted():
     calls = []
 
@@ -308,6 +369,7 @@ def test_saved_query_is_bulk_and_qlever_portable():
 def test_saved_snapshot_cache_and_mapping_are_reproducible():
     assert rawcache.raw_is_verified(RAW_RESULT)
     artifact = json.loads(CANDIDATE_CACHE.read_text(encoding="utf-8"))
+    broad = json.loads(BROAD_CANDIDATE_CACHE.read_text(encoding="utf-8"))
     history = json.loads(WARD_HISTORY.read_text(encoding="utf-8"))
     query_hash = hashlib.sha256(QUERY_PATH.read_bytes()).hexdigest()
 
@@ -330,15 +392,20 @@ def test_saved_snapshot_cache_and_mapping_are_reproducible():
         for row in artifact["action_api_verification"]["entities"]
     )
 
-    rows = build_mapping_rows(history, artifact, build_parent_qid_index())
+    rows = build_mapping_rows(
+        history,
+        artifact,
+        build_parent_qid_index(),
+        broad_artifact=broad,
+    )
     assert MAPPING.read_text(encoding="utf-8") == serialize_mapping(rows)
-    audit = audit_mapping(history, artifact, rows)
+    audit = audit_mapping(history, artifact, rows, broad)
     assert audit["summary"]["status_counts"] == {
-        "ambiguous": 230,
+        "ambiguous": 47,
         "deferred-historical": 11223,
-        "matched": 2395,
+        "matched": 2670,
         "needs-lookup": 280,
-        "needs-review": 416,
+        "needs-review": 324,
     }
     assert audit["summary"]["current_fold_collisions"] == 10
     assert audit["issues"] == []

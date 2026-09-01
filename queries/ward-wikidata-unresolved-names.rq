@@ -1,0 +1,5916 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT DISTINCT ?item ?matchedTerm ?matchKind
+WHERE {
+  {
+    VALUES ?matchedTerm {
+    "A Luoi 1"@en
+    "A Luoi 2"@en
+    "A Luoi 3"@en
+    "A Luoi 4"@en
+    "A Luoi 5"@en
+    "A Sao"@en
+    "Ai Quoc"@en
+    "An Bien"@en
+    "An Binh"@en
+    "An Chau"@en
+    "An Dinh"@en
+    "An Hai"@en
+    "An Hiep"@en
+    "An Hoa"@en
+    "An Khanh"@en
+    "An Khe"@en
+    "An Lao"@en
+    "An Long"@en
+    "An Nhon"@en
+    "An Nhon Tay"@en
+    "An Ninh"@en
+    "An Phong"@en
+    "An Phu"@en
+    "An Quang"@en
+    "An Thang"@en
+    "An Truong"@en
+    "Anh Dung"@en
+    "Anh Son"@en
+    "Anh Son Dong"@en
+    "Ayun"@en
+    "Ba Be"@en
+    "Ba Son"@en
+    "Ba Thuoc"@en
+    "Ba To"@en
+    "Ba Vi"@en
+    "Ba Xuyen"@en
+    "Bac An Phu"@en
+    "Bac Dong Hung"@en
+    "Bac Dong Quan"@en
+    "Bac Gia Nghia"@en
+    "Bac Giang"@en
+    "Bac Gianh"@en
+    "Bac Hong Linh"@en
+    "Bac Kan"@en
+    "Bac Khanh Vinh"@en
+    "Bac Lieu"@en
+    "Bac Me"@en
+    "Bac Nha Trang"@en
+    "Bac Ninh Hoa"@en
+    "Bac Thai Ninh"@en
+    "Bac Thuy Anh"@en
+    "Bac Tien Hung"@en
+    "Bach Dang"@en
+    "Bach Ha"@en
+    "Bach Long Vi"@en
+    "Bach Ngoc"@en
+    "Bach Thong"@en
+    "Bai Chay"@en
+    "Ban Thach"@en
+    "Bao Lam"@en
+    "Bao Lam 3"@en
+    "Bao Thang"@en
+    "Bat Bat"@en
+    "Bat Trang"@en
+    "Bau Can"@en
+    "Ben Hai"@en
+    "Bich Hao"@en
+    "Bien Thuong"@en
+    "Bim Son"@en
+    "Binh An"@en
+    "Binh Giang"@en
+    "Binh Hiep"@en
+    "Binh Hoa"@en
+    "Binh Luc"@en
+    "Binh Minh"@en
+    "Binh Nguyen"@en
+    "Binh Phu"@en
+    "Binh Son"@en
+    "Binh Thanh"@en
+    "Binh Trung"@en
+    "Binh Tuyen"@en
+    "Binh Xuyen"@en
+    "Bo Ha"@en
+    "Bo Trach"@en
+    "Cai Ngang"@en
+    "Cai Rang"@en
+    "Cam An"@en
+    "Cam Giang"@en
+    "Cam Hiep"@en
+    "Cam Hong"@en
+    "Cam Lam"@en
+    "Cam Le"@en
+    "Cam Pha"@en
+    "Cam Phuc"@en
+    "Cam Ranh"@en
+    "Cam Thuy"@en
+    "Cao Minh"@en
+    "Cat Ngan"@en
+    "Cau Thia"@en
+    "Chan Hung"@en
+    "Chan May - Lang Co"@en
+    "Chau Binh"@en
+    "Chau Ninh"@en
+    "Chau Phu"@en
+    "Chau Thanh"@en
+    "Chi Lang"@en
+    "Chi Minh"@en
+    "Chieng An"@en
+    "Cho Don"@en
+    "Chu Van An"@en
+    "Chuong My"@en
+    "Con Co"@en
+    "Con Cuong"@en
+    "Con Dao"@en
+    "Con Tien"@en
+    "Cu Jut"@en
+    "Cua Lo"@en
+    "Dai Dong"@en
+    "Dai Hoang"@en
+    "Dai Hue"@en
+    "Dai Phuc"@en
+    "Dai Tu"@en
+    "Dak Bla"@en
+    "Dak Song"@en
+    "Dam Ha"@en
+    "Dan Dien"@en
+    "Dan Hai"@en
+    "Dao Duy Tu"@en
+    "Di Linh"@en
+    "Dien Hong"@en
+    "Dinh Hoa"@en
+    "Dinh Lap"@en
+    "Doai Duong"@en
+    "Doai Phuong"@en
+    "Doan Ket"@en
+    "Doc Lap"@en
+    "Dong Bang"@en
+    "Dong Chau"@en
+    "Dong Da"@en
+    "Dong Gia Nghia"@en
+    "Dong Giang"@en
+    "Dong Ha"@en
+    "Dong Hai"@en
+    "Dong Hieu"@en
+    "Dong Hoa"@en
+    "Dong Hoa Lu"@en
+    "Dong Hung"@en
+    "Dong Hy"@en
+    "Dong Khanh Son"@en
+    "Dong Loc"@en
+    "Dong Ninh Hoa"@en
+    "Dong Phuoc"@en
+    "Dong Thai"@en
+    "Dong Thai Ninh"@en
+    "Dong Thanh"@en
+    "Dong Thinh"@en
+    "Dong Thuan"@en
+    "Dong Thuy Anh"@en
+    "Dong Tien"@en
+    "Dong Tien Hai"@en
+    "Dong Tien Hung"@en
+    "Dong Trieu"@en
+    "Dong Xuan"@en
+    "Duc Binh"@en
+    "Duc Chau"@en
+    "Duc Lap"@en
+    "Duc Minh"@en
+    "Duc Nhan"@en
+    "Duc Nong"@en
+    "Duc Phu"@en
+    "Dung Tien"@en
+    "Duong An"@en
+    "Duong Hao"@en
+    "Duong Hoa"@en
+    "Duong Hong"@en
+    "Duong Kinh"@en
+    "Duy Ha"@en
+    "Duy Nghia"@en
+    "Duy Tan"@en
+    "Duy Tien"@en
+    "Gia Hanh"@en
+    "Gia Phong"@en
+    "Gia Phuc"@en
+    "Gia Rai"@en
+    "Gia Tran"@en
+    "Gia Van"@en
+    "Gia Vien"@en
+    "Giai Lac"@en
+    "Giao Binh"@en
+    "Giao Hoa"@en
+    "Giao Hung"@en
+    "Giao Minh"@en
+    "Giao Ninh"@en
+    "Giao Phuc"@en
+    "Giao Thuy"@en
+    "Go Noi"@en
+    "Ha Bang"@en
+    "Ha Lang"@en
+    "Ha Nam"@en
+    "Ha Quang"@en
+    "Hai Chau"@en
+    "Hai Hau"@en
+    "Hai Hung"@en
+    "Hai Lang"@en
+    "Hai Loc"@en
+    "Hai Ninh"@en
+    "Hai Thinh"@en
+    "Hai Tien"@en
+    "Hai Van"@en
+    "Hanh Phuc"@en
+    "Hau Thanh"@en
+    "Hiep Duc"@en
+    "Hiep Hoa"@en
+    "Hiep Luc"@en
+    "Hiep My"@en
+    "Ho Vuong"@en
+    "Hoa An"@en
+    "Hoa Binh"@en
+    "Hoa Chau"@en
+    "Hoa Cuong"@en
+    "Hoa Hoi"@en
+    "Hoa Hung"@en
+    "Hoa Khanh"@en
+    "Hoa Lac"@en
+    "Hoa Loc"@en
+    "Hoa My"@en
+    "Hoa Quan"@en
+    "Hoa Thang"@en
+    "Hoa Thanh"@en
+    "Hoa Tri"@en
+    "Hoa Tu"@en
+    "Hoai Duc"@en
+    "Hoang An"@en
+    "Hoang Hoa"@en
+    "Hoang Liet"@en
+    "Hoang Phu"@en
+    "Hoang Thanh"@en
+    "Hoanh Son"@en
+    "Hoi Son"@en
+    "Hoi Thinh"@en
+    "Hong Bang"@en
+    "Hong Chau"@en
+    "Hong Dan"@en
+    "Hong Gai"@en
+    "Hong Ha"@en
+    "Hong Ngu"@en
+    "Hong Phong"@en
+    "Hong Son"@en
+    "Hong Thai"@en
+    "Hong Vu"@en
+    "Hop Minh"@en
+    "Hop Thanh"@en
+    "Hung Chan"@en
+    "Hung Dao"@en
+    "Hung Khanh"@en
+    "Hung Loc"@en
+    "Hung Nguyen Nam"@en
+    "Hung Phu"@en
+    "Hung Viet"@en
+    "Huong Pho"@en
+    "Huong Tra"@en
+    "Ia Bang"@en
+    "Ia Dom"@en
+    "Ia Sao"@en
+    "Khanh Hung"@en
+    "Khanh Son"@en
+    "Kien Hai"@en
+    "Kien Hung"@en
+    "Kien Minh"@en
+    "Kien Thuy"@en
+    "Kieu Phu"@en
+    "Kim Anh"@en
+    "Kim Bang"@en
+    "Kim Dien"@en
+    "Kim Hoa"@en
+    "Kim Long"@en
+    "Kim Ngan"@en
+    "Kim Phu"@en
+    "Kim Son"@en
+    "Kim Thanh"@en
+    "Kim Tra"@en
+    "Kon Tum"@en
+    "Krong Ana"@en
+    "Krong Bong"@en
+    "Krong No"@en
+    "Krong Pac"@en
+    "Ky Anh"@en
+    "Ky Lua"@en
+    "Lac Phuong"@en
+    "Lac Son"@en
+    "Lac Thuy"@en
+    "Lai Khe"@en
+    "Lam Binh"@en
+    "Lam Son"@en
+    "Lam Thanh"@en
+    "Lang"@en
+    "Lang Giang"@en
+    "Lanh Ngoc"@en
+    "Le Chan"@en
+    "Le Dai Hanh"@en
+    "Le Ho"@en
+    "Le Ich Moc"@en
+    "Le Quy Don"@en
+    "Lia"@en
+    "Lich Hoi Thuong"@en
+    "Liem Ha"@en
+    "Lien Chieu"@en
+    "Lien Minh"@en
+    "Lien Son Lak"@en
+    "Linh Son"@en
+    "Loc Ninh"@en
+    "Loc Thanh"@en
+    "Loc Thuan"@en
+    "Long Binh"@en
+    "Long Hoa"@en
+    "Long Hung"@en
+    "Long Huu"@en
+    "Long Khanh"@en
+    "Long Phu"@en
+    "Long Phu 1"@en
+    "Long Phung"@en
+    "Long Phuoc"@en
+    "Long Quang"@en
+    "Long Thuan"@en
+    "Luc Ngan"@en
+    "Luong Minh"@en
+    "Luong Son"@en
+    "Luong Tai"@en
+    "Luu Ve"@en
+    "Ly Nhan"@en
+    "Ly Thuong Kiet"@en
+    "Mai Son"@en
+    "Mao Dien"@en
+    "Mau Thach"@en
+    "Minh Hung"@en
+    "Minh Ngoc"@en
+    "Minh Thai"@en
+    "Minh Tho"@en
+    "Muong Bi"@en
+    "Muong Chanh"@en
+    "Muong Chong"@en
+    "Muong Dong"@en
+    "Muong Ham"@en
+    "Muong La"@en
+    "Muong Lay"@en
+    "Muong Quang"@en
+    "Muong Te"@en
+    "Muong Thang"@en
+    "Muong Vang"@en
+    "My Duc"@en
+    "My Hao"@en
+    "My Loi"@en
+    "My Quy"@en
+    "My Son"@en
+    "My Thanh"@en
+    "My Tho"@en
+    "Na Meo"@en
+    "Na Ri"@en
+    "Nam An Phu"@en
+    "Nam Ba Don"@en
+    "Nam Cam Ranh"@en
+    "Nam Can"@en
+    "Nam Cuong"@en
+    "Nam Dinh"@en
+    "Nam Dong"@en
+    "Nam Dong Hung"@en
+    "Nam Giang"@en
+    "Nam Gianh"@en
+    "Nam Hai Lang"@en
+    "Nam Hoa Lu"@en
+    "Nam Hong Linh"@en
+    "Nam Khanh Vinh"@en
+    "Nam Ly"@en
+    "Nam Minh"@en
+    "Nam Nha Trang"@en
+    "Nam Phu"@en
+    "Nam Sam Son"@en
+    "Nam Thai Ninh"@en
+    "Nam Thuy Anh"@en
+    "Nam Tien Hai"@en
+    "Nam Tien Hung"@en
+    "Nam Tra My"@en
+    "Nam Truc"@en
+    "Ngan Son"@en
+    "Nghi Duong"@en
+    "Nghi Loc"@en
+    "Nghi Son"@en
+    "Nghi Xuan"@en
+    "Nghia Hanh"@en
+    "Nghia Lo"@en
+    "Ngo May"@en
+    "Ngoc Linh"@en
+    "Ngu Hanh Son"@en
+    "Ngu Thien"@en
+    "Nguyen Binh Khiem"@en
+    "Nguyen Du"@en
+    "Nguyen Luong Bang"@en
+    "Nguyet Vien"@en
+    "Nha Trang"@en
+    "Nhan Ha"@en
+    "Nhan Hoa"@en
+    "Nhu Thanh"@en
+    "Nhu Xuan"@en
+    "Ninh Chau"@en
+    "Ninh Hai"@en
+    "Ninh Phuoc"@en
+    "Ninh Son"@en
+    "Nong Son"@en
+    "Nung Tri Cao"@en
+    "O Dien"@en
+    "O Loan"@en
+    "O Mon"@en
+    "Pac Nga"@en
+    "Phan Dinh Phung"@en
+    "Pho Hien"@en
+    "Pho Yen"@en
+    "Phong Chau"@en
+    "Phong Dinh"@en
+    "Phong Doanh"@en
+    "Phong Hiep"@en
+    "Phong Phu"@en
+    "Phong Quang"@en
+    "Phong Thai"@en
+    "Phu Binh"@en
+    "Phu Dien"@en
+    "Phu Duc"@en
+    "Phu Hoa 1"@en
+    "Phu Hoa 2"@en
+    "Phu Lang"@en
+    "Phu Luong"@en
+    "Phu Ly"@en
+    "Phu My"@en
+    "Phu Ninh"@en
+    "Phu Tho"@en
+    "Phu Thuan"@en
+    "Phu Thuong"@en
+    "Phu Tuc"@en
+    "Phu Vang"@en
+    "Phu Yen"@en
+    "Phuc Hoa"@en
+    "Phuc Loc"@en
+    "Phuc Son"@en
+    "Phuc Thinh"@en
+    "Phuc Yen"@en
+    "Phung Nguyen"@en
+    "Phuoc An"@en
+    "Phuoc Binh"@en
+    "Phuoc Hau"@en
+    "Phuoc Hoa"@en
+    "Phuoc Long"@en
+    "Phuoc Tan"@en
+    "Phuoc Thanh"@en
+    "Phuong Son"@en
+    "Pleiku"@en
+    "Pu Luong"@en
+    "Pu Nhi"@en
+    "Quan Chu"@en
+    "Quan Son"@en
+    "Quan Thanh"@en
+    "Quang Chau"@en
+    "Quang Dien"@en
+    "Quang Dong"@en
+    "Quang Hung"@en
+    "Quang Minh"@en
+    "Quang Ninh"@en
+    "Quang Oai"@en
+    "Quang Trach"@en
+    "Quang Trung"@en
+    "Quang Uyen"@en
+    "Que Phong"@en
+    "Que Phuoc"@en
+    "Que Son"@en
+    "Que Son Trung"@en
+    "Quy Chau"@en
+    "Quy Duc"@en
+    "Quy Luong"@en
+    "Quyet Thang"@en
+    "Quynh An"@en
+    "Quynh Anh"@en
+    "Quynh Luu"@en
+    "Quynh Mai"@en
+    "Quynh Nhai"@en
+    "Quynh Phu"@en
+    "Quynh Son"@en
+    "Sam Son"@en
+    "Sang Nhe"@en
+    "Sen Ngu"@en
+    "Si Lo Lau"@en
+    "Soc Trang"@en
+    "Son Cam Ha"@en
+    "Son Dien"@en
+    "Son Dong"@en
+    "Son Ha"@en
+    "Son Hoa"@en
+    "Son Lam"@en
+    "Son Luong"@en
+    "Son Nam"@en
+    "Son Tay"@en
+    "Son Thanh"@en
+    "Son Thuy"@en
+    "Song Cau"@en
+    "Song Cong"@en
+    "Song Tri"@en
+    "Song Vang"@en
+    "Suoi Dau"@en
+    "Suoi Hai"@en
+    "Ta Dung"@en
+    "Ta Phin"@en
+    "Ta Xi Lang"@en
+    "Tam Chuc"@en
+    "Tam Diep"@en
+    "Tam Dong"@en
+    "Tam Duong"@en
+    "Tam Duong Bac"@en
+    "Tam My"@en
+    "Tam Nong"@en
+    "Tam Thanh"@en
+    "Tam Xuan"@en
+    "Tan Binh"@en
+    "Tan Chau"@en
+    "Tan Cuong"@en
+    "Tan Dinh"@en
+    "Tan Dong"@en
+    "Tan Gianh"@en
+    "Tan Hiep"@en
+    "Tan Hoa"@en
+    "Tan Hoi"@en
+    "Tan Hong"@en
+    "Tan Hung"@en
+    "Tan Ky"@en
+    "Tan Lac"@en
+    "Tan Lap"@en
+    "Tan Loi"@en
+    "Tan Long"@en
+    "Tan Mai"@en
+    "Tan Minh"@en
+    "Tan My"@en
+    "Tan Ninh"@en
+    "Tan Phu"@en
+    "Tan Phu Dong"@en
+    "Tan Thanh"@en
+    "Tan Thuy"@en
+    "Tan Tien"@en
+    "Tan Xuan"@en
+    "Tan Yen"@en
+    "Tay Do"@en
+    "Tay Giang"@en
+    "Tay Ho"@en
+    "Tay Hoa"@en
+    "Tay Hoa Lu"@en
+    "Tay Khanh Son"@en
+    "Tay Khanh Vinh"@en
+    "Tay Nha Trang"@en
+    "Tay Ninh Hoa"@en
+    "Tay Son"@en
+    "Tay Thai Ninh"@en
+    "Tay Thuy Anh"@en
+    "Tay Tien Hai"@en
+    "Thach An"@en
+    "Thach That"@en
+    "Thai Binh"@en
+    "Thai Hoa"@en
+    "Thai Ninh"@en
+    "Than Khe"@en
+    "Than Linh"@en
+    "Thang An"@en
+    "Thang Binh"@en
+    "Thang Dien"@en
+    "Thang Loc"@en
+    "Thang Loi"@en
+    "Thang Phu"@en
+    "Thang Truong"@en
+    "Thanh An"@en
+    "Thanh Binh Tho"@en
+    "Thanh Dong"@en
+    "Thanh Duc"@en
+    "Thanh Hoa"@en
+    "Thanh Lam"@en
+    "Thanh Liem"@en
+    "Thanh Loi"@en
+    "Thanh Nam"@en
+    "Thanh Oai"@en
+    "Thanh Phuoc"@en
+    "Thanh Son"@en
+    "Thanh Thinh"@en
+    "Thanh Thuy"@en
+    "Thanh Vinh"@en
+    "Thao Nguyen"@en
+    "Thap Muoi"@en
+    "Thien Loc"@en
+    "Thien Nhan"@en
+    "Thien Truong"@en
+    "Thieu Hoa"@en
+    "Tho Long"@en
+    "Thoi Binh"@en
+    "Thong Nhat"@en
+    "Thu Bon"@en
+    "Thu Lam"@en
+    "Thuan An"@en
+    "Thuan Hoa"@en
+    "Thuan Thanh"@en
+    "Thuan Trung"@en
+    "Thuong Duc"@en
+    "Thuong Hong"@en
+    "Thuong Minh"@en
+    "Thuong Phuc"@en
+    "Thuy Anh"@en
+    "Tien Dong"@en
+    "Tien Hoa"@en
+    "Tien Hung"@en
+    "Tien La"@en
+    "Tien Lu"@en
+    "Tien Phuoc"@en
+    "Tien Thang"@en
+    "Tinh Gia"@en
+    "Toan Luu"@en
+    "Toan Thang"@en
+    "Tong Son"@en
+    "Tra Lien"@en
+    "Tra Ly"@en
+    "Tra Tan"@en
+    "Tran Nhan Tong"@en
+    "Tran Thuong"@en
+    "Trang Bang"@en
+    "Trang Dinh"@en
+    "Trieu Binh"@en
+    "Trieu Co"@en
+    "Trieu Phong"@en
+    "Trieu Viet Vuong"@en
+    "Truc Ninh"@en
+    "Trung Khanh Vinh"@en
+    "Trung Loc"@en
+    "Trung Son"@en
+    "Trung Thanh"@en
+    "Truong Long Hoa"@en
+    "Truong Luu"@en
+    "Truong Ninh"@en
+    "Truong Phu"@en
+    "Truong Tan"@en
+    "Truong Van"@en
+    "Tu Bong"@en
+    "Tu Liem"@en
+    "Tu My"@en
+    "Tu Son"@en
+    "Tuan Chau"@en
+    "Tue Tinh"@en
+    "Tung Thien"@en
+    "Tuong Duong"@en
+    "Tuy An Bac"@en
+    "Tuy An Dong"@en
+    "Tuy An Nam"@en
+    "Tuy An Tay"@en
+    "Tuy Duc"@en
+    "Tuyen Binh"@en
+    "Tuyen Hoa"@en
+    "Tuyen Lam"@en
+    "Tuyen Phu"@en
+    "Tuyen Son"@en
+    "Ung Hoa"@en
+    "Ung Thien"@en
+    "Uong Bi"@en
+    "Van An"@en
+    "Van Dinh"@en
+    "Van Don"@en
+    "Van Du"@en
+    "Van Hien"@en
+    "Van Hoa"@en
+    "Van Kieu"@en
+    "Van Lang"@en
+    "Van Loc"@en
+    "Van Ninh"@en
+    "Van Phu"@en
+    "Van Son"@en
+    "Van Thang"@en
+    "Van Tu"@en
+    "Van Xuan"@en
+    "Vi Khe"@en
+    "Viet An"@en
+    "Viet Khe"@en
+    "Viet Tien"@en
+    "Viet Tri"@en
+    "Viet Yen"@en
+    "Vinh Am"@en
+    "Vinh An"@en
+    "Vinh Binh"@en
+    "Vinh Chau"@en
+    "Vinh Dinh"@en
+    "Vinh Hai"@en
+    "Vinh Hoa Hung"@en
+    "Vinh Hoang"@en
+    "Vinh Hung"@en
+    "Vinh Loc"@en
+    "Vinh Loi"@en
+    "Vinh My"@en
+    "Vinh Phu"@en
+    "Vinh Phuc"@en
+    "Vinh Phuoc"@en
+    "Vinh Te"@en
+    "Vinh Thanh"@en
+    "Vinh Thinh"@en
+    "Vinh Thong"@en
+    "Vinh Thuan"@en
+    "Vinh Tuong"@en
+    "Vinh Yen"@en
+    "Vo Nhai"@en
+    "Vu Duong"@en
+    "Vu Gia"@en
+    "Vung Ang"@en
+    "Xim Vang"@en
+    "Xuan An"@en
+    "Xuan Giang"@en
+    "Xuan Hai"@en
+    "Xuan Hoa"@en
+    "Xuan Hung"@en
+    "Xuan Lang"@en
+    "Xuan Loc"@en
+    "Xuan Phu"@en
+    "Xuan Thanh"@en
+    "Xuan Tho"@en
+    "Y Yen"@en
+    "Yen Bai"@en
+    "Yen Binh"@en
+    "Yen Dinh"@en
+    "Yen Dung"@en
+    "Yen Hoa"@en
+    "Yen Khanh"@en
+    "Yen Lang"@en
+    "Yen Mo"@en
+    "Yen Nhan"@en
+    "Yen Phong"@en
+    "Yen Son"@en
+    "Yen Thang"@en
+    "Yen Thuy"@en
+    "Yen Tu"@en
+    "Yen Xuan"@en
+    "A Luoi 1"@vi
+    "A Luoi 2"@vi
+    "A Luoi 3"@vi
+    "A Luoi 4"@vi
+    "A Luoi 5"@vi
+    "A Lưới 1"@vi
+    "A Lưới 2"@vi
+    "A Lưới 3"@vi
+    "A Lưới 4"@vi
+    "A Lưới 5"@vi
+    "A Sao"@vi
+    "A Sào"@vi
+    "Ai Quoc"@vi
+    "An Bien"@vi
+    "An Binh"@vi
+    "An Biên"@vi
+    "An Bình"@vi
+    "An Chau"@vi
+    "An Châu"@vi
+    "An Dinh"@vi
+    "An Hai"@vi
+    "An Hiep"@vi
+    "An Hiệp"@vi
+    "An Hoa"@vi
+    "An Hòa"@vi
+    "An Hải"@vi
+    "An Khanh"@vi
+    "An Khe"@vi
+    "An Khánh"@vi
+    "An Khê"@vi
+    "An Lao"@vi
+    "An Long"@vi
+    "An Lão"@vi
+    "An Nhon"@vi
+    "An Nhon Tay"@vi
+    "An Nhơn"@vi
+    "An Nhơn Tây"@vi
+    "An Ninh"@vi
+    "An Phong"@vi
+    "An Phu"@vi
+    "An Phú"@vi
+    "An Quang"@vi
+    "An Thang"@vi
+    "An Thắng"@vi
+    "An Truong"@vi
+    "An Trường"@vi
+    "An Định"@vi
+    "Anh Dung"@vi
+    "Anh Dũng"@vi
+    "Anh Son"@vi
+    "Anh Son Dong"@vi
+    "Anh Sơn"@vi
+    "Anh Sơn Đông"@vi
+    "Ayun"@vi
+    "Ba Be"@vi
+    "Ba Bể"@vi
+    "Ba Son"@vi
+    "Ba Sơn"@vi
+    "Ba Thuoc"@vi
+    "Ba To"@vi
+    "Ba Tô"@vi
+    "Ba Tơ"@vi
+    "Ba Vi"@vi
+    "Ba Vì"@vi
+    "Ba Xuyen"@vi
+    "Bac An Phu"@vi
+    "Bac Dong Hung"@vi
+    "Bac Dong Quan"@vi
+    "Bac Gia Nghia"@vi
+    "Bac Giang"@vi
+    "Bac Gianh"@vi
+    "Bac Hong Linh"@vi
+    "Bac Kan"@vi
+    "Bac Khanh Vinh"@vi
+    "Bac Lieu"@vi
+    "Bac Me"@vi
+    "Bac Nha Trang"@vi
+    "Bac Ninh Hoa"@vi
+    "Bac Thai Ninh"@vi
+    "Bac Thuy Anh"@vi
+    "Bac Tien Hung"@vi
+    "Bach Dang"@vi
+    "Bach Ha"@vi
+    "Bach Long Vi"@vi
+    "Bach Ngoc"@vi
+    "Bach Thong"@vi
+    "Bai Chay"@vi
+    "Ban Thach"@vi
+    "Bao Lam"@vi
+    "Bao Lam 3"@vi
+    "Bao Thang"@vi
+    "Bat Bat"@vi
+    "Bat Trang"@vi
+    "Bau Can"@vi
+    "Ben Hai"@vi
+    "Bich Hao"@vi
+    "Bien Thuong"@vi
+    "Bim Son"@vi
+    "Binh An"@vi
+    "Binh Giang"@vi
+    "Binh Hiep"@vi
+    "Binh Hoa"@vi
+    "Binh Luc"@vi
+    "Binh Minh"@vi
+    "Binh Nguyen"@vi
+    "Binh Phu"@vi
+    "Binh Son"@vi
+    "Binh Thanh"@vi
+    "Binh Trung"@vi
+    "Binh Tuyen"@vi
+    "Binh Xuyen"@vi
+    "Biện Thượng"@vi
+    "Bo Ha"@vi
+    "Bo Trach"@vi
+    "Bàn Thạch"@vi
+    "Bàu Cạn"@vi
+    "Bá Thước"@vi
+    "Bá Xuyên"@vi
+    "Bát Tràng"@vi
+    "Bãi Cháy"@vi
+    "Bình An"@vi
+    "Bình Giang"@vi
+    "Bình Hiệp"@vi
+    "Bình Hòa"@vi
+    "Bình Lục"@vi
+    "Bình Minh"@vi
+    "Bình Nguyên"@vi
+    "Bình Phú"@vi
+    "Bình Sơn"@vi
+    "Bình Thành"@vi
+    "Bình Trưng"@vi
+    "Bình Tuyền"@vi
+    "Bình Xuyên"@vi
+    "Bích Hào"@vi
+    "Bạc Liêu"@vi
+    "Bạch Hà"@vi
+    "Bạch Long Vĩ"@vi
+    "Bạch Ngọc"@vi
+    "Bạch Thông"@vi
+    "Bạch Đằng"@vi
+    "Bảo Lâm"@vi
+    "Bảo Lâm 3"@vi
+    "Bảo Thắng"@vi
+    "Bất Bạt"@vi
+    "Bắc An Phụ"@vi
+    "Bắc Gia Nghĩa"@vi
+    "Bắc Giang"@vi
+    "Bắc Gianh"@vi
+    "Bắc Hồng Lĩnh"@vi
+    "Bắc Khánh Vĩnh"@vi
+    "Bắc Kạn"@vi
+    "Bắc Mê"@vi
+    "Bắc Nha Trang"@vi
+    "Bắc Ninh Hòa"@vi
+    "Bắc Thái Ninh"@vi
+    "Bắc Thụy Anh"@vi
+    "Bắc Tiên Hưng"@vi
+    "Bắc Đông Hưng"@vi
+    "Bắc Đông Quan"@vi
+    "Bến Hải"@vi
+    "Bỉm Sơn"@vi
+    "Bố Hạ"@vi
+    "Bố Trạch"@vi
+    "Cai Ngang"@vi
+    "Cai Rang"@vi
+    "Cam An"@vi
+    "Cam Giang"@vi
+    "Cam Hiep"@vi
+    "Cam Hiệp"@vi
+    "Cam Hong"@vi
+    "Cam Hồng"@vi
+    "Cam Lam"@vi
+    "Cam Le"@vi
+    "Cam Lâm"@vi
+    "Cam Pha"@vi
+    "Cam Phuc"@vi
+    "Cam Phục"@vi
+    "Cam Ranh"@vi
+    "Cam Thuy"@vi
+    "Cao Minh"@vi
+    "Cat Ngan"@vi
+    "Cau Thia"@vi
+    "Chan Hung"@vi
+    "Chan May - Lang Co"@vi
+    "Chau Binh"@vi
+    "Chau Ninh"@vi
+    "Chau Phu"@vi
+    "Chau Thanh"@vi
+    "Chi Lang"@vi
+    "Chi Lăng"@vi
+    "Chi Minh"@vi
+    "Chieng An"@vi
+    "Chiềng An"@vi
+    "Cho Don"@vi
+    "Chu Van An"@vi
+    "Chu Văn An"@vi
+    "Chuong My"@vi
+    "Chân Mây - Lăng Cô"@vi
+    "Châu Bình"@vi
+    "Châu Ninh"@vi
+    "Châu Phú"@vi
+    "Châu Thành"@vi
+    "Chí Minh"@vi
+    "Chương Mỹ"@vi
+    "Chấn Hưng"@vi
+    "Chợ Đồn"@vi
+    "Con Co"@vi
+    "Con Cuong"@vi
+    "Con Cuông"@vi
+    "Con Dao"@vi
+    "Con Tien"@vi
+    "Cu Jut"@vi
+    "Cua Lo"@vi
+    "Cái Ngang"@vi
+    "Cái Răng"@vi
+    "Cát Ngạn"@vi
+    "Côn Đảo"@vi
+    "Cư Jút"@vi
+    "Cầu Thia"@vi
+    "Cẩm Giang"@vi
+    "Cẩm Giàng"@vi
+    "Cẩm Lệ"@vi
+    "Cẩm Phả"@vi
+    "Cẩm Thủy"@vi
+    "Cồn Cỏ"@vi
+    "Cồn Tiên"@vi
+    "Cửa Lò"@vi
+    "Dai Dong"@vi
+    "Dai Hoang"@vi
+    "Dai Hue"@vi
+    "Dai Phuc"@vi
+    "Dai Tu"@vi
+    "Dak Bla"@vi
+    "Dak Song"@vi
+    "Dam Ha"@vi
+    "Dan Dien"@vi
+    "Dan Hai"@vi
+    "Dao Duy Tu"@vi
+    "Di Linh"@vi
+    "Dien Hong"@vi
+    "Dinh Hoa"@vi
+    "Dinh Lap"@vi
+    "Diên Hồng"@vi
+    "Doai Duong"@vi
+    "Doai Phuong"@vi
+    "Doan Ket"@vi
+    "Doc Lap"@vi
+    "Dong Bang"@vi
+    "Dong Chau"@vi
+    "Dong Da"@vi
+    "Dong Gia Nghia"@vi
+    "Dong Giang"@vi
+    "Dong Ha"@vi
+    "Dong Hai"@vi
+    "Dong Hieu"@vi
+    "Dong Hoa"@vi
+    "Dong Hoa Lu"@vi
+    "Dong Hung"@vi
+    "Dong Hy"@vi
+    "Dong Khanh Son"@vi
+    "Dong Loc"@vi
+    "Dong Ninh Hoa"@vi
+    "Dong Phuoc"@vi
+    "Dong Thai"@vi
+    "Dong Thai Ninh"@vi
+    "Dong Thanh"@vi
+    "Dong Thinh"@vi
+    "Dong Thuan"@vi
+    "Dong Thuy Anh"@vi
+    "Dong Tien"@vi
+    "Dong Tien Hai"@vi
+    "Dong Tien Hung"@vi
+    "Dong Trieu"@vi
+    "Dong Xuan"@vi
+    "Duc Binh"@vi
+    "Duc Chau"@vi
+    "Duc Lap"@vi
+    "Duc Minh"@vi
+    "Duc Nhan"@vi
+    "Duc Nong"@vi
+    "Duc Phu"@vi
+    "Dung Tien"@vi
+    "Duong An"@vi
+    "Duong Hao"@vi
+    "Duong Hoa"@vi
+    "Duong Hong"@vi
+    "Duong Kinh"@vi
+    "Duy Ha"@vi
+    "Duy Hà"@vi
+    "Duy Nghia"@vi
+    "Duy Nghĩa"@vi
+    "Duy Tan"@vi
+    "Duy Tien"@vi
+    "Duy Tiên"@vi
+    "Duy Tân"@vi
+    "Dũng Tiến"@vi
+    "Dương Hòa"@vi
+    "Dương Kinh"@vi
+    "Dục Nông"@vi
+    "Gia Hanh"@vi
+    "Gia Phong"@vi
+    "Gia Phuc"@vi
+    "Gia Phúc"@vi
+    "Gia Rai"@vi
+    "Gia Tran"@vi
+    "Gia Trấn"@vi
+    "Gia Van"@vi
+    "Gia Vien"@vi
+    "Gia Viễn"@vi
+    "Gia Vân"@vi
+    "Giai Lac"@vi
+    "Giai Lạc"@vi
+    "Giao Binh"@vi
+    "Giao Bình"@vi
+    "Giao Hoa"@vi
+    "Giao Hoà"@vi
+    "Giao Hung"@vi
+    "Giao Hưng"@vi
+    "Giao Minh"@vi
+    "Giao Ninh"@vi
+    "Giao Phuc"@vi
+    "Giao Phúc"@vi
+    "Giao Thuy"@vi
+    "Giao Thuỷ"@vi
+    "Giá Rai"@vi
+    "Go Noi"@vi
+    "Gò Nổi"@vi
+    "Ha Bang"@vi
+    "Ha Lang"@vi
+    "Ha Nam"@vi
+    "Ha Quang"@vi
+    "Hai Chau"@vi
+    "Hai Hau"@vi
+    "Hai Hung"@vi
+    "Hai Lang"@vi
+    "Hai Loc"@vi
+    "Hai Ninh"@vi
+    "Hai Thinh"@vi
+    "Hai Tien"@vi
+    "Hai Van"@vi
+    "Hanh Phuc"@vi
+    "Hau Thanh"@vi
+    "Hiep Duc"@vi
+    "Hiep Hoa"@vi
+    "Hiep Luc"@vi
+    "Hiep My"@vi
+    "Hiệp Hoà"@vi
+    "Hiệp Lực"@vi
+    "Hiệp Mỹ"@vi
+    "Hiệp Đức"@vi
+    "Ho Vuong"@vi
+    "Hoa An"@vi
+    "Hoa Binh"@vi
+    "Hoa Chau"@vi
+    "Hoa Cuong"@vi
+    "Hoa Hoi"@vi
+    "Hoa Hung"@vi
+    "Hoa Khanh"@vi
+    "Hoa Lac"@vi
+    "Hoa Loc"@vi
+    "Hoa Lộc"@vi
+    "Hoa My"@vi
+    "Hoa Quan"@vi
+    "Hoa Quân"@vi
+    "Hoa Thang"@vi
+    "Hoa Thanh"@vi
+    "Hoa Tri"@vi
+    "Hoa Tu"@vi
+    "Hoai Duc"@vi
+    "Hoang An"@vi
+    "Hoang Hoa"@vi
+    "Hoang Liet"@vi
+    "Hoang Phu"@vi
+    "Hoang Thanh"@vi
+    "Hoanh Son"@vi
+    "Hoi Son"@vi
+    "Hoi Thinh"@vi
+    "Hong Bang"@vi
+    "Hong Chau"@vi
+    "Hong Dan"@vi
+    "Hong Gai"@vi
+    "Hong Ha"@vi
+    "Hong Ngu"@vi
+    "Hong Phong"@vi
+    "Hong Son"@vi
+    "Hong Thai"@vi
+    "Hong Vu"@vi
+    "Hop Minh"@vi
+    "Hop Thanh"@vi
+    "Hoài Đức"@vi
+    "Hoàng An"@vi
+    "Hoàng Liệt"@vi
+    "Hoành Sơn"@vi
+    "Hoằng Hóa"@vi
+    "Hoằng Phú"@vi
+    "Hoằng Thanh"@vi
+    "Hung Chan"@vi
+    "Hung Dao"@vi
+    "Hung Khanh"@vi
+    "Hung Loc"@vi
+    "Hung Nguyen Nam"@vi
+    "Hung Phu"@vi
+    "Hung Viet"@vi
+    "Huong Pho"@vi
+    "Huong Tra"@vi
+    "Hà Nam"@vi
+    "Hà Quảng"@vi
+    "Hòa An"@vi
+    "Hòa Bình"@vi
+    "Hòa Cường"@vi
+    "Hòa Hưng"@vi
+    "Hòa Hội"@vi
+    "Hòa Khánh"@vi
+    "Hòa Lạc"@vi
+    "Hòa Mỹ"@vi
+    "Hòa Thành"@vi
+    "Hòa Thắng"@vi
+    "Hòa Trí"@vi
+    "Hòa Tú"@vi
+    "Hóa Châu"@vi
+    "Hùng Chân"@vi
+    "Hùng Việt"@vi
+    "Hưng Khánh"@vi
+    "Hưng Lộc"@vi
+    "Hưng Nguyên Nam"@vi
+    "Hưng Phú"@vi
+    "Hưng Đạo"@vi
+    "Hương Phố"@vi
+    "Hương Trà"@vi
+    "Hạ Bằng"@vi
+    "Hạ Lang"@vi
+    "Hạnh Phúc"@vi
+    "Hải Châu"@vi
+    "Hải Hưng"@vi
+    "Hải Hậu"@vi
+    "Hải Lăng"@vi
+    "Hải Lộc"@vi
+    "Hải Ninh"@vi
+    "Hải Thịnh"@vi
+    "Hải Tiến"@vi
+    "Hải Vân"@vi
+    "Hậu Thạnh"@vi
+    "Hồ Vương"@vi
+    "Hồng Bàng"@vi
+    "Hồng Châu"@vi
+    "Hồng Dân"@vi
+    "Hồng Gai"@vi
+    "Hồng Hà"@vi
+    "Hồng Ngự"@vi
+    "Hồng Phong"@vi
+    "Hồng Sơn"@vi
+    "Hồng Thái"@vi
+    "Hồng Vũ"@vi
+    "Hội Sơn"@vi
+    "Hội Thịnh"@vi
+    "Hợp Minh"@vi
+    "Hợp Thành"@vi
+    "Ia Bang"@vi
+    "Ia Băng"@vi
+    "Ia Dom"@vi
+    "Ia Sao"@vi
+    "Khanh Hung"@vi
+    "Khanh Son"@vi
+    "Khánh Hưng"@vi
+    "Khánh Sơn"@vi
+    "Kien Hai"@vi
+    "Kien Hung"@vi
+    "Kien Minh"@vi
+    "Kien Thuy"@vi
+    "Kieu Phu"@vi
+    "Kim Anh"@vi
+    "Kim Bang"@vi
+    "Kim Bảng"@vi
+    "Kim Dien"@vi
+    "Kim Hoa"@vi
+    "Kim Long"@vi
+    "Kim Ngan"@vi
+    "Kim Ngân"@vi
+    "Kim Phu"@vi
+    "Kim Phú"@vi
+    "Kim Son"@vi
+    "Kim Sơn"@vi
+    "Kim Thanh"@vi
+    "Kim Tra"@vi
+    "Kim Trà"@vi
+    "Kim Điền"@vi
+    "Kiên Hải"@vi
+    "Kiến Hưng"@vi
+    "Kiến Hải"@vi
+    "Kiến Minh"@vi
+    "Kiến Thụy"@vi
+    "Kiều Phú"@vi
+    "Kon Tum"@vi
+    "Krong Ana"@vi
+    "Krong Bong"@vi
+    "Krong No"@vi
+    "Krong Pac"@vi
+    "Krông Ana"@vi
+    "Krông Bông"@vi
+    "Krông Nô"@vi
+    "Krông Pắc"@vi
+    "Ky Anh"@vi
+    "Ky Lua"@vi
+    "Kỳ Anh"@vi
+    "Kỳ Lừa"@vi
+    "Lac Phuong"@vi
+    "Lac Son"@vi
+    "Lac Thuy"@vi
+    "Lai Khe"@vi
+    "Lai Khê"@vi
+    "Lam Binh"@vi
+    "Lam Son"@vi
+    "Lam Thanh"@vi
+    "Lam Thành"@vi
+    "Lang"@vi
+    "Lang Giang"@vi
+    "Lanh Ngoc"@vi
+    "Le Chan"@vi
+    "Le Dai Hanh"@vi
+    "Le Ho"@vi
+    "Le Ich Moc"@vi
+    "Le Quy Don"@vi
+    "Lia"@vi
+    "Lich Hoi Thuong"@vi
+    "Liem Ha"@vi
+    "Lien Chieu"@vi
+    "Lien Minh"@vi
+    "Lien Son Lak"@vi
+    "Linh Son"@vi
+    "Linh Sơn"@vi
+    "Liêm Hà"@vi
+    "Liên Chiểu"@vi
+    "Liên Minh"@vi
+    "Liên Sơn Lắk"@vi
+    "Loc Ninh"@vi
+    "Loc Thanh"@vi
+    "Loc Thuan"@vi
+    "Long Binh"@vi
+    "Long Bình"@vi
+    "Long Hoa"@vi
+    "Long Hung"@vi
+    "Long Huu"@vi
+    "Long Hòa"@vi
+    "Long Hưng"@vi
+    "Long Hữu"@vi
+    "Long Khanh"@vi
+    "Long Khánh"@vi
+    "Long Phu"@vi
+    "Long Phu 1"@vi
+    "Long Phung"@vi
+    "Long Phuoc"@vi
+    "Long Phú"@vi
+    "Long Phú 1"@vi
+    "Long Phước"@vi
+    "Long Phụng"@vi
+    "Long Quang"@vi
+    "Long Quảng"@vi
+    "Long Thuan"@vi
+    "Long Thuận"@vi
+    "Luc Ngan"@vi
+    "Luong Minh"@vi
+    "Luong Son"@vi
+    "Luong Tai"@vi
+    "Luu Ve"@vi
+    "Ly Nhan"@vi
+    "Ly Thuong Kiet"@vi
+    "Láng"@vi
+    "Lâm Bình"@vi
+    "Lâm Sơn"@vi
+    "Lãnh Ngọc"@vi
+    "Lê Chân"@vi
+    "Lê Hồ"@vi
+    "Lê Quý Đôn"@vi
+    "Lê Ích Mộc"@vi
+    "Lê Đại Hành"@vi
+    "Lìa"@vi
+    "Lý Nhân"@vi
+    "Lý Thường Kiệt"@vi
+    "Lưu Vệ"@vi
+    "Lương Minh"@vi
+    "Lương Sơn"@vi
+    "Lương Tài"@vi
+    "Lạc Phượng"@vi
+    "Lạc Sơn"@vi
+    "Lạc Thủy"@vi
+    "Lạng Giang"@vi
+    "Lịch Hội Thượng"@vi
+    "Lộc Ninh"@vi
+    "Lộc Thuận"@vi
+    "Lộc Thành"@vi
+    "Lộc Thạnh"@vi
+    "Lục Ngạn"@vi
+    "Mai Son"@vi
+    "Mai Sơn"@vi
+    "Mao Dien"@vi
+    "Mao Điền"@vi
+    "Mau Thach"@vi
+    "Minh Hung"@vi
+    "Minh Hưng"@vi
+    "Minh Ngoc"@vi
+    "Minh Ngọc"@vi
+    "Minh Thai"@vi
+    "Minh Tho"@vi
+    "Minh Thái"@vi
+    "Minh Thọ"@vi
+    "Muong Bi"@vi
+    "Muong Chanh"@vi
+    "Muong Chong"@vi
+    "Muong Dong"@vi
+    "Muong Ham"@vi
+    "Muong La"@vi
+    "Muong Lay"@vi
+    "Muong Quang"@vi
+    "Muong Te"@vi
+    "Muong Thang"@vi
+    "Muong Vang"@vi
+    "My Duc"@vi
+    "My Hao"@vi
+    "My Loi"@vi
+    "My Quy"@vi
+    "My Son"@vi
+    "My Thanh"@vi
+    "My Tho"@vi
+    "Mường Bi"@vi
+    "Mường Chanh"@vi
+    "Mường Chọng"@vi
+    "Mường Ham"@vi
+    "Mường La"@vi
+    "Mường Lay"@vi
+    "Mường Quàng"@vi
+    "Mường Thàng"@vi
+    "Mường Tè"@vi
+    "Mường Vang"@vi
+    "Mường Động"@vi
+    "Mậu Thạch"@vi
+    "Mỹ Hào"@vi
+    "Mỹ Lợi"@vi
+    "Mỹ Quý"@vi
+    "Mỹ Sơn"@vi
+    "Mỹ Tho"@vi
+    "Mỹ Thạnh"@vi
+    "Mỹ Đức"@vi
+    "Na Meo"@vi
+    "Na Mèo"@vi
+    "Na Ri"@vi
+    "Na Rì"@vi
+    "Nam An Phu"@vi
+    "Nam An Phụ"@vi
+    "Nam Ba Don"@vi
+    "Nam Ba Đồn"@vi
+    "Nam Cam Ranh"@vi
+    "Nam Can"@vi
+    "Nam Cuong"@vi
+    "Nam Cường"@vi
+    "Nam Dinh"@vi
+    "Nam Dong"@vi
+    "Nam Dong Hung"@vi
+    "Nam Giang"@vi
+    "Nam Gianh"@vi
+    "Nam Hai Lang"@vi
+    "Nam Hoa Lu"@vi
+    "Nam Hoa Lư"@vi
+    "Nam Hong Linh"@vi
+    "Nam Hải Lăng"@vi
+    "Nam Hồng Lĩnh"@vi
+    "Nam Khanh Vinh"@vi
+    "Nam Khánh Vĩnh"@vi
+    "Nam Ly"@vi
+    "Nam Lý"@vi
+    "Nam Minh"@vi
+    "Nam Nha Trang"@vi
+    "Nam Phu"@vi
+    "Nam Phù"@vi
+    "Nam Sam Son"@vi
+    "Nam Sầm Sơn"@vi
+    "Nam Thai Ninh"@vi
+    "Nam Thuy Anh"@vi
+    "Nam Thái Ninh"@vi
+    "Nam Thụy Anh"@vi
+    "Nam Tien Hai"@vi
+    "Nam Tien Hung"@vi
+    "Nam Tiên Hưng"@vi
+    "Nam Tiền Hải"@vi
+    "Nam Tra My"@vi
+    "Nam Truc"@vi
+    "Nam Trà My"@vi
+    "Nam Trực"@vi
+    "Nam Đông Hưng"@vi
+    "Nam Định"@vi
+    "Nam Đồng"@vi
+    "Ngan Son"@vi
+    "Nghi Duong"@vi
+    "Nghi Dương"@vi
+    "Nghi Loc"@vi
+    "Nghi Lộc"@vi
+    "Nghi Son"@vi
+    "Nghi Sơn"@vi
+    "Nghi Xuan"@vi
+    "Nghi Xuân"@vi
+    "Nghia Hanh"@vi
+    "Nghia Lo"@vi
+    "Nghĩa Hành"@vi
+    "Nghĩa Lộ"@vi
+    "Ngo May"@vi
+    "Ngoc Linh"@vi
+    "Ngu Hanh Son"@vi
+    "Ngu Thien"@vi
+    "Nguyen Binh Khiem"@vi
+    "Nguyen Du"@vi
+    "Nguyen Luong Bang"@vi
+    "Nguyet Vien"@vi
+    "Nguyễn Bỉnh Khiêm"@vi
+    "Nguyễn Du"@vi
+    "Nguyễn Lương Bằng"@vi
+    "Nguyệt Viên"@vi
+    "Ngân Sơn"@vi
+    "Ngô Mây"@vi
+    "Ngũ Hành Sơn"@vi
+    "Ngọc Linh"@vi
+    "Ngự Thiên"@vi
+    "Nha Trang"@vi
+    "Nhan Ha"@vi
+    "Nhan Hoa"@vi
+    "Nhu Thanh"@vi
+    "Nhu Xuan"@vi
+    "Nhân Hà"@vi
+    "Nhân Hòa"@vi
+    "Như Thanh"@vi
+    "Như Xuân"@vi
+    "Ninh Chau"@vi
+    "Ninh Châu"@vi
+    "Ninh Hai"@vi
+    "Ninh Hải"@vi
+    "Ninh Phuoc"@vi
+    "Ninh Phước"@vi
+    "Ninh Son"@vi
+    "Ninh Sơn"@vi
+    "Nong Son"@vi
+    "Nung Tri Cao"@vi
+    "Nông Sơn"@vi
+    "Nùng Trí Cao"@vi
+    "Nậm Cắn"@vi
+    "O Dien"@vi
+    "O Loan"@vi
+    "O Mon"@vi
+    "Pac Nga"@vi
+    "Phan Dinh Phung"@vi
+    "Phan Đình Phùng"@vi
+    "Pho Hien"@vi
+    "Pho Yen"@vi
+    "Phong Chau"@vi
+    "Phong Châu"@vi
+    "Phong Dinh"@vi
+    "Phong Doanh"@vi
+    "Phong Hiep"@vi
+    "Phong Hiệp"@vi
+    "Phong Phu"@vi
+    "Phong Phú"@vi
+    "Phong Quang"@vi
+    "Phong Thai"@vi
+    "Phong Thái"@vi
+    "Phu Binh"@vi
+    "Phu Dien"@vi
+    "Phu Duc"@vi
+    "Phu Hoa 1"@vi
+    "Phu Hoa 2"@vi
+    "Phu Lang"@vi
+    "Phu Luong"@vi
+    "Phu Ly"@vi
+    "Phu My"@vi
+    "Phu Ninh"@vi
+    "Phu Tho"@vi
+    "Phu Thuan"@vi
+    "Phu Thuong"@vi
+    "Phu Tuc"@vi
+    "Phu Vang"@vi
+    "Phu Yen"@vi
+    "Phuc Hoa"@vi
+    "Phuc Loc"@vi
+    "Phuc Son"@vi
+    "Phuc Thinh"@vi
+    "Phuc Yen"@vi
+    "Phung Nguyen"@vi
+    "Phuoc An"@vi
+    "Phuoc Binh"@vi
+    "Phuoc Hau"@vi
+    "Phuoc Hoa"@vi
+    "Phuoc Long"@vi
+    "Phuoc Tan"@vi
+    "Phuoc Thanh"@vi
+    "Phuong Son"@vi
+    "Phù Lãng"@vi
+    "Phùng Nguyên"@vi
+    "Phú Bình"@vi
+    "Phú Diễn"@vi
+    "Phú Hòa 1"@vi
+    "Phú Hòa 2"@vi
+    "Phú Lương"@vi
+    "Phú Mỹ"@vi
+    "Phú Ninh"@vi
+    "Phú Thuận"@vi
+    "Phú Thượng"@vi
+    "Phú Thọ"@vi
+    "Phú Túc"@vi
+    "Phú Vang"@vi
+    "Phú Yên"@vi
+    "Phúc Lộc"@vi
+    "Phúc Sơn"@vi
+    "Phúc Thịnh"@vi
+    "Phúc Yên"@vi
+    "Phước An"@vi
+    "Phước Bình"@vi
+    "Phước Hòa"@vi
+    "Phước Hậu"@vi
+    "Phước Long"@vi
+    "Phước Thành"@vi
+    "Phước Tân"@vi
+    "Phường An Bình"@vi
+    "Phường An Hải"@vi
+    "Phường An Khê"@vi
+    "Phường An Nhơn"@vi
+    "Phường An Phong"@vi
+    "Phường An Phú"@vi
+    "Phường An Thắng"@vi
+    "Phường Bàn Thạch"@vi
+    "Phường Bá Xuyên"@vi
+    "Phường Bãi Cháy"@vi
+    "Phường Bình Trưng"@vi
+    "Phường Bạc Liêu"@vi
+    "Phường Bạch Đằng"@vi
+    "Phường Bắc An Phụ"@vi
+    "Phường Bắc Gia Nghĩa"@vi
+    "Phường Bắc Giang"@vi
+    "Phường Bắc Gianh"@vi
+    "Phường Bắc Hồng Lĩnh"@vi
+    "Phường Bắc Kạn"@vi
+    "Phường Bắc Nha Trang"@vi
+    "Phường Bỉm Sơn"@vi
+    "Phường Cam Ranh"@vi
+    "Phường Chiềng An"@vi
+    "Phường Chu Văn An"@vi
+    "Phường Chương Mỹ"@vi
+    "Phường Cái Răng"@vi
+    "Phường Cầu Thia"@vi
+    "Phường Cẩm Lệ"@vi
+    "Phường Cẩm Phả"@vi
+    "Phường Cửa Lò"@vi
+    "Phường Diên Hồng"@vi
+    "Phường Duy Hà"@vi
+    "Phường Duy Tiên"@vi
+    "Phường Duy Tân"@vi
+    "Phường Dương Kinh"@vi
+    "Phường Giá Rai"@vi
+    "Phường Hoàng Liệt"@vi
+    "Phường Hoành Sơn"@vi
+    "Phường Hà Nam"@vi
+    "Phường Hòa Bình"@vi
+    "Phường Hòa Cường"@vi
+    "Phường Hòa Hưng"@vi
+    "Phường Hòa Khánh"@vi
+    "Phường Hòa Thành"@vi
+    "Phường Hòa Thắng"@vi
+    "Phường Hóa Châu"@vi
+    "Phường Hương Trà"@vi
+    "Phường Hải Châu"@vi
+    "Phường Hải Vân"@vi
+    "Phường Hồng Bàng"@vi
+    "Phường Hồng Gai"@vi
+    "Phường Hồng Hà"@vi
+    "Phường Hồng Ngự"@vi
+    "Phường Kim Bảng"@vi
+    "Phường Kim Thanh"@vi
+    "Phường Kim Trà"@vi
+    "Phường Kiến Hưng"@vi
+    "Phường Kon Tum"@vi
+    "Phường Kỳ Lừa"@vi
+    "Phường Liên Chiểu"@vi
+    "Phường Long Bình"@vi
+    "Phường Long Hoa"@vi
+    "Phường Long Hưng"@vi
+    "Phường Long Phú 1"@vi
+    "Phường Long Phước"@vi
+    "Phường Long Thuận"@vi
+    "Phường Láng"@vi
+    "Phường Lê Chân"@vi
+    "Phường Lê Hồ"@vi
+    "Phường Lê Ích Mộc"@vi
+    "Phường Lê Đại Hành"@vi
+    "Phường Lý Thường Kiệt"@vi
+    "Phường Minh Hưng"@vi
+    "Phường Mường Lay"@vi
+    "Phường Mỹ Hào"@vi
+    "Phường Mỹ Tho"@vi
+    "Phường Nam Cường"@vi
+    "Phường Nam Hoa Lư"@vi
+    "Phường Nam Hồng Lĩnh"@vi
+    "Phường Nam Nha Trang"@vi
+    "Phường Nam Sầm Sơn"@vi
+    "Phường Nam Định"@vi
+    "Phường Nghi Sơn"@vi
+    "Phường Nghĩa Lộ"@vi
+    "Phường Nguyệt Viên"@vi
+    "Phường Ngũ Hành Sơn"@vi
+    "Phường Nha Trang"@vi
+    "Phường Nùng Trí Cao"@vi
+    "Phường Phan Đình Phùng"@vi
+    "Phường Phong Châu"@vi
+    "Phường Phong Dinh"@vi
+    "Phường Phong Phú"@vi
+    "Phường Phong Thái"@vi
+    "Phường Phú Diễn"@vi
+    "Phường Phú Mỹ"@vi
+    "Phường Phú Thượng"@vi
+    "Phường Phú Thọ"@vi
+    "Phường Phú Yên"@vi
+    "Phường Phúc Yên"@vi
+    "Phường Phước Bình"@vi
+    "Phường Phước Long"@vi
+    "Phường Phước Tân"@vi
+    "Phường Phượng Sơn"@vi
+    "Phường Phố Hiến"@vi
+    "Phường Phổ Yên"@vi
+    "Phường Phủ Lý"@vi
+    "Phường Pleiku"@vi
+    "Phường Quỳnh Mai"@vi
+    "Phường Sóc Trăng"@vi
+    "Phường Sông Công"@vi
+    "Phường Sông Cầu"@vi
+    "Phường Sông Trí"@vi
+    "Phường Sơn Nam"@vi
+    "Phường Sầm Sơn"@vi
+    "Phường Tam Chúc"@vi
+    "Phường Tam Điệp"@vi
+    "Phường Thanh Hòa"@vi
+    "Phường Thanh Thủy"@vi
+    "Phường Thiên Trường"@vi
+    "Phường Thuận Hóa"@vi
+    "Phường Thuận Thành"@vi
+    "Phường Thành Nam"@vi
+    "Phường Thành Vinh"@vi
+    "Phường Thái Bình"@vi
+    "Phường Thái Hòa"@vi
+    "Phường Thượng Hồng"@vi
+    "Phường Thảo Nguyên"@vi
+    "Phường Thống Nhất"@vi
+    "Phường Trung Sơn"@vi
+    "Phường Trà Lý"@vi
+    "Phường Trường Long Hòa"@vi
+    "Phường Trảng Bàng"@vi
+    "Phường Trần Nhân Tông"@vi
+    "Phường Tuần Châu"@vi
+    "Phường Tân Bình"@vi
+    "Phường Tân Hiệp"@vi
+    "Phường Tân Hòa"@vi
+    "Phường Tân Hưng"@vi
+    "Phường Tân Mai"@vi
+    "Phường Tân Mỹ"@vi
+    "Phường Tân Ninh"@vi
+    "Phường Tân Phú"@vi
+    "Phường Tân Thành"@vi
+    "Phường Tân Định"@vi
+    "Phường Tây Hoa Lư"@vi
+    "Phường Tây Hồ"@vi
+    "Phường Tây Nha Trang"@vi
+    "Phường Tùng Thiện"@vi
+    "Phường Tĩnh Gia"@vi
+    "Phường Từ Liêm"@vi
+    "Phường Từ Sơn"@vi
+    "Phường Uông Bí"@vi
+    "Phường Vinh Hưng"@vi
+    "Phường Vinh Lộc"@vi
+    "Phường Vinh Phú"@vi
+    "Phường Việt Trì"@vi
+    "Phường Việt Yên"@vi
+    "Phường Vân Sơn"@vi
+    "Phường Vĩnh Châu"@vi
+    "Phường Vĩnh Phúc"@vi
+    "Phường Vĩnh Tế"@vi
+    "Phường Vĩnh Yên"@vi
+    "Phường Vũng Áng"@vi
+    "Phường Vạn Xuân"@vi
+    "Phường Vị Khê"@vi
+    "Phường Xuân Lộc"@vi
+    "Phường Yên Bái"@vi
+    "Phường Yên Dũng"@vi
+    "Phường Yên Hòa"@vi
+    "Phường Yên Sơn"@vi
+    "Phường Yên Tử"@vi
+    "Phường Ô Môn"@vi
+    "Phường Đào Duy Từ"@vi
+    "Phường Đông Gia Nghĩa"@vi
+    "Phường Đông Hoa Lư"@vi
+    "Phường Đông Hà"@vi
+    "Phường Đông Hòa"@vi
+    "Phường Đông Hải"@vi
+    "Phường Đông Ninh Hòa"@vi
+    "Phường Đông Thành"@vi
+    "Phường Đông Triều"@vi
+    "Phường Đăk Bla"@vi
+    "Phường Đường Hào"@vi
+    "Phường Đống Đa"@vi
+    "Phường Đồng Thuận"@vi
+    "Phượng Sơn"@vi
+    "Phố Hiến"@vi
+    "Phổ Yên"@vi
+    "Phụ Dực"@vi
+    "Phục Hòa"@vi
+    "Phủ Lý"@vi
+    "Pleiku"@vi
+    "Pu Luong"@vi
+    "Pu Nhi"@vi
+    "Pù Luông"@vi
+    "Pù Nhi"@vi
+    "Pắc Ngà"@vi
+    "Quan Chu"@vi
+    "Quan Son"@vi
+    "Quan Sơn"@vi
+    "Quan Thanh"@vi
+    "Quan Thành"@vi
+    "Quang Chau"@vi
+    "Quang Dien"@vi
+    "Quang Dong"@vi
+    "Quang Hung"@vi
+    "Quang Hưng"@vi
+    "Quang Minh"@vi
+    "Quang Ninh"@vi
+    "Quang Oai"@vi
+    "Quang Trach"@vi
+    "Quang Trung"@vi
+    "Quang Uyen"@vi
+    "Quang Đồng"@vi
+    "Que Phong"@vi
+    "Que Phuoc"@vi
+    "Que Son"@vi
+    "Que Son Trung"@vi
+    "Quy Chau"@vi
+    "Quy Duc"@vi
+    "Quy Luong"@vi
+    "Quy Đức"@vi
+    "Quyet Thang"@vi
+    "Quynh An"@vi
+    "Quynh Anh"@vi
+    "Quynh Luu"@vi
+    "Quynh Mai"@vi
+    "Quynh Nhai"@vi
+    "Quynh Phu"@vi
+    "Quynh Son"@vi
+    "Quyết Thắng"@vi
+    "Quân Chu"@vi
+    "Quý Lương"@vi
+    "Quảng Châu"@vi
+    "Quảng Ninh"@vi
+    "Quảng Oai"@vi
+    "Quảng Trạch"@vi
+    "Quảng Uyên"@vi
+    "Quảng Điền"@vi
+    "Quế Phong"@vi
+    "Quế Phước"@vi
+    "Quế Sơn"@vi
+    "Quế Sơn Trung"@vi
+    "Quỳ Châu"@vi
+    "Quỳnh An"@vi
+    "Quỳnh Anh"@vi
+    "Quỳnh Lưu"@vi
+    "Quỳnh Mai"@vi
+    "Quỳnh Nhai"@vi
+    "Quỳnh Phú"@vi
+    "Quỳnh Phụ"@vi
+    "Quỳnh Sơn"@vi
+    "Sam Son"@vi
+    "Sang Nhe"@vi
+    "Sen Ngu"@vi
+    "Sen Ngư"@vi
+    "Si Lo Lau"@vi
+    "Soc Trang"@vi
+    "Son Cam Ha"@vi
+    "Son Dien"@vi
+    "Son Dong"@vi
+    "Son Ha"@vi
+    "Son Hoa"@vi
+    "Son Lam"@vi
+    "Son Luong"@vi
+    "Son Nam"@vi
+    "Son Tay"@vi
+    "Son Thanh"@vi
+    "Son Thuy"@vi
+    "Song Cau"@vi
+    "Song Cong"@vi
+    "Song Tri"@vi
+    "Song Vang"@vi
+    "Suoi Dau"@vi
+    "Suoi Hai"@vi
+    "Suối Dầu"@vi
+    "Suối Hai"@vi
+    "Sáng Nhè"@vi
+    "Sì Lở Lầu"@vi
+    "Sóc Trăng"@vi
+    "Sông Công"@vi
+    "Sông Cầu"@vi
+    "Sông Trí"@vi
+    "Sông Vàng"@vi
+    "Sơn Cẩm Hà"@vi
+    "Sơn Hà"@vi
+    "Sơn Hòa"@vi
+    "Sơn Hạ"@vi
+    "Sơn Lâm"@vi
+    "Sơn Lương"@vi
+    "Sơn Nam"@vi
+    "Sơn Thuỷ"@vi
+    "Sơn Thành"@vi
+    "Sơn Thủy"@vi
+    "Sơn Tây"@vi
+    "Sơn Điện"@vi
+    "Sơn Động"@vi
+    "Sầm Sơn"@vi
+    "Ta Dung"@vi
+    "Ta Phin"@vi
+    "Ta Xi Lang"@vi
+    "Tam Chuc"@vi
+    "Tam Chúc"@vi
+    "Tam Diep"@vi
+    "Tam Dong"@vi
+    "Tam Duong"@vi
+    "Tam Duong Bac"@vi
+    "Tam Dương"@vi
+    "Tam Dương Bắc"@vi
+    "Tam My"@vi
+    "Tam Mỹ"@vi
+    "Tam Nong"@vi
+    "Tam Nông"@vi
+    "Tam Thanh"@vi
+    "Tam Xuan"@vi
+    "Tam Xuân"@vi
+    "Tam Điệp"@vi
+    "Tam Đồng"@vi
+    "Tan Binh"@vi
+    "Tan Chau"@vi
+    "Tan Cuong"@vi
+    "Tan Dinh"@vi
+    "Tan Dong"@vi
+    "Tan Gianh"@vi
+    "Tan Hiep"@vi
+    "Tan Hoa"@vi
+    "Tan Hoi"@vi
+    "Tan Hong"@vi
+    "Tan Hung"@vi
+    "Tan Ky"@vi
+    "Tan Lac"@vi
+    "Tan Lap"@vi
+    "Tan Loi"@vi
+    "Tan Long"@vi
+    "Tan Mai"@vi
+    "Tan Minh"@vi
+    "Tan My"@vi
+    "Tan Ninh"@vi
+    "Tan Phu"@vi
+    "Tan Phu Dong"@vi
+    "Tan Thanh"@vi
+    "Tan Thuy"@vi
+    "Tan Tien"@vi
+    "Tan Xuan"@vi
+    "Tan Yen"@vi
+    "Tay Do"@vi
+    "Tay Giang"@vi
+    "Tay Ho"@vi
+    "Tay Hoa"@vi
+    "Tay Hoa Lu"@vi
+    "Tay Khanh Son"@vi
+    "Tay Khanh Vinh"@vi
+    "Tay Nha Trang"@vi
+    "Tay Ninh Hoa"@vi
+    "Tay Son"@vi
+    "Tay Thai Ninh"@vi
+    "Tay Thuy Anh"@vi
+    "Tay Tien Hai"@vi
+    "Thach An"@vi
+    "Thach That"@vi
+    "Thai Binh"@vi
+    "Thai Hoa"@vi
+    "Thai Ninh"@vi
+    "Than Khe"@vi
+    "Than Linh"@vi
+    "Thang An"@vi
+    "Thang Binh"@vi
+    "Thang Dien"@vi
+    "Thang Loc"@vi
+    "Thang Loi"@vi
+    "Thang Phu"@vi
+    "Thang Truong"@vi
+    "Thanh An"@vi
+    "Thanh Binh Tho"@vi
+    "Thanh Dong"@vi
+    "Thanh Duc"@vi
+    "Thanh Hoa"@vi
+    "Thanh Hòa"@vi
+    "Thanh Lam"@vi
+    "Thanh Liem"@vi
+    "Thanh Liêm"@vi
+    "Thanh Loi"@vi
+    "Thanh Lâm"@vi
+    "Thanh Nam"@vi
+    "Thanh Oai"@vi
+    "Thanh Phuoc"@vi
+    "Thanh Son"@vi
+    "Thanh Sơn"@vi
+    "Thanh Thinh"@vi
+    "Thanh Thuy"@vi
+    "Thanh Thịnh"@vi
+    "Thanh Thủy"@vi
+    "Thanh Vinh"@vi
+    "Thao Nguyen"@vi
+    "Thap Muoi"@vi
+    "Thien Loc"@vi
+    "Thien Nhan"@vi
+    "Thien Truong"@vi
+    "Thieu Hoa"@vi
+    "Thiên Lộc"@vi
+    "Thiên Nhẫn"@vi
+    "Thiên Trường"@vi
+    "Thiệu Hóa"@vi
+    "Tho Long"@vi
+    "Thoi Binh"@vi
+    "Thong Nhat"@vi
+    "Thu Bon"@vi
+    "Thu Bồn"@vi
+    "Thu Lam"@vi
+    "Thuan An"@vi
+    "Thuan Hoa"@vi
+    "Thuan Thanh"@vi
+    "Thuan Trung"@vi
+    "Thuong Duc"@vi
+    "Thuong Hong"@vi
+    "Thuong Minh"@vi
+    "Thuong Phuc"@vi
+    "Thuy Anh"@vi
+    "Thuần Trung"@vi
+    "Thuận An"@vi
+    "Thuận Hóa"@vi
+    "Thuận Thành"@vi
+    "Thành Bình Thọ"@vi
+    "Thành Nam"@vi
+    "Thành Vinh"@vi
+    "Thái Bình"@vi
+    "Thái Hòa"@vi
+    "Thái Ninh"@vi
+    "Tháp Mười"@vi
+    "Thăng An"@vi
+    "Thăng Bình"@vi
+    "Thăng Phú"@vi
+    "Thăng Trường"@vi
+    "Thăng Điền"@vi
+    "Thư Lâm"@vi
+    "Thượng Hồng"@vi
+    "Thượng Minh"@vi
+    "Thượng Phúc"@vi
+    "Thượng Đức"@vi
+    "Thạch An"@vi
+    "Thạch Thất"@vi
+    "Thạnh An"@vi
+    "Thạnh Lợi"@vi
+    "Thạnh Phước"@vi
+    "Thạnh Đông"@vi
+    "Thạnh Đức"@vi
+    "Thảo Nguyên"@vi
+    "Thần Khê"@vi
+    "Thần Lĩnh"@vi
+    "Thắng Lộc"@vi
+    "Thắng Lợi"@vi
+    "Thọ Long"@vi
+    "Thống Nhất"@vi
+    "Thới Bình"@vi
+    "Thụy Anh"@vi
+    "Tien Dong"@vi
+    "Tien Hoa"@vi
+    "Tien Hung"@vi
+    "Tien La"@vi
+    "Tien Lu"@vi
+    "Tien Phuoc"@vi
+    "Tien Thang"@vi
+    "Tinh Gia"@vi
+    "Tiên Hoa"@vi
+    "Tiên Hưng"@vi
+    "Tiên La"@vi
+    "Tiên Lữ"@vi
+    "Tiên Phước"@vi
+    "Tiên Đồng"@vi
+    "Tiến Thắng"@vi
+    "Toan Luu"@vi
+    "Toan Thang"@vi
+    "Tong Son"@vi
+    "Toàn Lưu"@vi
+    "Toàn Thắng"@vi
+    "Tra Lien"@vi
+    "Tra Ly"@vi
+    "Tra Tan"@vi
+    "Tran Nhan Tong"@vi
+    "Tran Thuong"@vi
+    "Trang Bang"@vi
+    "Trang Dinh"@vi
+    "Trieu Binh"@vi
+    "Trieu Co"@vi
+    "Trieu Phong"@vi
+    "Trieu Viet Vuong"@vi
+    "Triệu Bình"@vi
+    "Triệu Cơ"@vi
+    "Triệu Phong"@vi
+    "Triệu Việt Vương"@vi
+    "Truc Ninh"@vi
+    "Trung Khanh Vinh"@vi
+    "Trung Khánh Vĩnh"@vi
+    "Trung Loc"@vi
+    "Trung Lộc"@vi
+    "Trung Son"@vi
+    "Trung Sơn"@vi
+    "Trung Thanh"@vi
+    "Trung Thành"@vi
+    "Truong Long Hoa"@vi
+    "Truong Luu"@vi
+    "Truong Ninh"@vi
+    "Truong Phu"@vi
+    "Truong Tan"@vi
+    "Truong Van"@vi
+    "Trà Liên"@vi
+    "Trà Lý"@vi
+    "Trà Tân"@vi
+    "Tràng Định"@vi
+    "Trường Long Hòa"@vi
+    "Trường Lưu"@vi
+    "Trường Ninh"@vi
+    "Trường Phú"@vi
+    "Trường Tân"@vi
+    "Trường Văn"@vi
+    "Trảng Bàng"@vi
+    "Trần Nhân Tông"@vi
+    "Trần Thương"@vi
+    "Trực Ninh"@vi
+    "Tu Bong"@vi
+    "Tu Bông"@vi
+    "Tu Liem"@vi
+    "Tu My"@vi
+    "Tu Son"@vi
+    "Tuan Chau"@vi
+    "Tue Tinh"@vi
+    "Tung Thien"@vi
+    "Tuong Duong"@vi
+    "Tuy An Bac"@vi
+    "Tuy An Bắc"@vi
+    "Tuy An Dong"@vi
+    "Tuy An Nam"@vi
+    "Tuy An Tay"@vi
+    "Tuy An Tây"@vi
+    "Tuy An Đông"@vi
+    "Tuy Duc"@vi
+    "Tuy Đức"@vi
+    "Tuyen Binh"@vi
+    "Tuyen Hoa"@vi
+    "Tuyen Lam"@vi
+    "Tuyen Phu"@vi
+    "Tuyen Son"@vi
+    "Tuyên Bình"@vi
+    "Tuyên Hóa"@vi
+    "Tuyên Lâm"@vi
+    "Tuyên Phú"@vi
+    "Tuyên Sơn"@vi
+    "Tuần Châu"@vi
+    "Tuệ Tĩnh"@vi
+    "Tà Xi Láng"@vi
+    "Tà Đùng"@vi
+    "Tân Bình"@vi
+    "Tân Châu"@vi
+    "Tân Cương"@vi
+    "Tân Gianh"@vi
+    "Tân Hiệp"@vi
+    "Tân Hòa"@vi
+    "Tân Hưng"@vi
+    "Tân Hồng"@vi
+    "Tân Hội"@vi
+    "Tân Kỳ"@vi
+    "Tân Long"@vi
+    "Tân Lạc"@vi
+    "Tân Lập"@vi
+    "Tân Lợi"@vi
+    "Tân Mai"@vi
+    "Tân Minh"@vi
+    "Tân Mỹ"@vi
+    "Tân Ninh"@vi
+    "Tân Phú"@vi
+    "Tân Phú Đông"@vi
+    "Tân Thành"@vi
+    "Tân Thạnh"@vi
+    "Tân Thủy"@vi
+    "Tân Tiến"@vi
+    "Tân Xuân"@vi
+    "Tân Yên"@vi
+    "Tân Đông"@vi
+    "Tân Định"@vi
+    "Tây Giang"@vi
+    "Tây Hoa Lư"@vi
+    "Tây Hòa"@vi
+    "Tây Hồ"@vi
+    "Tây Khánh Sơn"@vi
+    "Tây Khánh Vĩnh"@vi
+    "Tây Nha Trang"@vi
+    "Tây Ninh Hòa"@vi
+    "Tây Sơn"@vi
+    "Tây Thái Ninh"@vi
+    "Tây Thụy Anh"@vi
+    "Tây Tiền Hải"@vi
+    "Tây Đô"@vi
+    "Tùng Thiện"@vi
+    "Tĩnh Gia"@vi
+    "Tương Dương"@vi
+    "Tả Phìn"@vi
+    "Tống Sơn"@vi
+    "Tứ Mỹ"@vi
+    "Từ Liêm"@vi
+    "Từ Sơn"@vi
+    "Ung Hoa"@vi
+    "Ung Thien"@vi
+    "Uong Bi"@vi
+    "Uông Bí"@vi
+    "Van An"@vi
+    "Van Dinh"@vi
+    "Van Don"@vi
+    "Van Du"@vi
+    "Van Hien"@vi
+    "Van Hoa"@vi
+    "Van Kieu"@vi
+    "Van Lang"@vi
+    "Van Loc"@vi
+    "Van Ninh"@vi
+    "Van Phu"@vi
+    "Van Son"@vi
+    "Van Thang"@vi
+    "Van Tu"@vi
+    "Van Xuan"@vi
+    "Vi Khe"@vi
+    "Viet An"@vi
+    "Viet Khe"@vi
+    "Viet Tien"@vi
+    "Viet Tri"@vi
+    "Viet Yen"@vi
+    "Vinh Am"@vi
+    "Vinh An"@vi
+    "Vinh Binh"@vi
+    "Vinh Chau"@vi
+    "Vinh Dinh"@vi
+    "Vinh Hai"@vi
+    "Vinh Hoa Hung"@vi
+    "Vinh Hoang"@vi
+    "Vinh Hung"@vi
+    "Vinh Hưng"@vi
+    "Vinh Loc"@vi
+    "Vinh Loi"@vi
+    "Vinh Lộc"@vi
+    "Vinh My"@vi
+    "Vinh Phu"@vi
+    "Vinh Phuc"@vi
+    "Vinh Phuoc"@vi
+    "Vinh Phú"@vi
+    "Vinh Te"@vi
+    "Vinh Thanh"@vi
+    "Vinh Thinh"@vi
+    "Vinh Thong"@vi
+    "Vinh Thuan"@vi
+    "Vinh Tuong"@vi
+    "Vinh Yen"@vi
+    "Việt An"@vi
+    "Việt Khê"@vi
+    "Việt Tiến"@vi
+    "Việt Trì"@vi
+    "Việt Yên"@vi
+    "Vo Nhai"@vi
+    "Vu Duong"@vi
+    "Vu Gia"@vi
+    "Vung Ang"@vi
+    "Vân Du"@vi
+    "Vân Hòa"@vi
+    "Vân Sơn"@vi
+    "Vân Tụ"@vi
+    "Vân Đình"@vi
+    "Vân Đồn"@vi
+    "Võ Nhai"@vi
+    "Văn Hiến"@vi
+    "Văn Kiều"@vi
+    "Văn Lãng"@vi
+    "Văn Phú"@vi
+    "Vĩnh Am"@vi
+    "Vĩnh An"@vi
+    "Vĩnh Bình"@vi
+    "Vĩnh Châu"@vi
+    "Vĩnh Hoàng"@vi
+    "Vĩnh Hòa Hưng"@vi
+    "Vĩnh Hưng"@vi
+    "Vĩnh Hải"@vi
+    "Vĩnh Lợi"@vi
+    "Vĩnh Mỹ"@vi
+    "Vĩnh Phúc"@vi
+    "Vĩnh Phước"@vi
+    "Vĩnh Thanh"@vi
+    "Vĩnh Thuận"@vi
+    "Vĩnh Thành"@vi
+    "Vĩnh Thông"@vi
+    "Vĩnh Thạnh"@vi
+    "Vĩnh Thịnh"@vi
+    "Vĩnh Tường"@vi
+    "Vĩnh Tế"@vi
+    "Vĩnh Yên"@vi
+    "Vĩnh Định"@vi
+    "Vũ Dương"@vi
+    "Vũng Áng"@vi
+    "Vạn An"@vi
+    "Vạn Lộc"@vi
+    "Vạn Ninh"@vi
+    "Vạn Phú"@vi
+    "Vạn Thắng"@vi
+    "Vạn Xuân"@vi
+    "Vị Khê"@vi
+    "Xim Vang"@vi
+    "Xuan An"@vi
+    "Xuan Giang"@vi
+    "Xuan Hai"@vi
+    "Xuan Hoa"@vi
+    "Xuan Hung"@vi
+    "Xuan Lang"@vi
+    "Xuan Loc"@vi
+    "Xuan Phu"@vi
+    "Xuan Thanh"@vi
+    "Xuan Tho"@vi
+    "Xuân An"@vi
+    "Xuân Giang"@vi
+    "Xuân Hòa"@vi
+    "Xuân Hưng"@vi
+    "Xuân Hải"@vi
+    "Xuân Lãng"@vi
+    "Xuân Lộc"@vi
+    "Xuân Phú"@vi
+    "Xuân Thành"@vi
+    "Xuân Thọ"@vi
+    "Xã A Lưới 1"@vi
+    "Xã A Lưới 2"@vi
+    "Xã A Lưới 3"@vi
+    "Xã A Lưới 4"@vi
+    "Xã A Lưới 5"@vi
+    "Xã A Sào"@vi
+    "Xã An Biên"@vi
+    "Xã An Châu"@vi
+    "Xã An Hiệp"@vi
+    "Xã An Hòa"@vi
+    "Xã An Khánh"@vi
+    "Xã An Long"@vi
+    "Xã An Lão"@vi
+    "Xã An Nhơn Tây"@vi
+    "Xã An Ninh"@vi
+    "Xã An Phú"@vi
+    "Xã An Quang"@vi
+    "Xã An Trường"@vi
+    "Xã An Định"@vi
+    "Xã Anh Dũng"@vi
+    "Xã Anh Sơn"@vi
+    "Xã Anh Sơn Đông"@vi
+    "Xã Ayun"@vi
+    "Xã Ba Bể"@vi
+    "Xã Ba Sơn"@vi
+    "Xã Ba Tô"@vi
+    "Xã Ba Tơ"@vi
+    "Xã Ba Vì"@vi
+    "Xã Biện Thượng"@vi
+    "Xã Bàu Cạn"@vi
+    "Xã Bá Thước"@vi
+    "Xã Bát Tràng"@vi
+    "Xã Bình An"@vi
+    "Xã Bình Giang"@vi
+    "Xã Bình Hiệp"@vi
+    "Xã Bình Hòa"@vi
+    "Xã Bình Lục"@vi
+    "Xã Bình Minh"@vi
+    "Xã Bình Nguyên"@vi
+    "Xã Bình Phú"@vi
+    "Xã Bình Sơn"@vi
+    "Xã Bình Thành"@vi
+    "Xã Bình Tuyền"@vi
+    "Xã Bình Xuyên"@vi
+    "Xã Bích Hào"@vi
+    "Xã Bạch Hà"@vi
+    "Xã Bạch Ngọc"@vi
+    "Xã Bạch Thông"@vi
+    "Xã Bảo Lâm"@vi
+    "Xã Bảo Lâm 3"@vi
+    "Xã Bảo Thắng"@vi
+    "Xã Bất Bạt"@vi
+    "Xã Bắc Khánh Vĩnh"@vi
+    "Xã Bắc Mê"@vi
+    "Xã Bắc Ninh Hòa"@vi
+    "Xã Bắc Thái Ninh"@vi
+    "Xã Bắc Thụy Anh"@vi
+    "Xã Bắc Tiên Hưng"@vi
+    "Xã Bắc Đông Hưng"@vi
+    "Xã Bắc Đông Quan"@vi
+    "Xã Bến Hải"@vi
+    "Xã Bố Hạ"@vi
+    "Xã Bố Trạch"@vi
+    "Xã Cam An"@vi
+    "Xã Cam Hiệp"@vi
+    "Xã Cam Hồng"@vi
+    "Xã Cam Lâm"@vi
+    "Xã Cam Phục"@vi
+    "Xã Cao Minh"@vi
+    "Xã Chi Lăng"@vi
+    "Xã Chân Mây - Lăng Cô"@vi
+    "Xã Châu Bình"@vi
+    "Xã Châu Ninh"@vi
+    "Xã Châu Phú"@vi
+    "Xã Châu Thành"@vi
+    "Xã Chí Minh"@vi
+    "Xã Chấn Hưng"@vi
+    "Xã Chợ Đồn"@vi
+    "Xã Con Cuông"@vi
+    "Xã Cái Ngang"@vi
+    "Xã Cát Ngạn"@vi
+    "Xã Cư Jút"@vi
+    "Xã Cẩm Giang"@vi
+    "Xã Cẩm Giàng"@vi
+    "Xã Cẩm Thủy"@vi
+    "Xã Cồn Tiên"@vi
+    "Xã Di Linh"@vi
+    "Xã Duy Nghĩa"@vi
+    "Xã Dũng Tiến"@vi
+    "Xã Dương Hòa"@vi
+    "Xã Dục Nông"@vi
+    "Xã Gia Hanh"@vi
+    "Xã Gia Phong"@vi
+    "Xã Gia Phúc"@vi
+    "Xã Gia Trấn"@vi
+    "Xã Gia Viễn"@vi
+    "Xã Gia Vân"@vi
+    "Xã Giai Lạc"@vi
+    "Xã Giao Bình"@vi
+    "Xã Giao Hoà"@vi
+    "Xã Giao Hưng"@vi
+    "Xã Giao Minh"@vi
+    "Xã Giao Ninh"@vi
+    "Xã Giao Phúc"@vi
+    "Xã Giao Thuỷ"@vi
+    "Xã Gò Nổi"@vi
+    "Xã Hiệp Hoà"@vi
+    "Xã Hiệp Lực"@vi
+    "Xã Hiệp Mỹ"@vi
+    "Xã Hiệp Đức"@vi
+    "Xã Hoa Lộc"@vi
+    "Xã Hoa Quân"@vi
+    "Xã Hoài Đức"@vi
+    "Xã Hoàng An"@vi
+    "Xã Hoằng Hóa"@vi
+    "Xã Hoằng Phú"@vi
+    "Xã Hoằng Thanh"@vi
+    "Xã Hà Quảng"@vi
+    "Xã Hòa An"@vi
+    "Xã Hòa Hội"@vi
+    "Xã Hòa Lạc"@vi
+    "Xã Hòa Mỹ"@vi
+    "Xã Hòa Trí"@vi
+    "Xã Hòa Tú"@vi
+    "Xã Hùng Chân"@vi
+    "Xã Hùng Việt"@vi
+    "Xã Hưng Khánh"@vi
+    "Xã Hưng Lộc"@vi
+    "Xã Hưng Nguyên Nam"@vi
+    "Xã Hưng Phú"@vi
+    "Xã Hưng Đạo"@vi
+    "Xã Hương Phố"@vi
+    "Xã Hạ Bằng"@vi
+    "Xã Hạ Lang"@vi
+    "Xã Hạnh Phúc"@vi
+    "Xã Hải Châu"@vi
+    "Xã Hải Hưng"@vi
+    "Xã Hải Hậu"@vi
+    "Xã Hải Lăng"@vi
+    "Xã Hải Lộc"@vi
+    "Xã Hải Ninh"@vi
+    "Xã Hải Thịnh"@vi
+    "Xã Hải Tiến"@vi
+    "Xã Hậu Thạnh"@vi
+    "Xã Hồ Vương"@vi
+    "Xã Hồng Châu"@vi
+    "Xã Hồng Dân"@vi
+    "Xã Hồng Phong"@vi
+    "Xã Hồng Sơn"@vi
+    "Xã Hồng Thái"@vi
+    "Xã Hồng Vũ"@vi
+    "Xã Hội Sơn"@vi
+    "Xã Hội Thịnh"@vi
+    "Xã Hợp Minh"@vi
+    "Xã Hợp Thành"@vi
+    "Xã Ia Băng"@vi
+    "Xã Ia Dom"@vi
+    "Xã Ia Sao"@vi
+    "Xã Khánh Hưng"@vi
+    "Xã Khánh Sơn"@vi
+    "Xã Kim Anh"@vi
+    "Xã Kim Bảng"@vi
+    "Xã Kim Hoa"@vi
+    "Xã Kim Long"@vi
+    "Xã Kim Ngân"@vi
+    "Xã Kim Phú"@vi
+    "Xã Kim Sơn"@vi
+    "Xã Kim Điền"@vi
+    "Xã Kiến Hưng"@vi
+    "Xã Kiến Hải"@vi
+    "Xã Kiến Minh"@vi
+    "Xã Kiến Thụy"@vi
+    "Xã Kiều Phú"@vi
+    "Xã Krông Ana"@vi
+    "Xã Krông Bông"@vi
+    "Xã Krông Nô"@vi
+    "Xã Krông Pắc"@vi
+    "Xã Kỳ Anh"@vi
+    "Xã Lai Khê"@vi
+    "Xã Lam Thành"@vi
+    "Xã Linh Sơn"@vi
+    "Xã Liêm Hà"@vi
+    "Xã Liên Minh"@vi
+    "Xã Liên Sơn Lắk"@vi
+    "Xã Long Hòa"@vi
+    "Xã Long Hữu"@vi
+    "Xã Long Khánh"@vi
+    "Xã Long Phú"@vi
+    "Xã Long Phụng"@vi
+    "Xã Long Quảng"@vi
+    "Xã Long Thuận"@vi
+    "Xã Lâm Bình"@vi
+    "Xã Lâm Sơn"@vi
+    "Xã Lãnh Ngọc"@vi
+    "Xã Lê Quý Đôn"@vi
+    "Xã Lìa"@vi
+    "Xã Lý Nhân"@vi
+    "Xã Lưu Vệ"@vi
+    "Xã Lương Minh"@vi
+    "Xã Lương Sơn"@vi
+    "Xã Lương Tài"@vi
+    "Xã Lạc Phượng"@vi
+    "Xã Lạc Sơn"@vi
+    "Xã Lạc Thủy"@vi
+    "Xã Lạng Giang"@vi
+    "Xã Lịch Hội Thượng"@vi
+    "Xã Lộc Ninh"@vi
+    "Xã Lộc Thuận"@vi
+    "Xã Lộc Thành"@vi
+    "Xã Lộc Thạnh"@vi
+    "Xã Lục Ngạn"@vi
+    "Xã Mai Sơn"@vi
+    "Xã Mao Điền"@vi
+    "Xã Minh Ngọc"@vi
+    "Xã Minh Thái"@vi
+    "Xã Minh Thọ"@vi
+    "Xã Mường Bi"@vi
+    "Xã Mường Chanh"@vi
+    "Xã Mường Chọng"@vi
+    "Xã Mường Ham"@vi
+    "Xã Mường La"@vi
+    "Xã Mường Quàng"@vi
+    "Xã Mường Thàng"@vi
+    "Xã Mường Tè"@vi
+    "Xã Mường Vang"@vi
+    "Xã Mường Động"@vi
+    "Xã Mậu Thạch"@vi
+    "Xã Mỹ Lợi"@vi
+    "Xã Mỹ Quý"@vi
+    "Xã Mỹ Sơn"@vi
+    "Xã Mỹ Thạnh"@vi
+    "Xã Mỹ Đức"@vi
+    "Xã Na Mèo"@vi
+    "Xã Na Rì"@vi
+    "Xã Nam An Phụ"@vi
+    "Xã Nam Ba Đồn"@vi
+    "Xã Nam Cam Ranh"@vi
+    "Xã Nam Giang"@vi
+    "Xã Nam Gianh"@vi
+    "Xã Nam Hải Lăng"@vi
+    "Xã Nam Khánh Vĩnh"@vi
+    "Xã Nam Lý"@vi
+    "Xã Nam Minh"@vi
+    "Xã Nam Phù"@vi
+    "Xã Nam Thái Ninh"@vi
+    "Xã Nam Thụy Anh"@vi
+    "Xã Nam Tiên Hưng"@vi
+    "Xã Nam Tiền Hải"@vi
+    "Xã Nam Trà My"@vi
+    "Xã Nam Trực"@vi
+    "Xã Nam Đông Hưng"@vi
+    "Xã Nam Đồng"@vi
+    "Xã Nghi Dương"@vi
+    "Xã Nghi Lộc"@vi
+    "Xã Nghi Xuân"@vi
+    "Xã Nghĩa Hành"@vi
+    "Xã Nguyễn Bỉnh Khiêm"@vi
+    "Xã Nguyễn Du"@vi
+    "Xã Nguyễn Lương Bằng"@vi
+    "Xã Ngân Sơn"@vi
+    "Xã Ngô Mây"@vi
+    "Xã Ngọc Linh"@vi
+    "Xã Ngự Thiên"@vi
+    "Xã Nhân Hà"@vi
+    "Xã Nhân Hòa"@vi
+    "Xã Như Thanh"@vi
+    "Xã Như Xuân"@vi
+    "Xã Ninh Châu"@vi
+    "Xã Ninh Hải"@vi
+    "Xã Ninh Phước"@vi
+    "Xã Ninh Sơn"@vi
+    "Xã Nông Sơn"@vi
+    "Xã Nậm Cắn"@vi
+    "Xã Phong Doanh"@vi
+    "Xã Phong Hiệp"@vi
+    "Xã Phong Quang"@vi
+    "Xã Phù Lãng"@vi
+    "Xã Phùng Nguyên"@vi
+    "Xã Phú Bình"@vi
+    "Xã Phú Hòa 1"@vi
+    "Xã Phú Hòa 2"@vi
+    "Xã Phú Lương"@vi
+    "Xã Phú Ninh"@vi
+    "Xã Phú Thuận"@vi
+    "Xã Phú Túc"@vi
+    "Xã Phú Vang"@vi
+    "Xã Phúc Lộc"@vi
+    "Xã Phúc Sơn"@vi
+    "Xã Phúc Thịnh"@vi
+    "Xã Phước An"@vi
+    "Xã Phước Hòa"@vi
+    "Xã Phước Hậu"@vi
+    "Xã Phước Long"@vi
+    "Xã Phước Thành"@vi
+    "Xã Phụ Dực"@vi
+    "Xã Phục Hòa"@vi
+    "Xã Pù Luông"@vi
+    "Xã Pù Nhi"@vi
+    "Xã Pắc Ngà"@vi
+    "Xã Quan Sơn"@vi
+    "Xã Quan Thành"@vi
+    "Xã Quang Hưng"@vi
+    "Xã Quang Minh"@vi
+    "Xã Quang Trung"@vi
+    "Xã Quang Đồng"@vi
+    "Xã Quy Đức"@vi
+    "Xã Quyết Thắng"@vi
+    "Xã Quân Chu"@vi
+    "Xã Quý Lương"@vi
+    "Xã Quảng Châu"@vi
+    "Xã Quảng Ninh"@vi
+    "Xã Quảng Oai"@vi
+    "Xã Quảng Trạch"@vi
+    "Xã Quảng Uyên"@vi
+    "Xã Quảng Điền"@vi
+    "Xã Quế Phong"@vi
+    "Xã Quế Phước"@vi
+    "Xã Quế Sơn"@vi
+    "Xã Quế Sơn Trung"@vi
+    "Xã Quỳ Châu"@vi
+    "Xã Quỳnh An"@vi
+    "Xã Quỳnh Anh"@vi
+    "Xã Quỳnh Lưu"@vi
+    "Xã Quỳnh Nhai"@vi
+    "Xã Quỳnh Phú"@vi
+    "Xã Quỳnh Phụ"@vi
+    "Xã Quỳnh Sơn"@vi
+    "Xã Sen Ngư"@vi
+    "Xã Suối Dầu"@vi
+    "Xã Suối Hai"@vi
+    "Xã Sáng Nhè"@vi
+    "Xã Sì Lở Lầu"@vi
+    "Xã Sông Vàng"@vi
+    "Xã Sơn Cẩm Hà"@vi
+    "Xã Sơn Hà"@vi
+    "Xã Sơn Hòa"@vi
+    "Xã Sơn Hạ"@vi
+    "Xã Sơn Lâm"@vi
+    "Xã Sơn Lương"@vi
+    "Xã Sơn Thuỷ"@vi
+    "Xã Sơn Thành"@vi
+    "Xã Sơn Thủy"@vi
+    "Xã Sơn Tây"@vi
+    "Xã Sơn Điện"@vi
+    "Xã Sơn Động"@vi
+    "Xã Tam Dương"@vi
+    "Xã Tam Dương Bắc"@vi
+    "Xã Tam Mỹ"@vi
+    "Xã Tam Nông"@vi
+    "Xã Tam Thanh"@vi
+    "Xã Tam Xuân"@vi
+    "Xã Tam Đồng"@vi
+    "Xã Thanh An"@vi
+    "Xã Thanh Liêm"@vi
+    "Xã Thanh Lâm"@vi
+    "Xã Thanh Oai"@vi
+    "Xã Thanh Sơn"@vi
+    "Xã Thanh Thịnh"@vi
+    "Xã Thiên Lộc"@vi
+    "Xã Thiên Nhẫn"@vi
+    "Xã Thiệu Hóa"@vi
+    "Xã Thu Bồn"@vi
+    "Xã Thuần Trung"@vi
+    "Xã Thuận An"@vi
+    "Xã Thành Bình Thọ"@vi
+    "Xã Thái Ninh"@vi
+    "Xã Tháp Mười"@vi
+    "Xã Thăng An"@vi
+    "Xã Thăng Bình"@vi
+    "Xã Thăng Phú"@vi
+    "Xã Thăng Trường"@vi
+    "Xã Thăng Điền"@vi
+    "Xã Thư Lâm"@vi
+    "Xã Thượng Hồng"@vi
+    "Xã Thượng Minh"@vi
+    "Xã Thượng Phúc"@vi
+    "Xã Thượng Đức"@vi
+    "Xã Thạch An"@vi
+    "Xã Thạch Thất"@vi
+    "Xã Thạnh An"@vi
+    "Xã Thạnh Lợi"@vi
+    "Xã Thạnh Phước"@vi
+    "Xã Thạnh Đông"@vi
+    "Xã Thạnh Đức"@vi
+    "Xã Thần Khê"@vi
+    "Xã Thần Lĩnh"@vi
+    "Xã Thắng Lộc"@vi
+    "Xã Thắng Lợi"@vi
+    "Xã Thọ Long"@vi
+    "Xã Thống Nhất"@vi
+    "Xã Thới Bình"@vi
+    "Xã Thụy Anh"@vi
+    "Xã Tiên Hoa"@vi
+    "Xã Tiên Hưng"@vi
+    "Xã Tiên La"@vi
+    "Xã Tiên Lữ"@vi
+    "Xã Tiên Phước"@vi
+    "Xã Tiên Đồng"@vi
+    "Xã Tiến Thắng"@vi
+    "Xã Toàn Lưu"@vi
+    "Xã Toàn Thắng"@vi
+    "Xã Triệu Bình"@vi
+    "Xã Triệu Cơ"@vi
+    "Xã Triệu Phong"@vi
+    "Xã Triệu Việt Vương"@vi
+    "Xã Trung Khánh Vĩnh"@vi
+    "Xã Trung Lộc"@vi
+    "Xã Trung Thành"@vi
+    "Xã Trà Liên"@vi
+    "Xã Trà Tân"@vi
+    "Xã Tràng Định"@vi
+    "Xã Trường Lưu"@vi
+    "Xã Trường Ninh"@vi
+    "Xã Trường Phú"@vi
+    "Xã Trường Tân"@vi
+    "Xã Trường Văn"@vi
+    "Xã Trần Thương"@vi
+    "Xã Trực Ninh"@vi
+    "Xã Tu Bông"@vi
+    "Xã Tuy An Bắc"@vi
+    "Xã Tuy An Nam"@vi
+    "Xã Tuy An Tây"@vi
+    "Xã Tuy An Đông"@vi
+    "Xã Tuy Đức"@vi
+    "Xã Tuyên Bình"@vi
+    "Xã Tuyên Hóa"@vi
+    "Xã Tuyên Lâm"@vi
+    "Xã Tuyên Phú"@vi
+    "Xã Tuyên Sơn"@vi
+    "Xã Tuệ Tĩnh"@vi
+    "Xã Tà Xi Láng"@vi
+    "Xã Tà Đùng"@vi
+    "Xã Tân Châu"@vi
+    "Xã Tân Cương"@vi
+    "Xã Tân Gianh"@vi
+    "Xã Tân Hồng"@vi
+    "Xã Tân Hội"@vi
+    "Xã Tân Kỳ"@vi
+    "Xã Tân Long"@vi
+    "Xã Tân Lạc"@vi
+    "Xã Tân Lập"@vi
+    "Xã Tân Lợi"@vi
+    "Xã Tân Minh"@vi
+    "Xã Tân Mỹ"@vi
+    "Xã Tân Ninh"@vi
+    "Xã Tân Phú Đông"@vi
+    "Xã Tân Thành"@vi
+    "Xã Tân Thạnh"@vi
+    "Xã Tân Thủy"@vi
+    "Xã Tân Tiến"@vi
+    "Xã Tân Xuân"@vi
+    "Xã Tân Yên"@vi
+    "Xã Tân Đông"@vi
+    "Xã Tây Giang"@vi
+    "Xã Tây Hòa"@vi
+    "Xã Tây Hồ"@vi
+    "Xã Tây Khánh Sơn"@vi
+    "Xã Tây Khánh Vĩnh"@vi
+    "Xã Tây Ninh Hòa"@vi
+    "Xã Tây Sơn"@vi
+    "Xã Tây Thái Ninh"@vi
+    "Xã Tây Thụy Anh"@vi
+    "Xã Tây Tiền Hải"@vi
+    "Xã Tây Đô"@vi
+    "Xã Tương Dương"@vi
+    "Xã Tả Phìn"@vi
+    "Xã Tống Sơn"@vi
+    "Xã Tứ Mỹ"@vi
+    "Xã Vinh Lộc"@vi
+    "Xã Việt An"@vi
+    "Xã Việt Khê"@vi
+    "Xã Việt Tiến"@vi
+    "Xã Việt Yên"@vi
+    "Xã Vu Gia"@vi
+    "Xã Vân Du"@vi
+    "Xã Vân Hòa"@vi
+    "Xã Vân Tụ"@vi
+    "Xã Vân Đình"@vi
+    "Xã Võ Nhai"@vi
+    "Xã Văn Hiến"@vi
+    "Xã Văn Kiều"@vi
+    "Xã Văn Lãng"@vi
+    "Xã Văn Phú"@vi
+    "Xã Vĩnh Am"@vi
+    "Xã Vĩnh An"@vi
+    "Xã Vĩnh Bình"@vi
+    "Xã Vĩnh Hoàng"@vi
+    "Xã Vĩnh Hòa Hưng"@vi
+    "Xã Vĩnh Hưng"@vi
+    "Xã Vĩnh Hải"@vi
+    "Xã Vĩnh Lợi"@vi
+    "Xã Vĩnh Mỹ"@vi
+    "Xã Vĩnh Phước"@vi
+    "Xã Vĩnh Thanh"@vi
+    "Xã Vĩnh Thuận"@vi
+    "Xã Vĩnh Thành"@vi
+    "Xã Vĩnh Thông"@vi
+    "Xã Vĩnh Thạnh"@vi
+    "Xã Vĩnh Thịnh"@vi
+    "Xã Vĩnh Tường"@vi
+    "Xã Vĩnh Định"@vi
+    "Xã Vũ Dương"@vi
+    "Xã Vạn An"@vi
+    "Xã Vạn Lộc"@vi
+    "Xã Vạn Ninh"@vi
+    "Xã Vạn Phú"@vi
+    "Xã Vạn Thắng"@vi
+    "Xã Vạn Xuân"@vi
+    "Xã Xuân An"@vi
+    "Xã Xuân Giang"@vi
+    "Xã Xuân Hòa"@vi
+    "Xã Xuân Hưng"@vi
+    "Xã Xuân Hải"@vi
+    "Xã Xuân Lãng"@vi
+    "Xã Xuân Phú"@vi
+    "Xã Xuân Thành"@vi
+    "Xã Xuân Thọ"@vi
+    "Xã Xím Vàng"@vi
+    "Xã Yên Bình"@vi
+    "Xã Yên Hòa"@vi
+    "Xã Yên Khánh"@vi
+    "Xã Yên Lãng"@vi
+    "Xã Yên Mô"@vi
+    "Xã Yên Nhân"@vi
+    "Xã Yên Phong"@vi
+    "Xã Yên Thắng"@vi
+    "Xã Yên Thủy"@vi
+    "Xã Yên Xuân"@vi
+    "Xã Yên Định"@vi
+    "Xã Ái Quốc"@vi
+    "Xã Ô Diên"@vi
+    "Xã Ô Loan"@vi
+    "Xã Ý Yên"@vi
+    "Xã Đan Hải"@vi
+    "Xã Đan Điền"@vi
+    "Xã Đoài Dương"@vi
+    "Xã Đoài Phương"@vi
+    "Xã Đoàn Kết"@vi
+    "Xã Đình Lập"@vi
+    "Xã Đông Giang"@vi
+    "Xã Đông Hiếu"@vi
+    "Xã Đông Hưng"@vi
+    "Xã Đông Hải"@vi
+    "Xã Đông Khánh Sơn"@vi
+    "Xã Đông Lộc"@vi
+    "Xã Đông Phước"@vi
+    "Xã Đông Thành"@vi
+    "Xã Đông Thái Ninh"@vi
+    "Xã Đông Thụy Anh"@vi
+    "Xã Đông Tiên Hưng"@vi
+    "Xã Đông Tiền Hải"@vi
+    "Xã Đường An"@vi
+    "Xã Đường Hồng"@vi
+    "Xã Đại Hoàng"@vi
+    "Xã Đại Huệ"@vi
+    "Xã Đại Phúc"@vi
+    "Xã Đại Từ"@vi
+    "Xã Đại Đồng"@vi
+    "Xã Đầm Hà"@vi
+    "Xã Đắk Song"@vi
+    "Xã Định Hóa"@vi
+    "Xã Đồng Bằng"@vi
+    "Xã Đồng Châu"@vi
+    "Xã Đồng Hỷ"@vi
+    "Xã Đồng Thái"@vi
+    "Xã Đồng Thịnh"@vi
+    "Xã Đồng Tiến"@vi
+    "Xã Đồng Xuân"@vi
+    "Xã Độc Lập"@vi
+    "Xã Đức Bình"@vi
+    "Xã Đức Châu"@vi
+    "Xã Đức Lập"@vi
+    "Xã Đức Minh"@vi
+    "Xã Đức Nhàn"@vi
+    "Xã Đức Phú"@vi
+    "Xã Ứng Hòa"@vi
+    "Xã Ứng Thiên"@vi
+    "Xím Vàng"@vi
+    "Y Yen"@vi
+    "Yen Bai"@vi
+    "Yen Binh"@vi
+    "Yen Dinh"@vi
+    "Yen Dung"@vi
+    "Yen Hoa"@vi
+    "Yen Khanh"@vi
+    "Yen Lang"@vi
+    "Yen Mo"@vi
+    "Yen Nhan"@vi
+    "Yen Phong"@vi
+    "Yen Son"@vi
+    "Yen Thang"@vi
+    "Yen Thuy"@vi
+    "Yen Tu"@vi
+    "Yen Xuan"@vi
+    "Yên Bái"@vi
+    "Yên Bình"@vi
+    "Yên Dũng"@vi
+    "Yên Hòa"@vi
+    "Yên Khánh"@vi
+    "Yên Lãng"@vi
+    "Yên Mô"@vi
+    "Yên Nhân"@vi
+    "Yên Phong"@vi
+    "Yên Sơn"@vi
+    "Yên Thắng"@vi
+    "Yên Thủy"@vi
+    "Yên Tử"@vi
+    "Yên Xuân"@vi
+    "Yên Định"@vi
+    "Ái Quốc"@vi
+    "Ô Diên"@vi
+    "Ô Loan"@vi
+    "Ô Môn"@vi
+    "Ý Yên"@vi
+    "Đan Hải"@vi
+    "Đan Điền"@vi
+    "Đoài Dương"@vi
+    "Đoài Phương"@vi
+    "Đoàn Kết"@vi
+    "Đào Duy Từ"@vi
+    "Đình Lập"@vi
+    "Đông Gia Nghĩa"@vi
+    "Đông Giang"@vi
+    "Đông Hiếu"@vi
+    "Đông Hoa Lư"@vi
+    "Đông Hà"@vi
+    "Đông Hòa"@vi
+    "Đông Hưng"@vi
+    "Đông Hải"@vi
+    "Đông Khánh Sơn"@vi
+    "Đông Lộc"@vi
+    "Đông Ninh Hòa"@vi
+    "Đông Phước"@vi
+    "Đông Thành"@vi
+    "Đông Thái Ninh"@vi
+    "Đông Thụy Anh"@vi
+    "Đông Tiên Hưng"@vi
+    "Đông Tiền Hải"@vi
+    "Đông Triều"@vi
+    "Đăk Bla"@vi
+    "Đường An"@vi
+    "Đường Hào"@vi
+    "Đường Hồng"@vi
+    "Đại Hoàng"@vi
+    "Đại Huệ"@vi
+    "Đại Phúc"@vi
+    "Đại Từ"@vi
+    "Đại Đồng"@vi
+    "Đầm Hà"@vi
+    "Đắk Song"@vi
+    "Đặc khu Bạch Long Vĩ"@vi
+    "Đặc khu Côn Đảo"@vi
+    "Đặc khu Cồn Cỏ"@vi
+    "Đặc khu Kiên Hải"@vi
+    "Đặc khu Vân Đồn"@vi
+    "Định Hóa"@vi
+    "Đống Đa"@vi
+    "Đồng Bằng"@vi
+    "Đồng Châu"@vi
+    "Đồng Hỷ"@vi
+    "Đồng Thuận"@vi
+    "Đồng Thái"@vi
+    "Đồng Thịnh"@vi
+    "Đồng Tiến"@vi
+    "Đồng Xuân"@vi
+    "Độc Lập"@vi
+    "Đức Bình"@vi
+    "Đức Châu"@vi
+    "Đức Lập"@vi
+    "Đức Minh"@vi
+    "Đức Nhàn"@vi
+    "Đức Phú"@vi
+    "Ứng Hòa"@vi
+    "Ứng Thiên"@vi
+    }
+    ?item rdfs:label ?matchedTerm .
+    BIND("label" AS ?matchKind)
+  }
+  UNION
+  {
+    VALUES ?matchedTerm {
+    "A Luoi 1"@en
+    "A Luoi 2"@en
+    "A Luoi 3"@en
+    "A Luoi 4"@en
+    "A Luoi 5"@en
+    "A Sao"@en
+    "Ai Quoc"@en
+    "An Bien"@en
+    "An Binh"@en
+    "An Chau"@en
+    "An Dinh"@en
+    "An Hai"@en
+    "An Hiep"@en
+    "An Hoa"@en
+    "An Khanh"@en
+    "An Khe"@en
+    "An Lao"@en
+    "An Long"@en
+    "An Nhon"@en
+    "An Nhon Tay"@en
+    "An Ninh"@en
+    "An Phong"@en
+    "An Phu"@en
+    "An Quang"@en
+    "An Thang"@en
+    "An Truong"@en
+    "Anh Dung"@en
+    "Anh Son"@en
+    "Anh Son Dong"@en
+    "Ayun"@en
+    "Ba Be"@en
+    "Ba Son"@en
+    "Ba Thuoc"@en
+    "Ba To"@en
+    "Ba Vi"@en
+    "Ba Xuyen"@en
+    "Bac An Phu"@en
+    "Bac Dong Hung"@en
+    "Bac Dong Quan"@en
+    "Bac Gia Nghia"@en
+    "Bac Giang"@en
+    "Bac Gianh"@en
+    "Bac Hong Linh"@en
+    "Bac Kan"@en
+    "Bac Khanh Vinh"@en
+    "Bac Lieu"@en
+    "Bac Me"@en
+    "Bac Nha Trang"@en
+    "Bac Ninh Hoa"@en
+    "Bac Thai Ninh"@en
+    "Bac Thuy Anh"@en
+    "Bac Tien Hung"@en
+    "Bach Dang"@en
+    "Bach Ha"@en
+    "Bach Long Vi"@en
+    "Bach Ngoc"@en
+    "Bach Thong"@en
+    "Bai Chay"@en
+    "Ban Thach"@en
+    "Bao Lam"@en
+    "Bao Lam 3"@en
+    "Bao Thang"@en
+    "Bat Bat"@en
+    "Bat Trang"@en
+    "Bau Can"@en
+    "Ben Hai"@en
+    "Bich Hao"@en
+    "Bien Thuong"@en
+    "Bim Son"@en
+    "Binh An"@en
+    "Binh Giang"@en
+    "Binh Hiep"@en
+    "Binh Hoa"@en
+    "Binh Luc"@en
+    "Binh Minh"@en
+    "Binh Nguyen"@en
+    "Binh Phu"@en
+    "Binh Son"@en
+    "Binh Thanh"@en
+    "Binh Trung"@en
+    "Binh Tuyen"@en
+    "Binh Xuyen"@en
+    "Bo Ha"@en
+    "Bo Trach"@en
+    "Cai Ngang"@en
+    "Cai Rang"@en
+    "Cam An"@en
+    "Cam Giang"@en
+    "Cam Hiep"@en
+    "Cam Hong"@en
+    "Cam Lam"@en
+    "Cam Le"@en
+    "Cam Pha"@en
+    "Cam Phuc"@en
+    "Cam Ranh"@en
+    "Cam Thuy"@en
+    "Cao Minh"@en
+    "Cat Ngan"@en
+    "Cau Thia"@en
+    "Chan Hung"@en
+    "Chan May - Lang Co"@en
+    "Chau Binh"@en
+    "Chau Ninh"@en
+    "Chau Phu"@en
+    "Chau Thanh"@en
+    "Chi Lang"@en
+    "Chi Minh"@en
+    "Chieng An"@en
+    "Cho Don"@en
+    "Chu Van An"@en
+    "Chuong My"@en
+    "Con Co"@en
+    "Con Cuong"@en
+    "Con Dao"@en
+    "Con Tien"@en
+    "Cu Jut"@en
+    "Cua Lo"@en
+    "Dai Dong"@en
+    "Dai Hoang"@en
+    "Dai Hue"@en
+    "Dai Phuc"@en
+    "Dai Tu"@en
+    "Dak Bla"@en
+    "Dak Song"@en
+    "Dam Ha"@en
+    "Dan Dien"@en
+    "Dan Hai"@en
+    "Dao Duy Tu"@en
+    "Di Linh"@en
+    "Dien Hong"@en
+    "Dinh Hoa"@en
+    "Dinh Lap"@en
+    "Doai Duong"@en
+    "Doai Phuong"@en
+    "Doan Ket"@en
+    "Doc Lap"@en
+    "Dong Bang"@en
+    "Dong Chau"@en
+    "Dong Da"@en
+    "Dong Gia Nghia"@en
+    "Dong Giang"@en
+    "Dong Ha"@en
+    "Dong Hai"@en
+    "Dong Hieu"@en
+    "Dong Hoa"@en
+    "Dong Hoa Lu"@en
+    "Dong Hung"@en
+    "Dong Hy"@en
+    "Dong Khanh Son"@en
+    "Dong Loc"@en
+    "Dong Ninh Hoa"@en
+    "Dong Phuoc"@en
+    "Dong Thai"@en
+    "Dong Thai Ninh"@en
+    "Dong Thanh"@en
+    "Dong Thinh"@en
+    "Dong Thuan"@en
+    "Dong Thuy Anh"@en
+    "Dong Tien"@en
+    "Dong Tien Hai"@en
+    "Dong Tien Hung"@en
+    "Dong Trieu"@en
+    "Dong Xuan"@en
+    "Duc Binh"@en
+    "Duc Chau"@en
+    "Duc Lap"@en
+    "Duc Minh"@en
+    "Duc Nhan"@en
+    "Duc Nong"@en
+    "Duc Phu"@en
+    "Dung Tien"@en
+    "Duong An"@en
+    "Duong Hao"@en
+    "Duong Hoa"@en
+    "Duong Hong"@en
+    "Duong Kinh"@en
+    "Duy Ha"@en
+    "Duy Nghia"@en
+    "Duy Tan"@en
+    "Duy Tien"@en
+    "Gia Hanh"@en
+    "Gia Phong"@en
+    "Gia Phuc"@en
+    "Gia Rai"@en
+    "Gia Tran"@en
+    "Gia Van"@en
+    "Gia Vien"@en
+    "Giai Lac"@en
+    "Giao Binh"@en
+    "Giao Hoa"@en
+    "Giao Hung"@en
+    "Giao Minh"@en
+    "Giao Ninh"@en
+    "Giao Phuc"@en
+    "Giao Thuy"@en
+    "Go Noi"@en
+    "Ha Bang"@en
+    "Ha Lang"@en
+    "Ha Nam"@en
+    "Ha Quang"@en
+    "Hai Chau"@en
+    "Hai Hau"@en
+    "Hai Hung"@en
+    "Hai Lang"@en
+    "Hai Loc"@en
+    "Hai Ninh"@en
+    "Hai Thinh"@en
+    "Hai Tien"@en
+    "Hai Van"@en
+    "Hanh Phuc"@en
+    "Hau Thanh"@en
+    "Hiep Duc"@en
+    "Hiep Hoa"@en
+    "Hiep Luc"@en
+    "Hiep My"@en
+    "Ho Vuong"@en
+    "Hoa An"@en
+    "Hoa Binh"@en
+    "Hoa Chau"@en
+    "Hoa Cuong"@en
+    "Hoa Hoi"@en
+    "Hoa Hung"@en
+    "Hoa Khanh"@en
+    "Hoa Lac"@en
+    "Hoa Loc"@en
+    "Hoa My"@en
+    "Hoa Quan"@en
+    "Hoa Thang"@en
+    "Hoa Thanh"@en
+    "Hoa Tri"@en
+    "Hoa Tu"@en
+    "Hoai Duc"@en
+    "Hoang An"@en
+    "Hoang Hoa"@en
+    "Hoang Liet"@en
+    "Hoang Phu"@en
+    "Hoang Thanh"@en
+    "Hoanh Son"@en
+    "Hoi Son"@en
+    "Hoi Thinh"@en
+    "Hong Bang"@en
+    "Hong Chau"@en
+    "Hong Dan"@en
+    "Hong Gai"@en
+    "Hong Ha"@en
+    "Hong Ngu"@en
+    "Hong Phong"@en
+    "Hong Son"@en
+    "Hong Thai"@en
+    "Hong Vu"@en
+    "Hop Minh"@en
+    "Hop Thanh"@en
+    "Hung Chan"@en
+    "Hung Dao"@en
+    "Hung Khanh"@en
+    "Hung Loc"@en
+    "Hung Nguyen Nam"@en
+    "Hung Phu"@en
+    "Hung Viet"@en
+    "Huong Pho"@en
+    "Huong Tra"@en
+    "Ia Bang"@en
+    "Ia Dom"@en
+    "Ia Sao"@en
+    "Khanh Hung"@en
+    "Khanh Son"@en
+    "Kien Hai"@en
+    "Kien Hung"@en
+    "Kien Minh"@en
+    "Kien Thuy"@en
+    "Kieu Phu"@en
+    "Kim Anh"@en
+    "Kim Bang"@en
+    "Kim Dien"@en
+    "Kim Hoa"@en
+    "Kim Long"@en
+    "Kim Ngan"@en
+    "Kim Phu"@en
+    "Kim Son"@en
+    "Kim Thanh"@en
+    "Kim Tra"@en
+    "Kon Tum"@en
+    "Krong Ana"@en
+    "Krong Bong"@en
+    "Krong No"@en
+    "Krong Pac"@en
+    "Ky Anh"@en
+    "Ky Lua"@en
+    "Lac Phuong"@en
+    "Lac Son"@en
+    "Lac Thuy"@en
+    "Lai Khe"@en
+    "Lam Binh"@en
+    "Lam Son"@en
+    "Lam Thanh"@en
+    "Lang"@en
+    "Lang Giang"@en
+    "Lanh Ngoc"@en
+    "Le Chan"@en
+    "Le Dai Hanh"@en
+    "Le Ho"@en
+    "Le Ich Moc"@en
+    "Le Quy Don"@en
+    "Lia"@en
+    "Lich Hoi Thuong"@en
+    "Liem Ha"@en
+    "Lien Chieu"@en
+    "Lien Minh"@en
+    "Lien Son Lak"@en
+    "Linh Son"@en
+    "Loc Ninh"@en
+    "Loc Thanh"@en
+    "Loc Thuan"@en
+    "Long Binh"@en
+    "Long Hoa"@en
+    "Long Hung"@en
+    "Long Huu"@en
+    "Long Khanh"@en
+    "Long Phu"@en
+    "Long Phu 1"@en
+    "Long Phung"@en
+    "Long Phuoc"@en
+    "Long Quang"@en
+    "Long Thuan"@en
+    "Luc Ngan"@en
+    "Luong Minh"@en
+    "Luong Son"@en
+    "Luong Tai"@en
+    "Luu Ve"@en
+    "Ly Nhan"@en
+    "Ly Thuong Kiet"@en
+    "Mai Son"@en
+    "Mao Dien"@en
+    "Mau Thach"@en
+    "Minh Hung"@en
+    "Minh Ngoc"@en
+    "Minh Thai"@en
+    "Minh Tho"@en
+    "Muong Bi"@en
+    "Muong Chanh"@en
+    "Muong Chong"@en
+    "Muong Dong"@en
+    "Muong Ham"@en
+    "Muong La"@en
+    "Muong Lay"@en
+    "Muong Quang"@en
+    "Muong Te"@en
+    "Muong Thang"@en
+    "Muong Vang"@en
+    "My Duc"@en
+    "My Hao"@en
+    "My Loi"@en
+    "My Quy"@en
+    "My Son"@en
+    "My Thanh"@en
+    "My Tho"@en
+    "Na Meo"@en
+    "Na Ri"@en
+    "Nam An Phu"@en
+    "Nam Ba Don"@en
+    "Nam Cam Ranh"@en
+    "Nam Can"@en
+    "Nam Cuong"@en
+    "Nam Dinh"@en
+    "Nam Dong"@en
+    "Nam Dong Hung"@en
+    "Nam Giang"@en
+    "Nam Gianh"@en
+    "Nam Hai Lang"@en
+    "Nam Hoa Lu"@en
+    "Nam Hong Linh"@en
+    "Nam Khanh Vinh"@en
+    "Nam Ly"@en
+    "Nam Minh"@en
+    "Nam Nha Trang"@en
+    "Nam Phu"@en
+    "Nam Sam Son"@en
+    "Nam Thai Ninh"@en
+    "Nam Thuy Anh"@en
+    "Nam Tien Hai"@en
+    "Nam Tien Hung"@en
+    "Nam Tra My"@en
+    "Nam Truc"@en
+    "Ngan Son"@en
+    "Nghi Duong"@en
+    "Nghi Loc"@en
+    "Nghi Son"@en
+    "Nghi Xuan"@en
+    "Nghia Hanh"@en
+    "Nghia Lo"@en
+    "Ngo May"@en
+    "Ngoc Linh"@en
+    "Ngu Hanh Son"@en
+    "Ngu Thien"@en
+    "Nguyen Binh Khiem"@en
+    "Nguyen Du"@en
+    "Nguyen Luong Bang"@en
+    "Nguyet Vien"@en
+    "Nha Trang"@en
+    "Nhan Ha"@en
+    "Nhan Hoa"@en
+    "Nhu Thanh"@en
+    "Nhu Xuan"@en
+    "Ninh Chau"@en
+    "Ninh Hai"@en
+    "Ninh Phuoc"@en
+    "Ninh Son"@en
+    "Nong Son"@en
+    "Nung Tri Cao"@en
+    "O Dien"@en
+    "O Loan"@en
+    "O Mon"@en
+    "Pac Nga"@en
+    "Phan Dinh Phung"@en
+    "Pho Hien"@en
+    "Pho Yen"@en
+    "Phong Chau"@en
+    "Phong Dinh"@en
+    "Phong Doanh"@en
+    "Phong Hiep"@en
+    "Phong Phu"@en
+    "Phong Quang"@en
+    "Phong Thai"@en
+    "Phu Binh"@en
+    "Phu Dien"@en
+    "Phu Duc"@en
+    "Phu Hoa 1"@en
+    "Phu Hoa 2"@en
+    "Phu Lang"@en
+    "Phu Luong"@en
+    "Phu Ly"@en
+    "Phu My"@en
+    "Phu Ninh"@en
+    "Phu Tho"@en
+    "Phu Thuan"@en
+    "Phu Thuong"@en
+    "Phu Tuc"@en
+    "Phu Vang"@en
+    "Phu Yen"@en
+    "Phuc Hoa"@en
+    "Phuc Loc"@en
+    "Phuc Son"@en
+    "Phuc Thinh"@en
+    "Phuc Yen"@en
+    "Phung Nguyen"@en
+    "Phuoc An"@en
+    "Phuoc Binh"@en
+    "Phuoc Hau"@en
+    "Phuoc Hoa"@en
+    "Phuoc Long"@en
+    "Phuoc Tan"@en
+    "Phuoc Thanh"@en
+    "Phuong Son"@en
+    "Pleiku"@en
+    "Pu Luong"@en
+    "Pu Nhi"@en
+    "Quan Chu"@en
+    "Quan Son"@en
+    "Quan Thanh"@en
+    "Quang Chau"@en
+    "Quang Dien"@en
+    "Quang Dong"@en
+    "Quang Hung"@en
+    "Quang Minh"@en
+    "Quang Ninh"@en
+    "Quang Oai"@en
+    "Quang Trach"@en
+    "Quang Trung"@en
+    "Quang Uyen"@en
+    "Que Phong"@en
+    "Que Phuoc"@en
+    "Que Son"@en
+    "Que Son Trung"@en
+    "Quy Chau"@en
+    "Quy Duc"@en
+    "Quy Luong"@en
+    "Quyet Thang"@en
+    "Quynh An"@en
+    "Quynh Anh"@en
+    "Quynh Luu"@en
+    "Quynh Mai"@en
+    "Quynh Nhai"@en
+    "Quynh Phu"@en
+    "Quynh Son"@en
+    "Sam Son"@en
+    "Sang Nhe"@en
+    "Sen Ngu"@en
+    "Si Lo Lau"@en
+    "Soc Trang"@en
+    "Son Cam Ha"@en
+    "Son Dien"@en
+    "Son Dong"@en
+    "Son Ha"@en
+    "Son Hoa"@en
+    "Son Lam"@en
+    "Son Luong"@en
+    "Son Nam"@en
+    "Son Tay"@en
+    "Son Thanh"@en
+    "Son Thuy"@en
+    "Song Cau"@en
+    "Song Cong"@en
+    "Song Tri"@en
+    "Song Vang"@en
+    "Suoi Dau"@en
+    "Suoi Hai"@en
+    "Ta Dung"@en
+    "Ta Phin"@en
+    "Ta Xi Lang"@en
+    "Tam Chuc"@en
+    "Tam Diep"@en
+    "Tam Dong"@en
+    "Tam Duong"@en
+    "Tam Duong Bac"@en
+    "Tam My"@en
+    "Tam Nong"@en
+    "Tam Thanh"@en
+    "Tam Xuan"@en
+    "Tan Binh"@en
+    "Tan Chau"@en
+    "Tan Cuong"@en
+    "Tan Dinh"@en
+    "Tan Dong"@en
+    "Tan Gianh"@en
+    "Tan Hiep"@en
+    "Tan Hoa"@en
+    "Tan Hoi"@en
+    "Tan Hong"@en
+    "Tan Hung"@en
+    "Tan Ky"@en
+    "Tan Lac"@en
+    "Tan Lap"@en
+    "Tan Loi"@en
+    "Tan Long"@en
+    "Tan Mai"@en
+    "Tan Minh"@en
+    "Tan My"@en
+    "Tan Ninh"@en
+    "Tan Phu"@en
+    "Tan Phu Dong"@en
+    "Tan Thanh"@en
+    "Tan Thuy"@en
+    "Tan Tien"@en
+    "Tan Xuan"@en
+    "Tan Yen"@en
+    "Tay Do"@en
+    "Tay Giang"@en
+    "Tay Ho"@en
+    "Tay Hoa"@en
+    "Tay Hoa Lu"@en
+    "Tay Khanh Son"@en
+    "Tay Khanh Vinh"@en
+    "Tay Nha Trang"@en
+    "Tay Ninh Hoa"@en
+    "Tay Son"@en
+    "Tay Thai Ninh"@en
+    "Tay Thuy Anh"@en
+    "Tay Tien Hai"@en
+    "Thach An"@en
+    "Thach That"@en
+    "Thai Binh"@en
+    "Thai Hoa"@en
+    "Thai Ninh"@en
+    "Than Khe"@en
+    "Than Linh"@en
+    "Thang An"@en
+    "Thang Binh"@en
+    "Thang Dien"@en
+    "Thang Loc"@en
+    "Thang Loi"@en
+    "Thang Phu"@en
+    "Thang Truong"@en
+    "Thanh An"@en
+    "Thanh Binh Tho"@en
+    "Thanh Dong"@en
+    "Thanh Duc"@en
+    "Thanh Hoa"@en
+    "Thanh Lam"@en
+    "Thanh Liem"@en
+    "Thanh Loi"@en
+    "Thanh Nam"@en
+    "Thanh Oai"@en
+    "Thanh Phuoc"@en
+    "Thanh Son"@en
+    "Thanh Thinh"@en
+    "Thanh Thuy"@en
+    "Thanh Vinh"@en
+    "Thao Nguyen"@en
+    "Thap Muoi"@en
+    "Thien Loc"@en
+    "Thien Nhan"@en
+    "Thien Truong"@en
+    "Thieu Hoa"@en
+    "Tho Long"@en
+    "Thoi Binh"@en
+    "Thong Nhat"@en
+    "Thu Bon"@en
+    "Thu Lam"@en
+    "Thuan An"@en
+    "Thuan Hoa"@en
+    "Thuan Thanh"@en
+    "Thuan Trung"@en
+    "Thuong Duc"@en
+    "Thuong Hong"@en
+    "Thuong Minh"@en
+    "Thuong Phuc"@en
+    "Thuy Anh"@en
+    "Tien Dong"@en
+    "Tien Hoa"@en
+    "Tien Hung"@en
+    "Tien La"@en
+    "Tien Lu"@en
+    "Tien Phuoc"@en
+    "Tien Thang"@en
+    "Tinh Gia"@en
+    "Toan Luu"@en
+    "Toan Thang"@en
+    "Tong Son"@en
+    "Tra Lien"@en
+    "Tra Ly"@en
+    "Tra Tan"@en
+    "Tran Nhan Tong"@en
+    "Tran Thuong"@en
+    "Trang Bang"@en
+    "Trang Dinh"@en
+    "Trieu Binh"@en
+    "Trieu Co"@en
+    "Trieu Phong"@en
+    "Trieu Viet Vuong"@en
+    "Truc Ninh"@en
+    "Trung Khanh Vinh"@en
+    "Trung Loc"@en
+    "Trung Son"@en
+    "Trung Thanh"@en
+    "Truong Long Hoa"@en
+    "Truong Luu"@en
+    "Truong Ninh"@en
+    "Truong Phu"@en
+    "Truong Tan"@en
+    "Truong Van"@en
+    "Tu Bong"@en
+    "Tu Liem"@en
+    "Tu My"@en
+    "Tu Son"@en
+    "Tuan Chau"@en
+    "Tue Tinh"@en
+    "Tung Thien"@en
+    "Tuong Duong"@en
+    "Tuy An Bac"@en
+    "Tuy An Dong"@en
+    "Tuy An Nam"@en
+    "Tuy An Tay"@en
+    "Tuy Duc"@en
+    "Tuyen Binh"@en
+    "Tuyen Hoa"@en
+    "Tuyen Lam"@en
+    "Tuyen Phu"@en
+    "Tuyen Son"@en
+    "Ung Hoa"@en
+    "Ung Thien"@en
+    "Uong Bi"@en
+    "Van An"@en
+    "Van Dinh"@en
+    "Van Don"@en
+    "Van Du"@en
+    "Van Hien"@en
+    "Van Hoa"@en
+    "Van Kieu"@en
+    "Van Lang"@en
+    "Van Loc"@en
+    "Van Ninh"@en
+    "Van Phu"@en
+    "Van Son"@en
+    "Van Thang"@en
+    "Van Tu"@en
+    "Van Xuan"@en
+    "Vi Khe"@en
+    "Viet An"@en
+    "Viet Khe"@en
+    "Viet Tien"@en
+    "Viet Tri"@en
+    "Viet Yen"@en
+    "Vinh Am"@en
+    "Vinh An"@en
+    "Vinh Binh"@en
+    "Vinh Chau"@en
+    "Vinh Dinh"@en
+    "Vinh Hai"@en
+    "Vinh Hoa Hung"@en
+    "Vinh Hoang"@en
+    "Vinh Hung"@en
+    "Vinh Loc"@en
+    "Vinh Loi"@en
+    "Vinh My"@en
+    "Vinh Phu"@en
+    "Vinh Phuc"@en
+    "Vinh Phuoc"@en
+    "Vinh Te"@en
+    "Vinh Thanh"@en
+    "Vinh Thinh"@en
+    "Vinh Thong"@en
+    "Vinh Thuan"@en
+    "Vinh Tuong"@en
+    "Vinh Yen"@en
+    "Vo Nhai"@en
+    "Vu Duong"@en
+    "Vu Gia"@en
+    "Vung Ang"@en
+    "Xim Vang"@en
+    "Xuan An"@en
+    "Xuan Giang"@en
+    "Xuan Hai"@en
+    "Xuan Hoa"@en
+    "Xuan Hung"@en
+    "Xuan Lang"@en
+    "Xuan Loc"@en
+    "Xuan Phu"@en
+    "Xuan Thanh"@en
+    "Xuan Tho"@en
+    "Y Yen"@en
+    "Yen Bai"@en
+    "Yen Binh"@en
+    "Yen Dinh"@en
+    "Yen Dung"@en
+    "Yen Hoa"@en
+    "Yen Khanh"@en
+    "Yen Lang"@en
+    "Yen Mo"@en
+    "Yen Nhan"@en
+    "Yen Phong"@en
+    "Yen Son"@en
+    "Yen Thang"@en
+    "Yen Thuy"@en
+    "Yen Tu"@en
+    "Yen Xuan"@en
+    "A Luoi 1"@vi
+    "A Luoi 2"@vi
+    "A Luoi 3"@vi
+    "A Luoi 4"@vi
+    "A Luoi 5"@vi
+    "A Lưới 1"@vi
+    "A Lưới 2"@vi
+    "A Lưới 3"@vi
+    "A Lưới 4"@vi
+    "A Lưới 5"@vi
+    "A Sao"@vi
+    "A Sào"@vi
+    "Ai Quoc"@vi
+    "An Bien"@vi
+    "An Binh"@vi
+    "An Biên"@vi
+    "An Bình"@vi
+    "An Chau"@vi
+    "An Châu"@vi
+    "An Dinh"@vi
+    "An Hai"@vi
+    "An Hiep"@vi
+    "An Hiệp"@vi
+    "An Hoa"@vi
+    "An Hòa"@vi
+    "An Hải"@vi
+    "An Khanh"@vi
+    "An Khe"@vi
+    "An Khánh"@vi
+    "An Khê"@vi
+    "An Lao"@vi
+    "An Long"@vi
+    "An Lão"@vi
+    "An Nhon"@vi
+    "An Nhon Tay"@vi
+    "An Nhơn"@vi
+    "An Nhơn Tây"@vi
+    "An Ninh"@vi
+    "An Phong"@vi
+    "An Phu"@vi
+    "An Phú"@vi
+    "An Quang"@vi
+    "An Thang"@vi
+    "An Thắng"@vi
+    "An Truong"@vi
+    "An Trường"@vi
+    "An Định"@vi
+    "Anh Dung"@vi
+    "Anh Dũng"@vi
+    "Anh Son"@vi
+    "Anh Son Dong"@vi
+    "Anh Sơn"@vi
+    "Anh Sơn Đông"@vi
+    "Ayun"@vi
+    "Ba Be"@vi
+    "Ba Bể"@vi
+    "Ba Son"@vi
+    "Ba Sơn"@vi
+    "Ba Thuoc"@vi
+    "Ba To"@vi
+    "Ba Tô"@vi
+    "Ba Tơ"@vi
+    "Ba Vi"@vi
+    "Ba Vì"@vi
+    "Ba Xuyen"@vi
+    "Bac An Phu"@vi
+    "Bac Dong Hung"@vi
+    "Bac Dong Quan"@vi
+    "Bac Gia Nghia"@vi
+    "Bac Giang"@vi
+    "Bac Gianh"@vi
+    "Bac Hong Linh"@vi
+    "Bac Kan"@vi
+    "Bac Khanh Vinh"@vi
+    "Bac Lieu"@vi
+    "Bac Me"@vi
+    "Bac Nha Trang"@vi
+    "Bac Ninh Hoa"@vi
+    "Bac Thai Ninh"@vi
+    "Bac Thuy Anh"@vi
+    "Bac Tien Hung"@vi
+    "Bach Dang"@vi
+    "Bach Ha"@vi
+    "Bach Long Vi"@vi
+    "Bach Ngoc"@vi
+    "Bach Thong"@vi
+    "Bai Chay"@vi
+    "Ban Thach"@vi
+    "Bao Lam"@vi
+    "Bao Lam 3"@vi
+    "Bao Thang"@vi
+    "Bat Bat"@vi
+    "Bat Trang"@vi
+    "Bau Can"@vi
+    "Ben Hai"@vi
+    "Bich Hao"@vi
+    "Bien Thuong"@vi
+    "Bim Son"@vi
+    "Binh An"@vi
+    "Binh Giang"@vi
+    "Binh Hiep"@vi
+    "Binh Hoa"@vi
+    "Binh Luc"@vi
+    "Binh Minh"@vi
+    "Binh Nguyen"@vi
+    "Binh Phu"@vi
+    "Binh Son"@vi
+    "Binh Thanh"@vi
+    "Binh Trung"@vi
+    "Binh Tuyen"@vi
+    "Binh Xuyen"@vi
+    "Biện Thượng"@vi
+    "Bo Ha"@vi
+    "Bo Trach"@vi
+    "Bàn Thạch"@vi
+    "Bàu Cạn"@vi
+    "Bá Thước"@vi
+    "Bá Xuyên"@vi
+    "Bát Tràng"@vi
+    "Bãi Cháy"@vi
+    "Bình An"@vi
+    "Bình Giang"@vi
+    "Bình Hiệp"@vi
+    "Bình Hòa"@vi
+    "Bình Lục"@vi
+    "Bình Minh"@vi
+    "Bình Nguyên"@vi
+    "Bình Phú"@vi
+    "Bình Sơn"@vi
+    "Bình Thành"@vi
+    "Bình Trưng"@vi
+    "Bình Tuyền"@vi
+    "Bình Xuyên"@vi
+    "Bích Hào"@vi
+    "Bạc Liêu"@vi
+    "Bạch Hà"@vi
+    "Bạch Long Vĩ"@vi
+    "Bạch Ngọc"@vi
+    "Bạch Thông"@vi
+    "Bạch Đằng"@vi
+    "Bảo Lâm"@vi
+    "Bảo Lâm 3"@vi
+    "Bảo Thắng"@vi
+    "Bất Bạt"@vi
+    "Bắc An Phụ"@vi
+    "Bắc Gia Nghĩa"@vi
+    "Bắc Giang"@vi
+    "Bắc Gianh"@vi
+    "Bắc Hồng Lĩnh"@vi
+    "Bắc Khánh Vĩnh"@vi
+    "Bắc Kạn"@vi
+    "Bắc Mê"@vi
+    "Bắc Nha Trang"@vi
+    "Bắc Ninh Hòa"@vi
+    "Bắc Thái Ninh"@vi
+    "Bắc Thụy Anh"@vi
+    "Bắc Tiên Hưng"@vi
+    "Bắc Đông Hưng"@vi
+    "Bắc Đông Quan"@vi
+    "Bến Hải"@vi
+    "Bỉm Sơn"@vi
+    "Bố Hạ"@vi
+    "Bố Trạch"@vi
+    "Cai Ngang"@vi
+    "Cai Rang"@vi
+    "Cam An"@vi
+    "Cam Giang"@vi
+    "Cam Hiep"@vi
+    "Cam Hiệp"@vi
+    "Cam Hong"@vi
+    "Cam Hồng"@vi
+    "Cam Lam"@vi
+    "Cam Le"@vi
+    "Cam Lâm"@vi
+    "Cam Pha"@vi
+    "Cam Phuc"@vi
+    "Cam Phục"@vi
+    "Cam Ranh"@vi
+    "Cam Thuy"@vi
+    "Cao Minh"@vi
+    "Cat Ngan"@vi
+    "Cau Thia"@vi
+    "Chan Hung"@vi
+    "Chan May - Lang Co"@vi
+    "Chau Binh"@vi
+    "Chau Ninh"@vi
+    "Chau Phu"@vi
+    "Chau Thanh"@vi
+    "Chi Lang"@vi
+    "Chi Lăng"@vi
+    "Chi Minh"@vi
+    "Chieng An"@vi
+    "Chiềng An"@vi
+    "Cho Don"@vi
+    "Chu Van An"@vi
+    "Chu Văn An"@vi
+    "Chuong My"@vi
+    "Chân Mây - Lăng Cô"@vi
+    "Châu Bình"@vi
+    "Châu Ninh"@vi
+    "Châu Phú"@vi
+    "Châu Thành"@vi
+    "Chí Minh"@vi
+    "Chương Mỹ"@vi
+    "Chấn Hưng"@vi
+    "Chợ Đồn"@vi
+    "Con Co"@vi
+    "Con Cuong"@vi
+    "Con Cuông"@vi
+    "Con Dao"@vi
+    "Con Tien"@vi
+    "Cu Jut"@vi
+    "Cua Lo"@vi
+    "Cái Ngang"@vi
+    "Cái Răng"@vi
+    "Cát Ngạn"@vi
+    "Côn Đảo"@vi
+    "Cư Jút"@vi
+    "Cầu Thia"@vi
+    "Cẩm Giang"@vi
+    "Cẩm Giàng"@vi
+    "Cẩm Lệ"@vi
+    "Cẩm Phả"@vi
+    "Cẩm Thủy"@vi
+    "Cồn Cỏ"@vi
+    "Cồn Tiên"@vi
+    "Cửa Lò"@vi
+    "Dai Dong"@vi
+    "Dai Hoang"@vi
+    "Dai Hue"@vi
+    "Dai Phuc"@vi
+    "Dai Tu"@vi
+    "Dak Bla"@vi
+    "Dak Song"@vi
+    "Dam Ha"@vi
+    "Dan Dien"@vi
+    "Dan Hai"@vi
+    "Dao Duy Tu"@vi
+    "Di Linh"@vi
+    "Dien Hong"@vi
+    "Dinh Hoa"@vi
+    "Dinh Lap"@vi
+    "Diên Hồng"@vi
+    "Doai Duong"@vi
+    "Doai Phuong"@vi
+    "Doan Ket"@vi
+    "Doc Lap"@vi
+    "Dong Bang"@vi
+    "Dong Chau"@vi
+    "Dong Da"@vi
+    "Dong Gia Nghia"@vi
+    "Dong Giang"@vi
+    "Dong Ha"@vi
+    "Dong Hai"@vi
+    "Dong Hieu"@vi
+    "Dong Hoa"@vi
+    "Dong Hoa Lu"@vi
+    "Dong Hung"@vi
+    "Dong Hy"@vi
+    "Dong Khanh Son"@vi
+    "Dong Loc"@vi
+    "Dong Ninh Hoa"@vi
+    "Dong Phuoc"@vi
+    "Dong Thai"@vi
+    "Dong Thai Ninh"@vi
+    "Dong Thanh"@vi
+    "Dong Thinh"@vi
+    "Dong Thuan"@vi
+    "Dong Thuy Anh"@vi
+    "Dong Tien"@vi
+    "Dong Tien Hai"@vi
+    "Dong Tien Hung"@vi
+    "Dong Trieu"@vi
+    "Dong Xuan"@vi
+    "Duc Binh"@vi
+    "Duc Chau"@vi
+    "Duc Lap"@vi
+    "Duc Minh"@vi
+    "Duc Nhan"@vi
+    "Duc Nong"@vi
+    "Duc Phu"@vi
+    "Dung Tien"@vi
+    "Duong An"@vi
+    "Duong Hao"@vi
+    "Duong Hoa"@vi
+    "Duong Hong"@vi
+    "Duong Kinh"@vi
+    "Duy Ha"@vi
+    "Duy Hà"@vi
+    "Duy Nghia"@vi
+    "Duy Nghĩa"@vi
+    "Duy Tan"@vi
+    "Duy Tien"@vi
+    "Duy Tiên"@vi
+    "Duy Tân"@vi
+    "Dũng Tiến"@vi
+    "Dương Hòa"@vi
+    "Dương Kinh"@vi
+    "Dục Nông"@vi
+    "Gia Hanh"@vi
+    "Gia Phong"@vi
+    "Gia Phuc"@vi
+    "Gia Phúc"@vi
+    "Gia Rai"@vi
+    "Gia Tran"@vi
+    "Gia Trấn"@vi
+    "Gia Van"@vi
+    "Gia Vien"@vi
+    "Gia Viễn"@vi
+    "Gia Vân"@vi
+    "Giai Lac"@vi
+    "Giai Lạc"@vi
+    "Giao Binh"@vi
+    "Giao Bình"@vi
+    "Giao Hoa"@vi
+    "Giao Hoà"@vi
+    "Giao Hung"@vi
+    "Giao Hưng"@vi
+    "Giao Minh"@vi
+    "Giao Ninh"@vi
+    "Giao Phuc"@vi
+    "Giao Phúc"@vi
+    "Giao Thuy"@vi
+    "Giao Thuỷ"@vi
+    "Giá Rai"@vi
+    "Go Noi"@vi
+    "Gò Nổi"@vi
+    "Ha Bang"@vi
+    "Ha Lang"@vi
+    "Ha Nam"@vi
+    "Ha Quang"@vi
+    "Hai Chau"@vi
+    "Hai Hau"@vi
+    "Hai Hung"@vi
+    "Hai Lang"@vi
+    "Hai Loc"@vi
+    "Hai Ninh"@vi
+    "Hai Thinh"@vi
+    "Hai Tien"@vi
+    "Hai Van"@vi
+    "Hanh Phuc"@vi
+    "Hau Thanh"@vi
+    "Hiep Duc"@vi
+    "Hiep Hoa"@vi
+    "Hiep Luc"@vi
+    "Hiep My"@vi
+    "Hiệp Hoà"@vi
+    "Hiệp Lực"@vi
+    "Hiệp Mỹ"@vi
+    "Hiệp Đức"@vi
+    "Ho Vuong"@vi
+    "Hoa An"@vi
+    "Hoa Binh"@vi
+    "Hoa Chau"@vi
+    "Hoa Cuong"@vi
+    "Hoa Hoi"@vi
+    "Hoa Hung"@vi
+    "Hoa Khanh"@vi
+    "Hoa Lac"@vi
+    "Hoa Loc"@vi
+    "Hoa Lộc"@vi
+    "Hoa My"@vi
+    "Hoa Quan"@vi
+    "Hoa Quân"@vi
+    "Hoa Thang"@vi
+    "Hoa Thanh"@vi
+    "Hoa Tri"@vi
+    "Hoa Tu"@vi
+    "Hoai Duc"@vi
+    "Hoang An"@vi
+    "Hoang Hoa"@vi
+    "Hoang Liet"@vi
+    "Hoang Phu"@vi
+    "Hoang Thanh"@vi
+    "Hoanh Son"@vi
+    "Hoi Son"@vi
+    "Hoi Thinh"@vi
+    "Hong Bang"@vi
+    "Hong Chau"@vi
+    "Hong Dan"@vi
+    "Hong Gai"@vi
+    "Hong Ha"@vi
+    "Hong Ngu"@vi
+    "Hong Phong"@vi
+    "Hong Son"@vi
+    "Hong Thai"@vi
+    "Hong Vu"@vi
+    "Hop Minh"@vi
+    "Hop Thanh"@vi
+    "Hoài Đức"@vi
+    "Hoàng An"@vi
+    "Hoàng Liệt"@vi
+    "Hoành Sơn"@vi
+    "Hoằng Hóa"@vi
+    "Hoằng Phú"@vi
+    "Hoằng Thanh"@vi
+    "Hung Chan"@vi
+    "Hung Dao"@vi
+    "Hung Khanh"@vi
+    "Hung Loc"@vi
+    "Hung Nguyen Nam"@vi
+    "Hung Phu"@vi
+    "Hung Viet"@vi
+    "Huong Pho"@vi
+    "Huong Tra"@vi
+    "Hà Nam"@vi
+    "Hà Quảng"@vi
+    "Hòa An"@vi
+    "Hòa Bình"@vi
+    "Hòa Cường"@vi
+    "Hòa Hưng"@vi
+    "Hòa Hội"@vi
+    "Hòa Khánh"@vi
+    "Hòa Lạc"@vi
+    "Hòa Mỹ"@vi
+    "Hòa Thành"@vi
+    "Hòa Thắng"@vi
+    "Hòa Trí"@vi
+    "Hòa Tú"@vi
+    "Hóa Châu"@vi
+    "Hùng Chân"@vi
+    "Hùng Việt"@vi
+    "Hưng Khánh"@vi
+    "Hưng Lộc"@vi
+    "Hưng Nguyên Nam"@vi
+    "Hưng Phú"@vi
+    "Hưng Đạo"@vi
+    "Hương Phố"@vi
+    "Hương Trà"@vi
+    "Hạ Bằng"@vi
+    "Hạ Lang"@vi
+    "Hạnh Phúc"@vi
+    "Hải Châu"@vi
+    "Hải Hưng"@vi
+    "Hải Hậu"@vi
+    "Hải Lăng"@vi
+    "Hải Lộc"@vi
+    "Hải Ninh"@vi
+    "Hải Thịnh"@vi
+    "Hải Tiến"@vi
+    "Hải Vân"@vi
+    "Hậu Thạnh"@vi
+    "Hồ Vương"@vi
+    "Hồng Bàng"@vi
+    "Hồng Châu"@vi
+    "Hồng Dân"@vi
+    "Hồng Gai"@vi
+    "Hồng Hà"@vi
+    "Hồng Ngự"@vi
+    "Hồng Phong"@vi
+    "Hồng Sơn"@vi
+    "Hồng Thái"@vi
+    "Hồng Vũ"@vi
+    "Hội Sơn"@vi
+    "Hội Thịnh"@vi
+    "Hợp Minh"@vi
+    "Hợp Thành"@vi
+    "Ia Bang"@vi
+    "Ia Băng"@vi
+    "Ia Dom"@vi
+    "Ia Sao"@vi
+    "Khanh Hung"@vi
+    "Khanh Son"@vi
+    "Khánh Hưng"@vi
+    "Khánh Sơn"@vi
+    "Kien Hai"@vi
+    "Kien Hung"@vi
+    "Kien Minh"@vi
+    "Kien Thuy"@vi
+    "Kieu Phu"@vi
+    "Kim Anh"@vi
+    "Kim Bang"@vi
+    "Kim Bảng"@vi
+    "Kim Dien"@vi
+    "Kim Hoa"@vi
+    "Kim Long"@vi
+    "Kim Ngan"@vi
+    "Kim Ngân"@vi
+    "Kim Phu"@vi
+    "Kim Phú"@vi
+    "Kim Son"@vi
+    "Kim Sơn"@vi
+    "Kim Thanh"@vi
+    "Kim Tra"@vi
+    "Kim Trà"@vi
+    "Kim Điền"@vi
+    "Kiên Hải"@vi
+    "Kiến Hưng"@vi
+    "Kiến Hải"@vi
+    "Kiến Minh"@vi
+    "Kiến Thụy"@vi
+    "Kiều Phú"@vi
+    "Kon Tum"@vi
+    "Krong Ana"@vi
+    "Krong Bong"@vi
+    "Krong No"@vi
+    "Krong Pac"@vi
+    "Krông Ana"@vi
+    "Krông Bông"@vi
+    "Krông Nô"@vi
+    "Krông Pắc"@vi
+    "Ky Anh"@vi
+    "Ky Lua"@vi
+    "Kỳ Anh"@vi
+    "Kỳ Lừa"@vi
+    "Lac Phuong"@vi
+    "Lac Son"@vi
+    "Lac Thuy"@vi
+    "Lai Khe"@vi
+    "Lai Khê"@vi
+    "Lam Binh"@vi
+    "Lam Son"@vi
+    "Lam Thanh"@vi
+    "Lam Thành"@vi
+    "Lang"@vi
+    "Lang Giang"@vi
+    "Lanh Ngoc"@vi
+    "Le Chan"@vi
+    "Le Dai Hanh"@vi
+    "Le Ho"@vi
+    "Le Ich Moc"@vi
+    "Le Quy Don"@vi
+    "Lia"@vi
+    "Lich Hoi Thuong"@vi
+    "Liem Ha"@vi
+    "Lien Chieu"@vi
+    "Lien Minh"@vi
+    "Lien Son Lak"@vi
+    "Linh Son"@vi
+    "Linh Sơn"@vi
+    "Liêm Hà"@vi
+    "Liên Chiểu"@vi
+    "Liên Minh"@vi
+    "Liên Sơn Lắk"@vi
+    "Loc Ninh"@vi
+    "Loc Thanh"@vi
+    "Loc Thuan"@vi
+    "Long Binh"@vi
+    "Long Bình"@vi
+    "Long Hoa"@vi
+    "Long Hung"@vi
+    "Long Huu"@vi
+    "Long Hòa"@vi
+    "Long Hưng"@vi
+    "Long Hữu"@vi
+    "Long Khanh"@vi
+    "Long Khánh"@vi
+    "Long Phu"@vi
+    "Long Phu 1"@vi
+    "Long Phung"@vi
+    "Long Phuoc"@vi
+    "Long Phú"@vi
+    "Long Phú 1"@vi
+    "Long Phước"@vi
+    "Long Phụng"@vi
+    "Long Quang"@vi
+    "Long Quảng"@vi
+    "Long Thuan"@vi
+    "Long Thuận"@vi
+    "Luc Ngan"@vi
+    "Luong Minh"@vi
+    "Luong Son"@vi
+    "Luong Tai"@vi
+    "Luu Ve"@vi
+    "Ly Nhan"@vi
+    "Ly Thuong Kiet"@vi
+    "Láng"@vi
+    "Lâm Bình"@vi
+    "Lâm Sơn"@vi
+    "Lãnh Ngọc"@vi
+    "Lê Chân"@vi
+    "Lê Hồ"@vi
+    "Lê Quý Đôn"@vi
+    "Lê Ích Mộc"@vi
+    "Lê Đại Hành"@vi
+    "Lìa"@vi
+    "Lý Nhân"@vi
+    "Lý Thường Kiệt"@vi
+    "Lưu Vệ"@vi
+    "Lương Minh"@vi
+    "Lương Sơn"@vi
+    "Lương Tài"@vi
+    "Lạc Phượng"@vi
+    "Lạc Sơn"@vi
+    "Lạc Thủy"@vi
+    "Lạng Giang"@vi
+    "Lịch Hội Thượng"@vi
+    "Lộc Ninh"@vi
+    "Lộc Thuận"@vi
+    "Lộc Thành"@vi
+    "Lộc Thạnh"@vi
+    "Lục Ngạn"@vi
+    "Mai Son"@vi
+    "Mai Sơn"@vi
+    "Mao Dien"@vi
+    "Mao Điền"@vi
+    "Mau Thach"@vi
+    "Minh Hung"@vi
+    "Minh Hưng"@vi
+    "Minh Ngoc"@vi
+    "Minh Ngọc"@vi
+    "Minh Thai"@vi
+    "Minh Tho"@vi
+    "Minh Thái"@vi
+    "Minh Thọ"@vi
+    "Muong Bi"@vi
+    "Muong Chanh"@vi
+    "Muong Chong"@vi
+    "Muong Dong"@vi
+    "Muong Ham"@vi
+    "Muong La"@vi
+    "Muong Lay"@vi
+    "Muong Quang"@vi
+    "Muong Te"@vi
+    "Muong Thang"@vi
+    "Muong Vang"@vi
+    "My Duc"@vi
+    "My Hao"@vi
+    "My Loi"@vi
+    "My Quy"@vi
+    "My Son"@vi
+    "My Thanh"@vi
+    "My Tho"@vi
+    "Mường Bi"@vi
+    "Mường Chanh"@vi
+    "Mường Chọng"@vi
+    "Mường Ham"@vi
+    "Mường La"@vi
+    "Mường Lay"@vi
+    "Mường Quàng"@vi
+    "Mường Thàng"@vi
+    "Mường Tè"@vi
+    "Mường Vang"@vi
+    "Mường Động"@vi
+    "Mậu Thạch"@vi
+    "Mỹ Hào"@vi
+    "Mỹ Lợi"@vi
+    "Mỹ Quý"@vi
+    "Mỹ Sơn"@vi
+    "Mỹ Tho"@vi
+    "Mỹ Thạnh"@vi
+    "Mỹ Đức"@vi
+    "Na Meo"@vi
+    "Na Mèo"@vi
+    "Na Ri"@vi
+    "Na Rì"@vi
+    "Nam An Phu"@vi
+    "Nam An Phụ"@vi
+    "Nam Ba Don"@vi
+    "Nam Ba Đồn"@vi
+    "Nam Cam Ranh"@vi
+    "Nam Can"@vi
+    "Nam Cuong"@vi
+    "Nam Cường"@vi
+    "Nam Dinh"@vi
+    "Nam Dong"@vi
+    "Nam Dong Hung"@vi
+    "Nam Giang"@vi
+    "Nam Gianh"@vi
+    "Nam Hai Lang"@vi
+    "Nam Hoa Lu"@vi
+    "Nam Hoa Lư"@vi
+    "Nam Hong Linh"@vi
+    "Nam Hải Lăng"@vi
+    "Nam Hồng Lĩnh"@vi
+    "Nam Khanh Vinh"@vi
+    "Nam Khánh Vĩnh"@vi
+    "Nam Ly"@vi
+    "Nam Lý"@vi
+    "Nam Minh"@vi
+    "Nam Nha Trang"@vi
+    "Nam Phu"@vi
+    "Nam Phù"@vi
+    "Nam Sam Son"@vi
+    "Nam Sầm Sơn"@vi
+    "Nam Thai Ninh"@vi
+    "Nam Thuy Anh"@vi
+    "Nam Thái Ninh"@vi
+    "Nam Thụy Anh"@vi
+    "Nam Tien Hai"@vi
+    "Nam Tien Hung"@vi
+    "Nam Tiên Hưng"@vi
+    "Nam Tiền Hải"@vi
+    "Nam Tra My"@vi
+    "Nam Truc"@vi
+    "Nam Trà My"@vi
+    "Nam Trực"@vi
+    "Nam Đông Hưng"@vi
+    "Nam Định"@vi
+    "Nam Đồng"@vi
+    "Ngan Son"@vi
+    "Nghi Duong"@vi
+    "Nghi Dương"@vi
+    "Nghi Loc"@vi
+    "Nghi Lộc"@vi
+    "Nghi Son"@vi
+    "Nghi Sơn"@vi
+    "Nghi Xuan"@vi
+    "Nghi Xuân"@vi
+    "Nghia Hanh"@vi
+    "Nghia Lo"@vi
+    "Nghĩa Hành"@vi
+    "Nghĩa Lộ"@vi
+    "Ngo May"@vi
+    "Ngoc Linh"@vi
+    "Ngu Hanh Son"@vi
+    "Ngu Thien"@vi
+    "Nguyen Binh Khiem"@vi
+    "Nguyen Du"@vi
+    "Nguyen Luong Bang"@vi
+    "Nguyet Vien"@vi
+    "Nguyễn Bỉnh Khiêm"@vi
+    "Nguyễn Du"@vi
+    "Nguyễn Lương Bằng"@vi
+    "Nguyệt Viên"@vi
+    "Ngân Sơn"@vi
+    "Ngô Mây"@vi
+    "Ngũ Hành Sơn"@vi
+    "Ngọc Linh"@vi
+    "Ngự Thiên"@vi
+    "Nha Trang"@vi
+    "Nhan Ha"@vi
+    "Nhan Hoa"@vi
+    "Nhu Thanh"@vi
+    "Nhu Xuan"@vi
+    "Nhân Hà"@vi
+    "Nhân Hòa"@vi
+    "Như Thanh"@vi
+    "Như Xuân"@vi
+    "Ninh Chau"@vi
+    "Ninh Châu"@vi
+    "Ninh Hai"@vi
+    "Ninh Hải"@vi
+    "Ninh Phuoc"@vi
+    "Ninh Phước"@vi
+    "Ninh Son"@vi
+    "Ninh Sơn"@vi
+    "Nong Son"@vi
+    "Nung Tri Cao"@vi
+    "Nông Sơn"@vi
+    "Nùng Trí Cao"@vi
+    "Nậm Cắn"@vi
+    "O Dien"@vi
+    "O Loan"@vi
+    "O Mon"@vi
+    "Pac Nga"@vi
+    "Phan Dinh Phung"@vi
+    "Phan Đình Phùng"@vi
+    "Pho Hien"@vi
+    "Pho Yen"@vi
+    "Phong Chau"@vi
+    "Phong Châu"@vi
+    "Phong Dinh"@vi
+    "Phong Doanh"@vi
+    "Phong Hiep"@vi
+    "Phong Hiệp"@vi
+    "Phong Phu"@vi
+    "Phong Phú"@vi
+    "Phong Quang"@vi
+    "Phong Thai"@vi
+    "Phong Thái"@vi
+    "Phu Binh"@vi
+    "Phu Dien"@vi
+    "Phu Duc"@vi
+    "Phu Hoa 1"@vi
+    "Phu Hoa 2"@vi
+    "Phu Lang"@vi
+    "Phu Luong"@vi
+    "Phu Ly"@vi
+    "Phu My"@vi
+    "Phu Ninh"@vi
+    "Phu Tho"@vi
+    "Phu Thuan"@vi
+    "Phu Thuong"@vi
+    "Phu Tuc"@vi
+    "Phu Vang"@vi
+    "Phu Yen"@vi
+    "Phuc Hoa"@vi
+    "Phuc Loc"@vi
+    "Phuc Son"@vi
+    "Phuc Thinh"@vi
+    "Phuc Yen"@vi
+    "Phung Nguyen"@vi
+    "Phuoc An"@vi
+    "Phuoc Binh"@vi
+    "Phuoc Hau"@vi
+    "Phuoc Hoa"@vi
+    "Phuoc Long"@vi
+    "Phuoc Tan"@vi
+    "Phuoc Thanh"@vi
+    "Phuong Son"@vi
+    "Phù Lãng"@vi
+    "Phùng Nguyên"@vi
+    "Phú Bình"@vi
+    "Phú Diễn"@vi
+    "Phú Hòa 1"@vi
+    "Phú Hòa 2"@vi
+    "Phú Lương"@vi
+    "Phú Mỹ"@vi
+    "Phú Ninh"@vi
+    "Phú Thuận"@vi
+    "Phú Thượng"@vi
+    "Phú Thọ"@vi
+    "Phú Túc"@vi
+    "Phú Vang"@vi
+    "Phú Yên"@vi
+    "Phúc Lộc"@vi
+    "Phúc Sơn"@vi
+    "Phúc Thịnh"@vi
+    "Phúc Yên"@vi
+    "Phước An"@vi
+    "Phước Bình"@vi
+    "Phước Hòa"@vi
+    "Phước Hậu"@vi
+    "Phước Long"@vi
+    "Phước Thành"@vi
+    "Phước Tân"@vi
+    "Phường An Bình"@vi
+    "Phường An Hải"@vi
+    "Phường An Khê"@vi
+    "Phường An Nhơn"@vi
+    "Phường An Phong"@vi
+    "Phường An Phú"@vi
+    "Phường An Thắng"@vi
+    "Phường Bàn Thạch"@vi
+    "Phường Bá Xuyên"@vi
+    "Phường Bãi Cháy"@vi
+    "Phường Bình Trưng"@vi
+    "Phường Bạc Liêu"@vi
+    "Phường Bạch Đằng"@vi
+    "Phường Bắc An Phụ"@vi
+    "Phường Bắc Gia Nghĩa"@vi
+    "Phường Bắc Giang"@vi
+    "Phường Bắc Gianh"@vi
+    "Phường Bắc Hồng Lĩnh"@vi
+    "Phường Bắc Kạn"@vi
+    "Phường Bắc Nha Trang"@vi
+    "Phường Bỉm Sơn"@vi
+    "Phường Cam Ranh"@vi
+    "Phường Chiềng An"@vi
+    "Phường Chu Văn An"@vi
+    "Phường Chương Mỹ"@vi
+    "Phường Cái Răng"@vi
+    "Phường Cầu Thia"@vi
+    "Phường Cẩm Lệ"@vi
+    "Phường Cẩm Phả"@vi
+    "Phường Cửa Lò"@vi
+    "Phường Diên Hồng"@vi
+    "Phường Duy Hà"@vi
+    "Phường Duy Tiên"@vi
+    "Phường Duy Tân"@vi
+    "Phường Dương Kinh"@vi
+    "Phường Giá Rai"@vi
+    "Phường Hoàng Liệt"@vi
+    "Phường Hoành Sơn"@vi
+    "Phường Hà Nam"@vi
+    "Phường Hòa Bình"@vi
+    "Phường Hòa Cường"@vi
+    "Phường Hòa Hưng"@vi
+    "Phường Hòa Khánh"@vi
+    "Phường Hòa Thành"@vi
+    "Phường Hòa Thắng"@vi
+    "Phường Hóa Châu"@vi
+    "Phường Hương Trà"@vi
+    "Phường Hải Châu"@vi
+    "Phường Hải Vân"@vi
+    "Phường Hồng Bàng"@vi
+    "Phường Hồng Gai"@vi
+    "Phường Hồng Hà"@vi
+    "Phường Hồng Ngự"@vi
+    "Phường Kim Bảng"@vi
+    "Phường Kim Thanh"@vi
+    "Phường Kim Trà"@vi
+    "Phường Kiến Hưng"@vi
+    "Phường Kon Tum"@vi
+    "Phường Kỳ Lừa"@vi
+    "Phường Liên Chiểu"@vi
+    "Phường Long Bình"@vi
+    "Phường Long Hoa"@vi
+    "Phường Long Hưng"@vi
+    "Phường Long Phú 1"@vi
+    "Phường Long Phước"@vi
+    "Phường Long Thuận"@vi
+    "Phường Láng"@vi
+    "Phường Lê Chân"@vi
+    "Phường Lê Hồ"@vi
+    "Phường Lê Ích Mộc"@vi
+    "Phường Lê Đại Hành"@vi
+    "Phường Lý Thường Kiệt"@vi
+    "Phường Minh Hưng"@vi
+    "Phường Mường Lay"@vi
+    "Phường Mỹ Hào"@vi
+    "Phường Mỹ Tho"@vi
+    "Phường Nam Cường"@vi
+    "Phường Nam Hoa Lư"@vi
+    "Phường Nam Hồng Lĩnh"@vi
+    "Phường Nam Nha Trang"@vi
+    "Phường Nam Sầm Sơn"@vi
+    "Phường Nam Định"@vi
+    "Phường Nghi Sơn"@vi
+    "Phường Nghĩa Lộ"@vi
+    "Phường Nguyệt Viên"@vi
+    "Phường Ngũ Hành Sơn"@vi
+    "Phường Nha Trang"@vi
+    "Phường Nùng Trí Cao"@vi
+    "Phường Phan Đình Phùng"@vi
+    "Phường Phong Châu"@vi
+    "Phường Phong Dinh"@vi
+    "Phường Phong Phú"@vi
+    "Phường Phong Thái"@vi
+    "Phường Phú Diễn"@vi
+    "Phường Phú Mỹ"@vi
+    "Phường Phú Thượng"@vi
+    "Phường Phú Thọ"@vi
+    "Phường Phú Yên"@vi
+    "Phường Phúc Yên"@vi
+    "Phường Phước Bình"@vi
+    "Phường Phước Long"@vi
+    "Phường Phước Tân"@vi
+    "Phường Phượng Sơn"@vi
+    "Phường Phố Hiến"@vi
+    "Phường Phổ Yên"@vi
+    "Phường Phủ Lý"@vi
+    "Phường Pleiku"@vi
+    "Phường Quỳnh Mai"@vi
+    "Phường Sóc Trăng"@vi
+    "Phường Sông Công"@vi
+    "Phường Sông Cầu"@vi
+    "Phường Sông Trí"@vi
+    "Phường Sơn Nam"@vi
+    "Phường Sầm Sơn"@vi
+    "Phường Tam Chúc"@vi
+    "Phường Tam Điệp"@vi
+    "Phường Thanh Hòa"@vi
+    "Phường Thanh Thủy"@vi
+    "Phường Thiên Trường"@vi
+    "Phường Thuận Hóa"@vi
+    "Phường Thuận Thành"@vi
+    "Phường Thành Nam"@vi
+    "Phường Thành Vinh"@vi
+    "Phường Thái Bình"@vi
+    "Phường Thái Hòa"@vi
+    "Phường Thượng Hồng"@vi
+    "Phường Thảo Nguyên"@vi
+    "Phường Thống Nhất"@vi
+    "Phường Trung Sơn"@vi
+    "Phường Trà Lý"@vi
+    "Phường Trường Long Hòa"@vi
+    "Phường Trảng Bàng"@vi
+    "Phường Trần Nhân Tông"@vi
+    "Phường Tuần Châu"@vi
+    "Phường Tân Bình"@vi
+    "Phường Tân Hiệp"@vi
+    "Phường Tân Hòa"@vi
+    "Phường Tân Hưng"@vi
+    "Phường Tân Mai"@vi
+    "Phường Tân Mỹ"@vi
+    "Phường Tân Ninh"@vi
+    "Phường Tân Phú"@vi
+    "Phường Tân Thành"@vi
+    "Phường Tân Định"@vi
+    "Phường Tây Hoa Lư"@vi
+    "Phường Tây Hồ"@vi
+    "Phường Tây Nha Trang"@vi
+    "Phường Tùng Thiện"@vi
+    "Phường Tĩnh Gia"@vi
+    "Phường Từ Liêm"@vi
+    "Phường Từ Sơn"@vi
+    "Phường Uông Bí"@vi
+    "Phường Vinh Hưng"@vi
+    "Phường Vinh Lộc"@vi
+    "Phường Vinh Phú"@vi
+    "Phường Việt Trì"@vi
+    "Phường Việt Yên"@vi
+    "Phường Vân Sơn"@vi
+    "Phường Vĩnh Châu"@vi
+    "Phường Vĩnh Phúc"@vi
+    "Phường Vĩnh Tế"@vi
+    "Phường Vĩnh Yên"@vi
+    "Phường Vũng Áng"@vi
+    "Phường Vạn Xuân"@vi
+    "Phường Vị Khê"@vi
+    "Phường Xuân Lộc"@vi
+    "Phường Yên Bái"@vi
+    "Phường Yên Dũng"@vi
+    "Phường Yên Hòa"@vi
+    "Phường Yên Sơn"@vi
+    "Phường Yên Tử"@vi
+    "Phường Ô Môn"@vi
+    "Phường Đào Duy Từ"@vi
+    "Phường Đông Gia Nghĩa"@vi
+    "Phường Đông Hoa Lư"@vi
+    "Phường Đông Hà"@vi
+    "Phường Đông Hòa"@vi
+    "Phường Đông Hải"@vi
+    "Phường Đông Ninh Hòa"@vi
+    "Phường Đông Thành"@vi
+    "Phường Đông Triều"@vi
+    "Phường Đăk Bla"@vi
+    "Phường Đường Hào"@vi
+    "Phường Đống Đa"@vi
+    "Phường Đồng Thuận"@vi
+    "Phượng Sơn"@vi
+    "Phố Hiến"@vi
+    "Phổ Yên"@vi
+    "Phụ Dực"@vi
+    "Phục Hòa"@vi
+    "Phủ Lý"@vi
+    "Pleiku"@vi
+    "Pu Luong"@vi
+    "Pu Nhi"@vi
+    "Pù Luông"@vi
+    "Pù Nhi"@vi
+    "Pắc Ngà"@vi
+    "Quan Chu"@vi
+    "Quan Son"@vi
+    "Quan Sơn"@vi
+    "Quan Thanh"@vi
+    "Quan Thành"@vi
+    "Quang Chau"@vi
+    "Quang Dien"@vi
+    "Quang Dong"@vi
+    "Quang Hung"@vi
+    "Quang Hưng"@vi
+    "Quang Minh"@vi
+    "Quang Ninh"@vi
+    "Quang Oai"@vi
+    "Quang Trach"@vi
+    "Quang Trung"@vi
+    "Quang Uyen"@vi
+    "Quang Đồng"@vi
+    "Que Phong"@vi
+    "Que Phuoc"@vi
+    "Que Son"@vi
+    "Que Son Trung"@vi
+    "Quy Chau"@vi
+    "Quy Duc"@vi
+    "Quy Luong"@vi
+    "Quy Đức"@vi
+    "Quyet Thang"@vi
+    "Quynh An"@vi
+    "Quynh Anh"@vi
+    "Quynh Luu"@vi
+    "Quynh Mai"@vi
+    "Quynh Nhai"@vi
+    "Quynh Phu"@vi
+    "Quynh Son"@vi
+    "Quyết Thắng"@vi
+    "Quân Chu"@vi
+    "Quý Lương"@vi
+    "Quảng Châu"@vi
+    "Quảng Ninh"@vi
+    "Quảng Oai"@vi
+    "Quảng Trạch"@vi
+    "Quảng Uyên"@vi
+    "Quảng Điền"@vi
+    "Quế Phong"@vi
+    "Quế Phước"@vi
+    "Quế Sơn"@vi
+    "Quế Sơn Trung"@vi
+    "Quỳ Châu"@vi
+    "Quỳnh An"@vi
+    "Quỳnh Anh"@vi
+    "Quỳnh Lưu"@vi
+    "Quỳnh Mai"@vi
+    "Quỳnh Nhai"@vi
+    "Quỳnh Phú"@vi
+    "Quỳnh Phụ"@vi
+    "Quỳnh Sơn"@vi
+    "Sam Son"@vi
+    "Sang Nhe"@vi
+    "Sen Ngu"@vi
+    "Sen Ngư"@vi
+    "Si Lo Lau"@vi
+    "Soc Trang"@vi
+    "Son Cam Ha"@vi
+    "Son Dien"@vi
+    "Son Dong"@vi
+    "Son Ha"@vi
+    "Son Hoa"@vi
+    "Son Lam"@vi
+    "Son Luong"@vi
+    "Son Nam"@vi
+    "Son Tay"@vi
+    "Son Thanh"@vi
+    "Son Thuy"@vi
+    "Song Cau"@vi
+    "Song Cong"@vi
+    "Song Tri"@vi
+    "Song Vang"@vi
+    "Suoi Dau"@vi
+    "Suoi Hai"@vi
+    "Suối Dầu"@vi
+    "Suối Hai"@vi
+    "Sáng Nhè"@vi
+    "Sì Lở Lầu"@vi
+    "Sóc Trăng"@vi
+    "Sông Công"@vi
+    "Sông Cầu"@vi
+    "Sông Trí"@vi
+    "Sông Vàng"@vi
+    "Sơn Cẩm Hà"@vi
+    "Sơn Hà"@vi
+    "Sơn Hòa"@vi
+    "Sơn Hạ"@vi
+    "Sơn Lâm"@vi
+    "Sơn Lương"@vi
+    "Sơn Nam"@vi
+    "Sơn Thuỷ"@vi
+    "Sơn Thành"@vi
+    "Sơn Thủy"@vi
+    "Sơn Tây"@vi
+    "Sơn Điện"@vi
+    "Sơn Động"@vi
+    "Sầm Sơn"@vi
+    "Ta Dung"@vi
+    "Ta Phin"@vi
+    "Ta Xi Lang"@vi
+    "Tam Chuc"@vi
+    "Tam Chúc"@vi
+    "Tam Diep"@vi
+    "Tam Dong"@vi
+    "Tam Duong"@vi
+    "Tam Duong Bac"@vi
+    "Tam Dương"@vi
+    "Tam Dương Bắc"@vi
+    "Tam My"@vi
+    "Tam Mỹ"@vi
+    "Tam Nong"@vi
+    "Tam Nông"@vi
+    "Tam Thanh"@vi
+    "Tam Xuan"@vi
+    "Tam Xuân"@vi
+    "Tam Điệp"@vi
+    "Tam Đồng"@vi
+    "Tan Binh"@vi
+    "Tan Chau"@vi
+    "Tan Cuong"@vi
+    "Tan Dinh"@vi
+    "Tan Dong"@vi
+    "Tan Gianh"@vi
+    "Tan Hiep"@vi
+    "Tan Hoa"@vi
+    "Tan Hoi"@vi
+    "Tan Hong"@vi
+    "Tan Hung"@vi
+    "Tan Ky"@vi
+    "Tan Lac"@vi
+    "Tan Lap"@vi
+    "Tan Loi"@vi
+    "Tan Long"@vi
+    "Tan Mai"@vi
+    "Tan Minh"@vi
+    "Tan My"@vi
+    "Tan Ninh"@vi
+    "Tan Phu"@vi
+    "Tan Phu Dong"@vi
+    "Tan Thanh"@vi
+    "Tan Thuy"@vi
+    "Tan Tien"@vi
+    "Tan Xuan"@vi
+    "Tan Yen"@vi
+    "Tay Do"@vi
+    "Tay Giang"@vi
+    "Tay Ho"@vi
+    "Tay Hoa"@vi
+    "Tay Hoa Lu"@vi
+    "Tay Khanh Son"@vi
+    "Tay Khanh Vinh"@vi
+    "Tay Nha Trang"@vi
+    "Tay Ninh Hoa"@vi
+    "Tay Son"@vi
+    "Tay Thai Ninh"@vi
+    "Tay Thuy Anh"@vi
+    "Tay Tien Hai"@vi
+    "Thach An"@vi
+    "Thach That"@vi
+    "Thai Binh"@vi
+    "Thai Hoa"@vi
+    "Thai Ninh"@vi
+    "Than Khe"@vi
+    "Than Linh"@vi
+    "Thang An"@vi
+    "Thang Binh"@vi
+    "Thang Dien"@vi
+    "Thang Loc"@vi
+    "Thang Loi"@vi
+    "Thang Phu"@vi
+    "Thang Truong"@vi
+    "Thanh An"@vi
+    "Thanh Binh Tho"@vi
+    "Thanh Dong"@vi
+    "Thanh Duc"@vi
+    "Thanh Hoa"@vi
+    "Thanh Hòa"@vi
+    "Thanh Lam"@vi
+    "Thanh Liem"@vi
+    "Thanh Liêm"@vi
+    "Thanh Loi"@vi
+    "Thanh Lâm"@vi
+    "Thanh Nam"@vi
+    "Thanh Oai"@vi
+    "Thanh Phuoc"@vi
+    "Thanh Son"@vi
+    "Thanh Sơn"@vi
+    "Thanh Thinh"@vi
+    "Thanh Thuy"@vi
+    "Thanh Thịnh"@vi
+    "Thanh Thủy"@vi
+    "Thanh Vinh"@vi
+    "Thao Nguyen"@vi
+    "Thap Muoi"@vi
+    "Thien Loc"@vi
+    "Thien Nhan"@vi
+    "Thien Truong"@vi
+    "Thieu Hoa"@vi
+    "Thiên Lộc"@vi
+    "Thiên Nhẫn"@vi
+    "Thiên Trường"@vi
+    "Thiệu Hóa"@vi
+    "Tho Long"@vi
+    "Thoi Binh"@vi
+    "Thong Nhat"@vi
+    "Thu Bon"@vi
+    "Thu Bồn"@vi
+    "Thu Lam"@vi
+    "Thuan An"@vi
+    "Thuan Hoa"@vi
+    "Thuan Thanh"@vi
+    "Thuan Trung"@vi
+    "Thuong Duc"@vi
+    "Thuong Hong"@vi
+    "Thuong Minh"@vi
+    "Thuong Phuc"@vi
+    "Thuy Anh"@vi
+    "Thuần Trung"@vi
+    "Thuận An"@vi
+    "Thuận Hóa"@vi
+    "Thuận Thành"@vi
+    "Thành Bình Thọ"@vi
+    "Thành Nam"@vi
+    "Thành Vinh"@vi
+    "Thái Bình"@vi
+    "Thái Hòa"@vi
+    "Thái Ninh"@vi
+    "Tháp Mười"@vi
+    "Thăng An"@vi
+    "Thăng Bình"@vi
+    "Thăng Phú"@vi
+    "Thăng Trường"@vi
+    "Thăng Điền"@vi
+    "Thư Lâm"@vi
+    "Thượng Hồng"@vi
+    "Thượng Minh"@vi
+    "Thượng Phúc"@vi
+    "Thượng Đức"@vi
+    "Thạch An"@vi
+    "Thạch Thất"@vi
+    "Thạnh An"@vi
+    "Thạnh Lợi"@vi
+    "Thạnh Phước"@vi
+    "Thạnh Đông"@vi
+    "Thạnh Đức"@vi
+    "Thảo Nguyên"@vi
+    "Thần Khê"@vi
+    "Thần Lĩnh"@vi
+    "Thắng Lộc"@vi
+    "Thắng Lợi"@vi
+    "Thọ Long"@vi
+    "Thống Nhất"@vi
+    "Thới Bình"@vi
+    "Thụy Anh"@vi
+    "Tien Dong"@vi
+    "Tien Hoa"@vi
+    "Tien Hung"@vi
+    "Tien La"@vi
+    "Tien Lu"@vi
+    "Tien Phuoc"@vi
+    "Tien Thang"@vi
+    "Tinh Gia"@vi
+    "Tiên Hoa"@vi
+    "Tiên Hưng"@vi
+    "Tiên La"@vi
+    "Tiên Lữ"@vi
+    "Tiên Phước"@vi
+    "Tiên Đồng"@vi
+    "Tiến Thắng"@vi
+    "Toan Luu"@vi
+    "Toan Thang"@vi
+    "Tong Son"@vi
+    "Toàn Lưu"@vi
+    "Toàn Thắng"@vi
+    "Tra Lien"@vi
+    "Tra Ly"@vi
+    "Tra Tan"@vi
+    "Tran Nhan Tong"@vi
+    "Tran Thuong"@vi
+    "Trang Bang"@vi
+    "Trang Dinh"@vi
+    "Trieu Binh"@vi
+    "Trieu Co"@vi
+    "Trieu Phong"@vi
+    "Trieu Viet Vuong"@vi
+    "Triệu Bình"@vi
+    "Triệu Cơ"@vi
+    "Triệu Phong"@vi
+    "Triệu Việt Vương"@vi
+    "Truc Ninh"@vi
+    "Trung Khanh Vinh"@vi
+    "Trung Khánh Vĩnh"@vi
+    "Trung Loc"@vi
+    "Trung Lộc"@vi
+    "Trung Son"@vi
+    "Trung Sơn"@vi
+    "Trung Thanh"@vi
+    "Trung Thành"@vi
+    "Truong Long Hoa"@vi
+    "Truong Luu"@vi
+    "Truong Ninh"@vi
+    "Truong Phu"@vi
+    "Truong Tan"@vi
+    "Truong Van"@vi
+    "Trà Liên"@vi
+    "Trà Lý"@vi
+    "Trà Tân"@vi
+    "Tràng Định"@vi
+    "Trường Long Hòa"@vi
+    "Trường Lưu"@vi
+    "Trường Ninh"@vi
+    "Trường Phú"@vi
+    "Trường Tân"@vi
+    "Trường Văn"@vi
+    "Trảng Bàng"@vi
+    "Trần Nhân Tông"@vi
+    "Trần Thương"@vi
+    "Trực Ninh"@vi
+    "Tu Bong"@vi
+    "Tu Bông"@vi
+    "Tu Liem"@vi
+    "Tu My"@vi
+    "Tu Son"@vi
+    "Tuan Chau"@vi
+    "Tue Tinh"@vi
+    "Tung Thien"@vi
+    "Tuong Duong"@vi
+    "Tuy An Bac"@vi
+    "Tuy An Bắc"@vi
+    "Tuy An Dong"@vi
+    "Tuy An Nam"@vi
+    "Tuy An Tay"@vi
+    "Tuy An Tây"@vi
+    "Tuy An Đông"@vi
+    "Tuy Duc"@vi
+    "Tuy Đức"@vi
+    "Tuyen Binh"@vi
+    "Tuyen Hoa"@vi
+    "Tuyen Lam"@vi
+    "Tuyen Phu"@vi
+    "Tuyen Son"@vi
+    "Tuyên Bình"@vi
+    "Tuyên Hóa"@vi
+    "Tuyên Lâm"@vi
+    "Tuyên Phú"@vi
+    "Tuyên Sơn"@vi
+    "Tuần Châu"@vi
+    "Tuệ Tĩnh"@vi
+    "Tà Xi Láng"@vi
+    "Tà Đùng"@vi
+    "Tân Bình"@vi
+    "Tân Châu"@vi
+    "Tân Cương"@vi
+    "Tân Gianh"@vi
+    "Tân Hiệp"@vi
+    "Tân Hòa"@vi
+    "Tân Hưng"@vi
+    "Tân Hồng"@vi
+    "Tân Hội"@vi
+    "Tân Kỳ"@vi
+    "Tân Long"@vi
+    "Tân Lạc"@vi
+    "Tân Lập"@vi
+    "Tân Lợi"@vi
+    "Tân Mai"@vi
+    "Tân Minh"@vi
+    "Tân Mỹ"@vi
+    "Tân Ninh"@vi
+    "Tân Phú"@vi
+    "Tân Phú Đông"@vi
+    "Tân Thành"@vi
+    "Tân Thạnh"@vi
+    "Tân Thủy"@vi
+    "Tân Tiến"@vi
+    "Tân Xuân"@vi
+    "Tân Yên"@vi
+    "Tân Đông"@vi
+    "Tân Định"@vi
+    "Tây Giang"@vi
+    "Tây Hoa Lư"@vi
+    "Tây Hòa"@vi
+    "Tây Hồ"@vi
+    "Tây Khánh Sơn"@vi
+    "Tây Khánh Vĩnh"@vi
+    "Tây Nha Trang"@vi
+    "Tây Ninh Hòa"@vi
+    "Tây Sơn"@vi
+    "Tây Thái Ninh"@vi
+    "Tây Thụy Anh"@vi
+    "Tây Tiền Hải"@vi
+    "Tây Đô"@vi
+    "Tùng Thiện"@vi
+    "Tĩnh Gia"@vi
+    "Tương Dương"@vi
+    "Tả Phìn"@vi
+    "Tống Sơn"@vi
+    "Tứ Mỹ"@vi
+    "Từ Liêm"@vi
+    "Từ Sơn"@vi
+    "Ung Hoa"@vi
+    "Ung Thien"@vi
+    "Uong Bi"@vi
+    "Uông Bí"@vi
+    "Van An"@vi
+    "Van Dinh"@vi
+    "Van Don"@vi
+    "Van Du"@vi
+    "Van Hien"@vi
+    "Van Hoa"@vi
+    "Van Kieu"@vi
+    "Van Lang"@vi
+    "Van Loc"@vi
+    "Van Ninh"@vi
+    "Van Phu"@vi
+    "Van Son"@vi
+    "Van Thang"@vi
+    "Van Tu"@vi
+    "Van Xuan"@vi
+    "Vi Khe"@vi
+    "Viet An"@vi
+    "Viet Khe"@vi
+    "Viet Tien"@vi
+    "Viet Tri"@vi
+    "Viet Yen"@vi
+    "Vinh Am"@vi
+    "Vinh An"@vi
+    "Vinh Binh"@vi
+    "Vinh Chau"@vi
+    "Vinh Dinh"@vi
+    "Vinh Hai"@vi
+    "Vinh Hoa Hung"@vi
+    "Vinh Hoang"@vi
+    "Vinh Hung"@vi
+    "Vinh Hưng"@vi
+    "Vinh Loc"@vi
+    "Vinh Loi"@vi
+    "Vinh Lộc"@vi
+    "Vinh My"@vi
+    "Vinh Phu"@vi
+    "Vinh Phuc"@vi
+    "Vinh Phuoc"@vi
+    "Vinh Phú"@vi
+    "Vinh Te"@vi
+    "Vinh Thanh"@vi
+    "Vinh Thinh"@vi
+    "Vinh Thong"@vi
+    "Vinh Thuan"@vi
+    "Vinh Tuong"@vi
+    "Vinh Yen"@vi
+    "Việt An"@vi
+    "Việt Khê"@vi
+    "Việt Tiến"@vi
+    "Việt Trì"@vi
+    "Việt Yên"@vi
+    "Vo Nhai"@vi
+    "Vu Duong"@vi
+    "Vu Gia"@vi
+    "Vung Ang"@vi
+    "Vân Du"@vi
+    "Vân Hòa"@vi
+    "Vân Sơn"@vi
+    "Vân Tụ"@vi
+    "Vân Đình"@vi
+    "Vân Đồn"@vi
+    "Võ Nhai"@vi
+    "Văn Hiến"@vi
+    "Văn Kiều"@vi
+    "Văn Lãng"@vi
+    "Văn Phú"@vi
+    "Vĩnh Am"@vi
+    "Vĩnh An"@vi
+    "Vĩnh Bình"@vi
+    "Vĩnh Châu"@vi
+    "Vĩnh Hoàng"@vi
+    "Vĩnh Hòa Hưng"@vi
+    "Vĩnh Hưng"@vi
+    "Vĩnh Hải"@vi
+    "Vĩnh Lợi"@vi
+    "Vĩnh Mỹ"@vi
+    "Vĩnh Phúc"@vi
+    "Vĩnh Phước"@vi
+    "Vĩnh Thanh"@vi
+    "Vĩnh Thuận"@vi
+    "Vĩnh Thành"@vi
+    "Vĩnh Thông"@vi
+    "Vĩnh Thạnh"@vi
+    "Vĩnh Thịnh"@vi
+    "Vĩnh Tường"@vi
+    "Vĩnh Tế"@vi
+    "Vĩnh Yên"@vi
+    "Vĩnh Định"@vi
+    "Vũ Dương"@vi
+    "Vũng Áng"@vi
+    "Vạn An"@vi
+    "Vạn Lộc"@vi
+    "Vạn Ninh"@vi
+    "Vạn Phú"@vi
+    "Vạn Thắng"@vi
+    "Vạn Xuân"@vi
+    "Vị Khê"@vi
+    "Xim Vang"@vi
+    "Xuan An"@vi
+    "Xuan Giang"@vi
+    "Xuan Hai"@vi
+    "Xuan Hoa"@vi
+    "Xuan Hung"@vi
+    "Xuan Lang"@vi
+    "Xuan Loc"@vi
+    "Xuan Phu"@vi
+    "Xuan Thanh"@vi
+    "Xuan Tho"@vi
+    "Xuân An"@vi
+    "Xuân Giang"@vi
+    "Xuân Hòa"@vi
+    "Xuân Hưng"@vi
+    "Xuân Hải"@vi
+    "Xuân Lãng"@vi
+    "Xuân Lộc"@vi
+    "Xuân Phú"@vi
+    "Xuân Thành"@vi
+    "Xuân Thọ"@vi
+    "Xã A Lưới 1"@vi
+    "Xã A Lưới 2"@vi
+    "Xã A Lưới 3"@vi
+    "Xã A Lưới 4"@vi
+    "Xã A Lưới 5"@vi
+    "Xã A Sào"@vi
+    "Xã An Biên"@vi
+    "Xã An Châu"@vi
+    "Xã An Hiệp"@vi
+    "Xã An Hòa"@vi
+    "Xã An Khánh"@vi
+    "Xã An Long"@vi
+    "Xã An Lão"@vi
+    "Xã An Nhơn Tây"@vi
+    "Xã An Ninh"@vi
+    "Xã An Phú"@vi
+    "Xã An Quang"@vi
+    "Xã An Trường"@vi
+    "Xã An Định"@vi
+    "Xã Anh Dũng"@vi
+    "Xã Anh Sơn"@vi
+    "Xã Anh Sơn Đông"@vi
+    "Xã Ayun"@vi
+    "Xã Ba Bể"@vi
+    "Xã Ba Sơn"@vi
+    "Xã Ba Tô"@vi
+    "Xã Ba Tơ"@vi
+    "Xã Ba Vì"@vi
+    "Xã Biện Thượng"@vi
+    "Xã Bàu Cạn"@vi
+    "Xã Bá Thước"@vi
+    "Xã Bát Tràng"@vi
+    "Xã Bình An"@vi
+    "Xã Bình Giang"@vi
+    "Xã Bình Hiệp"@vi
+    "Xã Bình Hòa"@vi
+    "Xã Bình Lục"@vi
+    "Xã Bình Minh"@vi
+    "Xã Bình Nguyên"@vi
+    "Xã Bình Phú"@vi
+    "Xã Bình Sơn"@vi
+    "Xã Bình Thành"@vi
+    "Xã Bình Tuyền"@vi
+    "Xã Bình Xuyên"@vi
+    "Xã Bích Hào"@vi
+    "Xã Bạch Hà"@vi
+    "Xã Bạch Ngọc"@vi
+    "Xã Bạch Thông"@vi
+    "Xã Bảo Lâm"@vi
+    "Xã Bảo Lâm 3"@vi
+    "Xã Bảo Thắng"@vi
+    "Xã Bất Bạt"@vi
+    "Xã Bắc Khánh Vĩnh"@vi
+    "Xã Bắc Mê"@vi
+    "Xã Bắc Ninh Hòa"@vi
+    "Xã Bắc Thái Ninh"@vi
+    "Xã Bắc Thụy Anh"@vi
+    "Xã Bắc Tiên Hưng"@vi
+    "Xã Bắc Đông Hưng"@vi
+    "Xã Bắc Đông Quan"@vi
+    "Xã Bến Hải"@vi
+    "Xã Bố Hạ"@vi
+    "Xã Bố Trạch"@vi
+    "Xã Cam An"@vi
+    "Xã Cam Hiệp"@vi
+    "Xã Cam Hồng"@vi
+    "Xã Cam Lâm"@vi
+    "Xã Cam Phục"@vi
+    "Xã Cao Minh"@vi
+    "Xã Chi Lăng"@vi
+    "Xã Chân Mây - Lăng Cô"@vi
+    "Xã Châu Bình"@vi
+    "Xã Châu Ninh"@vi
+    "Xã Châu Phú"@vi
+    "Xã Châu Thành"@vi
+    "Xã Chí Minh"@vi
+    "Xã Chấn Hưng"@vi
+    "Xã Chợ Đồn"@vi
+    "Xã Con Cuông"@vi
+    "Xã Cái Ngang"@vi
+    "Xã Cát Ngạn"@vi
+    "Xã Cư Jút"@vi
+    "Xã Cẩm Giang"@vi
+    "Xã Cẩm Giàng"@vi
+    "Xã Cẩm Thủy"@vi
+    "Xã Cồn Tiên"@vi
+    "Xã Di Linh"@vi
+    "Xã Duy Nghĩa"@vi
+    "Xã Dũng Tiến"@vi
+    "Xã Dương Hòa"@vi
+    "Xã Dục Nông"@vi
+    "Xã Gia Hanh"@vi
+    "Xã Gia Phong"@vi
+    "Xã Gia Phúc"@vi
+    "Xã Gia Trấn"@vi
+    "Xã Gia Viễn"@vi
+    "Xã Gia Vân"@vi
+    "Xã Giai Lạc"@vi
+    "Xã Giao Bình"@vi
+    "Xã Giao Hoà"@vi
+    "Xã Giao Hưng"@vi
+    "Xã Giao Minh"@vi
+    "Xã Giao Ninh"@vi
+    "Xã Giao Phúc"@vi
+    "Xã Giao Thuỷ"@vi
+    "Xã Gò Nổi"@vi
+    "Xã Hiệp Hoà"@vi
+    "Xã Hiệp Lực"@vi
+    "Xã Hiệp Mỹ"@vi
+    "Xã Hiệp Đức"@vi
+    "Xã Hoa Lộc"@vi
+    "Xã Hoa Quân"@vi
+    "Xã Hoài Đức"@vi
+    "Xã Hoàng An"@vi
+    "Xã Hoằng Hóa"@vi
+    "Xã Hoằng Phú"@vi
+    "Xã Hoằng Thanh"@vi
+    "Xã Hà Quảng"@vi
+    "Xã Hòa An"@vi
+    "Xã Hòa Hội"@vi
+    "Xã Hòa Lạc"@vi
+    "Xã Hòa Mỹ"@vi
+    "Xã Hòa Trí"@vi
+    "Xã Hòa Tú"@vi
+    "Xã Hùng Chân"@vi
+    "Xã Hùng Việt"@vi
+    "Xã Hưng Khánh"@vi
+    "Xã Hưng Lộc"@vi
+    "Xã Hưng Nguyên Nam"@vi
+    "Xã Hưng Phú"@vi
+    "Xã Hưng Đạo"@vi
+    "Xã Hương Phố"@vi
+    "Xã Hạ Bằng"@vi
+    "Xã Hạ Lang"@vi
+    "Xã Hạnh Phúc"@vi
+    "Xã Hải Châu"@vi
+    "Xã Hải Hưng"@vi
+    "Xã Hải Hậu"@vi
+    "Xã Hải Lăng"@vi
+    "Xã Hải Lộc"@vi
+    "Xã Hải Ninh"@vi
+    "Xã Hải Thịnh"@vi
+    "Xã Hải Tiến"@vi
+    "Xã Hậu Thạnh"@vi
+    "Xã Hồ Vương"@vi
+    "Xã Hồng Châu"@vi
+    "Xã Hồng Dân"@vi
+    "Xã Hồng Phong"@vi
+    "Xã Hồng Sơn"@vi
+    "Xã Hồng Thái"@vi
+    "Xã Hồng Vũ"@vi
+    "Xã Hội Sơn"@vi
+    "Xã Hội Thịnh"@vi
+    "Xã Hợp Minh"@vi
+    "Xã Hợp Thành"@vi
+    "Xã Ia Băng"@vi
+    "Xã Ia Dom"@vi
+    "Xã Ia Sao"@vi
+    "Xã Khánh Hưng"@vi
+    "Xã Khánh Sơn"@vi
+    "Xã Kim Anh"@vi
+    "Xã Kim Bảng"@vi
+    "Xã Kim Hoa"@vi
+    "Xã Kim Long"@vi
+    "Xã Kim Ngân"@vi
+    "Xã Kim Phú"@vi
+    "Xã Kim Sơn"@vi
+    "Xã Kim Điền"@vi
+    "Xã Kiến Hưng"@vi
+    "Xã Kiến Hải"@vi
+    "Xã Kiến Minh"@vi
+    "Xã Kiến Thụy"@vi
+    "Xã Kiều Phú"@vi
+    "Xã Krông Ana"@vi
+    "Xã Krông Bông"@vi
+    "Xã Krông Nô"@vi
+    "Xã Krông Pắc"@vi
+    "Xã Kỳ Anh"@vi
+    "Xã Lai Khê"@vi
+    "Xã Lam Thành"@vi
+    "Xã Linh Sơn"@vi
+    "Xã Liêm Hà"@vi
+    "Xã Liên Minh"@vi
+    "Xã Liên Sơn Lắk"@vi
+    "Xã Long Hòa"@vi
+    "Xã Long Hữu"@vi
+    "Xã Long Khánh"@vi
+    "Xã Long Phú"@vi
+    "Xã Long Phụng"@vi
+    "Xã Long Quảng"@vi
+    "Xã Long Thuận"@vi
+    "Xã Lâm Bình"@vi
+    "Xã Lâm Sơn"@vi
+    "Xã Lãnh Ngọc"@vi
+    "Xã Lê Quý Đôn"@vi
+    "Xã Lìa"@vi
+    "Xã Lý Nhân"@vi
+    "Xã Lưu Vệ"@vi
+    "Xã Lương Minh"@vi
+    "Xã Lương Sơn"@vi
+    "Xã Lương Tài"@vi
+    "Xã Lạc Phượng"@vi
+    "Xã Lạc Sơn"@vi
+    "Xã Lạc Thủy"@vi
+    "Xã Lạng Giang"@vi
+    "Xã Lịch Hội Thượng"@vi
+    "Xã Lộc Ninh"@vi
+    "Xã Lộc Thuận"@vi
+    "Xã Lộc Thành"@vi
+    "Xã Lộc Thạnh"@vi
+    "Xã Lục Ngạn"@vi
+    "Xã Mai Sơn"@vi
+    "Xã Mao Điền"@vi
+    "Xã Minh Ngọc"@vi
+    "Xã Minh Thái"@vi
+    "Xã Minh Thọ"@vi
+    "Xã Mường Bi"@vi
+    "Xã Mường Chanh"@vi
+    "Xã Mường Chọng"@vi
+    "Xã Mường Ham"@vi
+    "Xã Mường La"@vi
+    "Xã Mường Quàng"@vi
+    "Xã Mường Thàng"@vi
+    "Xã Mường Tè"@vi
+    "Xã Mường Vang"@vi
+    "Xã Mường Động"@vi
+    "Xã Mậu Thạch"@vi
+    "Xã Mỹ Lợi"@vi
+    "Xã Mỹ Quý"@vi
+    "Xã Mỹ Sơn"@vi
+    "Xã Mỹ Thạnh"@vi
+    "Xã Mỹ Đức"@vi
+    "Xã Na Mèo"@vi
+    "Xã Na Rì"@vi
+    "Xã Nam An Phụ"@vi
+    "Xã Nam Ba Đồn"@vi
+    "Xã Nam Cam Ranh"@vi
+    "Xã Nam Giang"@vi
+    "Xã Nam Gianh"@vi
+    "Xã Nam Hải Lăng"@vi
+    "Xã Nam Khánh Vĩnh"@vi
+    "Xã Nam Lý"@vi
+    "Xã Nam Minh"@vi
+    "Xã Nam Phù"@vi
+    "Xã Nam Thái Ninh"@vi
+    "Xã Nam Thụy Anh"@vi
+    "Xã Nam Tiên Hưng"@vi
+    "Xã Nam Tiền Hải"@vi
+    "Xã Nam Trà My"@vi
+    "Xã Nam Trực"@vi
+    "Xã Nam Đông Hưng"@vi
+    "Xã Nam Đồng"@vi
+    "Xã Nghi Dương"@vi
+    "Xã Nghi Lộc"@vi
+    "Xã Nghi Xuân"@vi
+    "Xã Nghĩa Hành"@vi
+    "Xã Nguyễn Bỉnh Khiêm"@vi
+    "Xã Nguyễn Du"@vi
+    "Xã Nguyễn Lương Bằng"@vi
+    "Xã Ngân Sơn"@vi
+    "Xã Ngô Mây"@vi
+    "Xã Ngọc Linh"@vi
+    "Xã Ngự Thiên"@vi
+    "Xã Nhân Hà"@vi
+    "Xã Nhân Hòa"@vi
+    "Xã Như Thanh"@vi
+    "Xã Như Xuân"@vi
+    "Xã Ninh Châu"@vi
+    "Xã Ninh Hải"@vi
+    "Xã Ninh Phước"@vi
+    "Xã Ninh Sơn"@vi
+    "Xã Nông Sơn"@vi
+    "Xã Nậm Cắn"@vi
+    "Xã Phong Doanh"@vi
+    "Xã Phong Hiệp"@vi
+    "Xã Phong Quang"@vi
+    "Xã Phù Lãng"@vi
+    "Xã Phùng Nguyên"@vi
+    "Xã Phú Bình"@vi
+    "Xã Phú Hòa 1"@vi
+    "Xã Phú Hòa 2"@vi
+    "Xã Phú Lương"@vi
+    "Xã Phú Ninh"@vi
+    "Xã Phú Thuận"@vi
+    "Xã Phú Túc"@vi
+    "Xã Phú Vang"@vi
+    "Xã Phúc Lộc"@vi
+    "Xã Phúc Sơn"@vi
+    "Xã Phúc Thịnh"@vi
+    "Xã Phước An"@vi
+    "Xã Phước Hòa"@vi
+    "Xã Phước Hậu"@vi
+    "Xã Phước Long"@vi
+    "Xã Phước Thành"@vi
+    "Xã Phụ Dực"@vi
+    "Xã Phục Hòa"@vi
+    "Xã Pù Luông"@vi
+    "Xã Pù Nhi"@vi
+    "Xã Pắc Ngà"@vi
+    "Xã Quan Sơn"@vi
+    "Xã Quan Thành"@vi
+    "Xã Quang Hưng"@vi
+    "Xã Quang Minh"@vi
+    "Xã Quang Trung"@vi
+    "Xã Quang Đồng"@vi
+    "Xã Quy Đức"@vi
+    "Xã Quyết Thắng"@vi
+    "Xã Quân Chu"@vi
+    "Xã Quý Lương"@vi
+    "Xã Quảng Châu"@vi
+    "Xã Quảng Ninh"@vi
+    "Xã Quảng Oai"@vi
+    "Xã Quảng Trạch"@vi
+    "Xã Quảng Uyên"@vi
+    "Xã Quảng Điền"@vi
+    "Xã Quế Phong"@vi
+    "Xã Quế Phước"@vi
+    "Xã Quế Sơn"@vi
+    "Xã Quế Sơn Trung"@vi
+    "Xã Quỳ Châu"@vi
+    "Xã Quỳnh An"@vi
+    "Xã Quỳnh Anh"@vi
+    "Xã Quỳnh Lưu"@vi
+    "Xã Quỳnh Nhai"@vi
+    "Xã Quỳnh Phú"@vi
+    "Xã Quỳnh Phụ"@vi
+    "Xã Quỳnh Sơn"@vi
+    "Xã Sen Ngư"@vi
+    "Xã Suối Dầu"@vi
+    "Xã Suối Hai"@vi
+    "Xã Sáng Nhè"@vi
+    "Xã Sì Lở Lầu"@vi
+    "Xã Sông Vàng"@vi
+    "Xã Sơn Cẩm Hà"@vi
+    "Xã Sơn Hà"@vi
+    "Xã Sơn Hòa"@vi
+    "Xã Sơn Hạ"@vi
+    "Xã Sơn Lâm"@vi
+    "Xã Sơn Lương"@vi
+    "Xã Sơn Thuỷ"@vi
+    "Xã Sơn Thành"@vi
+    "Xã Sơn Thủy"@vi
+    "Xã Sơn Tây"@vi
+    "Xã Sơn Điện"@vi
+    "Xã Sơn Động"@vi
+    "Xã Tam Dương"@vi
+    "Xã Tam Dương Bắc"@vi
+    "Xã Tam Mỹ"@vi
+    "Xã Tam Nông"@vi
+    "Xã Tam Thanh"@vi
+    "Xã Tam Xuân"@vi
+    "Xã Tam Đồng"@vi
+    "Xã Thanh An"@vi
+    "Xã Thanh Liêm"@vi
+    "Xã Thanh Lâm"@vi
+    "Xã Thanh Oai"@vi
+    "Xã Thanh Sơn"@vi
+    "Xã Thanh Thịnh"@vi
+    "Xã Thiên Lộc"@vi
+    "Xã Thiên Nhẫn"@vi
+    "Xã Thiệu Hóa"@vi
+    "Xã Thu Bồn"@vi
+    "Xã Thuần Trung"@vi
+    "Xã Thuận An"@vi
+    "Xã Thành Bình Thọ"@vi
+    "Xã Thái Ninh"@vi
+    "Xã Tháp Mười"@vi
+    "Xã Thăng An"@vi
+    "Xã Thăng Bình"@vi
+    "Xã Thăng Phú"@vi
+    "Xã Thăng Trường"@vi
+    "Xã Thăng Điền"@vi
+    "Xã Thư Lâm"@vi
+    "Xã Thượng Hồng"@vi
+    "Xã Thượng Minh"@vi
+    "Xã Thượng Phúc"@vi
+    "Xã Thượng Đức"@vi
+    "Xã Thạch An"@vi
+    "Xã Thạch Thất"@vi
+    "Xã Thạnh An"@vi
+    "Xã Thạnh Lợi"@vi
+    "Xã Thạnh Phước"@vi
+    "Xã Thạnh Đông"@vi
+    "Xã Thạnh Đức"@vi
+    "Xã Thần Khê"@vi
+    "Xã Thần Lĩnh"@vi
+    "Xã Thắng Lộc"@vi
+    "Xã Thắng Lợi"@vi
+    "Xã Thọ Long"@vi
+    "Xã Thống Nhất"@vi
+    "Xã Thới Bình"@vi
+    "Xã Thụy Anh"@vi
+    "Xã Tiên Hoa"@vi
+    "Xã Tiên Hưng"@vi
+    "Xã Tiên La"@vi
+    "Xã Tiên Lữ"@vi
+    "Xã Tiên Phước"@vi
+    "Xã Tiên Đồng"@vi
+    "Xã Tiến Thắng"@vi
+    "Xã Toàn Lưu"@vi
+    "Xã Toàn Thắng"@vi
+    "Xã Triệu Bình"@vi
+    "Xã Triệu Cơ"@vi
+    "Xã Triệu Phong"@vi
+    "Xã Triệu Việt Vương"@vi
+    "Xã Trung Khánh Vĩnh"@vi
+    "Xã Trung Lộc"@vi
+    "Xã Trung Thành"@vi
+    "Xã Trà Liên"@vi
+    "Xã Trà Tân"@vi
+    "Xã Tràng Định"@vi
+    "Xã Trường Lưu"@vi
+    "Xã Trường Ninh"@vi
+    "Xã Trường Phú"@vi
+    "Xã Trường Tân"@vi
+    "Xã Trường Văn"@vi
+    "Xã Trần Thương"@vi
+    "Xã Trực Ninh"@vi
+    "Xã Tu Bông"@vi
+    "Xã Tuy An Bắc"@vi
+    "Xã Tuy An Nam"@vi
+    "Xã Tuy An Tây"@vi
+    "Xã Tuy An Đông"@vi
+    "Xã Tuy Đức"@vi
+    "Xã Tuyên Bình"@vi
+    "Xã Tuyên Hóa"@vi
+    "Xã Tuyên Lâm"@vi
+    "Xã Tuyên Phú"@vi
+    "Xã Tuyên Sơn"@vi
+    "Xã Tuệ Tĩnh"@vi
+    "Xã Tà Xi Láng"@vi
+    "Xã Tà Đùng"@vi
+    "Xã Tân Châu"@vi
+    "Xã Tân Cương"@vi
+    "Xã Tân Gianh"@vi
+    "Xã Tân Hồng"@vi
+    "Xã Tân Hội"@vi
+    "Xã Tân Kỳ"@vi
+    "Xã Tân Long"@vi
+    "Xã Tân Lạc"@vi
+    "Xã Tân Lập"@vi
+    "Xã Tân Lợi"@vi
+    "Xã Tân Minh"@vi
+    "Xã Tân Mỹ"@vi
+    "Xã Tân Ninh"@vi
+    "Xã Tân Phú Đông"@vi
+    "Xã Tân Thành"@vi
+    "Xã Tân Thạnh"@vi
+    "Xã Tân Thủy"@vi
+    "Xã Tân Tiến"@vi
+    "Xã Tân Xuân"@vi
+    "Xã Tân Yên"@vi
+    "Xã Tân Đông"@vi
+    "Xã Tây Giang"@vi
+    "Xã Tây Hòa"@vi
+    "Xã Tây Hồ"@vi
+    "Xã Tây Khánh Sơn"@vi
+    "Xã Tây Khánh Vĩnh"@vi
+    "Xã Tây Ninh Hòa"@vi
+    "Xã Tây Sơn"@vi
+    "Xã Tây Thái Ninh"@vi
+    "Xã Tây Thụy Anh"@vi
+    "Xã Tây Tiền Hải"@vi
+    "Xã Tây Đô"@vi
+    "Xã Tương Dương"@vi
+    "Xã Tả Phìn"@vi
+    "Xã Tống Sơn"@vi
+    "Xã Tứ Mỹ"@vi
+    "Xã Vinh Lộc"@vi
+    "Xã Việt An"@vi
+    "Xã Việt Khê"@vi
+    "Xã Việt Tiến"@vi
+    "Xã Việt Yên"@vi
+    "Xã Vu Gia"@vi
+    "Xã Vân Du"@vi
+    "Xã Vân Hòa"@vi
+    "Xã Vân Tụ"@vi
+    "Xã Vân Đình"@vi
+    "Xã Võ Nhai"@vi
+    "Xã Văn Hiến"@vi
+    "Xã Văn Kiều"@vi
+    "Xã Văn Lãng"@vi
+    "Xã Văn Phú"@vi
+    "Xã Vĩnh Am"@vi
+    "Xã Vĩnh An"@vi
+    "Xã Vĩnh Bình"@vi
+    "Xã Vĩnh Hoàng"@vi
+    "Xã Vĩnh Hòa Hưng"@vi
+    "Xã Vĩnh Hưng"@vi
+    "Xã Vĩnh Hải"@vi
+    "Xã Vĩnh Lợi"@vi
+    "Xã Vĩnh Mỹ"@vi
+    "Xã Vĩnh Phước"@vi
+    "Xã Vĩnh Thanh"@vi
+    "Xã Vĩnh Thuận"@vi
+    "Xã Vĩnh Thành"@vi
+    "Xã Vĩnh Thông"@vi
+    "Xã Vĩnh Thạnh"@vi
+    "Xã Vĩnh Thịnh"@vi
+    "Xã Vĩnh Tường"@vi
+    "Xã Vĩnh Định"@vi
+    "Xã Vũ Dương"@vi
+    "Xã Vạn An"@vi
+    "Xã Vạn Lộc"@vi
+    "Xã Vạn Ninh"@vi
+    "Xã Vạn Phú"@vi
+    "Xã Vạn Thắng"@vi
+    "Xã Vạn Xuân"@vi
+    "Xã Xuân An"@vi
+    "Xã Xuân Giang"@vi
+    "Xã Xuân Hòa"@vi
+    "Xã Xuân Hưng"@vi
+    "Xã Xuân Hải"@vi
+    "Xã Xuân Lãng"@vi
+    "Xã Xuân Phú"@vi
+    "Xã Xuân Thành"@vi
+    "Xã Xuân Thọ"@vi
+    "Xã Xím Vàng"@vi
+    "Xã Yên Bình"@vi
+    "Xã Yên Hòa"@vi
+    "Xã Yên Khánh"@vi
+    "Xã Yên Lãng"@vi
+    "Xã Yên Mô"@vi
+    "Xã Yên Nhân"@vi
+    "Xã Yên Phong"@vi
+    "Xã Yên Thắng"@vi
+    "Xã Yên Thủy"@vi
+    "Xã Yên Xuân"@vi
+    "Xã Yên Định"@vi
+    "Xã Ái Quốc"@vi
+    "Xã Ô Diên"@vi
+    "Xã Ô Loan"@vi
+    "Xã Ý Yên"@vi
+    "Xã Đan Hải"@vi
+    "Xã Đan Điền"@vi
+    "Xã Đoài Dương"@vi
+    "Xã Đoài Phương"@vi
+    "Xã Đoàn Kết"@vi
+    "Xã Đình Lập"@vi
+    "Xã Đông Giang"@vi
+    "Xã Đông Hiếu"@vi
+    "Xã Đông Hưng"@vi
+    "Xã Đông Hải"@vi
+    "Xã Đông Khánh Sơn"@vi
+    "Xã Đông Lộc"@vi
+    "Xã Đông Phước"@vi
+    "Xã Đông Thành"@vi
+    "Xã Đông Thái Ninh"@vi
+    "Xã Đông Thụy Anh"@vi
+    "Xã Đông Tiên Hưng"@vi
+    "Xã Đông Tiền Hải"@vi
+    "Xã Đường An"@vi
+    "Xã Đường Hồng"@vi
+    "Xã Đại Hoàng"@vi
+    "Xã Đại Huệ"@vi
+    "Xã Đại Phúc"@vi
+    "Xã Đại Từ"@vi
+    "Xã Đại Đồng"@vi
+    "Xã Đầm Hà"@vi
+    "Xã Đắk Song"@vi
+    "Xã Định Hóa"@vi
+    "Xã Đồng Bằng"@vi
+    "Xã Đồng Châu"@vi
+    "Xã Đồng Hỷ"@vi
+    "Xã Đồng Thái"@vi
+    "Xã Đồng Thịnh"@vi
+    "Xã Đồng Tiến"@vi
+    "Xã Đồng Xuân"@vi
+    "Xã Độc Lập"@vi
+    "Xã Đức Bình"@vi
+    "Xã Đức Châu"@vi
+    "Xã Đức Lập"@vi
+    "Xã Đức Minh"@vi
+    "Xã Đức Nhàn"@vi
+    "Xã Đức Phú"@vi
+    "Xã Ứng Hòa"@vi
+    "Xã Ứng Thiên"@vi
+    "Xím Vàng"@vi
+    "Y Yen"@vi
+    "Yen Bai"@vi
+    "Yen Binh"@vi
+    "Yen Dinh"@vi
+    "Yen Dung"@vi
+    "Yen Hoa"@vi
+    "Yen Khanh"@vi
+    "Yen Lang"@vi
+    "Yen Mo"@vi
+    "Yen Nhan"@vi
+    "Yen Phong"@vi
+    "Yen Son"@vi
+    "Yen Thang"@vi
+    "Yen Thuy"@vi
+    "Yen Tu"@vi
+    "Yen Xuan"@vi
+    "Yên Bái"@vi
+    "Yên Bình"@vi
+    "Yên Dũng"@vi
+    "Yên Hòa"@vi
+    "Yên Khánh"@vi
+    "Yên Lãng"@vi
+    "Yên Mô"@vi
+    "Yên Nhân"@vi
+    "Yên Phong"@vi
+    "Yên Sơn"@vi
+    "Yên Thắng"@vi
+    "Yên Thủy"@vi
+    "Yên Tử"@vi
+    "Yên Xuân"@vi
+    "Yên Định"@vi
+    "Ái Quốc"@vi
+    "Ô Diên"@vi
+    "Ô Loan"@vi
+    "Ô Môn"@vi
+    "Ý Yên"@vi
+    "Đan Hải"@vi
+    "Đan Điền"@vi
+    "Đoài Dương"@vi
+    "Đoài Phương"@vi
+    "Đoàn Kết"@vi
+    "Đào Duy Từ"@vi
+    "Đình Lập"@vi
+    "Đông Gia Nghĩa"@vi
+    "Đông Giang"@vi
+    "Đông Hiếu"@vi
+    "Đông Hoa Lư"@vi
+    "Đông Hà"@vi
+    "Đông Hòa"@vi
+    "Đông Hưng"@vi
+    "Đông Hải"@vi
+    "Đông Khánh Sơn"@vi
+    "Đông Lộc"@vi
+    "Đông Ninh Hòa"@vi
+    "Đông Phước"@vi
+    "Đông Thành"@vi
+    "Đông Thái Ninh"@vi
+    "Đông Thụy Anh"@vi
+    "Đông Tiên Hưng"@vi
+    "Đông Tiền Hải"@vi
+    "Đông Triều"@vi
+    "Đăk Bla"@vi
+    "Đường An"@vi
+    "Đường Hào"@vi
+    "Đường Hồng"@vi
+    "Đại Hoàng"@vi
+    "Đại Huệ"@vi
+    "Đại Phúc"@vi
+    "Đại Từ"@vi
+    "Đại Đồng"@vi
+    "Đầm Hà"@vi
+    "Đắk Song"@vi
+    "Đặc khu Bạch Long Vĩ"@vi
+    "Đặc khu Côn Đảo"@vi
+    "Đặc khu Cồn Cỏ"@vi
+    "Đặc khu Kiên Hải"@vi
+    "Đặc khu Vân Đồn"@vi
+    "Định Hóa"@vi
+    "Đống Đa"@vi
+    "Đồng Bằng"@vi
+    "Đồng Châu"@vi
+    "Đồng Hỷ"@vi
+    "Đồng Thuận"@vi
+    "Đồng Thái"@vi
+    "Đồng Thịnh"@vi
+    "Đồng Tiến"@vi
+    "Đồng Xuân"@vi
+    "Độc Lập"@vi
+    "Đức Bình"@vi
+    "Đức Châu"@vi
+    "Đức Lập"@vi
+    "Đức Minh"@vi
+    "Đức Nhàn"@vi
+    "Đức Phú"@vi
+    "Ứng Hòa"@vi
+    "Ứng Thiên"@vi
+    }
+    ?item skos:altLabel ?matchedTerm .
+    BIND("alias" AS ?matchKind)
+  }
+}
+ORDER BY ?item ?matchedTerm ?matchKind

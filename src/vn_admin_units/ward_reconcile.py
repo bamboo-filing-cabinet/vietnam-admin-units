@@ -38,6 +38,7 @@ AS_OF = "2026-08-27"
 QUERY_PATH = Path("queries/ward-wikidata-candidates.rq")
 RAW_RESULT = "wikidata/ward-candidates-2026-09-01.sparql.json.gz"
 CANDIDATE_CACHE = Path("data/ward-wikidata-candidates.json")
+BROAD_CANDIDATE_CACHE = Path("data/ward-wikidata-unresolved-candidates.json")
 WARD_HISTORY = Path("data/ward-history.json")
 PROVINCE_ENTITIES = Path("data/entities.json")
 PROVINCE_LINEAGE = Path("data/lineage.json")
@@ -268,6 +269,27 @@ def _claim_times(entity: dict, prop: str) -> list[str]:
     return sorted(values)
 
 
+def _claim_coordinates(entity: dict) -> list[dict]:
+    values = {}
+    for claim in entity.get("claims", {}).get("P625", []):
+        if claim.get("rank") == "deprecated":
+            continue
+        value = claim.get("mainsnak", {}).get("datavalue", {}).get("value", {})
+        if not isinstance(value, dict):
+            continue
+        latitude = value.get("latitude")
+        longitude = value.get("longitude")
+        if latitude is None or longitude is None:
+            continue
+        key = (latitude, longitude, value.get("precision"))
+        values[key] = {
+            "latitude": latitude,
+            "longitude": longitude,
+            "precision": value.get("precision"),
+        }
+    return [values[key] for key in sorted(values)]
+
+
 def _normalize_api_entity(qid: str, entity: dict) -> dict:
     labels = {
         lang: value["value"]
@@ -292,6 +314,12 @@ def _normalize_api_entity(qid: str, entity: dict) -> dict:
         "p131": _claim_ids(entity, "P131"),
         "p571": _claim_times(entity, "P571"),
         "p576": _claim_times(entity, "P576"),
+        "p625": _claim_coordinates(entity),
+        "sitelinks": {
+            site: value["title"]
+            for site, value in sorted(entity.get("sitelinks", {}).items())
+            if site in {"viwiki", "enwiki"} and value.get("title")
+        },
     }
 
 
@@ -313,10 +341,10 @@ def fetch_action_api_entities(
         url = endpoint + "?" + urllib.parse.urlencode({
             "action": "wbgetentities",
             "ids": "|".join(batch),
-            "props": "labels|aliases|claims",
+            "props": "info|labels|aliases|claims|sitelinks",
             "languages": "vi|en",
             "format": "json",
-            "maxlag": "5",
+            "maxlag": "30",
         })
         payload = None
         for attempt in range(retries):
@@ -387,6 +415,33 @@ def build_parent_qid_index(
         current_code = successors.get(row.get("parent_code", ""))
         if qid and current_code:
             indexed[qid].add(current_code)
+    return dict(indexed)
+
+
+def build_district_qid_index(
+    mapping_path: Path = DISTRICT_MAPPING,
+) -> dict[str, set[str]]:
+    """Map former district QIDs to their terminal three-digit codes."""
+    indexed: dict[str, set[str]] = defaultdict(set)
+    for row in _read_csv(mapping_path):
+        qid = row.get("wikidata_qid", "")
+        code = row.get("terminal_code", "")
+        if qid and code:
+            indexed[qid].add(code)
+    return dict(indexed)
+
+
+def _predecessor_parent_codes(history: dict) -> dict[str, set[str]]:
+    entities = {row["local_id"]: row for row in history["entities"]}
+    indexed: dict[str, set[str]] = defaultdict(set)
+    for edge in history.get("lineage_edges", []):
+        predecessor = entities.get(edge["predecessor"])
+        successor = entities.get(edge["successor"])
+        if predecessor is None or successor is None or not _is_current(successor):
+            continue
+        parent_code = _parent_code(predecessor)
+        if parent_code:
+            indexed[successor["local_id"]].add(parent_code)
     return dict(indexed)
 
 
@@ -528,6 +583,8 @@ def build_mapping_rows(
     candidate_artifact: dict,
     parent_index: dict[str, set[str]],
     *,
+    district_qid_index: dict[str, set[str]] | None = None,
+    broad_artifact: dict | None = None,
     prior_rows: list[dict] | None = None,
 ) -> list[dict]:
     """Build all graph rows while reconciling only the current 3,321 entities."""
@@ -540,6 +597,9 @@ def build_mapping_rows(
             "entities", []
         )
     }
+    if district_qid_index is None:
+        district_qid_index = build_district_qid_index()
+    predecessor_parents = _predecessor_parent_codes(history)
     prior = {row["local_id"]: row for row in (prior_rows or [])}
     rows = []
     for entity in sorted(history["entities"], key=lambda row: row["local_id"]):
@@ -610,10 +670,31 @@ def build_mapping_rows(
                 ),
             })
         elif len(verified_hits) > 1:
-            row["match_status"] = "ambiguous"
-            row["match_notes"] = (
-                f"{len(verified_hits)} verified {source} candidates match current province"
-            )
+            predecessor_codes = predecessor_parents.get(entity["local_id"], set())
+            component_hits = [
+                qid for qid in verified_hits
+                if predecessor_codes & {
+                    code
+                    for parent_qid in verified[qid].get("p131", [])
+                    for code in district_qid_index.get(parent_qid, set())
+                }
+            ]
+            if len(component_hits) == 1:
+                row.update({
+                    "wikidata_qid": component_hits[0],
+                    "qid_status": "existing",
+                    "match_status": "matched",
+                    "match_notes": (
+                        f"qlever-{source}+predecessor-district+"
+                        "batched-wbgetentities"
+                    ),
+                })
+            else:
+                row["match_status"] = "ambiguous"
+                row["match_notes"] = (
+                    f"{len(verified_hits)} verified {source} candidates match "
+                    f"current province; {len(component_hits)} match predecessor districts"
+                )
         elif not verified:
             row["match_status"] = "unverified-candidate"
             row["match_notes"] = f"{len(qids)} QLever {source} candidate(s)"
@@ -626,6 +707,53 @@ def build_mapping_rows(
                 "candidate name, tier, active-date, or current-province evidence disagrees"
             )
         rows.append(row)
+
+    if broad_artifact is not None:
+        broad_review = {
+            row["local_id"]: row for row in broad_artifact.get("review", [])
+        }
+        broad_entities = {
+            row["qid"]: row
+            for row in broad_artifact.get("action_api_verification", {}).get(
+                "entities", []
+            )
+        }
+        eligible = {
+            row["local_id"]: broad_review.get(row["local_id"], {}).get(
+                "auto_candidate_qids", []
+            )
+            for row in rows
+            if not row["valid_to"] and not row["wikidata_qid"]
+        }
+        proposed = Counter(
+            qids[0] for qids in eligible.values() if len(qids) == 1
+        )
+        already_assigned = {
+            row["wikidata_qid"] for row in rows if row["wikidata_qid"]
+        }
+        for row in rows:
+            qids = eligible.get(row["local_id"], [])
+            if len(qids) != 1:
+                continue
+            qid = qids[0]
+            row["candidate_qids"] = "|".join(sorted({
+                *filter(None, row["candidate_qids"].split("|")), qid,
+            }, key=lambda value: int(value[1:])))
+            if qid in already_assigned or proposed[qid] > 1:
+                row["match_status"] = "ambiguous"
+                row["match_notes"] = f"broad candidate {qid} is already assigned"
+                continue
+            if qid not in broad_entities:
+                continue
+            row.update({
+                "wikidata_qid": qid,
+                "qid_status": "existing",
+                "match_status": "matched",
+                "match_notes": (
+                    "broad-exact-vi+current-province+ward-class+"
+                    "batched-wbgetentities"
+                ),
+            })
 
     automatic_by_qid: dict[str, list[dict]] = defaultdict(list)
     for row in rows:
@@ -661,7 +789,12 @@ def write_mapping(rows: list[dict], path: Path = MAPPING) -> Path:
     return path
 
 
-def audit_mapping(history: dict, candidate_artifact: dict, rows: list[dict]) -> dict:
+def audit_mapping(
+    history: dict,
+    candidate_artifact: dict,
+    rows: list[dict],
+    broad_artifact: dict | None = None,
+) -> dict:
     issues = []
     if len(rows) != LOCKED_GRAPH_COUNTS["entities"]:
         issues.append(f"ROW-COUNT {len(rows)}")
@@ -685,6 +818,20 @@ def audit_mapping(history: dict, candidate_artifact: dict, rows: list[dict]) -> 
         for row in candidate_artifact.get("action_api_verification", {}).get(
             "entities", []
         )
+    }
+    if broad_artifact is not None:
+        candidate_ids.update(
+            row["qid"] for row in broad_artifact.get("candidates", [])
+        )
+        verified_ids.update(
+            row["qid"]
+            for row in broad_artifact.get("action_api_verification", {}).get(
+                "entities", []
+            )
+        )
+    broad_auto = {
+        row["local_id"]: set(row.get("auto_candidate_qids", []))
+        for row in (broad_artifact or {}).get("review", [])
     }
     by_qid: dict[str, list[dict]] = defaultdict(list)
     for row in rows:
@@ -712,6 +859,10 @@ def audit_mapping(history: dict, candidate_artifact: dict, rows: list[dict]) -> 
                     issues.append(f"MATCH-NOT-CANDIDATE {row['local_id']} {qid}")
                 if qid not in verified_ids:
                     issues.append(f"MATCH-NOT-API-VERIFIED {row['local_id']} {qid}")
+                if row["match_notes"].startswith("broad-") and qid not in broad_auto.get(
+                    row["local_id"], set()
+                ):
+                    issues.append(f"BROAD-MATCH-NOT-AUTO {row['local_id']} {qid}")
 
     for qid, assigned in sorted(by_qid.items()):
         if len(assigned) > 1:
@@ -759,13 +910,18 @@ def format_audit(audit: dict) -> str:
     )
 
 
-def _load_inputs() -> tuple[dict, dict, dict[str, set[str]]]:
+def _load_inputs() -> tuple[dict, dict, dict[str, set[str]], dict | None]:
     history = json.loads(WARD_HISTORY.read_text(encoding="utf-8"))
     if history["audit"]["entities"] != LOCKED_GRAPH_COUNTS["entities"]:
         raise ValueError("ward history entity count drifted")
     candidate_artifact = json.loads(CANDIDATE_CACHE.read_text(encoding="utf-8"))
     parent_index = build_parent_qid_index()
-    return history, candidate_artifact, parent_index
+    broad_artifact = None
+    if BROAD_CANDIDATE_CACHE.is_file():
+        broad_artifact = json.loads(
+            BROAD_CANDIDATE_CACHE.read_text(encoding="utf-8")
+        )
+    return history, candidate_artifact, parent_index, broad_artifact
 
 
 def main(argv: list[str] | None = None) -> None:
@@ -800,10 +956,12 @@ def main(argv: list[str] | None = None) -> None:
             f"{artifact['audit']['api_verified_candidates']} items"
         )
 
-    history, candidates, parent_index = _load_inputs()
+    history, candidates, parent_index, broad = _load_inputs()
     prior = _read_csv(args.output)
     rows = build_mapping_rows(
-        history, candidates, parent_index, prior_rows=prior,
+        history, candidates, parent_index,
+        broad_artifact=broad,
+        prior_rows=prior,
     )
     rendered = serialize_mapping(rows)
     if args.check:
@@ -814,7 +972,7 @@ def main(argv: list[str] | None = None) -> None:
         write_mapping(rows, args.output)
         action = "wrote"
 
-    audit = audit_mapping(history, candidates, rows)
+    audit = audit_mapping(history, candidates, rows, broad)
     if args.audit:
         print(f"{action} {args.output}\n{format_audit(audit)}")
         for issue in audit["issues"][:20]:
