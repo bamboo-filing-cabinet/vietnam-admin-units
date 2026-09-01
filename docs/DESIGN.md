@@ -339,7 +339,10 @@ assemblies need non-GSO sources.
   `889/NQ-UBTVQH13@2015-03-12` now has a complete signed secondary-hosted scan,
   expanded press corroboration, and seven fully reconciled same-code ward
   retypes. Its legal date is 2015-03-11, one day before the NSO observation
-  key; no official enacted copy was recovered (`2026-09-01.02`). Full
+  key; no official enacted copy was recovered (`2026-09-01.02`). All 29
+  primary-source-open instruments have now received bounded reviews; further
+  work is targeted official-artifact recovery, not another secondary-review
+  pass. Full
   2002→present provenance is not yet closed. The next graph-building slice—
   promotion into canonical ward entities/`LineageEdge` records—remains gated
   behind Task 7, and Wikidata emission remains a later gate.

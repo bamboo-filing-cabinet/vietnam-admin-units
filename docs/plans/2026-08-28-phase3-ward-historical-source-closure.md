@@ -127,8 +127,9 @@ re-scrape it.
 > expanded press corroboration, and seven reconciled whole-unit ward retypes.
 > Its legal date is 2015-03-11, while the NSO key remains the following day's
 > observation; no official enacted copy was recovered (`2026-09-01.02`).
-> Continue with Resolution `891/NQ-UBTVQH13@2015-03-12`; do not
-> start Task 8.
+> All 29 primary-source-open instruments have now received bounded reviews.
+> Continue only with targeted official-artifact recovery; do not repeat the
+> secondary-review sequence or start Task 8.
 
 ## Outcome
 
@@ -472,8 +473,9 @@ territory, title, and named-unit checks.
 > expanded press corroboration, and seven reconciled whole-unit ward retypes.
 > Its legal date is 2015-03-11, while the NSO key remains the following day's
 > observation; no official enacted copy was recovered (`2026-09-01.02`).
-> Continue with Resolution `891/NQ-UBTVQH13@2015-03-12`; do not
-> start Task 8.
+> All 29 primary-source-open instruments have now received bounded reviews.
+> Continue only with targeted official-artifact recovery; do not repeat the
+> secondary-review sequence or start Task 8.
 
 Add a command that regenerates the coverage JSON and prints a concise audit.
 Write a dated completion journal containing final counts, reviewed exceptions,

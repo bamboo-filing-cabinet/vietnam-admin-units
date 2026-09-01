@@ -206,9 +206,10 @@ expanded contemporaneous and retrospective press review, and all seven
 same-code ward retypes reconciled. Its legal issue/effective date is
 2015-03-11; the NSO date remains the observation key. No official-hosted
 enacted copy was recovered, so it remains `secondary_only`. Continue with
-Resolution `891/NQ-UBTVQH13@2015-03-12`. Do
-**not** start Task 8 or promote secondary evidence to primary merely to close
-the count.
+targeted official-artifact recovery; all 29 primary-source-open instruments
+have now received bounded reviews, so do not loop back through the secondary
+review sequence. Do **not** start Task 8 or promote secondary evidence to
+primary merely to close the count.
 
 Read the current [shutdown handoff](docs/journals/2026-08-30.01.ward-source-audit-handoff.md),
 the generated [open-instrument checklist](docs/ward-source-open-instruments.md),
