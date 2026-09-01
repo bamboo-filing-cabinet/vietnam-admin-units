@@ -122,8 +122,12 @@ re-scrape it.
 > `29/NQ-CP@2009-06-30` now has complete secondary review, contemporaneous
 > Government and implementation press corroboration, an exact official VBPL
 > full-text/original-ZIP lead, and eight reconciled Kiên Giang components. The
-> official bytes remain blocked (`2026-09-01.01`). Continue with Resolution
-> `889/NQ-UBTVQH13@2015-03-12`; do not
+> official bytes remain blocked (`2026-09-01.01`). Resolution
+> `889/NQ-UBTVQH13@2015-03-12` now has a complete signed secondary-hosted scan,
+> expanded press corroboration, and seven reconciled whole-unit ward retypes.
+> Its legal date is 2015-03-11, while the NSO key remains the following day's
+> observation; no official enacted copy was recovered (`2026-09-01.02`).
+> Continue with Resolution `891/NQ-UBTVQH13@2015-03-12`; do not
 > start Task 8.
 
 ## Outcome
@@ -463,8 +467,12 @@ territory, title, and named-unit checks.
 > `29/NQ-CP@2009-06-30` now has complete secondary review, contemporaneous
 > Government and implementation press corroboration, an exact official VBPL
 > full-text/original-ZIP lead, and eight reconciled Kiên Giang components. The
-> official bytes remain blocked (`2026-09-01.01`). Continue with Resolution
-> `889/NQ-UBTVQH13@2015-03-12`; do not
+> official bytes remain blocked (`2026-09-01.01`). Resolution
+> `889/NQ-UBTVQH13@2015-03-12` now has a complete signed secondary-hosted scan,
+> expanded press corroboration, and seven reconciled whole-unit ward retypes.
+> Its legal date is 2015-03-11, while the NSO key remains the following day's
+> observation; no official enacted copy was recovered (`2026-09-01.02`).
+> Continue with Resolution `891/NQ-UBTVQH13@2015-03-12`; do not
 > start Task 8.
 
 Add a command that regenerates the coverage JSON and prints a concise audit.

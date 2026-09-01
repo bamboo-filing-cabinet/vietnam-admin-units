@@ -200,8 +200,13 @@ complete secondary review, contemporaneous Government and implementation press
 corroboration, and an exact official VBPL full-text/original-ZIP lead. Its three
 commune creations and five Giang Thành parent changes are fully linked, while
 the partial Phú Mỹ→Đông Hồ transfer is roster-invisible. The official bytes
-remain blocked by HTTP 403, so it remains `secondary_only`. Continue with
-Resolution `889/NQ-UBTVQH13@2015-03-12`. Do
+remain blocked by HTTP 403, so it remains `secondary_only`. Resolution
+`889/NQ-UBTVQH13@2015-03-12` now has a complete signed secondary-hosted scan,
+expanded contemporaneous and retrospective press review, and all seven
+same-code ward retypes reconciled. Its legal issue/effective date is
+2015-03-11; the NSO date remains the observation key. No official-hosted
+enacted copy was recovered, so it remains `secondary_only`. Continue with
+Resolution `891/NQ-UBTVQH13@2015-03-12`. Do
 **not** start Task 8 or promote secondary evidence to primary merely to close
 the count.
 
@@ -280,6 +285,10 @@ recorded in
 Resolution 29's official ZIP lead, Giang Thành topology, legal/observation date
 distinction, and supplied-source review are recorded in
 [`2026-09-01.01`](docs/journals/2026-09-01.01.ward-secondary-provenance-29-nq-cp.md).
+Resolution 889's signed secondary scan, seven whole-unit ward retypes,
+legal/observation date distinction, and expanded supplied-source review are
+recorded in
+[`2026-09-01.02`](docs/journals/2026-09-01.02.ward-secondary-provenance-889-dien-ban.md).
 The later graph-building slice remains gated: only after Task 7 passes should
 the observations and resolved events be promoted into canonical ward entities
 and `LineageEdge` records. Do not emit or upload ward Wikidata statements yet.

@@ -335,7 +335,11 @@ assemblies need non-GSO sources.
   reconciled (`2026-08-31.14`). Resolution `29/NQ-CP@2009-06-30` now has a
   complete secondary review, contemporaneous press corroboration, an exact
   official VBPL full-text/original-ZIP lead, and eight reconciled Kiên Giang
-  components. The official bytes remain blocked (`2026-09-01.01`). Full
+  components. The official bytes remain blocked (`2026-09-01.01`). Resolution
+  `889/NQ-UBTVQH13@2015-03-12` now has a complete signed secondary-hosted scan,
+  expanded press corroboration, and seven fully reconciled same-code ward
+  retypes. Its legal date is 2015-03-11, one day before the NSO observation
+  key; no official enacted copy was recovered (`2026-09-01.02`). Full
   2002→present provenance is not yet closed. The next graph-building slice—
   promotion into canonical ward entities/`LineageEdge` records—remains gated
   behind Task 7, and Wikidata emission remains a later gate.
