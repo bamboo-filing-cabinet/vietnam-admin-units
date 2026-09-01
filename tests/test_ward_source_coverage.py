@@ -225,6 +225,7 @@ def test_real_locked_baseline_builds_deterministically():
     }
     assert summary["change_bearing_source_open_instruments"] == 29
     assert summary["primary_source_open_instruments"] == 29
+    assert summary["accepted_bounded_source_residue_instruments"] == 29
     assert summary["verified_index_identity_mismatches"] == 2
     assert summary["official_source_matches"] == 418
     assert summary["official_source_not_found"] == 31
@@ -233,11 +234,13 @@ def test_real_locked_baseline_builds_deterministically():
     assert summary["events"] == 179
     assert summary["crosswalk_supported_events"] == 178
     assert summary["crosswalk_residue_events"] == 1
-    assert coverage["scope"]["next_task"] == 7
-    assert coverage["scope"]["status"] == "source_audit_complete_bounded_residue"
-    assert coverage["scope"]["source_gate_status"] == "open"
+    assert coverage["scope"]["next_task"] == 8
+    assert coverage["scope"]["status"] == (
+        "source_audit_complete_accepted_bounded_residue"
+    )
+    assert coverage["scope"]["source_gate_status"] == "accepted_bounded_residue"
     assert coverage["residue"]["event_inventory_status"] == (
-        "complete_source_audit_bounded_residue"
+        "complete_source_audit_accepted_bounded_residue"
     )
     assert coverage["source_floor_evidence"] == {
         "endpoint_interval": {
@@ -265,8 +268,8 @@ def test_real_locked_baseline_builds_deterministically():
         },
     }
     assert format_audit(coverage) == (
-        "ward source audit: OPEN — 418/449 official; 29 primary-source open; "
-        "29 change-bearing open\n"
+        "ward source audit: ACCEPTED_BOUNDED_RESIDUE — 418/449 official; "
+        "29 primary-source open; 29 change-bearing open\n"
         "source floor verdict: no_endpoint_state_difference_observed — "
         "2002-01-01 and 2004-01-01 are identical; transient intra-interval "
         "changes are not excluded"
@@ -297,6 +300,7 @@ def test_real_locked_baseline_builds_deterministically():
     assert "`721/NQ-UBTVQH15@2023-04-10`" not in open_note
     assert "`460/NQ-UBTVQH14@2017-12-13`" not in open_note
     assert "TVPL links are included only to confirm identity" in open_note
+    assert "accepted as bounded source residue" in open_note
     assert "commit `89107d0` recorded **39 open instruments**" in open_note
     assert open_note.count("Official lead (not yet archived)") == 31
     assert open_note.count("Official attachment lead (not yet archived)") == 5

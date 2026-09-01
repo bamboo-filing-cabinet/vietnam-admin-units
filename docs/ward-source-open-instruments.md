@@ -3,6 +3,7 @@
 Generated from `data/ward-source-coverage.json` by `vn_admin_units.ward_source_coverage --open-note`.
 
 Current audit: **29 primary-source-open instruments**; **29 are tied to observed ward changes**.
+All change-bearing items below are accepted as bounded source residue for historical graph construction. They remain primary-source-open and must not be relabeled as official evidence.
 
 ## Queue history
 

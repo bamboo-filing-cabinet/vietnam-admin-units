@@ -205,13 +205,15 @@ remain blocked by HTTP 403, so it remains `secondary_only`. Resolution
 expanded contemporaneous and retrospective press review, and all seven
 same-code ward retypes reconciled. Its legal issue/effective date is
 2015-03-11; the NSO date remains the observation key. No official-hosted
-enacted copy was recovered, so it remains `secondary_only`. Continue with
-targeted official-artifact recovery; all 29 primary-source-open instruments
-have now received bounded reviews, so do not loop back through the secondary
-review sequence. Do **not** start Task 8 or promote secondary evidence to
-primary merely to close the count.
+enacted copy was recovered, so it remains `secondary_only`. All 29 primary-
+source-open instruments have received bounded reviews and are now explicitly
+accepted as bounded source residue for historical graph construction. They
+remain primary-source-open; none was promoted to official evidence. Task 8 is
+complete in `data/ward-history.json`. Continue official-artifact recovery only
+when a concrete lead is available, and keep Wikidata reconciliation and
+emission separately gated.
 
-Read the current [shutdown handoff](docs/journals/2026-08-30.01.ward-source-audit-handoff.md),
+Read the current [graph handoff](docs/journals/2026-09-01.03.ward-history-graph.md),
 the generated [open-instrument checklist](docs/ward-source-open-instruments.md),
 and the source-closure
 [`plan`](docs/plans/2026-08-28-phase3-ward-historical-source-closure.md).
@@ -425,7 +427,9 @@ maps almost one-to-one onto Wikidata (`P571`/`P576`/`P7888`/`P1365`/`P1366`/
   (Wikidata QIDs + `--audit`) · `constraints` (pre-upload gate) · `emit`
   (QuickStatements) · `ward_rescue` (resumable raw ward SOAP preservation) ·
   `ward_model` (verified 2025 boundary observations + primary-link evidence) ·
-  `cli` (`cache_snapshots`, `build_all`, `build_wards_2025_boundary_all`).
+  `ward_history` (canonical 2002-present ward graph) · `cli`
+  (`cache_snapshots`, `build_all`, `build_wards_2025_boundary_all`,
+  `build_ward_history_all`).
 - `data/raw/` — exact source content, stored verbatim or in deterministic lossless
   gzip, + `manifest.jsonl` (artifact and decoded-content hashes); `crosswalk/`
   (23 district windows); `nghidinh.json` (cached Nghị định list, 544 recs). `data/` —
@@ -444,6 +448,7 @@ maps almost one-to-one onto Wikidata (`P571`/`P576`/`P7888`/`P1365`/`P1366`/
 uv run python -m vn_admin_units.cli                 # refresh raw cache + snapshots
 uv run python -c "from vn_admin_units.cli import build_all; build_all()"   # rebuild batch
 uv run python -c "from vn_admin_units.cli import build_wards_2025_boundary_all; build_wards_2025_boundary_all()"
+uv run python -m vn_admin_units.ward_history --check --audit
 uv run python -m vn_admin_units.reconcile           # (re)reconcile provinces -> QIDs (resumable)
 uv run python -m vn_admin_units.reconcile --audit   # correctness gate (required before upload)
 uv run python -m vn_admin_units.constraints         # check WD property constraints

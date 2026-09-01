@@ -93,6 +93,15 @@
 > after the source audit closes should historical records be promoted into canonical
 > entities/`LineageEdge` objects. Wikidata emission remains gated.
 
+> **Update (2026-09-01): historical graph complete with accepted source
+> residue.** All 29 remaining primary-source-open instruments received bounded
+> review and were explicitly accepted for graph construction without being
+> reclassified as primary. `data/ward-history.json` now contains 14,544
+> era-scoped ward entities and 10,603 lineage edges, including the complete
+> 10,586-edge 2025 composition. Wikidata reconciliation and emission remain
+> unstarted and separately gated. See
+> `docs/journals/2026-09-01.03.ward-history-graph.md`.
+
 Extends `DESIGN.md` (the overarching design + decisions log). **Phase 1**
 delivered the *2025-reform province slice* (`docs/plans/2026-07-10-phase1-
 province-wikidata.md`). **Phase 2** is everything needed to reach the full

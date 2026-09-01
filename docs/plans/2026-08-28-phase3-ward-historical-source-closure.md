@@ -128,8 +128,12 @@ re-scrape it.
 > Its legal date is 2015-03-11, while the NSO key remains the following day's
 > observation; no official enacted copy was recovered (`2026-09-01.02`).
 > All 29 primary-source-open instruments have now received bounded reviews.
-> Continue only with targeted official-artifact recovery; do not repeat the
-> secondary-review sequence or start Task 8.
+> On 2026-09-01 the maintainer accepted those 29 items as bounded source
+> residue for graph construction without changing their `missing` or
+> `secondary_only` classifications. Task 8 is complete; see
+> `docs/journals/2026-09-01.03.ward-history-graph.md`. Continue official-
+> artifact recovery only from concrete leads and do not repeat the secondary-
+> review sequence.
 
 ## Outcome
 
@@ -474,8 +478,10 @@ territory, title, and named-unit checks.
 > Its legal date is 2015-03-11, while the NSO key remains the following day's
 > observation; no official enacted copy was recovered (`2026-09-01.02`).
 > All 29 primary-source-open instruments have now received bounded reviews.
-> Continue only with targeted official-artifact recovery; do not repeat the
-> secondary-review sequence or start Task 8.
+> The maintainer accepted this exact set as bounded source residue on
+> 2026-09-01. This is an explicit exception to the strict all-primary gate, not
+> a source reclassification: all 29 remain primary-source-open and are carried
+> into graph provenance. Task 8 is now complete.
 
 Add a command that regenerates the coverage JSON and prints a concise audit.
 Write a dated completion journal containing final counts, reviewed exceptions,
@@ -501,6 +507,13 @@ record a bounded residue. Do not redefine a secondary page as primary merely to
 reach zero.
 
 ### Task 8 — build the historical ward graph
+
+> **Completed 2026-09-01.** `data/ward-history.json` contains 14,544
+> era-scoped entities and 10,603 lineage edges, including all 10,586 edges from
+> the complete 2025 composition. It has zero dangling, duplicate, or self
+> edges. Pre-2025 topology that cannot be proved from retained structured
+> evidence remains explicit residue. See
+> `docs/journals/2026-09-01.03.ward-history-graph.md`.
 
 After Task 7 passes, promote the observations and resolved events into
 era-scoped canonical ward entities and `core.LineageEdge` records. Reuse the

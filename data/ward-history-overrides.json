@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "code_transition_pairs": [
+    {
+      "old_code": "4070733",
+      "new_code": "19054",
+      "name_vi": "Xã Quảng Trường",
+      "reason": "Exact name and district-context pair omitted from all retained 2004 crosswalk views"
+    },
+    {
+      "old_code": "4070747",
+      "new_code": "19048",
+      "name_vi": "Xã Cảnh Hóa",
+      "reason": "Exact name and district-context pair omitted from all retained 2004 crosswalk views"
+    },
+    {
+      "old_code": "8090709",
+      "new_code": "29773",
+      "name_vi": "Xã Tân Hưng",
+      "reason": "Exact name and district-context pair omitted from all retained 2004 crosswalk views"
+    },
+    {
+      "old_code": "8090727",
+      "new_code": "29803",
+      "name_vi": "Xã Tân Quới",
+      "reason": "Exact name and district-context pair omitted from all retained 2004 crosswalk views"
+    }
+  ],
+  "unmapped_predecessors": [
+    {
+      "old_code": "2011715",
+      "name_vi": "Xã Ngán Chiên",
+      "reason": "The 2002 SOAP roster duplicates the full observed identity of code 2011711; the retained crosswalk gives 2011711 the same-name successor 01117 and leaves 2011715 base-only, so no successor identity is asserted"
+    }
+  ]
+}

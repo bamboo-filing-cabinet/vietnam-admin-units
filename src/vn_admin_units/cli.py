@@ -228,6 +228,20 @@ def build_wards_2025_boundary_all() -> None:
     )
 
 
+def build_ward_history_all() -> None:
+    """OFFLINE: assemble the canonical 2002-present ward observation graph.
+
+    The build requires the source ledger's explicit bounded-residue acceptance,
+    preserves that residue without promoting it to primary provenance, and
+    reuses the complete 2025 composition artifact for reform lineage.
+    """
+    from vn_admin_units.ward_history import format_audit, write_ward_history
+
+    path = write_ward_history()
+    artifact = json.loads(path.read_text(encoding="utf-8"))
+    print(format_audit(artifact))
+
+
 def event_statements_missing_reference(qs: str, root_url: str) -> list:
     """Every EVENT-DRIVEN statement that must cite its establishing resolution (design §3) whose
     S854 reference is NOT a real URL. Covered: succession/separation (P7888/P1366/P1365/P807), ALL

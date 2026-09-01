@@ -39266,6 +39266,8 @@
     "manifest_sha256": "7ff697d2242293702230dc5b9dc8a6a73da128b00d6cb5c87e13c351791dbb4a",
     "observed_changes_path": "data/ward-observed-changes.json",
     "observed_changes_sha256": "91f441b73d9489c30e26e4a1c585600fcf435b0648a4f87ad4bc86aa9ca9d1df",
+    "source_acceptance_path": "data/ward-source-acceptance.json",
+    "source_acceptance_sha256": "5917d06073681493d988c5ab30de047716dbc928930c6b45c453f39cd48f5601",
     "ward_2025_composition_path": "data/ward-2025-composition.json",
     "ward_2025_composition_sha256": "d17b6cdf4033c9b740db4b270452daaead15e025566013c125f94f3896efb7e9"
   },
@@ -73461,6 +73463,37 @@
     }
   ],
   "residue": {
+    "accepted_source_residue_instrument_ids": [
+      "07/NĐ-CP@2009-01-07",
+      "08/NĐ-CP@2009-01-07",
+      "10/NĐ-CP@2009-01-07",
+      "11/NĐ-CP@2009-01-07",
+      "12/NĐ-CP@2009-01-07",
+      "14/NĐ-CP@2009-04-11",
+      "29/2006/NĐ-CP@2006-04-07",
+      "29/NQ-CP@2009-06-30",
+      "34/2006/NĐ-CP@2006-04-15",
+      "368/NQ-UBTVQH14@2017-04-19",
+      "39/2006/NĐ-CP@2006-05-06",
+      "422/NQ-UBTVQH14@2017-08-18",
+      "469/NQ-UBTVQH15@2022-04-10",
+      "60/2006/NĐ-CP@2006-07-04",
+      "64/2006/NĐ-CP@2006-07-08",
+      "820/NQ-UBTVQH14@2020-01-01",
+      "84/2005-NĐ-CP@2005-07-22",
+      "85/2005/NĐ-CP@2005-07-22",
+      "889/NQ-UBTVQH13@2015-03-12",
+      "891/NQ-UBTVQH13@2015-03-12",
+      "892/NQ-UBTVQH13@2015-03-12",
+      "903/NQ-NBTVQH13@2015-04-11",
+      "930/NQ-UBTVQH13@2015-05-16",
+      "932/NQ-UBTVQH13@2015-05-16",
+      "933/NQ-UBTVQH13@2015-05-16",
+      "934/NQ-UBTVQH13@2015-05-16",
+      "935/NQ-UBTVQH13@2015-05-16",
+      "97/2005/NĐ-CP@2005-08-10",
+      "98/2005/NĐ-CP@2005-08-10"
+    ],
     "change_bearing_source_open_instrument_ids": [
       "07/NĐ-CP@2009-01-07",
       "08/NĐ-CP@2009-01-07",
@@ -73528,7 +73561,7 @@
         ]
       }
     ],
-    "event_inventory_status": "complete_source_audit_bounded_residue",
+    "event_inventory_status": "complete_source_audit_accepted_bounded_residue",
     "legal_unlinked_event_ids": [],
     "primary_source_open_instrument_ids": [
       "84/2005-NĐ-CP@2005-07-22",
@@ -73561,16 +73594,53 @@
       "820/NQ-UBTVQH14@2020-01-01",
       "469/NQ-UBTVQH15@2022-04-10"
     ],
-    "source_gate_status": "open",
+    "source_acceptance": {
+      "accepted_instrument_ids": [
+        "84/2005-NĐ-CP@2005-07-22",
+        "85/2005/NĐ-CP@2005-07-22",
+        "97/2005/NĐ-CP@2005-08-10",
+        "98/2005/NĐ-CP@2005-08-10",
+        "29/2006/NĐ-CP@2006-04-07",
+        "34/2006/NĐ-CP@2006-04-15",
+        "39/2006/NĐ-CP@2006-05-06",
+        "60/2006/NĐ-CP@2006-07-04",
+        "64/2006/NĐ-CP@2006-07-08",
+        "07/NĐ-CP@2009-01-07",
+        "08/NĐ-CP@2009-01-07",
+        "10/NĐ-CP@2009-01-07",
+        "11/NĐ-CP@2009-01-07",
+        "12/NĐ-CP@2009-01-07",
+        "14/NĐ-CP@2009-04-11",
+        "29/NQ-CP@2009-06-30",
+        "889/NQ-UBTVQH13@2015-03-12",
+        "891/NQ-UBTVQH13@2015-03-12",
+        "892/NQ-UBTVQH13@2015-03-12",
+        "903/NQ-NBTVQH13@2015-04-11",
+        "930/NQ-UBTVQH13@2015-05-16",
+        "932/NQ-UBTVQH13@2015-05-16",
+        "933/NQ-UBTVQH13@2015-05-16",
+        "934/NQ-UBTVQH13@2015-05-16",
+        "935/NQ-UBTVQH13@2015-05-16",
+        "368/NQ-UBTVQH14@2017-04-19",
+        "422/NQ-UBTVQH14@2017-08-18",
+        "820/NQ-UBTVQH14@2020-01-01",
+        "469/NQ-UBTVQH15@2022-04-10"
+      ],
+      "decision": "accept_bounded_secondary_provenance",
+      "decision_date": "2026-09-01",
+      "policy": "Permit historical graph construction while preserving every unrecovered official artifact as explicit residue. Secondary evidence is never reclassified as primary and is not automatically suitable for Wikidata references.",
+      "schema_version": 1
+    },
+    "source_gate_status": "accepted_bounded_residue",
     "unclassified_instrument_ids": []
   },
-  "schema_version": 7,
+  "schema_version": 8,
   "scope": {
     "as_of": "2026-08-27",
-    "next_task": 7,
+    "next_task": 8,
     "source_floor": "2002-01-01",
-    "source_gate_status": "open",
-    "status": "source_audit_complete_bounded_residue",
+    "source_gate_status": "accepted_bounded_residue",
+    "status": "source_audit_complete_accepted_bounded_residue",
     "tier": "ward"
   },
   "source_floor_evidence": {
@@ -73594,6 +73664,7 @@
     "verdict": "no_endpoint_state_difference_observed"
   },
   "summary": {
+    "accepted_bounded_source_residue_instruments": 29,
     "change_bearing_source_open_instruments": 29,
     "classified_instruments": 449,
     "classified_legal_index_rows": 453,

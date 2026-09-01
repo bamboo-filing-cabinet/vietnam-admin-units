@@ -38,6 +38,7 @@ OBSERVED_CHANGES = Path("data/ward-observed-changes.json")
 RECONCILIATION = Path("data/ward-crosswalk-reconciliation.json")
 LEGAL_SOURCES = Path("data/ward-legal-sources.json")
 OFFICIAL_LEADS = Path("data/ward-legal-official-leads.json")
+SOURCE_ACCEPTANCE = Path("data/ward-source-acceptance.json")
 OUTPUT = Path("data/ward-source-coverage.json")
 OPEN_NOTE = Path("docs/ward-source-open-instruments.md")
 
@@ -216,6 +217,18 @@ def _load_legal_registry(path: Path) -> tuple[dict, dict]:
     if len(indexed) != len(instruments):
         raise ValueError("legal source registry contains duplicate instrument IDs")
     return registry, indexed
+
+
+def _load_source_acceptance(path: Path) -> dict:
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    if payload.get("schema_version") != 1:
+        raise ValueError("unsupported ward source-acceptance schema")
+    if payload.get("decision") != "accept_bounded_secondary_provenance":
+        raise ValueError("unsupported ward source-acceptance decision")
+    accepted = payload.get("accepted_instrument_ids", [])
+    if len(accepted) != len(set(accepted)):
+        raise ValueError("ward source acceptance contains duplicate instrument IDs")
+    return payload
 
 
 def _secondary_registry_sources(item: dict) -> list[dict]:
@@ -595,7 +608,8 @@ def build_coverage(*, manifest_path: Path = MANIFEST,
                    legal_index_path: Path = LEGAL_INDEX,
                    observed_changes_path: Path = OBSERVED_CHANGES,
                    reconciliation_path: Path = RECONCILIATION,
-                   legal_sources_path: Path = LEGAL_SOURCES) -> dict:
+                   legal_sources_path: Path = LEGAL_SOURCES,
+                   source_acceptance_path: Path = SOURCE_ACCEPTANCE) -> dict:
     """Build and validate the offline source and observed-event ledger."""
     manifest = _load_manifest(manifest_path)
     legal_records = json.loads(legal_index_path.read_text(encoding="utf-8"))
@@ -686,8 +700,21 @@ def build_coverage(*, manifest_path: Path = MANIFEST,
         if link["component_count"]
         and link["source_status"] not in _CLOSED_SOURCE_STATUSES
     })
+    source_acceptance = _load_source_acceptance(source_acceptance_path)
+    accepted_source_residue = sorted(source_acceptance["accepted_instrument_ids"])
+    if accepted_source_residue != change_bearing_source_open:
+        missing = sorted(set(change_bearing_source_open) - set(accepted_source_residue))
+        extra = sorted(set(accepted_source_residue) - set(change_bearing_source_open))
+        raise ValueError(
+            "ward source acceptance does not exactly cover change-bearing residue: "
+            f"missing={missing}, extra={extra}"
+        )
     source_floor_evidence = _source_floor_evidence(soap, events)
-    source_gate_status = "open" if change_bearing_source_open else "pass"
+    source_gate_status = (
+        "accepted_bounded_residue"
+        if change_bearing_source_open
+        else "pass"
+    )
 
     summary = {
         "soap_artifacts": len(soap["artifacts"]),
@@ -714,6 +741,7 @@ def build_coverage(*, manifest_path: Path = MANIFEST,
         "context_only_components": linkage["summary"]["context_only_components"],
         "change_bearing_source_open_instruments": len(change_bearing_source_open),
         "primary_source_open_instruments": len(primary_source_open),
+        "accepted_bounded_source_residue_instruments": len(accepted_source_residue),
         "verified_index_identity_mismatches": sum(
             instrument["source_status"] == "invalid_index_identity_verified"
             for instrument in instruments
@@ -740,18 +768,18 @@ def build_coverage(*, manifest_path: Path = MANIFEST,
     _require("SOAP missing parents", soap["missing_parent_codes"], 0)
 
     return {
-        "schema_version": 7,
+        "schema_version": 8,
         "scope": {
             "tier": "ward",
             "source_floor": SOURCE_FLOOR,
             "as_of": AS_OF,
             "status": (
-                "source_audit_complete_bounded_residue"
-                if source_gate_status == "open"
+                "source_audit_complete_accepted_bounded_residue"
+                if source_gate_status == "accepted_bounded_residue"
                 else "source_audit_complete"
             ),
             "source_gate_status": source_gate_status,
-            "next_task": 7 if source_gate_status == "open" else 8,
+            "next_task": 8,
         },
         "source_floor_evidence": source_floor_evidence,
         "input_fingerprints": {
@@ -765,6 +793,8 @@ def build_coverage(*, manifest_path: Path = MANIFEST,
             "crosswalk_reconciliation_sha256": reconciliation["sha256"],
             "legal_sources_path": legal_sources_path.as_posix(),
             "legal_sources_sha256": _sha256(legal_sources_path),
+            "source_acceptance_path": source_acceptance_path.as_posix(),
+            "source_acceptance_sha256": _sha256(source_acceptance_path),
             "legal_linkage_overrides_path": LEGAL_LINKAGE_OVERRIDES.as_posix(),
             "legal_linkage_overrides_sha256": _sha256(LEGAL_LINKAGE_OVERRIDES),
             "ward_2025_composition_path": COMPOSITION_2025.as_posix(),
@@ -790,8 +820,14 @@ def build_coverage(*, manifest_path: Path = MANIFEST,
         "supplemental_legal_instruments": linkage["supplemental_instruments"],
         "events": events,
         "residue": {
-            "event_inventory_status": "complete_source_audit_bounded_residue",
+            "event_inventory_status": (
+                "complete_source_audit_accepted_bounded_residue"
+                if source_gate_status == "accepted_bounded_residue"
+                else "complete_source_audit"
+            ),
             "source_gate_status": source_gate_status,
+            "accepted_source_residue_instrument_ids": accepted_source_residue,
+            "source_acceptance": source_acceptance,
             "crosswalk_residue_event_ids": [
                 event["event_id"] for event in events
                 if event["crosswalk_status"] == "crosswalk_residue_legal_classification_pending"
@@ -886,6 +922,11 @@ def render_open_source_note(
         (
             f"Current audit: **{len(instruments)} primary-source-open instruments**; "
             f"**{len(change_bearing_ids)} are tied to observed ward changes**."
+        ),
+        (
+            "All change-bearing items below are accepted as bounded source residue "
+            "for historical graph construction. They remain primary-source-open and "
+            "must not be relabeled as official evidence."
         ),
         "",
         "## Queue history",
