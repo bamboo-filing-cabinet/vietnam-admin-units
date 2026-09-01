@@ -26,3 +26,22 @@ def fold_district_name(s: str) -> str:
     s = "".join(c for c in unicodedata.normalize("NFD", s)
                 if unicodedata.category(c) != "Mn")
     return re.sub(r"[^a-z0-9]", "", s.replace("đ", "d"))    # alnum key: no spaces/apostrophes/hyphens
+
+
+def fold_ward_name(s: str) -> str:
+    """Fold a ward-tier name while preserving the identity-bearing place name.
+
+    Wikidata labels frequently omit ``Xã``/``Phường``/``Thị trấn``/``Đặc khu``
+    or add a parenthetical disambiguator. Type and parent are checked as
+    separate reconciliation evidence, so neither belongs in the name key.
+    """
+    s = re.sub(
+        r"^(xã|phường|thị trấn|đặc khu)\s+", "", s.strip(),
+        flags=re.IGNORECASE,
+    )
+    s = re.sub(r"\s*\([^)]*\)\s*$", "", s).lower()
+    s = "".join(
+        char for char in unicodedata.normalize("NFD", s)
+        if unicodedata.category(char) != "Mn"
+    )
+    return re.sub(r"[^a-z0-9]", "", s.replace("đ", "d"))

@@ -1,0 +1,37 @@
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT
+  ?item
+  (GROUP_CONCAT(DISTINCT STR(?type); separator="␟") AS ?types)
+  (SAMPLE(?rawViLabel) AS ?viLabel)
+  (SAMPLE(?rawEnLabel) AS ?enLabel)
+  (GROUP_CONCAT(DISTINCT STR(?alias); separator="␟") AS ?aliases)
+  (GROUP_CONCAT(DISTINCT STR(?parent); separator="␟") AS ?parents)
+WHERE {
+  VALUES ?type {
+    wd:Q2389082
+    wd:Q687188
+    wd:Q1070942
+    wd:Q134999516
+  }
+  ?item wdt:P31 ?type .
+
+  OPTIONAL {
+    ?item rdfs:label ?rawViLabel .
+    FILTER(LANG(?rawViLabel) = "vi")
+  }
+  OPTIONAL {
+    ?item rdfs:label ?rawEnLabel .
+    FILTER(LANG(?rawEnLabel) = "en")
+  }
+  OPTIONAL {
+    ?item skos:altLabel ?alias .
+    FILTER(LANG(?alias) IN ("vi", "en"))
+  }
+  OPTIONAL { ?item wdt:P131 ?parent . }
+}
+GROUP BY ?item
+ORDER BY ?item

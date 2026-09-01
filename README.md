@@ -28,7 +28,7 @@ vietnam-elections     vietnam-elections-wikidata
 2. **Set up + verify:**
    ```sh
    uv sync
-   uv run pytest -q                          # 203 tests pass
+   uv run pytest -q                          # 222 tests pass
    ```
 
    **Phases 1 and 2 are complete and uploaded to Wikidata (provinces + districts).** The next work is **Phase 3 (wards)** — read the "Phase 2" block under [Status](#status) for the post-upload verification step and the roadmap pointer.
@@ -88,17 +88,31 @@ independent geo cross-check (P625 kNN) confirmed **0 wrong-place matches**. Buil
 *accepted* Ninh Bình → Hoa Lư successor-relabel; the 3 Tier-B TYPE flags cleared (batch #261331 stamped
 `P31`=huyện). Independent geo cross-check (P625 kNN): **0 wrong-place matches**. **Phase 2 fully verified.**
 
-**◀◀ RESUME HERE — Phase 3: wards (xã / phường, commune tier, NA16).** Provinces
+**◀◀ RESUME HERE — Phase 3: ward Wikidata mapping review.** Provinces
 (Phase 1) and districts (Phase 2) are complete + live on Wikidata with **no open
 work**. The 2025 ward boundary and full predecessor→successor topology are
 complete offline. Historical source-closure Tasks 1–6 are also complete: all
 204 SOAP snapshots, 39 crosswalks, 179 observed-change events, 453 candidate
 legal rows, and 449 unique instruments are deterministically inventoried,
 classified, and linked with zero unclassified instruments or legally unlinked
-observed events.
+observed events. Tasks 7 and 8 are complete with the 29 reviewed
+primary-source-open instruments accepted as bounded graph-construction residue.
 
-**Resume at Task 7: close the remaining official-source residue one instrument
-at a time.** The current audit is **418/449 official**, with **29
+The read-only Wikidata discovery snapshot is also complete: one saved QLever
+query produced 11,838 candidates in 739 ms, local parent prefiltering reduced
+Action API verification to 2,878 items in 58 batches, and 2,395 of 3,321 current
+wards matched with zero structural issues. **Resume with review of the 926
+unassigned current rows** (230 ambiguous, 416 needs review, 280 needs lookup).
+No Wikidata statements have been emitted. See the
+[reconciliation journal](docs/journals/2026-09-01.05.ward-wikidata-reconciliation.md)
+and run:
+
+```sh
+uv run python -m vn_admin_units.ward_reconcile --check --audit
+```
+
+**Task 7 review log (historical):** At its final strict-primary checkpoint the
+audit was **418/449 official**, with **29
 primary-source-open instruments**: 4 `missing` and 25 `secondary_only`; **all
 29 are change-bearing**. The registry preserves 411 official attachments and 829
 official artifacts. Decree `84/2005-NĐ-CP@2005-07-22` (Thuận Bắc, Ninh Thuận)

@@ -98,9 +98,11 @@
 > review and were explicitly accepted for graph construction without being
 > reclassified as primary. `data/ward-history.json` now contains 14,544
 > era-scoped ward entities and 10,603 lineage edges, including the complete
-> 10,586-edge 2025 composition. Wikidata reconciliation and emission remain
-> unstarted and separately gated. See
-> `docs/journals/2026-09-01.03.ward-history-graph.md`.
+> 10,586-edge 2025 composition. A read-only Wikidata snapshot now maps 2,395 of
+> 3,321 current wards and leaves 926 explicitly queued for review; emission
+> remains unstarted and separately gated. See
+> `docs/journals/2026-09-01.03.ward-history-graph.md` and
+> `docs/journals/2026-09-01.05.ward-wikidata-reconciliation.md`.
 
 Extends `DESIGN.md` (the overarching design + decisions log). **Phase 1**
 delivered the *2025-reform province slice* (`docs/plans/2026-07-10-phase1-
