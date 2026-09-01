@@ -934,6 +934,13 @@ def test_real_legal_index_includes_2026_acceptance_and_reuses_34_pairs():
     )
     assert secondary["11/NĐ-CP@2009-01-07"] == [thanh_hoa_url]
     assert secondary["11/NĐ-CP@2009-04-01"] == [ha_giang_url]
+    can_tho_url = (
+        "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/"
+        "Nghi-dinh-12-ND-CP-dieu-chinh-dia-gioi-hanh-chinh-xa-thanh-lap-"
+        "thuoc-huyen-Thot-Not-Vinh-Thanh-Co-Do-quan-Thoi-Lai-thanh-pho-"
+        "Can-Tho-84050.aspx"
+    )
+    assert secondary["12/NĐ-CP"] == [can_tho_url]
     assert secondary["85/2005/NĐ-CP"] == [
         "https://thuvienphapluat.vn/van-ban/Bat-dong-san/"
         "Nghi-dinh-85-2005-ND-CP-thanh-lap-xa-thuoc-huyen-Nui-Thanh-"

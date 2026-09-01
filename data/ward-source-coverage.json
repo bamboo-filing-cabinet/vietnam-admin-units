@@ -7554,8 +7554,19 @@
       "legal_evidence": {
         "classification": "mixed_structural_event",
         "component_assignment_counts": {
-          "component_linked_to_instrument": 66,
-          "same_date_legal_context_only": 17
+          "component_linked_to_instrument": 67,
+          "same_date_legal_context_only": 16
+        },
+        "component_assignment_overrides": {
+          "soap:2009-01-01->2009-01-07#addition:31217": {
+            "instrument_id": "12/NĐ-CP@2009-01-07",
+            "matching_factors": [
+              "effective_date_inside_observation_interval",
+              "official_full_text_named_unit",
+              "official_full_text_source_territories"
+            ],
+            "review_note": "Article 1, Part II, point 2(d) of Decree 12/NĐ-CP creates Phường Thạnh Hòa from portions of Xã Trung Nhứt and Xã Trung An. Crosswalk row 69 instead carries the later 2025 Resolution 1668 citation, so the complete official text supplies the reviewed event assignment."
+          }
         },
         "component_classification_counts": {
           "lineage": 33,
@@ -7563,7 +7574,6 @@
           "rename_or_retype": 11
         },
         "context_only_component_ids": [
-          "soap:2009-01-01->2009-01-07#addition:31217",
           "soap:2009-01-01->2009-01-07#same_code:08776",
           "soap:2009-01-01->2009-01-07#same_code:08779",
           "soap:2009-01-01->2009-01-07#same_code:08782",
@@ -7702,11 +7712,11 @@
           {
             "classification": "lineage",
             "component_classifications": {
-              "lineage": 8,
+              "lineage": 9,
               "parent_or_boundary_only": 13,
               "rename_or_retype": 8
             },
-            "component_count": 29,
+            "component_count": 30,
             "crosswalk_row_ids": [
               "crosswalk/ward_2009-01-01_2010-01-01.xls#row=10749",
               "crosswalk/ward_2009-01-01_2010-01-01.xls#row=10750",
@@ -7730,6 +7740,7 @@
               "crosswalk/ward_2009-01-01_2010-01-01.xls#row=10781",
               "crosswalk/ward_2009-01-01_2010-01-01.xls#row=10782",
               "crosswalk/ward_2009-01-01_2010-01-01.xls#row=68",
+              "crosswalk/ward_2009-01-01_2010-01-01.xls#row=69",
               "crosswalk/ward_2009-01-01_2010-01-01.xls#row=70",
               "crosswalk/ward_2009-01-01_2010-01-01.xls#row=71",
               "crosswalk/ward_2009-01-01_2010-01-01.xls#row=72",
@@ -7743,6 +7754,8 @@
             "matching_factors": [
               "crosswalk_document_code",
               "effective_date_inside_observation_interval",
+              "official_full_text_named_unit",
+              "official_full_text_source_territories",
               "title_named_unit",
               "title_territory_or_named_unit"
             ],
@@ -39240,7 +39253,7 @@
     "legal_index_path": "data/raw/nghidinh.json",
     "legal_index_sha256": "2d141ae52886f78bf476defe6f8275ea31a910d3c1f65288a1e8b067924756fb",
     "legal_linkage_overrides_path": "data/ward-legal-linkage-overrides.json",
-    "legal_linkage_overrides_sha256": "227e5e03b67fff76b5139bdef15f1736708d364efe5503485bf21f8c37de3eeb",
+    "legal_linkage_overrides_sha256": "61299d71b57ac8a9c173765d81cd7fe67e222ed2ede97d61df17a6a79d8c9afe",
     "legal_sources_path": "data/ward-legal-sources.json",
     "legal_sources_sha256": "d9b6309313268907d4ebed9a6d7484fdd8a28f14ad8d6c7bc5cd59aaaf97dea1",
     "manifest_path": "data/raw/manifest.jsonl",
@@ -73505,13 +73518,13 @@
     "classified_legal_index_rows": 453,
     "component_assignment_counts": {
       "code_scheme_transition": 21287,
-      "component_linked_to_instrument": 3902,
+      "component_linked_to_instrument": 3903,
       "resolution_clause_or_edge": 9913,
-      "same_date_legal_context_only": 119,
+      "same_date_legal_context_only": 118,
       "stale_source_record_retired_at_parent_boundary": 2,
       "unchanged_successor_province_scope": 127
     },
-    "context_only_components": 119,
+    "context_only_components": 118,
     "crosswalk_residue_events": 1,
     "crosswalk_supported_events": 178,
     "duplicate_instrument_keys": 4,

@@ -144,7 +144,8 @@ def _source_only_reason(instrument: dict) -> str | None:
 
 
 def _generic_event_review(event: dict, reconciled: dict, interval: dict,
-                          eligible: list[dict], evidence_by_id: dict[str, dict]) -> dict:
+                          eligible: list[dict], evidence_by_id: dict[str, dict],
+                          override: dict | None = None) -> dict:
     observations = _observations_by_component(interval)
     assignments: dict[str, str] = {}
     methods: dict[str, set[str]] = defaultdict(set)
@@ -241,6 +242,27 @@ def _generic_event_review(event: dict, reconciled: dict, interval: dict,
         else:
             context_only.append(component_id)
 
+    reviewed_assignments = (override or {}).get("component_assignments", {})
+    component_ids = {
+        component["component_id"] for component in reconciled["components"]
+    }
+    eligible_ids = {instrument["instrument_id"] for instrument in eligible}
+    for component_id, assignment in reviewed_assignments.items():
+        instrument_id = assignment["instrument_id"]
+        if component_id not in component_ids:
+            raise ValueError(
+                f"component assignment override is absent from event: {component_id}"
+            )
+        if instrument_id not in eligible_ids:
+            raise ValueError(
+                "component assignment override names an ineligible instrument: "
+                f"{component_id} -> {instrument_id}"
+            )
+        assignments[component_id] = instrument_id
+        methods[component_id].update(assignment["matching_factors"])
+        if component_id in context_only:
+            context_only.remove(component_id)
+
     by_instrument: dict[str, list[dict]] = defaultdict(list)
     for component in reconciled["components"]:
         instrument_id = assignments.get(component["component_id"])
@@ -287,7 +309,7 @@ def _generic_event_review(event: dict, reconciled: dict, interval: dict,
         else "same_date_legal_context_only"
         for component in reconciled["components"]
     )
-    return {
+    review = {
         "classification": "mixed_structural_event",
         "status": "legal_context_classified" if context_only else "legal_topology_linked",
         "legal_instrument_ids": [instrument["instrument_id"] for instrument in eligible],
@@ -305,6 +327,9 @@ def _generic_event_review(event: dict, reconciled: dict, interval: dict,
             if context_only else ""
         ),
     }
+    if reviewed_assignments:
+        review["component_assignment_overrides"] = reviewed_assignments
+    return review
 
 
 def _scheme_transition_review(reconciled: dict, override: dict,
@@ -637,7 +662,12 @@ def build_legal_linkage(instruments: list[dict], events: list[dict],
             if not eligible:
                 raise ValueError(f"event lacks legal context: {event_id}")
             review = _generic_event_review(
-                event, reconciled, observed_by_id[event_id], eligible, evidence_by_id,
+                event,
+                reconciled,
+                observed_by_id[event_id],
+                eligible,
+                evidence_by_id,
+                overrides["event_overrides"].get(event_id),
             )
         event_reviews[event_id] = review
         for link in review["instrument_links"]:

@@ -84,8 +84,12 @@
 > attribution is a Decree 11/09 code error retained as a separate topology
 > correction target. The supplied bundle belongs to the later, already
 > official-closed Hà Giang Decree 11; date-qualified mappings keep the rows
-> separate (`2026-08-31.11`). Continue with Decree
-> `12/NĐ-CP@2009-01-07`. Only
+> separate (`2026-08-31.11`). Decree `12/NĐ-CP@2009-01-07` now has an exact
+> official VBPL full-text/original-ZIP lead, complete Cần Thơ transcription,
+> and 30 proved topology components. A reviewed override assigns Phường Thạnh
+> Hòa despite its crosswalk row's later 2025 citation; the official bytes
+> remain blocked and the legal/observation dates stay distinct
+> (`2026-08-31.12`). Continue with Decree `14/NĐ-CP@2009-04-11`. Only
 > after the source audit closes should historical records be promoted into canonical
 > entities/`LineageEdge` objects. Wikidata emission remains gated.
 

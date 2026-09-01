@@ -104,8 +104,13 @@ re-scrape it.
 > five-link bundle belongs to the later, already official-closed Hà Giang
 > Decree 11; date-qualified mappings prevent contamination. The complete text
 > also exposes the crosswalk's isolated Lãng Công Decree 11/09 citation error
-> as a separate topology correction target (`2026-08-31.11`). Continue with
-> Decree `12/NĐ-CP@2009-01-07`; do not start Task 8.
+> as a separate topology correction target (`2026-08-31.11`). Decree
+> `12/NĐ-CP@2009-01-07` now has an exact official VBPL
+> full-text/original-ZIP lead, complete Cần Thơ transcription, reviewed press
+> corroboration, and 30 proved topology components. A reviewed override links
+> Phường Thạnh Hòa despite its crosswalk row's later 2025 citation; the
+> official bytes remain blocked (`2026-08-31.12`). Continue with Decree
+> `14/NĐ-CP@2009-04-11`; do not start Task 8.
 
 ## Outcome
 
@@ -427,8 +432,13 @@ territory, title, and named-unit checks.
 > five-link bundle belongs to the later, already official-closed Hà Giang
 > Decree 11; date-qualified mappings prevent contamination. The complete text
 > also exposes the crosswalk's isolated Lãng Công Decree 11/09 citation error
-> as a separate topology correction target (`2026-08-31.11`). Continue with
-> Decree `12/NĐ-CP@2009-01-07`; do not start Task 8.
+> as a separate topology correction target (`2026-08-31.11`). Decree
+> `12/NĐ-CP@2009-01-07` now has an exact official VBPL
+> full-text/original-ZIP lead, complete Cần Thơ transcription, reviewed press
+> corroboration, and 30 proved topology components. A reviewed override links
+> Phường Thạnh Hòa despite its crosswalk row's later 2025 citation; the
+> official bytes remain blocked (`2026-08-31.12`). Continue with Decree
+> `14/NĐ-CP@2009-04-11`; do not start Task 8.
 
 Add a command that regenerates the coverage JSON and prints a concise audit.
 Write a dated completion journal containing final counts, reviewed exceptions,

@@ -79,6 +79,19 @@
       ],
       "tan_duc_component_id": "soap:2008-07-02->2008-08-03#same_code:09622",
       "review_note": "The SOAP boundary combines the delayed Tân Đức transfer under Resolution 14 with the Hà Tây/Hà Nội boundary changes under Resolution 15. Two stale ward rows disappear at the same boundary and are classified as source cleanup, not legal lineage."
+    },
+    "soap:2009-01-01->2009-01-07": {
+      "component_assignments": {
+        "soap:2009-01-01->2009-01-07#addition:31217": {
+          "instrument_id": "12/NĐ-CP@2009-01-07",
+          "matching_factors": [
+            "effective_date_inside_observation_interval",
+            "official_full_text_named_unit",
+            "official_full_text_source_territories"
+          ],
+          "review_note": "Article 1, Part II, point 2(d) of Decree 12/NĐ-CP creates Phường Thạnh Hòa from portions of Xã Trung Nhứt and Xã Trung An. Crosswalk row 69 instead carries the later 2025 Resolution 1668 citation, so the complete official text supplies the reviewed event assignment."
+        }
+      }
     }
   }
 }

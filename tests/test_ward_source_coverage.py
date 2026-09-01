@@ -271,6 +271,24 @@ def test_real_locked_baseline_builds_deterministically():
         "2002-01-01 and 2004-01-01 are identical; transient intra-interval "
         "changes are not excluded"
     )
+    can_tho_event = next(
+        event for event in coverage["events"]
+        if event["event_id"] == "soap:2009-01-01->2009-01-07"
+    )
+    can_tho_link = next(
+        link for link in can_tho_event["legal_evidence"]["instrument_links"]
+        if link["instrument_id"] == "12/NĐ-CP@2009-01-07"
+    )
+    assert can_tho_link["component_count"] == 30
+    assert can_tho_link["component_classifications"] == {
+        "lineage": 9,
+        "parent_or_boundary_only": 13,
+        "rename_or_retype": 8,
+    }
+    assert can_tho_event["legal_evidence"]["component_assignment_counts"] == {
+        "component_linked_to_instrument": 67,
+        "same_date_legal_context_only": 16,
+    }
     open_note = render_open_source_note(coverage)
     assert open_note.count("- [ ]") == 31
     assert open_note.count("- [ ] **Change-bearing**") == 31
@@ -280,7 +298,7 @@ def test_real_locked_baseline_builds_deterministically():
     assert "`460/NQ-UBTVQH14@2017-12-13`" not in open_note
     assert "TVPL links are included only to confirm identity" in open_note
     assert "commit `89107d0` recorded **39 open instruments**" in open_note
-    assert open_note.count("Official lead (not yet archived)") == 31
+    assert open_note.count("Official lead (not yet archived)") == 32
     assert open_note.count("Official attachment lead (not yet archived)") == 5
     assert "**17 of the 31 current items**" in open_note
     assert "`14/2008/NĐ-CP@2008-07-02`" not in open_note
@@ -290,6 +308,7 @@ def test_real_locked_baseline_builds_deterministically():
     assert "`97.2005.ND.CP.doc`" in open_note
     assert "`08.NĐ.CP.zip`" in open_note
     assert "`10.NĐ.CP.zip`" in open_note
+    assert "`12.NĐ.CP.zip`" in open_note
     assert "`98.2005.ND.CP.doc`" in open_note
     assert open_note.count("official effective 2005-07-30") == 2
     assert open_note.count("official effective 2005-08-17") == 2

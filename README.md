@@ -178,8 +178,14 @@ is an isolated Decree 11/09 code error and remains a derived-topology
 correction target. The official bytes remain blocked. All five supplied links
 belong to the later Hà Giang Decree 11, already closed with official metadata
 and its original Word file; date-qualified mappings prevent contamination.
-Continue with Decree `12/NĐ-CP@2009-01-07`. Do **not** start Task 8 or promote
-secondary evidence to primary merely to close the count.
+Decree `12/NĐ-CP@2009-01-07` now has an exact official VBPL full-text and
+original ZIP lead, a complete Cần Thơ secondary transcription, and reviewed
+press corroboration. Its topology now links all 30 proved components,
+including Phường Thạnh Hòa, whose crosswalk row carries a later 2025 citation.
+The official bytes remain blocked; the 2008 legal dates stay distinct from the
+2009 NSO observation key. Continue with Decree `14/NĐ-CP@2009-04-11`. Do
+**not** start Task 8 or promote secondary evidence to primary merely to close
+the count.
 
 Read the current [shutdown handoff](docs/journals/2026-08-30.01.ward-source-audit-handoff.md),
 the generated [open-instrument checklist](docs/ward-source-open-instruments.md),
@@ -241,6 +247,10 @@ The two date-distinct Decree 11 records, the supplied Hà Giang bundle, the
 correct Thanh Hóa full-text lead, and the Lãng Công crosswalk anomaly are
 recorded in
 [`2026-08-31.11`](docs/journals/2026-08-31.11.ward-secondary-provenance-11-number-collision.md).
+Decree 12's complete official full-text/ZIP lead, 30 Cần Thơ topology
+components, Thạnh Hòa correction, date discrepancy, and supplied-source
+review are recorded in
+[`2026-08-31.12`](docs/journals/2026-08-31.12.ward-secondary-provenance-12-can-tho.md).
 The later graph-building slice remains gated: only after Task 7 passes should
 the observations and resolved events be promoted into canonical ward entities
 and `LineageEdge` records. Do not emit or upload ward Wikidata statements yet.

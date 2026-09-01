@@ -237,19 +237,22 @@
       "retrieval_notes": "Preserve the official issue/effective dates alongside the 2009-01-07 NSO observation key rather than normalizing the discrepancy away. The official print mirror renders the complete clauses but incorrectly substitutes Quảng Ninh in the dateline, so verify any saved bytes against the central Item 12652 identity and the enacted title instead of treating that header artifact as provenance. A direct request to the print view timed out without returning bytes, and indexed output exposed no exact original-attachment filename or href; do not guess one. The five supplied URLs all concern the later, unrelated Hà Giang Decree 11 issued 2009-03-31 and are excluded from this Thanh Hóa row. Save the central full-text page and any attachment it actually exposes in a normal browser before closing the source gate."
     },
     {
-      "access_status": "official_page_indexed_raw_retrieval_blocked",
+      "access_status": "official_full_text_and_attachment_indexed_raw_retrieval_blocked",
       "date_discrepancy": {
         "official_effective_date": "2009-01-18",
         "official_issue_date": "2008-12-23",
         "registry_effective_date": "2009-01-07"
       },
-      "expected_attachment_names": [],
-      "instrument_id": "12/NĐ-CP@2009-01-07",
-      "lead_basis": "The indexed official VBPL record matches Decree 12/NĐ-CP and its administrative-boundary title.",
-      "official_page_urls": [
-        "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=12650"
+      "expected_attachment_names": [
+        "12.NĐ.CP.zip"
       ],
-      "retrieval_notes": "Preserve the official issue/effective dates alongside the registry date rather than normalizing the discrepancy away. The full page and any original attachment still need to be browser-saved."
+      "instrument_id": "12/NĐ-CP@2009-01-07",
+      "lead_basis": "The official VBPL record renders the complete enacted text and matches Decree 12/NĐ-CP, its Cần Thơ administrative-boundary title, 2008-12-23 issue date, 2009-01-18 effective date, Gazette issues 05+06 published 2009-01-03, signer Nguyễn Tấn Dũng, and all commune, ward, and district operations. It also indexes original attachment 12.NĐ.CP.zip.",
+      "official_page_urls": [
+        "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=12650",
+        "https://vbpl.vn/TW/Pages/vbpq-thuoctinh.aspx?ItemID=12650&Keyword="
+      ],
+      "retrieval_notes": "Preserve the official issue/effective dates alongside the 2009-01-07 NSO observation key rather than normalizing the discrepancy away. A direct request to the official full-text page timed out after 30 seconds with zero bytes, and indexed output did not expose the attachment href; do not guess it from the filename. Save the complete official page and 12.NĐ.CP.zip in a normal browser and verify both offline before closing the source gate."
     },
     {
       "access_status": "official_page_indexed_raw_retrieval_blocked",

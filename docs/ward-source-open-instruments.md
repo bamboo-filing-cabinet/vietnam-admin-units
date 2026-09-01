@@ -135,8 +135,10 @@ TVPL links are included only to confirm identity and title. TVPL pages, search s
   - Current evidence: secondary identity reference only.
   - Identity reference only: <https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-dinh-12-ND-CP-dieu-chinh-dia-gioi-hanh-chinh-xa-thanh-lap-thuoc-huyen-Thot-Not-Vinh-Thanh-Co-Do-quan-Thoi-Lai-thanh-pho-Can-Tho-84050.aspx>
   - Official lead (not yet archived): <https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=12650>
+  - Official lead (not yet archived): <https://vbpl.vn/TW/Pages/vbpq-thuoctinh.aspx?ItemID=12650&Keyword=>
+  - Expected original attachment: `12.NĐ.CP.zip`
   - Date discrepancy to preserve: registry effective 2009-01-07; official issue 2008-12-23; official effective 2009-01-18.
-  - Retrieval note: Preserve the official issue/effective dates alongside the registry date rather than normalizing the discrepancy away. The full page and any original attachment still need to be browser-saved.
+  - Retrieval note: Preserve the official issue/effective dates alongside the 2009-01-07 NSO observation key rather than normalizing the discrepancy away. A direct request to the official full-text page timed out after 30 seconds with zero bytes, and indexed output did not expose the attachment href; do not guess it from the filename. Save the complete official page and 12.NĐ.CP.zip in a normal browser and verify both offline before closing the source gate.
 - [ ] **Change-bearing** `14/NĐ-CP@2009-04-11` — điều chỉnh địa giới hành chính xã để thành lập xã thuộc huyện Chơn Thành, huyện Bù Đăng, tỉnh Bình Phước
   - Current evidence: secondary identity reference only.
   - Identity reference only: <https://thuvienphapluat.vn/cong-van/Lao-dong-Tien-luong/Cong-van-2800-BNV-TL-phu-cap-khu-vuc-94174.aspx>
