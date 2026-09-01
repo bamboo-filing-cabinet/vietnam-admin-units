@@ -89,6 +89,10 @@ NATIONAL_ASSEMBLY_FULL_TEXT = {
     ),
 }
 CURATED_GOVERNMENT_LEGAL_PAGES = {
+    "26/NQ-CP@2009-06-11": {
+        "source_url": "https://chinhphu.vn/default.aspx?pageid=27160&docid=88007",
+        "official_effective_date": "2009-06-10",
+    },
     "28/2006/NDD-CP@2006-04-06": {
         "source_url": (
             "https://vanban.chinhphu.vn/default.aspx?pageid=27160&docid=15188"

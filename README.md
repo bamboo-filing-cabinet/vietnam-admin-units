@@ -98,9 +98,9 @@ classified, and linked with zero unclassified instruments or legally unlinked
 observed events.
 
 **Resume at Task 7: close the remaining official-source residue one instrument
-at a time.** The current audit is **416/449 official**, with **31
-primary-source-open instruments**: 7 `missing` and 24 `secondary_only`; **all
-31 are change-bearing**. The registry preserves 409 official attachments and 825
+at a time.** The current audit is **417/449 official**, with **30
+primary-source-open instruments**: 4 `missing` and 26 `secondary_only`; **all
+30 are change-bearing**. The registry preserves 410 official attachments and 827
 official artifacts. Decree `84/2005-NĐ-CP@2005-07-22` (Thuận Bắc, Ninh Thuận)
 now has a complete indexed official VBPL print view and exact DOC attachment
 URL, but live retrieval still times out. Preserve its official 2005-07-07 issue
@@ -183,7 +183,15 @@ original ZIP lead, a complete Cần Thơ secondary transcription, and reviewed
 press corroboration. Its topology now links all 30 proved components,
 including Phường Thạnh Hòa, whose crosswalk row carries a later 2025 citation.
 The official bytes remain blocked; the 2008 legal dates stay distinct from the
-2009 NSO observation key. Continue with Decree `14/NĐ-CP@2009-04-11`. Do
+2009 NSO observation key. The supplied Hưng Yên report is a false hit for
+Decree `14/NĐ-CP@2009-04-11`: Hưng Yên city was established by Decree
+04/NĐ-CP, while the queue target is the 2009-04-10 Bình Phước instrument.
+No primary bytes were recovered, so that target remains `secondary_only`.
+Resolution `26/NQ-CP@2009-06-11` is now closed with archived Government
+metadata and original Word attachment. The legal issue/effective date is
+2009-06-10; the NSO date remains an observation key. Its two commune creations
+and six Thuận Nam parent changes are fully linked. Continue with Resolution
+`28/NQ-CP@2009-06-30`. Do
 **not** start Task 8 or promote secondary evidence to primary merely to close
 the count.
 
@@ -251,6 +259,10 @@ Decree 12's complete official full-text/ZIP lead, 30 Cần Thơ topology
 components, Thạnh Hòa correction, date discrepancy, and supplied-source
 review are recorded in
 [`2026-08-31.12`](docs/journals/2026-08-31.12.ward-secondary-provenance-12-can-tho.md).
+Resolution 26's archived Government artifacts, Thuận Nam topology, date
+distinction, secondary-source defects, and preceding Decree 14 false hit are
+recorded in
+[`2026-08-31.13`](docs/journals/2026-08-31.13.ward-source-26-nq-cp.md).
 The later graph-building slice remains gated: only after Task 7 passes should
 the observations and resolved events be promoted into canonical ward entities
 and `LineageEdge` records. Do not emit or upload ward Wikidata statements yet.

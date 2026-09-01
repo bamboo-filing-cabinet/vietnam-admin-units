@@ -41,9 +41,9 @@ re-scrape it.
 > zero legally unlinked observed events. See journal `2026-08-28.08`.
 >
 > **Task 7 in progress (2026-08-31).** Official recovery and one-at-a-time
-> secondary reviews now leave 31 primary-source-open instruments: 7 `missing`
-> and 24 `secondary_only`; all 31 are change-bearing. Official coverage is
-> 416/449.
+> secondary reviews now leave 30 primary-source-open instruments: 4 `missing`
+> and 26 `secondary_only`; all 30 are change-bearing. Official coverage is
+> 417/449.
 > Decree `84/2005-NĐ-CP@2005-07-22` now has a complete indexed official VBPL
 > print view and exact DOC URL, but the live endpoints timed out; its official
 > issue/effective dates differ from the earlier registry date
@@ -109,8 +109,14 @@ re-scrape it.
 > full-text/original-ZIP lead, complete Cần Thơ transcription, reviewed press
 > corroboration, and 30 proved topology components. A reviewed override links
 > Phường Thạnh Hòa despite its crosswalk row's later 2025 citation; the
-> official bytes remain blocked (`2026-08-31.12`). Continue with Decree
-> `14/NĐ-CP@2009-04-11`; do not start Task 8.
+> official bytes remain blocked (`2026-08-31.12`). The subsequent review proved
+> that the supplied Hưng Yên report concerns Decree 04/NĐ-CP, not the Bình
+> Phước Decree 14 queue target; no primary copy was recovered. Resolution
+> `26/NQ-CP@2009-06-11` is now closed with archived Government metadata and
+> original Word attachment. Its 2009-06-10 legal effective date, eight linked
+> Thuận Nam topology components, and secondary-source defects are recorded in
+> `2026-08-31.13`. Continue with Resolution `28/NQ-CP@2009-06-30`; do not
+> start Task 8.
 
 ## Outcome
 
@@ -377,8 +383,8 @@ territory, title, and named-unit checks.
 ### Task 7 — close the source audit
 
 > **2026-08-31 handoff:** Task 7 remains in progress. The current materialized
-> ledger is fresh and verified at 416/449 official, 31 primary-source-open, and
-> 31 change-bearing-open instruments. The open set contains 7 `missing` and 24
+> ledger is fresh and verified at 417/449 official, 30 primary-source-open, and
+> 30 change-bearing-open instruments. The open set contains 4 `missing` and 26
 > `secondary_only` rows. Resolution `469/NQ-UBTVQH15@2022-04-10` has a
 > structured official PDF recovery lead but remains open because its bytes are
 > not archived (`docs/journals/2026-08-30.02.ward-secondary-provenance-469.md`);
@@ -437,8 +443,13 @@ territory, title, and named-unit checks.
 > full-text/original-ZIP lead, complete Cần Thơ transcription, reviewed press
 > corroboration, and 30 proved topology components. A reviewed override links
 > Phường Thạnh Hòa despite its crosswalk row's later 2025 citation; the
-> official bytes remain blocked (`2026-08-31.12`). Continue with Decree
-> `14/NĐ-CP@2009-04-11`; do not start Task 8.
+> official bytes remain blocked (`2026-08-31.12`). The supplied Hưng Yên report
+> was then excluded because it concerns Decree 04/NĐ-CP, not the Bình Phước
+> Decree 14 target. Resolution `26/NQ-CP@2009-06-11` is closed with archived
+> Government metadata and original Word attachment; its legal/observation date
+> distinction and all eight Thuận Nam components are recorded in
+> `2026-08-31.13`. Continue with Resolution `28/NQ-CP@2009-06-30`; do not
+> start Task 8.
 
 Add a command that regenerates the coverage JSON and prints a concise audit.
 Write a dated completion journal containing final counts, reviewed exceptions,

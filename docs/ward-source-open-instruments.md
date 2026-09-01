@@ -2,13 +2,13 @@
 
 Generated from `data/ward-source-coverage.json` by `vn_admin_units.ward_source_coverage --open-note`.
 
-Current audit: **31 primary-source-open instruments**; **31 are tied to observed ward changes**.
+Current audit: **30 primary-source-open instruments**; **30 are tied to observed ward changes**.
 
 ## Queue history
 
 The personal-search checkpoint at commit `89107d0` recorded **39 open instruments**, including **37 change-bearing instruments**. Resolution 721/NQ-UBTVQH15 was subsequently recovered from the National Assembly, Resolution 39/NQ-CP from the Government legal portal, and Resolution 904/NQ-UBTVQH13 from the Ninh Bình Provincial Historical Archives. Later recoveries, if any, are reflected in the live counts above.
 
-Exact official-page leads are recorded below for **17 of the 31 current items**. These links are leads only: none count as recovered provenance until the full official page or original attachment is saved, hashed, registered, and verified offline.
+Exact official-page leads are recorded below for **16 of the 30 current items**. These links are leads only: none count as recovered provenance until the full official page or original attachment is saved, hashed, registered, and verified offline.
 
 ## What counts as a useful find
 
@@ -142,12 +142,6 @@ TVPL links are included only to confirm identity and title. TVPL pages, search s
 - [ ] **Change-bearing** `14/NĐ-CP@2009-04-11` — điều chỉnh địa giới hành chính xã để thành lập xã thuộc huyện Chơn Thành, huyện Bù Đăng, tỉnh Bình Phước
   - Current evidence: secondary identity reference only.
   - Identity reference only: <https://thuvienphapluat.vn/cong-van/Lao-dong-Tien-luong/Cong-van-2800-BNV-TL-phu-cap-khu-vuc-94174.aspx>
-- [ ] **Change-bearing** `26/NQ-CP@2009-06-11` — điều chỉnh địa giới hành chính xã để thành lập xã thuộc huyện Ninh Phước; điều chỉnh địa giới hành chính huyện Ninh Phước để thành lập huyện Thuận Nam thuộc tỉnh Ninh Thuận
-  - Current evidence: no source URL recorded.
-  - Official lead (not yet archived): <https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=11902>
-  - Expected original attachment: `26.NQ-CP.zip`
-  - Date discrepancy to preserve: registry effective 2009-06-11; official issue 2009-06-10; official effective 2009-06-10.
-  - Retrieval note: Preserve the one-day registry discrepancy. Save the full page and original ZIP in a normal browser; do not substitute the unrelated 2015 Resolution 26/NQ-CP record.
 - [ ] **Change-bearing** `28/NQ-CP@2009-06-30` — Điều chỉnh địa giới hành chính huyện Châu Thành, huyện Chợ Gạo để mở rộng địa giới hành chính thành phố Mỹ Tho; điều chỉnh địa giới hành chính xã, thành lập xã thuộc thành phố Mỹ Tho, huyện Châu Thành, huyện Chợ Gạo, tỉnh Tiền Giang
   - Current evidence: secondary identity reference only.
   - Identity reference only: <https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-28-NQ-CP-dieu-chinh-va-mo-rong-dia-gioi-hanh-chinh-91273.aspx>

@@ -8645,8 +8645,11 @@
               "effective_date_inside_observation_interval",
               "title_territory_or_named_unit"
             ],
-            "primary_source_paths": [],
-            "source_status": "missing"
+            "primary_source_paths": [
+              "legal/ward/2009-06-11/26-nq-cp.metadata.html",
+              "legal/ward/2009-06-11/26-nq-cp.original.doc"
+            ],
+            "source_status": "verified_official_artifact"
           }
         ]
       },
@@ -39255,9 +39258,9 @@
     "legal_linkage_overrides_path": "data/ward-legal-linkage-overrides.json",
     "legal_linkage_overrides_sha256": "61299d71b57ac8a9c173765d81cd7fe67e222ed2ede97d61df17a6a79d8c9afe",
     "legal_sources_path": "data/ward-legal-sources.json",
-    "legal_sources_sha256": "d9b6309313268907d4ebed9a6d7484fdd8a28f14ad8d6c7bc5cd59aaaf97dea1",
+    "legal_sources_sha256": "6c2582bbd7790dcfd4cb74a4006608f5e5eae8f74dab631085e862b64dab68f4",
     "manifest_path": "data/raw/manifest.jsonl",
-    "manifest_sha256": "b9d66db03943b883d4e1f106bea3a830941a93036f2da23674d8f46fea3277c9",
+    "manifest_sha256": "8bd79ca8edaad0a5bfc7c51067d1c44a9e76efc3e65b304a6f6f12f16719e778",
     "observed_changes_path": "data/ward-observed-changes.json",
     "observed_changes_sha256": "91f441b73d9489c30e26e4a1c585600fcf435b0648a4f87ad4bc86aa9ca9d1df",
     "ward_2025_composition_path": "data/ward-2025-composition.json",
@@ -39783,23 +39786,23 @@
       "input_fingerprints": {
         "data/decree-urls.json": "7046a0d47c3e78114ba3dd10c1d77671ae76d32b62f4ae66b794487193676b0c",
         "data/raw/nghidinh.json": "2d141ae52886f78bf476defe6f8275ea31a910d3c1f65288a1e8b067924756fb",
-        "data/ward-legal-secondary-urls.json": "a717104af9bf098f77c8d818f80a41326bfebca8f31a7d32086928965770a567"
+        "data/ward-legal-secondary-urls.json": "41b5bb230204164dc413536a544f2e601ae5e053e98fd87d0fe41f7a3e928ceb"
       },
       "path": "data/ward-legal-sources.json",
       "schema_version": 1,
-      "sha256": "d9b6309313268907d4ebed9a6d7484fdd8a28f14ad8d6c7bc5cd59aaaf97dea1",
+      "sha256": "6c2582bbd7790dcfd4cb74a4006608f5e5eae8f74dab631085e862b64dab68f4",
       "summary": {
         "index_date_anomalies": 2,
         "instruments": 449,
-        "official_attachments": 409,
+        "official_attachments": 410,
         "official_code_differences": 12,
-        "official_matches": 416,
-        "preserved_artifacts": 825,
-        "secondary_tvpl_urls": 120,
+        "official_matches": 417,
+        "preserved_artifacts": 827,
+        "secondary_tvpl_urls": 121,
         "status_counts": {
-          "official_not_found": 33,
+          "official_not_found": 32,
           "reused_existing_2025_pair": 34,
-          "verified_official_match": 382
+          "verified_official_match": 383
         }
       }
     },
@@ -56470,14 +56473,60 @@
       "index_urls": [],
       "instrument_id": "26/NQ-CP@2009-06-11",
       "observation_status": "topology_components_linked",
-      "primary_sources": [],
+      "primary_sources": [
+        {
+          "bytes": 112871,
+          "declared_media_type": "",
+          "detected_media_type": "",
+          "media_type": "html",
+          "method": "official Government legal metadata HTML",
+          "path": "legal/ward/2009-06-11/26-nq-cp.metadata.html",
+          "retrieved_at": "2026-09-01T01:19:04Z",
+          "sha256": "61419006806fd17a1c6d749fdf88817368432bf38102157c7cd24dbefb375742",
+          "source_class": "official",
+          "source_url": "https://chinhphu.vn/default.aspx?pageid=27160&docid=88007"
+        },
+        {
+          "bytes": 34304,
+          "declared_media_type": "doc",
+          "detected_media_type": "doc",
+          "media_type": "other",
+          "method": "official Government legal original attachment",
+          "path": "legal/ward/2009-06-11/26-nq-cp.original.doc",
+          "retrieved_at": "2026-09-01T01:19:05Z",
+          "sha256": "6545c1a3bb2f5513871be98b80ebd9ab85143377a38ece60ecac0177075a71f4",
+          "source_class": "official",
+          "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2009/06/91250_nq26cp.doc"
+        }
+      ],
       "review_status": "reviewed_title_and_source_scope",
-      "secondary_sources": [],
+      "secondary_sources": [
+        {
+          "bytes": 0,
+          "declared_media_type": "",
+          "detected_media_type": "",
+          "media_type": "metadata_url",
+          "method": "secondary legal discovery URL (not archived as primary evidence)",
+          "path": "",
+          "retrieved_at": "",
+          "sha256": "",
+          "source_class": "secondary",
+          "source_url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-quyet-26-NQ-CP-dieu-chinh-dia-gioi-hanh-chinh-xa-de-lap-xa-thuoc-huyen-Ninh-Phuoc-huyen-Ninh-Phuo71c-de-thanh-lap-huyen-Thuan-Nam-Ninh-Thuan-89680.aspx"
+        }
+      ],
       "source_discovery": {
-        "discovery_status": "official_not_found",
-        "metadata_url": ""
+        "code_match_status": "exact",
+        "date_match_status": "plausible_effective_lag",
+        "discovery_status": "verified_official_match",
+        "effective_date_match_status": "index_effective_date_differs",
+        "effective_gap_days": 1,
+        "issued_date": "2009-06-10",
+        "metadata_url": "https://chinhphu.vn/default.aspx?pageid=27160&docid=88007",
+        "official_code": "26/NQ-CP",
+        "official_effective_date": "2009-06-10",
+        "source_provider": "government_legal_portal"
       },
-      "source_status": "missing",
+      "source_status": "verified_official_artifact",
       "title_variants": [
         "điều chỉnh địa giới hành chính xã để thành lập xã thuộc huyện Ninh Phước; điều chỉnh địa giới hành chính huyện Ninh Phước để thành lập huyện Thuận Nam thuộc tỉnh Ninh Thuận"
       ]
@@ -73383,7 +73432,6 @@
       "11/NĐ-CP@2009-01-07",
       "12/NĐ-CP@2009-01-07",
       "14/NĐ-CP@2009-04-11",
-      "26/NQ-CP@2009-06-11",
       "28/NQ-CP@2009-06-30",
       "29/2006/NĐ-CP@2006-04-07",
       "29/NQ-CP@2009-06-30",
@@ -73463,7 +73511,6 @@
       "11/NĐ-CP@2009-01-07",
       "12/NĐ-CP@2009-01-07",
       "14/NĐ-CP@2009-04-11",
-      "26/NQ-CP@2009-06-11",
       "28/NQ-CP@2009-06-30",
       "29/NQ-CP@2009-06-30",
       "889/NQ-UBTVQH13@2015-03-12",
@@ -73513,7 +73560,7 @@
     "verdict": "no_endpoint_state_difference_observed"
   },
   "summary": {
-    "change_bearing_source_open_instruments": 31,
+    "change_bearing_source_open_instruments": 30,
     "classified_instruments": 449,
     "classified_legal_index_rows": 453,
     "component_assignment_counts": {
@@ -73546,16 +73593,16 @@
     },
     "legal_index_records": 544,
     "observed_change_intervals": 179,
-    "official_source_matches": 416,
-    "official_source_not_found": 33,
-    "primary_source_open_instruments": 31,
+    "official_source_matches": 417,
+    "official_source_not_found": 32,
+    "primary_source_open_instruments": 30,
     "reviewed_event_statuses": {
       "explicitly_classified_non_legal_transition": 1,
       "legal_context_classified": 16,
       "legal_topology_linked": 161,
       "legal_topology_linked_with_source_cleanup": 1
     },
-    "secondary_tvpl_urls": 120,
+    "secondary_tvpl_urls": 121,
     "soap_artifacts": 204,
     "soap_rows": 2202543,
     "soap_unique_payloads": 180,

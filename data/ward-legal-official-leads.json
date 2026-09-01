@@ -257,23 +257,6 @@
     {
       "access_status": "official_page_indexed_raw_retrieval_blocked",
       "date_discrepancy": {
-        "official_effective_date": "2009-06-10",
-        "official_issue_date": "2009-06-10",
-        "registry_effective_date": "2009-06-11"
-      },
-      "expected_attachment_names": [
-        "26.NQ-CP.zip"
-      ],
-      "instrument_id": "26/NQ-CP@2009-06-11",
-      "lead_basis": "The indexed official full-text record matches Resolution 26/NQ-CP and its Ninh Thuận administrative-boundary title and exposes the original ZIP filename.",
-      "official_page_urls": [
-        "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=11902"
-      ],
-      "retrieval_notes": "Preserve the one-day registry discrepancy. Save the full page and original ZIP in a normal browser; do not substitute the unrelated 2015 Resolution 26/NQ-CP record."
-    },
-    {
-      "access_status": "official_page_indexed_raw_retrieval_blocked",
-      "date_discrepancy": {
         "official_effective_date": "2009-06-29",
         "official_issue_date": "2009-06-29",
         "registry_effective_date": "2009-06-30"

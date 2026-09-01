@@ -223,12 +223,12 @@ def test_real_locked_baseline_builds_deterministically():
         "superseded_by_canonical_correction": 2,
         "topology_components_linked": 354,
     }
-    assert summary["change_bearing_source_open_instruments"] == 31
-    assert summary["primary_source_open_instruments"] == 31
+    assert summary["change_bearing_source_open_instruments"] == 30
+    assert summary["primary_source_open_instruments"] == 30
     assert summary["verified_index_identity_mismatches"] == 2
-    assert summary["official_source_matches"] == 416
-    assert summary["official_source_not_found"] == 33
-    assert summary["secondary_tvpl_urls"] == 120
+    assert summary["official_source_matches"] == 417
+    assert summary["official_source_not_found"] == 32
+    assert summary["secondary_tvpl_urls"] == 121
     assert summary["observed_change_intervals"] == 179
     assert summary["events"] == 179
     assert summary["crosswalk_supported_events"] == 178
@@ -265,8 +265,8 @@ def test_real_locked_baseline_builds_deterministically():
         },
     }
     assert format_audit(coverage) == (
-        "ward source audit: OPEN — 416/449 official; 31 primary-source open; "
-        "31 change-bearing open\n"
+        "ward source audit: OPEN — 417/449 official; 30 primary-source open; "
+        "30 change-bearing open\n"
         "source floor verdict: no_endpoint_state_difference_observed — "
         "2002-01-01 and 2004-01-01 are identical; transient intra-interval "
         "changes are not excluded"
@@ -290,17 +290,17 @@ def test_real_locked_baseline_builds_deterministically():
         "same_date_legal_context_only": 16,
     }
     open_note = render_open_source_note(coverage)
-    assert open_note.count("- [ ]") == 31
-    assert open_note.count("- [ ] **Change-bearing**") == 31
+    assert open_note.count("- [ ]") == 30
+    assert open_note.count("- [ ] **Change-bearing**") == 30
     assert open_note.count("- [ ] **Context-only / superseded index row**") == 0
     assert "`07/NĐ-CP@2009-01-07`" in open_note
     assert "`721/NQ-UBTVQH15@2023-04-10`" not in open_note
     assert "`460/NQ-UBTVQH14@2017-12-13`" not in open_note
     assert "TVPL links are included only to confirm identity" in open_note
     assert "commit `89107d0` recorded **39 open instruments**" in open_note
-    assert open_note.count("Official lead (not yet archived)") == 32
+    assert open_note.count("Official lead (not yet archived)") == 31
     assert open_note.count("Official attachment lead (not yet archived)") == 5
-    assert "**17 of the 31 current items**" in open_note
+    assert "**16 of the 30 current items**" in open_note
     assert "`14/2008/NĐ-CP@2008-07-02`" not in open_note
     assert "`14/2008/NĐ-CP@2008-08-03`" not in open_note
     assert "`84.2005.ND.CP.doc`" in open_note
@@ -312,7 +312,7 @@ def test_real_locked_baseline_builds_deterministically():
     assert "`98.2005.ND.CP.doc`" in open_note
     assert open_note.count("official effective 2005-07-30") == 2
     assert open_note.count("official effective 2005-08-17") == 2
-    assert "`26.NQ-CP.zip`" in open_note
+    assert "`26.NQ-CP.zip`" not in open_note
     assert "`29.NQ-CP.zip`" in open_note
     assert "`26362_28140_NQ 469 về thành lập các phường" in open_note
     assert "official effective 2006-07-16" in open_note

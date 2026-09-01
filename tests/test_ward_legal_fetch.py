@@ -941,6 +941,12 @@ def test_real_legal_index_includes_2026_acceptance_and_reuses_34_pairs():
         "Can-Tho-84050.aspx"
     )
     assert secondary["12/NĐ-CP"] == [can_tho_url]
+    assert secondary["26/NQ-CP@2009-06-11"] == [
+        "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/"
+        "Nghi-quyet-26-NQ-CP-dieu-chinh-dia-gioi-hanh-chinh-xa-de-lap-xa-"
+        "thuoc-huyen-Ninh-Phuoc-huyen-Ninh-Phuo71c-de-thanh-lap-huyen-"
+        "Thuan-Nam-Ninh-Thuan-89680.aspx"
+    ]
     assert secondary["85/2005/NĐ-CP"] == [
         "https://thuvienphapluat.vn/van-ban/Bat-dong-san/"
         "Nghi-dinh-85-2005-ND-CP-thanh-lap-xa-thuoc-huyen-Nui-Thanh-"
@@ -987,6 +993,12 @@ def test_real_legal_index_includes_2026_acceptance_and_reuses_34_pairs():
         },
     }
     assert fetcher.CURATED_GOVERNMENT_LEGAL_PAGES == {
+        "26/NQ-CP@2009-06-11": {
+            "source_url": (
+                "https://chinhphu.vn/default.aspx?pageid=27160&docid=88007"
+            ),
+            "official_effective_date": "2009-06-10",
+        },
         "28/2006/NDD-CP@2006-04-06": {
             "source_url": (
                 "https://vanban.chinhphu.vn/default.aspx?"

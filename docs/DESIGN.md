@@ -313,9 +313,9 @@ assemblies need non-GSO sources.
   source Tasks 1–6 are **DONE** (`2026-08-28.03`–`.08`): all 204 SOAP snapshots,
   39 crosswalks, 179 observed-change events, 453 candidate legal rows, and 449
   unique instruments are inventoried, classified, and linked. Task 7 remains
-  **OPEN** at 415/449 official, 34 primary-source-open instruments, and 32
-  change-bearing-open instruments; the registry preserves 408 official
-  attachments and 823 official artifacts. No secondary page is promoted to
+  **OPEN** at 417/449 official, 30 primary-source-open instruments, and 30
+  change-bearing-open instruments; the registry preserves 410 official
+  attachments and 827 official artifacts. No secondary page is promoted to
   authority. Resolution `469/NQ-UBTVQH15@2022-04-10` and Decrees 84, 85, 97,
   and 98 of 2005 now have exact official attachment recovery paths, but their
   bytes remain unarchived because the legacy endpoints reset or time out
@@ -325,7 +325,11 @@ assemblies need non-GSO sources.
   (`2026-08-30.07`). Decree `29/2006/NĐ-CP@2006-04-07` now has complete
   secondary text, contemporaneous Government press corroboration, and an
   indexed official VBPL lead, but remains open because official retrieval is
-  blocked (`2026-08-31.01`). Full
+  blocked (`2026-08-31.01`). Resolution `26/NQ-CP@2009-06-11` is closed with
+  archived Government metadata and the original Word attachment; its
+  2009-06-10 legal effective date remains distinct from the NSO observation
+  key, and all eight Thuận Nam topology components are linked
+  (`2026-08-31.13`). Full
   2002→present provenance is not yet closed. The next graph-building slice—
   promotion into canonical ward entities/`LineageEdge` records—remains gated
   behind Task 7, and Wikidata emission remains a later gate.
