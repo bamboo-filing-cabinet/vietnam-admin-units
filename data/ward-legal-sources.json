@@ -2,7 +2,7 @@
   "input_fingerprints": {
     "data/decree-urls.json": "7046a0d47c3e78114ba3dd10c1d77671ae76d32b62f4ae66b794487193676b0c",
     "data/raw/nghidinh.json": "2d141ae52886f78bf476defe6f8275ea31a910d3c1f65288a1e8b067924756fb",
-    "data/ward-legal-secondary-urls.json": "53163ce07cbe5574baa358bf19259baa665beb706ee40fb48bcaba8812f17d1c"
+    "data/ward-legal-secondary-urls.json": "a717104af9bf098f77c8d818f80a41326bfebca8f31a7d32086928965770a567"
   },
   "instruments": [
     {
@@ -3939,7 +3939,9 @@
       "instrument_id": "11/NĐ-CP@2009-01-07",
       "metadata_path": "legal/ward/2009-01-07/11-nd-cp.metadata.html",
       "metadata_url": "",
-      "secondary_urls": [],
+      "secondary_urls": [
+        "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-dinh-11-ND-CP-dieu-chinh-dia-gioi-hanh-chinh-xa-thanh-lap-thuoc-huyen-Muong-Lat-Quan-Son-tinh-Thanh-Hoa-84049.aspx"
+      ],
       "title_variants": [
         "điều chỉnh địa giới hành chính xã, thành lập xã thuộc huyện Mường Lát, huyện Quan Sơn, tỉnh Thanh Hoá"
       ]
@@ -4126,7 +4128,9 @@
       "metadata_path": "legal/ward/2009-04-01/11-nd-cp.metadata.html",
       "metadata_url": "https://chinhphu.vn/?pageid=27160&docid=84903&classid=1",
       "official_code": "11/NĐ-CP",
-      "secondary_urls": [],
+      "secondary_urls": [
+        "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-dinh-11-ND-CP-dieu-chinh-dia-gioi-hanh-chinh-xa-thanh-lap-thi-tran-huyen-ly-tai-cac-huyen-Dong-Van-Bac-Me-Xin-Man-thuoc-tinh-Ha-Giang-86889.aspx"
+      ],
       "title_variants": [
         "điều chỉnh địa giới hành chính xã; thành lập thị trấn huyện lỵ tại các huyện Đồng Văn, Bắc Mê và Xín Mần thuộc tỉnh Hà Giang"
       ]
@@ -10696,7 +10700,7 @@
     "official_code_differences": 12,
     "official_matches": 416,
     "preserved_artifacts": 825,
-    "secondary_tvpl_urls": 118,
+    "secondary_tvpl_urls": 120,
     "status_counts": {
       "official_not_found": 33,
       "reused_existing_2025_pair": 34,

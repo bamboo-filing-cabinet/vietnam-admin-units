@@ -78,8 +78,14 @@
 > corroboration, exact official VBPL full-text and original ZIP leads, and
 > four reconciled commune creations. It remains open because the official
 > bytes are blocked; the 2008 decree date is preserved beside the 2009 NSO
-> observation key (`2026-08-31.10`). Continue with Decree
-> `11/NĐ-CP@2009-01-07`. Only
+> observation key (`2026-08-31.10`). Decree `11/NĐ-CP@2009-01-07` now has a
+> complete Mường Lát–Quan Sơn secondary transcription and exact official VBPL
+> full-text lead. It creates Nhi Sơn and Trung Tiến; the crosswalk's Lãng Công
+> attribution is a Decree 11/09 code error retained as a separate topology
+> correction target. The supplied bundle belongs to the later, already
+> official-closed Hà Giang Decree 11; date-qualified mappings keep the rows
+> separate (`2026-08-31.11`). Continue with Decree
+> `12/NĐ-CP@2009-01-07`. Only
 > after the source audit closes should historical records be promoted into canonical
 > entities/`LineageEdge` objects. Wikidata emission remains gated.
 

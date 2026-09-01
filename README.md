@@ -171,9 +171,15 @@ transcription, contemporaneous Government Office corroboration, and exact
 official VBPL full-text and original ZIP leads. Its four commune-creation
 components are reconciled, but the official bytes remain blocked. The decree
 was issued in 2008; `2009-01-07` remains the NSO observation key rather than
-the legal date. Continue with Decree `11/NĐ-CP@2009-01-07` (Mường Lát and
-Quan Sơn, Thanh Hóa). Do **not** start Task 8 or promote secondary evidence to
-primary merely to close the count.
+the legal date. Decree `11/NĐ-CP@2009-01-07` now has a complete Mường
+Lát–Quan Sơn secondary transcription and an exact official VBPL full-text
+lead. It creates Nhi Sơn and Trung Tiến; the crosswalk's Lãng Công attribution
+is an isolated Decree 11/09 code error and remains a derived-topology
+correction target. The official bytes remain blocked. All five supplied links
+belong to the later Hà Giang Decree 11, already closed with official metadata
+and its original Word file; date-qualified mappings prevent contamination.
+Continue with Decree `12/NĐ-CP@2009-01-07`. Do **not** start Task 8 or promote
+secondary evidence to primary merely to close the count.
 
 Read the current [shutdown handoff](docs/journals/2026-08-30.01.ward-source-audit-handoff.md),
 the generated [open-instrument checklist](docs/ward-source-open-instruments.md),
@@ -228,6 +234,13 @@ and same-code Nghệ An disambiguation are recorded in
 Decree 08's official full-text/ZIP lead, Hồng Ngự topology, implementation and
 classification evidence, and same-code Bến Tre disambiguation are recorded in
 [`2026-08-31.09`](docs/journals/2026-08-31.09.ward-secondary-provenance-08-hong-ngu.md).
+Decree 10's exact official full-text/ZIP lead, Ba Tơ–Sơn Tây topology,
+date discrepancy, and same-code Lâm Đồng disambiguation are recorded in
+[`2026-08-31.10`](docs/journals/2026-08-31.10.ward-secondary-provenance-10-ba-to-son-tay.md).
+The two date-distinct Decree 11 records, the supplied Hà Giang bundle, the
+correct Thanh Hóa full-text lead, and the Lãng Công crosswalk anomaly are
+recorded in
+[`2026-08-31.11`](docs/journals/2026-08-31.11.ward-secondary-provenance-11-number-collision.md).
 The later graph-building slice remains gated: only after Task 7 passes should
 the observations and resolved events be promoted into canonical ward entities
 and `LineageEdge` records. Do not emit or upload ward Wikidata statements yet.

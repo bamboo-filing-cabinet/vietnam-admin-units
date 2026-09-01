@@ -99,8 +99,13 @@ re-scrape it.
 > exact official VBPL full-text and original ZIP leads, and four reconciled
 > commune creations. It remains open because the official bytes are blocked;
 > the 2008 decree date is preserved beside the 2009 NSO observation key
-> (`2026-08-31.10`). Continue with Decree `11/NĐ-CP@2009-01-07`; do not start
-> Task 8.
+> (`2026-08-31.10`). Decree `11/NĐ-CP@2009-01-07` now has the correct complete
+> Mường Lát–Quan Sơn transcription and official full-text lead. The supplied
+> five-link bundle belongs to the later, already official-closed Hà Giang
+> Decree 11; date-qualified mappings prevent contamination. The complete text
+> also exposes the crosswalk's isolated Lãng Công Decree 11/09 citation error
+> as a separate topology correction target (`2026-08-31.11`). Continue with
+> Decree `12/NĐ-CP@2009-01-07`; do not start Task 8.
 
 ## Outcome
 
@@ -417,8 +422,13 @@ territory, title, and named-unit checks.
 > exact official VBPL full-text and original ZIP leads, and four reconciled
 > commune creations. It remains open because the official bytes are blocked;
 > the 2008 decree date is preserved beside the 2009 NSO observation key
-> (`2026-08-31.10`). Continue with Decree `11/NĐ-CP@2009-01-07`; do not start
-> Task 8.
+> (`2026-08-31.10`). Decree `11/NĐ-CP@2009-01-07` now has the correct complete
+> Mường Lát–Quan Sơn transcription and official full-text lead. The supplied
+> five-link bundle belongs to the later, already official-closed Hà Giang
+> Decree 11; date-qualified mappings prevent contamination. The complete text
+> also exposes the crosswalk's isolated Lãng Công Decree 11/09 citation error
+> as a separate topology correction target (`2026-08-31.11`). Continue with
+> Decree `12/NĐ-CP@2009-01-07`; do not start Task 8.
 
 Add a command that regenerates the coverage JSON and prints a concise audit.
 Write a dated completion journal containing final counts, reviewed exceptions,

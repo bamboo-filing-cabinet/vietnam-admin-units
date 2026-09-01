@@ -921,6 +921,19 @@ def test_real_legal_index_includes_2026_acceptance_and_reuses_34_pairs():
     )
     assert secondary["10/NĐ-CP@2009-01-07"] == [ba_to_son_tay_url]
     assert secondary["10/NĐ-CP@2009-03-21"] == []
+    thanh_hoa_url = (
+        "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/"
+        "Nghi-dinh-11-ND-CP-dieu-chinh-dia-gioi-hanh-chinh-xa-thanh-lap-"
+        "thuoc-huyen-Muong-Lat-Quan-Son-tinh-Thanh-Hoa-84049.aspx"
+    )
+    ha_giang_url = (
+        "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/"
+        "Nghi-dinh-11-ND-CP-dieu-chinh-dia-gioi-hanh-chinh-xa-thanh-lap-"
+        "thi-tran-huyen-ly-tai-cac-huyen-Dong-Van-Bac-Me-Xin-Man-thuoc-"
+        "tinh-Ha-Giang-86889.aspx"
+    )
+    assert secondary["11/NĐ-CP@2009-01-07"] == [thanh_hoa_url]
+    assert secondary["11/NĐ-CP@2009-04-01"] == [ha_giang_url]
     assert secondary["85/2005/NĐ-CP"] == [
         "https://thuvienphapluat.vn/van-ban/Bat-dong-san/"
         "Nghi-dinh-85-2005-ND-CP-thanh-lap-xa-thuoc-huyen-Nui-Thanh-"
