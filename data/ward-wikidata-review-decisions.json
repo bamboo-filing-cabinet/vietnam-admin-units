@@ -6225,6 +6225,28 @@
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "query pageprops and extracts", "retrieved_at": "2026-09-02T21:55:00Z"},
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"}
       ]
+    },
+    {
+      "batch_id": "2026-09-02.59",
+      "decisions": [
+        {"candidate_qids_checked": [], "local_id": "w-19645-2025-07-01", "mapping_note": "current Triệu Bình page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Triệu Bình page identifies the 2025 Quảng Trị commune and its predecessor composition but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": ["Q1035346", "Q137384948"], "local_id": "w-19654-2025-07-01", "mapping_note": "current Triệu Cơ xã page selects Q137384948", "outcome": "assign", "rationale": "Q137384948 owns the current `Triệu Cơ (xã)` page and its label, description, and article identify the Quảng Trị commune. Q1035346 is a historical person; structured class and parent are absent on the selected item.", "wikidata_qid": "Q137384948"},
+        {"candidate_qids_checked": ["Q675319", "Q1151727", "Q1307088", "Q1335184", "Q5369511", "Q11131767", "Q10771723"], "local_id": "w-19699-2025-07-01", "mapping_note": "current Vĩnh Định page selects legacy item Q10771723", "outcome": "assign", "rationale": "Q10771723 owns the current Vĩnh Định page and represents the legacy Hải Vĩnh identity. Its label, class, and parent remain stale and its Vietnamese description is absent; the other candidates are foreign or historical entities, a river, and a disambiguation item.", "wikidata_qid": "Q10771723"},
+        {"candidate_qids_checked": [], "local_id": "w-19735-2025-07-01", "mapping_note": "current Nam Hải Lăng page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Nam Hải Lăng page identifies the 2025 Quảng Trị commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": ["Q10805424", "Q136735927"], "local_id": "w-19831-2025-07-01", "mapping_note": "current Phong Dinh phường page selects Q136735927", "outcome": "assign", "rationale": "Q136735927 owns the current `Phong Dinh (phường)` page and its label, description, and article identify the Huế ward. Q10805424 is the former province; structured class and parent are absent on the selected item.", "wikidata_qid": "Q136735927"},
+        {"candidate_qids_checked": [], "local_id": "w-19885-2025-07-01", "mapping_note": "current Đan Điền page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Đan Điền page identifies the 2025 Huế commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": ["Q10730373"], "local_id": "w-20044-2025-07-01", "mapping_note": "current A Lưới 2 page selects legacy item Q10730373", "outcome": "assign", "rationale": "Q10730373 owns the current A Lưới 2 page and its description identifies a Huế commune. Its label, class, and parent remain tied to the former A Lưới town-level identity.", "wikidata_qid": "Q10730373"},
+        {"candidate_qids_checked": ["Q10772126"], "local_id": "w-20050-2025-07-01", "mapping_note": "current A Lưới 5 page selects predecessor item Q10772126", "outcome": "assign", "rationale": "Q10772126 owns the current A Lưới 5 page and represents predecessor Hồng Hạ. Its label, class, and parent remain stale although its description identifies a Huế commune.", "wikidata_qid": "Q10772126"},
+        {"candidate_qids_checked": ["Q10772218"], "local_id": "w-20056-2025-07-01", "mapping_note": "current A Lưới 1 page selects legacy item Q10772218", "outcome": "assign", "rationale": "Q10772218 owns the current A Lưới 1 page and represents the legacy Hồng Trung identity. Its label, class, and parent remain stale although its description identifies a Huế commune.", "wikidata_qid": "Q10772218"},
+        {"candidate_qids_checked": ["Q10823392"], "local_id": "w-20071-2025-07-01", "mapping_note": "current A Lưới 3 page selects predecessor item Q10823392", "outcome": "assign", "rationale": "Q10823392 owns the current A Lưới 3 page and represents predecessor Sơn Thủy. Its label, class, and parent remain stale although its description identifies a Huế commune.", "wikidata_qid": "Q10823392"}
+      ],
+      "reviewed_at": "2026-09-02T22:03:00Z",
+      "selection": {"input_status": "needs-lookup", "limit": 10, "order": "local_id", "starting_unresolved": 230},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbgetentities", "retrieved_at": "2026-09-02T22:03:00Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "query pageprops and extracts", "retrieved_at": "2026-09-02T22:03:00Z"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"}
+      ]
     }
   ],
   "schema_version": 1,
