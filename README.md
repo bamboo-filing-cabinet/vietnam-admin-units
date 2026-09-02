@@ -104,11 +104,11 @@ Action API verification to 2,878 items in 58 batches, and two additional saved
 evidence passes raised coverage to 2,670 of 3,321 current wards. Five manual
 identity-review batches processed all 47 ambiguous rows with a durable decision
 ledger: 46 received QIDs and one remained explicitly unresolved. Thirty-three
-follow-up batches then closed all 324 `needs-review` rows. Current coverage is
-3,153 with zero structural issues: 2,667 automatic matches and 486 manual
-matches. **Resume with the 10 `needs-lookup` rows.** The other 158 unassigned
-rows are already reviewed and recorded as unresolved item-creation gaps. No
-Wikidata statements have been emitted. See the initial
+follow-up batches then closed all 324 `needs-review` rows, and twenty-eight
+lookup batches closed all 280 `needs-lookup` rows. Current coverage is 3,163
+with zero structural issues: 2,667 automatic matches and 496 manual matches.
+The 158 unassigned current rows are all reviewed and recorded as unresolved
+item-creation gaps. No Wikidata statements have been emitted. See the initial
 [reconciliation journal](docs/journals/2026-09-01.05.ward-wikidata-reconciliation.md),
 the [review-reduction journal](docs/journals/2026-09-01.06.ward-wikidata-review-reduction.md),
 the [first manual review batch](docs/journals/2026-09-02.01.ward-wikidata-review-batch-01.md),

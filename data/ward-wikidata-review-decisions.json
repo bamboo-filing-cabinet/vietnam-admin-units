@@ -6379,6 +6379,28 @@
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "query pageprops and extracts", "retrieved_at": "2026-09-02T22:53:00Z"},
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"}
       ]
+    },
+    {
+      "batch_id": "2026-09-02.66",
+      "decisions": [
+        {"candidate_qids_checked": ["Q6405291"], "local_id": "w-31108-2025-07-01", "mapping_note": "current Kiên Hải page reuses Q6405291", "outcome": "assign", "rationale": "Q6405291 owns the current Kiên Hải page and its description and article identify the An Giang special administrative zone. Its district class, former Kiên Giang parent, and 2025 dissolution statement remain stale.", "wikidata_qid": "Q6405291"},
+        {"candidate_qids_checked": ["Q7073290", "Q10748273", "Q136722639"], "local_id": "w-31153-2025-07-01", "mapping_note": "current Ô Môn phường page selects Q136722639", "outcome": "assign", "rationale": "Q136722639 owns the current `Ô Môn (phường)` page and its labels, description, and article identify the Cần Thơ ward. Q7073290 is the former district and Q10748273 is a person; structured class and parent are absent on the selected item.", "wikidata_qid": "Q136722639"},
+        {"candidate_qids_checked": ["Q5017492", "Q10751750", "Q11075775", "Q137592379"], "local_id": "w-31186-2025-07-01", "mapping_note": "current Cái Răng phường page selects Q137592379", "outcome": "assign", "rationale": "Q137592379 owns the current `Cái Răng (phường)` page and its labels, description, and article identify the Cần Thơ ward. Q5017492 is the former district and the other candidates are differently scoped; structured class and parent are absent on the selected item.", "wikidata_qid": "Q137592379"},
+        {"candidate_qids_checked": ["Q10786877"], "local_id": "w-31480-2025-07-01", "mapping_note": "current Long Phú 1 page selects Q10786877", "outcome": "assign", "rationale": "Q10786877 owns the current Long Phú 1 page and its labels, description, and article identify the Cần Thơ ward. Structured class is absent and its parent remains the former district.", "wikidata_qid": "Q10786877"},
+        {"candidate_qids_checked": ["Q33272", "Q33418", "Q1212869", "Q32022360", "Q136735890"], "local_id": "w-31507-2025-07-01", "mapping_note": "current Sóc Trăng phường page selects Q136735890", "outcome": "assign", "rationale": "Q136735890 owns the current `Sóc Trăng (phường)` page and its labels, description, and article identify the Cần Thơ ward. Other candidates represent the former province, former city, or unrelated scopes; structured class and parent are absent on the selected item.", "wikidata_qid": "Q136735890"},
+        {"candidate_qids_checked": ["Q136717939"], "local_id": "w-31717-2025-07-01", "mapping_note": "current Hòa Tú page selects Q136717939", "outcome": "assign", "rationale": "Q136717939 owns the current Hòa Tú page and its labels, description, and article identify the Cần Thơ commune. Structured class and parent are absent.", "wikidata_qid": "Q136717939"},
+        {"candidate_qids_checked": ["Q36142", "Q36658", "Q797999", "Q136675904"], "local_id": "w-31825-2025-07-01", "mapping_note": "current Bạc Liêu phường page selects Q136675904", "outcome": "assign", "rationale": "Q136675904 owns the current `Bạc Liêu (phường)` page and its labels, description, and article identify the Cà Mau ward. Other candidates represent the former city, former province, and disambiguation item; structured class and parent are absent on the selected item.", "wikidata_qid": "Q136675904"},
+        {"candidate_qids_checked": ["Q10772115", "Q45434403", "Q45567926", "Q90010314", "Q136675945"], "local_id": "w-31843-2025-07-01", "mapping_note": "current Hồng Dân xã page selects Q136675945", "outcome": "assign", "rationale": "Q136675945 owns the current `Hồng Dân (xã)` page and its labels, description, and article identify the Cà Mau commune. Q10772115 is the former district and the other candidates are differently scoped; structured class and parent are absent on the selected item.", "wikidata_qid": "Q136675945"},
+        {"candidate_qids_checked": ["Q136675922"], "local_id": "w-31885-2025-07-01", "mapping_note": "current Phong Hiệp page selects Q136675922", "outcome": "assign", "rationale": "Q136675922 owns the current Phong Hiệp page and its labels, description, and article identify the Cà Mau commune. Structured class and parent are absent.", "wikidata_qid": "Q136675922"},
+        {"candidate_qids_checked": ["Q5557806", "Q10773936", "Q16783857", "Q137599955", "Q137800152"], "local_id": "w-31942-2025-07-01", "mapping_note": "current Giá Rai phường page selects Q137800152", "outcome": "assign", "rationale": "Q137800152 owns the current `Giá Rai (phường)` page and its labels, description, and article identify the Cà Mau ward. Q5557806 is the former town-level unit and the other candidates are disambiguation or differently scoped items; structured class and parent are absent on the selected item.", "wikidata_qid": "Q137800152"}
+      ],
+      "reviewed_at": "2026-09-02T23:02:00Z",
+      "selection": {"input_status": "needs-lookup", "limit": 10, "order": "local_id", "starting_unresolved": 168},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbgetentities", "retrieved_at": "2026-09-02T23:02:00Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "query pageprops and extracts", "retrieved_at": "2026-09-02T23:02:00Z"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"}
+      ]
     }
   ],
   "schema_version": 1,

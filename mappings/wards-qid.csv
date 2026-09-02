@@ -8643,14 +8643,14 @@ w-31074-2007-04-21,31074,Xã Phong Đông,Xã,910,2007-04-21,2025-06-30,,,deferr
 w-31078-2025-07-01,31078,Đặc khu Phú Quốc,Đặc khu,91,2025-07-01,,Q146695,existing,matched,Q146695,qlever-label+current-province+batched-wbgetentities
 w-31099-2004-06-30,31099,Xã Hòn Thơm,Xã,911,2004-06-30,2020-12-31,,,deferred-historical,,
 w-31105-2025-07-01,31105,Đặc khu Thổ Châu,Đặc khu,91,2025-07-01,,Q21683360,existing,matched,Q21683360,qlever-label+current-province+batched-wbgetentities
-w-31108-2025-07-01,31108,Đặc khu Kiên Hải,Đặc khu,91,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-31108-2025-07-01,31108,Đặc khu Kiên Hải,Đặc khu,91,2025-07-01,,Q6405291,existing,manual,Q6405291,review 2026-09-02.66: current Kiên Hải page reuses Q6405291
 w-31115-2005-08-10,31115,Xã Nam Du,Xã,912,2005-08-10,2025-06-30,,,deferred-historical,,
 w-31120-2025-07-01,31120,Phường Cái Khế,Phường,92,2025-07-01,,Q10751745,existing,matched,Q10751745,qlever-label+current-province+batched-wbgetentities
 w-31135-2025-07-01,31135,Phường Ninh Kiều,Phường,92,2025-07-01,,Q136675866,existing,matched,Q136675866,qlever-label+current-province+batched-wbgetentities
 w-31147-2025-07-01,31147,Phường Tân An,Phường,92,2025-07-01,,Q10733192,existing,matched,Q1862735|Q2126866|Q2390731|Q2396841|Q2646896|Q10733192|Q10830334|Q10830335|Q10830336|Q10830338|Q10830339|Q10830342|Q10830343|Q10830345|Q10830346|Q10830347|Q10830350|Q10830991|Q136675874,qlever-label+current-province+batched-wbgetentities
 w-31149-2007-01-31,31149,Phường An Khánh,Phường,916,2007-01-31,2025-06-30,,,deferred-historical,,
 w-31150-2025-07-01,31150,Phường An Bình,Phường,92,2025-07-01,,Q10733126,existing,matched,Q2117129|Q2199087|Q2659205|Q2739823|Q10733116|Q10733118|Q10733120|Q10733122|Q10733123|Q10733124|Q10733125|Q10733126|Q10733128|Q10733129|Q10733130|Q139296036,qlever-label+current-province+batched-wbgetentities
-w-31153-2025-07-01,31153,Phường Ô Môn,Phường,92,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-31153-2025-07-01,31153,Phường Ô Môn,Phường,92,2025-07-01,,Q136722639,existing,manual,Q7073290|Q10748273|Q136722639,review 2026-09-02.66: current Ô Môn phường page selects Q136722639
 w-31154-2007-01-31,31154,Phường Thới Hòa,Phường,917,2007-01-31,2025-06-30,,,deferred-historical,,
 w-31157-2007-11-21,31157,Phường Long Hưng,Phường,917,2007-11-21,2025-06-30,,,deferred-historical,,
 w-31157-2025-07-01,31157,Phường Thới Long,Phường,92,2025-07-01,,Q10826646,existing,matched,Q10826646,qlever-label+current-province+batched-wbgetentities
@@ -8660,7 +8660,7 @@ w-31169-2007-11-21,31169,Phường Trà An,Phường,918,2007-11-21,2025-06-30,,
 w-31174-2025-07-01,31174,Phường Thới An Đông,Phường,92,2025-07-01,,Q10826630,existing,matched,Q10826630,qlever-label+current-province+batched-wbgetentities
 w-31178-2007-11-21,31178,Phường Bùi Hữu Nghĩa,Phường,918,2007-11-21,2025-06-30,,,deferred-historical,,
 w-31183-2025-07-01,31183,Phường Long Tuyền,Phường,92,2025-07-01,,Q10786943,existing,matched,Q10786943,qlever-label+current-province+batched-wbgetentities
-w-31186-2025-07-01,31186,Phường Cái Răng,Phường,92,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-31186-2025-07-01,31186,Phường Cái Răng,Phường,92,2025-07-01,,Q137592379,existing,manual,Q5017492|Q10751750|Q11075775|Q137592379,review 2026-09-02.66: current Cái Răng phường page selects Q137592379
 w-31195-2004-06-30,31195,Phường Ba Láng,Phường,919,2004-06-30,2025-06-30,,,deferred-historical,,
 w-31198-2004-06-30,31198,Phường Thường Thạnh,Phường,919,2004-06-30,2025-06-30,,,deferred-historical,,
 w-31201-2004-06-30,31201,Phường Phú Thứ,Phường,919,2004-06-30,2025-06-30,,,deferred-historical,,
@@ -8746,7 +8746,7 @@ w-31473-2015-05-16,31473,Phường Bình Thạnh,Phường,937,2015-05-16,2025-0
 w-31473-2025-07-01,31473,Phường Long Bình,Phường,92,2025-07-01,,Q10786788,existing,matched,Q2500666|Q3059506|Q6672390|Q10786785|Q10786786|Q10786787|Q10786788,qlever-label+current-province+batched-wbgetentities
 w-31475-2015-05-16,31475,Phường Vĩnh Tường,Phường,937,2015-05-16,2025-06-30,,,deferred-historical,,
 w-31478-2009-08-25,31478,Xã Long Trị A,Xã,937,2009-08-25,2025-06-30,,,deferred-historical,,
-w-31480-2025-07-01,31480,Phường Long Phú 1,Phường,92,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-31480-2025-07-01,31480,Phường Long Phú 1,Phường,92,2025-07-01,,Q10786877,existing,manual,Q10786877,review 2026-09-02.66: current Long Phú 1 page selects Q10786877
 w-31481-2006-11-11,31481,Xã Tân Phú,Xã,937,2006-11-11,2025-06-30,,,deferred-historical,,
 w-31484-2006-11-11,31484,Xã Thuận Hòa,Xã,936,2006-11-11,2025-06-30,,,deferred-historical,,
 w-31489-2025-07-01,31489,Xã Vĩnh Viễn,Xã,92,2025-07-01,,Q10833752,existing,matched,Q10833752,qlever-label+current-province+batched-wbgetentities
@@ -8754,7 +8754,7 @@ w-31490-2007-12-28,31490,Xã Vĩnh Viễn A,Xã,936,2007-12-28,2025-06-30,,,defe
 w-31492-2025-07-01,31492,Xã Lương Tâm,Xã,92,2025-07-01,,Q10788403,existing,matched,Q10788403,qlever-label+current-province+batched-wbgetentities
 w-31493-2007-12-28,31493,Xã Lương Nghĩa,Xã,936,2007-12-28,2025-06-30,,,deferred-historical,,
 w-31495-2025-07-01,31495,Xã Xà Phiên,Xã,92,2025-07-01,,Q10835268,existing,matched,Q10835268,qlever-label+current-province+batched-wbgetentities
-w-31507-2025-07-01,31507,Phường Sóc Trăng,Phường,92,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-31507-2025-07-01,31507,Phường Sóc Trăng,Phường,92,2025-07-01,,Q136735890,existing,manual,Q33272|Q33418|Q1212869|Q32022360|Q136735890,review 2026-09-02.66: current Sóc Trăng phường page selects Q136735890
 w-31510-2025-07-01,31510,Phường Phú Lợi,Phường,92,2025-07-01,,Q136735888,existing,matched,Q1901452|Q2049157|Q10806006|Q10806007|Q136735888,qlever-label+current-province+batched-wbgetentities
 w-31528-2025-07-01,31528,Xã Kế Sách,Xã,92,2025-07-01,,Q10783661,existing,matched,Q10783661,qlever-label+current-province+batched-wbgetentities
 w-31531-2025-07-01,31531,Xã An Lạc Thôn,Xã,92,2025-07-01,,Q10733230,existing,matched,Q10733230,qlever-label+current-province+batched-wbgetentities
@@ -8786,7 +8786,7 @@ w-31684-2025-07-01,31684,Phường Mỹ Xuyên,Phường,92,2025-07-01,,Q1079690
 w-31687-2025-07-01,31687,Xã Tài Văn,Xã,92,2025-07-01,,Q10830266,existing,matched,Q10830266,qlever-label+current-province+batched-wbgetentities
 w-31699-2025-07-01,31699,Xã Thạnh Thới An,Xã,92,2025-07-01,,Q10826301,existing,matched,Q10826301,qlever-label+current-province+batched-wbgetentities
 w-31708-2025-07-01,31708,Xã Nhu Gia,Xã,92,2025-07-01,,Q10826283,existing,matched,Q10826283,qlever-label+current-province+batched-wbgetentities
-w-31717-2025-07-01,31717,Xã Hòa Tú,Xã,92,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-31717-2025-07-01,31717,Xã Hòa Tú,Xã,92,2025-07-01,,Q136717939,existing,manual,Q136717939,review 2026-09-02.66: current Hòa Tú page selects Q136717939
 w-31723-2025-07-01,31723,Xã Ngọc Tố,Xã,92,2025-07-01,,Q10800697,existing,matched,Q10800697,qlever-label+current-province+batched-wbgetentities
 w-31726-2025-07-01,31726,Xã Gia Hòa,Xã,92,2025-07-01,,Q10761335,existing,matched,Q10761333|Q10761335|Q24958766|Q32267760,qlever-label+current-province+batched-wbgetentities
 w-31732-2025-07-01,31732,Phường Ngã Năm,Phường,92,2025-07-01,,Q10833662,existing,matched,Q10833662,qlever-label+current-province+batched-wbgetentities
@@ -8805,11 +8805,11 @@ w-31795-2025-07-01,31795,Xã Vĩnh Hải,Xã,92,2025-07-01,,Q16480757,existing,m
 w-31804-2025-07-01,31804,Phường Vĩnh Phước,Phường,92,2025-07-01,,Q10833652,existing,matched,Q1921142|Q10833650|Q10833652,qlever-label+current-province+batched-wbgetentities
 w-31810-2025-07-01,31810,Xã Lai Hòa,Xã,92,2025-07-01,,Q10784024,existing,matched,Q10784024,qlever-label+current-province+batched-wbgetentities
 w-31825-2004-06-30,31825,Phường 1,Phường,954,2004-06-30,2025-06-30,,,deferred-historical,,
-w-31825-2025-07-01,31825,Phường Bạc Liêu,Phường,96,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-31825-2025-07-01,31825,Phường Bạc Liêu,Phường,96,2025-07-01,,Q136675904,existing,manual,Q36142|Q36658|Q797999|Q136675904,review 2026-09-02.66: current Bạc Liêu phường page selects Q136675904
 w-31831-2004-06-30,31831,Phường Nhà Mát,Phường,954,2004-06-30,2025-06-30,,,deferred-historical,,
 w-31834-2025-07-01,31834,Phường Vĩnh Trạch,Phường,96,2025-07-01,,Q10833729,existing,matched,Q635821|Q10833729,qlever-label+current-province+batched-wbgetentities
 w-31840-2025-07-01,31840,Phường Hiệp Thành,Phường,96,2025-07-01,,Q10767694,existing,matched,Q2672609|Q10767691|Q10767692|Q10767694|Q10767697|Q10767698|Q10767699|Q10767700,qlever-label+current-province+batched-wbgetentities
-w-31843-2025-07-01,31843,Xã Hồng Dân,Xã,96,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-31843-2025-07-01,31843,Xã Hồng Dân,Xã,96,2025-07-01,,Q136675945,existing,manual,Q10772115|Q45434403|Q45567926|Q90010314|Q136675945,review 2026-09-02.66: current Hồng Dân xã page selects Q136675945
 w-31849-2025-07-01,31849,Xã Ninh Quới,Xã,96,2025-07-01,,Q10801367,existing,matched,Q10801367,qlever-label+current-province+batched-wbgetentities
 w-31858-2025-07-01,31858,Xã Vĩnh Lộc,Xã,96,2025-07-01,,Q10833608,existing,matched,Q1934001|Q10833606|Q10833608|Q10833609|Q10833610,qlever-label+current-province+batched-wbgetentities
 w-31861-2004-06-30,31861,Xã Vĩnh Lộc A,Xã,956,2004-06-30,2025-06-30,,,deferred-historical,,
@@ -8818,7 +8818,7 @@ w-31864-2025-07-01,31864,Xã Ninh Thạnh Lợi,Xã,96,2025-07-01,,Q7038790,exis
 w-31867-2025-07-01,31867,Xã Phước Long,Xã,96,2025-07-01,,Q7189903,existing,matched,Q7189903|Q7189905|Q10806381|Q10806424,broad-exact-vi+current-province+ward-class+batched-wbgetentities
 w-31876-2025-07-01,31876,Xã Vĩnh Phước,Xã,96,2025-07-01,,Q136677210,existing,manual,Q1921142|Q10833649|Q10833650|Q10833652|Q52332594|Q136677210,review 2026-09-02.38: current Vĩnh Phước xã page selects Q136677210
 w-31882-2025-07-01,31882,Xã Vĩnh Thanh,Xã,96,2025-07-01,,Q7945023,existing,matched,Q1894522|Q1905243|Q7945023|Q10832676|Q10833673|Q10833687|Q10833688|Q10833695|Q10833696|Q10833697|Q10833701|Q32591915,qlever-label+current-province+batched-wbgetentities
-w-31885-2025-07-01,31885,Xã Phong Hiệp,Xã,96,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-31885-2025-07-01,31885,Xã Phong Hiệp,Xã,96,2025-07-01,,Q136675922,existing,manual,Q136675922,review 2026-09-02.66: current Phong Hiệp page selects Q136675922
 w-31888-2004-06-30,31888,Xã Phong Thạnh Tây B,Xã,957,2004-06-30,2025-06-30,,,deferred-historical,,
 w-31891-2025-07-01,31891,Xã Hòa Bình,Xã,96,2025-07-01,,Q5964416,existing,matched,Q1863169|Q2037743|Q5964416|Q10770905|Q10770906|Q10770908|Q10770909|Q10770912|Q10770913|Q10770914|Q10770915|Q10770917|Q10770919|Q10770921|Q10770923|Q10770924|Q10770925|Q10770929|Q10806760,qlever-label+current-province+batched-wbgetentities
 w-31894-2025-07-01,31894,Xã Châu Thới,Xã,96,2025-07-01,,Q5118904,existing,matched,Q5118904,qlever-label+current-province+batched-wbgetentities
@@ -8829,7 +8829,7 @@ w-31906-2025-07-01,31906,Xã Hưng Hội,Xã,96,2025-07-01,,Q5965302,existing,ma
 w-31918-2025-07-01,31918,Xã Vĩnh Mỹ,Xã,96,2025-07-01,,Q136675936,existing,manual,Q1829736|Q10832660|Q10833619|Q136675936,review 2026-09-02.38: current Vĩnh Mỹ page selects Q136675936
 w-31927-2025-07-01,31927,Xã Vĩnh Hậu,Xã,96,2025-07-01,,Q7945015,existing,matched,Q2449918|Q7945015,qlever-label+current-province+batched-wbgetentities
 w-31930-2004-06-30,31930,Xã Vĩnh Hậu A,Xã,961,2004-06-30,2025-06-30,,,deferred-historical,,
-w-31942-2025-07-01,31942,Phường Giá Rai,Phường,96,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-31942-2025-07-01,31942,Phường Giá Rai,Phường,96,2025-07-01,,Q137800152,existing,manual,Q5557806|Q10773936|Q16783857|Q137599955|Q137800152,review 2026-09-02.66: current Giá Rai phường page selects Q137800152
 w-31951-2025-07-01,31951,Phường Láng Tròn,Phường,96,2025-07-01,,Q7187257,existing,matched,Q7187257,qlever-label+current-province+batched-wbgetentities
 w-31957-2025-07-01,31957,Xã Phong Thạnh,Xã,96,2025-07-01,,Q7187247,existing,matched,Q7187247|Q10805480,qlever-label+current-province+batched-wbgetentities
 w-31963-2004-06-30,31963,Xã Phong Thạnh A,Xã,959,2004-06-30,2025-06-30,,,deferred-historical,,
