@@ -5286,6 +5286,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.43",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q10824809"],
+          "local_id": "w-08971-2025-07-01",
+          "mapping_note": "current Xuân Lãng page selects predecessor town item Q10824809",
+          "outcome": "assign",
+          "rationale": "Q10824809 owns the current Xuân Lãng page and represents predecessor town Thanh Lãng within the successor composition. Its label, description, class, and parent remain stale.",
+          "wikidata_qid": "Q10824809"
+        },
+        {
+          "candidate_qids_checked": ["Q137576247"],
+          "local_id": "w-09604-2025-07-01",
+          "mapping_note": "current Tùng Thiện page selects Q137576247",
+          "outcome": "assign",
+          "rationale": "Q137576247 owns the current Tùng Thiện page, whose label and introduction identify the Hà Nội ward. Its structured class and parent are absent.",
+          "wikidata_qid": "Q137576247"
+        },
+        {
+          "candidate_qids_checked": ["Q135183933"],
+          "local_id": "w-09616-2025-07-01",
+          "mapping_note": "current Đoài Phương page selects Q135183933",
+          "outcome": "assign",
+          "rationale": "Q135183933 owns the current Đoài Phương page, and its label and description identify the Hà Nội commune. Its structured class and parent are absent.",
+          "wikidata_qid": "Q135183933"
+        },
+        {
+          "candidate_qids_checked": ["Q18459669", "Q21648101"],
+          "local_id": "w-09619-2025-07-01",
+          "mapping_note": "current Quảng Oai xã page selects predecessor item Q21648101",
+          "outcome": "assign",
+          "rationale": "Q21648101 owns the current `Quảng Oai (xã)` page and represents predecessor Chu Minh within the successor composition. Its label, description, and parent remain stale; Q18459669 is the historical-place article.",
+          "wikidata_qid": "Q21648101"
+        },
+        {
+          "candidate_qids_checked": ["Q135405502"],
+          "local_id": "w-09694-2025-07-01",
+          "mapping_note": "current Suối Hai page selects Q135405502",
+          "outcome": "assign",
+          "rationale": "Q135405502 owns the current Suối Hai page, whose label and introduction identify the Hà Nội commune. Its parent is absent.",
+          "wikidata_qid": "Q135405502"
+        },
+        {
+          "candidate_qids_checked": ["Q135651901"],
+          "local_id": "w-09817-2025-07-01",
+          "mapping_note": "current Ô Diên page selects Q135651901",
+          "outcome": "assign",
+          "rationale": "Q135651901 owns the current Ô Diên page, and its label and description identify the Hà Nội commune. Its structured class and parent are absent.",
+          "wikidata_qid": "Q135651901"
+        },
+        {
+          "candidate_qids_checked": ["Q5370376", "Q137604337"],
+          "local_id": "w-09955-2025-07-01",
+          "mapping_note": "current Thạch Thất xã page selects Q137604337",
+          "outcome": "assign",
+          "rationale": "Q137604337 owns the current `Thạch Thất (xã)` page, and its label and description identify the Hà Nội commune. Its structured class and parent are absent; Q5370376 is the former district.",
+          "wikidata_qid": "Q137604337"
+        },
+        {
+          "candidate_qids_checked": ["Q5116478", "Q134374018"],
+          "local_id": "w-10015-2025-07-01",
+          "mapping_note": "current Chương Mỹ phường page selects Q134374018",
+          "outcome": "assign",
+          "rationale": "Q134374018 owns the current `Chương Mỹ (phường)` page, and its label, commune-level class, description, and city parent identify the Hà Nội ward. Q5116478 is the former district.",
+          "wikidata_qid": "Q134374018"
+        },
+        {
+          "candidate_qids_checked": ["Q5370325", "Q135746687"],
+          "local_id": "w-10114-2025-07-01",
+          "mapping_note": "current Thanh Oai xã page selects Q135746687",
+          "outcome": "assign",
+          "rationale": "Q135746687 owns the current `Thanh Oai (xã)` page, whose label and introduction identify the Hà Nội commune. Its structured class and parent are absent; Q5370325 is the former district.",
+          "wikidata_qid": "Q135746687"
+        },
+        {
+          "candidate_qids_checked": ["Q135398056"],
+          "local_id": "w-10231-2025-07-01",
+          "mapping_note": "current Thượng Phúc page selects Q135398056",
+          "outcome": "assign",
+          "rationale": "Q135398056 owns the current Thượng Phúc page, and its label and description identify the Hà Nội commune. Its structured class and parent are absent.",
+          "wikidata_qid": "Q135398056"
+        }
+      ],
+      "reviewed_at": "2026-09-03T00:08:00Z",
+      "selection": {
+        "input_status": "needs-lookup",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 324
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-03T00:08:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-03T00:08:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
