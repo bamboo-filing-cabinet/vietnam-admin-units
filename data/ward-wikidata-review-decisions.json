@@ -4962,6 +4962,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.40",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q3710674", "Q137383686"],
+          "local_id": "w-02014-2025-07-01",
+          "mapping_note": "current Bạch Thông xã page selects Q137383686",
+          "outcome": "assign",
+          "rationale": "Q137383686 owns the current `Bạch Thông (xã)` page and has commune-level class. Its parent is absent; Q3710674 is the former district.",
+          "wikidata_qid": "Q137383686"
+        },
+        {
+          "candidate_qids_checked": ["Q800052", "Q137383337"],
+          "local_id": "w-02020-2025-07-01",
+          "mapping_note": "current Chợ Đồn xã page selects Q137383337",
+          "outcome": "assign",
+          "rationale": "Q137383337 owns the current `Chợ Đồn (xã)` page, and its label and description identify the current commune. Its structured class and parent are absent; Q800052 is the former district.",
+          "wikidata_qid": "Q137383337"
+        },
+        {
+          "candidate_qids_checked": ["Q3711221", "Q18128516", "Q137383759"],
+          "local_id": "w-02155-2025-07-01",
+          "mapping_note": "current Na Rì xã page selects Q137383759",
+          "outcome": "assign",
+          "rationale": "Q137383759 owns the current `Na Rì (xã)` page and has commune-level class. Its parent is absent; the other candidates are the former district or an unrelated item.",
+          "wikidata_qid": "Q137383759"
+        },
+        {
+          "candidate_qids_checked": ["Q6480637", "Q9384656", "Q10788173"],
+          "local_id": "w-02266-2025-07-01",
+          "mapping_note": "current Lâm Bình xã page selects predecessor item Q10788173",
+          "outcome": "assign",
+          "rationale": "Q10788173 owns the current `Lâm Bình (xã)` page and represents predecessor town Lăng Can within the successor composition. Its label and parent remain stale; the other candidates are the former district or an unrelated item.",
+          "wikidata_qid": "Q10788173"
+        },
+        {
+          "candidate_qids_checked": ["Q6650220", "Q136681086"],
+          "local_id": "w-03151-2025-07-01",
+          "mapping_note": "current Mường Lay phường page selects Q136681086",
+          "outcome": "assign",
+          "rationale": "Q136681086 owns the current `Mường Lay (phường)` page, and its label and description identify the Điện Biên ward. Its structured class and parent are absent; Q6650220 is the former district-level town.",
+          "wikidata_qid": "Q136681086"
+        },
+        {
+          "candidate_qids_checked": ["Q137392468"],
+          "local_id": "w-03244-2025-07-01",
+          "mapping_note": "current Sáng Nhè page selects Q137392468",
+          "outcome": "assign",
+          "rationale": "Q137392468 owns the current Sáng Nhè page and has commune-level class. Its parent is absent, while the article introduction identifies the Điện Biên commune.",
+          "wikidata_qid": "Q137392468"
+        },
+        {
+          "candidate_qids_checked": ["Q7273059"],
+          "local_id": "w-03703-2025-07-01",
+          "mapping_note": "current Quỳnh Nhai xã page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Quỳnh Nhai (xã)` page explicitly identifies the 2025 Sơn La commune but has no Wikibase item. Q7273059 is the former district.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q6937073"],
+          "local_id": "w-03808-2025-07-01",
+          "mapping_note": "current Mường La xã page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Mường La (xã)` page explicitly identifies the 2025 Sơn La commune but has no Wikibase item. Q6937073 is the former district.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q10830262"],
+          "local_id": "w-04603-2025-07-01",
+          "mapping_note": "current Tà Xi Láng page selects Q10830262",
+          "outcome": "assign",
+          "rationale": "Q10830262 owns the current Tà Xi Láng page, and its description and commune class identify the Lào Cai commune. Its label retains the alternative spelling Tà Si Láng and its parent remains stale.",
+          "wikidata_qid": "Q10830262"
+        },
+        {
+          "candidate_qids_checked": [],
+          "local_id": "w-04930-2025-07-01",
+          "mapping_note": "current Yên Xuân, Hà Nội page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Yên Xuân, Hà Nội` page explicitly identifies the 2025 commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
+          "wikidata_qid": ""
+        }
+      ],
+      "reviewed_at": "2026-09-02T23:28:00Z",
+      "selection": {
+        "input_status": "needs-lookup",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 343
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T23:28:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T23:28:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
