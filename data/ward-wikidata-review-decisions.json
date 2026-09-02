@@ -5610,6 +5610,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.46",
+      "decisions": [
+        {
+          "candidate_qids_checked": [],
+          "local_id": "w-12247-2025-07-01",
+          "mapping_note": "current Châu Ninh page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current Châu Ninh page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": [],
+          "local_id": "w-12499-2025-07-01",
+          "mapping_note": "current A Sào page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current A Sào page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": [],
+          "local_id": "w-12577-2025-07-01",
+          "mapping_note": "current Quỳnh An page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current Quỳnh An page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": [],
+          "local_id": "w-12595-2025-07-01",
+          "mapping_note": "current Ngự Thiên page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current Ngự Thiên page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q1199540", "Q65607836"],
+          "local_id": "w-12631-2025-07-01",
+          "mapping_note": "current Thần Khê page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current Thần Khê page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item. The candidates are not the current administrative unit.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": [],
+          "local_id": "w-12634-2025-07-01",
+          "mapping_note": "current Tiên La page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current Tiên La page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q703747", "Q10842223", "Q21402090", "Q28029585"],
+          "local_id": "w-12676-2025-07-01",
+          "mapping_note": "current Lê Quý Đôn xã page selects predecessor item Q10842223",
+          "outcome": "assign",
+          "rationale": "Q10842223 owns the current `Lê Quý Đôn (xã)` page and represents predecessor Độc Lập within the successor composition. Its label, description, and parent remain stale; the other candidates refer to the historical scholar or namesakes.",
+          "wikidata_qid": "Q10842223"
+        },
+        {
+          "candidate_qids_checked": [],
+          "local_id": "w-12694-2025-07-01",
+          "mapping_note": "current Bắc Đông Hưng page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current Bắc Đông Hưng page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": [],
+          "local_id": "w-12700-2025-07-01",
+          "mapping_note": "current Bắc Tiên Hưng page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current Bắc Tiên Hưng page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": [],
+          "local_id": "w-12736-2025-07-01",
+          "mapping_note": "current Đông Tiên Hưng page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current Đông Tiên Hưng page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
+          "wikidata_qid": ""
+        }
+      ],
+      "reviewed_at": "2026-09-03T00:49:00Z",
+      "selection": {
+        "input_status": "needs-lookup",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 302
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-03T00:49:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-03T00:49:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,

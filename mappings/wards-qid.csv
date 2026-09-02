@@ -3543,7 +3543,7 @@ w-12196-2025-07-01,12196,Xã Hồng Quang,Xã,33,2025-07-01,,Q16481328,existing,
 w-12205-2025-07-01,12205,Xã Khoái Châu,Xã,33,2025-07-01,,Q10779380,existing,matched,Q10779380,qlever-label+current-province+batched-wbgetentities
 w-12223-2025-07-01,12223,Xã Triệu Việt Vương,Xã,33,2025-07-01,,,,reviewed-unresolved,Q7841468,review 2026-09-02.45: current Triệu Việt Vương xã page has no Wikibase item
 w-12238-2025-07-01,12238,Xã Việt Tiến,Xã,33,2025-07-01,,,,reviewed-unresolved,Q2213618|Q2523696|Q10832901|Q10832903,review 2026-09-02.19: current Việt Tiến page has no Wikibase item
-w-12247-2025-07-01,12247,Xã Châu Ninh,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-12247-2025-07-01,12247,Xã Châu Ninh,Xã,33,2025-07-01,,,,reviewed-unresolved,,review 2026-09-02.46: current Châu Ninh page has no Wikibase item
 w-12271-2025-07-01,12271,Xã Chí Minh,Xã,33,2025-07-01,,,,reviewed-unresolved,Q10748306|Q10748307|Q10748308|Q10831054|Q94240523|Q110652663|Q125256299,"review 2026-09-02.19: current Chí Minh, Hưng Yên page has no Wikibase item"
 w-12280-2025-07-01,12280,Xã Lương Bằng,Xã,33,2025-07-01,,Q10788314,existing,matched,Q6711722|Q10788314,qlever-label+current-province+batched-wbgetentities
 w-12286-2025-07-01,12286,Xã Nghĩa Dân,Xã,33,2025-07-01,,Q10798734,existing,matched,Q10798734|Q18459885,qlever-label+current-province+batched-wbgetentities
@@ -3561,27 +3561,27 @@ w-12452-2025-07-01,12452,Phường Trần Hưng Đạo,Phường,33,2025-07-01,,
 w-12454-2025-07-01,12454,Phường Trần Lãm,Phường,33,2025-07-01,,Q10829364,existing,matched,Q10829364,qlever-label+current-province+batched-wbgetentities
 w-12466-2025-07-01,12466,Phường Vũ Phúc,Phường,33,2025-07-01,,Q10833869,existing,matched,Q10833869|Q32592507,qlever-label+current-province+batched-wbgetentities
 w-12472-2025-07-01,12472,Xã Quỳnh Phụ,Xã,33,2025-07-01,,,,reviewed-unresolved,Q7273060|Q10811100|Q32299700|Q32299707,review 2026-09-02.20: current Quỳnh Phụ xã page has no Wikibase item
-w-12499-2025-07-01,12499,Xã A Sào,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-12499-2025-07-01,12499,Xã A Sào,Xã,33,2025-07-01,,,,reviewed-unresolved,,review 2026-09-02.46: current A Sào page has no Wikibase item
 w-12511-2025-07-01,12511,Xã Minh Thọ,Xã,33,2025-07-01,,Q139501817,existing,manual,Q16480500|Q139501817,review 2026-09-02.20: current Minh Thọ page selects Q139501817
 w-12517-2025-07-01,12517,Xã Ngọc Lâm,Xã,33,2025-07-01,,Q10800643,existing,matched,Q10800642|Q10800643,qlever-label+current-province+batched-wbgetentities
 w-12523-2025-07-01,12523,Xã Phụ Dực,Xã,33,2025-07-01,,,,reviewed-unresolved,Q10806203|Q10806204|Q16481020|Q16481032,review 2026-09-02.20: current Phụ Dực xã page has no Wikibase item
 w-12526-2025-07-01,12526,Xã Đồng Bằng,Xã,33,2025-07-01,,,,reviewed-unresolved,Q10841909|Q17247405|Q17414222|Q17615409|Q18542497|Q19440181|Q107146095|Q122790968,review 2026-09-02.20: current Đồng Bằng xã page has no Wikibase item
 w-12532-2025-07-01,12532,Xã Nguyễn Du,Xã,33,2025-07-01,,,,reviewed-unresolved,Q313322|Q10799058|Q10799060|Q10799061|Q10799084|Q18459905,review 2026-09-02.20: current Nguyễn Du xã page has no Wikibase item
-w-12577-2025-07-01,12577,Xã Quỳnh An,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-12577-2025-07-01,12577,Xã Quỳnh An,Xã,33,2025-07-01,,,,reviewed-unresolved,,review 2026-09-02.46: current Quỳnh An page has no Wikibase item
 w-12583-2025-07-01,12583,Xã Tân Tiến,Xã,33,2025-07-01,,,,reviewed-unresolved,Q1212538|Q2014618|Q7862101|Q7862102|Q10830905|Q10830906|Q10830908|Q10830909|Q10830911|Q10830912|Q10830913|Q10830915|Q10830916|Q10830918|Q10830920|Q10830921|Q10830922|Q10830925|Q32587702|Q130437802|Q135114076,"review 2026-09-02.20: current Tân Tiến, Hưng Yên page has no Wikibase item"
 w-12586-2025-07-01,12586,Xã Hưng Hà,Xã,33,2025-07-01,,Q10771330,existing,matched,Q10771329|Q10771330,qlever-label+current-province+batched-wbgetentities
-w-12595-2025-07-01,12595,Xã Ngự Thiên,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-12595-2025-07-01,12595,Xã Ngự Thiên,Xã,33,2025-07-01,,,,reviewed-unresolved,,review 2026-09-02.46: current Ngự Thiên page has no Wikibase item
 w-12613-2025-07-01,12613,Xã Long Hưng,Xã,33,2025-07-01,,Q10786836,existing,matched,Q2213087|Q2296463|Q10786829|Q10786831|Q10786833|Q10786836|Q10786837,qlever-label+current-province+batched-wbgetentities
 w-12619-2025-07-01,12619,Xã Diên Hà,Xã,33,2025-07-01,,Q135006182,existing,matched,Q10840180|Q135006182,qlever-label+current-province+batched-wbgetentities
-w-12631-2025-07-01,12631,Xã Thần Khê,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-12634-2025-07-01,12634,Xã Tiên La,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-12631-2025-07-01,12631,Xã Thần Khê,Xã,33,2025-07-01,,,,reviewed-unresolved,Q1199540|Q65607836,review 2026-09-02.46: current Thần Khê page has no Wikibase item
+w-12634-2025-07-01,12634,Xã Tiên La,Xã,33,2025-07-01,,,,reviewed-unresolved,,review 2026-09-02.46: current Tiên La page has no Wikibase item
 w-12656-2005-05-31,12656,Xã Chi Lăng,Xã,339,2005-05-31,2025-06-30,,,deferred-historical,,
-w-12676-2025-07-01,12676,Xã Lê Quý Đôn,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-12676-2025-07-01,12676,Xã Lê Quý Đôn,Xã,33,2025-07-01,,Q10842223,existing,manual,Q703747|Q10842223|Q21402090|Q28029585,review 2026-09-02.46: current Lê Quý Đôn xã page selects predecessor item Q10842223
 w-12685-2025-07-01,12685,Xã Hồng Minh,Xã,33,2025-07-01,,Q10772144,existing,matched,Q10772144|Q10772145,qlever-label+current-province+batched-wbgetentities
 w-12688-2025-07-01,12688,Xã Đông Hưng,Xã,33,2025-07-01,,Q10840741,existing,matched,Q1809155|Q10840735|Q10840738|Q10840741|Q10840742|Q32598014,qlever-label+current-province+batched-wbgetentities
-w-12694-2025-07-01,12694,Xã Bắc Đông Hưng,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-12700-2025-07-01,12700,Xã Bắc Tiên Hưng,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-12736-2025-07-01,12736,Xã Đông Tiên Hưng,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-12694-2025-07-01,12694,Xã Bắc Đông Hưng,Xã,33,2025-07-01,,,,reviewed-unresolved,,review 2026-09-02.46: current Bắc Đông Hưng page has no Wikibase item
+w-12700-2025-07-01,12700,Xã Bắc Tiên Hưng,Xã,33,2025-07-01,,,,reviewed-unresolved,,review 2026-09-02.46: current Bắc Tiên Hưng page has no Wikibase item
+w-12736-2025-07-01,12736,Xã Đông Tiên Hưng,Xã,33,2025-07-01,,,,reviewed-unresolved,,review 2026-09-02.46: current Đông Tiên Hưng page has no Wikibase item
 w-12745-2025-07-01,12745,Xã Bắc Đông Quan,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
 w-12754-2025-07-01,12754,Xã Tiên Hưng,Xã,33,2025-07-01,,,,reviewed-unresolved,Q2026908|Q2352089|Q4758313|Q10827191|Q10827265|Q16480988,review 2026-09-02.20: current Tiên Hưng xã page has no Wikibase item
 w-12763-2025-07-01,12763,Xã Nam Tiên Hưng,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
