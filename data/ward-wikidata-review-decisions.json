@@ -4254,6 +4254,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.33",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q5946136", "Q10841056", "Q18458534", "Q138685321"],
+          "local_id": "w-20350-2025-07-01",
+          "mapping_note": "current Hương Trà, Đà Nẵng page selects Q138685321",
+          "outcome": "assign",
+          "rationale": "Q138685321 owns the current `Hương Trà, Đà Nẵng` page, and its label, ward class, and description identify the successor ward. Its parent is absent; the other candidates are the former district-level town, a namesake, or a disambiguation item.",
+          "wikidata_qid": "Q138685321"
+        },
+        {
+          "candidate_qids_checked": ["Q155441", "Q502371", "Q713724", "Q1048642", "Q1375419", "Q2598989", "Q10831051", "Q11202578", "Q112324538"],
+          "local_id": "w-20380-2025-07-01",
+          "mapping_note": "current Tây Hồ xã page selects predecessor item Q2598989",
+          "outcome": "assign",
+          "rationale": "Q2598989 owns the current `Tây Hồ (xã)` page and represents predecessor Tam Phước within the successor composition. Its label and parent remain stale; the other candidates are namesakes or unrelated entities.",
+          "wikidata_qid": "Q2598989"
+        },
+        {
+          "candidate_qids_checked": ["Q1347079", "Q1836874", "Q2028666", "Q2051571", "Q7188256", "Q10805811", "Q10805812", "Q16481051"],
+          "local_id": "w-20392-2025-07-01",
+          "mapping_note": "current Phú Ninh xã page selects predecessor item Q1836874",
+          "outcome": "assign",
+          "rationale": "Q1836874 owns the current `Phú Ninh (xã)` page and represents predecessor Tam Dân within the successor composition. Its label and parent remain stale; the other candidates are the former district, namesakes, or unrelated entities.",
+          "wikidata_qid": "Q1836874"
+        },
+        {
+          "candidate_qids_checked": ["Q216941", "Q1835088", "Q1850337", "Q2444490", "Q10831045"],
+          "local_id": "w-20455-2025-07-01",
+          "mapping_note": "current Tây Giang xã page selects predecessor item Q1835088",
+          "outcome": "assign",
+          "rationale": "Q1835088 owns the current `Tây Giang (xã)` page and represents predecessor A Tiêng within the successor composition. Its label and parent remain stale; the other candidates are the former district, namesakes, or unrelated entities.",
+          "wikidata_qid": "Q1835088"
+        },
+        {
+          "candidate_qids_checked": ["Q52040", "Q263522", "Q907273", "Q1819109", "Q138776138"],
+          "local_id": "w-20506-2025-07-01",
+          "mapping_note": "current Thượng Đức, Đà Nẵng page selects predecessor item Q1819109",
+          "outcome": "assign",
+          "rationale": "Q1819109 owns the current `Thượng Đức, Đà Nẵng` page and represents predecessor Đại Lãnh within the successor composition. Its label and parent remain stale; the other candidates are namesakes or unrelated entities.",
+          "wikidata_qid": "Q1819109"
+        },
+        {
+          "candidate_qids_checked": ["Q1199511", "Q2347289", "Q2444940", "Q7189882", "Q10806079", "Q10806080", "Q10806081", "Q10806085", "Q10806086"],
+          "local_id": "w-20542-2025-07-01",
+          "mapping_note": "current Phú Thuận, Đà Nẵng page selects predecessor item Q2347289",
+          "outcome": "assign",
+          "rationale": "Q2347289 owns the current `Phú Thuận, Đà Nẵng` page and represents predecessor Đại Thắng within the successor composition. Its label and parent remain stale; the other candidates are namesakes or unrelated entities.",
+          "wikidata_qid": "Q2347289"
+        },
+        {
+          "candidate_qids_checked": ["Q2306905", "Q4750231", "Q10733342"],
+          "local_id": "w-20575-2025-07-01",
+          "mapping_note": "current An Thắng page selects predecessor item Q2306905",
+          "outcome": "assign",
+          "rationale": "Q2306905 owns the current An Thắng page and represents predecessor Điện An within the successor composition. Its label and parent remain stale while its classes include both ward and commune; the other candidates are unrelated or a former commune.",
+          "wikidata_qid": "Q2306905"
+        },
+        {
+          "candidate_qids_checked": ["Q3544438"],
+          "local_id": "w-20635-2025-07-01",
+          "mapping_note": "current Duy Nghĩa page selects Q3544438",
+          "outcome": "assign",
+          "rationale": "Q3544438 owns the current Duy Nghĩa page, and its label, commune class, and description identify the Đà Nẵng commune. Its parent is absent.",
+          "wikidata_qid": "Q3544438"
+        },
+        {
+          "candidate_qids_checked": ["Q2193420", "Q2496834", "Q10810882"],
+          "local_id": "w-20641-2025-07-01",
+          "mapping_note": "current Quế Sơn xã page selects predecessor item Q2496834",
+          "outcome": "assign",
+          "rationale": "Q2496834 owns the current `Quế Sơn (xã)` page and represents predecessor town Đông Phú within the successor composition. Its label, class, and parent remain stale; the other candidates are the former district and a former namesake.",
+          "wikidata_qid": "Q2496834"
+        },
+        {
+          "candidate_qids_checked": ["Q2379049", "Q2682454", "Q2803711", "Q4827219", "Q8045178", "Q10835032", "Q10835034", "Q10835036", "Q10835037", "Q10835038", "Q10835040", "Q117076687"],
+          "local_id": "w-20650-2025-07-01",
+          "mapping_note": "current Xuân Phú, Đà Nẵng page selects predecessor item Q4827219",
+          "outcome": "assign",
+          "rationale": "Q4827219 owns the current `Xuân Phú, Đà Nẵng` page and represents predecessor Quế Phú within the successor composition. Its label and parent remain stale; the other candidates are namesakes or unrelated entities.",
+          "wikidata_qid": "Q4827219"
+        }
+      ],
+      "reviewed_at": "2026-09-02T21:52:00Z",
+      "selection": {
+        "input_status": "needs-review",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 404
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T21:52:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T21:52:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
