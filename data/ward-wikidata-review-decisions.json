@@ -6048,6 +6048,29 @@
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "query pageprops and extracts", "retrieved_at": "2026-09-03T01:42:00Z"},
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"}
       ]
+    },
+    {
+      "batch_id": "2026-09-02.51",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10801329", "Q10801330", "Q10801331"], "local_id": "w-14038-2025-07-01", "mapping_note": "false automatic match displaced by the current Tây Hoa Lư sitelink", "outcome": "retain-unresolved", "rationale": "Q10801329 is the former Ninh Giang ward now represented by the current Tây Hoa Lư page, not the distinct 2025 Ninh Giang commune formed from Phương Định, Trực Chính, and Liêm Hải. The current `Ninh Giang, Ninh Bình` page for that commune has no Wikibase item; Q10801330 and Q10801331 are namesakes in Khánh Hòa and Hải Phòng.", "wikidata_qid": ""},
+        {"candidate_qids_checked": [], "local_id": "w-14194-2025-07-01", "mapping_note": "current Giao Bình page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Giao Bình page identifies the 2025 Ninh Bình commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": ["Q137258864"], "local_id": "w-14203-2025-07-01", "mapping_note": "current Giao Phúc page selects Q137258864", "outcome": "assign", "rationale": "Q137258864 owns the current Giao Phúc page. Its structured class and parent are absent, while the article identifies the Ninh Bình commune.", "wikidata_qid": "Q137258864"},
+        {"candidate_qids_checked": [], "local_id": "w-14212-2025-07-01", "mapping_note": "current Giao Ninh page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Giao Ninh page identifies the 2025 Ninh Bình commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": ["Q5638933"], "local_id": "w-14215-2025-07-01", "mapping_note": "current Hải Hậu xã page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current `Hải Hậu (xã)` page identifies the 2025 Ninh Bình commune but has no Wikibase item. Q5638933 is the former district.", "wikidata_qid": ""},
+        {"candidate_qids_checked": [], "local_id": "w-14221-2025-07-01", "mapping_note": "current Hải Thịnh page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Hải Thịnh page identifies the 2025 Ninh Bình commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": [], "local_id": "w-14359-2025-07-01", "mapping_note": "current Nam Hoa Lư page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Nam Hoa Lư page identifies the 2025 Ninh Bình ward but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": ["Q7680449", "Q25418021", "Q136708199"], "local_id": "w-14362-2025-07-01", "mapping_note": "current Tam Điệp phường page selects Q136708199", "outcome": "assign", "rationale": "Q136708199 owns the current `Tam Điệp (phường)` page and its label and description identify the ward. Structured class and parent are absent; the other candidates are former identities.", "wikidata_qid": "Q136708199"},
+        {"candidate_qids_checked": ["Q131459567"], "local_id": "w-14500-2025-07-01", "mapping_note": "current Đại Hoàng page selects predecessor item Q131459567", "outcome": "assign", "rationale": "Q131459567 owns the current Đại Hoàng page and represents predecessor Tiến Thắng. Its label and description remain stale and structured class and parent are absent.", "wikidata_qid": "Q131459567"},
+        {"candidate_qids_checked": ["Q10801329"], "local_id": "w-14533-2025-07-01", "mapping_note": "current Tây Hoa Lư page selects predecessor item Q10801329", "outcome": "assign", "rationale": "Q10801329 owns the current Tây Hoa Lư page and represents predecessor Ninh Giang. Its label, class, description, and parent remain stale.", "wikidata_qid": "Q10801329"},
+        {"candidate_qids_checked": ["Q10779633"], "local_id": "w-14566-2025-07-01", "mapping_note": "current Đông Hoa Lư page selects predecessor item Q10779633", "outcome": "assign", "rationale": "Q10779633 owns the current Đông Hoa Lư page and represents predecessor Khánh Phú. Its label, description, and parent remain stale.", "wikidata_qid": "Q10779633"}
+      ],
+      "reviewed_at": "2026-09-03T01:54:00Z",
+      "selection": {"input_status": "needs-lookup", "limit": 10, "order": "local_id", "starting_unresolved": 286},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbgetentities", "retrieved_at": "2026-09-03T01:54:00Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "query pageprops and extracts", "retrieved_at": "2026-09-03T01:54:00Z"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"}
+      ]
     }
   ],
   "schema_version": 1,
