@@ -5070,6 +5070,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.41",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q86013284"],
+          "local_id": "w-05014-2025-07-01",
+          "mapping_note": "current Mường Động page selects predecessor item Q86013284",
+          "outcome": "assign",
+          "rationale": "Q86013284 owns the current Mường Động page and represents predecessor Đông Bắc within the successor composition. Its label and parent remain stale.",
+          "wikidata_qid": "Q86013284"
+        },
+        {
+          "candidate_qids_checked": ["Q10757501"],
+          "local_id": "w-05116-2025-07-01",
+          "mapping_note": "current Mường Thàng page selects predecessor item Q10757501",
+          "outcome": "assign",
+          "rationale": "Q10757501 owns the current Mường Thàng page and represents predecessor Dũng Phong within the successor composition. Its label and parent remain stale.",
+          "wikidata_qid": "Q10757501"
+        },
+        {
+          "candidate_qids_checked": ["Q10796733"],
+          "local_id": "w-05158-2025-07-01",
+          "mapping_note": "current Mường Bi page selects predecessor item Q10796733",
+          "outcome": "assign",
+          "rationale": "Q10796733 owns the current Mường Bi page and represents predecessor Mỹ Hòa within the successor composition. Its label, description, and parent remain stale.",
+          "wikidata_qid": "Q10796733"
+        },
+        {
+          "candidate_qids_checked": ["Q10830628"],
+          "local_id": "w-05287-2025-07-01",
+          "mapping_note": "current Mường Vang page selects predecessor item Q10830628",
+          "outcome": "assign",
+          "rationale": "Q10830628 owns the current Mường Vang page and represents predecessor Tân Lập within the successor composition. Its label, description, and parent remain stale.",
+          "wikidata_qid": "Q10830628"
+        },
+        {
+          "candidate_qids_checked": ["Q8052200", "Q10770762"],
+          "local_id": "w-05353-2025-07-01",
+          "mapping_note": "current Yên Thủy xã page selects predecessor item Q10770762",
+          "outcome": "assign",
+          "rationale": "Q10770762 owns the current `Yên Thủy (xã)` page and represents predecessor town Hàng Trạm within the successor composition. Its label, classes, and parent remain stale; Q8052200 is the former district.",
+          "wikidata_qid": "Q10770762"
+        },
+        {
+          "candidate_qids_checked": ["Q6467892", "Q10746136"],
+          "local_id": "w-05392-2025-07-01",
+          "mapping_note": "current Lạc Thủy xã page selects predecessor item Q10746136",
+          "outcome": "assign",
+          "rationale": "Q10746136 owns the current `Lạc Thủy (xã)` page and represents predecessor town Chi Nê within the successor composition. Its label, class, and parent remain stale; Q6467892 is the former district.",
+          "wikidata_qid": "Q10746136"
+        },
+        {
+          "candidate_qids_checked": ["Q5160363", "Q7666269", "Q10947790", "Q20063182", "Q45369920", "Q45591861", "Q45616258", "Q45616321", "Q45658034", "Q121034632", "Q124693710"],
+          "local_id": "w-05518-2025-07-01",
+          "mapping_note": "current Sông Công phường page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Sông Công (phường)` page explicitly identifies the 2025 Thái Nguyên ward but has no Wikibase item. The candidates are the former city or unrelated entities.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q5295741", "Q137383300"],
+          "local_id": "w-05692-2025-07-01",
+          "mapping_note": "current Đồng Hỷ xã page selects Q137383300",
+          "outcome": "assign",
+          "rationale": "Q137383300 owns the current `Đồng Hỷ (xã)` page, whose label and introduction identify the Thái Nguyên commune. Its structured class and parent are absent; Q5295741 is the former district.",
+          "wikidata_qid": "Q137383300"
+        },
+        {
+          "candidate_qids_checked": ["Q7939153"],
+          "local_id": "w-05716-2025-07-01",
+          "mapping_note": "current Võ Nhai xã page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Võ Nhai (xã)` page explicitly identifies the 2025 Thái Nguyên commune but has no Wikibase item. Q7939153 is the former district.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q4798245"],
+          "local_id": "w-05860-2025-07-01",
+          "mapping_note": "current Phổ Yên phường page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Phổ Yên (phường)` page explicitly identifies the 2025 Thái Nguyên ward but has no Wikibase item. Q4798245 is the former district-level city.",
+          "wikidata_qid": ""
+        }
+      ],
+      "reviewed_at": "2026-09-02T23:41:00Z",
+      "selection": {
+        "input_status": "needs-lookup",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 336
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T23:41:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T23:41:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
