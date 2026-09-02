@@ -5502,6 +5502,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.45",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q10787971"],
+          "local_id": "w-11506-2025-07-01",
+          "mapping_note": "current Lê Ích Mộc phường page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Lê Ích Mộc (phường)` page explicitly identifies the 2025 Hải Phòng ward but has no Wikibase item. Q10787971 is the historical person after whom the ward is named.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q5315878"],
+          "local_id": "w-11692-2025-07-01",
+          "mapping_note": "current Dương Kinh phường page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Dương Kinh (phường)` page explicitly identifies the 2025 Hải Phòng ward but has no Wikibase item. Q5315878 is the former district.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q1198654", "Q10780320"],
+          "local_id": "w-11713-2025-07-01",
+          "mapping_note": "current Nghi Dương page selects predecessor item Q10780320",
+          "outcome": "assign",
+          "rationale": "Q10780320 owns the current Nghi Dương page and represents predecessor Kiến Quốc within the successor composition. Its label, description, and parent remain stale; Q1198654 is unrelated.",
+          "wikidata_qid": "Q10780320"
+        },
+        {
+          "candidate_qids_checked": ["Q5370690", "Q5371530", "Q10794001"],
+          "local_id": "w-11725-2025-07-01",
+          "mapping_note": "current Kiến Minh page selects predecessor item Q10794001",
+          "outcome": "assign",
+          "rationale": "Q10794001 owns the current Kiến Minh page and represents predecessor Minh Tân within the successor composition. Its label, description, and parent remain stale; the other candidates are unrelated.",
+          "wikidata_qid": "Q10794001"
+        },
+        {
+          "candidate_qids_checked": ["Q10831299"],
+          "local_id": "w-11749-2025-07-01",
+          "mapping_note": "current Kiến Hải page selects predecessor item Q10831299",
+          "outcome": "assign",
+          "rationale": "Q10831299 owns the current Kiến Hải page and represents predecessor Tú Sơn within the successor composition. Its label, description, and parent remain stale.",
+          "wikidata_qid": "Q10831299"
+        },
+        {
+          "candidate_qids_checked": ["Q10744231"],
+          "local_id": "w-11887-2025-07-01",
+          "mapping_note": "current Vĩnh Am page selects predecessor item Q10744231",
+          "outcome": "assign",
+          "rationale": "Q10744231 owns the current Vĩnh Am page and represents predecessor Cao Minh within the successor composition. Its label, description, and parent remain stale.",
+          "wikidata_qid": "Q10744231"
+        },
+        {
+          "candidate_qids_checked": ["Q10807145"],
+          "local_id": "w-11953-2025-07-01",
+          "mapping_note": "current Phố Hiến page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current Phố Hiến page explicitly identifies the 2025 Hưng Yên ward but has no Wikibase item. Q10807145 is not the current administrative unit.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q6945614"],
+          "local_id": "w-12103-2025-07-01",
+          "mapping_note": "current Mỹ Hào phường page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Mỹ Hào (phường)` page explicitly identifies the 2025 Hưng Yên ward but has no Wikibase item. Q6945614 is the former district-level town.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q137218806"],
+          "local_id": "w-12133-2025-07-01",
+          "mapping_note": "current Đường Hào page selects Q137218806",
+          "outcome": "assign",
+          "rationale": "Q137218806 owns the current Đường Hào page, and its label and description identify the Hưng Yên ward. Its structured class and parent are absent.",
+          "wikidata_qid": "Q137218806"
+        },
+        {
+          "candidate_qids_checked": ["Q7841468"],
+          "local_id": "w-12223-2025-07-01",
+          "mapping_note": "current Triệu Việt Vương xã page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Triệu Việt Vương (xã)` page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item. Q7841468 is the historical ruler after whom the commune is named.",
+          "wikidata_qid": ""
+        }
+      ],
+      "reviewed_at": "2026-09-03T00:36:00Z",
+      "selection": {
+        "input_status": "needs-lookup",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 307
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-03T00:36:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-03T00:36:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
