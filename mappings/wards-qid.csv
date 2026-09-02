@@ -2095,7 +2095,7 @@ w-1060111-base,09163,Phường Vũ Ninh,Phường,256,,2025-06-30,,,deferred-his
 w-1060113-base,09172,Phường Kinh Bắc,Phường,256,,2025-06-30,,,deferred-historical,,
 w-1060115-base,09181,Phường Đại Phúc,Phường,256,,2025-06-30,,,deferred-historical,,
 w-1060117-base,09190,Phường Võ Cường,Phường,256,,2025-06-30,,,deferred-historical,,
-w-10603-2025-07-01,10603,Phường Lê Đại Hành,Phường,31,2025-07-01,,,,needs-review,Q10787988,"1 label candidate(s), but no bulk P131 resolves to the current province"
+w-10603-2025-07-01,10603,Phường Lê Đại Hành,Phường,31,2025-07-01,,,,reviewed-unresolved,Q1317979|Q10787988,review 2026-09-02.17: current Lê Đại Hành ward page has no Wikibase item
 w-1060301-base,09193,Thị trấn Chờ,Thị trấn,258,,2025-06-30,,,deferred-historical,,
 w-1060303-base,09196,Xã Dũng Liệt,Xã,258,,2025-06-30,,,deferred-historical,,
 w-1060305-base,09211,Xã Hòa Tiến,Xã,258,,2025-06-30,,,deferred-historical,,
@@ -2660,16 +2660,16 @@ w-1091337-base,11980,Xã Quảng Châu,Xã,323,,2025-06-30,,,deferred-historical
 w-1091339-base,11977,Xã Phương Nam,Xã,323,,2025-06-30,,,deferred-historical,,
 w-1091341-base,12385,Xã Tân Hưng,Xã,323,,2025-06-30,,,deferred-historical,,
 w-1091343-base,12388,Xã Hoàng Hanh,Xã,323,,2025-06-30,,,deferred-historical,,
-w-10930-2025-07-01,10930,Xã Mao Điền,Xã,31,2025-07-01,,,,needs-review,Q10796210|Q138637709,"2 label candidate(s), but no bulk P131 resolves to the current province"
+w-10930-2025-07-01,10930,Xã Mao Điền,Xã,31,2025-07-01,,Q138637709,existing,manual,Q10796210|Q138637709,review 2026-09-02.17: current Mao Điền page selects Q138637709
 w-10945-2025-07-01,10945,Xã Kẻ Sặt,Xã,31,2025-07-01,,Q10783653,existing,matched,Q10783653,qlever-label+current-province+batched-wbgetentities
-w-10966-2025-07-01,10966,Xã Bình Giang,Xã,31,2025-07-01,,,,needs-review,Q2541664|Q10742387|Q10772129,"3 label candidate(s), but no bulk P131 resolves to the current province"
+w-10966-2025-07-01,10966,Xã Bình Giang,Xã,31,2025-07-01,,Q10772129,existing,manual,Q687952|Q1211489|Q1343340|Q2541664|Q3031078|Q10742387|Q10772129|Q11061092|Q17005303|Q113651427|Q136688028,"review 2026-09-02.17: current Bình Giang, Hải Phòng page selects Q10772129"
 w-10972-2025-07-01,10972,Xã Đường An,Xã,31,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-10993-2025-07-01,10993,Xã Thượng Hồng,Xã,31,2025-07-01,,,,needs-review,Q131342536,"1 label candidate(s), but no bulk P131 resolves to the current province"
+w-10993-2025-07-01,10993,Xã Thượng Hồng,Xã,31,2025-07-01,,Q131342536,existing,manual,Q131342536,review 2026-09-02.17: current Thượng Hồng xã page selects Q131342536
 w-10999-2025-07-01,10999,Xã Gia Lộc,Xã,31,2025-07-01,,Q10761356,existing,matched,Q10761354|Q10761355|Q10761356,qlever-label+current-province+batched-wbgetentities
 w-11002-2025-07-01,11002,Phường Thạch Khôi,Phường,31,2025-07-01,,Q10826162,existing,matched,Q10826162,qlever-label+current-province+batched-wbgetentities
 w-11020-2025-07-01,11020,Xã Yết Kiêu,Xã,31,2025-07-01,,Q10838333,existing,matched,Q10838333,qlever-label+current-province+batched-wbgetentities
 w-11050-2025-07-01,11050,Xã Gia Phúc,Xã,31,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-11065-2025-07-01,11065,Xã Trường Tân,Xã,31,2025-07-01,,,,needs-review,Q131534459,"1 label candidate(s), but no bulk P131 resolves to the current province"
+w-11065-2025-07-01,11065,Xã Trường Tân,Xã,31,2025-07-01,,Q131534459,existing,manual,Q712769|Q16195369|Q131534459,review 2026-09-02.17: current Trường Tân page selects Q131534459
 w-11074-2025-07-01,11074,Xã Tứ Kỳ,Xã,31,2025-07-01,,Q10831828,existing,matched,Q10831828,qlever-label+current-province+batched-wbgetentities
 w-11086-2025-07-01,11086,Xã Đại Sơn,Xã,31,2025-07-01,,Q10783730,existing,matched,Q2170221|Q2235984|Q10783730|Q10840410|Q10841147|Q10841148|Q10841149,qlever-label+current-province+batched-wbgetentities
 w-1110101-base,13300,Phường Trần Hưng Đạo,Phường,347,,2024-12-31,,,deferred-historical,,
@@ -2795,12 +2795,12 @@ w-11146-2025-07-01,11146,Xã Nguyên Giáp,Xã,31,2025-07-01,,Q10798929,existing
 w-11164-2025-07-01,11164,Xã Vĩnh Lại,Xã,31,2025-07-01,,Q10798721,existing,matched,Q10798721|Q10833602|Q10833603,qlever-label+current-province+batched-wbgetentities
 w-11167-2025-07-01,11167,Xã Tân An,Xã,31,2025-07-01,,Q10830343,existing,matched,Q1862735|Q2126866|Q2390731|Q2396841|Q2646896|Q10733192|Q10830334|Q10830335|Q10830336|Q10830338|Q10830339|Q10830342|Q10830343|Q10830345|Q10830346|Q10830347|Q10830350|Q10830991|Q136675874,qlever-label+current-province+batched-wbgetentities
 w-11203-2025-07-01,11203,Xã Ninh Giang,Xã,31,2025-07-01,,Q10801331,existing,matched,Q10801329|Q10801330|Q10801331,qlever-label+current-province+batched-wbgetentities
-w-11218-2025-07-01,11218,Xã Hồng Châu,Xã,31,2025-07-01,,,,needs-review,Q10772107|Q10772109|Q32275083,"3 label candidate(s), but no bulk P131 resolves to the current province"
+w-11218-2025-07-01,11218,Xã Hồng Châu,Xã,31,2025-07-01,,,,reviewed-unresolved,Q10772107|Q10772109|Q32275083|Q38195662|Q61127926,review 2026-09-02.17: current Hồng Châu xã page has no Wikibase item
 w-11224-2025-07-01,11224,Xã Khúc Thừa Dụ,Xã,31,2025-07-01,,Q10772164,existing,matched,Q10772164,qlever-label+current-province+batched-wbgetentities
 w-11239-2025-07-01,11239,Xã Thanh Miện,Xã,31,2025-07-01,,Q10824837,existing,matched,Q10824837,qlever-label+current-province+batched-wbgetentities
-w-11242-2025-07-01,11242,Xã Nguyễn Lương Bằng,Xã,31,2025-07-01,,,,needs-review,Q138685604,"1 label candidate(s), but no bulk P131 resolves to the current province"
+w-11242-2025-07-01,11242,Xã Nguyễn Lương Bằng,Xã,31,2025-07-01,,Q138685604,existing,manual,Q10799268|Q138685604,review 2026-09-02.17: current Nguyễn Lương Bằng xã page selects Q138685604
 w-11254-2025-07-01,11254,Xã Bắc Thanh Miện,Xã,31,2025-07-01,,Q10787662,existing,matched,Q10787662,qlever-label+current-province+batched-wbgetentities
-w-11257-2025-07-01,11257,Xã Hải Hưng,Xã,31,2025-07-01,,,,needs-review,Q10771639,"1 label candidate(s), but no bulk P131 resolves to the current province"
+w-11257-2025-07-01,11257,Xã Hải Hưng,Xã,31,2025-07-01,,,,reviewed-unresolved,Q1197095|Q2107381|Q10771639,"review 2026-09-02.17: current Hải Hưng, Hải Phòng page has no Wikibase item"
 w-11284-2025-07-01,11284,Xã Nam Thanh Miện,Xã,31,2025-07-01,,Q10746131,existing,matched,Q10746131,qlever-label+current-province+batched-wbgetentities
 w-1130101-base,13636,Phường Vị Xuyên,Phường,356,,2025-06-30,,,deferred-historical,,
 w-1130103-base,13633,Phường Hạ Long,Phường,356,,2024-08-31,,,deferred-historical,,
@@ -2904,7 +2904,7 @@ w-1130933-base,14023,Xã Nam Thái,Xã,362,,2025-06-30,,,deferred-historical,,
 w-1130935-base,14008,Xã Nam Lợi,Xã,362,,2025-06-30,,,deferred-historical,,
 w-1130937-base,14005,Xã Nam Thanh,Xã,362,,2025-06-30,,,deferred-historical,,
 w-1130939-base,14020,Xã Nam Hải,Xã,362,,2025-06-30,,,deferred-historical,,
-w-11311-2025-07-01,11311,Phường Hồng Bàng,Phường,31,2025-07-01,,,,needs-review,Q138638758,"1 label candidate(s), but no bulk P131 resolves to the current province"
+w-11311-2025-07-01,11311,Phường Hồng Bàng,Phường,31,2025-07-01,,Q138638758,existing,manual,Q1209333|Q5965452|Q11147013|Q138638758,review 2026-09-02.17: current Hồng Bàng ward page selects Q138638758
 w-1131101-base,14026,Thị trấn Cổ Lễ,Thị trấn,363,,2025-06-30,,,deferred-historical,,
 w-1131103-base,14029,Xã Phương Định,Xã,363,,2025-06-30,,,deferred-historical,,
 w-1131105-base,14035,Xã Trung Đông,Xã,363,,2025-06-30,,,deferred-historical,,
@@ -3031,7 +3031,7 @@ w-1131969-base,14305,Xã Hải Chính,Xã,366,,2024-08-31,,,deferred-historical,
 w-11329-2025-07-01,11329,Phường Ngô Quyền,Phường,31,2025-07-01,,Q10800374,existing,matched,Q10800374|Q10800375|Q10800378|Q16480944|Q138637646,qlever-label+current-province+batched-wbgetentities
 w-11359-2025-07-01,11359,Phường Gia Viên,Phường,31,2025-07-01,,Q10761407,existing,matched,Q10761407|Q24955396,qlever-label+current-province+batched-wbgetentities
 w-11383-2025-01-01,11383,Phường Trần Nguyên Hãn,Phường,305,2025-01-01,2025-06-30,,,deferred-historical,,
-w-11383-2025-07-01,11383,Phường Lê Chân,Phường,31,2025-07-01,,,,needs-review,Q138638733,"1 label candidate(s), but no bulk P131 resolves to the current province"
+w-11383-2025-07-01,11383,Phường Lê Chân,Phường,31,2025-07-01,,Q138638733,existing,manual,Q10787584|Q138638733,review 2026-09-02.17: current Lê Chân ward page selects Q138638733
 w-11395-2025-01-01,11395,Phường Hàng Kênh,Phường,305,2025-01-01,2025-06-30,,,deferred-historical,,
 w-11401-2004-06-30,11401,Phường Nghĩa Xá,Phường,305,2004-06-30,2024-12-31,,,deferred-historical,,
 w-11401-2025-01-01,11401,Phường An Dương,Phường,305,2025-01-01,2025-06-30,,,deferred-historical,,

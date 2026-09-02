@@ -2526,6 +2526,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.17",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q1317979", "Q10787988"],
+          "local_id": "w-10603-2025-07-01",
+          "mapping_note": "current Lê Đại Hành ward page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Lê Đại Hành (phường)` page explicitly identifies the 2025 Hải Phòng ward but has no Wikibase item. The candidates are the emperor and a Hanoi namesake.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q10796210", "Q138637709"],
+          "local_id": "w-10930-2025-07-01",
+          "mapping_note": "current Mao Điền page selects Q138637709",
+          "outcome": "assign",
+          "rationale": "Q138637709 owns the current Mao Điền page and has commune class. Q10796210 is a spelling-different namesake.",
+          "wikidata_qid": "Q138637709"
+        },
+        {
+          "candidate_qids_checked": ["Q687952", "Q1211489", "Q1343340", "Q2541664", "Q3031078", "Q10742387", "Q10772129", "Q11061092", "Q17005303", "Q113651427", "Q136688028"],
+          "local_id": "w-10966-2025-07-01",
+          "mapping_note": "current Bình Giang, Hải Phòng page selects Q10772129",
+          "outcome": "assign",
+          "rationale": "Q10772129 owns the current `Bình Giang, Hải Phòng` page and has commune class. The other candidates are the former district or namesakes elsewhere.",
+          "wikidata_qid": "Q10772129"
+        },
+        {
+          "candidate_qids_checked": ["Q131342536"],
+          "local_id": "w-10993-2025-07-01",
+          "mapping_note": "current Thượng Hồng xã page selects Q131342536",
+          "outcome": "assign",
+          "rationale": "Q131342536 owns the current `Thượng Hồng (xã)` page and has commune class. It is the sole candidate and the page identifies the Hải Phòng unit.",
+          "wikidata_qid": "Q131342536"
+        },
+        {
+          "candidate_qids_checked": ["Q712769", "Q16195369", "Q131534459"],
+          "local_id": "w-11065-2025-07-01",
+          "mapping_note": "current Trường Tân page selects Q131534459",
+          "outcome": "assign",
+          "rationale": "Q131534459 owns the current Trường Tân page and has commune class. The other candidates are unrelated namesakes.",
+          "wikidata_qid": "Q131534459"
+        },
+        {
+          "candidate_qids_checked": ["Q10772107", "Q10772109", "Q38195662", "Q61127926"],
+          "local_id": "w-11218-2025-07-01",
+          "mapping_note": "current Hồng Châu xã page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Hồng Châu (xã)` page explicitly identifies the 2025 Hải Phòng commune but has no Wikibase item. The existing candidates are a ward, a person, or other namesakes.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q10799268", "Q138685604"],
+          "local_id": "w-11242-2025-07-01",
+          "mapping_note": "current Nguyễn Lương Bằng xã page selects Q138685604",
+          "outcome": "assign",
+          "rationale": "Q138685604 owns the current `Nguyễn Lương Bằng (xã)` page and has commune class. Q10799268 is the person after whom the unit is named.",
+          "wikidata_qid": "Q138685604"
+        },
+        {
+          "candidate_qids_checked": ["Q1197095", "Q2107381", "Q10771639"],
+          "local_id": "w-11257-2025-07-01",
+          "mapping_note": "current Hải Hưng, Hải Phòng page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Hải Hưng, Hải Phòng` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are the former province or unrelated namesakes.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q1209333", "Q5965452", "Q11147013", "Q138638758"],
+          "local_id": "w-11311-2025-07-01",
+          "mapping_note": "current Hồng Bàng ward page selects Q138638758",
+          "outcome": "assign",
+          "rationale": "Q138638758 owns the current `Hồng Bàng (phường)` page and has ward class. The other candidates are the former district, historical concept, or namesake.",
+          "wikidata_qid": "Q138638758"
+        },
+        {
+          "candidate_qids_checked": ["Q10787584", "Q138638733"],
+          "local_id": "w-11383-2025-07-01",
+          "mapping_note": "current Lê Chân ward page selects Q138638733",
+          "outcome": "assign",
+          "rationale": "Q138638733 owns the current `Lê Chân (phường)` page and has ward class. Q10787584 is the historical general after whom the unit is named.",
+          "wikidata_qid": "Q138638733"
+        }
+      ],
+      "reviewed_at": "2026-09-02T19:48:00Z",
+      "selection": {
+        "input_status": "needs-review",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 507
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T19:48:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T19:48:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
