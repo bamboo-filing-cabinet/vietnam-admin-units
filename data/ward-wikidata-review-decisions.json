@@ -1645,6 +1645,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.09",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q10831525", "Q10831526", "Q10831528", "Q10831529", "Q10831530"],
+          "local_id": "w-03013-2025-07-01",
+          "mapping_note": "current Lào Cai page selects Q10831526 despite stale P131",
+          "outcome": "assign",
+          "rationale": "Q10831526 owns the current Tả Phìn page, which identifies the Lào Cai commune, and has commune class. Its parent remains the former Sa Pa district; the other candidates are namesakes or a disambiguation item.",
+          "wikidata_qid": "Q10831526"
+        },
+        {
+          "candidate_qids_checked": ["Q16209913", "Q79616848", "Q86167728", "Q91153288", "Q107309395", "Q131552567"],
+          "local_id": "w-03982-2025-07-01",
+          "mapping_note": "current Sơn La page selects Q131552567",
+          "outcome": "assign",
+          "rationale": "Q131552567 owns the current Thảo Nguyên page and has ward class. The remaining candidates are unrelated concepts or people.",
+          "wikidata_qid": "Q131552567"
+        },
+        {
+          "candidate_qids_checked": ["Q1320221", "Q10830986", "Q16878375", "Q131552384", "Q135153073"],
+          "local_id": "w-03997-2025-07-01",
+          "mapping_note": "current Tân Yên, Sơn La page selects Q131552384",
+          "outcome": "assign",
+          "rationale": "Q131552384 owns the current `Tân Yên, Sơn La` page. The remaining candidates are a former district or namesakes outside Sơn La.",
+          "wikidata_qid": "Q131552384"
+        },
+        {
+          "candidate_qids_checked": ["Q10840295", "Q10840296", "Q10840297", "Q10840299", "Q10840300", "Q10840301", "Q10840302", "Q10840303", "Q10840304", "Q10840305", "Q10840306", "Q10840307", "Q131552385"],
+          "local_id": "w-04000-2025-07-01",
+          "mapping_note": "current Đoàn Kết, Sơn La page selects Q131552385",
+          "outcome": "assign",
+          "rationale": "Q131552385 owns the current `Đoàn Kết, Sơn La` page. The older candidates are namesakes in other provinces or a disambiguation item.",
+          "wikidata_qid": "Q131552385"
+        },
+        {
+          "candidate_qids_checked": ["Q3045936", "Q6183727", "Q10833152", "Q10833153", "Q10833156", "Q10833424", "Q10833425", "Q10833426", "Q10833427", "Q18211702", "Q55636943", "Q106832375", "Q124692876", "Q131552566"],
+          "local_id": "w-04033-2025-07-01",
+          "mapping_note": "current Vân Sơn ward page selects Q131552566",
+          "outcome": "assign",
+          "rationale": "Q131552566 owns the current `Vân Sơn (phường)` page and has ward class. The remaining matches are people, disambiguation, or places elsewhere.",
+          "wikidata_qid": "Q131552566"
+        },
+        {
+          "candidate_qids_checked": ["Q718400", "Q10789962", "Q10789963", "Q10789965", "Q10789966"],
+          "local_id": "w-04105-2025-07-01",
+          "mapping_note": "current Mai Sơn xã page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Mai Sơn (xã)` page explicitly identifies the 2025 Sơn La commune but has no Wikibase item. The existing candidates are the former district or unrelated communes.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q26019", "Q36349", "Q1774993", "Q10837964", "Q10837965", "Q135228953"],
+          "local_id": "w-04252-2025-07-01",
+          "mapping_note": "current Yên Bái ward page selects Q135228953",
+          "outcome": "assign",
+          "rationale": "Q135228953 owns the current `Yên Bái (phường)` page and is typed as a Vietnamese commune-level unit. The other candidates are the former city, former province, or namesakes.",
+          "wikidata_qid": "Q135228953"
+        },
+        {
+          "candidate_qids_checked": ["Q1345013", "Q10771339", "Q10771342", "Q10894248", "Q19851902"],
+          "local_id": "w-04576-2025-07-01",
+          "mapping_note": "current Lào Cai page selects Q10771342 despite missing P131",
+          "outcome": "assign",
+          "rationale": "Q10771342 owns the current Hưng Khánh page, which identifies the Lào Cai commune, and has commune class. The other candidates are unrelated namesakes or a disambiguation item.",
+          "wikidata_qid": "Q10771342"
+        },
+        {
+          "candidate_qids_checked": ["Q10752402"],
+          "local_id": "w-04681-2025-07-01",
+          "mapping_note": "current Lào Cai page selects Q10752402 despite missing P131",
+          "outcome": "assign",
+          "rationale": "Q10752402 owns the current Cầu Thia page, which identifies the Lào Cai ward, and carries both commune and ward classes. Its parent statement is missing.",
+          "wikidata_qid": "Q10752402"
+        },
+        {
+          "candidate_qids_checked": ["Q10796367", "Q10842405"],
+          "local_id": "w-04846-2025-07-01",
+          "mapping_note": "current Đức Nhàn page selects predecessor item Q10796367",
+          "outcome": "assign",
+          "rationale": "Q10796367 owns the current Đức Nhàn page and represents predecessor Mường Chiềng within the successor composition. Its label and parent remain stale; Q10842405 is a different Đức Nhân.",
+          "wikidata_qid": "Q10796367"
+        }
+      ],
+      "reviewed_at": "2026-09-02T18:55:59Z",
+      "selection": {
+        "input_status": "needs-review",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 576
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T18:55:59Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T18:55:59Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
