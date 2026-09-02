@@ -28,7 +28,7 @@ vietnam-elections     vietnam-elections-wikidata
 2. **Set up + verify:**
    ```sh
    uv sync
-   uv run pytest -q                          # 230 tests pass
+   uv run pytest -q                          # 231 tests pass
    ```
 
    **Phases 1 and 2 are complete and uploaded to Wikidata (provinces + districts).** The next work is **Phase 3 (wards)** — read the "Phase 2" block under [Status](#status) for the post-upload verification step and the roadmap pointer.
@@ -101,11 +101,14 @@ primary-source-open instruments accepted as bounded graph-construction residue.
 The read-only Wikidata discovery snapshot is also complete: one saved QLever
 query produced 11,838 candidates in 739 ms, local parent prefiltering reduced
 Action API verification to 2,878 items in 58 batches, and two additional saved
-evidence passes raise coverage to 2,670 of 3,321 current wards with zero
-structural issues. **Resume with review of the 651 unassigned current rows**
-(47 ambiguous, 324 needs review, 280 needs lookup). No Wikidata statements have
-been emitted. See the initial [reconciliation journal](docs/journals/2026-09-01.05.ward-wikidata-reconciliation.md),
+evidence passes raised coverage to 2,670 of 3,321 current wards. Manual identity
+review batch 01 resolves another 10 with a durable decision ledger, bringing
+coverage to 2,680 with zero structural issues. **Resume with review of the 641
+unassigned current rows** (37 ambiguous, 324 needs review, 280 needs lookup).
+No Wikidata statements have been emitted. See the initial
+[reconciliation journal](docs/journals/2026-09-01.05.ward-wikidata-reconciliation.md),
 the [review-reduction journal](docs/journals/2026-09-01.06.ward-wikidata-review-reduction.md),
+the [first manual review batch](docs/journals/2026-09-02.01.ward-wikidata-review-batch-01.md),
 and run:
 
 ```sh

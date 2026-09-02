@@ -39,6 +39,7 @@ QUERY_PATH = Path("queries/ward-wikidata-candidates.rq")
 RAW_RESULT = "wikidata/ward-candidates-2026-09-01.sparql.json.gz"
 CANDIDATE_CACHE = Path("data/ward-wikidata-candidates.json")
 BROAD_CANDIDATE_CACHE = Path("data/ward-wikidata-unresolved-candidates.json")
+REVIEW_DECISIONS = Path("data/ward-wikidata-review-decisions.json")
 WARD_HISTORY = Path("data/ward-history.json")
 PROVINCE_ENTITIES = Path("data/entities.json")
 PROVINCE_LINEAGE = Path("data/lineage.json")
@@ -578,6 +579,77 @@ def _base_mapping_row(entity: dict) -> dict:
     }
 
 
+def _review_decision_index(artifact: dict | None) -> dict[str, tuple[str, dict]]:
+    indexed = {}
+    for batch in (artifact or {}).get("batches", []):
+        batch_id = batch.get("batch_id", "")
+        if not batch_id:
+            raise ValueError("ward review batch lacks batch_id")
+        for decision in batch.get("decisions", []):
+            local_id = decision.get("local_id", "")
+            outcome = decision.get("outcome", "")
+            qid = decision.get("wikidata_qid", "")
+            if not local_id or local_id in indexed:
+                raise ValueError(
+                    f"duplicate or missing ward review local_id: {local_id}"
+                )
+            if outcome not in {"assign", "retain-unresolved"}:
+                raise ValueError(
+                    f"invalid ward review outcome for {local_id}: {outcome}"
+                )
+            if outcome == "assign" and not _QID.fullmatch(qid):
+                raise ValueError(
+                    f"assigned ward review QID is invalid for {local_id}: {qid}"
+                )
+            if outcome == "retain-unresolved" and qid:
+                raise ValueError(
+                    f"unresolved ward review unexpectedly assigns {local_id}: {qid}"
+                )
+            indexed[local_id] = (batch_id, decision)
+    return indexed
+
+
+def apply_review_decisions(
+    rows: list[dict], artifact: dict | None,
+) -> list[dict]:
+    """Apply explicit human decisions after automatic reconciliation."""
+    by_id = {row["local_id"]: row for row in rows}
+    for local_id, (batch_id, decision) in _review_decision_index(artifact).items():
+        row = by_id.get(local_id)
+        if row is None:
+            raise ValueError(f"ward review references unknown local_id: {local_id}")
+        if row["valid_to"]:
+            raise ValueError(f"ward review references historical row: {local_id}")
+
+        qid = decision.get("wikidata_qid", "")
+        checked = {
+            *filter(None, row["candidate_qids"].split("|")),
+            *decision.get("candidate_qids_checked", []),
+            *([qid] if qid else []),
+        }
+        if any(not _QID.fullmatch(value) for value in checked):
+            raise ValueError(f"ward review has invalid candidate QID: {local_id}")
+        row["candidate_qids"] = "|".join(
+            sorted(checked, key=lambda value: int(value[1:]))
+        )
+        note = decision.get("mapping_note", "human identity review")
+        if decision["outcome"] == "assign":
+            row.update({
+                "wikidata_qid": qid,
+                "qid_status": "existing",
+                "match_status": "manual",
+                "match_notes": f"review {batch_id}: {note}",
+            })
+        else:
+            row.update({
+                "wikidata_qid": "",
+                "qid_status": "",
+                "match_status": "reviewed-unresolved",
+                "match_notes": f"review {batch_id}: {note}",
+            })
+    return rows
+
+
 def build_mapping_rows(
     history: dict,
     candidate_artifact: dict,
@@ -586,6 +658,7 @@ def build_mapping_rows(
     district_qid_index: dict[str, set[str]] | None = None,
     broad_artifact: dict | None = None,
     prior_rows: list[dict] | None = None,
+    review_decisions: dict | None = None,
 ) -> list[dict]:
     """Build all graph rows while reconciling only the current 3,321 entities."""
     candidates = candidate_artifact["candidates"]
@@ -770,7 +843,7 @@ def build_mapping_rows(
                 "match_status": "ambiguous",
                 "match_notes": f"candidate {qid} also matches {local_ids}",
             })
-    return rows
+    return apply_review_decisions(rows, review_decisions)
 
 
 def serialize_mapping(rows: list[dict]) -> str:
@@ -794,6 +867,7 @@ def audit_mapping(
     candidate_artifact: dict,
     rows: list[dict],
     broad_artifact: dict | None = None,
+    review_decisions: dict | None = None,
 ) -> dict:
     issues = []
     if len(rows) != LOCKED_GRAPH_COUNTS["entities"]:
@@ -829,6 +903,12 @@ def audit_mapping(
                 "entities", []
             )
         )
+    decisions = _review_decision_index(review_decisions)
+    candidate_ids.update(
+        decision.get("wikidata_qid", "")
+        for _, decision in decisions.values()
+        if decision.get("wikidata_qid")
+    )
     broad_auto = {
         row["local_id"]: set(row.get("auto_candidate_qids", []))
         for row in (broad_artifact or {}).get("review", [])
@@ -871,6 +951,21 @@ def audit_mapping(
                 + " | ".join(row["local_id"] for row in assigned)
             )
 
+    rows_by_id = {row["local_id"]: row for row in rows}
+    for local_id, (_, decision) in decisions.items():
+        row = rows_by_id.get(local_id)
+        if row is None:
+            issues.append(f"REVIEW-UNKNOWN-LOCAL-ID {local_id}")
+        elif decision["outcome"] == "assign" and (
+            row["wikidata_qid"] != decision["wikidata_qid"]
+            or row["match_status"] != "manual"
+        ):
+            issues.append(f"REVIEW-ASSIGNMENT-DRIFT {local_id}")
+        elif decision["outcome"] == "retain-unresolved" and (
+            row["wikidata_qid"] or row["match_status"] != "reviewed-unresolved"
+        ):
+            issues.append(f"REVIEW-UNRESOLVED-DRIFT {local_id}")
+
     statuses = Counter(row["match_status"] for row in rows)
     unresolved_current = sum(
         not row["wikidata_qid"] and row["match_status"] != "gap"
@@ -893,6 +988,7 @@ def audit_mapping(
             "api_verified_candidates": candidate_artifact["audit"][
                 "api_verified_candidates"
             ],
+            "review_decisions": len(decisions),
             "structural_issues": len(issues),
         },
         "issues": issues,
@@ -910,7 +1006,7 @@ def format_audit(audit: dict) -> str:
     )
 
 
-def _load_inputs() -> tuple[dict, dict, dict[str, set[str]], dict | None]:
+def _load_inputs() -> tuple[dict, dict, dict[str, set[str]], dict | None, dict]:
     history = json.loads(WARD_HISTORY.read_text(encoding="utf-8"))
     if history["audit"]["entities"] != LOCKED_GRAPH_COUNTS["entities"]:
         raise ValueError("ward history entity count drifted")
@@ -921,7 +1017,15 @@ def _load_inputs() -> tuple[dict, dict, dict[str, set[str]], dict | None]:
         broad_artifact = json.loads(
             BROAD_CANDIDATE_CACHE.read_text(encoding="utf-8")
         )
-    return history, candidate_artifact, parent_index, broad_artifact
+    review_decisions = {"batches": []}
+    if REVIEW_DECISIONS.is_file():
+        review_decisions = json.loads(
+            REVIEW_DECISIONS.read_text(encoding="utf-8")
+        )
+    return (
+        history, candidate_artifact, parent_index, broad_artifact,
+        review_decisions,
+    )
 
 
 def main(argv: list[str] | None = None) -> None:
@@ -956,12 +1060,13 @@ def main(argv: list[str] | None = None) -> None:
             f"{artifact['audit']['api_verified_candidates']} items"
         )
 
-    history, candidates, parent_index, broad = _load_inputs()
+    history, candidates, parent_index, broad, review_decisions = _load_inputs()
     prior = _read_csv(args.output)
     rows = build_mapping_rows(
         history, candidates, parent_index,
         broad_artifact=broad,
         prior_rows=prior,
+        review_decisions=review_decisions,
     )
     rendered = serialize_mapping(rows)
     if args.check:
@@ -972,7 +1077,9 @@ def main(argv: list[str] | None = None) -> None:
         write_mapping(rows, args.output)
         action = "wrote"
 
-    audit = audit_mapping(history, candidates, rows, broad)
+    audit = audit_mapping(
+        history, candidates, rows, broad, review_decisions,
+    )
     if args.audit:
         print(f"{action} {args.output}\n{format_audit(audit)}")
         for issue in audit["issues"][:20]:

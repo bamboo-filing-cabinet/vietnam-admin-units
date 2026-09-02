@@ -10,6 +10,7 @@ from vn_admin_units.ward_reconcile import (
     MAPPING,
     QUERY_PATH,
     RAW_RESULT,
+    REVIEW_DECISIONS,
     WARD_HISTORY,
     audit_mapping,
     build_mapping_rows,
@@ -280,6 +281,42 @@ def test_mapping_uses_one_exact_active_broad_candidate_after_primary_fails():
     assert row["match_notes"].startswith("broad-exact-vi")
 
 
+def test_mapping_applies_assign_and_retain_unresolved_review_decisions():
+    history = {"entities": [
+        _entity("w-1-2025-07-01", "00001", "Xã Tân Phú", "75"),
+        _entity("w-2-2025-07-01", "00002", "Xã Bình An", "75"),
+    ]}
+    decisions = {"batches": [{
+        "batch_id": "2026-09-02.01",
+        "decisions": [
+            {
+                "local_id": "w-1-2025-07-01",
+                "outcome": "assign",
+                "wikidata_qid": "Q99",
+                "candidate_qids_checked": ["Q98", "Q99"],
+                "mapping_note": "reviewed identity",
+            },
+            {
+                "local_id": "w-2-2025-07-01",
+                "outcome": "retain-unresolved",
+                "wikidata_qid": "",
+                "candidate_qids_checked": [],
+                "mapping_note": "insufficient identity evidence",
+            },
+        ],
+    }]}
+
+    rows = build_mapping_rows(
+        history, _artifact([]), {}, review_decisions=decisions,
+    )
+    by_id = {row["local_id"]: row for row in rows}
+
+    assert by_id["w-1-2025-07-01"]["wikidata_qid"] == "Q99"
+    assert by_id["w-1-2025-07-01"]["match_status"] == "manual"
+    assert by_id["w-1-2025-07-01"]["candidate_qids"] == "Q98|Q99"
+    assert by_id["w-2-2025-07-01"]["match_status"] == "reviewed-unresolved"
+
+
 def test_action_api_verification_is_batched_and_compacted():
     calls = []
 
@@ -370,6 +407,7 @@ def test_saved_snapshot_cache_and_mapping_are_reproducible():
     assert rawcache.raw_is_verified(RAW_RESULT)
     artifact = json.loads(CANDIDATE_CACHE.read_text(encoding="utf-8"))
     broad = json.loads(BROAD_CANDIDATE_CACHE.read_text(encoding="utf-8"))
+    review_decisions = json.loads(REVIEW_DECISIONS.read_text(encoding="utf-8"))
     history = json.loads(WARD_HISTORY.read_text(encoding="utf-8"))
     query_hash = hashlib.sha256(QUERY_PATH.read_bytes()).hexdigest()
 
@@ -397,15 +435,18 @@ def test_saved_snapshot_cache_and_mapping_are_reproducible():
         artifact,
         build_parent_qid_index(),
         broad_artifact=broad,
+        review_decisions=review_decisions,
     )
     assert MAPPING.read_text(encoding="utf-8") == serialize_mapping(rows)
-    audit = audit_mapping(history, artifact, rows, broad)
+    audit = audit_mapping(history, artifact, rows, broad, review_decisions)
     assert audit["summary"]["status_counts"] == {
-        "ambiguous": 47,
+        "ambiguous": 37,
         "deferred-historical": 11223,
+        "manual": 10,
         "matched": 2670,
         "needs-lookup": 280,
         "needs-review": 324,
     }
+    assert audit["summary"]["review_decisions"] == 10
     assert audit["summary"]["current_fold_collisions"] == 10
     assert audit["issues"] == []

@@ -1,0 +1,462 @@
+{
+  "batches": [
+    {
+      "batch_id": "2026-09-02.01",
+      "decisions": [
+        {
+          "candidate_qids_checked": [
+            "Q10793923",
+            "Q10793924",
+            "Q32283691"
+          ],
+          "evidence": {
+            "competing_viwiki_titles_missing": [
+              "Minh Ngọc, Bắc Mê"
+            ],
+            "predecessor_names": [
+              "Yên Định",
+              "Minh Ngọc",
+              "Thượng Tân"
+            ],
+            "predecessor_parent_codes": [
+              "031"
+            ],
+            "viwiki": {
+              "extract": "Minh Ngọc là một xã thuộc tỉnh Tuyên Quang, Việt Nam.",
+              "page_id": 1250560,
+              "title": "Minh Ngọc",
+              "wikibase_item": "Q10793923"
+            },
+            "wikidata": {
+              "lastrevid": 2505427309,
+              "modified": "2026-06-13T10:09:04Z",
+              "p131": [
+                "Q4838560"
+              ],
+              "p31": [
+                "Q2389082"
+              ]
+            }
+          },
+          "local_id": "w-00994-2025-07-01",
+          "mapping_note": "live viwiki page selects Q10793923 from a duplicate-item cluster",
+          "outcome": "assign",
+          "rationale": "The live Vietnamese Wikipedia page describes the current Tuyên Quang commune and is attached to Q10793923. The competing Q10793924 sitelink title is missing; Q32283691 has no parent or sitelink.",
+          "wikidata_qid": "Q10793923"
+        },
+        {
+          "candidate_qids_checked": [
+            "Q10840976",
+            "Q10840977",
+            "Q32599091"
+          ],
+          "evidence": {
+            "competing_viwiki_titles_missing": [
+              "Đường Hồng, Bắc Mê"
+            ],
+            "predecessor_names": [
+              "Phú Nam",
+              "Đường Âm",
+              "Đường Hồng"
+            ],
+            "predecessor_parent_codes": [
+              "031"
+            ],
+            "viwiki": {
+              "extract": "Đường Hồng là một xã thuộc tỉnh Tuyên Quang, Việt Nam.",
+              "page_id": 1243923,
+              "title": "Đường Hồng",
+              "wikibase_item": "Q10840976"
+            },
+            "wikidata": {
+              "lastrevid": 2526633511,
+              "modified": "2026-08-03T05:19:10Z",
+              "p131": [
+                "Q4838560"
+              ],
+              "p31": [
+                "Q2389082"
+              ]
+            }
+          },
+          "local_id": "w-01012-2025-07-01",
+          "mapping_note": "live viwiki page selects Q10840976 from a duplicate-item cluster",
+          "outcome": "assign",
+          "rationale": "The live Vietnamese Wikipedia page describes the current Tuyên Quang commune and is attached to Q10840976. The competing Q10840977 sitelink title is missing; Q32599091 has no parent or sitelink.",
+          "wikidata_qid": "Q10840976"
+        },
+        {
+          "candidate_qids_checked": [
+            "Q10810047",
+            "Q10810059"
+          ],
+          "evidence": {
+            "predecessor_names": [
+              "Tri Phương",
+              "Quang Trung",
+              "Xuân Nội"
+            ],
+            "predecessor_parent_codes": [
+              "046",
+              "047"
+            ],
+            "viwiki": {
+              "extract": "Quang Trung là một xã thuộc tỉnh Cao Bằng, Việt Nam.",
+              "page_id": 845474,
+              "title": "Quang Trung, Cao Bằng",
+              "wikibase_item": "Q10810059"
+            },
+            "wikidata": {
+              "lastrevid": 2505457006,
+              "modified": "2026-06-13T12:09:01Z",
+              "p131": [
+                "Q7831042"
+              ],
+              "p31": [
+                "Q2389082"
+              ]
+            }
+          },
+          "local_id": "w-01465-2025-07-01",
+          "mapping_note": "viwiki identity and the pre-2020 Trà Lĩnh parent select Q10810059",
+          "outcome": "assign",
+          "rationale": "Q10810059 is attached to the current Cao Bằng page. Its stale P131 is Trà Lĩnh, where predecessor Quang Trung existed before its whole-unit 2020 transfer to Trùng Khánh; Q10810047 belongs to Hòa An.",
+          "wikidata_qid": "Q10810059"
+        },
+        {
+          "candidate_qids_checked": [
+            "Q10797034",
+            "Q10797037"
+          ],
+          "evidence": {
+            "predecessor_names": [
+              "Nam Cường",
+              "Tuy Lộc",
+              "Minh Bảo",
+              "Cường Thịnh"
+            ],
+            "predecessor_parent_codes": [
+              "132",
+              "138"
+            ],
+            "viwiki": {
+              "extract": "Nam Cường là một phường thuộc tỉnh Lào Cai, Việt Nam.",
+              "page_id": 1250857,
+              "title": "Nam Cường (phường)",
+              "wikibase_item": "Q10797034"
+            },
+            "wikidata": {
+              "lastrevid": 2533115379,
+              "modified": "2026-08-19T09:01:22Z",
+              "p131": [
+                "Q36349"
+              ],
+              "p31": [
+                "Q687188"
+              ]
+            }
+          },
+          "local_id": "w-04273-2025-07-01",
+          "mapping_note": "current viwiki page and Yên Bái predecessor continuity select Q10797034",
+          "outcome": "assign",
+          "rationale": "Q10797034 is attached to the current Lào Cai ward page and continues former Yên Bái-city ward Nam Cường. Q10797037 is the distinct former Lào Cai-city ward of the same name.",
+          "wikidata_qid": "Q10797034"
+        },
+        {
+          "candidate_qids_checked": [
+            "Q10746127",
+            "Q10746128",
+            "Q30919599",
+            "Q30923461"
+          ],
+          "evidence": {
+            "predecessor_names": [
+              "Đồng Mỏ",
+              "Chi Lăng",
+              "Chi Lăng"
+            ],
+            "predecessor_parent_codes": [
+              "187"
+            ],
+            "viwiki": {
+              "extract": "Chi Lăng là một xã thuộc tỉnh Lạng Sơn, Việt Nam. Đây cũng là một trong 65 xã phường mới sau đợt sáp nhập năm 2025.",
+              "page_id": 3427410,
+              "title": "Chi Lăng, Lạng Sơn",
+              "wikibase_item": "Q30923461"
+            },
+            "wikidata": {
+              "lastrevid": 2460212316,
+              "modified": "2026-02-03T01:07:49Z",
+              "p131": [
+                "Q5095074"
+              ],
+              "p31": [
+                "Q2389082"
+              ]
+            }
+          },
+          "local_id": "w-06463-2025-07-01",
+          "mapping_note": "current 2025 xã page and exact tier select Q30923461",
+          "outcome": "assign",
+          "rationale": "The current-page extract explicitly identifies the post-2025 xã and is attached to Q30923461. Q10746128 is the former same-district thị trấn; the other candidates belong to Tràng Định or Lạng Sơn city.",
+          "wikidata_qid": "Q30923461"
+        },
+        {
+          "candidate_qids_checked": [
+            "Q10743141",
+            "Q10743142",
+            "Q10794008"
+          ],
+          "evidence": {
+            "predecessor_names": [
+              "Minh Đức",
+              "Bạch Đằng",
+              "Phạm Ngũ Lão"
+            ],
+            "predecessor_parent_codes": [
+              "311"
+            ],
+            "viwiki": {
+              "extract": "Bạch Đằng là một phường thuộc thành phố Hải Phòng, Việt Nam.",
+              "page_id": 1250587,
+              "title": "Bạch Đằng (phường)",
+              "wikibase_item": "Q10794008"
+            },
+            "wikidata": {
+              "lastrevid": 2505427812,
+              "modified": "2026-06-13T10:11:09Z",
+              "p131": [
+                "Q7799512"
+              ],
+              "p31": [
+                "Q2389082"
+              ]
+            }
+          },
+          "local_id": "w-11473-2025-07-01",
+          "mapping_note": "current Hải Phòng page and Thủy Nguyên parent select Q10794008",
+          "outcome": "assign",
+          "rationale": "Q10794008 is attached to the current phường page and has the correct former Thủy Nguyên parent, despite stale xã class and disambiguated label. The other items belong to Kinh Môn and Tiên Lãng.",
+          "wikidata_qid": "Q10794008"
+        },
+        {
+          "candidate_qids_checked": [
+            "Q10761408",
+            "Q10761409",
+            "Q32268198"
+          ],
+          "evidence": {
+            "competing_viwiki_titles_missing": [
+              "Gia Vân, Gia Viễn"
+            ],
+            "predecessor_names": [
+              "Gia Vân",
+              "Gia Lập",
+              "Gia Tân"
+            ],
+            "predecessor_parent_codes": [
+              "373"
+            ],
+            "viwiki": {
+              "extract": "Gia Vân là một xã thuộc tỉnh Ninh Bình, Việt Nam.",
+              "page_id": 1244086,
+              "title": "Gia Vân",
+              "wikibase_item": "Q10761408"
+            },
+            "wikidata": {
+              "lastrevid": 2505451572,
+              "modified": "2026-06-13T11:43:34Z",
+              "p131": [
+                "Q5557813"
+              ],
+              "p31": [
+                "Q2389082"
+              ]
+            }
+          },
+          "local_id": "w-14488-2025-07-01",
+          "mapping_note": "live viwiki page selects Q10761408 from a duplicate-item cluster",
+          "outcome": "assign",
+          "rationale": "The live current Ninh Bình page is attached to Q10761408. The Q10761409 sitelink title is missing, and Q32268198 has no parent or sitelink.",
+          "wikidata_qid": "Q10761408"
+        },
+        {
+          "candidate_qids_checked": [
+            "Q10761396",
+            "Q10761397",
+            "Q32268135"
+          ],
+          "evidence": {
+            "competing_viwiki_titles_missing": [
+              "Gia Trấn, Gia Viễn"
+            ],
+            "predecessor_names": [
+              "Gia Thanh",
+              "Gia Xuân",
+              "Gia Trấn"
+            ],
+            "predecessor_parent_codes": [
+              "373"
+            ],
+            "viwiki": {
+              "extract": "Gia Trấn là một xã thuộc tỉnh Ninh Bình, Việt Nam.",
+              "page_id": 1244084,
+              "title": "Gia Trấn",
+              "wikibase_item": "Q10761396"
+            },
+            "wikidata": {
+              "lastrevid": 2505451525,
+              "modified": "2026-06-13T11:43:20Z",
+              "p131": [
+                "Q5557813"
+              ],
+              "p31": [
+                "Q2389082"
+              ]
+            }
+          },
+          "local_id": "w-14494-2025-07-01",
+          "mapping_note": "live viwiki page selects Q10761396 from a duplicate-item cluster",
+          "outcome": "assign",
+          "rationale": "The live current Ninh Bình page is attached to Q10761396. The Q10761397 sitelink title is missing, and Q32268135 has no parent or sitelink.",
+          "wikidata_qid": "Q10761396"
+        },
+        {
+          "candidate_qids_checked": [
+            "Q10761364",
+            "Q10761365",
+            "Q32267960"
+          ],
+          "evidence": {
+            "competing_viwiki_titles_missing": [
+              "Gia Phong, Gia Viễn"
+            ],
+            "predecessor_names": [
+              "Gia Minh",
+              "Gia Lạc",
+              "Gia Phong"
+            ],
+            "predecessor_parent_codes": [
+              "373"
+            ],
+            "viwiki": {
+              "extract": "Gia Phong là một xã thuộc tỉnh Ninh Bình, Việt Nam.",
+              "page_id": 1244064,
+              "title": "Gia Phong",
+              "wikibase_item": "Q10761364"
+            },
+            "wikidata": {
+              "lastrevid": 2505451270,
+              "modified": "2026-06-13T11:42:08Z",
+              "p131": [
+                "Q5557813"
+              ],
+              "p31": [
+                "Q2389082"
+              ]
+            }
+          },
+          "local_id": "w-14524-2025-07-01",
+          "mapping_note": "live viwiki page selects Q10761364 from a duplicate-item cluster",
+          "outcome": "assign",
+          "rationale": "The live current Ninh Bình page is attached to Q10761364. The Q10761365 sitelink title is missing, and Q32267960 has no parent or sitelink.",
+          "wikidata_qid": "Q10761364"
+        },
+        {
+          "candidate_qids_checked": [
+            "Q10798671",
+            "Q10827242",
+            "Q10834876"
+          ],
+          "evidence": {
+            "predecessor_names": [
+              "Xuân An",
+              "Xuân Giang",
+              "Xuân Viên",
+              "Xuân Hồng",
+              "Xuân Lĩnh"
+            ],
+            "predecessor_parent_codes": [
+              "442"
+            ],
+            "viwiki": {
+              "extract": "Nghi Xuân là một xã thuộc tỉnh Hà Tĩnh, Việt Nam.",
+              "page_id": 286481,
+              "title": "Nghi Xuân (xã)",
+              "wikibase_item": "Q10834876"
+            },
+            "wikidata": {
+              "aliases": [
+                "Thị Trấn Xuân An",
+                "Xuan An",
+                "Xuân An, Hà Tĩnh"
+              ],
+              "labels": {
+                "en": "Xuân An",
+                "vi": "Xuân An"
+              },
+              "lastrevid": 2426342018,
+              "modified": "2025-11-06T02:42:08Z",
+              "p131": [
+                "Q7022325"
+              ],
+              "p31": [
+                "Q1070942"
+              ]
+            }
+          },
+          "local_id": "w-18352-2025-07-01",
+          "mapping_note": "current Nghi Xuân page retains predecessor Xuân An item Q10834876",
+          "outcome": "assign",
+          "rationale": "The current Nghi Xuân xã page is attached to the former Xuân An item Q10834876, matching one proved predecessor. The item labels and class are stale. Q10798671 belongs to Nghi Lộc; Q10827242 is Tiên Điền and is already assigned there.",
+          "wikidata_qid": "Q10834876"
+        }
+      ],
+      "reviewed_at": "2026-09-02T17:34:25Z",
+      "selection": {
+        "input_status": "ambiguous",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 651
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "parameters": {
+            "languages": "vi|en",
+            "props": "info|labels|aliases|claims|sitelinks"
+          },
+          "retrieved_at": "2026-09-02T17:34:25Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query",
+          "parameters": {
+            "prop": "pageprops|info|extracts",
+            "redirects": true
+          },
+          "retrieved_at": "2026-09-02T17:34:25Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition and former-parent evidence"
+        },
+        {
+          "path": "data/ward-wikidata-candidates.json",
+          "role": "saved primary candidate and Action API evidence"
+        },
+        {
+          "path": "data/ward-wikidata-unresolved-candidates.json",
+          "role": "saved broad candidate and Action API evidence"
+        }
+      ]
+    }
+  ],
+  "schema_version": 1,
+  "scope": {
+    "as_of": "2026-09-02",
+    "tier": "ward",
+    "wikidata_write_performed": false
+  }
+}
