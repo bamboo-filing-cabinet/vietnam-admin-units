@@ -6,9 +6,9 @@ w-00008-2025-07-01,00008,Phường Ngọc Hà,Phường,01,2025-07-01,,Q10800604
 w-00025-2025-07-01,00025,Phường Giảng Võ,Phường,01,2025-07-01,,Q10761913,existing,matched,Q10761913,qlever-label+current-province+batched-wbgetentities
 w-00070-2025-07-01,00070,Phường Hoàn Kiếm,Phường,01,2025-07-01,,Q135470900,existing,matched,Q135470900,qlever-label+current-province+batched-wbgetentities
 w-00082-2025-07-01,00082,Phường Cửa Nam,Phường,01,2025-07-01,,Q10752772,existing,matched,Q10752772|Q10752773,qlever-label+current-province+batched-wbgetentities
-w-00091-2025-07-01,00091,Phường Phú Thượng,Phường,01,2025-07-01,,,,needs-review,Q10806099|Q10806100|Q10806101,"3 label candidate(s), but no bulk P131 resolves to the current province"
+w-00091-2025-07-01,00091,Phường Phú Thượng,Phường,01,2025-07-01,,Q10806100,existing,manual,Q10806099|Q10806100|Q10806101,review 2026-09-02.06: current Hanoi page selects Q10806100 despite missing P131
 w-00097-2025-07-01,00097,Phường Hồng Hà,Phường,01,2025-07-01,,Q134437701,existing,matched,Q10772121|Q10772123|Q10772126|Q16481326|Q134437701,broad-exact-vi+current-province+ward-class+batched-wbgetentities
-w-00103-2025-07-01,00103,Phường Tây Hồ,Phường,01,2025-07-01,,,,needs-review,Q10831051,"1 label candidate(s), but no bulk P131 resolves to the current province"
+w-00103-2025-07-01,00103,Phường Tây Hồ,Phường,01,2025-07-01,,Q135485194,existing,manual,Q1048642|Q10831051|Q135485194,review 2026-09-02.06: current Tây Hồ ward page selects Q135485194
 w-00118-2025-07-01,00118,Phường Bồ Đề,Phường,01,2025-07-01,,Q10743634,existing,matched,Q10743631|Q10743634,qlever-label+current-province+batched-wbgetentities
 w-00127-2025-07-01,00127,Phường Việt Hưng,Phường,01,2025-07-01,,Q10832831,existing,matched,Q10832825|Q10832826|Q10832830|Q10832831|Q10832832|Q10832833|Q16480746,qlever-label+current-province+batched-wbgetentities
 w-00136-2025-07-01,00136,Phường Phúc Lợi,Phường,01,2025-07-01,,Q10806226,existing,matched,Q10806226|Q10806228,qlever-label+current-province+batched-wbgetentities
@@ -17,12 +17,12 @@ w-00151-2004-06-30,00151,Phường Phúc Đồng,Phường,004,2004-06-30,2025-0
 w-00160-2025-07-01,00160,Phường Nghĩa Đô,Phường,01,2025-07-01,,Q10798880,existing,matched,Q10798879|Q10798880,qlever-label+current-province+batched-wbgetentities
 w-00166-2025-07-01,00166,Phường Cầu Giấy,Phường,01,2025-07-01,,Q137570783,existing,matched,Q137570783,qlever-label+current-province+batched-wbgetentities
 w-00167-2005-01-20,00167,Phường Dịch Vọng Hậu,Phường,005,2005-01-20,2025-06-30,,,deferred-historical,,
-w-00175-2025-07-01,00175,Phường Yên Hòa,Phường,01,2025-07-01,,,,needs-review,Q3943148|Q10837996|Q10838003|Q10838004|Q10838005|Q10838006|Q10838008|Q32595235|Q32595268,"9 label candidate(s), but no bulk P131 resolves to the current province"
+w-00175-2025-07-01,00175,Phường Yên Hòa,Phường,01,2025-07-01,,Q10838003,existing,manual,Q3943148|Q10837996|Q10838003|Q10838004|Q10838005|Q10838006|Q10838008|Q32595235|Q32595268,review 2026-09-02.06: current Hanoi page selects Q10838003 despite missing P131
 w-00190-2025-07-01,00190,Phường Ô Chợ Dừa,Phường,01,2025-07-01,,Q30923306,existing,matched,Q30923306,qlever-label+current-province+batched-wbgetentities
-w-00199-2025-07-01,00199,Phường Láng,Phường,01,2025-07-01,,,,needs-review,Q10788170,"1 label candidate(s), but no bulk P131 resolves to the current province"
+w-00199-2025-07-01,00199,Phường Láng,Phường,01,2025-07-01,,Q135414422,existing,manual,Q10788170|Q135414422,review 2026-09-02.06: current Láng ward page selects Q135414422
 w-00226-2025-07-01,00226,Phường Văn Miếu - Quốc Tử Giám,Phường,01,2025-07-01,,Q10833399,existing,matched,Q10833399,qlever-label+current-province+batched-wbgetentities
 w-00229-2025-07-01,00229,Phường Kim Liên,Phường,01,2025-07-01,,Q10779914,existing,matched,Q1320497|Q10779914,qlever-label+current-province+batched-wbgetentities
-w-00235-2025-07-01,00235,Phường Đống Đa,Phường,01,2025-07-01,,,,needs-review,Q10841878|Q10841879|Q10841880,"3 label candidate(s), but no bulk P131 resolves to the current province"
+w-00235-2025-07-01,00235,Phường Đống Đa,Phường,01,2025-07-01,,Q135471182,existing,manual,Q10841878|Q10841879|Q10841880|Q135471182,review 2026-09-02.06: current Đống Đa ward page selects Q135471182
 w-00256-2025-07-01,00256,Phường Hai Bà Trưng,Phường,01,2025-07-01,,Q141064118,existing,matched,Q141064118,qlever-label+current-province+batched-wbgetentities
 w-00283-2025-07-01,00283,Phường Vĩnh Tuy,Phường,01,2025-07-01,,Q10833739,existing,matched,Q10833735|Q10833737|Q10833738|Q10833739,qlever-label+current-province+batched-wbgetentities
 w-00292-2025-01-01,00292,Phường Bạch Mai,Phường,007,2025-01-01,2025-06-30,,,deferred-historical,,
@@ -32,20 +32,20 @@ w-00316-2025-07-01,00316,Phường Định Công,Phường,01,2025-07-01,,Q10841
 w-00322-2025-07-01,00322,Phường Tương Mai,Phường,01,2025-07-01,,Q10831416,existing,matched,Q10831416,qlever-label+current-province+batched-wbgetentities
 w-00328-2025-07-01,00328,Phường Lĩnh Nam,Phường,01,2025-07-01,,Q10788200,existing,matched,Q10788200,qlever-label+current-province+batched-wbgetentities
 w-00331-2025-07-01,00331,Phường Hoàng Mai,Phường,01,2025-07-01,,Q137323701,existing,matched,Q137323701|Q138666352,qlever-label+current-province+batched-wbgetentities
-w-00337-2025-07-01,00337,Phường Hoàng Liệt,Phường,01,2025-07-01,,,,needs-review,Q10768953,"1 label candidate(s), but no bulk P131 resolves to the current province"
+w-00337-2025-07-01,00337,Phường Hoàng Liệt,Phường,01,2025-07-01,,Q10768953,existing,manual,Q10768953,review 2026-09-02.06: current Hanoi page and coordinates select Q10768953 despite missing P131
 w-00340-2025-07-01,00340,Phường Yên Sở,Phường,01,2025-07-01,,Q16481034,existing,matched,Q10838144|Q16481034,qlever-label+predecessor-district+batched-wbgetentities
 w-00352-2025-07-01,00352,Phường Phương Liệt,Phường,01,2025-07-01,,Q10806308,existing,matched,Q10806308,qlever-label+current-province+batched-wbgetentities
 w-00364-2025-07-01,00364,Phường Khương Đình,Phường,01,2025-07-01,,Q10779752,existing,matched,Q10779752,qlever-label+current-province+batched-wbgetentities
 w-00367-2025-07-01,00367,Phường Thanh Xuân,Phường,01,2025-07-01,,Q10824963,existing,matched,Q10824961|Q10824962|Q10824963|Q10824966|Q10824970|Q10826321|Q10826322,qlever-label+current-province+batched-wbgetentities
 w-00376-2025-07-01,00376,Xã Sóc Sơn,Xã,01,2025-07-01,,Q10822720,existing,matched,Q10822718|Q10822720,qlever-label+current-province+batched-wbgetentities
-w-00382-2025-07-01,00382,Xã Kim Anh,Xã,01,2025-07-01,,,,needs-review,Q10779868,"1 label candidate(s), but no bulk P131 resolves to the current province"
+w-00382-2025-07-01,00382,Xã Kim Anh,Xã,01,2025-07-01,,,,reviewed-unresolved,Q10779868,review 2026-09-02.06: current Kim Anh xã page has no Wikibase item; existing candidate is in Hải Phòng
 w-00385-2025-07-01,00385,Xã Trung Giã,Xã,01,2025-07-01,,Q10828294,existing,matched,Q10828294|Q32308495,qlever-label+current-province+batched-wbgetentities
 w-00430-2025-07-01,00430,Xã Đa Phúc,Xã,01,2025-07-01,,Q10743361,existing,matched,Q10743361|Q10840038|Q10840039,qlever-label+current-province+batched-wbgetentities
 w-00433-2025-07-01,00433,Xã Nội Bài,Xã,01,2025-07-01,,Q136891794,existing,matched,Q136891794,qlever-label+current-province+batched-wbgetentities
 w-00454-2025-07-01,00454,Xã Đông Anh,Xã,01,2025-07-01,,Q864787,existing,matched,Q864787,qlever-label+current-province+batched-wbgetentities
-w-00466-2025-07-01,00466,Xã Phúc Thịnh,Xã,01,2025-07-01,,,,needs-review,Q10798935|Q10806252|Q10806254,"3 label candidate(s), but no bulk P131 resolves to the current province"
-w-00475-2025-07-01,00475,Xã Thư Lâm,Xã,01,2025-07-01,,,,needs-review,Q10826703,"1 label candidate(s), but no bulk P131 resolves to the current province"
-w-00493-2025-07-01,00493,Xã Thiên Lộc,Xã,01,2025-07-01,,,,needs-review,Q10828624|Q32303604,"2 label candidate(s), but no bulk P131 resolves to the current province"
+w-00466-2025-07-01,00466,Xã Phúc Thịnh,Xã,01,2025-07-01,,Q10798935,existing,manual,Q10798935|Q10806252|Q10806254,review 2026-09-02.06: current Hanoi page and Đông Anh coordinates select Q10798935
+w-00475-2025-07-01,00475,Xã Thư Lâm,Xã,01,2025-07-01,,Q10826703,existing,manual,Q10826703,review 2026-09-02.06: current Hanoi page and Đông Anh coordinates select Q10826703
+w-00493-2025-07-01,00493,Xã Thiên Lộc,Xã,01,2025-07-01,,Q10828624,existing,manual,Q10828624|Q32303604,review 2026-09-02.06: current Hanoi page selects Q10828624 despite missing P131
 w-00508-2025-07-01,00508,Xã Vĩnh Thanh,Xã,01,2025-07-01,,,,needs-review,Q1894522|Q1905243|Q7945023|Q10832676|Q10833673|Q10833687|Q10833688|Q10833695|Q10833696|Q10833697|Q10833701|Q32591915,"12 label candidate(s), but no bulk P131 resolves to the current province"
 w-00541-2025-07-01,00541,Xã Phù Đổng,Xã,01,2025-07-01,,Q10806195,existing,matched,Q2919261|Q10805823|Q10806195|Q10806198|Q10806199|Q16481027,qlever-label+current-province+batched-wbgetentities
 w-00562-2025-07-01,00562,Xã Thuận An,Xã,01,2025-07-01,,,,needs-review,Q2275816|Q10825417|Q10825418|Q10825419|Q10825420|Q24957403,"6 label candidate(s), but no bulk P131 resolves to the current province"

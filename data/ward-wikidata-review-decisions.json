@@ -1321,6 +1321,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.06",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q10806099", "Q10806100", "Q10806101"],
+          "local_id": "w-00091-2025-07-01",
+          "mapping_note": "current Hanoi page selects Q10806100 despite missing P131",
+          "outcome": "assign",
+          "rationale": "Q10806100 owns the current Phú Thượng page, has ward class, and lies in the predecessor area; the other candidates are Huế and Thái Nguyên namesakes.",
+          "wikidata_qid": "Q10806100"
+        },
+        {
+          "candidate_qids_checked": ["Q1048642", "Q10831051", "Q135485194"],
+          "local_id": "w-00103-2025-07-01",
+          "mapping_note": "current Tây Hồ ward page selects Q135485194",
+          "outcome": "assign",
+          "rationale": "The current `Tây Hồ (phường)` page is attached to Q135485194. Q1048642 is the abolished district and Q10831051 is a Thanh Hóa commune.",
+          "wikidata_qid": "Q135485194"
+        },
+        {
+          "candidate_qids_checked": ["Q10838003", "Q10838004", "Q10838005", "Q10838006", "Q10838008"],
+          "local_id": "w-00175-2025-07-01",
+          "mapping_note": "current Hanoi page selects Q10838003 despite missing P131",
+          "outcome": "assign",
+          "rationale": "Q10838003 owns the current Yên Hòa ward page, has ward class, and has Hanoi coordinates. The remaining items are commune namesakes elsewhere.",
+          "wikidata_qid": "Q10838003"
+        },
+        {
+          "candidate_qids_checked": ["Q10788170", "Q135414422"],
+          "local_id": "w-00199-2025-07-01",
+          "mapping_note": "current Láng ward page selects Q135414422",
+          "outcome": "assign",
+          "rationale": "The current `Láng (phường)` page is attached to Q135414422. The item is structurally incomplete and its coordinate is suspect, but the page binding provides the current identity; Q10788170 is the former Láng Hạ identity.",
+          "wikidata_qid": "Q135414422"
+        },
+        {
+          "candidate_qids_checked": ["Q10841878", "Q10841879", "Q10841880", "Q135471182"],
+          "local_id": "w-00235-2025-07-01",
+          "mapping_note": "current Đống Đa ward page selects Q135471182",
+          "outcome": "assign",
+          "rationale": "The current `Đống Đa (phường)` page is attached to Q135471182. The older label candidates represent namesakes and do not own the current page.",
+          "wikidata_qid": "Q135471182"
+        },
+        {
+          "candidate_qids_checked": ["Q10768953"],
+          "local_id": "w-00337-2025-07-01",
+          "mapping_note": "current Hanoi page and coordinates select Q10768953 despite missing P131",
+          "outcome": "assign",
+          "rationale": "Q10768953 owns the current Hoàng Liệt page, has ward class, and lies in the Hoàng Liệt predecessor area. Only its parent statement is missing.",
+          "wikidata_qid": "Q10768953"
+        },
+        {
+          "candidate_qids_checked": ["Q10779868"],
+          "local_id": "w-00382-2025-07-01",
+          "mapping_note": "current Kim Anh xã page has no Wikibase item; existing candidate is in Hải Phòng",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Kim Anh (xã)` page has no Wikibase item. Q10779868 is a different Kim Anh near Hải Phòng and none of the other broad matches is a current ward item.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q10798935", "Q10806252", "Q10806254"],
+          "local_id": "w-00466-2025-07-01",
+          "mapping_note": "current Hanoi page and Đông Anh coordinates select Q10798935",
+          "outcome": "assign",
+          "rationale": "Q10798935 owns the current Phúc Thịnh page and lies in the former Đông Anh predecessor area. The other candidates are Tuyên Quang and Thanh Hóa namesakes.",
+          "wikidata_qid": "Q10798935"
+        },
+        {
+          "candidate_qids_checked": ["Q10826703"],
+          "local_id": "w-00475-2025-07-01",
+          "mapping_note": "current Hanoi page and Đông Anh coordinates select Q10826703",
+          "outcome": "assign",
+          "rationale": "Q10826703 owns the current Thư Lâm page, matches the Thụy Lâm-derived name, and lies in the former Đông Anh predecessor area. Its P131 is merely stale.",
+          "wikidata_qid": "Q10826703"
+        },
+        {
+          "candidate_qids_checked": ["Q10828624", "Q32303604"],
+          "local_id": "w-00493-2025-07-01",
+          "mapping_note": "current Hanoi page selects Q10828624 despite missing P131",
+          "outcome": "assign",
+          "rationale": "Q10828624 owns the current Thiên Lộc page and has commune class. Q32303604 and the broad matches do not represent the current Hanoi successor.",
+          "wikidata_qid": "Q10828624"
+        }
+      ],
+      "reviewed_at": "2026-09-02T18:47:05Z",
+      "selection": {
+        "input_status": "needs-review",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 605
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T18:47:05Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T18:47:05Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
