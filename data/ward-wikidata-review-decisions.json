@@ -6313,6 +6313,28 @@
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "query pageprops and extracts", "retrieved_at": "2026-09-02T22:28:00Z"},
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"}
       ]
+    },
+    {
+      "batch_id": "2026-09-02.63",
+      "decisions": [
+        {"candidate_qids_checked": ["Q138643826"], "local_id": "w-22402-2025-07-01", "mapping_note": "current Nam Nha Trang page selects Q138643826", "outcome": "assign", "rationale": "Q138643826 owns the current Nam Nha Trang page and its label, description, and article identify the Khánh Hòa ward. Structured parent is absent and its class is the commune class rather than the ward class.", "wikidata_qid": "Q138643826"},
+        {"candidate_qids_checked": ["Q33116", "Q1298430", "Q31888162", "Q136680042"], "local_id": "w-22420-2025-07-01", "mapping_note": "current Cam Ranh phường page selects Q136680042", "outcome": "assign", "rationale": "Q136680042 owns the current `Cam Ranh (phường)` page and its label, description, and article identify the Khánh Hòa ward. Q33116 is the former city and the other candidates are differently scoped; structured parent is absent and the selected class is generic human settlement.", "wikidata_qid": "Q136680042"},
+        {"candidate_qids_checked": ["Q138680592"], "local_id": "w-22435-2025-07-01", "mapping_note": "current Cam Hiệp page selects Q138680592", "outcome": "assign", "rationale": "Q138680592 owns the current Cam Hiệp page and its label, description, and article identify the Khánh Hòa commune. Structured class and parent are absent.", "wikidata_qid": "Q138680592"},
+        {"candidate_qids_checked": ["Q138776781"], "local_id": "w-22480-2025-07-01", "mapping_note": "current Nam Cam Ranh page selects Q138776781", "outcome": "assign", "rationale": "Q138776781 owns the current Nam Cam Ranh page and its label, description, and article identify the Khánh Hòa commune. Structured class and parent are absent.", "wikidata_qid": "Q138776781"},
+        {"candidate_qids_checked": ["Q137215932"], "local_id": "w-22498-2025-07-01", "mapping_note": "current Tu Bông page selects Q137215932", "outcome": "assign", "rationale": "Q137215932 owns the current Tu Bông page and its label, description, article, and composition identify the 2025 Khánh Hòa commune. Structured class and parent are absent.", "wikidata_qid": "Q137215932"},
+        {"candidate_qids_checked": ["Q138778370"], "local_id": "w-22546-2025-07-01", "mapping_note": "current Bắc Ninh Hòa page selects Q138778370", "outcome": "assign", "rationale": "Q138778370 owns the current Bắc Ninh Hòa page and its label, description, and article identify the Khánh Hòa commune. Structured class and parent are absent.", "wikidata_qid": "Q138778370"},
+        {"candidate_qids_checked": ["Q138778614"], "local_id": "w-22552-2025-07-01", "mapping_note": "current Tây Ninh Hòa page selects Q138778614", "outcome": "assign", "rationale": "Q138778614 owns the current Tây Ninh Hòa page and its label, description, and article identify the Khánh Hòa commune. Structured class and parent are absent.", "wikidata_qid": "Q138778614"},
+        {"candidate_qids_checked": ["Q137215898"], "local_id": "w-22561-2025-07-01", "mapping_note": "current Đông Ninh Hòa page selects Q137215898", "outcome": "assign", "rationale": "Q137215898 owns the current Đông Ninh Hòa page and its label, description, and article identify the Khánh Hòa ward. Structured parent is absent and its class is the commune class rather than the ward class.", "wikidata_qid": "Q137215898"},
+        {"candidate_qids_checked": ["Q138779758"], "local_id": "w-22612-2025-07-01", "mapping_note": "current Trung Khánh Vĩnh page selects Q138779758", "outcome": "assign", "rationale": "Q138779758 owns the current Trung Khánh Vĩnh page and its label, description, and article identify the Khánh Hòa commune. Structured class and parent are absent.", "wikidata_qid": "Q138779758"},
+        {"candidate_qids_checked": ["Q138779751"], "local_id": "w-22615-2025-07-01", "mapping_note": "current Bắc Khánh Vĩnh page selects Q138779751", "outcome": "assign", "rationale": "Q138779751 owns the current Bắc Khánh Vĩnh page and its label, description, and article identify the Khánh Hòa commune. Structured class and parent are absent.", "wikidata_qid": "Q138779751"}
+      ],
+      "reviewed_at": "2026-09-02T22:36:00Z",
+      "selection": {"input_status": "needs-lookup", "limit": 10, "order": "local_id", "starting_unresolved": 196},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbgetentities", "retrieved_at": "2026-09-02T22:36:00Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "query pageprops and extracts", "retrieved_at": "2026-09-02T22:36:00Z"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"}
+      ]
     }
   ],
   "schema_version": 1,

@@ -6510,17 +6510,17 @@ w-22327-2004-06-30,22327,Phường Vĩnh Hòa,Phường,568,2004-06-30,2025-06-3
 w-22333-2025-07-01,22333,Phường Bắc Nha Trang,Phường,56,2025-07-01,,Q138636916,existing,manual,Q138636916,review 2026-09-02.62: current Bắc Nha Trang page selects Q138636916
 w-22366-2025-07-01,22366,Phường Nha Trang,Phường,56,2025-07-01,,Q138640987,existing,manual,Q19491|Q10822636|Q103959821|Q111387179|Q136039256|Q138640987,review 2026-09-02.62: current Nha Trang phường page selects Q138640987
 w-22390-2025-07-01,22390,Phường Tây Nha Trang,Phường,56,2025-07-01,,Q138642399,existing,manual,Q138642399,review 2026-09-02.62: current Tây Nha Trang page selects Q138642399
-w-22402-2025-07-01,22402,Phường Nam Nha Trang,Phường,56,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-22402-2025-07-01,22402,Phường Nam Nha Trang,Phường,56,2025-07-01,,Q138643826,existing,manual,Q138643826,review 2026-09-02.63: current Nam Nha Trang page selects Q138643826
 w-22411-2025-07-01,22411,Phường Bắc Cam Ranh,Phường,56,2025-07-01,,Q136076087,existing,matched,Q136076087,qlever-label+current-province+batched-wbgetentities
-w-22420-2025-07-01,22420,Phường Cam Ranh,Phường,56,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-22420-2025-07-01,22420,Phường Cam Ranh,Phường,56,2025-07-01,,Q136680042,existing,manual,Q33116|Q1298430|Q31888162|Q136680042,review 2026-09-02.63: current Cam Ranh phường page selects Q136680042
 w-22423-2025-07-01,22423,Phường Ba Ngòi,Phường,56,2025-07-01,,Q10736933,existing,matched,Q10736933,qlever-label+current-province+batched-wbgetentities
 w-22432-2025-07-01,22432,Phường Cam Linh,Phường,56,2025-07-01,,Q10744001,existing,matched,Q10744001|Q10752498|Q10752500,qlever-label+current-province+batched-wbgetentities
-w-22435-2025-07-01,22435,Xã Cam Hiệp,Xã,56,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-22435-2025-07-01,22435,Xã Cam Hiệp,Xã,56,2025-07-01,,Q138680592,existing,manual,Q138680592,review 2026-09-02.63: current Cam Hiệp page selects Q138680592
 w-22453-2025-07-01,22453,Xã Cam Lâm,Xã,56,2025-07-01,,Q137215908,existing,manual,Q10744002|Q32261279|Q137215908,review 2026-09-02.35: current Cam Lâm xã page selects Q137215908
 w-22465-2025-07-01,22465,Xã Cam An,Xã,56,2025-07-01,,Q137215914,existing,manual,Q10752463|Q10752578|Q32264504|Q137215914,review 2026-09-02.35: current Cam An page selects Q137215914
-w-22480-2025-07-01,22480,Xã Nam Cam Ranh,Xã,56,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-22480-2025-07-01,22480,Xã Nam Cam Ranh,Xã,56,2025-07-01,,Q138776781,existing,manual,Q138776781,review 2026-09-02.63: current Nam Cam Ranh page selects Q138776781
 w-22489-2025-07-01,22489,Xã Vạn Ninh,Xã,56,2025-07-01,,Q138778779,existing,manual,Q997593|Q7913545|Q7945077|Q10834121|Q10834122|Q10834123|Q138778779,review 2026-09-02.36: current Vạn Ninh xã page selects Q138778779
-w-22498-2025-07-01,22498,Xã Tu Bông,Xã,56,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-22498-2025-07-01,22498,Xã Tu Bông,Xã,56,2025-07-01,,Q137215932,existing,manual,Q137215932,review 2026-09-02.63: current Tu Bông page selects Q137215932
 w-2250101-base,06649,Phường Hà Khánh,Phường,193,,2025-06-30,,,deferred-historical,,
 w-2250103-base,06670,Phường Hà Lầm,Phường,193,,2025-06-30,,,deferred-historical,,
 w-2250105-base,06667,Phường Hà Trung,Phường,193,,2025-06-30,,,deferred-historical,,
@@ -6708,16 +6708,16 @@ w-2252535-base,07180,Xã Liên Hòa,Xã,206,,2025-06-30,,,deferred-historical,,
 w-2252536-base,07189,Xã Tiền Phong,Xã,206,,2025-06-30,,,deferred-historical,,
 w-2252537-base,07186,Xã Liên Vị,Xã,206,,2025-06-30,,,deferred-historical,,
 w-22528-2025-07-01,22528,Phường Ninh Hòa,Phường,56,2025-07-01,,Q138778399,existing,matched,Q7038761|Q10801340|Q138778399,qlever-label+current-province+batched-wbgetentities
-w-22546-2025-07-01,22546,Xã Bắc Ninh Hòa,Xã,56,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-22552-2025-07-01,22552,Xã Tây Ninh Hòa,Xã,56,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-22546-2025-07-01,22546,Xã Bắc Ninh Hòa,Xã,56,2025-07-01,,Q138778370,existing,manual,Q138778370,review 2026-09-02.63: current Bắc Ninh Hòa page selects Q138778370
+w-22552-2025-07-01,22552,Xã Tây Ninh Hòa,Xã,56,2025-07-01,,Q138778614,existing,manual,Q138778614,review 2026-09-02.63: current Tây Ninh Hòa page selects Q138778614
 w-22558-2025-07-01,22558,Xã Hòa Trí,Xã,56,2025-07-01,,Q138778444,existing,manual,Q10771112|Q138778444,review 2026-09-02.36: current Hòa Trí page selects Q138778444
-w-22561-2025-07-01,22561,Phường Đông Ninh Hòa,Phường,56,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-22561-2025-07-01,22561,Phường Đông Ninh Hòa,Phường,56,2025-07-01,,Q137215898,existing,manual,Q137215898,review 2026-09-02.63: current Đông Ninh Hòa page selects Q137215898
 w-22576-2025-07-01,22576,Xã Tân Định,Xã,56,2025-07-01,,Q10801366,existing,matched,Q2233336|Q2321848|Q2333073|Q10801366|Q10831008|Q32229505,qlever-label+current-province+batched-wbgetentities
 w-22591-2025-07-01,22591,Phường Hòa Thắng,Phường,56,2025-07-01,,Q138778327,existing,manual,Q2228358|Q10771092|Q10771095|Q10771096|Q10771098|Q138778327,review 2026-09-02.36: current Hòa Thắng phường page selects Q138778327
 w-22597-2025-07-01,22597,Xã Nam Ninh Hòa,Xã,56,2025-07-01,,Q138778317,existing,matched,Q138778317,qlever-label+current-province+batched-wbgetentities
 w-22609-2025-07-01,22609,Xã Khánh Vĩnh,Xã,56,2025-07-01,,Q10779673,existing,matched,Q10779673,qlever-label+current-province+batched-wbgetentities
-w-22612-2025-07-01,22612,Xã Trung Khánh Vĩnh,Xã,56,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-22615-2025-07-01,22615,Xã Bắc Khánh Vĩnh,Xã,56,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-22612-2025-07-01,22612,Xã Trung Khánh Vĩnh,Xã,56,2025-07-01,,Q138779758,existing,manual,Q138779758,review 2026-09-02.63: current Trung Khánh Vĩnh page selects Q138779758
+w-22615-2025-07-01,22615,Xã Bắc Khánh Vĩnh,Xã,56,2025-07-01,,Q138779751,existing,manual,Q138779751,review 2026-09-02.63: current Bắc Khánh Vĩnh page selects Q138779751
 w-22624-2025-07-01,22624,Xã Tây Khánh Vĩnh,Xã,56,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
 w-22648-2025-07-01,22648,Xã Nam Khánh Vĩnh,Xã,56,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
 w-22651-2025-07-01,22651,Xã Diên Khánh,Xã,56,2025-07-01,,Q10755942,existing,matched,Q10755942,qlever-label+current-province+batched-wbgetentities
