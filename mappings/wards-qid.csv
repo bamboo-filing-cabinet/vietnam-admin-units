@@ -7710,7 +7710,7 @@ w-28440-2013-12-27,28440,Phường 5,Phường,817,2013-12-27,2025-06-30,,,defer
 w-28444-2025-07-01,28444,Xã Thạnh Phú,Xã,82,2025-07-01,,Q10826278,existing,matched,Q2990756|Q10824866|Q10824867|Q10826278|Q10826280|Q10826281|Q10826283,qlever-label+current-province+batched-wbgetentities
 w-28456-2025-07-01,28456,Xã Mỹ Thành,Xã,82,2025-07-01,,Q136659688,existing,matched,Q2028751|Q6951231|Q10796845|Q10796846|Q10796847|Q10796849|Q10796851|Q10796852|Q10796859|Q10796860|Q16480608|Q136659688,qlever-label+current-province+batched-wbgetentities
 w-28468-2025-07-01,28468,Xã Tân Phú,Xã,82,2025-07-01,,Q10830731,existing,matched,Q10806141|Q10830719|Q10830722|Q10830723|Q10830725|Q10830727|Q10830728|Q10830729|Q10830731|Q10830733|Q10830734|Q10830736|Q10830737|Q10830738,qlever-label+current-province+batched-wbgetentities
-w-28471-2025-07-01,28471,Xã Bình Phú,Xã,82,2025-07-01,,,,ambiguous,Q2157911|Q2641615|Q2683795|Q10742515|Q10742517|Q10742518|Q10742519|Q10742520|Q10742521,2 verified label candidates match current province; 0 match predecessor districts
+w-28471-2025-07-01,28471,Xã Bình Phú,Xã,82,2025-07-01,,Q10742514,existing,manual,Q2157911|Q2641615|Q2683795|Q10742514|Q10742515|Q10742517|Q10742518|Q10742519|Q10742520|Q10742521,review 2026-09-02.05: current page and former Cai Lậy coordinates select Q10742514
 w-28477-2025-07-01,28477,Phường Nhị Quý,Phường,82,2025-07-01,,Q10801158,existing,matched,Q10801158,qlever-label+current-province+batched-wbgetentities
 w-28501-2025-07-01,28501,Xã Hiệp Đức,Xã,82,2025-07-01,,Q10743797,existing,matched,Q2246533|Q10743797,broad-exact-vi+current-province+ward-class+batched-wbgetentities
 w-28504-2025-07-01,28504,Xã Long Tiên,Xã,82,2025-07-01,,Q10786931,existing,matched,Q10786931,qlever-label+current-province+batched-wbgetentities
@@ -7734,7 +7734,7 @@ w-28663-2025-07-01,28663,Xã Phú Thành,Xã,82,2025-07-01,,Q136653445,existing,
 w-28678-2025-07-01,28678,Xã Vĩnh Hựu,Xã,82,2025-07-01,,Q10833581,existing,matched,Q10833581,qlever-label+current-province+batched-wbgetentities
 w-28687-2025-07-01,28687,Xã Long Bình,Xã,82,2025-07-01,,Q10786787,existing,matched,Q2500666|Q3059506|Q6672390|Q10786785|Q10786786|Q10786787|Q10786788,qlever-label+current-province+batched-wbgetentities
 w-28693-2025-07-01,28693,Xã Tân Thới,Xã,82,2025-07-01,,Q10830897,existing,matched,Q7862098|Q10830894|Q10830895|Q10830897,qlever-label+current-province+batched-wbgetentities
-w-28696-2025-07-01,28696,Xã Tân Phú Đông,Xã,82,2025-07-01,,,,ambiguous,Q10830746|Q136655067,2 verified label candidates match current province; 0 match predecessor districts
+w-28696-2025-07-01,28696,Xã Tân Phú Đông,Xã,82,2025-07-01,,Q136655067,existing,manual,Q10830746|Q136655067,review 2026-09-02.05: current page and Gò Công-side coordinates select Q136655067
 w-28702-2025-07-01,28702,Xã Tân Hòa,Xã,82,2025-07-01,,Q10830464,existing,matched,Q2347695|Q2467139|Q2573613|Q3943116|Q7862062|Q7862063|Q10830458|Q10830459|Q10830460|Q10830462|Q10830464|Q10830465|Q10830467|Q10830469|Q10830471|Q10830475|Q10830476|Q10830477|Q10830478|Q16480542|Q32585861,qlever-label+current-province+batched-wbgetentities
 w-28720-2025-07-01,28720,Xã Gia Thuận,Xã,82,2025-07-01,,Q10761383,existing,matched,Q10761383|Q32268070,qlever-label+current-province+batched-wbgetentities
 w-28723-2025-07-01,28723,Xã Tân Đông,Xã,82,2025-07-01,,Q10831001,existing,matched,Q6378422|Q10831001|Q10831002|Q10831012|Q10831013,broad-exact-vi+current-province+ward-class+batched-wbgetentities
@@ -7786,7 +7786,7 @@ w-29122-2025-07-01,29122,Xã Mỹ Chánh Hòa,Xã,86,2025-07-01,,Q10796704,exist
 w-29125-2025-07-01,29125,Xã Bảo Thạnh,Xã,86,2025-07-01,,Q10743265,existing,matched,Q10743263|Q10743265|Q21648096,qlever-label+current-province+batched-wbgetentities
 w-29137-2025-07-01,29137,Xã Tân Xuân,Xã,86,2025-07-01,,Q16480574,existing,matched,Q10830980|Q10830981|Q10830983|Q10830984|Q16480574,broad-exact-vi+current-province+ward-class+batched-wbgetentities
 w-29143-2025-07-01,29143,Xã An Ngãi Trung,Xã,86,2025-07-01,,Q11839160,existing,matched,Q11839160,qlever-label+current-province+batched-wbgetentities
-w-29158-2025-07-01,29158,Xã An Hiệp,Xã,86,2025-07-01,,,,ambiguous,Q10733156|Q10733157|Q10733158|Q10733160|Q10733161,2 verified label candidates match current province; 0 match predecessor districts
+w-29158-2025-07-01,29158,Xã An Hiệp,Xã,86,2025-07-01,,Q10733156,existing,manual,Q10733156|Q10733157|Q10733158|Q10733160|Q10733161,review 2026-09-02.05: current page and former Ba Tri coordinates select Q10733156
 w-29167-2025-07-01,29167,Xã Tân Thủy,Xã,86,2025-07-01,,Q10830904,existing,matched,Q2235080|Q10830904,broad-exact-vi+current-province+ward-class+batched-wbgetentities
 w-29182-2025-07-01,29182,Xã Thạnh Phú,Xã,86,2025-07-01,,Q10826280,existing,matched,Q2990756|Q10824866|Q10824867|Q10826278|Q10826280|Q10826281|Q10826283,qlever-label+current-province+batched-wbgetentities
 w-29191-2025-07-01,29191,Xã Quới Điền,Xã,86,2025-07-01,,Q10811036,existing,matched,Q10811036,qlever-label+current-province+batched-wbgetentities
@@ -7902,7 +7902,7 @@ w-29955-2025-07-01,29955,Phường Hồng Ngự,Phường,82,2025-07-01,,,,needs
 w-29971-2025-07-01,29971,Xã Thường Phước,Xã,82,2025-07-01,,Q10826027,existing,matched,Q10826027,qlever-label+current-province+batched-wbgetentities
 w-29978-2009-01-07,29978,Phường An Lạc,Phường,868,2009-01-07,2025-06-30,,,deferred-historical,,
 w-29978-2025-07-01,29978,Phường Thường Lạc,Phường,82,2025-07-01,,Q10826026,existing,matched,Q10826026,qlever-label+current-province+batched-wbgetentities
-w-29983-2025-07-01,29983,Xã Long Khánh,Xã,82,2025-07-01,,,,ambiguous,Q10786860|Q10786862|Q16480236|Q136456811|Q139736895,2 verified label candidates match current province; 0 match predecessor districts
+w-29983-2025-07-01,29983,Xã Long Khánh,Xã,82,2025-07-01,,Q139736895,existing,manual,Q10786860|Q10786862|Q16480236|Q136456811|Q139736895,review 2026-09-02.05: current page selects Q139736895 for the Hồng Ngự successor
 w-29992-2025-07-01,29992,Xã Long Phú Thuận,Xã,82,2025-07-01,,Q10786905,existing,matched,Q10786905,qlever-label+current-province+batched-wbgetentities
 w-30001-2025-07-01,30001,Xã Tràm Chim,Xã,82,2025-07-01,,Q10828567,existing,matched,Q10828567,qlever-label+current-province+batched-wbgetentities
 w-30010-2025-07-01,30010,Xã Tam Nông,Xã,82,2025-07-01,,Q137208118,existing,matched,Q137208118,qlever-label+current-province+batched-wbgetentities
@@ -8603,7 +8603,7 @@ w-30850-2025-07-01,30850,Xã Tân Hiệp,Xã,91,2025-07-01,,Q10830445,existing,m
 w-30856-2025-07-01,30856,Xã Tân Hội,Xã,91,2025-07-01,,Q10830541,existing,matched,Q10830536|Q10830537|Q10830538|Q10830541|Q10830542|Q10830543,qlever-label+current-province+batched-wbgetentities
 w-30860-2009-06-30,30860,Xã Tân Hoà,Xã,904,2009-06-30,2025-06-30,,,deferred-historical,,
 w-30871-2004-06-30,30871,Xã Tân An,Xã,904,2004-06-30,2025-06-30,,,deferred-historical,,
-w-30874-2025-07-01,30874,Xã Thạnh Đông,Xã,91,2025-07-01,,,,ambiguous,Q10825004|Q10826326|Q10826328|Q10826329|Q32304761|Q138350815,2 verified label candidates match current province; 2 match predecessor districts
+w-30874-2025-07-01,30874,Xã Thạnh Đông,Xã,91,2025-07-01,,Q10826329,existing,manual,Q10825004|Q10826326|Q10826328|Q10826329|Q32304761|Q138350815,review 2026-09-02.05: current page explicitly selects new-unit item Q10826329
 w-30880-2025-07-01,30880,Xã Châu Thành,Xã,91,2025-07-01,,Q136821637,existing,matched,Q10748255|Q10748256|Q10748257|Q10748259|Q10748261|Q136648958|Q136821637|Q136821909,qlever-label+current-province+batched-wbgetentities
 w-30886-2025-07-01,30886,Xã Thạnh Lộc,Xã,91,2025-07-01,,Q10826259,existing,matched,Q10824825|Q10825564|Q10826258|Q10826259|Q10826262|Q10826264|Q10826265|Q32303121,qlever-label+predecessor-district+batched-wbgetentities
 w-30887-2005-08-10,30887,Xã Mong Thọ,Xã,905,2005-08-10,2025-06-30,,,deferred-historical,,
@@ -8632,7 +8632,7 @@ w-31024-2025-07-01,31024,Xã Đông Hòa,Xã,91,2025-07-01,,Q10840728,existing,m
 w-31027-2025-07-01,31027,Xã U Minh Thượng,Xã,91,2025-07-01,,Q10733244,existing,matched,Q10733244,qlever-label+current-province+batched-wbgetentities
 w-31031-2005-08-10,31031,Xã Tân Thạnh,Xã,909,2005-08-10,2025-06-30,,,deferred-historical,,
 w-31031-2025-07-01,31031,Xã Tân Thạnh,Xã,91,2025-07-01,,Q10830865,existing,matched,Q2147855|Q2220647|Q4026176|Q4374988|Q7862093|Q7862096|Q10824815|Q10824864|Q10830796|Q10830797|Q10830798|Q10830801|Q10830819|Q10830820|Q10830821|Q10830822|Q10830823|Q10830825|Q10830828|Q10830829|Q10830830|Q10830831|Q10830832|Q10830834|Q10830835|Q10830836|Q10830838|Q10830839|Q10830840|Q10830841|Q10830842|Q10830844|Q10830845|Q10830847|Q10830849|Q10830850|Q10830851|Q10830853|Q10830855|Q10830865|Q10830868|Q16481423,qlever-label+predecessor-district+batched-wbgetentities
-w-31036-2025-07-01,31036,Xã Đông Hưng,Xã,91,2025-07-01,,,,ambiguous,Q1809155|Q10840735|Q10840738|Q10840741|Q10840742|Q32598014,2 verified label candidates match current province; 2 match predecessor districts
+w-31036-2025-07-01,31036,Xã Đông Hưng,Xã,91,2025-07-01,,Q10840742,existing,manual,Q1809155|Q10840735|Q10840738|Q10840741|Q10840742|Q32598014,review 2026-09-02.05: current page and Vân Khánh Đông-side coordinates select Q10840742
 w-31042-2025-07-01,31042,Xã Vân Khánh,Xã,91,2025-07-01,,Q10833135,existing,matched,Q10833135|Q10834109,qlever-label+current-province+batched-wbgetentities
 w-31051-2025-07-01,31051,Xã Vĩnh Phong,Xã,91,2025-07-01,,Q10833636,existing,matched,Q10833634|Q10833635|Q10833636,qlever-label+current-province+batched-wbgetentities
 w-31057-2004-06-30,31057,Xã Hoà Chánh,Xã,913,2004-06-30,2025-06-30,,,deferred-historical,,
@@ -8722,7 +8722,7 @@ w-31359-2007-03-23,31359,Thị trấn Rạch Gòi,Thị trấn,932,2007-03-23,20
 w-31360-2025-07-01,31360,Xã Thạnh Xuân,Xã,92,2025-07-01,,Q10826321,existing,matched,Q10824961|Q10824962|Q10824963|Q10824966|Q10824970|Q10826321|Q10826322,qlever-label+current-province+batched-wbgetentities
 w-31362-2007-03-23,31362,Thị trấn Cái Tắc,Thị trấn,932,2007-03-23,2025-06-30,,,deferred-historical,,
 w-31366-2025-07-01,31366,Xã Châu Thành,Xã,92,2025-07-01,,Q136821909,existing,matched,Q10748255|Q10748256|Q10748257|Q10748259|Q10748261|Q136648958|Q136821637|Q136821909,broad-exact-vi+current-province+ward-class+batched-wbgetentities
-w-31369-2025-07-01,31369,Xã Đông Phước,Xã,92,2025-07-01,,,,ambiguous,Q10840824|Q10840861,2 verified label candidates match current province; 2 match predecessor districts
+w-31369-2025-07-01,31369,Xã Đông Phước,Xã,92,2025-07-01,,Q10840861,existing,manual,Q10840824|Q10840861,review 2026-09-02.05: current page and cross-district successor identity select Q10840861
 w-31378-2025-07-01,31378,Xã Phú Hữu,Xã,92,2025-07-01,,Q10805946,existing,matched,Q1980001|Q2518531|Q10805946|Q10805949|Q10805950|Q32578709,qlever-label+current-province+batched-wbgetentities
 w-31379-2009-08-25,31379,Xã Phú Tân,Xã,933,2009-08-25,2025-06-30,,,deferred-historical,,
 w-31393-2025-07-01,31393,Xã Hòa An,Xã,92,2025-07-01,,Q10770903,existing,matched,Q2063906|Q2608182|Q10770896|Q10770898|Q10770900|Q10770901|Q10770902|Q10770903|Q10771145,qlever-label+current-province+batched-wbgetentities

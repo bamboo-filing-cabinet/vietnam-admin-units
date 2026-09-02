@@ -1174,6 +1174,153 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.05",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q10742514", "Q10742518", "Q10742520"],
+          "evidence": {
+            "predecessor_parent_codes": ["820"],
+            "viwiki": {
+              "extract": "Bình Phú là xã thuộc tỉnh Đồng Tháp, Việt Nam.",
+              "page_id": 1242773,
+              "title": "Bình Phú, Đồng Tháp",
+              "wikibase_item": "Q10742514"
+            }
+          },
+          "local_id": "w-28471-2025-07-01",
+          "mapping_note": "current page and former Cai Lậy coordinates select Q10742514",
+          "outcome": "assign",
+          "rationale": "Q10742514 owns the current page and lies in the Bình Phú–Cẩm Sơn–Phú An predecessor area. The other candidates are eastern namesakes.",
+          "wikidata_qid": "Q10742514"
+        },
+        {
+          "candidate_qids_checked": ["Q10830746", "Q136655067"],
+          "evidence": {
+            "predecessor_parent_codes": ["823", "824", "825"],
+            "viwiki": {
+              "extract": "Tân Phú Đông là một xã thuộc tỉnh Đồng Tháp, Việt Nam.",
+              "page_id": 19943895,
+              "title": "Tân Phú Đông (xã)",
+              "wikibase_item": "Q136655067"
+            }
+          },
+          "local_id": "w-28696-2025-07-01",
+          "mapping_note": "current page and Gò Công-side coordinates select Q136655067",
+          "outcome": "assign",
+          "rationale": "Q136655067 owns the current page and lies in the Phú Thạnh–Phú Đông–Phú Tân predecessor area. Q10830746 is the western namesake.",
+          "wikidata_qid": "Q136655067"
+        },
+        {
+          "candidate_qids_checked": ["Q10733156", "Q10733157"],
+          "evidence": {
+            "predecessor_parent_codes": ["836"],
+            "viwiki": {
+              "extract": "An Hiệp là một xã thuộc tỉnh Vĩnh Long, Việt Nam.",
+              "page_id": 1242168,
+              "title": "An Hiệp",
+              "wikibase_item": "Q10733156"
+            }
+          },
+          "local_id": "w-29158-2025-07-01",
+          "mapping_note": "current page and former Ba Tri coordinates select Q10733156",
+          "outcome": "assign",
+          "rationale": "Q10733156 owns the current page and lies in the Tân Hưng–An Ngãi Tây–An Hiệp predecessor area. Q10733157 is the northern Vĩnh Long namesake.",
+          "wikidata_qid": "Q10733156"
+        },
+        {
+          "candidate_qids_checked": ["Q16480236", "Q139736895"],
+          "evidence": {
+            "predecessor_parent_codes": ["870"],
+            "viwiki": {
+              "extract": "Long Khánh là một xã thuộc tỉnh Đồng Tháp, Việt Nam.",
+              "page_id": 19943215,
+              "title": "Long Khánh (xã)",
+              "wikibase_item": "Q139736895"
+            }
+          },
+          "local_id": "w-29983-2025-07-01",
+          "mapping_note": "current page selects Q139736895 for the Hồng Ngự successor",
+          "outcome": "assign",
+          "rationale": "Q139736895 owns the current page for the xã formed from Long Khánh A and Long Khánh B. Q16480236 is a southern Đồng Tháp namesake.",
+          "wikidata_qid": "Q139736895"
+        },
+        {
+          "candidate_qids_checked": ["Q10826328", "Q10826329"],
+          "evidence": {
+            "predecessor_parent_codes": ["904"],
+            "viwiki": {
+              "extract": "Thạnh Đông là một xã thuộc tỉnh An Giang, Việt Nam. Đây là xã thành lập mới, địa giới không chồng lấn với địa bàn xã Thạnh Đông cũ thuộc huyện Tân Hiệp, nay là một phần xã Tân Hiệp, tỉnh An Giang.",
+              "page_id": 1253043,
+              "title": "Thạnh Đông",
+              "wikibase_item": "Q10826329"
+            }
+          },
+          "local_id": "w-30874-2025-07-01",
+          "mapping_note": "current page explicitly selects new-unit item Q10826329",
+          "outcome": "assign",
+          "rationale": "Q10826329 owns the current page, whose text explicitly distinguishes the new unit from the old Thạnh Đông territory. Q10826328 is the competing former-unit identity.",
+          "wikidata_qid": "Q10826329"
+        },
+        {
+          "candidate_qids_checked": ["Q10840735", "Q10840742"],
+          "evidence": {
+            "predecessor_parent_codes": ["909"],
+            "viwiki": {
+              "extract": "Đông Hưng là một xã thuộc tỉnh An Giang, Việt Nam.",
+              "page_id": 1243674,
+              "title": "Đông Hưng, An Giang",
+              "wikibase_item": "Q10840742"
+            }
+          },
+          "local_id": "w-31036-2025-07-01",
+          "mapping_note": "current page and Vân Khánh Đông-side coordinates select Q10840742",
+          "outcome": "assign",
+          "rationale": "Q10840742 owns the current page and lies in the Đông Hưng A–Vân Khánh Đông predecessor area. Q10840735 is the eastern same-district namesake.",
+          "wikidata_qid": "Q10840742"
+        },
+        {
+          "candidate_qids_checked": ["Q10840824", "Q10840861"],
+          "evidence": {
+            "predecessor_parent_codes": ["932", "933"],
+            "viwiki": {
+              "extract": "Đông Phước là một xã thuộc thành phố Cần Thơ, Việt Nam.",
+              "page_id": 1243781,
+              "title": "Đông Phước",
+              "wikibase_item": "Q10840861"
+            }
+          },
+          "local_id": "w-31369-2025-07-01",
+          "mapping_note": "current page and cross-district successor identity select Q10840861",
+          "outcome": "assign",
+          "rationale": "Q10840861 owns the current page for the Cái Tắc–Đông Thạnh–Đông Phước A successor. Q10840824 represents the other former Châu Thành unit.",
+          "wikidata_qid": "Q10840861"
+        }
+      ],
+      "reviewed_at": "2026-09-02T18:00:34Z",
+      "selection": {
+        "input_status": "ambiguous",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 612
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T18:00:34Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T18:00:34Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,

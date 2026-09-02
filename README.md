@@ -101,14 +101,16 @@ primary-source-open instruments accepted as bounded graph-construction residue.
 The read-only Wikidata discovery snapshot is also complete: one saved QLever
 query produced 11,838 candidates in 739 ms, local parent prefiltering reduced
 Action API verification to 2,878 items in 58 batches, and two additional saved
-evidence passes raised coverage to 2,670 of 3,321 current wards. Manual identity
-review batch 01 resolves another 10 with a durable decision ledger, bringing
-coverage to 2,680 with zero structural issues. **Resume with review of the 641
-unassigned current rows** (37 ambiguous, 324 needs review, 280 needs lookup).
-No Wikidata statements have been emitted. See the initial
+evidence passes raised coverage to 2,670 of 3,321 current wards. Five manual
+identity-review batches then process all 47 ambiguous rows with a durable
+decision ledger: 46 receive QIDs and one remains explicitly unresolved. Current
+coverage is 2,716 with zero structural issues. **Resume with classification of
+the 605 unassigned current rows** (324 needs review, 280 needs lookup, and one
+reviewed unresolved). No Wikidata statements have been emitted. See the initial
 [reconciliation journal](docs/journals/2026-09-01.05.ward-wikidata-reconciliation.md),
 the [review-reduction journal](docs/journals/2026-09-01.06.ward-wikidata-review-reduction.md),
 the [first manual review batch](docs/journals/2026-09-02.01.ward-wikidata-review-batch-01.md),
+the [ambiguous-queue closure](docs/journals/2026-09-02.05.ward-wikidata-review-batch-05.md),
 and run:
 
 ```sh
