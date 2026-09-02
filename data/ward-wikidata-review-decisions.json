@@ -3714,6 +3714,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.28",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q10810241", "Q10810242"],
+          "local_id": "w-17569-2025-07-01",
+          "mapping_note": "current Quan Thành page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current Quan Thành page explicitly identifies the 2025 Nghệ An commune and its four predecessors but has no Wikibase item. The candidates are the unrelated Quán Thánh disambiguation page and former Hà Nội ward.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q10772358"],
+          "local_id": "w-17605-2025-07-01",
+          "mapping_note": "current Hợp Minh page selects Q10772358 despite stale statements",
+          "outcome": "assign",
+          "rationale": "Q10772358 owns the current Hợp Minh page, whose introduction identifies the Nghệ An commune. Its label is current but its description and parent still describe the former Yên Bái ward.",
+          "wikidata_qid": "Q10772358"
+        },
+        {
+          "candidate_qids_checked": ["Q10779649", "Q10833167", "Q10833443"],
+          "local_id": "w-17611-2025-07-01",
+          "mapping_note": "current Vân Tụ page selects predecessor item Q10779649",
+          "outcome": "assign",
+          "rationale": "Q10779649 owns the current Vân Tụ page and represents predecessor Khánh Thành within the successor composition. Its label and parent remain stale; the other candidates are spelling-different Hà Nội communes.",
+          "wikidata_qid": "Q10779649"
+        },
+        {
+          "candidate_qids_checked": ["Q531703", "Q10743118", "Q10800678"],
+          "local_id": "w-17623-2025-07-01",
+          "mapping_note": "current Bạch Ngọc, Nghệ An page selects predecessor item Q10800678",
+          "outcome": "assign",
+          "rationale": "Q10800678 owns the current `Bạch Ngọc, Nghệ An` page and represents predecessor Ngọc Sơn within the successor composition. Its label, description, and parent remain stale; the other candidates are namesakes outside Nghệ An.",
+          "wikidata_qid": "Q10800678"
+        },
+        {
+          "candidate_qids_checked": ["Q666884", "Q1190853", "Q6704607", "Q10788368", "Q10788370", "Q10788372", "Q10788373", "Q10788375", "Q16480347", "Q21609358"],
+          "local_id": "w-17641-2025-07-01",
+          "mapping_note": "current Lương Sơn, Nghệ An page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Lương Sơn, Nghệ An` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are namesakes, former units, or a disambiguation item.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q709025", "Q803754", "Q1813795", "Q4468443", "Q65172412", "Q102674031", "Q10841149", "Q124763542"],
+          "local_id": "w-17707-2025-07-01",
+          "mapping_note": "current Bạch Hà page selects predecessor item Q10841149",
+          "outcome": "assign",
+          "rationale": "Q10841149 owns the current Bạch Hà page and represents predecessor Đại Sơn within the successor composition. Its label, description, and parent remain stale; the other candidates are foreign namesakes, unrelated entities, or the former Tuyên Quang commune.",
+          "wikidata_qid": "Q10841149"
+        },
+        {
+          "candidate_qids_checked": ["Q72877", "Q271060", "Q706556", "Q1172643", "Q1172649", "Q1373191", "Q5369473", "Q10824942", "Q10841271", "Q10841273", "Q10841274", "Q10841275", "Q10841276", "Q10841277", "Q10841278", "Q10841279", "Q10934137", "Q10934139", "Q10934176", "Q16996719", "Q45701576"],
+          "local_id": "w-17713-2025-07-01",
+          "mapping_note": "current Đại Đồng, Nghệ An page selects predecessor item Q10824942",
+          "outcome": "assign",
+          "rationale": "Q10824942 owns the current `Đại Đồng, Nghệ An` page and represents predecessor Thanh Tường within the successor composition. Its label and parent remain stale; the other candidates are namesakes or unrelated entities.",
+          "wikidata_qid": "Q10824942"
+        },
+        {
+          "candidate_qids_checked": ["Q10823897"],
+          "local_id": "w-17743-2025-07-01",
+          "mapping_note": "current Tam Đồng page selects Q10823897 despite stale P131",
+          "outcome": "assign",
+          "rationale": "Q10823897 owns the current Tam Đồng page and has commune class. Its parent remains the former Mê Linh district, but the page explicitly identifies the 2025 Nghệ An commune.",
+          "wikidata_qid": "Q10823897"
+        },
+        {
+          "candidate_qids_checked": ["Q10823327", "Q10823329", "Q10823331"],
+          "local_id": "w-17759-2025-07-01",
+          "mapping_note": "current Sơn Lâm page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current Sơn Lâm page explicitly identifies the 2025 Nghệ An commune but has no Wikibase item. The candidates are a disambiguation item or former communes elsewhere.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q10771653", "Q10771654", "Q10771656"],
+          "local_id": "w-17833-2025-07-01",
+          "mapping_note": "current Hải Lộc page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current Hải Lộc page explicitly identifies the 2025 Nghệ An commune but has no Wikibase item. The candidates are a disambiguation item or former communes elsewhere.",
+          "wikidata_qid": ""
+        }
+      ],
+      "reviewed_at": "2026-09-02T21:04:00Z",
+      "selection": {
+        "input_status": "needs-review",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 442
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T21:04:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T21:04:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
