@@ -5394,6 +5394,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.44",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q864798", "Q1324768", "Q137554861"],
+          "local_id": "w-10402-2025-07-01",
+          "mapping_note": "current Ứng Hòa xã page selects Q137554861",
+          "outcome": "assign",
+          "rationale": "Q137554861 owns the current `Ứng Hòa (xã)` page, whose label and introduction identify the Hà Nội commune. Its structured class and parent are absent; the other candidates are the former district or an unrelated item.",
+          "wikidata_qid": "Q137554861"
+        },
+        {
+          "candidate_qids_checked": ["Q1155893", "Q10828832"],
+          "local_id": "w-10549-2025-07-01",
+          "mapping_note": "current Chu Văn An phường page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Chu Văn An (phường)` page explicitly identifies the 2025 Hải Phòng ward but has no Wikibase item. The candidates are the historical person or a former ward.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q10743141"],
+          "local_id": "w-10678-2025-07-01",
+          "mapping_note": "current Bắc An Phụ page selects predecessor item Q10743141",
+          "outcome": "assign",
+          "rationale": "Q10743141 owns the current Bắc An Phụ page and represents predecessor Bạch Đằng within the successor composition. Its label, description, and parent remain stale.",
+          "wikidata_qid": "Q10743141"
+        },
+        {
+          "candidate_qids_checked": ["Q86011289"],
+          "local_id": "w-10705-2025-07-01",
+          "mapping_note": "current Nam An Phụ page selects predecessor item Q86011289",
+          "outcome": "assign",
+          "rationale": "Q86011289 owns the current Nam An Phụ page and represents predecessor Quang Thành within the successor composition. Its label remains stale and its parent is absent.",
+          "wikidata_qid": "Q86011289"
+        },
+        {
+          "candidate_qids_checked": ["Q6473619", "Q131552286"],
+          "local_id": "w-10756-2025-07-01",
+          "mapping_note": "current Lai Khê page selects Q131552286",
+          "outcome": "assign",
+          "rationale": "Q131552286 owns the current Lai Khê page, whose label and introduction identify the Hải Phòng commune. Its structured class and parent are absent; Q6473619 is unrelated.",
+          "wikidata_qid": "Q131552286"
+        },
+        {
+          "candidate_qids_checked": ["Q10830179"],
+          "local_id": "w-10909-2025-07-01",
+          "mapping_note": "current Tuệ Tĩnh xã page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Tuệ Tĩnh (xã)` page explicitly identifies the 2025 Hải Phòng commune but has no Wikibase item. Q10830179 is the historical physician after whom the commune is named.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q10923035"],
+          "local_id": "w-10972-2025-07-01",
+          "mapping_note": "current Đường An page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current Đường An page explicitly identifies the 2025 Hải Phòng commune but has no Wikibase item. Q10923035 is not the current administrative unit.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q131366318"],
+          "local_id": "w-11050-2025-07-01",
+          "mapping_note": "current Gia Phúc page selects Q131366318",
+          "outcome": "assign",
+          "rationale": "Q131366318 owns the current Gia Phúc page, whose label and introduction identify the Hải Phòng commune. Its structured class and parent are absent.",
+          "wikidata_qid": "Q131366318"
+        },
+        {
+          "candidate_qids_checked": ["Q131548699"],
+          "local_id": "w-11140-2025-07-01",
+          "mapping_note": "current Lạc Phượng page selects Q131548699",
+          "outcome": "assign",
+          "rationale": "Q131548699 owns the current Lạc Phượng page, and its label and description identify the Hải Phòng commune. Its structured class and parent are absent.",
+          "wikidata_qid": "Q131548699"
+        },
+        {
+          "candidate_qids_checked": ["Q10783727"],
+          "local_id": "w-11503-2025-07-01",
+          "mapping_note": "current Việt Khê page selects predecessor item Q10783727",
+          "outcome": "assign",
+          "rationale": "Q10783727 owns the current Việt Khê page and represents predecessor Ninh Sơn within the successor composition. Its label, description, and parent remain stale.",
+          "wikidata_qid": "Q10783727"
+        }
+      ],
+      "reviewed_at": "2026-09-03T00:22:00Z",
+      "selection": {
+        "input_status": "needs-lookup",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 314
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-03T00:22:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-03T00:22:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
