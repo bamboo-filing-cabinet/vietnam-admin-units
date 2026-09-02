@@ -28,7 +28,7 @@ vietnam-elections     vietnam-elections-wikidata
 2. **Set up + verify:**
    ```sh
    uv sync
-   uv run pytest -q                          # 231 tests pass
+   uv run pytest -q                          # 236 tests pass
    ```
 
    **Phases 1 and 2 are complete and uploaded to Wikidata (provinces + districts).** The next work is **Phase 3 (wards)** — read the "Phase 2" block under [Status](#status) for the post-upload verification step and the roadmap pointer.
@@ -88,7 +88,7 @@ independent geo cross-check (P625 kNN) confirmed **0 wrong-place matches**. Buil
 *accepted* Ninh Bình → Hoa Lư successor-relabel; the 3 Tier-B TYPE flags cleared (batch #261331 stamped
 `P31`=huyện). Independent geo cross-check (P625 kNN): **0 wrong-place matches**. **Phase 2 fully verified.**
 
-**◀◀ RESUME HERE — Phase 3: ward Wikidata lookup.** Provinces
+**◀◀ RESUME HERE — Phase 3: historical ward Wikidata reconciliation.** Provinces
 (Phase 1) and districts (Phase 2) are complete + live on Wikidata with **no open
 work**. The 2025 ward boundary and full predecessor→successor topology are
 complete offline. Historical source-closure Tasks 1–6 are also complete: all
@@ -98,7 +98,7 @@ classified, and linked with zero unclassified instruments or legally unlinked
 observed events. Tasks 7 and 8 are complete with the 29 reviewed
 primary-source-open instruments accepted as bounded graph-construction residue.
 
-The read-only Wikidata discovery snapshot is also complete: one saved QLever
+The read-only current-unit Wikidata discovery snapshot is also complete: one saved QLever
 query produced 11,838 candidates in 739 ms, local parent prefiltering reduced
 Action API verification to 2,878 items in 58 batches, and two additional saved
 evidence passes raised coverage to 2,670 of 3,321 current wards. Five manual
@@ -107,8 +107,19 @@ ledger: 46 received QIDs and one remained explicitly unresolved. Thirty-three
 follow-up batches then closed all 324 `needs-review` rows, and twenty-eight
 lookup batches closed all 280 `needs-lookup` rows. Current coverage is 3,163
 with zero structural issues: 2,667 automatic matches and 496 manual matches.
-The 158 unassigned current rows are all reviewed and recorded as unresolved
-item-creation gaps. No Wikidata statements have been emitted. See the initial
+The 158 unassigned current rows are all reviewed and recorded as item-creation
+gaps. An offline package now captures them in sixteen batches of at most ten:
+`data/ward-wikidata-create-current.json` plus
+`statements/wards-create-current/*.qs`. These files are **not uploaded** and
+require a fresh duplicate/sitelink preflight before use.
+
+Full 2025 lineage emission is not ready: all 11,223 historical mapping rows were
+intentionally deferred, including all 10,035 immediate reform predecessors.
+Consequently 0/10,586 reform edges have both endpoint QIDs. The fail-closed
+status is saved in `data/ward-wikidata-emission-readiness.json`; next implement
+the bulk predecessor-reconciliation slice in
+[`docs/plans/2026-09-02-phase3-ward-wikidata-emission.md`](docs/plans/2026-09-02-phase3-ward-wikidata-emission.md).
+See the initial
 [reconciliation journal](docs/journals/2026-09-01.05.ward-wikidata-reconciliation.md),
 the [review-reduction journal](docs/journals/2026-09-01.06.ward-wikidata-review-reduction.md),
 the [first manual review batch](docs/journals/2026-09-02.01.ward-wikidata-review-batch-01.md),
@@ -119,6 +130,7 @@ and run:
 ```sh
 uv run python -m vn_admin_units.ward_reconcile_broad --check --audit
 uv run python -m vn_admin_units.ward_reconcile --check --audit
+uv run python -m vn_admin_units.ward_emit --check --audit
 ```
 
 **Task 7 review log (historical):** At its final strict-primary checkpoint the

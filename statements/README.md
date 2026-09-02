@@ -2,6 +2,20 @@
 
 Emitted QuickStatements batches for Wikidata.
 
+## Prepared, not uploaded
+
+`wards-create-current/001.qs` through `016.qs` contain the 158 reviewed current
+ward item-creation gaps in batches of at most ten. They were generated offline
+by `vn_admin_units.ward_emit`; no Wikidata write has been performed.
+
+Do not upload these files without a fresh duplicate/sitelink preflight. After a
+successful batch, record its QIDs in `mappings/wards-qid.csv` and regenerate
+before continuing; replaying a successful CREATE file would make duplicates.
+The durable review and source evidence is in
+`../data/ward-wikidata-create-current.json`. Full ward lineage remains blocked
+until the 10,035 immediate pre-2025 predecessors are reconciled; see
+`../data/ward-wikidata-emission-readiness.json`.
+
 ## Uploaded
 
 | File | Uploaded | Batch | Ops | Errors | Description |

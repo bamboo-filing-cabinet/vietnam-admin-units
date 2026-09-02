@@ -11,6 +11,9 @@ def test_ref_is_s854():
 def test_p31_target_maps_by_loai_hinh():
     assert p31_target("Tỉnh") == P31_TARGETS["Tỉnh"]
     assert p31_target("Thành phố Trung ương") == P31_TARGETS["Thành phố Trung ương"]
+    assert p31_target("Xã") == "Q2389082"
+    assert p31_target("Phường") == "Q687188"
+    assert p31_target("Đặc khu") == "Q134999516"
 
 def test_predecessor_ends_only_for_ending_relations():
     assert predecessor_ends("merged_into") and predecessor_ends("split")

@@ -25,6 +25,12 @@ P31_TARGETS = {
     "Quận": "Q6644510",                       # urban district of Vietnam (52)
     "Thị xã": "Q2112349",                     # District-level town of Vietnam / thị xã (64)
     "Thành phố": "Q3249005",                  # provincial city of Vietnam / thành phố thuộc tỉnh (86)
+    # Ward tier. These are the same class IDs used by the read-only ward
+    # reconciler when it verifies a candidate's P31.
+    "Xã": "Q2389082",                            # commune of Vietnam
+    "Phường": "Q687188",                         # ward of Vietnam
+    "Thị trấn": "Q1070942",                       # township of Vietnam
+    "Đặc khu": "Q134999516",                    # special administrative zone of Vietnam
 }
 
 

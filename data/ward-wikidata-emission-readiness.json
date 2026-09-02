@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "scope": {
+    "tier": "ward",
+    "effective_date": "2025-07-01",
+    "wikidata_write_performed": false
+  },
+  "input_fingerprints": {
+    "data/ward-history.json": "c5d42635f1994be730cd6ebadaba3f0b1b7beb26cf4609114c8a7d7d96e80ba6",
+    "mappings/wards-qid.csv": "1c92af91f266d0e7e1acf15e0ff19181817f41051b494eb519d60c5fa39383c1"
+  },
+  "audit": {
+    "entities": 14544,
+    "current_entities": 3321,
+    "current_qids": 3163,
+    "current_item_creation_gaps": 158,
+    "historical_entities": 11223,
+    "historical_qids": 0,
+    "reform_edges": 10586,
+    "distinct_reform_predecessors": 10035,
+    "reconciled_reform_predecessors": 0,
+    "distinct_reform_successors": 3316,
+    "reconciled_reform_successors": 3158,
+    "reform_edges_with_both_qids": 0,
+    "reform_edges_with_official_reference": 10586
+  },
+  "gates": {
+    "current_creation_package_ready": true,
+    "lineage_endpoint_qids_ready": false,
+    "official_event_references_ready": true,
+    "ward_lineage_emit_ready": false
+  },
+  "blockers": [
+    {
+      "gate": "current_successor_qids",
+      "missing": 158,
+      "resolution": "create the reviewed current items and record their QIDs in mappings/wards-qid.csv"
+    },
+    {
+      "gate": "historical_predecessor_qids",
+      "missing": 10035,
+      "resolution": "reconcile the immediate pre-2025 predecessor set before lineage emission"
+    }
+  ]
+}
