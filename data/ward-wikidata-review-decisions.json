@@ -1537,6 +1537,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.08",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q1972190", "Q2791585", "Q7188287", "Q10806210", "Q137590182"],
+          "local_id": "w-01648-2025-07-01",
+          "mapping_note": "current Phục Hòa xã page selects Q137590182",
+          "outcome": "assign",
+          "rationale": "Q137590182 owns the current `Phục Hòa (xã)` page and is typed as a Vietnamese commune. The other candidates are the former district, namesakes, or non-current identities.",
+          "wikidata_qid": "Q137590182"
+        },
+        {
+          "candidate_qids_checked": ["Q1198018", "Q2063906", "Q2608182", "Q5874226", "Q10770896", "Q10770898", "Q10770900", "Q10770901", "Q10770902", "Q10770903", "Q10771145", "Q10802086", "Q18458486", "Q49088859"],
+          "local_id": "w-01654-2025-07-01",
+          "mapping_note": "current Hòa An, Cao Bằng page selects predecessor item Q10802086",
+          "outcome": "assign",
+          "rationale": "Q10802086 owns the current `Hòa An, Cao Bằng` page and represents predecessor town Nước Hai within the successor composition. Its label, class, and parent remain stale; the other candidates are wrong-level or wrong-place namesakes.",
+          "wikidata_qid": "Q10802086"
+        },
+        {
+          "candidate_qids_checked": ["Q10805440", "Q10805473", "Q137383662"],
+          "local_id": "w-01849-2025-07-01",
+          "mapping_note": "current Phong Quang page selects Q137383662",
+          "outcome": "assign",
+          "rationale": "Q137383662 owns the current Phong Quang page, whose introduction identifies the 2025 Thái Nguyên commune. The older exact-label candidates do not own the current page.",
+          "wikidata_qid": "Q137383662"
+        },
+        {
+          "candidate_qids_checked": ["Q603151", "Q5034309", "Q10744227", "Q10744228", "Q10744231", "Q15920332", "Q15945364", "Q49079854", "Q137383528"],
+          "local_id": "w-01879-2025-07-01",
+          "mapping_note": "current Cao Minh page selects Q137383528",
+          "outcome": "assign",
+          "rationale": "Q137383528 owns the current Cao Minh page, whose introduction places the 2025 commune in northern Thái Nguyên. The remaining candidates are namesakes, people, or a disambiguation item.",
+          "wikidata_qid": "Q137383528"
+        },
+        {
+          "candidate_qids_checked": ["Q10833691", "Q137383507"],
+          "local_id": "w-01981-2025-07-01",
+          "mapping_note": "current Vĩnh Thông xã page selects Q137383507",
+          "outcome": "assign",
+          "rationale": "Q137383507 owns the current `Vĩnh Thông (xã)` page and is typed as a Vietnamese commune. Q10833691 is the An Giang ward namesake.",
+          "wikidata_qid": "Q137383507"
+        },
+        {
+          "candidate_qids_checked": ["Q7682082", "Q10830572", "Q10830573", "Q137383487"],
+          "local_id": "w-02104-2025-07-01",
+          "mapping_note": "current Tân Kỳ, Thái Nguyên page selects Q137383487",
+          "outcome": "assign",
+          "rationale": "Q137383487 owns the current `Tân Kỳ, Thái Nguyên` page. The older candidates are the Nghệ An district and commune namesakes outside the successor footprint.",
+          "wikidata_qid": "Q137383487"
+        },
+        {
+          "candidate_qids_checked": ["Q2166911", "Q7710328", "Q10824906"],
+          "local_id": "w-02107-2025-07-01",
+          "mapping_note": "current Thanh Thịnh page selects predecessor item Q7710328",
+          "outcome": "assign",
+          "rationale": "Q7710328 owns the current Thanh Thịnh page and represents predecessor Thanh Bình within the successor area. Its label and parent remain stale; the other candidates are a disambiguation item and a wrong-place commune.",
+          "wikidata_qid": "Q7710328"
+        },
+        {
+          "candidate_qids_checked": ["Q8052180", "Q10837968", "Q10837969", "Q10837970", "Q10837971", "Q10837973", "Q10837974", "Q65172499", "Q137383379"],
+          "local_id": "w-02116-2025-07-01",
+          "mapping_note": "current Yên Bình, Thái Nguyên page selects Q137383379",
+          "outcome": "assign",
+          "rationale": "Q137383379 owns the current `Yên Bình, Thái Nguyên` page and is typed as a Vietnamese commune. The remaining candidates are a district or namesakes elsewhere.",
+          "wikidata_qid": "Q137383379"
+        },
+        {
+          "candidate_qids_checked": ["Q508882", "Q1306763", "Q1337284", "Q10772140", "Q10772179", "Q10772180", "Q10772181", "Q10772182", "Q10787672", "Q69509450", "Q122787657"],
+          "local_id": "w-02608-2025-07-01",
+          "mapping_note": "current Hồng Sơn, Tuyên Quang page selects predecessor item Q10772140",
+          "outcome": "assign",
+          "rationale": "Q10772140 owns the current `Hồng Sơn, Tuyên Quang` page and represents predecessor Hồng Lạc in the successor area. Its label and parent remain stale; the other candidates are unrelated namesakes.",
+          "wikidata_qid": "Q10772140"
+        },
+        {
+          "candidate_qids_checked": ["Q2221252", "Q10823392", "Q10823394", "Q10823395", "Q10823397", "Q10823398", "Q10823399", "Q136677585"],
+          "local_id": "w-02620-2025-07-01",
+          "mapping_note": "current Sơn Thủy, Tuyên Quang page selects Q136677585",
+          "outcome": "assign",
+          "rationale": "Q136677585 owns the current `Sơn Thủy, Tuyên Quang` page, whose introduction identifies the 2025 commune. The older label candidates are unrelated namesakes.",
+          "wikidata_qid": "Q136677585"
+        }
+      ],
+      "reviewed_at": "2026-09-02T18:57:00Z",
+      "selection": {
+        "input_status": "needs-review",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 586
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T18:57:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T18:57:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
