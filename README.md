@@ -105,8 +105,8 @@ evidence passes raised coverage to 2,670 of 3,321 current wards. Five manual
 identity-review batches processed all 47 ambiguous rows with a durable decision
 ledger: 46 received QIDs and one remained explicitly unresolved. Thirty-three
 follow-up batches then closed all 324 `needs-review` rows. Current coverage is
-3,067 with zero structural issues: 2,667 automatic matches and 400 manual
-matches. **Resume with the 110 `needs-lookup` rows.** The other 144 unassigned
+3,075 with zero structural issues: 2,667 automatic matches and 408 manual
+matches. **Resume with the 100 `needs-lookup` rows.** The other 146 unassigned
 rows are already reviewed and recorded as unresolved item-creation gaps. No
 Wikidata statements have been emitted. See the initial
 [reconciliation journal](docs/journals/2026-09-01.05.ward-wikidata-reconciliation.md),

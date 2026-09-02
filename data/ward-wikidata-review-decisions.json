@@ -6159,6 +6159,28 @@
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "query pageprops and extracts", "retrieved_at": "2026-09-02T21:32:00Z"},
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"}
       ]
+    },
+    {
+      "batch_id": "2026-09-02.56",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10825133", "Q86008649"], "local_id": "w-17989-2025-07-01", "mapping_note": "current Thiên Nhẫn page selects predecessor item Q86008649", "outcome": "assign", "rationale": "Q86008649 owns the current Thiên Nhẫn page and represents predecessor Khánh Sơn. Its label, class, and parent remain stale and its Vietnamese description is absent; Q10825133 is the mountain range.", "wikidata_qid": "Q86008649"},
+        {"candidate_qids_checked": ["Q32273165"], "local_id": "w-18028-2025-07-01", "mapping_note": "current Hưng Nguyên Nam page selects legacy item Q32273165", "outcome": "assign", "rationale": "Q32273165 owns the current Hưng Nguyên Nam page and represents the legacy Hưng Tân identity. Its label and class remain stale and its parent and Vietnamese description are absent.", "wikidata_qid": "Q32273165"},
+        {"candidate_qids_checked": ["Q10812018"], "local_id": "w-18040-2025-07-01", "mapping_note": "current Lam Thành page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Lam Thành page identifies the 2025 Nghệ An commune but has no Wikibase item. Q10812018 is Rú Thành rather than the commune.", "wikidata_qid": ""},
+        {"candidate_qids_checked": ["Q136950457"], "local_id": "w-18115-2025-07-01", "mapping_note": "current Bắc Hồng Lĩnh page selects Q136950457", "outcome": "assign", "rationale": "Q136950457 owns the current Bắc Hồng Lĩnh page and its label, description, and article identify the Hà Tĩnh ward. Structured class and parent are absent.", "wikidata_qid": "Q136950457"},
+        {"candidate_qids_checked": ["Q136950435"], "local_id": "w-18118-2025-07-01", "mapping_note": "current Nam Hồng Lĩnh page selects Q136950435", "outcome": "assign", "rationale": "Q136950435 owns the current Nam Hồng Lĩnh page and its label, description, and article identify the Hà Tĩnh ward. Structured class and parent are absent.", "wikidata_qid": "Q136950435"},
+        {"candidate_qids_checked": ["Q10835174"], "local_id": "w-18364-2025-07-01", "mapping_note": "current Đan Hải page selects predecessor item Q10835174", "outcome": "assign", "rationale": "Q10835174 owns the current Đan Hải page and represents predecessor Đan Trường. Its label, description, class, and parent remain stale.", "wikidata_qid": "Q10835174"},
+        {"candidate_qids_checked": ["Q10828864"], "local_id": "w-18436-2025-07-01", "mapping_note": "current Trường Lưu commune page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Trường Lưu page identifies the 2025 Hà Tĩnh commune but has no Wikibase item. Q10828864 represents the historic village and owns the separate `Trường Lưu (làng)` article.", "wikidata_qid": ""},
+        {"candidate_qids_checked": ["Q10771456"], "local_id": "w-18532-2025-07-01", "mapping_note": "current Hương Phố page selects predecessor item Q10771456", "outcome": "assign", "rationale": "Q10771456 owns the current Hương Phố page and represents predecessor Hương Giang. Its label, description, class, and parent remain stale.", "wikidata_qid": "Q10771456"},
+        {"candidate_qids_checked": ["Q10826180"], "local_id": "w-18634-2025-07-01", "mapping_note": "current Toàn Lưu page selects legacy item Q10826180", "outcome": "assign", "rationale": "Q10826180 owns the current Toàn Lưu page and represents the legacy Thạch Lưu identity. Its label, class, and parent remain stale and its Vietnamese description is absent.", "wikidata_qid": "Q10826180"},
+        {"candidate_qids_checked": ["Q32256126", "Q123746552", "Q136950424"], "local_id": "w-18823-2025-07-01", "mapping_note": "current Vũng Áng phường page selects Q136950424", "outcome": "assign", "rationale": "Q136950424 owns the current `Vũng Áng (phường)` page and its label, description, and article identify the Hà Tĩnh ward. Q32256126 is the port locality and Q123746552 is a disambiguation item; structured class and parent are absent on the selected item.", "wikidata_qid": "Q136950424"}
+      ],
+      "reviewed_at": "2026-09-02T21:40:00Z",
+      "selection": {"input_status": "needs-lookup", "limit": 10, "order": "local_id", "starting_unresolved": 254},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbgetentities", "retrieved_at": "2026-09-02T21:40:00Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "query pageprops and extracts", "retrieved_at": "2026-09-02T21:40:00Z"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"}
+      ]
     }
   ],
   "schema_version": 1,
