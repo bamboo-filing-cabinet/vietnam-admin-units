@@ -2310,6 +2310,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.15",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q1199067", "Q1894522", "Q1905243", "Q7814474", "Q7945023", "Q7945024", "Q10832675", "Q10832676", "Q10833673", "Q10833684", "Q10833687", "Q10833688", "Q10833695", "Q10833696", "Q10833697", "Q10833699", "Q10833700", "Q10833701", "Q16480311"],
+          "local_id": "w-09106-2025-07-01",
+          "mapping_note": "current Vĩnh Thành, Phú Thọ page selects predecessor item Q16480311",
+          "outcome": "assign",
+          "rationale": "Q16480311 owns the current `Vĩnh Thành, Phú Thọ` page and represents predecessor Lũng Hoà within the successor composition. Its label and parent remain stale; the other candidates are wrong-place or non-place namesakes.",
+          "wikidata_qid": "Q16480311"
+        },
+        {
+          "candidate_qids_checked": ["Q800053", "Q10838102", "Q10838104", "Q10838106", "Q10838107", "Q86013032", "Q135180052"],
+          "local_id": "w-09193-2025-07-01",
+          "mapping_note": "current Yên Phong, Bắc Ninh page selects Q135180052",
+          "outcome": "assign",
+          "rationale": "Q135180052 owns the current `Yên Phong, Bắc Ninh` page. The remaining candidates are the former district or namesakes elsewhere.",
+          "wikidata_qid": "Q135180052"
+        },
+        {
+          "candidate_qids_checked": ["Q10787425", "Q31630084", "Q32292808", "Q49053989"],
+          "local_id": "w-09292-2025-07-01",
+          "mapping_note": "current Bắc Ninh page selects Q49053989 despite stale P131",
+          "outcome": "assign",
+          "rationale": "Q49053989 owns the current Phù Lãng page, has commune class, and represents the continuing Phù Lãng identity. Its parent remains former Quế Võ district; the other candidates are unrelated.",
+          "wikidata_qid": "Q49053989"
+        },
+        {
+          "candidate_qids_checked": ["Q1924271", "Q10831298", "Q10831299", "Q69514634", "Q85974467", "Q134980459"],
+          "local_id": "w-09367-2025-07-01",
+          "mapping_note": "current Từ Sơn ward page selects Q134980459",
+          "outcome": "assign",
+          "rationale": "Q134980459 owns the current `Từ Sơn (phường)` page. Q1924271 is the former city and the remaining candidates are unrelated or historical identities.",
+          "wikidata_qid": "Q134980459"
+        },
+        {
+          "candidate_qids_checked": ["Q1332123", "Q3711534", "Q10825469", "Q10825472", "Q86012058", "Q134980520"],
+          "local_id": "w-09400-2025-07-01",
+          "mapping_note": "current Thuận Thành ward page selects Q134980520",
+          "outcome": "assign",
+          "rationale": "Q134980520 owns the current `Thuận Thành (phường)` page and has ward class. Q3711534 is the former district-level town and the other candidates are namesakes.",
+          "wikidata_qid": "Q134980520"
+        },
+        {
+          "candidate_qids_checked": ["Q3711124", "Q24958623", "Q135145614"],
+          "local_id": "w-09496-2025-07-01",
+          "mapping_note": "current Lương Tài xã page selects Q135145614",
+          "outcome": "assign",
+          "rationale": "Q135145614 owns the current `Lương Tài (xã)` page and has commune class. Q3711124 is the former district and Q24958623 is unrelated.",
+          "wikidata_qid": "Q135145614"
+        },
+        {
+          "candidate_qids_checked": ["Q5366875", "Q6428083", "Q6451892", "Q8010877", "Q8011322", "Q8012001", "Q10780315", "Q138638872"],
+          "local_id": "w-09552-2025-07-01",
+          "mapping_note": "current Hanoi ward page selects Q10780315 despite missing P131",
+          "outcome": "assign",
+          "rationale": "Q10780315 owns the current `Kiến Hưng (phường)` page and has ward class. The other candidates are namesakes or unrelated places.",
+          "wikidata_qid": "Q10780315"
+        },
+        {
+          "candidate_qids_checked": ["Q138685317"],
+          "local_id": "w-09676-2025-07-01",
+          "mapping_note": "current Hanoi page selects Q138685317",
+          "outcome": "assign",
+          "rationale": "Q138685317 owns the current Bất Bạt page and has commune class. It is the sole candidate and the page explicitly identifies the 2025 Hanoi unit.",
+          "wikidata_qid": "Q138685317"
+        },
+        {
+          "candidate_qids_checked": ["Q7189889", "Q10806222", "Q10806224", "Q10833150", "Q65172097"],
+          "local_id": "w-09739-2025-07-01",
+          "mapping_note": "current Phúc Lộc, Hà Nội page selects Q10833150",
+          "outcome": "assign",
+          "rationale": "Q10833150 owns the current `Phúc Lộc, Hà Nội` page and has commune class. The remaining candidates are namesakes elsewhere or a disambiguation item.",
+          "wikidata_qid": "Q10833150"
+        },
+        {
+          "candidate_qids_checked": ["Q864794", "Q10768868", "Q10768869", "Q10768870", "Q10768871", "Q10829212", "Q136974486"],
+          "local_id": "w-09832-2025-07-01",
+          "mapping_note": "current Hoài Đức, Hà Nội page selects predecessor item Q10829212",
+          "outcome": "assign",
+          "rationale": "Q10829212 owns the current `Hoài Đức, Hà Nội` page and represents predecessor town Trạm Trôi within the successor composition. Its label, class, and parent remain stale; Q864794 is the former district.",
+          "wikidata_qid": "Q10829212"
+        }
+      ],
+      "reviewed_at": "2026-09-02T19:36:00Z",
+      "selection": {
+        "input_status": "needs-review",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 524
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T19:36:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T19:36:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
