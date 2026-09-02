@@ -5934,6 +5934,98 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.49",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q6408354", "Q137258852"],
+          "local_id": "w-13384-2025-07-01",
+          "mapping_note": "current Kim Bảng phường page selects Q137258852",
+          "outcome": "assign",
+          "rationale": "Q137258852 owns the current `Kim Bảng (phường)` page and has commune-level class and a current description. Its parent is absent; Q6408354 is the former district-level town.",
+          "wikidata_qid": "Q137258852"
+        },
+        {
+          "candidate_qids_checked": ["Q137258817"],
+          "local_id": "w-13420-2025-07-01",
+          "mapping_note": "current Tam Chúc page selects Q137258817",
+          "outcome": "assign",
+          "rationale": "Q137258817 owns the current Tam Chúc page and its label and description identify the Ninh Bình ward. Structured class and parent are absent.",
+          "wikidata_qid": "Q137258817"
+        },
+        {
+          "candidate_qids_checked": ["Q10824750"],
+          "local_id": "w-13456-2025-07-01",
+          "mapping_note": "current Liêm Hà page selects predecessor item Q10824750",
+          "outcome": "assign",
+          "rationale": "Q10824750 owns the current Liêm Hà page and represents predecessor Thanh Hà. Its label, description, and parent remain stale.",
+          "wikidata_qid": "Q10824750"
+        },
+        {
+          "candidate_qids_checked": ["Q10824791"],
+          "local_id": "w-13495-2025-07-01",
+          "mapping_note": "current Thanh Liêm xã page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Thanh Liêm (xã)` page identifies the 2025 Ninh Bình commune but has no Wikibase item. Q10824791 is the former district.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q1197311", "Q4914337", "Q136688025"],
+          "local_id": "w-13504-2025-07-01",
+          "mapping_note": "current Bình Lục xã page selects Q136688025",
+          "outcome": "assign",
+          "rationale": "Q136688025 owns the current `Bình Lục (xã)` page and its label and description identify the Ninh Bình commune. Structured class and parent are absent; the other candidates are the former district or unrelated.",
+          "wikidata_qid": "Q136688025"
+        },
+        {
+          "candidate_qids_checked": ["Q1069849", "Q10800949"],
+          "local_id": "w-13594-2025-07-01",
+          "mapping_note": "current Trần Thương xã page selects predecessor item Q10800949",
+          "outcome": "assign",
+          "rationale": "Q10800949 owns the current `Trần Thương (xã)` page and represents predecessor Trần Hưng Đạo. Its label, description, and parent remain stale; Q1069849 is unrelated.",
+          "wikidata_qid": "Q10800949"
+        },
+        {
+          "candidate_qids_checked": ["Q16480580"],
+          "local_id": "w-13609-2025-07-01",
+          "mapping_note": "current Nhân Hà page selects predecessor item Q16480580",
+          "outcome": "assign",
+          "rationale": "Q16480580 owns the current Nhân Hà page and represents predecessor Nhân Mỹ. Its label and parent remain stale.",
+          "wikidata_qid": "Q16480580"
+        },
+        {
+          "candidate_qids_checked": ["Q1022909", "Q1373138", "Q10796888", "Q10825147", "Q91085123", "Q118448662", "Q118448947", "Q118449297"],
+          "local_id": "w-13684-2025-07-01",
+          "mapping_note": "current Thiên Trường page selects predecessor item Q10796888",
+          "outcome": "assign",
+          "rationale": "Q10796888 owns the current Thiên Trường page and represents predecessor Mỹ Trung. Its label, description, and parent remain stale; the other candidates are namesakes or unrelated.",
+          "wikidata_qid": "Q10796888"
+        },
+        {
+          "candidate_qids_checked": ["Q10824842", "Q10841072"],
+          "local_id": "w-13699-2025-07-01",
+          "mapping_note": "current Thành Nam page selects predecessor item Q10841072",
+          "outcome": "assign",
+          "rationale": "Q10841072 owns the current Thành Nam page and represents predecessor Đại An. Its label, description, and parent remain stale; Q10824842 is not bound to the current page.",
+          "wikidata_qid": "Q10841072"
+        },
+        {
+          "candidate_qids_checked": ["Q8046189"],
+          "local_id": "w-13795-2025-07-01",
+          "mapping_note": "current Ý Yên xã page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Ý Yên (xã)` page identifies the 2025 Ninh Bình commune but has no Wikibase item. Q8046189 is the former district.",
+          "wikidata_qid": ""
+        }
+      ],
+      "reviewed_at": "2026-09-03T01:29:00Z",
+      "selection": {"input_status": "needs-lookup", "limit": 10, "order": "local_id", "starting_unresolved": 297},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbgetentities", "retrieved_at": "2026-09-03T01:29:00Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "query pageprops and extracts", "retrieved_at": "2026-09-03T01:29:00Z"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"}
+      ]
     }
   ],
   "schema_version": 1,
