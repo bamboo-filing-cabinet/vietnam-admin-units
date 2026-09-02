@@ -3930,6 +3930,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.30",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q713576", "Q1201171", "Q10769171", "Q10769173", "Q136950389"],
+          "local_id": "w-18832-2025-07-01",
+          "mapping_note": "current Hoành Sơn phường page selects Q136950389",
+          "outcome": "assign",
+          "rationale": "Q136950389 owns the current `Hoành Sơn (phường)` page and its description identifies the Hà Tĩnh ward. Its structured class and parent are absent; the other candidates are namesakes or unrelated entities.",
+          "wikidata_qid": "Q136950389"
+        },
+        {
+          "candidate_qids_checked": ["Q10840847", "Q10840848", "Q137844077"],
+          "local_id": "w-18859-2025-07-01",
+          "mapping_note": "current Đồng Thuận page selects Q137844077",
+          "outcome": "assign",
+          "rationale": "Q137844077 owns the current Đồng Thuận page, and its label and description identify the Quảng Trị ward. Its class uses the generic Vietnamese commune-level unit and its parent is absent; the other candidates are former namesakes.",
+          "wikidata_qid": "Q137844077"
+        },
+        {
+          "candidate_qids_checked": ["Q10779950"],
+          "local_id": "w-18943-2025-07-01",
+          "mapping_note": "current Kim Phú page selects Q10779950 despite stale statements",
+          "outcome": "assign",
+          "rationale": "Q10779950 owns the current Kim Phú page and has commune class. Its description and parent still describe the former Tuyên Quang commune, but the page explicitly identifies the 2025 Quảng Trị commune.",
+          "wikidata_qid": "Q10779950"
+        },
+        {
+          "candidate_qids_checked": ["Q137854442"],
+          "local_id": "w-18952-2025-07-01",
+          "mapping_note": "current Tuyên Sơn page selects Q137854442",
+          "outcome": "assign",
+          "rationale": "Q137854442 owns the current Tuyên Sơn page and has commune class. Its parent is absent, but the page explicitly identifies the 2025 Quảng Trị commune.",
+          "wikidata_qid": "Q137854442"
+        },
+        {
+          "candidate_qids_checked": ["Q8011478", "Q10830109", "Q138300051"],
+          "local_id": "w-18991-2025-07-01",
+          "mapping_note": "current Tuyên Bình, Quảng Trị page selects Q138300051",
+          "outcome": "assign",
+          "rationale": "Q138300051 owns the current `Tuyên Bình, Quảng Trị` page, and its label and description identify the commune. The other candidates are the Tây Ninh namesake and a former commune.",
+          "wikidata_qid": "Q138300051"
+        },
+        {
+          "candidate_qids_checked": ["Q2200829", "Q10810509", "Q138266360"],
+          "local_id": "w-19057-2025-07-01",
+          "mapping_note": "current Quảng Trạch xã page selects Q138266360",
+          "outcome": "assign",
+          "rationale": "Q138266360 owns the current `Quảng Trạch (xã)` page, and its label and description identify the Quảng Trị commune. The other candidates are the former district and a former namesake.",
+          "wikidata_qid": "Q138266360"
+        },
+        {
+          "candidate_qids_checked": ["Q33396", "Q596473", "Q991381", "Q10810437", "Q135140781", "Q137853482"],
+          "local_id": "w-19207-2025-07-01",
+          "mapping_note": "current Quảng Ninh, Quảng Trị page selects Q137853482",
+          "outcome": "assign",
+          "rationale": "Q137853482 owns the current `Quảng Ninh, Quảng Trị` page, whose introduction identifies the commune. Its generic commune-level class is current while its parent is absent; the other candidates are the province, former district, or namesakes.",
+          "wikidata_qid": "Q137853482"
+        },
+        {
+          "candidate_qids_checked": ["Q33343", "Q712778", "Q1201657", "Q10840723", "Q10840724", "Q10840725", "Q16181652"],
+          "local_id": "w-19333-2025-07-01",
+          "mapping_note": "current Đông Hà phường page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Đông Hà (phường)` page explicitly identifies the 2025 Quảng Trị ward and its predecessor composition but has no Wikibase item. The candidates are the former city, namesakes, or unrelated entities.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q1197445", "Q5638937", "Q10771651", "Q65171692"],
+          "local_id": "w-19702-2025-07-01",
+          "mapping_note": "current Hải Lăng xã page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Hải Lăng (xã)` page explicitly identifies the 2025 Quảng Trị commune but has no Wikibase item. The candidates are the former district, former communes, or a disambiguation item.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q5202999"],
+          "local_id": "w-19742-2025-07-01",
+          "mapping_note": "current Cồn Cỏ page reuses Q5202999 for the special zone",
+          "outcome": "assign",
+          "rationale": "Q5202999 owns the current Cồn Cỏ page, whose introduction and item description identify the Quảng Trị special zone. Its former-district class, parent, and end date remain stale after the 2025 conversion.",
+          "wikidata_qid": "Q5202999"
+        }
+      ],
+      "reviewed_at": "2026-09-02T21:22:00Z",
+      "selection": {
+        "input_status": "needs-review",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 430
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T21:22:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T21:22:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
