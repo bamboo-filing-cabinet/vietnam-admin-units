@@ -4578,6 +4578,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.36",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q997593", "Q7913545", "Q7945077", "Q10834121", "Q10834122", "Q10834123", "Q138778779"],
+          "local_id": "w-22489-2025-07-01",
+          "mapping_note": "current Vạn Ninh xã page selects Q138778779",
+          "outcome": "assign",
+          "rationale": "Q138778779 owns the current `Vạn Ninh (xã)` page, and its label and description identify the Khánh Hòa commune. Its structured class and parent are absent; the other candidates are the former district or namesakes.",
+          "wikidata_qid": "Q138778779"
+        },
+        {
+          "candidate_qids_checked": ["Q10771112", "Q138778444"],
+          "local_id": "w-22558-2025-07-01",
+          "mapping_note": "current Hòa Trí page selects Q138778444",
+          "outcome": "assign",
+          "rationale": "Q138778444 owns the current Hòa Trí page, and its label and description identify the Khánh Hòa commune. Its structured class and parent are absent; Q10771112 is a former namesake.",
+          "wikidata_qid": "Q138778444"
+        },
+        {
+          "candidate_qids_checked": ["Q2228358", "Q10771092", "Q10771095", "Q10771096", "Q10771098", "Q138778327"],
+          "local_id": "w-22591-2025-07-01",
+          "mapping_note": "current Hòa Thắng phường page selects Q138778327",
+          "outcome": "assign",
+          "rationale": "Q138778327 owns the current `Hòa Thắng (phường)` page, and its label and description identify the Khánh Hòa ward. Its structured class and parent are absent; the other candidates are namesakes or former units.",
+          "wikidata_qid": "Q138778327"
+        },
+        {
+          "candidate_qids_checked": ["Q6400315", "Q86008649", "Q138777062"],
+          "local_id": "w-22714-2025-07-01",
+          "mapping_note": "current Khánh Sơn xã page selects Q138777062",
+          "outcome": "assign",
+          "rationale": "Q138777062 owns the current `Khánh Sơn (xã)` page, and its label and description identify the Khánh Hòa commune. Its structured class and parent are absent; the other candidates are the former district or an unrelated item.",
+          "wikidata_qid": "Q138777062"
+        },
+        {
+          "candidate_qids_checked": ["Q36315", "Q36493", "Q31631118", "Q136358990"],
+          "local_id": "w-23293-2025-07-01",
+          "mapping_note": "current Kon Tum phường page selects Q136358990",
+          "outcome": "assign",
+          "rationale": "Q136358990 owns the current `Kon Tum (phường)` page, and its label, ward class, and description identify the Quảng Ngãi ward. Its parent remains the former Kon Tum city; the other candidates are the former city, province, or an unrelated station.",
+          "wikidata_qid": "Q136358990"
+        },
+        {
+          "candidate_qids_checked": ["Q10842383", "Q92629606", "Q135034544"],
+          "local_id": "w-24664-2025-07-01",
+          "mapping_note": "current Đức Lập, Lâm Đồng page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Đức Lập, Lâm Đồng` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are a former namesake, a disambiguation item, or the current Tây Ninh namesake.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q10781868", "Q10781869", "Q137214389"],
+          "local_id": "w-24688-2025-07-01",
+          "mapping_note": "current Krông Nô, Lâm Đồng page selects Q137214389",
+          "outcome": "assign",
+          "rationale": "Q137214389 owns the current `Krông Nô, Lâm Đồng` page, whose introduction identifies the commune. Its structured class and parent are absent; the other candidates are the Đắk Lắk namesake or a former commune.",
+          "wikidata_qid": "Q137214389"
+        },
+        {
+          "candidate_qids_checked": ["Q5209903", "Q30919570", "Q32183952"],
+          "local_id": "w-24718-2025-07-01",
+          "mapping_note": "current Đắk Song xã page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Đắk Song (xã)` page explicitly identifies the 2025 Lâm Đồng commune but has no Wikibase item. The candidates are the former district, a former commune, or an unrelated school.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q137295878"],
+          "local_id": "w-25093-2025-07-01",
+          "mapping_note": "current Bảo Lâm 3 page selects Q137295878",
+          "outcome": "assign",
+          "rationale": "Q137295878 owns the current Bảo Lâm 3 page, and its label, commune class, and description identify the Lâm Đồng commune. Its parent remains stale.",
+          "wikidata_qid": "Q137295878"
+        },
+        {
+          "candidate_qids_checked": ["Q286486", "Q16481455"],
+          "local_id": "w-25708-2025-07-01",
+          "mapping_note": "current Trảng Bàng phường page selects Q16481455",
+          "outcome": "assign",
+          "rationale": "Q16481455 owns the current `Trảng Bàng (phường)` page, and its label, ward class, and description identify the Tây Ninh ward. Its parent is absent; Q286486 is the former district-level town.",
+          "wikidata_qid": "Q16481455"
+        }
+      ],
+      "reviewed_at": "2026-09-02T22:25:00Z",
+      "selection": {
+        "input_status": "needs-review",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 375
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T22:25:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T22:25:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
