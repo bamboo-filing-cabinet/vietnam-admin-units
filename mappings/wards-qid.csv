@@ -4483,25 +4483,25 @@ w-20137-2025-07-01,20137,Xã Chân Mây - Lăng Cô,Xã,46,2025-07-01,,,,needs-l
 w-20140-2025-07-01,20140,Xã Lộc An,Xã,46,2025-07-01,,Q10788746,existing,matched,Q2914159|Q2948935|Q10788743|Q10788745|Q10788746|Q10788747,qlever-label+current-province+batched-wbgetentities
 w-20161-2025-07-01,20161,Xã Khe Tre,Xã,46,2025-07-01,,Q10779307,existing,matched,Q10779307,qlever-label+current-province+batched-wbgetentities
 w-20179-2025-07-01,20179,Xã Nam Đông,Xã,46,2025-07-01,,Q10826084,existing,matched,Q10797039|Q10797211|Q10797212|Q10797215|Q10826084,qlever-label+current-province+batched-wbgetentities
-w-20182-2025-07-01,20182,Xã Long Quảng,Xã,46,2025-07-01,,,,needs-review,Q138638755,"1 label candidate(s), but no bulk P131 resolves to the current province"
-w-20194-2025-07-01,20194,Phường Hải Vân,Phường,48,2025-07-01,,,,needs-review,Q10771720|Q10771721,"2 label candidate(s), but no bulk P131 resolves to the current province"
+w-20182-2025-07-01,20182,Xã Long Quảng,Xã,46,2025-07-01,,Q138638755,existing,manual,Q138638755,review 2026-09-02.32: current Long Quảng page selects Q138638755
+w-20194-2025-07-01,20194,Phường Hải Vân,Phường,48,2025-07-01,,Q141179020,existing,manual,Q1477078|Q10771720|Q10771721|Q141179020,review 2026-09-02.32: current Hải Vân phường page selects Q141179020
 w-20195-2005-03-17,20195,Phường Hòa Hiệp Nam,Phường,490,2005-03-17,2025-06-30,,,deferred-historical,,
-w-20197-2025-07-01,20197,Phường Liên Chiểu,Phường,48,2025-07-01,,,,needs-review,Q138638738,"1 label candidate(s), but no bulk P131 resolves to the current province"
+w-20197-2025-07-01,20197,Phường Liên Chiểu,Phường,48,2025-07-01,,Q138638738,existing,manual,Q602669|Q138638738,review 2026-09-02.32: current Liên Chiểu phường page selects Q138638738
 w-20198-2005-03-17,20198,Phường Hòa Khánh Nam,Phường,490,2005-03-17,2025-06-30,,,deferred-historical,,
-w-20200-2025-07-01,20200,Phường Hòa Khánh,Phường,48,2025-07-01,,,,needs-review,Q10770972|Q135041661,"2 label candidate(s), but no bulk P131 resolves to the current province"
+w-20200-2025-07-01,20200,Phường Hòa Khánh,Phường,48,2025-07-01,,Q141179022,existing,manual,Q10770971|Q10770972|Q135041661|Q141179022,review 2026-09-02.32: current Hòa Khánh phường page selects Q141179022
 w-20207-2005-08-20,20207,Phường Thanh Khê Đông,Phường,491,2005-08-20,2025-06-30,,,deferred-historical,,
 w-20209-2025-07-01,20209,Phường Thanh Khê,Phường,48,2025-07-01,,Q10834921,existing,matched,Q10824779|Q10824780|Q10834921,qlever-label+current-province+batched-wbgetentities
 w-20218-2025-01-01,20218,Phường Thạc Gián,Phường,491,2025-01-01,2025-06-30,,,deferred-historical,,
 w-20225-2005-08-20,20225,Phường Hòa Khê,Phường,491,2005-08-20,2024-12-31,,,deferred-historical,,
-w-20242-2025-07-01,20242,Phường Hải Châu,Phường,48,2025-07-01,,,,needs-review,Q10771618|Q10771620|Q138637794|Q138709517,"4 label candidate(s), but no bulk P131 resolves to the current province"
+w-20242-2025-07-01,20242,Phường Hải Châu,Phường,48,2025-07-01,,Q138709517,existing,manual,Q413207|Q1022913|Q1068273|Q1197727|Q1331520|Q10771618|Q10771620|Q11150711|Q138637794|Q138709517,review 2026-09-02.32: current Hải Châu phường page selects Q138709517
 w-20246-2005-03-17,20246,Phường Hòa Thuận Đông,Phường,492,2005-03-17,2024-12-31,,,deferred-historical,,
-w-20257-2025-07-01,20257,Phường Hòa Cường,Phường,48,2025-07-01,,,,needs-review,Q10770940,"1 label candidate(s), but no bulk P131 resolves to the current province"
+w-20257-2025-07-01,20257,Phường Hòa Cường,Phường,48,2025-07-01,,Q136353359,existing,manual,Q10770940|Q136353359,review 2026-09-02.32: current Hòa Cường page selects Q136353359
 w-20258-2005-03-17,20258,Phường Hòa Cường Nam,Phường,492,2005-03-17,2025-06-30,,,deferred-historical,,
-w-20260-2025-07-01,20260,Phường Cẩm Lệ,Phường,48,2025-07-01,,,,needs-review,Q138638744,"1 label candidate(s), but no bulk P131 resolves to the current province"
+w-20260-2025-07-01,20260,Phường Cẩm Lệ,Phường,48,2025-07-01,,Q138638744,existing,manual,Q5024842|Q138638744,review 2026-09-02.32: current Cẩm Lệ phường page selects Q138638744
 w-20263-2025-07-01,20263,Phường Sơn Trà,Phường,48,2025-07-01,,Q138638836,existing,matched,Q10828522|Q18460649|Q138638836,qlever-label+current-province+batched-wbgetentities
-w-20275-2025-07-01,20275,Phường An Hải,Phường,48,2025-07-01,,,,needs-review,Q2307847|Q10733186|Q10841513,"3 label candidate(s), but no bulk P131 resolves to the current province"
+w-20275-2025-07-01,20275,Phường An Hải,Phường,48,2025-07-01,,Q10733188,existing,manual,Q2307847|Q10733183|Q10733186|Q10733188|Q10841513,"review 2026-09-02.32: current An Hải, Đà Nẵng page selects Q10733188"
 w-20285-2005-03-17,20285,Phường Khuê Mỹ,Phường,494,2005-03-17,2025-06-30,,,deferred-historical,,
-w-20285-2025-07-01,20285,Phường Ngũ Hành Sơn,Phường,48,2025-07-01,,,,needs-review,Q7022659,"candidate name, tier, active-date, or current-province evidence disagrees"
+w-20285-2025-07-01,20285,Phường Ngũ Hành Sơn,Phường,48,2025-07-01,,Q7022659,existing,manual,Q3038528|Q6755207|Q7022659,review 2026-09-02.32: current Ngũ Hành Sơn phường page reuses former-district item Q7022659
 w-2030101-base,01273,Phường Hợp Giang,Phường,040,,2025-06-30,,,deferred-historical,,
 w-2030103-base,01276,Phường Tân Giang,Phường,040,,2025-06-30,,,deferred-historical,,
 w-2030105-base,01267,Phường Sông Hiến,Phường,040,,2025-06-30,,,deferred-historical,,
@@ -4699,7 +4699,7 @@ w-2032129-base,01828,Xã Lê Lợi,Xã,053,,2025-06-30,,,deferred-historical,,
 w-2032131-base,01831,Xã Đức Xuân,Xã,053,,2025-06-30,,,deferred-historical,,
 w-20332-2025-07-01,20332,Xã Hòa Tiến,Xã,48,2025-07-01,,Q10771104,existing,matched,Q3943178|Q10771104|Q10771105|Q10771106|Q10771919|Q16480499,qlever-label+current-province+batched-wbgetentities
 w-20333-2025-07-01,20333,Đặc khu Hoàng Sa,Đặc khu,48,2025-07-01,,Q5874429,existing,matched,Q5874429,qlever-label+current-province+batched-wbgetentities
-w-20335-2025-07-01,20335,Phường Bàn Thạch,Phường,48,2025-07-01,,,,needs-review,Q32258222|Q138638867,"2 label candidate(s), but no bulk P131 resolves to the current province"
+w-20335-2025-07-01,20335,Phường Bàn Thạch,Phường,48,2025-07-01,,Q138638867,existing,manual,Q1306217|Q1361953|Q32258222|Q138638867,review 2026-09-02.32: current Bàn Thạch page selects Q138638867
 w-20341-2025-07-01,20341,Phường Tam Kỳ,Phường,48,2025-07-01,,Q1949449,existing,matched,Q1949449|Q10823799,qlever-label+current-province+batched-wbgetentities
 w-20350-2025-07-01,20350,Phường Hương Trà,Phường,48,2025-07-01,,,,needs-review,Q18458534|Q138685321,"2 label candidate(s), but no bulk P131 resolves to the current province"
 w-20356-2004-06-30,20356,Phường An Phú,Phường,502,2004-06-30,2025-06-30,,,deferred-historical,,

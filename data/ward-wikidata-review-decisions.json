@@ -4146,6 +4146,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.32",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q138638755"],
+          "local_id": "w-20182-2025-07-01",
+          "mapping_note": "current Long Quảng page selects Q138638755",
+          "outcome": "assign",
+          "rationale": "Q138638755 owns the current Long Quảng page and has commune class. Its parent is absent, but the page explicitly identifies the 2025 Huế commune.",
+          "wikidata_qid": "Q138638755"
+        },
+        {
+          "candidate_qids_checked": ["Q1477078", "Q10771720", "Q10771721", "Q141179020"],
+          "local_id": "w-20194-2025-07-01",
+          "mapping_note": "current Hải Vân phường page selects Q141179020",
+          "outcome": "assign",
+          "rationale": "Q141179020 owns the current `Hải Vân (phường)` page, and its label and description identify the Đà Nẵng ward. Its structured class and parent are absent; the other candidates are namesakes or former units.",
+          "wikidata_qid": "Q141179020"
+        },
+        {
+          "candidate_qids_checked": ["Q602669", "Q138638738"],
+          "local_id": "w-20197-2025-07-01",
+          "mapping_note": "current Liên Chiểu phường page selects Q138638738",
+          "outcome": "assign",
+          "rationale": "Q138638738 owns the current `Liên Chiểu (phường)` page, and its label and description identify the Đà Nẵng ward. Its parent is absent; Q602669 is the former district.",
+          "wikidata_qid": "Q138638738"
+        },
+        {
+          "candidate_qids_checked": ["Q10770971", "Q10770972", "Q135041661", "Q141179022"],
+          "local_id": "w-20200-2025-07-01",
+          "mapping_note": "current Hòa Khánh phường page selects Q141179022",
+          "outcome": "assign",
+          "rationale": "Q141179022 owns the current `Hòa Khánh (phường)` page, and its label and description identify the Đà Nẵng ward. Its structured class and parent are absent; the other candidates are former units or a disambiguation item.",
+          "wikidata_qid": "Q141179022"
+        },
+        {
+          "candidate_qids_checked": ["Q413207", "Q1022913", "Q1068273", "Q1197727", "Q1331520", "Q10771618", "Q10771620", "Q11150711", "Q138637794", "Q138709517"],
+          "local_id": "w-20242-2025-07-01",
+          "mapping_note": "current Hải Châu phường page selects Q138709517",
+          "outcome": "assign",
+          "rationale": "Q138709517 owns the current `Hải Châu (phường)` page, and its label, ward class, and description identify the central Đà Nẵng ward. The other candidates are namesakes, former units, or unrelated entities.",
+          "wikidata_qid": "Q138709517"
+        },
+        {
+          "candidate_qids_checked": ["Q136353359"],
+          "local_id": "w-20257-2025-07-01",
+          "mapping_note": "current Hòa Cường page selects Q136353359",
+          "outcome": "assign",
+          "rationale": "Q136353359 owns the current Hòa Cường page, and its label and description identify the Đà Nẵng ward. Its structured class and parent are absent.",
+          "wikidata_qid": "Q136353359"
+        },
+        {
+          "candidate_qids_checked": ["Q5024842", "Q138638744"],
+          "local_id": "w-20260-2025-07-01",
+          "mapping_note": "current Cẩm Lệ phường page selects Q138638744",
+          "outcome": "assign",
+          "rationale": "Q138638744 owns the current `Cẩm Lệ (phường)` page and has ward class. Its parent is absent; Q5024842 is the former district.",
+          "wikidata_qid": "Q138638744"
+        },
+        {
+          "candidate_qids_checked": ["Q2307847", "Q10733183", "Q10733186", "Q10733188", "Q10841513"],
+          "local_id": "w-20275-2025-07-01",
+          "mapping_note": "current An Hải, Đà Nẵng page selects Q10733188",
+          "outcome": "assign",
+          "rationale": "Q10733188 owns the current `An Hải, Đà Nẵng` page and has ward class. Its parent remains stale; the other candidates are namesakes, former units, or a disambiguation item.",
+          "wikidata_qid": "Q10733188"
+        },
+        {
+          "candidate_qids_checked": ["Q3038528", "Q6755207", "Q7022659"],
+          "local_id": "w-20285-2025-07-01",
+          "mapping_note": "current Ngũ Hành Sơn phường page reuses former-district item Q7022659",
+          "outcome": "assign",
+          "rationale": "Q7022659 owns the current `Ngũ Hành Sơn (phường)` page and now includes ward class. Its former-district class, parent, and end date remain alongside the current identity; the other candidates are the mountain complex and an unrelated organization.",
+          "wikidata_qid": "Q7022659"
+        },
+        {
+          "candidate_qids_checked": ["Q1306217", "Q1361953", "Q32258222", "Q138638867"],
+          "local_id": "w-20335-2025-07-01",
+          "mapping_note": "current Bàn Thạch page selects Q138638867",
+          "outcome": "assign",
+          "rationale": "Q138638867 owns the current Bàn Thạch page and has ward class. Its parent is absent; the other candidates are foreign namesakes or a former commune.",
+          "wikidata_qid": "Q138638867"
+        }
+      ],
+      "reviewed_at": "2026-09-02T21:42:00Z",
+      "selection": {
+        "input_status": "needs-review",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 414
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T21:42:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T21:42:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
