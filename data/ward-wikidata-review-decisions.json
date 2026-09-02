@@ -3390,6 +3390,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.25",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q10826430", "Q10826432", "Q10826435", "Q10826436", "Q10826437", "Q10826438", "Q10826439", "Q135159322"],
+          "local_id": "w-16309-2025-07-01",
+          "mapping_note": "current Thắng Lợi page selects Q135159322",
+          "outcome": "assign",
+          "rationale": "Q135159322 owns the current Thắng Lợi page and has commune class. The other candidates are namesakes elsewhere or a disambiguation item.",
+          "wikidata_qid": "Q135159322"
+        },
+        {
+          "candidate_qids_checked": ["Q135160865"],
+          "local_id": "w-16348-2025-07-01",
+          "mapping_note": "current Trường Văn page selects Q135160865",
+          "outcome": "assign",
+          "rationale": "Q135160865 owns the current Trường Văn page and has commune class. It is the sole candidate and the page identifies the Thanh Hóa unit.",
+          "wikidata_qid": "Q135160865"
+        },
+        {
+          "candidate_qids_checked": ["Q135140255"],
+          "local_id": "w-16438-2025-07-01",
+          "mapping_note": "current Lưu Vệ page selects Q135140255",
+          "outcome": "assign",
+          "rationale": "Q135140255 owns the current Lưu Vệ page and has commune class. It is the sole candidate and the page identifies the Thanh Hóa unit.",
+          "wikidata_qid": "Q135140255"
+        },
+        {
+          "candidate_qids_checked": ["Q7808219", "Q10798653", "Q32287470", "Q135108147"],
+          "local_id": "w-16654-2025-07-01",
+          "mapping_note": "current Nghi Sơn ward page selects Q135108147",
+          "outcome": "assign",
+          "rationale": "Q135108147 owns the current `Nghi Sơn (phường)` page and has ward class. Q7808219 is the former district-level town and the other candidates are disambiguation or unrelated.",
+          "wikidata_qid": "Q135108147"
+        },
+        {
+          "candidate_qids_checked": ["Q10824945", "Q10825601"],
+          "local_id": "w-16681-2025-07-01",
+          "mapping_note": "current Thành Vinh ward page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Thành Vinh (phường)` page explicitly identifies the 2025 Nghệ An ward but has no Wikibase item. The candidates are spelling-different or wrong-place namesakes.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q2442529", "Q10770520", "Q10832661", "Q10833638", "Q10833640", "Q10833641"],
+          "local_id": "w-16702-2025-07-01",
+          "mapping_note": "current Vinh Phú page selects predecessor item Q10770520",
+          "outcome": "assign",
+          "rationale": "Q10770520 owns the current Vinh Phú page and represents predecessor Hà Huy Tập within the successor composition. Its label and parent remain stale; the other candidates are namesakes or disambiguation.",
+          "wikidata_qid": "Q10770520"
+        },
+        {
+          "candidate_qids_checked": ["Q1934001", "Q7932533", "Q10771358", "Q10833606", "Q10833608", "Q10833609", "Q10833610"],
+          "local_id": "w-16708-2025-07-01",
+          "mapping_note": "current Vinh Lộc ward page selects predecessor item Q10771358",
+          "outcome": "assign",
+          "rationale": "Q10771358 owns the current `Vinh Lộc (phường)` page and represents predecessor Hưng Lộc within the successor composition. Its label, class, and parent remain stale; the other candidates are namesakes elsewhere.",
+          "wikidata_qid": "Q10771358"
+        },
+        {
+          "candidate_qids_checked": ["Q2158139", "Q7269709"],
+          "local_id": "w-16738-2025-07-01",
+          "mapping_note": "current Quế Phong xã page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Quế Phong (xã)` page explicitly identifies the 2025 Nghệ An commune but has no Wikibase item. Q7269709 is the former district and Q2158139 is a disambiguation item.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q417144", "Q1332166", "Q1340831", "Q1375378", "Q5367768", "Q5370462", "Q8011452", "Q8011562", "Q8011591", "Q8376678", "Q10825716", "Q10825718", "Q10825720", "Q10825721", "Q10825722", "Q10825724", "Q10934252", "Q10934253", "Q16480660", "Q16481431", "Q136434782"],
+          "local_id": "w-16939-2025-07-01",
+          "mapping_note": "current Nghệ An ward page selects Q10825724 despite stale P131",
+          "outcome": "assign",
+          "rationale": "Q10825724 owns the current `Thái Hòa (phường)` page and has ward class. Its parent remains the former district-level town; the other candidates are namesakes elsewhere.",
+          "wikidata_qid": "Q10825724"
+        },
+        {
+          "candidate_qids_checked": ["Q10840715"],
+          "local_id": "w-17017-2025-07-01",
+          "mapping_note": "current Đông Hiếu page selects Q10840715 despite missing P131",
+          "outcome": "assign",
+          "rationale": "Q10840715 owns the current Đông Hiếu page and has commune class. It is the sole candidate; only its parent statement is missing.",
+          "wikidata_qid": "Q10840715"
+        }
+      ],
+      "reviewed_at": "2026-09-02T20:37:00Z",
+      "selection": {
+        "input_status": "needs-review",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 459
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T20:37:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T20:37:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
