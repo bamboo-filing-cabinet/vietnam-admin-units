@@ -451,6 +451,278 @@
           "role": "saved broad candidate and Action API evidence"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.02",
+      "decisions": [
+        {
+          "candidate_qids_checked": [
+            "Q10783690",
+            "Q136950397"
+          ],
+          "evidence": {
+            "predecessor_names": [
+              "Hưng Trí",
+              "Kỳ Châu",
+              "Kỳ Lợi",
+              "Kỳ Trinh"
+            ],
+            "viwiki": {
+              "extract": "Sông Trí là một phường thuộc tỉnh Hà Tĩnh, Việt Nam.",
+              "page_id": 19935174,
+              "title": "Sông Trí (phường)",
+              "wikibase_item": "Q136950397"
+            }
+          },
+          "local_id": "w-18754-2025-07-01",
+          "mapping_note": "current Sông Trí page selects Q136950397 over former Hưng Trí item",
+          "outcome": "assign",
+          "rationale": "The current phường page is attached to Q136950397. Q10783690 remains the Hưng Trí item and only matches through historical aliases that also caused the false Kỳ Anh collision.",
+          "wikidata_qid": "Q136950397"
+        },
+        {
+          "candidate_qids_checked": [
+            "Q10783690",
+            "Q20025826"
+          ],
+          "evidence": {
+            "predecessor_names": [
+              "Kỳ Tiến",
+              "Kỳ Giang",
+              "Kỳ Phú",
+              "Kỳ Đồng"
+            ],
+            "viwiki": {
+              "extract": "Kỳ Anh là một xã thuộc tỉnh Hà Tĩnh, Việt Nam.",
+              "page_id": 19965417,
+              "title": "Kỳ Anh (xã)",
+              "wikibase_item": null
+            }
+          },
+          "local_id": "w-18775-2025-07-01",
+          "mapping_note": "current Kỳ Anh xã page has no Wikibase item and candidates are wrong-tier predecessors",
+          "outcome": "retain-unresolved",
+          "rationale": "The current xã page has no Wikibase item. Q10783690 is Hưng Trí and belongs in the Sông Trí lineage; Q20025826 is the abolished district-level town and ended on 2025-07-01.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": [
+            "Q10751836",
+            "Q10834874"
+          ],
+          "evidence": {
+            "predecessor_names": [
+              "Cát Nhơn",
+              "Cát Tường"
+            ],
+            "viwiki": {
+              "extract": "Xuân An là một xã thuộc tỉnh Gia Lai, Việt Nam.",
+              "page_id": 1243064,
+              "title": "Xuân An",
+              "wikibase_item": "Q10751836"
+            }
+          },
+          "local_id": "w-21892-2025-07-01",
+          "mapping_note": "current Gia Lai page and Bình Định-side coordinates select Q10751836",
+          "outcome": "assign",
+          "rationale": "Q10751836 is attached to the current page and its coordinates place it in the Cát Nhơn–Cát Tường predecessor area. Q10834874 is a different Gia Lai namesake.",
+          "wikidata_qid": "Q10751836"
+        },
+        {
+          "candidate_qids_checked": [
+            "Q10801371",
+            "Q137184481"
+          ],
+          "evidence": {
+            "predecessor_names": [
+              "Tân Sơn",
+              "Quảng Sơn"
+            ],
+            "viwiki": {
+              "extract": "Ninh Sơn là một xã thuộc tỉnh Khánh Hòa, Việt Nam.",
+              "page_id": 19933429,
+              "title": "Ninh Sơn (xã)",
+              "wikibase_item": "Q137184481"
+            }
+          },
+          "local_id": "w-22810-2025-07-01",
+          "mapping_note": "current Ninh Sơn page selects Q137184481",
+          "outcome": "assign",
+          "rationale": "Q137184481 is attached to the current Khánh Hòa page and is located in the former Ninh Sơn district. Q10801371 is a different namesake farther north in the province.",
+          "wikidata_qid": "Q137184481"
+        },
+        {
+          "candidate_qids_checked": [
+            "Q10801364",
+            "Q137171565"
+          ],
+          "evidence": {
+            "predecessor_names": [
+              "Phước Dân",
+              "Phước Thuận",
+              "Phước Hải"
+            ],
+            "viwiki": {
+              "extract": "Ninh Phước là một xã thuộc tỉnh Khánh Hòa, Việt Nam.",
+              "page_id": 19933427,
+              "title": "Ninh Phước (xã)",
+              "wikibase_item": "Q137171565"
+            }
+          },
+          "local_id": "w-22870-2025-07-01",
+          "mapping_note": "current Ninh Phước page selects Q137171565",
+          "outcome": "assign",
+          "rationale": "Q137171565 is attached to the current page and its coordinates agree with the former Ninh Phước district predecessors. Q10801364 is a different Khánh Hòa namesake.",
+          "wikidata_qid": "Q137171565"
+        },
+        {
+          "candidate_qids_checked": [
+            "Q10830798",
+            "Q10830827",
+            "Q10830832"
+          ],
+          "evidence": {
+            "predecessor_names": [
+              "Thuận Nam",
+              "Thuận Quí",
+              "Tân Thuận",
+              "Tân Thành"
+            ],
+            "viwiki": {
+              "extract": "Tân Thành là một xã thuộc tỉnh Lâm Đồng, Việt Nam.",
+              "page_id": 1252777,
+              "title": "Tân Thành, Lâm Đồng",
+              "wikibase_item": "Q10830827"
+            }
+          },
+          "local_id": "w-23143-2025-07-01",
+          "mapping_note": "current page and Hàm Thuận Nam coordinates select Q10830827",
+          "outcome": "assign",
+          "rationale": "Q10830827 is attached to the current page and lies in the Hàm Thuận Nam predecessor area. The other current-province candidates are distinct Lâm Đồng namesakes.",
+          "wikidata_qid": "Q10830827"
+        },
+        {
+          "candidate_qids_checked": [
+            "Q135447267",
+            "Q140464557"
+          ],
+          "evidence": {
+            "predecessor_names": [
+              "Đắk Ang",
+              "Đắk Dục",
+              "Đắk Nông"
+            ],
+            "viwiki": {
+              "extract": "Dục Nông là xã thuộc tỉnh Quảng Ngãi, Việt Nam.",
+              "page_id": 19965273,
+              "title": "Dục Nông",
+              "wikibase_item": "Q140464557"
+            }
+          },
+          "local_id": "w-23383-2025-07-01",
+          "mapping_note": "live current page selects Q140464557 from duplicate current items",
+          "outcome": "assign",
+          "rationale": "The extant current page is attached to Q140464557 and its coordinates agree with the former Ngọc Hồi predecessor area. Q135447267 has no page or coordinates.",
+          "wikidata_qid": "Q140464557"
+        },
+        {
+          "candidate_qids_checked": [
+            "Q134971921",
+            "Q135070804"
+          ],
+          "evidence": {
+            "predecessor_names": [
+              "Phù Đổng",
+              "Hội Thương",
+              "Hoa Lư",
+              "Tây Sơn",
+              "Trà Đa"
+            ],
+            "viwiki": {
+              "extract": "Pleiku là một phường thuộc tỉnh Gia Lai, Việt Nam. Tên phường kế thừa từ thành phố Pleiku trước đây.",
+              "page_id": 19933623,
+              "title": "Pleiku (phường)",
+              "wikibase_item": "Q134971921"
+            }
+          },
+          "local_id": "w-23575-2025-07-01",
+          "mapping_note": "current ward page selects Q134971921; competing Pleiku title redirects to disambiguation",
+          "outcome": "assign",
+          "rationale": "Q134971921 is attached to the explicit current phường page. The `Pleiku` title attached to Q135070804 now redirects to a disambiguation page and is not the canonical current ward article.",
+          "wikidata_qid": "Q134971921"
+        },
+        {
+          "candidate_qids_checked": [
+            "Q10772492",
+            "Q10772499",
+            "Q10772500"
+          ],
+          "evidence": {
+            "predecessor_names": [
+              "A Dơk",
+              "Ia Pết",
+              "Ia Băng"
+            ],
+            "viwiki": {
+              "extract": "Ia Băng là một xã thuộc tỉnh Gia Lai, Việt Nam.",
+              "page_id": 1249695,
+              "title": "Ia Băng",
+              "wikibase_item": "Q10772500"
+            }
+          },
+          "local_id": "w-23710-2025-07-01",
+          "mapping_note": "current page and Đak Đoa-side coordinates select Q10772500",
+          "outcome": "assign",
+          "rationale": "Q10772500 is attached to the current page and lies in the A Dơk–Ia Pết–Ia Băng predecessor area. Q10772492 and Q10772499 are distinct western Gia Lai namesakes.",
+          "wikidata_qid": "Q10772500"
+        },
+        {
+          "candidate_qids_checked": [
+            "Q10772581",
+            "Q10772582"
+          ],
+          "evidence": {
+            "predecessor_names": [
+              "Ia RTô",
+              "Ia Sao"
+            ],
+            "viwiki": {
+              "extract": "Ia Sao là một xã thuộc tỉnh Gia Lai, Việt Nam.",
+              "page_id": 1249772,
+              "title": "Ia Sao",
+              "wikibase_item": "Q10772581"
+            }
+          },
+          "local_id": "w-24073-2025-07-01",
+          "mapping_note": "current page and Ayun Pa-side coordinates select Q10772581",
+          "outcome": "assign",
+          "rationale": "Q10772581 is attached to the current page and lies in the Ia RTô–Ia Sao predecessor area. Q10772582 is the distinct Ia Grai namesake.",
+          "wikidata_qid": "Q10772581"
+        }
+      ],
+      "reviewed_at": "2026-09-02T17:49:26Z",
+      "selection": {
+        "input_status": "ambiguous",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 641
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T17:49:26Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T17:49:26Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
