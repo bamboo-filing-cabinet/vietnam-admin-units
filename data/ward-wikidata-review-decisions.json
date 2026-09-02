@@ -3066,6 +3066,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.22",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q36014", "Q117066", "Q277067", "Q1212526", "Q1331632", "Q1363579", "Q1918687", "Q2218547", "Q2755397", "Q4914341", "Q10742532", "Q10742533", "Q10742535", "Q10742537", "Q10742540", "Q11042631", "Q14148573", "Q140308142"],
+          "local_id": "w-13558-2025-07-01",
+          "mapping_note": "current Bình Sơn, Ninh Bình page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Bình Sơn, Ninh Bình` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are the former district, namesakes elsewhere, people, or unrelated entities.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q6707009", "Q10748331", "Q10788098", "Q45554869"],
+          "local_id": "w-13573-2025-07-01",
+          "mapping_note": "current Lý Nhân xã page selects predecessor item Q10748331",
+          "outcome": "assign",
+          "rationale": "Q10748331 owns the current `Lý Nhân (xã)` page and represents predecessor Chính Lý within the successor composition. Its label and parent remain stale; Q6707009 is the former district.",
+          "wikidata_qid": "Q10748331"
+        },
+        {
+          "candidate_qids_checked": ["Q10797093", "Q10827281", "Q32215924"],
+          "local_id": "w-13627-2025-07-01",
+          "mapping_note": "current Nam Lý page selects predecessor item Q10827281",
+          "outcome": "assign",
+          "rationale": "Q10827281 owns the current Nam Lý page and represents predecessor Tiến Thắng within the successor composition. Its label and parent remain stale; the other candidates do not own the current page.",
+          "wikidata_qid": "Q10827281"
+        },
+        {
+          "candidate_qids_checked": ["Q33682", "Q36907", "Q2094904", "Q138638832"],
+          "local_id": "w-13669-2025-07-01",
+          "mapping_note": "current Nam Định ward page selects Q138638832",
+          "outcome": "assign",
+          "rationale": "Q138638832 owns the current `Nam Định (phường)` page and has commune class. The other candidates are the former city, former province, or disambiguation item.",
+          "wikidata_qid": "Q138638832"
+        },
+        {
+          "candidate_qids_checked": ["Q10830665", "Q10830666", "Q10830667", "Q10830669", "Q10830672", "Q10830673", "Q111260691"],
+          "local_id": "w-13807-2025-07-01",
+          "mapping_note": "current Tân Minh, Ninh Bình page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Tân Minh, Ninh Bình` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are namesakes elsewhere or a disambiguation item.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q2069188", "Q10834138", "Q10834139", "Q10834140", "Q10834141"],
+          "local_id": "w-13864-2025-07-01",
+          "mapping_note": "current Vạn Thắng, Ninh Bình page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Vạn Thắng, Ninh Bình` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are namesakes or a disambiguation item.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q10840865", "Q10842020", "Q10842021", "Q10842022", "Q10842023", "Q10842025", "Q117080841"],
+          "local_id": "w-13900-2025-07-01",
+          "mapping_note": "current Đồng Thịnh page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current Đồng Thịnh page explicitly identifies the 2025 Ninh Bình commune but has no Wikibase item. The candidates are a spelling-different name, namesakes, or a disambiguation item.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q10772156", "Q10772157", "Q10772159", "Q10772160", "Q10772161", "Q10772163", "Q10772165", "Q10772166"],
+          "local_id": "w-13927-2025-07-01",
+          "mapping_note": "current Hồng Phong, Ninh Bình page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Hồng Phong, Ninh Bình` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are namesakes elsewhere or a disambiguation item.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q6961080", "Q10797039", "Q10797210", "Q10797211", "Q10797212", "Q10797215", "Q10826084", "Q32215272", "Q136679307"],
+          "local_id": "w-14014-2025-07-01",
+          "mapping_note": "current Nam Đồng xã page selects Q136679307",
+          "outcome": "assign",
+          "rationale": "Q136679307 owns the current `Nam Đồng (xã)` page, which explicitly identifies the 2025 Ninh Bình commune. The other candidates are namesakes or spelling-different places.",
+          "wikidata_qid": "Q136679307"
+        },
+        {
+          "candidate_qids_checked": ["Q8011329", "Q10809984", "Q10809985", "Q10809987", "Q10809988", "Q10809990", "Q10810371", "Q10810373", "Q10810374", "Q10810375", "Q10890690", "Q16480111"],
+          "local_id": "w-14062-2025-07-01",
+          "mapping_note": "current Quang Hưng, Ninh Bình page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Quang Hưng, Ninh Bình` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are namesakes elsewhere, people, or a disambiguation item.",
+          "wikidata_qid": ""
+        }
+      ],
+      "reviewed_at": "2026-09-02T20:19:00Z",
+      "selection": {
+        "input_status": "needs-review",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 480
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T20:19:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T20:19:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
