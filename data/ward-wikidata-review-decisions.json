@@ -6357,6 +6357,28 @@
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "query pageprops and extracts", "retrieved_at": "2026-09-02T22:44:00Z"},
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"}
       ]
+    },
+    {
+      "batch_id": "2026-09-02.65",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10798854"], "local_id": "w-24617-2025-07-01", "mapping_note": "current Đông Gia Nghĩa page selects predecessor item Q10798854", "outcome": "assign", "rationale": "Q10798854 owns the current Đông Gia Nghĩa page and represents predecessor Nghĩa Trung. Its label, description, class, and parents remain stale.", "wikidata_qid": "Q10798854"},
+        {"candidate_qids_checked": [], "local_id": "w-24637-2025-07-01", "mapping_note": "current Tà Đùng page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Tà Đùng page identifies the 2025 Lâm Đồng commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": ["Q5191802", "Q137214413"], "local_id": "w-24640-2025-07-01", "mapping_note": "current Cư Jút xã page selects Q137214413", "outcome": "assign", "rationale": "Q137214413 owns the current `Cư Jút (xã)` page and its labels and article identify the Lâm Đồng commune. Q5191802 is the former district; structured class, parent, and Vietnamese description are absent on the selected item.", "wikidata_qid": "Q137214413"},
+        {"candidate_qids_checked": ["Q1201296", "Q7857219", "Q137214380"], "local_id": "w-24739-2025-07-01", "mapping_note": "current Tuy Đức xã page selects Q137214380", "outcome": "assign", "rationale": "Q137214380 owns the current `Tuy Đức (xã)` page and its labels and article identify the Lâm Đồng commune. Q7857219 is the former district and Q1201296 is a Chinese county; structured class, parent, and Vietnamese description are absent on the selected item.", "wikidata_qid": "Q137214380"},
+        {"candidate_qids_checked": ["Q10767679"], "local_id": "w-29455-2025-07-01", "mapping_note": "current Hiệp Mỹ page selects predecessor item Q10767679", "outcome": "assign", "rationale": "Q10767679 owns the current Hiệp Mỹ page and represents predecessor Hiệp Mỹ Tây. Its label, class, and parent remain stale and its Vietnamese description is absent.", "wikidata_qid": "Q10767679"},
+        {"candidate_qids_checked": ["Q10771776"], "local_id": "w-29728-2025-07-01", "mapping_note": "current Cái Ngang page selects predecessor item Q10771776", "outcome": "assign", "rationale": "Q10771776 owns the current Cái Ngang page and represents predecessor Hậu Lộc. Its label, class, and parent remain stale although its description identifies a new Vĩnh Long commune.", "wikidata_qid": "Q10771776"},
+        {"candidate_qids_checked": ["Q2250421", "Q10772154", "Q136783317"], "local_id": "w-29955-2025-07-01", "mapping_note": "current Hồng Ngự phường page selects Q136783317", "outcome": "assign", "rationale": "Q136783317 owns the current `Hồng Ngự (phường)` page and its labels, description, and article identify the Đồng Tháp ward. Q10772154 is the former city and Q2250421 is a disambiguation item; structured class and parent are absent on the selected item.", "wikidata_qid": "Q136783317"},
+        {"candidate_qids_checked": ["Q7710664", "Q137208358"], "local_id": "w-30037-2025-07-01", "mapping_note": "current Tháp Mười xã page selects Q137208358", "outcome": "assign", "rationale": "Q137208358 owns the current `Tháp Mười (xã)` page, whose article identifies the Đồng Tháp commune. Q7710664 is the former district; the selected item's label and description incorrectly call it a ward, its class is the commune class, and its parent is absent.", "wikidata_qid": "Q137208358"},
+        {"candidate_qids_checked": ["Q2232482", "Q2564152"], "local_id": "w-30463-2025-07-01", "mapping_note": "current Châu Phú xã page selects predecessor item Q2564152", "outcome": "assign", "rationale": "Q2564152 owns the current `Châu Phú (xã)` page and represents predecessor Cái Dầu. Its description identifies an An Giang commune, while its label, town class, and parent remain stale; the article introduction inconsistently says ward despite the title and canonical unit type. Q2232482 is the former district.", "wikidata_qid": "Q2564152"},
+        {"candidate_qids_checked": ["Q10833562"], "local_id": "w-30970-2025-07-01", "mapping_note": "current Vĩnh Hòa Hưng page selects predecessor item Q10833562", "outcome": "assign", "rationale": "Q10833562 owns the current Vĩnh Hòa Hưng page and represents predecessor Vĩnh Hòa Hưng Nam. Its label, class, and parent remain stale although its description identifies an An Giang commune.", "wikidata_qid": "Q10833562"}
+      ],
+      "reviewed_at": "2026-09-02T22:53:00Z",
+      "selection": {"input_status": "needs-lookup", "limit": 10, "order": "local_id", "starting_unresolved": 177},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbgetentities", "retrieved_at": "2026-09-02T22:53:00Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "query pageprops and extracts", "retrieved_at": "2026-09-02T22:53:00Z"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"}
+      ]
     }
   ],
   "schema_version": 1,
