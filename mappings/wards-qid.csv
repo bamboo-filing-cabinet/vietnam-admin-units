@@ -3595,17 +3595,17 @@ w-12862-2025-07-01,12862,Xã Đông Thụy Anh,Xã,33,2025-07-01,,,,reviewed-unr
 w-12865-2025-07-01,12865,Xã Thụy Anh,Xã,33,2025-07-01,,,,reviewed-unresolved,Q16480941,review 2026-09-02.47: current Thụy Anh xã page has no Wikibase item
 w-12904-2025-07-01,12904,Xã Nam Thụy Anh,Xã,33,2025-07-01,,,,reviewed-unresolved,,review 2026-09-02.47: current Nam Thụy Anh page has no Wikibase item
 w-12916-2025-07-01,12916,Xã Bắc Thái Ninh,Xã,33,2025-07-01,,,,reviewed-unresolved,,review 2026-09-02.47: current Bắc Thái Ninh page has no Wikibase item
-w-12919-2025-07-01,12919,Xã Tây Thái Ninh,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-12919-2025-07-01,12919,Xã Tây Thái Ninh,Xã,33,2025-07-01,,,,reviewed-unresolved,,review 2026-09-02.48: current Tây Thái Ninh page has no Wikibase item
 w-12922-2025-07-01,12922,Xã Thái Ninh,Xã,33,2025-07-01,,,,reviewed-unresolved,Q1375194|Q5368050|Q8011337|Q8011599|Q10825746|Q10941222|Q16481432|Q20026168,review 2026-09-02.20: current Thái Ninh xã page has no Wikibase item
-w-12943-2025-07-01,12943,Xã Đông Thái Ninh,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-12961-2025-07-01,12961,Xã Nam Thái Ninh,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-12943-2025-07-01,12943,Xã Đông Thái Ninh,Xã,33,2025-07-01,,,,reviewed-unresolved,,review 2026-09-02.48: current Đông Thái Ninh page has no Wikibase item
+w-12961-2025-07-01,12961,Xã Nam Thái Ninh,Xã,33,2025-07-01,,,,reviewed-unresolved,,review 2026-09-02.48: current Nam Thái Ninh page has no Wikibase item
 w-12970-2025-07-01,12970,Xã Tiền Hải,Xã,33,2025-07-01,,Q10827320,existing,matched,Q10827193|Q10827320|Q32307642,qlever-label+current-province+batched-wbgetentities
-w-12988-2025-07-01,12988,Xã Đông Tiền Hải,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-13003-2025-07-01,13003,Xã Đồng Châu,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-12988-2025-07-01,12988,Xã Đông Tiền Hải,Xã,33,2025-07-01,,,,reviewed-unresolved,,review 2026-09-02.48: current Đông Tiền Hải page has no Wikibase item
+w-13003-2025-07-01,13003,Xã Đồng Châu,Xã,33,2025-07-01,,,,reviewed-unresolved,,review 2026-09-02.48: current Đồng Châu page has no Wikibase item
 w-13021-2025-07-01,13021,Xã Ái Quốc,Xã,33,2025-07-01,,Q130494264,existing,manual,Q10838686|Q10838687|Q10838689|Q130494264,review 2026-09-02.20: current Ái Quốc xã page selects Q130494264
-w-13039-2025-07-01,13039,Xã Tây Tiền Hải,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-13039-2025-07-01,13039,Xã Tây Tiền Hải,Xã,33,2025-07-01,,,,reviewed-unresolved,,review 2026-09-02.48: current Tây Tiền Hải page has no Wikibase item
 w-13057-2025-07-01,13057,Xã Nam Cường,Xã,33,2025-07-01,,Q10797032,existing,matched,Q6961066|Q10797030|Q10797031|Q10797032|Q10797034|Q10797037|Q32286356,qlever-label+current-province+batched-wbgetentities
-w-13063-2025-07-01,13063,Xã Nam Tiền Hải,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-13063-2025-07-01,13063,Xã Nam Tiền Hải,Xã,33,2025-07-01,,Q137218775,existing,manual,Q137218775,review 2026-09-02.48: current Nam Tiền Hải page selects Q137218775
 w-13066-2025-07-01,13066,Xã Hưng Phú,Xã,33,2025-07-01,,Q137218615,existing,manual,Q10771380|Q10771382|Q10771383|Q10771386|Q137218615,review 2026-09-02.20: current Hưng Phú xã page selects Q137218615
 w-13075-2025-07-01,13075,Xã Kiến Xương,Xã,33,2025-07-01,,Q10824855,existing,matched,Q10824855,qlever-label+current-province+batched-wbgetentities
 w-13093-2025-07-01,13093,Xã Trà Giang,Xã,33,2025-07-01,,Q10828514,existing,matched,Q2189257|Q10828513|Q10828514|Q10828515,qlever-label+current-province+batched-wbgetentities
@@ -3613,7 +3613,7 @@ w-13096-2025-07-01,13096,Xã Bình Nguyên,Xã,33,2025-07-01,,Q10742493,existing
 w-13120-2025-07-01,13120,Xã Lê Lợi,Xã,33,2025-07-01,,Q10787714,existing,matched,Q10787710|Q10787711|Q10787712|Q10787713|Q10787714|Q10787715|Q10787716|Q10787717|Q10787718|Q10787719|Q10787720|Q10787722|Q10787723|Q10787724|Q32281204,qlever-label+predecessor-district+batched-wbgetentities
 w-13132-2025-07-01,13132,Xã Quang Lịch,Xã,33,2025-07-01,,Q10810001,existing,matched,Q10810001,qlever-label+current-province+batched-wbgetentities
 w-13141-2025-07-01,13141,Xã Vũ Quý,Xã,33,2025-07-01,,Q10833881,existing,matched,Q10833881,qlever-label+current-province+batched-wbgetentities
-w-13159-2025-07-01,13159,Xã Hồng Vũ,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-13159-2025-07-01,13159,Xã Hồng Vũ,Xã,33,2025-07-01,,Q130494235,existing,manual,Q1131602|Q56649235|Q130494235,review 2026-09-02.48: current Hồng Vũ page selects Q130494235 despite stale description
 w-13183-2025-07-01,13183,Xã Bình Thanh,Xã,33,2025-07-01,,Q10742544,existing,matched,Q693054|Q2391027|Q2467034|Q10742543|Q10742544|Q10742558|Q10742559|Q10742560|Q10742561|Q10742563|Q10742564|Q10742565|Q10742567|Q10742568|Q10742571|Q10742573|Q10742575|Q10742577|Q10742579|Q24957393,qlever-label+current-province+batched-wbgetentities
 w-13186-2025-07-01,13186,Xã Bình Định,Xã,33,2025-07-01,,Q10742646,existing,matched,Q10742646|Q10742647|Q10742648|Q10742650,qlever-label+current-province+batched-wbgetentities
 w-13192-2025-07-01,13192,Xã Vũ Thư,Xã,33,2025-07-01,,Q16481477,existing,matched,Q16481477|Q134983172,qlever-label+predecessor-district+batched-wbgetentities
@@ -3626,9 +3626,9 @@ w-13279-2025-07-01,13279,Xã Vũ Tiên,Xã,33,2025-07-01,,Q16480877,existing,mat
 w-13285-2025-07-01,13285,Phường Phủ Lý,Phường,37,2025-07-01,,Q136688000,existing,manual,Q35659|Q1943389|Q10807211|Q136688000,review 2026-09-02.21: current Phủ Lý ward page selects Q136688000
 w-13291-2025-07-01,13291,Phường Phù Vân,Phường,37,2025-07-01,,Q10805818,existing,matched,Q10805818|Q10806164,qlever-label+current-province+batched-wbgetentities
 w-13318-2025-07-01,13318,Phường Châu Sơn,Phường,37,2025-07-01,,Q10748253,existing,matched,Q10748250|Q10748253|Q10748254|Q10788320|Q32263027,qlever-label+current-province+batched-wbgetentities
-w-13324-2025-07-01,13324,Phường Duy Tiên,Phường,37,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-13324-2025-07-01,13324,Phường Duy Tiên,Phường,37,2025-07-01,,,,reviewed-unresolved,Q5317666,review 2026-09-02.48: current Duy Tiên phường page has no Wikibase item
 w-13330-2025-07-01,13330,Phường Duy Tân,Phường,37,2025-07-01,,Q137258829,existing,manual,Q465277|Q2596686|Q10757161|Q10757162|Q11607105|Q104843054|Q137258829,review 2026-09-02.21: current Duy Tân ward page selects Q137258829
-w-13336-2025-07-01,13336,Phường Duy Hà,Phường,37,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-13336-2025-07-01,13336,Phường Duy Hà,Phường,37,2025-07-01,,Q136688011,existing,manual,Q136688011,review 2026-09-02.48: current Duy Hà page selects Q136688011
 w-13348-2025-07-01,13348,Phường Đồng Văn,Phường,37,2025-07-01,,Q10842065,existing,matched,Q342561|Q10840891|Q10842060|Q10842061|Q10842062|Q10842063|Q10842064|Q10842065,qlever-label+current-province+batched-wbgetentities
 w-13363-2025-07-01,13363,Phường Tiên Sơn,Phường,37,2025-07-01,,Q10748252,existing,matched,Q2089246|Q5033199|Q10748252|Q10827226|Q10827274,qlever-label+current-province+batched-wbgetentities
 w-13366-2025-07-01,13366,Phường Hà Nam,Phường,37,2025-07-01,,Q136688003,existing,manual,Q36413|Q43684|Q1130257|Q1343766|Q9574863|Q10824790|Q11141741|Q17028942|Q19855977|Q24841395|Q83645126|Q96380200|Q136688003,review 2026-09-02.21: current Hà Nam ward page selects Q136688003

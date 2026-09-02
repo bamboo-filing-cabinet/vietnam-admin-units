@@ -5826,6 +5826,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.48",
+      "decisions": [
+        {
+          "candidate_qids_checked": [],
+          "local_id": "w-12919-2025-07-01",
+          "mapping_note": "current Tây Thái Ninh page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current Tây Thái Ninh page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": [],
+          "local_id": "w-12943-2025-07-01",
+          "mapping_note": "current Đông Thái Ninh page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current Đông Thái Ninh page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": [],
+          "local_id": "w-12961-2025-07-01",
+          "mapping_note": "current Nam Thái Ninh page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current Nam Thái Ninh page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": [],
+          "local_id": "w-12988-2025-07-01",
+          "mapping_note": "current Đông Tiền Hải page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current Đông Tiền Hải page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": [],
+          "local_id": "w-13003-2025-07-01",
+          "mapping_note": "current Đồng Châu page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current Đồng Châu page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": [],
+          "local_id": "w-13039-2025-07-01",
+          "mapping_note": "current Tây Tiền Hải page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current Tây Tiền Hải page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q137218775"],
+          "local_id": "w-13063-2025-07-01",
+          "mapping_note": "current Nam Tiền Hải page selects Q137218775",
+          "outcome": "assign",
+          "rationale": "Q137218775 owns the current Nam Tiền Hải page, and its label and description identify the Hưng Yên commune. Its structured class and parent are absent.",
+          "wikidata_qid": "Q137218775"
+        },
+        {
+          "candidate_qids_checked": ["Q1131602", "Q56649235", "Q130494235"],
+          "local_id": "w-13159-2025-07-01",
+          "mapping_note": "current Hồng Vũ page selects Q130494235 despite stale description",
+          "outcome": "assign",
+          "rationale": "Q130494235 owns the current Hồng Vũ page, whose introduction identifies the 2025 Hưng Yên commune. Its description still identifies the former Kiến Xương commune and its structured class and parent are absent; the other candidates are unrelated.",
+          "wikidata_qid": "Q130494235"
+        },
+        {
+          "candidate_qids_checked": ["Q5317666"],
+          "local_id": "w-13324-2025-07-01",
+          "mapping_note": "current Duy Tiên phường page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Duy Tiên (phường)` page explicitly identifies the 2025 Ninh Bình ward but has no Wikibase item. Q5317666 is the former district-level town.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q136688011"],
+          "local_id": "w-13336-2025-07-01",
+          "mapping_note": "current Duy Hà page selects Q136688011",
+          "outcome": "assign",
+          "rationale": "Q136688011 owns the current Duy Hà page, and its label and description identify the Ninh Bình ward. Its structured class and parent are absent.",
+          "wikidata_qid": "Q136688011"
+        }
+      ],
+      "reviewed_at": "2026-09-03T01:16:00Z",
+      "selection": {
+        "input_status": "needs-lookup",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 300
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-03T01:16:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-03T01:16:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
