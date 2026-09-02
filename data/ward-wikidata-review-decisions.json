@@ -3822,6 +3822,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.29",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q10828337"],
+          "local_id": "w-17866-2025-07-01",
+          "mapping_note": "current Trung Lộc page selects Q10828337 despite stale P131",
+          "outcome": "assign",
+          "rationale": "Q10828337 owns the current Trung Lộc page and has commune class. Its parent remains stale, but the page explicitly identifies the 2025 Nghệ An commune.",
+          "wikidata_qid": "Q10828337"
+        },
+        {
+          "candidate_qids_checked": ["Q10841953", "Q10841954"],
+          "local_id": "w-17878-2025-07-01",
+          "mapping_note": "current Đông Lộc page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current Đông Lộc page explicitly identifies the 2025 Nghệ An commune but has no Wikibase item. The candidates are former namesakes not bound to the current page.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q2261098", "Q10832658", "Q10833564", "Q10833565", "Q10833566", "Q10833567"],
+          "local_id": "w-17920-2025-07-01",
+          "mapping_note": "current Vinh Hưng page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current Vinh Hưng page explicitly identifies the 2025 Nghệ An ward but has no Wikibase item. The candidates are namesakes or former wards not bound to the current page.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q1356641", "Q6860119", "Q10833110", "Q10833112", "Q10833348", "Q10833349", "Q30923313"],
+          "local_id": "w-17950-2025-07-01",
+          "mapping_note": "current Vạn An page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current Vạn An page explicitly identifies the 2025 Nghệ An commune but has no Wikibase item. The candidates are namesakes or unrelated entities.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q10831831", "Q10925256"],
+          "local_id": "w-18202-2025-07-01",
+          "mapping_note": "current Tứ Mỹ page selects Q10831831 despite stale P131",
+          "outcome": "assign",
+          "rationale": "Q10831831 owns the current Tứ Mỹ page and has commune class. Its parent remains stale, but the page explicitly identifies the 2025 Hà Tĩnh commune; Q10925256 is unrelated.",
+          "wikidata_qid": "Q10831831"
+        },
+        {
+          "candidate_qids_checked": ["Q58210", "Q6408805", "Q10779900", "Q10779901", "Q10779902", "Q10823346", "Q15925404", "Q18459092"],
+          "local_id": "w-18223-2025-07-01",
+          "mapping_note": "current Kim Hoa xã page selects predecessor item Q10823346",
+          "outcome": "assign",
+          "rationale": "Q10823346 owns the current `Kim Hoa (xã)` page and represents predecessor Sơn Mai within the successor composition. Its label and parent remain stale; the other candidates are namesakes or unrelated entities.",
+          "wikidata_qid": "Q10823346"
+        },
+        {
+          "candidate_qids_checked": ["Q10842389", "Q10842390", "Q110977572", "Q135417836"],
+          "local_id": "w-18244-2025-07-01",
+          "mapping_note": "current Đức Minh page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current Đức Minh page explicitly identifies the 2025 Hà Tĩnh commune but has no Wikibase item. The candidates are former namesakes or unrelated identities.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q10761328", "Q32267742"],
+          "local_id": "w-18466-2025-07-01",
+          "mapping_note": "current Gia Hanh page selects Q10761328",
+          "outcome": "assign",
+          "rationale": "Q10761328 owns the current Gia Hanh page and has commune class. Its parent is absent, but the page explicitly identifies the 2025 Hà Tĩnh commune; Q32267742 is not bound to it.",
+          "wikidata_qid": "Q10761328"
+        },
+        {
+          "candidate_qids_checked": ["Q2330879", "Q3354051", "Q10826213", "Q10840875", "Q10840876", "Q10840877", "Q10842026", "Q10842027", "Q10842028", "Q10842029", "Q10842030", "Q10842031", "Q10842032", "Q10842034", "Q10842035", "Q10842036", "Q135183801"],
+          "local_id": "w-18619-2025-07-01",
+          "mapping_note": "current Đồng Tiến, Hà Tĩnh page selects predecessor item Q10826213",
+          "outcome": "assign",
+          "rationale": "Q10826213 owns the current `Đồng Tiến, Hà Tĩnh` page and represents predecessor Thạch Trị within the successor composition. Its label and parent remain stale; the other candidates are namesakes or unrelated entities.",
+          "wikidata_qid": "Q10826213"
+        },
+        {
+          "candidate_qids_checked": ["Q3943148", "Q10752485", "Q10837996", "Q10838002", "Q10838003", "Q10838004", "Q10838005", "Q10838006", "Q10838008"],
+          "local_id": "w-18682-2025-07-01",
+          "mapping_note": "current Yên Hòa, Hà Tĩnh page selects predecessor item Q10752485",
+          "outcome": "assign",
+          "rationale": "Q10752485 owns the current `Yên Hòa, Hà Tĩnh` page and represents predecessor Cẩm Hòa within the successor composition. Its label and parent remain stale; the other candidates are namesakes.",
+          "wikidata_qid": "Q10752485"
+        }
+      ],
+      "reviewed_at": "2026-09-02T21:12:00Z",
+      "selection": {
+        "input_status": "needs-review",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 436
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T21:12:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T21:12:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
