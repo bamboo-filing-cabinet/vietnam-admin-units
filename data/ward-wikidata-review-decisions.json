@@ -6291,6 +6291,28 @@
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "query pageprops and extracts", "retrieved_at": "2026-09-02T22:20:00Z"},
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"}
       ]
+    },
+    {
+      "batch_id": "2026-09-02.62",
+      "decisions": [
+        {"candidate_qids_checked": [], "local_id": "w-22114-2025-07-01", "mapping_note": "current Tuy An Bắc page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Tuy An Bắc page identifies the 2025 Đắk Lắk commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": ["Q10733268"], "local_id": "w-22120-2025-07-01", "mapping_note": "current Tuy An Đông page selects predecessor item Q10733268", "outcome": "assign", "rationale": "Q10733268 owns the current Tuy An Đông page and represents predecessor An Ninh Tây. Its label, description, class, and parent remain stale.", "wikidata_qid": "Q10733268"},
+        {"candidate_qids_checked": ["Q10733253"], "local_id": "w-22132-2025-07-01", "mapping_note": "current Tuy An Tây page selects predecessor item Q10733253", "outcome": "assign", "rationale": "Q10733253 owns the current Tuy An Tây page and represents predecessor An Nghiệp. Its label, description, class, and parent remain stale.", "wikidata_qid": "Q10733253"},
+        {"candidate_qids_checked": ["Q10733161"], "local_id": "w-22147-2025-07-01", "mapping_note": "current Ô Loan page selects predecessor item Q10733161", "outcome": "assign", "rationale": "Q10733161 owns the current Ô Loan page and represents predecessor An Hiệp. Its label, description, class, and parent remain stale.", "wikidata_qid": "Q10733161"},
+        {"candidate_qids_checked": ["Q10733248"], "local_id": "w-22153-2025-07-01", "mapping_note": "current Tuy An Nam page selects predecessor item Q10733248", "outcome": "assign", "rationale": "Q10733248 owns the current Tuy An Nam page and represents predecessor An Mỹ. Its label, description, class, and parent remain stale.", "wikidata_qid": "Q10733248"},
+        {"candidate_qids_checked": [], "local_id": "w-22303-2025-07-01", "mapping_note": "current Phú Hòa 2 page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Phú Hòa 2 page identifies the 2025 Đắk Lắk commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": [], "local_id": "w-22319-2025-07-01", "mapping_note": "current Phú Hòa 1 page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Phú Hòa 1 page identifies the 2025 Đắk Lắk commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": ["Q138636916"], "local_id": "w-22333-2025-07-01", "mapping_note": "current Bắc Nha Trang page selects Q138636916", "outcome": "assign", "rationale": "Q138636916 owns the current Bắc Nha Trang page and its label, description, and article identify the Khánh Hòa ward. Structured class and parent are absent.", "wikidata_qid": "Q138636916"},
+        {"candidate_qids_checked": ["Q19491", "Q10822636", "Q103959821", "Q111387179", "Q136039256", "Q138640987"], "local_id": "w-22366-2025-07-01", "mapping_note": "current Nha Trang phường page selects Q138640987", "outcome": "assign", "rationale": "Q138640987 owns the current `Nha Trang (phường)` page and its label, description, and article identify the Khánh Hòa ward. Q19491 is the former city and the other candidates are unrelated or differently scoped; structured parent is absent and the selected item's class is the commune class rather than the ward class.", "wikidata_qid": "Q138640987"},
+        {"candidate_qids_checked": ["Q138642399"], "local_id": "w-22390-2025-07-01", "mapping_note": "current Tây Nha Trang page selects Q138642399", "outcome": "assign", "rationale": "Q138642399 owns the current Tây Nha Trang page and its label, description, and article identify the Khánh Hòa ward. Structured class and parent are absent.", "wikidata_qid": "Q138642399"}
+      ],
+      "reviewed_at": "2026-09-02T22:28:00Z",
+      "selection": {"input_status": "needs-lookup", "limit": 10, "order": "local_id", "starting_unresolved": 203},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbgetentities", "retrieved_at": "2026-09-02T22:28:00Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "query pageprops and extracts", "retrieved_at": "2026-09-02T22:28:00Z"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"}
+      ]
     }
   ],
   "schema_version": 1,

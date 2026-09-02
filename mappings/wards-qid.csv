@@ -6410,7 +6410,7 @@ w-2211337-base,07672,Xã Long Sơn,Xã,220,,2025-06-30,,,deferred-historical,,
 w-2211339-base,07675,Xã Tuấn Mậu,Xã,220,,2019-12-31,,,deferred-historical,,
 w-2211341-base,07618,Xã Thạch Sơn,Xã,220,,2019-12-31,,,deferred-historical,,
 w-2211343-base,07630,Xã Phúc Sơn,Xã,220,,2025-06-30,,,deferred-historical,,
-w-22114-2025-07-01,22114,Xã Tuy An Bắc,Xã,66,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-22114-2025-07-01,22114,Xã Tuy An Bắc,Xã,66,2025-07-01,,,,reviewed-unresolved,,review 2026-09-02.62: current Tuy An Bắc page has no Wikibase item
 w-2211501-base,07447,Thị trấn Lục Nam,Thị trấn,218,,2019-12-31,,,deferred-historical,,
 w-2211503-base,07444,Thị trấn Đồi Ngô,Thị trấn,218,,2025-06-30,,,deferred-historical,,
 w-2211505-base,07474,Xã Tiên Hưng,Xã,218,,2019-12-31,,,deferred-historical,,
@@ -6480,10 +6480,10 @@ w-2211941-base,07735,Xã Đức Giang,Xã,213,,2025-06-30,,,deferred-historical,
 w-2211943-base,07744,Xã Thắng Cương,Xã,221,,2024-12-31,,,deferred-historical,,
 w-2211945-base,07750,Xã Đồng Phúc,Xã,213,,2025-06-30,,,deferred-historical,,
 w-2211947-base,07747,Xã Đồng Việt,Xã,213,,2025-06-30,,,deferred-historical,,
-w-22120-2025-07-01,22120,Xã Tuy An Đông,Xã,66,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-22132-2025-07-01,22132,Xã Tuy An Tây,Xã,66,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-22147-2025-07-01,22147,Xã Ô Loan,Xã,66,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-22153-2025-07-01,22153,Xã Tuy An Nam,Xã,66,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-22120-2025-07-01,22120,Xã Tuy An Đông,Xã,66,2025-07-01,,Q10733268,existing,manual,Q10733268,review 2026-09-02.62: current Tuy An Đông page selects predecessor item Q10733268
+w-22132-2025-07-01,22132,Xã Tuy An Tây,Xã,66,2025-07-01,,Q10733253,existing,manual,Q10733253,review 2026-09-02.62: current Tuy An Tây page selects predecessor item Q10733253
+w-22147-2025-07-01,22147,Xã Ô Loan,Xã,66,2025-07-01,,Q10733161,existing,manual,Q10733161,review 2026-09-02.62: current Ô Loan page selects predecessor item Q10733161
+w-22153-2025-07-01,22153,Xã Tuy An Nam,Xã,66,2025-07-01,,Q10733248,existing,manual,Q10733248,review 2026-09-02.62: current Tuy An Nam page selects predecessor item Q10733248
 w-22165-2025-07-01,22165,Xã Sơn Hòa,Xã,66,2025-07-01,,Q10823294,existing,manual,Q7560582|Q7667667|Q10823293|Q10823294|Q10823295,review 2026-09-02.34: current Sơn Hòa xã page selects Q10823294 despite stale statements
 w-22171-2025-07-01,22171,Xã Tây Sơn,Xã,66,2025-07-01,,Q10823311,existing,manual,Q1320837|Q2030923|Q6129548|Q7189881|Q10823311|Q10831069|Q10831070|Q10831071|Q10831072|Q32588292,"review 2026-09-02.35: current Tây Sơn, Đắk Lắk page selects predecessor item Q10823311"
 w-22177-2025-07-01,22177,Xã Vân Hòa,Xã,66,2025-07-01,,Q86011921,existing,manual,Q1335038|Q7944943|Q10833127|Q10834105|Q10834106|Q21648116|Q86011921,review 2026-09-02.35: current Vân Hòa page selects predecessor item Q86011921
@@ -6502,14 +6502,14 @@ w-22261-2025-07-01,22261,Phường Hòa Hiệp,Phường,66,2025-07-01,,Q1077094
 w-22276-2025-07-01,22276,Xã Hòa Thịnh,Xã,66,2025-07-01,,Q10771100,existing,matched,Q10771100,qlever-label+current-province+batched-wbgetentities
 w-22285-2025-07-01,22285,Xã Hòa Mỹ,Xã,66,2025-07-01,,Q10771017,existing,manual,Q712956|Q5923036|Q10767746|Q10771013|Q10771015|Q10771017,review 2026-09-02.35: current Hòa Mỹ page selects predecessor item Q10771017
 w-22291-2025-07-01,22291,Xã Hòa Xuân,Xã,66,2025-07-01,,Q10771131,existing,matched,Q10771131|Q10771132,qlever-label+current-province+batched-wbgetentities
-w-22303-2025-07-01,22303,Xã Phú Hòa 2,Xã,66,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-22303-2025-07-01,22303,Xã Phú Hòa 2,Xã,66,2025-07-01,,,,reviewed-unresolved,,review 2026-09-02.62: current Phú Hòa 2 page has no Wikibase item
 w-22306-2004-06-30,22306,Xã Hòa Quang Nam,Xã,563,2004-06-30,2025-06-30,,,deferred-historical,,
 w-22319-2007-12-18,22319,Thị Trấn Phú Hoà,Thị trấn,563,2007-12-18,2025-06-30,,,deferred-historical,,
-w-22319-2025-07-01,22319,Xã Phú Hòa 1,Xã,66,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-22319-2025-07-01,22319,Xã Phú Hòa 1,Xã,66,2025-07-01,,,,reviewed-unresolved,,review 2026-09-02.62: current Phú Hòa 1 page has no Wikibase item
 w-22327-2004-06-30,22327,Phường Vĩnh Hòa,Phường,568,2004-06-30,2025-06-30,,,deferred-historical,,
-w-22333-2025-07-01,22333,Phường Bắc Nha Trang,Phường,56,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-22366-2025-07-01,22366,Phường Nha Trang,Phường,56,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-22390-2025-07-01,22390,Phường Tây Nha Trang,Phường,56,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-22333-2025-07-01,22333,Phường Bắc Nha Trang,Phường,56,2025-07-01,,Q138636916,existing,manual,Q138636916,review 2026-09-02.62: current Bắc Nha Trang page selects Q138636916
+w-22366-2025-07-01,22366,Phường Nha Trang,Phường,56,2025-07-01,,Q138640987,existing,manual,Q19491|Q10822636|Q103959821|Q111387179|Q136039256|Q138640987,review 2026-09-02.62: current Nha Trang phường page selects Q138640987
+w-22390-2025-07-01,22390,Phường Tây Nha Trang,Phường,56,2025-07-01,,Q138642399,existing,manual,Q138642399,review 2026-09-02.62: current Tây Nha Trang page selects Q138642399
 w-22402-2025-07-01,22402,Phường Nam Nha Trang,Phường,56,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
 w-22411-2025-07-01,22411,Phường Bắc Cam Ranh,Phường,56,2025-07-01,,Q136076087,existing,matched,Q136076087,qlever-label+current-province+batched-wbgetentities
 w-22420-2025-07-01,22420,Phường Cam Ranh,Phường,56,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
