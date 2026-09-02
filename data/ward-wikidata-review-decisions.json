@@ -4038,6 +4038,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.31",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q10805465", "Q10805466", "Q10805467", "Q10805470", "Q10805471", "Q10805472", "Q131534177"],
+          "local_id": "w-19828-2025-07-01",
+          "mapping_note": "current Phong Phú page selects Q131534177",
+          "outcome": "assign",
+          "rationale": "Q131534177 owns the current Phong Phú page, and its label and description identify the Huế ward. Its structured class and parent are absent; the other candidates are namesakes.",
+          "wikidata_qid": "Q131534177"
+        },
+        {
+          "candidate_qids_checked": ["Q43265533", "Q138685610"],
+          "local_id": "w-19858-2025-07-01",
+          "mapping_note": "current Phong Thái page selects Q138685610",
+          "outcome": "assign",
+          "rationale": "Q138685610 owns the current Phong Thái page and has commune-level class. Its parent is absent, but the page explicitly identifies the 2025 Huế ward; Q43265533 is a former commune.",
+          "wikidata_qid": "Q138685610"
+        },
+        {
+          "candidate_qids_checked": ["Q7268852", "Q10810540", "Q138638804"],
+          "local_id": "w-19867-2025-07-01",
+          "mapping_note": "current Quảng Điền xã page selects Q138638804",
+          "outcome": "assign",
+          "rationale": "Q138638804 owns the current `Quảng Điền (xã)` page and has commune class. Its parent is absent; the other candidates are the former district and a former namesake.",
+          "wikidata_qid": "Q138638804"
+        },
+        {
+          "candidate_qids_checked": ["Q7188271", "Q30919566"],
+          "local_id": "w-19942-2025-07-01",
+          "mapping_note": "current Phú Vang xã page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Phú Vang (xã)` page explicitly identifies the 2025 Huế commune but has no Wikibase item. The candidates are the former district and a former commune.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q569614", "Q1201210", "Q3943153", "Q7710377", "Q10824895", "Q10824897", "Q10824907", "Q10824908", "Q10824910", "Q10824911", "Q10824913", "Q10824914", "Q10826763", "Q13658828", "Q27796933", "Q97358826", "Q105333816", "Q115829217", "Q130540721"],
+          "local_id": "w-19969-2025-07-01",
+          "mapping_note": "current Thanh Thủy phường page selects predecessor item Q10826763",
+          "outcome": "assign",
+          "rationale": "Q10826763 owns the current `Thanh Thủy (phường)` page and represents predecessor Thủy Phương within the successor composition. Its label and parent remain stale; the other candidates are namesakes or unrelated entities.",
+          "wikidata_qid": "Q10826763"
+        },
+        {
+          "candidate_qids_checked": ["Q5946136", "Q10831827", "Q10841056", "Q18458534", "Q138685321"],
+          "local_id": "w-19996-2025-07-01",
+          "mapping_note": "current Hương Trà, Huế page selects predecessor item Q10831827",
+          "outcome": "assign",
+          "rationale": "Q10831827 owns the current `Hương Trà, Huế` page and represents predecessor Tứ Hạ within the successor composition. Its label and parent remain stale; the other candidates are the former district-level town, namesakes, or a disambiguation item.",
+          "wikidata_qid": "Q10831827"
+        },
+        {
+          "candidate_qids_checked": ["Q1374792", "Q10748237", "Q10770937", "Q10771512"],
+          "local_id": "w-20014-2025-07-01",
+          "mapping_note": "current Hóa Châu phường page selects predecessor item Q10771512",
+          "outcome": "assign",
+          "rationale": "Q10771512 owns the current `Hóa Châu (phường)` page and represents predecessor Hương Vinh within the successor composition. Its label, class, and parent remain stale; the other candidates are historical or former identities.",
+          "wikidata_qid": "Q10771512"
+        },
+        {
+          "candidate_qids_checked": ["Q14456351", "Q138638751"],
+          "local_id": "w-20017-2025-07-01",
+          "mapping_note": "current Kim Trà page selects Q138638751",
+          "outcome": "assign",
+          "rationale": "Q138638751 owns the current Kim Trà page and has commune-level class. Its parent is absent, but the page explicitly identifies the 2025 Huế ward; Q14456351 is unrelated.",
+          "wikidata_qid": "Q138638751"
+        },
+        {
+          "candidate_qids_checked": ["Q1934001", "Q7932533", "Q10833606", "Q10833608", "Q10833609", "Q10833610"],
+          "local_id": "w-20122-2025-07-01",
+          "mapping_note": "current Vinh Lộc xã page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Vinh Lộc (xã)` page explicitly identifies the 2025 Huế commune but has no Wikibase item. The candidates are the former district or former namesakes.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q2484927", "Q2806141", "Q10771356", "Q10771358", "Q128242536", "Q138638826"],
+          "local_id": "w-20131-2025-07-01",
+          "mapping_note": "current Hưng Lộc page selects Q138638826",
+          "outcome": "assign",
+          "rationale": "Q138638826 owns the current Hưng Lộc page and has commune class. Its parent is absent, but the page explicitly identifies the 2025 Huế commune; the other candidates are namesakes or unrelated entities.",
+          "wikidata_qid": "Q138638826"
+        }
+      ],
+      "reviewed_at": "2026-09-02T21:32:00Z",
+      "selection": {
+        "input_status": "needs-review",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 422
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T21:32:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T21:32:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,

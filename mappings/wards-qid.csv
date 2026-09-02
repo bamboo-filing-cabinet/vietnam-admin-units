@@ -4261,24 +4261,24 @@ w-19813-2025-07-01,19813,Phường Thủy Xuân,Phường,46,2025-07-01,,Q108267
 w-19815-2007-04-11,19815,Phường An Đông,Phường,474,2007-04-11,2025-06-30,,,deferred-historical,,
 w-19815-2025-07-01,19815,Phường An Cựu,Phường,46,2025-07-01,,Q10733148,existing,matched,Q10733148,qlever-label+current-province+batched-wbgetentities
 w-19819-2025-07-01,19819,Phường Phong Điền,Phường,46,2025-07-01,,Q10805525,existing,matched,Q7187258|Q10805524|Q10805525,qlever-label+current-province+batched-wbgetentities
-w-19828-2025-07-01,19828,Phường Phong Phú,Phường,46,2025-07-01,,,,needs-review,Q10805466|Q10805467|Q10805470|Q10805471|Q10805472,"5 label candidate(s), but no bulk P131 resolves to the current province"
+w-19828-2025-07-01,19828,Phường Phong Phú,Phường,46,2025-07-01,,Q131534177,existing,manual,Q10805465|Q10805466|Q10805467|Q10805470|Q10805471|Q10805472|Q131534177,review 2026-09-02.31: current Phong Phú page selects Q131534177
 w-19831-2025-07-01,19831,Phường Phong Dinh,Phường,46,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-19858-2025-07-01,19858,Phường Phong Thái,Phường,46,2025-07-01,,,,needs-review,Q138685610,"1 label candidate(s), but no bulk P131 resolves to the current province"
-w-19867-2025-07-01,19867,Xã Quảng Điền,Xã,46,2025-07-01,,,,needs-review,Q10810540|Q32298913|Q138638804,"3 label candidate(s), but no bulk P131 resolves to the current province"
+w-19858-2025-07-01,19858,Phường Phong Thái,Phường,46,2025-07-01,,Q138685610,existing,manual,Q43265533|Q138685610,review 2026-09-02.31: current Phong Thái page selects Q138685610
+w-19867-2025-07-01,19867,Xã Quảng Điền,Xã,46,2025-07-01,,Q138638804,existing,manual,Q7268852|Q10810540|Q32298913|Q138638804,review 2026-09-02.31: current Quảng Điền xã page selects Q138638804
 w-19873-2025-07-01,19873,Phường Phong Quảng,Phường,46,2025-07-01,,Q10805440,existing,matched,Q10805440|Q10805473,qlever-label+current-province+batched-wbgetentities
 w-19885-2025-07-01,19885,Xã Đan Điền,Xã,46,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
 w-19900-2025-07-01,19900,Phường Thuận An,Phường,46,2025-07-01,,Q10825419,existing,matched,Q2275816|Q10825417|Q10825418|Q10825419|Q10825420|Q24957403,qlever-label+current-province+batched-wbgetentities
 w-19909-2025-07-01,19909,Phường Dương Nỗ,Phường,46,2025-07-01,,Q131534296,existing,matched,Q131534296,qlever-label+current-province+batched-wbgetentities
 w-19918-2025-07-01,19918,Xã Phú Hồ,Xã,46,2025-07-01,,Q10805939,existing,matched,Q10805939|Q10805940,qlever-label+current-province+batched-wbgetentities
 w-19930-2025-07-01,19930,Phường Mỹ Thượng,Phường,46,2025-07-01,,Q10806099,existing,matched,Q10806099,qlever-label+current-province+batched-wbgetentities
-w-19942-2025-07-01,19942,Xã Phú Vang,Xã,46,2025-07-01,,,,needs-review,Q30919566,"1 label candidate(s), but no bulk P131 resolves to the current province"
+w-19942-2025-07-01,19942,Xã Phú Vang,Xã,46,2025-07-01,,,,reviewed-unresolved,Q7188271|Q30919566,review 2026-09-02.31: current Phú Vang xã page has no Wikibase item
 w-19945-2025-07-01,19945,Xã Phú Vinh,Xã,46,2025-07-01,,Q10806161,existing,matched,Q1866206|Q2943519|Q10806161,qlever-label+current-province+batched-wbgetentities
 w-19960-2025-07-01,19960,Phường Phú Bài,Phường,46,2025-07-01,,Q10805880,existing,matched,Q10805880,qlever-label+current-province+batched-wbgetentities
-w-19969-2025-07-01,19969,Phường Thanh Thủy,Phường,46,2025-07-01,,,,needs-review,Q3943153|Q10824895|Q10824907|Q10824908|Q10824910|Q10824911|Q10824914,"7 label candidate(s), but no bulk P131 resolves to the current province"
+w-19969-2025-07-01,19969,Phường Thanh Thủy,Phường,46,2025-07-01,,Q10826763,existing,manual,Q569614|Q1201210|Q3943153|Q7710377|Q10824895|Q10824897|Q10824907|Q10824908|Q10824910|Q10824911|Q10824913|Q10824914|Q10826763|Q13658828|Q27796933|Q97358826|Q105333816|Q115829217|Q130540721,review 2026-09-02.31: current Thanh Thủy phường page selects predecessor item Q10826763
 w-19975-2025-07-01,19975,Phường Hương Thủy,Phường,46,2025-07-01,,Q136464949,existing,matched,Q32273725|Q136464949,qlever-label+current-province+batched-wbgetentities
-w-19996-2025-07-01,19996,Phường Hương Trà,Phường,46,2025-07-01,,,,needs-review,Q18458534|Q138685321,"2 label candidate(s), but no bulk P131 resolves to the current province"
-w-20014-2025-07-01,20014,Phường Hóa Châu,Phường,46,2025-07-01,,,,needs-review,Q10770937,"1 label candidate(s), but no bulk P131 resolves to the current province"
-w-20017-2025-07-01,20017,Phường Kim Trà,Phường,46,2025-07-01,,,,needs-review,Q138638751,"1 label candidate(s), but no bulk P131 resolves to the current province"
+w-19996-2025-07-01,19996,Phường Hương Trà,Phường,46,2025-07-01,,Q10831827,existing,manual,Q5946136|Q10831827|Q10841056|Q18458534|Q138685321,"review 2026-09-02.31: current Hương Trà, Huế page selects predecessor item Q10831827"
+w-20014-2025-07-01,20014,Phường Hóa Châu,Phường,46,2025-07-01,,Q10771512,existing,manual,Q1374792|Q10748237|Q10770937|Q10771512,review 2026-09-02.31: current Hóa Châu phường page selects predecessor item Q10771512
+w-20017-2025-07-01,20017,Phường Kim Trà,Phường,46,2025-07-01,,Q138638751,existing,manual,Q14456351|Q138638751,review 2026-09-02.31: current Kim Trà page selects Q138638751
 w-20035-2025-07-01,20035,Xã Bình Điền,Xã,46,2025-07-01,,Q10742640,existing,matched,Q10742640,qlever-label+current-province+batched-wbgetentities
 w-20044-2025-07-01,20044,Xã A Lưới 2,Xã,46,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
 w-20050-2025-07-01,20050,Xã A Lưới 5,Xã,46,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
@@ -4477,8 +4477,8 @@ w-2011955-base,01258,Xã Nà Khương,Xã,035,,2025-06-30,,,deferred-historical,
 w-2011957-base,01213,Xã Vĩnh Phúc,Xã,034,,2025-06-30,,,deferred-historical,,
 w-2011959-base,01264,Xã Vĩ Thượng,Xã,035,,2025-06-30,,,deferred-historical,,
 w-2011961-base,01216,Xã Đồng Yên,Xã,034,,2025-06-30,,,deferred-historical,,
-w-20122-2025-07-01,20122,Xã Vinh Lộc,Xã,46,2025-07-01,,,,needs-review,Q1934001|Q10833606|Q10833608|Q10833609|Q10833610,"5 label candidate(s), but no bulk P131 resolves to the current province"
-w-20131-2025-07-01,20131,Xã Hưng Lộc,Xã,46,2025-07-01,,,,needs-review,Q2484927|Q10771356|Q10771358|Q128242536|Q138638826,"5 label candidate(s), but no bulk P131 resolves to the current province"
+w-20122-2025-07-01,20122,Xã Vinh Lộc,Xã,46,2025-07-01,,,,reviewed-unresolved,Q1934001|Q7932533|Q10833606|Q10833608|Q10833609|Q10833610,review 2026-09-02.31: current Vinh Lộc xã page has no Wikibase item
+w-20131-2025-07-01,20131,Xã Hưng Lộc,Xã,46,2025-07-01,,Q138638826,existing,manual,Q2484927|Q2806141|Q10771356|Q10771358|Q128242536|Q138638826,review 2026-09-02.31: current Hưng Lộc page selects Q138638826
 w-20137-2025-07-01,20137,Xã Chân Mây - Lăng Cô,Xã,46,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
 w-20140-2025-07-01,20140,Xã Lộc An,Xã,46,2025-07-01,,Q10788746,existing,matched,Q2914159|Q2948935|Q10788743|Q10788745|Q10788746|Q10788747,qlever-label+current-province+batched-wbgetentities
 w-20161-2025-07-01,20161,Xã Khe Tre,Xã,46,2025-07-01,,Q10779307,existing,matched,Q10779307,qlever-label+current-province+batched-wbgetentities
