@@ -3498,6 +3498,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.26",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q10811086"],
+          "local_id": "w-17125-2025-07-01",
+          "mapping_note": "current Nghệ An ward page selects Q10811086 despite stale P131",
+          "outcome": "assign",
+          "rationale": "Q10811086 owns the current Quỳnh Mai page and has ward class. Its parent remains the former district-level town, but the page explicitly identifies the 2025 Nghệ An ward.",
+          "wikidata_qid": "Q10811086"
+        },
+        {
+          "candidate_qids_checked": ["Q2013420", "Q2643978", "Q10830662", "Q10830663"],
+          "local_id": "w-17128-2025-07-01",
+          "mapping_note": "current Tân Mai ward page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Tân Mai (phường)` page explicitly identifies the 2025 Nghệ An ward but has no Wikibase item. The candidates are namesakes or a disambiguation item.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q1022262", "Q2249161", "Q10811102", "Q10811103"],
+          "local_id": "w-17170-2025-07-01",
+          "mapping_note": "current Quỳnh Sơn page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current Quỳnh Sơn page explicitly identifies the 2025 Nghệ An commune but has no Wikibase item. The candidates are a namesake, a disambiguation item, or a predecessor-era identity not bound to the page.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q7273055", "Q10811080"],
+          "local_id": "w-17179-2025-07-01",
+          "mapping_note": "current Quỳnh Lưu, Nghệ An page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Quỳnh Lưu, Nghệ An` page explicitly identifies the 2025 commune but has no Wikibase item. Q7273055 is the former district and Q10811080 is the Ninh Bình namesake.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q7273060", "Q10811100"],
+          "local_id": "w-17212-2025-07-01",
+          "mapping_note": "current Quỳnh Phú page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current Quỳnh Phú page explicitly identifies the 2025 Nghệ An commune but has no Wikibase item. The candidates are the spelling-different former district and a disambiguation item.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q10752520", "Q32261279"],
+          "local_id": "w-17242-2025-07-01",
+          "mapping_note": "current Cam Phục page selects predecessor item Q32261279",
+          "outcome": "assign",
+          "rationale": "Q32261279 owns the current Cam Phục page and represents predecessor Cam Lâm within the successor composition. Its label, class, and parent remain stale; Q10752520 is the spelling-different Cẩm Phúc.",
+          "wikidata_qid": "Q32261279"
+        },
+        {
+          "candidate_qids_checked": ["Q10827197", "Q10827243"],
+          "local_id": "w-17287-2025-07-01",
+          "mapping_note": "current Tiên Đồng page selects predecessor item Q10827197",
+          "outcome": "assign",
+          "rationale": "Q10827197 owns the current Tiên Đồng page and represents predecessor Tiên Kỳ within the successor composition. Its label and parent remain stale; Q10827243 is the spelling-different Tiên Động.",
+          "wikidata_qid": "Q10827197"
+        },
+        {
+          "candidate_qids_checked": ["Q7022331", "Q30920958", "Q140317839"],
+          "local_id": "w-17326-2025-07-01",
+          "mapping_note": "current Nghĩa Hành, Nghệ An page selects Q30920958",
+          "outcome": "assign",
+          "rationale": "Q30920958 owns the current `Nghĩa Hành, Nghệ An` page and has commune class. Q7022331 is the former Quảng Ngãi district and Q140317839 is its current namesake.",
+          "wikidata_qid": "Q30920958"
+        },
+        {
+          "candidate_qids_checked": ["Q1199117", "Q4764328", "Q10733951", "Q11839187"],
+          "local_id": "w-17329-2025-07-01",
+          "mapping_note": "current Anh Sơn xã page selects predecessor item Q11839187",
+          "outcome": "assign",
+          "rationale": "Q11839187 owns the current `Anh Sơn (xã)` page and represents predecessor town Kim Nhan within the successor composition. Its label, class, and parent remain stale; Q4764328 is the former district.",
+          "wikidata_qid": "Q11839187"
+        },
+        {
+          "candidate_qids_checked": ["Q1199812", "Q1306047", "Q1346317", "Q9385136", "Q10800945", "Q10800946", "Q10800947"],
+          "local_id": "w-17344-2025-07-01",
+          "mapping_note": "current Nhân Hòa xã page selects Q10800947 despite stale P131",
+          "outcome": "assign",
+          "rationale": "Q10800947 owns the current `Nhân Hòa (xã)` page and has commune class. Its parent remains stale; the other candidates are namesakes or a disambiguation item.",
+          "wikidata_qid": "Q10800947"
+        }
+      ],
+      "reviewed_at": "2026-09-02T20:43:00Z",
+      "selection": {
+        "input_status": "needs-review",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 451
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T20:43:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T20:43:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,

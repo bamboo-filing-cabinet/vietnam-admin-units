@@ -3998,19 +3998,19 @@ w-17071-2025-07-01,17071,Xã Minh Hợp,Xã,40,2025-07-01,,Q10793884,existing,ma
 w-17077-2025-07-01,17077,Xã Mường Ham,Xã,40,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
 w-17089-2025-07-01,17089,Xã Mường Chọng,Xã,40,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
 w-17110-2025-07-01,17110,Phường Hoàng Mai,Phường,40,2025-07-01,,Q138666352,existing,matched,Q137323701|Q138666352,qlever-label+current-province+batched-wbgetentities
-w-17125-2025-07-01,17125,Phường Quỳnh Mai,Phường,40,2025-07-01,,,,needs-review,Q10811086,"1 label candidate(s), but no bulk P131 resolves to the current province"
-w-17128-2025-07-01,17128,Phường Tân Mai,Phường,40,2025-07-01,,,,needs-review,Q2643978|Q10830662|Q10830663,"3 label candidate(s), but no bulk P131 resolves to the current province"
+w-17125-2025-07-01,17125,Phường Quỳnh Mai,Phường,40,2025-07-01,,Q10811086,existing,manual,Q10811086,review 2026-09-02.26: current Nghệ An ward page selects Q10811086 despite stale P131
+w-17128-2025-07-01,17128,Phường Tân Mai,Phường,40,2025-07-01,,,,reviewed-unresolved,Q2013420|Q2643978|Q10830662|Q10830663,review 2026-09-02.26: current Tân Mai ward page has no Wikibase item
 w-17143-2025-07-01,17143,Xã Quỳnh Văn,Xã,40,2025-07-01,,Q10811123,existing,matched,Q10811123,qlever-label+current-province+batched-wbgetentities
 w-17149-2025-07-01,17149,Xã Quỳnh Tam,Xã,40,2025-07-01,,Q10811105,existing,matched,Q10811105,qlever-label+current-province+batched-wbgetentities
-w-17170-2025-07-01,17170,Xã Quỳnh Sơn,Xã,40,2025-07-01,,,,needs-review,Q2444966|Q10811102|Q10811103,"3 label candidate(s), but no bulk P131 resolves to the current province"
+w-17170-2025-07-01,17170,Xã Quỳnh Sơn,Xã,40,2025-07-01,,,,reviewed-unresolved,Q1022262|Q2249161|Q2444966|Q10811102|Q10811103,review 2026-09-02.26: current Quỳnh Sơn page has no Wikibase item
 w-17176-2025-07-01,17176,Xã Quỳnh Anh,Xã,40,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-17179-2025-07-01,17179,Xã Quỳnh Lưu,Xã,40,2025-07-01,,,,needs-review,Q10811080,"1 label candidate(s), but no bulk P131 resolves to the current province"
-w-17212-2025-07-01,17212,Xã Quỳnh Phú,Xã,40,2025-07-01,,,,needs-review,Q10811100|Q32299700|Q32299707,"3 label candidate(s), but no bulk P131 resolves to the current province"
+w-17179-2025-07-01,17179,Xã Quỳnh Lưu,Xã,40,2025-07-01,,,,reviewed-unresolved,Q7273055|Q10811080,"review 2026-09-02.26: current Quỳnh Lưu, Nghệ An page has no Wikibase item"
+w-17212-2025-07-01,17212,Xã Quỳnh Phú,Xã,40,2025-07-01,,,,reviewed-unresolved,Q7273060|Q10811100|Q32299700|Q32299707,review 2026-09-02.26: current Quỳnh Phú page has no Wikibase item
 w-17224-2004-06-30,17224,Xã Tân Thắng,Xã,421,2004-06-30,2025-06-30,,,deferred-historical,,
 w-17224-2025-07-01,17224,Xã Quỳnh Thắng,Xã,40,2025-07-01,,Q10811112,existing,matched,Q10811112,qlever-label+current-province+batched-wbgetentities
 w-17230-2025-07-01,17230,Xã Bình Chuẩn,Xã,40,2025-07-01,,Q10742361,existing,matched,Q2130728|Q10742361,qlever-label+current-province+batched-wbgetentities
 w-17239-2025-07-01,17239,Xã Mậu Thạch,Xã,40,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-17242-2025-07-01,17242,Xã Cam Phục,Xã,40,2025-07-01,,,,needs-review,Q10752520|Q32264973,"2 label candidate(s), but no bulk P131 resolves to the current province"
+w-17242-2025-07-01,17242,Xã Cam Phục,Xã,40,2025-07-01,,Q32261279,existing,manual,Q10752520|Q32261279|Q32264973,review 2026-09-02.26: current Cam Phục page selects predecessor item Q32261279
 w-17248-2025-07-01,17248,Xã Châu Khê,Xã,40,2025-07-01,,Q10748221,existing,matched,Q10748221|Q10748223,qlever-label+current-province+batched-wbgetentities
 w-17254-2025-07-01,17254,Xã Con Cuông,Xã,40,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
 w-17263-2025-07-01,17263,Xã Môn Sơn,Xã,40,2025-07-01,,Q10796256,existing,matched,Q10796256,qlever-label+current-province+batched-wbgetentities
@@ -4018,13 +4018,13 @@ w-17266-2025-07-01,17266,Xã Tân Kỳ,Xã,40,2025-07-01,,Q10830573,existing,mat
 w-17272-2025-07-01,17272,Xã Tân Phú,Xã,40,2025-07-01,,Q10830734,existing,matched,Q10806141|Q10830719|Q10830722|Q10830723|Q10830725|Q10830727|Q10830728|Q10830729|Q10830731|Q10830733|Q10830734|Q10830736|Q10830737|Q10830738,qlever-label+current-province+batched-wbgetentities
 w-17278-2025-07-01,17278,Xã Giai Xuân,Xã,40,2025-07-01,,Q10761446,existing,matched,Q10761444|Q10761446,qlever-label+current-province+batched-wbgetentities
 w-17284-2025-07-01,17284,Xã Nghĩa Đồng,Xã,40,2025-07-01,,Q10798886,existing,matched,Q10798735|Q10798884|Q10798886|Q32287759,qlever-label+current-province+batched-wbgetentities
-w-17287-2025-07-01,17287,Xã Tiên Đồng,Xã,40,2025-07-01,,,,needs-review,Q10827243,"1 label candidate(s), but no bulk P131 resolves to the current province"
+w-17287-2025-07-01,17287,Xã Tiên Đồng,Xã,40,2025-07-01,,Q10827197,existing,manual,Q10827197|Q10827243,review 2026-09-02.26: current Tiên Đồng page selects predecessor item Q10827197
 w-17305-2025-07-01,17305,Xã Tân An,Xã,40,2025-07-01,,Q10830346,existing,matched,Q1862735|Q2126866|Q2390731|Q2396841|Q2646896|Q10733192|Q10830334|Q10830335|Q10830336|Q10830338|Q10830339|Q10830342|Q10830343|Q10830345|Q10830346|Q10830347|Q10830350|Q10830991|Q136675874,qlever-label+current-province+batched-wbgetentities
 w-17325-2005-04-07,17325,Xã Tân Hương,Xã,423,2005-04-07,2025-06-30,,,deferred-historical,,
-w-17326-2025-07-01,17326,Xã Nghĩa Hành,Xã,40,2025-07-01,,,,needs-review,Q32287842,"1 label candidate(s), but no bulk P131 resolves to the current province"
-w-17329-2025-07-01,17329,Xã Anh Sơn,Xã,40,2025-07-01,,,,needs-review,Q10733951,"1 label candidate(s), but no bulk P131 resolves to the current province"
+w-17326-2025-07-01,17326,Xã Nghĩa Hành,Xã,40,2025-07-01,,Q30920958,existing,manual,Q7022331|Q30920958|Q32287842|Q140317839,"review 2026-09-02.26: current Nghĩa Hành, Nghệ An page selects Q30920958"
+w-17329-2025-07-01,17329,Xã Anh Sơn,Xã,40,2025-07-01,,Q11839187,existing,manual,Q1199117|Q4764328|Q10733951|Q11839187,review 2026-09-02.26: current Anh Sơn xã page selects predecessor item Q11839187
 w-17335-2025-07-01,17335,Xã Thành Bình Thọ,Xã,40,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-17344-2025-07-01,17344,Xã Nhân Hòa,Xã,40,2025-07-01,,,,needs-review,Q10800945|Q10800946|Q10800947|Q32289864,"4 label candidate(s), but no bulk P131 resolves to the current province"
+w-17344-2025-07-01,17344,Xã Nhân Hòa,Xã,40,2025-07-01,,Q10800947,existing,manual,Q1199812|Q1306047|Q1346317|Q9385136|Q10800945|Q10800946|Q10800947|Q32289864,review 2026-09-02.26: current Nhân Hòa xã page selects Q10800947 despite stale P131
 w-17357-2009-01-07,17357,Xã Hoa Sơn,Xã,424,2009-01-07,2025-06-30,,,deferred-historical,,
 w-17357-2025-07-01,17357,Xã Vĩnh Tường,Xã,40,2025-07-01,,,,needs-review,Q10833747|Q10833748|Q138638764,"3 label candidate(s), but no bulk P131 resolves to the current province"
 w-17365-2025-07-01,17365,Xã Anh Sơn Đông,Xã,40,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
