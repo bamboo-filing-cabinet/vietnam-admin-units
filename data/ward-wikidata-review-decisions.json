@@ -2958,6 +2958,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.21",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q1886032", "Q10833168", "Q10834151", "Q10834152"],
+          "local_id": "w-13219-2025-07-01",
+          "mapping_note": "current Vạn Xuân, Hưng Yên page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Vạn Xuân, Hưng Yên` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are the historical state, a disambiguation item, or namesakes elsewhere.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q36497", "Q36681", "Q73684", "Q569608", "Q701264", "Q1197514", "Q2408438", "Q5369500", "Q5371258", "Q8011740", "Q10825692", "Q10825693", "Q10825694", "Q10825695", "Q10941249", "Q10941253", "Q10941493", "Q17498815", "Q97301261", "Q122794357"],
+          "local_id": "w-13225-2025-07-01",
+          "mapping_note": "current Thái Bình ward page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Thái Bình (phường)` page explicitly identifies the 2025 Hưng Yên ward but has no Wikibase item. The candidates are the former city, former province, or unrelated namesakes.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q35659", "Q1943389", "Q10807211", "Q136688000"],
+          "local_id": "w-13285-2025-07-01",
+          "mapping_note": "current Phủ Lý ward page selects Q136688000",
+          "outcome": "assign",
+          "rationale": "Q136688000 owns the current `Phủ Lý (phường)` page, which explicitly identifies the 2025 Ninh Bình ward. Q35659 is the former city and the other candidates are namesakes.",
+          "wikidata_qid": "Q136688000"
+        },
+        {
+          "candidate_qids_checked": ["Q465277", "Q2596686", "Q10757161", "Q10757162", "Q11607105", "Q104843054", "Q137258829"],
+          "local_id": "w-13330-2025-07-01",
+          "mapping_note": "current Duy Tân ward page selects Q137258829",
+          "outcome": "assign",
+          "rationale": "Q137258829 owns the current `Duy Tân (phường)` page and is typed as a Vietnamese commune-level unit. The other candidates are the emperor, historical concept, or namesakes.",
+          "wikidata_qid": "Q137258829"
+        },
+        {
+          "candidate_qids_checked": ["Q36413", "Q43684", "Q1130257", "Q1343766", "Q9574863", "Q10824790", "Q11141741", "Q17028942", "Q19855977", "Q24841395", "Q83645126", "Q96380200", "Q136688003"],
+          "local_id": "w-13366-2025-07-01",
+          "mapping_note": "current Hà Nam ward page selects Q136688003",
+          "outcome": "assign",
+          "rationale": "Q136688003 owns the current `Hà Nam (phường)` page, which explicitly identifies the 2025 Ninh Bình ward. The older candidates are the former province or unrelated namesakes.",
+          "wikidata_qid": "Q136688003"
+        },
+        {
+          "candidate_qids_checked": ["Q10752492", "Q21522125", "Q30923348", "Q30923628", "Q49077975", "Q136688013"],
+          "local_id": "w-13402-2025-07-01",
+          "mapping_note": "current Kim Thanh ward page selects Q136688013",
+          "outcome": "assign",
+          "rationale": "Q136688013 owns the current `Kim Thanh (phường)` page, which explicitly identifies the 2025 Ninh Bình ward. The other candidates are a former district, historical people, or disambiguation.",
+          "wikidata_qid": "Q136688013"
+        },
+        {
+          "candidate_qids_checked": ["Q702734", "Q10788125", "Q10788126", "Q136688014"],
+          "local_id": "w-13435-2025-07-01",
+          "mapping_note": "current Lý Thường Kiệt ward page selects Q136688014",
+          "outcome": "assign",
+          "rationale": "Q136688014 owns the current `Lý Thường Kiệt (phường)` page, which explicitly identifies the 2025 Ninh Bình ward. Q702734 is the historical general and the other candidates are namesakes.",
+          "wikidata_qid": "Q136688014"
+        },
+        {
+          "candidate_qids_checked": ["Q461166", "Q2443159", "Q10824801", "Q10824802", "Q10824804", "Q10824806", "Q10824807", "Q10825561", "Q16480742", "Q136687995"],
+          "local_id": "w-13489-2025-07-01",
+          "mapping_note": "current Thanh Lâm xã page selects Q136687995",
+          "outcome": "assign",
+          "rationale": "Q136687995 owns the current `Thanh Lâm (xã)` page, which explicitly identifies the 2025 Ninh Bình commune. The older candidates are namesakes, a historical district, or a disambiguation item.",
+          "wikidata_qid": "Q136687995"
+        },
+        {
+          "candidate_qids_checked": ["Q687952", "Q1211489", "Q1343340", "Q2541664", "Q3031078", "Q10742387", "Q10772129", "Q11061092", "Q17005303", "Q113651427", "Q136688028"],
+          "local_id": "w-13531-2025-07-01",
+          "mapping_note": "current Bình Giang, Ninh Bình page selects Q136688028",
+          "outcome": "assign",
+          "rationale": "Q136688028 owns the current `Bình Giang, Ninh Bình` page. The other candidates are the former district or namesakes elsewhere.",
+          "wikidata_qid": "Q136688028"
+        },
+        {
+          "candidate_qids_checked": ["Q1023056", "Q2258061", "Q2365636", "Q2446195", "Q10733241", "Q10742346", "Q10742348", "Q10742349", "Q10742351", "Q10742355", "Q10742356", "Q10742637", "Q11839558", "Q65165779", "Q65171980", "Q117103284", "Q131323917", "Q139577251"],
+          "local_id": "w-13540-2025-07-01",
+          "mapping_note": "current Bình An, Ninh Bình page selects Q131323917",
+          "outcome": "assign",
+          "rationale": "Q131323917 owns the current `Bình An, Ninh Bình` page and has commune class. The remaining candidates are namesakes elsewhere or unrelated people.",
+          "wikidata_qid": "Q131323917"
+        }
+      ],
+      "reviewed_at": "2026-09-02T20:13:00Z",
+      "selection": {
+        "input_status": "needs-review",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 488
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T20:13:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T20:13:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
