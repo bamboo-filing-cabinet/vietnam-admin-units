@@ -1753,6 +1753,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.10",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q10810167", "Q10828383"],
+          "local_id": "w-04873-2025-07-01",
+          "mapping_note": "current Quy Đức page selects predecessor item Q10828383",
+          "outcome": "assign",
+          "rationale": "Q10828383 owns the current Quy Đức page and represents predecessor Trung Thành within the successor composition. Its label and parent remain stale; the old exact-label candidate does not own the current page.",
+          "wikidata_qid": "Q10828383"
+        },
+        {
+          "candidate_qids_checked": ["Q10757502", "Q10757504", "Q10801889"],
+          "local_id": "w-05086-2025-07-01",
+          "mapping_note": "current Dũng Tiến page selects predecessor item Q10801889",
+          "outcome": "assign",
+          "rationale": "Q10801889 owns the current Dũng Tiến page and represents predecessor Nuông Dăm within the successor composition. Its statements remain stale; the older label matches do not own the current page.",
+          "wikidata_qid": "Q10801889"
+        },
+        {
+          "candidate_qids_checked": ["Q1027327", "Q7682083", "Q7682084", "Q10796209", "Q10830775"],
+          "local_id": "w-05128-2025-07-01",
+          "mapping_note": "current Tân Lạc xã page selects predecessor item Q10796209",
+          "outcome": "assign",
+          "rationale": "Q10796209 owns the current `Tân Lạc (xã)` page and represents predecessor town Mãn Đức within the successor composition. Its statements remain stale; the other candidates are the former district or unrelated namesakes.",
+          "wikidata_qid": "Q10796209"
+        },
+        {
+          "candidate_qids_checked": ["Q10761362", "Q10827743", "Q10827744", "Q10827745", "Q10827746"],
+          "local_id": "w-05191-2025-07-01",
+          "mapping_note": "current Toàn Thắng page selects predecessor item Q10761362",
+          "outcome": "assign",
+          "rationale": "Q10761362 owns the current Toàn Thắng page and represents predecessor Gia Mô within the successor composition. Its label and parent remain stale; the other candidates are namesakes elsewhere.",
+          "wikidata_qid": "Q10761362"
+        },
+        {
+          "candidate_qids_checked": ["Q426868", "Q6467885", "Q10788447", "Q18461388"],
+          "local_id": "w-05266-2025-07-01",
+          "mapping_note": "current Lạc Sơn xã page selects predecessor item Q18461388",
+          "outcome": "assign",
+          "rationale": "Q18461388 owns the current `Lạc Sơn (xã)` page and represents predecessor town Vụ Bản within the successor composition. Its statements remain stale; Q6467885 is the former district.",
+          "wikidata_qid": "Q18461388"
+        },
+        {
+          "candidate_qids_checked": ["Q1822685", "Q10806268", "Q10810170", "Q10810172", "Q10810174", "Q10810175", "Q10810177", "Q10810179", "Q10810180", "Q10810181"],
+          "local_id": "w-05323-2025-07-01",
+          "mapping_note": "current Quyết Thắng, Phú Thọ page selects predecessor item Q10806268",
+          "outcome": "assign",
+          "rationale": "Q10806268 owns the current `Quyết Thắng, Phú Thọ` page and represents predecessor Phúc Tuy within the successor composition. Its statements remain stale; the other candidates are namesakes elsewhere.",
+          "wikidata_qid": "Q10806268"
+        },
+        {
+          "candidate_qids_checked": ["Q5260210", "Q10805147", "Q10805148", "Q10805149"],
+          "local_id": "w-05443-2025-07-01",
+          "mapping_note": "current Thái Nguyên ward page selects Q10805149 despite missing P131",
+          "outcome": "assign",
+          "rationale": "Q10805149 owns the current `Phan Đình Phùng (phường)` page and has ward class. The other candidates are the person and wrong-place communes.",
+          "wikidata_qid": "Q10805149"
+        },
+        {
+          "candidate_qids_checked": ["Q10841138", "Q10841139", "Q10841141", "Q137383313"],
+          "local_id": "w-05488-2025-07-01",
+          "mapping_note": "current Đại Phúc page selects Q137383313",
+          "outcome": "assign",
+          "rationale": "Q137383313 owns the current Đại Phúc page, whose introduction identifies the 2025 Thái Nguyên commune. The older candidates are a disambiguation item or namesakes outside the successor area.",
+          "wikidata_qid": "Q137383313"
+        },
+        {
+          "candidate_qids_checked": ["Q34800", "Q10830403", "Q10830404"],
+          "local_id": "w-05503-2025-07-01",
+          "mapping_note": "current Thái Nguyên page selects Q10830404 despite missing P131",
+          "outcome": "assign",
+          "rationale": "Q10830404 owns the current `Tân Cương (xã)` page and has commune class. The other candidates are Xinjiang and a different Tân Cương commune.",
+          "wikidata_qid": "Q10830404"
+        },
+        {
+          "candidate_qids_checked": ["Q5278299", "Q10841800", "Q10841801", "Q10841802", "Q10841803", "Q10841804", "Q137383278"],
+          "local_id": "w-05569-2025-07-01",
+          "mapping_note": "current Định Hóa, Thái Nguyên page selects Q137383278",
+          "outcome": "assign",
+          "rationale": "Q137383278 owns the current `Định Hóa, Thái Nguyên` page and is typed as a Vietnamese commune-level unit. Q5278299 is the former district and the remaining candidates are namesakes elsewhere.",
+          "wikidata_qid": "Q137383278"
+        }
+      ],
+      "reviewed_at": "2026-09-02T19:02:00Z",
+      "selection": {
+        "input_status": "needs-review",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 567
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T19:02:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T19:02:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
