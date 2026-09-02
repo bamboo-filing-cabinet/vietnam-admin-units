@@ -7402,16 +7402,16 @@ w-26188-2025-07-01,26188,Phường Tân Triều,Phường,75,2025-07-01,,Q135154
 w-26200-2004-06-30,26200,Xã Mã Đà,Xã,735,2004-06-30,2025-06-30,,,deferred-historical,,
 w-26203-2004-06-30,26203,Xã Hiếu Liêm,Xã,735,2004-06-30,2024-10-31,,,deferred-historical,,
 w-26206-2025-07-01,26206,Xã Định Quán,Xã,75,2025-07-01,,Q2406990,existing,matched,Q2406990,qlever-label+current-province+batched-wbgetentities
-w-26209-2025-07-01,26209,Xã Thanh Sơn,Xã,75,2025-07-01,,,,ambiguous,Q2000661|Q2186532|Q10824878|Q10824879|Q10824880|Q10824881|Q10824882|Q10824883|Q10824886|Q10824888|Q10824890|Q10824893|Q10825577|Q10825578|Q10825580|Q10825581|Q16480764|Q32304624|Q131459574,2 verified label candidates match current province; 0 match predecessor districts
+w-26209-2025-07-01,26209,Xã Thanh Sơn,Xã,75,2025-07-01,,Q2000661,existing,manual,Q2000661|Q2186532|Q10824878|Q10824879|Q10824880|Q10824881|Q10824882|Q10824883|Q10824886|Q10824888|Q10824890|Q10824893|Q10825577|Q10825578|Q10825580|Q10825581|Q16480764|Q32304624|Q131459574,review 2026-09-02.04: current page and Định Quán coordinates select Q2000661
 w-26215-2025-07-01,26215,Xã Phú Vinh,Xã,75,2025-07-01,,Q1866206,existing,matched,Q1866206|Q2943519|Q10806161,qlever-label+current-province+batched-wbgetentities
 w-26221-2025-07-01,26221,Xã Phú Hòa,Xã,75,2025-07-01,,Q2401776,existing,matched,Q2401776|Q2685414|Q10805791|Q10805923|Q10805926|Q10805927|Q10805929,qlever-label+current-province+batched-wbgetentities
 w-26227-2025-07-01,26227,Xã La Ngà,Xã,75,2025-07-01,,Q2485240,existing,matched,Q2485240,qlever-label+current-province+batched-wbgetentities
 w-26248-2025-07-01,26248,Phường Trảng Bom,Phường,75,2025-07-01,,Q2475554,existing,matched,Q2475554,qlever-label+current-province+batched-wbgetentities
 w-26254-2025-07-01,26254,Xã Bàu Hàm,Xã,75,2025-07-01,,Q1997553,existing,matched,Q1997553,qlever-label+current-province+batched-wbgetentities
-w-26278-2025-07-01,26278,Xã Bình Minh,Xã,75,2025-07-01,,,,ambiguous,Q681807|Q10742465|Q10742467|Q10742469|Q10742471|Q10742473|Q10742474|Q10742477|Q10742478|Q10825572|Q11839563|Q131552573,2 verified label candidates match current province; 0 match predecessor districts
+w-26278-2025-07-01,26278,Xã Bình Minh,Xã,75,2025-07-01,,Q10742473,existing,manual,Q681807|Q10742465|Q10742467|Q10742469|Q10742471|Q10742473|Q10742474|Q10742477|Q10742478|Q10825572|Q11839563|Q131552573,review 2026-09-02.04: current page and Trảng Bom coordinates select Q10742473
 w-26281-2025-07-01,26281,Xã Hưng Thịnh,Xã,75,2025-07-01,,Q2701405,existing,matched,Q2701405|Q10771407|Q10771408|Q10771410|Q32273097,qlever-label+current-province+batched-wbgetentities
 w-26296-2025-07-01,26296,Xã An Viễn,Xã,75,2025-07-01,,Q2189114,existing,matched,Q2189114|Q10733384,qlever-label+current-province+batched-wbgetentities
-w-26299-2025-07-01,26299,Xã Thống Nhất,Xã,75,2025-07-01,,,,ambiguous,Q2456625|Q2661321|Q10748641|Q10826592|Q10826594|Q10826595|Q10826596|Q10826598|Q10826602|Q10826604|Q10826605|Q10826606|Q86012175,3 verified label candidates match current province; 0 match predecessor districts
+w-26299-2025-07-01,26299,Xã Thống Nhất,Xã,75,2025-07-01,,Q2661321,existing,manual,Q2456625|Q2661321|Q10748641|Q10826592|Q10826594|Q10826595|Q10826596|Q10826598|Q10826602|Q10826604|Q10826605|Q10826606|Q86012175,review 2026-09-02.04: current page and cross-district predecessor footprint select Q2661321
 w-26311-2025-07-01,26311,Xã Gia Kiệm,Xã,75,2025-07-01,,Q2023472,existing,matched,Q2023472,qlever-label+current-province+batched-wbgetentities
 w-26326-2025-07-01,26326,Phường Dầu Giây,Phường,75,2025-07-01,,Q1821337,existing,matched,Q1821337,qlever-label+current-province+batched-wbgetentities
 w-26332-2025-07-01,26332,Xã Xuân Quế,Xã,75,2025-07-01,,Q2097341,existing,matched,Q2097341,qlever-label+current-province+batched-wbgetentities
@@ -7435,7 +7435,7 @@ w-26458-2025-07-01,26458,Xã Xuân Phú,Xã,75,2025-07-01,,Q2379049,existing,mat
 w-26461-2025-07-01,26461,Xã Xuân Định,Xã,75,2025-07-01,,Q2115812,existing,matched,Q2115812|Q10835185,qlever-label+current-province+batched-wbgetentities
 w-26485-2025-07-01,26485,Phường Nhơn Trạch,Phường,75,2025-07-01,,Q136461760,existing,matched,Q136461760,qlever-label+current-province+batched-wbgetentities
 w-26491-2025-07-01,26491,Xã Đại Phước,Xã,75,2025-07-01,,Q2049790,existing,matched,Q2049790|Q10841142,qlever-label+current-province+batched-wbgetentities
-w-26503-2025-07-01,26503,Xã Phước An,Xã,75,2025-07-01,,,,ambiguous,Q2662253|Q10806372|Q10806374,2 verified label candidates match current province; 0 match predecessor districts
+w-26503-2025-07-01,26503,Xã Phước An,Xã,75,2025-07-01,,Q2662253,existing,manual,Q2662253|Q10806372|Q10806374,review 2026-09-02.04: current page and Nhơn Trạch coordinates select Q2662253
 w-26506-2025-07-01,26506,Phường Vũng Tàu,Phường,79,2025-07-01,,Q1818274,existing,matched,Q1818274,qlever-label+current-province+batched-wbgetentities
 w-26508-2004-12-24,26508,Phường Thắng Tam,Phường,747,2004-12-24,2025-06-30,,,deferred-historical,,
 w-26526-2004-12-24,26526,Phường Nguyễn An Ninh,Phường,747,2004-12-24,2025-06-30,,,deferred-historical,,
@@ -7471,15 +7471,15 @@ w-26659-2025-07-01,26659,Xã Long Điền,Xã,79,2025-07-01,,Q2135254,existing,m
 w-26662-2025-07-01,26662,Xã Long Hải,Xã,79,2025-07-01,,Q2202392,existing,matched,Q2202392|Q10786843,qlever-label+current-province+batched-wbgetentities
 w-26680-2025-07-01,26680,Xã Đất Đỏ,Xã,79,2025-07-01,,Q2195982,existing,matched,Q2195982,qlever-label+current-province+batched-wbgetentities
 w-26686-2025-07-01,26686,Xã Phước Hải,Xã,79,2025-07-01,,Q7189898,existing,matched,Q7189898|Q10806408|Q10806410,qlever-label+current-province+batched-wbgetentities
-w-26704-2025-07-01,26704,Phường Phú Mỹ,Phường,79,2025-07-01,,,,ambiguous,Q2332949|Q7189880|Q10806017|Q10806018|Q10806020|Q10806021|Q10806022|Q10806024|Q10806025|Q18460229|Q32292875|Q32293706,2 verified label candidates match current province; 0 match predecessor districts
+w-26704-2025-07-01,26704,Phường Phú Mỹ,Phường,79,2025-07-01,,Q2332949,existing,manual,Q2332949|Q7189880|Q10806017|Q10806018|Q10806020|Q10806021|Q10806022|Q10806024|Q10806025|Q18460229|Q32292875|Q32293706,review 2026-09-02.04: current page and former Phú Mỹ city coordinates select Q2332949
 w-26710-2004-06-30,26710,Phường Tân Hải,Phường,754,2004-06-30,2025-06-30,,,deferred-historical,,
 w-26710-2025-07-01,26710,Phường Tân Hải,Phường,79,2025-07-01,,Q3352882,existing,matched,Q3352882|Q7862074|Q10830525|Q10830526,qlever-label+current-province+batched-wbgetentities
 w-26713-2025-07-01,26713,Phường Tân Phước,Phường,79,2025-07-01,,Q7862090,existing,matched,Q7862090|Q10830758|Q10830759|Q10830760,qlever-label+current-province+batched-wbgetentities
 w-26716-2004-06-30,26716,Phường Tân Phước,Phường,754,2004-06-30,2025-06-30,,,deferred-historical,,
-w-26725-2025-07-01,26725,Phường Tân Thành,Phường,79,2025-07-01,,,,ambiguous,Q2147855|Q2220647|Q4026176|Q4374988|Q7862093|Q7862096|Q10824815|Q10824864|Q10830796|Q10830797|Q10830798|Q10830801|Q10830819|Q10830820|Q10830821|Q10830822|Q10830823|Q10830825|Q10830828|Q10830829|Q10830830|Q10830831|Q10830832|Q10830834|Q10830835|Q10830836|Q10830838|Q10830839|Q10830840|Q10830841|Q10830842|Q10830844|Q10830845|Q10830847|Q10830849|Q10830850|Q10830851|Q10830853|Q10830855|Q10830865|Q10830868|Q16481423,2 verified label candidates match current province; 0 match predecessor districts
+w-26725-2025-07-01,26725,Phường Tân Thành,Phường,79,2025-07-01,,Q2147855,existing,manual,Q2147855|Q2220647|Q4026176|Q4374988|Q7862093|Q7862096|Q10824815|Q10824864|Q10830796|Q10830797|Q10830798|Q10830801|Q10830819|Q10830820|Q10830821|Q10830822|Q10830823|Q10830825|Q10830828|Q10830829|Q10830830|Q10830831|Q10830832|Q10830834|Q10830835|Q10830836|Q10830838|Q10830839|Q10830840|Q10830841|Q10830842|Q10830844|Q10830845|Q10830847|Q10830849|Q10830850|Q10830851|Q10830853|Q10830855|Q10830865|Q10830868|Q16481423,review 2026-09-02.04: current page and former Phú Mỹ city coordinates select Q2147855
 w-26728-2025-07-01,26728,Xã Châu Pha,Xã,79,2025-07-01,,Q3421396,existing,matched,Q3421396,qlever-label+current-province+batched-wbgetentities
 w-26732-2025-07-01,26732,Đặc khu Côn Đảo,Đặc khu,79,2025-07-01,,,,needs-review,Q370746,"candidate name, tier, active-date, or current-province evidence disagrees"
-w-26737-2025-07-01,26737,Phường Tân Định,Phường,79,2025-07-01,,,,ambiguous,Q2233336|Q2321848|Q2333073|Q10801366|Q10831008|Q32229505,3 verified label candidates match current province; 0 match predecessor districts
+w-26737-2025-07-01,26737,Phường Tân Định,Phường,79,2025-07-01,,Q32229505,existing,manual,Q2233336|Q2321848|Q2333073|Q10801366|Q10831008|Q32229505,review 2026-09-02.04: current page and inner-city coordinates select Q32229505
 w-26740-2025-07-01,26740,Phường Sài Gòn,Phường,79,2025-07-01,,Q135026770,existing,matched,Q135026770,qlever-label+current-province+batched-wbgetentities
 w-26743-2025-07-01,26743,Phường Bến Thành,Phường,79,2025-07-01,,Q10743447,existing,matched,Q10743447,qlever-label+current-province+batched-wbgetentities
 w-26758-2025-07-01,26758,Phường Cầu Ông Lãnh,Phường,79,2025-07-01,,Q10752443,existing,matched,Q10752443,qlever-label+current-province+batched-wbgetentities
@@ -7519,7 +7519,7 @@ w-26968-2025-07-01,26968,Phường Tân Sơn Nhất,Phường,79,2025-07-01,,Q20
 w-26977-2025-07-01,26977,Phường Tân Sơn Hòa,Phường,79,2025-07-01,,Q2202269,existing,matched,Q2202269,qlever-label+current-province+batched-wbgetentities
 w-26983-2025-07-01,26983,Phường Bảy Hiền,Phường,79,2025-07-01,,Q2782210,existing,matched,Q2782210,qlever-label+current-province+batched-wbgetentities
 w-26995-2025-07-01,26995,Phường Tân Hòa,Phường,79,2025-07-01,,Q2467139,existing,matched,Q2347695|Q2467139|Q2573613|Q3943116|Q7862062|Q7862063|Q10830458|Q10830459|Q10830460|Q10830462|Q10830464|Q10830465|Q10830467|Q10830469|Q10830471|Q10830475|Q10830476|Q10830477|Q10830478|Q16480542|Q32585861,broad-exact-vi+current-province+ward-class+batched-wbgetentities
-w-27004-2025-07-01,27004,Phường Tân Bình,Phường,79,2025-07-01,,,,ambiguous,Q2246476|Q2323884|Q2504172|Q2745776|Q7862055|Q10826655|Q10830360|Q10830361|Q10830363|Q10830364|Q10830366|Q10830367|Q10830368|Q10830371|Q10830373|Q10830374|Q10830378|Q10830380|Q10830381|Q10830382|Q10830383|Q10830384,3 verified label candidates match current province; 0 match predecessor districts
+w-27004-2025-07-01,27004,Phường Tân Bình,Phường,79,2025-07-01,,Q2504172,existing,manual,Q2246476|Q2323884|Q2504172|Q2745776|Q7862055|Q10826655|Q10830360|Q10830361|Q10830363|Q10830364|Q10830366|Q10830367|Q10830368|Q10830371|Q10830373|Q10830374|Q10830378|Q10830380|Q10830381|Q10830382|Q10830383|Q10830384,review 2026-09-02.04: current page and former Tân Bình district coordinates select Q2504172
 w-27007-2025-07-01,27007,Phường Tân Sơn,Phường,79,2025-07-01,,Q10806649,existing,matched,Q7862091|Q7862092|Q10806649|Q10830783|Q10830785|Q10830787|Q10830789|Q10830790|Q10830791|Q10830793|Q16481422|Q32587242,qlever-label+current-province+batched-wbgetentities
 w-27013-2004-06-30,27013,Phường Tây Thạnh,Phường,767,2004-06-30,2025-06-30,,,deferred-historical,,
 w-27013-2025-07-01,27013,Phường Tây Thạnh,Phường,79,2025-07-01,,Q10831085,existing,matched,Q10831085,qlever-label+current-province+batched-wbgetentities
@@ -7529,7 +7529,7 @@ w-27019-2025-07-01,27019,Phường Tân Sơn Nhì,Phường,79,2025-07-01,,Q1083
 w-27022-2025-07-01,27022,Phường Phú Thọ Hòa,Phường,79,2025-07-01,,Q10806126,existing,matched,Q10806126,qlever-label+current-province+batched-wbgetentities
 w-27028-2004-06-30,27028,Phường Phú Thạnh,Phường,767,2004-06-30,2025-06-30,,,deferred-historical,,
 w-27028-2025-07-01,27028,Phường Phú Thạnh,Phường,79,2025-07-01,,Q10806107,existing,matched,Q2314900|Q2365105|Q2657728|Q2795899|Q10806074|Q10806075|Q10806091|Q10806092|Q10806093|Q10806106|Q10806107|Q136653445,qlever-label+current-province+batched-wbgetentities
-w-27031-2025-07-01,27031,Phường Tân Phú,Phường,79,2025-07-01,,,,ambiguous,Q10806141|Q10830719|Q10830722|Q10830723|Q10830725|Q10830727|Q10830728|Q10830729|Q10830731|Q10830733|Q10830734|Q10830736|Q10830737|Q10830738,2 verified label candidates match current province; 0 match predecessor districts
+w-27031-2025-07-01,27031,Phường Tân Phú,Phường,79,2025-07-01,,Q10806141,existing,manual,Q10806141|Q10830719|Q10830722|Q10830723|Q10830725|Q10830727|Q10830728|Q10830729|Q10830731|Q10830733|Q10830734|Q10830736|Q10830737|Q10830738,review 2026-09-02.04: current page and former Tân Phú district coordinates select Q10806141
 w-27034-2004-06-30,27034,Phường Hòa Thạnh,Phường,767,2004-06-30,2025-06-30,,,deferred-historical,,
 w-27040-2004-06-30,27040,Phường Tân Thới Hòa,Phường,767,2004-06-30,2025-06-30,,,deferred-historical,,
 w-27043-2025-07-01,27043,Phường Đức Nhuận,Phường,79,2025-07-01,,Q10806732,existing,matched,Q10806732|Q10842404,qlever-label+current-province+batched-wbgetentities
@@ -7547,7 +7547,7 @@ w-27169-2025-07-01,27169,Phường Diên Hồng,Phường,79,2025-07-01,,Q461460
 w-27190-2025-07-01,27190,Phường Vườn Lài,Phường,79,2025-07-01,,Q2197243,existing,matched,Q2197243,qlever-label+current-province+batched-wbgetentities
 w-27211-2025-07-01,27211,Phường Hòa Bình,Phường,79,2025-07-01,,Q10806760,existing,matched,Q1863169|Q2037743|Q5964416|Q10770905|Q10770906|Q10770908|Q10770909|Q10770912|Q10770913|Q10770914|Q10770915|Q10770917|Q10770919|Q10770921|Q10770923|Q10770924|Q10770925|Q10770929|Q10806760,broad-exact-vi+current-province+ward-class+batched-wbgetentities
 w-27226-2025-01-01,27226,Phường 11,Phường,772,2025-01-01,2025-06-30,,,deferred-historical,,
-w-27226-2025-07-01,27226,Phường Phú Thọ,Phường,79,2025-07-01,,,,ambiguous,Q2539078|Q2595940|Q10770583|Q10806123|Q10806124,2 verified label candidates match current province; 0 match predecessor districts
+w-27226-2025-07-01,27226,Phường Phú Thọ,Phường,79,2025-07-01,,Q2595940,existing,manual,Q2539078|Q2595940|Q10770583|Q10806123|Q10806124,review 2026-09-02.04: current page and former District 11 coordinates select Q2595940
 w-27232-2025-01-01,27232,Phường 10,Phường,772,2025-01-01,2025-06-30,,,deferred-historical,,
 w-27232-2025-07-01,27232,Phường Bình Thới,Phường,79,2025-07-01,,Q2189978,existing,matched,Q2189978|Q10742586|Q10742587,qlever-label+current-province+batched-wbgetentities
 w-27238-2025-07-01,27238,Phường Minh Phụng,Phường,79,2025-07-01,,Q4774836,existing,matched,Q4774836,qlever-label+current-province+batched-wbgetentities

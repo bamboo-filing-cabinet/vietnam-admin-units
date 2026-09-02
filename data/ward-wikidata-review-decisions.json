@@ -976,6 +976,204 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.04",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q2000661", "Q2186532"],
+          "evidence": {
+            "predecessor_parent_codes": ["736"],
+            "viwiki": {
+              "extract": "Thanh Sơn là một xã thuộc thành phố Đồng Nai, Việt Nam.",
+              "page_id": 1253170,
+              "title": "Thanh Sơn, Đồng Nai",
+              "wikibase_item": "Q2000661"
+            }
+          },
+          "local_id": "w-26209-2025-07-01",
+          "mapping_note": "current page and Định Quán coordinates select Q2000661",
+          "outcome": "assign",
+          "rationale": "Q2000661 owns the current page and lies in former Định Quán district. Q2186532 is the eastern namesake.",
+          "wikidata_qid": "Q2000661"
+        },
+        {
+          "candidate_qids_checked": ["Q10742467", "Q10742473"],
+          "evidence": {
+            "predecessor_parent_codes": ["737"],
+            "viwiki": {
+              "extract": "Bình Minh là một xã thuộc thành phố Đồng Nai, Việt Nam.",
+              "page_id": 1242754,
+              "title": "Bình Minh, Đồng Nai",
+              "wikibase_item": "Q10742473"
+            }
+          },
+          "local_id": "w-26278-2025-07-01",
+          "mapping_note": "current page and Trảng Bom coordinates select Q10742473",
+          "outcome": "assign",
+          "rationale": "Q10742473 owns the current page and lies in the Bình Minh–Bắc Sơn predecessor area. Q10742467 is a northern namesake.",
+          "wikidata_qid": "Q10742473"
+        },
+        {
+          "candidate_qids_checked": ["Q2456625", "Q2661321", "Q10826594"],
+          "evidence": {
+            "predecessor_parent_codes": ["736", "738"],
+            "viwiki": {
+              "extract": "Thống Nhất là một xã thuộc thành phố Đồng Nai, Việt Nam.",
+              "page_id": 19952526,
+              "title": "Thống Nhất, Đồng Nai",
+              "wikibase_item": "Q2661321"
+            }
+          },
+          "local_id": "w-26299-2025-07-01",
+          "mapping_note": "current page and cross-district predecessor footprint select Q2661321",
+          "outcome": "assign",
+          "rationale": "Q2661321 owns the current page and lies between the former Định Quán and Thống Nhất predecessor components. Q2456625 is a Biên Hòa ward and Q10826594 is farther north.",
+          "wikidata_qid": "Q2661321"
+        },
+        {
+          "candidate_qids_checked": ["Q2662253", "Q10806372"],
+          "evidence": {
+            "predecessor_parent_codes": ["742"],
+            "viwiki": {
+              "extract": "Phước An là một xã thuộc thành phố Đồng Nai, Việt Nam.",
+              "page_id": 1251756,
+              "title": "Phước An",
+              "wikibase_item": "Q2662253"
+            }
+          },
+          "local_id": "w-26503-2025-07-01",
+          "mapping_note": "current page and Nhơn Trạch coordinates select Q2662253",
+          "outcome": "assign",
+          "rationale": "Q2662253 owns the current page and lies in the Long Thọ–Phước An–Vĩnh Thanh predecessor area. Q10806372 is a northern namesake.",
+          "wikidata_qid": "Q2662253"
+        },
+        {
+          "candidate_qids_checked": ["Q2332949", "Q10806024"],
+          "evidence": {
+            "predecessor_parent_codes": ["754"],
+            "viwiki": {
+              "extract": "Phú Mỹ là một phường thuộc Thành phố Hồ Chí Minh, Việt Nam.",
+              "page_id": 506127,
+              "title": "Phú Mỹ (phường)",
+              "wikibase_item": "Q2332949"
+            }
+          },
+          "local_id": "w-26704-2025-07-01",
+          "mapping_note": "current page and former Phú Mỹ city coordinates select Q2332949",
+          "outcome": "assign",
+          "rationale": "Q2332949 owns the current page and lies in the Phú Mỹ–Mỹ Xuân predecessor area. Q10806024 is the former Bình Dương namesake.",
+          "wikidata_qid": "Q2332949"
+        },
+        {
+          "candidate_qids_checked": ["Q2147855", "Q10830844"],
+          "evidence": {
+            "predecessor_parent_codes": ["754"],
+            "viwiki": {
+              "extract": "Tân Thành là một phường thuộc Thành phố Hồ Chí Minh, Việt Nam.",
+              "page_id": 19935796,
+              "title": "Tân Thành, Thành phố Hồ Chí Minh",
+              "wikibase_item": "Q2147855"
+            }
+          },
+          "local_id": "w-26725-2025-07-01",
+          "mapping_note": "current page and former Phú Mỹ city coordinates select Q2147855",
+          "outcome": "assign",
+          "rationale": "Q2147855 owns the current page and lies in the Sông Xoài–Hắc Dịch predecessor area. Q10830844 is an inner-city namesake.",
+          "wikidata_qid": "Q2147855"
+        },
+        {
+          "candidate_qids_checked": ["Q2233336", "Q2333073", "Q32229505"],
+          "evidence": {
+            "predecessor_parent_codes": ["760"],
+            "viwiki": {
+              "extract": "Tân Định là một phường thuộc Thành phố Hồ Chí Minh, Việt Nam.",
+              "page_id": 1241729,
+              "title": "Tân Định (phường)",
+              "wikibase_item": "Q32229505"
+            }
+          },
+          "local_id": "w-26737-2025-07-01",
+          "mapping_note": "current page and inner-city coordinates select Q32229505",
+          "outcome": "assign",
+          "rationale": "Q32229505 owns the current 2025 page and lies in the former District 1 predecessor area. The other candidates are former Bình Dương namesakes.",
+          "wikidata_qid": "Q32229505"
+        },
+        {
+          "candidate_qids_checked": ["Q2246476", "Q2504172", "Q2745776"],
+          "evidence": {
+            "predecessor_parent_codes": ["766"],
+            "viwiki": {
+              "extract": "Tân Bình là một phường thuộc Thành phố Hồ Chí Minh, Việt Nam.",
+              "page_id": 19946870,
+              "title": "Tân Bình (phường)",
+              "wikibase_item": "Q2504172"
+            }
+          },
+          "local_id": "w-27004-2025-07-01",
+          "mapping_note": "current page and former Tân Bình district coordinates select Q2504172",
+          "outcome": "assign",
+          "rationale": "Q2504172 owns the current page and lies in the former wards 13–15 footprint. The other candidates are northern namesakes.",
+          "wikidata_qid": "Q2504172"
+        },
+        {
+          "candidate_qids_checked": ["Q10806141", "Q10830727"],
+          "evidence": {
+            "predecessor_parent_codes": ["767"],
+            "viwiki": {
+              "extract": "Tân Phú là một phường thuộc Thành phố Hồ Chí Minh, Việt Nam.",
+              "page_id": 19947323,
+              "title": "Tân Phú, Thành phố Hồ Chí Minh",
+              "wikibase_item": "Q10806141"
+            }
+          },
+          "local_id": "w-27031-2025-07-01",
+          "mapping_note": "current page and former Tân Phú district coordinates select Q10806141",
+          "outcome": "assign",
+          "rationale": "Q10806141 owns the current page and lies in the Hòa Thạnh–Tân Thới Hòa–Tân Thành–Phú Trung footprint. Q10830727 is the eastern namesake.",
+          "wikidata_qid": "Q10806141"
+        },
+        {
+          "candidate_qids_checked": ["Q2595940", "Q10806124"],
+          "evidence": {
+            "predecessor_parent_codes": ["772"],
+            "viwiki": {
+              "extract": "Phú Thọ là một phường thuộc Thành phố Hồ Chí Minh, Việt Nam.",
+              "page_id": 19946980,
+              "title": "Phú Thọ, Thành phố Hồ Chí Minh",
+              "wikibase_item": "Q2595940"
+            }
+          },
+          "local_id": "w-27226-2025-07-01",
+          "mapping_note": "current page and former District 11 coordinates select Q2595940",
+          "outcome": "assign",
+          "rationale": "Q2595940 owns the current page and lies in the former wards 8, 11, and 15 footprint. Q10806124 is the former Bình Dương namesake.",
+          "wikidata_qid": "Q2595940"
+        }
+      ],
+      "reviewed_at": "2026-09-02T17:58:01Z",
+      "selection": {
+        "input_status": "ambiguous",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 622
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T17:58:01Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T17:58:01Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
