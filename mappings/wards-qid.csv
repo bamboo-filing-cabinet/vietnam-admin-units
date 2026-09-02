@@ -8816,17 +8816,17 @@ w-31861-2004-06-30,31861,Xã Vĩnh Lộc A,Xã,956,2004-06-30,2025-06-30,,,defer
 w-31863-2008-08-16,31863,Xã Ninh Thạnh Lợi A,Xã,956,2008-08-16,2025-06-30,,,deferred-historical,,
 w-31864-2025-07-01,31864,Xã Ninh Thạnh Lợi,Xã,96,2025-07-01,,Q7038790,existing,matched,Q7038790,qlever-label+current-province+batched-wbgetentities
 w-31867-2025-07-01,31867,Xã Phước Long,Xã,96,2025-07-01,,Q7189903,existing,matched,Q7189903|Q7189905|Q10806381|Q10806424,broad-exact-vi+current-province+ward-class+batched-wbgetentities
-w-31876-2025-07-01,31876,Xã Vĩnh Phước,Xã,96,2025-07-01,,,,needs-review,Q1921142|Q10833650|Q10833652,"3 label candidate(s), but no bulk P131 resolves to the current province"
+w-31876-2025-07-01,31876,Xã Vĩnh Phước,Xã,96,2025-07-01,,Q136677210,existing,manual,Q1921142|Q10833649|Q10833650|Q10833652|Q52332594|Q136677210,review 2026-09-02.38: current Vĩnh Phước xã page selects Q136677210
 w-31882-2025-07-01,31882,Xã Vĩnh Thanh,Xã,96,2025-07-01,,Q7945023,existing,matched,Q1894522|Q1905243|Q7945023|Q10832676|Q10833673|Q10833687|Q10833688|Q10833695|Q10833696|Q10833697|Q10833701|Q32591915,qlever-label+current-province+batched-wbgetentities
 w-31885-2025-07-01,31885,Xã Phong Hiệp,Xã,96,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
 w-31888-2004-06-30,31888,Xã Phong Thạnh Tây B,Xã,957,2004-06-30,2025-06-30,,,deferred-historical,,
 w-31891-2025-07-01,31891,Xã Hòa Bình,Xã,96,2025-07-01,,Q5964416,existing,matched,Q1863169|Q2037743|Q5964416|Q10770905|Q10770906|Q10770908|Q10770909|Q10770912|Q10770913|Q10770914|Q10770915|Q10770917|Q10770919|Q10770921|Q10770923|Q10770924|Q10770925|Q10770929|Q10806760,qlever-label+current-province+batched-wbgetentities
 w-31894-2025-07-01,31894,Xã Châu Thới,Xã,96,2025-07-01,,Q5118904,existing,matched,Q5118904,qlever-label+current-province+batched-wbgetentities
 w-31897-2004-06-30,31897,Xã Vĩnh Hưng A,Xã,958,2004-06-30,2025-06-30,,,deferred-historical,,
-w-31900-2025-07-01,31900,Xã Vĩnh Lợi,Xã,96,2025-07-01,,,,needs-review,Q2206035|Q10833614|Q10833615|Q10833616|Q10833617,"5 label candidate(s), but no bulk P131 resolves to the current province"
+w-31900-2025-07-01,31900,Xã Vĩnh Lợi,Xã,96,2025-07-01,,Q136675943,existing,manual,Q2206035|Q3042713|Q7932535|Q10833614|Q10833615|Q10833616|Q10833617|Q136675943,"review 2026-09-02.38: current Vĩnh Lợi, Cà Mau page selects Q136675943"
 w-31903-2004-06-30,31903,Xã Châu Hưng A,Xã,958,2004-06-30,2025-06-30,,,deferred-historical,,
 w-31906-2025-07-01,31906,Xã Hưng Hội,Xã,96,2025-07-01,,Q5965302,existing,matched,Q5965302,qlever-label+current-province+batched-wbgetentities
-w-31918-2025-07-01,31918,Xã Vĩnh Mỹ,Xã,96,2025-07-01,,,,needs-review,Q1829736|Q10832660,"2 label candidate(s), but no bulk P131 resolves to the current province"
+w-31918-2025-07-01,31918,Xã Vĩnh Mỹ,Xã,96,2025-07-01,,Q136675936,existing,manual,Q1829736|Q10832660|Q10833619|Q136675936,review 2026-09-02.38: current Vĩnh Mỹ page selects Q136675936
 w-31927-2025-07-01,31927,Xã Vĩnh Hậu,Xã,96,2025-07-01,,Q7945015,existing,matched,Q2449918|Q7945015,qlever-label+current-province+batched-wbgetentities
 w-31930-2004-06-30,31930,Xã Vĩnh Hậu A,Xã,961,2004-06-30,2025-06-30,,,deferred-historical,,
 w-31942-2025-07-01,31942,Phường Giá Rai,Phường,96,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
@@ -8834,7 +8834,7 @@ w-31951-2025-07-01,31951,Phường Láng Tròn,Phường,96,2025-07-01,,Q7187257
 w-31957-2025-07-01,31957,Xã Phong Thạnh,Xã,96,2025-07-01,,Q7187247,existing,matched,Q7187247|Q10805480,qlever-label+current-province+batched-wbgetentities
 w-31963-2004-06-30,31963,Xã Phong Thạnh A,Xã,959,2004-06-30,2025-06-30,,,deferred-historical,,
 w-31972-2025-07-01,31972,Xã Gành Hào,Xã,96,2025-07-01,,Q5521296,existing,matched,Q5521296,qlever-label+current-province+batched-wbgetentities
-w-31975-2025-07-01,31975,Xã Đông Hải,Xã,96,2025-07-01,,,,needs-review,Q10771748|Q10840746|Q10840750|Q10840751|Q10840753|Q32598066,"6 label candidate(s), but no bulk P131 resolves to the current province"
+w-31975-2025-07-01,31975,Xã Đông Hải,Xã,96,2025-07-01,,Q136675917,existing,manual,Q27092|Q45341|Q252042|Q1197723|Q3250118|Q5295914|Q10771748|Q10840746|Q10840747|Q10840749|Q10840750|Q10840751|Q10840753|Q32598066|Q45458856|Q45492005|Q46551088|Q98271392|Q105766618|Q111769142|Q136675917,"review 2026-09-02.38: current Đông Hải, Cà Mau page selects Q136675917"
 w-31985-2008-08-16,31985,Xã Điền Hải,Xã,960,2008-08-16,2025-06-30,,,deferred-historical,,
 w-31985-2025-07-01,31985,Xã Long Điền,Xã,96,2025-07-01,,Q10786964,existing,matched,Q2100750|Q2135254|Q10786964,qlever-label+current-province+batched-wbgetentities
 w-31988-2008-08-16,31988,Xã An Trạch A,Xã,960,2008-08-16,2025-06-30,,,deferred-historical,,

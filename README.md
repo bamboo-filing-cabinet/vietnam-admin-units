@@ -88,7 +88,7 @@ independent geo cross-check (P625 kNN) confirmed **0 wrong-place matches**. Buil
 *accepted* Ninh Bình → Hoa Lư successor-relabel; the 3 Tier-B TYPE flags cleared (batch #261331 stamped
 `P31`=huyện). Independent geo cross-check (P625 kNN): **0 wrong-place matches**. **Phase 2 fully verified.**
 
-**◀◀ RESUME HERE — Phase 3: ward Wikidata mapping review.** Provinces
+**◀◀ RESUME HERE — Phase 3: ward Wikidata lookup.** Provinces
 (Phase 1) and districts (Phase 2) are complete + live on Wikidata with **no open
 work**. The 2025 ward boundary and full predecessor→successor topology are
 complete offline. Historical source-closure Tasks 1–6 are also complete: all
@@ -102,15 +102,18 @@ The read-only Wikidata discovery snapshot is also complete: one saved QLever
 query produced 11,838 candidates in 739 ms, local parent prefiltering reduced
 Action API verification to 2,878 items in 58 batches, and two additional saved
 evidence passes raised coverage to 2,670 of 3,321 current wards. Five manual
-identity-review batches then process all 47 ambiguous rows with a durable
-decision ledger: 46 receive QIDs and one remains explicitly unresolved. Current
-coverage is 2,716 with zero structural issues. **Resume with classification of
-the 605 unassigned current rows** (324 needs review, 280 needs lookup, and one
-reviewed unresolved). No Wikidata statements have been emitted. See the initial
+identity-review batches processed all 47 ambiguous rows with a durable decision
+ledger: 46 received QIDs and one remained explicitly unresolved. Thirty-three
+follow-up batches then closed all 324 `needs-review` rows. Current coverage is
+2,968 with zero structural issues: 2,668 automatic matches and 300 manual
+matches. **Resume with the 280 `needs-lookup` rows.** The other 73 unassigned
+rows are already reviewed and recorded as unresolved item-creation gaps. No
+Wikidata statements have been emitted. See the initial
 [reconciliation journal](docs/journals/2026-09-01.05.ward-wikidata-reconciliation.md),
 the [review-reduction journal](docs/journals/2026-09-01.06.ward-wikidata-review-reduction.md),
 the [first manual review batch](docs/journals/2026-09-02.01.ward-wikidata-review-batch-01.md),
 the [ambiguous-queue closure](docs/journals/2026-09-02.05.ward-wikidata-review-batch-05.md),
+the [needs-review closure](docs/journals/2026-09-02.38.ward-wikidata-needs-review-batch-33.md),
 and run:
 
 ```sh

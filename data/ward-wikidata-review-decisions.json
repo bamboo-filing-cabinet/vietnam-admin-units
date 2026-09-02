@@ -4794,6 +4794,66 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.38",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q1921142", "Q10833649", "Q10833650", "Q10833652", "Q52332594", "Q136677210"],
+          "local_id": "w-31876-2025-07-01",
+          "mapping_note": "current Vĩnh Phước xã page selects Q136677210",
+          "outcome": "assign",
+          "rationale": "Q136677210 owns the current `Vĩnh Phước (xã)` page, and its label and description identify the Cà Mau commune. Its structured class and parent are absent; the other candidates are namesakes or unrelated entities.",
+          "wikidata_qid": "Q136677210"
+        },
+        {
+          "candidate_qids_checked": ["Q2206035", "Q3042713", "Q7932535", "Q10833614", "Q10833615", "Q10833616", "Q10833617", "Q136675943"],
+          "local_id": "w-31900-2025-07-01",
+          "mapping_note": "current Vĩnh Lợi, Cà Mau page selects Q136675943",
+          "outcome": "assign",
+          "rationale": "Q136675943 owns the current `Vĩnh Lợi, Cà Mau` page, and its label and description identify the commune. Its structured class and parent are absent; the other candidates are the former district, namesakes, or unrelated entities.",
+          "wikidata_qid": "Q136675943"
+        },
+        {
+          "candidate_qids_checked": ["Q1829736", "Q10832660", "Q10833619", "Q136675936"],
+          "local_id": "w-31918-2025-07-01",
+          "mapping_note": "current Vĩnh Mỹ page selects Q136675936",
+          "outcome": "assign",
+          "rationale": "Q136675936 owns the current Vĩnh Mỹ page, and its label and description identify the Cà Mau commune. Its structured class and parent are absent; the other candidates are namesakes or former units.",
+          "wikidata_qid": "Q136675936"
+        },
+        {
+          "candidate_qids_checked": ["Q27092", "Q45341", "Q252042", "Q1197723", "Q3250118", "Q5295914", "Q10771748", "Q10840746", "Q10840747", "Q10840749", "Q10840750", "Q10840751", "Q10840753", "Q45458856", "Q45492005", "Q46551088", "Q98271392", "Q105766618", "Q111769142", "Q136675917"],
+          "local_id": "w-31975-2025-07-01",
+          "mapping_note": "current Đông Hải, Cà Mau page selects Q136675917",
+          "outcome": "assign",
+          "rationale": "Q136675917 owns the current `Đông Hải, Cà Mau` page, and its label and description identify the commune. Its structured class and parent are absent; the other candidates are the former district, namesakes, or unrelated entities.",
+          "wikidata_qid": "Q136675917"
+        }
+      ],
+      "reviewed_at": "2026-09-02T22:47:00Z",
+      "selection": {
+        "input_status": "needs-review",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 357
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T22:47:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T22:47:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
