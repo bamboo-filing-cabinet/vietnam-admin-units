@@ -108,14 +108,14 @@
 > **Update (2026-09-02): current reconciliation is review-complete; emission is
 > staged but still blocked.** Current coverage is 3,163/3,321, with 158 reviewed
 > item-creation gaps and no ambiguous/review/lookup queue. The gaps now have a
-> deterministic manifest and sixteen ten-item CREATE files, all sourced to the
+> deterministic manifest and one consolidated CREATE file, all sourced to the
 > signed 2025 province resolutions. However, the mapping's 11,223 historical
 > rows were deliberately deferred: none of the 10,035 immediate pre-reform
 > predecessors has a QID, so 0/10,586 reform edges currently have both endpoint
 > QIDs. `vn_admin_units.ward_emit` records this as a hard gate and refuses
 > lineage output. Resume with predecessor reconciliation, following
 > `docs/plans/2026-09-02-phase3-ward-wikidata-emission.md`; do not upload the
-> CREATE files without a fresh duplicate/sitelink preflight.
+> CREATE file without a fresh duplicate/sitelink preflight.
 
 Extends `DESIGN.md` (the overarching design + decisions log). **Phase 1**
 delivered the *2025-reform province slice* (`docs/plans/2026-07-10-phase1-

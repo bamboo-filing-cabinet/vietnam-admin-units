@@ -108,10 +108,10 @@ follow-up batches then closed all 324 `needs-review` rows, and twenty-eight
 lookup batches closed all 280 `needs-lookup` rows. Current coverage is 3,163
 with zero structural issues: 2,667 automatic matches and 496 manual matches.
 The 158 unassigned current rows are all reviewed and recorded as item-creation
-gaps. An offline package now captures them in sixteen batches of at most ten:
-`data/ward-wikidata-create-current.json` plus
-`statements/wards-create-current/*.qs`. These files are **not uploaded** and
-require a fresh duplicate/sitelink preflight before use.
+gaps. An offline package now captures all of them in
+`data/ward-wikidata-create-current.json` and the consolidated
+`statements/na-wards-create-current.qs`. The file is **not uploaded** and
+requires a fresh duplicate/sitelink preflight before use.
 
 Full 2025 lineage emission is not ready: all 11,223 historical mapping rows were
 intentionally deferred, including all 10,035 immediate reform predecessors.

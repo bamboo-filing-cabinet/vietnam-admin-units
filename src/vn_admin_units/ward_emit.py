@@ -31,6 +31,7 @@ LEGAL_SOURCES = Path("data/ward-legal-sources.json")
 REVIEW_DECISIONS = Path("data/ward-wikidata-review-decisions.json")
 CREATE_MANIFEST = Path("data/ward-wikidata-create-current.json")
 READINESS = Path("data/ward-wikidata-emission-readiness.json")
+CREATE_STATEMENTS = Path("statements/na-wards-create-current.qs")
 CREATE_BATCH_DIR = Path("statements/wards-create-current")
 _QID = re.compile(r"^Q[1-9][0-9]*$")
 
@@ -95,12 +96,12 @@ def build_current_creation_manifest(
     legal_sources: dict,
     review_decisions: dict,
     *,
-    batch_size: int = 10,
+    review_group_size: int = 10,
     input_fingerprints: dict[str, str] | None = None,
 ) -> dict:
     """Build the deterministic manifest for reviewed current item gaps."""
-    if batch_size < 1:
-        raise ValueError("batch_size must be positive")
+    if review_group_size < 1:
+        raise ValueError("review_group_size must be positive")
 
     entities = {row["local_id"]: row for row in history["entities"]}
     current_ids = {
@@ -148,7 +149,7 @@ def build_current_creation_manifest(
         instrument_id, reference_url = _official_reference(entity, sources_by_id)
         entries.append({
             "sequence": sequence,
-            "batch": (sequence - 1) // batch_size + 1,
+            "review_group": (sequence - 1) // review_group_size + 1,
             "local_id": row["local_id"],
             "gso_code": row["terminal_code"],
             "name_vi": entity["name_vi"],
@@ -174,12 +175,16 @@ def build_current_creation_manifest(
             "effective_date": REFORM_DATE,
             "purpose": "reviewed current Wikidata item-creation gaps",
             "wikidata_write_performed": False,
-            "batch_size": batch_size,
+            "statement_file": CREATE_STATEMENTS.as_posix(),
+            "review_group_size": review_group_size,
         },
         "input_fingerprints": input_fingerprints or {},
         "audit": {
             "items": len(entries),
-            "batches": (len(entries) + batch_size - 1) // batch_size,
+            "statement_files": 1 if entries else 0,
+            "review_groups": (
+                (len(entries) + review_group_size - 1) // review_group_size
+            ),
             "type_counts": dict(sorted(Counter(row["loai_hinh"] for row in entries).items())),
             "province_count": len({row["parent_code"] for row in entries}),
             "official_reference_urls": len({row["reference_url"] for row in entries}),
@@ -207,12 +212,10 @@ def emit_creation_item(item: dict) -> str:
     ]) + "\n"
 
 
-def render_creation_batches(manifest: dict) -> dict[str, str]:
-    rendered = {}
-    for item in manifest["items"]:
-        name = f"{item['batch']:03d}.qs"
-        rendered[name] = rendered.get(name, "") + emit_creation_item(item)
-    return rendered
+def render_creation_statements(manifest: dict) -> str:
+    return "\n".join(
+        emit_creation_item(item).rstrip("\n") for item in manifest["items"]
+    ) + ("\n" if manifest["items"] else "")
 
 
 def build_emission_readiness(
@@ -355,38 +358,34 @@ def _write_atomic(path: Path, content: str) -> None:
 def write_package(manifest: dict, readiness: dict) -> None:
     _write_atomic(CREATE_MANIFEST, _serialize_json(manifest))
     _write_atomic(READINESS, _serialize_json(readiness))
-    batches = render_creation_batches(manifest)
-    for name, content in batches.items():
-        _write_atomic(CREATE_BATCH_DIR / name, content)
-    expected = {CREATE_BATCH_DIR / name for name in batches}
-    for stale in CREATE_BATCH_DIR.glob("*.qs"):
-        if stale not in expected:
+    _write_atomic(CREATE_STATEMENTS, render_creation_statements(manifest))
+    if CREATE_BATCH_DIR.is_dir():
+        for stale in CREATE_BATCH_DIR.glob("*.qs"):
             stale.unlink()
+        try:
+            CREATE_BATCH_DIR.rmdir()
+        except OSError:
+            pass
 
 
 def check_package(manifest: dict, readiness: dict) -> None:
     expected = {
         CREATE_MANIFEST: _serialize_json(manifest),
         READINESS: _serialize_json(readiness),
-        **{
-            CREATE_BATCH_DIR / name: content
-            for name, content in render_creation_batches(manifest).items()
-        },
+        CREATE_STATEMENTS: render_creation_statements(manifest),
     }
     for path, content in expected.items():
         if not path.is_file() or path.read_text(encoding="utf-8") != content:
             raise SystemExit(f"ward emission artifact is missing or stale: {path}")
-    expected_batches = {path for path in expected if path.parent == CREATE_BATCH_DIR}
-    actual_batches = set(CREATE_BATCH_DIR.glob("*.qs")) if CREATE_BATCH_DIR.is_dir() else set()
-    if actual_batches != expected_batches:
-        raise SystemExit("ward creation batch directory contains stale or missing files")
+    legacy_batches = set(CREATE_BATCH_DIR.glob("*.qs")) if CREATE_BATCH_DIR.is_dir() else set()
+    if legacy_batches:
+        raise SystemExit("legacy ward creation batch files remain beside the consolidated file")
 
 
 def main(argv: list[str] | None = None) -> None:
     parser = argparse.ArgumentParser(description="Prepare offline ward Wikidata statement artifacts")
     parser.add_argument("--check", action="store_true")
     parser.add_argument("--audit", action="store_true")
-    parser.add_argument("--batch-size", type=int, default=10)
     parser.add_argument("--require-lineage-ready", action="store_true")
     args = parser.parse_args(argv)
 
@@ -399,7 +398,6 @@ def main(argv: list[str] | None = None) -> None:
     }
     manifest = build_current_creation_manifest(
         history, mapping, provinces, sources, decisions,
-        batch_size=args.batch_size,
         input_fingerprints=manifest_fingerprints,
     )
     readiness = build_emission_readiness(
@@ -419,8 +417,7 @@ def main(argv: list[str] | None = None) -> None:
     if args.audit:
         audit = readiness["audit"]
         print(
-            f"{action} {manifest['audit']['items']} current CREATE items in "
-            f"{manifest['audit']['batches']} batches; "
+            f"{action} {manifest['audit']['items']} current CREATE items in one file; "
             f"lineage edges ready {audit['reform_edges_with_both_qids']}/"
             f"{audit['reform_edges']}; blockers {len(readiness['blockers'])}"
         )

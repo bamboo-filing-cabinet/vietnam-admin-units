@@ -26,10 +26,10 @@ endpoints would produce an empty or materially incomplete result.
 Keep all generation offline. Wikidata writes remain a human-reviewed step on
 the maintainer's account. In particular:
 
-1. Run a fresh duplicate check immediately before each CREATE batch. The saved
+1. Run a fresh duplicate check immediately before the CREATE upload. The saved
    discovery data proves the 158 gaps as of the review, not forever.
-2. Upload CREATE files one batch at a time and record every returned QID before
-   continuing. Never replay a successful CREATE file.
+2. Record every returned QID after the upload. Never replay a successful CREATE
+   file.
 3. Do not emit lineage until every endpoint in the selected slice has a QID and
    every event has an official reference URL.
 4. Re-run live property-constraint checks immediately before a lineage upload.
@@ -38,8 +38,9 @@ the maintainer's account. In particular:
 
 ### W1 — current item creation package (prepared)
 
-`vn_admin_units.ward_emit` builds a deterministic manifest and sixteen
-QuickStatements files of at most ten items each. Every item has:
+`vn_admin_units.ward_emit` builds a deterministic manifest and one consolidated
+QuickStatements file containing all 158 items. The manifest retains logical
+review groups of at most ten items. Every item has:
 
 - Vietnamese label and province-specific description;
 - ward-tier `P31` (`Xã` or `Phường` for the present gaps);
@@ -53,7 +54,7 @@ that a Vietnamese Wikipedia page has no Wikibase item, but it does not record a
 structured page title for all 158 rows. Resolve and attach sitelinks during the
 live duplicate-preflight/create handoff rather than guessing them from prose.
 
-After each successful batch, write the new QIDs to `mappings/wards-qid.csv` as
+After the successful upload, write the new QIDs to `mappings/wards-qid.csv` as
 `qid_status=new`, `match_status=manual`, and retain a creation-batch note.
 Regenerate the package so completed rows disappear from subsequent work.
 

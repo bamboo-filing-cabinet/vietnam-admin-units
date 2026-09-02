@@ -9,7 +9,7 @@ from vn_admin_units.ward_emit import (
     build_emission_readiness,
     emit_creation_item,
     emit_ward_lineage_quickstatements,
-    render_creation_batches,
+    render_creation_statements,
 )
 
 
@@ -45,7 +45,7 @@ def _mapping(entity, qid="", status="reviewed-unresolved"):
     }
 
 
-def test_current_creation_manifest_is_reviewed_referenced_and_batched():
+def test_current_creation_manifest_is_reviewed_referenced_and_grouped():
     first = _entity("w-00001-2025-07-01", "Xã Một", "00001", "01")
     second = _entity("w-00002-2025-07-01", "Xã Hai", "00002", "01")
     history = {"entities": [first, second], "lineage_edges": []}
@@ -71,20 +71,21 @@ def test_current_creation_manifest_is_reviewed_referenced_and_batched():
     ]}]}
 
     manifest = build_current_creation_manifest(
-        history, mapping, provinces, sources, decisions, batch_size=1,
+        history, mapping, provinces, sources, decisions, review_group_size=1,
     )
 
     assert manifest["audit"]["items"] == 2
-    assert manifest["audit"]["batches"] == 2
-    assert [row["batch"] for row in manifest["items"]] == [1, 2]
+    assert manifest["audit"]["statement_files"] == 1
+    assert manifest["audit"]["review_groups"] == 2
+    assert [row["review_group"] for row in manifest["items"]] == [1, 2]
     assert manifest["items"][0]["description_vi"] == (
         "xã thuộc tỉnh Mẫu, Việt Nam, thành lập năm 2025"
     )
-    rendered = render_creation_batches(manifest)
-    assert set(rendered) == {"001.qs", "002.qs"}
-    assert "LAST\tP31\tQ2389082" in rendered["001.qs"]
-    assert "LAST\tP131\tQ999" in rendered["001.qs"]
-    assert 'S854\t"https://example.test/999.pdf"' in rendered["001.qs"]
+    rendered = render_creation_statements(manifest)
+    assert rendered.count("CREATE\n") == 2
+    assert "LAST\tP31\tQ2389082" in rendered
+    assert "LAST\tP131\tQ999" in rendered
+    assert 'S854\t"https://example.test/999.pdf"' in rendered
 
 
 def test_creation_renderer_escapes_wikidata_strings():
@@ -157,7 +158,7 @@ def test_lineage_emitter_renders_complete_referenced_bidirectional_edge():
     assert rendered.count('S854\t"https://example.test/ref"') == 4
 
 
-def test_committed_graph_produces_158_creation_items_in_ten_item_batches():
+def test_committed_graph_produces_158_creation_items_in_one_file():
     history = json.loads(Path("data/ward-history.json").read_text(encoding="utf-8"))
     mapping = list(csv.DictReader(
         Path("mappings/wards-qid.csv").read_text(encoding="utf-8").splitlines()
@@ -177,7 +178,8 @@ def test_committed_graph_produces_158_creation_items_in_ten_item_batches():
 
     assert manifest["audit"] == {
         "items": 158,
-        "batches": 16,
+        "statement_files": 1,
+        "review_groups": 16,
         "type_counts": {"Phường": 25, "Xã": 133},
         "province_count": 15,
         "official_reference_urls": 15,
