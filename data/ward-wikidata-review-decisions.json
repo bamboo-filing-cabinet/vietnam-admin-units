@@ -6335,6 +6335,28 @@
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "query pageprops and extracts", "retrieved_at": "2026-09-02T22:36:00Z"},
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"}
       ]
+    },
+    {
+      "batch_id": "2026-09-02.64",
+      "decisions": [
+        {"candidate_qids_checked": ["Q138779745"], "local_id": "w-22624-2025-07-01", "mapping_note": "current Tây Khánh Vĩnh page selects Q138779745", "outcome": "assign", "rationale": "Q138779745 owns the current Tây Khánh Vĩnh page and its label, description, and article identify the Khánh Hòa commune. Structured class and parent are absent.", "wikidata_qid": "Q138779745"},
+        {"candidate_qids_checked": ["Q138779741"], "local_id": "w-22648-2025-07-01", "mapping_note": "current Nam Khánh Vĩnh page selects Q138779741", "outcome": "assign", "rationale": "Q138779741 owns the current Nam Khánh Vĩnh page and its label, description, and article identify the Khánh Hòa commune. Structured class and parent are absent.", "wikidata_qid": "Q138779741"},
+        {"candidate_qids_checked": ["Q138777212"], "local_id": "w-22708-2025-07-01", "mapping_note": "current Suối Dầu page selects Q138777212", "outcome": "assign", "rationale": "Q138777212 owns the current Suối Dầu page and its label, description, and article identify the Khánh Hòa commune. Structured class and parent are absent.", "wikidata_qid": "Q138777212"},
+        {"candidate_qids_checked": ["Q138777145"], "local_id": "w-22720-2025-07-01", "mapping_note": "current Tây Khánh Sơn page selects Q138777145", "outcome": "assign", "rationale": "Q138777145 owns the current Tây Khánh Sơn page and its label, description, and article identify the Khánh Hòa commune. Structured class and parent are absent.", "wikidata_qid": "Q138777145"},
+        {"candidate_qids_checked": ["Q138777090"], "local_id": "w-22732-2025-07-01", "mapping_note": "current Đông Khánh Sơn page selects Q138777090", "outcome": "assign", "rationale": "Q138777090 owns the current Đông Khánh Sơn page and its label, description, and article identify the Khánh Hòa commune. Structured class and parent are absent.", "wikidata_qid": "Q138777090"},
+        {"candidate_qids_checked": ["Q6438916", "Q10781866"], "local_id": "w-24448-2025-07-01", "mapping_note": "current Krông Bông xã page selects predecessor item Q10781866", "outcome": "assign", "rationale": "Q10781866 owns the current `Krông Bông (xã)` page and represents predecessor Krông Kmar. Its label, town class, parent, and Vietnamese description remain stale. Q6438916 is the former district.", "wikidata_qid": "Q10781866"},
+        {"candidate_qids_checked": ["Q6438923", "Q10806374"], "local_id": "w-24490-2025-07-01", "mapping_note": "current Krông Pắc xã page selects predecessor item Q10806374", "outcome": "assign", "rationale": "Q10806374 owns the current `Krông Pắc (xã)` page and represents predecessor Phước An. Its label, description, town class, and parent remain stale. Q6438923 is the former district.", "wikidata_qid": "Q10806374"},
+        {"candidate_qids_checked": ["Q6438915", "Q5003626"], "local_id": "w-24538-2025-07-01", "mapping_note": "current Krông Ana xã page selects predecessor item Q5003626", "outcome": "assign", "rationale": "Q5003626 owns the current `Krông Ana (xã)` page and represents predecessor Buôn Trấp. Its label, town class, parent, and Vietnamese description remain stale. Q6438915 is the former district.", "wikidata_qid": "Q5003626"},
+        {"candidate_qids_checked": [], "local_id": "w-24580-2025-07-01", "mapping_note": "current Liên Sơn Lắk page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Liên Sơn Lắk page identifies the 2025 Đắk Lắk commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": ["Q10798888"], "local_id": "w-24611-2025-07-01", "mapping_note": "current Bắc Gia Nghĩa page selects predecessor item Q10798888", "outcome": "assign", "rationale": "Q10798888 owns the current Bắc Gia Nghĩa page and represents predecessor Nghĩa Đức. Its label, description, class, and parents remain stale.", "wikidata_qid": "Q10798888"}
+      ],
+      "reviewed_at": "2026-09-02T22:44:00Z",
+      "selection": {"input_status": "needs-lookup", "limit": 10, "order": "local_id", "starting_unresolved": 186},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbgetentities", "retrieved_at": "2026-09-02T22:44:00Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "query pageprops and extracts", "retrieved_at": "2026-09-02T22:44:00Z"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"}
+      ]
     }
   ],
   "schema_version": 1,
