@@ -1861,6 +1861,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.11",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q7188249", "Q7188251", "Q10805980", "Q10805982", "Q10805983", "Q10805984", "Q10805986", "Q31628675", "Q31628689", "Q137597213"],
+          "local_id": "w-05611-2025-07-01",
+          "mapping_note": "current Phú Lương, Thái Nguyên page selects Q137597213",
+          "outcome": "assign",
+          "rationale": "Q137597213 owns the current `Phú Lương, Thái Nguyên` page and is typed as a Vietnamese commune-level unit. The older candidates are the former district or namesakes elsewhere.",
+          "wikidata_qid": "Q137597213"
+        },
+        {
+          "candidate_qids_checked": ["Q10833149", "Q10833410", "Q10833412", "Q10833414", "Q10834128"],
+          "local_id": "w-05845-2025-07-01",
+          "mapping_note": "current Vạn Phú page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current Vạn Phú page explicitly identifies the 2025 Thái Nguyên commune but has no Wikibase item. The existing candidates are wrong-spelling or wrong-place namesakes.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q1886032", "Q10833168", "Q10834152"],
+          "local_id": "w-05890-2025-07-01",
+          "mapping_note": "current Vạn Xuân ward page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Vạn Xuân (phường)` page explicitly identifies the 2025 Thái Nguyên ward but has no Wikibase item. The candidates are an historical state, a namesake, and a disambiguation item.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q127137", "Q2137583", "Q2151527", "Q2294777", "Q7188236", "Q10805881", "Q10805883"],
+          "local_id": "w-05908-2025-07-01",
+          "mapping_note": "current Phú Bình xã page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Phú Bình (xã)` page explicitly identifies the 2025 Thái Nguyên commune but has no Wikibase item. The candidates are the former district or unrelated namesakes.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q7913476", "Q10833382", "Q10833383", "Q10833388", "Q10833390", "Q86012833"],
+          "local_id": "w-06154-2025-07-01",
+          "mapping_note": "current Văn Lãng xã page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Văn Lãng (xã)` page explicitly identifies the 2025 Lạng Sơn commune but has no Wikibase item. The candidates are the former district or unrelated namesakes.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q1212565", "Q2354499", "Q2456625", "Q2661321", "Q7893828", "Q10748641", "Q10801067", "Q10826592", "Q10826594", "Q10826595", "Q10826596", "Q10826598", "Q10826600", "Q10826602", "Q10826604", "Q10826605", "Q10826606", "Q52295927", "Q86012175", "Q116243153"],
+          "local_id": "w-06577-2025-07-01",
+          "mapping_note": "current Thống Nhất, Lạng Sơn page selects predecessor item Q10801067",
+          "outcome": "assign",
+          "rationale": "Q10801067 owns the current `Thống Nhất, Lạng Sơn` page and represents predecessor Như Khuê within the successor composition. Its label and parent remain stale; the other candidates are wrong-place namesakes or non-current identities.",
+          "wikidata_qid": "Q10801067"
+        },
+        {
+          "candidate_qids_checked": ["Q5004916"],
+          "local_id": "w-06673-2025-07-01",
+          "mapping_note": "current Quảng Ninh page selects Q5004916 despite stale P131",
+          "outcome": "assign",
+          "rationale": "Q5004916 owns the current Bãi Cháy page, has ward class, and represents the continuing Bãi Cháy identity. Its parent still points to former Hạ Long city.",
+          "wikidata_qid": "Q5004916"
+        },
+        {
+          "candidate_qids_checked": ["Q36077", "Q10771163", "Q65916981"],
+          "local_id": "w-06685-2025-07-01",
+          "mapping_note": "current Quảng Ninh page selects Q10771163 despite stale P131",
+          "outcome": "assign",
+          "rationale": "Q10771163 owns the current `Hồng Gai (phường)` page, has ward class, and represents the continuing Hồng Gai identity. Its parent remains former Hạ Long city.",
+          "wikidata_qid": "Q10771163"
+        },
+        {
+          "candidate_qids_checked": ["Q7857335"],
+          "local_id": "w-06706-2025-07-01",
+          "mapping_note": "current Quảng Ninh page selects Q7857335 despite stale P131",
+          "outcome": "assign",
+          "rationale": "Q7857335 owns the current Tuần Châu page, has ward class, and represents the continuing Tuần Châu identity. Its parent remains former Hạ Long city.",
+          "wikidata_qid": "Q7857335"
+        },
+        {
+          "candidate_qids_checked": ["Q286266", "Q8010905", "Q10771661", "Q10771662", "Q10771664", "Q10771665", "Q10771666", "Q10771667", "Q10783716", "Q10810426"],
+          "local_id": "w-06733-2025-07-01",
+          "mapping_note": "current Hải Ninh, Quảng Ninh page selects predecessor item Q10810426",
+          "outcome": "assign",
+          "rationale": "Q10810426 owns the current `Hải Ninh, Quảng Ninh` page and represents predecessor Quảng Nghĩa within the successor composition. Its label and parent remain stale; the other candidates are namesakes or the former province.",
+          "wikidata_qid": "Q10810426"
+        }
+      ],
+      "reviewed_at": "2026-09-02T19:07:00Z",
+      "selection": {
+        "input_status": "needs-review",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 557
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T19:07:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T19:07:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
