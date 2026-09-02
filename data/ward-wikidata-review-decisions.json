@@ -2418,6 +2418,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.16",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q10757559", "Q10757560", "Q10757561", "Q10757562", "Q10840973", "Q11658768", "Q135184062"],
+          "local_id": "w-09856-2025-07-01",
+          "mapping_note": "current Dương Hòa page selects Q135184062",
+          "outcome": "assign",
+          "rationale": "Q135184062 owns the current Dương Hòa page, which explicitly identifies the 2025 Hanoi commune. The older candidates are namesakes, a disambiguation item, or an unrelated person.",
+          "wikidata_qid": "Q135184062"
+        },
+        {
+          "candidate_qids_checked": ["Q10780368", "Q138638799"],
+          "local_id": "w-09910-2025-07-01",
+          "mapping_note": "current Kiều Phú xã page selects Q138638799",
+          "outcome": "assign",
+          "rationale": "Q138638799 owns the current `Kiều Phú (xã)` page and has commune class. Q10780368 is the older namesake identity.",
+          "wikidata_qid": "Q138638799"
+        },
+        {
+          "candidate_qids_checked": ["Q10771429", "Q10771430", "Q10771431", "Q10771432", "Q10771436", "Q10771437", "Q10771438", "Q10771439", "Q10771440", "Q16480939"],
+          "local_id": "w-09931-2025-07-01",
+          "mapping_note": "current Hưng Đạo, Hà Nội page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Hưng Đạo, Hà Nội` page explicitly identifies the 2025 commune but has no Wikibase item. The existing candidates are namesakes elsewhere or a disambiguation item.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q10771551"],
+          "local_id": "w-09982-2025-07-01",
+          "mapping_note": "current Hanoi page selects Q10771551 despite missing P131",
+          "outcome": "assign",
+          "rationale": "Q10771551 owns the current Hạ Bằng page and has commune class. The current page identifies the 2025 Hanoi unit; only its parent statement is missing.",
+          "wikidata_qid": "Q10771551"
+        },
+        {
+          "candidate_qids_checked": ["Q2680977", "Q10770991", "Q125219045"],
+          "local_id": "w-09988-2025-07-01",
+          "mapping_note": "current Hòa Lạc, Hà Nội page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Hòa Lạc, Hà Nội` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are a namesake and a disambiguation item.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q2148337", "Q10834167", "Q135657065"],
+          "local_id": "w-10354-2025-07-01",
+          "mapping_note": "current Vân Đình page selects Q135657065",
+          "outcome": "assign",
+          "rationale": "Q135657065 owns the current Vân Đình page and is typed as a Vietnamese commune-level unit. The remaining candidates are unrelated.",
+          "wikidata_qid": "Q135657065"
+        },
+        {
+          "candidate_qids_checked": ["Q11062948", "Q11074264", "Q11074265", "Q15912502", "Q138638792"],
+          "local_id": "w-10369-2025-07-01",
+          "mapping_note": "current Ứng Thiên page selects Q138638792",
+          "outcome": "assign",
+          "rationale": "Q138638792 owns the current Ứng Thiên page and has commune class. The other candidates are historical or unrelated entities.",
+          "wikidata_qid": "Q138638792"
+        },
+        {
+          "candidate_qids_checked": ["Q864775", "Q2600892", "Q10796923", "Q10796925", "Q10796926", "Q10796927"],
+          "local_id": "w-10441-2025-07-01",
+          "mapping_note": "current Mỹ Đức, Hà Nội page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Mỹ Đức, Hà Nội` page explicitly identifies the 2025 commune but has no Wikibase item. Q864775 is the former district and the other candidates are namesakes.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q1197949", "Q2099472", "Q2100814", "Q2432151", "Q10806234", "Q10806235", "Q10806236", "Q138637633"],
+          "local_id": "w-10459-2025-07-01",
+          "mapping_note": "current Phúc Sơn page selects Q138637633",
+          "outcome": "assign",
+          "rationale": "Q138637633 owns the current Phúc Sơn page and has commune class. The other candidates are namesakes outside Hanoi or a disambiguation item.",
+          "wikidata_qid": "Q138637633"
+        },
+        {
+          "candidate_qids_checked": ["Q72083", "Q138638730"],
+          "local_id": "w-10573-2025-07-01",
+          "mapping_note": "current Trần Nhân Tông ward page selects Q138638730",
+          "outcome": "assign",
+          "rationale": "Q138638730 owns the current `Trần Nhân Tông (phường)` page and has commune class. Q72083 is the historical emperor after whom the ward is named.",
+          "wikidata_qid": "Q138638730"
+        }
+      ],
+      "reviewed_at": "2026-09-02T19:42:00Z",
+      "selection": {
+        "input_status": "needs-review",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 514
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T19:42:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T19:42:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
