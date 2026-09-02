@@ -6093,6 +6093,28 @@
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "query pageprops and extracts", "retrieved_at": "2026-09-02T21:10:13Z"},
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"}
       ]
+    },
+    {
+      "batch_id": "2026-09-02.53",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10801074", "Q135224858"], "local_id": "w-16174-2025-07-01", "mapping_note": "current Như Xuân xã page selects Q135224858", "outcome": "assign", "rationale": "Q135224858 owns the current `Như Xuân (xã)` page and its description and article identify the Thanh Hóa commune. Q10801074 is the former district; structured class and parent are absent on the selected item.", "wikidata_qid": "Q135224858"},
+        {"candidate_qids_checked": ["Q7023390", "Q135232400"], "local_id": "w-16228-2025-07-01", "mapping_note": "current Như Thanh xã page selects Q135232400", "outcome": "assign", "rationale": "Q135232400 owns the current `Như Thanh (xã)` page and its description and article identify the Thanh Hóa commune. Q7023390 is the former district; structured class and parent are absent on the selected item.", "wikidata_qid": "Q135232400"},
+        {"candidate_qids_checked": ["Q135107860"], "local_id": "w-16516-2025-07-01", "mapping_note": "current Nam Sầm Sơn page selects Q135107860", "outcome": "assign", "rationale": "Q135107860 owns the current Nam Sầm Sơn page, whose introduction and description identify the Thanh Hóa ward. Structured class and parent are absent.", "wikidata_qid": "Q135107860"},
+        {"candidate_qids_checked": ["Q4358513", "Q135107857"], "local_id": "w-16531-2025-07-01", "mapping_note": "current Sầm Sơn phường page selects Q135107857", "outcome": "assign", "rationale": "Q135107857 owns the current `Sầm Sơn (phường)` page and its description and article identify the Thanh Hóa ward. Q4358513 is the former city; structured class and parent are absent on the selected item.", "wikidata_qid": "Q135107857"},
+        {"candidate_qids_checked": ["Q30923867", "Q135108007"], "local_id": "w-16561-2025-07-01", "mapping_note": "current Tĩnh Gia phường page selects Q135108007", "outcome": "assign", "rationale": "Q135108007 owns the current `Tĩnh Gia (phường)` page and its description and article identify the Thanh Hóa ward. Q30923867 is the historical phủ; structured class and parent are absent on the selected item.", "wikidata_qid": "Q135108007"},
+        {"candidate_qids_checked": ["Q5221504", "Q135108132"], "local_id": "w-16609-2025-07-01", "mapping_note": "current Đào Duy Từ phường page selects Q135108132", "outcome": "assign", "rationale": "Q135108132 owns the current `Đào Duy Từ (phường)` page and its description and article identify the Thanh Hóa ward. Q5221504 is the historical person; structured class and parent are absent on the selected item.", "wikidata_qid": "Q135108132"},
+        {"candidate_qids_checked": ["Q778493"], "local_id": "w-16732-2025-07-01", "mapping_note": "current Cửa Lò page reuses Q778493", "outcome": "assign", "rationale": "Q778493 owns the current Cửa Lò page and its current description and article identify the Nghệ An ward. Its class and 2024 dissolution statement still describe the former town-level unit.", "wikidata_qid": "Q778493"},
+        {"candidate_qids_checked": [], "local_id": "w-16774-2025-07-01", "mapping_note": "current Mường Quàng page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Mường Quàng page identifies the 2025 Nghệ An commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": ["Q7273039", "Q9823696", "Q137222511"], "local_id": "w-16777-2025-07-01", "mapping_note": "current Quỳ Châu xã page selects Q137222511", "outcome": "assign", "rationale": "Q137222511 owns the current `Quỳ Châu (xã)` page and its label and article identify the Nghệ An commune. Q7273039 is the former district and Q9823696 is a namesake; structured class and parent are absent on the selected item.", "wikidata_qid": "Q137222511"},
+        {"candidate_qids_checked": ["Q10748244"], "local_id": "w-16801-2025-07-01", "mapping_note": "current Hùng Chân page selects predecessor item Q10748244", "outcome": "assign", "rationale": "Q10748244 owns the current Hùng Chân page and represents predecessor Châu Phong. Its label, description, class, and parent remain stale.", "wikidata_qid": "Q10748244"}
+      ],
+      "reviewed_at": "2026-09-02T21:18:00Z",
+      "selection": {"input_status": "needs-lookup", "limit": 10, "order": "local_id", "starting_unresolved": 272},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbgetentities", "retrieved_at": "2026-09-02T21:18:00Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "query pageprops and extracts", "retrieved_at": "2026-09-02T21:18:00Z"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"}
+      ]
     }
   ],
   "schema_version": 1,
