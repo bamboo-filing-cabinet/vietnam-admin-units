@@ -2742,6 +2742,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.19",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q10832659", "Q10833570", "Q10833571", "Q10833572", "Q16480757", "Q138637727"],
+          "local_id": "w-11875-2025-07-01",
+          "mapping_note": "current Vĩnh Hải, Hải Phòng page selects Q138637727",
+          "outcome": "assign",
+          "rationale": "Q138637727 owns the current `Vĩnh Hải, Hải Phòng` page and has commune class. The other candidates are namesakes elsewhere or a disambiguation item.",
+          "wikidata_qid": "Q138637727"
+        },
+        {
+          "candidate_qids_checked": ["Q2227236", "Q138638813"],
+          "local_id": "w-11911-2025-07-01",
+          "mapping_note": "current Nguyễn Bỉnh Khiêm xã page selects Q138638813",
+          "outcome": "assign",
+          "rationale": "Q138638813 owns the current `Nguyễn Bỉnh Khiêm (xã)` page and has commune class. Q2227236 is the historical scholar after whom the unit is named.",
+          "wikidata_qid": "Q138638813"
+        },
+        {
+          "candidate_qids_checked": ["Q1136869", "Q30923722", "Q30923726"],
+          "local_id": "w-11948-2025-07-01",
+          "mapping_note": "current Bạch Long Vĩ special-zone page selects Q1136869 despite stale district statements",
+          "outcome": "assign",
+          "rationale": "Q1136869 owns the current Bạch Long Vĩ page, which now identifies both the island and 2025 special zone. Its former-district class, parent, and end date have not yet been updated; the other candidates are the peninsula and disambiguation item.",
+          "wikidata_qid": "Q1136869"
+        },
+        {
+          "candidate_qids_checked": ["Q777171", "Q10823355", "Q10823356", "Q11044673", "Q118448675", "Q16480912"],
+          "local_id": "w-11983-2025-07-01",
+          "mapping_note": "current Sơn Nam ward page selects predecessor item Q16480912",
+          "outcome": "assign",
+          "rationale": "Q16480912 owns the current `Sơn Nam (phường)` page and represents predecessor Hùng Cường within the successor composition. Its label, class, and parent remain stale; the other candidates are unrelated namesakes.",
+          "wikidata_qid": "Q16480912"
+        },
+        {
+          "candidate_qids_checked": ["Q2227688", "Q10832910", "Q134980528"],
+          "local_id": "w-12091-2025-07-01",
+          "mapping_note": "current Việt Yên xã page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Việt Yên (xã)` page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item. The candidates are the former Bắc Giang town or ward.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q10757593", "Q131342536"],
+          "local_id": "w-12127-2025-07-01",
+          "mapping_note": "current Thượng Hồng ward page selects predecessor item Q10757593",
+          "outcome": "assign",
+          "rationale": "Q10757593 owns the current `Thượng Hồng (phường)` page and represents predecessor Dương Quang within the successor composition. Its label, class, and parent remain stale; Q131342536 is the Hải Phòng commune namesake.",
+          "wikidata_qid": "Q10757593"
+        },
+        {
+          "candidate_qids_checked": ["Q2523696", "Q10832901", "Q10832903"],
+          "local_id": "w-12238-2025-07-01",
+          "mapping_note": "current Việt Tiến page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current Việt Tiến page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item. The candidates are namesakes or a disambiguation item.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q10748306", "Q10748307", "Q10748308", "Q10831054", "Q94240523", "Q110652663", "Q125256299"],
+          "local_id": "w-12271-2025-07-01",
+          "mapping_note": "current Chí Minh, Hưng Yên page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Chí Minh, Hưng Yên` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are namesakes, people, or a disambiguation item.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": [],
+          "local_id": "w-12361-2025-07-01",
+          "mapping_note": "current Tiên Hoa page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current Tiên Hoa page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and the cached candidate searches contain no plausible QID.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q7801034", "Q10827208"],
+          "local_id": "w-12364-2025-07-01",
+          "mapping_note": "current Tiên Lữ, Hưng Yên page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Tiên Lữ, Hưng Yên` page explicitly identifies the 2025 commune but has no Wikibase item. Q7801034 is the former district and Q10827208 is a Phú Thọ namesake.",
+          "wikidata_qid": ""
+        }
+      ],
+      "reviewed_at": "2026-09-02T20:01:00Z",
+      "selection": {
+        "input_status": "needs-review",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 496
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T20:01:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T20:01:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
