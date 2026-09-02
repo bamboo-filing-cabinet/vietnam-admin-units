@@ -3174,6 +3174,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.23",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q10834909", "Q10834910", "Q10834911", "Q10834913"],
+          "local_id": "w-14104-2025-07-01",
+          "mapping_note": "current Xuân Giang, Ninh Bình page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Xuân Giang, Ninh Bình` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are namesakes elsewhere or a disambiguation item.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q2548974", "Q3149852", "Q10834939"],
+          "local_id": "w-14122-2025-07-01",
+          "mapping_note": "current Xuân Hưng page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current Xuân Hưng page explicitly identifies the 2025 Ninh Bình commune but has no Wikibase item. The candidates are namesakes or a disambiguation item.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q10761472"],
+          "local_id": "w-14182-2025-07-01",
+          "mapping_note": "current Giao Hòa page selects Q10761472 despite stale P131",
+          "outcome": "assign",
+          "rationale": "Q10761472 owns the current Giao Hòa page and has commune class. Its parent remains the former district, but the page explicitly identifies the 2025 Ninh Bình unit.",
+          "wikidata_qid": "Q10761472"
+        },
+        {
+          "candidate_qids_checked": ["Q10771703", "Q35476663", "Q117107956"],
+          "local_id": "w-14218-2025-07-01",
+          "mapping_note": "current Hải Tiến page selects Q10771703 despite stale P131",
+          "outcome": "assign",
+          "rationale": "Q10771703 owns the current Hải Tiến page and has commune class. Its parent remains the former district; the other candidates do not represent the current unit.",
+          "wikidata_qid": "Q10771703"
+        },
+        {
+          "candidate_qids_checked": ["Q59223", "Q197903", "Q197913", "Q271167", "Q707552", "Q2344702", "Q10828360", "Q10828361", "Q10828363", "Q10828364", "Q10828365", "Q10828366", "Q10828367", "Q10828368", "Q13713456"],
+          "local_id": "w-14365-2025-07-01",
+          "mapping_note": "current Ninh Bình ward page selects Q10828364 despite missing P131",
+          "outcome": "assign",
+          "rationale": "Q10828364 owns the current `Trung Sơn (phường)` page and has ward class. The other candidates are namesakes, historical entities, or unrelated places.",
+          "wikidata_qid": "Q10828364"
+        },
+        {
+          "candidate_qids_checked": ["Q1330555", "Q2895251", "Q3711616", "Q10826443", "Q10838133", "Q10838134", "Q10838136", "Q10838137", "Q10838138", "Q10838139", "Q10838140", "Q10838141", "Q128214477"],
+          "local_id": "w-14371-2025-07-01",
+          "mapping_note": "current Yên Sơn ward page selects Q10838137 despite stale class",
+          "outcome": "assign",
+          "rationale": "Q10838137 owns the current `Yên Sơn (phường)` page. Its class remains commune and its parent is missing; the other candidates are a former district, a mountain, or namesakes elsewhere.",
+          "wikidata_qid": "Q10838137"
+        },
+        {
+          "candidate_qids_checked": ["Q5557813", "Q10761407", "Q18457697", "Q136687993"],
+          "local_id": "w-14464-2025-07-01",
+          "mapping_note": "current Gia Viễn xã page selects Q136687993",
+          "outcome": "assign",
+          "rationale": "Q136687993 owns the current `Gia Viễn (xã)` page, which explicitly identifies the 2025 Ninh Bình commune. Q5557813 is the former district and the other candidates are unrelated.",
+          "wikidata_qid": "Q136687993"
+        },
+        {
+          "candidate_qids_checked": ["Q8052185", "Q24955604"],
+          "local_id": "w-14560-2025-07-01",
+          "mapping_note": "current Yên Khánh xã page selects Q24955604",
+          "outcome": "assign",
+          "rationale": "Q24955604 owns the current `Yên Khánh (xã)` page and has commune class. Q8052185 is the former district.",
+          "wikidata_qid": "Q24955604"
+        },
+        {
+          "candidate_qids_checked": ["Q570104", "Q662241", "Q1307381", "Q2502399", "Q6409385", "Q6409386", "Q10779959", "Q10779960", "Q10779961", "Q10779962", "Q10779965", "Q10779966", "Q10779967", "Q10779969", "Q10838743", "Q24841309"],
+          "local_id": "w-14638-2025-07-01",
+          "mapping_note": "current Kim Sơn, Ninh Bình page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Kim Sơn, Ninh Bình` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are the former district, namesakes elsewhere, or unrelated entities.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q4850282", "Q5295773", "Q10838226", "Q10842010", "Q10842011", "Q16481173"],
+          "local_id": "w-14746-2025-07-01",
+          "mapping_note": "current Đồng Thái page selects predecessor item Q10838226",
+          "outcome": "assign",
+          "rationale": "Q10838226 owns the current Đồng Thái page and represents predecessor Yên Đồng within the successor composition. Its label and parent remain stale; the other candidates are spelling-different places or disambiguation.",
+          "wikidata_qid": "Q10838226"
+        }
+      ],
+      "reviewed_at": "2026-09-02T20:25:00Z",
+      "selection": {
+        "input_status": "needs-review",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 476
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T20:25:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T20:25:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
