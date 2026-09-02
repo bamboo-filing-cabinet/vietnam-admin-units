@@ -6071,6 +6071,28 @@
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "query pageprops and extracts", "retrieved_at": "2026-09-03T01:54:00Z"},
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"}
       ]
+    },
+    {
+      "batch_id": "2026-09-02.52",
+      "decisions": [
+        {"candidate_qids_checked": ["Q8052193", "Q136687846"], "local_id": "w-14701-2025-07-01", "mapping_note": "current Yên Mô xã page selects Q136687846", "outcome": "assign", "rationale": "Q136687846 owns the current `Yên Mô (xã)` page and its label, description, and article identify the Ninh Bình commune. Q8052193 is the former district; structured class and parent are absent on the selected item.", "wikidata_qid": "Q136687846"},
+        {"candidate_qids_checked": ["Q5005755", "Q135107864"], "local_id": "w-14812-2025-07-01", "mapping_note": "current Bỉm Sơn phường page selects Q135107864", "outcome": "assign", "rationale": "Q135107864 owns the current `Bỉm Sơn (phường)` page and its description and article identify the Thanh Hóa ward. Q5005755 is the former town-level unit; structured class and parent are absent on the selected item.", "wikidata_qid": "Q135107864"},
+        {"candidate_qids_checked": ["Q4837080", "Q135198172"], "local_id": "w-14923-2025-07-01", "mapping_note": "current Bá Thước xã page selects Q135198172", "outcome": "assign", "rationale": "Q135198172 owns the current `Bá Thước (xã)` page and its description and article identify the Thanh Hóa commune. Q4837080 is the former district; structured class and parent are absent on the selected item.", "wikidata_qid": "Q135198172"},
+        {"candidate_qids_checked": ["Q135199855"], "local_id": "w-14953-2025-07-01", "mapping_note": "current Quý Lương page selects Q135199855", "outcome": "assign", "rationale": "Q135199855 owns the current Quý Lương page, whose introduction and description identify the 2025 Thanh Hóa commune. Structured class and parent are absent.", "wikidata_qid": "Q135199855"},
+        {"candidate_qids_checked": ["Q7257210", "Q135204483"], "local_id": "w-14956-2025-07-01", "mapping_note": "current Pù Luông commune page selects Q135204483", "outcome": "assign", "rationale": "Q135204483 owns the current Pù Luông commune page and its description and article identify the Thanh Hóa commune. Q7257210 is the nature reserve; structured class and parent are absent on the selected item.", "wikidata_qid": "Q135204483"},
+        {"candidate_qids_checked": ["Q135181320"], "local_id": "w-15382-2025-07-01", "mapping_note": "current Biện Thượng page selects Q135181320", "outcome": "assign", "rationale": "Q135181320 owns the current Biện Thượng page, whose introduction and description identify the Thanh Hóa commune. Structured class and parent are absent.", "wikidata_qid": "Q135181320"},
+        {"candidate_qids_checked": ["Q135179965"], "local_id": "w-15505-2025-07-01", "mapping_note": "current Thọ Long page selects Q135179965", "outcome": "assign", "rationale": "Q135179965 owns the current Thọ Long page, whose introduction and description identify the Thanh Hóa commune. Structured class and parent are absent.", "wikidata_qid": "Q135179965"},
+        {"candidate_qids_checked": ["Q135232954"], "local_id": "w-15643-2025-07-01", "mapping_note": "current Thắng Lộc page selects Q135232954", "outcome": "assign", "rationale": "Q135232954 owns the current Thắng Lộc page, whose introduction, composition, and description identify the 2025 Thanh Hóa commune. Structured class and parent are absent.", "wikidata_qid": "Q135232954"},
+        {"candidate_qids_checked": ["Q135107850"], "local_id": "w-15925-2025-07-01", "mapping_note": "current Nguyệt Viên page selects Q135107850", "outcome": "assign", "rationale": "Q135107850 owns the current Nguyệt Viên page, whose introduction and description identify the Thanh Hóa ward. Structured class and parent are absent.", "wikidata_qid": "Q135107850"},
+        {"candidate_qids_checked": ["Q135114075"], "local_id": "w-16138-2025-07-01", "mapping_note": "current Hồ Vương page selects Q135114075", "outcome": "assign", "rationale": "Q135114075 owns the current Hồ Vương page, whose introduction, composition, and description identify the 2025 Thanh Hóa commune. Structured class and parent are absent.", "wikidata_qid": "Q135114075"}
+      ],
+      "reviewed_at": "2026-09-02T21:10:13Z",
+      "selection": {"input_status": "needs-lookup", "limit": 10, "order": "local_id", "starting_unresolved": 282},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbgetentities", "retrieved_at": "2026-09-02T21:10:13Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "query pageprops and extracts", "retrieved_at": "2026-09-02T21:10:13Z"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"}
+      ]
     }
   ],
   "schema_version": 1,
