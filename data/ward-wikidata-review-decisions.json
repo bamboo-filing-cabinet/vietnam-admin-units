@@ -3606,6 +3606,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.27",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q7932544", "Q10833747", "Q10833748", "Q138638764"],
+          "local_id": "w-17357-2025-07-01",
+          "mapping_note": "current Vĩnh Tường, Nghệ An page selects Q138638764",
+          "outcome": "assign",
+          "rationale": "Q138638764 owns the current `Vĩnh Tường, Nghệ An` page and has commune class. The older candidates are the former Phú Thọ district or namesakes.",
+          "wikidata_qid": "Q138638764"
+        },
+        {
+          "candidate_qids_checked": ["Q162880", "Q10842333"],
+          "local_id": "w-17416-2025-07-01",
+          "mapping_note": "current Đức Châu xã page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Đức Châu (xã)` page explicitly identifies the 2025 Nghệ An commune but has no Wikibase item. The candidates are a Chinese city and a disambiguation item.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q413207", "Q1022913", "Q1068273", "Q1197727", "Q1331520", "Q10771618", "Q10771620", "Q11150711", "Q138637794", "Q138709517"],
+          "local_id": "w-17419-2025-07-01",
+          "mapping_note": "current Hải Châu xã page selects Q138637794",
+          "outcome": "assign",
+          "rationale": "Q138637794 owns the current `Hải Châu (xã)` page and has commune class. The other candidates are the former Đà Nẵng district, a ward, or namesakes elsewhere.",
+          "wikidata_qid": "Q138637794"
+        },
+        {
+          "candidate_qids_checked": ["Q16572", "Q1866276", "Q3270603", "Q9430603", "Q10810349", "Q10810351", "Q10810352"],
+          "local_id": "w-17443-2025-07-01",
+          "mapping_note": "current Quảng Châu xã page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Quảng Châu (xã)` page explicitly identifies the 2025 Nghệ An commune but has no Wikibase item. The candidates are Guangzhou or unrelated historical and military concepts.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q482365", "Q2184523", "Q2195224", "Q2309147", "Q2382046", "Q10733138"],
+          "local_id": "w-17479-2025-07-01",
+          "mapping_note": "current An Châu, Nghệ An page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `An Châu, Nghệ An` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are namesakes elsewhere or a disambiguation item.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q373687", "Q399864", "Q1320576", "Q1337362", "Q2367367", "Q3711512", "Q10830395", "Q10830396", "Q10830398", "Q11082394", "Q116783618", "Q140611616"],
+          "local_id": "w-17488-2025-07-01",
+          "mapping_note": "current Tân Châu, Nghệ An page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Tân Châu, Nghệ An` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are districts, a town, or namesakes elsewhere.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q681807", "Q3710728", "Q4492895", "Q10742465", "Q10742466", "Q10742467", "Q10742469", "Q10742471", "Q10742473", "Q10742474", "Q10742477", "Q10742478", "Q10825572", "Q11839563", "Q16156845", "Q31880596", "Q117114995", "Q131552573"],
+          "local_id": "w-17515-2025-07-01",
+          "mapping_note": "current Bình Minh, Nghệ An page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Bình Minh, Nghệ An` page explicitly identifies the 2025 commune but has no Wikibase item. The numerous candidates are namesakes elsewhere or unrelated entities.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q10810545", "Q86008681"],
+          "local_id": "w-17521-2025-07-01",
+          "mapping_note": "current Quang Đồng page selects predecessor item Q86008681",
+          "outcome": "assign",
+          "rationale": "Q86008681 owns the current Quang Đồng page and represents predecessor Kim Thành within the successor composition. Its label and parent remain stale; the old exact-label candidate does not own the current page.",
+          "wikidata_qid": "Q86008681"
+        },
+        {
+          "candidate_qids_checked": ["Q125385", "Q394681", "Q5295842", "Q10840842", "Q10840843", "Q10840844", "Q10840849", "Q10840850", "Q10840851", "Q10840852", "Q10840854", "Q10840859", "Q10840860", "Q10840861", "Q10840863", "Q10840864", "Q10842006", "Q10842007", "Q10842014", "Q16481175", "Q117021152", "Q135113513", "Q139557279"],
+          "local_id": "w-17530-2025-07-01",
+          "mapping_note": "current Đông Thành, Nghệ An page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Đông Thành, Nghệ An` page explicitly distinguishes the 2025 commune from the former same-name unit but has no Wikibase item. The candidates are namesakes or unrelated entities.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q10833119", "Q10833121", "Q16480650", "Q135209845"],
+          "local_id": "w-17560-2025-07-01",
+          "mapping_note": "current Vân Du, Nghệ An page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Vân Du, Nghệ An` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are the Thanh Hóa namesake or unrelated identities.",
+          "wikidata_qid": ""
+        }
+      ],
+      "reviewed_at": "2026-09-02T20:49:00Z",
+      "selection": {
+        "input_status": "needs-review",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 445
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T20:49:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T20:49:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,

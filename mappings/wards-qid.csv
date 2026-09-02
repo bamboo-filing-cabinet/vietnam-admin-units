@@ -4026,25 +4026,25 @@ w-17329-2025-07-01,17329,Xã Anh Sơn,Xã,40,2025-07-01,,Q11839187,existing,manu
 w-17335-2025-07-01,17335,Xã Thành Bình Thọ,Xã,40,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
 w-17344-2025-07-01,17344,Xã Nhân Hòa,Xã,40,2025-07-01,,Q10800947,existing,manual,Q1199812|Q1306047|Q1346317|Q9385136|Q10800945|Q10800946|Q10800947|Q32289864,review 2026-09-02.26: current Nhân Hòa xã page selects Q10800947 despite stale P131
 w-17357-2009-01-07,17357,Xã Hoa Sơn,Xã,424,2009-01-07,2025-06-30,,,deferred-historical,,
-w-17357-2025-07-01,17357,Xã Vĩnh Tường,Xã,40,2025-07-01,,,,needs-review,Q10833747|Q10833748|Q138638764,"3 label candidate(s), but no bulk P131 resolves to the current province"
+w-17357-2025-07-01,17357,Xã Vĩnh Tường,Xã,40,2025-07-01,,Q138638764,existing,manual,Q7932544|Q10833747|Q10833748|Q138638764,"review 2026-09-02.27: current Vĩnh Tường, Nghệ An page selects Q138638764"
 w-17365-2025-07-01,17365,Xã Anh Sơn Đông,Xã,40,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
 w-17380-2025-07-01,17380,Xã Yên Xuân,Xã,40,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
 w-17395-2025-07-01,17395,Xã Hùng Châu,Xã,40,2025-07-01,,Q10771325,existing,matched,Q10771325,qlever-label+current-province+batched-wbgetentities
-w-17416-2025-07-01,17416,Xã Đức Châu,Xã,40,2025-07-01,,,,needs-review,Q32602518,"1 label candidate(s), but no bulk P131 resolves to the current province"
-w-17419-2025-07-01,17419,Xã Hải Châu,Xã,40,2025-07-01,,,,needs-review,Q10771618|Q10771620|Q138637794|Q138709517,"4 label candidate(s), but no bulk P131 resolves to the current province"
-w-17443-2025-07-01,17443,Xã Quảng Châu,Xã,40,2025-07-01,,,,needs-review,Q2008690|Q10810349|Q10810351|Q10810352,"4 label candidate(s), but no bulk P131 resolves to the current province"
+w-17416-2025-07-01,17416,Xã Đức Châu,Xã,40,2025-07-01,,,,reviewed-unresolved,Q162880|Q10842333|Q32602518,review 2026-09-02.27: current Đức Châu xã page has no Wikibase item
+w-17419-2025-07-01,17419,Xã Hải Châu,Xã,40,2025-07-01,,Q138637794,existing,manual,Q413207|Q1022913|Q1068273|Q1197727|Q1331520|Q10771618|Q10771620|Q11150711|Q138637794|Q138709517,review 2026-09-02.27: current Hải Châu xã page selects Q138637794
+w-17443-2025-07-01,17443,Xã Quảng Châu,Xã,40,2025-07-01,,,,reviewed-unresolved,Q16572|Q1866276|Q2008690|Q3270603|Q9430603|Q10810349|Q10810351|Q10810352,review 2026-09-02.27: current Quảng Châu xã page has no Wikibase item
 w-17464-2025-07-01,17464,Xã Diễn Châu,Xã,40,2025-07-01,,Q10755979,existing,matched,Q10755979,qlever-label+current-province+batched-wbgetentities
 w-17476-2025-07-01,17476,Xã Minh Châu,Xã,40,2025-07-01,,Q116839730,existing,matched,Q10793850|Q10793851|Q10793853|Q10793854|Q10793855|Q116839730,qlever-label+current-province+batched-wbgetentities
-w-17479-2025-07-01,17479,Xã An Châu,Xã,40,2025-07-01,,,,needs-review,Q2184523|Q2195224|Q2309147|Q10733138,"4 label candidate(s), but no bulk P131 resolves to the current province"
-w-17488-2025-07-01,17488,Xã Tân Châu,Xã,40,2025-07-01,,,,needs-review,Q10830395|Q10830396|Q32585626|Q116783618|Q140611616,"5 label candidate(s), but no bulk P131 resolves to the current province"
+w-17479-2025-07-01,17479,Xã An Châu,Xã,40,2025-07-01,,,,reviewed-unresolved,Q482365|Q2184523|Q2195224|Q2309147|Q2382046|Q10733138,"review 2026-09-02.27: current An Châu, Nghệ An page has no Wikibase item"
+w-17488-2025-07-01,17488,Xã Tân Châu,Xã,40,2025-07-01,,,,reviewed-unresolved,Q373687|Q399864|Q1320576|Q1337362|Q2367367|Q3711512|Q10830395|Q10830396|Q10830398|Q11082394|Q32585626|Q116783618|Q140611616,"review 2026-09-02.27: current Tân Châu, Nghệ An page has no Wikibase item"
 w-17506-2025-07-01,17506,Xã Yên Thành,Xã,40,2025-07-01,,Q10838155,existing,matched,Q10838147|Q10838150|Q10838151|Q10838152|Q10838153|Q10838155,qlever-label+current-province+batched-wbgetentities
 w-17510-2009-01-07,17510,Xã Tiến Thành,Xã,426,2009-01-07,2025-06-30,,,deferred-historical,,
-w-17515-2025-07-01,17515,Xã Bình Minh,Xã,40,2025-07-01,,,,needs-review,Q681807|Q10742465|Q10742467|Q10742469|Q10742471|Q10742473|Q10742474|Q10742477|Q10742478|Q10825572|Q11839563|Q131552573,"12 label candidate(s), but no bulk P131 resolves to the current province"
-w-17521-2025-07-01,17521,Xã Quang Đồng,Xã,40,2025-07-01,,,,needs-review,Q7273124|Q10810545,"2 label candidate(s), but no bulk P131 resolves to the current province"
+w-17515-2025-07-01,17515,Xã Bình Minh,Xã,40,2025-07-01,,,,reviewed-unresolved,Q681807|Q3710728|Q4492895|Q10742465|Q10742466|Q10742467|Q10742469|Q10742471|Q10742473|Q10742474|Q10742477|Q10742478|Q10825572|Q11839563|Q16156845|Q31880596|Q117114995|Q131552573,"review 2026-09-02.27: current Bình Minh, Nghệ An page has no Wikibase item"
+w-17521-2025-07-01,17521,Xã Quang Đồng,Xã,40,2025-07-01,,Q86008681,existing,manual,Q7273124|Q10810545|Q86008681,review 2026-09-02.27: current Quang Đồng page selects predecessor item Q86008681
 w-17524-2025-07-01,17524,Xã Giai Lạc,Xã,40,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
 w-17525-2007-04-17,17525,Xã Hùng Thành,Xã,426,2007-04-17,2024-11-30,,,deferred-historical,,
-w-17530-2025-07-01,17530,Xã Đông Thành,Xã,40,2025-07-01,,,,needs-review,Q10840842|Q10840843|Q10840844|Q10840849|Q10840850|Q10840851|Q10840852|Q10840859|Q10840860|Q10840863|Q10840864|Q10842006|Q10842007|Q10842014|Q16481175|Q32601857,"16 label candidate(s), but no bulk P131 resolves to the current province"
-w-17560-2025-07-01,17560,Xã Vân Du,Xã,40,2025-07-01,,,,needs-review,Q10833119|Q10833121|Q16480650,"3 label candidate(s), but no bulk P131 resolves to the current province"
+w-17530-2025-07-01,17530,Xã Đông Thành,Xã,40,2025-07-01,,,,reviewed-unresolved,Q125385|Q394681|Q5295842|Q10840842|Q10840843|Q10840844|Q10840849|Q10840850|Q10840851|Q10840852|Q10840854|Q10840859|Q10840860|Q10840861|Q10840863|Q10840864|Q10842006|Q10842007|Q10842014|Q16481175|Q32601857|Q117021152|Q135113513|Q139557279,"review 2026-09-02.27: current Đông Thành, Nghệ An page has no Wikibase item"
+w-17560-2025-07-01,17560,Xã Vân Du,Xã,40,2025-07-01,,,,reviewed-unresolved,Q10833119|Q10833121|Q16480650|Q135209845,"review 2026-09-02.27: current Vân Du, Nghệ An page has no Wikibase item"
 w-17569-2025-07-01,17569,Xã Quan Thành,Xã,40,2025-07-01,,,,needs-review,Q10810242,"1 label candidate(s), but no bulk P131 resolves to the current province"
 w-17605-2025-07-01,17605,Xã Hợp Minh,Xã,40,2025-07-01,,,,needs-review,Q10772358,"1 label candidate(s), but no bulk P131 resolves to the current province"
 w-17611-2025-07-01,17611,Xã Vân Tụ,Xã,40,2025-07-01,,,,needs-review,Q10833167|Q10833443,"2 label candidate(s), but no bulk P131 resolves to the current province"
