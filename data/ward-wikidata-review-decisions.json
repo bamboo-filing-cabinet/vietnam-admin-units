@@ -1429,6 +1429,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.07",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q1196468", "Q1894522", "Q1905243", "Q2079176", "Q7945023", "Q10832675", "Q10832676", "Q10833673", "Q10833684", "Q10833687", "Q10833688", "Q10833695", "Q10833696", "Q10833697", "Q10833699", "Q10833700", "Q10833701", "Q113329137", "Q135657047"],
+          "local_id": "w-00508-2025-07-01",
+          "mapping_note": "current Vĩnh Thanh, Hà Nội page selects Q135657047",
+          "outcome": "assign",
+          "rationale": "Q135657047 owns the current `Vĩnh Thanh, Hà Nội` page, whose introduction identifies the 2025 Hanoi commune. The other candidates are namesakes, disambiguation pages, or non-place items.",
+          "wikidata_qid": "Q135657047"
+        },
+        {
+          "candidate_qids_checked": ["Q1098057", "Q2275816", "Q10825417", "Q10825418", "Q10825419", "Q10825420", "Q10825422", "Q24957403", "Q136350703"],
+          "local_id": "w-00562-2025-07-01",
+          "mapping_note": "current Thuận An, Hà Nội page selects Q136350703",
+          "outcome": "assign",
+          "rationale": "Q136350703 owns the current `Thuận An, Hà Nội` page and is typed as a Vietnamese commune under Hanoi. Every older label candidate belongs to another province or administrative level.",
+          "wikidata_qid": "Q136350703"
+        },
+        {
+          "candidate_qids_checked": ["Q1094370", "Q4868477", "Q4868480"],
+          "local_id": "w-00577-2025-07-01",
+          "mapping_note": "current Hanoi page selects Q1094370 despite stale P131",
+          "outcome": "assign",
+          "rationale": "Q1094370 owns the current Bát Tràng page, which now identifies the Hanoi commune, and its coordinates lie in the predecessor footprint. Its parent statement still reflects the former district.",
+          "wikidata_qid": "Q1094370"
+        },
+        {
+          "candidate_qids_checked": ["Q2103617", "Q10805915", "Q10805916", "Q10806188", "Q10806189"],
+          "local_id": "w-00619-2025-07-01",
+          "mapping_note": "current Hanoi page selects Q10805916 despite missing P131",
+          "outcome": "assign",
+          "rationale": "Q10805916 owns the current Phú Diễn page and has ward class. The remaining label candidates are communes outside Hanoi or spelling variants for different places.",
+          "wikidata_qid": "Q10805916"
+        },
+        {
+          "candidate_qids_checked": ["Q10797114", "Q10840800", "Q15907518", "Q15981376", "Q99381313"],
+          "local_id": "w-00685-2025-07-01",
+          "mapping_note": "current Nam Phù page selects Q10840800 despite stale Đông Mỹ label",
+          "outcome": "assign",
+          "rationale": "Q10840800 owns the current Nam Phù page and represents predecessor Đông Mỹ within the successor composition. Its label and parent have not yet been updated; the other candidates are unrelated Nam Phú namesakes or Thai features.",
+          "wikidata_qid": "Q10840800"
+        },
+        {
+          "candidate_qids_checked": ["Q4857421", "Q5005739", "Q10743246", "Q11839587", "Q137590197"],
+          "local_id": "w-01290-2025-07-01",
+          "mapping_note": "current Bảo Lâm xã page selects Q137590197",
+          "outcome": "assign",
+          "rationale": "Q137590197 owns the current `Bảo Lâm (xã)` page and is typed as a Vietnamese commune. The similarly named Cao Bằng and Lâm Đồng district items are wrong-level predecessors or namesakes.",
+          "wikidata_qid": "Q137590197"
+        },
+        {
+          "candidate_qids_checked": ["Q5636438", "Q10770535", "Q137590209"],
+          "local_id": "w-01558-2025-07-01",
+          "mapping_note": "current Hạ Lang xã page selects Q137590209",
+          "outcome": "assign",
+          "rationale": "Q137590209 owns the current `Hạ Lang (xã)` page and is typed as a Vietnamese commune. Q5636438 is the former district; the older exact-label candidate does not own the current page.",
+          "wikidata_qid": "Q137590209"
+        },
+        {
+          "candidate_qids_checked": ["Q7268864", "Q10810525"],
+          "local_id": "w-01576-2025-07-01",
+          "mapping_note": "current Quảng Uyên xã page selects Q10810525",
+          "outcome": "assign",
+          "rationale": "Q10810525 owns the current `Quảng Uyên (xã)` page and lies at the former district seat inside the successor composition. Q7268864 is the former district itself.",
+          "wikidata_qid": "Q10810525"
+        },
+        {
+          "candidate_qids_checked": ["Q10842222", "Q10842223", "Q10842224", "Q10842225"],
+          "local_id": "w-01594-2025-07-01",
+          "mapping_note": "current Cao Bằng page selects Q10842225",
+          "outcome": "assign",
+          "rationale": "Q10842225 owns the current Độc Lập page, has commune class, and lies in the former Quảng Uyên predecessor area. The other place candidates belong to other provinces.",
+          "wikidata_qid": "Q10842225"
+        },
+        {
+          "candidate_qids_checked": ["Q10771582", "Q10771583", "Q10771584", "Q10829214", "Q18762876"],
+          "local_id": "w-01618-2025-07-01",
+          "mapping_note": "current Cao Bằng page selects Q10771583",
+          "outcome": "assign",
+          "rationale": "Q10771583 owns the current `Hạnh Phúc, Cao Bằng` page, has commune class, and lies in the former Quảng Uyên predecessor area. The other candidates are a Thanh Hóa commune, a Lào Cai town, a disambiguation page, and a ship.",
+          "wikidata_qid": "Q10771583"
+        }
+      ],
+      "reviewed_at": "2026-09-02T18:51:40Z",
+      "selection": {
+        "input_status": "needs-review",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 596
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T18:51:40Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T18:51:40Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
