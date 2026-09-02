@@ -3560,15 +3560,15 @@ w-12452-2007-12-28,12452,Phường Trần Hưng Đạo,Phường,336,2007-12-28,
 w-12452-2025-07-01,12452,Phường Trần Hưng Đạo,Phường,33,2025-07-01,,Q10829320,existing,matched,Q10800949|Q10829312|Q10829313|Q10829314|Q10829315|Q10829316|Q10829317|Q10829319|Q10829320|Q16480271,qlever-label+current-province+batched-wbgetentities
 w-12454-2025-07-01,12454,Phường Trần Lãm,Phường,33,2025-07-01,,Q10829364,existing,matched,Q10829364,qlever-label+current-province+batched-wbgetentities
 w-12466-2025-07-01,12466,Phường Vũ Phúc,Phường,33,2025-07-01,,Q10833869,existing,matched,Q10833869|Q32592507,qlever-label+current-province+batched-wbgetentities
-w-12472-2025-07-01,12472,Xã Quỳnh Phụ,Xã,33,2025-07-01,,,,needs-review,Q10811100|Q32299700|Q32299707,"3 label candidate(s), but no bulk P131 resolves to the current province"
+w-12472-2025-07-01,12472,Xã Quỳnh Phụ,Xã,33,2025-07-01,,,,reviewed-unresolved,Q7273060|Q10811100|Q32299700|Q32299707,review 2026-09-02.20: current Quỳnh Phụ xã page has no Wikibase item
 w-12499-2025-07-01,12499,Xã A Sào,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-12511-2025-07-01,12511,Xã Minh Thọ,Xã,33,2025-07-01,,,,needs-review,Q16480500,"1 label candidate(s), but no bulk P131 resolves to the current province"
+w-12511-2025-07-01,12511,Xã Minh Thọ,Xã,33,2025-07-01,,Q139501817,existing,manual,Q16480500|Q139501817,review 2026-09-02.20: current Minh Thọ page selects Q139501817
 w-12517-2025-07-01,12517,Xã Ngọc Lâm,Xã,33,2025-07-01,,Q10800643,existing,matched,Q10800642|Q10800643,qlever-label+current-province+batched-wbgetentities
-w-12523-2025-07-01,12523,Xã Phụ Dực,Xã,33,2025-07-01,,,,needs-review,Q10806203|Q10806204|Q16481032,"3 label candidate(s), but no bulk P131 resolves to the current province"
-w-12526-2025-07-01,12526,Xã Đồng Bằng,Xã,33,2025-07-01,,,,needs-review,Q10841909,"1 label candidate(s), but no bulk P131 resolves to the current province"
-w-12532-2025-07-01,12532,Xã Nguyễn Du,Xã,33,2025-07-01,,,,needs-review,Q10799058|Q10799060|Q10799061,"3 label candidate(s), but no bulk P131 resolves to the current province"
+w-12523-2025-07-01,12523,Xã Phụ Dực,Xã,33,2025-07-01,,,,reviewed-unresolved,Q10806203|Q10806204|Q16481020|Q16481032,review 2026-09-02.20: current Phụ Dực xã page has no Wikibase item
+w-12526-2025-07-01,12526,Xã Đồng Bằng,Xã,33,2025-07-01,,,,reviewed-unresolved,Q10841909|Q17247405|Q17414222|Q17615409|Q18542497|Q19440181|Q107146095|Q122790968,review 2026-09-02.20: current Đồng Bằng xã page has no Wikibase item
+w-12532-2025-07-01,12532,Xã Nguyễn Du,Xã,33,2025-07-01,,,,reviewed-unresolved,Q313322|Q10799058|Q10799060|Q10799061|Q10799084|Q18459905,review 2026-09-02.20: current Nguyễn Du xã page has no Wikibase item
 w-12577-2025-07-01,12577,Xã Quỳnh An,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-12583-2025-07-01,12583,Xã Tân Tiến,Xã,33,2025-07-01,,,,needs-review,Q2014618|Q7862101|Q7862102|Q10830905|Q10830906|Q10830908|Q10830909|Q10830911|Q10830912|Q10830913|Q10830915|Q10830916|Q10830918|Q10830920|Q10830921|Q10830922|Q10830925|Q32587702|Q130437802,"19 label candidate(s), but no bulk P131 resolves to the current province"
+w-12583-2025-07-01,12583,Xã Tân Tiến,Xã,33,2025-07-01,,,,reviewed-unresolved,Q1212538|Q2014618|Q7862101|Q7862102|Q10830905|Q10830906|Q10830908|Q10830909|Q10830911|Q10830912|Q10830913|Q10830915|Q10830916|Q10830918|Q10830920|Q10830921|Q10830922|Q10830925|Q32587702|Q130437802|Q135114076,"review 2026-09-02.20: current Tân Tiến, Hưng Yên page has no Wikibase item"
 w-12586-2025-07-01,12586,Xã Hưng Hà,Xã,33,2025-07-01,,Q10771330,existing,matched,Q10771329|Q10771330,qlever-label+current-province+batched-wbgetentities
 w-12595-2025-07-01,12595,Xã Ngự Thiên,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
 w-12613-2025-07-01,12613,Xã Long Hưng,Xã,33,2025-07-01,,Q10786836,existing,matched,Q2213087|Q2296463|Q10786829|Q10786831|Q10786833|Q10786836|Q10786837,qlever-label+current-province+batched-wbgetentities
@@ -3583,7 +3583,7 @@ w-12694-2025-07-01,12694,Xã Bắc Đông Hưng,Xã,33,2025-07-01,,,,needs-looku
 w-12700-2025-07-01,12700,Xã Bắc Tiên Hưng,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
 w-12736-2025-07-01,12736,Xã Đông Tiên Hưng,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
 w-12745-2025-07-01,12745,Xã Bắc Đông Quan,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-12754-2025-07-01,12754,Xã Tiên Hưng,Xã,33,2025-07-01,,,,needs-review,Q2026908|Q10827191|Q10827265,"3 label candidate(s), but no bulk P131 resolves to the current province"
+w-12754-2025-07-01,12754,Xã Tiên Hưng,Xã,33,2025-07-01,,,,reviewed-unresolved,Q2026908|Q2352089|Q4758313|Q10827191|Q10827265|Q16480988,review 2026-09-02.20: current Tiên Hưng xã page has no Wikibase item
 w-12763-2025-07-01,12763,Xã Nam Tiên Hưng,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
 w-12775-2025-07-01,12775,Xã Nam Đông Hưng,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
 w-12793-2025-07-01,12793,Xã Đông Quan,Xã,33,2025-07-01,,Q10840815,existing,matched,Q10809928|Q10840815|Q10842297,qlever-label+current-province+batched-wbgetentities
@@ -3596,17 +3596,17 @@ w-12865-2025-07-01,12865,Xã Thụy Anh,Xã,33,2025-07-01,,,,needs-lookup,,no fo
 w-12904-2025-07-01,12904,Xã Nam Thụy Anh,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
 w-12916-2025-07-01,12916,Xã Bắc Thái Ninh,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
 w-12919-2025-07-01,12919,Xã Tây Thái Ninh,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-12922-2025-07-01,12922,Xã Thái Ninh,Xã,33,2025-07-01,,,,needs-review,Q20026168,"1 label candidate(s), but no bulk P131 resolves to the current province"
+w-12922-2025-07-01,12922,Xã Thái Ninh,Xã,33,2025-07-01,,,,reviewed-unresolved,Q1375194|Q5368050|Q8011337|Q8011599|Q10825746|Q10941222|Q16481432|Q20026168,review 2026-09-02.20: current Thái Ninh xã page has no Wikibase item
 w-12943-2025-07-01,12943,Xã Đông Thái Ninh,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
 w-12961-2025-07-01,12961,Xã Nam Thái Ninh,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
 w-12970-2025-07-01,12970,Xã Tiền Hải,Xã,33,2025-07-01,,Q10827320,existing,matched,Q10827193|Q10827320|Q32307642,qlever-label+current-province+batched-wbgetentities
 w-12988-2025-07-01,12988,Xã Đông Tiền Hải,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
 w-13003-2025-07-01,13003,Xã Đồng Châu,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-13021-2025-07-01,13021,Xã Ái Quốc,Xã,33,2025-07-01,,,,needs-review,Q10838687|Q10838689,"2 label candidate(s), but no bulk P131 resolves to the current province"
+w-13021-2025-07-01,13021,Xã Ái Quốc,Xã,33,2025-07-01,,Q130494264,existing,manual,Q10838686|Q10838687|Q10838689|Q130494264,review 2026-09-02.20: current Ái Quốc xã page selects Q130494264
 w-13039-2025-07-01,13039,Xã Tây Tiền Hải,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
 w-13057-2025-07-01,13057,Xã Nam Cường,Xã,33,2025-07-01,,Q10797032,existing,matched,Q6961066|Q10797030|Q10797031|Q10797032|Q10797034|Q10797037|Q32286356,qlever-label+current-province+batched-wbgetentities
 w-13063-2025-07-01,13063,Xã Nam Tiền Hải,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-13066-2025-07-01,13066,Xã Hưng Phú,Xã,33,2025-07-01,,,,needs-review,Q10771382|Q10771383|Q10771386,"3 label candidate(s), but no bulk P131 resolves to the current province"
+w-13066-2025-07-01,13066,Xã Hưng Phú,Xã,33,2025-07-01,,Q137218615,existing,manual,Q10771380|Q10771382|Q10771383|Q10771386|Q137218615,review 2026-09-02.20: current Hưng Phú xã page selects Q137218615
 w-13075-2025-07-01,13075,Xã Kiến Xương,Xã,33,2025-07-01,,Q10824855,existing,matched,Q10824855,qlever-label+current-province+batched-wbgetentities
 w-13093-2025-07-01,13093,Xã Trà Giang,Xã,33,2025-07-01,,Q10828514,existing,matched,Q2189257|Q10828513|Q10828514|Q10828515,qlever-label+current-province+batched-wbgetentities
 w-13096-2025-07-01,13096,Xã Bình Nguyên,Xã,33,2025-07-01,,Q10742493,existing,matched,Q1837876|Q10742491|Q10742493,qlever-label+current-province+batched-wbgetentities

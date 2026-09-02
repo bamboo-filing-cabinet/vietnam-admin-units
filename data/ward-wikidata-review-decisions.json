@@ -2850,6 +2850,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.20",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q7273060", "Q10811100"],
+          "local_id": "w-12472-2025-07-01",
+          "mapping_note": "current Quỳnh Phụ xã page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Quỳnh Phụ (xã)` page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item. Q7273060 is the former district and Q10811100 is a spelling-different disambiguation item.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q16480500", "Q139501817"],
+          "local_id": "w-12511-2025-07-01",
+          "mapping_note": "current Minh Thọ page selects Q139501817",
+          "outcome": "assign",
+          "rationale": "Q139501817 owns the current Minh Thọ page, which explicitly identifies the 2025 Hưng Yên commune. The older exact-label candidate does not own the current page.",
+          "wikidata_qid": "Q139501817"
+        },
+        {
+          "candidate_qids_checked": ["Q10806203", "Q10806204", "Q16481020", "Q16481032"],
+          "local_id": "w-12523-2025-07-01",
+          "mapping_note": "current Phụ Dực xã page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Phụ Dực (xã)` page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item. The candidates are the historical district or unrelated namesakes.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q10841909", "Q17247405", "Q17414222", "Q17615409", "Q18542497", "Q19440181", "Q107146095", "Q122790968"],
+          "local_id": "w-12526-2025-07-01",
+          "mapping_note": "current Đồng Bằng xã page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Đồng Bằng (xã)` page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item. The candidates are unrelated geographic concepts or namesakes.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q313322", "Q10799058", "Q10799060", "Q10799061", "Q10799084", "Q18459905"],
+          "local_id": "w-12532-2025-07-01",
+          "mapping_note": "current Nguyễn Du xã page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Nguyễn Du (xã)` page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item. The candidates are the poet, a disambiguation item, or namesakes elsewhere.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q1212538", "Q2014618", "Q7862101", "Q10830905", "Q10830906", "Q10830908", "Q10830909", "Q10830911", "Q10830912", "Q10830913", "Q10830915", "Q10830916", "Q10830918", "Q10830920", "Q10830921", "Q10830922", "Q10830925", "Q135114076"],
+          "local_id": "w-12583-2025-07-01",
+          "mapping_note": "current Tân Tiến, Hưng Yên page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Tân Tiến, Hưng Yên` page explicitly identifies the 2025 commune but has no Wikibase item. The numerous candidates are namesakes elsewhere or a disambiguation item.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q2026908", "Q2352089", "Q4758313", "Q10827191", "Q10827265", "Q16480988"],
+          "local_id": "w-12754-2025-07-01",
+          "mapping_note": "current Tiên Hưng xã page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Tiên Hưng (xã)` page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item. The candidates are the historical district or unrelated namesakes.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q1375194", "Q5368050", "Q8011337", "Q8011599", "Q10825746", "Q10941222", "Q16481432", "Q20026168"],
+          "local_id": "w-12922-2025-07-01",
+          "mapping_note": "current Thái Ninh xã page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Thái Ninh (xã)` page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item. The candidates are the historical district or unrelated namesakes.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q10838686", "Q10838687", "Q10838689", "Q130494264"],
+          "local_id": "w-13021-2025-07-01",
+          "mapping_note": "current Ái Quốc xã page selects Q130494264",
+          "outcome": "assign",
+          "rationale": "Q130494264 owns the current `Ái Quốc (xã)` page, which explicitly identifies the 2025 Hưng Yên commune. The older candidates are a ward, a disambiguation item, or unrelated identities.",
+          "wikidata_qid": "Q130494264"
+        },
+        {
+          "candidate_qids_checked": ["Q10771380", "Q10771382", "Q10771383", "Q137218615"],
+          "local_id": "w-13066-2025-07-01",
+          "mapping_note": "current Hưng Phú xã page selects Q137218615",
+          "outcome": "assign",
+          "rationale": "Q137218615 owns the current `Hưng Phú (xã)` page, which explicitly identifies the 2025 Hưng Yên commune. The older candidates are namesakes elsewhere or a disambiguation item.",
+          "wikidata_qid": "Q137218615"
+        }
+      ],
+      "reviewed_at": "2026-09-02T20:07:00Z",
+      "selection": {
+        "input_status": "needs-review",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 491
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T20:07:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T20:07:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
