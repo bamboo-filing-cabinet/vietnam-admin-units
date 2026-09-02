@@ -4052,32 +4052,32 @@ w-17619-2007-04-17,17619,Xã Giang Sơn Đông,Xã,427,2007-04-17,2025-06-30,,,d
 w-17623-2025-07-01,17623,Xã Bạch Ngọc,Xã,40,2025-07-01,,Q10800678,existing,manual,Q531703|Q10743118|Q10800678,"review 2026-09-02.28: current Bạch Ngọc, Nghệ An page selects predecessor item Q10800678"
 w-17641-2025-07-01,17641,Xã Lương Sơn,Xã,40,2025-07-01,,,,reviewed-unresolved,Q666884|Q1190853|Q6704607|Q10788368|Q10788370|Q10788372|Q10788373|Q10788375|Q16480347|Q21609358,"review 2026-09-02.28: current Lương Sơn, Nghệ An page has no Wikibase item"
 w-17662-2025-07-01,17662,Xã Đô Lương,Xã,40,2025-07-01,,Q10840656,existing,matched,Q10840654|Q10840655|Q10840656,qlever-label+current-province+batched-wbgetentities
-w-17677-2025-07-01,17677,Xã Văn Hiến,Xã,40,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-17689-2025-07-01,17689,Xã Thuần Trung,Xã,40,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-17677-2025-07-01,17677,Xã Văn Hiến,Xã,40,2025-07-01,,Q10810030,existing,manual,Q1275350|Q10810030|Q48814532,review 2026-09-02.55: current Văn Hiến page selects predecessor item Q10810030
+w-17689-2025-07-01,17689,Xã Thuần Trung,Xã,40,2025-07-01,,Q10793953,existing,manual,Q10793953,review 2026-09-02.55: current Thuần Trung page selects predecessor item Q10793953
 w-17707-2025-07-01,17707,Xã Bạch Hà,Xã,40,2025-07-01,,Q10841149,existing,manual,Q709025|Q803754|Q1813795|Q4468443|Q10841149|Q32259982|Q65172218|Q65172412|Q102674031|Q124763542,review 2026-09-02.28: current Bạch Hà page selects predecessor item Q10841149
 w-17713-2025-07-01,17713,Xã Đại Đồng,Xã,40,2025-07-01,,Q10824942,existing,manual,Q72877|Q271060|Q706556|Q1172643|Q1172649|Q1373191|Q5369473|Q10824942|Q10841271|Q10841273|Q10841274|Q10841275|Q10841276|Q10841277|Q10841278|Q10841279|Q10934137|Q10934139|Q10934176|Q16996719|Q32600022|Q45701576,"review 2026-09-02.28: current Đại Đồng, Nghệ An page selects predecessor item Q10824942"
 w-17722-2025-07-01,17722,Xã Hạnh Lâm,Xã,40,2025-07-01,,Q10771581,existing,matched,Q10771581,qlever-label+current-province+batched-wbgetentities
 w-17723-2009-01-07,17723,Xã Thanh Sơn,Xã,428,2009-01-07,2025-06-30,,,deferred-historical,,
-w-17728-2025-07-01,17728,Xã Cát Ngạn,Xã,40,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-17728-2025-07-01,17728,Xã Cát Ngạn,Xã,40,2025-07-01,,,,reviewed-unresolved,,review 2026-09-02.55: current Cát Ngạn page has no Wikibase item
 w-17743-2025-07-01,17743,Xã Tam Đồng,Xã,40,2025-07-01,,Q10823897,existing,manual,Q10823897,review 2026-09-02.28: current Tam Đồng page selects Q10823897 despite stale P131
 w-17759-2009-01-07,17759,Xã Ngọc Lâm,Xã,428,2009-01-07,2025-06-30,,,deferred-historical,,
 w-17759-2025-07-01,17759,Xã Sơn Lâm,Xã,40,2025-07-01,,,,reviewed-unresolved,Q10823327|Q10823329|Q10823331,review 2026-09-02.28: current Sơn Lâm page has no Wikibase item
-w-17770-2025-07-01,17770,Xã Hoa Quân,Xã,40,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-17770-2025-07-01,17770,Xã Hoa Quân,Xã,40,2025-07-01,,Q10824906,existing,manual,Q10824906,review 2026-09-02.55: current Hoa Quân page selects predecessor item Q10824906
 w-17779-2025-07-01,17779,Xã Xuân Lâm,Xã,40,2025-07-01,,Q10834981,existing,matched,Q10834969|Q10834970|Q10834981|Q10834983|Q10834984|Q10834985,qlever-label+current-province+batched-wbgetentities
-w-17791-2025-07-01,17791,Xã Kim Bảng,Xã,40,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-17818-2025-07-01,17818,Xã Bích Hào,Xã,40,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-17791-2025-07-01,17791,Xã Kim Bảng,Xã,40,2025-07-01,,,,reviewed-unresolved,Q6408354,review 2026-09-02.55: current Kim Bảng xã page has no Wikibase item
+w-17818-2025-07-01,17818,Xã Bích Hào,Xã,40,2025-07-01,,,,reviewed-unresolved,,review 2026-09-02.55: current Bích Hào page has no Wikibase item
 w-17824-2004-06-30,17824,Xã Thanh Đức,Xã,428,2004-06-30,2025-06-30,,,deferred-historical,,
-w-17827-2025-07-01,17827,Xã Nghi Lộc,Xã,40,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-17827-2025-07-01,17827,Xã Nghi Lộc,Xã,40,2025-07-01,,,,reviewed-unresolved,Q7022320,review 2026-09-02.55: current Nghi Lộc xã page has no Wikibase item
 w-17833-2025-07-01,17833,Xã Hải Lộc,Xã,40,2025-07-01,,,,reviewed-unresolved,Q10771653|Q10771654|Q10771656,review 2026-09-02.28: current Hải Lộc page has no Wikibase item
-w-17842-2025-07-01,17842,Xã Thần Lĩnh,Xã,40,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-17854-2025-07-01,17854,Xã Văn Kiều,Xã,40,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-17842-2025-07-01,17842,Xã Thần Lĩnh,Xã,40,2025-07-01,,Q65172096,existing,manual,Q65172096,review 2026-09-02.55: current Thần Lĩnh page selects predecessor item Q65172096
+w-17854-2025-07-01,17854,Xã Văn Kiều,Xã,40,2025-07-01,,,,reviewed-unresolved,,review 2026-09-02.55: current Văn Kiều page has no Wikibase item
 w-17857-2025-07-01,17857,Xã Phúc Lộc,Xã,40,2025-07-01,,Q65172097,existing,matched,Q7189889|Q10806224|Q10833150|Q65172097,qlever-label+current-province+batched-wbgetentities
 w-17866-2025-07-01,17866,Xã Trung Lộc,Xã,40,2025-07-01,,Q10828337,existing,manual,Q10828337,review 2026-09-02.29: current Trung Lộc page selects Q10828337 despite stale P131
 w-17878-2025-07-01,17878,Xã Đông Lộc,Xã,40,2025-07-01,,,,reviewed-unresolved,Q10841953|Q10841954,review 2026-09-02.29: current Đông Lộc page has no Wikibase item
 w-17887-2004-06-30,17887,Xã Nghi Công Nam,Xã,429,2004-06-30,2025-06-30,,,deferred-historical,,
 w-17920-2025-07-01,17920,Phường Vinh Hưng,Phường,40,2025-07-01,,,,reviewed-unresolved,Q2261098|Q7945011|Q10832658|Q10833564|Q10833565|Q10833566|Q10833567,review 2026-09-02.29: current Vinh Hưng page has no Wikibase item
 w-17935-2025-07-01,17935,Xã Nam Đàn,Xã,40,2025-07-01,,Q10797207,existing,matched,Q10797207|Q10802106,qlever-label+current-province+batched-wbgetentities
-w-17944-2025-07-01,17944,Xã Đại Huệ,Xã,40,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-17944-2025-07-01,17944,Xã Đại Huệ,Xã,40,2025-07-01,,Q10797194,existing,manual,Q10797194|Q10841087,review 2026-09-02.55: current Đại Huệ page selects predecessor item Q10797194
 w-17950-2025-07-01,17950,Xã Vạn An,Xã,40,2025-07-01,,,,reviewed-unresolved,Q1356641|Q6860119|Q10833110|Q10833112|Q10833348|Q10833349|Q30923313,review 2026-09-02.29: current Vạn An page has no Wikibase item
 w-17971-2025-07-01,17971,Xã Kim Liên,Xã,40,2025-07-01,,Q1320497,existing,matched,Q1320497|Q10779914,qlever-label+current-province+batched-wbgetentities
 w-17989-2025-07-01,17989,Xã Thiên Nhẫn,Xã,40,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
