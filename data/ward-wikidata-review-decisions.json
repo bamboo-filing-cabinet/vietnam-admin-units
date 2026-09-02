@@ -5178,6 +5178,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.42",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q251838", "Q96946441", "Q103329140"],
+          "local_id": "w-06046-2025-07-01",
+          "mapping_note": "current Tràng Định xã page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Tràng Định (xã)` page explicitly identifies the 2025 Lạng Sơn commune but has no Wikibase item. The candidates are the former district or unrelated entities.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": [],
+          "local_id": "w-06187-2025-07-01",
+          "mapping_note": "current Kỳ Lừa page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current Kỳ Lừa page explicitly identifies the 2025 Lạng Sơn ward but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q10796515"],
+          "local_id": "w-06196-2025-07-01",
+          "mapping_note": "current Ba Sơn page selects predecessor item Q10796515",
+          "outcome": "assign",
+          "rationale": "Q10796515 owns the current Ba Sơn page and represents predecessor Mẫu Sơn within the successor composition. Its label, description, and parent remain stale.",
+          "wikidata_qid": "Q10796515"
+        },
+        {
+          "candidate_qids_checked": ["Q1031051", "Q111387227"],
+          "local_id": "w-06793-2025-07-01",
+          "mapping_note": "current Cẩm Phả phường page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Cẩm Phả (phường)` page explicitly identifies the 2025 Quảng Ninh ward but has no Wikibase item. The candidates are the former city or an unrelated station.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q7897883"],
+          "local_id": "w-06811-2025-07-01",
+          "mapping_note": "current Uông Bí phường page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Uông Bí (phường)` page explicitly identifies the 2025 Quảng Ninh ward but has no Wikibase item. Q7897883 is the former city.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q36082"],
+          "local_id": "w-07900-2025-07-01",
+          "mapping_note": "current Việt Trì phường page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Việt Trì (phường)` page explicitly identifies the 2025 Phú Thọ ward but has no Wikibase item. Q36082 is the former city.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q10772351"],
+          "local_id": "w-08521-2025-07-01",
+          "mapping_note": "current Phùng Nguyên page selects Q10772351 despite stale statements",
+          "outcome": "assign",
+          "rationale": "Q10772351 owns the current Phùng Nguyên page, whose introduction identifies the 2025 Phú Thọ commune. Its label and parent still identify Hợp Hải.",
+          "wikidata_qid": "Q10772351"
+        },
+        {
+          "candidate_qids_checked": ["Q10842057"],
+          "local_id": "w-08872-2025-07-01",
+          "mapping_note": "current Tam Dương Bắc page selects predecessor item Q10842057",
+          "outcome": "assign",
+          "rationale": "Q10842057 owns the current Tam Dương Bắc page and represents predecessor Đồng Tĩnh within the successor composition. Its label, description, and parent remain stale.",
+          "wikidata_qid": "Q10842057"
+        },
+        {
+          "candidate_qids_checked": ["Q10772380"],
+          "local_id": "w-08905-2025-07-01",
+          "mapping_note": "current Hội Thịnh page selects Q10772380 despite stale statements",
+          "outcome": "assign",
+          "rationale": "Q10772380 owns the current Hội Thịnh page, whose introduction identifies the 2025 Phú Thọ commune. Its label, description, and parent still identify Hợp Thịnh.",
+          "wikidata_qid": "Q10772380"
+        },
+        {
+          "candidate_qids_checked": ["Q1196506", "Q10742168"],
+          "local_id": "w-08944-2025-07-01",
+          "mapping_note": "current Bình Tuyền page selects predecessor town item Q10742168",
+          "outcome": "assign",
+          "rationale": "Q10742168 owns the current Bình Tuyền page and represents predecessor town Bá Hiến within the successor composition. Its label, description, class, and parent remain stale; Q1196506 is unrelated.",
+          "wikidata_qid": "Q10742168"
+        }
+      ],
+      "reviewed_at": "2026-09-02T23:55:00Z",
+      "selection": {
+        "input_status": "needs-lookup",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 329
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T23:55:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T23:55:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
