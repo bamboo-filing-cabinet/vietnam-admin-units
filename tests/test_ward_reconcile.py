@@ -440,14 +440,14 @@ def test_saved_snapshot_cache_and_mapping_are_reproducible():
     assert MAPPING.read_text(encoding="utf-8") == serialize_mapping(rows)
     audit = audit_mapping(history, artifact, rows, broad, review_decisions)
     assert audit["summary"]["status_counts"] == {
-        "ambiguous": 27,
+        "ambiguous": 17,
         "deferred-historical": 11223,
-        "manual": 19,
+        "manual": 29,
         "matched": 2670,
         "needs-lookup": 280,
         "needs-review": 324,
         "reviewed-unresolved": 1,
     }
-    assert audit["summary"]["review_decisions"] == 20
+    assert audit["summary"]["review_decisions"] == 30
     assert audit["summary"]["current_fold_collisions"] == 10
     assert audit["issues"] == []

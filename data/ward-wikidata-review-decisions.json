@@ -723,6 +723,259 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.03",
+      "decisions": [
+        {
+          "candidate_qids_checked": [
+            "Q10755038",
+            "Q135447754"
+          ],
+          "evidence": {
+            "predecessor_parent_codes": [
+              "679"
+            ],
+            "viwiki": {
+              "extract": "Di Linh là một xã thuộc tỉnh Lâm Đồng, Việt Nam.",
+              "page_id": 377979,
+              "title": "Di Linh (xã)",
+              "wikibase_item": "Q10755038"
+            }
+          },
+          "local_id": "w-25000-2025-07-01",
+          "mapping_note": "current Di Linh page selects Q10755038",
+          "outcome": "assign",
+          "rationale": "Q10755038 owns the current page and has coordinates in the former Di Linh district. Q135447754 is a duplicate without a page or coordinates.",
+          "wikidata_qid": "Q10755038"
+        },
+        {
+          "candidate_qids_checked": [
+            "Q10830906",
+            "Q10830908",
+            "Q10830925"
+          ],
+          "evidence": {
+            "predecessor_parent_codes": [
+              "692",
+              "693"
+            ],
+            "viwiki": {
+              "extract": "Tân Tiến là xã thuộc thành phố Đồng Nai, Việt Nam.",
+              "page_id": 1252815,
+              "title": "Tân Tiến, Đồng Nai",
+              "wikibase_item": "Q10830908"
+            }
+          },
+          "local_id": "w-25318-2025-07-01",
+          "mapping_note": "current page and Bù Đốp coordinates select Q10830908",
+          "outcome": "assign",
+          "rationale": "Q10830908 owns the current page and is located in the Lộc An–Tân Thành–Tân Tiến predecessor area. The other items belong to Biên Hòa or another Đồng Nai namesake.",
+          "wikidata_qid": "Q10830908"
+        },
+        {
+          "candidate_qids_checked": [
+            "Q10830656",
+            "Q10830659"
+          ],
+          "evidence": {
+            "predecessor_parent_codes": [
+              "695"
+            ],
+            "viwiki": {
+              "extract": "Tân Lợi là một xã thuộc thành phố Đồng Nai, Việt Nam.",
+              "page_id": 1252674,
+              "title": "Tân Lợi",
+              "wikibase_item": "Q10830659"
+            }
+          },
+          "local_id": "w-25378-2025-07-01",
+          "mapping_note": "current page and former Đồng Phú coordinates select Q10830659",
+          "outcome": "assign",
+          "rationale": "Q10830659 owns the current page and its coordinates agree with the former Đồng Phú district. Q10830656 is a different namesake farther west.",
+          "wikidata_qid": "Q10830659"
+        },
+        {
+          "candidate_qids_checked": [
+            "Q10830625",
+            "Q10830631",
+            "Q10830633"
+          ],
+          "evidence": {
+            "predecessor_parent_codes": [
+              "705"
+            ],
+            "viwiki": {
+              "extract": "Tân Lập là một xã thuộc tỉnh Tây Ninh, Việt Nam.",
+              "page_id": 1252654,
+              "title": "Tân Lập, Tây Ninh",
+              "wikibase_item": "Q10830631"
+            }
+          },
+          "local_id": "w-25489-2025-07-01",
+          "mapping_note": "current page and former Tân Biên coordinates select Q10830631",
+          "outcome": "assign",
+          "rationale": "Q10830631 owns the current page and lies in the Tân Lập–Thạnh Bắc predecessor area. The other candidates are former Long An namesakes.",
+          "wikidata_qid": "Q10830631"
+        },
+        {
+          "candidate_qids_checked": [
+            "Q6378422",
+            "Q10831002"
+          ],
+          "evidence": {
+            "predecessor_parent_codes": [
+              "706"
+            ],
+            "viwiki": {
+              "extract": "Tân Đông là một xã thuộc tỉnh Tây Ninh, Việt Nam.",
+              "page_id": 1252548,
+              "title": "Tân Đông, Tây Ninh",
+              "wikibase_item": "Q6378422"
+            }
+          },
+          "local_id": "w-25522-2025-07-01",
+          "mapping_note": "current page and former Tân Châu coordinates select Q6378422",
+          "outcome": "assign",
+          "rationale": "Q6378422 owns the current page and lies in the Tân Hà–Tân Đông predecessor area. Q10831002 is the southern former Long An namesake.",
+          "wikidata_qid": "Q6378422"
+        },
+        {
+          "candidate_qids_checked": [
+            "Q10830836",
+            "Q10830841",
+            "Q10830845",
+            "Q61132329"
+          ],
+          "evidence": {
+            "predecessor_parent_codes": [
+              "706"
+            ],
+            "viwiki": {
+              "extract": "Tân Thành là một xã thuộc tỉnh Tây Ninh, Việt Nam. Đây là một trong 96 phường, xã ở tỉnh Tây Ninh sau đợt sắp xếp vào năm 2025.",
+              "page_id": 14232367,
+              "title": "Tân Thành, Tây Ninh",
+              "wikibase_item": "Q61132329"
+            }
+          },
+          "local_id": "w-25534-2025-07-01",
+          "mapping_note": "current page and former Tân Châu coordinates select Q61132329",
+          "outcome": "assign",
+          "rationale": "Q61132329 owns the current page and lies in the Suối Dây–Tân Thành predecessor area. The other candidates are distinct southern Tây Ninh namesakes.",
+          "wikidata_qid": "Q61132329"
+        },
+        {
+          "candidate_qids_checked": [
+            "Q10826333",
+            "Q10826335"
+          ],
+          "evidence": {
+            "predecessor_parent_codes": [
+              "710"
+            ],
+            "viwiki": {
+              "extract": "Thạnh Đức là một xã thuộc tỉnh Tây Ninh, Việt Nam.",
+              "page_id": 1253047,
+              "title": "Thạnh Đức",
+              "wikibase_item": "Q10826335"
+            }
+          },
+          "local_id": "w-25657-2025-07-01",
+          "mapping_note": "current page and Gò Dầu-side coordinates select Q10826335",
+          "outcome": "assign",
+          "rationale": "Q10826335 owns the current page and lies by the Thạnh Đức–Cẩm Giang predecessor area. Q10826333 is the former Bến Lức namesake.",
+          "wikidata_qid": "Q10826335"
+        },
+        {
+          "candidate_qids_checked": [
+            "Q10786904",
+            "Q10786907"
+          ],
+          "evidence": {
+            "predecessor_parent_codes": [
+              "711"
+            ],
+            "viwiki": {
+              "extract": "Long Thuận là một xã thuộc tỉnh Tây Ninh, Việt Nam.",
+              "page_id": 1250360,
+              "title": "Long Thuận (xã)",
+              "wikibase_item": "Q10786904"
+            }
+          },
+          "local_id": "w-25702-2025-07-01",
+          "mapping_note": "current page and former Bến Cầu coordinates select Q10786904",
+          "outcome": "assign",
+          "rationale": "Q10786904 owns the current page and lies in the Long Giang–Long Khánh–Long Thuận predecessor area. Q10786907 is the former Long An namesake.",
+          "wikidata_qid": "Q10786904"
+        },
+        {
+          "candidate_qids_checked": [
+            "Q2072510",
+            "Q10786822"
+          ],
+          "evidence": {
+            "predecessor_parent_codes": [
+              "720"
+            ],
+            "viwiki": {
+              "extract": "Long Hòa là một xã thuộc Thành phố Hồ Chí Minh, Việt Nam.",
+              "page_id": 1250303,
+              "title": "Long Hòa, Thành phố Hồ Chí Minh",
+              "wikibase_item": "Q2072510"
+            }
+          },
+          "local_id": "w-25792-2025-07-01",
+          "mapping_note": "current page and former Dầu Tiếng coordinates select Q2072510",
+          "outcome": "assign",
+          "rationale": "Q2072510 owns the current page and lies in the former Dầu Tiếng predecessor area. Q10786822 is the coastal former Bà Rịa–Vũng Tàu namesake.",
+          "wikidata_qid": "Q2072510"
+        },
+        {
+          "candidate_qids_checked": [
+            "Q2289774",
+            "Q4935615"
+          ],
+          "evidence": {
+            "predecessor_parent_codes": [
+              "722"
+            ],
+            "viwiki": {
+              "extract": "Phước Hòa là một xã thuộc Thành phố Hồ Chí Minh, Việt Nam. Đây là một trong 168 phường, xã và đặc khu mới ở Thành phố Hồ Chí Minh sau đợt sắp xếp vào năm 2025.",
+              "page_id": 1251783,
+              "title": "Phước Hòa",
+              "wikibase_item": "Q2289774"
+            }
+          },
+          "local_id": "w-25882-2025-07-01",
+          "mapping_note": "current page and former Phú Giáo coordinates select Q2289774",
+          "outcome": "assign",
+          "rationale": "Q2289774 owns the current page and lies in the Tam Lập–Vĩnh Hòa–Phước Hòa predecessor area. Q4935615 is the coastal namesake.",
+          "wikidata_qid": "Q2289774"
+        }
+      ],
+      "reviewed_at": "2026-09-02T17:55:16Z",
+      "selection": {
+        "input_status": "ambiguous",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 632
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T17:55:16Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T17:55:16Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
