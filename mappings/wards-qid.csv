@@ -3582,19 +3582,19 @@ w-12688-2025-07-01,12688,Xã Đông Hưng,Xã,33,2025-07-01,,Q10840741,existing,
 w-12694-2025-07-01,12694,Xã Bắc Đông Hưng,Xã,33,2025-07-01,,,,reviewed-unresolved,,review 2026-09-02.46: current Bắc Đông Hưng page has no Wikibase item
 w-12700-2025-07-01,12700,Xã Bắc Tiên Hưng,Xã,33,2025-07-01,,,,reviewed-unresolved,,review 2026-09-02.46: current Bắc Tiên Hưng page has no Wikibase item
 w-12736-2025-07-01,12736,Xã Đông Tiên Hưng,Xã,33,2025-07-01,,,,reviewed-unresolved,,review 2026-09-02.46: current Đông Tiên Hưng page has no Wikibase item
-w-12745-2025-07-01,12745,Xã Bắc Đông Quan,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-12745-2025-07-01,12745,Xã Bắc Đông Quan,Xã,33,2025-07-01,,,,reviewed-unresolved,,review 2026-09-02.47: current Bắc Đông Quan page has no Wikibase item
 w-12754-2025-07-01,12754,Xã Tiên Hưng,Xã,33,2025-07-01,,,,reviewed-unresolved,Q2026908|Q2352089|Q4758313|Q10827191|Q10827265|Q16480988,review 2026-09-02.20: current Tiên Hưng xã page has no Wikibase item
-w-12763-2025-07-01,12763,Xã Nam Tiên Hưng,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-12775-2025-07-01,12775,Xã Nam Đông Hưng,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-12763-2025-07-01,12763,Xã Nam Tiên Hưng,Xã,33,2025-07-01,,,,reviewed-unresolved,,review 2026-09-02.47: current Nam Tiên Hưng page has no Wikibase item
+w-12775-2025-07-01,12775,Xã Nam Đông Hưng,Xã,33,2025-07-01,,,,reviewed-unresolved,,review 2026-09-02.47: current Nam Đông Hưng page has no Wikibase item
 w-12793-2025-07-01,12793,Xã Đông Quan,Xã,33,2025-07-01,,Q10840815,existing,matched,Q10809928|Q10840815|Q10842297,qlever-label+current-province+batched-wbgetentities
-w-12817-2025-07-01,12817,Phường Trà Lý,Phường,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-12817-2025-07-01,12817,Phường Trà Lý,Phường,33,2025-07-01,,Q10840801,existing,manual,Q10840801,review 2026-09-02.47: current Trà Lý page selects predecessor item Q10840801
 w-12826-2025-07-01,12826,Xã Thái Thụy,Xã,33,2025-07-01,,Q10825782,existing,matched,Q2221238|Q10825782,qlever-label+current-province+batched-wbgetentities
-w-12850-2025-07-01,12850,Xã Tây Thụy Anh,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-12859-2025-07-01,12859,Xã Bắc Thụy Anh,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-12862-2025-07-01,12862,Xã Đông Thụy Anh,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-12865-2025-07-01,12865,Xã Thụy Anh,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-12904-2025-07-01,12904,Xã Nam Thụy Anh,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-12916-2025-07-01,12916,Xã Bắc Thái Ninh,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-12850-2025-07-01,12850,Xã Tây Thụy Anh,Xã,33,2025-07-01,,,,reviewed-unresolved,,review 2026-09-02.47: current Tây Thụy Anh page has no Wikibase item
+w-12859-2025-07-01,12859,Xã Bắc Thụy Anh,Xã,33,2025-07-01,,,,reviewed-unresolved,,review 2026-09-02.47: current Bắc Thụy Anh page has no Wikibase item
+w-12862-2025-07-01,12862,Xã Đông Thụy Anh,Xã,33,2025-07-01,,,,reviewed-unresolved,,review 2026-09-02.47: current Đông Thụy Anh page has no Wikibase item
+w-12865-2025-07-01,12865,Xã Thụy Anh,Xã,33,2025-07-01,,,,reviewed-unresolved,Q16480941,review 2026-09-02.47: current Thụy Anh xã page has no Wikibase item
+w-12904-2025-07-01,12904,Xã Nam Thụy Anh,Xã,33,2025-07-01,,,,reviewed-unresolved,,review 2026-09-02.47: current Nam Thụy Anh page has no Wikibase item
+w-12916-2025-07-01,12916,Xã Bắc Thái Ninh,Xã,33,2025-07-01,,,,reviewed-unresolved,,review 2026-09-02.47: current Bắc Thái Ninh page has no Wikibase item
 w-12919-2025-07-01,12919,Xã Tây Thái Ninh,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
 w-12922-2025-07-01,12922,Xã Thái Ninh,Xã,33,2025-07-01,,,,reviewed-unresolved,Q1375194|Q5368050|Q8011337|Q8011599|Q10825746|Q10941222|Q16481432|Q20026168,review 2026-09-02.20: current Thái Ninh xã page has no Wikibase item
 w-12943-2025-07-01,12943,Xã Đông Thái Ninh,Xã,33,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
