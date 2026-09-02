@@ -2634,6 +2634,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.18",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q27092", "Q45341", "Q252042", "Q1197723", "Q3250118", "Q5295914", "Q10771748", "Q10840746", "Q10840747", "Q10840749", "Q10840750", "Q10840751", "Q10840753", "Q45458856", "Q45492005", "Q46551088", "Q98271392", "Q105766618", "Q111769142", "Q136675917"],
+          "local_id": "w-11411-2025-07-01",
+          "mapping_note": "current Đông Hải, Hải Phòng ward page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Đông Hải, Hải Phòng` page explicitly identifies the 2025 ward but has no Wikibase item. The numerous candidates are seas, namesakes, or unrelated entities.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q242676", "Q10733276", "Q10838745", "Q122793711"],
+          "local_id": "w-11593-2025-07-01",
+          "mapping_note": "current An Phong ward page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current An Phong page explicitly identifies the 2025 Hải Phòng ward but has no Wikibase item. The candidates are a person or wrong-spelling namesakes.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q10733366", "Q10742259", "Q125345822"],
+          "local_id": "w-11635-2025-07-01",
+          "mapping_note": "current An Trường, Hải Phòng page selects Q10742259",
+          "outcome": "assign",
+          "rationale": "Q10742259 owns the current `An Trường, Hải Phòng` page and has commune class. Its parent remains stale; the other candidates are unrelated namesakes.",
+          "wikidata_qid": "Q10742259"
+        },
+        {
+          "candidate_qids_checked": ["Q10733302"],
+          "local_id": "w-11647-2025-07-01",
+          "mapping_note": "current An Quang page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current An Quang page explicitly identifies the 2025 Hải Phòng commune but has no Wikibase item. The existing exact-label candidate does not own the current page.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q360374", "Q10733195", "Q10733196", "Q10733197", "Q10733200", "Q10742354"],
+          "local_id": "w-11668-2025-07-01",
+          "mapping_note": "current An Khánh, Hải Phòng page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `An Khánh, Hải Phòng` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are namesakes elsewhere or a disambiguation item.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q6405297", "Q138685608"],
+          "local_id": "w-11680-2025-07-01",
+          "mapping_note": "current Kiến Thụy xã page selects Q138685608",
+          "outcome": "assign",
+          "rationale": "Q138685608 owns the current `Kiến Thụy (xã)` page and has commune class. Q6405297 is the former district.",
+          "wikidata_qid": "Q138685608"
+        },
+        {
+          "candidate_qids_checked": ["Q5366875", "Q6428083", "Q6451892", "Q8010877", "Q8011322", "Q8012001", "Q10780315", "Q138638872"],
+          "local_id": "w-11728-2025-07-01",
+          "mapping_note": "current Kiến Hưng xã page selects Q138638872",
+          "outcome": "assign",
+          "rationale": "Q138638872 owns the current `Kiến Hưng (xã)` page and has commune class. The other candidates are the Hanoi ward or unrelated namesakes.",
+          "wikidata_qid": "Q138638872"
+        },
+        {
+          "candidate_qids_checked": ["Q10830665", "Q10830666", "Q10830667", "Q10830669", "Q10830672", "Q10830673", "Q111260691"],
+          "local_id": "w-11779-2025-07-01",
+          "mapping_note": "current Tân Minh, Hải Phòng page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Tân Minh, Hải Phòng` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are namesakes elsewhere or a disambiguation item.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q197753", "Q10797068", "Q19705234", "Q25418345"],
+          "local_id": "w-11806-2025-07-01",
+          "mapping_note": "current Chấn Hưng page selects predecessor item Q10797068",
+          "outcome": "assign",
+          "rationale": "Q10797068 owns the current Chấn Hưng page and represents predecessor Nam Hưng within the successor composition. Its label and parent remain stale; the other candidates are unrelated or disambiguation.",
+          "wikidata_qid": "Q10797068"
+        },
+        {
+          "candidate_qids_checked": ["Q1199571", "Q1927521", "Q10833676", "Q10833677", "Q10833678", "Q10833679", "Q10833680", "Q20026289", "Q22829800"],
+          "local_id": "w-11842-2025-07-01",
+          "mapping_note": "current Vĩnh Thuận, Hải Phòng page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Vĩnh Thuận, Hải Phòng` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are the former district or namesakes elsewhere.",
+          "wikidata_qid": ""
+        }
+      ],
+      "reviewed_at": "2026-09-02T19:55:00Z",
+      "selection": {
+        "input_status": "needs-review",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 500
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T19:55:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T19:55:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
