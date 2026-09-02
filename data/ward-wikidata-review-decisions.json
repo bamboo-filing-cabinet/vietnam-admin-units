@@ -4362,6 +4362,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.34",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q2908721"],
+          "local_id": "w-20669-2025-07-01",
+          "mapping_note": "current Quế Phước page selects predecessor item Q2908721",
+          "outcome": "assign",
+          "rationale": "Q2908721 owns the current Quế Phước page and represents predecessor Ninh Phước within the successor composition. Its label and parent remain stale.",
+          "wikidata_qid": "Q2908721"
+        },
+        {
+          "candidate_qids_checked": ["Q1200064", "Q2008513", "Q2122896", "Q3244702", "Q10770705", "Q10797046", "Q10797047", "Q10797048", "Q10908281"],
+          "local_id": "w-20707-2025-07-01",
+          "mapping_note": "current Nam Giang xã page selects predecessor item Q3244702",
+          "outcome": "assign",
+          "rationale": "Q3244702 owns the current `Nam Giang (xã)` page and represents predecessor Chà Vàl within the successor composition. Its label and parent remain stale; the other candidates are the former district, namesakes, or unrelated entities.",
+          "wikidata_qid": "Q3244702"
+        },
+        {
+          "candidate_qids_checked": ["Q2083636", "Q2455936", "Q4711850", "Q8011316", "Q32305308", "Q135162025"],
+          "local_id": "w-20791-2025-07-01",
+          "mapping_note": "current Thăng Bình, Đà Nẵng page selects predecessor item Q2455936",
+          "outcome": "assign",
+          "rationale": "Q2455936 owns the current `Thăng Bình, Đà Nẵng` page and represents predecessor town Hà Lam within the successor composition. Its label, class, and parent remain stale; the other candidates are the former district, namesakes, or unrelated entities.",
+          "wikidata_qid": "Q2455936"
+        },
+        {
+          "candidate_qids_checked": ["Q2688175", "Q10842413", "Q10842414", "Q10842416"],
+          "local_id": "w-20977-2025-07-01",
+          "mapping_note": "current Đức Phú page selects Q2688175",
+          "outcome": "assign",
+          "rationale": "Q2688175 owns the current Đức Phú page, and its label, commune class, and description identify the Đà Nẵng commune. Its parent is absent; the other candidates are former namesakes.",
+          "wikidata_qid": "Q2688175"
+        },
+        {
+          "candidate_qids_checked": ["Q36014", "Q117066", "Q277067", "Q1212526", "Q1331632", "Q1363579", "Q1918687", "Q2218547", "Q2755397", "Q4914341", "Q10742532", "Q10742533", "Q10742535", "Q10742537", "Q10742540", "Q11042631", "Q14148573", "Q140308142"],
+          "local_id": "w-21040-2025-07-01",
+          "mapping_note": "current Bình Sơn, Quảng Ngãi page selects Q140308142",
+          "outcome": "assign",
+          "rationale": "Q140308142 owns the current `Bình Sơn, Quảng Ngãi` page, and its label, commune class, and description identify the successor commune. Its parent is absent; the other candidates are the former district, namesakes, or unrelated entities.",
+          "wikidata_qid": "Q140308142"
+        },
+        {
+          "candidate_qids_checked": ["Q2221252", "Q10823391", "Q10823392", "Q10823394", "Q10823395", "Q10823396", "Q10823397", "Q10823398", "Q10823399", "Q136677585"],
+          "local_id": "w-21319-2025-07-01",
+          "mapping_note": "current Sơn Thủy, Quảng Ngãi page selects Q10823397",
+          "outcome": "assign",
+          "rationale": "Q10823397 owns the current `Sơn Thủy, Quảng Ngãi` page, and its label, commune class, and description identify the successor commune. Its parent remains stale; the other candidates are namesakes or unrelated entities.",
+          "wikidata_qid": "Q10823397"
+        },
+        {
+          "candidate_qids_checked": ["Q10772276"],
+          "local_id": "w-21868-2025-07-01",
+          "mapping_note": "current Hội Sơn page selects Q10772276 despite stale P131",
+          "outcome": "assign",
+          "rationale": "Q10772276 owns the current Hội Sơn page, and its label, commune class, and description identify the Gia Lai commune. Its parent remains the former An Lão district.",
+          "wikidata_qid": "Q10772276"
+        },
+        {
+          "candidate_qids_checked": ["Q2162481", "Q10835108", "Q10835109", "Q10835110", "Q10835112", "Q10835114"],
+          "local_id": "w-22075-2025-07-01",
+          "mapping_note": "current Xuân Thọ page selects predecessor item Q10835114",
+          "outcome": "assign",
+          "rationale": "Q10835114 owns the current Xuân Thọ page and represents predecessor Xuân Thọ 1 within the successor composition. Its label, description, and parent remain stale; the other candidates are namesakes or former units.",
+          "wikidata_qid": "Q10835114"
+        },
+        {
+          "candidate_qids_checked": ["Q5295782", "Q5295784", "Q8946263", "Q10783831", "Q10840899", "Q10840901", "Q10840902", "Q10842068", "Q10842069", "Q10842070", "Q10842071", "Q45415821", "Q45460549", "Q45573342", "Q45605016", "Q45610354", "Q45620004", "Q45683083"],
+          "local_id": "w-22081-2025-07-01",
+          "mapping_note": "current Đồng Xuân xã page selects predecessor item Q10783831",
+          "outcome": "assign",
+          "rationale": "Q10783831 owns the current `Đồng Xuân (xã)` page and represents predecessor town La Hai within the successor composition. Its label, class, description, and parent remain stale; the other candidates are the former district, namesakes, or unrelated entities.",
+          "wikidata_qid": "Q10783831"
+        },
+        {
+          "candidate_qids_checked": ["Q7560582", "Q10823293", "Q10823294", "Q10823295"],
+          "local_id": "w-22165-2025-07-01",
+          "mapping_note": "current Sơn Hòa xã page selects Q10823294 despite stale statements",
+          "outcome": "assign",
+          "rationale": "Q10823294 owns the current `Sơn Hòa (xã)` page, whose introduction identifies the 2025 Đắk Lắk commune. Its description and parent still describe the former Bến Tre namesake; the other candidates are the former district or other namesakes.",
+          "wikidata_qid": "Q10823294"
+        }
+      ],
+      "reviewed_at": "2026-09-02T22:03:00Z",
+      "selection": {
+        "input_status": "needs-review",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 394
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T22:03:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T22:03:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
