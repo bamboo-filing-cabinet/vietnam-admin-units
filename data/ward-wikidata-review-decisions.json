@@ -2185,6 +2185,131 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.14",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q7188288", "Q10806276"],
+          "local_id": "w-08740-2025-07-01",
+          "mapping_note": "current Phúc Yên ward page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Phúc Yên (phường)` page explicitly identifies the 2025 Phú Thọ ward but has no Wikibase item. The existing candidates are the former city or an unrelated namesake.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q7680451", "Q7680452", "Q10823892", "Q10841306"],
+          "local_id": "w-08869-2025-07-01",
+          "mapping_note": "current Tam Dương xã page selects predecessor item Q10841306",
+          "outcome": "assign",
+          "rationale": "Q10841306 owns the current `Tam Dương (xã)` page and represents predecessor Đạo Tú within the successor composition. Its label and parent remain stale; the other candidates are the former district or namesakes.",
+          "wikidata_qid": "Q10841306"
+        },
+        {
+          "candidate_qids_checked": ["Q5923057", "Q10769141"],
+          "local_id": "w-08896-2025-07-01",
+          "mapping_note": "current Hoàng An page selects predecessor item Q10769141",
+          "outcome": "assign",
+          "rationale": "Q10769141 owns the current Hoàng An page and represents predecessor Hoàng Đan within the successor composition. Its label and parent remain stale; Q5923057 is a disambiguation item.",
+          "wikidata_qid": "Q10769141"
+        },
+        {
+          "candidate_qids_checked": ["Q1005318", "Q1152568", "Q1198034", "Q1837876", "Q2380389", "Q7023081", "Q10742491", "Q10742493", "Q10771449", "Q57888711", "Q58672712", "Q89432481", "Q113491677", "Q131111530", "Q137823417"],
+          "local_id": "w-08935-2025-07-01",
+          "mapping_note": "current Bình Nguyên, Phú Thọ page selects predecessor item Q10771449",
+          "outcome": "assign",
+          "rationale": "Q10771449 owns the current `Bình Nguyên, Phú Thọ` page and represents predecessor town Hương Canh within the successor composition. Its statements remain stale; the other candidates are unrelated concepts or namesakes.",
+          "wikidata_qid": "Q10771449"
+        },
+        {
+          "candidate_qids_checked": ["Q1019520", "Q1201538", "Q4914346", "Q10771493"],
+          "local_id": "w-08950-2025-07-01",
+          "mapping_note": "current Bình Xuyên xã page selects predecessor item Q10771493",
+          "outcome": "assign",
+          "rationale": "Q10771493 owns the current `Bình Xuyên (xã)` page and represents predecessor Hương Sơn within the successor composition. Its label and parent remain stale; Q4914346 is the former district.",
+          "wikidata_qid": "Q10771493"
+        },
+        {
+          "candidate_qids_checked": ["Q287547", "Q1997227", "Q4312484", "Q10810005", "Q10810006", "Q10810008", "Q10810011", "Q10810012", "Q10810013", "Q10810014", "Q10810420", "Q10810421", "Q10810423", "Q61131370", "Q105767692", "Q117070795", "Q131392386"],
+          "local_id": "w-08974-2025-07-01",
+          "mapping_note": "current Hanoi page selects Q10810012 despite stale P131",
+          "outcome": "assign",
+          "rationale": "Q10810012 owns the current Quang Minh page, has commune class, and represents the continuing Quang Minh identity. Its parent remains former Mê Linh district; the other candidates are namesakes or people.",
+          "wikidata_qid": "Q10810012"
+        },
+        {
+          "candidate_qids_checked": ["Q10838037", "Q10838038", "Q16481480", "Q29550158", "Q138637639"],
+          "local_id": "w-08980-2025-07-01",
+          "mapping_note": "current Yên Lãng, Hà Nội page selects Q138637639",
+          "outcome": "assign",
+          "rationale": "Q138637639 owns the current `Yên Lãng, Hà Nội` page and has commune class. The older candidates are the historical district, a disambiguation item, or unrelated namesakes.",
+          "wikidata_qid": "Q138637639"
+        },
+        {
+          "candidate_qids_checked": ["Q2295952", "Q2755011", "Q10827232", "Q10827281", "Q10827282", "Q131459567"],
+          "local_id": "w-08995-2025-07-01",
+          "mapping_note": "current Hanoi page selects Q10827282 despite stale P131",
+          "outcome": "assign",
+          "rationale": "Q10827282 owns the current Tiến Thắng page, has commune class, and represents the continuing Tiến Thắng identity. Its parent remains former Mê Linh district; the other candidates are namesakes.",
+          "wikidata_qid": "Q10827282"
+        },
+        {
+          "candidate_qids_checked": ["Q708194", "Q1073826", "Q1375570", "Q1899198", "Q4359174", "Q5371500", "Q8011673", "Q8011698", "Q10780009", "Q10832653", "Q10833513", "Q10833515", "Q10833516", "Q10833517", "Q10917176", "Q11549951", "Q16159011"],
+          "local_id": "w-09079-2025-07-01",
+          "mapping_note": "current Vĩnh An, Phú Thọ page selects predecessor item Q10780009",
+          "outcome": "assign",
+          "rationale": "Q10780009 owns the current `Vĩnh An, Phú Thọ` page and represents predecessor Kim Xá within the successor composition. Its label and parent remain stale; the other candidates are namesakes elsewhere.",
+          "wikidata_qid": "Q10780009"
+        },
+        {
+          "candidate_qids_checked": ["Q393044", "Q1356285", "Q2261098", "Q5370282", "Q5371444", "Q7932532", "Q8011371", "Q8011808", "Q8012839", "Q8012860", "Q10832658", "Q10833564", "Q10833565", "Q10833566", "Q10833567", "Q10841278", "Q14816998"],
+          "local_id": "w-09100-2025-07-01",
+          "mapping_note": "current Vĩnh Hưng, Phú Thọ page selects predecessor item Q10841278",
+          "outcome": "assign",
+          "rationale": "Q10841278 owns the current `Vĩnh Hưng, Phú Thọ` page and represents predecessor Đại Đồng within the successor composition. Its label and parent remain stale; the other candidates are namesakes or unrelated features.",
+          "wikidata_qid": "Q10841278"
+        },
+        {
+          "candidate_qids_checked": ["Q10838744", "Q10841271", "Q10841273", "Q10841274", "Q10841275", "Q10841276", "Q10841277", "Q10841278", "Q10841279", "Q32600022"],
+          "local_id": "w-05347-2025-07-01",
+          "mapping_note": "collision audit corrects Đại Đồng to predecessor item Q10838744",
+          "outcome": "assign",
+          "rationale": "Q10838744 owns the current `Đại Đồng, Phú Thọ` page and represents predecessor Ân Nghĩa in the Lạc Sơn composition. The automatic Q10841278 match belongs to predecessor Đại Đồng in former Vĩnh Tường and now owns the Vĩnh Hưng page.",
+          "wikidata_qid": "Q10838744"
+        },
+        {
+          "candidate_qids_checked": ["Q10838744", "Q49053898"],
+          "local_id": "w-05395-2025-07-01",
+          "mapping_note": "collision audit corrects An Nghĩa to Q49053898",
+          "outcome": "assign",
+          "rationale": "Q49053898 owns the current An Nghĩa page and represents the Lạc Thủy-derived successor. The automatic folded-label match Q10838744 is the different Ân Nghĩa predecessor in Lạc Sơn whose page now represents Đại Đồng.",
+          "wikidata_qid": "Q49053898"
+        }
+      ],
+      "reviewed_at": "2026-09-02T19:24:00Z",
+      "selection": {
+        "input_status": "needs-review",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 533,
+        "supplemental_audit_corrections": 2
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T19:24:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T19:24:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
