@@ -4470,6 +4470,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.35",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q1320837", "Q2030923", "Q6129548", "Q7189881", "Q10823311", "Q10831069", "Q10831070", "Q10831071", "Q10831072"],
+          "local_id": "w-22171-2025-07-01",
+          "mapping_note": "current Tây Sơn, Đắk Lắk page selects predecessor item Q10823311",
+          "outcome": "assign",
+          "rationale": "Q10823311 owns the current `Tây Sơn, Đắk Lắk` page and represents predecessor Sơn Hội within the successor composition. Its label, description, and parent remain stale; the other candidates are namesakes or unrelated entities.",
+          "wikidata_qid": "Q10823311"
+        },
+        {
+          "candidate_qids_checked": ["Q1335038", "Q10833127", "Q10834105", "Q21648116", "Q86011921"],
+          "local_id": "w-22177-2025-07-01",
+          "mapping_note": "current Vân Hòa page selects predecessor item Q86011921",
+          "outcome": "assign",
+          "rationale": "Q86011921 owns the current Vân Hòa page and represents predecessor Sơn Long within the successor composition. Its label and parent remain stale and its structured class is absent; the other candidates are namesakes or unrelated entities.",
+          "wikidata_qid": "Q86011921"
+        },
+        {
+          "candidate_qids_checked": ["Q10842328", "Q10842330", "Q119062705"],
+          "local_id": "w-22222-2025-07-01",
+          "mapping_note": "current Đức Bình page selects predecessor item Q10842330",
+          "outcome": "assign",
+          "rationale": "Q10842330 owns the current Đức Bình page and represents predecessor Đức Bình Đông within the successor composition. Its label and parent remain stale; the other candidates are former or unrelated identities.",
+          "wikidata_qid": "Q10842330"
+        },
+        {
+          "candidate_qids_checked": ["Q36725", "Q7188273", "Q10805819", "Q10806182", "Q10806183", "Q11816247", "Q31624300", "Q31664930"],
+          "local_id": "w-22240-2025-07-01",
+          "mapping_note": "current Phú Yên phường page has no Wikibase item",
+          "outcome": "retain-unresolved",
+          "rationale": "The current `Phú Yên (phường)` page explicitly identifies the 2025 Đắk Lắk ward and explains that its name derives from the former province, but it has no Wikibase item. The candidates are the former province, namesakes, or unrelated entities.",
+          "wikidata_qid": ""
+        },
+        {
+          "candidate_qids_checked": ["Q1199000", "Q6480689", "Q10823375", "Q10823376", "Q10823377", "Q10823378", "Q10823380"],
+          "local_id": "w-22250-2025-07-01",
+          "mapping_note": "current Sơn Thành page selects predecessor item Q10823380",
+          "outcome": "assign",
+          "rationale": "Q10823380 owns the current Sơn Thành page and represents predecessor Sơn Thành Đông within the successor composition. Its label and parent remain stale; the other candidates are namesakes or former units.",
+          "wikidata_qid": "Q10823380"
+        },
+        {
+          "candidate_qids_checked": ["Q1201553", "Q2108076", "Q2151365", "Q7689722"],
+          "local_id": "w-22255-2025-07-01",
+          "mapping_note": "current Tây Hòa xã page selects Q2108076 despite stale P131",
+          "outcome": "assign",
+          "rationale": "Q2108076 owns the current `Tây Hòa (xã)` page, and its label, commune class, and description identify the Đắk Lắk commune. Its parent remains the former district; the other candidates are the former district or unrelated entities.",
+          "wikidata_qid": "Q2108076"
+        },
+        {
+          "candidate_qids_checked": ["Q2508587", "Q2643702", "Q3287303", "Q5295732", "Q10771129", "Q10840728", "Q10840729", "Q10840732", "Q10840733", "Q10841923", "Q10841924", "Q122785314"],
+          "local_id": "w-22258-2025-07-01",
+          "mapping_note": "current Đông Hòa, Đắk Lắk page selects predecessor item Q10771129",
+          "outcome": "assign",
+          "rationale": "Q10771129 owns the current `Đông Hòa, Đắk Lắk` page and represents predecessor Hòa Vinh within the successor composition. Its label, class, and parent remain stale; the other candidates are the former district-level town, namesakes, or unrelated entities.",
+          "wikidata_qid": "Q10771129"
+        },
+        {
+          "candidate_qids_checked": ["Q712956", "Q5923036", "Q10767746", "Q10771013", "Q10771015", "Q10771017"],
+          "local_id": "w-22285-2025-07-01",
+          "mapping_note": "current Hòa Mỹ page selects predecessor item Q10771017",
+          "outcome": "assign",
+          "rationale": "Q10771017 owns the current Hòa Mỹ page and represents predecessor Hòa Mỹ Đông within the successor composition. Its label and parent remain stale; the other candidates are namesakes or unrelated entities.",
+          "wikidata_qid": "Q10771017"
+        },
+        {
+          "candidate_qids_checked": ["Q10744002", "Q32261279", "Q137215908"],
+          "local_id": "w-22453-2025-07-01",
+          "mapping_note": "current Cam Lâm xã page selects Q137215908",
+          "outcome": "assign",
+          "rationale": "Q137215908 owns the current `Cam Lâm (xã)` page, and its label and description identify the Khánh Hòa commune. Its structured class and parent are absent; the other candidates are a former district or an unrelated item.",
+          "wikidata_qid": "Q137215908"
+        },
+        {
+          "candidate_qids_checked": ["Q10752463", "Q137215914"],
+          "local_id": "w-22465-2025-07-01",
+          "mapping_note": "current Cam An page selects Q137215914",
+          "outcome": "assign",
+          "rationale": "Q137215914 owns the current Cam An page, and its label and description identify the Khánh Hòa commune. Its structured class and parent are absent; Q10752463 is a former namesake.",
+          "wikidata_qid": "Q137215914"
+        }
+      ],
+      "reviewed_at": "2026-09-02T22:14:00Z",
+      "selection": {
+        "input_status": "needs-review",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 384
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T22:14:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T22:14:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
