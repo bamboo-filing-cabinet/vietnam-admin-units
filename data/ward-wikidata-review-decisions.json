@@ -6269,6 +6269,28 @@
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "query pageprops and extracts", "retrieved_at": "2026-09-02T22:12:00Z"},
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"}
       ]
+    },
+    {
+      "batch_id": "2026-09-02.61",
+      "decisions": [
+        {"candidate_qids_checked": ["Q2683795"], "local_id": "w-20827-2025-07-01", "mapping_note": "current Thăng Phú page selects predecessor item Q2683795", "outcome": "assign", "rationale": "Q2683795 owns the current Thăng Phú page and represents predecessor Bình Phú. Its label, class, and parent remain stale although its description identifies a Đà Nẵng commune.", "wikidata_qid": "Q2683795"},
+        {"candidate_qids_checked": ["Q1880006"], "local_id": "w-20836-2025-07-01", "mapping_note": "current Thăng Trường page selects predecessor item Q1880006", "outcome": "assign", "rationale": "Q1880006 owns the current Thăng Trường page and represents predecessor Bình Sa. Its label, class, and parent remain stale although its description identifies a Đà Nẵng commune.", "wikidata_qid": "Q1880006"},
+        {"candidate_qids_checked": ["Q3058727"], "local_id": "w-20848-2025-07-01", "mapping_note": "current Thăng Điền page selects predecessor item Q3058727", "outcome": "assign", "rationale": "Q3058727 owns the current Thăng Điền page and represents predecessor Bình Trung. Its label, class, and parent remain stale although its description identifies a Đà Nẵng commune.", "wikidata_qid": "Q3058727"},
+        {"candidate_qids_checked": ["Q2604795", "Q2784846"], "local_id": "w-20854-2025-07-01", "mapping_note": "current Tiên Phước xã page selects predecessor item Q2784846", "outcome": "assign", "rationale": "Q2784846 owns the current `Tiên Phước (xã)` page and represents predecessor Tiên Kỳ. Its label, town class, and parent remain stale although its description identifies a Đà Nẵng commune. Q2604795 is the former district.", "wikidata_qid": "Q2784846"},
+        {"candidate_qids_checked": ["Q10827226"], "local_id": "w-20857-2025-07-01", "mapping_note": "current Sơn Cẩm Hà page selects predecessor item Q10827226", "outcome": "assign", "rationale": "Q10827226 owns the current Sơn Cẩm Hà page and represents predecessor Tiên Sơn. Its label, class, and parent remain stale although its description identifies a Đà Nẵng commune.", "wikidata_qid": "Q10827226"},
+        {"candidate_qids_checked": ["Q10827187"], "local_id": "w-20875-2025-07-01", "mapping_note": "current Lãnh Ngọc page selects predecessor item Q10827187", "outcome": "assign", "rationale": "Q10827187 owns the current Lãnh Ngọc page and represents predecessor Tiên Hiệp. Its label, class, and parent remain stale although its description identifies a Đà Nẵng commune.", "wikidata_qid": "Q10827187"},
+        {"candidate_qids_checked": ["Q2103241"], "local_id": "w-20908-2025-07-01", "mapping_note": "current Trà Liên page selects predecessor item Q2103241", "outcome": "assign", "rationale": "Q2103241 owns the current Trà Liên page and represents predecessor Trà Đông. Its label, class, and parent remain stale although its description identifies a Đà Nẵng commune.", "wikidata_qid": "Q2103241"},
+        {"candidate_qids_checked": ["Q2613911", "Q2609991"], "local_id": "w-20944-2025-07-01", "mapping_note": "current Nam Trà My xã page selects predecessor item Q2609991", "outcome": "assign", "rationale": "Q2609991 owns the current `Nam Trà My (xã)` page and represents predecessor Trà Mai. Its label, class, and parent remain stale although its description identifies a Đà Nẵng commune. Q2613911 is the former district.", "wikidata_qid": "Q2609991"},
+        {"candidate_qids_checked": ["Q2352265"], "local_id": "w-20971-2025-07-01", "mapping_note": "current Tam Xuân page selects predecessor item Q2352265", "outcome": "assign", "rationale": "Q2352265 owns the current Tam Xuân page and represents predecessor Tam Xuân II. Its label, class, and parent remain stale although its description identifies a Đà Nẵng commune.", "wikidata_qid": "Q2352265"},
+        {"candidate_qids_checked": ["Q1921509"], "local_id": "w-21004-2025-07-01", "mapping_note": "current Tam Mỹ page selects predecessor item Q1921509", "outcome": "assign", "rationale": "Q1921509 owns the current Tam Mỹ page and represents predecessor Tam Mỹ Tây. Its label, class, and parent remain stale although its description identifies a Đà Nẵng commune.", "wikidata_qid": "Q1921509"}
+      ],
+      "reviewed_at": "2026-09-02T22:20:00Z",
+      "selection": {"input_status": "needs-lookup", "limit": 10, "order": "local_id", "starting_unresolved": 213},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbgetentities", "retrieved_at": "2026-09-02T22:20:00Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "query pageprops and extracts", "retrieved_at": "2026-09-02T22:20:00Z"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"}
+      ]
     }
   ],
   "schema_version": 1,
