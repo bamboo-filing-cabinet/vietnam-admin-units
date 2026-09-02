@@ -4854,6 +4854,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.39",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q864791", "Q135333187"],
+          "local_id": "w-00592-2025-07-01",
+          "mapping_note": "current Từ Liêm phường page selects Q135333187",
+          "outcome": "assign",
+          "rationale": "Q135333187 owns the current `Từ Liêm (phường)` page and has commune-level class. Its parent is absent; Q864791 is the former district.",
+          "wikidata_qid": "Q135333187"
+        },
+        {
+          "candidate_qids_checked": ["Q4838560", "Q137392281"],
+          "local_id": "w-00991-2025-07-01",
+          "mapping_note": "current Bắc Mê xã page selects Q137392281",
+          "outcome": "assign",
+          "rationale": "Q137392281 owns the current `Bắc Mê (xã)` page and has commune-level class. Its parent is absent; Q4838560 is the former district.",
+          "wikidata_qid": "Q137392281"
+        },
+        {
+          "candidate_qids_checked": ["Q1858865", "Q136762676"],
+          "local_id": "w-01279-2025-07-01",
+          "mapping_note": "current Nùng Trí Cao phường page selects Q136762676",
+          "outcome": "assign",
+          "rationale": "Q136762676 owns the current `Nùng Trí Cao (phường)` page, and its label and description identify the Cao Bằng ward. Its structured class and parent are absent; Q1858865 is the historical person after whom the ward is named.",
+          "wikidata_qid": "Q136762676"
+        },
+        {
+          "candidate_qids_checked": ["Q2647812", "Q10840461"],
+          "local_id": "w-01438-2025-07-01",
+          "mapping_note": "current Hà Quảng xã page selects Q10840461 despite stale statements",
+          "outcome": "assign",
+          "rationale": "Q10840461 owns the current `Hà Quảng (xã)` page, whose introduction identifies the 2025 Cao Bằng commune. Its label and parent still identify Đào Ngạn; Q2647812 is the former district.",
+          "wikidata_qid": "Q10840461"
+        },
+        {
+          "candidate_qids_checked": ["Q10825868"],
+          "local_id": "w-01525-2025-07-01",
+          "mapping_note": "current Đoài Dương page selects predecessor-era item Q10825868",
+          "outcome": "assign",
+          "rationale": "Q10825868 owns the current Đoài Dương page, whose introduction identifies the Cao Bằng commune. Its label and parent still identify predecessor-era Thân Giáp.",
+          "wikidata_qid": "Q10825868"
+        },
+        {
+          "candidate_qids_checked": ["Q7708868", "Q139792461"],
+          "local_id": "w-01807-2025-07-01",
+          "mapping_note": "current Thạch An xã page selects Q139792461",
+          "outcome": "assign",
+          "rationale": "Q139792461 owns the current `Thạch An (xã)` page. Its label and article introduction identify the Cao Bằng commune, while its structured class and parent are absent; Q7708868 is the former district.",
+          "wikidata_qid": "Q139792461"
+        },
+        {
+          "candidate_qids_checked": ["Q36404", "Q75700", "Q137383836"],
+          "local_id": "w-01843-2025-07-01",
+          "mapping_note": "current Bắc Kạn phường page selects Q137383836",
+          "outcome": "assign",
+          "rationale": "Q137383836 owns the current `Bắc Kạn (phường)` page, and its label, commune-level class, description, and province parent identify the Thái Nguyên ward. The other candidates are the former province and city.",
+          "wikidata_qid": "Q137383836"
+        },
+        {
+          "candidate_qids_checked": ["Q1124233", "Q1328473", "Q10736912", "Q137383546"],
+          "local_id": "w-01906-2025-07-01",
+          "mapping_note": "current Ba Bể xã page selects Q137383546",
+          "outcome": "assign",
+          "rationale": "Q137383546 owns the current `Ba Bể (xã)` page, whose label and introduction identify the Thái Nguyên commune. Its structured class and parent are absent; the other candidates are the former district, lake, or national park.",
+          "wikidata_qid": "Q137383546"
+        },
+        {
+          "candidate_qids_checked": ["Q137383563"],
+          "local_id": "w-01921-2025-07-01",
+          "mapping_note": "current Thượng Minh page selects Q137383563",
+          "outcome": "assign",
+          "rationale": "Q137383563 owns the current Thượng Minh page, whose label and introduction identify the Thái Nguyên commune. Its structured class and parent are absent.",
+          "wikidata_qid": "Q137383563"
+        },
+        {
+          "candidate_qids_checked": ["Q3711242", "Q107709895", "Q137383579"],
+          "local_id": "w-01954-2025-07-01",
+          "mapping_note": "current Ngân Sơn xã page selects Q137383579",
+          "outcome": "assign",
+          "rationale": "Q137383579 owns the current `Ngân Sơn (xã)` page and has commune-level class. Its parent is absent; the other candidates are the former district or an unrelated item.",
+          "wikidata_qid": "Q137383579"
+        }
+      ],
+      "reviewed_at": "2026-09-02T23:14:00Z",
+      "selection": {
+        "input_status": "needs-lookup",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 353
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T23:14:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T23:14:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
