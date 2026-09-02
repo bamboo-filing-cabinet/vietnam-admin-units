@@ -6203,6 +6203,28 @@
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "query pageprops and extracts", "retrieved_at": "2026-09-02T21:47:00Z"},
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"}
       ]
+    },
+    {
+      "batch_id": "2026-09-02.58",
+      "decisions": [
+        {"candidate_qids_checked": ["Q660626", "Q6674687", "Q137847964"], "local_id": "w-19237-2025-07-01", "mapping_note": "current Trường Ninh page selects Q137847964", "outcome": "assign", "rationale": "Q137847964 owns the current Trường Ninh page and its label, class, description, and article identify the Quảng Trị commune. Q660626 is a Chinese district and Q6674687 is a disambiguation item; structured parent is absent on the selected item.", "wikidata_qid": "Q137847964"},
+        {"candidate_qids_checked": ["Q137844098"], "local_id": "w-19255-2025-07-01", "mapping_note": "current Cam Hồng page selects Q137844098", "outcome": "assign", "rationale": "Q137844098 owns the current Cam Hồng page and its label, class, description, and article identify the Quảng Trị commune. Structured parent is absent.", "wikidata_qid": "Q137844098"},
+        {"candidate_qids_checked": ["Q137855532"], "local_id": "w-19288-2025-07-01", "mapping_note": "current Sen Ngư page selects Q137855532", "outcome": "assign", "rationale": "Q137855532 owns the current Sen Ngư page and its label, class, description, and article identify the Quảng Trị commune. Structured parent is absent.", "wikidata_qid": "Q137855532"},
+        {"candidate_qids_checked": ["Q137855663"], "local_id": "w-19309-2025-07-01", "mapping_note": "current Trường Phú page selects Q137855663", "outcome": "assign", "rationale": "Q137855663 owns the current Trường Phú page and its label, class, description, and article identify the Quảng Trị commune. Structured parent is absent.", "wikidata_qid": "Q137855663"},
+        {"candidate_qids_checked": ["Q137854984"], "local_id": "w-19318-2025-07-01", "mapping_note": "current Kim Ngân page selects Q137854984", "outcome": "assign", "rationale": "Q137854984 owns the current Kim Ngân page and its label, class, and article identify the Quảng Trị commune. Structured parent and Vietnamese description are absent.", "wikidata_qid": "Q137854984"},
+        {"candidate_qids_checked": ["Q7813500", "Q137507191"], "local_id": "w-19372-2025-07-01", "mapping_note": "current Vĩnh Hoàng page selects Q137507191", "outcome": "assign", "rationale": "Q137507191 owns the current Vĩnh Hoàng page and its label, description, and article identify the Quảng Trị commune. Q7813500 is a historical prince; structured class and parent are absent on the selected item.", "wikidata_qid": "Q137507191"},
+        {"candidate_qids_checked": ["Q10730384"], "local_id": "w-19489-2025-07-01", "mapping_note": "current Lìa page selects legacy item Q10730384", "outcome": "assign", "rationale": "Q10730384 owns the current Lìa page and represents the legacy A Túc identity. Its label, description, class, and parent remain stale; the large folded-name candidate set consists of unrelated global `Lia` names.", "wikidata_qid": "Q10730384"},
+        {"candidate_qids_checked": ["Q1931412", "Q16480210"], "local_id": "w-19501-2025-07-01", "mapping_note": "current Bến Hải xã page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current `Bến Hải (xã)` page identifies the 2025 Quảng Trị commune but has no Wikibase item. Q1931412 is the river and Q16480210 is the former district.", "wikidata_qid": ""},
+        {"candidate_qids_checked": ["Q1626571"], "local_id": "w-19537-2025-07-01", "mapping_note": "current Cồn Tiên commune page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Cồn Tiên page identifies the 2025 Quảng Trị commune but has no Wikibase item. Q1626571 represents the separate military base article.", "wikidata_qid": ""},
+        {"candidate_qids_checked": ["Q7841465"], "local_id": "w-19624-2025-07-01", "mapping_note": "current Triệu Phong xã page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current `Triệu Phong (xã)` page identifies the 2025 Quảng Trị commune but has no Wikibase item. Q7841465 is the former district.", "wikidata_qid": ""}
+      ],
+      "reviewed_at": "2026-09-02T21:55:00Z",
+      "selection": {"input_status": "needs-lookup", "limit": 10, "order": "local_id", "starting_unresolved": 237},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbgetentities", "retrieved_at": "2026-09-02T21:55:00Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "query pageprops and extracts", "retrieved_at": "2026-09-02T21:55:00Z"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"}
+      ]
     }
   ],
   "schema_version": 1,
