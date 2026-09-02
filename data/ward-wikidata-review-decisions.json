@@ -6026,6 +6026,28 @@
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "query pageprops and extracts", "retrieved_at": "2026-09-03T01:29:00Z"},
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"}
       ]
+    },
+    {
+      "batch_id": "2026-09-02.50",
+      "decisions": [
+        {"candidate_qids_checked": [], "local_id": "w-13822-2025-07-01", "mapping_note": "current Phong Doanh page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Phong Doanh page identifies the 2025 Ninh Bình commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": ["Q1199018", "Q10833796", "Q61100482"], "local_id": "w-13834-2025-07-01", "mapping_note": "current Vũ Dương xã page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current `Vũ Dương (xã)` page identifies the 2025 Ninh Bình commune but has no Wikibase item. The candidates are the namesake historical person or unrelated entities.", "wikidata_qid": ""},
+        {"candidate_qids_checked": ["Q6961159"], "local_id": "w-13966-2025-07-01", "mapping_note": "current Nam Trực xã page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current `Nam Trực (xã)` page identifies the 2025 Ninh Bình commune but has no Wikibase item. Q6961159 is the former district.", "wikidata_qid": ""},
+        {"candidate_qids_checked": ["Q10797112"], "local_id": "w-13972-2025-07-01", "mapping_note": "current Vị Khê page selects predecessor item Q10797112", "outcome": "assign", "rationale": "Q10797112 owns the current Vị Khê page and represents predecessor Nam Phong. Its label, class, description, and parent remain stale.", "wikidata_qid": "Q10797112"},
+        {"candidate_qids_checked": ["Q1198163", "Q1340007", "Q10742471", "Q10797099"], "local_id": "w-14011-2025-07-01", "mapping_note": "current Nam Minh xã page selects predecessor item Q10742471", "outcome": "assign", "rationale": "Q10742471 owns the current `Nam Minh (xã)` page and represents predecessor Bình Minh. Its statements remain stale; the other candidates are unrelated.", "wikidata_qid": "Q10742471"},
+        {"candidate_qids_checked": ["Q7847140"], "local_id": "w-14053-2025-07-01", "mapping_note": "current Trực Ninh xã page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current `Trực Ninh (xã)` page identifies the 2025 Ninh Bình commune but has no Wikibase item. Q7847140 is the former district.", "wikidata_qid": ""},
+        {"candidate_qids_checked": ["Q1172987", "Q114157788"], "local_id": "w-14071-2025-07-01", "mapping_note": "current Minh Thái page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Minh Thái page identifies the 2025 Ninh Bình commune but has no Wikibase item. The candidates are unrelated.", "wikidata_qid": ""},
+        {"candidate_qids_checked": [], "local_id": "w-14161-2025-07-01", "mapping_note": "current Giao Minh page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Giao Minh page identifies the 2025 Ninh Bình commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": ["Q5558564"], "local_id": "w-14167-2025-07-01", "mapping_note": "current Giao Thủy xã page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current `Giao Thủy (xã)` page identifies the 2025 Ninh Bình commune but has no Wikibase item. Q5558564 is the former district.", "wikidata_qid": ""},
+        {"candidate_qids_checked": ["Q10761480"], "local_id": "w-14179-2025-07-01", "mapping_note": "current Giao Hưng page selects predecessor item Q10761480", "outcome": "assign", "rationale": "Q10761480 owns the current Giao Hưng page and represents predecessor Giao Long. Its label, description, and parent remain stale.", "wikidata_qid": "Q10761480"}
+      ],
+      "reviewed_at": "2026-09-03T01:42:00Z",
+      "selection": {"input_status": "needs-lookup", "limit": 10, "order": "local_id", "starting_unresolved": 289},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbgetentities", "retrieved_at": "2026-09-03T01:42:00Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "query pageprops and extracts", "retrieved_at": "2026-09-03T01:42:00Z"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"}
+      ]
     }
   ],
   "schema_version": 1,
