@@ -3282,6 +3282,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.24",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q708996", "Q7268829", "Q10809934", "Q129064710", "Q135184385"],
+          "local_id": "w-15016-2025-07-01",
+          "mapping_note": "current Quan Sơn, Thanh Hóa page selects Q135184385",
+          "outcome": "assign",
+          "rationale": "Q135184385 owns the current `Quan Sơn, Thanh Hóa` page, which explicitly identifies the 2025 commune. The older candidates are the former district or namesakes elsewhere.",
+          "wikidata_qid": "Q135184385"
+        },
+        {
+          "candidate_qids_checked": ["Q10833149", "Q10833409", "Q10833410", "Q10833412", "Q10833414", "Q10834128", "Q135197793"],
+          "local_id": "w-15049-2025-07-01",
+          "mapping_note": "current Văn Phú xã page selects Q135197793",
+          "outcome": "assign",
+          "rationale": "Q135197793 owns the current `Văn Phú (xã)` page, which explicitly identifies the 2025 Thanh Hóa commune. The older candidates are spelling variants, namesakes, or disambiguation.",
+          "wikidata_qid": "Q135197793"
+        },
+        {
+          "candidate_qids_checked": ["Q1355319", "Q1760054", "Q6757188", "Q10786308", "Q10788201", "Q135197555"],
+          "local_id": "w-15055-2025-07-01",
+          "mapping_note": "current Linh Sơn xã page selects Q135197555",
+          "outcome": "assign",
+          "rationale": "Q135197555 owns the current `Linh Sơn (xã)` page, which explicitly identifies the 2025 Thanh Hóa commune. The older candidates are namesakes, a novel, or disambiguation.",
+          "wikidata_qid": "Q135197555"
+        },
+        {
+          "candidate_qids_checked": ["Q5024878", "Q10752557", "Q10752559", "Q135207646"],
+          "local_id": "w-15127-2025-07-01",
+          "mapping_note": "current Cẩm Thủy xã page selects Q135207646",
+          "outcome": "assign",
+          "rationale": "Q135207646 owns the current `Cẩm Thủy (xã)` page, which explicitly identifies the 2025 Thanh Hóa commune. Q5024878 is the former district and the other candidates are namesakes.",
+          "wikidata_qid": "Q135207646"
+        },
+        {
+          "candidate_qids_checked": ["Q69508102", "Q135113479"],
+          "local_id": "w-15316-2025-07-01",
+          "mapping_note": "current Tống Sơn page selects Q135113479",
+          "outcome": "assign",
+          "rationale": "Q135113479 owns the current Tống Sơn page and has commune class. Q69508102 is the historical district identity.",
+          "wikidata_qid": "Q135113479"
+        },
+        {
+          "candidate_qids_checked": ["Q1307141", "Q10831101", "Q135181256"],
+          "local_id": "w-15361-2025-07-01",
+          "mapping_note": "current Tây Đô xã page selects Q135181256",
+          "outcome": "assign",
+          "rationale": "Q135181256 owns the current `Tây Đô (xã)` page, which explicitly identifies the 2025 Thanh Hóa commune. The other candidates are a historical capital or disambiguation item.",
+          "wikidata_qid": "Q135181256"
+        },
+        {
+          "candidate_qids_checked": ["Q1199120", "Q2791716", "Q3347436", "Q10830700", "Q11082203", "Q18461048", "Q134988479", "Q135183784"],
+          "local_id": "w-15715-2025-07-01",
+          "mapping_note": "current Tân Ninh xã page selects Q135183784",
+          "outcome": "assign",
+          "rationale": "Q135183784 owns the current `Tân Ninh (xã)` page, which explicitly identifies the 2025 Thanh Hóa commune. The other candidates are namesakes elsewhere or disambiguation.",
+          "wikidata_qid": "Q135183784"
+        },
+        {
+          "candidate_qids_checked": ["Q1325317", "Q5874410", "Q135116256"],
+          "local_id": "w-15865-2025-07-01",
+          "mapping_note": "current Hoằng Hóa xã page selects Q135116256",
+          "outcome": "assign",
+          "rationale": "Q135116256 owns the current `Hoằng Hóa (xã)` page, which explicitly identifies the 2025 Thanh Hóa commune. Q1325317 is the former district and the other candidate is unrelated.",
+          "wikidata_qid": "Q135116256"
+        },
+        {
+          "candidate_qids_checked": ["Q10833393", "Q135114020"],
+          "local_id": "w-16078-2025-07-01",
+          "mapping_note": "current Vạn Lộc page selects Q135114020",
+          "outcome": "assign",
+          "rationale": "Q135114020 owns the current Vạn Lộc page, which explicitly identifies the 2025 Thanh Hóa commune. Q10833393 is the spelling-different Văn Lộc.",
+          "wikidata_qid": "Q135114020"
+        },
+        {
+          "candidate_qids_checked": ["Q1212538", "Q2014618", "Q7862101", "Q10830905", "Q10830906", "Q10830908", "Q10830909", "Q10830911", "Q10830912", "Q10830913", "Q10830915", "Q10830916", "Q10830918", "Q10830920", "Q10830921", "Q10830922", "Q10830925", "Q135114076"],
+          "local_id": "w-16108-2025-07-01",
+          "mapping_note": "current Tân Tiến, Thanh Hóa page selects Q135114076",
+          "outcome": "assign",
+          "rationale": "Q135114076 owns the current `Tân Tiến, Thanh Hóa` page, which explicitly identifies the 2025 commune. The other candidates are namesakes elsewhere or a disambiguation item.",
+          "wikidata_qid": "Q135114076"
+        }
+      ],
+      "reviewed_at": "2026-09-02T20:31:00Z",
+      "selection": {
+        "input_status": "needs-review",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 469
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T20:31:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T20:31:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
