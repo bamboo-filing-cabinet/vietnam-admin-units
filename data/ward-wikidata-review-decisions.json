@@ -6115,6 +6115,28 @@
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "query pageprops and extracts", "retrieved_at": "2026-09-02T21:18:00Z"},
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"}
       ]
+    },
+    {
+      "batch_id": "2026-09-02.54",
+      "decisions": [
+        {"candidate_qids_checked": ["Q71284", "Q1199197", "Q1306125", "Q10517255", "Q10831414", "Q17062846", "Q113554152"], "local_id": "w-16876-2025-07-01", "mapping_note": "current Tương Dương xã page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current `Tương Dương (xã)` page identifies the 2025 Nghệ An commune but has no Wikibase item. The candidates are the former district, Chinese administrative or historical entities, and disambiguation items.", "wikidata_qid": ""},
+        {"candidate_qids_checked": [], "local_id": "w-17077-2025-07-01", "mapping_note": "current Mường Ham page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Mường Ham page identifies the 2025 Nghệ An commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": ["Q86005843"], "local_id": "w-17089-2025-07-01", "mapping_note": "current Mường Chọng page selects predecessor item Q86005843", "outcome": "assign", "rationale": "Q86005843 owns the current Mường Chọng page and represents predecessor Châu Lý. Its label, description, class, and parent remain stale.", "wikidata_qid": "Q86005843"},
+        {"candidate_qids_checked": ["Q446650", "Q10811038"], "local_id": "w-17176-2025-07-01", "mapping_note": "current Quỳnh Anh xã page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current `Quỳnh Anh (xã)` page identifies the 2025 Nghệ An commune but has no Wikibase item. Q446650 is a singer and Q10811038 is a disambiguation item.", "wikidata_qid": ""},
+        {"candidate_qids_checked": [], "local_id": "w-17239-2025-07-01", "mapping_note": "current Mậu Thạch page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Mậu Thạch page identifies the 2025 Nghệ An commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": ["Q5157942", "Q137221760"], "local_id": "w-17254-2025-07-01", "mapping_note": "current Con Cuông xã page selects Q137221760", "outcome": "assign", "rationale": "Q137221760 owns the current `Con Cuông (xã)` page and its label and article identify the Nghệ An commune. Q5157942 is the former district; structured class, parent, and Vietnamese description are absent on the selected item.", "wikidata_qid": "Q137221760"},
+        {"candidate_qids_checked": [], "local_id": "w-17335-2025-07-01", "mapping_note": "current Thành Bình Thọ page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Thành Bình Thọ page identifies the 2025 Nghệ An commune and its predecessor composition but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": ["Q10788489"], "local_id": "w-17365-2025-07-01", "mapping_note": "current Anh Sơn Đông page selects predecessor item Q10788489", "outcome": "assign", "rationale": "Q10788489 owns the current Anh Sơn Đông page and represents predecessor Lạng Sơn. Its label, description, class, and parent remain stale.", "wikidata_qid": "Q10788489"},
+        {"candidate_qids_checked": [], "local_id": "w-17380-2025-07-01", "mapping_note": "current Yên Xuân, Nghệ An page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current `Yên Xuân, Nghệ An` page identifies the 2025 Nghệ An commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": ["Q10771793"], "local_id": "w-17524-2025-07-01", "mapping_note": "current Giai Lạc page selects predecessor item Q10771793", "outcome": "assign", "rationale": "Q10771793 owns the current Giai Lạc page and represents predecessor Hậu Thành. Its label, description, class, and parent remain stale.", "wikidata_qid": "Q10771793"}
+      ],
+      "reviewed_at": "2026-09-02T21:25:00Z",
+      "selection": {"input_status": "needs-lookup", "limit": 10, "order": "local_id", "starting_unresolved": 263},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbgetentities", "retrieved_at": "2026-09-02T21:25:00Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "query pageprops and extracts", "retrieved_at": "2026-09-02T21:25:00Z"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"}
+      ]
     }
   ],
   "schema_version": 1,
