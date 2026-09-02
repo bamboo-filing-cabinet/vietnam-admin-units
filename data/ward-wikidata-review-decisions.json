@@ -4686,6 +4686,114 @@
           "role": "canonical predecessor composition"
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-02.37",
+      "decisions": [
+        {
+          "candidate_qids_checked": ["Q370746", "Q5588299", "Q136324798"],
+          "local_id": "w-26732-2025-07-01",
+          "mapping_note": "current Côn Đảo page reuses Q370746 for the special zone",
+          "outcome": "assign",
+          "rationale": "Q370746 owns the current Côn Đảo page, and its label, special-zone class, and description identify the Hồ Chí Minh City special zone. Former-district classes, parent, and end date remain alongside the current identity; the other candidates are the archipelago or an unrelated item.",
+          "wikidata_qid": "Q370746"
+        },
+        {
+          "candidate_qids_checked": ["Q10771793", "Q10771795"],
+          "local_id": "w-27841-2025-07-01",
+          "mapping_note": "current Hậu Thạnh page selects Q10771795 despite stale P131",
+          "outcome": "assign",
+          "rationale": "Q10771795 owns the current Hậu Thạnh page, and its label, commune class, and description identify the Tây Ninh commune. Its parent remains stale; Q10771793 is a former namesake.",
+          "wikidata_qid": "Q10771795"
+        },
+        {
+          "candidate_qids_checked": ["Q16955", "Q36175", "Q36512", "Q415980", "Q2278763", "Q2742951", "Q7710352", "Q10824743", "Q10824753", "Q10824755", "Q10824756", "Q10824757", "Q10825550", "Q10826246", "Q10826247", "Q10826251", "Q16480731", "Q111387061"],
+          "local_id": "w-28436-2025-07-01",
+          "mapping_note": "current Thanh Hòa phường page selects Q10824755",
+          "outcome": "assign",
+          "rationale": "Q10824755 owns the current `Thanh Hòa (phường)` page, and its label, ward class, and description identify the Đồng Tháp ward. Its parent is absent; the other candidates are namesakes or unrelated entities.",
+          "wikidata_qid": "Q10824755"
+        },
+        {
+          "candidate_qids_checked": ["Q10828860"],
+          "local_id": "w-29516-2025-07-01",
+          "mapping_note": "current Trường Long Hòa page selects Q10828860 despite stale class and P131",
+          "outcome": "assign",
+          "rationale": "Q10828860 owns the current Trường Long Hòa page, and its label and description identify the Vĩnh Long ward. Its class remains commune and its parent remains the former district-level town.",
+          "wikidata_qid": "Q10828860"
+        },
+        {
+          "candidate_qids_checked": ["Q10786853", "Q136644057"],
+          "local_id": "w-29518-2025-07-01",
+          "mapping_note": "current Long Hữu page selects Q10786853 despite stale P131",
+          "outcome": "assign",
+          "rationale": "Q10786853 owns the current Long Hữu page, and its label, commune class, and description identify the Vĩnh Long commune. Its parent remains the former district-level town; Q136644057 is not bound to the current page.",
+          "wikidata_qid": "Q10786853"
+        },
+        {
+          "candidate_qids_checked": ["Q10828372", "Q10828374", "Q10828375", "Q10828376", "Q10828377", "Q10828378", "Q10828381", "Q10828382", "Q10828383", "Q135183935"],
+          "local_id": "w-29659-2025-07-01",
+          "mapping_note": "current Trung Thành, Vĩnh Long page selects predecessor item Q10828377",
+          "outcome": "assign",
+          "rationale": "Q10828377 owns the current `Trung Thành, Vĩnh Long` page and represents predecessor town Vũng Liêm within the successor composition. Its label, class, and parent remain stale; the other candidates are namesakes or unrelated entities.",
+          "wikidata_qid": "Q10828377"
+        },
+        {
+          "candidate_qids_checked": ["Q7682058", "Q10830530", "Q10830531", "Q10831541", "Q18207955", "Q45398843", "Q45560359", "Q45625347", "Q45665943", "Q135048255"],
+          "local_id": "w-29926-2025-07-01",
+          "mapping_note": "current Tân Hồng xã page selects Q135048255",
+          "outcome": "assign",
+          "rationale": "Q135048255 owns the current `Tân Hồng (xã)` page, and its label, commune-tier class, description, and province parent identify the Đồng Tháp commune. The other candidates are the former district, namesakes, or unrelated entities.",
+          "wikidata_qid": "Q135048255"
+        },
+        {
+          "candidate_qids_checked": ["Q39171", "Q557922", "Q2690544", "Q10733211", "Q122783288"],
+          "local_id": "w-30028-2025-07-01",
+          "mapping_note": "current An Long, Đồng Tháp page selects Q10733211",
+          "outcome": "assign",
+          "rationale": "Q10733211 owns the current `An Long, Đồng Tháp` page, and its label, commune-tier class, and description identify the commune. Its parent remains stale; the other candidates are namesakes or unrelated entities.",
+          "wikidata_qid": "Q10733211"
+        },
+        {
+          "candidate_qids_checked": ["Q4749840", "Q8776151", "Q10733114", "Q120965827"],
+          "local_id": "w-30985-2025-07-01",
+          "mapping_note": "current An Biên xã page selects Q8776151",
+          "outcome": "assign",
+          "rationale": "Q8776151 owns the current `An Biên (xã)` page, and its label, commune-tier class, and description identify the An Giang commune. Its parent is absent; the other candidates are the former district, namesakes, or unrelated entities.",
+          "wikidata_qid": "Q8776151"
+        },
+        {
+          "candidate_qids_checked": ["Q266014", "Q1887137", "Q7932529", "Q10375251", "Q11132488", "Q136524735", "Q137162266"],
+          "local_id": "w-31783-2025-07-01",
+          "mapping_note": "current Vĩnh Châu phường page selects Q137162266",
+          "outcome": "assign",
+          "rationale": "Q137162266 owns the current `Vĩnh Châu (phường)` page, and its label and description identify the Cần Thơ ward. Its structured class and parent are absent; the other candidates are the former district-level town, namesakes, or unrelated entities.",
+          "wikidata_qid": "Q137162266"
+        }
+      ],
+      "reviewed_at": "2026-09-02T22:37:00Z",
+      "selection": {
+        "input_status": "needs-review",
+        "limit": 10,
+        "order": "local_id",
+        "starting_unresolved": 367
+      },
+      "sources": [
+        {
+          "endpoint": "https://www.wikidata.org/w/api.php",
+          "method": "wbgetentities",
+          "retrieved_at": "2026-09-02T22:37:00Z"
+        },
+        {
+          "endpoint": "https://vi.wikipedia.org/w/api.php",
+          "method": "query pageprops and extracts",
+          "retrieved_at": "2026-09-02T22:37:00Z"
+        },
+        {
+          "path": "data/ward-history.json",
+          "role": "canonical predecessor composition"
+        }
+      ]
     }
   ],
   "schema_version": 1,
