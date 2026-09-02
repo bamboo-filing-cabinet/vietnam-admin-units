@@ -6247,6 +6247,28 @@
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "query pageprops and extracts", "retrieved_at": "2026-09-02T22:03:00Z"},
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"}
       ]
+    },
+    {
+      "batch_id": "2026-09-02.60",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10730389"], "local_id": "w-20101-2025-07-01", "mapping_note": "current A Lưới 4 page selects legacy item Q10730389", "outcome": "assign", "rationale": "Q10730389 owns the current A Lưới 4 page and represents the legacy A Đớt identity. Its label, class, and parent remain stale although its description identifies a Huế commune.", "wikidata_qid": "Q10730389"},
+        {"candidate_qids_checked": ["Q137216112"], "local_id": "w-20137-2025-07-01", "mapping_note": "current Chân Mây – Lăng Cô page selects Q137216112", "outcome": "assign", "rationale": "Q137216112 owns the current Chân Mây – Lăng Cô page and its label, description, and article identify the Huế commune. Structured class and parent are absent.", "wikidata_qid": "Q137216112"},
+        {"candidate_qids_checked": ["Q97166182", "Q2674509"], "local_id": "w-20485-2025-07-01", "mapping_note": "current Sông Vàng xã page selects predecessor item Q2674509", "outcome": "assign", "rationale": "Q2674509 owns the current `Sông Vàng (xã)` page and represents predecessor Ba. Its label, class, and parent remain stale although its description identifies a Đà Nẵng commune. Q97166182 is the separate river item.", "wikidata_qid": "Q2674509"},
+        {"candidate_qids_checked": ["Q2647185"], "local_id": "w-20539-2025-07-01", "mapping_note": "current Vu Gia page selects predecessor item Q2647185", "outcome": "assign", "rationale": "Q2647185 owns the current Vu Gia page and represents predecessor Đại Minh. Its label, class, and parent remain stale although its description identifies a Đà Nẵng commune.", "wikidata_qid": "Q2647185"},
+        {"candidate_qids_checked": ["Q109432287"], "local_id": "w-20587-2025-07-01", "mapping_note": "current Gò Nổi page selects Q109432287", "outcome": "assign", "rationale": "Q109432287 owns the current Gò Nổi page and its label, description, and article identify the Đà Nẵng commune. Structured class and parent are absent.", "wikidata_qid": "Q109432287"},
+        {"candidate_qids_checked": ["Q10825363", "Q10825364", "Q3044250"], "local_id": "w-20611-2025-07-01", "mapping_note": "current Thu Bồn xã page selects predecessor item Q3044250", "outcome": "assign", "rationale": "Q3044250 owns the current `Thu Bồn (xã)` page and represents predecessor Duy Hòa. Its label, class, and parent remain stale although its description identifies a Đà Nẵng commune. Q10825363 and Q10825364 are disambiguation and person items.", "wikidata_qid": "Q3044250"},
+        {"candidate_qids_checked": ["Q2541962", "Q16911180", "Q61751106", "Q110975397", "Q2087982"], "local_id": "w-20656-2025-07-01", "mapping_note": "current Nông Sơn xã page selects predecessor item Q2087982", "outcome": "assign", "rationale": "Q2087982 owns the current `Nông Sơn (xã)` page and represents predecessor Trung Phước. Its label, class, and parent remain stale although its description identifies a Đà Nẵng commune. Other candidates include the former district, foreign localities, and a person.", "wikidata_qid": "Q2087982"},
+        {"candidate_qids_checked": ["Q2401120"], "local_id": "w-20662-2025-07-01", "mapping_note": "current Quế Sơn Trung page selects predecessor item Q2401120", "outcome": "assign", "rationale": "Q2401120 owns the current Quế Sơn Trung page and represents predecessor Quế Thuận. Its label, class, and parent remain stale although its description identifies a Đà Nẵng commune.", "wikidata_qid": "Q2401120"},
+        {"candidate_qids_checked": ["Q2248166"], "local_id": "w-20767-2025-07-01", "mapping_note": "current Việt An page selects predecessor item Q2248166", "outcome": "assign", "rationale": "Q2248166 owns the current Việt An page and represents predecessor Bình Lâm. Its label, class, and parent remain stale although its description identifies a Đà Nẵng commune.", "wikidata_qid": "Q2248166"},
+        {"candidate_qids_checked": ["Q2057695"], "local_id": "w-20794-2025-07-01", "mapping_note": "current Thăng An page selects predecessor item Q2057695", "outcome": "assign", "rationale": "Q2057695 owns the current Thăng An page and represents predecessor Bình Dương. Its label, class, and parent remain stale although its description identifies a Đà Nẵng commune.", "wikidata_qid": "Q2057695"}
+      ],
+      "reviewed_at": "2026-09-02T22:12:00Z",
+      "selection": {"input_status": "needs-lookup", "limit": 10, "order": "local_id", "starting_unresolved": 223},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbgetentities", "retrieved_at": "2026-09-02T22:12:00Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "query pageprops and extracts", "retrieved_at": "2026-09-02T22:12:00Z"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"}
+      ]
     }
   ],
   "schema_version": 1,

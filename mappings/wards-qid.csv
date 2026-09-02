@@ -4284,7 +4284,7 @@ w-20044-2025-07-01,20044,Xã A Lưới 2,Xã,46,2025-07-01,,Q10730373,existing,m
 w-20050-2025-07-01,20050,Xã A Lưới 5,Xã,46,2025-07-01,,Q10772126,existing,manual,Q10772126,review 2026-09-02.59: current A Lưới 5 page selects predecessor item Q10772126
 w-20056-2025-07-01,20056,Xã A Lưới 1,Xã,46,2025-07-01,,Q10772218,existing,manual,Q10772218,review 2026-09-02.59: current A Lưới 1 page selects legacy item Q10772218
 w-20071-2025-07-01,20071,Xã A Lưới 3,Xã,46,2025-07-01,,Q10823392,existing,manual,Q10823392,review 2026-09-02.59: current A Lưới 3 page selects predecessor item Q10823392
-w-20101-2025-07-01,20101,Xã A Lưới 4,Xã,46,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-20101-2025-07-01,20101,Xã A Lưới 4,Xã,46,2025-07-01,,Q10730389,existing,manual,Q10730389,review 2026-09-02.60: current A Lưới 4 page selects legacy item Q10730389
 w-2010101-base,00691,Phường Trần Phú,Phường,024,,2025-06-30,,,deferred-historical,,
 w-2010103-base,00688,Phường Quang Trung,Phường,024,,2025-06-30,,,deferred-historical,,
 w-2010105-base,00694,Phường Nguyễn Trãi,Phường,024,,2025-06-30,,,deferred-historical,,
@@ -4479,7 +4479,7 @@ w-2011959-base,01264,Xã Vĩ Thượng,Xã,035,,2025-06-30,,,deferred-historical
 w-2011961-base,01216,Xã Đồng Yên,Xã,034,,2025-06-30,,,deferred-historical,,
 w-20122-2025-07-01,20122,Xã Vinh Lộc,Xã,46,2025-07-01,,,,reviewed-unresolved,Q1934001|Q7932533|Q10833606|Q10833608|Q10833609|Q10833610,review 2026-09-02.31: current Vinh Lộc xã page has no Wikibase item
 w-20131-2025-07-01,20131,Xã Hưng Lộc,Xã,46,2025-07-01,,Q138638826,existing,manual,Q2484927|Q2806141|Q10771356|Q10771358|Q128242536|Q138638826,review 2026-09-02.31: current Hưng Lộc page selects Q138638826
-w-20137-2025-07-01,20137,Xã Chân Mây - Lăng Cô,Xã,46,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-20137-2025-07-01,20137,Xã Chân Mây - Lăng Cô,Xã,46,2025-07-01,,Q137216112,existing,manual,Q137216112,review 2026-09-02.60: current Chân Mây – Lăng Cô page selects Q137216112
 w-20140-2025-07-01,20140,Xã Lộc An,Xã,46,2025-07-01,,Q10788746,existing,matched,Q2914159|Q2948935|Q10788743|Q10788745|Q10788746|Q10788747,qlever-label+current-province+batched-wbgetentities
 w-20161-2025-07-01,20161,Xã Khe Tre,Xã,46,2025-07-01,,Q10779307,existing,matched,Q10779307,qlever-label+current-province+batched-wbgetentities
 w-20179-2025-07-01,20179,Xã Nam Đông,Xã,46,2025-07-01,,Q10826084,existing,matched,Q10797039|Q10797211|Q10797212|Q10797215|Q10826084,qlever-label+current-province+batched-wbgetentities
@@ -4720,7 +4720,7 @@ w-20455-2025-07-01,20455,Xã Tây Giang,Xã,48,2025-07-01,,Q1835088,existing,man
 w-20458-2025-07-01,20458,Xã Avương,Xã,48,2025-07-01,,Q2574662,existing,matched,Q2574662,qlever-label+current-province+batched-wbgetentities
 w-20467-2025-07-01,20467,Xã Đông Giang,Xã,48,2025-07-01,,Q2753661,existing,matched,Q2753661|Q10840713|Q32597847,qlever-label+current-province+batched-wbgetentities
 w-20476-2025-07-01,20476,Xã Sông Kôn,Xã,48,2025-07-01,,Q2661517,existing,matched,Q2661517,qlever-label+current-province+batched-wbgetentities
-w-20485-2025-07-01,20485,Xã Sông Vàng,Xã,48,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-20485-2025-07-01,20485,Xã Sông Vàng,Xã,48,2025-07-01,,Q2674509,existing,manual,Q2674509|Q97166182,review 2026-09-02.60: current Sông Vàng xã page selects predecessor item Q2674509
 w-20494-2025-07-01,20494,Xã Bến Hiên,Xã,48,2025-07-01,,Q1987912,existing,matched,Q1987912,qlever-label+current-province+batched-wbgetentities
 w-20500-2025-07-01,20500,Xã Đại Lộc,Xã,48,2025-07-01,,Q1973498,existing,matched,Q1973498|Q10841114,qlever-label+current-province+batched-wbgetentities
 w-2050101-base,02635,Phường Duyên Hải,Phường,080,,2025-06-30,,,deferred-historical,,
@@ -4906,7 +4906,7 @@ w-2051939-base,03112,Xã Minh Lương,Xã,089,,2025-06-30,,,deferred-historical,
 w-2051941-base,03115,Xã Thẩm Dương,Xã,089,,2025-06-30,,,deferred-historical,,
 w-2051943-base,03118,Xã Liêm Phú,Xã,089,,2025-06-30,,,deferred-historical,,
 w-2051945-base,03121,Xã Nậm Xây,Xã,089,,2025-06-30,,,deferred-historical,,
-w-20539-2025-07-01,20539,Xã Vu Gia,Xã,48,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-20539-2025-07-01,20539,Xã Vu Gia,Xã,48,2025-07-01,,Q2647185,existing,manual,Q2647185,review 2026-09-02.60: current Vu Gia page selects predecessor item Q2647185
 w-20542-2025-07-01,20542,Xã Phú Thuận,Xã,48,2025-07-01,,Q2347289,existing,manual,Q1199511|Q2347289|Q2444940|Q7189882|Q10806079|Q10806080|Q10806081|Q10806085|Q10806086,"review 2026-09-02.33: current Phú Thuận, Đà Nẵng page selects predecessor item Q2347289"
 w-20547-2007-03-23,20547,Xã Đại An,Xã,506,2007-03-23,2025-06-30,,,deferred-historical,,
 w-20551-2025-07-01,20551,Phường Điện Bàn,Phường,48,2025-07-01,,Q2574791,existing,matched,Q2574791,qlever-label+current-province+batched-wbgetentities
@@ -4918,17 +4918,17 @@ w-20575-2025-07-01,20575,Phường An Thắng,Phường,48,2025-07-01,,Q2306905,
 w-20579-2005-07-22,20579,Phường Điện Nam Trung,Phường,507,2005-07-22,2025-06-30,,,deferred-historical,,
 w-20579-2025-07-01,20579,Phường Điện Bàn Đông,Phường,48,2025-07-01,,Q2022064,existing,matched,Q2022064,qlever-alias+current-province+batched-wbgetentities
 w-20580-2005-07-22,20580,Phường Điện Nam Đông,Phường,507,2005-07-22,2025-06-30,,,deferred-historical,,
-w-20587-2025-07-01,20587,Xã Gò Nổi,Xã,48,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-20587-2025-07-01,20587,Xã Gò Nổi,Xã,48,2025-07-01,,Q109432287,existing,manual,Q109432287,review 2026-09-02.60: current Gò Nổi page selects Q109432287
 w-20599-2025-07-01,20599,Xã Nam Phước,Xã,48,2025-07-01,,Q4879214,existing,matched,Q4879214,qlever-label+current-province+batched-wbgetentities
-w-20611-2025-07-01,20611,Xã Thu Bồn,Xã,48,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-20611-2025-07-01,20611,Xã Thu Bồn,Xã,48,2025-07-01,,Q3044250,existing,manual,Q3044250|Q10825363|Q10825364,review 2026-09-02.60: current Thu Bồn xã page selects predecessor item Q3044250
 w-20623-2025-07-01,20623,Xã Duy Xuyên,Xã,48,2025-07-01,,Q590254,existing,matched,Q590254,qlever-label+current-province+batched-wbgetentities
 w-20635-2025-07-01,20635,Xã Duy Nghĩa,Xã,48,2025-07-01,,Q3544438,existing,manual,Q3544438|Q32266321,review 2026-09-02.33: current Duy Nghĩa page selects Q3544438
 w-20641-2025-07-01,20641,Xã Quế Sơn,Xã,48,2025-07-01,,Q2496834,existing,manual,Q2193420|Q2496834|Q10810882,review 2026-09-02.33: current Quế Sơn xã page selects predecessor item Q2496834
 w-20647-2004-06-30,20647,Xã Quế Xuân 2,Xã,509,2004-06-30,2025-06-30,,,deferred-historical,,
 w-20650-2025-07-01,20650,Xã Xuân Phú,Xã,48,2025-07-01,,Q4827219,existing,manual,Q2379049|Q2682454|Q2803711|Q4827219|Q8045178|Q10835032|Q10835034|Q10835036|Q10835037|Q10835038|Q10835040|Q117076687,"review 2026-09-02.33: current Xuân Phú, Đà Nẵng page selects predecessor item Q4827219"
 w-20651-2008-04-23,20651,Thị trấn Hương An,Thị trấn,509,2008-04-23,2025-06-30,,,deferred-historical,,
-w-20656-2025-07-01,20656,Xã Nông Sơn,Xã,48,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-20662-2025-07-01,20662,Xã Quế Sơn Trung,Xã,48,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-20656-2025-07-01,20656,Xã Nông Sơn,Xã,48,2025-07-01,,Q2087982,existing,manual,Q2087982|Q2541962|Q16911180|Q61751106|Q110975397,review 2026-09-02.60: current Nông Sơn xã page selects predecessor item Q2087982
+w-20662-2025-07-01,20662,Xã Quế Sơn Trung,Xã,48,2025-07-01,,Q2401120,existing,manual,Q2401120,review 2026-09-02.60: current Quế Sơn Trung page selects predecessor item Q2401120
 w-20669-2008-04-23,20669,Xã Phước Ninh,Xã,509,2008-04-23,2025-06-30,,,deferred-historical,,
 w-20669-2025-07-01,20669,Xã Quế Phước,Xã,48,2025-07-01,,Q2908721,existing,manual,Q2908721|Q32299171|Q32299181,review 2026-09-02.34: current Quế Phước page selects predecessor item Q2908721
 w-20672-2008-04-23,20672,Xã Sơn Viên,Xã,519,2008-04-23,2024-12-31,,,deferred-historical,,
@@ -5071,12 +5071,12 @@ w-20734-2025-07-01,20734,Xã Phước Năng,Xã,48,2025-07-01,,Q2670531,existing
 w-20740-2025-07-01,20740,Xã Phước Chánh,Xã,48,2025-07-01,,Q2646926,existing,matched,Q2646926,qlever-label+current-province+batched-wbgetentities
 w-20749-2004-06-30,20749,Xã Phước Lộc,Xã,511,2004-06-30,2025-06-30,,,deferred-historical,,
 w-20752-2025-07-01,20752,Xã Phước Thành,Xã,48,2025-07-01,,Q10806477,existing,matched,Q2138709|Q2708104|Q10806476|Q10806477|Q10806479|Q10806486|Q10806487|Q10806488|Q10806489,qlever-label+current-province+batched-wbgetentities
-w-20767-2025-07-01,20767,Xã Việt An,Xã,48,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-20767-2025-07-01,20767,Xã Việt An,Xã,48,2025-07-01,,Q2248166,existing,manual,Q2248166,review 2026-09-02.60: current Việt An page selects predecessor item Q2248166
 w-20770-2004-06-30,20770,Xã Sông Trà,Xã,512,2004-06-30,2025-06-30,,,deferred-historical,,
 w-20770-2025-07-01,20770,Xã Phước Trà,Xã,48,2025-07-01,,Q10806501,existing,matched,Q10806501,qlever-label+current-province+batched-wbgetentities
 w-20779-2025-07-01,20779,Xã Hiệp Đức,Xã,48,2025-07-01,,Q2246533,existing,matched,Q2246533,qlever-label+current-province+batched-wbgetentities
 w-20791-2025-07-01,20791,Xã Thăng Bình,Xã,48,2025-07-01,,Q2455936,existing,manual,Q2083636|Q2455936|Q4711850|Q8011316|Q32305308|Q135162025,"review 2026-09-02.34: current Thăng Bình, Đà Nẵng page selects predecessor item Q2455936"
-w-20794-2025-07-01,20794,Xã Thăng An,Xã,48,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-20794-2025-07-01,20794,Xã Thăng An,Xã,48,2025-07-01,,Q2057695,existing,manual,Q2057695,review 2026-09-02.60: current Thăng An page selects predecessor item Q2057695
 w-20818-2025-07-01,20818,Xã Đồng Dương,Xã,48,2025-07-01,,Q1842928,existing,matched,Q1842928|Q10840710,qlever-label+current-province+batched-wbgetentities
 w-20822-2007-03-23,20822,Xã Bình Định Nam,Xã,513,2007-03-23,2024-12-31,,,deferred-historical,,
 w-20827-2025-07-01,20827,Xã Thăng Phú,Xã,48,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
