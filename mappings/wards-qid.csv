@@ -4169,36 +4169,36 @@ w-18901-2025-07-01,18901,Xã Minh Hóa,Xã,44,2025-07-01,,Q15253450,existing,mat
 w-18904-2025-07-01,18904,Xã Dân Hóa,Xã,44,2025-07-01,,Q5320146,existing,matched,Q5320146|Q10757347|Q10757348|Q32266526,qlever-label+current-province+batched-wbgetentities
 w-18907-2004-06-30,18907,Xã Trọng Hóa,Xã,452,2004-06-30,2025-06-30,,,deferred-historical,,
 w-18919-2025-07-01,18919,Xã Tân Thành,Xã,44,2025-07-01,,Q10830829,existing,matched,Q2147855|Q2220647|Q4026176|Q4374988|Q7862093|Q7862096|Q10824815|Q10824864|Q10830796|Q10830797|Q10830798|Q10830801|Q10830819|Q10830820|Q10830821|Q10830822|Q10830823|Q10830825|Q10830828|Q10830829|Q10830830|Q10830831|Q10830832|Q10830834|Q10830835|Q10830836|Q10830838|Q10830839|Q10830840|Q10830841|Q10830842|Q10830844|Q10830845|Q10830847|Q10830849|Q10830850|Q10830851|Q10830853|Q10830855|Q10830865|Q10830868|Q16481423,qlever-label+current-province+batched-wbgetentities
-w-18922-2025-07-01,18922,Xã Kim Điền,Xã,44,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-18922-2025-07-01,18922,Xã Kim Điền,Xã,44,2025-07-01,,Q137853976,existing,manual,Q48931625|Q137853976,review 2026-09-02.57: current Kim Điền page selects Q137853976
 w-18943-2025-07-01,18943,Xã Kim Phú,Xã,44,2025-07-01,,Q10779950,existing,manual,Q10779950,review 2026-09-02.30: current Kim Phú page selects Q10779950 despite stale statements
 w-18949-2025-07-01,18949,Xã Đồng Lê,Xã,44,2025-07-01,,Q8079967,existing,matched,Q8079967|Q10840788,qlever-label+predecessor-district+batched-wbgetentities
 w-18952-2025-07-01,18952,Xã Tuyên Sơn,Xã,44,2025-07-01,,Q137854442,existing,manual,Q137854442,review 2026-09-02.30: current Tuyên Sơn page selects Q137854442
-w-18958-2025-07-01,18958,Xã Tuyên Lâm,Xã,44,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-18958-2025-07-01,18958,Xã Tuyên Lâm,Xã,44,2025-07-01,,Q137855510,existing,manual,Q137855510,review 2026-09-02.57: current Tuyên Lâm page selects Q137855510
 w-18961-2004-06-30,18961,Xã Thanh Thạch,Xã,453,2004-06-30,2025-06-30,,,deferred-historical,,
 w-18982-2004-06-30,18982,Xã Nam Hóa,Xã,453,2004-06-30,2020-01-31,,,deferred-historical,,
-w-18985-2025-07-01,18985,Xã Tuyên Phú,Xã,44,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-18985-2025-07-01,18985,Xã Tuyên Phú,Xã,44,2025-07-01,,Q137848100,existing,manual,Q137848100,review 2026-09-02.57: current Tuyên Phú page selects Q137848100
 w-18991-2025-07-01,18991,Xã Tuyên Bình,Xã,44,2025-07-01,,Q138300051,existing,manual,Q8011478|Q10830109|Q32585164|Q138300051,"review 2026-09-02.30: current Tuyên Bình, Quảng Trị page selects Q138300051"
-w-18997-2025-07-01,18997,Xã Tuyên Hóa,Xã,44,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-18997-2025-07-01,18997,Xã Tuyên Hóa,Xã,44,2025-07-01,,Q137848073,existing,manual,Q711861|Q1196658|Q1363262|Q2232329|Q10830111|Q137848073,review 2026-09-02.57: current Tuyên Hóa xã page selects Q137848073
 w-19009-2025-07-01,19009,Phường Ba Đồn,Phường,44,2025-07-01,,Q137269081,existing,matched,Q137269081,qlever-label+current-province+batched-wbgetentities
 w-19021-2025-07-01,19021,Xã Phú Trạch,Xã,44,2025-07-01,,Q10806142,existing,matched,Q10806142,qlever-label+current-province+batched-wbgetentities
 w-19030-2025-07-01,19030,Xã Trung Thuần,Xã,44,2025-07-01,,Q7273117,existing,matched,Q7273117,qlever-label+current-province+batched-wbgetentities
 w-19033-2025-07-01,19033,Xã Hòa Trạch,Xã,44,2025-07-01,,Q10771111,existing,matched,Q10771111,qlever-label+current-province+batched-wbgetentities
-w-19051-2025-07-01,19051,Xã Tân Gianh,Xã,44,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-19051-2025-07-01,19051,Xã Tân Gianh,Xã,44,2025-07-01,,Q137855521,existing,manual,Q137855521,review 2026-09-02.57: current Tân Gianh page selects Q137855521
 w-19057-2025-07-01,19057,Xã Quảng Trạch,Xã,44,2025-07-01,,Q138266360,existing,manual,Q2200829|Q10810509|Q138266360,review 2026-09-02.30: current Quảng Trạch xã page selects Q138266360
-w-19066-2025-07-01,19066,Phường Bắc Gianh,Phường,44,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-19075-2025-07-01,19075,Xã Nam Ba Đồn,Xã,44,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
-w-19093-2025-07-01,19093,Xã Nam Gianh,Xã,44,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-19066-2025-07-01,19066,Phường Bắc Gianh,Phường,44,2025-07-01,,Q137844067,existing,manual,Q137844067,review 2026-09-02.57: current Bắc Gianh page selects Q137844067
+w-19075-2025-07-01,19075,Xã Nam Ba Đồn,Xã,44,2025-07-01,,Q137855744,existing,manual,Q137855744,review 2026-09-02.57: current Nam Ba Đồn page selects Q137855744
+w-19093-2025-07-01,19093,Xã Nam Gianh,Xã,44,2025-07-01,,,,reviewed-unresolved,,review 2026-09-02.57: current Nam Gianh page has no Wikibase item
 w-19111-2025-07-01,19111,Xã Hoàn Lão,Xã,44,2025-07-01,,Q1532895,existing,matched,Q1532895,qlever-label+current-province+batched-wbgetentities
 w-19126-2025-07-01,19126,Xã Bắc Trạch,Xã,44,2025-07-01,,Q3942472,existing,matched,Q3942472,qlever-label+current-province+batched-wbgetentities
 w-19138-2025-07-01,19138,Xã Phong Nha,Xã,44,2025-07-01,,Q7560607,existing,matched,Q7560607,qlever-label+current-province+batched-wbgetentities
-w-19141-2025-07-01,19141,Xã Bố Trạch,Xã,44,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-19141-2025-07-01,19141,Xã Bố Trạch,Xã,44,2025-07-01,,Q137844084,existing,manual,Q590734|Q137844084,review 2026-09-02.57: current Bố Trạch xã page selects Q137844084
 w-19147-2025-07-01,19147,Xã Thượng Trạch,Xã,44,2025-07-01,,Q7799941,existing,matched,Q7799941,qlever-label+current-province+batched-wbgetentities
 w-19159-2025-07-01,19159,Xã Đông Trạch,Xã,44,2025-07-01,,Q10842039,existing,matched,Q10842039,qlever-label+current-province+batched-wbgetentities
 w-19198-2025-07-01,19198,Xã Nam Trạch,Xã,44,2025-07-01,,Q10797179,existing,matched,Q10797179,qlever-label+current-province+batched-wbgetentities
 w-19204-2025-07-01,19204,Xã Trường Sơn,Xã,44,2025-07-01,,Q12177246,existing,matched,Q8011271|Q10828886|Q10828887|Q10828888|Q10828889|Q10828890|Q12177246,qlever-label+current-province+batched-wbgetentities
 w-19207-2024-12-01,19207,Thị trấn Quán Hàu,Thị trấn,456,2024-12-01,2025-06-30,,,deferred-historical,,
 w-19207-2025-07-01,19207,Xã Quảng Ninh,Xã,44,2025-07-01,,Q137853482,existing,manual,Q33396|Q596473|Q991381|Q10810437|Q135140781|Q137853482,"review 2026-09-02.30: current Quảng Ninh, Quảng Trị page selects Q137853482"
-w-19225-2025-07-01,19225,Xã Ninh Châu,Xã,44,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
+w-19225-2025-07-01,19225,Xã Ninh Châu,Xã,44,2025-07-01,,Q137848138,existing,manual,Q137848138,review 2026-09-02.57: current Ninh Châu page selects Q137848138
 w-19237-2025-07-01,19237,Xã Trường Ninh,Xã,44,2025-07-01,,,,needs-lookup,,no folded label or alias candidate
 w-19246-2025-07-01,19246,Xã Lệ Ninh,Xã,44,2025-07-01,,Q10788669,existing,matched,Q10787765|Q10788669,qlever-label+current-province+batched-wbgetentities
 w-19249-2025-07-01,19249,Xã Lệ Thủy,Xã,44,2025-07-01,,Q2246506,existing,matched,Q2246506,qlever-alias+current-province+batched-wbgetentities

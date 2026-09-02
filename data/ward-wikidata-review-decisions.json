@@ -6181,6 +6181,28 @@
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "query pageprops and extracts", "retrieved_at": "2026-09-02T21:40:00Z"},
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"}
       ]
+    },
+    {
+      "batch_id": "2026-09-02.57",
+      "decisions": [
+        {"candidate_qids_checked": ["Q48931625", "Q137853976"], "local_id": "w-18922-2025-07-01", "mapping_note": "current Kim Điền page selects Q137853976", "outcome": "assign", "rationale": "Q137853976 owns the current Kim Điền page and its label, class, and article identify the Quảng Trị commune. Q48931625 is a disambiguation item; the selected item's parent and Vietnamese description are absent.", "wikidata_qid": "Q137853976"},
+        {"candidate_qids_checked": ["Q137855510"], "local_id": "w-18958-2025-07-01", "mapping_note": "current Tuyên Lâm page selects Q137855510", "outcome": "assign", "rationale": "Q137855510 owns the current Tuyên Lâm page and its label, class, description, and article identify the Quảng Trị commune. Structured parent is absent.", "wikidata_qid": "Q137855510"},
+        {"candidate_qids_checked": ["Q137848100"], "local_id": "w-18985-2025-07-01", "mapping_note": "current Tuyên Phú page selects Q137848100", "outcome": "assign", "rationale": "Q137848100 owns the current Tuyên Phú page and its label, class, description, and article identify the Quảng Trị commune. Structured parent is absent.", "wikidata_qid": "Q137848100"},
+        {"candidate_qids_checked": ["Q711861", "Q1196658", "Q1363262", "Q2232329", "Q10830111", "Q137848073"], "local_id": "w-18997-2025-07-01", "mapping_note": "current Tuyên Hóa xã page selects Q137848073", "outcome": "assign", "rationale": "Q137848073 owns the current `Tuyên Hóa (xã)` page and its label, class, description, and article identify the Quảng Trị commune. Other candidates are the former district, Chinese entities, a person, and a disambiguation item; structured parent is absent on the selected item.", "wikidata_qid": "Q137848073"},
+        {"candidate_qids_checked": ["Q137855521"], "local_id": "w-19051-2025-07-01", "mapping_note": "current Tân Gianh page selects Q137855521", "outcome": "assign", "rationale": "Q137855521 owns the current Tân Gianh page and its label, class, description, and article identify the Quảng Trị commune. Structured parent is absent.", "wikidata_qid": "Q137855521"},
+        {"candidate_qids_checked": ["Q137844067"], "local_id": "w-19066-2025-07-01", "mapping_note": "current Bắc Gianh page selects Q137844067", "outcome": "assign", "rationale": "Q137844067 owns the current Bắc Gianh page and its label, description, and article identify the Quảng Trị ward. Structured parent is absent and its class is the commune class rather than the ward class.", "wikidata_qid": "Q137844067"},
+        {"candidate_qids_checked": ["Q137855744"], "local_id": "w-19075-2025-07-01", "mapping_note": "current Nam Ba Đồn page selects Q137855744", "outcome": "assign", "rationale": "Q137855744 owns the current Nam Ba Đồn page and its label, class, description, and article identify the Quảng Trị commune. Structured parent is absent.", "wikidata_qid": "Q137855744"},
+        {"candidate_qids_checked": [], "local_id": "w-19093-2025-07-01", "mapping_note": "current Nam Gianh page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Nam Gianh page identifies the 2025 Quảng Trị commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": ["Q590734", "Q137844084"], "local_id": "w-19141-2025-07-01", "mapping_note": "current Bố Trạch xã page selects Q137844084", "outcome": "assign", "rationale": "Q137844084 owns the current `Bố Trạch (xã)` page and its label, class, description, and article identify the Quảng Trị commune. Q590734 is the former district; structured parent is absent on the selected item.", "wikidata_qid": "Q137844084"},
+        {"candidate_qids_checked": ["Q137848138"], "local_id": "w-19225-2025-07-01", "mapping_note": "current Ninh Châu page selects Q137848138", "outcome": "assign", "rationale": "Q137848138 owns the current Ninh Châu page and its label, class, description, and article identify the Quảng Trị commune. Structured parent is absent.", "wikidata_qid": "Q137848138"}
+      ],
+      "reviewed_at": "2026-09-02T21:47:00Z",
+      "selection": {"input_status": "needs-lookup", "limit": 10, "order": "local_id", "starting_unresolved": 246},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbgetentities", "retrieved_at": "2026-09-02T21:47:00Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "query pageprops and extracts", "retrieved_at": "2026-09-02T21:47:00Z"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"}
+      ]
     }
   ],
   "schema_version": 1,
