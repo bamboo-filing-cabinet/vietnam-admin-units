@@ -36,7 +36,7 @@ the maintainer's account. In particular:
 
 ## Work packages
 
-### W1 — current item creation package (prepared)
+### W1 — current item creation package (prepared; live preflight clear)
 
 `vn_admin_units.ward_emit` builds a deterministic manifest and one consolidated
 QuickStatements file containing all 158 items. The manifest retains logical
@@ -49,10 +49,15 @@ review groups of at most ten items. Every item has:
 - `S854` pointing to its province's signed 2025 resolution on every statement;
 - the checked candidate QIDs and the durable review rationale in the manifest.
 
-Sitelinks are intentionally omitted. The decision ledger often establishes
-that a Vietnamese Wikipedia page has no Wikibase item, but it does not record a
-structured page title for all 158 rows. Resolve and attach sitelinks during the
-live duplicate-preflight/create handoff rather than guessing them from prose.
+The live preflight now resolves exactly one current Vietnamese Wikipedia page
+for each of the 158 rows. All 158 pages have no Wikibase item. It also verifies
+574 unique live Wikidata candidates, records 582 per-row candidate
+associations, and rejects every association with a structured reason; zero
+duplicates and zero review rows remain. See
+`data/ward-wikidata-create-preflight.json` and journal `2026-09-02.68`.
+The emitter consequently adds the one verified `Sviwiki` title to each CREATE
+block. If that evidence is missing or stale, it writes no CREATE statements and
+fails the upload gate.
 
 After the successful upload, write the new QIDs to `mappings/wards-qid.csv` as
 `qid_status=new`, `match_status=manual`, and retain a creation-batch note.
@@ -108,13 +113,16 @@ Before any upload:
 uv run pytest -q
 uv run python -m vn_admin_units.ward_reconcile_broad --check --audit
 uv run python -m vn_admin_units.ward_reconcile --check --audit
+uv run python -m vn_admin_units.ward_create_preflight --fetch --audit
+uv run python -m vn_admin_units.ward_create_preflight --check --require-upload-ready --max-age-hours 24
 uv run python -m vn_admin_units.ward_emit --check --audit
+uv run python -m vn_admin_units.ward_emit --check --require-current-create-ready --max-preflight-age-hours 24
 uv run python -m vn_admin_units.ward_emit --check --require-lineage-ready
 uv run python -m vn_admin_units.constraints
 ```
 
-The fourth command verifies the local artifacts while reporting expected
-blockers. The fifth must fail until both current creation and historical
+The two preflight checks must pass immediately before the CREATE upload. The
+lineage-ready command must still fail until both current creation and historical
 predecessor reconciliation are complete; it becomes the final endpoint gate.
 
 Upload CREATE, current-enrichment, and lineage batches separately. Record batch

@@ -5,6 +5,7 @@ from pathlib import Path
 import pytest
 
 from vn_admin_units.ward_emit import (
+    build_current_creation_preflight_status,
     build_current_creation_manifest,
     build_emission_readiness,
     emit_creation_item,
@@ -99,10 +100,11 @@ def test_creation_renderer_escapes_wikidata_strings():
         "reference_url": "https://example.test/ref",
     }
 
-    rendered = emit_creation_item(item)
+    rendered = emit_creation_item(item, viwiki_title='Mẫu "mới"')
 
     assert 'LAST\tLvi\t"Xã \\"Mẫu\\""' in rendered
     assert 'LAST\tDvi\t"xã \\\\ mẫu"' in rendered
+    assert 'LAST\tSviwiki\t"Mẫu \\"mới\\""' in rendered
 
 
 def test_lineage_emitter_fails_closed_when_any_endpoint_lacks_qid():
@@ -187,3 +189,35 @@ def test_committed_graph_produces_158_creation_items_in_one_file():
     assert readiness["audit"]["distinct_reform_predecessors"] == 10_035
     assert readiness["audit"]["reform_edges"] == 10_586
     assert readiness["audit"]["reform_edges_with_both_qids"] == 0
+
+
+def test_committed_creation_preflight_clears_all_manifest_items():
+    manifest = json.loads(
+        Path("data/ward-wikidata-create-current.json").read_text(encoding="utf-8")
+    )
+
+    status = build_current_creation_preflight_status(manifest)
+
+    assert status["items"] == 158
+    assert status["clear_items"] == 158
+    assert status["duplicate_items"] == 0
+    assert status["needs_review_items"] == 0
+    assert status["issues"] == []
+    assert status["upload_ready"] is True
+
+    report = json.loads(
+        Path("data/ward-wikidata-create-preflight.json").read_text(encoding="utf-8")
+    )
+    assert [row["local_id"] for row in report["items"]] == [
+        row["local_id"] for row in manifest["items"]
+    ]
+    titles = [
+        row["article_check"]["subject_pages"][0]["title"]
+        for row in report["items"]
+    ]
+    assert len(titles) == len(set(titles)) == 158
+
+    statements = Path("statements/na-wards-create-current.qs").read_text(
+        encoding="utf-8"
+    )
+    assert statements.count("\tSviwiki\t") == 158

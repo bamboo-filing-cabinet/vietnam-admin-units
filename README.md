@@ -108,10 +108,16 @@ follow-up batches then closed all 324 `needs-review` rows, and twenty-eight
 lookup batches closed all 280 `needs-lookup` rows. Current coverage is 3,163
 with zero structural issues: 2,667 automatic matches and 496 manual matches.
 The 158 unassigned current rows are all reviewed and recorded as item-creation
-gaps. An offline package now captures all of them in
+gaps. An offline package captures all of them in
 `data/ward-wikidata-create-current.json` and the consolidated
-`statements/na-wards-create-current.qs`. The file is **not uploaded** and
-requires a fresh duplicate/sitelink preflight before use.
+`statements/na-wards-create-current.qs`. The first live duplicate/sitelink
+preflight resolves all 158 current viwiki pages as unlinked and rejects all 582
+candidate associations across 574 unique Wikidata items, leaving zero
+duplicates and zero review rows. Its concrete query and complete results are
+saved in `queries/ward-wikidata-create-preflight.rq` and
+`data/ward-wikidata-create-preflight.json`. The file is **not uploaded**;
+refresh and enforce the 24-hour preflight gate immediately before use. Each
+CREATE block now includes its preflight-verified `Sviwiki` title.
 
 Full 2025 lineage emission is not ready: all 11,223 historical mapping rows were
 intentionally deferred, including all 10,035 immediate reform predecessors.
@@ -130,6 +136,7 @@ and run:
 ```sh
 uv run python -m vn_admin_units.ward_reconcile_broad --check --audit
 uv run python -m vn_admin_units.ward_reconcile --check --audit
+uv run python -m vn_admin_units.ward_create_preflight --check --audit
 uv run python -m vn_admin_units.ward_emit --check --audit
 ```
 

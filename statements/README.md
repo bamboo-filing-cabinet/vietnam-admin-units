@@ -9,11 +9,26 @@ item-creation gaps in one file. It was generated offline by
 `vn_admin_units.ward_emit`; no Wikidata write has been performed. The manifest
 retains sixteen logical review groups of at most ten items.
 
-Do not upload the file without a fresh duplicate/sitelink preflight. After a
-successful run, record its QIDs in `mappings/wards-qid.csv`; replaying a
-successful CREATE file would make duplicates.
-The durable review and source evidence is in
-`../data/ward-wikidata-create-current.json`. Full ward lineage remains blocked
+The saved live preflight currently clears all 158 rows: 158 unlinked current
+viwiki articles, 574 unique candidate entities verified, 582 candidate
+associations rejected, and zero duplicates or review rows. Refresh and enforce
+the 24-hour gate immediately before upload:
+
+```sh
+uv run python -m vn_admin_units.ward_create_preflight --fetch --audit
+uv run python -m vn_admin_units.ward_create_preflight \
+  --check --require-upload-ready --max-age-hours 24
+uv run python -m vn_admin_units.ward_emit \
+  --check --require-current-create-ready --max-preflight-age-hours 24
+```
+
+Each CREATE block includes the one preflight-verified `Sviwiki` title, so the
+new item and its current viwiki article are linked in the same batch.
+
+After a successful upload, record its QIDs in `mappings/wards-qid.csv`;
+replaying a successful CREATE file would make duplicates. The durable creation
+and preflight evidence is in `../data/ward-wikidata-create-current.json` and
+`../data/ward-wikidata-create-preflight.json`. Full ward lineage remains blocked
 until the 10,035 immediate pre-2025 predecessors are reconciled; see
 `../data/ward-wikidata-emission-readiness.json`.
 

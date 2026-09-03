@@ -20,6 +20,11 @@ from collections import Counter
 from pathlib import Path
 
 from vn_admin_units.core import p31_target, predecessor_ends, ref_s854, wd_date
+from vn_admin_units.ward_create_preflight import (
+    REPORT_PATH as CREATE_PREFLIGHT_REPORT,
+    _canonical_title,
+    report_issues as create_preflight_issues,
+)
 
 
 REFORM_DATE = "2025-07-01"
@@ -198,24 +203,129 @@ def _qs_string(value: str) -> str:
     return f'"{escaped}"'
 
 
-def emit_creation_item(item: dict) -> str:
+def emit_creation_item(item: dict, *, viwiki_title: str = "") -> str:
     """Render one self-contained CREATE block without succession back-links."""
     ref = ref_s854(item["reference_url"])
-    return "\n".join([
+    lines = [
         "CREATE",
         f"LAST\tLvi\t{_qs_string(item['name_vi'])}",
         f"LAST\tDvi\t{_qs_string(item['description_vi'])}",
+    ]
+    if viwiki_title:
+        lines.append(f"LAST\tSviwiki\t{_qs_string(viwiki_title)}")
+    lines.extend([
         f"LAST\tP31\t{item['type_qid']}\t{ref}",
         f"LAST\tP17\t{item['country_qid']}\t{ref}",
         f"LAST\tP131\t{item['parent_qid']}\t{ref}",
         f"LAST\tP571\t{wd_date(item['valid_from'])}\t{ref}",
-    ]) + "\n"
+    ])
+    return "\n".join(lines) + "\n"
 
 
-def render_creation_statements(manifest: dict) -> str:
+def render_creation_statements(
+    manifest: dict,
+    *,
+    viwiki_titles: dict[str, str] | None = None,
+) -> str:
+    viwiki_titles = viwiki_titles or {}
     return "\n".join(
-        emit_creation_item(item).rstrip("\n") for item in manifest["items"]
+        emit_creation_item(
+            item,
+            viwiki_title=viwiki_titles.get(item["local_id"], ""),
+        ).rstrip("\n")
+        for item in manifest["items"]
     ) + ("\n" if manifest["items"] else "")
+
+
+def _render_uploadable_creation_statements(
+    manifest: dict,
+    viwiki_titles: dict[str, str] | None,
+) -> str:
+    """Render nothing unless every CREATE item has a preflight-cleared sitelink."""
+    viwiki_titles = viwiki_titles or {}
+    expected_ids = {item["local_id"] for item in manifest["items"]}
+    if expected_ids and set(viwiki_titles) != expected_ids:
+        return ""
+    return render_creation_statements(manifest, viwiki_titles=viwiki_titles)
+
+
+def build_current_creation_preflight_status(
+    manifest: dict,
+    *,
+    max_age_hours: float | None = None,
+) -> dict:
+    """Summarize the saved live preflight without performing network access."""
+    if not manifest["items"]:
+        return {
+            "report_path": CREATE_PREFLIGHT_REPORT.as_posix(),
+            "retrieved_at": "",
+            "items": 0,
+            "clear_items": 0,
+            "duplicate_items": 0,
+            "needs_review_items": 0,
+            "issues": [],
+            "upload_ready": True,
+        }
+    if not CREATE_PREFLIGHT_REPORT.is_file():
+        return {
+            "report_path": CREATE_PREFLIGHT_REPORT.as_posix(),
+            "retrieved_at": "",
+            "items": len(manifest["items"]),
+            "clear_items": 0,
+            "duplicate_items": 0,
+            "needs_review_items": len(manifest["items"]),
+            "issues": ["saved CREATE preflight report is missing"],
+            "upload_ready": False,
+        }
+    report = json.loads(CREATE_PREFLIGHT_REPORT.read_text(encoding="utf-8"))
+    issues = create_preflight_issues(
+        report,
+        manifest,
+        max_age_hours=max_age_hours,
+    )
+    counts = report.get("audit", {}).get("item_status_counts", {})
+    clear = counts.get("clear", 0)
+    duplicate = counts.get("duplicate", 0)
+    needs_review = counts.get("needs-review", 0)
+    ready = (
+        not issues
+        and report.get("audit", {}).get("upload_ready") is True
+        and clear == len(manifest["items"])
+        and not duplicate
+        and not needs_review
+    )
+    return {
+        "report_path": CREATE_PREFLIGHT_REPORT.as_posix(),
+        "retrieved_at": report.get("sources", {}).get("retrieved_at", ""),
+        "items": report.get("audit", {}).get("items", 0),
+        "clear_items": clear,
+        "duplicate_items": duplicate,
+        "needs_review_items": needs_review,
+        "issues": issues,
+        "upload_ready": ready,
+    }
+
+
+def current_creation_viwiki_titles(manifest: dict, preflight_status: dict) -> dict[str, str]:
+    """Return exactly one verified, currently unlinked viwiki title per item."""
+    if not manifest["items"]:
+        return {}
+    if not preflight_status["upload_ready"]:
+        return {}
+    report = json.loads(CREATE_PREFLIGHT_REPORT.read_text(encoding="utf-8"))
+    titles = {}
+    for row in report["items"]:
+        pages = row["article_check"]["subject_pages"]
+        if row["status"] != "clear" or len(pages) != 1 or pages[0]["wikibase_item"]:
+            raise ValueError(f"{row['local_id']} lacks one unlinked current viwiki page")
+        titles[row["local_id"]] = pages[0]["title"]
+    expected_ids = {item["local_id"] for item in manifest["items"]}
+    if set(titles) != expected_ids:
+        raise ValueError("preflight viwiki titles do not exactly match CREATE items")
+    normalized_titles = [_canonical_title(title) for title in titles.values()]
+    if len(normalized_titles) != len(set(normalized_titles)):
+        raise ValueError("multiple CREATE items resolve to the same viwiki article")
+    return titles
 
 
 def build_emission_readiness(
@@ -355,10 +465,18 @@ def _write_atomic(path: Path, content: str) -> None:
     temporary.replace(path)
 
 
-def write_package(manifest: dict, readiness: dict) -> None:
+def write_package(
+    manifest: dict,
+    readiness: dict,
+    *,
+    viwiki_titles: dict[str, str] | None = None,
+) -> None:
     _write_atomic(CREATE_MANIFEST, _serialize_json(manifest))
     _write_atomic(READINESS, _serialize_json(readiness))
-    _write_atomic(CREATE_STATEMENTS, render_creation_statements(manifest))
+    _write_atomic(
+        CREATE_STATEMENTS,
+        _render_uploadable_creation_statements(manifest, viwiki_titles),
+    )
     if CREATE_BATCH_DIR.is_dir():
         for stale in CREATE_BATCH_DIR.glob("*.qs"):
             stale.unlink()
@@ -368,11 +486,18 @@ def write_package(manifest: dict, readiness: dict) -> None:
             pass
 
 
-def check_package(manifest: dict, readiness: dict) -> None:
+def check_package(
+    manifest: dict,
+    readiness: dict,
+    *,
+    viwiki_titles: dict[str, str] | None = None,
+) -> None:
     expected = {
         CREATE_MANIFEST: _serialize_json(manifest),
         READINESS: _serialize_json(readiness),
-        CREATE_STATEMENTS: render_creation_statements(manifest),
+        CREATE_STATEMENTS: _render_uploadable_creation_statements(
+            manifest, viwiki_titles,
+        ),
     }
     for path, content in expected.items():
         if not path.is_file() or path.read_text(encoding="utf-8") != content:
@@ -387,6 +512,8 @@ def main(argv: list[str] | None = None) -> None:
     parser.add_argument("--check", action="store_true")
     parser.add_argument("--audit", action="store_true")
     parser.add_argument("--require-lineage-ready", action="store_true")
+    parser.add_argument("--require-current-create-ready", action="store_true")
+    parser.add_argument("--max-preflight-age-hours", type=float)
     args = parser.parse_args(argv)
 
     history, mapping, provinces, sources, decisions = _load_inputs()
@@ -407,11 +534,25 @@ def main(argv: list[str] | None = None) -> None:
             path.as_posix(): _sha256(path) for path in (HISTORY, MAPPING)
         },
     )
+    creation_preflight = build_current_creation_preflight_status(
+        manifest,
+        max_age_hours=(
+            args.max_preflight_age_hours
+            if args.require_current_create_ready
+            else None
+        ),
+    )
+    readiness["current_creation_preflight"] = creation_preflight
+    readiness["gates"]["current_creation_upload_ready"] = (
+        readiness["gates"]["current_creation_package_ready"]
+        and creation_preflight["upload_ready"]
+    )
+    viwiki_titles = current_creation_viwiki_titles(manifest, creation_preflight)
     if args.check:
-        check_package(manifest, readiness)
+        check_package(manifest, readiness, viwiki_titles=viwiki_titles)
         action = "verified"
     else:
-        write_package(manifest, readiness)
+        write_package(manifest, readiness, viwiki_titles=viwiki_titles)
         action = "wrote"
 
     if args.audit:
@@ -423,8 +564,20 @@ def main(argv: list[str] | None = None) -> None:
         )
         for blocker in readiness["blockers"]:
             print(f"  {blocker['gate']}: {blocker['missing']} missing")
+        print(
+            "  current CREATE preflight: "
+            f"{creation_preflight['clear_items']}/{creation_preflight['items']} clear; "
+            f"upload_ready={readiness['gates']['current_creation_upload_ready']}"
+        )
     if args.require_lineage_ready and not readiness["gates"]["ward_lineage_emit_ready"]:
         raise SystemExit("ward lineage emission remains blocked; see readiness artifact")
+    if (
+        args.require_current_create_ready
+        and not readiness["gates"]["current_creation_upload_ready"]
+    ):
+        details = "; ".join(creation_preflight["issues"])
+        suffix = f": {details}" if details else ""
+        raise SystemExit(f"ward current CREATE upload remains blocked{suffix}")
 
 
 if __name__ == "__main__":

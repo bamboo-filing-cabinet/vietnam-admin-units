@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "scope": {
+    "tier": "ward",
+    "effective_date": "2025-07-01",
+    "purpose": "manual dispositions for live CREATE-preflight candidates"
+  },
+  "reviewed_at": "2026-09-03T00:57:39Z",
+  "decisions": [
+    {
+      "local_id": "w-09931-2025-07-01",
+      "qid": "Q32273352",
+      "outcome": "reject",
+      "expected_last_revision_id": 2083224734,
+      "rationale": "The item is the pre-existing Hưng Đạo locality in Nghệ An, not the 2025 Hà Nội commune.",
+      "evidence": {
+        "geonames_id": "8627909",
+        "coordinates": [18.667222222222, 105.60333333333],
+        "other_sitelink": "cebwiki:Xã Hưng Đạo (munisipyo sa Tỉnh Nghệ An)",
+        "asserted_location": "Tỉnh Nghệ An",
+        "expected_location": "Thành phố Hà Nội"
+      }
+    },
+    {
+      "local_id": "w-09931-2025-07-01",
+      "qid": "Q32273361",
+      "outcome": "reject",
+      "expected_last_revision_id": 2083224742,
+      "rationale": "The item is the pre-existing Hưng Đạo locality in Quảng Ninh, not the 2025 Hà Nội commune.",
+      "evidence": {
+        "geonames_id": "8595980",
+        "coordinates": [21.0625, 106.52583333333],
+        "other_sitelink": "cebwiki:Xã Hưng Đạo (munisipyo sa Tỉnh Quảng Ninh)",
+        "asserted_location": "Tỉnh Quảng Ninh",
+        "expected_location": "Thành phố Hà Nội"
+      }
+    },
+    {
+      "local_id": "w-11218-2025-07-01",
+      "qid": "Q32275083",
+      "outcome": "reject",
+      "expected_last_revision_id": 2083225038,
+      "rationale": "The item is the pre-existing Hồng Châu locality in Thái Bình, not the 2025 Hải Phòng commune.",
+      "evidence": {
+        "geonames_id": "8569643",
+        "coordinates": [20.523055555556, 106.26333333333],
+        "other_sitelink": "cebwiki:Xã Hồng Châu (munisipyo sa Tỉnh Thái Bình)",
+        "asserted_location": "Tỉnh Thái Bình",
+        "expected_location": "Thành phố Hải Phòng"
+      }
+    },
+    {
+      "local_id": "w-12583-2025-07-01",
+      "qid": "Q32587702",
+      "outcome": "reject",
+      "expected_last_revision_id": 2083227998,
+      "rationale": "The item is the pre-existing Tân Tiến locality in Bắc Kạn, not the 2025 Hưng Yên commune.",
+      "evidence": {
+        "geonames_id": "8411180",
+        "coordinates": [22.255833333333, 105.89138888889],
+        "other_sitelink": "cebwiki:Xã Tân Tiến (munisipyo sa Tỉnh Bắc Kạn)",
+        "asserted_location": "Tỉnh Bắc Kạn",
+        "expected_location": "Tỉnh Hưng Yên"
+      }
+    },
+    {
+      "local_id": "w-17212-2025-07-01",
+      "qid": "Q32299700",
+      "outcome": "reject",
+      "expected_last_revision_id": 2083227101,
+      "rationale": "The item is a pre-existing Quỳnh Phú locality in Bắc Ninh, not the 2025 Nghệ An commune.",
+      "evidence": {
+        "geonames_id": "8340614",
+        "coordinates": [21.040833333333, 106.18861111111],
+        "other_sitelink": "cebwiki:Xã Quỳnh Phú (munisipyo, lat 21,04, long 106,19)",
+        "asserted_location": "Tỉnh Bắc Ninh",
+        "expected_location": "Tỉnh Nghệ An"
+      }
+    },
+    {
+      "local_id": "w-17212-2025-07-01",
+      "qid": "Q32299707",
+      "outcome": "reject",
+      "expected_last_revision_id": 2115373357,
+      "rationale": "The item is a second pre-existing Quỳnh Phú locality in Bắc Ninh, not the 2025 Nghệ An commune.",
+      "evidence": {
+        "geonames_id": "8340638",
+        "coordinates": [21.04239, 106.20903],
+        "other_sitelink": "cebwiki:Xã Quỳnh Phú (munisipyo, lat 21,04, long 106,21)",
+        "asserted_location": "Tỉnh Bắc Ninh",
+        "expected_location": "Tỉnh Nghệ An"
+      }
+    },
+    {
+      "local_id": "w-17416-2025-07-01",
+      "qid": "Q32602518",
+      "outcome": "reject",
+      "expected_last_revision_id": 2083229074,
+      "rationale": "The item is the pre-existing Đức Châu locality in Hà Tĩnh, not the 2025 Nghệ An commune.",
+      "evidence": {
+        "geonames_id": "8637772",
+        "coordinates": [18.571944444444, 105.61222222222],
+        "other_sitelink": "cebwiki:Xã Đức Châu",
+        "asserted_location": "Tỉnh Hà Tĩnh",
+        "expected_location": "Tỉnh Nghệ An"
+      }
+    },
+    {
+      "local_id": "w-17488-2025-07-01",
+      "qid": "Q32585626",
+      "outcome": "reject",
+      "expected_last_revision_id": 2332825411,
+      "rationale": "The item is the pre-existing Tân Châu locality in An Giang, not the 2025 Nghệ An commune.",
+      "evidence": {
+        "geonames_id": "8375882",
+        "coordinates": [10.794722222222, 105.23444444444],
+        "other_sitelink": "cebwiki:Xã Tân Châu (munisipyo sa An Giang)",
+        "asserted_location": "Tỉnh An Giang",
+        "expected_location": "Tỉnh Nghệ An"
+      }
+    }
+  ]
+}

@@ -115,7 +115,9 @@
 > QIDs. `vn_admin_units.ward_emit` records this as a hard gate and refuses
 > lineage output. Resume with predecessor reconciliation, following
 > `docs/plans/2026-09-02-phase3-ward-wikidata-emission.md`; do not upload the
-> CREATE file without a fresh duplicate/sitelink preflight.
+> CREATE file unless the refreshed 24-hour duplicate/sitelink gate passes. The
+> first saved preflight clears all 158 rows with zero duplicates; see journal
+> `2026-09-02.68`.
 
 Extends `DESIGN.md` (the overarching design + decisions log). **Phase 1**
 delivered the *2025-reform province slice* (`docs/plans/2026-07-10-phase1-

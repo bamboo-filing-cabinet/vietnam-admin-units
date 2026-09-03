@@ -28,7 +28,8 @@
     "current_creation_package_ready": true,
     "lineage_endpoint_qids_ready": false,
     "official_event_references_ready": true,
-    "ward_lineage_emit_ready": false
+    "ward_lineage_emit_ready": false,
+    "current_creation_upload_ready": true
   },
   "blockers": [
     {
@@ -41,5 +42,15 @@
       "missing": 10035,
       "resolution": "reconcile the immediate pre-2025 predecessor set before lineage emission"
     }
-  ]
+  ],
+  "current_creation_preflight": {
+    "report_path": "data/ward-wikidata-create-preflight.json",
+    "retrieved_at": "2026-09-03T00:58:51Z",
+    "items": 158,
+    "clear_items": 158,
+    "duplicate_items": 0,
+    "needs_review_items": 0,
+    "issues": [],
+    "upload_ready": true
+  }
 }

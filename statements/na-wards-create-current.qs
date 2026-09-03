@@ -1,6 +1,7 @@
 CREATE
 LAST	Lvi	"Xã Kim Anh"
 LAST	Dvi	"xã thuộc thành phố Hà Nội, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Kim Anh (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 LAST	P131	Q1858	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -8,6 +9,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Quỳnh Nhai"
 LAST	Dvi	"xã thuộc tỉnh Sơn La, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Quỳnh Nhai (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1681-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1681-nq.signed.pdf"
 LAST	P131	Q33379	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1681-nq.signed.pdf"
@@ -15,6 +17,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Mường La"
 LAST	Dvi	"xã thuộc tỉnh Sơn La, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Mường La (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1681-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1681-nq.signed.pdf"
 LAST	P131	Q33379	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1681-nq.signed.pdf"
@@ -22,6 +25,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Mai Sơn"
 LAST	Dvi	"xã thuộc tỉnh Sơn La, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Mai Sơn (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1681-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1681-nq.signed.pdf"
 LAST	P131	Q33379	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1681-nq.signed.pdf"
@@ -29,6 +33,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Yên Xuân"
 LAST	Dvi	"xã thuộc thành phố Hà Nội, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Yên Xuân, Hà Nội"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 LAST	P131	Q1858	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -36,6 +41,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Phường Sông Công"
 LAST	Dvi	"phường thuộc tỉnh Thái Nguyên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Sông Công (phường)"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1683-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1683-nq.signed.pdf"
 LAST	P131	Q26575	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1683-nq.signed.pdf"
@@ -43,6 +49,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Võ Nhai"
 LAST	Dvi	"xã thuộc tỉnh Thái Nguyên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Võ Nhai (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1683-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1683-nq.signed.pdf"
 LAST	P131	Q26575	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1683-nq.signed.pdf"
@@ -50,6 +57,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Vạn Phú"
 LAST	Dvi	"xã thuộc tỉnh Thái Nguyên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Vạn Phú"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1683-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1683-nq.signed.pdf"
 LAST	P131	Q26575	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1683-nq.signed.pdf"
@@ -57,6 +65,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Phường Phổ Yên"
 LAST	Dvi	"phường thuộc tỉnh Thái Nguyên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Phổ Yên (phường)"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1683-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1683-nq.signed.pdf"
 LAST	P131	Q26575	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1683-nq.signed.pdf"
@@ -64,6 +73,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Phường Vạn Xuân"
 LAST	Dvi	"phường thuộc tỉnh Thái Nguyên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Vạn Xuân (phường)"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1683-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1683-nq.signed.pdf"
 LAST	P131	Q26575	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1683-nq.signed.pdf"
@@ -71,6 +81,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Phú Bình"
 LAST	Dvi	"xã thuộc tỉnh Thái Nguyên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Phú Bình (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1683-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1683-nq.signed.pdf"
 LAST	P131	Q26575	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1683-nq.signed.pdf"
@@ -78,6 +89,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Tràng Định"
 LAST	Dvi	"xã thuộc tỉnh Lạng Sơn, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Tràng Định (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1672-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1672-nq.signed.pdf"
 LAST	P131	Q33403	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1672-nq.signed.pdf"
@@ -85,6 +97,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Văn Lãng"
 LAST	Dvi	"xã thuộc tỉnh Lạng Sơn, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Văn Lãng (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1672-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1672-nq.signed.pdf"
 LAST	P131	Q33403	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1672-nq.signed.pdf"
@@ -92,6 +105,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Phường Kỳ Lừa"
 LAST	Dvi	"phường thuộc tỉnh Lạng Sơn, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Kỳ Lừa"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1672-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1672-nq.signed.pdf"
 LAST	P131	Q33403	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1672-nq.signed.pdf"
@@ -99,6 +113,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Phường Cẩm Phả"
 LAST	Dvi	"phường thuộc tỉnh Quảng Ninh, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Cẩm Phả (phường)"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1679-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1679-nq.signed.pdf"
 LAST	P131	Q33396	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1679-nq.signed.pdf"
@@ -106,6 +121,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Phường Uông Bí"
 LAST	Dvi	"phường thuộc tỉnh Quảng Ninh, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Uông Bí (phường)"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1679-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1679-nq.signed.pdf"
 LAST	P131	Q33396	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1679-nq.signed.pdf"
@@ -113,6 +129,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Phường Yên Tử"
 LAST	Dvi	"phường thuộc tỉnh Quảng Ninh, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Yên Tử (phường)"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1679-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1679-nq.signed.pdf"
 LAST	P131	Q33396	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1679-nq.signed.pdf"
@@ -120,6 +137,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Phường Việt Trì"
 LAST	Dvi	"phường thuộc tỉnh Phú Thọ, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Việt Trì (phường)"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 LAST	P131	Q36610	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -127,6 +145,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Tam Nông"
 LAST	Dvi	"xã thuộc tỉnh Phú Thọ, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Tam Nông, Phú Thọ"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 LAST	P131	Q36610	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -134,6 +153,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Phường Phúc Yên"
 LAST	Dvi	"phường thuộc tỉnh Phú Thọ, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Phúc Yên (phường)"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 LAST	P131	Q36610	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -141,6 +161,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Hưng Đạo"
 LAST	Dvi	"xã thuộc thành phố Hà Nội, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Hưng Đạo, Hà Nội"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 LAST	P131	Q1858	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -148,6 +169,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Hòa Lạc"
 LAST	Dvi	"xã thuộc thành phố Hà Nội, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Hòa Lạc, Hà Nội"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 LAST	P131	Q1858	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -155,6 +177,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Mỹ Đức"
 LAST	Dvi	"xã thuộc thành phố Hà Nội, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Mỹ Đức, Hà Nội"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 LAST	P131	Q1858	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -162,6 +185,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Phường Chu Văn An"
 LAST	Dvi	"phường thuộc thành phố Hải Phòng, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Chu Văn An (phường)"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 LAST	P131	Q72818	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -169,6 +193,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Phường Lê Đại Hành"
 LAST	Dvi	"phường thuộc thành phố Hải Phòng, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Lê Đại Hành (phường)"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 LAST	P131	Q72818	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -176,6 +201,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Tuệ Tĩnh"
 LAST	Dvi	"xã thuộc thành phố Hải Phòng, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Tuệ Tĩnh (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 LAST	P131	Q72818	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -183,6 +209,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Đường An"
 LAST	Dvi	"xã thuộc thành phố Hải Phòng, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Đường An"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 LAST	P131	Q72818	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -190,6 +217,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Hồng Châu"
 LAST	Dvi	"xã thuộc thành phố Hải Phòng, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Hồng Châu (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 LAST	P131	Q72818	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -197,6 +225,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Hải Hưng"
 LAST	Dvi	"xã thuộc thành phố Hải Phòng, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Hải Hưng, Hải Phòng"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 LAST	P131	Q72818	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -204,6 +233,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Phường Đông Hải"
 LAST	Dvi	"phường thuộc thành phố Hải Phòng, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Đông Hải, Hải Phòng"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 LAST	P131	Q72818	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -211,6 +241,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Phường Lê Ích Mộc"
 LAST	Dvi	"phường thuộc thành phố Hải Phòng, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Lê Ích Mộc (phường)"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 LAST	P131	Q72818	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -218,6 +249,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Phường An Phong"
 LAST	Dvi	"phường thuộc thành phố Hải Phòng, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"An Phong"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 LAST	P131	Q72818	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -225,6 +257,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã An Quang"
 LAST	Dvi	"xã thuộc thành phố Hải Phòng, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"An Quang"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 LAST	P131	Q72818	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -232,6 +265,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã An Khánh"
 LAST	Dvi	"xã thuộc thành phố Hải Phòng, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"An Khánh, Hải Phòng"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 LAST	P131	Q72818	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -239,6 +273,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Phường Dương Kinh"
 LAST	Dvi	"phường thuộc thành phố Hải Phòng, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Dương Kinh (phường)"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 LAST	P131	Q72818	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -246,6 +281,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Tân Minh"
 LAST	Dvi	"xã thuộc thành phố Hải Phòng, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Tân Minh, Hải Phòng"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 LAST	P131	Q72818	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -253,6 +289,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Vĩnh Thuận"
 LAST	Dvi	"xã thuộc thành phố Hải Phòng, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Vĩnh Thuận, Hải Phòng"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 LAST	P131	Q72818	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -260,6 +297,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Phường Phố Hiến"
 LAST	Dvi	"phường thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Phố Hiến"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -267,6 +305,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Việt Yên"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Việt Yên (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -274,6 +313,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Phường Mỹ Hào"
 LAST	Dvi	"phường thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Mỹ Hào (phường)"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -281,6 +321,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Triệu Việt Vương"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Triệu Việt Vương (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -288,6 +329,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Việt Tiến"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Việt Tiến"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -295,6 +337,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Châu Ninh"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Châu Ninh"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -302,6 +345,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Chí Minh"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Chí Minh, Hưng Yên"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -309,6 +353,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Tiên Hoa"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Tiên Hoa"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -316,6 +361,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Tiên Lữ"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Tiên Lữ, Hưng Yên"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -323,6 +369,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Quỳnh Phụ"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Quỳnh Phụ (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -330,6 +377,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã A Sào"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"A Sào"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -337,6 +385,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Phụ Dực"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Phụ Dực (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -344,6 +393,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Đồng Bằng"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Đồng Bằng (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -351,6 +401,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Nguyễn Du"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Nguyễn Du (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -358,6 +409,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Quỳnh An"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Quỳnh An"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -365,6 +417,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Tân Tiến"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Tân Tiến, Hưng Yên"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -372,6 +425,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Ngự Thiên"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Ngự Thiên"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -379,6 +433,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Thần Khê"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Thần Khê"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -386,6 +441,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Tiên La"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Tiên La"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -393,6 +449,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Bắc Đông Hưng"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Bắc Đông Hưng"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -400,6 +457,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Bắc Tiên Hưng"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Bắc Tiên Hưng"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -407,6 +465,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Đông Tiên Hưng"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Đông Tiên Hưng"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -414,6 +473,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Bắc Đông Quan"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Bắc Đông Quan"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -421,6 +481,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Tiên Hưng"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Tiên Hưng (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -428,6 +489,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Nam Tiên Hưng"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Nam Tiên Hưng"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -435,6 +497,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Nam Đông Hưng"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Nam Đông Hưng"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -442,6 +505,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Tây Thụy Anh"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Tây Thụy Anh"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -449,6 +513,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Bắc Thụy Anh"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Bắc Thụy Anh"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -456,6 +521,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Đông Thụy Anh"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Đông Thụy Anh"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -463,6 +529,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Thụy Anh"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Thụy Anh (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -470,6 +537,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Nam Thụy Anh"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Nam Thụy Anh"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -477,6 +545,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Bắc Thái Ninh"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Bắc Thái Ninh"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -484,6 +553,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Tây Thái Ninh"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Tây Thái Ninh"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -491,6 +561,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Thái Ninh"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Thái Ninh (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -498,6 +569,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Đông Thái Ninh"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Đông Thái Ninh"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -505,6 +577,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Nam Thái Ninh"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Nam Thái Ninh"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -512,6 +585,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Đông Tiền Hải"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Đông Tiền Hải"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -519,6 +593,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Đồng Châu"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Đồng Châu"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -526,6 +601,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Tây Tiền Hải"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Tây Tiền Hải"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -533,6 +609,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Vạn Xuân"
 LAST	Dvi	"xã thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Vạn Xuân, Hưng Yên"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -540,6 +617,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Phường Thái Bình"
 LAST	Dvi	"phường thuộc tỉnh Hưng Yên, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Thái Bình (phường)"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P131	Q36235	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -547,6 +625,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Phường Duy Tiên"
 LAST	Dvi	"phường thuộc tỉnh Ninh Bình, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Duy Tiên (phường)"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P131	Q36900	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -554,6 +633,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Thanh Liêm"
 LAST	Dvi	"xã thuộc tỉnh Ninh Bình, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Thanh Liêm (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P131	Q36900	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -561,6 +641,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Bình Sơn"
 LAST	Dvi	"xã thuộc tỉnh Ninh Bình, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Bình Sơn, Ninh Bình"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P131	Q36900	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -568,6 +649,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Ý Yên"
 LAST	Dvi	"xã thuộc tỉnh Ninh Bình, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Ý Yên (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P131	Q36900	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -575,6 +657,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Tân Minh"
 LAST	Dvi	"xã thuộc tỉnh Ninh Bình, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Tân Minh, Ninh Bình"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P131	Q36900	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -582,6 +665,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Phong Doanh"
 LAST	Dvi	"xã thuộc tỉnh Ninh Bình, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Phong Doanh"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P131	Q36900	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -589,6 +673,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Vũ Dương"
 LAST	Dvi	"xã thuộc tỉnh Ninh Bình, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Vũ Dương (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P131	Q36900	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -596,6 +681,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Vạn Thắng"
 LAST	Dvi	"xã thuộc tỉnh Ninh Bình, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Vạn Thắng, Ninh Bình"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P131	Q36900	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -603,6 +689,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Đồng Thịnh"
 LAST	Dvi	"xã thuộc tỉnh Ninh Bình, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Đồng Thịnh"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P131	Q36900	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -610,6 +697,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Hồng Phong"
 LAST	Dvi	"xã thuộc tỉnh Ninh Bình, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Hồng Phong, Ninh Bình"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P131	Q36900	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -617,6 +705,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Nam Trực"
 LAST	Dvi	"xã thuộc tỉnh Ninh Bình, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Nam Trực (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P131	Q36900	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -624,6 +713,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Ninh Giang"
 LAST	Dvi	"xã thuộc tỉnh Ninh Bình, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Ninh Giang, Ninh Bình"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P131	Q36900	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -631,6 +721,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Trực Ninh"
 LAST	Dvi	"xã thuộc tỉnh Ninh Bình, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Trực Ninh (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P131	Q36900	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -638,6 +729,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Quang Hưng"
 LAST	Dvi	"xã thuộc tỉnh Ninh Bình, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Quang Hưng, Ninh Bình"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P131	Q36900	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -645,6 +737,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Minh Thái"
 LAST	Dvi	"xã thuộc tỉnh Ninh Bình, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Minh Thái"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P131	Q36900	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -652,6 +745,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Xuân Giang"
 LAST	Dvi	"xã thuộc tỉnh Ninh Bình, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Xuân Giang, Ninh Bình"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P131	Q36900	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -659,6 +753,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Xuân Hưng"
 LAST	Dvi	"xã thuộc tỉnh Ninh Bình, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Xuân Hưng"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P131	Q36900	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -666,6 +761,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Giao Minh"
 LAST	Dvi	"xã thuộc tỉnh Ninh Bình, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Giao Minh"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P131	Q36900	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -673,6 +769,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Giao Thuỷ"
 LAST	Dvi	"xã thuộc tỉnh Ninh Bình, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Giao Thủy (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P131	Q36900	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -680,6 +777,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Giao Bình"
 LAST	Dvi	"xã thuộc tỉnh Ninh Bình, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Giao Bình"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P131	Q36900	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -687,6 +785,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Giao Ninh"
 LAST	Dvi	"xã thuộc tỉnh Ninh Bình, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Giao Ninh"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P131	Q36900	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -694,6 +793,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Hải Hậu"
 LAST	Dvi	"xã thuộc tỉnh Ninh Bình, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Hải Hậu (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P131	Q36900	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -701,6 +801,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Hải Thịnh"
 LAST	Dvi	"xã thuộc tỉnh Ninh Bình, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Hải Thịnh"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P131	Q36900	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -708,6 +809,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Phường Nam Hoa Lư"
 LAST	Dvi	"phường thuộc tỉnh Ninh Bình, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Nam Hoa Lư"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P131	Q36900	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -715,6 +817,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Kim Sơn"
 LAST	Dvi	"xã thuộc tỉnh Ninh Bình, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Kim Sơn, Ninh Bình"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P131	Q36900	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -722,6 +825,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Phường Thành Vinh"
 LAST	Dvi	"phường thuộc tỉnh Nghệ An, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Thành Vinh (phường)"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P131	Q36587	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
@@ -729,6 +833,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Quế Phong"
 LAST	Dvi	"xã thuộc tỉnh Nghệ An, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Quế Phong (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P131	Q36587	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
@@ -736,6 +841,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Mường Quàng"
 LAST	Dvi	"xã thuộc tỉnh Nghệ An, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Mường Quàng"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P131	Q36587	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
@@ -743,6 +849,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Tương Dương"
 LAST	Dvi	"xã thuộc tỉnh Nghệ An, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Tương Dương (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P131	Q36587	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
@@ -750,6 +857,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Mường Ham"
 LAST	Dvi	"xã thuộc tỉnh Nghệ An, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Mường Ham"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P131	Q36587	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
@@ -757,6 +865,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Phường Tân Mai"
 LAST	Dvi	"phường thuộc tỉnh Nghệ An, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Tân Mai (phường)"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P131	Q36587	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
@@ -764,6 +873,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Quỳnh Sơn"
 LAST	Dvi	"xã thuộc tỉnh Nghệ An, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Quỳnh Sơn"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P131	Q36587	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
@@ -771,6 +881,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Quỳnh Anh"
 LAST	Dvi	"xã thuộc tỉnh Nghệ An, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Quỳnh Anh (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P131	Q36587	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
@@ -778,6 +889,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Quỳnh Lưu"
 LAST	Dvi	"xã thuộc tỉnh Nghệ An, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Quỳnh Lưu, Nghệ An"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P131	Q36587	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
@@ -785,6 +897,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Quỳnh Phú"
 LAST	Dvi	"xã thuộc tỉnh Nghệ An, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Quỳnh Phú"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P131	Q36587	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
@@ -792,6 +905,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Mậu Thạch"
 LAST	Dvi	"xã thuộc tỉnh Nghệ An, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Mậu Thạch"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P131	Q36587	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
@@ -799,6 +913,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Thành Bình Thọ"
 LAST	Dvi	"xã thuộc tỉnh Nghệ An, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Thành Bình Thọ"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P131	Q36587	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
@@ -806,6 +921,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Yên Xuân"
 LAST	Dvi	"xã thuộc tỉnh Nghệ An, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Yên Xuân, Nghệ An"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P131	Q36587	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
@@ -813,6 +929,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Đức Châu"
 LAST	Dvi	"xã thuộc tỉnh Nghệ An, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Đức Châu (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P131	Q36587	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
@@ -820,6 +937,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Quảng Châu"
 LAST	Dvi	"xã thuộc tỉnh Nghệ An, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Quảng Châu (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P131	Q36587	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
@@ -827,6 +945,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã An Châu"
 LAST	Dvi	"xã thuộc tỉnh Nghệ An, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"An Châu, Nghệ An"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P131	Q36587	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
@@ -834,6 +953,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Tân Châu"
 LAST	Dvi	"xã thuộc tỉnh Nghệ An, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Tân Châu, Nghệ An"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P131	Q36587	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
@@ -841,6 +961,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Bình Minh"
 LAST	Dvi	"xã thuộc tỉnh Nghệ An, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Bình Minh, Nghệ An"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P131	Q36587	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
@@ -848,6 +969,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Đông Thành"
 LAST	Dvi	"xã thuộc tỉnh Nghệ An, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Đông Thành, Nghệ An"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P131	Q36587	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
@@ -855,6 +977,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Vân Du"
 LAST	Dvi	"xã thuộc tỉnh Nghệ An, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Vân Du, Nghệ An"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P131	Q36587	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
@@ -862,6 +985,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Quan Thành"
 LAST	Dvi	"xã thuộc tỉnh Nghệ An, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Quan Thành"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P131	Q36587	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
@@ -869,6 +993,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Lương Sơn"
 LAST	Dvi	"xã thuộc tỉnh Nghệ An, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Lương Sơn, Nghệ An"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P131	Q36587	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
@@ -876,6 +1001,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Cát Ngạn"
 LAST	Dvi	"xã thuộc tỉnh Nghệ An, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Cát Ngạn"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P131	Q36587	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
@@ -883,6 +1009,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Sơn Lâm"
 LAST	Dvi	"xã thuộc tỉnh Nghệ An, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Sơn Lâm"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P131	Q36587	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
@@ -890,6 +1017,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Kim Bảng"
 LAST	Dvi	"xã thuộc tỉnh Nghệ An, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Kim Bảng (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P131	Q36587	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
@@ -897,6 +1025,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Bích Hào"
 LAST	Dvi	"xã thuộc tỉnh Nghệ An, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Bích Hào"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P131	Q36587	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
@@ -904,6 +1033,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Nghi Lộc"
 LAST	Dvi	"xã thuộc tỉnh Nghệ An, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Nghi Lộc (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P131	Q36587	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
@@ -911,6 +1041,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Hải Lộc"
 LAST	Dvi	"xã thuộc tỉnh Nghệ An, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Hải Lộc"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P131	Q36587	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
@@ -918,6 +1049,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Văn Kiều"
 LAST	Dvi	"xã thuộc tỉnh Nghệ An, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Văn Kiều"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P131	Q36587	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
@@ -925,6 +1057,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Đông Lộc"
 LAST	Dvi	"xã thuộc tỉnh Nghệ An, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Đông Lộc"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P131	Q36587	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
@@ -932,6 +1065,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Phường Vinh Hưng"
 LAST	Dvi	"phường thuộc tỉnh Nghệ An, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Vinh Hưng"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P131	Q36587	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
@@ -939,6 +1073,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Vạn An"
 LAST	Dvi	"xã thuộc tỉnh Nghệ An, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Vạn An"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P131	Q36587	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
@@ -946,6 +1081,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Lam Thành"
 LAST	Dvi	"xã thuộc tỉnh Nghệ An, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Lam Thành"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
 LAST	P131	Q36587	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1678-nq.signed.pdf"
@@ -953,6 +1089,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Đức Minh"
 LAST	Dvi	"xã thuộc tỉnh Hà Tĩnh, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Đức Minh"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 LAST	P131	Q33351	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
@@ -960,6 +1097,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Trường Lưu"
 LAST	Dvi	"xã thuộc tỉnh Hà Tĩnh, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Trường Lưu"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 LAST	P131	Q33351	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
@@ -967,6 +1105,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Kỳ Anh"
 LAST	Dvi	"xã thuộc tỉnh Hà Tĩnh, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Kỳ Anh (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 LAST	P131	Q33351	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
@@ -974,6 +1113,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Nam Gianh"
 LAST	Dvi	"xã thuộc tỉnh Quảng Trị, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Nam Gianh"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 LAST	P131	Q36579	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -981,6 +1121,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Phường Đông Hà"
 LAST	Dvi	"phường thuộc tỉnh Quảng Trị, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Đông Hà (phường)"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 LAST	P131	Q36579	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -988,6 +1129,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Bến Hải"
 LAST	Dvi	"xã thuộc tỉnh Quảng Trị, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Bến Hải (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 LAST	P131	Q36579	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -995,6 +1137,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Cồn Tiên"
 LAST	Dvi	"xã thuộc tỉnh Quảng Trị, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Cồn Tiên"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 LAST	P131	Q36579	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -1002,6 +1145,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Triệu Phong"
 LAST	Dvi	"xã thuộc tỉnh Quảng Trị, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Triệu Phong (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 LAST	P131	Q36579	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -1009,6 +1153,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Triệu Bình"
 LAST	Dvi	"xã thuộc tỉnh Quảng Trị, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Triệu Bình"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 LAST	P131	Q36579	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -1016,6 +1161,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Hải Lăng"
 LAST	Dvi	"xã thuộc tỉnh Quảng Trị, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Hải Lăng (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 LAST	P131	Q36579	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -1023,6 +1169,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Nam Hải Lăng"
 LAST	Dvi	"xã thuộc tỉnh Quảng Trị, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Nam Hải Lăng"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 LAST	P131	Q36579	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -1030,6 +1177,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Đan Điền"
 LAST	Dvi	"xã thuộc thành phố Huế, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Đan Điền"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1675-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1675-nq.signed.pdf"
 LAST	P131	Q36399	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1675-nq.signed.pdf"
@@ -1037,6 +1185,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Phú Vang"
 LAST	Dvi	"xã thuộc thành phố Huế, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Phú Vang (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1675-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1675-nq.signed.pdf"
 LAST	P131	Q36399	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1675-nq.signed.pdf"
@@ -1044,6 +1193,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Vinh Lộc"
 LAST	Dvi	"xã thuộc thành phố Huế, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Vinh Lộc (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1675-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1675-nq.signed.pdf"
 LAST	P131	Q36399	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1675-nq.signed.pdf"
@@ -1051,6 +1201,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Tuy An Bắc"
 LAST	Dvi	"xã thuộc tỉnh Đắk Lắk, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Tuy An Bắc"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 LAST	P131	Q36690	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -1058,6 +1209,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Phường Phú Yên"
 LAST	Dvi	"phường thuộc tỉnh Đắk Lắk, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Phú Yên (phường)"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 LAST	P131	Q36690	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -1065,6 +1217,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Phú Hòa 2"
 LAST	Dvi	"xã thuộc tỉnh Đắk Lắk, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Phú Hòa 2"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 LAST	P131	Q36690	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -1072,6 +1225,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Phú Hòa 1"
 LAST	Dvi	"xã thuộc tỉnh Đắk Lắk, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Phú Hòa 1"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 LAST	P131	Q36690	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -1079,6 +1233,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Liên Sơn Lắk"
 LAST	Dvi	"xã thuộc tỉnh Đắk Lắk, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Liên Sơn Lắk"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 LAST	P131	Q36690	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -1086,6 +1241,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Tà Đùng"
 LAST	Dvi	"xã thuộc tỉnh Lâm Đồng, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Tà Đùng"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
 LAST	P131	Q36721	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
@@ -1093,6 +1249,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Đức Lập"
 LAST	Dvi	"xã thuộc tỉnh Lâm Đồng, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Đức Lập, Lâm Đồng"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
 LAST	P131	Q36721	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
@@ -1100,6 +1257,7 @@ LAST	P571	+2025-07-01T00:00:00Z/11	S854	"https://datafiles.chinhphu.vn/cpp/files
 CREATE
 LAST	Lvi	"Xã Đắk Song"
 LAST	Dvi	"xã thuộc tỉnh Lâm Đồng, Việt Nam, thành lập năm 2025"
+LAST	Sviwiki	"Đắk Song (xã)"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
 LAST	P131	Q36721	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
