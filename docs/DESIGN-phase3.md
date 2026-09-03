@@ -119,6 +119,12 @@
 > first saved preflight clears all 158 rows with zero duplicates; see journal
 > `2026-09-02.68`.
 
+> **Update (2026-09-03): the current-item creation slice is complete.** Batch
+> #270342 created 151 items, one error resolved to the existing Tam Nông item
+> Q140391710, and batch #270387 created the remaining six without errors.
+> Current coverage is 3,321/3,321 and the regenerated CREATE package is empty;
+> see journals `2026-09-03.01` and `2026-09-03.02`.
+
 Extends `DESIGN.md` (the overarching design + decisions log). **Phase 1**
 delivered the *2025-reform province slice* (`docs/plans/2026-07-10-phase1-
 province-wikidata.md`). **Phase 2** is everything needed to reach the full

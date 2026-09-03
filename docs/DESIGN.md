@@ -239,9 +239,11 @@ assemblies need non-GSO sources.
   history can reference proper district QIDs.
 - **Phase 3 (wards)** — ward tier (10k→3.3k in 2025 reform), name→code
   disambiguation (the core difficulty), Goal A exports for NA16 (ward-composed).
-  The 14,544-entity graph and current-QID review are complete. A reviewed
-  158-item CREATE package is prepared and its first live duplicate preflight is
-  clear, but 2025 lineage remains hard-blocked:
+  The 14,544-entity graph and current-QID review are complete. Batch #270342
+  created 151 reviewed gaps, one error resolved to an existing item, and the
+  remaining six were created without errors by batch #270387. All 3,321 current
+  units now have QIDs, and the regenerated CREATE package is empty. The 2025
+  lineage remains hard-blocked:
   none of the 10,035 immediate historical predecessors has a QID. Resume with
   bulk predecessor reconciliation per
   `docs/plans/2026-09-02-phase3-ward-wikidata-emission.md`.

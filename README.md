@@ -105,19 +105,22 @@ evidence passes raised coverage to 2,670 of 3,321 current wards. Five manual
 identity-review batches processed all 47 ambiguous rows with a durable decision
 ledger: 46 received QIDs and one remained explicitly unresolved. Thirty-three
 follow-up batches then closed all 324 `needs-review` rows, and twenty-eight
-lookup batches closed all 280 `needs-lookup` rows. Current coverage is 3,163
-with zero structural issues: 2,667 automatic matches and 496 manual matches.
-The 158 unassigned current rows are all reviewed and recorded as item-creation
-gaps. An offline package captures all of them in
-`data/ward-wikidata-create-current.json` and the consolidated
-`statements/na-wards-create-current.qs`. The first live duplicate/sitelink
-preflight resolves all 158 current viwiki pages as unlinked and rejects all 582
-candidate associations across 574 unique Wikidata items, leaving zero
-duplicates and zero review rows. Its concrete query and complete results are
-saved in `queries/ward-wikidata-create-preflight.rq` and
-`data/ward-wikidata-create-preflight.json`. The file is **not uploaded**;
-refresh and enforce the 24-hour preflight gate immediately before use. Each
-CREATE block now includes its preflight-verified `Sviwiki` title.
+lookup batches closed all 280 `needs-lookup` rows. QuickStatements
+[batch #270342](https://quickstatements.toolforge.org/#/batch/270342) then
+created 151 of the 158 reviewed gaps. One failed command was resolved to the
+pre-existing Q140391710. QuickStatements
+[batch #270387](https://quickstatements.toolforge.org/#/batch/270387) created
+the other six without errors. Current coverage is therefore 3,321/3,321 with
+zero structural issues: 2,667 automatic matches and 654 manual matches. The
+exact batch outcomes and title-to-QID joins are saved in
+`data/ward-wikidata-create-batch-270342.json` and
+`data/ward-wikidata-create-batch-270387.json`.
+
+`data/ward-wikidata-create-current.json` and
+`statements/na-wards-create-current.qs` are empty after regeneration; neither
+batch may be replayed. The current empty preflight and its concrete query remain
+in `data/ward-wikidata-create-preflight.json` and
+`queries/ward-wikidata-create-preflight.rq`.
 
 Full 2025 lineage emission is not ready: all 11,223 historical mapping rows were
 intentionally deferred, including all 10,035 immediate reform predecessors.

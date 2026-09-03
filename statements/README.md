@@ -2,40 +2,27 @@
 
 Emitted QuickStatements batches for Wikidata.
 
-## Prepared, not uploaded
+## Current status
 
-`na-wards-create-current.qs` contains all 158 reviewed current ward
-item-creation gaps in one file. It was generated offline by
-`vn_admin_units.ward_emit`; no Wikidata write has been performed. The manifest
-retains sixteen logical review groups of at most ten items.
+`na-wards-create-current.qs` is empty. Batch #270342 created 151 items, its
+Tam Nông error resolved to the pre-existing Q140391710, and batch #270387
+created the remaining six without errors. All 3,321 current wards now have
+QIDs; neither CREATE batch may be replayed.
 
-The saved live preflight currently clears all 158 rows: 158 unlinked current
-viwiki articles, 574 unique candidate entities verified, 582 candidate
-associations rejected, and zero duplicates or review rows. Refresh and enforce
-the 24-hour gate immediately before upload:
-
-```sh
-uv run python -m vn_admin_units.ward_create_preflight --fetch --audit
-uv run python -m vn_admin_units.ward_create_preflight \
-  --check --require-upload-ready --max-age-hours 24
-uv run python -m vn_admin_units.ward_emit \
-  --check --require-current-create-ready --max-preflight-age-hours 24
-```
-
-Each CREATE block includes the one preflight-verified `Sviwiki` title, so the
-new item and its current viwiki article are linked in the same batch.
-
-After a successful upload, record its QIDs in `mappings/wards-qid.csv`;
-replaying a successful CREATE file would make duplicates. The durable creation
-and preflight evidence is in `../data/ward-wikidata-create-current.json` and
-`../data/ward-wikidata-create-preflight.json`. Full ward lineage remains blocked
-until the 10,035 immediate pre-2025 predecessors are reconciled; see
+The exact outcomes are in
+`../data/ward-wikidata-create-batch-270342.json` and
+`../data/ward-wikidata-create-batch-270387.json`. The regenerated empty
+manifest and preflight are in `../data/ward-wikidata-create-current.json` and
+`../data/ward-wikidata-create-preflight.json`. Full ward lineage remains
+blocked until the 10,035 immediate pre-2025 predecessors are reconciled; see
 `../data/ward-wikidata-emission-readiness.json`.
 
 ## Uploaded
 
 | File | Uploaded | Batch | Ops | Errors | Description |
 |------|----------|-------|-----|--------|-------------|
+| `na-wards-create-current.qs` (six-item retry revision) | 2026-09-03 | [#270387](https://quickstatements.toolforge.org/#/batch/270387) | 6 | 0 | Created the six current wards that failed in batch #270342. |
+| `na-wards-create-current.qs` (original 158-item revision) | 2026-09-03 | [#270342](https://quickstatements.toolforge.org/#/batch/270342) | 158 | 7 | Created 151 current wards; Tam Nông resolved to existing Q140391710; the other six were created by batch #270387. |
 | `na-provinces-2025.qs` | 2026-07-12 | [#260741](https://quickstatements.toolforge.org/#/batch/260741) | 319 | 0 | 2025 province reform: P576 + P7888 + P1366/P1365 for 29 dissolutions → 23 survivors |
 | `na-provinces-history.qs` | 2026-07-14 | [#260977](https://quickstatements.toolforge.org/#/batch/260977) | — | 0 | 2002→2025 province history: P571/P807/P31-retype/P576 + succession |
 | `na-districts.qs` | 2026-07-20 | [#261331](https://quickstatements.toolforge.org/#/batch/261331) | 4001 | 0 | **Main district tier** — 718 districts, P571/P131/P31-retype/P576 + succession, 2004→2025 + 2025 abolition, all referenced. |

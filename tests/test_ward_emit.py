@@ -160,7 +160,7 @@ def test_lineage_emitter_renders_complete_referenced_bidirectional_edge():
     assert rendered.count('S854\t"https://example.test/ref"') == 4
 
 
-def test_committed_graph_produces_158_creation_items_in_one_file():
+def test_committed_graph_has_no_current_creation_gaps():
     history = json.loads(Path("data/ward-history.json").read_text(encoding="utf-8"))
     mapping = list(csv.DictReader(
         Path("mappings/wards-qid.csv").read_text(encoding="utf-8").splitlines()
@@ -179,12 +179,12 @@ def test_committed_graph_produces_158_creation_items_in_one_file():
     readiness = build_emission_readiness(history, mapping)
 
     assert manifest["audit"] == {
-        "items": 158,
-        "statement_files": 1,
-        "review_groups": 16,
-        "type_counts": {"Phường": 25, "Xã": 133},
-        "province_count": 15,
-        "official_reference_urls": 15,
+        "items": 0,
+        "statement_files": 0,
+        "review_groups": 0,
+        "type_counts": {},
+        "province_count": 0,
+        "official_reference_urls": 0,
     }
     assert readiness["audit"]["distinct_reform_predecessors"] == 10_035
     assert readiness["audit"]["reform_edges"] == 10_586
@@ -198,8 +198,8 @@ def test_committed_creation_preflight_clears_all_manifest_items():
 
     status = build_current_creation_preflight_status(manifest)
 
-    assert status["items"] == 158
-    assert status["clear_items"] == 158
+    assert status["items"] == 0
+    assert status["clear_items"] == 0
     assert status["duplicate_items"] == 0
     assert status["needs_review_items"] == 0
     assert status["issues"] == []
@@ -211,13 +211,66 @@ def test_committed_creation_preflight_clears_all_manifest_items():
     assert [row["local_id"] for row in report["items"]] == [
         row["local_id"] for row in manifest["items"]
     ]
-    titles = [
-        row["article_check"]["subject_pages"][0]["title"]
-        for row in report["items"]
-    ]
-    assert len(titles) == len(set(titles)) == 158
+    assert report["items"] == []
 
     statements = Path("statements/na-wards-create-current.qs").read_text(
         encoding="utf-8"
     )
-    assert statements.count("\tSviwiki\t") == 158
+    assert statements == ""
+
+
+def test_creation_batch_outcomes_match_completed_mapping():
+    outcome = json.loads(
+        Path("data/ward-wikidata-create-batch-270342.json").read_text(
+            encoding="utf-8"
+        )
+    )
+    mapping = {
+        row["local_id"]: row
+        for row in csv.DictReader(
+            Path("mappings/wards-qid.csv").read_text(encoding="utf-8").splitlines()
+        )
+    }
+    retry_outcome = json.loads(
+        Path("data/ward-wikidata-create-batch-270387.json").read_text(
+            encoding="utf-8"
+        )
+    )
+    current = json.loads(
+        Path("data/ward-wikidata-create-current.json").read_text(encoding="utf-8")
+    )
+
+    assert outcome["audit"] == {
+        "proposed_items": 158,
+        "batch_created_items": 151,
+        "resolved_existing_items": 1,
+        "unresolved_error_items": 6,
+        "resolved_items": 152,
+        "unique_resolved_qids": 152,
+        "created_qid_set_exactly_matches_batch_log": True,
+    }
+    resolved = [row for row in outcome["items"] if row["wikidata_qid"]]
+    assert len({row["wikidata_qid"] for row in resolved}) == 152
+    for row in resolved:
+        assert mapping[row["local_id"]]["wikidata_qid"] == row["wikidata_qid"]
+        assert mapping[row["local_id"]]["qid_status"] == row["qid_status"]
+        assert mapping[row["local_id"]]["match_status"] == "manual"
+    unresolved = {
+        row["local_id"]
+        for row in outcome["items"]
+        if row["result"] == "error-unresolved"
+    }
+    assert retry_outcome["audit"] == {
+        "proposed_items": 6,
+        "batch_created_items": 6,
+        "errors": 0,
+        "unique_created_qids": 6,
+        "all_entities_verified": True,
+    }
+    assert {row["local_id"] for row in retry_outcome["items"]} == unresolved
+    assert len({row["wikidata_qid"] for row in retry_outcome["items"]}) == 6
+    for row in retry_outcome["items"]:
+        assert mapping[row["local_id"]]["wikidata_qid"] == row["wikidata_qid"]
+        assert mapping[row["local_id"]]["qid_status"] == "new"
+        assert mapping[row["local_id"]]["match_status"] == "manual"
+    assert current["items"] == []

@@ -601,6 +601,12 @@ def _review_decision_index(artifact: dict | None) -> dict[str, tuple[str, dict]]
                 raise ValueError(
                     f"assigned ward review QID is invalid for {local_id}: {qid}"
                 )
+            qid_status = decision.get("qid_status", "existing")
+            if outcome == "assign" and qid_status not in {"existing", "new"}:
+                raise ValueError(
+                    f"assigned ward review QID status is invalid for {local_id}: "
+                    f"{qid_status}"
+                )
             if outcome == "retain-unresolved" and qid:
                 raise ValueError(
                     f"unresolved ward review unexpectedly assigns {local_id}: {qid}"
@@ -636,7 +642,7 @@ def apply_review_decisions(
         if decision["outcome"] == "assign":
             row.update({
                 "wikidata_qid": qid,
-                "qid_status": "existing",
+                "qid_status": decision.get("qid_status", "existing"),
                 "match_status": "manual",
                 "match_notes": f"review {batch_id}: {note}",
             })

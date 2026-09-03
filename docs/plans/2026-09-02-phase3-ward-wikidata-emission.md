@@ -36,7 +36,7 @@ the maintainer's account. In particular:
 
 ## Work packages
 
-### W1 — current item creation package (prepared; live preflight clear)
+### W1 — current item creation package (complete)
 
 `vn_admin_units.ward_emit` builds a deterministic manifest and one consolidated
 QuickStatements file containing all 158 items. The manifest retains logical
@@ -62,6 +62,18 @@ fails the upload gate.
 After the successful upload, write the new QIDs to `mappings/wards-qid.csv` as
 `qid_status=new`, `match_status=manual`, and retain a creation-batch note.
 Regenerate the package so completed rows disappear from subsequent work.
+
+Batch #270342 ran on 2026-09-03: 151 commands created new items and seven
+reported errors. The 151 title-linked QIDs exactly match the batch-tagged
+Wikidata creation log. Tam Nông, Phú Thọ had become linked to existing
+Q140391710, leaving six genuine failures. All 152 resolved rows are now in the
+mapping, and the regenerated six-item retry passes a fresh live preflight.
+See `data/ward-wikidata-create-batch-270342.json` and journal `2026-09-03.01`.
+
+Batch #270387 then created all six retry items without errors. Their QIDs are
+recorded as `new`, the mapping resolves all 3,321 current wards, and the
+regenerated CREATE package is empty. See
+`data/ward-wikidata-create-batch-270387.json` and journal `2026-09-03.02`.
 
 ### W2 — immediate predecessor reconciliation (next implementation slice)
 

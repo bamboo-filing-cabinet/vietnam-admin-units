@@ -293,6 +293,7 @@ def test_mapping_applies_assign_and_retain_unresolved_review_decisions():
                 "local_id": "w-1-2025-07-01",
                 "outcome": "assign",
                 "wikidata_qid": "Q99",
+                "qid_status": "new",
                 "candidate_qids_checked": ["Q98", "Q99"],
                 "mapping_note": "reviewed identity",
             },
@@ -312,6 +313,7 @@ def test_mapping_applies_assign_and_retain_unresolved_review_decisions():
     by_id = {row["local_id"]: row for row in rows}
 
     assert by_id["w-1-2025-07-01"]["wikidata_qid"] == "Q99"
+    assert by_id["w-1-2025-07-01"]["qid_status"] == "new"
     assert by_id["w-1-2025-07-01"]["match_status"] == "manual"
     assert by_id["w-1-2025-07-01"]["candidate_qids"] == "Q98|Q99"
     assert by_id["w-2-2025-07-01"]["match_status"] == "reviewed-unresolved"
@@ -441,9 +443,8 @@ def test_saved_snapshot_cache_and_mapping_are_reproducible():
     audit = audit_mapping(history, artifact, rows, broad, review_decisions)
     assert audit["summary"]["status_counts"] == {
         "deferred-historical": 11223,
-        "manual": 496,
+        "manual": 654,
         "matched": 2667,
-        "reviewed-unresolved": 158,
     }
     assert audit["summary"]["review_decisions"] == 654
     assert audit["summary"]["current_fold_collisions"] == 10

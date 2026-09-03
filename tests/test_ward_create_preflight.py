@@ -140,7 +140,7 @@ def test_committed_preflight_artifacts_match_current_manifest_when_present():
 
     assert PREFLIGHT_DECISIONS.is_file()
     assert report_issues(report, manifest) == []
-    assert report["audit"]["items"] == 158
+    assert report["audit"]["items"] == 0
 
 
 def test_report_age_check_is_explicit_not_implicit(monkeypatch, tmp_path):

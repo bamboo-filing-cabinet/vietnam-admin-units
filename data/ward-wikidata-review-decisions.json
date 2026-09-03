@@ -500,10 +500,11 @@
             }
           },
           "local_id": "w-18775-2025-07-01",
-          "mapping_note": "current Kỳ Anh xã page has no Wikibase item and candidates are wrong-tier predecessors",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267107 via QuickStatements batch #270342; Kỳ Anh (xã) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current xã page has no Wikibase item. Q10783690 is Hưng Trí and belongs in the Sông Trí lineage; Q20025826 is the abolished district-level town and ended on 2025-07-01.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267107",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": [
@@ -1376,10 +1377,11 @@
         {
           "candidate_qids_checked": ["Q10779868"],
           "local_id": "w-00382-2025-07-01",
-          "mapping_note": "current Kim Anh xã page has no Wikibase item; existing candidate is in Hải Phòng",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266888 via QuickStatements batch #270342; Kim Anh (xã) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Kim Anh (xã)` page has no Wikibase item. Q10779868 is a different Kim Anh near Hải Phòng and none of the other broad matches is a current ward item.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266888",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q10798935", "Q10806252", "Q10806254"],
@@ -1692,10 +1694,11 @@
         {
           "candidate_qids_checked": ["Q718400", "Q10789962", "Q10789963", "Q10789965", "Q10789966"],
           "local_id": "w-04105-2025-07-01",
-          "mapping_note": "current Mai Sơn xã page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266898 via QuickStatements batch #270342; Mai Sơn (xã) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Mai Sơn (xã)` page explicitly identifies the 2025 Sơn La commune but has no Wikibase item. The existing candidates are the former district or unrelated communes.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266898",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q26019", "Q36349", "Q1774993", "Q10837964", "Q10837965", "Q135228953"],
@@ -1876,34 +1879,38 @@
         {
           "candidate_qids_checked": ["Q10833149", "Q10833410", "Q10833412", "Q10833414", "Q10834128"],
           "local_id": "w-05845-2025-07-01",
-          "mapping_note": "current Vạn Phú page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266907 via QuickStatements batch #270342; Vạn Phú sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Vạn Phú page explicitly identifies the 2025 Thái Nguyên commune but has no Wikibase item. The existing candidates are wrong-spelling or wrong-place namesakes.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266907",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q1886032", "Q10833168", "Q10834152"],
           "local_id": "w-05890-2025-07-01",
-          "mapping_note": "current Vạn Xuân ward page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266911 via QuickStatements batch #270342; Vạn Xuân (phường) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Vạn Xuân (phường)` page explicitly identifies the 2025 Thái Nguyên ward but has no Wikibase item. The candidates are an historical state, a namesake, and a disambiguation item.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266911",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q127137", "Q2137583", "Q2151527", "Q2294777", "Q7188236", "Q10805881", "Q10805883"],
           "local_id": "w-05908-2025-07-01",
-          "mapping_note": "current Phú Bình xã page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266913 via QuickStatements batch #270342; Phú Bình (xã) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Phú Bình (xã)` page explicitly identifies the 2025 Thái Nguyên commune but has no Wikibase item. The candidates are the former district or unrelated namesakes.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266913",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q7913476", "Q10833382", "Q10833383", "Q10833388", "Q10833390", "Q86012833"],
           "local_id": "w-06154-2025-07-01",
-          "mapping_note": "current Văn Lãng xã page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266918 via QuickStatements batch #270342; Văn Lãng (xã) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Văn Lãng (xã)` page explicitly identifies the 2025 Lạng Sơn commune but has no Wikibase item. The candidates are the former district or unrelated namesakes.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266918",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q1212565", "Q2354499", "Q2456625", "Q2661321", "Q7893828", "Q10748641", "Q10801067", "Q10826592", "Q10826594", "Q10826595", "Q10826596", "Q10826598", "Q10826600", "Q10826602", "Q10826604", "Q10826605", "Q10826606", "Q52295927", "Q86012175", "Q116243153"],
@@ -1976,10 +1983,11 @@
         {
           "candidate_qids_checked": ["Q10802059", "Q10838210", "Q25418146"],
           "local_id": "w-06832-2025-07-01",
-          "mapping_note": "current Yên Tử ward page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266930 via QuickStatements batch #270342; Yên Tử (phường) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Yên Tử (phường)` page explicitly identifies the 2025 Quảng Ninh ward but has no Wikibase item. Q10802059 is the mountain range and the other candidates are unrelated.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266930",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q6773072", "Q10788420", "Q10841998", "Q25418019", "Q25418030"],
@@ -2140,10 +2148,11 @@
         {
           "candidate_qids_checked": ["Q2383684", "Q137208118"],
           "local_id": "w-08434-2025-07-01",
-          "mapping_note": "current Tam Nông, Phú Thọ page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "assigned existing Q140391710 after QuickStatements batch #270342; Tam Nông, Phú Thọ sitelink, ward type, and province verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Tam Nông, Phú Thọ` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are a disambiguation item and the Đồng Tháp namesake.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q140391710",
+          "qid_status": "existing"
         },
         {
           "candidate_qids_checked": ["Q36088", "Q10833759", "Q10833760", "Q10833762", "Q10833763", "Q10833764", "Q137484910"],
@@ -2192,10 +2201,11 @@
         {
           "candidate_qids_checked": ["Q7188288", "Q10806276"],
           "local_id": "w-08740-2025-07-01",
-          "mapping_note": "current Phúc Yên ward page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266938 via QuickStatements batch #270342; Phúc Yên (phường) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Phúc Yên (phường)` page explicitly identifies the 2025 Phú Thọ ward but has no Wikibase item. The existing candidates are the former city or an unrelated namesake.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266938",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q7680451", "Q7680452", "Q10823892", "Q10841306"],
@@ -2441,10 +2451,11 @@
         {
           "candidate_qids_checked": ["Q10771429", "Q10771430", "Q10771431", "Q10771432", "Q10771436", "Q10771437", "Q10771438", "Q10771439", "Q10771440", "Q16480939"],
           "local_id": "w-09931-2025-07-01",
-          "mapping_note": "current Hưng Đạo, Hà Nội page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266942 via QuickStatements batch #270342; Hưng Đạo, Hà Nội sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Hưng Đạo, Hà Nội` page explicitly identifies the 2025 commune but has no Wikibase item. The existing candidates are namesakes elsewhere or a disambiguation item.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266942",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q10771551"],
@@ -2457,10 +2468,11 @@
         {
           "candidate_qids_checked": ["Q2680977", "Q10770991", "Q125219045"],
           "local_id": "w-09988-2025-07-01",
-          "mapping_note": "current Hòa Lạc, Hà Nội page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266944 via QuickStatements batch #270342; Hòa Lạc, Hà Nội sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Hòa Lạc, Hà Nội` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are a namesake and a disambiguation item.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266944",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q2148337", "Q10834167", "Q135657065"],
@@ -2481,10 +2493,11 @@
         {
           "candidate_qids_checked": ["Q864775", "Q2600892", "Q10796923", "Q10796925", "Q10796926", "Q10796927"],
           "local_id": "w-10441-2025-07-01",
-          "mapping_note": "current Mỹ Đức, Hà Nội page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266945 via QuickStatements batch #270342; Mỹ Đức, Hà Nội sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Mỹ Đức, Hà Nội` page explicitly identifies the 2025 commune but has no Wikibase item. Q864775 is the former district and the other candidates are namesakes.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266945",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q1197949", "Q2099472", "Q2100814", "Q2432151", "Q10806234", "Q10806235", "Q10806236", "Q138637633"],
@@ -2533,10 +2546,11 @@
         {
           "candidate_qids_checked": ["Q1317979", "Q10787988"],
           "local_id": "w-10603-2025-07-01",
-          "mapping_note": "current Lê Đại Hành ward page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266957 via QuickStatements batch #270342; Lê Đại Hành (phường) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Lê Đại Hành (phường)` page explicitly identifies the 2025 Hải Phòng ward but has no Wikibase item. The candidates are the emperor and a Hanoi namesake.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266957",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q10796210", "Q138637709"],
@@ -2573,10 +2587,11 @@
         {
           "candidate_qids_checked": ["Q10772107", "Q10772109", "Q38195662", "Q61127926"],
           "local_id": "w-11218-2025-07-01",
-          "mapping_note": "current Hồng Châu xã page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266968 via QuickStatements batch #270342; Hồng Châu (xã) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Hồng Châu (xã)` page explicitly identifies the 2025 Hải Phòng commune but has no Wikibase item. The existing candidates are a ward, a person, or other namesakes.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266968",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q10799268", "Q138685604"],
@@ -2589,10 +2604,11 @@
         {
           "candidate_qids_checked": ["Q1197095", "Q2107381", "Q10771639"],
           "local_id": "w-11257-2025-07-01",
-          "mapping_note": "current Hải Hưng, Hải Phòng page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266971 via QuickStatements batch #270342; Hải Hưng, Hải Phòng sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Hải Hưng, Hải Phòng` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are the former province or unrelated namesakes.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266971",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q1209333", "Q5965452", "Q11147013", "Q138638758"],
@@ -2641,18 +2657,20 @@
         {
           "candidate_qids_checked": ["Q27092", "Q45341", "Q252042", "Q1197723", "Q3250118", "Q5295914", "Q10771748", "Q10840746", "Q10840747", "Q10840749", "Q10840750", "Q10840751", "Q10840753", "Q45458856", "Q45492005", "Q46551088", "Q98271392", "Q105766618", "Q111769142", "Q136675917"],
           "local_id": "w-11411-2025-07-01",
-          "mapping_note": "current Đông Hải, Hải Phòng ward page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266973 via QuickStatements batch #270342; Đông Hải, Hải Phòng sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Đông Hải, Hải Phòng` page explicitly identifies the 2025 ward but has no Wikibase item. The numerous candidates are seas, namesakes, or unrelated entities.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266973",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q242676", "Q10733276", "Q10838745", "Q122793711"],
           "local_id": "w-11593-2025-07-01",
-          "mapping_note": "current An Phong ward page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266979 via QuickStatements batch #270342; An Phong sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current An Phong page explicitly identifies the 2025 Hải Phòng ward but has no Wikibase item. The candidates are a person or wrong-spelling namesakes.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266979",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q10733366", "Q10742259", "Q125345822"],
@@ -2665,18 +2683,20 @@
         {
           "candidate_qids_checked": ["Q10733302"],
           "local_id": "w-11647-2025-07-01",
-          "mapping_note": "current An Quang page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266983 via QuickStatements batch #270342; An Quang sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current An Quang page explicitly identifies the 2025 Hải Phòng commune but has no Wikibase item. The existing exact-label candidate does not own the current page.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266983",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q360374", "Q10733195", "Q10733196", "Q10733197", "Q10733200", "Q10742354"],
           "local_id": "w-11668-2025-07-01",
-          "mapping_note": "current An Khánh, Hải Phòng page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266986 via QuickStatements batch #270342; An Khánh, Hải Phòng sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `An Khánh, Hải Phòng` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are namesakes elsewhere or a disambiguation item.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266986",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q6405297", "Q138685608"],
@@ -2697,10 +2717,11 @@
         {
           "candidate_qids_checked": ["Q10830665", "Q10830666", "Q10830667", "Q10830669", "Q10830672", "Q10830673", "Q111260691"],
           "local_id": "w-11779-2025-07-01",
-          "mapping_note": "current Tân Minh, Hải Phòng page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266991 via QuickStatements batch #270342; Tân Minh, Hải Phòng sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Tân Minh, Hải Phòng` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are namesakes elsewhere or a disambiguation item.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266991",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q197753", "Q10797068", "Q19705234", "Q25418345"],
@@ -2713,10 +2734,11 @@
         {
           "candidate_qids_checked": ["Q1199571", "Q1927521", "Q10833676", "Q10833677", "Q10833678", "Q10833679", "Q10833680", "Q20026289", "Q22829800"],
           "local_id": "w-11842-2025-07-01",
-          "mapping_note": "current Vĩnh Thuận, Hải Phòng page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266994 via QuickStatements batch #270342; Vĩnh Thuận, Hải Phòng sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Vĩnh Thuận, Hải Phòng` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are the former district or namesakes elsewhere.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266994",
+          "qid_status": "new"
         }
       ],
       "reviewed_at": "2026-09-02T19:55:00Z",
@@ -2781,10 +2803,11 @@
         {
           "candidate_qids_checked": ["Q2227688", "Q10832910", "Q134980528"],
           "local_id": "w-12091-2025-07-01",
-          "mapping_note": "current Việt Yên xã page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267004 via QuickStatements batch #270342; Việt Yên (xã) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Việt Yên (xã)` page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item. The candidates are the former Bắc Giang town or ward.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267004",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q10757593", "Q131342536"],
@@ -2797,34 +2820,38 @@
         {
           "candidate_qids_checked": ["Q2523696", "Q10832901", "Q10832903"],
           "local_id": "w-12238-2025-07-01",
-          "mapping_note": "current Việt Tiến page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267008 via QuickStatements batch #270342; Việt Tiến sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Việt Tiến page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item. The candidates are namesakes or a disambiguation item.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267008",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q10748306", "Q10748307", "Q10748308", "Q10831054", "Q94240523", "Q110652663", "Q125256299"],
           "local_id": "w-12271-2025-07-01",
-          "mapping_note": "current Chí Minh, Hưng Yên page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267010 via QuickStatements batch #270342; Chí Minh, Hưng Yên sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Chí Minh, Hưng Yên` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are namesakes, people, or a disambiguation item.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267010",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": [],
           "local_id": "w-12361-2025-07-01",
-          "mapping_note": "current Tiên Hoa page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267011 via QuickStatements batch #270342; Tiên Hoa sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Tiên Hoa page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and the cached candidate searches contain no plausible QID.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267011",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q7801034", "Q10827208"],
           "local_id": "w-12364-2025-07-01",
-          "mapping_note": "current Tiên Lữ, Hưng Yên page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267012 via QuickStatements batch #270342; Tiên Lữ, Hưng Yên sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Tiên Lữ, Hưng Yên` page explicitly identifies the 2025 commune but has no Wikibase item. Q7801034 is the former district and Q10827208 is a Phú Thọ namesake.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267012",
+          "qid_status": "new"
         }
       ],
       "reviewed_at": "2026-09-02T20:01:00Z",
@@ -2857,10 +2884,11 @@
         {
           "candidate_qids_checked": ["Q7273060", "Q10811100"],
           "local_id": "w-12472-2025-07-01",
-          "mapping_note": "current Quỳnh Phụ xã page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267013 via QuickStatements batch #270342; Quỳnh Phụ (xã) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Quỳnh Phụ (xã)` page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item. Q7273060 is the former district and Q10811100 is a spelling-different disambiguation item.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267013",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q16480500", "Q139501817"],
@@ -2873,50 +2901,56 @@
         {
           "candidate_qids_checked": ["Q10806203", "Q10806204", "Q16481020", "Q16481032"],
           "local_id": "w-12523-2025-07-01",
-          "mapping_note": "current Phụ Dực xã page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267015 via QuickStatements batch #270342; Phụ Dực (xã) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Phụ Dực (xã)` page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item. The candidates are the historical district or unrelated namesakes.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267015",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q10841909", "Q17247405", "Q17414222", "Q17615409", "Q18542497", "Q19440181", "Q107146095", "Q122790968"],
           "local_id": "w-12526-2025-07-01",
-          "mapping_note": "current Đồng Bằng xã page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267016 via QuickStatements batch #270342; Đồng Bằng (xã) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Đồng Bằng (xã)` page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item. The candidates are unrelated geographic concepts or namesakes.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267016",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q313322", "Q10799058", "Q10799060", "Q10799061", "Q10799084", "Q18459905"],
           "local_id": "w-12532-2025-07-01",
-          "mapping_note": "current Nguyễn Du xã page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267017 via QuickStatements batch #270342; Nguyễn Du (xã) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Nguyễn Du (xã)` page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item. The candidates are the poet, a disambiguation item, or namesakes elsewhere.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267017",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q1212538", "Q2014618", "Q7862101", "Q10830905", "Q10830906", "Q10830908", "Q10830909", "Q10830911", "Q10830912", "Q10830913", "Q10830915", "Q10830916", "Q10830918", "Q10830920", "Q10830921", "Q10830922", "Q10830925", "Q135114076"],
           "local_id": "w-12583-2025-07-01",
-          "mapping_note": "current Tân Tiến, Hưng Yên page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267019 via QuickStatements batch #270342; Tân Tiến, Hưng Yên sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Tân Tiến, Hưng Yên` page explicitly identifies the 2025 commune but has no Wikibase item. The numerous candidates are namesakes elsewhere or a disambiguation item.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267019",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q2026908", "Q2352089", "Q4758313", "Q10827191", "Q10827265", "Q16480988"],
           "local_id": "w-12754-2025-07-01",
-          "mapping_note": "current Tiên Hưng xã page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267027 via QuickStatements batch #270342; Tiên Hưng (xã) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Tiên Hưng (xã)` page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item. The candidates are the historical district or unrelated namesakes.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267027",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q1375194", "Q5368050", "Q8011337", "Q8011599", "Q10825746", "Q10941222", "Q16481432", "Q20026168"],
           "local_id": "w-12922-2025-07-01",
-          "mapping_note": "current Thái Ninh xã page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267037 via QuickStatements batch #270342; Thái Ninh (xã) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Thái Ninh (xã)` page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item. The candidates are the historical district or unrelated namesakes.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267037",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q10838686", "Q10838687", "Q10838689", "Q130494264"],
@@ -2965,18 +2999,20 @@
         {
           "candidate_qids_checked": ["Q1886032", "Q10833168", "Q10834151", "Q10834152"],
           "local_id": "w-13219-2025-07-01",
-          "mapping_note": "current Vạn Xuân, Hưng Yên page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267043 via QuickStatements batch #270342; Vạn Xuân, Hưng Yên sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Vạn Xuân, Hưng Yên` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are the historical state, a disambiguation item, or namesakes elsewhere.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267043",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q36497", "Q36681", "Q73684", "Q569608", "Q701264", "Q1197514", "Q2408438", "Q5369500", "Q5371258", "Q8011740", "Q10825692", "Q10825693", "Q10825694", "Q10825695", "Q10941249", "Q10941253", "Q10941493", "Q17498815", "Q97301261", "Q122794357"],
           "local_id": "w-13225-2025-07-01",
-          "mapping_note": "current Thái Bình ward page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267044 via QuickStatements batch #270342; Thái Bình (phường) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Thái Bình (phường)` page explicitly identifies the 2025 Hưng Yên ward but has no Wikibase item. The candidates are the former city, former province, or unrelated namesakes.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267044",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q35659", "Q1943389", "Q10807211", "Q136688000"],
@@ -3073,10 +3109,11 @@
         {
           "candidate_qids_checked": ["Q36014", "Q117066", "Q277067", "Q1212526", "Q1331632", "Q1363579", "Q1918687", "Q2218547", "Q2755397", "Q4914341", "Q10742532", "Q10742533", "Q10742535", "Q10742537", "Q10742540", "Q11042631", "Q14148573", "Q140308142"],
           "local_id": "w-13558-2025-07-01",
-          "mapping_note": "current Bình Sơn, Ninh Bình page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267047 via QuickStatements batch #270342; Bình Sơn, Ninh Bình sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Bình Sơn, Ninh Bình` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are the former district, namesakes elsewhere, people, or unrelated entities.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267047",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q6707009", "Q10748331", "Q10788098", "Q45554869"],
@@ -3105,34 +3142,38 @@
         {
           "candidate_qids_checked": ["Q10830665", "Q10830666", "Q10830667", "Q10830669", "Q10830672", "Q10830673", "Q111260691"],
           "local_id": "w-13807-2025-07-01",
-          "mapping_note": "current Tân Minh, Ninh Bình page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267049 via QuickStatements batch #270342; Tân Minh, Ninh Bình sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Tân Minh, Ninh Bình` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are namesakes elsewhere or a disambiguation item.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267049",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q2069188", "Q10834138", "Q10834139", "Q10834140", "Q10834141"],
           "local_id": "w-13864-2025-07-01",
-          "mapping_note": "current Vạn Thắng, Ninh Bình page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267052 via QuickStatements batch #270342; Vạn Thắng, Ninh Bình sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Vạn Thắng, Ninh Bình` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are namesakes or a disambiguation item.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267052",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q10840865", "Q10842020", "Q10842021", "Q10842022", "Q10842023", "Q10842025", "Q117080841"],
           "local_id": "w-13900-2025-07-01",
-          "mapping_note": "current Đồng Thịnh page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267053 via QuickStatements batch #270342; Đồng Thịnh sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Đồng Thịnh page explicitly identifies the 2025 Ninh Bình commune but has no Wikibase item. The candidates are a spelling-different name, namesakes, or a disambiguation item.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267053",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q10772156", "Q10772157", "Q10772159", "Q10772160", "Q10772161", "Q10772163", "Q10772165", "Q10772166"],
           "local_id": "w-13927-2025-07-01",
-          "mapping_note": "current Hồng Phong, Ninh Bình page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267054 via QuickStatements batch #270342; Hồng Phong, Ninh Bình sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Hồng Phong, Ninh Bình` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are namesakes elsewhere or a disambiguation item.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267054",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q6961080", "Q10797039", "Q10797210", "Q10797211", "Q10797212", "Q10797215", "Q10826084", "Q32215272", "Q136679307"],
@@ -3145,10 +3186,11 @@
         {
           "candidate_qids_checked": ["Q8011329", "Q10809984", "Q10809985", "Q10809987", "Q10809988", "Q10809990", "Q10810371", "Q10810373", "Q10810374", "Q10810375", "Q10890690", "Q16480111"],
           "local_id": "w-14062-2025-07-01",
-          "mapping_note": "current Quang Hưng, Ninh Bình page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267058 via QuickStatements batch #270342; Quang Hưng, Ninh Bình sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Quang Hưng, Ninh Bình` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are namesakes elsewhere, people, or a disambiguation item.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267058",
+          "qid_status": "new"
         }
       ],
       "reviewed_at": "2026-09-02T20:19:00Z",
@@ -3181,18 +3223,20 @@
         {
           "candidate_qids_checked": ["Q10834909", "Q10834910", "Q10834911", "Q10834913"],
           "local_id": "w-14104-2025-07-01",
-          "mapping_note": "current Xuân Giang, Ninh Bình page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267060 via QuickStatements batch #270342; Xuân Giang, Ninh Bình sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Xuân Giang, Ninh Bình` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are namesakes elsewhere or a disambiguation item.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267060",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q2548974", "Q3149852", "Q10834939"],
           "local_id": "w-14122-2025-07-01",
-          "mapping_note": "current Xuân Hưng page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267061 via QuickStatements batch #270342; Xuân Hưng sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Xuân Hưng page explicitly identifies the 2025 Ninh Bình commune but has no Wikibase item. The candidates are namesakes or a disambiguation item.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267061",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q10761472"],
@@ -3245,10 +3289,11 @@
         {
           "candidate_qids_checked": ["Q570104", "Q662241", "Q1307381", "Q2502399", "Q6409385", "Q6409386", "Q10779959", "Q10779960", "Q10779961", "Q10779962", "Q10779965", "Q10779966", "Q10779967", "Q10779969", "Q10838743", "Q24841309"],
           "local_id": "w-14638-2025-07-01",
-          "mapping_note": "current Kim Sơn, Ninh Bình page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267069 via QuickStatements batch #270342; Kim Sơn, Ninh Bình sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Kim Sơn, Ninh Bình` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are the former district, namesakes elsewhere, or unrelated entities.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267069",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q4850282", "Q5295773", "Q10838226", "Q10842010", "Q10842011", "Q16481173"],
@@ -3429,10 +3474,11 @@
         {
           "candidate_qids_checked": ["Q10824945", "Q10825601"],
           "local_id": "w-16681-2025-07-01",
-          "mapping_note": "current Thành Vinh ward page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267070 via QuickStatements batch #270342; Thành Vinh (phường) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Thành Vinh (phường)` page explicitly identifies the 2025 Nghệ An ward but has no Wikibase item. The candidates are spelling-different or wrong-place namesakes.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267070",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q2442529", "Q10770520", "Q10832661", "Q10833638", "Q10833640", "Q10833641"],
@@ -3453,10 +3499,11 @@
         {
           "candidate_qids_checked": ["Q2158139", "Q7269709"],
           "local_id": "w-16738-2025-07-01",
-          "mapping_note": "current Quế Phong xã page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267071 via QuickStatements batch #270342; Quế Phong (xã) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Quế Phong (xã)` page explicitly identifies the 2025 Nghệ An commune but has no Wikibase item. Q7269709 is the former district and Q2158139 is a disambiguation item.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267071",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q417144", "Q1332166", "Q1340831", "Q1375378", "Q5367768", "Q5370462", "Q8011452", "Q8011562", "Q8011591", "Q8376678", "Q10825716", "Q10825718", "Q10825720", "Q10825721", "Q10825722", "Q10825724", "Q10934252", "Q10934253", "Q16480660", "Q16481431", "Q136434782"],
@@ -3513,34 +3560,38 @@
         {
           "candidate_qids_checked": ["Q2013420", "Q2643978", "Q10830662", "Q10830663"],
           "local_id": "w-17128-2025-07-01",
-          "mapping_note": "current Tân Mai ward page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267075 via QuickStatements batch #270342; Tân Mai (phường) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Tân Mai (phường)` page explicitly identifies the 2025 Nghệ An ward but has no Wikibase item. The candidates are namesakes or a disambiguation item.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267075",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q1022262", "Q2249161", "Q10811102", "Q10811103"],
           "local_id": "w-17170-2025-07-01",
-          "mapping_note": "current Quỳnh Sơn page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267076 via QuickStatements batch #270342; Quỳnh Sơn sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Quỳnh Sơn page explicitly identifies the 2025 Nghệ An commune but has no Wikibase item. The candidates are a namesake, a disambiguation item, or a predecessor-era identity not bound to the page.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267076",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q7273055", "Q10811080"],
           "local_id": "w-17179-2025-07-01",
-          "mapping_note": "current Quỳnh Lưu, Nghệ An page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267078 via QuickStatements batch #270342; Quỳnh Lưu, Nghệ An sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Quỳnh Lưu, Nghệ An` page explicitly identifies the 2025 commune but has no Wikibase item. Q7273055 is the former district and Q10811080 is the Ninh Bình namesake.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267078",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q7273060", "Q10811100"],
           "local_id": "w-17212-2025-07-01",
-          "mapping_note": "current Quỳnh Phú page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267079 via QuickStatements batch #270342; Quỳnh Phú sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Quỳnh Phú page explicitly identifies the 2025 Nghệ An commune but has no Wikibase item. The candidates are the spelling-different former district and a disambiguation item.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267079",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q10752520", "Q32261279"],
@@ -3621,10 +3672,11 @@
         {
           "candidate_qids_checked": ["Q162880", "Q10842333"],
           "local_id": "w-17416-2025-07-01",
-          "mapping_note": "current Đức Châu xã page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267084 via QuickStatements batch #270342; Đức Châu (xã) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Đức Châu (xã)` page explicitly identifies the 2025 Nghệ An commune but has no Wikibase item. The candidates are a Chinese city and a disambiguation item.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267084",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q413207", "Q1022913", "Q1068273", "Q1197727", "Q1331520", "Q10771618", "Q10771620", "Q11150711", "Q138637794", "Q138709517"],
@@ -3637,34 +3689,38 @@
         {
           "candidate_qids_checked": ["Q16572", "Q1866276", "Q3270603", "Q9430603", "Q10810349", "Q10810351", "Q10810352"],
           "local_id": "w-17443-2025-07-01",
-          "mapping_note": "current Quảng Châu xã page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267085 via QuickStatements batch #270342; Quảng Châu (xã) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Quảng Châu (xã)` page explicitly identifies the 2025 Nghệ An commune but has no Wikibase item. The candidates are Guangzhou or unrelated historical and military concepts.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267085",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q482365", "Q2184523", "Q2195224", "Q2309147", "Q2382046", "Q10733138"],
           "local_id": "w-17479-2025-07-01",
-          "mapping_note": "current An Châu, Nghệ An page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267086 via QuickStatements batch #270342; An Châu, Nghệ An sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `An Châu, Nghệ An` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are namesakes elsewhere or a disambiguation item.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267086",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q373687", "Q399864", "Q1320576", "Q1337362", "Q2367367", "Q3711512", "Q10830395", "Q10830396", "Q10830398", "Q11082394", "Q116783618", "Q140611616"],
           "local_id": "w-17488-2025-07-01",
-          "mapping_note": "current Tân Châu, Nghệ An page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267087 via QuickStatements batch #270342; Tân Châu, Nghệ An sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Tân Châu, Nghệ An` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are districts, a town, or namesakes elsewhere.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267087",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q681807", "Q3710728", "Q4492895", "Q10742465", "Q10742466", "Q10742467", "Q10742469", "Q10742471", "Q10742473", "Q10742474", "Q10742477", "Q10742478", "Q10825572", "Q11839563", "Q16156845", "Q31880596", "Q117114995", "Q131552573"],
           "local_id": "w-17515-2025-07-01",
-          "mapping_note": "current Bình Minh, Nghệ An page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267088 via QuickStatements batch #270342; Bình Minh, Nghệ An sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Bình Minh, Nghệ An` page explicitly identifies the 2025 commune but has no Wikibase item. The numerous candidates are namesakes elsewhere or unrelated entities.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267088",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q10810545", "Q86008681"],
@@ -3677,18 +3733,20 @@
         {
           "candidate_qids_checked": ["Q125385", "Q394681", "Q5295842", "Q10840842", "Q10840843", "Q10840844", "Q10840849", "Q10840850", "Q10840851", "Q10840852", "Q10840854", "Q10840859", "Q10840860", "Q10840861", "Q10840863", "Q10840864", "Q10842006", "Q10842007", "Q10842014", "Q16481175", "Q117021152", "Q135113513", "Q139557279"],
           "local_id": "w-17530-2025-07-01",
-          "mapping_note": "current Đông Thành, Nghệ An page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267089 via QuickStatements batch #270342; Đông Thành, Nghệ An sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Đông Thành, Nghệ An` page explicitly distinguishes the 2025 commune from the former same-name unit but has no Wikibase item. The candidates are namesakes or unrelated entities.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267089",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q10833119", "Q10833121", "Q16480650", "Q135209845"],
           "local_id": "w-17560-2025-07-01",
-          "mapping_note": "current Vân Du, Nghệ An page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267090 via QuickStatements batch #270342; Vân Du, Nghệ An sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Vân Du, Nghệ An` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are the Thanh Hóa namesake or unrelated identities.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267090",
+          "qid_status": "new"
         }
       ],
       "reviewed_at": "2026-09-02T20:49:00Z",
@@ -3721,10 +3779,11 @@
         {
           "candidate_qids_checked": ["Q10810241", "Q10810242"],
           "local_id": "w-17569-2025-07-01",
-          "mapping_note": "current Quan Thành page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267091 via QuickStatements batch #270342; Quan Thành sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Quan Thành page explicitly identifies the 2025 Nghệ An commune and its four predecessors but has no Wikibase item. The candidates are the unrelated Quán Thánh disambiguation page and former Hà Nội ward.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267091",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q10772358"],
@@ -3753,10 +3812,11 @@
         {
           "candidate_qids_checked": ["Q666884", "Q1190853", "Q6704607", "Q10788368", "Q10788370", "Q10788372", "Q10788373", "Q10788375", "Q16480347", "Q21609358"],
           "local_id": "w-17641-2025-07-01",
-          "mapping_note": "current Lương Sơn, Nghệ An page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267092 via QuickStatements batch #270342; Lương Sơn, Nghệ An sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Lương Sơn, Nghệ An` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are namesakes, former units, or a disambiguation item.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267092",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q709025", "Q803754", "Q1813795", "Q4468443", "Q65172412", "Q102674031", "Q10841149", "Q124763542"],
@@ -3785,18 +3845,20 @@
         {
           "candidate_qids_checked": ["Q10823327", "Q10823329", "Q10823331"],
           "local_id": "w-17759-2025-07-01",
-          "mapping_note": "current Sơn Lâm page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267094 via QuickStatements batch #270342; Sơn Lâm sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Sơn Lâm page explicitly identifies the 2025 Nghệ An commune but has no Wikibase item. The candidates are a disambiguation item or former communes elsewhere.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267094",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q10771653", "Q10771654", "Q10771656"],
           "local_id": "w-17833-2025-07-01",
-          "mapping_note": "current Hải Lộc page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141270379 via QuickStatements batch #270387; Hải Lộc sitelink verified 2026-09-03T21:08:19Z",
+          "outcome": "assign",
           "rationale": "The current Hải Lộc page explicitly identifies the 2025 Nghệ An commune but has no Wikibase item. The candidates are a disambiguation item or former communes elsewhere.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141270379",
+          "qid_status": "new"
         }
       ],
       "reviewed_at": "2026-09-02T21:04:00Z",
@@ -3837,26 +3899,29 @@
         {
           "candidate_qids_checked": ["Q10841953", "Q10841954"],
           "local_id": "w-17878-2025-07-01",
-          "mapping_note": "current Đông Lộc page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141270381 via QuickStatements batch #270387; Đông Lộc sitelink verified 2026-09-03T21:08:19Z",
+          "outcome": "assign",
           "rationale": "The current Đông Lộc page explicitly identifies the 2025 Nghệ An commune but has no Wikibase item. The candidates are former namesakes not bound to the current page.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141270381",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q2261098", "Q10832658", "Q10833564", "Q10833565", "Q10833566", "Q10833567"],
           "local_id": "w-17920-2025-07-01",
-          "mapping_note": "current Vinh Hưng page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141270382 via QuickStatements batch #270387; Vinh Hưng sitelink verified 2026-09-03T21:08:19Z",
+          "outcome": "assign",
           "rationale": "The current Vinh Hưng page explicitly identifies the 2025 Nghệ An ward but has no Wikibase item. The candidates are namesakes or former wards not bound to the current page.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141270382",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q1356641", "Q6860119", "Q10833110", "Q10833112", "Q10833348", "Q10833349", "Q30923313"],
           "local_id": "w-17950-2025-07-01",
-          "mapping_note": "current Vạn An page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267098 via QuickStatements batch #270342; Vạn An sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Vạn An page explicitly identifies the 2025 Nghệ An commune but has no Wikibase item. The candidates are namesakes or unrelated entities.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267098",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q10831831", "Q10925256"],
@@ -3877,10 +3942,11 @@
         {
           "candidate_qids_checked": ["Q10842389", "Q10842390", "Q110977572", "Q135417836"],
           "local_id": "w-18244-2025-07-01",
-          "mapping_note": "current Đức Minh page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267103 via QuickStatements batch #270342; Đức Minh sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Đức Minh page explicitly identifies the 2025 Hà Tĩnh commune but has no Wikibase item. The candidates are former namesakes or unrelated identities.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267103",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q10761328", "Q32267742"],
@@ -3993,18 +4059,20 @@
         {
           "candidate_qids_checked": ["Q33343", "Q712778", "Q1201657", "Q10840723", "Q10840724", "Q10840725", "Q16181652"],
           "local_id": "w-19333-2025-07-01",
-          "mapping_note": "current Đông Hà phường page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267112 via QuickStatements batch #270342; Đông Hà (phường) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Đông Hà (phường)` page explicitly identifies the 2025 Quảng Trị ward and its predecessor composition but has no Wikibase item. The candidates are the former city, namesakes, or unrelated entities.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267112",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q1197445", "Q5638937", "Q10771651", "Q65171692"],
           "local_id": "w-19702-2025-07-01",
-          "mapping_note": "current Hải Lăng xã page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267117 via QuickStatements batch #270342; Hải Lăng (xã) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Hải Lăng (xã)` page explicitly identifies the 2025 Quảng Trị commune but has no Wikibase item. The candidates are the former district, former communes, or a disambiguation item.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267117",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q5202999"],
@@ -4069,10 +4137,11 @@
         {
           "candidate_qids_checked": ["Q7188271", "Q30919566"],
           "local_id": "w-19942-2025-07-01",
-          "mapping_note": "current Phú Vang xã page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267120 via QuickStatements batch #270342; Phú Vang (xã) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Phú Vang (xã)` page explicitly identifies the 2025 Huế commune but has no Wikibase item. The candidates are the former district and a former commune.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267120",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q569614", "Q1201210", "Q3943153", "Q7710377", "Q10824895", "Q10824897", "Q10824907", "Q10824908", "Q10824910", "Q10824911", "Q10824913", "Q10824914", "Q10826763", "Q13658828", "Q27796933", "Q97358826", "Q105333816", "Q115829217", "Q130540721"],
@@ -4109,10 +4178,11 @@
         {
           "candidate_qids_checked": ["Q1934001", "Q7932533", "Q10833606", "Q10833608", "Q10833609", "Q10833610"],
           "local_id": "w-20122-2025-07-01",
-          "mapping_note": "current Vinh Lộc xã page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267121 via QuickStatements batch #270342; Vinh Lộc (xã) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Vinh Lộc (xã)` page explicitly identifies the 2025 Huế commune but has no Wikibase item. The candidates are the former district or former namesakes.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267121",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q2484927", "Q2806141", "Q10771356", "Q10771358", "Q128242536", "Q138638826"],
@@ -4501,10 +4571,11 @@
         {
           "candidate_qids_checked": ["Q36725", "Q7188273", "Q10805819", "Q10806182", "Q10806183", "Q11816247", "Q31624300", "Q31664930"],
           "local_id": "w-22240-2025-07-01",
-          "mapping_note": "current Phú Yên phường page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267123 via QuickStatements batch #270342; Phú Yên (phường) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Phú Yên (phường)` page explicitly identifies the 2025 Đắk Lắk ward and explains that its name derives from the former province, but it has no Wikibase item. The candidates are the former province, namesakes, or unrelated entities.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267123",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q1199000", "Q6480689", "Q10823375", "Q10823376", "Q10823377", "Q10823378", "Q10823380"],
@@ -4625,10 +4696,11 @@
         {
           "candidate_qids_checked": ["Q10842383", "Q92629606", "Q135034544"],
           "local_id": "w-24664-2025-07-01",
-          "mapping_note": "current Đức Lập, Lâm Đồng page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267128 via QuickStatements batch #270342; Đức Lập, Lâm Đồng sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Đức Lập, Lâm Đồng` page explicitly identifies the 2025 commune but has no Wikibase item. The candidates are a former namesake, a disambiguation item, or the current Tây Ninh namesake.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267128",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q10781868", "Q10781869", "Q137214389"],
@@ -4641,10 +4713,11 @@
         {
           "candidate_qids_checked": ["Q5209903", "Q30919570", "Q32183952"],
           "local_id": "w-24718-2025-07-01",
-          "mapping_note": "current Đắk Song xã page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267129 via QuickStatements batch #270342; Đắk Song (xã) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Đắk Song (xã)` page explicitly identifies the 2025 Lâm Đồng commune but has no Wikibase item. The candidates are the former district, a former commune, or an unrelated school.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267129",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q137295878"],
@@ -5017,18 +5090,20 @@
         {
           "candidate_qids_checked": ["Q7273059"],
           "local_id": "w-03703-2025-07-01",
-          "mapping_note": "current Quỳnh Nhai xã page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266892 via QuickStatements batch #270342; Quỳnh Nhai (xã) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Quỳnh Nhai (xã)` page explicitly identifies the 2025 Sơn La commune but has no Wikibase item. Q7273059 is the former district.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266892",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q6937073"],
           "local_id": "w-03808-2025-07-01",
-          "mapping_note": "current Mường La xã page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266895 via QuickStatements batch #270342; Mường La (xã) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Mường La (xã)` page explicitly identifies the 2025 Sơn La commune but has no Wikibase item. Q6937073 is the former district.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266895",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q10830262"],
@@ -5041,10 +5116,11 @@
         {
           "candidate_qids_checked": [],
           "local_id": "w-04930-2025-07-01",
-          "mapping_note": "current Yên Xuân, Hà Nội page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266901 via QuickStatements batch #270342; Yên Xuân, Hà Nội sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Yên Xuân, Hà Nội` page explicitly identifies the 2025 commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266901",
+          "qid_status": "new"
         }
       ],
       "reviewed_at": "2026-09-02T23:28:00Z",
@@ -5125,10 +5201,11 @@
         {
           "candidate_qids_checked": ["Q5160363", "Q7666269", "Q10947790", "Q20063182", "Q45369920", "Q45591861", "Q45616258", "Q45616321", "Q45658034", "Q121034632", "Q124693710"],
           "local_id": "w-05518-2025-07-01",
-          "mapping_note": "current Sông Công phường page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266904 via QuickStatements batch #270342; Sông Công (phường) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Sông Công (phường)` page explicitly identifies the 2025 Thái Nguyên ward but has no Wikibase item. The candidates are the former city or unrelated entities.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266904",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q5295741", "Q137383300"],
@@ -5141,18 +5218,20 @@
         {
           "candidate_qids_checked": ["Q7939153"],
           "local_id": "w-05716-2025-07-01",
-          "mapping_note": "current Võ Nhai xã page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266905 via QuickStatements batch #270342; Võ Nhai (xã) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Võ Nhai (xã)` page explicitly identifies the 2025 Thái Nguyên commune but has no Wikibase item. Q7939153 is the former district.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266905",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q4798245"],
           "local_id": "w-05860-2025-07-01",
-          "mapping_note": "current Phổ Yên phường page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266909 via QuickStatements batch #270342; Phổ Yên (phường) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Phổ Yên (phường)` page explicitly identifies the 2025 Thái Nguyên ward but has no Wikibase item. Q4798245 is the former district-level city.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266909",
+          "qid_status": "new"
         }
       ],
       "reviewed_at": "2026-09-02T23:41:00Z",
@@ -5185,18 +5264,20 @@
         {
           "candidate_qids_checked": ["Q251838", "Q96946441", "Q103329140"],
           "local_id": "w-06046-2025-07-01",
-          "mapping_note": "current Tràng Định xã page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266914 via QuickStatements batch #270342; Tràng Định (xã) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Tràng Định (xã)` page explicitly identifies the 2025 Lạng Sơn commune but has no Wikibase item. The candidates are the former district or unrelated entities.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266914",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": [],
           "local_id": "w-06187-2025-07-01",
-          "mapping_note": "current Kỳ Lừa page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266921 via QuickStatements batch #270342; Kỳ Lừa sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Kỳ Lừa page explicitly identifies the 2025 Lạng Sơn ward but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266921",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q10796515"],
@@ -5209,26 +5290,29 @@
         {
           "candidate_qids_checked": ["Q1031051", "Q111387227"],
           "local_id": "w-06793-2025-07-01",
-          "mapping_note": "current Cẩm Phả phường page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266926 via QuickStatements batch #270342; Cẩm Phả (phường) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Cẩm Phả (phường)` page explicitly identifies the 2025 Quảng Ninh ward but has no Wikibase item. The candidates are the former city or an unrelated station.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266926",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q7897883"],
           "local_id": "w-06811-2025-07-01",
-          "mapping_note": "current Uông Bí phường page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266929 via QuickStatements batch #270342; Uông Bí (phường) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Uông Bí (phường)` page explicitly identifies the 2025 Quảng Ninh ward but has no Wikibase item. Q7897883 is the former city.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266929",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q36082"],
           "local_id": "w-07900-2025-07-01",
-          "mapping_note": "current Việt Trì phường page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266931 via QuickStatements batch #270342; Việt Trì (phường) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Việt Trì (phường)` page explicitly identifies the 2025 Phú Thọ ward but has no Wikibase item. Q36082 is the former city.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266931",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q10772351"],
@@ -5409,10 +5493,11 @@
         {
           "candidate_qids_checked": ["Q1155893", "Q10828832"],
           "local_id": "w-10549-2025-07-01",
-          "mapping_note": "current Chu Văn An phường page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266953 via QuickStatements batch #270342; Chu Văn An (phường) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Chu Văn An (phường)` page explicitly identifies the 2025 Hải Phòng ward but has no Wikibase item. The candidates are the historical person or a former ward.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266953",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q10743141"],
@@ -5441,18 +5526,20 @@
         {
           "candidate_qids_checked": ["Q10830179"],
           "local_id": "w-10909-2025-07-01",
-          "mapping_note": "current Tuệ Tĩnh xã page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266962 via QuickStatements batch #270342; Tuệ Tĩnh (xã) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Tuệ Tĩnh (xã)` page explicitly identifies the 2025 Hải Phòng commune but has no Wikibase item. Q10830179 is the historical physician after whom the commune is named.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266962",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q10923035"],
           "local_id": "w-10972-2025-07-01",
-          "mapping_note": "current Đường An page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266966 via QuickStatements batch #270342; Đường An sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Đường An page explicitly identifies the 2025 Hải Phòng commune but has no Wikibase item. Q10923035 is not the current administrative unit.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266966",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q131366318"],
@@ -5509,18 +5596,20 @@
         {
           "candidate_qids_checked": ["Q10787971"],
           "local_id": "w-11506-2025-07-01",
-          "mapping_note": "current Lê Ích Mộc phường page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266975 via QuickStatements batch #270342; Lê Ích Mộc (phường) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Lê Ích Mộc (phường)` page explicitly identifies the 2025 Hải Phòng ward but has no Wikibase item. Q10787971 is the historical person after whom the ward is named.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266975",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q5315878"],
           "local_id": "w-11692-2025-07-01",
-          "mapping_note": "current Dương Kinh phường page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266989 via QuickStatements batch #270342; Dương Kinh (phường) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Dương Kinh (phường)` page explicitly identifies the 2025 Hải Phòng ward but has no Wikibase item. Q5315878 is the former district.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266989",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q1198654", "Q10780320"],
@@ -5557,18 +5646,20 @@
         {
           "candidate_qids_checked": ["Q10807145"],
           "local_id": "w-11953-2025-07-01",
-          "mapping_note": "current Phố Hiến page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141266999 via QuickStatements batch #270342; Phố Hiến sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Phố Hiến page explicitly identifies the 2025 Hưng Yên ward but has no Wikibase item. Q10807145 is not the current administrative unit.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141266999",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q6945614"],
           "local_id": "w-12103-2025-07-01",
-          "mapping_note": "current Mỹ Hào phường page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267005 via QuickStatements batch #270342; Mỹ Hào (phường) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Mỹ Hào (phường)` page explicitly identifies the 2025 Hưng Yên ward but has no Wikibase item. Q6945614 is the former district-level town.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267005",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q137218806"],
@@ -5581,10 +5672,11 @@
         {
           "candidate_qids_checked": ["Q7841468"],
           "local_id": "w-12223-2025-07-01",
-          "mapping_note": "current Triệu Việt Vương xã page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267006 via QuickStatements batch #270342; Triệu Việt Vương (xã) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Triệu Việt Vương (xã)` page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item. Q7841468 is the historical ruler after whom the commune is named.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267006",
+          "qid_status": "new"
         }
       ],
       "reviewed_at": "2026-09-03T00:36:00Z",
@@ -5617,50 +5709,56 @@
         {
           "candidate_qids_checked": [],
           "local_id": "w-12247-2025-07-01",
-          "mapping_note": "current Châu Ninh page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267009 via QuickStatements batch #270342; Châu Ninh sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Châu Ninh page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267009",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": [],
           "local_id": "w-12499-2025-07-01",
-          "mapping_note": "current A Sào page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267014 via QuickStatements batch #270342; A Sào sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current A Sào page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267014",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": [],
           "local_id": "w-12577-2025-07-01",
-          "mapping_note": "current Quỳnh An page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267018 via QuickStatements batch #270342; Quỳnh An sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Quỳnh An page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267018",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": [],
           "local_id": "w-12595-2025-07-01",
-          "mapping_note": "current Ngự Thiên page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267020 via QuickStatements batch #270342; Ngự Thiên sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Ngự Thiên page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267020",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q1199540", "Q65607836"],
           "local_id": "w-12631-2025-07-01",
-          "mapping_note": "current Thần Khê page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267021 via QuickStatements batch #270342; Thần Khê sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Thần Khê page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item. The candidates are not the current administrative unit.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267021",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": [],
           "local_id": "w-12634-2025-07-01",
-          "mapping_note": "current Tiên La page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267022 via QuickStatements batch #270342; Tiên La sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Tiên La page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267022",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q703747", "Q10842223", "Q21402090", "Q28029585"],
@@ -5673,26 +5771,29 @@
         {
           "candidate_qids_checked": [],
           "local_id": "w-12694-2025-07-01",
-          "mapping_note": "current Bắc Đông Hưng page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267023 via QuickStatements batch #270342; Bắc Đông Hưng sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Bắc Đông Hưng page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267023",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": [],
           "local_id": "w-12700-2025-07-01",
-          "mapping_note": "current Bắc Tiên Hưng page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267024 via QuickStatements batch #270342; Bắc Tiên Hưng sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Bắc Tiên Hưng page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267024",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": [],
           "local_id": "w-12736-2025-07-01",
-          "mapping_note": "current Đông Tiên Hưng page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267025 via QuickStatements batch #270342; Đông Tiên Hưng sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Đông Tiên Hưng page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267025",
+          "qid_status": "new"
         }
       ],
       "reviewed_at": "2026-09-03T00:49:00Z",
@@ -5725,26 +5826,29 @@
         {
           "candidate_qids_checked": [],
           "local_id": "w-12745-2025-07-01",
-          "mapping_note": "current Bắc Đông Quan page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267026 via QuickStatements batch #270342; Bắc Đông Quan sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Bắc Đông Quan page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267026",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": [],
           "local_id": "w-12763-2025-07-01",
-          "mapping_note": "current Nam Tiên Hưng page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267028 via QuickStatements batch #270342; Nam Tiên Hưng sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Nam Tiên Hưng page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267028",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": [],
           "local_id": "w-12775-2025-07-01",
-          "mapping_note": "current Nam Đông Hưng page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267029 via QuickStatements batch #270342; Nam Đông Hưng sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Nam Đông Hưng page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267029",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q10840801"],
@@ -5757,50 +5861,56 @@
         {
           "candidate_qids_checked": [],
           "local_id": "w-12850-2025-07-01",
-          "mapping_note": "current Tây Thụy Anh page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267030 via QuickStatements batch #270342; Tây Thụy Anh sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Tây Thụy Anh page explicitly identifies the 2025 Hưng Yên commune and its three predecessors but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267030",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": [],
           "local_id": "w-12859-2025-07-01",
-          "mapping_note": "current Bắc Thụy Anh page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267031 via QuickStatements batch #270342; Bắc Thụy Anh sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Bắc Thụy Anh page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267031",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": [],
           "local_id": "w-12862-2025-07-01",
-          "mapping_note": "current Đông Thụy Anh page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267032 via QuickStatements batch #270342; Đông Thụy Anh sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Đông Thụy Anh page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267032",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q16480941"],
           "local_id": "w-12865-2025-07-01",
-          "mapping_note": "current Thụy Anh xã page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267033 via QuickStatements batch #270342; Thụy Anh (xã) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Thụy Anh (xã)` page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item. Q16480941 is not bound to the current page.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267033",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": [],
           "local_id": "w-12904-2025-07-01",
-          "mapping_note": "current Nam Thụy Anh page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267034 via QuickStatements batch #270342; Nam Thụy Anh sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Nam Thụy Anh page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267034",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": [],
           "local_id": "w-12916-2025-07-01",
-          "mapping_note": "current Bắc Thái Ninh page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267035 via QuickStatements batch #270342; Bắc Thái Ninh sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Bắc Thái Ninh page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267035",
+          "qid_status": "new"
         }
       ],
       "reviewed_at": "2026-09-03T01:02:00Z",
@@ -5833,50 +5943,56 @@
         {
           "candidate_qids_checked": [],
           "local_id": "w-12919-2025-07-01",
-          "mapping_note": "current Tây Thái Ninh page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267036 via QuickStatements batch #270342; Tây Thái Ninh sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Tây Thái Ninh page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267036",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": [],
           "local_id": "w-12943-2025-07-01",
-          "mapping_note": "current Đông Thái Ninh page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267038 via QuickStatements batch #270342; Đông Thái Ninh sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Đông Thái Ninh page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267038",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": [],
           "local_id": "w-12961-2025-07-01",
-          "mapping_note": "current Nam Thái Ninh page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267039 via QuickStatements batch #270342; Nam Thái Ninh sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Nam Thái Ninh page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267039",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": [],
           "local_id": "w-12988-2025-07-01",
-          "mapping_note": "current Đông Tiền Hải page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267040 via QuickStatements batch #270342; Đông Tiền Hải sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Đông Tiền Hải page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267040",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": [],
           "local_id": "w-13003-2025-07-01",
-          "mapping_note": "current Đồng Châu page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267041 via QuickStatements batch #270342; Đồng Châu sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Đồng Châu page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267041",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": [],
           "local_id": "w-13039-2025-07-01",
-          "mapping_note": "current Tây Tiền Hải page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267042 via QuickStatements batch #270342; Tây Tiền Hải sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current Tây Tiền Hải page explicitly identifies the 2025 Hưng Yên commune but has no Wikibase item, and no plausible candidate was present in the saved discovery evidence.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267042",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q137218775"],
@@ -5897,10 +6013,11 @@
         {
           "candidate_qids_checked": ["Q5317666"],
           "local_id": "w-13324-2025-07-01",
-          "mapping_note": "current Duy Tiên phường page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267045 via QuickStatements batch #270342; Duy Tiên (phường) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Duy Tiên (phường)` page explicitly identifies the 2025 Ninh Bình ward but has no Wikibase item. Q5317666 is the former district-level town.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267045",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q136688011"],
@@ -5965,10 +6082,11 @@
         {
           "candidate_qids_checked": ["Q10824791"],
           "local_id": "w-13495-2025-07-01",
-          "mapping_note": "current Thanh Liêm xã page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267046 via QuickStatements batch #270342; Thanh Liêm (xã) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Thanh Liêm (xã)` page identifies the 2025 Ninh Bình commune but has no Wikibase item. Q10824791 is the former district.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267046",
+          "qid_status": "new"
         },
         {
           "candidate_qids_checked": ["Q1197311", "Q4914337", "Q136688025"],
@@ -6013,10 +6131,11 @@
         {
           "candidate_qids_checked": ["Q8046189"],
           "local_id": "w-13795-2025-07-01",
-          "mapping_note": "current Ý Yên xã page has no Wikibase item",
-          "outcome": "retain-unresolved",
+          "mapping_note": "created as Q141267048 via QuickStatements batch #270342; Ý Yên (xã) sitelink verified 2026-09-03T20:38:37Z",
+          "outcome": "assign",
           "rationale": "The current `Ý Yên (xã)` page identifies the 2025 Ninh Bình commune but has no Wikibase item. Q8046189 is the former district.",
-          "wikidata_qid": ""
+          "wikidata_qid": "Q141267048",
+          "qid_status": "new"
         }
       ],
       "reviewed_at": "2026-09-03T01:29:00Z",
@@ -6030,15 +6149,15 @@
     {
       "batch_id": "2026-09-02.50",
       "decisions": [
-        {"candidate_qids_checked": [], "local_id": "w-13822-2025-07-01", "mapping_note": "current Phong Doanh page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Phong Doanh page identifies the 2025 Ninh Bình commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
-        {"candidate_qids_checked": ["Q1199018", "Q10833796", "Q61100482"], "local_id": "w-13834-2025-07-01", "mapping_note": "current Vũ Dương xã page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current `Vũ Dương (xã)` page identifies the 2025 Ninh Bình commune but has no Wikibase item. The candidates are the namesake historical person or unrelated entities.", "wikidata_qid": ""},
-        {"candidate_qids_checked": ["Q6961159"], "local_id": "w-13966-2025-07-01", "mapping_note": "current Nam Trực xã page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current `Nam Trực (xã)` page identifies the 2025 Ninh Bình commune but has no Wikibase item. Q6961159 is the former district.", "wikidata_qid": ""},
+        {"candidate_qids_checked": [], "local_id": "w-13822-2025-07-01", "mapping_note": "created as Q141267050 via QuickStatements batch #270342; Phong Doanh sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "The current Phong Doanh page identifies the 2025 Ninh Bình commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": "Q141267050", "qid_status": "new"},
+        {"candidate_qids_checked": ["Q1199018", "Q10833796", "Q61100482"], "local_id": "w-13834-2025-07-01", "mapping_note": "created as Q141267051 via QuickStatements batch #270342; Vũ Dương (xã) sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "The current `Vũ Dương (xã)` page identifies the 2025 Ninh Bình commune but has no Wikibase item. The candidates are the namesake historical person or unrelated entities.", "wikidata_qid": "Q141267051", "qid_status": "new"},
+        {"candidate_qids_checked": ["Q6961159"], "local_id": "w-13966-2025-07-01", "mapping_note": "created as Q141267055 via QuickStatements batch #270342; Nam Trực (xã) sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "The current `Nam Trực (xã)` page identifies the 2025 Ninh Bình commune but has no Wikibase item. Q6961159 is the former district.", "wikidata_qid": "Q141267055", "qid_status": "new"},
         {"candidate_qids_checked": ["Q10797112"], "local_id": "w-13972-2025-07-01", "mapping_note": "current Vị Khê page selects predecessor item Q10797112", "outcome": "assign", "rationale": "Q10797112 owns the current Vị Khê page and represents predecessor Nam Phong. Its label, class, description, and parent remain stale.", "wikidata_qid": "Q10797112"},
         {"candidate_qids_checked": ["Q1198163", "Q1340007", "Q10742471", "Q10797099"], "local_id": "w-14011-2025-07-01", "mapping_note": "current Nam Minh xã page selects predecessor item Q10742471", "outcome": "assign", "rationale": "Q10742471 owns the current `Nam Minh (xã)` page and represents predecessor Bình Minh. Its statements remain stale; the other candidates are unrelated.", "wikidata_qid": "Q10742471"},
-        {"candidate_qids_checked": ["Q7847140"], "local_id": "w-14053-2025-07-01", "mapping_note": "current Trực Ninh xã page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current `Trực Ninh (xã)` page identifies the 2025 Ninh Bình commune but has no Wikibase item. Q7847140 is the former district.", "wikidata_qid": ""},
-        {"candidate_qids_checked": ["Q1172987", "Q114157788"], "local_id": "w-14071-2025-07-01", "mapping_note": "current Minh Thái page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Minh Thái page identifies the 2025 Ninh Bình commune but has no Wikibase item. The candidates are unrelated.", "wikidata_qid": ""},
-        {"candidate_qids_checked": [], "local_id": "w-14161-2025-07-01", "mapping_note": "current Giao Minh page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Giao Minh page identifies the 2025 Ninh Bình commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
-        {"candidate_qids_checked": ["Q5558564"], "local_id": "w-14167-2025-07-01", "mapping_note": "current Giao Thủy xã page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current `Giao Thủy (xã)` page identifies the 2025 Ninh Bình commune but has no Wikibase item. Q5558564 is the former district.", "wikidata_qid": ""},
+        {"candidate_qids_checked": ["Q7847140"], "local_id": "w-14053-2025-07-01", "mapping_note": "created as Q141267057 via QuickStatements batch #270342; Trực Ninh (xã) sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "The current `Trực Ninh (xã)` page identifies the 2025 Ninh Bình commune but has no Wikibase item. Q7847140 is the former district.", "wikidata_qid": "Q141267057", "qid_status": "new"},
+        {"candidate_qids_checked": ["Q1172987", "Q114157788"], "local_id": "w-14071-2025-07-01", "mapping_note": "created as Q141267059 via QuickStatements batch #270342; Minh Thái sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "The current Minh Thái page identifies the 2025 Ninh Bình commune but has no Wikibase item. The candidates are unrelated.", "wikidata_qid": "Q141267059", "qid_status": "new"},
+        {"candidate_qids_checked": [], "local_id": "w-14161-2025-07-01", "mapping_note": "created as Q141267062 via QuickStatements batch #270342; Giao Minh sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "The current Giao Minh page identifies the 2025 Ninh Bình commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": "Q141267062", "qid_status": "new"},
+        {"candidate_qids_checked": ["Q5558564"], "local_id": "w-14167-2025-07-01", "mapping_note": "created as Q141267063 via QuickStatements batch #270342; Giao Thủy (xã) sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "The current `Giao Thủy (xã)` page identifies the 2025 Ninh Bình commune but has no Wikibase item. Q5558564 is the former district.", "wikidata_qid": "Q141267063", "qid_status": "new"},
         {"candidate_qids_checked": ["Q10761480"], "local_id": "w-14179-2025-07-01", "mapping_note": "current Giao Hưng page selects predecessor item Q10761480", "outcome": "assign", "rationale": "Q10761480 owns the current Giao Hưng page and represents predecessor Giao Long. Its label, description, and parent remain stale.", "wikidata_qid": "Q10761480"}
       ],
       "reviewed_at": "2026-09-03T01:42:00Z",
@@ -6052,13 +6171,13 @@
     {
       "batch_id": "2026-09-02.51",
       "decisions": [
-        {"candidate_qids_checked": ["Q10801329", "Q10801330", "Q10801331"], "local_id": "w-14038-2025-07-01", "mapping_note": "false automatic match displaced by the current Tây Hoa Lư sitelink", "outcome": "retain-unresolved", "rationale": "Q10801329 is the former Ninh Giang ward now represented by the current Tây Hoa Lư page, not the distinct 2025 Ninh Giang commune formed from Phương Định, Trực Chính, and Liêm Hải. The current `Ninh Giang, Ninh Bình` page for that commune has no Wikibase item; Q10801330 and Q10801331 are namesakes in Khánh Hòa and Hải Phòng.", "wikidata_qid": ""},
-        {"candidate_qids_checked": [], "local_id": "w-14194-2025-07-01", "mapping_note": "current Giao Bình page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Giao Bình page identifies the 2025 Ninh Bình commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": ["Q10801329", "Q10801330", "Q10801331"], "local_id": "w-14038-2025-07-01", "mapping_note": "created as Q141267056 via QuickStatements batch #270342; Ninh Giang, Ninh Bình sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "Q10801329 is the former Ninh Giang ward now represented by the current Tây Hoa Lư page, not the distinct 2025 Ninh Giang commune formed from Phương Định, Trực Chính, and Liêm Hải. The current `Ninh Giang, Ninh Bình` page for that commune has no Wikibase item; Q10801330 and Q10801331 are namesakes in Khánh Hòa and Hải Phòng.", "wikidata_qid": "Q141267056", "qid_status": "new"},
+        {"candidate_qids_checked": [], "local_id": "w-14194-2025-07-01", "mapping_note": "created as Q141267064 via QuickStatements batch #270342; Giao Bình sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "The current Giao Bình page identifies the 2025 Ninh Bình commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": "Q141267064", "qid_status": "new"},
         {"candidate_qids_checked": ["Q137258864"], "local_id": "w-14203-2025-07-01", "mapping_note": "current Giao Phúc page selects Q137258864", "outcome": "assign", "rationale": "Q137258864 owns the current Giao Phúc page. Its structured class and parent are absent, while the article identifies the Ninh Bình commune.", "wikidata_qid": "Q137258864"},
-        {"candidate_qids_checked": [], "local_id": "w-14212-2025-07-01", "mapping_note": "current Giao Ninh page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Giao Ninh page identifies the 2025 Ninh Bình commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
-        {"candidate_qids_checked": ["Q5638933"], "local_id": "w-14215-2025-07-01", "mapping_note": "current Hải Hậu xã page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current `Hải Hậu (xã)` page identifies the 2025 Ninh Bình commune but has no Wikibase item. Q5638933 is the former district.", "wikidata_qid": ""},
-        {"candidate_qids_checked": [], "local_id": "w-14221-2025-07-01", "mapping_note": "current Hải Thịnh page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Hải Thịnh page identifies the 2025 Ninh Bình commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
-        {"candidate_qids_checked": [], "local_id": "w-14359-2025-07-01", "mapping_note": "current Nam Hoa Lư page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Nam Hoa Lư page identifies the 2025 Ninh Bình ward but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": [], "local_id": "w-14212-2025-07-01", "mapping_note": "created as Q141267065 via QuickStatements batch #270342; Giao Ninh sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "The current Giao Ninh page identifies the 2025 Ninh Bình commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": "Q141267065", "qid_status": "new"},
+        {"candidate_qids_checked": ["Q5638933"], "local_id": "w-14215-2025-07-01", "mapping_note": "created as Q141267066 via QuickStatements batch #270342; Hải Hậu (xã) sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "The current `Hải Hậu (xã)` page identifies the 2025 Ninh Bình commune but has no Wikibase item. Q5638933 is the former district.", "wikidata_qid": "Q141267066", "qid_status": "new"},
+        {"candidate_qids_checked": [], "local_id": "w-14221-2025-07-01", "mapping_note": "created as Q141267067 via QuickStatements batch #270342; Hải Thịnh sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "The current Hải Thịnh page identifies the 2025 Ninh Bình commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": "Q141267067", "qid_status": "new"},
+        {"candidate_qids_checked": [], "local_id": "w-14359-2025-07-01", "mapping_note": "created as Q141267068 via QuickStatements batch #270342; Nam Hoa Lư sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "The current Nam Hoa Lư page identifies the 2025 Ninh Bình ward but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": "Q141267068", "qid_status": "new"},
         {"candidate_qids_checked": ["Q7680449", "Q25418021", "Q136708199"], "local_id": "w-14362-2025-07-01", "mapping_note": "current Tam Điệp phường page selects Q136708199", "outcome": "assign", "rationale": "Q136708199 owns the current `Tam Điệp (phường)` page and its label and description identify the ward. Structured class and parent are absent; the other candidates are former identities.", "wikidata_qid": "Q136708199"},
         {"candidate_qids_checked": ["Q131459567"], "local_id": "w-14500-2025-07-01", "mapping_note": "current Đại Hoàng page selects predecessor item Q131459567", "outcome": "assign", "rationale": "Q131459567 owns the current Đại Hoàng page and represents predecessor Tiến Thắng. Its label and description remain stale and structured class and parent are absent.", "wikidata_qid": "Q131459567"},
         {"candidate_qids_checked": ["Q10801329"], "local_id": "w-14533-2025-07-01", "mapping_note": "current Tây Hoa Lư page selects predecessor item Q10801329", "outcome": "assign", "rationale": "Q10801329 owns the current Tây Hoa Lư page and represents predecessor Ninh Giang. Its label, class, description, and parent remain stale.", "wikidata_qid": "Q10801329"},
@@ -6104,7 +6223,7 @@
         {"candidate_qids_checked": ["Q30923867", "Q135108007"], "local_id": "w-16561-2025-07-01", "mapping_note": "current Tĩnh Gia phường page selects Q135108007", "outcome": "assign", "rationale": "Q135108007 owns the current `Tĩnh Gia (phường)` page and its description and article identify the Thanh Hóa ward. Q30923867 is the historical phủ; structured class and parent are absent on the selected item.", "wikidata_qid": "Q135108007"},
         {"candidate_qids_checked": ["Q5221504", "Q135108132"], "local_id": "w-16609-2025-07-01", "mapping_note": "current Đào Duy Từ phường page selects Q135108132", "outcome": "assign", "rationale": "Q135108132 owns the current `Đào Duy Từ (phường)` page and its description and article identify the Thanh Hóa ward. Q5221504 is the historical person; structured class and parent are absent on the selected item.", "wikidata_qid": "Q135108132"},
         {"candidate_qids_checked": ["Q778493"], "local_id": "w-16732-2025-07-01", "mapping_note": "current Cửa Lò page reuses Q778493", "outcome": "assign", "rationale": "Q778493 owns the current Cửa Lò page and its current description and article identify the Nghệ An ward. Its class and 2024 dissolution statement still describe the former town-level unit.", "wikidata_qid": "Q778493"},
-        {"candidate_qids_checked": [], "local_id": "w-16774-2025-07-01", "mapping_note": "current Mường Quàng page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Mường Quàng page identifies the 2025 Nghệ An commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": [], "local_id": "w-16774-2025-07-01", "mapping_note": "created as Q141267072 via QuickStatements batch #270342; Mường Quàng sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "The current Mường Quàng page identifies the 2025 Nghệ An commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": "Q141267072", "qid_status": "new"},
         {"candidate_qids_checked": ["Q7273039", "Q9823696", "Q137222511"], "local_id": "w-16777-2025-07-01", "mapping_note": "current Quỳ Châu xã page selects Q137222511", "outcome": "assign", "rationale": "Q137222511 owns the current `Quỳ Châu (xã)` page and its label and article identify the Nghệ An commune. Q7273039 is the former district and Q9823696 is a namesake; structured class and parent are absent on the selected item.", "wikidata_qid": "Q137222511"},
         {"candidate_qids_checked": ["Q10748244"], "local_id": "w-16801-2025-07-01", "mapping_note": "current Hùng Chân page selects predecessor item Q10748244", "outcome": "assign", "rationale": "Q10748244 owns the current Hùng Chân page and represents predecessor Châu Phong. Its label, description, class, and parent remain stale.", "wikidata_qid": "Q10748244"}
       ],
@@ -6119,15 +6238,15 @@
     {
       "batch_id": "2026-09-02.54",
       "decisions": [
-        {"candidate_qids_checked": ["Q71284", "Q1199197", "Q1306125", "Q10517255", "Q10831414", "Q17062846", "Q113554152"], "local_id": "w-16876-2025-07-01", "mapping_note": "current Tương Dương xã page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current `Tương Dương (xã)` page identifies the 2025 Nghệ An commune but has no Wikibase item. The candidates are the former district, Chinese administrative or historical entities, and disambiguation items.", "wikidata_qid": ""},
-        {"candidate_qids_checked": [], "local_id": "w-17077-2025-07-01", "mapping_note": "current Mường Ham page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Mường Ham page identifies the 2025 Nghệ An commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": ["Q71284", "Q1199197", "Q1306125", "Q10517255", "Q10831414", "Q17062846", "Q113554152"], "local_id": "w-16876-2025-07-01", "mapping_note": "created as Q141267073 via QuickStatements batch #270342; Tương Dương (xã) sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "The current `Tương Dương (xã)` page identifies the 2025 Nghệ An commune but has no Wikibase item. The candidates are the former district, Chinese administrative or historical entities, and disambiguation items.", "wikidata_qid": "Q141267073", "qid_status": "new"},
+        {"candidate_qids_checked": [], "local_id": "w-17077-2025-07-01", "mapping_note": "created as Q141267074 via QuickStatements batch #270342; Mường Ham sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "The current Mường Ham page identifies the 2025 Nghệ An commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": "Q141267074", "qid_status": "new"},
         {"candidate_qids_checked": ["Q86005843"], "local_id": "w-17089-2025-07-01", "mapping_note": "current Mường Chọng page selects predecessor item Q86005843", "outcome": "assign", "rationale": "Q86005843 owns the current Mường Chọng page and represents predecessor Châu Lý. Its label, description, class, and parent remain stale.", "wikidata_qid": "Q86005843"},
-        {"candidate_qids_checked": ["Q446650", "Q10811038"], "local_id": "w-17176-2025-07-01", "mapping_note": "current Quỳnh Anh xã page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current `Quỳnh Anh (xã)` page identifies the 2025 Nghệ An commune but has no Wikibase item. Q446650 is a singer and Q10811038 is a disambiguation item.", "wikidata_qid": ""},
-        {"candidate_qids_checked": [], "local_id": "w-17239-2025-07-01", "mapping_note": "current Mậu Thạch page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Mậu Thạch page identifies the 2025 Nghệ An commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": ["Q446650", "Q10811038"], "local_id": "w-17176-2025-07-01", "mapping_note": "created as Q141267077 via QuickStatements batch #270342; Quỳnh Anh (xã) sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "The current `Quỳnh Anh (xã)` page identifies the 2025 Nghệ An commune but has no Wikibase item. Q446650 is a singer and Q10811038 is a disambiguation item.", "wikidata_qid": "Q141267077", "qid_status": "new"},
+        {"candidate_qids_checked": [], "local_id": "w-17239-2025-07-01", "mapping_note": "created as Q141267080 via QuickStatements batch #270342; Mậu Thạch sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "The current Mậu Thạch page identifies the 2025 Nghệ An commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": "Q141267080", "qid_status": "new"},
         {"candidate_qids_checked": ["Q5157942", "Q137221760"], "local_id": "w-17254-2025-07-01", "mapping_note": "current Con Cuông xã page selects Q137221760", "outcome": "assign", "rationale": "Q137221760 owns the current `Con Cuông (xã)` page and its label and article identify the Nghệ An commune. Q5157942 is the former district; structured class, parent, and Vietnamese description are absent on the selected item.", "wikidata_qid": "Q137221760"},
-        {"candidate_qids_checked": [], "local_id": "w-17335-2025-07-01", "mapping_note": "current Thành Bình Thọ page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Thành Bình Thọ page identifies the 2025 Nghệ An commune and its predecessor composition but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": [], "local_id": "w-17335-2025-07-01", "mapping_note": "created as Q141267081 via QuickStatements batch #270342; Thành Bình Thọ sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "The current Thành Bình Thọ page identifies the 2025 Nghệ An commune and its predecessor composition but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": "Q141267081", "qid_status": "new"},
         {"candidate_qids_checked": ["Q10788489"], "local_id": "w-17365-2025-07-01", "mapping_note": "current Anh Sơn Đông page selects predecessor item Q10788489", "outcome": "assign", "rationale": "Q10788489 owns the current Anh Sơn Đông page and represents predecessor Lạng Sơn. Its label, description, class, and parent remain stale.", "wikidata_qid": "Q10788489"},
-        {"candidate_qids_checked": [], "local_id": "w-17380-2025-07-01", "mapping_note": "current Yên Xuân, Nghệ An page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current `Yên Xuân, Nghệ An` page identifies the 2025 Nghệ An commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": [], "local_id": "w-17380-2025-07-01", "mapping_note": "created as Q141267082 via QuickStatements batch #270342; Yên Xuân, Nghệ An sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "The current `Yên Xuân, Nghệ An` page identifies the 2025 Nghệ An commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": "Q141267082", "qid_status": "new"},
         {"candidate_qids_checked": ["Q10771793"], "local_id": "w-17524-2025-07-01", "mapping_note": "current Giai Lạc page selects predecessor item Q10771793", "outcome": "assign", "rationale": "Q10771793 owns the current Giai Lạc page and represents predecessor Hậu Thành. Its label, description, class, and parent remain stale.", "wikidata_qid": "Q10771793"}
       ],
       "reviewed_at": "2026-09-02T21:25:00Z",
@@ -6143,13 +6262,13 @@
       "decisions": [
         {"candidate_qids_checked": ["Q1275350", "Q48814532", "Q10810030"], "local_id": "w-17677-2025-07-01", "mapping_note": "current Văn Hiến page selects predecessor item Q10810030", "outcome": "assign", "rationale": "Q10810030 owns the current Văn Hiến page and represents predecessor Quang Sơn. Its label, description, class, and parent remain stale; Q1275350 is a person and Q48814532 is a disambiguation item.", "wikidata_qid": "Q10810030"},
         {"candidate_qids_checked": ["Q10793953"], "local_id": "w-17689-2025-07-01", "mapping_note": "current Thuần Trung page selects predecessor item Q10793953", "outcome": "assign", "rationale": "Q10793953 owns the current Thuần Trung page and represents predecessor Minh Sơn. Its label, description, class, and parent remain stale.", "wikidata_qid": "Q10793953"},
-        {"candidate_qids_checked": [], "local_id": "w-17728-2025-07-01", "mapping_note": "current Cát Ngạn page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Cát Ngạn page identifies the 2025 Nghệ An commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": [], "local_id": "w-17728-2025-07-01", "mapping_note": "created as Q141267093 via QuickStatements batch #270342; Cát Ngạn sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "The current Cát Ngạn page identifies the 2025 Nghệ An commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": "Q141267093", "qid_status": "new"},
         {"candidate_qids_checked": ["Q10824906"], "local_id": "w-17770-2025-07-01", "mapping_note": "current Hoa Quân page selects predecessor item Q10824906", "outcome": "assign", "rationale": "Q10824906 owns the current Hoa Quân page and represents predecessor Thanh Thịnh. Its label, class, and parent remain stale and its Vietnamese description is absent.", "wikidata_qid": "Q10824906"},
-        {"candidate_qids_checked": ["Q6408354"], "local_id": "w-17791-2025-07-01", "mapping_note": "current Kim Bảng xã page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current `Kim Bảng (xã)` page identifies the 2025 Nghệ An commune but has no Wikibase item. Q6408354 is the former Hà Nam district/town-level unit.", "wikidata_qid": ""},
-        {"candidate_qids_checked": [], "local_id": "w-17818-2025-07-01", "mapping_note": "current Bích Hào page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Bích Hào page identifies the 2025 Nghệ An commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
-        {"candidate_qids_checked": ["Q7022320"], "local_id": "w-17827-2025-07-01", "mapping_note": "current Nghi Lộc xã page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current `Nghi Lộc (xã)` page identifies the 2025 Nghệ An commune but has no Wikibase item. Q7022320 is the former district.", "wikidata_qid": ""},
+        {"candidate_qids_checked": ["Q6408354"], "local_id": "w-17791-2025-07-01", "mapping_note": "created as Q141267095 via QuickStatements batch #270342; Kim Bảng (xã) sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "The current `Kim Bảng (xã)` page identifies the 2025 Nghệ An commune but has no Wikibase item. Q6408354 is the former Hà Nam district/town-level unit.", "wikidata_qid": "Q141267095", "qid_status": "new"},
+        {"candidate_qids_checked": [], "local_id": "w-17818-2025-07-01", "mapping_note": "created as Q141270377 via QuickStatements batch #270387; Bích Hào sitelink verified 2026-09-03T21:08:19Z", "outcome": "assign", "rationale": "The current Bích Hào page identifies the 2025 Nghệ An commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": "Q141270377", "qid_status": "new"},
+        {"candidate_qids_checked": ["Q7022320"], "local_id": "w-17827-2025-07-01", "mapping_note": "created as Q141270378 via QuickStatements batch #270387; Nghi Lộc (xã) sitelink verified 2026-09-03T21:08:19Z", "outcome": "assign", "rationale": "The current `Nghi Lộc (xã)` page identifies the 2025 Nghệ An commune but has no Wikibase item. Q7022320 is the former district.", "wikidata_qid": "Q141270378", "qid_status": "new"},
         {"candidate_qids_checked": ["Q65172096"], "local_id": "w-17842-2025-07-01", "mapping_note": "current Thần Lĩnh page selects predecessor item Q65172096", "outcome": "assign", "rationale": "Q65172096 owns the current Thần Lĩnh page and represents predecessor Nghi Hưng. Its label, description, class, and parent remain stale.", "wikidata_qid": "Q65172096"},
-        {"candidate_qids_checked": [], "local_id": "w-17854-2025-07-01", "mapping_note": "current Văn Kiều page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Văn Kiều page identifies the 2025 Nghệ An commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": [], "local_id": "w-17854-2025-07-01", "mapping_note": "created as Q141270380 via QuickStatements batch #270387; Văn Kiều sitelink verified 2026-09-03T21:08:19Z", "outcome": "assign", "rationale": "The current Văn Kiều page identifies the 2025 Nghệ An commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": "Q141270380", "qid_status": "new"},
         {"candidate_qids_checked": ["Q10841087", "Q10797194"], "local_id": "w-17944-2025-07-01", "mapping_note": "current Đại Huệ page selects predecessor item Q10797194", "outcome": "assign", "rationale": "Q10797194 owns the current Đại Huệ page and represents predecessor Nam Xuân. Its label, class, and parent remain stale and its Vietnamese description is absent; Q10841087 is the mountain range.", "wikidata_qid": "Q10797194"}
       ],
       "reviewed_at": "2026-09-02T21:32:00Z",
@@ -6165,11 +6284,11 @@
       "decisions": [
         {"candidate_qids_checked": ["Q10825133", "Q86008649"], "local_id": "w-17989-2025-07-01", "mapping_note": "current Thiên Nhẫn page selects predecessor item Q86008649", "outcome": "assign", "rationale": "Q86008649 owns the current Thiên Nhẫn page and represents predecessor Khánh Sơn. Its label, class, and parent remain stale and its Vietnamese description is absent; Q10825133 is the mountain range.", "wikidata_qid": "Q86008649"},
         {"candidate_qids_checked": ["Q32273165"], "local_id": "w-18028-2025-07-01", "mapping_note": "current Hưng Nguyên Nam page selects legacy item Q32273165", "outcome": "assign", "rationale": "Q32273165 owns the current Hưng Nguyên Nam page and represents the legacy Hưng Tân identity. Its label and class remain stale and its parent and Vietnamese description are absent.", "wikidata_qid": "Q32273165"},
-        {"candidate_qids_checked": ["Q10812018"], "local_id": "w-18040-2025-07-01", "mapping_note": "current Lam Thành page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Lam Thành page identifies the 2025 Nghệ An commune but has no Wikibase item. Q10812018 is Rú Thành rather than the commune.", "wikidata_qid": ""},
+        {"candidate_qids_checked": ["Q10812018"], "local_id": "w-18040-2025-07-01", "mapping_note": "created as Q141267100 via QuickStatements batch #270342; Lam Thành sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "The current Lam Thành page identifies the 2025 Nghệ An commune but has no Wikibase item. Q10812018 is Rú Thành rather than the commune.", "wikidata_qid": "Q141267100", "qid_status": "new"},
         {"candidate_qids_checked": ["Q136950457"], "local_id": "w-18115-2025-07-01", "mapping_note": "current Bắc Hồng Lĩnh page selects Q136950457", "outcome": "assign", "rationale": "Q136950457 owns the current Bắc Hồng Lĩnh page and its label, description, and article identify the Hà Tĩnh ward. Structured class and parent are absent.", "wikidata_qid": "Q136950457"},
         {"candidate_qids_checked": ["Q136950435"], "local_id": "w-18118-2025-07-01", "mapping_note": "current Nam Hồng Lĩnh page selects Q136950435", "outcome": "assign", "rationale": "Q136950435 owns the current Nam Hồng Lĩnh page and its label, description, and article identify the Hà Tĩnh ward. Structured class and parent are absent.", "wikidata_qid": "Q136950435"},
         {"candidate_qids_checked": ["Q10835174"], "local_id": "w-18364-2025-07-01", "mapping_note": "current Đan Hải page selects predecessor item Q10835174", "outcome": "assign", "rationale": "Q10835174 owns the current Đan Hải page and represents predecessor Đan Trường. Its label, description, class, and parent remain stale.", "wikidata_qid": "Q10835174"},
-        {"candidate_qids_checked": ["Q10828864"], "local_id": "w-18436-2025-07-01", "mapping_note": "current Trường Lưu commune page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Trường Lưu page identifies the 2025 Hà Tĩnh commune but has no Wikibase item. Q10828864 represents the historic village and owns the separate `Trường Lưu (làng)` article.", "wikidata_qid": ""},
+        {"candidate_qids_checked": ["Q10828864"], "local_id": "w-18436-2025-07-01", "mapping_note": "created as Q141267106 via QuickStatements batch #270342; Trường Lưu sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "The current Trường Lưu page identifies the 2025 Hà Tĩnh commune but has no Wikibase item. Q10828864 represents the historic village and owns the separate `Trường Lưu (làng)` article.", "wikidata_qid": "Q141267106", "qid_status": "new"},
         {"candidate_qids_checked": ["Q10771456"], "local_id": "w-18532-2025-07-01", "mapping_note": "current Hương Phố page selects predecessor item Q10771456", "outcome": "assign", "rationale": "Q10771456 owns the current Hương Phố page and represents predecessor Hương Giang. Its label, description, class, and parent remain stale.", "wikidata_qid": "Q10771456"},
         {"candidate_qids_checked": ["Q10826180"], "local_id": "w-18634-2025-07-01", "mapping_note": "current Toàn Lưu page selects legacy item Q10826180", "outcome": "assign", "rationale": "Q10826180 owns the current Toàn Lưu page and represents the legacy Thạch Lưu identity. Its label, class, and parent remain stale and its Vietnamese description is absent.", "wikidata_qid": "Q10826180"},
         {"candidate_qids_checked": ["Q32256126", "Q123746552", "Q136950424"], "local_id": "w-18823-2025-07-01", "mapping_note": "current Vũng Áng phường page selects Q136950424", "outcome": "assign", "rationale": "Q136950424 owns the current `Vũng Áng (phường)` page and its label, description, and article identify the Hà Tĩnh ward. Q32256126 is the port locality and Q123746552 is a disambiguation item; structured class and parent are absent on the selected item.", "wikidata_qid": "Q136950424"}
@@ -6192,7 +6311,7 @@
         {"candidate_qids_checked": ["Q137855521"], "local_id": "w-19051-2025-07-01", "mapping_note": "current Tân Gianh page selects Q137855521", "outcome": "assign", "rationale": "Q137855521 owns the current Tân Gianh page and its label, class, description, and article identify the Quảng Trị commune. Structured parent is absent.", "wikidata_qid": "Q137855521"},
         {"candidate_qids_checked": ["Q137844067"], "local_id": "w-19066-2025-07-01", "mapping_note": "current Bắc Gianh page selects Q137844067", "outcome": "assign", "rationale": "Q137844067 owns the current Bắc Gianh page and its label, description, and article identify the Quảng Trị ward. Structured parent is absent and its class is the commune class rather than the ward class.", "wikidata_qid": "Q137844067"},
         {"candidate_qids_checked": ["Q137855744"], "local_id": "w-19075-2025-07-01", "mapping_note": "current Nam Ba Đồn page selects Q137855744", "outcome": "assign", "rationale": "Q137855744 owns the current Nam Ba Đồn page and its label, class, description, and article identify the Quảng Trị commune. Structured parent is absent.", "wikidata_qid": "Q137855744"},
-        {"candidate_qids_checked": [], "local_id": "w-19093-2025-07-01", "mapping_note": "current Nam Gianh page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Nam Gianh page identifies the 2025 Quảng Trị commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": [], "local_id": "w-19093-2025-07-01", "mapping_note": "created as Q141267111 via QuickStatements batch #270342; Nam Gianh sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "The current Nam Gianh page identifies the 2025 Quảng Trị commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": "Q141267111", "qid_status": "new"},
         {"candidate_qids_checked": ["Q590734", "Q137844084"], "local_id": "w-19141-2025-07-01", "mapping_note": "current Bố Trạch xã page selects Q137844084", "outcome": "assign", "rationale": "Q137844084 owns the current `Bố Trạch (xã)` page and its label, class, description, and article identify the Quảng Trị commune. Q590734 is the former district; structured parent is absent on the selected item.", "wikidata_qid": "Q137844084"},
         {"candidate_qids_checked": ["Q137848138"], "local_id": "w-19225-2025-07-01", "mapping_note": "current Ninh Châu page selects Q137848138", "outcome": "assign", "rationale": "Q137848138 owns the current Ninh Châu page and its label, class, description, and article identify the Quảng Trị commune. Structured parent is absent.", "wikidata_qid": "Q137848138"}
       ],
@@ -6214,9 +6333,9 @@
         {"candidate_qids_checked": ["Q137854984"], "local_id": "w-19318-2025-07-01", "mapping_note": "current Kim Ngân page selects Q137854984", "outcome": "assign", "rationale": "Q137854984 owns the current Kim Ngân page and its label, class, and article identify the Quảng Trị commune. Structured parent and Vietnamese description are absent.", "wikidata_qid": "Q137854984"},
         {"candidate_qids_checked": ["Q7813500", "Q137507191"], "local_id": "w-19372-2025-07-01", "mapping_note": "current Vĩnh Hoàng page selects Q137507191", "outcome": "assign", "rationale": "Q137507191 owns the current Vĩnh Hoàng page and its label, description, and article identify the Quảng Trị commune. Q7813500 is a historical prince; structured class and parent are absent on the selected item.", "wikidata_qid": "Q137507191"},
         {"candidate_qids_checked": ["Q10730384"], "local_id": "w-19489-2025-07-01", "mapping_note": "current Lìa page selects legacy item Q10730384", "outcome": "assign", "rationale": "Q10730384 owns the current Lìa page and represents the legacy A Túc identity. Its label, description, class, and parent remain stale; the large folded-name candidate set consists of unrelated global `Lia` names.", "wikidata_qid": "Q10730384"},
-        {"candidate_qids_checked": ["Q1931412", "Q16480210"], "local_id": "w-19501-2025-07-01", "mapping_note": "current Bến Hải xã page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current `Bến Hải (xã)` page identifies the 2025 Quảng Trị commune but has no Wikibase item. Q1931412 is the river and Q16480210 is the former district.", "wikidata_qid": ""},
-        {"candidate_qids_checked": ["Q1626571"], "local_id": "w-19537-2025-07-01", "mapping_note": "current Cồn Tiên commune page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Cồn Tiên page identifies the 2025 Quảng Trị commune but has no Wikibase item. Q1626571 represents the separate military base article.", "wikidata_qid": ""},
-        {"candidate_qids_checked": ["Q7841465"], "local_id": "w-19624-2025-07-01", "mapping_note": "current Triệu Phong xã page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current `Triệu Phong (xã)` page identifies the 2025 Quảng Trị commune but has no Wikibase item. Q7841465 is the former district.", "wikidata_qid": ""}
+        {"candidate_qids_checked": ["Q1931412", "Q16480210"], "local_id": "w-19501-2025-07-01", "mapping_note": "created as Q141267113 via QuickStatements batch #270342; Bến Hải (xã) sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "The current `Bến Hải (xã)` page identifies the 2025 Quảng Trị commune but has no Wikibase item. Q1931412 is the river and Q16480210 is the former district.", "wikidata_qid": "Q141267113", "qid_status": "new"},
+        {"candidate_qids_checked": ["Q1626571"], "local_id": "w-19537-2025-07-01", "mapping_note": "created as Q141267114 via QuickStatements batch #270342; Cồn Tiên sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "The current Cồn Tiên page identifies the 2025 Quảng Trị commune but has no Wikibase item. Q1626571 represents the separate military base article.", "wikidata_qid": "Q141267114", "qid_status": "new"},
+        {"candidate_qids_checked": ["Q7841465"], "local_id": "w-19624-2025-07-01", "mapping_note": "created as Q141267115 via QuickStatements batch #270342; Triệu Phong (xã) sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "The current `Triệu Phong (xã)` page identifies the 2025 Quảng Trị commune but has no Wikibase item. Q7841465 is the former district.", "wikidata_qid": "Q141267115", "qid_status": "new"}
       ],
       "reviewed_at": "2026-09-02T21:55:00Z",
       "selection": {"input_status": "needs-lookup", "limit": 10, "order": "local_id", "starting_unresolved": 237},
@@ -6229,12 +6348,12 @@
     {
       "batch_id": "2026-09-02.59",
       "decisions": [
-        {"candidate_qids_checked": [], "local_id": "w-19645-2025-07-01", "mapping_note": "current Triệu Bình page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Triệu Bình page identifies the 2025 Quảng Trị commune and its predecessor composition but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": [], "local_id": "w-19645-2025-07-01", "mapping_note": "created as Q141267116 via QuickStatements batch #270342; Triệu Bình sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "The current Triệu Bình page identifies the 2025 Quảng Trị commune and its predecessor composition but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": "Q141267116", "qid_status": "new"},
         {"candidate_qids_checked": ["Q1035346", "Q137384948"], "local_id": "w-19654-2025-07-01", "mapping_note": "current Triệu Cơ xã page selects Q137384948", "outcome": "assign", "rationale": "Q137384948 owns the current `Triệu Cơ (xã)` page and its label, description, and article identify the Quảng Trị commune. Q1035346 is a historical person; structured class and parent are absent on the selected item.", "wikidata_qid": "Q137384948"},
         {"candidate_qids_checked": ["Q675319", "Q1151727", "Q1307088", "Q1335184", "Q5369511", "Q11131767", "Q10771723"], "local_id": "w-19699-2025-07-01", "mapping_note": "current Vĩnh Định page selects legacy item Q10771723", "outcome": "assign", "rationale": "Q10771723 owns the current Vĩnh Định page and represents the legacy Hải Vĩnh identity. Its label, class, and parent remain stale and its Vietnamese description is absent; the other candidates are foreign or historical entities, a river, and a disambiguation item.", "wikidata_qid": "Q10771723"},
-        {"candidate_qids_checked": [], "local_id": "w-19735-2025-07-01", "mapping_note": "current Nam Hải Lăng page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Nam Hải Lăng page identifies the 2025 Quảng Trị commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": [], "local_id": "w-19735-2025-07-01", "mapping_note": "created as Q141267118 via QuickStatements batch #270342; Nam Hải Lăng sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "The current Nam Hải Lăng page identifies the 2025 Quảng Trị commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": "Q141267118", "qid_status": "new"},
         {"candidate_qids_checked": ["Q10805424", "Q136735927"], "local_id": "w-19831-2025-07-01", "mapping_note": "current Phong Dinh phường page selects Q136735927", "outcome": "assign", "rationale": "Q136735927 owns the current `Phong Dinh (phường)` page and its label, description, and article identify the Huế ward. Q10805424 is the former province; structured class and parent are absent on the selected item.", "wikidata_qid": "Q136735927"},
-        {"candidate_qids_checked": [], "local_id": "w-19885-2025-07-01", "mapping_note": "current Đan Điền page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Đan Điền page identifies the 2025 Huế commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": [], "local_id": "w-19885-2025-07-01", "mapping_note": "created as Q141267119 via QuickStatements batch #270342; Đan Điền sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "The current Đan Điền page identifies the 2025 Huế commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": "Q141267119", "qid_status": "new"},
         {"candidate_qids_checked": ["Q10730373"], "local_id": "w-20044-2025-07-01", "mapping_note": "current A Lưới 2 page selects legacy item Q10730373", "outcome": "assign", "rationale": "Q10730373 owns the current A Lưới 2 page and its description identifies a Huế commune. Its label, class, and parent remain tied to the former A Lưới town-level identity.", "wikidata_qid": "Q10730373"},
         {"candidate_qids_checked": ["Q10772126"], "local_id": "w-20050-2025-07-01", "mapping_note": "current A Lưới 5 page selects predecessor item Q10772126", "outcome": "assign", "rationale": "Q10772126 owns the current A Lưới 5 page and represents predecessor Hồng Hạ. Its label, class, and parent remain stale although its description identifies a Huế commune.", "wikidata_qid": "Q10772126"},
         {"candidate_qids_checked": ["Q10772218"], "local_id": "w-20056-2025-07-01", "mapping_note": "current A Lưới 1 page selects legacy item Q10772218", "outcome": "assign", "rationale": "Q10772218 owns the current A Lưới 1 page and represents the legacy Hồng Trung identity. Its label, class, and parent remain stale although its description identifies a Huế commune.", "wikidata_qid": "Q10772218"},
@@ -6295,13 +6414,13 @@
     {
       "batch_id": "2026-09-02.62",
       "decisions": [
-        {"candidate_qids_checked": [], "local_id": "w-22114-2025-07-01", "mapping_note": "current Tuy An Bắc page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Tuy An Bắc page identifies the 2025 Đắk Lắk commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": [], "local_id": "w-22114-2025-07-01", "mapping_note": "created as Q141267122 via QuickStatements batch #270342; Tuy An Bắc sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "The current Tuy An Bắc page identifies the 2025 Đắk Lắk commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": "Q141267122", "qid_status": "new"},
         {"candidate_qids_checked": ["Q10733268"], "local_id": "w-22120-2025-07-01", "mapping_note": "current Tuy An Đông page selects predecessor item Q10733268", "outcome": "assign", "rationale": "Q10733268 owns the current Tuy An Đông page and represents predecessor An Ninh Tây. Its label, description, class, and parent remain stale.", "wikidata_qid": "Q10733268"},
         {"candidate_qids_checked": ["Q10733253"], "local_id": "w-22132-2025-07-01", "mapping_note": "current Tuy An Tây page selects predecessor item Q10733253", "outcome": "assign", "rationale": "Q10733253 owns the current Tuy An Tây page and represents predecessor An Nghiệp. Its label, description, class, and parent remain stale.", "wikidata_qid": "Q10733253"},
         {"candidate_qids_checked": ["Q10733161"], "local_id": "w-22147-2025-07-01", "mapping_note": "current Ô Loan page selects predecessor item Q10733161", "outcome": "assign", "rationale": "Q10733161 owns the current Ô Loan page and represents predecessor An Hiệp. Its label, description, class, and parent remain stale.", "wikidata_qid": "Q10733161"},
         {"candidate_qids_checked": ["Q10733248"], "local_id": "w-22153-2025-07-01", "mapping_note": "current Tuy An Nam page selects predecessor item Q10733248", "outcome": "assign", "rationale": "Q10733248 owns the current Tuy An Nam page and represents predecessor An Mỹ. Its label, description, class, and parent remain stale.", "wikidata_qid": "Q10733248"},
-        {"candidate_qids_checked": [], "local_id": "w-22303-2025-07-01", "mapping_note": "current Phú Hòa 2 page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Phú Hòa 2 page identifies the 2025 Đắk Lắk commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
-        {"candidate_qids_checked": [], "local_id": "w-22319-2025-07-01", "mapping_note": "current Phú Hòa 1 page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Phú Hòa 1 page identifies the 2025 Đắk Lắk commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": [], "local_id": "w-22303-2025-07-01", "mapping_note": "created as Q141267124 via QuickStatements batch #270342; Phú Hòa 2 sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "The current Phú Hòa 2 page identifies the 2025 Đắk Lắk commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": "Q141267124", "qid_status": "new"},
+        {"candidate_qids_checked": [], "local_id": "w-22319-2025-07-01", "mapping_note": "created as Q141267125 via QuickStatements batch #270342; Phú Hòa 1 sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "The current Phú Hòa 1 page identifies the 2025 Đắk Lắk commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": "Q141267125", "qid_status": "new"},
         {"candidate_qids_checked": ["Q138636916"], "local_id": "w-22333-2025-07-01", "mapping_note": "current Bắc Nha Trang page selects Q138636916", "outcome": "assign", "rationale": "Q138636916 owns the current Bắc Nha Trang page and its label, description, and article identify the Khánh Hòa ward. Structured class and parent are absent.", "wikidata_qid": "Q138636916"},
         {"candidate_qids_checked": ["Q19491", "Q10822636", "Q103959821", "Q111387179", "Q136039256", "Q138640987"], "local_id": "w-22366-2025-07-01", "mapping_note": "current Nha Trang phường page selects Q138640987", "outcome": "assign", "rationale": "Q138640987 owns the current `Nha Trang (phường)` page and its label, description, and article identify the Khánh Hòa ward. Q19491 is the former city and the other candidates are unrelated or differently scoped; structured parent is absent and the selected item's class is the commune class rather than the ward class.", "wikidata_qid": "Q138640987"},
         {"candidate_qids_checked": ["Q138642399"], "local_id": "w-22390-2025-07-01", "mapping_note": "current Tây Nha Trang page selects Q138642399", "outcome": "assign", "rationale": "Q138642399 owns the current Tây Nha Trang page and its label, description, and article identify the Khánh Hòa ward. Structured class and parent are absent.", "wikidata_qid": "Q138642399"}
@@ -6347,7 +6466,7 @@
         {"candidate_qids_checked": ["Q6438916", "Q10781866"], "local_id": "w-24448-2025-07-01", "mapping_note": "current Krông Bông xã page selects predecessor item Q10781866", "outcome": "assign", "rationale": "Q10781866 owns the current `Krông Bông (xã)` page and represents predecessor Krông Kmar. Its label, town class, parent, and Vietnamese description remain stale. Q6438916 is the former district.", "wikidata_qid": "Q10781866"},
         {"candidate_qids_checked": ["Q6438923", "Q10806374"], "local_id": "w-24490-2025-07-01", "mapping_note": "current Krông Pắc xã page selects predecessor item Q10806374", "outcome": "assign", "rationale": "Q10806374 owns the current `Krông Pắc (xã)` page and represents predecessor Phước An. Its label, description, town class, and parent remain stale. Q6438923 is the former district.", "wikidata_qid": "Q10806374"},
         {"candidate_qids_checked": ["Q6438915", "Q5003626"], "local_id": "w-24538-2025-07-01", "mapping_note": "current Krông Ana xã page selects predecessor item Q5003626", "outcome": "assign", "rationale": "Q5003626 owns the current `Krông Ana (xã)` page and represents predecessor Buôn Trấp. Its label, town class, parent, and Vietnamese description remain stale. Q6438915 is the former district.", "wikidata_qid": "Q5003626"},
-        {"candidate_qids_checked": [], "local_id": "w-24580-2025-07-01", "mapping_note": "current Liên Sơn Lắk page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Liên Sơn Lắk page identifies the 2025 Đắk Lắk commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": [], "local_id": "w-24580-2025-07-01", "mapping_note": "created as Q141267126 via QuickStatements batch #270342; Liên Sơn Lắk sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "The current Liên Sơn Lắk page identifies the 2025 Đắk Lắk commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": "Q141267126", "qid_status": "new"},
         {"candidate_qids_checked": ["Q10798888"], "local_id": "w-24611-2025-07-01", "mapping_note": "current Bắc Gia Nghĩa page selects predecessor item Q10798888", "outcome": "assign", "rationale": "Q10798888 owns the current Bắc Gia Nghĩa page and represents predecessor Nghĩa Đức. Its label, description, class, and parents remain stale.", "wikidata_qid": "Q10798888"}
       ],
       "reviewed_at": "2026-09-02T22:44:00Z",
@@ -6362,7 +6481,7 @@
       "batch_id": "2026-09-02.65",
       "decisions": [
         {"candidate_qids_checked": ["Q10798854"], "local_id": "w-24617-2025-07-01", "mapping_note": "current Đông Gia Nghĩa page selects predecessor item Q10798854", "outcome": "assign", "rationale": "Q10798854 owns the current Đông Gia Nghĩa page and represents predecessor Nghĩa Trung. Its label, description, class, and parents remain stale.", "wikidata_qid": "Q10798854"},
-        {"candidate_qids_checked": [], "local_id": "w-24637-2025-07-01", "mapping_note": "current Tà Đùng page has no Wikibase item", "outcome": "retain-unresolved", "rationale": "The current Tà Đùng page identifies the 2025 Lâm Đồng commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": ""},
+        {"candidate_qids_checked": [], "local_id": "w-24637-2025-07-01", "mapping_note": "created as Q141267127 via QuickStatements batch #270342; Tà Đùng sitelink verified 2026-09-03T20:38:37Z", "outcome": "assign", "rationale": "The current Tà Đùng page identifies the 2025 Lâm Đồng commune but has no Wikibase item and no plausible saved candidate.", "wikidata_qid": "Q141267127", "qid_status": "new"},
         {"candidate_qids_checked": ["Q5191802", "Q137214413"], "local_id": "w-24640-2025-07-01", "mapping_note": "current Cư Jút xã page selects Q137214413", "outcome": "assign", "rationale": "Q137214413 owns the current `Cư Jút (xã)` page and its labels and article identify the Lâm Đồng commune. Q5191802 is the former district; structured class, parent, and Vietnamese description are absent on the selected item.", "wikidata_qid": "Q137214413"},
         {"candidate_qids_checked": ["Q1201296", "Q7857219", "Q137214380"], "local_id": "w-24739-2025-07-01", "mapping_note": "current Tuy Đức xã page selects Q137214380", "outcome": "assign", "rationale": "Q137214380 owns the current `Tuy Đức (xã)` page and its labels and article identify the Lâm Đồng commune. Q7857219 is the former district and Q1201296 is a Chinese county; structured class, parent, and Vietnamese description are absent on the selected item.", "wikidata_qid": "Q137214380"},
         {"candidate_qids_checked": ["Q10767679"], "local_id": "w-29455-2025-07-01", "mapping_note": "current Hiệp Mỹ page selects predecessor item Q10767679", "outcome": "assign", "rationale": "Q10767679 owns the current Hiệp Mỹ page and represents predecessor Hiệp Mỹ Tây. Its label, class, and parent remain stale and its Vietnamese description is absent.", "wikidata_qid": "Q10767679"},

@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "batch": {
+    "id": 270387,
+    "url": "https://quickstatements.toolforge.org/#/batch/270387",
+    "name": "Vietnam create current wards 2",
+    "user_name": "Thanhoangviet",
+    "site": "wikidata",
+    "created_at": "2026-09-03T21:05:36Z",
+    "last_changed_at": "2026-09-03T21:07:23Z",
+    "status": "DONE",
+    "last_item": "Q141270382",
+    "command_status_counts": {
+      "DONE": 6
+    }
+  },
+  "verification": {
+    "verified_at": "2026-09-03T21:08:19Z",
+    "quickstatements_api": "https://quickstatements.toolforge.org/api.php?action=get_batch_info&batch=270387",
+    "wikidata_creation_log": "https://www.wikidata.org/w/api.php?action=query&list=usercontribs&ucuser=Thanhoangviet",
+    "wikidata_entity_api": "https://www.wikidata.org/w/api.php?action=wbgetentities",
+    "method": "require six batch-tagged item creations, then verify each entity's Vietnamese label, description, unique viwiki sitelink, ward class, Nghệ An parent, and exact inception date"
+  },
+  "audit": {
+    "proposed_items": 6,
+    "batch_created_items": 6,
+    "errors": 0,
+    "unique_created_qids": 6,
+    "all_entities_verified": true
+  },
+  "items": [
+    {
+      "sequence": 1,
+      "command_number": 0,
+      "local_id": "w-17818-2025-07-01",
+      "gso_code": "17818",
+      "name_vi": "Xã Bích Hào",
+      "loai_hinh": "Xã",
+      "parent_code": "40",
+      "parent_name_vi": "Tỉnh Nghệ An",
+      "viwiki_title": "Bích Hào",
+      "quickstatements_status": "DONE",
+      "wikidata_qid": "Q141270377",
+      "qid_status": "new"
+    },
+    {
+      "sequence": 2,
+      "command_number": 1,
+      "local_id": "w-17827-2025-07-01",
+      "gso_code": "17827",
+      "name_vi": "Xã Nghi Lộc",
+      "loai_hinh": "Xã",
+      "parent_code": "40",
+      "parent_name_vi": "Tỉnh Nghệ An",
+      "viwiki_title": "Nghi Lộc (xã)",
+      "quickstatements_status": "DONE",
+      "wikidata_qid": "Q141270378",
+      "qid_status": "new"
+    },
+    {
+      "sequence": 3,
+      "command_number": 2,
+      "local_id": "w-17833-2025-07-01",
+      "gso_code": "17833",
+      "name_vi": "Xã Hải Lộc",
+      "loai_hinh": "Xã",
+      "parent_code": "40",
+      "parent_name_vi": "Tỉnh Nghệ An",
+      "viwiki_title": "Hải Lộc",
+      "quickstatements_status": "DONE",
+      "wikidata_qid": "Q141270379",
+      "qid_status": "new"
+    },
+    {
+      "sequence": 4,
+      "command_number": 3,
+      "local_id": "w-17854-2025-07-01",
+      "gso_code": "17854",
+      "name_vi": "Xã Văn Kiều",
+      "loai_hinh": "Xã",
+      "parent_code": "40",
+      "parent_name_vi": "Tỉnh Nghệ An",
+      "viwiki_title": "Văn Kiều",
+      "quickstatements_status": "DONE",
+      "wikidata_qid": "Q141270380",
+      "qid_status": "new"
+    },
+    {
+      "sequence": 5,
+      "command_number": 4,
+      "local_id": "w-17878-2025-07-01",
+      "gso_code": "17878",
+      "name_vi": "Xã Đông Lộc",
+      "loai_hinh": "Xã",
+      "parent_code": "40",
+      "parent_name_vi": "Tỉnh Nghệ An",
+      "viwiki_title": "Đông Lộc",
+      "quickstatements_status": "DONE",
+      "wikidata_qid": "Q141270381",
+      "qid_status": "new"
+    },
+    {
+      "sequence": 6,
+      "command_number": 5,
+      "local_id": "w-17920-2025-07-01",
+      "gso_code": "17920",
+      "name_vi": "Phường Vinh Hưng",
+      "loai_hinh": "Phường",
+      "parent_code": "40",
+      "parent_name_vi": "Tỉnh Nghệ An",
+      "viwiki_title": "Vinh Hưng",
+      "quickstatements_status": "DONE",
+      "wikidata_qid": "Q141270382",
+      "qid_status": "new"
+    }
+  ]
+}
