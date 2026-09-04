@@ -17,6 +17,35 @@ manifest and preflight are in `../data/ward-wikidata-create-current.json` and
 blocked until the 10,035 immediate pre-2025 predecessors are reconciled; see
 `../data/ward-wikidata-emission-readiness.json`.
 
+## Prepared, not uploaded
+
+`na-wards-create-predecessors.qs` contains one consolidated draft for the 3,879
+immediate pre-2025 ward predecessors for which the automated passes found no
+acceptable distinct Wikidata item. That is not yet proof that every item is
+absent. The
+two-stage reconciliation assigned 6,154 predecessor QIDs automatically and two
+manually; the CREATE manifest retains the candidate and current-QID exclusions
+for every remaining row. Do not upload this draft yet.
+
+The saved unrestricted QLever preflight leaves no unresolved machine candidate.
+Five reproducible random batches of ten rows must also be reviewed and recorded
+before upload authorization. After that audit, refresh the live evidence and
+enforce the 24-hour gate immediately before any upload:
+
+```sh
+uv run python -m vn_admin_units.ward_reconcile_predecessors_broad \
+  --fetch --verify --audit
+uv run python -m vn_admin_units.ward_emit_predecessor_create --audit
+uv run python -m vn_admin_units.ward_emit_predecessor_create \
+  --check --audit --require-upload-ready --max-preflight-age-hours 24
+```
+
+After upload, ingest every returned QID into `mappings/wards-qid.csv` and
+regenerate so this file becomes empty. Only then may the ward lineage package
+be emitted. The manifest and preflight are
+`../data/ward-wikidata-create-predecessors.json` and
+`../data/ward-wikidata-create-predecessors-preflight.json`.
+
 ## Uploaded
 
 | File | Uploaded | Batch | Ops | Errors | Description |

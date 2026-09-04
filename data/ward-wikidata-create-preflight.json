@@ -7,20 +7,20 @@
     "wikidata_write_performed": false
   },
   "input_fingerprints": {
-    "data/ward-wikidata-create-current.json": "41751bb0f7a450be4d59d3bf6f6e72b03a8e4d5cdd562dcd544b048c8ff9a0bf",
-    "mappings/wards-qid.csv": "9287b009874214db0022e790e9a831223c7527ae020026c6df59c36749a4adac",
+    "data/ward-wikidata-create-current.json": "4748837e8b9ead12d9df7c52f0c7d93e6395202fd638fc5d9fc22227be722201",
+    "mappings/wards-qid.csv": "b28f9085089007c5a106ee21169dc50a5b49e7ad2decdd1e6c9108e93a8ecedc",
     "data/ward-wikidata-review-decisions.json": "c2e4f77e2d8cddb1ab6e0f419b722e1eb00154c6415ad2d9c969c55a9c943ef6",
     "data/ward-wikidata-create-preflight-decisions.json": "d21a3a585e5ffeef79b2c38d2451a315098139807775e31fceaf63884dedf5d9",
     "queries/ward-wikidata-create-preflight.rq": "d18c0f6b2806a3a94e73461bfafc35f415b429981d15b8ad7c487fbf1c36e2f2"
   },
   "sources": {
-    "retrieved_at": "2026-09-03T21:11:24Z",
+    "retrieved_at": "2026-09-04T14:14:06Z",
     "qlever": {
       "endpoint": "https://qlever.dev/api/wikidata",
       "query_path": "queries/ward-wikidata-create-preflight.rq",
       "query_sha256": "d18c0f6b2806a3a94e73461bfafc35f415b429981d15b8ad7c487fbf1c36e2f2",
       "query_meta": {
-        "query-time-ms": 7,
+        "query-time-ms": 41,
         "result-size-total": 0
       }
     },

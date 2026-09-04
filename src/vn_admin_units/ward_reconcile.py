@@ -421,14 +421,38 @@ def build_parent_qid_index(
 
 def build_district_qid_index(
     mapping_path: Path = DISTRICT_MAPPING,
+    ward_history_path: Path | None = WARD_HISTORY,
 ) -> dict[str, set[str]]:
-    """Map former district QIDs to their terminal three-digit codes."""
+    """Map former district QIDs to terminal and uniquely named successor codes."""
     indexed: dict[str, set[str]] = defaultdict(set)
-    for row in _read_csv(mapping_path):
+    mapping_rows = _read_csv(mapping_path)
+    by_identity: dict[tuple[str, str], set[str]] = defaultdict(set)
+    for row in mapping_rows:
         qid = row.get("wikidata_qid", "")
         code = row.get("terminal_code", "")
         if qid and code:
             indexed[qid].add(code)
+            by_identity[
+                (
+                    " ".join(row.get("name_vi", "").casefold().split()),
+                    row.get("parent_code", ""),
+                )
+            ].add(qid)
+    if ward_history_path is not None and ward_history_path.is_file():
+        history = json.loads(ward_history_path.read_text(encoding="utf-8"))
+        for entity in history["entities"]:
+            parent_spans = entity.get("parent_spans", [])
+            province_spans = entity.get("province_echo_spans", [])
+            if not parent_spans or not province_spans:
+                continue
+            parent = parent_spans[-1]
+            identity = (
+                " ".join(parent.get("name_vi", "").casefold().split()),
+                province_spans[-1].get("code", ""),
+            )
+            qids = by_identity.get(identity, set())
+            if len(qids) == 1:
+                indexed[next(iter(qids))].add(parent["code"])
     return dict(indexed)
 
 
@@ -685,13 +709,20 @@ def build_mapping_rows(
         row = _base_mapping_row(entity)
         old = prior.get(entity["local_id"], {})
         if not _is_current(entity):
-            if old.get("wikidata_qid") and old.get("match_status") in {
-                "verified", "manual",
-            }:
+            keep_historical = (
+                old.get("wikidata_qid")
+                and old.get("match_status") in {"verified", "manual"}
+            ) or (
+                not old.get("wikidata_qid") and old.get("match_status") == "gap"
+            )
+            if keep_historical:
                 row.update({
                     "wikidata_qid": old["wikidata_qid"],
-                    "qid_status": old.get("qid_status") or "existing",
+                    "qid_status": old.get("qid_status") or (
+                        "new" if old.get("match_status") == "gap" else "existing"
+                    ),
                     "match_status": old["match_status"],
+                    "candidate_qids": old.get("candidate_qids", ""),
                     "match_notes": old.get("match_notes", "human-locked"),
                 })
             else:
@@ -914,6 +945,11 @@ def audit_mapping(
         decision.get("wikidata_qid", "")
         for _, decision in decisions.values()
         if decision.get("wikidata_qid")
+    )
+    candidate_ids.update(
+        row["wikidata_qid"]
+        for row in rows
+        if row["match_status"] == "verified" and row["wikidata_qid"]
     )
     broad_auto = {
         row["local_id"]: set(row.get("auto_candidate_qids", []))

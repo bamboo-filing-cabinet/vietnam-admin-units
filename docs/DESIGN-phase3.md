@@ -125,6 +125,15 @@
 > Current coverage is 3,321/3,321 and the regenerated CREATE package is empty;
 > see journals `2026-09-03.01` and `2026-09-03.02`.
 
+> **Update (2026-09-04): immediate-predecessor review is complete.** The saved
+> ward-class and unrestricted discovery passes assigned 6,154 QIDs
+> automatically; two ambiguous identities were resolved manually. The other
+> 3,879 predecessors are provisional former-item creation gaps: no acceptable
+> candidate survived the machine passes, but a five-by-ten random audit is
+> required before upload authorization. Lineage remains fail-closed until that
+> review passes, the batch is uploaded, and its QIDs are ingested; see journal
+> `2026-09-04.01`.
+
 Extends `DESIGN.md` (the overarching design + decisions log). **Phase 1**
 delivered the *2025-reform province slice* (`docs/plans/2026-07-10-phase1-
 province-wikidata.md`). **Phase 2** is everything needed to reach the full

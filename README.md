@@ -122,11 +122,22 @@ batch may be replayed. The current empty preflight and its concrete query remain
 in `data/ward-wikidata-create-preflight.json` and
 `queries/ward-wikidata-create-preflight.rq`.
 
-Full 2025 lineage emission is not ready: all 11,223 historical mapping rows were
-intentionally deferred, including all 10,035 immediate reform predecessors.
-Consequently 0/10,586 reform edges have both endpoint QIDs. The fail-closed
-status is saved in `data/ward-wikidata-emission-readiness.json`; next implement
-the bulk predecessor-reconciliation slice in
+The immediate-predecessor reconciliation is also review-complete. One offline
+folded-name/district reduction shortlisted 6,171 QIDs for batched Action API
+verification and assigned 6,100 predecessors. An unrestricted saved QLever
+query then checked 11,853 exact label/alias terms in 5.5 seconds, reduced 10,926
+candidate items to 75 live checks, and assigned 54 more. Two final identity
+choices were recorded manually. This gives 6,156/10,035 predecessor QIDs and
+6,479/10,586 lineage edges with both endpoints.
+
+The remaining 3,879 predecessors are provisional former-item creation gaps:
+the automated passes found no acceptable existing match, which is not by
+itself proof that every item is absent from Wikidata. Their consolidated,
+referenced draft is in `statements/na-wards-create-predecessors.qs`. Its
+machine preflight has no unresolved exact-name/district candidate, but the file
+must not be uploaded until the recorded five-by-ten random audit is complete.
+The fail-closed status remains in `data/ward-wikidata-emission-readiness.json`;
+see
 [`docs/plans/2026-09-02-phase3-ward-wikidata-emission.md`](docs/plans/2026-09-02-phase3-ward-wikidata-emission.md).
 See the initial
 [reconciliation journal](docs/journals/2026-09-01.05.ward-wikidata-reconciliation.md),
@@ -138,6 +149,10 @@ and run:
 
 ```sh
 uv run python -m vn_admin_units.ward_reconcile_broad --check --audit
+uv run python -m vn_admin_units.ward_reconcile_predecessors --check --audit
+uv run python -m vn_admin_units.ward_reconcile_predecessors_broad --check --audit
+uv run python -m vn_admin_units.ward_emit_predecessor_create \
+  --check --audit --require-upload-ready --max-preflight-age-hours 24
 uv run python -m vn_admin_units.ward_reconcile --check --audit
 uv run python -m vn_admin_units.ward_create_preflight --check --audit
 uv run python -m vn_admin_units.ward_emit --check --audit

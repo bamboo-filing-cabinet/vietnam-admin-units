@@ -14,11 +14,21 @@ from vn_admin_units.ward_reconcile import (
     WARD_HISTORY,
     audit_mapping,
     build_mapping_rows,
+    build_district_qid_index,
     build_parent_qid_index,
     current_candidate_qids,
     fetch_action_api_entities,
     parse_qlever_candidates,
     serialize_mapping,
+)
+from vn_admin_units.ward_reconcile_predecessors import (
+    ARTIFACT_PATH as PREDECESSOR_ARTIFACT,
+    BROAD_ARTIFACT_PATH as PREDECESSOR_BROAD_ARTIFACT,
+    CREATION_MANIFEST_PATH as PREDECESSOR_CREATION_MANIFEST,
+    REVIEW_DECISIONS_PATH as PREDECESSOR_REVIEW_DECISIONS,
+    apply_creation_gaps as apply_predecessor_creation_gaps,
+    apply_matches as apply_predecessor_matches,
+    apply_review_decisions as apply_predecessor_review_decisions,
 )
 
 
@@ -154,6 +164,25 @@ def test_parent_index_maps_stale_province_and_district_qids_to_current(tmp_path:
     }
 
 
+def test_district_index_adds_unique_name_and_province_code_alias(tmp_path: Path):
+    mapping = tmp_path / "districts.csv"
+    mapping.write_text(
+        "local_id,terminal_code,name_vi,parent_code,wikidata_qid\n"
+        "d-town,447,Thị xã Kỳ Anh,42,Q1\n"
+        "d-county,447,Huyện Kỳ Anh,42,Q2\n",
+        encoding="utf-8",
+    )
+    history = tmp_path / "ward-history.json"
+    history.write_text(json.dumps({"entities": [{
+        "parent_spans": [{"code": "449", "name_vi": "Thị xã Kỳ Anh"}],
+        "province_echo_spans": [{"code": "42"}],
+    }]}), encoding="utf-8")
+
+    index = build_district_qid_index(mapping, history)
+
+    assert index == {"Q1": {"447", "449"}, "Q2": {"447"}}
+
+
 def test_mapping_requires_batched_api_name_tier_parent_and_active_evidence():
     history = {"entities": [
         _entity("w-1-2025-07-01", "00001", "Xã Tân Phú", "75"),
@@ -219,6 +248,35 @@ def test_mapping_keeps_a_qid_shared_by_current_rows_unassigned():
     assert {row["match_status"] for row in rows} == {"ambiguous"}
     assert {row["wikidata_qid"] for row in rows} == {""}
     assert all("candidate Q1 also matches" in row["match_notes"] for row in rows)
+
+
+def test_audit_accepts_dedicated_historical_verified_candidate():
+    history = {"entities": [
+        _entity(
+            "w-old-base", "90001", "Xã Cũ", "001",
+            valid_from=None, valid_to="2025-06-30",
+        ),
+    ]}
+    rows = build_mapping_rows(
+        history, _artifact([]), {}, prior_rows=[{
+            "local_id": "w-old-base",
+            "terminal_code": "90001",
+            "name_vi": "Xã Cũ",
+            "loai_hinh": "Xã",
+            "parent_code": "001",
+            "valid_from": "",
+            "valid_to": "2025-06-30",
+            "wikidata_qid": "Q99",
+            "qid_status": "existing",
+            "match_status": "verified",
+            "candidate_qids": "Q99",
+            "match_notes": "dedicated predecessor verification",
+        }],
+    )
+
+    result = audit_mapping(history, _artifact([]), rows)
+
+    assert not any(issue.startswith("UNKNOWN-CANDIDATE") for issue in result["issues"])
 
 
 def test_mapping_uses_predecessor_district_to_break_current_ambiguity():
@@ -439,12 +497,30 @@ def test_saved_snapshot_cache_and_mapping_are_reproducible():
         broad_artifact=broad,
         review_decisions=review_decisions,
     )
+    rows = apply_predecessor_matches(
+        rows,
+        json.loads(PREDECESSOR_ARTIFACT.read_text(encoding="utf-8")),
+    )
+    rows = apply_predecessor_matches(
+        rows,
+        json.loads(PREDECESSOR_BROAD_ARTIFACT.read_text(encoding="utf-8")),
+    )
+    rows = apply_predecessor_review_decisions(
+        rows,
+        json.loads(PREDECESSOR_REVIEW_DECISIONS.read_text(encoding="utf-8")),
+    )
+    rows = apply_predecessor_creation_gaps(
+        rows,
+        json.loads(PREDECESSOR_CREATION_MANIFEST.read_text(encoding="utf-8")),
+    )
     assert MAPPING.read_text(encoding="utf-8") == serialize_mapping(rows)
     audit = audit_mapping(history, artifact, rows, broad, review_decisions)
     assert audit["summary"]["status_counts"] == {
-        "deferred-historical": 11223,
-        "manual": 654,
+        "deferred-historical": 1188,
+        "gap": 3879,
+        "manual": 656,
         "matched": 2667,
+        "verified": 6154,
     }
     assert audit["summary"]["review_decisions"] == 654
     assert audit["summary"]["current_fold_collisions"] == 10

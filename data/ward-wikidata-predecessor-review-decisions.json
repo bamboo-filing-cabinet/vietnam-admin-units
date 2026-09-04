@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "scope": {
+    "tier": "ward",
+    "effective_date": "2025-07-01",
+    "purpose": "manual_predecessor_identity_decisions",
+    "wikidata_write_performed": false
+  },
+  "batches": [
+    {
+      "batch_id": "2026-09-04.01",
+      "decisions": [
+        {
+          "local_id": "w-31115-2005-08-10",
+          "name_vi": "Xã Nam Du",
+          "outcome": "assign",
+          "wikidata_qid": "Q10830340",
+          "candidate_qids_checked": [
+            "Q10797040",
+            "Q10830340"
+          ],
+          "mapping_note": "Q10830340 is the commune item with alias Xã Nam Du, parent Kiên Hải, and coordinates at its Hòn Ngang administrative seat; Q10797040 is the Nam Du archipelago and carries a non-identity commune type",
+          "evidence": {
+            "selected_viwiki_title": "Hòn Ngang",
+            "rejected_viwiki_title": "Quần đảo Nam Du",
+            "official_planning_url": "https://kienhai.angiang.gov.vn/sites/default/files/OldFiles/BAN%20DO%20NAM%20DU%201620x840.pdf",
+            "wikidata_verified_at": "2026-09-04T13:58:14Z"
+          }
+        },
+        {
+          "local_id": "w-6030527-base",
+          "name_vi": "Xã Glar",
+          "outcome": "assign",
+          "wikidata_qid": "Q16480277",
+          "candidate_qids_checked": [
+            "Q16480277",
+            "Q86007589"
+          ],
+          "mapping_note": "Q16480277 is the older geolocated commune item associated with the official GLar spelling; Q86007589 is a later duplicate imported from the alternate Glar title",
+          "evidence": {
+            "selected_original_viwiki_title": "GLar",
+            "selected_viwiki_first_revision": "2015-09-01T01:46:33Z",
+            "duplicate_original_viwiki_title": "Glar",
+            "duplicate_viwiki_first_revision": "2012-04-22T16:30:42Z",
+            "selected_wikidata_created_at": "2014-04-20T08:23:50Z",
+            "duplicate_wikidata_created_at": "2020-02-22T23:49:34Z",
+            "both_titles_redirect_to": "Đak Đoa (xã)",
+            "mediawiki_api_verified_at": "2026-09-04T13:58:14Z"
+          }
+        }
+      ]
+    }
+  ]
+}

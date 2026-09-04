@@ -75,7 +75,7 @@ recorded as `new`, the mapping resolves all 3,321 current wards, and the
 regenerated CREATE package is empty. See
 `data/ward-wikidata-create-batch-270387.json` and journal `2026-09-03.02`.
 
-### W2 — immediate predecessor reconciliation (next implementation slice)
+### W2 — immediate predecessor reconciliation (review complete; CREATE pending)
 
 Reconcile the 10,035 distinct predecessors used by the 2025 reform edges before
 attempting the broader 11,223-row historical backlog. This is the minimum
@@ -96,6 +96,23 @@ historical item exists.
 Persist automatic confidence, candidate evidence, and manual decisions exactly
 as the current reconciliation did. The hard gates are zero unknown candidates,
 zero QID collisions, and zero unresolved predecessor endpoints.
+
+Implemented 2026-09-04. The ward-class pass reduced 10,035 predecessors to
+6,171 shortlisted QIDs and verified them in bounded Action API batches, yielding
+6,100 automatic matches. A saved unrestricted QLever query evaluated 11,853
+exact terms in 5.5 seconds, returned 10,926 items, reduced them to 75 live
+checks, and added 54 automatic matches. Manual review assigned Nam Du to
+Q10830340 and Glar to Q16480277. No assigned current QID was reused and no
+mapping collision remains.
+
+The remaining 3,879 rows are provisional distinct former-item gaps: no
+acceptable item survived the automated candidate passes, but absence is not
+yet proved. Their one-file draft and machine preflight are
+`statements/na-wards-create-predecessors.qs` and
+`data/ward-wikidata-create-predecessors-preflight.json`. Five reproducible
+random samples of ten rows must be reviewed before upload authorization. W2
+becomes endpoint-complete only after that review, upload, QID ingestion, and an
+empty regeneration.
 
 ### W3 — current enrichment delta
 
@@ -143,6 +160,7 @@ and a dated journal.
 
 ## Immediate next action
 
-Implement W2 as an extension of the existing bulk candidate/action-API
-reconciler. Start with an offline candidate-reduction report for the 10,035
-predecessors, then verify its shortlisted QIDs in bounded network batches.
+Review and record five reproducible random samples of ten provisional creation
+gaps. If the sample exposes missed duplicates, improve the reconciliation and
+rerun it before considering any upload. If it clears, refresh the 24-hour live
+gate and seek explicit upload authorization.
