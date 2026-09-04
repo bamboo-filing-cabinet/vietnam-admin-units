@@ -3,6 +3,7 @@ import json
 from pathlib import Path
 
 from vn_admin_units.ward_reconcile_predecessors import (
+    apply_creation_gaps,
     apply_matches,
     apply_review_decisions,
     audit,
@@ -233,6 +234,20 @@ def test_manual_predecessor_decision_assigns_checked_unique_qid():
     assert row["candidate_qids"] == "Q7|Q8"
 
 
+def test_stale_creation_gap_does_not_overwrite_later_review_assignment():
+    mapping = _mapping()
+    mapping[0].update({
+        "wikidata_qid": "Q8",
+        "qid_status": "existing",
+        "match_status": "manual",
+    })
+
+    rows = apply_creation_gaps(mapping, {"items": [{"local_id": "w-old-1"}]})
+
+    assert rows[0]["wikidata_qid"] == "Q8"
+    assert rows[0]["match_status"] == "manual"
+
+
 def test_verification_fetches_only_qids_missing_from_saved_api_evidence(tmp_path):
     history_path = tmp_path / "history.json"
     candidates_path = tmp_path / "candidates.json"
@@ -274,22 +289,22 @@ def test_committed_predecessor_artifact_is_complete_and_collision_free():
     assert artifact["audit"] == {
         "predecessor_rows": 10035,
         "current_assigned_qids": 3321,
-        "rows_with_current_qid_excluded": 4730,
-        "rows_with_name_candidate": 8527,
-        "rows_with_district_candidate": 6182,
-        "shortlisted_qids": 6171,
-        "api_verified_candidates": 6171,
-        "rows_with_verified_candidate": 6180,
-        "auto_matched_rows": 6100,
-        "unresolved_rows": 3935,
+        "rows_with_current_qid_excluded": 4729,
+        "rows_with_name_candidate": 8528,
+        "rows_with_district_candidate": 6183,
+        "shortlisted_qids": 6172,
+        "api_verified_candidates": 6172,
+        "rows_with_verified_candidate": 6181,
+        "auto_matched_rows": 6101,
+        "unresolved_rows": 3934,
         "classification_counts": {
             "ambiguous-verified-candidates": 32,
-            "current-item-repurposed": 1262,
+            "current-item-repurposed": 1261,
             "no-district-candidate": 2345,
             "no-name-candidate": 246,
             "qid-collision": 48,
             "verification-rejected": 2,
-            "verified-unique": 6100,
+            "verified-unique": 6101,
         },
     }
     assert not audit(artifact, mapping)

@@ -446,15 +446,20 @@ def apply_creation_gaps(mapping_rows: list[dict], manifest: dict) -> list[dict]:
     for item in manifest.get("items", []):
         local_id = item["local_id"]
         row = by_id.get(local_id)
-        if row is None or not row["valid_to"] or row["wikidata_qid"]:
+        if row is None or not row["valid_to"]:
             raise ValueError(f"invalid predecessor creation gap: {local_id}")
+        # A later review may resolve an item while the prior draft manifest is
+        # still present. Preserve the reviewed assignment; the CREATE emitter
+        # will then regenerate the manifest without this row.
+        if row["wikidata_qid"]:
+            continue
         row.update({
             "qid_status": "new",
             "match_status": "gap",
             "candidate_qids": "",
             "match_notes": (
-                "reviewed predecessor creation gap after ward-class and broad "
-                "district-scoped preflight"
+                "provisional predecessor creation gap after ward-class and "
+                "broad district-scoped preflight"
             ),
         })
     return rows

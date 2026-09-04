@@ -130,12 +130,14 @@ candidate items to 75 live checks, and assigned 54 more. Two final identity
 choices were recorded manually. This gives 6,156/10,035 predecessor QIDs and
 6,479/10,586 lineage edges with both endpoints.
 
-The remaining 3,879 predecessors are provisional former-item creation gaps:
-the automated passes found no acceptable existing match, which is not by
-itself proof that every item is absent from Wikidata. Their consolidated,
-referenced draft is in `statements/na-wards-create-predecessors.qs`. Its
-machine preflight has no unresolved exact-name/district candidate, but the file
-must not be uploaded until the recorded five-by-ten random audit is complete.
+The original remaining 3,879 predecessors were provisional former-item
+creation gaps: the automated passes found no acceptable existing match, which
+was not proof that every item was absent from Wikidata. A fixed-seed random
+audit of 50 rows found 14 existing predecessor items, including one current-QID
+mapping that had to be swapped. Those corrections raise predecessor coverage
+to 6,170/10,035 and leave 3,865 provisional gaps. The sampled miss rate is 28%,
+so `statements/na-wards-create-predecessors.qs` is explicitly blocked and must
+not be uploaded. Broader reconciliation must be improved and rerun first.
 The fail-closed status remains in `data/ward-wikidata-emission-readiness.json`;
 see
 [`docs/plans/2026-09-02-phase3-ward-wikidata-emission.md`](docs/plans/2026-09-02-phase3-ward-wikidata-emission.md).

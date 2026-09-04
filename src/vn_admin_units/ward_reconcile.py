@@ -951,6 +951,14 @@ def audit_mapping(
         for row in rows
         if row["match_status"] == "verified" and row["wikidata_qid"]
     )
+    # Historical manual decisions may come from a later targeted live audit
+    # rather than either committed bulk candidate corpus. Their checked QIDs
+    # are durable review evidence on the mapping row itself.
+    candidate_ids.update(
+        qid
+        for row in rows if row["match_status"] == "manual"
+        for qid in row["candidate_qids"].split("|") if _QID.fullmatch(qid)
+    )
     broad_auto = {
         row["local_id"]: set(row.get("auto_candidate_qids", []))
         for row in (broad_artifact or {}).get("review", [])

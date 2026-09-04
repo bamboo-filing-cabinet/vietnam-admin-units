@@ -6520,6 +6520,19 @@
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "query pageprops and extracts", "retrieved_at": "2026-09-02T23:02:00Z"},
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"}
       ]
+    },
+    {
+      "batch_id": "2026-09-04.67",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10787225", "Q135232457"], "local_id": "w-15634-2025-07-01", "mapping_note": "current Luận Thành page selects Q135232457; release Q10787225 to the pre-2025 predecessor", "outcome": "assign", "rationale": "Q135232457 owns the current Luận Thành article, whose introduction explicitly says the commune was established in 2025 from Xuân Cao, old Luận Thành, and part of Luận Khê. Q10787225 retains the old commune class, former Thường Xuân parent, aliases, and coordinates and therefore belongs to the sampled predecessor.", "wikidata_qid": "Q135232457"}
+      ],
+      "reviewed_at": "2026-09-04T15:36:18Z",
+      "selection": {"input_status": "random-predecessor-gap-audit", "sample_number": 46},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-04T15:36:18Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-04T15:36:18Z"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample.json", "role": "saved random-audit evidence"}
+      ]
     }
   ],
   "schema_version": 1,

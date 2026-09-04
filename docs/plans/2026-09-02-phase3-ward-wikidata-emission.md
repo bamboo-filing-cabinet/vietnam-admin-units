@@ -105,14 +105,16 @@ checks, and added 54 automatic matches. Manual review assigned Nam Du to
 Q10830340 and Glar to Q16480277. No assigned current QID was reused and no
 mapping collision remains.
 
-The remaining 3,879 rows are provisional distinct former-item gaps: no
-acceptable item survived the automated candidate passes, but absence is not
-yet proved. Their one-file draft and machine preflight are
+The original remaining 3,879 rows were provisional distinct former-item gaps:
+no acceptable item survived the automated candidate passes, but absence was
+not proved. Five fixed-seed random samples of ten found 14 existing predecessor
+items, including one current-mapping swap. After applying those decisions,
+coverage is 6,170/10,035 and 3,865 provisional rows remain. Their one-file draft
+and machine preflight are
 `statements/na-wards-create-predecessors.qs` and
-`data/ward-wikidata-create-predecessors-preflight.json`. Five reproducible
-random samples of ten rows must be reviewed before upload authorization. W2
-becomes endpoint-complete only after that review, upload, QID ingestion, and an
-empty regeneration.
+`data/ward-wikidata-create-predecessors-preflight.json`. The 28% sample miss
+rate forces `upload_ready=false`; W2 cannot proceed to creation until the
+broader reconciliation is repaired and re-audited.
 
 ### W3 — current enrichment delta
 
@@ -160,7 +162,7 @@ and a dated journal.
 
 ## Immediate next action
 
-Review and record five reproducible random samples of ten provisional creation
-gaps. If the sample exposes missed duplicates, improve the reconciliation and
-rerun it before considering any upload. If it clears, refresh the 24-hour live
-gate and seek explicit upload authorization.
+Improve predecessor reconciliation to accept earlier valid parent spans,
+comma-qualified labels, article-owned items with missing P131, and explicit
+current/predecessor QID swaps. Rerun over the full provisional set and repeat a
+fresh random audit before considering any upload.

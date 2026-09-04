@@ -244,11 +244,12 @@ assemblies need non-GSO sources.
   remaining six were created without errors by batch #270387. All 3,321 current
   units now have QIDs, and the regenerated current CREATE package is empty.
   Immediate-predecessor reconciliation then assigned 6,154 QIDs automatically
-  and two manually. The other 3,879 are provisional former-item creation gaps
-  with one consolidated draft package; five reproducible random samples of ten
-  must be reviewed before upload authorization. The 2025 lineage remains
-  hard-blocked until that review passes, the package is uploaded, and its QIDs
-  are ingested; see
+  and two manually. The other 3,879 were provisional former-item creation gaps.
+  Five fixed-seed random samples of ten found 14 existing items, exposing a 28%
+  miss rate in the terminal-parent-only gate. The applied sample corrections
+  leave 3,865 provisional gaps, and the consolidated draft now fails closed.
+  The 2025 lineage remains hard-blocked while broader reconciliation is
+  repaired; see
   `docs/plans/2026-09-02-phase3-ward-wikidata-emission.md`.
 - **Phase 4** is the "back to NA1 (1946)" ambition. It is genuinely different: no
   GSO data below 2002, so it's a distinct sourcing/provenance project, not more

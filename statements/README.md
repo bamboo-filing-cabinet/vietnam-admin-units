@@ -19,18 +19,18 @@ blocked until the 10,035 immediate pre-2025 predecessors are reconciled; see
 
 ## Prepared, not uploaded
 
-`na-wards-create-predecessors.qs` contains one consolidated draft for the 3,879
-immediate pre-2025 ward predecessors for which the automated passes found no
-acceptable distinct Wikidata item. That is not yet proof that every item is
-absent. The
-two-stage reconciliation assigned 6,154 predecessor QIDs automatically and two
-manually; the CREATE manifest retains the candidate and current-QID exclusions
-for every remaining row. Do not upload this draft yet.
+`na-wards-create-predecessors.qs` now contains one consolidated draft for 3,865
+immediate pre-2025 ward predecessors. The first version contained 3,879, but a
+fixed-seed random audit of 50 rows found 14 existing predecessor items. Thirteen
+were direct assignments; Luận Thành required moving its current mapping to the
+genuinely 2025 QID before assigning the older QID to the predecessor. Coverage
+is now 6,170/10,035. Do not upload this draft.
 
-The saved unrestricted QLever preflight leaves no unresolved machine candidate.
-Five reproducible random batches of ten rows must also be reviewed and recorded
-before upload authorization. After that audit, refresh the live evidence and
-enforce the 24-hour gate immediately before any upload:
+The five requested random batches of ten are complete. Their 14/50 miss result
+invalidates the terminal-district-only machine gate, so the predecessor
+preflight now reports `upload_ready=false` even though each remaining row clears
+the old exact-name/district rule. Improve and rerun the broader reconciliation
+before any upload; only afterward should the live evidence be refreshed:
 
 ```sh
 uv run python -m vn_admin_units.ward_reconcile_predecessors_broad \

@@ -49,6 +49,129 @@
           }
         }
       ]
+    },
+    {
+      "batch_id": "2026-09-04.02",
+      "selection": {
+        "method": "lowest SHA-256(seed + NUL + local_id)",
+        "seed": "2026-09-04-predecessor-gap-audit-v1",
+        "population": 3879,
+        "sample_size": 50,
+        "batches": 5,
+        "batch_size": 10
+      },
+      "reviewed_at": "2026-09-04T15:36:18Z",
+      "decisions": [
+        {
+          "local_id": "w-8012311-base",
+          "name_vi": "Xã Lạc Tấn",
+          "outcome": "assign",
+          "wikidata_qid": "Q10788453",
+          "candidate_qids_checked": ["Q10788453", "Q32282165"],
+          "mapping_note": "Q10788453 owns the Lạc Tấn article; Q32282165 is a coordinate-only duplicate for the same Long An commune"
+        },
+        {
+          "local_id": "w-1130519-base",
+          "name_vi": "Xã Mỹ Tân",
+          "outcome": "assign",
+          "wikidata_qid": "Q10796896",
+          "candidate_qids_checked": ["Q10796896"],
+          "mapping_note": "label and description identify Mỹ Tân in Nam Định; P131 still reflects its earlier Mỹ Lộc parent"
+        },
+        {
+          "local_id": "w-4110117-base",
+          "name_vi": "Phường Đông Ba",
+          "outcome": "assign",
+          "wikidata_qid": "Q10805924",
+          "candidate_qids_checked": ["Q10805924"],
+          "mapping_note": "ward class, exact aliases, description, and coordinates identify Đông Ba; P131 remains the pre-2025 Huế city"
+        },
+        {
+          "local_id": "w-8230123-base",
+          "name_vi": "Xã Định Bình",
+          "outcome": "assign",
+          "wikidata_qid": "Q10841792",
+          "candidate_qids_checked": ["Q10841789", "Q10841790", "Q10841792"],
+          "mapping_note": "comma-qualified labels, commune class, Cà Mau city P131, and coordinates uniquely identify the sampled Định Bình"
+        },
+        {
+          "local_id": "w-1170115-base",
+          "name_vi": "Phường Bích Đào",
+          "outcome": "assign",
+          "wikidata_qid": "Q10742671",
+          "candidate_qids_checked": ["Q10742671"],
+          "mapping_note": "item owns the Bích Đào article and has ward class and matching coordinates; P131 retains the earlier Ninh Bình city identity"
+        },
+        {
+          "local_id": "w-3030105-base",
+          "name_vi": "Xã Chiềng Đen",
+          "outcome": "assign",
+          "wikidata_qid": "Q10747291",
+          "candidate_qids_checked": ["Q10747291", "Q32262470"],
+          "mapping_note": "Q10747291 owns the Chiềng Đen article and identifies the Sơn La commune; Q32262470 is a coordinate-only duplicate"
+        },
+        {
+          "local_id": "w-4030119-base",
+          "name_vi": "Phường Trung Đô",
+          "outcome": "assign",
+          "wikidata_qid": "Q32228861",
+          "candidate_qids_checked": ["Q32228861"],
+          "mapping_note": "item owns the Trung Đô article and has ward class, Vinh description, aliases, and matching coordinates despite missing P131"
+        },
+        {
+          "local_id": "w-3011109-base",
+          "name_vi": "Xã Lay Nưa",
+          "outcome": "assign",
+          "wikidata_qid": "Q10785171",
+          "candidate_qids_checked": ["Q10785171"],
+          "mapping_note": "item owns the Lay Nưa articles and has commune class and matching coordinates; P131 preserves older Mường Chà-era values"
+        },
+        {
+          "local_id": "w-8032117-base",
+          "name_vi": "Xã An Phú Thuận",
+          "outcome": "assign",
+          "wikidata_qid": "Q10733288",
+          "candidate_qids_checked": ["Q10733288"],
+          "mapping_note": "item owns the An Phú Thuận article and has exact aliases, commune class, and matching Đồng Tháp coordinates despite missing P131"
+        },
+        {
+          "local_id": "w-1041147-base",
+          "name_vi": "Xã Tráng Việt",
+          "outcome": "assign",
+          "wikidata_qid": "Q10828595",
+          "candidate_qids_checked": ["Q10828595"],
+          "mapping_note": "item owns the Tráng Việt article and has commune class, exact aliases, and matching Mê Linh coordinates; P131 points to its 2025 successor"
+        },
+        {
+          "local_id": "w-6071905-base",
+          "name_vi": "Xã Mỹ Đức",
+          "outcome": "assign",
+          "wikidata_qid": "Q10796927",
+          "candidate_qids_checked": ["Q10796927"],
+          "mapping_note": "comma-qualified label, commune class, description, and coordinates identify Mỹ Đức; P131 retains the earlier Cát Tiên parent"
+        },
+        {
+          "local_id": "w-1011927-base",
+          "name_vi": "Xã Yên Viên",
+          "outcome": "assign",
+          "wikidata_qid": "Q10838213",
+          "candidate_qids_checked": ["Q10838212", "Q10838213"],
+          "mapping_note": "Q10838213 is specifically the commune; Q10838212 is the township/general Yên Viên article item"
+        },
+        {
+          "local_id": "w-2090115-base",
+          "name_vi": "Xã Quảng Lạc",
+          "outcome": "assign",
+          "wikidata_qid": "Q10810408",
+          "candidate_qids_checked": ["Q10810406", "Q10810408"],
+          "mapping_note": "commune class, description, exact aliases, and coordinates identify Quảng Lạc in Lạng Sơn; P131 retains the earlier Cao Lộc parent"
+        }
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample.json", "role": "saved 50-row live search and entity evidence"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-04T15:36:18Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-04T15:36:18Z"}
+      ]
     }
   ]
 }

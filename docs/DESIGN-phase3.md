@@ -128,11 +128,12 @@
 > **Update (2026-09-04): immediate-predecessor review is complete.** The saved
 > ward-class and unrestricted discovery passes assigned 6,154 QIDs
 > automatically; two ambiguous identities were resolved manually. The other
-> 3,879 predecessors are provisional former-item creation gaps: no acceptable
-> candidate survived the machine passes, but a five-by-ten random audit is
-> required before upload authorization. Lineage remains fail-closed until that
-> review passes, the batch is uploaded, and its QIDs are ingested; see journal
-> `2026-09-04.01`.
+> 3,879 predecessors were provisional former-item creation gaps. A fixed-seed
+> random audit of 50 found 14 existing items, a 28% miss rate caused mainly by
+> stale or missing P131 and comma-qualified labels. The corrections leave 3,865
+> provisional gaps and force the CREATE preflight to `upload_ready=false`.
+> Lineage remains fail-closed while broader reconciliation is repaired; see
+> journals `2026-09-04.01` and `2026-09-04.02`.
 
 Extends `DESIGN.md` (the overarching design + decisions log). **Phase 1**
 delivered the *2025-reform province slice* (`docs/plans/2026-07-10-phase1-

@@ -38,6 +38,9 @@ COUNTRY_QID = "Q881"
 MANIFEST_PATH = Path("data/ward-wikidata-create-predecessors.json")
 STATEMENTS_PATH = Path("statements/na-wards-create-predecessors.qs")
 PREFLIGHT_PATH = Path("data/ward-wikidata-create-predecessors-preflight.json")
+SAMPLE_DECISIONS_PATH = Path(
+    "data/ward-wikidata-predecessor-gap-sample-decisions.json"
+)
 SAFE_GAP_CLASSIFICATIONS = {
     "assigned-item-only",
     "no-broad-candidate",
@@ -289,6 +292,7 @@ def build_preflight(
     manifest: dict,
     broad_artifact: dict,
     *,
+    sample_decisions: dict | None = None,
     max_age_hours: float | None = None,
     now: datetime | None = None,
 ) -> dict:
@@ -327,6 +331,15 @@ def build_preflight(
         })
     if not fresh:
         issues.append(f"STALE-PREFLIGHT {age_hours:.2f}h")
+    sample_audit = (sample_decisions or {}).get("audit", {})
+    sample_reviewed = sample_audit.get("reviewed_rows", 0)
+    sample_existing = sample_audit.get("existing_predecessor_items", 0)
+    sample_authorized = sample_audit.get("creation_batch_authorized") is True
+    if sample_decisions is not None and not sample_authorized:
+        issues.append(
+            f"SAMPLED-AUDIT-FAILED {sample_existing}/{sample_reviewed} "
+            "existing predecessor items"
+        )
     clear = sum(row["status"] == "clear" for row in items)
     return {
         "schema_version": 1,
@@ -341,6 +354,9 @@ def build_preflight(
                 _serialize_json(manifest).encode()
             ).hexdigest(),
             BROAD_ARTIFACT_PATH.as_posix(): _sha256(BROAD_ARTIFACT_PATH),
+            **({
+                SAMPLE_DECISIONS_PATH.as_posix(): _sha256(SAMPLE_DECISIONS_PATH),
+            } if sample_decisions is not None else {}),
         },
         "evidence": {
             "qlever_retrieved_at": source_at,
@@ -355,6 +371,9 @@ def build_preflight(
             "clear_items": clear,
             "needs_review_items": len(items) - clear,
             "fresh": fresh,
+            "sample_reviewed_rows": sample_reviewed,
+            "sample_existing_predecessor_items": sample_existing,
+            "sample_creation_authorized": sample_authorized,
             "upload_ready": clear == len(items) and fresh and not issues,
         },
         "issues": issues,
@@ -376,11 +395,16 @@ def main(argv: list[str] | None = None) -> None:
     districts = _read_csv(DISTRICT_MAPPING)
     predecessor = json.loads(PREDECESSOR_ARTIFACT_PATH.read_text(encoding="utf-8"))
     broad = json.loads(BROAD_ARTIFACT_PATH.read_text(encoding="utf-8"))
+    sample_decisions = (
+        json.loads(SAMPLE_DECISIONS_PATH.read_text(encoding="utf-8"))
+        if SAMPLE_DECISIONS_PATH.is_file() else None
+    )
     fingerprints = {
         path.as_posix(): _sha256(path)
         for path in (
             WARD_HISTORY, DISTRICT_MAPPING, PREDECESSOR_ARTIFACT_PATH,
             BROAD_ARTIFACT_PATH, REVIEW_DECISIONS_PATH,
+            *([SAMPLE_DECISIONS_PATH] if sample_decisions is not None else []),
         )
     }
     fingerprints[f"{MAPPING.as_posix()}#qid-assignments"] = (
@@ -391,10 +415,15 @@ def main(argv: list[str] | None = None) -> None:
         input_fingerprints=fingerprints,
     )
     statements = render_statements(manifest)
-    preflight = build_preflight(manifest, broad)
+    preflight = build_preflight(
+        manifest, broad, sample_decisions=sample_decisions,
+    )
     runtime_preflight = (
         build_preflight(
-            manifest, broad, max_age_hours=args.max_preflight_age_hours,
+            manifest,
+            broad,
+            sample_decisions=sample_decisions,
+            max_age_hours=args.max_preflight_age_hours,
         ) if args.require_upload_ready else preflight
     )
     mapped = apply_creation_gaps(mapping, manifest)

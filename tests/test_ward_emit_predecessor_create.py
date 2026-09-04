@@ -104,20 +104,26 @@ def test_committed_predecessor_creation_package_is_complete_and_unique():
     preflight = json.loads(PREFLIGHT_PATH.read_text(encoding="utf-8"))
     statements = STATEMENTS_PATH.read_text(encoding="utf-8")
 
-    assert manifest["audit"]["items"] == 3879
+    assert manifest["audit"]["items"] == 3865
     assert manifest["audit"]["type_counts"] == {
-        "Phường": 738, "Thị trấn": 408, "Xã": 2733,
+        "Phường": 735, "Thị trấn": 408, "Xã": 2722,
     }
     assert len({
         (row["name_vi"], row["parent_qid"], row["type_qid"])
         for row in manifest["items"]
-    }) == 3879
+    }) == 3865
     assert preflight["audit"] == {
-        "items": 3879,
-        "clear_items": 3879,
+        "items": 3865,
+        "clear_items": 3865,
         "needs_review_items": 0,
         "fresh": True,
-        "upload_ready": True,
+        "sample_reviewed_rows": 50,
+        "sample_existing_predecessor_items": 14,
+        "sample_creation_authorized": False,
+        "upload_ready": False,
     }
-    assert statements.count("CREATE\n") == 3879
+    assert preflight["issues"] == [
+        "SAMPLED-AUDIT-FAILED 14/50 existing predecessor items"
+    ]
+    assert statements.count("CREATE\n") == 3865
     assert "\tP576\t" not in statements
