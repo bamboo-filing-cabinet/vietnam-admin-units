@@ -6533,6 +6533,63 @@
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-04T15:36:18Z"},
         {"path": "data/ward-wikidata-predecessor-gap-sample.json", "role": "saved random-audit evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-04.68",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10806078", "Q135006126"], "local_id": "w-24043-2025-07-01", "mapping_note": "current Phú Thiện commune selects Q135006126; release Q10806078 to the pre-2025 township", "outcome": "assign", "rationale": "Q135006126 has the commune class, Gia Lai parent, explicit commune labels, and the current `Phú Thiện (xã)` article. Q10806078 retains the township class, former Phú Thiện district parent, township alias, coordinates, and `Phú Thiện, Gia Lai` article and therefore belongs to the sampled predecessor.", "wikidata_qid": "Q135006126"}
+      ],
+      "reviewed_at": "2026-09-04T19:07:40Z",
+      "selection": {"input_status": "random-predecessor-gap-audit-v5", "sample_number": 49},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-04T19:07:40Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-04T19:07:40Z"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v5.json", "role": "saved fifth-round random-audit evidence"}
+      ]
+    },
+    {
+      "batch_id": "2026-09-04.69",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10779380", "Q137298597"], "local_id": "w-12205-2025-07-01", "mapping_note": "current Khoái Châu commune selects Q137298597; release Q10779380 to the pre-2025 township", "outcome": "assign", "rationale": "Q137298597 owns the current `Khoái Châu (xã)` article, whose introduction identifies the 2025 Hưng Yên commune and says its name was inherited from the former township and district. Q10779380 retains the township class and former Khoái Châu district parent.", "wikidata_qid": "Q137298597"},
+        {"candidate_qids_checked": ["Q16480877", "Q134983140"], "local_id": "w-13279-2025-07-01", "mapping_note": "current Vũ Tiên commune selects Q134983140; release Q16480877 to predecessor Vũ Tiến", "outcome": "assign", "rationale": "Q134983140 owns the current `Vũ Tiên (xã)` article and has the current Hưng Yên parent and commune identity. Q16480877 has the exact Vũ Tiến label and alias, former Vũ Thư district parent, and historical coordinates.", "wikidata_qid": "Q134983140"},
+        {"candidate_qids_checked": ["Q10748252", "Q136688027"], "local_id": "w-13363-2025-07-01", "mapping_note": "current Tiên Sơn ward selects Q136688027; release Q10748252 to the pre-2025 commune", "outcome": "assign", "rationale": "Q136688027 owns the current `Tiên Sơn (phường)` article and describes the Ninh Bình ward. Q10748252 retains the commune class, former Duy Tiên parent, and old commune description.", "wikidata_qid": "Q136688027"},
+        {"candidate_qids_checked": ["Q10796879", "Q10796880"], "local_id": "w-30076-2025-07-01", "mapping_note": "current Mỹ Thọ commune selects Q10796880; release Q10796879 to the pre-2025 township", "outcome": "assign", "rationale": "Q10796880 owns the current `Mỹ Thọ` article, whose introduction identifies the 2025 Đồng Tháp commune. Q10796879 has no sitelink and retains the township class, former Cao Lãnh district parent, and township description.", "wikidata_qid": "Q10796880"}
+      ],
+      "reviewed_at": "2026-09-04T19:27:47Z",
+      "selection": {"input_status": "random-predecessor-gap-audit-v6", "sample_numbers": [23, 31, 34, 38]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-04T19:27:47Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-04T19:27:47Z"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v6.json", "role": "saved sixth-round random-audit evidence"}
+      ]
+    },
+    {
+      "batch_id": "2026-09-04.70",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10830829", "Q138827276"], "local_id": "w-18919-2025-07-01", "mapping_note": "current Tân Thành commune selects Q138827276; release Q10830829 to the pre-2025 Minh Hóa commune", "outcome": "assign", "rationale": "Q138827276 owns the current `Tân Thành, Quảng Trị` article and has a current Quảng Trị description, parent, and coordinate. Q10830829 retains the former Minh Hóa district parent and old commune identity.", "wikidata_qid": "Q138827276"},
+        {"candidate_qids_checked": ["Q2689646", "Q10751934"], "local_id": "w-07192-2025-07-01", "mapping_note": "current Cô Tô special zone selects Q2689646; release Q10751934 to the pre-2025 township", "outcome": "assign", "rationale": "Q2689646 owns the current `Cô Tô (đặc khu)` article and has the special-zone class and Quảng Ninh parent. Q10751934 retains the township class, former Cô Tô district parent, township aliases, and an island article whose text explicitly describes the former township.", "wikidata_qid": "Q2689646"},
+        {"candidate_qids_checked": ["Q10840394", "Q138864514"], "local_id": "w-04831-2025-07-01", "mapping_note": "current Đà Bắc commune selects Q138864514; release Q10840394 to the pre-2025 township", "outcome": "assign", "rationale": "Q138864514 owns the current `Đà Bắc (xã)` article and describes the current Phú Thọ commune. Q10840394 retains the township class, former Đà Bắc district parent, aliases, and coordinates.", "wikidata_qid": "Q138864514"}
+      ],
+      "reviewed_at": "2026-09-04T19:43:31Z",
+      "selection": {"input_status": "random-predecessor-gap-audit-v7", "sample_numbers": [5, 21, 38]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-04T19:43:31Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-04T19:43:31Z"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v7.json", "role": "saved seventh-round random-audit evidence"}
+      ]
+    },
+    {
+      "batch_id": "2026-09-04.71",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10833609", "Q135181092"], "local_id": "w-15349-2025-07-01", "mapping_note": "current Vĩnh Lộc commune selects Q135181092; release Q10833609 to the pre-2025 township", "outcome": "assign", "rationale": "Q135181092 owns the current `Vĩnh Lộc, Thanh Hóa` article and has explicit current-commune aliases and descriptions. Q10833609 retains the township class, former Vĩnh Lộc district parent, township aliases, and coordinates.", "wikidata_qid": "Q135181092"}
+      ],
+      "reviewed_at": "2026-09-04T19:56:58Z",
+      "selection": {"input_status": "random-predecessor-gap-audit-v8", "sample_number": 21},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-04T19:56:58Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-04T19:56:58Z"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v8.json", "role": "saved eighth-round random-audit evidence"}
+      ]
     }
   ],
   "schema_version": 1,

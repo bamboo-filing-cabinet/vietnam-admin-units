@@ -1,10 +1,10 @@
 """Reconcile immediate pre-2025 ward predecessors against saved Wikidata data.
 
 The expensive discovery step is deliberately offline: it indexes the saved
-ward-class QLever corpus once by folded name, narrows candidates by the
-predecessor's terminal district, and excludes every QID assigned to a current
-ward. Only that reduced QID set is refreshed through batched ``wbgetentities``
-requests.
+ward-class QLever corpus once by folded name, narrows candidates by every
+district in the predecessor's recorded history, and excludes every QID assigned
+to a current ward. Only that reduced QID set is refreshed through batched
+``wbgetentities`` requests.
 
 No command in this module writes to Wikidata.
 
@@ -48,6 +48,15 @@ ARTIFACT_PATH = Path("data/ward-wikidata-predecessor-candidates.json")
 BROAD_ARTIFACT_PATH = Path(
     "data/ward-wikidata-predecessor-unresolved-candidates.json"
 )
+ARTICLE_ARTIFACT_PATH = Path(
+    "data/ward-wikidata-predecessor-article-candidates.json"
+)
+CONTEXT_ARTIFACT_PATH = Path(
+    "data/ward-wikidata-predecessor-context-candidates.json"
+)
+GEONAMES_ARTIFACT_PATH = Path(
+    "data/ward-wikidata-predecessor-geonames-candidates.json"
+)
 REVIEW_DECISIONS_PATH = Path(
     "data/ward-wikidata-predecessor-review-decisions.json"
 )
@@ -83,6 +92,13 @@ def _parent_code(entity: dict) -> str:
     return spans[-1]["code"] if spans else ""
 
 
+def _parent_codes(entity: dict) -> set[str]:
+    return {
+        span["code"] for span in entity.get("parent_spans", [])
+        if span.get("code")
+    }
+
+
 def _qid_key(qid: str) -> int:
     return int(qid[1:])
 
@@ -105,6 +121,13 @@ def _current_assignments_sha256(mapping_rows: list[dict]) -> str:
     return hashlib.sha256(payload).hexdigest()
 
 
+def _name_forms(value: str, field: str) -> dict[str, str]:
+    forms = {fold_ward_name(value): field}
+    if field in {"label_vi", "label_en"} and "," in value:
+        forms[fold_ward_name(value.split(",", 1)[0])] = f"{field}-qualified"
+    return forms
+
+
 def _candidate_name_index(candidates: list[dict]) -> dict[str, dict[str, set[str]]]:
     indexed: dict[str, dict[str, set[str]]] = defaultdict(
         lambda: defaultdict(set)
@@ -114,7 +137,8 @@ def _candidate_name_index(candidates: list[dict]) -> dict[str, dict[str, set[str
         for field in ("label_vi", "label_en"):
             value = candidate.get(field, "")
             if value:
-                indexed[fold_ward_name(value)][qid].add(field)
+                for name, kind in _name_forms(value, field).items():
+                    indexed[name][qid].add(kind)
         for value in candidate.get("aliases", []):
             indexed[fold_ward_name(value)][qid].add("alias")
     return indexed
@@ -147,10 +171,11 @@ def reduce_candidates(
         excluded = all_qids & current_qids
         candidate_qids = all_qids - current_qids
         expected_parent = _parent_code(entity)
+        expected_parents = _parent_codes(entity)
         district_qids = {
             qid
             for qid in candidate_qids
-            if expected_parent in {
+            if expected_parents & {
                 code
                 for parent_qid in candidates_by_qid[qid]["parent_qids"]
                 for code in district_qid_index.get(parent_qid, set())
@@ -171,6 +196,7 @@ def reduce_candidates(
             "name_vi": entity["name_vi"],
             "loai_hinh": entity["loai_hinh"],
             "parent_code": expected_parent,
+            "parent_codes": sorted(expected_parents),
             "classification": classification,
             "candidate_qids": sorted(candidate_qids, key=_qid_key),
             "current_qids_excluded": sorted(excluded, key=_qid_key),
@@ -179,6 +205,8 @@ def reduce_candidates(
                 qid: sorted(matches[qid])
                 for qid in sorted(all_qids, key=_qid_key)
             },
+            "verified_name_match_kinds": {},
+            "verified_parent_codes": {},
             "verified_candidate_qids": [],
             "auto_candidate_qids": [],
             "confidence": "",
@@ -232,10 +260,23 @@ def reduce_candidates(
     }
 
 
-def _verified_name_matches(row: dict, entity: dict) -> bool:
+def _verified_name_match_kinds(row: dict, entity: dict) -> set[str]:
     wanted = fold_ward_name(row["name_vi"])
-    values = list(entity.get("labels", {}).values()) + entity.get("aliases", [])
-    return any(fold_ward_name(value) == wanted for value in values)
+    kinds = set()
+    for language, value in entity.get("labels", {}).items():
+        field = f"label_{language}"
+        for name, kind in _name_forms(value, field).items():
+            if name == wanted:
+                kinds.add(kind)
+    if any(
+        fold_ward_name(value) == wanted for value in entity.get("aliases", [])
+    ):
+        kinds.add("alias")
+    return kinds
+
+
+def _is_qualified_name_match(kinds: set[str]) -> bool:
+    return bool(kinds) and all(kind.endswith("-qualified") for kind in kinds)
 
 
 def evaluate(
@@ -254,6 +295,9 @@ def evaluate(
 
     for row in result["review"]:
         qids = []
+        name_kinds_by_qid = {}
+        parent_codes_by_qid = {}
+        expected_parents = set(row.get("parent_codes", [row["parent_code"]]))
         for qid in row["district_candidate_qids"]:
             entity = verified.get(qid)
             if entity is None or entity.get("missing") or qid in current_qids:
@@ -263,14 +307,24 @@ def evaluate(
                 for parent_qid in entity.get("p131", [])
                 for code in district_qid_index.get(parent_qid, set())
             }
-            if row["parent_code"] not in parent_codes:
+            matching_parent_codes = expected_parents & parent_codes
+            if not matching_parent_codes:
                 continue
             if not set(entity.get("p31", [])) & set(WARD_CLASSES):
                 continue
-            if not _verified_name_matches(row, entity):
+            name_kinds = _verified_name_match_kinds(row, entity)
+            if not name_kinds:
                 continue
             qids.append(qid)
+            name_kinds_by_qid[qid] = name_kinds
+            parent_codes_by_qid[qid] = matching_parent_codes
         row["verified_candidate_qids"] = qids
+        row["verified_name_match_kinds"] = {
+            qid: sorted(name_kinds_by_qid[qid]) for qid in qids
+        }
+        row["verified_parent_codes"] = {
+            qid: sorted(parent_codes_by_qid[qid]) for qid in qids
+        }
         row["auto_candidate_qids"] = []
         row["confidence"] = ""
         if not row["district_candidate_qids"]:
@@ -279,9 +333,24 @@ def evaluate(
             row["classification"] = "verification-rejected"
             continue
         selected = qids
-        if len(qids) > 1:
+        terminal_parent = [
+            qid for qid in selected
+            if row["parent_code"] in parent_codes_by_qid[qid]
+        ]
+        if terminal_parent:
+            selected = terminal_parent
+        exact_name = [
+            qid for qid in selected
+            if not _is_qualified_name_match(name_kinds_by_qid[qid])
+        ]
+        if exact_name:
+            selected = exact_name
+        if len(selected) > 1:
             expected_class = EXPECTED_CLASS_BY_TIER[row["loai_hinh"]]
-            exact_type = [qid for qid in qids if expected_class in verified[qid]["p31"]]
+            exact_type = [
+                qid for qid in selected
+                if expected_class in verified[qid]["p31"]
+            ]
             if len(exact_type) == 1:
                 selected = exact_type
         if len(selected) != 1:
@@ -291,8 +360,17 @@ def evaluate(
         proposed[row["local_id"]] = qid
         row["auto_candidate_qids"] = [qid]
         row["classification"] = "verified-unique"
+        name_evidence = (
+            "qualified-label" if _is_qualified_name_match(
+                name_kinds_by_qid[qid]
+            ) else "exact-folded-name"
+        )
+        parent_evidence = (
+            "terminal-district" if row["parent_code"] in parent_codes_by_qid[qid]
+            else "historical-district"
+        )
         row["confidence"] = (
-            "exact-folded-name+terminal-district+ward-class+batched-wbgetentities"
+            f"{name_evidence}+{parent_evidence}+ward-class+batched-wbgetentities"
         )
 
     proposal_counts = Counter(proposed.values())
@@ -384,8 +462,7 @@ def apply_matches(mapping_rows: list[dict], artifact: dict) -> list[dict]:
             "match_notes": (
                 "predecessor broad exact-vi-name+terminal-district+ward-class+"
                 "batched-wbgetentities" if broad else
-                "predecessor exact-name+terminal-district+ward-class+"
-                "batched-wbgetentities"
+                f"predecessor {review['confidence']}"
             ),
         })
     return rows
@@ -500,7 +577,11 @@ def audit(artifact: dict, mapping_rows: list[dict]) -> list[str]:
     mapping_by_id = {row["local_id"]: row for row in mapping_rows}
     for local_id, qid in automatic:
         row = mapping_by_id.get(local_id)
-        if row is None or row["wikidata_qid"] != qid or row["match_status"] != "verified":
+        if (
+            row is None
+            or row["wikidata_qid"] != qid
+            or row["match_status"] not in {"verified", "manual"}
+        ):
             issues.append(f"MAPPING-DRIFT {local_id}")
     return issues
 
@@ -580,6 +661,21 @@ def main(argv: list[str] | None = None) -> None:
     if BROAD_ARTIFACT_PATH.is_file():
         broad_artifact = json.loads(BROAD_ARTIFACT_PATH.read_text(encoding="utf-8"))
         rendered_mapping = apply_matches(rendered_mapping, broad_artifact)
+    if ARTICLE_ARTIFACT_PATH.is_file():
+        article_artifact = json.loads(
+            ARTICLE_ARTIFACT_PATH.read_text(encoding="utf-8")
+        )
+        rendered_mapping = apply_matches(rendered_mapping, article_artifact)
+    if CONTEXT_ARTIFACT_PATH.is_file():
+        context_artifact = json.loads(
+            CONTEXT_ARTIFACT_PATH.read_text(encoding="utf-8")
+        )
+        rendered_mapping = apply_matches(rendered_mapping, context_artifact)
+    if GEONAMES_ARTIFACT_PATH.is_file():
+        geonames_artifact = json.loads(
+            GEONAMES_ARTIFACT_PATH.read_text(encoding="utf-8")
+        )
+        rendered_mapping = apply_matches(rendered_mapping, geonames_artifact)
     if REVIEW_DECISIONS_PATH.is_file():
         decisions = json.loads(REVIEW_DECISIONS_PATH.read_text(encoding="utf-8"))
         rendered_mapping = apply_review_decisions(rendered_mapping, decisions)

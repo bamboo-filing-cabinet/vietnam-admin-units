@@ -270,6 +270,17 @@ def _claim_times(entity: dict, prop: str) -> list[str]:
     return sorted(values)
 
 
+def _claim_strings(entity: dict, prop: str) -> list[str]:
+    values = set()
+    for claim in entity.get("claims", {}).get(prop, []):
+        if claim.get("rank") == "deprecated":
+            continue
+        value = claim.get("mainsnak", {}).get("datavalue", {}).get("value")
+        if isinstance(value, str) and value:
+            values.add(value)
+    return sorted(values)
+
+
 def _claim_coordinates(entity: dict) -> list[dict]:
     values = {}
     for claim in entity.get("claims", {}).get("P625", []):
@@ -304,18 +315,25 @@ def _normalize_api_entity(qid: str, entity: dict) -> dict:
         for alias in values
         if alias.get("value")
     })
+    descriptions = {
+        lang: value["value"]
+        for lang, value in entity.get("descriptions", {}).items()
+        if lang in {"vi", "en"} and value.get("value")
+    }
     return {
         "qid": qid,
         "missing": "missing" in entity,
         "lastrevid": entity.get("lastrevid"),
         "modified": entity.get("modified", ""),
         "labels": labels,
+        "descriptions": descriptions,
         "aliases": aliases,
         "p31": _claim_ids(entity, "P31"),
         "p131": _claim_ids(entity, "P131"),
         "p571": _claim_times(entity, "P571"),
         "p576": _claim_times(entity, "P576"),
         "p625": _claim_coordinates(entity),
+        "geonames_ids": _claim_strings(entity, "P1566"),
         "sitelinks": {
             site: value["title"]
             for site, value in sorted(entity.get("sitelinks", {}).items())
@@ -342,7 +360,7 @@ def fetch_action_api_entities(
         url = endpoint + "?" + urllib.parse.urlencode({
             "action": "wbgetentities",
             "ids": "|".join(batch),
-            "props": "info|labels|aliases|claims|sitelinks",
+            "props": "info|labels|descriptions|aliases|claims|sitelinks",
             "languages": "vi|en",
             "format": "json",
             "maxlag": "30",

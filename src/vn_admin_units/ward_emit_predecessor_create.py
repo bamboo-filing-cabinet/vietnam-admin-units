@@ -1,6 +1,6 @@
 """Prepare provisional CREATE statements for missing pre-2025 ward items.
 
-This package is derived only after both predecessor discovery passes and the
+This package is derived only after the predecessor discovery passes and the
 small manual ambiguity ledger have been applied. It creates base items; the
 separate lineage package adds dissolution and succession statements after the
 new QIDs are ingested.
@@ -26,8 +26,11 @@ from vn_admin_units.ward_reconcile import (
     write_mapping,
 )
 from vn_admin_units.ward_reconcile_predecessors import (
+    ARTICLE_ARTIFACT_PATH,
     ARTIFACT_PATH as PREDECESSOR_ARTIFACT_PATH,
     BROAD_ARTIFACT_PATH,
+    CONTEXT_ARTIFACT_PATH,
+    GEONAMES_ARTIFACT_PATH,
     REVIEW_DECISIONS_PATH,
     apply_creation_gaps,
 )
@@ -39,12 +42,13 @@ MANIFEST_PATH = Path("data/ward-wikidata-create-predecessors.json")
 STATEMENTS_PATH = Path("statements/na-wards-create-predecessors.qs")
 PREFLIGHT_PATH = Path("data/ward-wikidata-create-predecessors-preflight.json")
 SAMPLE_DECISIONS_PATH = Path(
-    "data/ward-wikidata-predecessor-gap-sample-decisions.json"
+    "data/ward-wikidata-predecessor-gap-sample-v2-decisions.json"
 )
 SAFE_GAP_CLASSIFICATIONS = {
     "assigned-item-only",
     "no-broad-candidate",
     "no-broad-district-candidate",
+    "qid-collision-preferred-exact-tier-other-row",
     "verification-rejected",
 }
 
@@ -143,6 +147,9 @@ def build_manifest(
     predecessor_artifact: dict,
     broad_artifact: dict,
     *,
+    article_artifact: dict | None = None,
+    context_artifact: dict | None = None,
+    geonames_artifact: dict | None = None,
     review_group_size: int = 10,
     input_fingerprints: dict[str, str] | None = None,
 ) -> dict:
@@ -162,6 +169,18 @@ def build_manifest(
         row["local_id"]: row for row in predecessor_artifact["review"]
     }
     broad_review = {row["local_id"]: row for row in broad_artifact["review"]}
+    article_review = {
+        row["local_id"]: row
+        for row in (article_artifact or {}).get("review", [])
+    }
+    context_review = {
+        row["local_id"]: row
+        for row in (context_artifact or {}).get("review", [])
+    }
+    geonames_review = {
+        row["local_id"]: row
+        for row in (geonames_artifact or {}).get("review", [])
+    }
     district_indexes, district_details = _district_parent_index(district_rows)
     gaps = sorted(
         (
@@ -175,6 +194,9 @@ def build_manifest(
         entity = entities[row["local_id"]]
         primary = primary_review[row["local_id"]]
         broad = broad_review[row["local_id"]]
+        article = article_review.get(row["local_id"], {})
+        context = context_review.get(row["local_id"], {})
+        geonames = geonames_review.get(row["local_id"], {})
         if broad["classification"] == "ambiguous-verified-candidates":
             raise ValueError(f"unresolved predecessor ambiguity: {row['local_id']}")
         parent = _district_parent(entity, district_indexes, district_details)
@@ -192,6 +214,9 @@ def build_manifest(
             *primary["current_qids_excluded"],
             *broad["candidate_qids"],
             *broad["assigned_qids_excluded"],
+            *article.get("candidate_qids", []),
+            *context.get("context_candidate_qids", []),
+            *geonames.get("geonames_candidate_qids", []),
         }, key=lambda qid: int(qid[1:]))
         entries.append({
             "sequence": sequence,
@@ -213,6 +238,9 @@ def build_manifest(
             "reference_url": next(iter(references)),
             "primary_classification": primary["classification"],
             "broad_classification": broad["classification"],
+            "article_classification": article.get("classification", ""),
+            "context_classification": context.get("classification", ""),
+            "geonames_classification": geonames.get("classification", ""),
             "candidate_qids_checked": checked,
             "current_or_assigned_qids_excluded": sorted({
                 *primary["current_qids_excluded"],
@@ -260,6 +288,15 @@ def build_manifest(
             ).items())),
             "broad_classification_counts": dict(sorted(Counter(
                 row["broad_classification"] for row in entries
+            ).items())),
+            "article_classification_counts": dict(sorted(Counter(
+                row["article_classification"] for row in entries
+            ).items())),
+            "context_classification_counts": dict(sorted(Counter(
+                row["context_classification"] for row in entries
+            ).items())),
+            "geonames_classification_counts": dict(sorted(Counter(
+                row["geonames_classification"] for row in entries
             ).items())),
         },
         "items": entries,
@@ -354,6 +391,9 @@ def build_preflight(
                 _serialize_json(manifest).encode()
             ).hexdigest(),
             BROAD_ARTIFACT_PATH.as_posix(): _sha256(BROAD_ARTIFACT_PATH),
+            ARTICLE_ARTIFACT_PATH.as_posix(): _sha256(ARTICLE_ARTIFACT_PATH),
+            CONTEXT_ARTIFACT_PATH.as_posix(): _sha256(CONTEXT_ARTIFACT_PATH),
+            GEONAMES_ARTIFACT_PATH.as_posix(): _sha256(GEONAMES_ARTIFACT_PATH),
             **({
                 SAMPLE_DECISIONS_PATH.as_posix(): _sha256(SAMPLE_DECISIONS_PATH),
             } if sample_decisions is not None else {}),
@@ -395,6 +435,9 @@ def main(argv: list[str] | None = None) -> None:
     districts = _read_csv(DISTRICT_MAPPING)
     predecessor = json.loads(PREDECESSOR_ARTIFACT_PATH.read_text(encoding="utf-8"))
     broad = json.loads(BROAD_ARTIFACT_PATH.read_text(encoding="utf-8"))
+    article = json.loads(ARTICLE_ARTIFACT_PATH.read_text(encoding="utf-8"))
+    context = json.loads(CONTEXT_ARTIFACT_PATH.read_text(encoding="utf-8"))
+    geonames = json.loads(GEONAMES_ARTIFACT_PATH.read_text(encoding="utf-8"))
     sample_decisions = (
         json.loads(SAMPLE_DECISIONS_PATH.read_text(encoding="utf-8"))
         if SAMPLE_DECISIONS_PATH.is_file() else None
@@ -403,7 +446,9 @@ def main(argv: list[str] | None = None) -> None:
         path.as_posix(): _sha256(path)
         for path in (
             WARD_HISTORY, DISTRICT_MAPPING, PREDECESSOR_ARTIFACT_PATH,
-            BROAD_ARTIFACT_PATH, REVIEW_DECISIONS_PATH,
+            BROAD_ARTIFACT_PATH, ARTICLE_ARTIFACT_PATH, CONTEXT_ARTIFACT_PATH,
+            GEONAMES_ARTIFACT_PATH,
+            REVIEW_DECISIONS_PATH,
             *([SAMPLE_DECISIONS_PATH] if sample_decisions is not None else []),
         )
     }
@@ -412,6 +457,8 @@ def main(argv: list[str] | None = None) -> None:
     )
     manifest = build_manifest(
         history, mapping, districts, predecessor, broad,
+        article_artifact=article, context_artifact=context,
+        geonames_artifact=geonames,
         input_fingerprints=fingerprints,
     )
     statements = render_statements(manifest)

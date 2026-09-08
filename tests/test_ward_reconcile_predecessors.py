@@ -156,6 +156,123 @@ def test_reduction_excludes_current_qids_and_filters_by_terminal_district(tmp_pa
     assert by_id["w-old-2"]["classification"] == "current-item-repurposed"
 
 
+def test_reduction_and_evaluation_accept_an_earlier_recorded_parent(tmp_path):
+    history = _history()
+    history["entities"][0]["parent_spans"] = [
+        {"code": "000"},
+        {"code": "001"},
+    ]
+    candidates = _candidates()
+    candidates["candidates"] = [candidates["candidates"][0]]
+    candidates["candidates"][0]["parent_qids"] = ["QD0"]
+    mapping = _mapping()
+    mapping[-1]["wikidata_qid"] = "Q9"
+    history_path = tmp_path / "history.json"
+    candidates_path = tmp_path / "candidates.json"
+    districts_path = tmp_path / "districts.csv"
+    for path in (history_path, candidates_path, districts_path):
+        path.write_text(path.name, encoding="utf-8")
+
+    artifact = reduce_candidates(
+        history, candidates, {"QD0": {"000"}}, mapping,
+        history_path=history_path, candidate_path=candidates_path,
+        district_mapping_path=districts_path,
+    )
+    artifact["action_api_verification"]["entities"] = [
+        _verified("Q1", "Hòa Bình", "QD0", "Q2389082"),
+    ]
+    artifact = evaluate(artifact, {"QD0": {"000"}}, mapping)
+    row = artifact["review"][0]
+
+    assert row["parent_codes"] == ["000", "001"]
+    assert row["auto_candidate_qids"] == ["Q1"]
+    assert "historical-district" in row["confidence"]
+
+
+def test_reduction_and_evaluation_accept_a_comma_qualified_label(tmp_path):
+    candidates = _candidates()
+    candidates["candidates"] = [candidates["candidates"][0]]
+    candidates["candidates"][0].update({
+        "label_vi": "Hòa Bình, huyện cũ",
+        "parent_qids": ["QD1"],
+    })
+    mapping = _mapping()
+    mapping[-1]["wikidata_qid"] = "Q9"
+    history_path = tmp_path / "history.json"
+    candidates_path = tmp_path / "candidates.json"
+    districts_path = tmp_path / "districts.csv"
+    for path in (history_path, candidates_path, districts_path):
+        path.write_text(path.name, encoding="utf-8")
+
+    artifact = reduce_candidates(
+        _history(), candidates, {"QD1": {"001"}}, mapping,
+        history_path=history_path, candidate_path=candidates_path,
+        district_mapping_path=districts_path,
+    )
+    artifact["action_api_verification"]["entities"] = [
+        _verified("Q1", "Hòa Bình, huyện cũ", "QD1", "Q2389082"),
+    ]
+    artifact = evaluate(artifact, {"QD1": {"001"}}, mapping)
+    row = artifact["review"][0]
+
+    assert row["name_match_kinds"]["Q1"] == ["label_vi-qualified"]
+    assert row["auto_candidate_qids"] == ["Q1"]
+    assert "qualified-label" in row["confidence"]
+
+
+def test_evaluation_prefers_terminal_parent_and_exact_name_evidence(tmp_path):
+    history = _history()
+    history["entities"][0]["parent_spans"] = [
+        {"code": "000"},
+        {"code": "001"},
+    ]
+    candidates = _candidates()
+    candidates["candidates"] = [
+        {
+            **candidates["candidates"][0],
+            "qid": "Q1",
+            "label_vi": "Hòa Bình",
+            "parent_qids": ["QD0"],
+        },
+        {
+            **candidates["candidates"][0],
+            "qid": "Q2",
+            "label_vi": "Hòa Bình, huyện mới",
+            "parent_qids": ["QD1"],
+        },
+        {
+            **candidates["candidates"][0],
+            "qid": "Q4",
+            "label_vi": "Hòa Bình",
+            "parent_qids": ["QD1"],
+        },
+    ]
+    mapping = _mapping()
+    mapping[-1]["wikidata_qid"] = "Q9"
+    history_path = tmp_path / "history.json"
+    candidates_path = tmp_path / "candidates.json"
+    districts_path = tmp_path / "districts.csv"
+    for path in (history_path, candidates_path, districts_path):
+        path.write_text(path.name, encoding="utf-8")
+    district_index = {"QD0": {"000"}, "QD1": {"001"}}
+    artifact = reduce_candidates(
+        history, candidates, district_index, mapping,
+        history_path=history_path, candidate_path=candidates_path,
+        district_mapping_path=districts_path,
+    )
+    artifact["action_api_verification"]["entities"] = [
+        _verified("Q1", "Hòa Bình", "QD0", "Q2389082"),
+        _verified("Q2", "Hòa Bình, huyện mới", "QD1", "Q2389082"),
+        _verified("Q4", "Hòa Bình", "QD1", "Q2389082"),
+    ]
+
+    row = evaluate(artifact, district_index, mapping)["review"][0]
+
+    assert row["verified_candidate_qids"] == ["Q1", "Q2", "Q4"]
+    assert row["auto_candidate_qids"] == ["Q4"]
+    assert "terminal-district" in row["confidence"]
+
+
 def test_evaluation_uses_exact_tier_to_break_ambiguity_and_applies_match(tmp_path):
     history_path = tmp_path / "history.json"
     candidates_path = tmp_path / "candidates.json"
@@ -289,22 +406,22 @@ def test_committed_predecessor_artifact_is_complete_and_collision_free():
     assert artifact["audit"] == {
         "predecessor_rows": 10035,
         "current_assigned_qids": 3321,
-        "rows_with_current_qid_excluded": 4729,
-        "rows_with_name_candidate": 8528,
-        "rows_with_district_candidate": 6183,
-        "shortlisted_qids": 6172,
-        "api_verified_candidates": 6172,
-        "rows_with_verified_candidate": 6181,
-        "auto_matched_rows": 6101,
-        "unresolved_rows": 3934,
+        "rows_with_current_qid_excluded": 4740,
+        "rows_with_name_candidate": 8531,
+        "rows_with_district_candidate": 6392,
+        "shortlisted_qids": 6383,
+        "api_verified_candidates": 6383,
+        "rows_with_verified_candidate": 6390,
+        "auto_matched_rows": 6309,
+        "unresolved_rows": 3726,
         "classification_counts": {
-            "ambiguous-verified-candidates": 32,
+            "ambiguous-verified-candidates": 33,
             "current-item-repurposed": 1261,
-            "no-district-candidate": 2345,
-            "no-name-candidate": 246,
+            "no-district-candidate": 2139,
+            "no-name-candidate": 243,
             "qid-collision": 48,
             "verification-rejected": 2,
-            "verified-unique": 6101,
+            "verified-unique": 6309,
         },
     }
     assert not audit(artifact, mapping)

@@ -36,6 +36,12 @@ EVIDENCE_PATH = Path("data/ward-wikidata-predecessor-gap-sample.json")
 DECISIONS_PATH = Path(
     "data/ward-wikidata-predecessor-gap-sample-decisions.json"
 )
+ROUND_2_EVIDENCE_PATH = Path(
+    "data/ward-wikidata-predecessor-gap-sample-v2.json"
+)
+ROUND_2_DECISIONS_PATH = Path(
+    "data/ward-wikidata-predecessor-gap-sample-v2-decisions.json"
+)
 DEFAULT_SEED = "2026-09-04-predecessor-gap-audit-v1"
 DEFAULT_SAMPLE_SIZE = 50
 DEFAULT_BATCH_SIZE = 10
@@ -251,6 +257,8 @@ def build_evidence(
     } | {
         page["wikibase_item"]
         for pages in viwiki.values() for page in pages if page["wikibase_item"]
+    } | {
+        qid for item in selected for qid in item["successor_qids"]
     }
     entities = {row["qid"]: row for row in entity_fetch_fn(sorted(qids))}
     search_rows = {
@@ -270,6 +278,7 @@ def build_evidence(
             *search_rows[local_id],
             *(page["wikibase_item"] for page in viwiki[local_id]
               if page["wikibase_item"]),
+            *item["successor_qids"],
         }
         checked = set(item["candidate_qids_checked"])
         candidates = []
@@ -474,6 +483,8 @@ def main(argv: list[str] | None = None) -> None:
     parser.add_argument("--sample-size", type=int, default=DEFAULT_SAMPLE_SIZE)
     parser.add_argument("--batch-size", type=int, default=DEFAULT_BATCH_SIZE)
     parser.add_argument("--workers", type=int, default=8)
+    parser.add_argument("--evidence-path", type=Path, default=EVIDENCE_PATH)
+    parser.add_argument("--decisions-path", type=Path, default=DECISIONS_PATH)
     args = parser.parse_args(argv)
 
     manifest = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
@@ -487,14 +498,14 @@ def main(argv: list[str] | None = None) -> None:
             batch_size=args.batch_size,
             workers=args.workers,
         )
-        _write(EVIDENCE_PATH, _serialize_json(evidence))
+        _write(args.evidence_path, _serialize_json(evidence))
         action = "wrote"
     else:
-        evidence = json.loads(EVIDENCE_PATH.read_text(encoding="utf-8"))
+        evidence = json.loads(args.evidence_path.read_text(encoding="utf-8"))
         action = "checked"
     decisions = (
-        json.loads(DECISIONS_PATH.read_text(encoding="utf-8"))
-        if DECISIONS_PATH.is_file() else None
+        json.loads(args.decisions_path.read_text(encoding="utf-8"))
+        if args.decisions_path.is_file() else None
     )
     issues = audit(evidence, manifest, mapping, decisions)
     if args.check and issues:

@@ -172,6 +172,33 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-04T15:36:18Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-04T15:36:18Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-04.03",
+      "selection": {
+        "method": "lowest SHA-256(seed + NUL + local_id)",
+        "seed": "2026-09-04-predecessor-gap-audit-v6",
+        "population": 3207,
+        "sample_size": 50,
+        "sample_number": 14
+      },
+      "reviewed_at": "2026-09-04T19:27:47Z",
+      "decisions": [
+        {
+          "local_id": "w-2090509-base",
+          "name_vi": "Xã Thụy Hùng",
+          "outcome": "assign",
+          "wikidata_qid": "Q32307239",
+          "candidate_qids_checked": ["Q10826693", "Q32307239"],
+          "mapping_note": "coordinate-backed duplicate Q32307239 identifies the former Văn Lãng commune; Q10826693 remains assigned to the 2025 successor"
+        }
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v6.json", "role": "saved sixth-round 50-row live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames record linked from Q32307239 through P1566"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-04T19:27:47Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-04T19:27:47Z"}
+      ]
     }
   ]
 }

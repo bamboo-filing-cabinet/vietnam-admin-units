@@ -37,7 +37,7 @@ from vn_admin_units.ward_reconcile_predecessors import (
     _qid_key,
     _read_csv,
     _sha256,
-    _verified_name_matches,
+    _verified_name_match_kinds,
     apply_matches,
 )
 
@@ -176,6 +176,23 @@ def _assigned_by_qid(mapping_rows: list[dict]) -> dict[str, set[str]]:
     return indexed
 
 
+def _upstream_mapping_rows(
+    mapping_rows: list[dict], predecessor_artifact: dict | None = None,
+) -> list[dict]:
+    primary_auto = {
+        row["local_id"] for row in (predecessor_artifact or {}).get("review", [])
+        if row["auto_candidate_qids"]
+    }
+    return [
+        row for row in mapping_rows
+        if (
+            not row.get("valid_to")
+            or row.get("match_status") == "manual"
+            or row["local_id"] in primary_auto
+        )
+    ]
+
+
 def build_review(
     artifact: dict,
     predecessor_artifact: dict,
@@ -185,7 +202,9 @@ def build_review(
     result = json.loads(json.dumps(artifact))
     candidates = {row["qid"]: row for row in result["candidates"]}
     term_index = _term_index(result["candidates"])
-    assigned_by_qid = _assigned_by_qid(mapping_rows)
+    assigned_by_qid = _assigned_by_qid(
+        _upstream_mapping_rows(mapping_rows, predecessor_artifact)
+    )
     review = []
     shortlisted = set()
     for row in unresolved_rows(predecessor_artifact):
@@ -199,9 +218,10 @@ def build_review(
             if assigned_by_qid.get(qid, set()) - {row["local_id"]}
         }
         qids = all_qids - excluded
+        expected_parents = set(row.get("parent_codes", [row["parent_code"]]))
         district_qids = {
             qid for qid in qids
-            if row["parent_code"] in {
+            if expected_parents & {
                 code
                 for parent_qid in candidates[qid]["parent_qids"]
                 for code in district_qid_index.get(parent_qid, set())
@@ -222,6 +242,7 @@ def build_review(
             "name_vi": row["name_vi"],
             "loai_hinh": row["loai_hinh"],
             "parent_code": row["parent_code"],
+            "parent_codes": sorted(expected_parents),
             "prior_classification": row["classification"],
             "classification": classification,
             "candidate_qids": sorted(qids, key=_qid_key),
@@ -260,10 +281,12 @@ def evaluate(
     verified = {
         row["qid"]: row for row in result["action_api_verification"]["entities"]
     }
-    assigned_by_qid = _assigned_by_qid(mapping_rows)
+    assigned_by_qid = _assigned_by_qid(_upstream_mapping_rows(mapping_rows))
     proposed = {}
     for row in result["review"]:
         hits = []
+        parent_codes_by_qid = {}
+        expected_parents = set(row.get("parent_codes", [row["parent_code"]]))
         exact_terms = exact_vi_terms(row["name_vi"])
         for qid in row["district_candidate_qids"]:
             entity = verified.get(qid)
@@ -282,15 +305,17 @@ def evaluate(
                 (match["value"], match["language"])
                 for match in candidates[qid]["matches"]
             }
-            if row["parent_code"] not in parent_codes:
+            matching_parent_codes = expected_parents & parent_codes
+            if not matching_parent_codes:
                 continue
             if not set(entity.get("p31", [])) & set(WARD_CLASSES):
                 continue
-            if not _verified_name_matches(row, entity):
+            if not _verified_name_match_kinds(row, entity):
                 continue
             if not matched_terms & exact_terms:
                 continue
             hits.append(qid)
+            parent_codes_by_qid[qid] = matching_parent_codes
         row["verified_candidate_qids"] = hits
         row["auto_candidate_qids"] = []
         row["confidence"] = ""
@@ -300,9 +325,18 @@ def evaluate(
             row["classification"] = "verification-rejected"
             continue
         selected = hits
-        if len(hits) > 1:
+        terminal_parent = [
+            qid for qid in selected
+            if row["parent_code"] in parent_codes_by_qid[qid]
+        ]
+        if terminal_parent:
+            selected = terminal_parent
+        if len(selected) > 1:
             expected_class = EXPECTED_CLASS_BY_TIER[row["loai_hinh"]]
-            exact_type = [qid for qid in hits if expected_class in verified[qid]["p31"]]
+            exact_type = [
+                qid for qid in selected
+                if expected_class in verified[qid]["p31"]
+            ]
             if len(exact_type) == 1:
                 selected = exact_type
         if len(selected) > 1:
@@ -318,8 +352,12 @@ def evaluate(
         qid = selected[0]
         row["auto_candidate_qids"] = [qid]
         row["classification"] = "verified-unique"
+        parent_evidence = (
+            "terminal-district" if row["parent_code"] in parent_codes_by_qid[qid]
+            else "historical-district"
+        )
         row["confidence"] = (
-            "exact-vi-name+terminal-district+ward-class+batched-wbgetentities"
+            f"exact-vi-name+{parent_evidence}+ward-class+batched-wbgetentities"
         )
         proposed[row["local_id"]] = qid
 
@@ -340,7 +378,10 @@ def evaluate(
         keep = exact_type_rows[0] if len(exact_type_rows) == 1 else None
         if row is not keep:
             row["auto_candidate_qids"] = []
-            row["classification"] = "qid-collision"
+            row["classification"] = (
+                "qid-collision-preferred-exact-tier-other-row"
+                if keep is not None else "qid-collision"
+            )
             row["confidence"] = ""
     classifications = Counter(row["classification"] for row in result["review"])
     auto = sum(bool(row["auto_candidate_qids"]) for row in result["review"])

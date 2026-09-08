@@ -396,6 +396,9 @@ def test_action_api_verification_is_batched_and_compacted():
                         "P131": [{"rank": "normal", "mainsnak": {
                             "datavalue": {"value": {"id": "Q900"}}
                         }}],
+                        "P1566": [{"rank": "normal", "mainsnak": {
+                            "datavalue": {"value": "123456"}
+                        }}],
                     },
                 }
                 for qid in ids
@@ -410,6 +413,7 @@ def test_action_api_verification_is_batched_and_compacted():
     assert [row["qid"] for row in rows] == ["Q1", "Q2", "Q3"]
     assert rows[0]["p31"] == ["Q2389082"]
     assert rows[0]["p131"] == ["Q900"]
+    assert rows[0]["geonames_ids"] == ["123456"]
 
 
 def test_action_api_retries_json_error_and_rejects_incomplete_batches():
