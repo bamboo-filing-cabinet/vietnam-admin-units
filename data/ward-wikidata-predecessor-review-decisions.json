@@ -926,6 +926,22 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T20:17:21Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T20:17:21Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-09.39",
+      "selection": {"method": "lowest SHA-256(seed + NUL + local_id)", "seed": "2026-09-09-predecessor-gap-audit-v44", "population": 3057, "sample_size": 50, "sample_numbers": [14]},
+      "reviewed_at": "2026-09-09T20:31:54Z",
+      "decisions": [
+        {"local_id": "w-4033503-base", "name_vi": "Xã Nam Hưng", "outcome": "assign", "wikidata_qid": "Q32286475", "candidate_qids_checked": ["Q10797064", "Q10797207", "Q32286475"], "mapping_note": "Q32286475 retains the exact former commune alias, Nam Đàn-area coordinates, and GeoNames 8627930; Q10797207 remains assigned to the current Nam Đàn successor"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v44.json", "role": "saved forty-fourth-round 50-row live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate coordinate-backed historical identity"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current successors from historical units"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition used to verify old-unit identity and successor"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T20:28:16Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T20:28:16Z"}
+      ]
     }
   ]
 }

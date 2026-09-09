@@ -9947,7 +9947,7 @@ w-4033361-base,17923,Phường Nghi Đức,Phường,412,,2025-06-30,Q10798678,e
 w-4033363-base,17917,Xã Phúc Thọ,Xã,412,,2025-06-30,Q10806256,existing,verified,Q10806256,predecessor exact-folded-name+historical-district+ward-class+batched-wbgetentities
 w-4033365-base,17926,Xã Nghi Thái,Xã,412,,2025-06-30,Q10798658,existing,verified,Q10798658|Q32287500,predecessor unique-matching-viwiki-article+exact-tier+different-name-successor+batched-wbgetentities
 w-4033501-base,17929,Thị trấn Nam Đàn,Thị trấn,430,,2019-12-31,,,deferred-historical,,
-w-4033503-base,17932,Xã Nam Hưng,Xã,430,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4033503-base,17932,Xã Nam Hưng,Xã,430,,2025-06-30,Q32286475,existing,manual,Q10797064|Q10797207|Q32286475,"predecessor review 2026-09-09.39: Q32286475 retains the exact former commune alias, Nam Đàn-area coordinates, and GeoNames 8627930; Q10797207 remains assigned to the current Nam Đàn successor"
 w-4033505-base,17935,Xã Nghĩa Thái,Xã,430,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
 w-4033507-base,17947,Xã Nam Thái,Xã,430,,2024-11-30,,,deferred-historical,,
 w-4033509-base,17938,Xã Nam Thanh,Xã,430,,2025-06-30,Q10797139,existing,verified,Q10797139,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
