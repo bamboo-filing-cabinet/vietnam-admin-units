@@ -888,6 +888,25 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities, wbgetentities, and revision history for Q10768876 and Q10768877", "retrieved_at": "2026-09-09T19:59:00Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T19:54:19Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-09.37",
+      "selection": {"method": "lowest SHA-256(seed + NUL + local_id)", "seed": "2026-09-09-predecessor-gap-audit-v42", "population": 3066, "sample_size": 50, "sample_numbers": [2, 4, 17, 40]},
+      "reviewed_at": "2026-09-09T20:09:11Z",
+      "decisions": [
+        {"local_id": "w-4011903-base", "name_vi": "Thị trấn Kim Tân", "outcome": "assign", "wikidata_qid": "Q10779999", "candidate_qids_checked": ["Q10779995", "Q10779999", "Q135209831"], "mapping_note": "Q10779999 retains the former Thạch Thành district-capital township description and class, old parent, coordinates, and GeoNames 1566378 and 8549746; Q135209831 owns the current Kim Tân article and is reassigned to the 2025 successor"},
+        {"local_id": "w-4012723-base", "name_vi": "Xã Mậu Lâm", "outcome": "assign", "wikidata_qid": "Q10796536", "candidate_qids_checked": ["Q10796536", "Q135224994"], "mapping_note": "Q10796536 retains the former Như Thanh commune identity, district parent, coordinates, and GeoNames 8550000; Q135224994 owns the current Mậu Lâm article documenting its 2025 two-commune formation and is reassigned to the successor"},
+        {"local_id": "w-1150105-base", "name_vi": "Phường Đề Thám", "outcome": "assign", "wikidata_qid": "Q10841658", "candidate_qids_checked": ["Q10829320", "Q10841653", "Q10841658"], "mapping_note": "Q10841658 retains the exact former ward name, old aliases, Thái Bình location, historical coordinates, and GeoNames 8569481; Q10829320 owns the current Trần Hưng Đạo article and remains assigned to the 2025 successor"},
+        {"local_id": "w-4015355-base", "name_vi": "Phường Hải Bình", "outcome": "assign", "wikidata_qid": "Q10771612", "candidate_qids_checked": ["Q10771612", "Q135108139"], "mapping_note": "Q10771612 retains the former Nghi Sơn ward identity, old parent, coordinates, and GeoNames 8550047; Q135108139 owns the current Hải Bình article and is reassigned to the successor"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v42.json", "role": "saved forty-second-round 50-row live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate coordinate-backed historical identities and reject wrong-location candidates"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current successors from historical units"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition used to verify old-unit identities and successors"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T20:07:26Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T20:07:26Z"}
+      ]
     }
   ]
 }

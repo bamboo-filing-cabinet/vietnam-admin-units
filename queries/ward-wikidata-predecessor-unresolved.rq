@@ -1304,7 +1304,6 @@ WHERE {
     "Mao Khe"@en
     "Mau A"@en
     "Mau Due"@en
-    "Mau Lam"@en
     "Mau Son"@en
     "Me Linh"@en
     "Me So"@en
@@ -5025,7 +5024,6 @@ WHERE {
     "Mao Khe"@vi
     "Mau A"@vi
     "Mau Due"@vi
-    "Mau Lam"@vi
     "Mau Son"@vi
     "Me Linh"@vi
     "Me So"@vi
@@ -5232,7 +5230,6 @@ WHERE {
     "Mẫu Sơn"@vi
     "Mậu A"@vi
     "Mậu Duệ"@vi
-    "Mậu Lâm"@vi
     "Mễ Sở"@vi
     "Mỏ Cày"@vi
     "Mỏ Vàng"@vi
@@ -6180,7 +6177,6 @@ WHERE {
     "Phường Hương Vân"@vi
     "Phường Hương Văn"@vi
     "Phường Hạp Lĩnh"@vi
-    "Phường Hải Bình"@vi
     "Phường Hải Châu"@vi
     "Phường Hải Hoà"@vi
     "Phường Hải Tân"@vi
@@ -7517,7 +7513,6 @@ WHERE {
     "Thị trấn Khâm Đức"@vi
     "Thị trấn Kim Long"@vi
     "Thị trấn Kim Nhan"@vi
-    "Thị trấn Kim Tân"@vi
     "Thị trấn Kiên Lương"@vi
     "Thị trấn Kiến Giang"@vi
     "Thị trấn Kiến Xương"@vi
@@ -9603,7 +9598,6 @@ WHERE {
     "Xã Mường é"@vi
     "Xã Mẫu Sơn"@vi
     "Xã Mậu Duệ"@vi
-    "Xã Mậu Lâm"@vi
     "Xã Mễ Sở"@vi
     "Xã Mỏ Vàng"@vi
     "Xã Mộc Hoàn"@vi
@@ -12450,7 +12444,6 @@ WHERE {
     "Mao Khe"@en
     "Mau A"@en
     "Mau Due"@en
-    "Mau Lam"@en
     "Mau Son"@en
     "Me Linh"@en
     "Me So"@en
@@ -16171,7 +16164,6 @@ WHERE {
     "Mao Khe"@vi
     "Mau A"@vi
     "Mau Due"@vi
-    "Mau Lam"@vi
     "Mau Son"@vi
     "Me Linh"@vi
     "Me So"@vi
@@ -16378,7 +16370,6 @@ WHERE {
     "Mẫu Sơn"@vi
     "Mậu A"@vi
     "Mậu Duệ"@vi
-    "Mậu Lâm"@vi
     "Mễ Sở"@vi
     "Mỏ Cày"@vi
     "Mỏ Vàng"@vi
@@ -17326,7 +17317,6 @@ WHERE {
     "Phường Hương Vân"@vi
     "Phường Hương Văn"@vi
     "Phường Hạp Lĩnh"@vi
-    "Phường Hải Bình"@vi
     "Phường Hải Châu"@vi
     "Phường Hải Hoà"@vi
     "Phường Hải Tân"@vi
@@ -18663,7 +18653,6 @@ WHERE {
     "Thị trấn Khâm Đức"@vi
     "Thị trấn Kim Long"@vi
     "Thị trấn Kim Nhan"@vi
-    "Thị trấn Kim Tân"@vi
     "Thị trấn Kiên Lương"@vi
     "Thị trấn Kiến Giang"@vi
     "Thị trấn Kiến Xương"@vi
@@ -20749,7 +20738,6 @@ WHERE {
     "Xã Mường é"@vi
     "Xã Mẫu Sơn"@vi
     "Xã Mậu Duệ"@vi
-    "Xã Mậu Lâm"@vi
     "Xã Mễ Sở"@vi
     "Xã Mỏ Vàng"@vi
     "Xã Mộc Hoàn"@vi
