@@ -6966,6 +6966,22 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v38.json", "role": "saved thirty-eighth-round random-audit evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-09.96",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10841825", "Q135164614"], "local_id": "w-15457-2025-07-01", "mapping_note": "current Định Tân commune selects Q135164614; release Q10841825 to the pre-2025 Yên Định commune", "outcome": "assign", "rationale": "Q135164614 owns the `Định Tân` article, which explicitly documents the current commune's June 2025 formation from four predecessors. Q10841825 retains the former Yên Định district parent, historical coordinates, and GeoNames 8550307.", "wikidata_qid": "Q135164614"},
+        {"candidate_qids_checked": ["Q10828862", "Q135110365"], "local_id": "w-16636-2025-07-01", "mapping_note": "current Trường Lâm commune selects Q135110365; release Q10828862 to the pre-2025 Nghi Sơn commune", "outcome": "assign", "rationale": "Q135110365 owns the current `Trường Lâm` article and describes the Thanh Hóa commune. Q10828862 retains the former Nghi Sơn parent, old coordinates, and GeoNames 8550117.", "wikidata_qid": "Q135110365"}
+      ],
+      "reviewed_at": "2026-09-09T19:37:47Z",
+      "selection": {"input_status": "random-predecessor-gap-audit-v39", "sample_numbers": [26, 34]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T19:36:22Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T19:36:22Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish the current Định Tân and Trường Lâm communes from their namesake predecessors"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v39.json", "role": "saved thirty-ninth-round random-audit evidence"}
+      ]
     }
   ],
   "schema_version": 1,

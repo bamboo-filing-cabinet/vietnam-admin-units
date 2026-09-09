@@ -584,7 +584,6 @@ WHERE {
     "Dinh Phong"@en
     "Dinh Quan"@en
     "Dinh Son"@en
-    "Dinh Tan"@en
     "Dinh Thanh"@en
     "Dinh Trang Thuong"@en
     "Dinh Van"@en
@@ -2438,7 +2437,6 @@ WHERE {
     "Truong Giang"@en
     "Truong Ha"@en
     "Truong Khanh"@en
-    "Truong Lam"@en
     "Truong Long"@en
     "Truong Long Hoa"@en
     "Truong Long Tay"@en
@@ -3696,7 +3694,6 @@ WHERE {
     "Dinh Phong"@vi
     "Dinh Quan"@vi
     "Dinh Son"@vi
-    "Dinh Tan"@vi
     "Dinh Thanh"@vi
     "Dinh Trang Thuong"@vi
     "Dinh Van"@vi
@@ -8025,7 +8022,6 @@ WHERE {
     "Truong Giang"@vi
     "Truong Ha"@vi
     "Truong Khanh"@vi
-    "Truong Lam"@vi
     "Truong Long"@vi
     "Truong Long Hoa"@vi
     "Truong Long Tay"@vi
@@ -8082,7 +8078,6 @@ WHERE {
     "Trường Long"@vi
     "Trường Long Hòa"@vi
     "Trường Long Tây"@vi
-    "Trường Lâm"@vi
     "Trường Sa"@vi
     "Trường Sinh"@vi
     "Trường Sơn"@vi
@@ -10339,7 +10334,6 @@ WHERE {
     "Xã Trường Long"@vi
     "Xã Trường Long Hòa"@vi
     "Xã Trường Long Tây"@vi
-    "Xã Trường Lâm"@vi
     "Xã Trường Sinh"@vi
     "Xã Trường Sơn"@vi
     "Xã Trường Thành"@vi
@@ -10823,7 +10817,6 @@ WHERE {
     "Xã Định Mỹ"@vi
     "Xã Định Sơn"@vi
     "Xã Định Thành"@vi
-    "Xã Định Tân"@vi
     "Xã Đốc Binh Kiều"@vi
     "Xã Đồng Bài"@vi
     "Xã Đồng Cẩm"@vi
@@ -11116,7 +11109,6 @@ WHERE {
     "Định Quán"@vi
     "Định Sơn"@vi
     "Định Thành"@vi
-    "Định Tân"@vi
     "Đốc Binh Kiều"@vi
     "Đồng Bài"@vi
     "Đồng Cẩm"@vi
@@ -11744,7 +11736,6 @@ WHERE {
     "Dinh Phong"@en
     "Dinh Quan"@en
     "Dinh Son"@en
-    "Dinh Tan"@en
     "Dinh Thanh"@en
     "Dinh Trang Thuong"@en
     "Dinh Van"@en
@@ -13598,7 +13589,6 @@ WHERE {
     "Truong Giang"@en
     "Truong Ha"@en
     "Truong Khanh"@en
-    "Truong Lam"@en
     "Truong Long"@en
     "Truong Long Hoa"@en
     "Truong Long Tay"@en
@@ -14856,7 +14846,6 @@ WHERE {
     "Dinh Phong"@vi
     "Dinh Quan"@vi
     "Dinh Son"@vi
-    "Dinh Tan"@vi
     "Dinh Thanh"@vi
     "Dinh Trang Thuong"@vi
     "Dinh Van"@vi
@@ -19185,7 +19174,6 @@ WHERE {
     "Truong Giang"@vi
     "Truong Ha"@vi
     "Truong Khanh"@vi
-    "Truong Lam"@vi
     "Truong Long"@vi
     "Truong Long Hoa"@vi
     "Truong Long Tay"@vi
@@ -19242,7 +19230,6 @@ WHERE {
     "Trường Long"@vi
     "Trường Long Hòa"@vi
     "Trường Long Tây"@vi
-    "Trường Lâm"@vi
     "Trường Sa"@vi
     "Trường Sinh"@vi
     "Trường Sơn"@vi
@@ -21499,7 +21486,6 @@ WHERE {
     "Xã Trường Long"@vi
     "Xã Trường Long Hòa"@vi
     "Xã Trường Long Tây"@vi
-    "Xã Trường Lâm"@vi
     "Xã Trường Sinh"@vi
     "Xã Trường Sơn"@vi
     "Xã Trường Thành"@vi
@@ -21983,7 +21969,6 @@ WHERE {
     "Xã Định Mỹ"@vi
     "Xã Định Sơn"@vi
     "Xã Định Thành"@vi
-    "Xã Định Tân"@vi
     "Xã Đốc Binh Kiều"@vi
     "Xã Đồng Bài"@vi
     "Xã Đồng Cẩm"@vi
@@ -22276,7 +22261,6 @@ WHERE {
     "Định Quán"@vi
     "Định Sơn"@vi
     "Định Thành"@vi
-    "Định Tân"@vi
     "Đốc Binh Kiều"@vi
     "Đồng Bài"@vi
     "Đồng Cẩm"@vi

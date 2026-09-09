@@ -832,6 +832,25 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T19:27:23Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T19:27:23Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-09.34",
+      "selection": {"method": "lowest SHA-256(seed + NUL + local_id)", "seed": "2026-09-09-predecessor-gap-audit-v39", "population": 3077, "sample_size": 50, "sample_numbers": [13, 23, 26, 34]},
+      "reviewed_at": "2026-09-09T19:37:47Z",
+      "decisions": [
+        {"local_id": "w-8131313-base", "name_vi": "Xã Vĩnh Hòa Hưng Nam", "outcome": "assign", "wikidata_qid": "Q32591202", "candidate_qids_checked": ["Q10833562", "Q32591202"], "mapping_note": "Q32591202 retains the exact former commune name and class, matching Gò Quao-area coordinates, and GeoNames 9280693; Q10833562 owns the current Vĩnh Hòa Hưng article and remains assigned to the successor"},
+        {"local_id": "w-2210705-base", "name_vi": "Xã Tân Sơn", "outcome": "assign", "wikidata_qid": "Q32587242", "candidate_qids_checked": ["Q7862091", "Q32587242"], "mapping_note": "Q32587242 retains the exact former commune name and class, matching Lục Ngạn-area coordinates, and GeoNames 8376512; Q7862091 owns the current Tân Sơn article and remains assigned to the successor"},
+        {"local_id": "w-4013543-base", "name_vi": "Xã Định Tân", "outcome": "assign", "wikidata_qid": "Q10841825", "candidate_qids_checked": ["Q10841825", "Q135164614"], "mapping_note": "Q10841825 retains the former Yên Định commune identity, district parent, coordinates, and GeoNames 8550307; Q135164614 owns the current Định Tân article documenting its 2025 four-commune formation and is reassigned to the successor"},
+        {"local_id": "w-4015335-base", "name_vi": "Xã Trường Lâm", "outcome": "assign", "wikidata_qid": "Q10828862", "candidate_qids_checked": ["Q10828862", "Q135110365"], "mapping_note": "Q10828862 retains the former Nghi Sơn commune identity, old parent, coordinates, and GeoNames 8550117; Q135110365 owns the current Trường Lâm article and is reassigned to the successor"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v39.json", "role": "saved thirty-ninth-round 50-row live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate coordinate-backed historical identities and reject wrong-location candidates"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current successors from historical units"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition used to verify old-unit identities and successors"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T19:36:22Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T19:36:22Z"}
+      ]
     }
   ]
 }
