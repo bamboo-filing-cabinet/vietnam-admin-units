@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "scope": {"tier": "ward", "purpose": "manual decisions for twenty-ninth random predecessor-gap audit", "wikidata_write_performed": false},
+  "sampling": {"method": "lowest SHA-256(seed + NUL + local_id)", "seed": "2026-09-08-predecessor-gap-audit-v29", "population": 3106, "sample_size": 50, "batch_size": 10, "batches": 5},
+  "reviewed_at": "2026-09-08T20:44:11Z",
+  "audit": {"reviewed_rows": 50, "existing_predecessor_items": 1, "current_mapping_swaps": 1, "no_distinct_item_found": 49, "sample_miss_rate": 0.02, "creation_batch_authorized": false},
+  "batches": [
+    {"batch_number": 1, "decisions": [
+      {"sample_number": 1, "local_id": "w-3031543-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-found"},
+      {"sample_number": 2, "local_id": "w-2110511-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-disambiguation-and-wrong-location-items"},
+      {"sample_number": 3, "local_id": "w-5011121-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-found"},
+      {"sample_number": 4, "local_id": "w-5030525-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-wrong-country-items"},
+      {"sample_number": 5, "local_id": "w-8031519-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-found"},
+      {"sample_number": 6, "local_id": "w-7012109-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-same-numbered-wrong-district-items"},
+      {"sample_number": 7, "local_id": "w-3031947-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-former-district-item"},
+      {"sample_number": 8, "local_id": "w-4014975-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-differently-named-current-items"},
+      {"sample_number": 9, "local_id": "w-1040601-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-found"},
+      {"sample_number": 10, "local_id": "w-1040325-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-former-district-coordinate-backed-wrong-location-and-wrong-location-items"}
+    ]},
+    {"batch_number": 2, "decisions": [
+      {"sample_number": 11, "local_id": "w-4032314-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-wrong-location-items"},
+      {"sample_number": 12, "local_id": "w-2252113-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-temple-and-former-district-items"},
+      {"sample_number": 13, "local_id": "w-2210723-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-found"},
+      {"sample_number": 14, "local_id": "w-7130523-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-disambiguation-and-wrong-location-items"},
+      {"sample_number": 15, "local_id": "w-5052301-base", "outcome": "existing-predecessor-item-after-current-swap", "wikidata_qid": "Q10842418", "replacement_current_qid": "Q10807170", "reason_code": "old-ward-item-released-by-primary-predecessor-and-current-article-item"},
+      {"sample_number": 16, "local_id": "w-8111533-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-wrong-location-items"},
+      {"sample_number": 17, "local_id": "w-2250701-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-former-district-item"},
+      {"sample_number": 18, "local_id": "w-2110539-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-found"},
+      {"sample_number": 19, "local_id": "w-8071709-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-found"},
+      {"sample_number": 20, "local_id": "w-4031721-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-found"}
+    ]},
+    {"batch_number": 3, "decisions": [
+      {"sample_number": 21, "local_id": "w-1170911-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-former-district-disambiguation-and-wrong-location-items"},
+      {"sample_number": 22, "local_id": "w-7012729-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successors-or-same-numbered-wrong-district-items"},
+      {"sample_number": 23, "local_id": "w-3011119-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-differently-named-current-item"},
+      {"sample_number": 24, "local_id": "w-7131501-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-former-district-wrong-country-and-wrong-location-items"},
+      {"sample_number": 25, "local_id": "w-8130501-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-former-district-disambiguation-novel-and-mountain-items"},
+      {"sample_number": 26, "local_id": "w-8151105-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-differently-named-current-item"},
+      {"sample_number": 27, "local_id": "w-2010519-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-similar-name-and-wrong-location-items"},
+      {"sample_number": 28, "local_id": "w-8131301-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-former-district-and-disambiguation-items"},
+      {"sample_number": 29, "local_id": "w-3030765-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-found"},
+      {"sample_number": 30, "local_id": "w-4032333-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-wrong-location-items"}
+    ]},
+    {"batch_number": 4, "decisions": [
+      {"sample_number": 31, "local_id": "w-4051541-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-disambiguation-and-wrong-location-item"},
+      {"sample_number": 32, "local_id": "w-7010717-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-same-numbered-wrong-district-items"},
+      {"sample_number": 33, "local_id": "w-2050817-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-unrelated-animal-item"},
+      {"sample_number": 34, "local_id": "w-8150133-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-differently-named-current-item"},
+      {"sample_number": 35, "local_id": "w-1040703-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-found"},
+      {"sample_number": 36, "local_id": "w-14369-2007-04-24", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-coordinate-backed-wrong-province-tier-and-wrong-location-items"},
+      {"sample_number": 37, "local_id": "w-7011923-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-same-numbered-wrong-district-items"},
+      {"sample_number": 38, "local_id": "w-6050702-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-similar-name-wrong-location-item"},
+      {"sample_number": 39, "local_id": "w-1060111-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-historical-place-and-former-district-items"},
+      {"sample_number": 40, "local_id": "w-4050961-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-wrong-location-items"}
+    ]},
+    {"batch_number": 5, "decisions": [
+      {"sample_number": 41, "local_id": "w-4031757-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-wrong-location-items"},
+      {"sample_number": 42, "local_id": "w-1040543-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-found"},
+      {"sample_number": 43, "local_id": "w-2252501-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-former-district-province-disambiguation-and-wrong-location-items"},
+      {"sample_number": 44, "local_id": "w-7013713-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-found"},
+      {"sample_number": 45, "local_id": "w-8111511-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-differently-named-current-item"},
+      {"sample_number": 46, "local_id": "w-2171513-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-disambiguation-and-wrong-location-item"},
+      {"sample_number": 47, "local_id": "w-8131113-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-found"},
+      {"sample_number": 48, "local_id": "w-2150535-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-wrong-location-items"},
+      {"sample_number": 49, "local_id": "w-6053302-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-found"},
+      {"sample_number": 50, "local_id": "w-8090313-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-disambiguation-and-wrong-location-item"}
+    ]}
+  ],
+  "sources": [
+    {"path": "data/ward-wikidata-predecessor-gap-sample-v29.json", "role": "saved twenty-ninth-round 50-row live search and entity evidence"},
+    {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate historical identities and reject coordinate-backed wrong-location candidates"},
+    {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to verify the current Nguyễn Nghiêm primary predecessor"},
+    {"path": "data/ward-history.json", "role": "canonical predecessor composition used to verify current/predecessor identity splits"},
+    {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-08T20:42:15Z"},
+    {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-08T20:42:15Z"}
+  ]
+}

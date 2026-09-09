@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "scope": {"tier": "ward", "purpose": "manual decisions for ninth random predecessor-gap audit", "wikidata_write_performed": false},
+  "sampling": {"method": "lowest SHA-256(seed + NUL + local_id)", "seed": "2026-09-04-predecessor-gap-audit-v9", "population": 3198, "sample_size": 50, "batch_size": 10, "batches": 5},
+  "reviewed_at": "2026-09-08T17:30:17Z",
+  "audit": {"reviewed_rows": 50, "existing_predecessor_items": 2, "current_mapping_swaps": 1, "no_distinct_item_found": 48, "sample_miss_rate": 0.04, "creation_batch_authorized": false},
+  "batches": [
+    {
+      "batch_number": 1,
+      "decisions": [
+        {"sample_number": 1, "local_id": "w-3010303-base", "outcome": "existing-predecessor-item", "wikidata_qid": "Q32281204", "reason_code": "coordinate-backed-exact-commune-duplicate"},
+        {"sample_number": 2, "local_id": "w-8051527-base", "outcome": "no-distinct-item-found", "reason_code": "no-correct-name-tier-location-candidate-found"},
+        {"sample_number": 3, "local_id": "w-1130141-base", "outcome": "no-distinct-item-found", "reason_code": "no-correct-name-tier-location-candidate-found"},
+        {"sample_number": 4, "local_id": "w-1050301-base", "outcome": "no-distinct-item-found", "reason_code": "no-correct-name-tier-location-candidate-found"},
+        {"sample_number": 5, "local_id": "w-2170709-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-unrelated-items"},
+        {"sample_number": 6, "local_id": "w-6070103-base", "outcome": "no-distinct-item-found", "reason_code": "no-correct-name-tier-location-candidate-found"},
+        {"sample_number": 7, "local_id": "w-1011515-base", "outcome": "no-distinct-item-found", "reason_code": "same-name-candidate-has-wrong-location-or-identity"},
+        {"sample_number": 8, "local_id": "w-2110709-base", "outcome": "no-distinct-item-found", "reason_code": "same-name-candidate-has-wrong-location-or-identity"},
+        {"sample_number": 9, "local_id": "w-6053313-base", "outcome": "no-distinct-item-found", "reason_code": "no-correct-name-tier-location-candidate-found"},
+        {"sample_number": 10, "local_id": "w-1010119-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-unrelated-items"}
+      ]
+    },
+    {
+      "batch_number": 2,
+      "decisions": [
+        {"sample_number": 11, "local_id": "w-8031325-base", "outcome": "no-distinct-item-found", "reason_code": "same-name-candidate-has-wrong-location-or-identity"},
+        {"sample_number": 12, "local_id": "w-4091307-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-unrelated-items"},
+        {"sample_number": 13, "local_id": "w-2250627-base", "outcome": "no-distinct-item-found", "reason_code": "same-name-candidate-has-wrong-location-or-identity"},
+        {"sample_number": 14, "local_id": "w-2070713-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-unrelated-items"},
+        {"sample_number": 15, "local_id": "w-7010517-base", "outcome": "no-distinct-item-found", "reason_code": "no-correct-name-tier-location-candidate-found"},
+        {"sample_number": 16, "local_id": "w-2090739-base", "outcome": "no-distinct-item-found", "reason_code": "same-name-candidate-has-wrong-location-or-identity"},
+        {"sample_number": 17, "local_id": "w-2011323-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-unrelated-items"},
+        {"sample_number": 18, "local_id": "w-7170501-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-unrelated-items"},
+        {"sample_number": 19, "local_id": "w-8010101-base", "outcome": "no-distinct-item-found", "reason_code": "no-correct-name-tier-location-candidate-found"},
+        {"sample_number": 20, "local_id": "w-7170913-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-unrelated-items"}
+      ]
+    },
+    {
+      "batch_number": 3,
+      "decisions": [
+        {"sample_number": 21, "local_id": "w-6010905-base", "outcome": "no-distinct-item-found", "reason_code": "no-correct-name-tier-location-candidate-found"},
+        {"sample_number": 22, "local_id": "w-2030311-base", "outcome": "no-distinct-item-found", "reason_code": "same-name-candidate-has-wrong-location-or-identity"},
+        {"sample_number": 23, "local_id": "w-8190301-base", "outcome": "no-distinct-item-found", "reason_code": "same-name-candidate-has-wrong-location-or-identity"},
+        {"sample_number": 24, "local_id": "w-8170319-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-unrelated-items"},
+        {"sample_number": 25, "local_id": "w-2011731-base", "outcome": "no-distinct-item-found", "reason_code": "no-correct-name-tier-location-candidate-found"},
+        {"sample_number": 26, "local_id": "w-8171109-base", "outcome": "no-distinct-item-found", "reason_code": "no-correct-name-tier-location-candidate-found"},
+        {"sample_number": 27, "local_id": "w-4015149-base", "outcome": "existing-predecessor-item-after-current-swap", "wikidata_qid": "Q10751960", "replacement_current_qid": "Q135162452", "reason_code": "old-commune-item-released-by-distinct-2025-commune-item"},
+        {"sample_number": 28, "local_id": "w-1061127-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-unrelated-items"},
+        {"sample_number": 29, "local_id": "w-2032101-base", "outcome": "no-distinct-item-found", "reason_code": "no-correct-name-tier-location-candidate-found"},
+        {"sample_number": 30, "local_id": "w-8171317-base", "outcome": "no-distinct-item-found", "reason_code": "no-correct-name-tier-location-candidate-found"}
+      ]
+    },
+    {
+      "batch_number": 4,
+      "decisions": [
+        {"sample_number": 31, "local_id": "w-6030708-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-unrelated-items"},
+        {"sample_number": 32, "local_id": "w-8131301-base", "outcome": "no-distinct-item-found", "reason_code": "same-name-candidate-has-wrong-location-or-identity"},
+        {"sample_number": 33, "local_id": "w-2131505-base", "outcome": "no-distinct-item-found", "reason_code": "no-correct-name-tier-location-candidate-found"},
+        {"sample_number": 34, "local_id": "w-2150129-base", "outcome": "no-distinct-item-found", "reason_code": "same-name-candidate-has-wrong-location-or-identity"},
+        {"sample_number": 35, "local_id": "w-4032301-base", "outcome": "no-distinct-item-found", "reason_code": "no-correct-name-tier-location-candidate-found"},
+        {"sample_number": 36, "local_id": "w-2171341-base", "outcome": "no-distinct-item-found", "reason_code": "no-correct-name-tier-location-candidate-found"},
+        {"sample_number": 37, "local_id": "w-1040717-base", "outcome": "no-distinct-item-found", "reason_code": "no-correct-name-tier-location-candidate-found"},
+        {"sample_number": 38, "local_id": "w-6010511-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-unrelated-items"},
+        {"sample_number": 39, "local_id": "w-8010321-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-unrelated-items"},
+        {"sample_number": 40, "local_id": "w-2150545-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-unrelated-items"}
+      ]
+    },
+    {
+      "batch_number": 5,
+      "decisions": [
+        {"sample_number": 41, "local_id": "w-2170549-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-unrelated-items"},
+        {"sample_number": 42, "local_id": "w-4032341-base", "outcome": "no-distinct-item-found", "reason_code": "no-correct-name-tier-location-candidate-found"},
+        {"sample_number": 43, "local_id": "w-4051529-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-unrelated-items"},
+        {"sample_number": 44, "local_id": "w-03201-2006-11-29", "outcome": "no-distinct-item-found", "reason_code": "no-correct-name-tier-location-candidate-found"},
+        {"sample_number": 45, "local_id": "w-4050109-base", "outcome": "no-distinct-item-found", "reason_code": "same-name-candidate-has-wrong-location-or-identity"},
+        {"sample_number": 46, "local_id": "w-8011711-base", "outcome": "no-distinct-item-found", "reason_code": "same-name-candidate-has-wrong-location-or-identity"},
+        {"sample_number": 47, "local_id": "w-2050937-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-unrelated-items"},
+        {"sample_number": 48, "local_id": "w-6050913-base", "outcome": "no-distinct-item-found", "reason_code": "no-correct-name-tier-location-candidate-found"},
+        {"sample_number": 49, "local_id": "w-7110523-base", "outcome": "no-distinct-item-found", "reason_code": "same-name-candidate-has-wrong-location-or-identity"},
+        {"sample_number": 50, "local_id": "w-31299-2007-01-31", "outcome": "no-distinct-item-found", "reason_code": "same-name-candidate-has-wrong-location-or-identity"}
+      ]
+    }
+  ],
+  "sources": [
+    {"path": "data/ward-wikidata-predecessor-gap-sample-v9.json", "role": "saved ninth-round 50-row live search and entity evidence"},
+    {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-04T19:32:17Z"},
+    {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-04T19:32:17Z"}
+  ]
+}

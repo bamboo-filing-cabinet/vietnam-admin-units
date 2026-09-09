@@ -84,7 +84,6 @@ WHERE {
     "An Nhon Tay"@en
     "An Ninh"@en
     "An Ninh Tay"@en
-    "An Nong"@en
     "An Phu"@en
     "An Phu Dong"@en
     "An Phu Tan"@en
@@ -149,7 +148,6 @@ WHERE {
     "Bac Yen"@en
     "Bach Dang"@en
     "Bach Dich"@en
-    "Bach Mai"@en
     "Bach Ngoc"@en
     "Bach Quang"@en
     "Bach Xa"@en
@@ -242,7 +240,6 @@ WHERE {
     "Binh Thanh"@en
     "Binh Thanh Dong"@en
     "Binh Thuan"@en
-    "Binh Thuy"@en
     "Binh Tien"@en
     "Binh Tinh"@en
     "Binh Tri"@en
@@ -300,14 +297,11 @@ WHERE {
     "Cam Lo"@en
     "Cam Ly"@en
     "Cam Nhan"@en
-    "Cam Tan"@en
     "Cam Thach"@en
     "Cam Thanh"@en
     "Cam Thuong"@en
     "Cam Thuy"@en
     "Cam Trung"@en
-    "Cam Tu"@en
-    "Cam Van"@en
     "Cam Xuyen"@en
     "Can Dang"@en
     "Can Duoc"@en
@@ -443,7 +437,6 @@ WHERE {
     "Coc San"@en
     "Con Lon"@en
     "Con Minh"@en
-    "Cong Chinh"@en
     "Cong Hai"@en
     "Cong Son"@en
     "Cu Bao"@en
@@ -465,7 +458,6 @@ WHERE {
     "Cuong Loi"@en
     "Cuor Dang"@en
     "Cuu An"@en
-    "D'Ran"@en
     "DLie Ya"@en
     "Da Chais"@en
     "Da Kao"@en
@@ -574,14 +566,12 @@ WHERE {
     "Dien Duong"@en
     "Dien Hoa"@en
     "Dien Hong"@en
-    "Dien Khanh"@en
     "Dien Lac"@en
     "Dien Lam"@en
     "Dien Lu"@en
     "Dien My"@en
     "Dien Nam Trung"@en
     "Dien Phuoc"@en
-    "Dien Quang"@en
     "Dien Sanh"@en
     "Dien Tho"@en
     "Dien Xa"@en
@@ -801,7 +791,6 @@ WHERE {
     "Hai Hung"@en
     "Hai Lang"@en
     "Hai Le"@en
-    "Hai Linh"@en
     "Hai Luu"@en
     "Hai Ninh"@en
     "Hai Phong"@en
@@ -838,7 +827,6 @@ WHERE {
     "Hau Thanh"@en
     "Hien Hao"@en
     "Hien Khanh"@en
-    "Hien Kiet"@en
     "Hien Luong"@en
     "Hien Ninh"@en
     "Hien Quan"@en
@@ -919,7 +907,6 @@ WHERE {
     "Hoat Giang"@en
     "Hoc Mon"@en
     "Hoi An"@en
-    "Hoi Hoan"@en
     "Hoi Phu"@en
     "Hoi Son"@en
     "Hoi Thinh"@en
@@ -1506,10 +1493,8 @@ WHERE {
     "Nam Xuan"@en
     "Nanh Nghe"@en
     "Nenh"@en
-    "Nga An"@en
     "Nga Bay"@en
     "Nga My"@en
-    "Nga Son"@en
     "Nga Thang"@en
     "Nga Thanh"@en
     "Ngai Giao"@en
@@ -1563,16 +1548,13 @@ WHERE {
     "Ngoc Duong"@en
     "Ngoc Ha"@en
     "Ngoc Hoi"@en
-    "Ngoc Lac"@en
     "Ngoc Lam"@en
     "Ngoc Lay"@en
-    "Ngoc Lien"@en
     "Ngoc Linh"@en
     "Ngoc Long"@en
     "Ngoc Son"@en
     "Ngoc Thien"@en
     "Ngoc To"@en
-    "Ngoc Trao"@en
     "Ngoc Xuyen"@en
     "Ngoc Yeu"@en
     "Ngok Bay"@en
@@ -1650,7 +1632,6 @@ WHERE {
     "Ninh Thanh Loi"@en
     "Ninh Tien"@en
     "Ninh Xa"@en
-    "Nong Cong"@en
     "Nong Tien"@en
     "Nong Trang"@en
     "Nong truong Viet Lam"@en
@@ -1736,7 +1717,6 @@ WHERE {
     "Phu Lac"@en
     "Phu Lam"@en
     "Phu Lang"@en
-    "Phu Le"@en
     "Phu Linh"@en
     "Phu Loc"@en
     "Phu Loi"@en
@@ -1856,7 +1836,6 @@ WHERE {
     "Quan Trieu"@en
     "Quang Bach"@en
     "Quang Bi"@en
-    "Quang Binh"@en
     "Quang Chieu"@en
     "Quang Chinh"@en
     "Quang Diem"@en
@@ -2156,7 +2135,6 @@ WHERE {
     "Te Lo"@en
     "Thac Ba"@en
     "Thac Mo"@en
-    "Thach Binh"@en
     "Thach Da"@en
     "Thach Ha"@en
     "Thach Hung"@en
@@ -2178,7 +2156,6 @@ WHERE {
     "Tham Duong"@en
     "Than Uyen"@en
     "Than Xa"@en
-    "Thang Binh"@en
     "Thang Loi"@en
     "Thang Mo"@en
     "Thang Thuy"@en
@@ -2219,7 +2196,6 @@ WHERE {
     "Thanh Phu"@en
     "Thanh Phuoc"@en
     "Thanh Qua"@en
-    "Thanh Quan"@en
     "Thanh Quang"@en
     "Thanh Quoi"@en
     "Thanh Son"@en
@@ -2256,8 +2232,6 @@ WHERE {
     "Thieu Hoa"@en
     "Thieu Quang"@en
     "Thieu Tien"@en
-    "Thieu Toan"@en
-    "Thieu Trung"@en
     "Thinh Dan"@en
     "Thinh Duc"@en
     "Thinh Lang"@en
@@ -2265,11 +2239,8 @@ WHERE {
     "Thinh My"@en
     "Thinh Truong"@en
     "Thinh Vuong"@en
-    "Tho Binh"@en
     "Tho Chau"@en
-    "Tho Lap"@en
     "Tho Nghiep"@en
-    "Tho Ngoc"@en
     "Tho Phu"@en
     "Tho Son"@en
     "Tho Tang"@en
@@ -2541,7 +2512,6 @@ WHERE {
     "Van Mon"@en
     "Van Nham"@en
     "Van Nhat"@en
-    "Van Nho"@en
     "Van Noi"@en
     "Van Phong"@en
     "Van Phu"@en
@@ -2640,7 +2610,6 @@ WHERE {
     "Vu Ninh"@en
     "Vu Phuc"@en
     "Vu Qui"@en
-    "Vu Thu"@en
     "Vy Da"@en
     "Xa Bang"@en
     "Xa Dung"@en
@@ -2865,8 +2834,6 @@ WHERE {
     "An Ninh"@vi
     "An Ninh Tay"@vi
     "An Ninh Tây"@vi
-    "An Nong"@vi
-    "An Nông"@vi
     "An Phu"@vi
     "An Phu Dong"@vi
     "An Phu Tan"@vi
@@ -2967,7 +2934,6 @@ WHERE {
     "Bac Yen"@vi
     "Bach Dang"@vi
     "Bach Dich"@vi
-    "Bach Mai"@vi
     "Bach Ngoc"@vi
     "Bach Quang"@vi
     "Bach Xa"@vi
@@ -3060,7 +3026,6 @@ WHERE {
     "Binh Thanh"@vi
     "Binh Thanh Dong"@vi
     "Binh Thuan"@vi
-    "Binh Thuy"@vi
     "Binh Tien"@vi
     "Binh Tinh"@vi
     "Binh Tri"@vi
@@ -3154,7 +3119,6 @@ WHERE {
     "Bình Thành"@vi
     "Bình Thạnh"@vi
     "Bình Thạnh Đông"@vi
-    "Bình Thủy"@vi
     "Bình Tiến"@vi
     "Bình Trinh Đông"@vi
     "Bình Trung"@vi
@@ -3180,7 +3144,6 @@ WHERE {
     "Bùi La Nhân"@vi
     "Búng Lao"@vi
     "Bưởi"@vi
-    "Bạch Mai"@vi
     "Bạch Ngọc"@vi
     "Bạch Xa"@vi
     "Bạch Đích"@vi
@@ -3269,7 +3232,6 @@ WHERE {
     "Cam Lâm"@vi
     "Cam Lộ"@vi
     "Cam Nhan"@vi
-    "Cam Tan"@vi
     "Cam Thach"@vi
     "Cam Thanh"@vi
     "Cam Thuong"@vi
@@ -3277,8 +3239,6 @@ WHERE {
     "Cam Thành"@vi
     "Cam Thủy"@vi
     "Cam Trung"@vi
-    "Cam Tu"@vi
-    "Cam Van"@vi
     "Cam Xuyen"@vi
     "Cam Đường"@vi
     "Can Dang"@vi
@@ -3501,7 +3461,6 @@ WHERE {
     "Coc San"@vi
     "Con Lon"@vi
     "Con Minh"@vi
-    "Cong Chinh"@vi
     "Cong Hai"@vi
     "Cong Son"@vi
     "Cu Bao"@vi
@@ -3551,7 +3510,6 @@ WHERE {
     "Cô Tô"@vi
     "Côn Lôn"@vi
     "Côn Minh"@vi
-    "Công Chính"@vi
     "Công Hải"@vi
     "Công Sơn"@vi
     "Cù Lao Dung"@vi
@@ -3592,9 +3550,6 @@ WHERE {
     "Cẩm Thượng"@vi
     "Cẩm Thạch"@vi
     "Cẩm Trung"@vi
-    "Cẩm Tân"@vi
-    "Cẩm Tú"@vi
-    "Cẩm Vân"@vi
     "Cẩm Xuyên"@vi
     "Cốc Lầu"@vi
     "Cốc Lếu"@vi
@@ -3618,7 +3573,6 @@ WHERE {
     "Cửa Ông"@vi
     "Cửu An"@vi
     "Cự Đồng"@vi
-    "D'Ran"@vi
     "DLie Ya"@vi
     "Da Chais"@vi
     "Da Kao"@vi
@@ -3728,14 +3682,12 @@ WHERE {
     "Dien Duong"@vi
     "Dien Hoa"@vi
     "Dien Hong"@vi
-    "Dien Khanh"@vi
     "Dien Lac"@vi
     "Dien Lam"@vi
     "Dien Lu"@vi
     "Dien My"@vi
     "Dien Nam Trung"@vi
     "Dien Phuoc"@vi
-    "Dien Quang"@vi
     "Dien Sanh"@vi
     "Dien Tho"@vi
     "Dien Xa"@vi
@@ -3754,7 +3706,6 @@ WHERE {
     "Dinh Van"@vi
     "Diên Hoa"@vi
     "Diên Hồng"@vi
-    "Diên Khánh"@vi
     "Diên Lâm"@vi
     "Diên Lạc"@vi
     "Diên Phước"@vi
@@ -4051,7 +4002,6 @@ WHERE {
     "Hai Hung"@vi
     "Hai Lang"@vi
     "Hai Le"@vi
-    "Hai Linh"@vi
     "Hai Luu"@vi
     "Hai Ninh"@vi
     "Hai Phong"@vi
@@ -4088,7 +4038,6 @@ WHERE {
     "Hau Thanh"@vi
     "Hien Hao"@vi
     "Hien Khanh"@vi
-    "Hien Kiet"@vi
     "Hien Luong"@vi
     "Hien Ninh"@vi
     "Hien Quan"@vi
@@ -4109,7 +4058,6 @@ WHERE {
     "Hiếu Phụng"@vi
     "Hiếu Thành"@vi
     "Hiền Hào"@vi
-    "Hiền Kiệt"@vi
     "Hiền Lương"@vi
     "Hiền Ninh"@vi
     "Hiền Quan"@vi
@@ -4195,7 +4143,6 @@ WHERE {
     "Hoat Giang"@vi
     "Hoc Mon"@vi
     "Hoi An"@vi
-    "Hoi Hoan"@vi
     "Hoi Phu"@vi
     "Hoi Son"@vi
     "Hoi Thinh"@vi
@@ -4338,7 +4285,6 @@ WHERE {
     "Hà Huy Tập"@vi
     "Hà Lam"@vi
     "Hà Linh"@vi
-    "Hà Long"@vi
     "Hà Lầm"@vi
     "Hà Lộc"@vi
     "Hà Trung"@vi
@@ -4454,7 +4400,6 @@ WHERE {
     "Hải Hoà"@vi
     "Hải Hòa"@vi
     "Hải Hưng"@vi
-    "Hải Lĩnh"@vi
     "Hải Lạng"@vi
     "Hải Lệ"@vi
     "Hải Lựu"@vi
@@ -4504,7 +4449,6 @@ WHERE {
     "Hồng Vân"@vi
     "Hồng Vũ"@vi
     "Hội An"@vi
-    "Hội Hoan"@vi
     "Hội Phú"@vi
     "Hội Sơn"@vi
     "Hội Thịnh"@vi
@@ -5441,11 +5385,8 @@ WHERE {
     "Nam Đồng"@vi
     "Nanh Nghe"@vi
     "Nenh"@vi
-    "Nga An"@vi
     "Nga Bay"@vi
     "Nga My"@vi
-    "Nga Son"@vi
-    "Nga Sơn"@vi
     "Nga Thang"@vi
     "Nga Thanh"@vi
     "Nga Thành"@vi
@@ -5543,16 +5484,13 @@ WHERE {
     "Ngoc Duong"@vi
     "Ngoc Ha"@vi
     "Ngoc Hoi"@vi
-    "Ngoc Lac"@vi
     "Ngoc Lam"@vi
     "Ngoc Lay"@vi
-    "Ngoc Lien"@vi
     "Ngoc Linh"@vi
     "Ngoc Long"@vi
     "Ngoc Son"@vi
     "Ngoc Thien"@vi
     "Ngoc To"@vi
-    "Ngoc Trao"@vi
     "Ngoc Xuyen"@vi
     "Ngoc Yeu"@vi
     "Ngok Bay"@vi
@@ -5606,15 +5544,12 @@ WHERE {
     "Ngọc Hà"@vi
     "Ngọc Hồi"@vi
     "Ngọc Linh"@vi
-    "Ngọc Liên"@vi
     "Ngọc Long"@vi
     "Ngọc Lâm"@vi
     "Ngọc Lây"@vi
     "Ngọc Lĩnh"@vi
-    "Ngọc Lặc"@vi
     "Ngọc Sơn"@vi
     "Ngọc Thiện"@vi
-    "Ngọc Trạo"@vi
     "Ngọc Tố"@vi
     "Ngọc Xuyên"@vi
     "Ngọc Yêu"@vi
@@ -5724,7 +5659,6 @@ WHERE {
     "Ninh Xá"@vi
     "Ninh Điền"@vi
     "Niêm Sơn"@vi
-    "Nong Cong"@vi
     "Nong Tien"@vi
     "Nong Trang"@vi
     "Nong truong Viet Lam"@vi
@@ -5743,7 +5677,6 @@ WHERE {
     "Nà Tấu"@vi
     "Nánh Nghê"@vi
     "Nâm Nung"@vi
-    "Nông Cống"@vi
     "Nông Tiến"@vi
     "Nông Trang"@vi
     "Nông trường Việt Lâm"@vi
@@ -5871,7 +5804,6 @@ WHERE {
     "Phu Lac"@vi
     "Phu Lam"@vi
     "Phu Lang"@vi
-    "Phu Le"@vi
     "Phu Linh"@vi
     "Phu Loc"@vi
     "Phu Loi"@vi
@@ -6012,7 +5944,6 @@ WHERE {
     "Phú Lý"@vi
     "Phú Lương"@vi
     "Phú Lạc"@vi
-    "Phú Lệ"@vi
     "Phú Lộc"@vi
     "Phú Lợi"@vi
     "Phú Minh"@vi
@@ -6044,7 +5975,6 @@ WHERE {
     "Phú Xuân"@vi
     "Phú Xá"@vi
     "Phú Đình"@vi
-    "Phú Đông"@vi
     "Phú Đức"@vi
     "Phúc Hà"@vi
     "Phúc Hòa"@vi
@@ -6166,7 +6096,6 @@ WHERE {
     "Phường Bình Khê"@vi
     "Phường Bình Minh"@vi
     "Phường Bình Thạnh"@vi
-    "Phường Bình Thủy"@vi
     "Phường Bình Trưng Tây"@vi
     "Phường Bình Trưng Đông"@vi
     "Phường Bình Trị Đông"@vi
@@ -6174,7 +6103,6 @@ WHERE {
     "Phường Bình Đức"@vi
     "Phường Bích Đào"@vi
     "Phường Bưởi"@vi
-    "Phường Bạch Mai"@vi
     "Phường Bảo An"@vi
     "Phường Bảo Vinh"@vi
     "Phường Bắc Cường"@vi
@@ -6265,7 +6193,6 @@ WHERE {
     "Phường Hải Bình"@vi
     "Phường Hải Châu"@vi
     "Phường Hải Hoà"@vi
-    "Phường Hải Lĩnh"@vi
     "Phường Hải Tân"@vi
     "Phường Hải Yên"@vi
     "Phường Hắc Dịch"@vi
@@ -6574,7 +6501,6 @@ WHERE {
     "Phường Văn Mỗ"@vi
     "Phường Văn Yên"@vi
     "Phường Vĩnh Hưng"@vi
-    "Phường Vĩnh Hải"@vi
     "Phường Vĩnh Phước"@vi
     "Phường Vĩnh Thông"@vi
     "Phường Vĩnh Trại"@vi
@@ -6689,7 +6615,6 @@ WHERE {
     "Quan Trieu"@vi
     "Quang Bach"@vi
     "Quang Bi"@vi
-    "Quang Binh"@vi
     "Quang Chieu"@vi
     "Quang Chinh"@vi
     "Quang Chiểu"@vi
@@ -6777,7 +6702,6 @@ WHERE {
     "Quý Hòa"@vi
     "Quý Lộc"@vi
     "Quản Bạ"@vi
-    "Quảng Bình"@vi
     "Quảng Bạch"@vi
     "Quảng Bị"@vi
     "Quảng Chính"@vi
@@ -7161,7 +7085,6 @@ WHERE {
     "Te Lo"@vi
     "Thac Ba"@vi
     "Thac Mo"@vi
-    "Thach Binh"@vi
     "Thach Da"@vi
     "Thach Ha"@vi
     "Thach Hung"@vi
@@ -7184,7 +7107,6 @@ WHERE {
     "Than Uyen"@vi
     "Than Uyên"@vi
     "Than Xa"@vi
-    "Thang Binh"@vi
     "Thang Loi"@vi
     "Thang Mo"@vi
     "Thang Thuy"@vi
@@ -7243,10 +7165,8 @@ WHERE {
     "Thanh Phuoc"@vi
     "Thanh Phước"@vi
     "Thanh Qua"@vi
-    "Thanh Quan"@vi
     "Thanh Quang"@vi
     "Thanh Quoi"@vi
-    "Thanh Quân"@vi
     "Thanh Quả"@vi
     "Thanh Son"@vi
     "Thanh Sơn"@vi
@@ -7295,8 +7215,6 @@ WHERE {
     "Thieu Hoa"@vi
     "Thieu Quang"@vi
     "Thieu Tien"@vi
-    "Thieu Toan"@vi
-    "Thieu Trung"@vi
     "Thinh Dan"@vi
     "Thinh Duc"@vi
     "Thinh Lang"@vi
@@ -7320,13 +7238,8 @@ WHERE {
     "Thiệu Hóa"@vi
     "Thiệu Quang"@vi
     "Thiệu Tiến"@vi
-    "Thiệu Toán"@vi
-    "Thiệu Trung"@vi
-    "Tho Binh"@vi
     "Tho Chau"@vi
-    "Tho Lap"@vi
     "Tho Nghiep"@vi
-    "Tho Ngoc"@vi
     "Tho Phu"@vi
     "Tho Son"@vi
     "Tho Tang"@vi
@@ -7440,7 +7353,6 @@ WHERE {
     "Thông Nông"@vi
     "Thông Thụ"@vi
     "Thông Tân"@vi
-    "Thăng Bình"@vi
     "Thường Lạc"@vi
     "Thường Nga"@vi
     "Thường Tân"@vi
@@ -7460,7 +7372,6 @@ WHERE {
     "Thượng Trạch"@vi
     "Thượng Tân"@vi
     "Thượng Tân Lộc"@vi
-    "Thạch Bình"@vi
     "Thạch Hà"@vi
     "Thạch Hưng"@vi
     "Thạch Hạ"@vi
@@ -7577,10 +7488,8 @@ WHERE {
     "Thị trấn Củ Chi"@vi
     "Thị trấn Cửa Tùng"@vi
     "Thị trấn Cửa Việt"@vi
-    "Thị trấn D'Ran"@vi
     "Thị trấn Di Linh"@vi
     "Thị trấn Di Lăng"@vi
-    "Thị trấn Diên Khánh"@vi
     "Thị trấn Diên Sanh"@vi
     "Thị trấn Dương Minh Châu"@vi
     "Thị trấn Dầu Giây"@vi
@@ -7603,7 +7512,6 @@ WHERE {
     "Thị trấn Hoa Thành"@vi
     "Thị trấn Hoàn Lão"@vi
     "Thị trấn Hà Lam"@vi
-    "Thị trấn Hà Long"@vi
     "Thị trấn Hà Trung"@vi
     "Thị trấn Hàng Trạm"@vi
     "Thị trấn Hòa Bình"@vi
@@ -7643,7 +7551,6 @@ WHERE {
     "Thị trấn La Hai"@vi
     "Thị trấn La Hà"@vi
     "Thị trấn Lai Uyên"@vi
-    "Thị trấn Lam Sơn"@vi
     "Thị trấn Lao Bảo"@vi
     "Thị trấn Liên Hương"@vi
     "Thị trấn Long Hải"@vi
@@ -7695,12 +7602,10 @@ WHERE {
     "Thị trấn Nam Phước"@vi
     "Thị trấn Nam Sách"@vi
     "Thị trấn Nam Đàn"@vi
-    "Thị trấn Nga Sơn"@vi
     "Thị trấn Nghĩa Đàn"@vi
     "Thị trấn Nguyên Bình"@vi
     "Thị trấn Ngãi Giao"@vi
     "Thị trấn Ngô Mây"@vi
-    "Thị trấn Ngọc Lặc"@vi
     "Thị trấn Nho Quan"@vi
     "Thị trấn Nhà Bè"@vi
     "Thị trấn Nhân Thắng"@vi
@@ -7709,7 +7614,6 @@ WHERE {
     "Thị trấn Ninh Cường"@vi
     "Thị trấn Ninh Giang"@vi
     "Thị trấn Nà Phặc"@vi
-    "Thị trấn Nông Cống"@vi
     "Thị trấn Nông trường Việt Lâm"@vi
     "Thị trấn Núi Sập"@vi
     "Thị trấn Núi Thành"@vi
@@ -7785,7 +7689,6 @@ WHERE {
     "Thị trấn Thạnh Phú"@vi
     "Thị trấn Thất Khê"@vi
     "Thị trấn Thịnh Vượng"@vi
-    "Thị trấn Thọ Xuân"@vi
     "Thị trấn Thổ Tang"@vi
     "Thị trấn Thới Bình"@vi
     "Thị trấn Thới Lai"@vi
@@ -7862,7 +7765,6 @@ WHERE {
     "Thị trấn Vĩnh Tuy"@vi
     "Thị trấn Vĩnh Tường"@vi
     "Thị trấn Vĩnh Viễn"@vi
-    "Thị trấn Vũ Thư"@vi
     "Thị trấn Vị Xuyên"@vi
     "Thị trấn Vụ Bản"@vi
     "Thị trấn Xuân An"@vi
@@ -7916,10 +7818,7 @@ WHERE {
     "Thịnh Vượng"@vi
     "Thịnh Đán"@vi
     "Thịnh Đức"@vi
-    "Thọ Bình"@vi
-    "Thọ Lập"@vi
     "Thọ Nghiệp"@vi
-    "Thọ Ngọc"@vi
     "Thọ Phú"@vi
     "Thọ Sơn"@vi
     "Thọ Văn"@vi
@@ -8467,7 +8366,6 @@ WHERE {
     "Van Mon"@vi
     "Van Nham"@vi
     "Van Nhat"@vi
-    "Van Nho"@vi
     "Van Noi"@vi
     "Van Phong"@vi
     "Van Phu"@vi
@@ -8578,7 +8476,6 @@ WHERE {
     "Vu Ninh"@vi
     "Vu Phuc"@vi
     "Vu Qui"@vi
-    "Vu Thu"@vi
     "Vy Da"@vi
     "Vàng Danh"@vi
     "Vân Canh"@vi
@@ -8611,7 +8508,6 @@ WHERE {
     "Văn Miếu - Quốc Tử Giám"@vi
     "Văn Môn"@vi
     "Văn Mỗ"@vi
-    "Văn Nho"@vi
     "Văn Phong"@vi
     "Văn Phú"@vi
     "Văn Quan"@vi
@@ -8684,7 +8580,6 @@ WHERE {
     "Vũ Ninh"@vi
     "Vũ Phúc"@vi
     "Vũ Quí"@vi
-    "Vũ Thư"@vi
     "Vạn Hoà"@vi
     "Vạn Hưng"@vi
     "Vạn Linh"@vi
@@ -8856,7 +8751,6 @@ WHERE {
     "Xã An Nhơn Tây"@vi
     "Xã An Ninh"@vi
     "Xã An Ninh Tây"@vi
-    "Xã An Nông"@vi
     "Xã An Phú"@vi
     "Xã An Phú Thuận"@vi
     "Xã An Phú Tân"@vi
@@ -9091,7 +8985,6 @@ WHERE {
     "Xã Cô Ba"@vi
     "Xã Côn Lôn"@vi
     "Xã Côn Minh"@vi
-    "Xã Công Chính"@vi
     "Xã Công Hải"@vi
     "Xã Công Sơn"@vi
     "Xã Cúc Phương"@vi
@@ -9116,9 +9009,6 @@ WHERE {
     "Xã Cẩm Lạc"@vi
     "Xã Cẩm Thạch"@vi
     "Xã Cẩm Trung"@vi
-    "Xã Cẩm Tân"@vi
-    "Xã Cẩm Tú"@vi
-    "Xã Cẩm Vân"@vi
     "Xã Cốc Lầu"@vi
     "Xã Cốc Pàng"@vi
     "Xã Cốc San"@vi
@@ -9225,7 +9115,6 @@ WHERE {
     "Xã Hiếu Phụng"@vi
     "Xã Hiếu Thành"@vi
     "Xã Hiền Hào"@vi
-    "Xã Hiền Kiệt"@vi
     "Xã Hiền Lương"@vi
     "Xã Hiền Ninh"@vi
     "Xã Hiền Quan"@vi
@@ -9413,7 +9302,6 @@ WHERE {
     "Xã Hồng Thái"@vi
     "Xã Hồng Vân"@vi
     "Xã Hồng Vũ"@vi
-    "Xã Hội Hoan"@vi
     "Xã Hội Sơn"@vi
     "Xã Hội Thịnh"@vi
     "Xã Hợp Lý"@vi
@@ -9804,7 +9692,6 @@ WHERE {
     "Xã Nam Xuân"@vi
     "Xã Nam Điền"@vi
     "Xã Nam Đà"@vi
-    "Xã Nga An"@vi
     "Xã Nga My"@vi
     "Xã Nga Thanh"@vi
     "Xã Nga Thành"@vi
@@ -9869,14 +9756,12 @@ WHERE {
     "Xã Ngọc Chúc"@vi
     "Xã Ngọc Hồi"@vi
     "Xã Ngọc Linh"@vi
-    "Xã Ngọc Liên"@vi
     "Xã Ngọc Long"@vi
     "Xã Ngọc Lâm"@vi
     "Xã Ngọc Lây"@vi
     "Xã Ngọc Lĩnh"@vi
     "Xã Ngọc Sơn"@vi
     "Xã Ngọc Thiện"@vi
-    "Xã Ngọc Trạo"@vi
     "Xã Ngọc Tố"@vi
     "Xã Ngọc Yêu"@vi
     "Xã Ngọc Đào"@vi
@@ -9996,7 +9881,6 @@ WHERE {
     "Xã Phú Lý"@vi
     "Xã Phú Lương"@vi
     "Xã Phú Lạc"@vi
-    "Xã Phú Lệ"@vi
     "Xã Phú Minh"@vi
     "Xã Phú Mỡ"@vi
     "Xã Phú Mỹ"@vi
@@ -10018,7 +9902,6 @@ WHERE {
     "Xã Phú Xuyên"@vi
     "Xã Phú Xuân"@vi
     "Xã Phú Đình"@vi
-    "Xã Phú Đông"@vi
     "Xã Phú Đức"@vi
     "Xã Phúc Hà"@vi
     "Xã Phúc Hòa"@vi
@@ -10117,7 +10000,6 @@ WHERE {
     "Xã Quách Phẩm"@vi
     "Xã Quý Hòa"@vi
     "Xã Quản Bạ"@vi
-    "Xã Quảng Bình"@vi
     "Xã Quảng Bạch"@vi
     "Xã Quảng Bị"@vi
     "Xã Quảng Chính"@vi
@@ -10274,7 +10156,6 @@ WHERE {
     "Xã Thanh Phong"@vi
     "Xã Thanh Phước"@vi
     "Xã Thanh Quang"@vi
-    "Xã Thanh Quân"@vi
     "Xã Thanh Quả"@vi
     "Xã Thanh Sơn"@vi
     "Xã Thanh Thịnh"@vi
@@ -10300,8 +10181,6 @@ WHERE {
     "Xã Thiệu Hòa"@vi
     "Xã Thiệu Quang"@vi
     "Xã Thiệu Tiến"@vi
-    "Xã Thiệu Toán"@vi
-    "Xã Thiệu Trung"@vi
     "Xã Thu Cúc"@vi
     "Xã Thu Lũm"@vi
     "Xã Thung Nai"@vi
@@ -10335,7 +10214,6 @@ WHERE {
     "Xã Thông Nguyên"@vi
     "Xã Thông Thụ"@vi
     "Xã Thông Tân"@vi
-    "Xã Thăng Bình"@vi
     "Xã Thường Lạc"@vi
     "Xã Thường Nga"@vi
     "Xã Thường Tân"@vi
@@ -10352,7 +10230,6 @@ WHERE {
     "Xã Thượng Trạch"@vi
     "Xã Thượng Tân"@vi
     "Xã Thượng Tân Lộc"@vi
-    "Xã Thạch Bình"@vi
     "Xã Thạch Khê"@vi
     "Xã Thạch Kênh"@vi
     "Xã Thạch Lạc"@vi
@@ -10388,10 +10265,7 @@ WHERE {
     "Xã Thịnh Mỹ"@vi
     "Xã Thịnh Trường"@vi
     "Xã Thịnh Đức"@vi
-    "Xã Thọ Bình"@vi
-    "Xã Thọ Lập"@vi
     "Xã Thọ Nghiệp"@vi
-    "Xã Thọ Ngọc"@vi
     "Xã Thọ Phú"@vi
     "Xã Thọ Sơn"@vi
     "Xã Thọ Văn"@vi
@@ -10672,7 +10546,6 @@ WHERE {
     "Xã Văn Lăng"@vi
     "Xã Văn Miếu"@vi
     "Xã Văn Môn"@vi
-    "Xã Văn Nho"@vi
     "Xã Văn Phong"@vi
     "Xã Văn Phú"@vi
     "Xã Văn Sơn"@vi
@@ -10768,7 +10641,6 @@ WHERE {
     "Xã Xuân Lãnh"@vi
     "Xã Xuân Lũng"@vi
     "Xã Xuân Lương"@vi
-    "Xã Xuân Lập"@vi
     "Xã Xuân Lộc"@vi
     "Xã Xuân Nha"@vi
     "Xã Xuân Nộn"@vi
@@ -10866,7 +10738,6 @@ WHERE {
     "Xã Điềm Thụy"@vi
     "Xã Điền Lư"@vi
     "Xã Điền Mỹ"@vi
-    "Xã Điền Quang"@vi
     "Xã Điền Xá"@vi
     "Xã Điện Hòa"@vi
     "Xã Điện Thọ"@vi
@@ -11127,7 +10998,6 @@ WHERE {
     "Điềm Thụy"@vi
     "Điền Lư"@vi
     "Điền Mỹ"@vi
-    "Điền Quang"@vi
     "Điền Xá"@vi
     "Điện An"@vi
     "Điện Dương"@vi
@@ -11392,7 +11262,6 @@ WHERE {
     "An Nhon Tay"@en
     "An Ninh"@en
     "An Ninh Tay"@en
-    "An Nong"@en
     "An Phu"@en
     "An Phu Dong"@en
     "An Phu Tan"@en
@@ -11457,7 +11326,6 @@ WHERE {
     "Bac Yen"@en
     "Bach Dang"@en
     "Bach Dich"@en
-    "Bach Mai"@en
     "Bach Ngoc"@en
     "Bach Quang"@en
     "Bach Xa"@en
@@ -11550,7 +11418,6 @@ WHERE {
     "Binh Thanh"@en
     "Binh Thanh Dong"@en
     "Binh Thuan"@en
-    "Binh Thuy"@en
     "Binh Tien"@en
     "Binh Tinh"@en
     "Binh Tri"@en
@@ -11608,14 +11475,11 @@ WHERE {
     "Cam Lo"@en
     "Cam Ly"@en
     "Cam Nhan"@en
-    "Cam Tan"@en
     "Cam Thach"@en
     "Cam Thanh"@en
     "Cam Thuong"@en
     "Cam Thuy"@en
     "Cam Trung"@en
-    "Cam Tu"@en
-    "Cam Van"@en
     "Cam Xuyen"@en
     "Can Dang"@en
     "Can Duoc"@en
@@ -11751,7 +11615,6 @@ WHERE {
     "Coc San"@en
     "Con Lon"@en
     "Con Minh"@en
-    "Cong Chinh"@en
     "Cong Hai"@en
     "Cong Son"@en
     "Cu Bao"@en
@@ -11773,7 +11636,6 @@ WHERE {
     "Cuong Loi"@en
     "Cuor Dang"@en
     "Cuu An"@en
-    "D'Ran"@en
     "DLie Ya"@en
     "Da Chais"@en
     "Da Kao"@en
@@ -11882,14 +11744,12 @@ WHERE {
     "Dien Duong"@en
     "Dien Hoa"@en
     "Dien Hong"@en
-    "Dien Khanh"@en
     "Dien Lac"@en
     "Dien Lam"@en
     "Dien Lu"@en
     "Dien My"@en
     "Dien Nam Trung"@en
     "Dien Phuoc"@en
-    "Dien Quang"@en
     "Dien Sanh"@en
     "Dien Tho"@en
     "Dien Xa"@en
@@ -12109,7 +11969,6 @@ WHERE {
     "Hai Hung"@en
     "Hai Lang"@en
     "Hai Le"@en
-    "Hai Linh"@en
     "Hai Luu"@en
     "Hai Ninh"@en
     "Hai Phong"@en
@@ -12146,7 +12005,6 @@ WHERE {
     "Hau Thanh"@en
     "Hien Hao"@en
     "Hien Khanh"@en
-    "Hien Kiet"@en
     "Hien Luong"@en
     "Hien Ninh"@en
     "Hien Quan"@en
@@ -12227,7 +12085,6 @@ WHERE {
     "Hoat Giang"@en
     "Hoc Mon"@en
     "Hoi An"@en
-    "Hoi Hoan"@en
     "Hoi Phu"@en
     "Hoi Son"@en
     "Hoi Thinh"@en
@@ -12814,10 +12671,8 @@ WHERE {
     "Nam Xuan"@en
     "Nanh Nghe"@en
     "Nenh"@en
-    "Nga An"@en
     "Nga Bay"@en
     "Nga My"@en
-    "Nga Son"@en
     "Nga Thang"@en
     "Nga Thanh"@en
     "Ngai Giao"@en
@@ -12871,16 +12726,13 @@ WHERE {
     "Ngoc Duong"@en
     "Ngoc Ha"@en
     "Ngoc Hoi"@en
-    "Ngoc Lac"@en
     "Ngoc Lam"@en
     "Ngoc Lay"@en
-    "Ngoc Lien"@en
     "Ngoc Linh"@en
     "Ngoc Long"@en
     "Ngoc Son"@en
     "Ngoc Thien"@en
     "Ngoc To"@en
-    "Ngoc Trao"@en
     "Ngoc Xuyen"@en
     "Ngoc Yeu"@en
     "Ngok Bay"@en
@@ -12958,7 +12810,6 @@ WHERE {
     "Ninh Thanh Loi"@en
     "Ninh Tien"@en
     "Ninh Xa"@en
-    "Nong Cong"@en
     "Nong Tien"@en
     "Nong Trang"@en
     "Nong truong Viet Lam"@en
@@ -13044,7 +12895,6 @@ WHERE {
     "Phu Lac"@en
     "Phu Lam"@en
     "Phu Lang"@en
-    "Phu Le"@en
     "Phu Linh"@en
     "Phu Loc"@en
     "Phu Loi"@en
@@ -13164,7 +13014,6 @@ WHERE {
     "Quan Trieu"@en
     "Quang Bach"@en
     "Quang Bi"@en
-    "Quang Binh"@en
     "Quang Chieu"@en
     "Quang Chinh"@en
     "Quang Diem"@en
@@ -13464,7 +13313,6 @@ WHERE {
     "Te Lo"@en
     "Thac Ba"@en
     "Thac Mo"@en
-    "Thach Binh"@en
     "Thach Da"@en
     "Thach Ha"@en
     "Thach Hung"@en
@@ -13486,7 +13334,6 @@ WHERE {
     "Tham Duong"@en
     "Than Uyen"@en
     "Than Xa"@en
-    "Thang Binh"@en
     "Thang Loi"@en
     "Thang Mo"@en
     "Thang Thuy"@en
@@ -13527,7 +13374,6 @@ WHERE {
     "Thanh Phu"@en
     "Thanh Phuoc"@en
     "Thanh Qua"@en
-    "Thanh Quan"@en
     "Thanh Quang"@en
     "Thanh Quoi"@en
     "Thanh Son"@en
@@ -13564,8 +13410,6 @@ WHERE {
     "Thieu Hoa"@en
     "Thieu Quang"@en
     "Thieu Tien"@en
-    "Thieu Toan"@en
-    "Thieu Trung"@en
     "Thinh Dan"@en
     "Thinh Duc"@en
     "Thinh Lang"@en
@@ -13573,11 +13417,8 @@ WHERE {
     "Thinh My"@en
     "Thinh Truong"@en
     "Thinh Vuong"@en
-    "Tho Binh"@en
     "Tho Chau"@en
-    "Tho Lap"@en
     "Tho Nghiep"@en
-    "Tho Ngoc"@en
     "Tho Phu"@en
     "Tho Son"@en
     "Tho Tang"@en
@@ -13849,7 +13690,6 @@ WHERE {
     "Van Mon"@en
     "Van Nham"@en
     "Van Nhat"@en
-    "Van Nho"@en
     "Van Noi"@en
     "Van Phong"@en
     "Van Phu"@en
@@ -13948,7 +13788,6 @@ WHERE {
     "Vu Ninh"@en
     "Vu Phuc"@en
     "Vu Qui"@en
-    "Vu Thu"@en
     "Vy Da"@en
     "Xa Bang"@en
     "Xa Dung"@en
@@ -14173,8 +14012,6 @@ WHERE {
     "An Ninh"@vi
     "An Ninh Tay"@vi
     "An Ninh Tây"@vi
-    "An Nong"@vi
-    "An Nông"@vi
     "An Phu"@vi
     "An Phu Dong"@vi
     "An Phu Tan"@vi
@@ -14275,7 +14112,6 @@ WHERE {
     "Bac Yen"@vi
     "Bach Dang"@vi
     "Bach Dich"@vi
-    "Bach Mai"@vi
     "Bach Ngoc"@vi
     "Bach Quang"@vi
     "Bach Xa"@vi
@@ -14368,7 +14204,6 @@ WHERE {
     "Binh Thanh"@vi
     "Binh Thanh Dong"@vi
     "Binh Thuan"@vi
-    "Binh Thuy"@vi
     "Binh Tien"@vi
     "Binh Tinh"@vi
     "Binh Tri"@vi
@@ -14462,7 +14297,6 @@ WHERE {
     "Bình Thành"@vi
     "Bình Thạnh"@vi
     "Bình Thạnh Đông"@vi
-    "Bình Thủy"@vi
     "Bình Tiến"@vi
     "Bình Trinh Đông"@vi
     "Bình Trung"@vi
@@ -14488,7 +14322,6 @@ WHERE {
     "Bùi La Nhân"@vi
     "Búng Lao"@vi
     "Bưởi"@vi
-    "Bạch Mai"@vi
     "Bạch Ngọc"@vi
     "Bạch Xa"@vi
     "Bạch Đích"@vi
@@ -14577,7 +14410,6 @@ WHERE {
     "Cam Lâm"@vi
     "Cam Lộ"@vi
     "Cam Nhan"@vi
-    "Cam Tan"@vi
     "Cam Thach"@vi
     "Cam Thanh"@vi
     "Cam Thuong"@vi
@@ -14585,8 +14417,6 @@ WHERE {
     "Cam Thành"@vi
     "Cam Thủy"@vi
     "Cam Trung"@vi
-    "Cam Tu"@vi
-    "Cam Van"@vi
     "Cam Xuyen"@vi
     "Cam Đường"@vi
     "Can Dang"@vi
@@ -14809,7 +14639,6 @@ WHERE {
     "Coc San"@vi
     "Con Lon"@vi
     "Con Minh"@vi
-    "Cong Chinh"@vi
     "Cong Hai"@vi
     "Cong Son"@vi
     "Cu Bao"@vi
@@ -14859,7 +14688,6 @@ WHERE {
     "Cô Tô"@vi
     "Côn Lôn"@vi
     "Côn Minh"@vi
-    "Công Chính"@vi
     "Công Hải"@vi
     "Công Sơn"@vi
     "Cù Lao Dung"@vi
@@ -14900,9 +14728,6 @@ WHERE {
     "Cẩm Thượng"@vi
     "Cẩm Thạch"@vi
     "Cẩm Trung"@vi
-    "Cẩm Tân"@vi
-    "Cẩm Tú"@vi
-    "Cẩm Vân"@vi
     "Cẩm Xuyên"@vi
     "Cốc Lầu"@vi
     "Cốc Lếu"@vi
@@ -14926,7 +14751,6 @@ WHERE {
     "Cửa Ông"@vi
     "Cửu An"@vi
     "Cự Đồng"@vi
-    "D'Ran"@vi
     "DLie Ya"@vi
     "Da Chais"@vi
     "Da Kao"@vi
@@ -15036,14 +14860,12 @@ WHERE {
     "Dien Duong"@vi
     "Dien Hoa"@vi
     "Dien Hong"@vi
-    "Dien Khanh"@vi
     "Dien Lac"@vi
     "Dien Lam"@vi
     "Dien Lu"@vi
     "Dien My"@vi
     "Dien Nam Trung"@vi
     "Dien Phuoc"@vi
-    "Dien Quang"@vi
     "Dien Sanh"@vi
     "Dien Tho"@vi
     "Dien Xa"@vi
@@ -15062,7 +14884,6 @@ WHERE {
     "Dinh Van"@vi
     "Diên Hoa"@vi
     "Diên Hồng"@vi
-    "Diên Khánh"@vi
     "Diên Lâm"@vi
     "Diên Lạc"@vi
     "Diên Phước"@vi
@@ -15359,7 +15180,6 @@ WHERE {
     "Hai Hung"@vi
     "Hai Lang"@vi
     "Hai Le"@vi
-    "Hai Linh"@vi
     "Hai Luu"@vi
     "Hai Ninh"@vi
     "Hai Phong"@vi
@@ -15396,7 +15216,6 @@ WHERE {
     "Hau Thanh"@vi
     "Hien Hao"@vi
     "Hien Khanh"@vi
-    "Hien Kiet"@vi
     "Hien Luong"@vi
     "Hien Ninh"@vi
     "Hien Quan"@vi
@@ -15417,7 +15236,6 @@ WHERE {
     "Hiếu Phụng"@vi
     "Hiếu Thành"@vi
     "Hiền Hào"@vi
-    "Hiền Kiệt"@vi
     "Hiền Lương"@vi
     "Hiền Ninh"@vi
     "Hiền Quan"@vi
@@ -15503,7 +15321,6 @@ WHERE {
     "Hoat Giang"@vi
     "Hoc Mon"@vi
     "Hoi An"@vi
-    "Hoi Hoan"@vi
     "Hoi Phu"@vi
     "Hoi Son"@vi
     "Hoi Thinh"@vi
@@ -15646,7 +15463,6 @@ WHERE {
     "Hà Huy Tập"@vi
     "Hà Lam"@vi
     "Hà Linh"@vi
-    "Hà Long"@vi
     "Hà Lầm"@vi
     "Hà Lộc"@vi
     "Hà Trung"@vi
@@ -15762,7 +15578,6 @@ WHERE {
     "Hải Hoà"@vi
     "Hải Hòa"@vi
     "Hải Hưng"@vi
-    "Hải Lĩnh"@vi
     "Hải Lạng"@vi
     "Hải Lệ"@vi
     "Hải Lựu"@vi
@@ -15812,7 +15627,6 @@ WHERE {
     "Hồng Vân"@vi
     "Hồng Vũ"@vi
     "Hội An"@vi
-    "Hội Hoan"@vi
     "Hội Phú"@vi
     "Hội Sơn"@vi
     "Hội Thịnh"@vi
@@ -16749,11 +16563,8 @@ WHERE {
     "Nam Đồng"@vi
     "Nanh Nghe"@vi
     "Nenh"@vi
-    "Nga An"@vi
     "Nga Bay"@vi
     "Nga My"@vi
-    "Nga Son"@vi
-    "Nga Sơn"@vi
     "Nga Thang"@vi
     "Nga Thanh"@vi
     "Nga Thành"@vi
@@ -16851,16 +16662,13 @@ WHERE {
     "Ngoc Duong"@vi
     "Ngoc Ha"@vi
     "Ngoc Hoi"@vi
-    "Ngoc Lac"@vi
     "Ngoc Lam"@vi
     "Ngoc Lay"@vi
-    "Ngoc Lien"@vi
     "Ngoc Linh"@vi
     "Ngoc Long"@vi
     "Ngoc Son"@vi
     "Ngoc Thien"@vi
     "Ngoc To"@vi
-    "Ngoc Trao"@vi
     "Ngoc Xuyen"@vi
     "Ngoc Yeu"@vi
     "Ngok Bay"@vi
@@ -16914,15 +16722,12 @@ WHERE {
     "Ngọc Hà"@vi
     "Ngọc Hồi"@vi
     "Ngọc Linh"@vi
-    "Ngọc Liên"@vi
     "Ngọc Long"@vi
     "Ngọc Lâm"@vi
     "Ngọc Lây"@vi
     "Ngọc Lĩnh"@vi
-    "Ngọc Lặc"@vi
     "Ngọc Sơn"@vi
     "Ngọc Thiện"@vi
-    "Ngọc Trạo"@vi
     "Ngọc Tố"@vi
     "Ngọc Xuyên"@vi
     "Ngọc Yêu"@vi
@@ -17032,7 +16837,6 @@ WHERE {
     "Ninh Xá"@vi
     "Ninh Điền"@vi
     "Niêm Sơn"@vi
-    "Nong Cong"@vi
     "Nong Tien"@vi
     "Nong Trang"@vi
     "Nong truong Viet Lam"@vi
@@ -17051,7 +16855,6 @@ WHERE {
     "Nà Tấu"@vi
     "Nánh Nghê"@vi
     "Nâm Nung"@vi
-    "Nông Cống"@vi
     "Nông Tiến"@vi
     "Nông Trang"@vi
     "Nông trường Việt Lâm"@vi
@@ -17179,7 +16982,6 @@ WHERE {
     "Phu Lac"@vi
     "Phu Lam"@vi
     "Phu Lang"@vi
-    "Phu Le"@vi
     "Phu Linh"@vi
     "Phu Loc"@vi
     "Phu Loi"@vi
@@ -17320,7 +17122,6 @@ WHERE {
     "Phú Lý"@vi
     "Phú Lương"@vi
     "Phú Lạc"@vi
-    "Phú Lệ"@vi
     "Phú Lộc"@vi
     "Phú Lợi"@vi
     "Phú Minh"@vi
@@ -17352,7 +17153,6 @@ WHERE {
     "Phú Xuân"@vi
     "Phú Xá"@vi
     "Phú Đình"@vi
-    "Phú Đông"@vi
     "Phú Đức"@vi
     "Phúc Hà"@vi
     "Phúc Hòa"@vi
@@ -17474,7 +17274,6 @@ WHERE {
     "Phường Bình Khê"@vi
     "Phường Bình Minh"@vi
     "Phường Bình Thạnh"@vi
-    "Phường Bình Thủy"@vi
     "Phường Bình Trưng Tây"@vi
     "Phường Bình Trưng Đông"@vi
     "Phường Bình Trị Đông"@vi
@@ -17482,7 +17281,6 @@ WHERE {
     "Phường Bình Đức"@vi
     "Phường Bích Đào"@vi
     "Phường Bưởi"@vi
-    "Phường Bạch Mai"@vi
     "Phường Bảo An"@vi
     "Phường Bảo Vinh"@vi
     "Phường Bắc Cường"@vi
@@ -17573,7 +17371,6 @@ WHERE {
     "Phường Hải Bình"@vi
     "Phường Hải Châu"@vi
     "Phường Hải Hoà"@vi
-    "Phường Hải Lĩnh"@vi
     "Phường Hải Tân"@vi
     "Phường Hải Yên"@vi
     "Phường Hắc Dịch"@vi
@@ -17882,7 +17679,6 @@ WHERE {
     "Phường Văn Mỗ"@vi
     "Phường Văn Yên"@vi
     "Phường Vĩnh Hưng"@vi
-    "Phường Vĩnh Hải"@vi
     "Phường Vĩnh Phước"@vi
     "Phường Vĩnh Thông"@vi
     "Phường Vĩnh Trại"@vi
@@ -17997,7 +17793,6 @@ WHERE {
     "Quan Trieu"@vi
     "Quang Bach"@vi
     "Quang Bi"@vi
-    "Quang Binh"@vi
     "Quang Chieu"@vi
     "Quang Chinh"@vi
     "Quang Chiểu"@vi
@@ -18085,7 +17880,6 @@ WHERE {
     "Quý Hòa"@vi
     "Quý Lộc"@vi
     "Quản Bạ"@vi
-    "Quảng Bình"@vi
     "Quảng Bạch"@vi
     "Quảng Bị"@vi
     "Quảng Chính"@vi
@@ -18469,7 +18263,6 @@ WHERE {
     "Te Lo"@vi
     "Thac Ba"@vi
     "Thac Mo"@vi
-    "Thach Binh"@vi
     "Thach Da"@vi
     "Thach Ha"@vi
     "Thach Hung"@vi
@@ -18492,7 +18285,6 @@ WHERE {
     "Than Uyen"@vi
     "Than Uyên"@vi
     "Than Xa"@vi
-    "Thang Binh"@vi
     "Thang Loi"@vi
     "Thang Mo"@vi
     "Thang Thuy"@vi
@@ -18551,10 +18343,8 @@ WHERE {
     "Thanh Phuoc"@vi
     "Thanh Phước"@vi
     "Thanh Qua"@vi
-    "Thanh Quan"@vi
     "Thanh Quang"@vi
     "Thanh Quoi"@vi
-    "Thanh Quân"@vi
     "Thanh Quả"@vi
     "Thanh Son"@vi
     "Thanh Sơn"@vi
@@ -18603,8 +18393,6 @@ WHERE {
     "Thieu Hoa"@vi
     "Thieu Quang"@vi
     "Thieu Tien"@vi
-    "Thieu Toan"@vi
-    "Thieu Trung"@vi
     "Thinh Dan"@vi
     "Thinh Duc"@vi
     "Thinh Lang"@vi
@@ -18628,13 +18416,8 @@ WHERE {
     "Thiệu Hóa"@vi
     "Thiệu Quang"@vi
     "Thiệu Tiến"@vi
-    "Thiệu Toán"@vi
-    "Thiệu Trung"@vi
-    "Tho Binh"@vi
     "Tho Chau"@vi
-    "Tho Lap"@vi
     "Tho Nghiep"@vi
-    "Tho Ngoc"@vi
     "Tho Phu"@vi
     "Tho Son"@vi
     "Tho Tang"@vi
@@ -18748,7 +18531,6 @@ WHERE {
     "Thông Nông"@vi
     "Thông Thụ"@vi
     "Thông Tân"@vi
-    "Thăng Bình"@vi
     "Thường Lạc"@vi
     "Thường Nga"@vi
     "Thường Tân"@vi
@@ -18768,7 +18550,6 @@ WHERE {
     "Thượng Trạch"@vi
     "Thượng Tân"@vi
     "Thượng Tân Lộc"@vi
-    "Thạch Bình"@vi
     "Thạch Hà"@vi
     "Thạch Hưng"@vi
     "Thạch Hạ"@vi
@@ -18885,10 +18666,8 @@ WHERE {
     "Thị trấn Củ Chi"@vi
     "Thị trấn Cửa Tùng"@vi
     "Thị trấn Cửa Việt"@vi
-    "Thị trấn D'Ran"@vi
     "Thị trấn Di Linh"@vi
     "Thị trấn Di Lăng"@vi
-    "Thị trấn Diên Khánh"@vi
     "Thị trấn Diên Sanh"@vi
     "Thị trấn Dương Minh Châu"@vi
     "Thị trấn Dầu Giây"@vi
@@ -18911,7 +18690,6 @@ WHERE {
     "Thị trấn Hoa Thành"@vi
     "Thị trấn Hoàn Lão"@vi
     "Thị trấn Hà Lam"@vi
-    "Thị trấn Hà Long"@vi
     "Thị trấn Hà Trung"@vi
     "Thị trấn Hàng Trạm"@vi
     "Thị trấn Hòa Bình"@vi
@@ -18951,7 +18729,6 @@ WHERE {
     "Thị trấn La Hai"@vi
     "Thị trấn La Hà"@vi
     "Thị trấn Lai Uyên"@vi
-    "Thị trấn Lam Sơn"@vi
     "Thị trấn Lao Bảo"@vi
     "Thị trấn Liên Hương"@vi
     "Thị trấn Long Hải"@vi
@@ -19003,12 +18780,10 @@ WHERE {
     "Thị trấn Nam Phước"@vi
     "Thị trấn Nam Sách"@vi
     "Thị trấn Nam Đàn"@vi
-    "Thị trấn Nga Sơn"@vi
     "Thị trấn Nghĩa Đàn"@vi
     "Thị trấn Nguyên Bình"@vi
     "Thị trấn Ngãi Giao"@vi
     "Thị trấn Ngô Mây"@vi
-    "Thị trấn Ngọc Lặc"@vi
     "Thị trấn Nho Quan"@vi
     "Thị trấn Nhà Bè"@vi
     "Thị trấn Nhân Thắng"@vi
@@ -19017,7 +18792,6 @@ WHERE {
     "Thị trấn Ninh Cường"@vi
     "Thị trấn Ninh Giang"@vi
     "Thị trấn Nà Phặc"@vi
-    "Thị trấn Nông Cống"@vi
     "Thị trấn Nông trường Việt Lâm"@vi
     "Thị trấn Núi Sập"@vi
     "Thị trấn Núi Thành"@vi
@@ -19093,7 +18867,6 @@ WHERE {
     "Thị trấn Thạnh Phú"@vi
     "Thị trấn Thất Khê"@vi
     "Thị trấn Thịnh Vượng"@vi
-    "Thị trấn Thọ Xuân"@vi
     "Thị trấn Thổ Tang"@vi
     "Thị trấn Thới Bình"@vi
     "Thị trấn Thới Lai"@vi
@@ -19170,7 +18943,6 @@ WHERE {
     "Thị trấn Vĩnh Tuy"@vi
     "Thị trấn Vĩnh Tường"@vi
     "Thị trấn Vĩnh Viễn"@vi
-    "Thị trấn Vũ Thư"@vi
     "Thị trấn Vị Xuyên"@vi
     "Thị trấn Vụ Bản"@vi
     "Thị trấn Xuân An"@vi
@@ -19224,10 +18996,7 @@ WHERE {
     "Thịnh Vượng"@vi
     "Thịnh Đán"@vi
     "Thịnh Đức"@vi
-    "Thọ Bình"@vi
-    "Thọ Lập"@vi
     "Thọ Nghiệp"@vi
-    "Thọ Ngọc"@vi
     "Thọ Phú"@vi
     "Thọ Sơn"@vi
     "Thọ Văn"@vi
@@ -19775,7 +19544,6 @@ WHERE {
     "Van Mon"@vi
     "Van Nham"@vi
     "Van Nhat"@vi
-    "Van Nho"@vi
     "Van Noi"@vi
     "Van Phong"@vi
     "Van Phu"@vi
@@ -19886,7 +19654,6 @@ WHERE {
     "Vu Ninh"@vi
     "Vu Phuc"@vi
     "Vu Qui"@vi
-    "Vu Thu"@vi
     "Vy Da"@vi
     "Vàng Danh"@vi
     "Vân Canh"@vi
@@ -19919,7 +19686,6 @@ WHERE {
     "Văn Miếu - Quốc Tử Giám"@vi
     "Văn Môn"@vi
     "Văn Mỗ"@vi
-    "Văn Nho"@vi
     "Văn Phong"@vi
     "Văn Phú"@vi
     "Văn Quan"@vi
@@ -19992,7 +19758,6 @@ WHERE {
     "Vũ Ninh"@vi
     "Vũ Phúc"@vi
     "Vũ Quí"@vi
-    "Vũ Thư"@vi
     "Vạn Hoà"@vi
     "Vạn Hưng"@vi
     "Vạn Linh"@vi
@@ -20164,7 +19929,6 @@ WHERE {
     "Xã An Nhơn Tây"@vi
     "Xã An Ninh"@vi
     "Xã An Ninh Tây"@vi
-    "Xã An Nông"@vi
     "Xã An Phú"@vi
     "Xã An Phú Thuận"@vi
     "Xã An Phú Tân"@vi
@@ -20399,7 +20163,6 @@ WHERE {
     "Xã Cô Ba"@vi
     "Xã Côn Lôn"@vi
     "Xã Côn Minh"@vi
-    "Xã Công Chính"@vi
     "Xã Công Hải"@vi
     "Xã Công Sơn"@vi
     "Xã Cúc Phương"@vi
@@ -20424,9 +20187,6 @@ WHERE {
     "Xã Cẩm Lạc"@vi
     "Xã Cẩm Thạch"@vi
     "Xã Cẩm Trung"@vi
-    "Xã Cẩm Tân"@vi
-    "Xã Cẩm Tú"@vi
-    "Xã Cẩm Vân"@vi
     "Xã Cốc Lầu"@vi
     "Xã Cốc Pàng"@vi
     "Xã Cốc San"@vi
@@ -20533,7 +20293,6 @@ WHERE {
     "Xã Hiếu Phụng"@vi
     "Xã Hiếu Thành"@vi
     "Xã Hiền Hào"@vi
-    "Xã Hiền Kiệt"@vi
     "Xã Hiền Lương"@vi
     "Xã Hiền Ninh"@vi
     "Xã Hiền Quan"@vi
@@ -20721,7 +20480,6 @@ WHERE {
     "Xã Hồng Thái"@vi
     "Xã Hồng Vân"@vi
     "Xã Hồng Vũ"@vi
-    "Xã Hội Hoan"@vi
     "Xã Hội Sơn"@vi
     "Xã Hội Thịnh"@vi
     "Xã Hợp Lý"@vi
@@ -21112,7 +20870,6 @@ WHERE {
     "Xã Nam Xuân"@vi
     "Xã Nam Điền"@vi
     "Xã Nam Đà"@vi
-    "Xã Nga An"@vi
     "Xã Nga My"@vi
     "Xã Nga Thanh"@vi
     "Xã Nga Thành"@vi
@@ -21177,14 +20934,12 @@ WHERE {
     "Xã Ngọc Chúc"@vi
     "Xã Ngọc Hồi"@vi
     "Xã Ngọc Linh"@vi
-    "Xã Ngọc Liên"@vi
     "Xã Ngọc Long"@vi
     "Xã Ngọc Lâm"@vi
     "Xã Ngọc Lây"@vi
     "Xã Ngọc Lĩnh"@vi
     "Xã Ngọc Sơn"@vi
     "Xã Ngọc Thiện"@vi
-    "Xã Ngọc Trạo"@vi
     "Xã Ngọc Tố"@vi
     "Xã Ngọc Yêu"@vi
     "Xã Ngọc Đào"@vi
@@ -21304,7 +21059,6 @@ WHERE {
     "Xã Phú Lý"@vi
     "Xã Phú Lương"@vi
     "Xã Phú Lạc"@vi
-    "Xã Phú Lệ"@vi
     "Xã Phú Minh"@vi
     "Xã Phú Mỡ"@vi
     "Xã Phú Mỹ"@vi
@@ -21326,7 +21080,6 @@ WHERE {
     "Xã Phú Xuyên"@vi
     "Xã Phú Xuân"@vi
     "Xã Phú Đình"@vi
-    "Xã Phú Đông"@vi
     "Xã Phú Đức"@vi
     "Xã Phúc Hà"@vi
     "Xã Phúc Hòa"@vi
@@ -21425,7 +21178,6 @@ WHERE {
     "Xã Quách Phẩm"@vi
     "Xã Quý Hòa"@vi
     "Xã Quản Bạ"@vi
-    "Xã Quảng Bình"@vi
     "Xã Quảng Bạch"@vi
     "Xã Quảng Bị"@vi
     "Xã Quảng Chính"@vi
@@ -21582,7 +21334,6 @@ WHERE {
     "Xã Thanh Phong"@vi
     "Xã Thanh Phước"@vi
     "Xã Thanh Quang"@vi
-    "Xã Thanh Quân"@vi
     "Xã Thanh Quả"@vi
     "Xã Thanh Sơn"@vi
     "Xã Thanh Thịnh"@vi
@@ -21608,8 +21359,6 @@ WHERE {
     "Xã Thiệu Hòa"@vi
     "Xã Thiệu Quang"@vi
     "Xã Thiệu Tiến"@vi
-    "Xã Thiệu Toán"@vi
-    "Xã Thiệu Trung"@vi
     "Xã Thu Cúc"@vi
     "Xã Thu Lũm"@vi
     "Xã Thung Nai"@vi
@@ -21643,7 +21392,6 @@ WHERE {
     "Xã Thông Nguyên"@vi
     "Xã Thông Thụ"@vi
     "Xã Thông Tân"@vi
-    "Xã Thăng Bình"@vi
     "Xã Thường Lạc"@vi
     "Xã Thường Nga"@vi
     "Xã Thường Tân"@vi
@@ -21660,7 +21408,6 @@ WHERE {
     "Xã Thượng Trạch"@vi
     "Xã Thượng Tân"@vi
     "Xã Thượng Tân Lộc"@vi
-    "Xã Thạch Bình"@vi
     "Xã Thạch Khê"@vi
     "Xã Thạch Kênh"@vi
     "Xã Thạch Lạc"@vi
@@ -21696,10 +21443,7 @@ WHERE {
     "Xã Thịnh Mỹ"@vi
     "Xã Thịnh Trường"@vi
     "Xã Thịnh Đức"@vi
-    "Xã Thọ Bình"@vi
-    "Xã Thọ Lập"@vi
     "Xã Thọ Nghiệp"@vi
-    "Xã Thọ Ngọc"@vi
     "Xã Thọ Phú"@vi
     "Xã Thọ Sơn"@vi
     "Xã Thọ Văn"@vi
@@ -21980,7 +21724,6 @@ WHERE {
     "Xã Văn Lăng"@vi
     "Xã Văn Miếu"@vi
     "Xã Văn Môn"@vi
-    "Xã Văn Nho"@vi
     "Xã Văn Phong"@vi
     "Xã Văn Phú"@vi
     "Xã Văn Sơn"@vi
@@ -22076,7 +21819,6 @@ WHERE {
     "Xã Xuân Lãnh"@vi
     "Xã Xuân Lũng"@vi
     "Xã Xuân Lương"@vi
-    "Xã Xuân Lập"@vi
     "Xã Xuân Lộc"@vi
     "Xã Xuân Nha"@vi
     "Xã Xuân Nộn"@vi
@@ -22174,7 +21916,6 @@ WHERE {
     "Xã Điềm Thụy"@vi
     "Xã Điền Lư"@vi
     "Xã Điền Mỹ"@vi
-    "Xã Điền Quang"@vi
     "Xã Điền Xá"@vi
     "Xã Điện Hòa"@vi
     "Xã Điện Thọ"@vi
@@ -22435,7 +22176,6 @@ WHERE {
     "Điềm Thụy"@vi
     "Điền Lư"@vi
     "Điền Mỹ"@vi
-    "Điền Quang"@vi
     "Điền Xá"@vi
     "Điện An"@vi
     "Điện Dương"@vi

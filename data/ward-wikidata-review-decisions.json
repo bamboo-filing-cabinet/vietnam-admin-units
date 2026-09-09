@@ -6590,6 +6590,319 @@
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-04T19:56:58Z"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v8.json", "role": "saved eighth-round random-audit evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-08.72",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10751960", "Q135162452"], "local_id": "w-16369-2025-07-01", "mapping_note": "current Công Chính commune selects Q135162452; release Q10751960 to the pre-2025 Nông Cống commune", "outcome": "assign", "rationale": "Q135162452 owns the current `Công Chính` article and describes the current Thanh Hóa commune. Q10751960 retains the former Nông Cống district parent, old commune aliases, GeoNames identity, and coordinates.", "wikidata_qid": "Q135162452"}
+      ],
+      "reviewed_at": "2026-09-08T17:30:17Z",
+      "selection": {"input_status": "random-predecessor-gap-audit-v9", "sample_number": 27},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-04T19:32:17Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-04T19:32:17Z"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v9.json", "role": "saved ninth-round random-audit evidence"}
+      ]
+    },
+    {
+      "batch_id": "2026-09-08.73",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10772256", "Q10797088"], "local_id": "w-06151-2025-07-01", "mapping_note": "current Hội Hoan commune selects repurposed predecessor item Q10797088; release Q10772256 to the pre-2025 Hội Hoan commune", "outcome": "assign", "rationale": "Q10797088 owns the current `Hội Hoan` article while retaining the former Nam La label, aliases, coordinate, and GeoNames identity. Q10772256 retains the former Hội Hoan identity, district parent, coordinates, and GeoNames identity.", "wikidata_qid": "Q10797088"}
+      ],
+      "reviewed_at": "2026-09-08T17:40:22Z",
+      "selection": {"input_status": "random-predecessor-gap-audit-v10", "sample_number": 1},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-08T17:36:14Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-08T17:36:14Z"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v10.json", "role": "saved tenth-round random-audit evidence"}
+      ]
+    },
+    {
+      "batch_id": "2026-09-08.74",
+      "decisions": [
+        {"candidate_qids_checked": ["Q7187247", "Q136675930"], "local_id": "w-31957-2025-07-01", "mapping_note": "current Phong Thạnh commune selects Q136675930; release Q7187247 to the pre-2025 Giá Rai commune", "outcome": "assign", "rationale": "Q136675930 owns the current `Phong Thạnh, Cà Mau` article and describes the current Cà Mau commune. Q7187247 retains the former Giá Rai parent, historical coordinates, and the old Phong Thạnh, Bạc Liêu identity.", "wikidata_qid": "Q136675930"},
+        {"candidate_qids_checked": ["Q10826139", "Q135210464"], "local_id": "w-15211-2025-07-01", "mapping_note": "current Thạch Bình commune selects Q135210464; release Q10826139 to the pre-2025 Thạch Thành commune", "outcome": "assign", "rationale": "Q135210464 owns the current `Thạch Bình` article and describes the current Thanh Hóa commune. Q10826139 retains the former Thạch Thành parent, historical coordinates, GeoNames identity, and old commune aliases.", "wikidata_qid": "Q135210464"}
+      ],
+      "reviewed_at": "2026-09-08T18:07:54Z",
+      "selection": {"input_status": "random-predecessor-gap-audit-v13", "sample_numbers": [28, 32]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-08T18:04:49Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-08T18:04:49Z"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v13.json", "role": "saved thirteenth-round random-audit evidence"}
+      ]
+    },
+    {
+      "batch_id": "2026-09-08.75",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10770684", "Q135107953"], "local_id": "w-14758-2025-07-01", "mapping_note": "current Hàm Rồng ward selects Q135107953; release Q10770684 to the pre-2025 Thanh Hóa city ward", "outcome": "assign", "rationale": "Q135107953 owns the current `Hàm Rồng` article and describes the current Thanh Hóa ward. Q10770684 retains the former city parent, old ward aliases, historical coordinates, and GeoNames identity.", "wikidata_qid": "Q135107953"},
+        {"candidate_qids_checked": ["Q10824874", "Q135224976"], "local_id": "w-16222-2025-07-01", "mapping_note": "current Thanh Quân commune selects Q135224976; release Q10824874 to the pre-2025 Như Xuân commune", "outcome": "assign", "rationale": "Q135224976 owns the current `Thanh Quân` article, whose introduction explicitly identifies the 2025 commune. Q10824874 retains the former Như Xuân parent, old commune aliases, historical coordinates, and GeoNames identity.", "wikidata_qid": "Q135224976"},
+        {"candidate_qids_checked": ["Q10800655", "Q135207565"], "local_id": "w-15061-2025-07-01", "mapping_note": "current Ngọc Lặc commune selects Q135207565; release Q10800655 to the pre-2025 township", "outcome": "assign", "rationale": "Q135207565 owns the current `Ngọc Lặc (xã)` article and describes the current Thanh Hóa commune. Q10800655 retains the township class, former Ngọc Lặc district parent, township aliases, historical coordinates, and GeoNames identity.", "wikidata_qid": "Q135207565"}
+      ],
+      "reviewed_at": "2026-09-08T18:17:02Z",
+      "selection": {"input_status": "random-predecessor-gap-audit-v14", "sample_numbers": [18, 23, 37]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-08T18:15:22Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-08T18:15:22Z"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v14.json", "role": "saved fourteenth-round random-audit evidence"}
+      ]
+    },
+    {
+      "batch_id": "2026-09-08.76",
+      "decisions": [
+        {"candidate_qids_checked": ["Q16480888", "Q135207587"], "local_id": "w-15091-2025-07-01", "mapping_note": "current Ngọc Liên commune selects Q135207587; release Q16480888 to the pre-2025 Ngọc Lặc commune", "outcome": "assign", "rationale": "Q135207587 owns the current `Ngọc Liên` article, whose introduction explicitly identifies the 2025 commune. Q16480888 retains the former Ngọc Lặc parent, old commune aliases, historical coordinates, and GeoNames identity.", "wikidata_qid": "Q135207587"}
+      ],
+      "reviewed_at": "2026-09-08T18:24:48Z",
+      "selection": {"input_status": "random-predecessor-gap-audit-v15", "sample_number": 45},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-08T18:23:20Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-08T18:23:20Z"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v15.json", "role": "saved fifteenth-round random-audit evidence"}
+      ]
+    },
+    {
+      "batch_id": "2026-09-08.77",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10830840", "Q135232464"], "local_id": "w-15661-2025-07-01", "mapping_note": "current Tân Thành commune selects Q135232464; release Q10830840 to the pre-2025 Thường Xuân commune", "outcome": "assign", "rationale": "Q135232464 owns the current `Tân Thành, Thanh Hóa` article, whose introduction explicitly identifies the 2025 commune. Q10830840 retains the former Thường Xuân district parent, old commune aliases, historical coordinates, and GeoNames identity.", "wikidata_qid": "Q135232464"},
+        {"candidate_qids_checked": ["Q10772553", "Q10772554", "Q32276627", "Q32276920"], "local_id": "w-23782-2025-07-01", "mapping_note": "current Ia O commune selects Q10772553; Q10772554 is the former Chư Prông commune and Q32276627 identifies the pre-2025 Ia Grai commune", "outcome": "assign", "rationale": "Q10772553 owns the current `Ia O` article and has coordinates at the continuing Ia Grai commune. Q10772554 retains the former Chư Prông parent and different coordinates, while Q32276627 matches the sampled pre-2025 Ia Grai commune through exact aliases, coordinates, and GeoNames 8701322.", "wikidata_qid": "Q10772553"},
+        {"candidate_qids_checked": ["Q10797196", "Q135183888"], "local_id": "w-14902-2025-07-01", "mapping_note": "current Nam Xuân commune selects Q135183888; release Q10797196 to the pre-2025 Quan Hóa commune", "outcome": "assign", "rationale": "Q135183888 owns the current `Nam Xuân` article, whose introduction explicitly identifies the 2025 commune. Q10797196 retains the former Quan Hóa district parent, old commune aliases, historical coordinates, and GeoNames identity.", "wikidata_qid": "Q135183888"},
+        {"candidate_qids_checked": ["Q10829428", "Q141249970"], "local_id": "w-06712-2025-07-01", "mapping_note": "current Móng Cái 1 ward selects Q141249970; release Q10829428 to the pre-2025 Trần Phú ward", "outcome": "assign", "rationale": "Q141249970 owns the current `Móng Cái 1` article and describes the current Quảng Ninh ward. Q10829428 retains the former Trần Phú name, Móng Cái city parent, old ward aliases, historical coordinates, and GeoNames identity.", "wikidata_qid": "Q141249970"}
+      ],
+      "reviewed_at": "2026-09-08T18:38:34Z",
+      "selection": {"input_status": "random-predecessor-gap-audit-v16", "sample_numbers": [11, 16, 40, 43]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-08T18:31:28Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-08T18:31:28Z"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v16.json", "role": "saved sixteenth-round random-audit evidence"}
+      ]
+    },
+    {
+      "batch_id": "2026-09-08.78",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10798582", "Q135114079"], "local_id": "w-16144-2025-07-01", "mapping_note": "current Nga An commune selects Q135114079; release Q10798582 to the pre-2025 Nga Sơn commune", "outcome": "assign", "rationale": "Q135114079 owns the current `Nga An` article and describes the current Thanh Hóa commune. Q10798582 retains the former Nga Sơn district parent, old commune aliases, historical coordinates, and GeoNames identity.", "wikidata_qid": "Q135114079"},
+        {"candidate_qids_checked": ["Q10805995", "Q135183925"], "local_id": "w-14878-2025-07-01", "mapping_note": "current Phú Lệ commune selects Q135183925; release Q10805995 to the pre-2025 Quan Hóa commune", "outcome": "assign", "rationale": "Q135183925 owns the current `Phú Lệ` article, whose introduction explicitly identifies the 2025 commune. Q10805995 retains the former Quan Hóa district parent, old commune aliases, historical coordinates, and GeoNames identity.", "wikidata_qid": "Q135183925"}
+      ],
+      "reviewed_at": "2026-09-08T18:48:49Z",
+      "selection": {"input_status": "random-predecessor-gap-audit-v17", "sample_numbers": [31, 42]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-08T18:46:22Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-08T18:46:22Z"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v17.json", "role": "saved seventeenth-round random-audit evidence"}
+      ]
+    },
+    {
+      "batch_id": "2026-09-08.79",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10833402", "Q135198232"], "local_id": "w-14974-2025-07-01", "mapping_note": "current Văn Nho commune selects Q135198232; release Q10833402 to the pre-2025 Bá Thước commune", "outcome": "assign", "rationale": "Q135198232 owns the current `Văn Nho` article and describes the current Thanh Hóa commune. Q10833402 retains the former Bá Thước district parent, old commune aliases, historical coordinates, and GeoNames identity.", "wikidata_qid": "Q135198232"},
+        {"candidate_qids_checked": ["Q10826555", "Q135183632"], "local_id": "w-15754-2025-07-01", "mapping_note": "current Thọ Ngọc commune selects Q135183632; release Q10826555 to the pre-2025 Triệu Sơn commune", "outcome": "assign", "rationale": "Q135183632 owns the current `Thọ Ngọc` article and describes the current Thanh Hóa commune. Q10826555 retains the former Triệu Sơn district parent, old commune aliases, historical coordinates, and GeoNames identity.", "wikidata_qid": "Q135183632"},
+        {"candidate_qids_checked": ["Q10801980", "Q135141872"], "local_id": "w-16279-2025-07-01", "mapping_note": "current Nông Cống commune selects Q135141872; release Q10801980 to the pre-2025 township", "outcome": "assign", "rationale": "Q135141872 owns the current `Nông Cống (xã)` article and describes the current Thanh Hóa commune. Q10801980 retains the township class, former Nông Cống district parent, township aliases, historical coordinates, and GeoNames identity.", "wikidata_qid": "Q135141872"},
+        {"candidate_qids_checked": ["Q10825281", "Q135163153"], "local_id": "w-15820-2025-07-01", "mapping_note": "current Thiệu Toán commune selects Q135163153; release Q10825281 to the pre-2025 Thiệu Hóa commune", "outcome": "assign", "rationale": "Q135163153 owns the current `Thiệu Toán` article and describes the current Thanh Hóa commune. Q10825281 retains the former Thiệu Hóa district parent, old commune aliases, historical coordinates, and GeoNames identity.", "wikidata_qid": "Q135163153"}
+      ],
+      "reviewed_at": "2026-09-08T18:57:18Z",
+      "selection": {"input_status": "random-predecessor-gap-audit-v18", "sample_numbers": [17, 25, 39, 42]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-08T18:55:13Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-08T18:55:13Z"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v18.json", "role": "saved eighteenth-round random-audit evidence"}
+      ]
+    },
+    {
+      "batch_id": "2026-09-08.80",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10834995", "Q135180047"], "local_id": "w-15592-2025-07-01", "mapping_note": "current Xuân Lập commune selects Q135180047; release Q10834995 to the pre-2025 Thọ Xuân commune", "outcome": "assign", "rationale": "Q135180047 owns the current `Xuân Lập (xã)` article and describes the current Thanh Hóa commune. Q10834995 retains the former Thọ Xuân district parent, old commune aliases, historical coordinates, and GeoNames identity.", "wikidata_qid": "Q135180047"},
+        {"candidate_qids_checked": ["Q10798603", "Q135114042"], "local_id": "w-16093-2025-07-01", "mapping_note": "current Nga Sơn commune selects Q135114042; release Q10798603 to the pre-2025 township", "outcome": "assign", "rationale": "Q135114042 owns the current `Nga Sơn (xã)` article and describes the current Thanh Hóa commune. Q10798603 retains the township class, former Nga Sơn district parent, old aliases, historical coordinates, and GeoNames identity.", "wikidata_qid": "Q135114042"},
+        {"candidate_qids_checked": ["Q10770537", "Q135113488"], "local_id": "w-15274-2025-07-01", "mapping_note": "current Hà Long commune selects Q135113488; release Q10770537 to the pre-2025 township", "outcome": "assign", "rationale": "Q135113488 owns the current `Hà Long` article and describes the current Thanh Hóa commune. Q10770537 retains the township class, former Hà Trung district parent, old aliases, historical coordinates, and GeoNames identity.", "wikidata_qid": "Q135113488"}
+      ],
+      "reviewed_at": "2026-09-08T19:10:05Z",
+      "selection": {"input_status": "random-predecessor-gap-audit-v19", "sample_numbers": [8, 22, 48]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-08T19:08:32Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-08T19:08:32Z"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v19.json", "role": "saved nineteenth-round random-audit evidence"}
+      ]
+    },
+    {
+      "batch_id": "2026-09-08.81",
+      "decisions": [
+        {"candidate_qids_checked": ["Q16481477", "Q134983172"], "local_id": "w-13192-2025-07-01", "mapping_note": "current Vũ Thư commune selects Q134983172; release Q16481477 to the pre-2025 township", "outcome": "assign", "rationale": "Q134983172 owns the current `Vũ Thư (xã)` article and describes the current Hưng Yên commune. Q16481477 retains the township class, former Vũ Thư district parent, old aliases, historical coordinates, and GeoNames identity.", "wikidata_qid": "Q134983172"},
+        {"candidate_qids_checked": ["Q10840187", "Q135198252"], "local_id": "w-14932-2025-07-01", "mapping_note": "current Điền Quang commune selects Q135198252; release Q10840187 to the pre-2025 Bá Thước commune", "outcome": "assign", "rationale": "Q135198252 owns the current `Điền Quang` article and describes the current Thanh Hóa commune. Q10840187 retains the former Bá Thước district parent, old commune aliases, historical coordinates, and GeoNames identity.", "wikidata_qid": "Q135198252"},
+        {"candidate_qids_checked": ["Q32589143", "Q10831536"], "local_id": "w-03037-2025-07-01", "mapping_note": "current Tả Van commune selects Q10831536; release Q32589143 to the pre-2025 Sa Pa commune", "outcome": "assign", "rationale": "Q10831536 owns the current `Tả Van` article and describes the current Lào Cai commune. Q32589143 retains the former commune alias, historical coordinate, and GeoNames 8464777.", "wikidata_qid": "Q10831536"},
+        {"candidate_qids_checked": ["Q18461715", "Q137325084"], "local_id": "w-24934-2025-07-01", "mapping_note": "current D'Ran commune selects Q137325084; release Q18461715 to the pre-2025 township", "outcome": "assign", "rationale": "Q137325084 owns the current `D'Ran` article and describes the current Lâm Đồng commune. Q18461715 retains the township class, former Đơn Dương district parent, old aliases, historical coordinate, and GeoNames identity.", "wikidata_qid": "Q137325084"},
+        {"candidate_qids_checked": ["Q11840158", "Q135207650"], "local_id": "w-15163-2025-07-01", "mapping_note": "current Cẩm Vân commune selects Q135207650; release Q11840158 to the pre-2025 Cẩm Thủy commune", "outcome": "assign", "rationale": "Q135207650 owns the current `Cẩm Vân (xã)` article and describes the current Thanh Hóa commune. Q11840158 retains the former Cẩm Thủy district parent, old commune aliases, historical coordinate, and GeoNames identity.", "wikidata_qid": "Q135207650"}
+      ],
+      "reviewed_at": "2026-09-08T19:17:48Z",
+      "selection": {"input_status": "random-predecessor-gap-audit-v20", "sample_numbers": [3, 5, 8, 17, 50]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-08T19:16:15Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-08T19:16:15Z"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v20.json", "role": "saved twentieth-round random-audit evidence"}
+      ]
+    },
+    {
+      "batch_id": "2026-09-08.82",
+      "decisions": [
+        {"candidate_qids_checked": ["Q32305308", "Q135162025"], "local_id": "w-16342-2025-07-01", "mapping_note": "current Thăng Bình commune selects Q135162025; release Q32305308 to the pre-2025 Nông Cống commune", "outcome": "assign", "rationale": "Q135162025 owns the current `Thăng Bình, Thanh Hóa` article and describes the current Thanh Hóa commune. Q32305308 retains the former Nông Cống district parent, old commune aliases, historical coordinates, and GeoNames identity.", "wikidata_qid": "Q135162025"},
+        {"candidate_qids_checked": ["Q10830845", "Q10830873"], "local_id": "w-27826-2025-07-01", "mapping_note": "current Tân Thạnh commune selects Q10830873; release Q10830845 to the pre-2025 Tân Thành commune", "outcome": "assign", "rationale": "Q10830873 owns the current `Tân Thạnh, Tây Ninh` article and describes the current Tây Ninh commune. Q10830845 is named Tân Thành, retains the former Tân Thạnh district parent, historical coordinates, and GeoNames identity, so it belongs to the distinct pre-2025 Tân Thành commune rather than the sampled township.", "wikidata_qid": "Q10830873"}
+      ],
+      "reviewed_at": "2026-09-08T19:31:30Z",
+      "selection": {"input_status": "random-predecessor-gap-audit-v21", "sample_numbers": [2, 34]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-08T19:25:15Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-08T19:25:15Z"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v21.json", "role": "saved twenty-first-round random-audit evidence"}
+      ]
+    },
+    {
+      "batch_id": "2026-09-08.83",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10826578", "Q135179952"], "local_id": "w-15499-2025-07-01", "mapping_note": "current Thọ Xuân commune selects Q135179952; release Q10826578 to the pre-2025 township", "outcome": "assign", "rationale": "Q135179952 owns the current `Thọ Xuân (xã)` article and describes the current Thanh Hóa commune. Q10826578 retains the township class, former Thọ Xuân district parent, old aliases, historical coordinates, and GeoNames identity.", "wikidata_qid": "Q135179952"},
+        {"candidate_qids_checked": ["Q10824861", "Q135224963"], "local_id": "w-16213-2025-07-01", "mapping_note": "current Thanh Phong commune selects Q135224963; release Q10824861 to the pre-2025 Như Xuân commune", "outcome": "assign", "rationale": "Q135224963 owns the current `Thanh Phong` article and describes the current Thanh Hóa commune. Q10824861 retains the former Như Xuân district parent, old commune aliases, historical coordinates, and GeoNames identity.", "wikidata_qid": "Q135224963"},
+        {"candidate_qids_checked": ["Q10767634", "Q135183918"], "local_id": "w-14896-2025-07-01", "mapping_note": "current Hiền Kiệt commune selects Q135183918; release Q10767634 to the pre-2025 Quan Hóa commune", "outcome": "assign", "rationale": "Q135183918 owns the current `Hiền Kiệt` article and describes the current Thanh Hóa commune. Q10767634 retains the former Quan Hóa district parent, old commune aliases, historical coordinates, and GeoNames identity.", "wikidata_qid": "Q135183918"}
+      ],
+      "reviewed_at": "2026-09-08T19:47:33Z",
+      "selection": {"input_status": "random-predecessor-gap-audit-v23", "sample_numbers": [3, 5, 34]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-08T19:46:14Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-08T19:46:14Z"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v23.json", "role": "saved twenty-third-round random-audit evidence"}
+      ]
+    },
+    {
+      "batch_id": "2026-09-08.84",
+      "decisions": [
+        {"candidate_qids_checked": ["Q11840157", "Q135207648"], "local_id": "w-15148-2025-07-01", "mapping_note": "current Cẩm Tú commune selects Q135207648; release Q11840157 to the pre-2025 Cẩm Thủy commune", "outcome": "assign", "rationale": "Q135207648 owns the current `Cẩm Tú` article and describes the current Thanh Hóa commune. Q11840157 retains the former Cẩm Thủy district parent, old commune aliases, historical coordinates, and GeoNames identity.", "wikidata_qid": "Q135207648"},
+        {"candidate_qids_checked": ["Q10771650", "Q135107987"], "local_id": "w-16597-2025-07-01", "mapping_note": "current Hải Lĩnh ward selects Q135107987; release Q10771650 to the pre-2025 Nghi Sơn ward", "outcome": "assign", "rationale": "Q135107987 owns the current `Hải Lĩnh` article and describes the current Thanh Hóa ward. Q10771650 retains the former Nghi Sơn parent, old ward aliases, historical coordinates, and GeoNames identity.", "wikidata_qid": "Q135107987"}
+      ],
+      "reviewed_at": "2026-09-08T19:55:06Z",
+      "selection": {"input_status": "random-predecessor-gap-audit-v24", "sample_numbers": [11, 44]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-08T19:53:24Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-08T19:53:24Z"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v24.json", "role": "saved twenty-fourth-round random-audit evidence"}
+      ]
+    },
+    {
+      "batch_id": "2026-09-08.85",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10830343", "Q131552277"], "local_id": "w-11167-2025-07-01", "mapping_note": "current Tân An commune selects Q131552277; release Q10830343 to the distinct pre-2025 Thanh Hà commune", "outcome": "assign", "rationale": "Q131552277 owns the current `Tân An, Hải Phòng` article despite its stale Đức Phúc label. Q10830343 retains the former Thanh Hà context, coordinates, and GeoNames identity and belongs to the separate pre-2025 Tân An commune.", "wikidata_qid": "Q131552277"},
+        {"candidate_qids_checked": ["Q10810344", "Q135140990"], "local_id": "w-16543-2025-07-01", "mapping_note": "current Quảng Bình commune selects Q135140990; release Q10810344 to the pre-2025 Quảng Xương commune", "outcome": "assign", "rationale": "Q135140990 owns the current `Quảng Bình (xã)` article and describes the current Thanh Hóa commune. Q10810344 retains the former Quảng Xương district parent, old commune aliases, historical coordinates, and GeoNames identity.", "wikidata_qid": "Q135140990"}
+      ],
+      "reviewed_at": "2026-09-08T20:04:00Z",
+      "selection": {"input_status": "random-predecessor-gap-audit-v25, including one related current-map correction", "sample_numbers": [12, 13]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-08T20:00:13Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-08T20:00:13Z"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v25.json", "role": "saved twenty-fifth-round random-audit evidence"}
+      ]
+    },
+    {
+      "batch_id": "2026-09-08.86",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10826538", "Q135183599"], "local_id": "w-15667-2025-07-01", "mapping_note": "current Thọ Bình commune selects Q135183599; release Q10826538 to the pre-2025 Triệu Sơn commune", "outcome": "assign", "rationale": "Q135183599 owns the current `Thọ Bình` article and describes the current Thanh Hóa commune. Q10826538 retains the former Triệu Sơn district parent, old commune aliases, historical coordinates, and GeoNames identity.", "wikidata_qid": "Q135183599"},
+        {"candidate_qids_checked": ["Q10826547", "Q135179995"], "local_id": "w-15568-2025-07-01", "mapping_note": "current Thọ Lập commune selects Q135179995; release Q10826547 to the pre-2025 Thọ Xuân commune", "outcome": "assign", "rationale": "Q135179995 owns the current `Thọ Lập` article and describes the current Thanh Hóa commune. Q10826547 retains the former Thọ Xuân district parent, old commune aliases, historical coordinates, and GeoNames identity.", "wikidata_qid": "Q135179995"},
+        {"candidate_qids_checked": ["Q10743116", "Q135485103"], "local_id": "w-00292-2025-07-01", "mapping_note": "current Bạch Mai ward selects Q135485103; release Q10743116 to the pre-2025 Hai Bà Trưng ward", "outcome": "assign", "rationale": "Q135485103 owns the current `Bạch Mai` article and describes the current Hanoi ward. Q10743116 retains the former Hai Bà Trưng district parent, old ward aliases, historical coordinates, and GeoNames identity.", "wikidata_qid": "Q135485103"},
+        {"candidate_qids_checked": ["Q10769221", "Q135139531"], "local_id": "w-16000-2025-07-01", "mapping_note": "current Hoằng Thanh commune selects Q135139531; release Q10769221 to the pre-2025 Hoằng Hóa commune", "outcome": "assign", "rationale": "Q135139531 owns the current `Hoằng Thanh` article and describes the current Thanh Hóa commune. Q10769221 retains the former Hoằng Hóa district parent, old commune aliases, historical coordinates, and GeoNames identity.", "wikidata_qid": "Q135139531"}
+      ],
+      "reviewed_at": "2026-09-08T20:11:00Z",
+      "selection": {"input_status": "random-predecessor-gap-audit-v26", "sample_numbers": [16, 26, 28, 36]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-08T20:09:14Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-08T20:09:14Z"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v26.json", "role": "saved twenty-sixth-round random-audit evidence"}
+      ]
+    },
+    {
+      "batch_id": "2026-09-08.87",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10784259", "Q135179994"], "local_id": "w-15544-2025-07-01", "mapping_note": "current Lam Sơn commune selects Q135179994; release Q10784259 to the pre-2025 township", "outcome": "assign", "rationale": "Q135179994 owns the current `Lam Sơn (xã)` article and describes the current Thanh Hóa commune. Q10784259 retains the township class, former Thọ Xuân district parent, old aliases, historical coordinates, and GeoNames identity.", "wikidata_qid": "Q135179994"},
+        {"candidate_qids_checked": ["Q10752566", "Q135207657"], "local_id": "w-15178-2025-07-01", "mapping_note": "current Cẩm Tân commune selects Q135207657; release Q10752566 to the pre-2025 Cẩm Thủy commune", "outcome": "assign", "rationale": "Q135207657 owns the current `Cẩm Tân` article and describes the current Thanh Hóa commune. Q10752566 retains the former Cẩm Thủy district parent, old commune aliases, historical coordinates, and GeoNames identity.", "wikidata_qid": "Q135207657"}
+      ],
+      "reviewed_at": "2026-09-08T20:17:40Z",
+      "selection": {"input_status": "random-predecessor-gap-audit-v27", "sample_numbers": [5, 28]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-08T20:16:33Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-08T20:16:33Z"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v27.json", "role": "saved twenty-seventh-round random-audit evidence"}
+      ]
+    },
+    {
+      "batch_id": "2026-09-08.88",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10806195", "Q16481027"], "local_id": "w-00541-2025-07-01", "mapping_note": "current Phù Đổng commune selects Q16481027; release Q10806195 to the distinct pre-2025 Phú Đông commune in Ba Vì", "outcome": "assign", "rationale": "Q16481027 is the Phù Đổng commune item, owns the `Phù Đổng (xã)` article, and represents a namesake predecessor included in the current commune's official composition. Q10806195 is instead explicitly Phú Đông in former Ba Vì district and retains that commune's historical coordinates and GeoNames identity.", "wikidata_qid": "Q16481027"},
+        {"candidate_qids_checked": ["Q16480854", "Q135163226"], "local_id": "w-15835-2025-07-01", "mapping_note": "current Thiệu Trung commune selects Q135163226; release Q16480854 to the pre-2025 Thiệu Hóa commune", "outcome": "assign", "rationale": "Q135163226 owns the current `Thiệu Trung` article and describes the current Thanh Hóa commune. Q16480854 retains the former Thiệu Hóa district parent, old commune aliases, historical coordinates, and GeoNames identity.", "wikidata_qid": "Q135163226"},
+        {"candidate_qids_checked": ["Q10755942", "Q137215889"], "local_id": "w-22651-2025-07-01", "mapping_note": "current Diên Khánh commune selects Q137215889; release Q10755942 to the pre-2025 township", "outcome": "assign", "rationale": "Q137215889 owns the current `Diên Khánh` article and describes the current Khánh Hòa commune. Q10755942 retains the township GeoNames identity, former Diên Khánh district parent, historical coordinates, and old township aliases.", "wikidata_qid": "Q137215889"}
+      ],
+      "reviewed_at": "2026-09-08T20:35:04Z",
+      "selection": {"input_status": "random-predecessor-gap-audit-v28", "sample_numbers": [28, 30, 42]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-08T20:24:29Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-08T20:24:29Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to verify the current Phù Đổng namesake lineage"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v28.json", "role": "saved twenty-eighth-round random-audit evidence"}
+      ]
+    },
+    {
+      "batch_id": "2026-09-08.89",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10807170", "Q10842418"], "local_id": "w-21457-2025-07-01", "mapping_note": "current Nguyễn Nghiêm commune selects Q10807170; release Q10842418 to the pre-2025 Đức Phổ ward", "outcome": "assign", "rationale": "Q10807170 owns the current `Nguyễn Nghiêm (xã)` article and retains the primary Phổ Nhơn predecessor's GeoNames identity and GSO code 21457. Q10842418 retains the former Đức Phổ parent, old ward aliases, historical coordinates, and the former township GeoNames identity.", "wikidata_qid": "Q10807170"}
+      ],
+      "reviewed_at": "2026-09-08T20:44:11Z",
+      "selection": {"input_status": "random-predecessor-gap-audit-v29", "sample_numbers": [15]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-08T20:42:15Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-08T20:42:15Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to verify the current Nguyễn Nghiêm primary predecessor"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v29.json", "role": "saved twenty-ninth-round random-audit evidence"}
+      ]
+    },
+    {
+      "batch_id": "2026-09-08.90",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10742589", "Q137473596"], "local_id": "w-31168-2025-07-01", "mapping_note": "current Bình Thủy ward selects Q137473596; release Q10742589 to the pre-2025 ward", "outcome": "assign", "rationale": "Q137473596 owns the current `Bình Thủy (phường)` article and describes the current Cần Thơ ward. Q10742589 retains the former Bình Thủy district parent, old ward aliases, historical coordinates, and GeoNames identity.", "wikidata_qid": "Q137473596"},
+        {"candidate_qids_checked": ["Q10733273", "Q135183716"], "local_id": "w-15766-2025-07-01", "mapping_note": "current An Nông commune selects Q135183716; release Q10733273 to the pre-2025 Triệu Sơn commune", "outcome": "assign", "rationale": "Q135183716 owns the current `An Nông` article and describes the current Thanh Hóa commune. Q10733273 retains the former Triệu Sơn district parent, old commune aliases, historical coordinates, and GeoNames identity.", "wikidata_qid": "Q135183716"},
+        {"candidate_qids_checked": ["Q1887753", "Q10830738"], "local_id": "w-26116-2025-07-01", "mapping_note": "current Tân Phú ward selects Q1887753; release Q10830738 to the distinct pre-2025 Đồng Xoài ward", "outcome": "assign", "rationale": "Q1887753 owns the current `Tân Phú, Đồng Nai` article and retains the namesake primary predecessor township's coordinates and GeoNames identity. Q10830738 explicitly retains the former Đồng Xoài parent, ward aliases, separate coordinates, and GeoNames identity.", "wikidata_qid": "Q1887753"},
+        {"candidate_qids_checked": ["Q10833571", "Q10833572"], "local_id": "w-22846-2025-07-01", "mapping_note": "current Vĩnh Hải commune selects Q10833572; release Q10833571 to the distinct pre-2025 Nha Trang ward", "outcome": "assign", "rationale": "Q10833572 owns the current `Vĩnh Hải, Khánh Hòa` article, has commune class, and retains the namesake primary predecessor's coordinates and GeoNames identity. Q10833571 has ward class, former Nha Trang parent, separate urban coordinates, and the old Nha Trang ward's GeoNames identity.", "wikidata_qid": "Q10833572"},
+        {"candidate_qids_checked": ["Q10800693", "Q135209918"], "local_id": "w-15250-2025-07-01", "mapping_note": "current Ngọc Trạo commune selects Q135209918; release Q10800693 to the pre-2025 Thạch Thành commune", "outcome": "assign", "rationale": "Q135209918 owns the current `Ngọc Trạo` article and describes the current Thanh Hóa commune. Q10800693 retains the former Thạch Thành district parent, old commune aliases, historical coordinates, and GeoNames identity.", "wikidata_qid": "Q135209918"}
+      ],
+      "reviewed_at": "2026-09-08T20:53:20Z",
+      "selection": {"input_status": "random-predecessor-gap-audit-v30, including one related current-map correction", "sample_numbers": [29, 32, 33, 36, 50]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-08T20:49:15Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-08T20:49:15Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to verify current namesake and primary-predecessor lineages"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v30.json", "role": "saved thirtieth-round random-audit evidence"}
+      ]
+    },
+    {
+      "batch_id": "2026-09-09.91",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10733192", "Q137010257"], "local_id": "w-31147-2025-07-01", "mapping_note": "current Tân An ward selects Q137010257; release Q10733192 to the distinct pre-2025 Ninh Kiều ward", "outcome": "assign", "rationale": "Q137010257 owns the current `Tân An, Cần Thơ` article and describes the current Cần Thơ ward formed from Hưng Lợi and An Khánh. Q10733192 retains the former Ninh Kiều district parent, old ward aliases, historical coordinates, and GeoNames 8312146.", "wikidata_qid": "Q137010257"}
+      ],
+      "reviewed_at": "2026-09-09T18:12:45Z",
+      "selection": {"input_status": "random-predecessor-gap-audit-v32", "sample_numbers": [40]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T18:06:13Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T18:06:13Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish the new Tân An ward from its namesake predecessor"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v32.json", "role": "saved thirty-second-round random-audit evidence"}
+      ]
     }
   ],
   "schema_version": 1,

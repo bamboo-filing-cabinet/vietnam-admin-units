@@ -7,22 +7,22 @@
     "wikidata_write_performed": false
   },
   "input_fingerprints": {
-    "manifest_content_sha256": "832d03ec9785ae35acc7b306ea19c92d505e02b5f7e6281e926f63ccc7c9a65d",
-    "data/ward-wikidata-predecessor-unresolved-candidates.json": "245e9582c3955e896f9e8b22d00affe4529c1ca0e9245dd8ac42015c10191278",
-    "data/ward-wikidata-predecessor-article-candidates.json": "8dff2d5e268aa7d09ef23e07ae104e9076b46294dadba61f660e63eec663d1c8",
-    "data/ward-wikidata-predecessor-context-candidates.json": "c58a379c630846e92e175bf32a8db53e99b2c96050929010daed14ecdc13aafd",
-    "data/ward-wikidata-predecessor-geonames-candidates.json": "1f10c8a546f089292d53b418f8d3ec93d0ef4bb26008f8fb6a624dcc05563cb4",
+    "manifest_content_sha256": "d9543241a6f00f59311943e5c0eea604f4c09986a944847bd6d7c9caeef3ea80",
+    "data/ward-wikidata-predecessor-unresolved-candidates.json": "f14554bd02ed78baf55f4aa97a605675020babf0ad99a715c92539bbff1263f7",
+    "data/ward-wikidata-predecessor-article-candidates.json": "319f7617c2a71bab2857bd26c4e3d79a6ccf2fc8dd1c9dc2ffda951afbd91404",
+    "data/ward-wikidata-predecessor-context-candidates.json": "12f6a00a25111e9ff9a970635ee3a3cc9230adee9032800c4cd7f5b1cada982b",
+    "data/ward-wikidata-predecessor-geonames-candidates.json": "959df7dd18f2876975390b234e0c3c4835a9d74eddf5d4718ea6fa0a3371e48c",
     "data/ward-wikidata-predecessor-gap-sample-v2-decisions.json": "82250c9c319a2b462e4dee20d963cf77b1884dbe1196cda47cc83485b603c2b4"
   },
   "evidence": {
-    "qlever_retrieved_at": "2026-09-04T19:31:14Z",
-    "action_api_retrieved_at": "2026-09-04T19:31:14Z",
+    "qlever_retrieved_at": "2026-09-09T18:17:40Z",
+    "action_api_retrieved_at": "2026-09-09T18:17:41Z",
     "age_hours_at_check": null,
     "max_age_hours": null
   },
   "audit": {
-    "items": 3198,
-    "clear_items": 3198,
+    "items": 3094,
+    "clear_items": 3094,
     "needs_review_items": 0,
     "fresh": true,
     "sample_reviewed_rows": 50,
@@ -151,13 +151,6 @@
       "name_vi": "Phường Quỳnh Mai",
       "parent_qid": "Q1134523",
       "classification": "assigned-item-only",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-00292-2025-01-01",
-      "name_vi": "Phường Bạch Mai",
-      "parent_qid": "Q1134523",
-      "classification": "no-broad-district-candidate",
       "status": "clear"
     },
     {
@@ -308,13 +301,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-1011523-base",
-      "name_vi": "Xã Đông Xuân",
-      "parent_qid": "Q5370348",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-1011515-base",
       "name_vi": "Xã Phú Cường",
       "parent_qid": "Q5370348",
@@ -385,6 +371,13 @@
       "status": "clear"
     },
     {
+      "local_id": "w-1011919-base",
+      "name_vi": "Xã Phù Đổng",
+      "parent_qid": "Q135713939",
+      "classification": "no-broad-district-candidate",
+      "status": "clear"
+    },
+    {
       "local_id": "w-1011969-base",
       "name_vi": "Xã Phú Sơn",
       "parent_qid": "Q135713939",
@@ -434,13 +427,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-1012105-base",
-      "name_vi": "Phường Tây Tựu",
-      "parent_qid": "Q16480194",
-      "classification": "assigned-item-only",
-      "status": "clear"
-    },
-    {
       "local_id": "w-1012119-base",
       "name_vi": "Phường Xuân Đỉnh",
       "parent_qid": "Q16480194",
@@ -473,13 +459,6 @@
       "name_vi": "Phường Mỹ Đình 2",
       "parent_qid": "Q16479957",
       "classification": "no-broad-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-1012127-base",
-      "name_vi": "Phường Tây Mỗ",
-      "parent_qid": "Q16479957",
-      "classification": "assigned-item-only",
       "status": "clear"
     },
     {
@@ -1232,13 +1211,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-2031725-base",
-      "name_vi": "Xã Ngọc Động",
-      "parent_qid": "Q16481406",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-2031737-base",
       "name_vi": "Xã Hạnh Phúc",
       "parent_qid": "Q16481406",
@@ -1381,13 +1353,6 @@
     {
       "local_id": "w-2070303-base",
       "name_vi": "Xã Bằng Thành",
-      "parent_qid": "Q616369",
-      "classification": "assigned-item-only",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-2070319-base",
-      "name_vi": "Xã Nghiên Loan",
       "parent_qid": "Q616369",
       "classification": "assigned-item-only",
       "status": "clear"
@@ -1834,13 +1799,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-2110907-base",
-      "name_vi": "Phường An Tường",
-      "parent_qid": "Q33389",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-2110969-base",
       "name_vi": "Phường Đội Cấn",
       "parent_qid": "Q33389",
@@ -1927,13 +1885,6 @@
     {
       "local_id": "w-2050311-base",
       "name_vi": "Xã Cam Đường",
-      "parent_qid": "Q33373",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-2050315-base",
-      "name_vi": "Xã Hợp Thành",
       "parent_qid": "Q33373",
       "classification": "no-broad-district-candidate",
       "status": "clear"
@@ -2208,26 +2159,12 @@
       "local_id": "w-2051311-base",
       "name_vi": "Phường Hàm Rồng",
       "parent_qid": "Q7395483",
-      "classification": "no-broad-district-candidate",
+      "classification": "assigned-item-only",
       "status": "clear"
     },
     {
       "local_id": "w-2051317-base",
       "name_vi": "Phường Cầu Mây",
-      "parent_qid": "Q7395483",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-2051325-base",
-      "name_vi": "Xã Mường Hoa",
-      "parent_qid": "Q7395483",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-2051323-base",
-      "name_vi": "Xã Tả Van",
       "parent_qid": "Q7395483",
       "classification": "no-broad-district-candidate",
       "status": "clear"
@@ -2258,13 +2195,6 @@
       "name_vi": "Xã Võ Lao",
       "parent_qid": "Q7913140",
       "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-2051915-base",
-      "name_vi": "Xã Nậm Chầy",
-      "parent_qid": "Q7913140",
-      "classification": "assigned-item-only",
       "status": "clear"
     },
     {
@@ -2772,13 +2702,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-3010303-base",
-      "name_vi": "Xã Lê Lợi",
-      "parent_qid": "Q10802173",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-3010905-base",
       "name_vi": "Xã Pa Tần",
       "parent_qid": "Q7521535",
@@ -3024,13 +2947,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-3030753-base",
-      "name_vi": "Xã Co Mạ",
-      "parent_qid": "Q430789",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-3030759-base",
       "name_vi": "Xã Nậm Lầu",
       "parent_qid": "Q430789",
@@ -3089,13 +3005,6 @@
     {
       "local_id": "w-3030907-base",
       "name_vi": "Xã Tà Xùa",
-      "parent_qid": "Q373168",
-      "classification": "assigned-item-only",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-3030909-base",
-      "name_vi": "Xã Pắc Ngà",
       "parent_qid": "Q373168",
       "classification": "assigned-item-only",
       "status": "clear"
@@ -3185,13 +3094,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-03984-2025-02-01",
-      "name_vi": "Phường Cờ Đỏ",
-      "parent_qid": "Q6887452",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-3031905-base",
       "name_vi": "Xã Chiềng Sơn",
       "parent_qid": "Q6887452",
@@ -3217,13 +3119,6 @@
       "name_vi": "Xã Song Khủa",
       "parent_qid": "Q16481471",
       "classification": "assigned-item-only",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-3031921-base",
-      "name_vi": "Xã Chiềng Chung",
-      "parent_qid": "Q6887452",
-      "classification": "no-broad-district-candidate",
       "status": "clear"
     },
     {
@@ -3451,13 +3346,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-2131537-base",
-      "name_vi": "Xã Nghĩa An",
-      "parent_qid": "Q7022345",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-2130501-base",
       "name_vi": "Thị trấn Yên Thế",
       "parent_qid": "Q6695817",
@@ -3661,13 +3549,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-2131137-base",
-      "name_vi": "Xã Hưng Khánh",
-      "parent_qid": "Q7833347",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-2131155-base",
       "name_vi": "Xã Việt Hồng",
       "parent_qid": "Q7833347",
@@ -3693,13 +3574,6 @@
       "name_vi": "Xã Trạm Tấu",
       "parent_qid": "Q7833115",
       "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-2131721-base",
-      "name_vi": "Xã Tà Si Láng",
-      "parent_qid": "Q7833115",
-      "classification": "assigned-item-only",
       "status": "clear"
     },
     {
@@ -3817,13 +3691,6 @@
     {
       "local_id": "w-3050109-base",
       "name_vi": "Phường Tân Hòa",
-      "parent_qid": "Q130324",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-3050119-base",
-      "name_vi": "Phường Quỳnh Lâm",
       "parent_qid": "Q130324",
       "classification": "no-broad-district-candidate",
       "status": "clear"
@@ -4048,13 +3915,6 @@
     {
       "local_id": "w-3051307-base",
       "name_vi": "Xã Phú Vinh",
-      "parent_qid": "Q7682084",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-3051311-base",
-      "name_vi": "Xã Mỹ Hòa",
       "parent_qid": "Q7682084",
       "classification": "no-broad-district-candidate",
       "status": "clear"
@@ -4746,13 +4606,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-2090515-base",
-      "name_vi": "Xã Hội Hoan",
-      "parent_qid": "Q7913476",
-      "classification": "assigned-item-only",
-      "status": "clear"
-    },
-    {
       "local_id": "w-2090537-base",
       "name_vi": "Xã Hoàng Văn Thụ",
       "parent_qid": "Q7913476",
@@ -4778,13 +4631,6 @@
       "name_vi": "Xã Công Sơn",
       "parent_qid": "Q5034306",
       "classification": "assigned-item-only",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-2091331-base",
-      "name_vi": "Xã Mẫu Sơn",
-      "parent_qid": "Q5034306",
-      "classification": "no-broad-district-candidate",
       "status": "clear"
     },
     {
@@ -4924,13 +4770,6 @@
       "local_id": "w-2092147-base",
       "name_vi": "Xã Tân Thành",
       "parent_qid": "Q5951159",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-2091733-base",
-      "name_vi": "Xã Chiến Thắng",
-      "parent_qid": "Q5095074",
       "classification": "no-broad-district-candidate",
       "status": "clear"
     },
@@ -5106,13 +4945,6 @@
       "local_id": "w-2250139-base",
       "name_vi": "Phường Việt Hưng",
       "parent_qid": "Q36077",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-2250603-base",
-      "name_vi": "Phường Trần Phú",
-      "parent_qid": "Q33204",
       "classification": "no-broad-district-candidate",
       "status": "clear"
     },
@@ -5467,13 +5299,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-2210507-base",
-      "name_vi": "Thị trấn Nhã Nam",
-      "parent_qid": "Q1320221",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-2210513-base",
       "name_vi": "Xã Quang Trung",
       "parent_qid": "Q1320221",
@@ -5744,13 +5569,6 @@
       "name_vi": "Xã Đồng Việt",
       "parent_qid": "Q36736",
       "classification": "assigned-item-only",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-2211711-base",
-      "name_vi": "Phường Tự Lạn",
-      "parent_qid": "Q2227688",
-      "classification": "no-broad-district-candidate",
       "status": "clear"
     },
     {
@@ -6748,13 +6566,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-1060539-base",
-      "name_vi": "Phường Bồng Lai",
-      "parent_qid": "Q1924544",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-1060537-base",
       "name_vi": "Xã Đào Viên",
       "parent_qid": "Q1924544",
@@ -6794,13 +6605,6 @@
       "name_vi": "Xã Tân Chi",
       "parent_qid": "Q3711538",
       "classification": "assigned-item-only",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-1060745-base",
-      "name_vi": "Xã Đại Đồng",
-      "parent_qid": "Q3711538",
-      "classification": "no-broad-district-candidate",
       "status": "clear"
     },
     {
@@ -6969,13 +6773,6 @@
       "name_vi": "Xã Cổ Đô",
       "parent_qid": "Q1048617",
       "classification": "assigned-item-only",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-1050535-base",
-      "name_vi": "Xã Phú Đông",
-      "parent_qid": "Q1048617",
-      "classification": "no-broad-district-candidate",
       "status": "clear"
     },
     {
@@ -7455,13 +7252,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-1070103-base",
-      "name_vi": "Phường Nguyễn Trãi",
-      "parent_qid": "Q36354",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-1070111-base",
       "name_vi": "Phường Trần Hưng Đạo",
       "parent_qid": "Q36354",
@@ -7501,13 +7291,6 @@
       "name_vi": "Phường Việt Hoà",
       "parent_qid": "Q36354",
       "classification": "assigned-item-only",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-1070305-base",
-      "name_vi": "Phường Phả Lại",
-      "parent_qid": "Q3031171",
-      "classification": "no-broad-district-candidate",
       "status": "clear"
     },
     {
@@ -7689,13 +7472,6 @@
       "local_id": "w-1070717-base",
       "name_vi": "Xã Quyết Thắng",
       "parent_qid": "Q36354",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-1070721-base",
-      "name_vi": "Xã Tân An",
-      "parent_qid": "Q847496",
       "classification": "no-broad-district-candidate",
       "status": "clear"
     },
@@ -8701,13 +8477,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-1150927-base",
-      "name_vi": "Xã Phong Dương Tiến",
-      "parent_qid": "Q5295738",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-1150943-base",
       "name_vi": "Xã Hà Giang",
       "parent_qid": "Q5295738",
@@ -8953,13 +8722,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-1151101-base",
-      "name_vi": "Thị trấn Vũ Thư",
-      "parent_qid": "Q7943287",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-1151133-base",
       "name_vi": "Xã Tân Lập",
       "parent_qid": "Q7943287",
@@ -9011,13 +8773,6 @@
     {
       "local_id": "w-1110503-base",
       "name_vi": "Xã Nguyễn Úy",
-      "parent_qid": "Q6408354",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-1110539-base",
-      "name_vi": "Phường Tân Tựu",
       "parent_qid": "Q6408354",
       "classification": "no-broad-district-candidate",
       "status": "clear"
@@ -9310,13 +9065,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-1130911-base",
-      "name_vi": "Xã Nghĩa An",
-      "parent_qid": "Q6961159",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-1130915-base",
       "name_vi": "Xã Hồng Quang",
       "parent_qid": "Q6961159",
@@ -9429,13 +9177,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-1131923-base",
-      "name_vi": "Xã Hải Đông",
-      "parent_qid": "Q5638933",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-1131959-base",
       "name_vi": "Xã Hải An",
       "parent_qid": "Q5638933",
@@ -9471,22 +9212,8 @@
       "status": "clear"
     },
     {
-      "local_id": "w-1170307-base",
-      "name_vi": "Xã Yên Sơn",
-      "parent_qid": "Q7680449",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-14375-2007-04-24",
       "name_vi": "Phường Tân Bình",
-      "parent_qid": "Q7680449",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-1170313-base",
-      "name_vi": "Xã Quang Sơn",
       "parent_qid": "Q7680449",
       "classification": "no-broad-district-candidate",
       "status": "clear"
@@ -9579,13 +9306,6 @@
       "local_id": "w-1170729-base",
       "name_vi": "Xã Tiến Thắng",
       "parent_qid": "Q5557813",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-14527-2004-06-30",
-      "name_vi": "Phường Ninh Mỹ",
-      "parent_qid": "Q10767737",
       "classification": "no-broad-district-candidate",
       "status": "clear"
     },
@@ -9737,13 +9457,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-4010101-base",
-      "name_vi": "Phường Hàm Rồng",
-      "parent_qid": "Q36175",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-4010107-base",
       "name_vi": "Phường Đông Sơn",
       "parent_qid": "Q36175",
@@ -9842,44 +9555,9 @@
       "status": "clear"
     },
     {
-      "local_id": "w-4010915-base",
-      "name_vi": "Xã Phú Lệ",
-      "parent_qid": "Q7268825",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-4010923-base",
-      "name_vi": "Xã Phú Xuân",
-      "parent_qid": "Q7268825",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-4010909-base",
-      "name_vi": "Xã Hiền Kiệt",
-      "parent_qid": "Q7268825",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-4010903-base",
       "name_vi": "Xã Thiên Phủ",
       "parent_qid": "Q7268825",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-4010933-base",
-      "name_vi": "Xã Nam Xuân",
-      "parent_qid": "Q7268825",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-4011307-base",
-      "name_vi": "Xã Điền Quang",
-      "parent_qid": "Q4837080",
       "classification": "no-broad-district-candidate",
       "status": "clear"
     },
@@ -9893,13 +9571,6 @@
     {
       "local_id": "w-4011329-base",
       "name_vi": "Xã Cổ Lũng",
-      "parent_qid": "Q4837080",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-4011337-base",
-      "name_vi": "Xã Văn Nho",
       "parent_qid": "Q4837080",
       "classification": "no-broad-district-candidate",
       "status": "clear"
@@ -9989,22 +9660,8 @@
       "status": "clear"
     },
     {
-      "local_id": "w-4012101-base",
-      "name_vi": "Thị trấn Ngọc Lặc",
-      "parent_qid": "Q7022471",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-4012111-base",
       "name_vi": "Xã Thạch Lập",
-      "parent_qid": "Q7022471",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-4012123-base",
-      "name_vi": "Xã Ngọc Liên",
       "parent_qid": "Q7022471",
       "classification": "no-broad-district-candidate",
       "status": "clear"
@@ -10045,27 +9702,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-4011519-base",
-      "name_vi": "Xã Cẩm Tú",
-      "parent_qid": "Q5024878",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-4011535-base",
-      "name_vi": "Xã Cẩm Tân",
-      "parent_qid": "Q5024878",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-4011539-base",
-      "name_vi": "Xã Cẩm Vân",
-      "parent_qid": "Q5024878",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-4011903-base",
       "name_vi": "Thị trấn Kim Tân",
       "parent_qid": "Q3519409",
@@ -10080,13 +9716,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-4011917-base",
-      "name_vi": "Xã Thạch Bình",
-      "parent_qid": "Q3519409",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-4011929-base",
       "name_vi": "Xã Thành Vinh",
       "parent_qid": "Q3519409",
@@ -10094,22 +9723,8 @@
       "status": "clear"
     },
     {
-      "local_id": "w-4011955-base",
-      "name_vi": "Xã Ngọc Trạo",
-      "parent_qid": "Q3519409",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-4013101-base",
       "name_vi": "Thị trấn Hà Trung",
-      "parent_qid": "Q5636448",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-4013103-base",
-      "name_vi": "Thị trấn Hà Long",
       "parent_qid": "Q5636448",
       "classification": "no-broad-district-candidate",
       "status": "clear"
@@ -10171,13 +9786,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-4013713-base",
-      "name_vi": "Thị trấn Thọ Xuân",
-      "parent_qid": "Q6470507",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-4013725-base",
       "name_vi": "Xã Xuân Hòa",
       "parent_qid": "Q6470507",
@@ -10192,20 +9800,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-4013751-base",
-      "name_vi": "Thị trấn Lam Sơn",
-      "parent_qid": "Q6470507",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-4013759-base",
-      "name_vi": "Xã Thọ Lập",
-      "parent_qid": "Q6470507",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-4013763-base",
       "name_vi": "Xã Xuân Tín",
       "parent_qid": "Q6470507",
@@ -10215,13 +9809,6 @@
     {
       "local_id": "w-4013765-base",
       "name_vi": "Xã Phú Xuân",
-      "parent_qid": "Q6470507",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-4013771-base",
-      "name_vi": "Xã Xuân Lập",
       "parent_qid": "Q6470507",
       "classification": "no-broad-district-candidate",
       "status": "clear"
@@ -10269,22 +9856,8 @@
       "status": "clear"
     },
     {
-      "local_id": "w-4012339-base",
-      "name_vi": "Xã Tân Thành",
-      "parent_qid": "Q7799225",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-4014701-base",
       "name_vi": "Thị trấn Triệu Sơn",
-      "parent_qid": "Q7841466",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-4014705-base",
-      "name_vi": "Xã Thọ Bình",
       "parent_qid": "Q7841466",
       "classification": "no-broad-district-candidate",
       "status": "clear"
@@ -10297,22 +9870,8 @@
       "status": "clear"
     },
     {
-      "local_id": "w-4014731-base",
-      "name_vi": "Xã An Nông",
-      "parent_qid": "Q7841466",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-4014741-base",
       "name_vi": "Xã Đồng Tiến",
-      "parent_qid": "Q7841466",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-4014759-base",
-      "name_vi": "Xã Thọ Ngọc",
       "parent_qid": "Q7841466",
       "classification": "no-broad-district-candidate",
       "status": "clear"
@@ -10341,20 +9900,6 @@
     {
       "local_id": "w-4014127-base",
       "name_vi": "Xã Thiệu Quang",
-      "parent_qid": "Q7784093",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-4014131-base",
-      "name_vi": "Xã Thiệu Toán",
-      "parent_qid": "Q7784093",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-4014147-base",
-      "name_vi": "Xã Thiệu Trung",
       "parent_qid": "Q7784093",
       "classification": "no-broad-district-candidate",
       "status": "clear"
@@ -10402,13 +9947,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-4014389-base",
-      "name_vi": "Xã Hoằng Thanh",
-      "parent_qid": "Q5874410",
-      "classification": "verification-rejected",
-      "status": "clear"
-    },
-    {
       "local_id": "w-4013901-base",
       "name_vi": "Thị trấn Hậu Lộc",
       "parent_qid": "Q5682295",
@@ -10430,22 +9968,8 @@
       "status": "clear"
     },
     {
-      "local_id": "w-4013301-base",
-      "name_vi": "Thị trấn Nga Sơn",
-      "parent_qid": "Q7021817",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-4013303-base",
       "name_vi": "Xã Ba Đình",
-      "parent_qid": "Q7021817",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-4013335-base",
-      "name_vi": "Xã Nga An",
       "parent_qid": "Q7021817",
       "classification": "no-broad-district-candidate",
       "status": "clear"
@@ -10467,20 +9991,6 @@
     {
       "local_id": "w-4012507-base",
       "name_vi": "Xã Hóa Quỳ",
-      "parent_qid": "Q10801074",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-4012521-base",
-      "name_vi": "Xã Thanh Quân",
-      "parent_qid": "Q10801074",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-4012525-base",
-      "name_vi": "Xã Thanh Phong",
       "parent_qid": "Q10801074",
       "classification": "no-broad-district-candidate",
       "status": "clear"
@@ -10528,13 +10038,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-4015101-base",
-      "name_vi": "Thị trấn Nông Cống",
-      "parent_qid": "Q10801978",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-4015111-base",
       "name_vi": "Xã Trung Chính",
       "parent_qid": "Q10801978",
@@ -10542,22 +10045,8 @@
       "status": "clear"
     },
     {
-      "local_id": "w-4015145-base",
-      "name_vi": "Xã Thăng Bình",
-      "parent_qid": "Q10801978",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-4015155-base",
       "name_vi": "Xã Tượng Lĩnh",
-      "parent_qid": "Q10801978",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-4015149-base",
-      "name_vi": "Xã Công Chính",
       "parent_qid": "Q10801978",
       "classification": "no-broad-district-candidate",
       "status": "clear"
@@ -10586,13 +10075,6 @@
     {
       "local_id": "w-4014919-base",
       "name_vi": "Xã Quảng Ninh",
-      "parent_qid": "Q7268871",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-4014921-base",
-      "name_vi": "Xã Quảng Bình",
       "parent_qid": "Q7268871",
       "classification": "no-broad-district-candidate",
       "status": "clear"
@@ -10654,20 +10136,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-4015345-base",
-      "name_vi": "Phường Hải Lĩnh",
-      "parent_qid": "Q7808219",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-4015351-base",
-      "name_vi": "Phường Bình Minh",
-      "parent_qid": "Q7808219",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-4015329-base",
       "name_vi": "Phường Trúc Lâm",
       "parent_qid": "Q7808219",
@@ -10677,13 +10145,6 @@
     {
       "local_id": "w-4015355-base",
       "name_vi": "Phường Hải Bình",
-      "parent_qid": "Q7808219",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-4015357-base",
-      "name_vi": "Phường Tĩnh Hải",
       "parent_qid": "Q7808219",
       "classification": "no-broad-district-candidate",
       "status": "clear"
@@ -11368,13 +10829,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-4033143-base",
-      "name_vi": "Xã Ngọc Sơn",
-      "parent_qid": "Q10824733",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-4033133-base",
       "name_vi": "Xã Thanh Thịnh",
       "parent_qid": "Q10824733",
@@ -11587,13 +11041,6 @@
     {
       "local_id": "w-4050113-base",
       "name_vi": "Phường Hà Huy Tập",
-      "parent_qid": "Q33996",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-4050111-base",
-      "name_vi": "Phường Thạch Trung",
       "parent_qid": "Q33996",
       "classification": "no-broad-district-candidate",
       "status": "clear"
@@ -11851,13 +11298,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-4051729-base",
-      "name_vi": "Xã Hương Thủy",
-      "parent_qid": "Q1001809",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-4051731-base",
       "name_vi": "Xã Hương Giang",
       "parent_qid": "Q1001809",
@@ -12093,13 +11533,6 @@
       "name_vi": "Xã Kỳ Hoa",
       "parent_qid": "Q20025826",
       "classification": "assigned-item-only",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-4051945-base",
-      "name_vi": "Phường Kỳ Phương",
-      "parent_qid": "Q20025826",
-      "classification": "no-broad-district-candidate",
       "status": "clear"
     },
     {
@@ -12992,13 +12425,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-5030921-base",
-      "name_vi": "Phường Điện Dương",
-      "parent_qid": "Q725063",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-5031101-base",
       "name_vi": "Thị trấn Nam Phước",
       "parent_qid": "Q2090854",
@@ -13314,24 +12740,10 @@
       "status": "clear"
     },
     {
-      "local_id": "w-5032503-base",
-      "name_vi": "Xã Tam Xuân I",
-      "parent_qid": "Q724739",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-5032505-base",
       "name_vi": "Xã Tam Xuân II",
       "parent_qid": "Q724739",
       "classification": "assigned-item-only",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-5032509-base",
-      "name_vi": "Xã Tam Sơn",
-      "parent_qid": "Q724739",
-      "classification": "no-broad-district-candidate",
       "status": "clear"
     },
     {
@@ -13548,13 +12960,6 @@
       "local_id": "w-5052107-base",
       "name_vi": "Xã Thắng Lợi",
       "parent_qid": "Q6886224",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-5052301-base",
-      "name_vi": "Phường Nguyễn Nghiêm",
-      "parent_qid": "Q5311205",
       "classification": "no-broad-district-candidate",
       "status": "clear"
     },
@@ -14063,13 +13468,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-5110101-base",
-      "name_vi": "Phường Vĩnh Hải",
-      "parent_qid": "Q19491",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-5110217-base",
       "name_vi": "Phường Ba Ngòi",
       "parent_qid": "Q33116",
@@ -14115,13 +13513,6 @@
       "local_id": "w-5111101-base",
       "name_vi": "Thị trấn Khánh Vĩnh",
       "parent_qid": "Q6400317",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-5110701-base",
-      "name_vi": "Thị trấn Diên Khánh",
-      "parent_qid": "Q4460634",
       "classification": "no-broad-district-candidate",
       "status": "clear"
     },
@@ -14840,13 +14231,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-6030325-base",
-      "name_vi": "Xã Kông Bơ La",
-      "parent_qid": "Q10774400",
-      "classification": "assigned-item-only",
-      "status": "clear"
-    },
-    {
       "local_id": "w-6030501-base",
       "name_vi": "Thị trấn Đăk Đoa",
       "parent_qid": "Q5209894",
@@ -14872,13 +14256,6 @@
       "name_vi": "Xã K' Dang",
       "parent_qid": "Q5209894",
       "classification": "no-broad-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-6030537-base",
-      "name_vi": "Xã Ia Băng",
-      "parent_qid": "Q5209894",
-      "classification": "no-broad-district-candidate",
       "status": "clear"
     },
     {
@@ -14914,13 +14291,6 @@
       "name_vi": "Xã Ia KRai",
       "parent_qid": "Q5980266",
       "classification": "no-broad-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-6030913-base",
-      "name_vi": "Xã Ia O",
-      "parent_qid": "Q5980266",
-      "classification": "no-broad-district-candidate",
       "status": "clear"
     },
     {
@@ -15057,13 +14427,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-6031715-base",
-      "name_vi": "Xã Ia O",
-      "parent_qid": "Q5115156",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-6031717-base",
       "name_vi": "Xã Ia Púch",
       "parent_qid": "Q5115156",
@@ -15180,13 +14543,6 @@
       "name_vi": "Xã Ia RBol",
       "parent_qid": "Q4831833",
       "classification": "no-broad-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-6032128-base",
-      "name_vi": "Xã Ia Sao",
-      "parent_qid": "Q4831833",
-      "classification": "no-broad-district-candidate",
       "status": "clear"
     },
     {
@@ -15974,13 +15330,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-6070703-base",
-      "name_vi": "Thị trấn D'Ran",
-      "parent_qid": "Q10840944",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-6070709-base",
       "name_vi": "Xã Ka Đô",
       "parent_qid": "Q10840944",
@@ -16110,13 +15459,6 @@
       "local_id": "w-6072101-base",
       "name_vi": "Thị trấn Cát Tiên",
       "parent_qid": "Q5207252",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-7070101-base",
-      "name_vi": "Phường Tân Phú",
-      "parent_qid": "Q665981",
       "classification": "no-broad-district-candidate",
       "status": "clear"
     },
@@ -17493,13 +16835,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-7010119-base",
-      "name_vi": "Phường Cầu Kho",
-      "parent_qid": "Q2299149",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-7012317-base",
       "name_vi": "Phường Thới An",
       "parent_qid": "Q5283236",
@@ -17962,13 +17297,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-7011523-base",
-      "name_vi": "Phường Xóm Củi",
-      "parent_qid": "Q5283273",
-      "classification": "no-broad-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-7011531-base",
       "name_vi": "Phường 16",
       "parent_qid": "Q5283273",
@@ -18372,13 +17700,6 @@
       "name_vi": "Xã Nhơn Hòa Lập",
       "parent_qid": "Q7682141",
       "classification": "assigned-item-only",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-8010913-base",
-      "name_vi": "Xã Tân Thành",
-      "parent_qid": "Q7682141",
-      "classification": "no-broad-district-candidate",
       "status": "clear"
     },
     {
@@ -19190,7 +18511,7 @@
       "local_id": "w-28901-2009-02-24",
       "name_vi": "Xã Hưng Khánh Trung A",
       "parent_qid": "Q6886181",
-      "classification": "no-broad-candidate",
+      "classification": "assigned-item-only",
       "status": "clear"
     },
     {
@@ -19239,7 +18560,7 @@
       "local_id": "w-8110739-base",
       "name_vi": "Xã Thành Thới A",
       "parent_qid": "Q6886184",
-      "classification": "no-broad-candidate",
+      "classification": "assigned-item-only",
       "status": "clear"
     },
     {
@@ -19735,13 +19056,6 @@
     {
       "local_id": "w-8090119-base",
       "name_vi": "Phường Tân Hòa",
-      "parent_qid": "Q34789",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-8090121-base",
-      "name_vi": "Phường Tân Hội",
       "parent_qid": "Q34789",
       "classification": "no-broad-district-candidate",
       "status": "clear"
@@ -20895,13 +20209,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-8130915-base",
-      "name_vi": "Xã Thạnh Lộc",
-      "parent_qid": "Q5088015",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-8131101-base",
       "name_vi": "Thị trấn Giồng Riềng",
       "parent_qid": "Q5563378",
@@ -21098,13 +20405,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-8150119-base",
-      "name_vi": "Phường Tân An",
-      "parent_qid": "Q7038773",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-31149-2007-01-31",
       "name_vi": "Phường An Khánh",
       "parent_qid": "Q7038773",
@@ -21130,13 +20430,6 @@
       "name_vi": "Phường Phước Thới",
       "parent_qid": "Q7073290",
       "classification": "assigned-item-only",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-8150103-base",
-      "name_vi": "Phường Bình Thủy",
-      "parent_qid": "Q4914344",
-      "classification": "no-broad-district-candidate",
       "status": "clear"
     },
     {
@@ -21472,13 +20765,6 @@
       "local_id": "w-8151117-base",
       "name_vi": "Xã Vị Thanh",
       "parent_qid": "Q7924332",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-8151301-base",
-      "name_vi": "Phường Thuận An",
-      "parent_qid": "Q140626625",
       "classification": "no-broad-district-candidate",
       "status": "clear"
     },
@@ -22092,13 +21378,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-8210713-base",
-      "name_vi": "Xã Phong Thạnh",
-      "parent_qid": "Q5557806",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-8210901-base",
       "name_vi": "Thị trấn Gành Hào",
       "parent_qid": "Q5295731",
@@ -22306,13 +21585,6 @@
       "name_vi": "Xã Hưng Mỹ",
       "parent_qid": "Q5017491",
       "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-32141-2004-11-23",
-      "name_vi": "Xã Hoà Mỹ",
-      "parent_qid": "Q5017491",
-      "classification": "verification-rejected",
       "status": "clear"
     },
     {

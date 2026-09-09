@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "scope": {"tier": "ward", "purpose": "manual decisions for twenty-fourth random predecessor-gap audit", "wikidata_write_performed": false},
+  "sampling": {"method": "lowest SHA-256(seed + NUL + local_id)", "seed": "2026-09-08-predecessor-gap-audit-v24", "population": 3125, "sample_size": 50, "batch_size": 10, "batches": 5},
+  "reviewed_at": "2026-09-08T19:55:06Z",
+  "audit": {"reviewed_rows": 50, "existing_predecessor_items": 3, "current_mapping_swaps": 2, "no_distinct_item_found": 47, "sample_miss_rate": 0.06, "creation_batch_authorized": false},
+  "batches": [
+    {
+      "batch_number": 1,
+      "decisions": [
+        {"sample_number": 1, "local_id": "w-8111109-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-wrong-country-and-location-items"},
+        {"sample_number": 2, "local_id": "w-8051507-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-wrong-country-disambiguation-and-era-items"},
+        {"sample_number": 3, "local_id": "w-2251505-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-person-and-disambiguation-items"},
+        {"sample_number": 4, "local_id": "w-3010931-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-found"},
+        {"sample_number": 5, "local_id": "w-1130911-base", "outcome": "existing-predecessor-item", "wikidata_qid": "Q32287665", "reason_code": "exact-former-commune-alias-coordinate-and-geonames-match"},
+        {"sample_number": 6, "local_id": "w-3031339-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-found"},
+        {"sample_number": 7, "local_id": "w-4033157-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-former-district-disambiguation-person-and-wrong-country-items"},
+        {"sample_number": 8, "local_id": "w-1150919-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-district-disambiguation-and-wrong-location-items"},
+        {"sample_number": 9, "local_id": "w-1051309-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-wrong-country-disambiguation-and-person-items"},
+        {"sample_number": 10, "local_id": "w-8090909-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-district-disambiguation-and-different-current-unit"}
+      ]
+    },
+    {
+      "batch_number": 2,
+      "decisions": [
+        {"sample_number": 11, "local_id": "w-4011519-base", "outcome": "existing-predecessor-item-after-current-swap", "wikidata_qid": "Q11840157", "replacement_current_qid": "Q135207648", "reason_code": "old-commune-item-released-by-current-article-item"},
+        {"sample_number": 12, "local_id": "w-3011125-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-found"},
+        {"sample_number": 13, "local_id": "w-8111321-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-disambiguation-found"},
+        {"sample_number": 14, "local_id": "w-8230501-base", "outcome": "no-distinct-item-found", "reason_code": "sampled-township-has-only-current-successor-or-district-disambiguation-and-different-current-commune-items"},
+        {"sample_number": 15, "local_id": "w-1070105-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-person-items"},
+        {"sample_number": 16, "local_id": "w-8110103-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-disambiguation-and-wrong-location-item"},
+        {"sample_number": 17, "local_id": "w-7090719-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-found"},
+        {"sample_number": 18, "local_id": "w-8031717-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-disambiguation-and-wrong-location-item"},
+        {"sample_number": 19, "local_id": "w-5032307-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-found"},
+        {"sample_number": 20, "local_id": "w-1090931-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-disambiguation-and-wrong-location-item"}
+      ]
+    },
+    {
+      "batch_number": 3,
+      "decisions": [
+        {"sample_number": 21, "local_id": "w-4033535-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-person-and-disambiguation-items"},
+        {"sample_number": 22, "local_id": "w-3031901-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-found"},
+        {"sample_number": 23, "local_id": "w-2030311-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-disambiguation-found"},
+        {"sample_number": 24, "local_id": "w-4051355-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-former-district-and-historical-person-items"},
+        {"sample_number": 25, "local_id": "w-11414-2007-04-20", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-found"},
+        {"sample_number": 26, "local_id": "w-2030503-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-found"},
+        {"sample_number": 27, "local_id": "w-1051113-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-disambiguation-wrong-location-and-nonadministrative-items"},
+        {"sample_number": 28, "local_id": "w-8150309-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-era-item"},
+        {"sample_number": 29, "local_id": "w-8052113-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-found"},
+        {"sample_number": 30, "local_id": "w-1090401-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-former-district-disambiguation-and-wrong-location-item"}
+      ]
+    },
+    {
+      "batch_number": 4,
+      "decisions": [
+        {"sample_number": 31, "local_id": "w-1070535-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-disambiguation-found"},
+        {"sample_number": 32, "local_id": "w-1051945-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-differently-named-disambiguation-item"},
+        {"sample_number": 33, "local_id": "w-29771-2012-12-29", "outcome": "no-distinct-item-found", "reason_code": "only-current-successors-or-disambiguation-and-wrong-location-item"},
+        {"sample_number": 34, "local_id": "w-4030717-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-disambiguation-found"},
+        {"sample_number": 35, "local_id": "w-2031907-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-found"},
+        {"sample_number": 36, "local_id": "w-8110501-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-former-district-and-nonadministrative-items"},
+        {"sample_number": 37, "local_id": "w-2151341-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-disambiguation-and-wrong-location-items"},
+        {"sample_number": 38, "local_id": "w-3031539-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-former-district-item"},
+        {"sample_number": 39, "local_id": "w-7013519-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-found"},
+        {"sample_number": 40, "local_id": "w-6032110-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-disambiguation-wrong-location-and-plant-items"}
+      ]
+    },
+    {
+      "batch_number": 5,
+      "decisions": [
+        {"sample_number": 41, "local_id": "w-7011319-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-former-district-and-wrong-country-items"},
+        {"sample_number": 42, "local_id": "w-2011301-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-disambiguation-wrong-location-era-and-person-items"},
+        {"sample_number": 43, "local_id": "w-4051961-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-disambiguation-found"},
+        {"sample_number": 44, "local_id": "w-4015345-base", "outcome": "existing-predecessor-item-after-current-swap", "wikidata_qid": "Q10771650", "replacement_current_qid": "Q135107987", "reason_code": "old-ward-item-released-by-current-article-item"},
+        {"sample_number": 45, "local_id": "w-1070531-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-disambiguation-and-former-district-item"},
+        {"sample_number": 46, "local_id": "w-5050925-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-unrelated-items"},
+        {"sample_number": 47, "local_id": "w-7011713-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-disambiguation-and-former-district-item"},
+        {"sample_number": 48, "local_id": "w-6051901-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-disambiguation-found"},
+        {"sample_number": 49, "local_id": "w-2210723-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-found"},
+        {"sample_number": 50, "local_id": "w-2251239-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-disambiguation-and-wrong-location-item"}
+      ]
+    }
+  ],
+  "sources": [
+    {"path": "data/ward-wikidata-predecessor-gap-sample-v24.json", "role": "saved twenty-fourth-round 50-row live search and entity evidence"},
+    {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate the coordinate-backed match"},
+    {"path": "data/ward-history.json", "role": "canonical predecessor composition used to distinguish same-name units and current/predecessor identity splits"},
+    {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-08T19:53:24Z"},
+    {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-08T19:53:24Z"}
+  ]
+}
