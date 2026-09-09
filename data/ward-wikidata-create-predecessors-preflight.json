@@ -7,22 +7,22 @@
     "wikidata_write_performed": false
   },
   "input_fingerprints": {
-    "manifest_content_sha256": "a5ae9d1fb486073197652f18bd8ebbbfaa1da8623f01f4689195ecb62f3296ee",
-    "data/ward-wikidata-predecessor-unresolved-candidates.json": "8fe129a60c549c8499238473f31e645f3aaab01218b4b791fa6c9d1bf8c7a371",
-    "data/ward-wikidata-predecessor-article-candidates.json": "3294adbe8a4cb7110ddf491806d54b62bf2896e716b64d6e42b662c78ef82646",
-    "data/ward-wikidata-predecessor-context-candidates.json": "17b0f04d5c454028b70fc24c8726b2ae6e3e5eafe76fb1552548c2ee72741b2c",
-    "data/ward-wikidata-predecessor-geonames-candidates.json": "d3a8e6d43bd2d11329a18128ab4eadd742329f1c5fee255e9fd82eac712e86a2",
+    "manifest_content_sha256": "17edc486410ed3f36fb3eebdaa096ee8eccf155ef9a02b93916329979be8a0ad",
+    "data/ward-wikidata-predecessor-unresolved-candidates.json": "c542abba5654f1d77ccd20225f967a17d1e81e9f0d551afd2f1034253e2c0e20",
+    "data/ward-wikidata-predecessor-article-candidates.json": "134581bc00c20606f9ffefd5d8fbbbc6668504577f450182c929bb37f8cdaa34",
+    "data/ward-wikidata-predecessor-context-candidates.json": "08097e7cb560f670393cddfaa11db3083c0a7bbee2905abed17b9acffd34836e",
+    "data/ward-wikidata-predecessor-geonames-candidates.json": "a3dcff3b78e7baf3aa12bfa13bd9ee0ed96c5fecff2c04d7c444f39fe413a81e",
     "data/ward-wikidata-predecessor-gap-sample-v2-decisions.json": "82250c9c319a2b462e4dee20d963cf77b1884dbe1196cda47cc83485b603c2b4"
   },
   "evidence": {
-    "qlever_retrieved_at": "2026-09-09T20:36:39Z",
-    "action_api_retrieved_at": "2026-09-09T20:36:39Z",
+    "qlever_retrieved_at": "2026-09-09T20:46:24Z",
+    "action_api_retrieved_at": "2026-09-09T20:46:25Z",
     "age_hours_at_check": null,
     "max_age_hours": null
   },
   "audit": {
-    "items": 3056,
-    "clear_items": 3056,
+    "items": 3055,
+    "clear_items": 3055,
     "needs_review_items": 0,
     "fresh": true,
     "sample_reviewed_rows": 50,
@@ -14193,13 +14193,6 @@
       "name_vi": "Xã Ia Boòng",
       "parent_qid": "Q5115156",
       "classification": "assigned-item-only",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-6031717-base",
-      "name_vi": "Xã Ia Púch",
-      "parent_qid": "Q5115156",
-      "classification": "no-broad-district-candidate",
       "status": "clear"
     },
     {

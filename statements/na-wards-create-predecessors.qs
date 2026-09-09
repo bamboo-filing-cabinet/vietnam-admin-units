@@ -12137,12 +12137,6 @@ LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1664
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1664-nq.signed.pdf"
 LAST	P131	Q5115156	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1664-nq.signed.pdf"
 CREATE
-LAST	Lvi	"Xã Ia Púch"
-LAST	Dvi	"xã cũ thuộc huyện Chư Prông, Việt Nam, giải thể năm 2025"
-LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1664-nq.signed.pdf"
-LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1664-nq.signed.pdf"
-LAST	P131	Q5115156	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1664-nq.signed.pdf"
-CREATE
 LAST	Lvi	"Xã Ia Pia"
 LAST	Dvi	"xã cũ thuộc huyện Chư Prông, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1664-nq.signed.pdf"

@@ -942,6 +942,22 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T20:28:16Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T20:28:16Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-09.40",
+      "selection": {"method": "lowest SHA-256(seed + NUL + local_id)", "seed": "2026-09-09-predecessor-gap-audit-v45", "population": 3056, "sample_size": 50, "sample_numbers": [24]},
+      "reviewed_at": "2026-09-09T20:42:32Z",
+      "decisions": [
+        {"local_id": "w-6031717-base", "name_vi": "Xã Ia Púch", "outcome": "assign", "wikidata_qid": "Q32276726", "candidate_qids_checked": ["Q10772567", "Q32203198", "Q32203213", "Q32276726"], "mapping_note": "Q32276726 retains the exact former commune alias, Chư Prông-area coordinates, and GeoNames 8701292; Q10772567 owns the current Ia Púch article and remains assigned to the successor"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v45.json", "role": "saved forty-fifth-round 50-row live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames record used to validate the coordinate-backed historical identity"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish the current successor from the historical unit"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition used to verify the old-unit identity and successor"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T20:40:14Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T20:40:14Z"}
+      ]
     }
   ]
 }
