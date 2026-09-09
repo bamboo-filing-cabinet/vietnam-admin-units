@@ -6935,6 +6935,22 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v35.json", "role": "saved thirty-fifth-round random-audit evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-09.94",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10824871", "Q10826292"], "local_id": "w-27877-2025-07-01", "mapping_note": "current Thạnh Phước commune selects Q10826292; release Q10824871 to the distinct pre-2025 Thanh Phước commune in Gò Dầu", "outcome": "assign", "rationale": "Q10826292 owns the current `Thạnh Phước, Tây Ninh` article and represents the current Tây Ninh commune. Q10824871 is instead explicitly Thanh Phước in former Gò Dầu district, with distinct coordinates and historical identity.", "wikidata_qid": "Q10826292"},
+        {"candidate_qids_checked": ["Q10810434", "Q135140508"], "local_id": "w-16498-2025-07-01", "mapping_note": "current Quảng Ngọc commune selects Q135140508; release Q10810434 to the pre-2025 Quảng Xương commune", "outcome": "assign", "rationale": "Q135140508 owns the current `Quảng Ngọc` article and describes the current Thanh Hóa commune formed in 2025. Q10810434 retains the former Quảng Xương district parent, old commune identity, historical coordinates, and GeoNames 8550227.", "wikidata_qid": "Q135140508"}
+      ],
+      "reviewed_at": "2026-09-09T19:02:27Z",
+      "selection": {"input_status": "random-predecessor-gap-audit-v36, including one current-only correction", "sample_numbers": [22, 31]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T19:00:25Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T19:00:25Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish the current Thạnh Phước and Quảng Ngọc communes from historical namesakes"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v36.json", "role": "saved thirty-sixth-round random-audit evidence"}
+      ]
     }
   ],
   "schema_version": 1,

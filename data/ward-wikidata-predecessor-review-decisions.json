@@ -778,6 +778,24 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T18:51:19Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T18:51:19Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-09.31",
+      "selection": {"method": "lowest SHA-256(seed + NUL + local_id)", "seed": "2026-09-09-predecessor-gap-audit-v36", "population": 3086, "sample_size": 50, "sample_numbers": [2, 9, 31]},
+      "reviewed_at": "2026-09-09T19:02:27Z",
+      "decisions": [
+        {"local_id": "w-4051955-base", "name_vi": "Phường Kỳ Long", "outcome": "assign", "wikidata_qid": "Q10783708", "candidate_qids_checked": ["Q10783708", "Q136950424"], "mapping_note": "Q10783708 retains the former Kỳ Anh ward identity, parent, coordinates, GeoNames 8637947, and old Kỳ Long article; Q136950424 owns the current Vũng Áng article and remains assigned to the 2025 successor"},
+        {"local_id": "w-1012111-base", "name_vi": "Phường Thượng Cát", "outcome": "assign", "wikidata_qid": "Q32305485", "candidate_qids_checked": ["Q10826052", "Q32305485"], "mapping_note": "Q32305485 retains the exact former commune and ward identity, matching coordinates, and GeoNames 8616041; Q10826052 remains assigned to the distinct current Thượng Cát successor"},
+        {"local_id": "w-4014941-base", "name_vi": "Xã Quảng Ngọc", "outcome": "assign", "wikidata_qid": "Q10810434", "candidate_qids_checked": ["Q10810434", "Q135140508"], "mapping_note": "Q10810434 retains the former Quảng Xương commune identity, district parent, coordinates, and GeoNames 8550227; Q135140508 owns the current Quảng Ngọc article and is reassigned to the distinct 2025 successor"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v36.json", "role": "saved thirty-sixth-round 50-row live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate coordinate-backed historical identities"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current communes from their namesake predecessors"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition used to verify old-unit identities and successors"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T19:00:25Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T19:00:25Z"}
+      ]
     }
   ]
 }

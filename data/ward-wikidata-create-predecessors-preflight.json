@@ -7,22 +7,22 @@
     "wikidata_write_performed": false
   },
   "input_fingerprints": {
-    "manifest_content_sha256": "33c2029df3e1e8fcccf677765da47ac72f1c18f20207e79da0b524c0625033bc",
-    "data/ward-wikidata-predecessor-unresolved-candidates.json": "acfe7295c0a594f173fbec8afca41d260b1d96c886c0a27f3240db674416c470",
-    "data/ward-wikidata-predecessor-article-candidates.json": "0b2c05cbe2af87b805f51c5e07988b94104920c97c019e21f3e949bdf44087e1",
-    "data/ward-wikidata-predecessor-context-candidates.json": "b0277e39bf468c33f1e5fa27e7793871e550524ea9108ba16869326206e8f57e",
-    "data/ward-wikidata-predecessor-geonames-candidates.json": "c887810c5d2c6b1b261aaf32a010869be0648ee57676a3df700544d0c515347d",
+    "manifest_content_sha256": "00ab2a56f7a427f8608edb4b0a8ec9dd6c9200bb1ff61ef36d626aa1c85bf1db",
+    "data/ward-wikidata-predecessor-unresolved-candidates.json": "1425f390cb7fc5dcc243fd98b258425d3d2b9d2f68662360551a3e7dab3d5b12",
+    "data/ward-wikidata-predecessor-article-candidates.json": "c143cb8b7a379b8cbcaf7f21d191677ce6535d5de95395f72f9d6c0371cc137a",
+    "data/ward-wikidata-predecessor-context-candidates.json": "7475bb8e7a961f78b33672b02330d1374214214e1f0f4c5c67add2f33b2e07cb",
+    "data/ward-wikidata-predecessor-geonames-candidates.json": "b018a178870bd6a0171cf5c5e2e16cf2b393e07cafdc78dcc5a919db6e3d3496",
     "data/ward-wikidata-predecessor-gap-sample-v2-decisions.json": "82250c9c319a2b462e4dee20d963cf77b1884dbe1196cda47cc83485b603c2b4"
   },
   "evidence": {
-    "qlever_retrieved_at": "2026-09-09T18:56:38Z",
-    "action_api_retrieved_at": "2026-09-09T18:56:39Z",
+    "qlever_retrieved_at": "2026-09-09T19:07:53Z",
+    "action_api_retrieved_at": "2026-09-09T19:07:53Z",
     "age_hours_at_check": null,
     "max_age_hours": null
   },
   "audit": {
-    "items": 3086,
-    "clear_items": 3086,
+    "items": 3082,
+    "clear_items": 3082,
     "needs_review_items": 0,
     "fresh": true,
     "sample_reviewed_rows": 50,
@@ -396,13 +396,6 @@
       "name_vi": "Xã Kim Đức",
       "parent_qid": "Q135713939",
       "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-1012111-base",
-      "name_vi": "Phường Thượng Cát",
-      "parent_qid": "Q16480194",
-      "classification": "assigned-item-only",
       "status": "clear"
     },
     {
@@ -10038,13 +10031,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-4014941-base",
-      "name_vi": "Xã Quảng Ngọc",
-      "parent_qid": "Q7268871",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-4014957-base",
       "name_vi": "Phường Quảng Phú",
       "parent_qid": "Q36175",
@@ -11477,13 +11463,6 @@
       "name_vi": "Xã Kỳ Hoa",
       "parent_qid": "Q20025826",
       "classification": "assigned-item-only",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-4051955-base",
-      "name_vi": "Phường Kỳ Long",
-      "parent_qid": "Q20025826",
-      "classification": "no-broad-district-candidate",
       "status": "clear"
     },
     {
@@ -15869,13 +15848,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-7091517-base",
-      "name_vi": "Xã Thanh Phước",
-      "parent_qid": "Q5574744",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-7091301-base",
       "name_vi": "Thị trấn Bến Cầu",
       "parent_qid": "Q4885404",
@@ -19176,7 +19148,7 @@
       "local_id": "w-29771-2012-12-29",
       "name_vi": "Phường Thành Phước",
       "parent_qid": "Q3710728",
-      "classification": "no-broad-district-candidate",
+      "classification": "assigned-item-only",
       "status": "clear"
     },
     {
