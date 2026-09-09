@@ -7031,6 +7031,22 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v43.json", "role": "saved forty-third-round random-audit evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-09.100",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10769191", "Q135139578"], "local_id": "w-15976-2025-07-01", "mapping_note": "current Hoằng Châu commune selects Q135139578; release Q10769191 to the pre-2025 Hoằng Hóa commune", "outcome": "assign", "rationale": "Q135139578 owns the current `Hoằng Châu` article, which explicitly documents the current commune's June 2025 formation from four predecessors. Q10769191 retains the former Hoằng Hóa district parent, historical coordinates, and GeoNames 8549768.", "wikidata_qid": "Q135139578"},
+        {"candidate_qids_checked": ["Q10798612", "Q135114068"], "local_id": "w-16114-2025-07-01", "mapping_note": "current Nga Thắng commune selects Q135114068; release Q10798612 to the pre-2025 Nga Sơn commune", "outcome": "assign", "rationale": "Q135114068 owns the current `Nga Thắng` article and describes the present Thanh Hóa commune. Q10798612 retains the former Nga Sơn district parent, historical coordinates, and GeoNames 8550386.", "wikidata_qid": "Q135114068"}
+      ],
+      "reviewed_at": "2026-09-09T20:51:15Z",
+      "selection": {"input_status": "random-predecessor-gap-audit-v46", "sample_numbers": [29, 48]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T20:49:38Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T20:49:38Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish the current Hoằng Châu and Nga Thắng communes from their namesake predecessors"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v46.json", "role": "saved forty-sixth-round random-audit evidence"}
+      ]
     }
   ],
   "schema_version": 1,

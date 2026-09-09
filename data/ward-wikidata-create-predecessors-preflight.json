@@ -7,22 +7,22 @@
     "wikidata_write_performed": false
   },
   "input_fingerprints": {
-    "manifest_content_sha256": "17edc486410ed3f36fb3eebdaa096ee8eccf155ef9a02b93916329979be8a0ad",
-    "data/ward-wikidata-predecessor-unresolved-candidates.json": "c542abba5654f1d77ccd20225f967a17d1e81e9f0d551afd2f1034253e2c0e20",
-    "data/ward-wikidata-predecessor-article-candidates.json": "134581bc00c20606f9ffefd5d8fbbbc6668504577f450182c929bb37f8cdaa34",
-    "data/ward-wikidata-predecessor-context-candidates.json": "08097e7cb560f670393cddfaa11db3083c0a7bbee2905abed17b9acffd34836e",
-    "data/ward-wikidata-predecessor-geonames-candidates.json": "a3dcff3b78e7baf3aa12bfa13bd9ee0ed96c5fecff2c04d7c444f39fe413a81e",
+    "manifest_content_sha256": "f2a9c86512bbd803bcab5864d6a19f84d320aaa6b74537dd7ac5796c8b45327b",
+    "data/ward-wikidata-predecessor-unresolved-candidates.json": "9c0ca3651db200f5d6dc54cb58aa502767d204fc7f57ac2ebb81e080e92caacf",
+    "data/ward-wikidata-predecessor-article-candidates.json": "c93923027a501e36cef2fda046bac45dbfeb615b16ec44d32859bd05d061ad08",
+    "data/ward-wikidata-predecessor-context-candidates.json": "5857dda15d830f746122f32ae0830f24872d61bb3184735f63f8a3a0f9d9b0c4",
+    "data/ward-wikidata-predecessor-geonames-candidates.json": "f485b3c3445ddacd27a331f54dd2d7ea4d6e5a0151f372e1231bac63c1930822",
     "data/ward-wikidata-predecessor-gap-sample-v2-decisions.json": "82250c9c319a2b462e4dee20d963cf77b1884dbe1196cda47cc83485b603c2b4"
   },
   "evidence": {
-    "qlever_retrieved_at": "2026-09-09T20:46:24Z",
-    "action_api_retrieved_at": "2026-09-09T20:46:25Z",
+    "qlever_retrieved_at": "2026-09-09T20:54:40Z",
+    "action_api_retrieved_at": "2026-09-09T20:54:40Z",
     "age_hours_at_check": null,
     "max_age_hours": null
   },
   "audit": {
-    "items": 3055,
-    "clear_items": 3055,
+    "items": 3053,
+    "clear_items": 3053,
     "needs_review_items": 0,
     "fresh": true,
     "sample_reviewed_rows": 50,
@@ -9772,13 +9772,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-4014375-base",
-      "name_vi": "Xã Hoằng Châu",
-      "parent_qid": "Q5874410",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-4014381-base",
       "name_vi": "Xã Hoằng Tiến",
       "parent_qid": "Q5874410",
@@ -9809,13 +9802,6 @@
     {
       "local_id": "w-4013303-base",
       "name_vi": "Xã Ba Đình",
-      "parent_qid": "Q7021817",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-4013351-base",
-      "name_vi": "Xã Nga Thắng",
       "parent_qid": "Q7021817",
       "classification": "no-broad-district-candidate",
       "status": "clear"

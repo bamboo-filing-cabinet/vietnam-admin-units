@@ -1492,7 +1492,6 @@ WHERE {
     "Nenh"@en
     "Nga Bay"@en
     "Nga My"@en
-    "Nga Thang"@en
     "Nga Thanh"@en
     "Ngai Giao"@en
     "Ngai Tu"@en
@@ -4189,7 +4188,6 @@ WHERE {
     "Hoành Mô"@vi
     "Hoạt Giang"@vi
     "Hoả Lựu"@vi
-    "Hoằng Châu"@vi
     "Hoằng Giang"@vi
     "Hoằng Lộc"@vi
     "Hoằng Phú"@vi
@@ -5373,10 +5371,8 @@ WHERE {
     "Nenh"@vi
     "Nga Bay"@vi
     "Nga My"@vi
-    "Nga Thang"@vi
     "Nga Thanh"@vi
     "Nga Thành"@vi
-    "Nga Thắng"@vi
     "Ngai Giao"@vi
     "Ngai Tu"@vi
     "Ngam La"@vi
@@ -9118,7 +9114,6 @@ WHERE {
     "Xã Hoành Mô"@vi
     "Xã Hoạt Giang"@vi
     "Xã Hoả Lựu"@vi
-    "Xã Hoằng Châu"@vi
     "Xã Hoằng Giang"@vi
     "Xã Hoằng Lộc"@vi
     "Xã Hoằng Phú"@vi
@@ -9662,7 +9657,6 @@ WHERE {
     "Xã Nga My"@vi
     "Xã Nga Thanh"@vi
     "Xã Nga Thành"@vi
-    "Xã Nga Thắng"@vi
     "Xã Ngam La"@vi
     "Xã Nghi Công Bắc"@vi
     "Xã Nghi Hưng"@vi
@@ -12629,7 +12623,6 @@ WHERE {
     "Nenh"@en
     "Nga Bay"@en
     "Nga My"@en
-    "Nga Thang"@en
     "Nga Thanh"@en
     "Ngai Giao"@en
     "Ngai Tu"@en
@@ -15326,7 +15319,6 @@ WHERE {
     "Hoành Mô"@vi
     "Hoạt Giang"@vi
     "Hoả Lựu"@vi
-    "Hoằng Châu"@vi
     "Hoằng Giang"@vi
     "Hoằng Lộc"@vi
     "Hoằng Phú"@vi
@@ -16510,10 +16502,8 @@ WHERE {
     "Nenh"@vi
     "Nga Bay"@vi
     "Nga My"@vi
-    "Nga Thang"@vi
     "Nga Thanh"@vi
     "Nga Thành"@vi
-    "Nga Thắng"@vi
     "Ngai Giao"@vi
     "Ngai Tu"@vi
     "Ngam La"@vi
@@ -20255,7 +20245,6 @@ WHERE {
     "Xã Hoành Mô"@vi
     "Xã Hoạt Giang"@vi
     "Xã Hoả Lựu"@vi
-    "Xã Hoằng Châu"@vi
     "Xã Hoằng Giang"@vi
     "Xã Hoằng Lộc"@vi
     "Xã Hoằng Phú"@vi
@@ -20799,7 +20788,6 @@ WHERE {
     "Xã Nga My"@vi
     "Xã Nga Thanh"@vi
     "Xã Nga Thành"@vi
-    "Xã Nga Thắng"@vi
     "Xã Ngam La"@vi
     "Xã Nghi Công Bắc"@vi
     "Xã Nghi Hưng"@vi
