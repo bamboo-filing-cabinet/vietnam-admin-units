@@ -2280,7 +2280,7 @@ w-1070703-base,10816,Xã Hồng Lạc,Xã,294,,2025-06-30,Q32275228,existing,ver
 w-1070705-base,10819,Xã Việt Hồng,Xã,294,,2024-11-30,,,deferred-historical,,
 w-1070707-base,10831,Xã Thanh An,Xã,294,,2025-06-30,Q10824704,existing,verified,Q10824704,predecessor exact-vietnamese-name+exact-tier+historical-parent-or-successor-context+batched-wbgetentities
 w-1070709-base,10834,Xã Thanh Lang,Xã,294,,2025-06-30,Q32302981,existing,verified,Q32302981,predecessor exact-geonames-gso-code+district-code+name+tier+coordinates
-w-1070711-base,10843,Xã Liên Mạc,Xã,294,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-1070711-base,10843,Xã Liên Mạc,Xã,294,,2025-06-30,Q32279827,existing,manual,Q10824790|Q32279808|Q32279817|Q32279827,"predecessor review 2026-09-09.32: Q32279827 retains the exact former commune name and class, matching Thanh Hà-area coordinates, and GeoNames 8607225; the other exact-name items have Hanoi-area coordinates, while Q10824790 remains assigned to current Hà Nam"
 w-1070713-base,10828,Xã Cẩm Việt,Xã,294,,2025-06-30,Q131552297,existing,verified,Q131552297,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-1070715-base,10825,Xã Tân Việt,Xã,294,,2025-06-30,Q10830966,existing,verified,Q10830966,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-1070717-base,10822,Xã Quyết Thắng,Xã,288,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
@@ -10247,7 +10247,7 @@ w-4051951-base,18781,Phường Kỳ Ninh,Phường,449,,2025-06-30,,new,gap,,pro
 w-4051953-base,18775,Thị trấn Kỳ Đồng,Thị trấn,447,,2025-06-30,Q10783783,existing,verified,Q10783783,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4051955-base,18835,Phường Kỳ Long,Phường,449,,2025-06-30,Q10783708,existing,manual,Q10783708|Q136950424,"predecessor review 2026-09-09.31: Q10783708 retains the former Kỳ Anh ward identity, parent, coordinates, GeoNames 8637947, and old Kỳ Long article; Q136950424 owns the current Vũng Áng article and remains assigned to the 2025 successor"
 w-4051957-base,18820,Phường Kỳ Trinh,Phường,449,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
-w-4051959-base,18823,Phường Kỳ Thịnh,Phường,449,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4051959-base,18823,Phường Kỳ Thịnh,Phường,449,,2025-06-30,Q10783736,existing,manual,Q10783736|Q136950424,"predecessor review 2026-09-09.32: Q10783736 retains the former Kỳ Anh unit identity, old parent, coordinates, GeoNames 8637948, and Kỳ Thịnh article; Q136950424 owns the current Vũng Áng article and remains assigned to the 2025 successor"
 w-4051961-base,18799,Xã Kỳ Thượng,Xã,447,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
 w-4051963-base,18847,Phường Kỳ Nam,Phường,449,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
 w-4070101-base,18871,Phường Đồng Sơn,Phường,450,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
@@ -12755,7 +12755,7 @@ w-7130131-base,26035,Phường Tam Hòa,Phường,731,,2024-10-31,,,deferred-his
 w-7130133-base,26047,Phường Bình Đa,Phường,731,,2025-06-30,Q3354994,existing,verified,Q3354994,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-7130135-base,26050,Phường An Bình,Phường,731,,2025-06-30,Q10733116,existing,verified,Q10733116,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-7130137-base,26056,Phường Long Bình Tân,Phường,731,,2025-06-30,Q2192827,existing,verified,Q2192827,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-7130139-base,26020,Phường Long Bình,Phường,731,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-7130139-base,26020,Phường Long Bình,Phường,731,,2025-06-30,Q3059506,existing,manual,Q3059506|Q10786785,"predecessor review 2026-09-09.32: Q3059506 has the exact Long Bình name, ward class, Đồng Nai description, and a January 2013 creation revision sourced from the former `Long Bình (Đồng Nai)` article; Q10786785 owns the current Long Bình article and remains assigned to the 2025 successor"
 w-7130141-base,26002,Phường Hố Nai,Phường,731,,2025-06-30,Q10771929,existing,verified,Q10771929,predecessor unique-matching-viwiki-article+exact-tier+different-name-successor+batched-wbgetentities
 w-7130143-base,25999,Phường Tân Biên,Phường,731,,2025-06-30,Q2673258,existing,verified,Q2673258,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-7130145-base,26005,Phường Tân Hòa,Phường,731,,2025-06-30,Q10830458,existing,verified,Q10830458,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities

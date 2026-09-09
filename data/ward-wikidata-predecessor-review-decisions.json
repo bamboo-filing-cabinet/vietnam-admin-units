@@ -796,6 +796,25 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T19:00:25Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T19:00:25Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-09.32",
+      "selection": {"method": "lowest SHA-256(seed + NUL + local_id)", "seed": "2026-09-09-predecessor-gap-audit-v37", "population": 3082, "sample_size": 50, "sample_numbers": [6, 23, 33]},
+      "reviewed_at": "2026-09-09T19:19:45Z",
+      "decisions": [
+        {"local_id": "w-7130139-base", "name_vi": "Phường Long Bình", "outcome": "assign", "wikidata_qid": "Q3059506", "candidate_qids_checked": ["Q3059506", "Q10786785"], "mapping_note": "Q3059506 has the exact Long Bình name, ward class, Đồng Nai description, and a January 2013 creation revision sourced from the former `Long Bình (Đồng Nai)` article; Q10786785 owns the current Long Bình article and remains assigned to the 2025 successor"},
+        {"local_id": "w-1070711-base", "name_vi": "Xã Liên Mạc", "outcome": "assign", "wikidata_qid": "Q32279827", "candidate_qids_checked": ["Q10824790", "Q32279808", "Q32279817", "Q32279827"], "mapping_note": "Q32279827 retains the exact former commune name and class, matching Thanh Hà-area coordinates, and GeoNames 8607225; the other exact-name items have Hanoi-area coordinates, while Q10824790 remains assigned to current Hà Nam"},
+        {"local_id": "w-4051959-base", "name_vi": "Phường Kỳ Thịnh", "outcome": "assign", "wikidata_qid": "Q10783736", "candidate_qids_checked": ["Q10783736", "Q136950424"], "mapping_note": "Q10783736 retains the former Kỳ Anh unit identity, old parent, coordinates, GeoNames 8637948, and Kỳ Thịnh article; Q136950424 owns the current Vũng Áng article and remains assigned to the 2025 successor"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v37.json", "role": "saved thirty-seventh-round 50-row live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate coordinate-backed historical identities"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current successors from historical units"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition used to verify old-unit identities and successors"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T19:13:31Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T19:13:31Z"},
+        {"endpoint": "https://www.wikidata.org/w/api.php?action=query&prop=revisions&titles=Q3059506", "method": "first revision metadata and content; revision 4308619 showed the original 2013 nlwiki title `Long Bình (Đồng Nai)`", "retrieved_at": "2026-09-09T19:19:45Z"}
+      ]
     }
   ]
 }

@@ -6353,12 +6353,6 @@ LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 LAST	P131	Q36354	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
-LAST	Lvi	"Xã Liên Mạc"
-LAST	Dvi	"xã cũ thuộc huyện Thanh Hà, Việt Nam, giải thể năm 2025"
-LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
-LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
-LAST	P131	Q847496	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
-CREATE
 LAST	Lvi	"Xã Thanh Tân"
 LAST	Dvi	"xã cũ thuộc huyện Thanh Hà, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -9780,12 +9774,6 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.
 LAST	P131	Q6450589	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 CREATE
 LAST	Lvi	"Phường Kỳ Trinh"
-LAST	Dvi	"phường cũ thuộc thị xã Kỳ Anh, Việt Nam, giải thể năm 2025"
-LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
-LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
-LAST	P131	Q20025826	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
-CREATE
-LAST	Lvi	"Phường Kỳ Thịnh"
 LAST	Dvi	"phường cũ thuộc thị xã Kỳ Anh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
@@ -13830,12 +13818,6 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.
 LAST	P131	Q19316	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.signed.pdf"
 CREATE
 LAST	Lvi	"Phường Tam Hiệp"
-LAST	Dvi	"phường cũ thuộc thành phố Biên Hòa, Việt Nam, giải thể năm 2025"
-LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.signed.pdf"
-LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.signed.pdf"
-LAST	P131	Q19316	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.signed.pdf"
-CREATE
-LAST	Lvi	"Phường Long Bình"
 LAST	Dvi	"phường cũ thuộc thành phố Biên Hòa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.signed.pdf"
