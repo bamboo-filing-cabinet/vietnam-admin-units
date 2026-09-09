@@ -557,12 +557,6 @@ LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 LAST	P131	Q7924334	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
-LAST	Lvi	"Xã Thuận Hoà"
-LAST	Dvi	"xã cũ thuộc huyện Vị Xuyên, Việt Nam, giải thể năm 2025"
-LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
-LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
-LAST	P131	Q7924334	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
-CREATE
 LAST	Lvi	"Xã Tùng Bá"
 LAST	Dvi	"xã cũ thuộc huyện Vị Xuyên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -7158,12 +7152,6 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.
 LAST	P131	Q7273060	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 CREATE
 LAST	Lvi	"Xã An Mỹ"
-LAST	Dvi	"xã cũ thuộc huyện Quỳnh Phụ, Việt Nam, giải thể năm 2025"
-LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
-LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
-LAST	P131	Q7273060	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
-CREATE
-LAST	Lvi	"Xã Trang Bảo Xá"
 LAST	Dvi	"xã cũ thuộc huyện Quỳnh Phụ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"

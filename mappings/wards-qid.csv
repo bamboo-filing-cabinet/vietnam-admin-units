@@ -3087,7 +3087,7 @@ w-1150341-base,12562,Xã Quỳnh Nguyên,Xã,338,,2025-06-30,Q10811096,existing,
 w-1150343-base,12544,Xã Quỳnh Châu,Xã,338,,2020-02-29,,,deferred-historical,,
 w-1150345-base,12556,Xã Quỳnh Bảo,Xã,338,,2024-10-31,,,deferred-historical,,
 w-1150347-base,12553,Xã Quỳnh Hưng,Xã,338,,2025-06-30,Q10811062,existing,verified,Q10811062,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-1150349-base,12577,Xã Trang Bảo Xá,Xã,338,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-1150349-base,12577,Xã Trang Bảo Xá,Xã,338,,2025-06-30,Q130494242,existing,manual,Q130494242|Q141267018,"predecessor review 2026-09-09.29: Q130494242 has the exact former commune name, an explicit Quỳnh Phụ district description, and the Trang Bảo Xá article; Q141267018 owns the current Quỳnh An article and remains assigned to the 2025 successor"
 w-1150351-base,12568,Xã Quỳnh Xá,Xã,338,,2024-10-31,,,deferred-historical,,
 w-1150353-base,12514,Xã An Ninh,Xã,338,,2025-06-30,Q10733266,existing,verified,Q10733266,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-1150355-base,12574,Xã Đông Hải,Xã,338,,2025-06-30,Q10840750,existing,verified,Q10840750,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -4404,7 +4404,7 @@ w-2011353-base,01222,Xã Xuân Minh,Xã,035,,2025-06-30,Q10835013,existing,verif
 w-2011501-base,00913,Thị trấn Vị Xuyên,Thị trấn,030,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
 w-2011503-base,00916,Thị trấn Nông trường Việt Lâm,Thị trấn,030,,2025-06-30,Q30923261,existing,verified,Q30923261,predecessor broad exact-vi-name+terminal-district+ward-class+batched-wbgetentities
 w-2011505-base,00919,Xã Minh Tân,Xã,030,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
-w-2011507-base,00922,Xã Thuận Hoà,Xã,030,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-2011507-base,00922,Xã Thuận Hoà,Xã,030,,2025-06-30,Q32304201,existing,manual,Q10825440|Q32304201,"predecessor review 2026-09-09.29: Q32304201 retains the exact former commune name and class, matching Hà Giang coordinates, and GeoNames 8309398; Q10825440 owns the current Thuận Hòa article and remains assigned to the 2025 successor"
 w-2011509-base,00928,Xã Thanh Thủy,Xã,030,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
 w-2011511-base,00931,Xã Thanh Đức,Xã,030,,2025-06-30,Q16480721,existing,verified,Q16480721,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-2011513-base,00925,Xã Tùng Bá,Xã,030,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight

@@ -7,22 +7,22 @@
     "wikidata_write_performed": false
   },
   "input_fingerprints": {
-    "manifest_content_sha256": "7b77f1bcbd9a6cfee02f699b1cc6f1d84d5a587df5136f0fcc7bc61efc0dc35c",
-    "data/ward-wikidata-predecessor-unresolved-candidates.json": "df1f1afca5c30c22be8c6168d266d54b649112d4790b13ba705fc0aad0a86048",
-    "data/ward-wikidata-predecessor-article-candidates.json": "ca343abebe8d12684bc9eb2bc8d2e2d148fc65932ebda3c0a897bea2a2be66c2",
-    "data/ward-wikidata-predecessor-context-candidates.json": "2ef06012097a64b918ad26424d465bc027e3e0292b777323f78a6734f725d58d",
-    "data/ward-wikidata-predecessor-geonames-candidates.json": "f8470cbbd88cfcb40c5bf06d26df593e8a9b9bde47a50f879de1bb4580d534ff",
+    "manifest_content_sha256": "44afa5af6fe45a45353df0af1ed8b03a3d65afac61eeef7b058f12148b1d5fee",
+    "data/ward-wikidata-predecessor-unresolved-candidates.json": "6d40ce823688ff06713c16aef3e420216345314452ad072e3ae75358f6f94b5b",
+    "data/ward-wikidata-predecessor-article-candidates.json": "fe1a8b9001cf11e1f861fdc187ae7f42dcffd893fe98ab7cf12e5be856c474d3",
+    "data/ward-wikidata-predecessor-context-candidates.json": "0aa99aa65202684afc9f0d43d97be7bb45eef27d556a34e674df9395ba72e667",
+    "data/ward-wikidata-predecessor-geonames-candidates.json": "a246d2ae8b302debfff6174981b3dd8a22ef4abba117b2f991e97bf09bf90d9b",
     "data/ward-wikidata-predecessor-gap-sample-v2-decisions.json": "82250c9c319a2b462e4dee20d963cf77b1884dbe1196cda47cc83485b603c2b4"
   },
   "evidence": {
-    "qlever_retrieved_at": "2026-09-09T18:36:09Z",
-    "action_api_retrieved_at": "2026-09-09T18:36:09Z",
+    "qlever_retrieved_at": "2026-09-09T18:48:10Z",
+    "action_api_retrieved_at": "2026-09-09T18:48:11Z",
     "age_hours_at_check": null,
     "max_age_hours": null
   },
   "audit": {
-    "items": 3092,
-    "clear_items": 3092,
+    "items": 3090,
+    "clear_items": 3090,
     "needs_review_items": 0,
     "fresh": true,
     "sample_reviewed_rows": 50,
@@ -681,13 +681,6 @@
     {
       "local_id": "w-2011505-base",
       "name_vi": "Xã Minh Tân",
-      "parent_qid": "Q7924334",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-2011507-base",
-      "name_vi": "Xã Thuận Hoà",
       "parent_qid": "Q7924334",
       "classification": "no-broad-district-candidate",
       "status": "clear"
@@ -8388,13 +8381,6 @@
     {
       "local_id": "w-1150365-base",
       "name_vi": "Xã An Mỹ",
-      "parent_qid": "Q7273060",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-1150349-base",
-      "name_vi": "Xã Trang Bảo Xá",
       "parent_qid": "Q7273060",
       "classification": "no-broad-district-candidate",
       "status": "clear"

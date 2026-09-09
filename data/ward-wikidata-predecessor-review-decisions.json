@@ -743,6 +743,22 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T18:22:19Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T18:22:19Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-09.29",
+      "selection": {"method": "lowest SHA-256(seed + NUL + local_id)", "seed": "2026-09-09-predecessor-gap-audit-v34", "population": 3092, "sample_size": 50, "sample_numbers": [15, 23]},
+      "reviewed_at": "2026-09-09T18:45:08Z",
+      "decisions": [
+        {"local_id": "w-2011507-base", "name_vi": "Xã Thuận Hoà", "outcome": "assign", "wikidata_qid": "Q32304201", "candidate_qids_checked": ["Q10825440", "Q32304201"], "mapping_note": "Q32304201 retains the exact former commune name and class, matching Hà Giang coordinates, and GeoNames 8309398; Q10825440 owns the current Thuận Hòa article and remains assigned to the 2025 successor"},
+        {"local_id": "w-1150349-base", "name_vi": "Xã Trang Bảo Xá", "outcome": "assign", "wikidata_qid": "Q130494242", "candidate_qids_checked": ["Q130494242", "Q141267018"], "mapping_note": "Q130494242 has the exact former commune name, an explicit Quỳnh Phụ district description, and the Trang Bảo Xá article; Q141267018 owns the current Quỳnh An article and remains assigned to the 2025 successor"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v34.json", "role": "saved thirty-fourth-round 50-row live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate the coordinate-backed Thuận Hòa identity"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition used to verify old-unit identities and successors"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T18:40:29Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T18:40:29Z"}
+      ]
     }
   ]
 }
