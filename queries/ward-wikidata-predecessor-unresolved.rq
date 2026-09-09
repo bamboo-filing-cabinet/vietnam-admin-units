@@ -2008,7 +2008,6 @@ WHERE {
     "Tam Hop"@en
     "Tam Hung"@en
     "Tam Kim"@en
-    "Tam Lu"@en
     "Tam My Tay"@en
     "Tam Ngai"@en
     "Tam Phu"@en
@@ -2224,7 +2223,6 @@ WHERE {
     "Thien Loc"@en
     "Thien Long"@en
     "Thien My"@en
-    "Thien Phu"@en
     "Thien Tan"@en
     "Thien Thuat"@en
     "Thiet Ong"@en
@@ -6940,8 +6938,6 @@ WHERE {
     "Tam Hồng"@vi
     "Tam Hợp"@vi
     "Tam Kim"@vi
-    "Tam Lu"@vi
-    "Tam Lư"@vi
     "Tam My Tay"@vi
     "Tam Mỹ Tây"@vi
     "Tam Ngai"@vi
@@ -7205,7 +7201,6 @@ WHERE {
     "Thien Loc"@vi
     "Thien Long"@vi
     "Thien My"@vi
-    "Thien Phu"@vi
     "Thien Tan"@vi
     "Thien Thuat"@vi
     "Thiet Ong"@vi
@@ -7222,7 +7217,6 @@ WHERE {
     "Thiên Cầm"@vi
     "Thiên Hương"@vi
     "Thiên Lộc"@vi
-    "Thiên Phủ"@vi
     "Thiên Đức"@vi
     "Thiết Ống"@vi
     "Thiện Hòa"@vi
@@ -10114,7 +10108,6 @@ WHERE {
     "Xã Tam Hải"@vi
     "Xã Tam Hợp"@vi
     "Xã Tam Kim"@vi
-    "Xã Tam Lư"@vi
     "Xã Tam Mỹ Tây"@vi
     "Xã Tam Ngãi"@vi
     "Xã Tam Phú"@vi
@@ -10165,7 +10158,6 @@ WHERE {
     "Xã Thanh Điền"@vi
     "Xã Thanh Đức"@vi
     "Xã Thiên Lộc"@vi
-    "Xã Thiên Phủ"@vi
     "Xã Thiên Đức"@vi
     "Xã Thiết Ống"@vi
     "Xã Thiện Hòa"@vi
@@ -13182,7 +13174,6 @@ WHERE {
     "Tam Hop"@en
     "Tam Hung"@en
     "Tam Kim"@en
-    "Tam Lu"@en
     "Tam My Tay"@en
     "Tam Ngai"@en
     "Tam Phu"@en
@@ -13398,7 +13389,6 @@ WHERE {
     "Thien Loc"@en
     "Thien Long"@en
     "Thien My"@en
-    "Thien Phu"@en
     "Thien Tan"@en
     "Thien Thuat"@en
     "Thiet Ong"@en
@@ -18114,8 +18104,6 @@ WHERE {
     "Tam Hồng"@vi
     "Tam Hợp"@vi
     "Tam Kim"@vi
-    "Tam Lu"@vi
-    "Tam Lư"@vi
     "Tam My Tay"@vi
     "Tam Mỹ Tây"@vi
     "Tam Ngai"@vi
@@ -18379,7 +18367,6 @@ WHERE {
     "Thien Loc"@vi
     "Thien Long"@vi
     "Thien My"@vi
-    "Thien Phu"@vi
     "Thien Tan"@vi
     "Thien Thuat"@vi
     "Thiet Ong"@vi
@@ -18396,7 +18383,6 @@ WHERE {
     "Thiên Cầm"@vi
     "Thiên Hương"@vi
     "Thiên Lộc"@vi
-    "Thiên Phủ"@vi
     "Thiên Đức"@vi
     "Thiết Ống"@vi
     "Thiện Hòa"@vi
@@ -21288,7 +21274,6 @@ WHERE {
     "Xã Tam Hải"@vi
     "Xã Tam Hợp"@vi
     "Xã Tam Kim"@vi
-    "Xã Tam Lư"@vi
     "Xã Tam Mỹ Tây"@vi
     "Xã Tam Ngãi"@vi
     "Xã Tam Phú"@vi
@@ -21339,7 +21324,6 @@ WHERE {
     "Xã Thanh Điền"@vi
     "Xã Thanh Đức"@vi
     "Xã Thiên Lộc"@vi
-    "Xã Thiên Phủ"@vi
     "Xã Thiên Đức"@vi
     "Xã Thiết Ống"@vi
     "Xã Thiện Hòa"@vi

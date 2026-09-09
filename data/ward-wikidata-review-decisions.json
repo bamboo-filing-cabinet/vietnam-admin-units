@@ -6918,6 +6918,23 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v33.json", "role": "saved thirty-third-round random-audit evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-09.93",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10825138", "Q135183893"], "local_id": "w-14908-2025-07-01", "mapping_note": "current Thiên Phủ commune selects Q135183893; release Q10825138 to the distinct pre-2025 Quan Hóa commune", "outcome": "assign", "rationale": "Q135183893 owns the current `Thiên Phủ` article documenting the 2025 commune formed from Nam Động and old Thiên Phủ. Q10825138 retains the former Quan Hóa district parent, old commune aliases, historical coordinates, and GeoNames 8549783.", "wikidata_qid": "Q135183893"},
+        {"candidate_qids_checked": ["Q10823806", "Q135184170"], "local_id": "w-15019-2025-07-01", "mapping_note": "current Tam Lư commune selects Q135184170; release Q10823806 to the distinct pre-2025 Quan Sơn commune", "outcome": "assign", "rationale": "Q135184170 owns the current `Tam Lư` article documenting the 2025 commune formed from Sơn Hà, old Tam Lư, and part of Sơn Lư. Q10823806 retains the former Quan Sơn district parent, old commune aliases, historical coordinates, and GeoNames 8549872.", "wikidata_qid": "Q135184170"},
+        {"candidate_qids_checked": ["Q10772384", "Q135183691"], "local_id": "w-15682-2025-07-01", "mapping_note": "current Hợp Tiến commune selects Q135183691; release Q10772384 to the distinct pre-2025 Triệu Sơn commune", "outcome": "assign", "rationale": "Q135183691 owns the current `Hợp Tiến, Thanh Hóa` article documenting the 2025 commune formed from five predecessors. Q10772384 retains the former Triệu Sơn district parent, old commune aliases, historical coordinates, and GeoNames 8549857.", "wikidata_qid": "Q135183691"}
+      ],
+      "reviewed_at": "2026-09-09T18:52:48Z",
+      "selection": {"input_status": "random-predecessor-gap-audit-v35", "sample_numbers": [9, 10, 19]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T18:51:19Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T18:51:19Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish the three current communes from their namesake predecessors"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v35.json", "role": "saved thirty-fifth-round random-audit evidence"}
+      ]
     }
   ],
   "schema_version": 1,

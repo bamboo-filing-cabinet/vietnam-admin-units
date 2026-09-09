@@ -759,6 +759,25 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T18:40:29Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T18:40:29Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-09.30",
+      "selection": {"method": "lowest SHA-256(seed + NUL + local_id)", "seed": "2026-09-09-predecessor-gap-audit-v35", "population": 3090, "sample_size": 50, "sample_numbers": [9, 10, 19, 38]},
+      "reviewed_at": "2026-09-09T18:52:48Z",
+      "decisions": [
+        {"local_id": "w-4010903-base", "name_vi": "Xã Thiên Phủ", "outcome": "assign", "wikidata_qid": "Q10825138", "candidate_qids_checked": ["Q10825138", "Q135183893"], "mapping_note": "Q10825138 retains the former Quan Hóa commune identity, district parent, coordinates, and GeoNames 8549783; Q135183893 owns the current Thiên Phủ article and is reassigned to the distinct 2025 successor"},
+        {"local_id": "w-4011115-base", "name_vi": "Xã Tam Lư", "outcome": "assign", "wikidata_qid": "Q10823806", "candidate_qids_checked": ["Q10823806", "Q135184170"], "mapping_note": "Q10823806 retains the former Quan Sơn commune identity, district parent, coordinates, and GeoNames 8549872; Q135184170 owns the current Tam Lư article and is reassigned to the distinct 2025 successor"},
+        {"local_id": "w-4014711-base", "name_vi": "Xã Hợp Tiến", "outcome": "assign", "wikidata_qid": "Q10772384", "candidate_qids_checked": ["Q10772384", "Q135183691"], "mapping_note": "Q10772384 retains the former Triệu Sơn commune identity, district parent, coordinates, and GeoNames 8549857; Q135183691 owns the current Hợp Tiến article and is reassigned to the distinct 2025 successor"},
+        {"local_id": "w-2211317-base", "name_vi": "Xã Yên Định", "outcome": "assign", "wikidata_qid": "Q32596398", "candidate_qids_checked": ["Q8062580", "Q32596398"], "mapping_note": "Q32596398 retains the exact former commune name and class, matching Sơn Động-area coordinates, and GeoNames 8376540; Q8062580 owns the current Yên Định article and remains assigned to the 2025 successor"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v35.json", "role": "saved thirty-fifth-round 50-row live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate coordinate-backed historical identities"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current communes from their namesake predecessors"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition used to verify old-unit identities and successors"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T18:51:19Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T18:51:19Z"}
+      ]
     }
   ]
 }
