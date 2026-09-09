@@ -1427,12 +1427,6 @@ LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 LAST	P131	Q3710957	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
-LAST	Lvi	"Xã Thái Hòa"
-LAST	Dvi	"xã cũ thuộc huyện Hàm Yên, Việt Nam, giải thể năm 2025"
-LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
-LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
-LAST	P131	Q3710957	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
-CREATE
 LAST	Lvi	"Xã Hùng Đức"
 LAST	Dvi	"xã cũ thuộc huyện Hàm Yên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -3092,12 +3086,6 @@ CREATE
 LAST	Lvi	"Thị trấn Thác Bà"
 LAST	Dvi	"thị trấn cũ thuộc huyện Yên Bình, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
-LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
-LAST	P131	Q8052180	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
-CREATE
-LAST	Lvi	"Xã Cảm Nhân"
-LAST	Dvi	"xã cũ thuộc huyện Yên Bình, Việt Nam, giải thể năm 2025"
-LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 LAST	P131	Q8052180	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
@@ -6275,12 +6263,6 @@ LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 LAST	P131	Q3031344	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
-LAST	Lvi	"Phường An Phụ"
-LAST	Dvi	"phường cũ thuộc thị xã Kinh Môn, Việt Nam, giải thể năm 2025"
-LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
-LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
-LAST	P131	Q3031344	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
-CREATE
 LAST	Lvi	"Phường Hiến Thành"
 LAST	Dvi	"phường cũ thuộc thị xã Kinh Môn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -8519,12 +8501,6 @@ LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1686
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1686-nq.signed.pdf"
 LAST	P131	Q7808219	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1686-nq.signed.pdf"
 CREATE
-LAST	Lvi	"Phường Tân Dân"
-LAST	Dvi	"phường cũ thuộc thị xã Nghi Sơn, Việt Nam, giải thể năm 2025"
-LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1686-nq.signed.pdf"
-LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1686-nq.signed.pdf"
-LAST	P131	Q7808219	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1686-nq.signed.pdf"
-CREATE
 LAST	Lvi	"Phường Trúc Lâm"
 LAST	Dvi	"phường cũ thuộc thị xã Nghi Sơn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1686-nq.signed.pdf"
@@ -10446,12 +10422,6 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q725063	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Lvi	"Phường Điện An"
-LAST	Dvi	"phường cũ thuộc thị xã Điện Bàn, Việt Nam, giải thể năm 2025"
-LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
-LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
-LAST	P131	Q725063	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
-CREATE
-LAST	Lvi	"Phường Điện Nam Trung"
 LAST	Dvi	"phường cũ thuộc thị xã Điện Bàn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"

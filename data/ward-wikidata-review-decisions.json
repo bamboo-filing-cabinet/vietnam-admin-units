@@ -7015,6 +7015,22 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v42.json", "role": "saved forty-second-round random-audit evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-09.99",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10733300", "Q131548698"], "local_id": "w-10645-2025-07-01", "mapping_note": "current An Phú commune selects Q131548698; release the similarly spelled Q10733300 to its actual An Phụ identity", "outcome": "assign", "rationale": "Q131548698 owns the current `An Phú, Hải Phòng` article and identifies the Nam Sách-area commune. Q10733300 is An Phụ in former Kinh Môn, with a different parent and coordinates, and was selected only through accent-folded name matching.", "wikidata_qid": "Q131548698"},
+        {"candidate_qids_checked": ["Q10830420", "Q135107982"], "local_id": "w-16594-2025-07-01", "mapping_note": "current Tân Dân ward selects Q135107982; release Q10830420 to the pre-2025 Nghi Sơn ward", "outcome": "assign", "rationale": "Q135107982 owns the current `Tân Dân` article and describes the Thanh Hóa ward. Q10830420 retains the former Nghi Sơn parent, old ward aliases, historical coordinates, and GeoNames 8550033.", "wikidata_qid": "Q135107982"}
+      ],
+      "reviewed_at": "2026-09-09T20:20:28Z",
+      "selection": {"input_status": "random-predecessor-gap-audit-v43, including one current-only correction", "sample_numbers": [31, 36]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T20:17:21Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T20:17:21Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish the current An Phú and Tân Dân units from unrelated or predecessor items"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v43.json", "role": "saved forty-third-round random-audit evidence"}
+      ]
     }
   ],
   "schema_version": 1,

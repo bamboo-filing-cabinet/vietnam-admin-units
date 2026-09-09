@@ -7,22 +7,22 @@
     "wikidata_write_performed": false
   },
   "input_fingerprints": {
-    "manifest_content_sha256": "56f0a58b4c3eaad9fe45460a95642449b1ff173c2279c00399d44d44c9cb3336",
-    "data/ward-wikidata-predecessor-unresolved-candidates.json": "dc00ce9da493da2e8414976dc907ea4f697a8ae81f52750754483fbe500f17ec",
-    "data/ward-wikidata-predecessor-article-candidates.json": "1badde48c6994727a21ad3c5b07a3e38e1f9ec18597a8f7c054824cc590c68b6",
-    "data/ward-wikidata-predecessor-context-candidates.json": "6c80fdb7ef6ccbd65f9b080908030bc1710c056d2c5da83256c68a819b7e47f2",
-    "data/ward-wikidata-predecessor-geonames-candidates.json": "9e2c866b22c46df2b68acc973a5bc23e6bb5e025196ac608263452d2c471dd66",
+    "manifest_content_sha256": "6ba8e438e9749e32f499eba4b4d58777b88e02b7bfe24498a1efa146776d04cd",
+    "data/ward-wikidata-predecessor-unresolved-candidates.json": "749b2918d12233c00cab4bb1585c28ea75bd545b2664fa4399f0e91be2e94dfd",
+    "data/ward-wikidata-predecessor-article-candidates.json": "54c312d680ec1c03e61464bbd9eac74b6f3f2995070b395cb5ece2b191f4d375",
+    "data/ward-wikidata-predecessor-context-candidates.json": "0d63dcf4e8bae16ec82d796826e392575a9a1bffabe8c16d55f96659412bc866",
+    "data/ward-wikidata-predecessor-geonames-candidates.json": "f2cc9e3fb0c16a2493bcf350820a3d1089233aa2b4ff88b5c1e4ef31b3124b16",
     "data/ward-wikidata-predecessor-gap-sample-v2-decisions.json": "82250c9c319a2b462e4dee20d963cf77b1884dbe1196cda47cc83485b603c2b4"
   },
   "evidence": {
-    "qlever_retrieved_at": "2026-09-09T20:13:45Z",
-    "action_api_retrieved_at": "2026-09-09T20:13:45Z",
+    "qlever_retrieved_at": "2026-09-09T20:24:25Z",
+    "action_api_retrieved_at": "2026-09-09T20:24:26Z",
     "age_hours_at_check": null,
     "max_age_hours": null
   },
   "audit": {
-    "items": 3062,
-    "clear_items": 3062,
+    "items": 3057,
+    "clear_items": 3057,
     "needs_review_items": 0,
     "fresh": true,
     "sample_reviewed_rows": 50,
@@ -1696,13 +1696,6 @@
     {
       "local_id": "w-2110723-base",
       "name_vi": "Xã Thái Sơn",
-      "parent_qid": "Q3710957",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-2110725-base",
-      "name_vi": "Xã Thái Hòa",
       "parent_qid": "Q3710957",
       "classification": "no-broad-district-candidate",
       "status": "clear"
@@ -3644,13 +3637,6 @@
       "name_vi": "Thị trấn Thác Bà",
       "parent_qid": "Q8052180",
       "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-2131317-base",
-      "name_vi": "Xã Cảm Nhân",
-      "parent_qid": "Q8052180",
-      "classification": "assigned-item-only",
       "status": "clear"
     },
     {
@@ -7357,13 +7343,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-1070913-base",
-      "name_vi": "Phường An Phụ",
-      "parent_qid": "Q3031344",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-1070905-base",
       "name_vi": "Phường Hiến Thành",
       "parent_qid": "Q3031344",
@@ -9975,13 +9954,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-4015343-base",
-      "name_vi": "Phường Tân Dân",
-      "parent_qid": "Q7808219",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-4015329-base",
       "name_vi": "Phường Trúc Lâm",
       "parent_qid": "Q7808219",
@@ -12226,13 +12198,6 @@
       "name_vi": "Phường Điện An",
       "parent_qid": "Q725063",
       "classification": "assigned-item-only",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-20579-2005-07-22",
-      "name_vi": "Phường Điện Nam Trung",
-      "parent_qid": "Q725063",
-      "classification": "no-broad-candidate",
       "status": "clear"
     },
     {

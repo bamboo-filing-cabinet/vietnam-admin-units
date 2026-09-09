@@ -907,6 +907,25 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T20:07:26Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T20:07:26Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-09.38",
+      "selection": {"method": "lowest SHA-256(seed + NUL + local_id)", "seed": "2026-09-09-predecessor-gap-audit-v43", "population": 3062, "sample_size": 50, "sample_numbers": [18, 20, 27, 36]},
+      "reviewed_at": "2026-09-09T20:20:28Z",
+      "decisions": [
+        {"local_id": "w-20579-2005-07-22", "name_vi": "Phường Điện Nam Trung", "outcome": "assign", "wikidata_qid": "Q32597140", "candidate_qids_checked": ["Q2022064", "Q32597140"], "mapping_note": "Q32597140 retains the exact former unit name, local alias, matching Điện Bàn-area coordinates, and GeoNames 8665304; Q2022064 owns the current Điện Bàn Đông article and remains assigned to the successor"},
+        {"local_id": "w-2110725-base", "name_vi": "Xã Thái Hòa", "outcome": "assign", "wikidata_qid": "Q32304865", "candidate_qids_checked": ["Q10825718", "Q32304865"], "mapping_note": "Q32304865 retains the exact former commune alias, coordinates within the former Hàm Yên unit, and GeoNames 8138121; Q10825718 owns the current Thái Hòa article and remains assigned to the successor"},
+        {"local_id": "w-2131317-base", "name_vi": "Xã Cảm Nhân", "outcome": "assign", "wikidata_qid": "Q32264939", "candidate_qids_checked": ["Q10752253", "Q32264939"], "mapping_note": "Q32264939 is the coordinate-backed former commune duplicate under the Cẩm Nhân spelling found in GeoNames 8526451; its coordinates match current Cảm Nhân within tens of metres, while Q10752253 owns the current article and remains assigned to the successor"},
+        {"local_id": "w-4015343-base", "name_vi": "Phường Tân Dân", "outcome": "assign", "wikidata_qid": "Q10830420", "candidate_qids_checked": ["Q10830420", "Q135107982"], "mapping_note": "Q10830420 retains the former Nghi Sơn ward identity, old parent, aliases, coordinates, and GeoNames 8550033; Q135107982 owns the current Tân Dân article and is reassigned to the successor"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v43.json", "role": "saved forty-third-round 50-row live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate coordinate-backed historical identities and reject wrong-location candidates"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current successors from historical units"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition used to verify old-unit identities and successors"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T20:17:21Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T20:17:21Z"}
+      ]
     }
   ]
 }

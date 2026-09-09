@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "scope": {
+    "tier": "ward",
+    "purpose": "manual decisions for forty-third random predecessor-gap audit",
+    "wikidata_write_performed": false
+  },
+  "sampling": {
+    "method": "lowest SHA-256(seed + NUL + local_id)",
+    "seed": "2026-09-09-predecessor-gap-audit-v43",
+    "population": 3062,
+    "sample_size": 50,
+    "batch_size": 10,
+    "batches": 5
+  },
+  "reviewed_at": "2026-09-09T20:20:28Z",
+  "batches": [
+    {
+      "batch_number": 1,
+      "decisions": [
+        {"sample_number": 1, "local_id": "w-1011517-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successors-disambiguation-or-wrong-location-commune"},
+        {"sample_number": 2, "local_id": "w-8110935-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-former-district-or-person-items"},
+        {"sample_number": 3, "local_id": "w-5070317-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successors-disambiguation-or-wrong-location-items"},
+        {"sample_number": 4, "local_id": "w-26716-2004-06-30", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-former-city-or-disambiguation-items"},
+        {"sample_number": 5, "local_id": "w-2251129-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-former-district-or-wrong-name-items"},
+        {"sample_number": 6, "local_id": "w-3031143-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-former-district-or-person-items"},
+        {"sample_number": 7, "local_id": "w-2171361-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-former-district-or-disambiguation-found"},
+        {"sample_number": 8, "local_id": "w-7013503-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-former-district-or-disambiguation-found"},
+        {"sample_number": 9, "local_id": "w-2091707-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-former-district-items"},
+        {"sample_number": 10, "local_id": "w-1070939-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-former-district-or-landmark-items"}
+      ]
+    },
+    {
+      "batch_number": 2,
+      "decisions": [
+        {"sample_number": 11, "local_id": "w-2070929-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-former-district-or-disambiguation-found"},
+        {"sample_number": 12, "local_id": "w-8071331-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-former-district-or-disambiguation-found"},
+        {"sample_number": 13, "local_id": "w-7011307-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-former-district-or-disambiguation-found"},
+        {"sample_number": 14, "local_id": "w-3031723-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-former-district-items"},
+        {"sample_number": 15, "local_id": "w-6050303-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-former-district-or-river-items"},
+        {"sample_number": 16, "local_id": "w-8231319-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-former-district-national-park-or-disambiguation-items"},
+        {"sample_number": 17, "local_id": "w-8230311-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-former-district-landmark-or-disambiguation-items"},
+        {"sample_number": 18, "local_id": "w-20579-2005-07-22", "outcome": "existing-predecessor-item", "wikidata_qid": "Q32597140", "reason_code": "exact-former-unit-alias-coordinate-and-geonames-match"},
+        {"sample_number": 19, "local_id": "w-8230707-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-differently-named-neighboring-communes"},
+        {"sample_number": 20, "local_id": "w-2110725-base", "outcome": "existing-predecessor-item", "wikidata_qid": "Q32304865", "reason_code": "exact-former-commune-alias-coordinate-and-geonames-match"}
+      ]
+    },
+    {
+      "batch_number": 3,
+      "decisions": [
+        {"sample_number": 21, "local_id": "w-8170915-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-former-district-province-or-person-items"},
+        {"sample_number": 22, "local_id": "w-5071509-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-former-district-river-or-disambiguation-items"},
+        {"sample_number": 23, "local_id": "w-7010317-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-former-district-or-non-ward-items"},
+        {"sample_number": 24, "local_id": "w-2170303-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-region-disambiguation-and-landmark-items"},
+        {"sample_number": 25, "local_id": "w-1170529-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-former-district-or-river-and-cave-items"},
+        {"sample_number": 26, "local_id": "w-2110325-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-former-district-or-mountain-and-person-items"},
+        {"sample_number": 27, "local_id": "w-2131317-base", "outcome": "existing-predecessor-item", "wikidata_qid": "Q32264939", "reason_code": "near-exact-former-commune-name-coordinate-and-geonames-match"},
+        {"sample_number": 28, "local_id": "w-8030113-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-former-city-or-disambiguation-found"},
+        {"sample_number": 29, "local_id": "w-4070745-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-former-district-or-mountain-item"},
+        {"sample_number": 30, "local_id": "w-7110527-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-former-city-district-or-wrong-location-items"}
+      ]
+    },
+    {
+      "batch_number": 4,
+      "decisions": [
+        {"sample_number": 31, "local_id": "w-1070531-base", "outcome": "no-distinct-item-found", "reason_code": "current-successor-corrected-but-no-distinct-predecessor-item-found"},
+        {"sample_number": 32, "local_id": "w-2110733-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-former-district-or-person-items"},
+        {"sample_number": 33, "local_id": "w-2051717-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-former-district-or-unrelated-items"},
+        {"sample_number": 34, "local_id": "w-8150321-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-disambiguation-or-wrong-location-commune"},
+        {"sample_number": 35, "local_id": "w-7010113-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successors-or-bridge-and-landmark-items"},
+        {"sample_number": 36, "local_id": "w-4015343-base", "outcome": "existing-predecessor-item-after-current-swap", "wikidata_qid": "Q10830420", "replacement_current_qid": "Q135107982", "reason_code": "old-ward-item-released-by-current-article-item"},
+        {"sample_number": 37, "local_id": "w-2131319-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-former-district-or-river-items"},
+        {"sample_number": 38, "local_id": "w-5052319-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-former-district-item"},
+        {"sample_number": 39, "local_id": "w-3031117-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-wrong-name-location-and-unrelated-items"},
+        {"sample_number": 40, "local_id": "w-6070713-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-former-district-or-unrelated-items"}
+      ]
+    },
+    {
+      "batch_number": 5,
+      "decisions": [
+        {"sample_number": 41, "local_id": "w-2252133-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-former-city-or-unrelated-items"},
+        {"sample_number": 42, "local_id": "w-6031711-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-former-district-or-disambiguation-found"},
+        {"sample_number": 43, "local_id": "w-7070515-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-disambiguation-or-wrong-location-commune"},
+        {"sample_number": 44, "local_id": "w-1090427-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-wrong-location-commune-and-former-districts"},
+        {"sample_number": 45, "local_id": "w-5010503-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-former-district-disambiguation-or-landmark-items"},
+        {"sample_number": 46, "local_id": "w-8030711-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-former-district-city-or-disambiguation-items"},
+        {"sample_number": 47, "local_id": "w-8210521-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-former-district-or-disambiguation-found"},
+        {"sample_number": 48, "local_id": "w-4071331-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-former-district-river-or-non-administrative-items"},
+        {"sample_number": 49, "local_id": "w-6052113-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-disambiguation-or-wrong-location-communes"},
+        {"sample_number": 50, "local_id": "w-1010121-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successors-disambiguation-or-wrong-location-ward"}
+      ]
+    }
+  ],
+  "sources": [
+    {"path": "data/ward-wikidata-predecessor-gap-sample-v43.json", "role": "saved forty-third-round 50-row live search and entity evidence"},
+    {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate historical identities and reject wrong-location candidates"},
+    {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current successors from historical units"},
+    {"path": "data/ward-history.json", "role": "canonical predecessor composition used to verify old-unit identities and successors"},
+    {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T20:17:21Z"},
+    {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T20:17:21Z"}
+  ],
+  "audit": {"reviewed_rows": 50, "existing_predecessor_items": 4, "current_mapping_swaps": 1, "no_distinct_item_found": 46, "sample_miss_rate": 0.08, "creation_batch_authorized": false}
+}
