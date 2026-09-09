@@ -6951,6 +6951,21 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v36.json", "role": "saved thirty-sixth-round random-audit evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-09.95",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10841944", "Q135197620"], "local_id": "w-15058-2025-07-01", "mapping_note": "current Đồng Lương commune selects Q135197620; release Q10841944 to the pre-2025 Lang Chánh commune", "outcome": "assign", "rationale": "Q135197620 owns the `Đồng Lương, Thanh Hóa` article, which explicitly documents the current commune's June 2025 formation from Tân Phúc and old Đồng Lương. Q10841944 retains the former Lang Chánh district parent, historical coordinates, and GeoNames 8549907.", "wikidata_qid": "Q135197620"}
+      ],
+      "reviewed_at": "2026-09-09T19:29:34Z",
+      "selection": {"input_status": "random-predecessor-gap-audit-v38", "sample_numbers": [29]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T19:27:23Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T19:27:23Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish the current Đồng Lương commune from its namesake predecessor"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v38.json", "role": "saved thirty-eighth-round random-audit evidence"}
+      ]
     }
   ],
   "schema_version": 1,

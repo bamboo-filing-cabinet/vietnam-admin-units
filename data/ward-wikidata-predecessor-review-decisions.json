@@ -815,6 +815,23 @@
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T19:13:31Z"},
         {"endpoint": "https://www.wikidata.org/w/api.php?action=query&prop=revisions&titles=Q3059506", "method": "first revision metadata and content; revision 4308619 showed the original 2013 nlwiki title `Long Bình (Đồng Nai)`", "retrieved_at": "2026-09-09T19:19:45Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-09.33",
+      "selection": {"method": "lowest SHA-256(seed + NUL + local_id)", "seed": "2026-09-09-predecessor-gap-audit-v38", "population": 3079, "sample_size": 50, "sample_numbers": [17, 29]},
+      "reviewed_at": "2026-09-09T19:29:34Z",
+      "decisions": [
+        {"local_id": "w-4051957-base", "name_vi": "Phường Kỳ Trinh", "outcome": "assign", "wikidata_qid": "Q10783741", "candidate_qids_checked": ["Q10783741", "Q32279048", "Q136950397"], "mapping_note": "Q10783741 owns the Kỳ Trinh article and retains the former Kỳ Anh parent, exact ward description, and old aliases; Q32279048 is a coordinate-only duplicate, while Q136950397 owns the current Sông Trí article and remains assigned to the 2025 successor"},
+        {"local_id": "w-4011721-base", "name_vi": "Xã Đồng Lương", "outcome": "assign", "wikidata_qid": "Q10841944", "candidate_qids_checked": ["Q10841944", "Q135197620"], "mapping_note": "Q10841944 retains the former Lang Chánh commune identity, district parent, coordinates, and GeoNames 8549907; Q135197620 owns the current Đồng Lương article documenting its 2025 two-commune formation and is reassigned to the successor"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v38.json", "role": "saved thirty-eighth-round 50-row live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate historical identities and reject wrong-location candidates"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current successors from historical units"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition used to verify old-unit identities and successors"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T19:27:23Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T19:27:23Z"}
+      ]
     }
   ]
 }

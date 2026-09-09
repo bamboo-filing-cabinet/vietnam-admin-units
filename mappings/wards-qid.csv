@@ -3808,7 +3808,7 @@ w-15034-2025-07-01,15034,Xã Yên Thắng,Xã,38,2025-07-01,,Q10838168,existing,
 w-15043-2025-07-01,15043,Xã Giao An,Xã,38,2025-07-01,,Q10761469,existing,matched,Q10761468|Q10761469,qlever-label+current-province+batched-wbgetentities
 w-15049-2025-07-01,15049,Xã Văn Phú,Xã,38,2025-07-01,,Q135197793,existing,manual,Q10833149|Q10833409|Q10833410|Q10833412|Q10833414|Q10834128|Q135197793,review 2026-09-02.24: current Văn Phú xã page selects Q135197793
 w-15055-2025-07-01,15055,Xã Linh Sơn,Xã,38,2025-07-01,,Q135197555,existing,manual,Q1355319|Q1760054|Q6757188|Q10786308|Q10788201|Q135197555,review 2026-09-02.24: current Linh Sơn xã page selects Q135197555
-w-15058-2025-07-01,15058,Xã Đồng Lương,Xã,38,2025-07-01,,Q10841944,existing,matched,Q10841943|Q10841944,qlever-label+current-province+batched-wbgetentities
+w-15058-2025-07-01,15058,Xã Đồng Lương,Xã,38,2025-07-01,,Q135197620,existing,manual,Q10841943|Q10841944|Q135197620,review 2026-09-09.95: current Đồng Lương commune selects Q135197620; release Q10841944 to the pre-2025 Lang Chánh commune
 w-15061-2025-07-01,15061,Xã Ngọc Lặc,Xã,38,2025-07-01,,Q135207565,existing,manual,Q10800655|Q135207565,review 2026-09-08.75: current Ngọc Lặc commune selects Q135207565; release Q10800655 to the pre-2025 township
 w-15085-2025-07-01,15085,Xã Thạch Lập,Xã,38,2025-07-01,,Q10826183,existing,matched,Q10826183,qlever-label+current-province+batched-wbgetentities
 w-15091-2025-07-01,15091,Xã Ngọc Liên,Xã,38,2025-07-01,,Q135207587,existing,manual,Q10800634|Q16480888|Q135207587,review 2026-09-08.76: current Ngọc Liên commune selects Q135207587; release Q16480888 to the pre-2025 Ngọc Lặc commune
@@ -9016,7 +9016,7 @@ w-4011713-base,15046,Xã Tân Phúc,Xã,388,,2025-06-30,Q10830749,existing,verif
 w-4011715-base,15049,Xã Tam Văn,Xã,388,,2025-06-30,Q10823853,existing,verified,Q10823853,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4011717-base,15052,Xã Lâm Phú,Xã,388,,2025-06-30,Q10787483,existing,verified,Q10787483,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4011719-base,15055,Thị trấn Lang Chánh,Thị trấn,388,,2025-06-30,Q10784361,existing,verified,Q10784361,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-4011721-base,15058,Xã Đồng Lương,Xã,388,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4011721-base,15058,Xã Đồng Lương,Xã,388,,2025-06-30,Q10841944,existing,manual,Q10841944|Q135197620,"predecessor review 2026-09-09.33: Q10841944 retains the former Lang Chánh commune identity, district parent, coordinates, and GeoNames 8549907; Q135197620 owns the current Đồng Lương article documenting its 2025 two-commune formation and is reassigned to the successor"
 w-4011903-base,15187,Thị trấn Kim Tân,Thị trấn,391,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
 w-4011905-base,15190,Thị trấn Vân Du,Thị trấn,391,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
 w-4011907-base,15196,Xã Thạch Lâm,Xã,391,,2025-06-30,Q10826179,existing,verified,Q10826179,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -10246,7 +10246,7 @@ w-4051949-base,18841,Phường Kỳ Liên,Phường,449,,2025-06-30,Q10783707,ex
 w-4051951-base,18781,Phường Kỳ Ninh,Phường,449,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
 w-4051953-base,18775,Thị trấn Kỳ Đồng,Thị trấn,447,,2025-06-30,Q10783783,existing,verified,Q10783783,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4051955-base,18835,Phường Kỳ Long,Phường,449,,2025-06-30,Q10783708,existing,manual,Q10783708|Q136950424,"predecessor review 2026-09-09.31: Q10783708 retains the former Kỳ Anh ward identity, parent, coordinates, GeoNames 8637947, and old Kỳ Long article; Q136950424 owns the current Vũng Áng article and remains assigned to the 2025 successor"
-w-4051957-base,18820,Phường Kỳ Trinh,Phường,449,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4051957-base,18820,Phường Kỳ Trinh,Phường,449,,2025-06-30,Q10783741,existing,manual,Q10783741|Q32279048|Q136950397,"predecessor review 2026-09-09.33: Q10783741 owns the Kỳ Trinh article and retains the former Kỳ Anh parent, exact ward description, and old aliases; Q32279048 is a coordinate-only duplicate, while Q136950397 owns the current Sông Trí article and remains assigned to the 2025 successor"
 w-4051959-base,18823,Phường Kỳ Thịnh,Phường,449,,2025-06-30,Q10783736,existing,manual,Q10783736|Q136950424,"predecessor review 2026-09-09.32: Q10783736 retains the former Kỳ Anh unit identity, old parent, coordinates, GeoNames 8637948, and Kỳ Thịnh article; Q136950424 owns the current Vũng Áng article and remains assigned to the 2025 successor"
 w-4051961-base,18799,Xã Kỳ Thượng,Xã,447,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
 w-4051963-base,18847,Phường Kỳ Nam,Phường,449,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
