@@ -1009,6 +1009,24 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T21:06:23Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T21:06:23Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-09.44",
+      "selection": {"method": "lowest SHA-256(seed + NUL + local_id)", "seed": "2026-09-09-predecessor-gap-audit-v49", "population": 3049, "sample_size": 50, "sample_numbers": [2, 22, 34]},
+      "reviewed_at": "2026-09-09T21:17:55Z",
+      "decisions": [
+        {"local_id": "w-4013101-base", "name_vi": "Thị trấn Hà Trung", "outcome": "assign", "wikidata_qid": "Q10770620", "candidate_qids_checked": ["Q5636448", "Q10770620", "Q128214455", "Q135113471"], "mapping_note": "Q10770620 retains the former district-capital township description, Hà Trung parent, historical coordinates, and GeoNames 8550370; Q135113471 owns the current Hà Trung article and is reassigned to the successor"},
+        {"local_id": "w-4051337-base", "name_vi": "Phường Thạch Hạ", "outcome": "assign", "wikidata_qid": "Q10826156", "candidate_qids_checked": ["Q10826148", "Q10826156", "Q10829425", "Q32305932", "Q136950365"], "mapping_note": "Q10826156 owns the exact Thạch Hạ article and former-unit identity; Q32305932 supplies matching historical coordinates and GeoNames 8637888 for the same lineage, while Q136950365 owns the current Trần Phú article"},
+        {"local_id": "w-1041129-base", "name_vi": "Xã Liên Mạc", "outcome": "assign", "wikidata_qid": "Q32279817", "candidate_qids_checked": ["Q10786539", "Q32279808", "Q32279817", "Q32279827", "Q138637639"], "mapping_note": "Q32279817 retains the exact former commune alias, Mê Linh-area coordinates, and GeoNames 8609115; Q32279808 is the wrong Hà Nội namesake, while Q138637639 remains on the Yên Lãng successor"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v49.json", "role": "saved forty-ninth-round 50-row live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate coordinate-backed historical identities"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current successors from historical units"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition used to verify old-unit identities and successors"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T21:15:16Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T21:15:16Z"}
+      ]
     }
   ]
 }

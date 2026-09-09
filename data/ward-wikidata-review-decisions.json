@@ -7062,6 +7062,22 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v48.json", "role": "saved forty-eighth-round random-audit evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-09.102",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10770620", "Q135113471"], "local_id": "w-15271-2025-07-01", "mapping_note": "current Hà Trung commune selects Q135113471; release Q10770620 to the pre-2025 district-capital township", "outcome": "assign", "rationale": "Q135113471 owns the current `Hà Trung (xã)` article and describes the present Thanh Hóa commune. Q10770620 retains the former district-capital township description, Hà Trung district parent, historical coordinates, and GeoNames 8550370.", "wikidata_qid": "Q135113471"},
+        {"candidate_qids_checked": ["Q10829425", "Q136950365"], "local_id": "w-18100-2025-07-01", "mapping_note": "current Trần Phú ward selects Q136950365; release Q10829425 to the pre-2025 Hà Tĩnh ward", "outcome": "assign", "rationale": "Q136950365 owns the current `Trần Phú (phường)` article, which explicitly distinguishes the 2025 ward from its pre-2025 namesake. Q10829425 retains the former Hà Tĩnh city parent, historical coordinates, and GeoNames 8637897.", "wikidata_qid": "Q136950365"}
+      ],
+      "reviewed_at": "2026-09-09T21:17:55Z",
+      "selection": {"input_status": "random-predecessor-gap-audit-v49, including one current-only correction", "sample_numbers": [2, 22]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T21:15:16Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T21:15:16Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current Hà Trung and Trần Phú from their namesake predecessors"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v49.json", "role": "saved forty-ninth-round random-audit evidence"}
+      ]
     }
   ],
   "schema_version": 1,

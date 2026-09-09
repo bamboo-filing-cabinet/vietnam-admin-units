@@ -775,7 +775,6 @@ WHERE {
     "Ha Loc"@en
     "Ha Long"@en
     "Ha My"@en
-    "Ha Trung"@en
     "Ha Tu"@en
     "Hac Dich"@en
     "Hai An"@en
@@ -3975,7 +3974,6 @@ WHERE {
     "Ha Loc"@vi
     "Ha Long"@vi
     "Ha My"@vi
-    "Ha Trung"@vi
     "Ha Tu"@vi
     "Hac Dich"@vi
     "Hai An"@vi
@@ -4275,7 +4273,6 @@ WHERE {
     "Hà Linh"@vi
     "Hà Lầm"@vi
     "Hà Lộc"@vi
-    "Hà Trung"@vi
     "Hà Tu"@vi
     "Hàm Giang"@vi
     "Hàm Kiệm"@vi
@@ -7481,7 +7478,6 @@ WHERE {
     "Thị trấn Hoa Thành"@vi
     "Thị trấn Hoàn Lão"@vi
     "Thị trấn Hà Lam"@vi
-    "Thị trấn Hà Trung"@vi
     "Thị trấn Hàng Trạm"@vi
     "Thị trấn Hòa Bình"@vi
     "Thị trấn Hòn Đất"@vi
@@ -11906,7 +11902,6 @@ WHERE {
     "Ha Loc"@en
     "Ha Long"@en
     "Ha My"@en
-    "Ha Trung"@en
     "Ha Tu"@en
     "Hac Dich"@en
     "Hai An"@en
@@ -15106,7 +15101,6 @@ WHERE {
     "Ha Loc"@vi
     "Ha Long"@vi
     "Ha My"@vi
-    "Ha Trung"@vi
     "Ha Tu"@vi
     "Hac Dich"@vi
     "Hai An"@vi
@@ -15406,7 +15400,6 @@ WHERE {
     "Hà Linh"@vi
     "Hà Lầm"@vi
     "Hà Lộc"@vi
-    "Hà Trung"@vi
     "Hà Tu"@vi
     "Hàm Giang"@vi
     "Hàm Kiệm"@vi
@@ -18612,7 +18605,6 @@ WHERE {
     "Thị trấn Hoa Thành"@vi
     "Thị trấn Hoàn Lão"@vi
     "Thị trấn Hà Lam"@vi
-    "Thị trấn Hà Trung"@vi
     "Thị trấn Hàng Trạm"@vi
     "Thị trấn Hòa Bình"@vi
     "Thị trấn Hòn Đất"@vi
