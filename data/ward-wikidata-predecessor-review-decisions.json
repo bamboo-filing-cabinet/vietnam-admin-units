@@ -992,6 +992,23 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T20:58:28Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T20:58:28Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-09.43",
+      "selection": {"method": "lowest SHA-256(seed + NUL + local_id)", "seed": "2026-09-09-predecessor-gap-audit-v48", "population": 3051, "sample_size": 50, "sample_numbers": [24, 43]},
+      "reviewed_at": "2026-09-09T21:07:51Z",
+      "decisions": [
+        {"local_id": "w-7170719-base", "name_vi": "Xã Hòa Hội", "outcome": "assign", "wikidata_qid": "Q2461973", "candidate_qids_checked": ["Q2461973", "Q10770966", "Q10770968", "Q10770969", "Q10770970"], "mapping_note": "Q2461973 retains the former Xuyên Mộc parent, historical coordinates, and GeoNames 8421391; Q10770970 owns the current Hòa Hội article and is reassigned to the successor"},
+        {"local_id": "w-2090537-base", "name_vi": "Xã Hoàng Văn Thụ", "outcome": "assign", "wikidata_qid": "Q32269961", "candidate_qids_checked": ["Q10769103", "Q32269961", "Q32269970"], "mapping_note": "Q32269961 retains the exact former commune alias, coordinates aligned with the Văn Lãng unit, and GeoNames 8522200; Q32269970 is the wrong same-name commune, while Q10769103 owns the current article and remains assigned to the successor"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v48.json", "role": "saved forty-eighth-round 50-row live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate coordinate-backed historical identities"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current successors from historical units"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition used to verify old-unit identities and successors"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T21:06:23Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T21:06:23Z"}
+      ]
     }
   ]
 }

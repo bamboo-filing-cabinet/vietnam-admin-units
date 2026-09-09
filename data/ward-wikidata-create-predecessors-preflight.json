@@ -7,22 +7,22 @@
     "wikidata_write_performed": false
   },
   "input_fingerprints": {
-    "manifest_content_sha256": "2fec1b68031fe576cda746e5d1dda1eabeb570c471fa1e9cc673a45ffa0cfc3d",
-    "data/ward-wikidata-predecessor-unresolved-candidates.json": "3de027db9fd51b4f0ad3398d58d579ae3facc65003f57bec2025545500401d81",
-    "data/ward-wikidata-predecessor-article-candidates.json": "6ac7eed815d31936d4dc6409525e4a803569c45c9bbaeccf5e990f66924af2cc",
-    "data/ward-wikidata-predecessor-context-candidates.json": "174a7a8b552500e29d996f268dd26faf67009d085adcd4f7c1e8a5e21f08eaf6",
-    "data/ward-wikidata-predecessor-geonames-candidates.json": "e59d3cee1eba48096342fc13adedcdabcce989364aa8e5ba293f845b796621de",
+    "manifest_content_sha256": "5c6d688dd50b028c3aab5e1cad27d6f12b27ec3dd0289260f7b173818a737afc",
+    "data/ward-wikidata-predecessor-unresolved-candidates.json": "a998457e1fbe2b06a476508705ac580e49b9bec9d962beb680b00285c21febfb",
+    "data/ward-wikidata-predecessor-article-candidates.json": "53971c2b6acd2c349a691021d43246ad2fd90cc7b76f549801fc853e79609671",
+    "data/ward-wikidata-predecessor-context-candidates.json": "37c7a1f9bfa4a8f3bf637edc5f6918d17229bb1d8224a2b71c8321b5b313d91b",
+    "data/ward-wikidata-predecessor-geonames-candidates.json": "572830ce423e6e1780d52551bf21d1e0b7e2bbe2eab6512abe42619ff5d8d082",
     "data/ward-wikidata-predecessor-gap-sample-v2-decisions.json": "82250c9c319a2b462e4dee20d963cf77b1884dbe1196cda47cc83485b603c2b4"
   },
   "evidence": {
-    "qlever_retrieved_at": "2026-09-09T21:02:41Z",
-    "action_api_retrieved_at": "2026-09-09T21:02:42Z",
+    "qlever_retrieved_at": "2026-09-09T21:11:35Z",
+    "action_api_retrieved_at": "2026-09-09T21:11:35Z",
     "age_hours_at_check": null,
     "max_age_hours": null
   },
   "audit": {
-    "items": 3051,
-    "clear_items": 3051,
+    "items": 3049,
+    "clear_items": 3049,
     "needs_review_items": 0,
     "fresh": true,
     "sample_reviewed_rows": 50,
@@ -4568,13 +4568,6 @@
       "name_vi": "Xã Bắc Hùng",
       "parent_qid": "Q7913476",
       "classification": "assigned-item-only",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-2090537-base",
-      "name_vi": "Xã Hoàng Văn Thụ",
-      "parent_qid": "Q7913476",
-      "classification": "no-broad-district-candidate",
       "status": "clear"
     },
     {
@@ -16431,13 +16424,6 @@
     {
       "local_id": "w-7170717-base",
       "name_vi": "Xã Hòa Hiệp",
-      "parent_qid": "Q1758257",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-7170719-base",
-      "name_vi": "Xã Hòa Hội",
       "parent_qid": "Q1758257",
       "classification": "no-broad-district-candidate",
       "status": "clear"

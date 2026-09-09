@@ -7047,6 +7047,21 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v46.json", "role": "saved forty-sixth-round random-audit evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-09.101",
+      "decisions": [
+        {"candidate_qids_checked": ["Q2461973", "Q10770970"], "local_id": "w-26641-2025-07-01", "mapping_note": "current Hòa Hội commune selects Q10770970; release Q2461973 to the pre-2025 Xuyên Mộc commune", "outcome": "assign", "rationale": "Q10770970 owns the current `Hòa Hội, Thành phố Hồ Chí Minh` article and has the current city parent. Q2461973 retains the former Xuyên Mộc district parent, historical coordinates, and GeoNames 8421391.", "wikidata_qid": "Q10770970"}
+      ],
+      "reviewed_at": "2026-09-09T21:07:51Z",
+      "selection": {"input_status": "random-predecessor-gap-audit-v48", "sample_numbers": [24]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T21:06:23Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T21:06:23Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current Hòa Hội from its namesake predecessor"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v48.json", "role": "saved forty-eighth-round random-audit evidence"}
+      ]
     }
   ],
   "schema_version": 1,

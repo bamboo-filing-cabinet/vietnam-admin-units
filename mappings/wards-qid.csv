@@ -5137,7 +5137,7 @@ w-2090529-base,06148,Xã Thanh Long,Xã,182,,2025-06-30,Q10824797,existing,verif
 w-2090531-base,06166,Xã Tân Thanh,Xã,182,,2025-06-30,Q10830801,existing,verified,Q10830801,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-2090533-base,06172,Xã Tân Mỹ,Xã,182,,2025-06-30,Q10830684,existing,verified,Q10830684,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-2090535-base,06175,Xã Hồng Thái,Xã,182,,2025-06-30,Q10772205,existing,verified,Q10772205,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-2090537-base,06178,Xã Hoàng Văn Thụ,Xã,182,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-2090537-base,06178,Xã Hoàng Văn Thụ,Xã,182,,2025-06-30,Q32269961,existing,manual,Q10769103|Q32269961|Q32269970,"predecessor review 2026-09-09.43: Q32269961 retains the exact former commune alias, coordinates aligned with the Văn Lãng unit, and GeoNames 8522200; Q32269970 is the wrong same-name commune, while Q10769103 owns the current article and remains assigned to the successor"
 w-2090539-base,06181,Xã Nhạc Kỳ,Xã,182,,2025-06-30,Q10801083,existing,verified,Q10801083,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-2090701-base,06064,Thị trấn Bình Gia,Thị trấn,181,,2019-12-31,,,deferred-historical,,
 w-2090703-base,06070,Xã Vĩnh Yên,Xã,181,,2025-06-30,Q10833759,existing,verified,Q10833759,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -7464,7 +7464,7 @@ w-26620-2025-07-01,26620,Xã Hồ Tràm,Xã,79,2025-07-01,,Q4428182,existing,mat
 w-26632-2025-07-01,26632,Xã Xuyên Mộc,Xã,79,2025-07-01,,Q8045300,existing,matched,Q8045300,qlever-label+current-province+batched-wbgetentities
 w-26635-2004-06-30,26635,Xã Tân Lâm,Xã,751,2004-06-30,2025-06-30,Q2913316,existing,verified,Q2913316,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-26638-2025-07-01,26638,Xã Bàu Lâm,Xã,79,2025-07-01,,Q2737296,existing,matched,Q2737296,qlever-label+current-province+batched-wbgetentities
-w-26641-2025-07-01,26641,Xã Hòa Hội,Xã,79,2025-07-01,,Q2461973,existing,matched,Q2461973|Q10770969|Q10770970,qlever-label+predecessor-district+batched-wbgetentities
+w-26641-2025-07-01,26641,Xã Hòa Hội,Xã,79,2025-07-01,,Q10770970,existing,manual,Q2461973|Q10770969|Q10770970,review 2026-09-09.101: current Hòa Hội commune selects Q10770970; release Q2461973 to the pre-2025 Xuyên Mộc commune
 w-26647-2025-07-01,26647,Xã Hòa Hiệp,Xã,79,2025-07-01,,Q5964430,existing,matched,Q5964430|Q10770946|Q10770947|Q10770948,qlever-label+current-province+batched-wbgetentities
 w-26656-2025-07-01,26656,Xã Bình Châu,Xã,79,2025-07-01,,Q2414337,existing,matched,Q2414337|Q11839559,qlever-label+current-province+batched-wbgetentities
 w-26659-2025-07-01,26659,Xã Long Điền,Xã,79,2025-07-01,,Q2135254,existing,matched,Q2100750|Q2135254|Q10786964,qlever-label+current-province+batched-wbgetentities
@@ -13057,7 +13057,7 @@ w-7170711-base,26638,Xã Bàu Lâm,Xã,751,,2025-06-30,,new,gap,,provisional pre
 w-7170713-base,26641,Xã Hòa Bình,Xã,751,,2025-06-30,Q2037743,existing,verified,Q2037743,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-7170715-base,26644,Xã Hòa Hưng,Xã,751,,2025-06-30,Q5964438,existing,verified,Q5964438,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-7170717-base,26647,Xã Hòa Hiệp,Xã,751,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
-w-7170719-base,26650,Xã Hòa Hội,Xã,751,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-7170719-base,26650,Xã Hòa Hội,Xã,751,,2025-06-30,Q2461973,existing,manual,Q2461973|Q10770966|Q10770968|Q10770969|Q10770970,"predecessor review 2026-09-09.43: Q2461973 retains the former Xuyên Mộc parent, historical coordinates, and GeoNames 8421391; Q10770970 owns the current Hòa Hội article and is reassigned to the successor"
 w-7170721-base,26653,Xã Bưng Riềng,Xã,751,,2025-06-30,Q3906675,existing,verified,Q3906675,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-7170723-base,26656,Xã Bình Châu,Xã,751,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
 w-7170901-base,26704,Phường Phú Mỹ,Phường,754,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight

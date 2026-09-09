@@ -3887,12 +3887,6 @@ LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1672
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1672-nq.signed.pdf"
 LAST	P131	Q7913476	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1672-nq.signed.pdf"
 CREATE
-LAST	Lvi	"Xã Hoàng Văn Thụ"
-LAST	Dvi	"xã cũ thuộc huyện Văn Lãng, Việt Nam, giải thể năm 2025"
-LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1672-nq.signed.pdf"
-LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1672-nq.signed.pdf"
-LAST	P131	Q7913476	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1672-nq.signed.pdf"
-CREATE
 LAST	Lvi	"Thị trấn Đồng Đăng"
 LAST	Dvi	"thị trấn cũ thuộc huyện Cao Lộc, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1672-nq.signed.pdf"
@@ -14052,12 +14046,6 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1685-nq.
 LAST	P131	Q1758257	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1685-nq.signed.pdf"
 CREATE
 LAST	Lvi	"Xã Hòa Hiệp"
-LAST	Dvi	"xã cũ thuộc huyện Xuyên Mộc, Việt Nam, giải thể năm 2025"
-LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1685-nq.signed.pdf"
-LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1685-nq.signed.pdf"
-LAST	P131	Q1758257	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1685-nq.signed.pdf"
-CREATE
-LAST	Lvi	"Xã Hòa Hội"
 LAST	Dvi	"xã cũ thuộc huyện Xuyên Mộc, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1685-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1685-nq.signed.pdf"
