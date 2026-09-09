@@ -6982,6 +6982,22 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v39.json", "role": "saved thirty-ninth-round random-audit evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-09.97",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10834103", "Q135162724"], "local_id": "w-15772-2025-07-01", "mapping_note": "current Thiệu Hóa commune selects Q135162724; release Q10834103 to the pre-2025 district-capital township", "outcome": "assign", "rationale": "Q135162724 owns the current `Thiệu Hóa (xã)` article and has current commune class and coordinates. Q10834103 retains the former district-capital township description, former Thiệu Hóa district parent, old aliases, and historical coordinates.", "wikidata_qid": "Q135162724"},
+        {"candidate_qids_checked": ["Q10834932", "Q135179984"], "local_id": "w-15520-2025-07-01", "mapping_note": "current Xuân Hòa commune selects Q135179984; release Q10834932 to the pre-2025 Thọ Xuân commune", "outcome": "assign", "rationale": "Q135179984 owns the `Xuân Hòa, Thanh Hóa` article, which explicitly documents the current commune's June 2025 formation from four predecessors. Q10834932 retains the former Thọ Xuân district parent, historical coordinates, and GeoNames 8550283.", "wikidata_qid": "Q135179984"}
+      ],
+      "reviewed_at": "2026-09-09T19:47:02Z",
+      "selection": {"input_status": "random-predecessor-gap-audit-v40", "sample_numbers": [15, 42]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T19:45:15Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T19:45:15Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish the current Thiệu Hóa and Xuân Hòa communes from their namesake predecessors"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v40.json", "role": "saved fortieth-round random-audit evidence"}
+      ]
     }
   ],
   "schema_version": 1,

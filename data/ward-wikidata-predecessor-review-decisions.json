@@ -851,6 +851,25 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T19:36:22Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T19:36:22Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-09.35",
+      "selection": {"method": "lowest SHA-256(seed + NUL + local_id)", "seed": "2026-09-09-predecessor-gap-audit-v40", "population": 3073, "sample_size": 50, "sample_numbers": [15, 25, 32, 42]},
+      "reviewed_at": "2026-09-09T19:47:02Z",
+      "decisions": [
+        {"local_id": "w-4014101-base", "name_vi": "Thị trấn Thiệu Hóa", "outcome": "assign", "wikidata_qid": "Q10834103", "candidate_qids_checked": ["Q10834103", "Q135162724"], "mapping_note": "Q10834103 retains the district-capital township description and class, former Thiệu Hóa district parent, old aliases, and historical coordinates; Q135162724 owns the current Thiệu Hóa commune article and is reassigned to the 2025 successor"},
+        {"local_id": "w-03980-2025-02-01", "name_vi": "Phường Mộc Lỵ", "outcome": "assign", "wikidata_qid": "Q131552576", "candidate_qids_checked": ["Q131552576", "Q141192059"], "mapping_note": "Q131552576 owns the Mộc Lỵ article and explicitly describes the former ward in Mộc Châu town; Q141192059 owns the distinct current Mộc Châu ward article and remains assigned to the successor"},
+        {"local_id": "w-1091321-base", "name_vi": "Xã Hải Thắng", "outcome": "assign", "wikidata_qid": "Q131534383", "candidate_qids_checked": ["Q131534383", "Q141267012"], "mapping_note": "Q131534383 owns the Hải Thắng article and explicitly describes the former commune in Tiên Lữ district; Q141267012 owns the current Tiên Lữ commune article and remains assigned to the successor"},
+        {"local_id": "w-4013725-base", "name_vi": "Xã Xuân Hòa", "outcome": "assign", "wikidata_qid": "Q10834932", "candidate_qids_checked": ["Q10834932", "Q135179984"], "mapping_note": "Q10834932 retains the former Thọ Xuân commune identity, district parent, coordinates, and GeoNames 8550283; Q135179984 owns the current Xuân Hòa article documenting its 2025 four-commune formation and is reassigned to the successor"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v40.json", "role": "saved fortieth-round 50-row live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate historical identities and reject wrong-location candidates"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current successors from historical units"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition used to verify old-unit identities and successors"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T19:45:15Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T19:45:15Z"}
+      ]
     }
   ]
 }

@@ -7,22 +7,22 @@
     "wikidata_write_performed": false
   },
   "input_fingerprints": {
-    "manifest_content_sha256": "3adf9109f7b60e1e106e1f56f061172460c724989baecb3a420ba8a1abc88859",
-    "data/ward-wikidata-predecessor-unresolved-candidates.json": "dc499b06d010bcce531c8d702d567d73d3d560840ca2dc4e9560541cca57c848",
-    "data/ward-wikidata-predecessor-article-candidates.json": "8242fdc2d4d7f73597453fb1a62d664c388f4f2befb79a96e7739e7d7881c129",
-    "data/ward-wikidata-predecessor-context-candidates.json": "674ae3ee15dfb8a3e9022a0f7ca5038361d6c56cf378f120e8045e98e0442b11",
-    "data/ward-wikidata-predecessor-geonames-candidates.json": "126188484191a0528e78372cd8efa317c74c1280a924e696420dab09b601234d",
+    "manifest_content_sha256": "e9d1cf3230d9954e3529974555083f99281ce16659e33206848f5a0250df29f2",
+    "data/ward-wikidata-predecessor-unresolved-candidates.json": "1c523344883628c7fdc830db0a525787a4f3a8908d82fe0ac3b2fc3d75951d2b",
+    "data/ward-wikidata-predecessor-article-candidates.json": "9844bb42f49a9a6bb16fa8c5bb124428348266cfde609029e60bfa274bfb58ae",
+    "data/ward-wikidata-predecessor-context-candidates.json": "721630b13142c7c3e4d935c397a42f4f70cfec4fe9eaebbd6ed9fba7d3c11223",
+    "data/ward-wikidata-predecessor-geonames-candidates.json": "a8e509da04e53ee631005319a096573876319d365796ac819230ec30bd188c00",
     "data/ward-wikidata-predecessor-gap-sample-v2-decisions.json": "82250c9c319a2b462e4dee20d963cf77b1884dbe1196cda47cc83485b603c2b4"
   },
   "evidence": {
-    "qlever_retrieved_at": "2026-09-09T19:41:46Z",
-    "action_api_retrieved_at": "2026-09-09T19:41:46Z",
+    "qlever_retrieved_at": "2026-09-09T19:51:05Z",
+    "action_api_retrieved_at": "2026-09-09T19:51:05Z",
     "age_hours_at_check": null,
     "max_age_hours": null
   },
   "audit": {
-    "items": 3073,
-    "clear_items": 3073,
+    "items": 3069,
+    "clear_items": 3069,
     "needs_review_items": 0,
     "fresh": true,
     "sample_reviewed_rows": 50,
@@ -3063,13 +3063,6 @@
       "name_vi": "Phường Mộc Sơn",
       "parent_qid": "Q6887452",
       "classification": "assigned-item-only",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-03980-2025-02-01",
-      "name_vi": "Phường Mộc Lỵ",
-      "parent_qid": "Q6887452",
-      "classification": "no-broad-district-candidate",
       "status": "clear"
     },
     {
@@ -8288,13 +8281,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-1091321-base",
-      "name_vi": "Xã Hải Thắng",
-      "parent_qid": "Q7801034",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-1091341-base",
       "name_vi": "Xã Tân Hưng",
       "parent_qid": "Q36485",
@@ -9702,13 +9688,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-4013725-base",
-      "name_vi": "Xã Xuân Hòa",
-      "parent_qid": "Q6470507",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-4013749-base",
       "name_vi": "Thị trấn Sao Vàng",
       "parent_qid": "Q6470507",
@@ -9790,13 +9769,6 @@
       "name_vi": "Xã Thọ Phú",
       "parent_qid": "Q7841466",
       "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-4014101-base",
-      "name_vi": "Thị trấn Thiệu Hóa",
-      "parent_qid": "Q7784093",
-      "classification": "verification-rejected",
       "status": "clear"
     },
     {

@@ -549,7 +549,7 @@ w-03958-2025-07-01,03958,Xã Tường Hạ,Xã,14,2025-07-01,,Q10831434,existing
 w-03961-2025-07-01,03961,Xã Kim Bon,Xã,14,2025-07-01,,Q10779872,existing,matched,Q10779872,qlever-label+current-province+batched-wbgetentities
 w-03970-2025-07-01,03970,Xã Tân Phong,Xã,14,2025-07-01,,Q10830711,existing,matched,Q7862086|Q10830703|Q10830704|Q10830705|Q10830706|Q10830708|Q10830709|Q10830711|Q10830712|Q10830713|Q10830714|Q10830716|Q10830717|Q127948106,qlever-label+current-province+batched-wbgetentities
 w-03979-2025-07-01,03979,Phường Mộc Sơn,Phường,14,2025-07-01,,Q131552571,existing,matched,Q131552571,qlever-label+current-province+batched-wbgetentities
-w-03980-2025-02-01,03980,Phường Mộc Lỵ,Phường,123,2025-02-01,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-03980-2025-02-01,03980,Phường Mộc Lỵ,Phường,123,2025-02-01,2025-06-30,Q131552576,existing,manual,Q131552576|Q141192059,predecessor review 2026-09-09.35: Q131552576 owns the Mộc Lỵ article and explicitly describes the former ward in Mộc Châu town; Q141192059 owns the distinct current Mộc Châu ward article and remains assigned to the successor
 w-03980-2025-07-01,03980,Phường Mộc Châu,Phường,14,2025-07-01,,Q141192059,existing,matched,Q10796624|Q141192059,qlever-label+current-province+batched-wbgetentities
 w-03982-2025-07-01,03982,Phường Thảo Nguyên,Phường,14,2025-07-01,,Q131552567,existing,manual,Q16209913|Q79616848|Q86167728|Q91153288|Q107309395|Q131552567,review 2026-09-02.09: current Sơn La page selects Q131552567
 w-03983-2025-02-01,03983,Phường Bình Minh,Phường,123,2025-02-01,2025-06-30,Q131552573,existing,verified,Q10742478|Q131552573,predecessor exact-vietnamese-name+exact-tier+historical-parent-or-successor-context+batched-wbgetentities
@@ -2648,7 +2648,7 @@ w-1091313-base,11971,Xã Trung Nghĩa,Xã,323,,2025-06-30,Q10828350,existing,ver
 w-1091315-base,12355,Xã An Viên,Xã,332,,2025-06-30,Q10733384,existing,verified,Q10733384,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-1091317-base,12358,Xã Đức Thắng,Xã,332,,2024-11-30,,,deferred-historical,,
 w-1091319-base,12361,Xã Trung Dũng,Xã,332,,2025-06-30,Q10828290,existing,verified,Q10828290,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-1091321-base,12364,Xã Hải Thắng,Xã,332,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-1091321-base,12364,Xã Hải Thắng,Xã,332,,2025-06-30,Q131534383,existing,manual,Q131534383|Q141267012,predecessor review 2026-09-09.35: Q131534383 owns the Hải Thắng article and explicitly describes the former commune in Tiên Lữ district; Q141267012 owns the current Tiên Lữ commune article and remains assigned to the successor
 w-1091323-base,11974,Xã Liên Phương,Xã,323,,2025-06-30,Q10786553,existing,verified,Q10786553,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-1091325-base,12367,Xã Thủ Sỹ,Xã,332,,2025-06-30,Q10826731,existing,verified,Q10826731,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-1091327-base,12370,Xã Thiện Phiến,Xã,332,,2025-06-30,Q10825244,existing,verified,Q10825244,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -3844,7 +3844,7 @@ w-15457-2025-07-01,15457,Xã Định Tân,Xã,38,2025-07-01,,Q135164614,existing
 w-15469-2025-07-01,15469,Xã Yên Định,Xã,38,2025-07-01,,Q135006533,existing,matched,Q8062579|Q8062580|Q10838219|Q10838220|Q32596398|Q135006533,broad-exact-vi+current-province+ward-class+batched-wbgetentities
 w-15499-2025-07-01,15499,Xã Thọ Xuân,Xã,38,2025-07-01,,Q135179952,existing,manual,Q10826577|Q10826578|Q135179952,review 2026-09-08.83: current Thọ Xuân commune selects Q135179952; release Q10826578 to the pre-2025 township
 w-15505-2025-07-01,15505,Xã Thọ Long,Xã,38,2025-07-01,,Q135179965,existing,manual,Q135179965,review 2026-09-02.52: current Thọ Long page selects Q135179965
-w-15520-2025-07-01,15520,Xã Xuân Hòa,Xã,38,2025-07-01,,Q10834932,existing,matched,Q1997127|Q2283913|Q2500287|Q8045311|Q10834922|Q10834924|Q10834926|Q10834927|Q10834928|Q10834929|Q10834932|Q10834934|Q10834936|Q10834937|Q32593396|Q32593442,qlever-label+predecessor-district+batched-wbgetentities
+w-15520-2025-07-01,15520,Xã Xuân Hòa,Xã,38,2025-07-01,,Q135179984,existing,manual,Q1997127|Q2283913|Q2500287|Q8045311|Q10834922|Q10834924|Q10834926|Q10834927|Q10834928|Q10834929|Q10834932|Q10834934|Q10834936|Q10834937|Q32593396|Q32593442|Q135179984,review 2026-09-09.97: current Xuân Hòa commune selects Q135179984; release Q10834932 to the pre-2025 Thọ Xuân commune
 w-15544-2025-07-01,15544,Xã Lam Sơn,Xã,38,2025-07-01,,Q135179994,existing,manual,Q10784251|Q10784253|Q10784254|Q10784256|Q10784257|Q10784258|Q10784259|Q10787491|Q10787492|Q135179994,review 2026-09-08.87: current Lam Sơn commune selects Q135179994; release Q10784259 to the pre-2025 township
 w-15553-2025-07-01,15553,Xã Sao Vàng,Xã,38,2025-07-01,,Q10818227,existing,matched,Q10818227,qlever-label+current-province+batched-wbgetentities
 w-15568-2025-07-01,15568,Xã Thọ Lập,Xã,38,2025-07-01,,Q135179995,existing,manual,Q10826547|Q135179995,review 2026-09-08.86: current Thọ Lập commune selects Q135179995; release Q10826547 to the pre-2025 Thọ Xuân commune
@@ -3867,7 +3867,7 @@ w-15724-2025-07-01,15724,Xã Đồng Tiến,Xã,38,2025-07-01,,Q10842032,existin
 w-15754-2025-07-01,15754,Xã Thọ Ngọc,Xã,38,2025-07-01,,Q135183632,existing,manual,Q10826555|Q135183632,review 2026-09-08.79: current Thọ Ngọc commune selects Q135183632; release Q10826555 to the pre-2025 Triệu Sơn commune
 w-15763-2025-07-01,15763,Xã Thọ Phú,Xã,38,2025-07-01,,Q10826556,existing,matched,Q10826556,qlever-label+current-province+batched-wbgetentities
 w-15766-2025-07-01,15766,Xã An Nông,Xã,38,2025-07-01,,Q135183716,existing,manual,Q2195898|Q10733273|Q135183716,review 2026-09-08.90: current An Nông commune selects Q135183716; release Q10733273 to the pre-2025 Triệu Sơn commune
-w-15772-2025-07-01,15772,Xã Thiệu Hóa,Xã,38,2025-07-01,,Q10834103,existing,matched,Q10825265|Q10834103,broad-exact-vi+current-province+ward-class+batched-wbgetentities
+w-15772-2025-07-01,15772,Xã Thiệu Hóa,Xã,38,2025-07-01,,Q135162724,existing,manual,Q10825265|Q10834103|Q135162724,review 2026-09-09.97: current Thiệu Hóa commune selects Q135162724; release Q10834103 to the pre-2025 district-capital township
 w-15778-2025-07-01,15778,Xã Thiệu Tiến,Xã,38,2025-07-01,,Q10825280,existing,matched,Q10825280,qlever-label+current-province+batched-wbgetentities
 w-15796-2025-07-01,15796,Xã Thiệu Quang,Xã,38,2025-07-01,,Q10825277,existing,matched,Q10825277,qlever-label+current-province+batched-wbgetentities
 w-15820-2025-07-01,15820,Xã Thiệu Toán,Xã,38,2025-07-01,,Q135163153,existing,manual,Q10825281|Q135163153,review 2026-09-08.79: current Thiệu Toán commune selects Q135163153; release Q10825281 to the pre-2025 Thiệu Hóa commune
@@ -9228,7 +9228,7 @@ w-4013717-base,15505,Xã Nam Giang,Xã,395,,2025-06-30,Q10797048,existing,verifi
 w-4013719-base,15508,Xã Xuân Phong,Xã,395,,2025-06-30,Q10835030,existing,verified,Q10835030,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4013721-base,15511,Xã Thọ Lộc,Xã,395,,2025-06-30,Q10826550,existing,verified,Q10826550,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4013723-base,15514,Xã Xuân Trường,Xã,395,,2025-06-30,Q10835133,existing,verified,Q10835133,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-4013725-base,15517,Xã Xuân Hòa,Xã,395,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4013725-base,15517,Xã Xuân Hòa,Xã,395,,2025-06-30,Q10834932,existing,manual,Q10834932|Q135179984,"predecessor review 2026-09-09.35: Q10834932 retains the former Thọ Xuân commune identity, district parent, coordinates, and GeoNames 8550283; Q135179984 owns the current Xuân Hòa article documenting its 2025 four-commune formation and is reassigned to the successor"
 w-4013727-base,15520,Xã Thọ Hải,Xã,395,,2025-06-30,Q10826545,existing,verified,Q10826545,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4013729-base,15523,Xã Tây Hồ,Xã,395,,2025-06-30,Q10831051,existing,verified,Q10831051,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4013731-base,15526,Xã Xuân Giang,Xã,395,,2025-06-30,Q10834913,existing,verified,Q10834913,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -9284,7 +9284,7 @@ w-4013947-base,16081,Xã Hưng Lộc,Xã,400,,2025-06-30,Q10771356,existing,veri
 w-4013949-base,16084,Xã Hải Lộc,Xã,400,,2025-06-30,Q10771656,existing,verified,Q10771656,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4013951-base,16087,Xã Đa Lộc,Xã,400,,2025-06-30,Q10840027,existing,verified,Q10840027,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4013953-base,16090,Xã Ngư Lộc,Xã,400,,2025-06-30,Q10800503,existing,verified,Q10800503,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-4014101-base,15772,Thị trấn Thiệu Hóa,Thị trấn,398,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4014101-base,15772,Thị trấn Thiệu Hóa,Thị trấn,398,,2025-06-30,Q10834103,existing,manual,Q10825265|Q10834103|Q135162724,"predecessor review 2026-09-09.35: Q10834103 retains the district-capital township description and class, former Thiệu Hóa district parent, old aliases, and historical coordinates; Q135162724 owns the current Thiệu Hóa commune article and is reassigned to the 2025 successor"
 w-4014102-base,15775,Xã Thiệu Ngọc,Xã,398,,2025-06-30,Q10825273,existing,verified,Q10825273,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4014103-base,15778,Xã Thiệu Vũ,Xã,398,,2025-06-30,Q10825288,existing,verified,Q10825288,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4014105-base,15781,Xã Thiệu Phúc,Xã,398,,2025-06-30,Q10825276,existing,verified,Q10825276,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities

@@ -2224,7 +2224,6 @@ WHERE {
     "Thien Tan"@en
     "Thien Thuat"@en
     "Thiet Ong"@en
-    "Thieu Hoa"@en
     "Thieu Quang"@en
     "Thieu Tien"@en
     "Thinh Dan"@en
@@ -7197,7 +7196,6 @@ WHERE {
     "Thien Tan"@vi
     "Thien Thuat"@vi
     "Thiet Ong"@vi
-    "Thieu Hoa"@vi
     "Thieu Quang"@vi
     "Thieu Tien"@vi
     "Thinh Dan"@vi
@@ -7218,8 +7216,6 @@ WHERE {
     "Thiện Mỹ"@vi
     "Thiện Thuật"@vi
     "Thiện Tân"@vi
-    "Thiệu Hòa"@vi
-    "Thiệu Hóa"@vi
     "Thiệu Quang"@vi
     "Thiệu Tiến"@vi
     "Tho Chau"@vi
@@ -7661,7 +7657,6 @@ WHERE {
     "Thị trấn Thanh Sơn"@vi
     "Thị trấn Thanh Thủy"@vi
     "Thị trấn Thiên Cầm"@vi
-    "Thị trấn Thiệu Hóa"@vi
     "Thị trấn Thuận Châu"@vi
     "Thị trấn Thác Bà"@vi
     "Thị trấn Thông Nông"@vi
@@ -10155,7 +10150,6 @@ WHERE {
     "Xã Thiện Mỹ"@vi
     "Xã Thiện Thuật"@vi
     "Xã Thiện Tân"@vi
-    "Xã Thiệu Hòa"@vi
     "Xã Thiệu Quang"@vi
     "Xã Thiệu Tiến"@vi
     "Xã Thu Cúc"@vi
@@ -13376,7 +13370,6 @@ WHERE {
     "Thien Tan"@en
     "Thien Thuat"@en
     "Thiet Ong"@en
-    "Thieu Hoa"@en
     "Thieu Quang"@en
     "Thieu Tien"@en
     "Thinh Dan"@en
@@ -18349,7 +18342,6 @@ WHERE {
     "Thien Tan"@vi
     "Thien Thuat"@vi
     "Thiet Ong"@vi
-    "Thieu Hoa"@vi
     "Thieu Quang"@vi
     "Thieu Tien"@vi
     "Thinh Dan"@vi
@@ -18370,8 +18362,6 @@ WHERE {
     "Thiện Mỹ"@vi
     "Thiện Thuật"@vi
     "Thiện Tân"@vi
-    "Thiệu Hòa"@vi
-    "Thiệu Hóa"@vi
     "Thiệu Quang"@vi
     "Thiệu Tiến"@vi
     "Tho Chau"@vi
@@ -18813,7 +18803,6 @@ WHERE {
     "Thị trấn Thanh Sơn"@vi
     "Thị trấn Thanh Thủy"@vi
     "Thị trấn Thiên Cầm"@vi
-    "Thị trấn Thiệu Hóa"@vi
     "Thị trấn Thuận Châu"@vi
     "Thị trấn Thác Bà"@vi
     "Thị trấn Thông Nông"@vi
@@ -21307,7 +21296,6 @@ WHERE {
     "Xã Thiện Mỹ"@vi
     "Xã Thiện Thuật"@vi
     "Xã Thiện Tân"@vi
-    "Xã Thiệu Hòa"@vi
     "Xã Thiệu Quang"@vi
     "Xã Thiệu Tiến"@vi
     "Xã Thu Cúc"@vi
