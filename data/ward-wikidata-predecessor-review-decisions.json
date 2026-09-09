@@ -726,6 +726,23 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T18:06:13Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T18:06:13Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-09.28",
+      "selection": {"method": "lowest SHA-256(seed + NUL + local_id)", "seed": "2026-09-09-predecessor-gap-audit-v33", "population": 3094, "sample_size": 50, "sample_numbers": [23, 43]},
+      "reviewed_at": "2026-09-09T18:30:00Z",
+      "decisions": [
+        {"local_id": "w-4012141-base", "name_vi": "Xã Kiên Thọ", "outcome": "assign", "wikidata_qid": "Q10780301", "candidate_qids_checked": ["Q10780301", "Q135207610"], "mapping_note": "Q10780301 retains the former Ngọc Lặc commune identity, district parent, coordinates, and GeoNames 8549938; Q135207610 owns the current Kiên Thọ article and is reassigned to the distinct 2025 successor"},
+        {"local_id": "w-2210745-base", "name_vi": "Phường Phượng Sơn", "outcome": "assign", "wikidata_qid": "Q32296251", "candidate_qids_checked": ["Q2912488", "Q32296251"], "mapping_note": "Q32296251 retains the former Phượng Sơn commune identity, matching coordinates, and GeoNames 8376499 with old GSO code 07612; Q2912488 owns the current Phượng Sơn article and remains assigned to the 2025 successor"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v33.json", "role": "saved thirty-third-round 50-row live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate coordinate-backed historical identities"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish the new Kiên Thọ commune from its namesake predecessor"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition used to verify old-unit identities and successors"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T18:22:19Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T18:22:19Z"}
+      ]
     }
   ]
 }

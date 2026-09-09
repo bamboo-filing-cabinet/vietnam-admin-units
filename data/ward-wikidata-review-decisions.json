@@ -6903,6 +6903,21 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v32.json", "role": "saved thirty-second-round random-audit evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-09.92",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10780301", "Q135207610"], "local_id": "w-15112-2025-07-01", "mapping_note": "current Kiên Thọ commune selects Q135207610; release Q10780301 to the distinct pre-2025 Ngọc Lặc commune", "outcome": "assign", "rationale": "Q135207610 owns the current `Kiên Thọ` article, which documents the 2025 commune formed from Phúc Thịnh, Phùng Minh, and old Kiên Thọ. Q10780301 retains the former Ngọc Lặc district parent, old commune aliases, historical coordinates, and GeoNames 8549938.", "wikidata_qid": "Q135207610"}
+      ],
+      "reviewed_at": "2026-09-09T18:30:00Z",
+      "selection": {"input_status": "random-predecessor-gap-audit-v33", "sample_numbers": [23]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T18:22:19Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T18:22:19Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish the new Kiên Thọ commune from its namesake predecessor"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v33.json", "role": "saved thirty-third-round random-audit evidence"}
+      ]
     }
   ],
   "schema_version": 1,

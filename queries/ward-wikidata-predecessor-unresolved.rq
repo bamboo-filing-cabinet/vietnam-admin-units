@@ -1088,7 +1088,6 @@ WHERE {
     "Kien Phuc"@en
     "Kien Quoc"@en
     "Kien Thiet"@en
-    "Kien Tho"@en
     "Kien Xuong"@en
     "Kieu Ky"@en
     "Kim Bang"@en
@@ -4601,7 +4600,6 @@ WHERE {
     "Kien Phuc"@vi
     "Kien Quoc"@vi
     "Kien Thiet"@vi
-    "Kien Tho"@vi
     "Kien Xuong"@vi
     "Kieu Ky"@vi
     "Kim Bang"@vi
@@ -4647,7 +4645,6 @@ WHERE {
     "Kiên Lao"@vi
     "Kiên Lương"@vi
     "Kiên Mộc"@vi
-    "Kiên Thọ"@vi
     "Kiên Đài"@vi
     "Kiêu Kỵ"@vi
     "Kiến Giang"@vi
@@ -9400,7 +9397,6 @@ WHERE {
     "Xã Kim Đức"@vi
     "Xã Kiên Lao"@vi
     "Xã Kiên Mộc"@vi
-    "Xã Kiên Thọ"@vi
     "Xã Kiên Đài"@vi
     "Xã Kiêu Kỵ"@vi
     "Xã Kiến Hưng"@vi
@@ -12266,7 +12262,6 @@ WHERE {
     "Kien Phuc"@en
     "Kien Quoc"@en
     "Kien Thiet"@en
-    "Kien Tho"@en
     "Kien Xuong"@en
     "Kieu Ky"@en
     "Kim Bang"@en
@@ -15779,7 +15774,6 @@ WHERE {
     "Kien Phuc"@vi
     "Kien Quoc"@vi
     "Kien Thiet"@vi
-    "Kien Tho"@vi
     "Kien Xuong"@vi
     "Kieu Ky"@vi
     "Kim Bang"@vi
@@ -15825,7 +15819,6 @@ WHERE {
     "Kiên Lao"@vi
     "Kiên Lương"@vi
     "Kiên Mộc"@vi
-    "Kiên Thọ"@vi
     "Kiên Đài"@vi
     "Kiêu Kỵ"@vi
     "Kiến Giang"@vi
@@ -20578,7 +20571,6 @@ WHERE {
     "Xã Kim Đức"@vi
     "Xã Kiên Lao"@vi
     "Xã Kiên Mộc"@vi
-    "Xã Kiên Thọ"@vi
     "Xã Kiên Đài"@vi
     "Xã Kiêu Kỵ"@vi
     "Xã Kiến Hưng"@vi
