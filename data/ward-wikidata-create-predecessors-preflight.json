@@ -7,22 +7,22 @@
     "wikidata_write_performed": false
   },
   "input_fingerprints": {
-    "manifest_content_sha256": "f2a9c86512bbd803bcab5864d6a19f84d320aaa6b74537dd7ac5796c8b45327b",
-    "data/ward-wikidata-predecessor-unresolved-candidates.json": "9c0ca3651db200f5d6dc54cb58aa502767d204fc7f57ac2ebb81e080e92caacf",
-    "data/ward-wikidata-predecessor-article-candidates.json": "c93923027a501e36cef2fda046bac45dbfeb615b16ec44d32859bd05d061ad08",
-    "data/ward-wikidata-predecessor-context-candidates.json": "5857dda15d830f746122f32ae0830f24872d61bb3184735f63f8a3a0f9d9b0c4",
-    "data/ward-wikidata-predecessor-geonames-candidates.json": "f485b3c3445ddacd27a331f54dd2d7ea4d6e5a0151f372e1231bac63c1930822",
+    "manifest_content_sha256": "2fec1b68031fe576cda746e5d1dda1eabeb570c471fa1e9cc673a45ffa0cfc3d",
+    "data/ward-wikidata-predecessor-unresolved-candidates.json": "3de027db9fd51b4f0ad3398d58d579ae3facc65003f57bec2025545500401d81",
+    "data/ward-wikidata-predecessor-article-candidates.json": "6ac7eed815d31936d4dc6409525e4a803569c45c9bbaeccf5e990f66924af2cc",
+    "data/ward-wikidata-predecessor-context-candidates.json": "174a7a8b552500e29d996f268dd26faf67009d085adcd4f7c1e8a5e21f08eaf6",
+    "data/ward-wikidata-predecessor-geonames-candidates.json": "e59d3cee1eba48096342fc13adedcdabcce989364aa8e5ba293f845b796621de",
     "data/ward-wikidata-predecessor-gap-sample-v2-decisions.json": "82250c9c319a2b462e4dee20d963cf77b1884dbe1196cda47cc83485b603c2b4"
   },
   "evidence": {
-    "qlever_retrieved_at": "2026-09-09T20:54:40Z",
-    "action_api_retrieved_at": "2026-09-09T20:54:40Z",
+    "qlever_retrieved_at": "2026-09-09T21:02:41Z",
+    "action_api_retrieved_at": "2026-09-09T21:02:42Z",
     "age_hours_at_check": null,
     "max_age_hours": null
   },
   "audit": {
-    "items": 3053,
-    "clear_items": 3053,
+    "items": 3051,
+    "clear_items": 3051,
     "needs_review_items": 0,
     "fresh": true,
     "sample_reviewed_rows": 50,
@@ -4783,13 +4783,6 @@
     {
       "local_id": "w-2091501-base",
       "name_vi": "Thị trấn Lộc Bình",
-      "parent_qid": "Q6663916",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-2091531-base",
-      "name_vi": "Xã Mẫu Sơn",
       "parent_qid": "Q6663916",
       "classification": "no-broad-district-candidate",
       "status": "clear"
@@ -11736,13 +11729,6 @@
       "name_vi": "Phường An Cựu",
       "parent_qid": "Q131366792",
       "classification": "assigned-item-only",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-4110143-base",
-      "name_vi": "Phường Thuỷ Biều",
-      "parent_qid": "Q131366792",
-      "classification": "no-broad-district-candidate",
       "status": "clear"
     },
     {

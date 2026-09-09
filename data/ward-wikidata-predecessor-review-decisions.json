@@ -975,6 +975,23 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T20:49:38Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T20:49:38Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-09.42",
+      "selection": {"method": "lowest SHA-256(seed + NUL + local_id)", "seed": "2026-09-09-predecessor-gap-audit-v47", "population": 3053, "sample_size": 50, "sample_numbers": [21, 28]},
+      "reviewed_at": "2026-09-09T20:59:28Z",
+      "decisions": [
+        {"local_id": "w-2091531-base", "name_vi": "Xã Mẫu Sơn", "outcome": "assign", "wikidata_qid": "Q32284955", "candidate_qids_checked": ["Q10796516", "Q10796517", "Q32284955"], "mapping_note": "Q32284955 retains the exact former commune alias, Lộc Bình-area coordinates, and GeoNames 8522320; Q10796516 owns the current Mẫu Sơn article and remains assigned to the successor"},
+        {"local_id": "w-4110143-base", "name_vi": "Phường Thuỷ Biều", "outcome": "assign", "wikidata_qid": "Q10826751", "candidate_qids_checked": ["Q10826751", "Q10826780"], "mapping_note": "Q10826751 retains the exact former ward aliases and article, Huế coordinates, and GeoNames 8655461; Q10826780 owns the current Thủy Xuân article and remains assigned to the successor"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v47.json", "role": "saved forty-seventh-round 50-row live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate coordinate-backed historical identities"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current successors from historical units"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition used to verify old-unit identities and successors"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T20:58:28Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T20:58:28Z"}
+      ]
     }
   ]
 }

@@ -5242,7 +5242,7 @@ w-2091523-base,06595,Xã Minh Hiệp,Xã,188,,2025-06-30,,new,gap,,provisional p
 w-2091525-base,06598,Xã Hữu Lân,Xã,188,,2025-06-30,Q10772429,existing,verified,Q10772429,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-2091527-base,06550,Xã Hữu Khánh,Xã,188,,2025-06-30,Q10772424,existing,verified,Q10772424,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-2091529-base,06571,Xã Lục Thôn,Xã,188,,2019-12-31,,,deferred-historical,,
-w-2091531-base,06532,Xã Mẫu Sơn,Xã,188,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-2091531-base,06532,Xã Mẫu Sơn,Xã,188,,2025-06-30,Q32284955,existing,manual,Q10796516|Q10796517|Q32284955,"predecessor review 2026-09-09.42: Q32284955 retains the exact former commune alias, Lộc Bình-area coordinates, and GeoNames 8522320; Q10796516 owns the current Mẫu Sơn article and remains assigned to the successor"
 w-2091533-base,06541,Xã Yên Khoái,Xã,188,,2025-06-30,Q10838023,existing,verified,Q10838023,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-2091535-base,06547,Xã Tú Mịch,Xã,188,,2025-06-30,Q10831292,existing,verified,Q10831292,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-2091537-base,06559,Xã Tam Gia,Xã,188,,2025-06-30,Q10823770,existing,verified,Q10823770,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -10559,7 +10559,7 @@ w-4110135-base,19795,Phường Trường An,Phường,474,,2025-06-30,Q10828776,
 w-4110137-base,19798,Phường Phước Vĩnh,Phường,474,,2025-06-30,Q10806521,existing,verified,Q10806521,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4110139-base,19801,Phường An Cựu,Phường,474,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
 w-4110141-base,19804,Phường Hương Sơ,Phường,475,,2025-06-30,Q10771494,existing,verified,Q10771494,predecessor exact-folded-name+historical-district+ward-class+batched-wbgetentities
-w-4110143-base,19807,Phường Thuỷ Biều,Phường,474,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4110143-base,19807,Phường Thuỷ Biều,Phường,474,,2025-06-30,Q10826751,existing,manual,Q10826751|Q10826780,"predecessor review 2026-09-09.42: Q10826751 retains the exact former ward aliases and article, Huế coordinates, and GeoNames 8655461; Q10826780 owns the current Thủy Xuân article and remains assigned to the successor"
 w-4110145-base,19810,Phường Hương Long,Phường,475,,2025-06-30,Q10771468,existing,verified,Q10771468,predecessor exact-folded-name+historical-district+ward-class+batched-wbgetentities
 w-4110147-base,19813,Phường Thuỷ Xuân,Phường,474,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
 w-4110149-base,19816,Phường An Tây,Phường,474,,2025-06-30,Q10733373,existing,verified,Q10733373,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
