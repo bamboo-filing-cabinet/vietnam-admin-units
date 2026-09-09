@@ -870,6 +870,24 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T19:45:15Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T19:45:15Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-09.36",
+      "selection": {"method": "lowest SHA-256(seed + NUL + local_id)", "seed": "2026-09-09-predecessor-gap-audit-v41", "population": 3069, "sample_size": 50, "sample_numbers": [2, 8, 30]},
+      "reviewed_at": "2026-09-09T19:59:00Z",
+      "decisions": [
+        {"local_id": "w-8230711-base", "name_vi": "Xã Khánh Hưng", "outcome": "assign", "wikidata_qid": "Q32277346", "candidate_qids_checked": ["Q6403514", "Q6403516", "Q10779593", "Q32277346"], "mapping_note": "Q32277346 retains the exact former commune name and class, matching Trần Văn Thời-area coordinates, and GeoNames 9643214; Q6403516 owns the current Khánh Hưng article and remains assigned to the 2025 successor"},
+        {"local_id": "w-1090413-base", "name_vi": "Xã Hoàn Long", "outcome": "assign", "wikidata_qid": "Q10768876", "candidate_qids_checked": ["Q10768876", "Q10768877", "Q85882718"], "mapping_note": "Q10768876 was created from the original Hoàn Long page, retains the commune class and exact Yên Mỹ coordinates, and only inherited the disambiguation sitelink when that page was moved in 2019; Q10768877 owns the current Hoàn Long article and remains assigned to the 2025 successor"},
+        {"local_id": "w-6032123-base", "name_vi": "Xã Ia RBol", "outcome": "assign", "wikidata_qid": "Q32276755", "candidate_qids_checked": ["Q10772571", "Q32276755"], "mapping_note": "Q32276755 retains the exact former commune name and class, matching Ayun Pa-area coordinates, and GeoNames 8701247; Q10772571 owns the current Ia Rbol article and remains assigned to the 2025 successor"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v41.json", "role": "saved forty-first-round 50-row live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate coordinate-backed historical identities and reject wrong-location candidates"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current successors from historical units"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition used to verify old-unit identities and successors"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities, wbgetentities, and revision history for Q10768876 and Q10768877", "retrieved_at": "2026-09-09T19:59:00Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T19:54:19Z"}
+      ]
     }
   ]
 }

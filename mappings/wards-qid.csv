@@ -2535,7 +2535,7 @@ w-1090405-base,12058,Xã Nghĩa Hiệp,Xã,327,,2024-11-30,,,deferred-historical
 w-1090407-base,12061,Xã Đồng Than,Xã,327,,2025-06-30,Q10842004,existing,verified,Q10842004,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-1090409-base,12064,Xã Ngọc Long,Xã,327,,2025-06-30,Q10800640,existing,verified,Q10800640,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-1090411-base,12067,Xã Liêu Xá,Xã,327,,2025-06-30,Q10786609,existing,verified,Q10786609,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-1090413-base,12070,Xã Hoàn Long,Xã,327,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-1090413-base,12070,Xã Hoàn Long,Xã,327,,2025-06-30,Q10768876,existing,manual,Q10768876|Q10768877|Q85882718,"predecessor review 2026-09-09.36: Q10768876 was created from the original Hoàn Long page, retains the commune class and exact Yên Mỹ coordinates, and only inherited the disambiguation sitelink when that page was moved in 2019; Q10768877 owns the current Hoàn Long article and remains assigned to the 2025 successor"
 w-1090415-base,12073,Xã Tân Lập,Xã,327,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
 w-1090417-base,12076,Xã Thanh Long,Xã,327,,2025-06-30,Q10824798,existing,verified,Q10824798,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-1090419-base,12079,Xã Yên Phú,Xã,327,,2025-06-30,Q10838116,existing,verified,Q10838116,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -9301,7 +9301,7 @@ w-4014127-base,15811,Xã Thiệu Quang,Xã,398,,2025-06-30,,new,gap,,provisional
 w-4014129-base,15814,Xã Thiệu Thành,Xã,398,,2025-06-30,Q10825278,existing,verified,Q10825278,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4014131-base,15817,Xã Thiệu Toán,Xã,398,,2025-06-30,Q10825281,existing,manual,Q10825281|Q135163153,"predecessor review 2026-09-08.13: Q10825281 retains the former Thiệu Hóa commune identity, district parent, coordinates, and GeoNames 8550154; Q135163153 owns the current Thiệu Toán article and remains assigned to the 2025 successor"
 w-4014133-base,15820,Xã Thiệu Chính,Xã,398,,2025-06-30,Q10825258,existing,verified,Q10825258,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-4014135-base,15823,Xã Thiệu Hòa,Xã,398,,2025-06-30,Q10825265,existing,verified,Q10825265,predecessor broad exact-vi-name+terminal-district+ward-class+batched-wbgetentities
+w-4014135-base,15823,Xã Thiệu Hòa,Xã,398,,2025-06-30,Q10825265,existing,verified,Q10825265|Q10834103,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4014137-base,15826,Xã Thiệu Minh,Xã,398,,2019-11-30,,,deferred-historical,,
 w-4014139-base,15829,Thị trấn Hậu Hiền,Thị trấn,398,,2025-06-30,Q116780186,existing,verified,Q116780186,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4014141-base,15832,Xã Thiệu Viên,Xã,398,,2025-06-30,Q10825285,existing,verified,Q10825285,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -11762,7 +11762,7 @@ w-6032117-base,24031,Xã Ia Ma Rơn,Xã,635,,2025-06-30,Q10772544,existing,verif
 w-6032118-base,24019,Xã Ia KDăm,Xã,635,,2025-06-30,Q10772521,existing,verified,Q10772521,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6032119-base,24037,Xã Ia Trok,Xã,635,,2025-06-30,Q5980259,existing,verified,Q5980259,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6032121-base,24061,Xã Ia Hiao,Xã,638,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
-w-6032123-base,24064,Xã Ia RBol,Xã,624,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-6032123-base,24064,Xã Ia RBol,Xã,624,,2025-06-30,Q32276755,existing,manual,Q10772571|Q32276755,"predecessor review 2026-09-09.36: Q32276755 retains the exact former commune name and class, matching Ayun Pa-area coordinates, and GeoNames 8701247; Q10772571 owns the current Ia Rbol article and remains assigned to the 2025 successor"
 w-6032125-base,24067,Xã Ia Yeng,Xã,638,,2025-06-30,Q10772592,existing,verified,Q10772592,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6032127-base,24070,Xã Ia RTô,Xã,624,,2025-06-30,Q10772576,existing,verified,Q10772576,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6032128-base,24073,Xã Ia Sao,Xã,624,,2025-06-30,Q32276817,existing,manual,Q10772581|Q32276817,"predecessor review 2026-09-08.14: Q32276817 has the exact former commune alias, Ayun Pa-area coordinates, and GeoNames 8701246; Q10772581 owns the current Ia Sao article and remains assigned to the 2025 successor"
@@ -14498,7 +14498,7 @@ w-8230705-base,32116,Xã Khánh Bình Đông,Xã,968,,2025-06-30,Q6403510,existi
 w-8230707-base,32110,Xã Khánh Bình,Xã,968,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
 w-8230708-base,32101,Xã Khánh Bình Tây Bắc,Xã,968,,2025-06-30,Q6403509,existing,verified,Q6403509,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8230709-base,32104,Xã Khánh Bình Tây,Xã,968,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
-w-8230711-base,32113,Xã Khánh Hưng,Xã,968,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8230711-base,32113,Xã Khánh Hưng,Xã,968,,2025-06-30,Q32277346,existing,manual,Q6403514|Q6403516|Q10779593|Q32277346,"predecessor review 2026-09-09.36: Q32277346 retains the exact former commune name and class, matching Trần Văn Thời-area coordinates, and GeoNames 9643214; Q6403516 owns the current Khánh Hưng article and remains assigned to the 2025 successor"
 w-8230713-base,32107,Xã Trần Hợi,Xã,968,,2025-06-30,Q7849246,existing,verified,Q7849246,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8230715-base,32122,Xã Lợi An,Xã,968,,2025-06-30,Q6711774,existing,verified,Q6711774,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8230717-base,32119,Xã Khánh Hải,Xã,968,,2025-06-30,Q6403518,existing,verified,Q6403518,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
