@@ -7145,6 +7145,22 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v54.json", "role": "saved second exhaustive-batch live search and entity evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-10.107",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10830991", "Q134998434"], "local_id": "w-27712-2025-07-01", "mapping_note": "current Tân An ward selects Q134998434; release Q10830991 to the pre-2025 Cần Đước commune", "outcome": "assign", "rationale": "Q134998434 owns the current `Tân An, Tây Ninh` article, has the ward class, current province parent, and Tân An-area coordinates. Q10830991 instead explicitly describes the former Tân Ân commune in Cần Đước, retains its historical coordinates and GeoNames 9101458, and names Cần Đước as its replacement.", "wikidata_qid": "Q134998434"},
+        {"candidate_qids_checked": ["Q10767671", "Q10767672"], "local_id": "w-27952-2025-07-01", "mapping_note": "current Hiệp Hòa commune selects Q10767672; release Q10767671 to the pre-2025 Đức Hòa township", "outcome": "assign", "rationale": "Q10767672 owns the current `Hiệp Hòa, Tây Ninh` article, has the commune class and current province parent. Q10767671 instead retains the former township class, Đức Hòa district parent, historical coordinates, and GeoNames 9101409.", "wikidata_qid": "Q10767672"}
+      ],
+      "reviewed_at": "2026-09-10T16:00:52Z",
+      "selection": {"input_status": "exhaustive-predecessor-gap-review-v55", "sample_numbers": [27, 34]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-10T16:00:52Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-10T16:00:52Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current Tân An and Hiệp Hòa from their historical namesakes"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v55.json", "role": "saved third exhaustive-batch live search and entity evidence"}
+      ]
     }
   ],
   "schema_version": 1,

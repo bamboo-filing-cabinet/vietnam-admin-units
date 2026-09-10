@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "scope": {
+    "tier": "ward",
+    "purpose": "manual decisions for third exhaustive predecessor-gap review batch",
+    "wikidata_write_performed": false
+  },
+  "sampling": {
+    "method": "frozen exhaustive review queue batch",
+    "seed": "2026-09-10-predecessor-gap-exhaustive-review-v55",
+    "population": 3043,
+    "eligible_population": 1394,
+    "review_round": 55,
+    "sample_size": 50,
+    "batch_size": 10,
+    "batches": 5
+  },
+  "reviewed_at": "2026-09-10T16:00:52Z",
+  "batches": [
+    {
+      "batch_number": 1,
+      "decisions": [
+        {"sample_number": 1, "local_id": "w-4050913-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 2, "local_id": "w-1131511-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-wrong-location-items"},
+        {"sample_number": 3, "local_id": "w-8190527-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-disambiguation-or-wrong-location-items"},
+        {"sample_number": 4, "local_id": "w-3011735-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 5, "local_id": "w-7011507-base", "outcome": "no-distinct-item-found", "reason_code": "numbered-ward-candidates-belong-to-other-districts"},
+        {"sample_number": 6, "local_id": "w-2211309-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 7, "local_id": "w-4051307-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-wrong-location-items"},
+        {"sample_number": 8, "local_id": "w-1170553-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 9, "local_id": "w-8191117-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 10, "local_id": "w-5091317-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-wrong-location-items"}
+      ]
+    },
+    {
+      "batch_number": 2,
+      "decisions": [
+        {"sample_number": 11, "local_id": "w-2131711-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 12, "local_id": "w-08740-2004-06-30", "outcome": "no-distinct-item-found", "reason_code": "only-hanoi-current-ward-district-person-or-disambiguation-items"},
+        {"sample_number": 13, "local_id": "w-4051921-base", "outcome": "no-distinct-item-found", "reason_code": "no-exact-name-target-item-found"},
+        {"sample_number": 14, "local_id": "w-2170701-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-now-owns-current-successor-article"},
+        {"sample_number": 15, "local_id": "w-3050517-base", "outcome": "no-distinct-item-found", "reason_code": "disambiguation-only-documents-split-into-current-successors"},
+        {"sample_number": 16, "local_id": "w-2050107-base", "outcome": "no-distinct-item-found", "reason_code": "geonames-city-locality-item-is-not-historical-ward"},
+        {"sample_number": 17, "local_id": "w-2071217-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 18, "local_id": "w-8171103-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-now-owns-current-successor-article"},
+        {"sample_number": 19, "local_id": "w-7110205-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-now-owns-current-successor-article"},
+        {"sample_number": 20, "local_id": "w-8191119-base", "outcome": "no-distinct-item-found", "reason_code": "numbered-ward-candidates-belong-to-other-districts"}
+      ]
+    },
+    {
+      "batch_number": 3,
+      "decisions": [
+        {"sample_number": 21, "local_id": "w-7130501-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-now-owns-current-successor-article"},
+        {"sample_number": 22, "local_id": "w-7050715-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 23, "local_id": "w-7050307-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 24, "local_id": "w-6050315-base", "outcome": "no-distinct-item-found", "reason_code": "orthographic-variant-item-repurposed-to-current-successor"},
+        {"sample_number": 25, "local_id": "w-2151719-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 26, "local_id": "w-6051927-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 27, "local_id": "w-8012521-base", "outcome": "existing-predecessor-item-after-current-swap", "wikidata_qid": "Q10830991", "replacement_current_qid": "Q134998434", "reason_code": "old-tan-an-commune-item-released-by-distinct-current-tan-an-ward-article"},
+        {"sample_number": 28, "local_id": "w-5051525-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-wrong-location-items"},
+        {"sample_number": 29, "local_id": "w-1072315-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-wrong-location-items"},
+        {"sample_number": 30, "local_id": "w-2131541-base", "outcome": "no-distinct-item-found", "reason_code": "disambiguation-only-documents-absorption-into-current-successor"}
+      ]
+    },
+    {
+      "batch_number": 4,
+      "decisions": [
+        {"sample_number": 31, "local_id": "w-2171323-base", "outcome": "no-distinct-item-found", "reason_code": "orthographic-variant-item-repurposed-to-current-successor"},
+        {"sample_number": 32, "local_id": "w-2091503-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 33, "local_id": "w-4033543-base", "outcome": "no-distinct-item-found", "reason_code": "no-exact-name-target-item-found"},
+        {"sample_number": 34, "local_id": "w-8011505-base", "outcome": "existing-predecessor-item-after-current-swap", "wikidata_qid": "Q10767671", "replacement_current_qid": "Q10767672", "reason_code": "old-hiep-hoa-township-item-released-by-distinct-current-commune-article"},
+        {"sample_number": 35, "local_id": "w-5070501-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 36, "local_id": "w-1031119-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 37, "local_id": "w-1090647-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-disambiguation-or-wrong-location-items"},
+        {"sample_number": 38, "local_id": "w-7090501-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 39, "local_id": "w-1011311-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 40, "local_id": "w-1012131-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"}
+      ]
+    },
+    {
+      "batch_number": 5,
+      "decisions": [
+        {"sample_number": 41, "local_id": "w-1150519-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-disambiguation-or-wrong-location-items"},
+        {"sample_number": 42, "local_id": "w-2110963-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 43, "local_id": "w-5030103-base", "outcome": "no-distinct-item-found", "reason_code": "disambiguation-only-documents-absorption-into-current-successor"},
+        {"sample_number": 44, "local_id": "w-1052733-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 45, "local_id": "w-2050111-base", "outcome": "existing-predecessor-item", "wikidata_qid": "Q10834106", "reason_code": "exact-name-commune-class-lao-cai-description-coordinates-and-geonames-identity"},
+        {"sample_number": 46, "local_id": "w-1150549-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-wrong-location-items"},
+        {"sample_number": 47, "local_id": "w-6030917-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 48, "local_id": "w-8130403-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 49, "local_id": "w-3050507-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 50, "local_id": "w-1040911-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"}
+      ]
+    }
+  ],
+  "sources": [
+    {"path": "data/ward-wikidata-predecessor-gap-sample-v55.json", "role": "saved third exhaustive-batch live search and entity evidence"},
+    {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to confirm or reject coordinate-backed locality candidates"},
+    {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current successors from historical units"},
+    {"path": "data/ward-history.json", "role": "canonical predecessor composition used to verify old-unit identities and successors"},
+    {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-10T16:00:52Z"},
+    {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-10T16:00:52Z"}
+  ],
+  "audit": {
+    "reviewed_rows": 50,
+    "existing_predecessor_items": 3,
+    "current_mapping_swaps": 2,
+    "no_distinct_item_found": 47,
+    "sample_miss_rate": 0.06,
+    "creation_batch_authorized": false
+  }
+}

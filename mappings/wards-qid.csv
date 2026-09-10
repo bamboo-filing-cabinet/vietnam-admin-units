@@ -4728,7 +4728,7 @@ w-2050103-base,02638,Phường Lào Cai,Phường,080,,2020-02-29,,,deferred-his
 w-2050105-base,02644,Phường Cốc Lếu,Phường,080,,2025-06-30,Q11840167,existing,verified,Q11840167,predecessor unique-matching-viwiki-article+exact-tier+different-name-successor+batched-wbgetentities
 w-2050107-base,02641,Phường Lào Cai,Phường,080,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
 w-2050109-base,02647,Phường Kim Tân,Phường,080,,2025-06-30,Q10780000,existing,verified,Q10780000,predecessor exact-vietnamese-name+exact-tier+historical-parent-or-successor-context+batched-wbgetentities
-w-2050111-base,02665,Xã Vạn Hoà,Xã,080,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-2050111-base,02665,Xã Vạn Hoà,Xã,080,,2025-06-30,Q10834106,existing,manual,Q10787435|Q10834106,"predecessor review 2026-09-10.49: Q10834106 has the exact Vạn Hòa name, commune class, explicit former Lào Cai city description, matching coordinates, and GeoNames 8464971; Q10787435 remains assigned to the broader current Lào Cai ward"
 w-2050113-base,02662,Xã Đồng Tuyển,Xã,080,,2025-06-30,Q10842040,existing,verified,Q10842040,predecessor unique-matching-viwiki-article+exact-tier+different-name-successor+batched-wbgetentities
 w-2050115-base,02668,Phường Bắc Cường,Phường,080,,2025-06-30,Q10743331,existing,verified,Q10743331,predecessor unique-matching-viwiki-article+exact-tier+different-name-successor+batched-wbgetentities
 w-2050301-base,02650,Phường Bắc Lệnh,Phường,080,,2025-06-30,Q10743352,existing,verified,Q10743352,predecessor unique-matching-viwiki-article+exact-tier+different-name-successor+batched-wbgetentities
@@ -5516,7 +5516,7 @@ w-2130119-base,04270,Xã Minh Bảo,Xã,132,,2025-06-30,Q10793847,existing,verif
 w-2130121-base,04279,Xã Tân Thịnh,Xã,132,,2025-06-30,Q10830889,existing,verified,Q2183566|Q10830889,predecessor exact-vietnamese-name+exact-tier+historical-parent-or-successor-context+batched-wbgetentities
 w-2130301-base,04285,Phường Trung Tâm,Phường,133,,2025-06-30,Q10828398,existing,verified,Q10828398,predecessor exact-geonames-gso-code+district-code+name+tier+coordinates
 w-2130303-base,04282,Phường Pú Trạng,Phường,133,,2025-06-30,Q10809839,existing,verified,Q10809839,predecessor unique-matching-viwiki-article+exact-tier+different-name-successor+batched-wbgetentities
-w-2130305-base,04288,Phường Tân An,Phường,133,,2025-06-30,Q10830339,existing,verified,Q10830339|Q134998434,predecessor exact-vietnamese-name+exact-tier+historical-parent-or-successor-context+batched-wbgetentities
+w-2130305-base,04288,Phường Tân An,Phường,133,,2025-06-30,Q10830339,existing,verified,Q10830339,predecessor exact-vietnamese-name+exact-tier+historical-parent-or-successor-context+batched-wbgetentities
 w-2130307-base,04291,Phường Cầu Thia,Phường,133,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
 w-2130501-base,04303,Thị trấn Yên Thế,Thị trấn,135,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
 w-2130503-base,04339,Xã Yên Thắng,Xã,135,,2025-06-30,Q10838169,existing,verified,Q10838169,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -7610,7 +7610,7 @@ w-27676-2025-07-01,27676,Xã Thạnh An,Xã,79,2025-07-01,,Q10826236,existing,ma
 w-27692-2006-07-04,27692,Phường Tân Khánh,Phường,794,2006-07-04,2025-06-30,Q10830559,existing,verified,Q10830559,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-27694-2025-07-01,27694,Phường Long An,Phường,80,2025-07-01,,Q134988445,existing,matched,Q2587746|Q2874258|Q10786777|Q10786780|Q134988445,qlever-label+current-province+batched-wbgetentities
 w-27698-2006-07-04,27698,Phường 7,Phường,794,2006-07-04,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
-w-27712-2025-07-01,27712,Phường Tân An,Phường,80,2025-07-01,,Q10830991,existing,matched,Q1862735|Q2126866|Q2390731|Q2396841|Q2646896|Q10733192|Q10830334|Q10830335|Q10830336|Q10830338|Q10830339|Q10830342|Q10830343|Q10830345|Q10830346|Q10830347|Q10830350|Q10830991|Q136675874,qlever-label+current-province+batched-wbgetentities
+w-27712-2025-07-01,27712,Phường Tân An,Phường,80,2025-07-01,,Q134998434,existing,manual,Q1862735|Q2126866|Q2390731|Q2396841|Q2646896|Q10733192|Q10830334|Q10830335|Q10830336|Q10830338|Q10830339|Q10830342|Q10830343|Q10830345|Q10830346|Q10830347|Q10830350|Q10830991|Q134998434|Q136675874,review 2026-09-10.107: current Tân An ward selects Q134998434; release Q10830991 to the pre-2025 Cần Đước commune
 w-27715-2025-07-01,27715,Phường Khánh Hậu,Phường,80,2025-07-01,,Q10779599,existing,matched,Q10779599,qlever-label+current-province+batched-wbgetentities
 w-27721-2025-07-01,27721,Xã Tân Hưng,Xã,80,2025-07-01,,Q2554807,existing,manual,Q2059415|Q2369814|Q2554807|Q7862064|Q7862066|Q10830485|Q10830486|Q10830488|Q10830490|Q10830496|Q10830500|Q10830502|Q10830503|Q10830505|Q10830506|Q10830507,review 2026-09-10.106: current Tân Hưng commune selects Q2554807; release Q10830503 to the pre-2025 Tân Châu commune
 w-27727-2025-07-01,27727,Xã Hưng Điền,Xã,80,2025-07-01,,Q10771423,existing,matched,Q10771423,qlever-label+current-province+batched-wbgetentities
@@ -7643,7 +7643,7 @@ w-27928-2004-06-30,27928,Xã Mỹ Bình,Xã,801,2004-06-30,2025-06-30,,new,gap,,
 w-27931-2025-07-01,27931,Xã Hậu Nghĩa,Xã,80,2025-07-01,,Q10771787,existing,matched,Q10771787,qlever-label+current-province+batched-wbgetentities
 w-27937-2025-07-01,27937,Xã Đức Hòa,Xã,80,2025-07-01,,Q16479971,existing,matched,Q10842348|Q10842350|Q16479971|Q32602626,qlever-label+current-province+batched-wbgetentities
 w-27943-2025-07-01,27943,Xã An Ninh,Xã,80,2025-07-01,,Q135013744,existing,matched,Q4750168|Q10733265|Q10733266|Q10733267|Q135013744,broad-exact-vi+current-province+ward-class+batched-wbgetentities
-w-27952-2025-07-01,27952,Xã Hiệp Hòa,Xã,80,2025-07-01,,Q10767671,existing,matched,Q2375665|Q10767664|Q10767665|Q10767668|Q10767669|Q10767670|Q10767671|Q135040883,qlever-label+current-province+batched-wbgetentities
+w-27952-2025-07-01,27952,Xã Hiệp Hòa,Xã,80,2025-07-01,,Q10767672,existing,manual,Q2375665|Q10767664|Q10767665|Q10767668|Q10767669|Q10767670|Q10767671|Q10767672|Q135040883,review 2026-09-10.107: current Hiệp Hòa commune selects Q10767672; release Q10767671 to the pre-2025 Đức Hòa township
 w-27964-2025-07-01,27964,Xã Đức Lập,Xã,80,2025-07-01,,Q135034544,existing,matched,Q10842383|Q135034544,broad-exact-vi+current-province+ward-class+batched-wbgetentities
 w-27976-2025-07-01,27976,Xã Mỹ Hạnh,Xã,80,2025-07-01,,Q10796746,existing,matched,Q10796746|Q136527869,qlever-label+predecessor-district+batched-wbgetentities
 w-27979-2025-07-01,27979,Xã Hòa Khánh,Xã,80,2025-07-01,,Q135041661,existing,matched,Q10770972|Q135041661,qlever-label+current-province+batched-wbgetentities
@@ -13164,7 +13164,7 @@ w-8011317-base,27925,Xã Bình Hòa Nam,Xã,801,,2025-06-30,Q10742408,existing,v
 w-8011319-base,27922,Xã Bình Hòa Hưng,Xã,801,,2025-06-30,Q10742406,existing,verified,Q10742406,predecessor unique-matching-viwiki-article+exact-tier+different-name-successor+batched-wbgetentities
 w-8011501-base,27931,Thị trấn Hậu Nghĩa,Thị trấn,802,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
 w-8011503-base,27937,Thị trấn Đức Hòa,Thị trấn,802,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
-w-8011505-base,27934,Thị trấn Hiệp Hòa,Thị trấn,802,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8011505-base,27934,Thị trấn Hiệp Hòa,Thị trấn,802,,2025-06-30,Q10767671,existing,verified,Q10767671,predecessor broad exact-vi-name+terminal-district+ward-class+batched-wbgetentities
 w-8011507-base,27940,Xã Lộc Giang,Xã,802,,2025-06-30,Q10788756,existing,verified,Q10788756,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8011509-base,27943,Xã An Ninh Đông,Xã,802,,2025-06-30,Q10733271,existing,verified,Q10733271,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8011511-base,27946,Xã An Ninh Tây,Xã,802,,2025-06-30,Q10733270,existing,verified,Q10733270,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -13242,7 +13242,7 @@ w-8012513-base,28129,Xã Long Sơn,Xã,806,,2025-06-30,Q10786895,existing,verifi
 w-8012515-base,28123,Xã Long Hòa,Xã,806,,2025-06-30,Q10786823,existing,verified,Q10786823,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8012517-base,28132,Xã Tân Trạch,Xã,806,,2025-06-30,Q10830947,existing,verified,Q10830947,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8012519-base,28141,Xã Phước Tuy,Xã,806,,2025-06-30,Q10806504,existing,verified,Q10806504,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-8012521-base,28147,Xã Tân Ân,Xã,806,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8012521-base,28147,Xã Tân Ân,Xã,806,,2025-06-30,Q10830991,existing,manual,Q10752333|Q10830991|Q134998434,"predecessor review 2026-09-10.49: Q10830991 explicitly describes the former Cần Đước commune, retains the historical district parent, coordinates, and GeoNames 9101458, and names Q10752333 as its replacement; Q134998434 owns the distinct current Tân An, Tây Ninh ward article"
 w-8012523-base,28156,Xã Tân Chánh,Xã,806,,2025-06-30,Q10830393,existing,verified,Q10830393,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8012525-base,28135,Xã Mỹ Lệ,Xã,806,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
 w-8012527-base,28138,Xã Tân Lân,Xã,806,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight

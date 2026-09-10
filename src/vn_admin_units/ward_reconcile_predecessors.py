@@ -658,6 +658,9 @@ def main(argv: list[str] | None = None) -> None:
 
     base_mapping = _base_mapping(history, candidates)
     rendered_mapping = apply_matches(base_mapping, artifact)
+    if REVIEW_DECISIONS_PATH.is_file():
+        decisions = json.loads(REVIEW_DECISIONS_PATH.read_text(encoding="utf-8"))
+        rendered_mapping = apply_review_decisions(rendered_mapping, decisions)
     if BROAD_ARTIFACT_PATH.is_file():
         broad_artifact = json.loads(BROAD_ARTIFACT_PATH.read_text(encoding="utf-8"))
         rendered_mapping = apply_matches(rendered_mapping, broad_artifact)
@@ -676,9 +679,6 @@ def main(argv: list[str] | None = None) -> None:
             GEONAMES_ARTIFACT_PATH.read_text(encoding="utf-8")
         )
         rendered_mapping = apply_matches(rendered_mapping, geonames_artifact)
-    if REVIEW_DECISIONS_PATH.is_file():
-        decisions = json.loads(REVIEW_DECISIONS_PATH.read_text(encoding="utf-8"))
-        rendered_mapping = apply_review_decisions(rendered_mapping, decisions)
     if CREATION_MANIFEST_PATH.is_file():
         creation_manifest = json.loads(
             CREATION_MANIFEST_PATH.read_text(encoding="utf-8")
