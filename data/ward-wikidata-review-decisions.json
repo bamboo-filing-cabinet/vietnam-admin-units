@@ -7297,6 +7297,23 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v63.json", "role": "saved eleventh exhaustive-batch live search and entity evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-10.116",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10771778", "Q135113566"], "local_id": "w-16012-2025-07-01", "mapping_note": "current Hậu Lộc commune selects Q135113566; release Q10771778 to the pre-2025 district-capital township", "outcome": "assign", "rationale": "Q135113566 was created for and owns the current `Hậu Lộc (xã)` article. Q10771778 retains the former township class, Hậu Lộc district parent, historical coordinates, pre-2025 article history, and an explicit replacement link to Q135113566.", "wikidata_qid": "Q135113566"},
+        {"candidate_qids_checked": ["Q10840184", "Q135198274"], "local_id": "w-14950-2025-07-01", "mapping_note": "current Điền Lư commune selects Q135198274; release Q10840184 to the pre-2025 Bá Thước commune", "outcome": "assign", "rationale": "Q135198274 was created for and owns the current `Điền Lư` article. Q10840184 retains the former Bá Thước district parent, historical coordinates, GeoNames 8550075, and the pre-2025 article history.", "wikidata_qid": "Q135198274"},
+        {"candidate_qids_checked": ["Q10828375", "Q135183935"], "local_id": "w-14872-2025-07-01", "mapping_note": "current Trung Thành commune selects Q135183935; release Q10828375 to the pre-2025 Quan Hóa commune", "outcome": "assign", "rationale": "Q135183935 was created for and owns the current `Trung Thành, Thanh Hóa` article, which documents the 2025 formation from Thành Sơn and Trung Thành. Q10828375 retains the former Quan Hóa district parent, historical coordinates, GeoNames 8549685, pre-2025 article history, and an explicit replacement link.", "wikidata_qid": "Q135183935"}
+      ],
+      "reviewed_at": "2026-09-10T21:03:57Z",
+      "selection": {"input_status": "exhaustive-predecessor-gap-review-v65", "sample_numbers": [1, 13, 37]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities, wbgetentities, and revision history", "retrieved_at": "2026-09-10T21:03:57Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, redirects, and revision history", "retrieved_at": "2026-09-10T21:03:57Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced composition distinguishing current Hậu Lộc, Điền Lư, and Trung Thành from their historical components"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v65.json", "role": "saved thirteenth exhaustive-batch live search and entity evidence"}
+      ]
     }
   ],
   "schema_version": 1,

@@ -566,7 +566,6 @@ WHERE {
     "Dien Hong"@en
     "Dien Lac"@en
     "Dien Lam"@en
-    "Dien Lu"@en
     "Dien My"@en
     "Dien Nam Trung"@en
     "Dien Phuoc"@en
@@ -3658,7 +3657,6 @@ WHERE {
     "Dien Hong"@vi
     "Dien Lac"@vi
     "Dien Lam"@vi
-    "Dien Lu"@vi
     "Dien My"@vi
     "Dien Nam Trung"@vi
     "Dien Phuoc"@vi
@@ -7453,7 +7451,6 @@ WHERE {
     "Thị trấn Hương Canh"@vi
     "Thị trấn Hương Khê"@vi
     "Thị trấn Hạ Hoà"@vi
-    "Thị trấn Hậu Lộc"@vi
     "Thị trấn Hậu Nghĩa"@vi
     "Thị trấn Hồi Xuân"@vi
     "Thị trấn Hội An"@vi
@@ -10632,7 +10629,6 @@ WHERE {
     "Xã Đinh Trang Thượng"@vi
     "Xã Điềm He"@vi
     "Xã Điềm Thụy"@vi
-    "Xã Điền Lư"@vi
     "Xã Điền Mỹ"@vi
     "Xã Điền Xá"@vi
     "Xã Điện Hòa"@vi
@@ -10890,7 +10886,6 @@ WHERE {
     "Đinh Văn"@vi
     "Điềm He"@vi
     "Điềm Thụy"@vi
-    "Điền Lư"@vi
     "Điền Mỹ"@vi
     "Điền Xá"@vi
     "Điện An"@vi
@@ -11637,7 +11632,6 @@ WHERE {
     "Dien Hong"@en
     "Dien Lac"@en
     "Dien Lam"@en
-    "Dien Lu"@en
     "Dien My"@en
     "Dien Nam Trung"@en
     "Dien Phuoc"@en
@@ -14729,7 +14723,6 @@ WHERE {
     "Dien Hong"@vi
     "Dien Lac"@vi
     "Dien Lam"@vi
-    "Dien Lu"@vi
     "Dien My"@vi
     "Dien Nam Trung"@vi
     "Dien Phuoc"@vi
@@ -18524,7 +18517,6 @@ WHERE {
     "Thị trấn Hương Canh"@vi
     "Thị trấn Hương Khê"@vi
     "Thị trấn Hạ Hoà"@vi
-    "Thị trấn Hậu Lộc"@vi
     "Thị trấn Hậu Nghĩa"@vi
     "Thị trấn Hồi Xuân"@vi
     "Thị trấn Hội An"@vi
@@ -21703,7 +21695,6 @@ WHERE {
     "Xã Đinh Trang Thượng"@vi
     "Xã Điềm He"@vi
     "Xã Điềm Thụy"@vi
-    "Xã Điền Lư"@vi
     "Xã Điền Mỹ"@vi
     "Xã Điền Xá"@vi
     "Xã Điện Hòa"@vi
@@ -21961,7 +21952,6 @@ WHERE {
     "Đinh Văn"@vi
     "Điềm He"@vi
     "Điềm Thụy"@vi
-    "Điền Lư"@vi
     "Điền Mỹ"@vi
     "Điền Xá"@vi
     "Điện An"@vi

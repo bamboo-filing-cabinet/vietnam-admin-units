@@ -1287,6 +1287,29 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities, wbgetentities, and revision history", "retrieved_at": "2026-09-10T20:48:05Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and redirects", "retrieved_at": "2026-09-10T20:48:05Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-10.59",
+      "selection": {"method": "frozen exhaustive review queue batch", "seed": "2026-09-10-predecessor-gap-exhaustive-review-v65", "population": 3043, "eligible_population": 1394, "sample_size": 50, "sample_numbers": [1, 13, 26, 27, 34, 37, 41, 48], "related_current_corrections": ["w-16012-2025-07-01", "w-14950-2025-07-01", "w-14872-2025-07-01"]},
+      "reviewed_at": "2026-09-10T21:03:57Z",
+      "decisions": [
+        {"local_id": "w-4013901-base", "name_vi": "Thị trấn Hậu Lộc", "outcome": "assign", "wikidata_qid": "Q10771778", "candidate_qids_checked": ["Q5682295", "Q10771778", "Q10771780", "Q135113566"], "mapping_note": "Q10771778 retains the former township class, Hậu Lộc district parent, historical coordinates, pre-2025 article history, and an explicit replacement link to Q135113566, which owns the distinct current Hậu Lộc article"},
+        {"local_id": "w-4011319-base", "name_vi": "Xã Điền Lư", "outcome": "assign", "wikidata_qid": "Q10840184", "candidate_qids_checked": ["Q10840184", "Q135198274"], "mapping_note": "Q10840184 retains the former Bá Thước parent, commune class, historical coordinates, GeoNames 8550075, and pre-2025 article history; Q135198274 was created for and owns the distinct current Điền Lư article"},
+        {"local_id": "w-4070753-base", "name_vi": "Xã Quảng Thủy", "outcome": "assign", "wikidata_qid": "Q32298509", "candidate_qids_checked": ["Q10810494", "Q137855744", "Q32298509"], "mapping_note": "Q32298509 is a GeoNames-imported commune item created from the exact Xã Quảng Thuỷ article; its Ba Đồn-area coordinates and GeoNames 8646570 match the former commune, while Q137855744 stays on the current Nam Ba Đồn successor"},
+        {"local_id": "w-1110115-base", "name_vi": "Phường Châu Sơn", "outcome": "assign", "wikidata_qid": "Q32263027", "candidate_qids_checked": ["Q10748250", "Q10748253", "Q32263027"], "mapping_note": "Q32263027 is a GeoNames-imported commune item created from the exact Xã Châu Sơn, Hà Nam article; its Phủ Lý-area coordinates and GeoNames 8564046 match the former local entity, while Q10748253 stays on the current Châu Sơn successor"},
+        {"local_id": "w-1012113-base", "name_vi": "Phường Liên Mạc", "outcome": "assign", "wikidata_qid": "Q32279808", "candidate_qids_checked": ["Q10786539", "Q10826052", "Q32279808"], "mapping_note": "Q32279808 is a GeoNames-imported commune item created from the exact Xã Liên Mạc, Hà Nội article; its Bắc Từ Liêm-area coordinates and GeoNames 8616042 match the former commune, while Q10826052 stays on the current Thượng Cát successor"},
+        {"local_id": "w-4010927-base", "name_vi": "Xã Trung Thành", "outcome": "assign", "wikidata_qid": "Q10828375", "candidate_qids_checked": ["Q10828362", "Q10828372", "Q10828375", "Q135183935"], "mapping_note": "Q10828375 retains the former Quan Hóa parent, commune class, historical coordinates, GeoNames 8549685, and pre-2025 article history; it explicitly links to replacement Q135183935, which owns the distinct current Trung Thành article"},
+        {"local_id": "w-21341-2009-01-07", "name_vi": "Xã Sơn Long", "outcome": "assign", "wikidata_qid": "Q32301244", "candidate_qids_checked": ["Q10823270", "Q10823324", "Q16480407", "Q32301244"], "mapping_note": "Q32301244 is a GeoNames-imported commune item created from the exact Xã Sơn Long, Quảng Ngãi article; its Sơn Tây-area coordinates and GeoNames 8673102 match the former commune, while Q10823270 stays on the current Sơn Tây successor"},
+        {"local_id": "w-5110707-base", "name_vi": "Xã Xuân Đồng", "outcome": "assign", "wikidata_qid": "Q130437791", "candidate_qids_checked": ["Q10755944", "Q130437791"], "mapping_note": "Q130437791 owns the exact former Xuân Đồng article documenting the commune's 2024 formation from Diên Xuân and Diên Đồng; the article now redirects to the distinct current Diên Lâm successor Q10755944"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v65.json", "role": "saved thirteenth exhaustive-batch live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate the coordinate-backed historical identities"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current successors and namesakes from their historical components"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition and name history used to verify old-unit identities"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities, wbgetentities, and revision history", "retrieved_at": "2026-09-10T21:03:57Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, redirects, and revision history", "retrieved_at": "2026-09-10T21:03:57Z"}
+      ]
     }
   ]
 }

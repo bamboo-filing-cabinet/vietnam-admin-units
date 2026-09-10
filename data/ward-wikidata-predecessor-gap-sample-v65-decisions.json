@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "scope": {
+    "tier": "ward",
+    "purpose": "manual decisions for thirteenth exhaustive predecessor-gap review batch",
+    "wikidata_write_performed": false
+  },
+  "sampling": {
+    "method": "frozen exhaustive review queue batch",
+    "seed": "2026-09-10-predecessor-gap-exhaustive-review-v65",
+    "population": 3043,
+    "eligible_population": 1394,
+    "review_round": 65,
+    "sample_size": 50,
+    "batch_size": 10,
+    "batches": 5
+  },
+  "reviewed_at": "2026-09-10T21:03:57Z",
+  "batches": [
+    {
+      "batch_number": 1,
+      "decisions": [
+        {"sample_number": 1, "local_id": "w-4013901-base", "outcome": "existing-predecessor-item-after-current-swap", "wikidata_qid": "Q10771778", "replacement_current_qid": "Q135113566", "reason_code": "former-hau-loc-town-item-retains-old-class-parent-coordinates-and-replacement-link-while-new-item-owns-current-article"},
+        {"sample_number": 2, "local_id": "w-8051323-base", "outcome": "no-distinct-item-found", "reason_code": "only-renamed-current-successor-or-district-and-person-items"},
+        {"sample_number": 3, "local_id": "w-8050509-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation"},
+        {"sample_number": 4, "local_id": "w-2251711-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-special-zone-successor-or-wrong-location-and-non-unit-items"},
+        {"sample_number": 5, "local_id": "w-6051503-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 6, "local_id": "w-8150503-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-district-and-disambiguation-items"},
+        {"sample_number": 7, "local_id": "w-5050109-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-wrong-province-and-non-unit-items"},
+        {"sample_number": 8, "local_id": "w-7110801-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-former-city-and-non-unit-items"},
+        {"sample_number": 9, "local_id": "w-7131509-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation-and-wrong-province-item"},
+        {"sample_number": 10, "local_id": "w-7070311-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"}
+      ]
+    },
+    {
+      "batch_number": 2,
+      "decisions": [
+        {"sample_number": 11, "local_id": "w-2070515-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-person-and-name-items"},
+        {"sample_number": 12, "local_id": "w-8190917-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 13, "local_id": "w-4011319-base", "outcome": "existing-predecessor-item-after-current-swap", "wikidata_qid": "Q10840184", "replacement_current_qid": "Q135198274", "reason_code": "former-dien-lu-item-retains-old-parent-coordinates-and-geonames-while-new-item-owns-current-article"},
+        {"sample_number": 14, "local_id": "w-8230915-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation-and-wrong-location-items"},
+        {"sample_number": 15, "local_id": "w-2170513-base", "outcome": "no-distinct-item-found", "reason_code": "only-renamed-current-successor-or-disambiguation-and-non-vietnam-items"},
+        {"sample_number": 16, "local_id": "w-6030301-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-district-item"},
+        {"sample_number": 17, "local_id": "w-8190721-base", "outcome": "no-distinct-item-found", "reason_code": "only-renamed-current-successor-or-disambiguation-and-wrong-district-item"},
+        {"sample_number": 18, "local_id": "w-4050921-base", "outcome": "no-distinct-item-found", "reason_code": "only-renamed-current-successor-or-district-and-list-items"},
+        {"sample_number": 19, "local_id": "w-7011505-base", "outcome": "no-distinct-item-found", "reason_code": "only-renamed-current-successor-or-canal-and-river-items"},
+        {"sample_number": 20, "local_id": "w-1011527-base", "outcome": "no-distinct-item-found", "reason_code": "only-renamed-current-successor-or-wrong-location-geonames-items"}
+      ]
+    },
+    {
+      "batch_number": 3,
+      "decisions": [
+        {"sample_number": 21, "local_id": "w-3031141-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-non-vietnam-item"},
+        {"sample_number": 22, "local_id": "w-3011705-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-plant-park-and-non-vietnam-items"},
+        {"sample_number": 23, "local_id": "w-7170309-base", "outcome": "no-distinct-item-found", "reason_code": "only-renamed-current-successor-or-disambiguation"},
+        {"sample_number": 24, "local_id": "w-3010923-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation-river-and-non-vietnam-items"},
+        {"sample_number": 25, "local_id": "w-7170701-base", "outcome": "no-distinct-item-found", "reason_code": "only-renamed-current-successor-found"},
+        {"sample_number": 26, "local_id": "w-4070753-base", "outcome": "existing-predecessor-item", "wikidata_qid": "Q32298509", "reason_code": "exact-geonames-imported-commune-item-coordinates-match-former-quang-thuy-ba-don"},
+        {"sample_number": 27, "local_id": "w-1110115-base", "outcome": "existing-predecessor-item", "wikidata_qid": "Q32263027", "reason_code": "exact-geonames-imported-ha-nam-commune-item-coordinates-match-former-chau-son"},
+        {"sample_number": 28, "local_id": "w-8110921-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-disambiguation-and-separate-tra-vinh-namesake"},
+        {"sample_number": 29, "local_id": "w-2170749-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-historical-state-and-wrong-location-items"},
+        {"sample_number": 30, "local_id": "w-17723-2009-01-07", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-disambiguation-and-wrong-province-items"}
+      ]
+    },
+    {
+      "batch_number": 4,
+      "decisions": [
+        {"sample_number": 31, "local_id": "w-8190911-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-disambiguation-and-wrong-province-geonames-item"},
+        {"sample_number": 32, "local_id": "w-8011911-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation"},
+        {"sample_number": 33, "local_id": "w-4110713-base", "outcome": "no-distinct-item-found", "reason_code": "only-renamed-current-successor-or-former-district-item"},
+        {"sample_number": 34, "local_id": "w-1012113-base", "outcome": "existing-predecessor-item", "wikidata_qid": "Q32279808", "reason_code": "exact-geonames-imported-hanoi-commune-item-coordinates-match-former-lien-mac"},
+        {"sample_number": 35, "local_id": "w-27367-2025-01-01", "outcome": "no-distinct-item-found", "reason_code": "only-renamed-current-successor-or-other-numbered-ward-and-non-unit-items"},
+        {"sample_number": 36, "local_id": "w-26898-2006-12-08", "outcome": "no-distinct-item-found", "reason_code": "only-renamed-current-successor-or-other-numbered-ward-and-non-unit-items"},
+        {"sample_number": 37, "local_id": "w-4010927-base", "outcome": "existing-predecessor-item-after-current-swap", "wikidata_qid": "Q10828375", "replacement_current_qid": "Q135183935", "reason_code": "former-trung-thanh-item-retains-old-parent-coordinates-geonames-and-article-history-while-new-item-owns-current-article"},
+        {"sample_number": 38, "local_id": "w-8190603-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation"},
+        {"sample_number": 39, "local_id": "w-7090101-base", "outcome": "no-distinct-item-found", "reason_code": "only-renamed-current-successor-or-other-numbered-ward-and-non-unit-items"},
+        {"sample_number": 40, "local_id": "w-1090501-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-district-disambiguation-and-wrong-location-items"}
+      ]
+    },
+    {
+      "batch_number": 5,
+      "decisions": [
+        {"sample_number": 41, "local_id": "w-21341-2009-01-07", "outcome": "existing-predecessor-item", "wikidata_qid": "Q32301244", "reason_code": "exact-geonames-imported-quang-ngai-commune-item-coordinates-match-former-son-long-son-tay"},
+        {"sample_number": 42, "local_id": "w-2070741-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-district-and-disambiguation-items"},
+        {"sample_number": 43, "local_id": "w-2130915-base", "outcome": "no-distinct-item-found", "reason_code": "only-renamed-current-successor-found"},
+        {"sample_number": 44, "local_id": "w-3030109-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-name-item"},
+        {"sample_number": 45, "local_id": "w-5110215-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation-and-non-vietnam-items"},
+        {"sample_number": 46, "local_id": "w-1151133-base", "outcome": "no-distinct-item-found", "reason_code": "only-renamed-current-successor-or-disambiguation-and-wrong-district-item"},
+        {"sample_number": 47, "local_id": "w-2211733-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation-person-and-wrong-location-items"},
+        {"sample_number": 48, "local_id": "w-5110707-base", "outcome": "existing-predecessor-item", "wikidata_qid": "Q130437791", "reason_code": "exact-former-xuan-dong-article-documents-2024-formation-and-now-redirects-to-dien-lam-successor"},
+        {"sample_number": 49, "local_id": "w-4032349-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-person-animal-and-wrong-location-items"},
+        {"sample_number": 50, "local_id": "w-7110345-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation-person-and-non-vietnam-items"}
+      ]
+    }
+  ],
+  "audit": {
+    "reviewed_rows": 50,
+    "existing_predecessor_items": 8,
+    "current_mapping_swaps": 3,
+    "no_distinct_item_found": 42,
+    "sample_miss_rate": 0.16,
+    "creation_batch_authorized": false
+  }
+}
