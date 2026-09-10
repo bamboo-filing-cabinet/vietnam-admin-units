@@ -1,0 +1,357 @@
+{
+  "schema_version": 1,
+  "scope": {
+    "tier": "ward",
+    "purpose": "manual decisions for ninth exhaustive predecessor-gap review batch",
+    "wikidata_write_performed": false
+  },
+  "sampling": {
+    "method": "frozen exhaustive review queue batch",
+    "seed": "2026-09-10-predecessor-gap-exhaustive-review-v61",
+    "population": 3043,
+    "eligible_population": 1394,
+    "review_round": 61,
+    "sample_size": 50,
+    "batch_size": 10,
+    "batches": 5
+  },
+  "reviewed_at": "2026-09-10T19:51:13Z",
+  "batches": [
+    {
+      "batch_number": 1,
+      "decisions": [
+        {
+          "sample_number": 1,
+          "local_id": "w-4030907-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 2,
+          "local_id": "w-6011303-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 3,
+          "local_id": "w-7170511-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "only-renamed-current-successor-found"
+        },
+        {
+          "sample_number": 4,
+          "local_id": "w-5032519-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 5,
+          "local_id": "w-2250103-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 6,
+          "local_id": "w-3011513-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 7,
+          "local_id": "w-6010119-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 8,
+          "local_id": "w-2010907-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 9,
+          "local_id": "w-5030515-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 10,
+          "local_id": "w-5071309-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "only-renamed-current-successor-found"
+        }
+      ]
+    },
+    {
+      "batch_number": 2,
+      "decisions": [
+        {
+          "sample_number": 11,
+          "local_id": "w-8011701-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 12,
+          "local_id": "w-8090725-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 13,
+          "local_id": "w-2171975-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 14,
+          "local_id": "w-5030505-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "only-renamed-current-successor-found"
+        },
+        {
+          "sample_number": 15,
+          "local_id": "w-3031931-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 16,
+          "local_id": "w-4033171-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "only-renamed-current-successor-or-wrong-location-items"
+        },
+        {
+          "sample_number": 17,
+          "local_id": "w-2051715-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 18,
+          "local_id": "w-2011733-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 19,
+          "local_id": "w-4030913-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 20,
+          "local_id": "w-8150325-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        }
+      ]
+    },
+    {
+      "batch_number": 3,
+      "decisions": [
+        {
+          "sample_number": 21,
+          "local_id": "w-1010501-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-one-current-successor"
+        },
+        {
+          "sample_number": 22,
+          "local_id": "w-4050701-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 23,
+          "local_id": "w-2110723-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-and-geonames-stub-is-in-bac-giang"
+        },
+        {
+          "sample_number": 24,
+          "local_id": "w-1070717-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "only-renamed-current-successor-disambiguation-or-wrong-location-items"
+        },
+        {
+          "sample_number": 25,
+          "local_id": "w-26526-2004-12-24",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "no-administrative-unit-candidate-found"
+        },
+        {
+          "sample_number": 26,
+          "local_id": "w-8051723-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 27,
+          "local_id": "w-4031909-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "only-renamed-current-successor-found"
+        },
+        {
+          "sample_number": 28,
+          "local_id": "w-8052102-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 29,
+          "local_id": "w-4033505-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "only-disambiguation-wrong-location-or-successor-items"
+        },
+        {
+          "sample_number": 30,
+          "local_id": "w-4030911-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        }
+      ]
+    },
+    {
+      "batch_number": 4,
+      "decisions": [
+        {
+          "sample_number": 31,
+          "local_id": "w-23268-2005-09-20",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "only-renamed-current-successor-disambiguation-or-wrong-location-items"
+        },
+        {
+          "sample_number": 32,
+          "local_id": "w-7110213-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 33,
+          "local_id": "w-3031328-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 34,
+          "local_id": "w-03388-2012-11-03",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "only-renamed-current-successor-disambiguation-or-wrong-location-items"
+        },
+        {
+          "sample_number": 35,
+          "local_id": "w-1071339-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "only-renamed-current-successor-disambiguation-or-wrong-location-items"
+        },
+        {
+          "sample_number": 36,
+          "local_id": "w-8230127-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 37,
+          "local_id": "w-2252531-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 38,
+          "local_id": "w-1011957-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "only-renamed-current-successor-or-wrong-location-items"
+        },
+        {
+          "sample_number": 39,
+          "local_id": "w-8110729-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "only-renamed-current-successor-and-distinct-binh-khanh-tay-item"
+        },
+        {
+          "sample_number": 40,
+          "local_id": "w-1090933-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        }
+      ]
+    },
+    {
+      "batch_number": 5,
+      "decisions": [
+        {
+          "sample_number": 41,
+          "local_id": "w-8071325-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "only-renamed-current-successor-disambiguation-or-wrong-location-items"
+        },
+        {
+          "sample_number": 42,
+          "local_id": "w-6032121-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 43,
+          "local_id": "w-8070943-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 44,
+          "local_id": "w-2151511-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 45,
+          "local_id": "w-8031701-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 46,
+          "local_id": "w-4030939-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 47,
+          "local_id": "w-2170919-base",
+          "outcome": "no-distinct-item-found",
+          "replacement_current_qid": "Q10802081",
+          "reason_code": "same-geography-article-item-repurposed-to-current-successor-after-unrelated-current-map-correction"
+        },
+        {
+          "sample_number": 48,
+          "local_id": "w-2131527-base",
+          "outcome": "existing-predecessor-item",
+          "wikidata_qid": "Q32288081",
+          "replacement_current_qid": "Q10828398",
+          "reason_code": "exact-geonames-item-matches-old-nghia-loi-and-current-trung-tam-item-corrected"
+        },
+        {
+          "sample_number": 49,
+          "local_id": "w-2070913-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 50,
+          "local_id": "w-1131737-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        }
+      ]
+    }
+  ],
+  "audit": {
+    "reviewed_rows": 50,
+    "existing_predecessor_items": 1,
+    "current_mapping_swaps": 0,
+    "no_distinct_item_found": 49,
+    "sample_miss_rate": 0.02,
+    "creation_batch_authorized": false
+  }
+}

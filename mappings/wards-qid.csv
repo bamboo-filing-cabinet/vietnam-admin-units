@@ -631,7 +631,7 @@ w-04630-2025-07-01,04630,Xã Tú Lệ,Xã,15,2025-07-01,,Q10831293,existing,matc
 w-04636-2025-07-01,04636,Xã Gia Hội,Xã,15,2025-07-01,,Q10761337,existing,matched,Q10761337|Q10805897,qlever-label+current-province+batched-wbgetentities
 w-04651-2025-07-01,04651,Xã Sơn Lương,Xã,15,2025-07-01,,Q10823337,existing,matched,Q10823337,qlever-label+current-province+batched-wbgetentities
 w-04660-2025-07-01,04660,Xã Liên Sơn,Xã,15,2025-07-01,,Q30923256,existing,matched,Q2320480|Q10786557|Q10786558|Q10786559|Q10786560|Q10786561|Q10786610|Q30923256,qlever-label+current-province+batched-wbgetentities
-w-04663-2025-07-01,04663,Phường Trung Tâm,Phường,15,2025-07-01,,Q10828396,existing,matched,Q10828396|Q10828398,qlever-label+current-province+batched-wbgetentities
+w-04663-2025-07-01,04663,Phường Trung Tâm,Phường,15,2025-07-01,,Q10828398,existing,manual,Q10828396|Q10828398,review 2026-09-10.113: current Trung Tâm ward selects Q10828398; replace unrelated Q10828396 and retire Q10828398 from the historical Trung Tâm ward
 w-04672-2025-07-01,04672,Xã Văn Chấn,Xã,15,2025-07-01,,Q10823389,existing,matched,Q10823389,qlever-label+current-province+batched-wbgetentities
 w-04681-2025-07-01,04681,Phường Cầu Thia,Phường,15,2025-07-01,,Q10752402,existing,manual,Q10752402,review 2026-09-02.09: current Lào Cai page selects Q10752402 despite missing P131
 w-04693-2025-07-01,04693,Xã Cát Thịnh,Xã,15,2025-07-01,,Q10751825,existing,matched,Q10751825,qlever-label+current-province+batched-wbgetentities
@@ -955,7 +955,7 @@ w-08134-2025-07-01,08134,Xã Văn Lang,Xã,25,2025-07-01,,Q10833383,existing,mat
 w-08143-2025-07-01,08143,Xã Vĩnh Chân,Xã,25,2025-07-01,,Q10833533,existing,matched,Q10833533,qlever-label+current-province+batched-wbgetentities
 w-08152-2025-07-01,08152,Xã Thanh Ba,Xã,25,2025-07-01,,Q10824707,existing,matched,Q10824707,qlever-label+current-province+batched-wbgetentities
 w-08156-2009-02-03,08156,Xã Vân Lĩnh,Xã,232,2009-02-03,2025-06-30,Q10833138,existing,verified,Q10833138,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-08173-2025-07-01,08173,Xã Quảng Yên,Xã,25,2025-07-01,,Q10810082,existing,matched,Q10810082|Q10810534|Q10810535,qlever-label+current-province+batched-wbgetentities
+w-08173-2025-07-01,08173,Xã Quảng Yên,Xã,25,2025-07-01,,Q10802081,existing,manual,Q10802081|Q10810082|Q10810534|Q10810535,review 2026-09-10.113: current Quảng Yên commune selects Q10802081; replace the unrelated Q10810082 mapping from former Sông Lô
 w-08203-2025-07-01,08203,Xã Hoàng Cương,Xã,25,2025-07-01,,Q20025771,existing,matched,Q20025771,qlever-label+current-province+batched-wbgetentities
 w-08209-2025-07-01,08209,Xã Đông Thành,Xã,25,2025-07-01,,Q10840852,existing,matched,Q10840842|Q10840843|Q10840844|Q10840849|Q10840850|Q10840851|Q10840852|Q10840859|Q10840860|Q10840863|Q10840864|Q10842006|Q10842007|Q10842014|Q16481175|Q32601857,qlever-label+current-province+batched-wbgetentities
 w-08218-2025-07-01,08218,Xã Chí Tiên,Xã,25,2025-07-01,,Q10748314,existing,matched,Q10748314,qlever-label+current-province+batched-wbgetentities
@@ -1611,7 +1611,7 @@ w-1040307-base,08764,Xã Quang Sơn,Xã,246,,2025-06-30,Q10810027,existing,verif
 w-1040309-base,08767,Xã Ngọc Mỹ,Xã,246,,2025-06-30,Q10800658,existing,verified,Q10800658,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-1040311-base,08770,Xã Hợp Lý,Xã,246,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
 w-1040313-base,08773,Xã Lãng Công,Xã,253,,2025-06-30,Q10787532,existing,verified,Q10787530|Q10787532,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-1040315-base,08776,Xã Quang Yên,Xã,253,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-1040315-base,08776,Xã Quang Yên,Xã,253,,2025-06-30,Q10810082,existing,verified,Q10810082,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-1040317-base,08779,Xã Bạch Lưu,Xã,253,,2024-12-31,,,deferred-historical,,
 w-1040319-base,08782,Xã Hải Lựu,Xã,253,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
 w-1040321-base,08920,Xã Bồ Lý,Xã,248,,2025-06-30,Q10743619,existing,verified,Q10743619,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -5514,7 +5514,7 @@ w-2130115-base,04273,Phường Nam Cường,Phường,132,,2025-06-30,,new,gap,,
 w-2130117-base,04276,Xã Tuy Lộc,Xã,132,,2025-06-30,Q10830101,existing,verified,Q10830098|Q10830101,predecessor exact-vietnamese-name+exact-tier+historical-parent-or-successor-context+batched-wbgetentities
 w-2130119-base,04270,Xã Minh Bảo,Xã,132,,2025-06-30,Q10793847,existing,verified,Q10793847,predecessor unique-matching-viwiki-article+exact-tier+different-name-successor+batched-wbgetentities
 w-2130121-base,04279,Xã Tân Thịnh,Xã,132,,2025-06-30,Q10830889,existing,verified,Q2183566|Q10830889,predecessor exact-vietnamese-name+exact-tier+historical-parent-or-successor-context+batched-wbgetentities
-w-2130301-base,04285,Phường Trung Tâm,Phường,133,,2025-06-30,Q10828398,existing,verified,Q10828398,predecessor exact-geonames-gso-code+district-code+name+tier+coordinates
+w-2130301-base,04285,Phường Trung Tâm,Phường,133,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
 w-2130303-base,04282,Phường Pú Trạng,Phường,133,,2025-06-30,Q10809839,existing,verified,Q10809839,predecessor unique-matching-viwiki-article+exact-tier+different-name-successor+batched-wbgetentities
 w-2130305-base,04288,Phường Tân An,Phường,133,,2025-06-30,Q10830339,existing,verified,Q10830339,predecessor exact-vietnamese-name+exact-tier+historical-parent-or-successor-context+batched-wbgetentities
 w-2130307-base,04291,Phường Cầu Thia,Phường,133,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
@@ -5539,7 +5539,7 @@ w-2130535-base,04345,Xã Vĩnh Lạc,Xã,135,,2025-06-30,Q10833600,existing,veri
 w-2130537-base,04363,Xã Phúc Lợi,Xã,135,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
 w-2130539-base,04354,Xã Tân Lập,Xã,135,,2025-06-30,Q10830623,existing,verified,Q10830623,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-2130541-base,04357,Xã Minh Tiến,Xã,135,,2025-06-30,Q10793977,existing,verified,Q10793977,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-2130543-base,04372,Xã Trung Tâm,Xã,135,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-2130543-base,04372,Xã Trung Tâm,Xã,135,,2025-06-30,Q10828396,existing,verified,Q10828396,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-2130545-base,04366,Xã Phan Thanh,Xã,135,,2025-06-30,Q10805069,existing,verified,Q10805069,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-2130547-base,04369,Xã An Phú,Xã,135,,2025-06-30,Q10733279,existing,verified,Q10733279,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-21307-2025-07-01,21307,Xã Sơn Linh,Xã,51,2025-07-01,,Q10823321,existing,matched,Q10823321|Q10823334,qlever-label+current-province+batched-wbgetentities
@@ -5651,7 +5651,7 @@ w-2131519-base,04651,Xã Sơn Lương,Xã,140,,2025-06-30,,new,gap,,provisional 
 w-2131521-base,04654,Xã Suối Quyền,Xã,140,,2025-06-30,Q10822294,existing,verified,Q10822294,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-2131523-base,04645,Xã An Lương,Xã,140,,2025-06-30,Q10733221,existing,verified,Q10733221,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-2131525-base,04660,Xã Sơn A,Xã,133,,2025-06-30,Q10823247,existing,verified,Q10823247,predecessor exact-folded-name+historical-district+ward-class+batched-wbgetentities
-w-2131527-base,04294,Xã Nghĩa Lợi,Xã,133,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-2131527-base,04294,Xã Nghĩa Lợi,Xã,133,,2025-06-30,Q32288081,existing,manual,Q7022345|Q10798790|Q10828396|Q10828398|Q32288081,"predecessor review 2026-09-10.55: Q32288081 is a GeoNames-imported commune item created from the Cebuano Xã Nghĩa Lợi article; its exact identity, Nghĩa Lộ-area coordinates, and GeoNames 8526376 match the former commune. Q10828398 owns the current Trung Tâm article, while Q10828396 is the unrelated former Trung Tâm commune in Lục Yên"
 w-2131529-base,04297,Xã Nghĩa Phúc,Xã,133,,2025-06-30,Q10798813,existing,verified,Q10798812|Q10798813|Q32288205,predecessor exact-vietnamese-name+exact-tier+historical-parent-or-successor-context+batched-wbgetentities
 w-2131531-base,04663,Xã Phù Nham,Xã,133,,2025-06-30,Q10805809,existing,verified,Q10805809,predecessor exact-folded-name+historical-district+ward-class+batched-wbgetentities
 w-2131533-base,04657,Xã Suối Giàng,Xã,140,,2025-06-30,Q10822263,existing,verified,Q10822263,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities

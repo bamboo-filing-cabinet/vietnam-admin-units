@@ -2771,15 +2771,15 @@ LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 LAST	P131	Q26019	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
-LAST	Lvi	"Phường Cầu Thia"
+LAST	Lvi	"Phường Trung Tâm"
 LAST	Dvi	"phường cũ thuộc thị xã Nghĩa Lộ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 LAST	P131	Q7022345	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
-LAST	Lvi	"Xã Nghĩa Lợi"
-LAST	Dvi	"xã cũ thuộc thị xã Nghĩa Lộ, Việt Nam, giải thể năm 2025"
-LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
+LAST	Lvi	"Phường Cầu Thia"
+LAST	Dvi	"phường cũ thuộc thị xã Nghĩa Lộ, Việt Nam, giải thể năm 2025"
+LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 LAST	P131	Q7022345	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
@@ -2808,12 +2808,6 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.
 LAST	P131	Q6695817	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
 LAST	Lvi	"Xã Phúc Lợi"
-LAST	Dvi	"xã cũ thuộc huyện Lục Yên, Việt Nam, giải thể năm 2025"
-LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
-LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
-LAST	P131	Q6695817	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
-CREATE
-LAST	Lvi	"Xã Trung Tâm"
 LAST	Dvi	"xã cũ thuộc huyện Lục Yên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
@@ -5182,12 +5176,6 @@ LAST	Dvi	"xã cũ thuộc huyện Lập Thạch, Việt Nam, giải thể năm 2
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 LAST	P131	Q1001799	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
-CREATE
-LAST	Lvi	"Xã Quang Yên"
-LAST	Dvi	"xã cũ thuộc huyện Sông Lô, Việt Nam, giải thể năm 2025"
-LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
-LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
-LAST	P131	Q7561019	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Lvi	"Xã Hải Lựu"
 LAST	Dvi	"xã cũ thuộc huyện Sông Lô, Việt Nam, giải thể năm 2025"

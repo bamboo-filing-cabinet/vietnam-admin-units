@@ -5,7 +5,7 @@
     "purpose": "superseding corrections to predecessor-gap decisions and mappings",
     "wikidata_write_performed": false
   },
-  "reviewed_at": "2026-09-10T19:23:20Z",
+  "reviewed_at": "2026-09-10T19:51:13Z",
   "batches": [
     {
       "batch_number": 1,
@@ -66,6 +66,19 @@
           "reason_code": "item-now-owns-current-phu-vinh-article-and-no-separate-historical-vinh-thanh-item-exists"
         }
       ]
+    },
+    {
+      "batch_number": 5,
+      "decisions": [
+        {
+          "sample_number": 48,
+          "local_id": "w-2130301-base",
+          "outcome": "no-distinct-item-found",
+          "supersedes": "automatic predecessor mapping to Q10828398 exposed by exhaustive review v61 sample 48",
+          "invalidated_wikidata_qid": "Q10828398",
+          "reason_code": "item-now-owns-current-trung-tam-article-and-no-separate-historical-ward-item-exists"
+        }
+      ]
     }
   ],
   "sources": [
@@ -92,6 +105,10 @@
     {
       "path": "data/ward-wikidata-predecessor-gap-sample-v60.json",
       "role": "saved eighth exhaustive-batch evidence exposing the repurposed current Phú Vinh item"
+    },
+    {
+      "path": "data/ward-wikidata-predecessor-gap-sample-v61.json",
+      "role": "saved ninth exhaustive-batch evidence exposing the repurposed current Trung Tâm item"
     },
     {
       "path": "data/ward-2025-composition.json",
@@ -126,12 +143,22 @@
       "endpoint": "https://vi.wikipedia.org/w/api.php",
       "method": "pageprops and extracts",
       "retrieved_at": "2026-09-10T19:23:20Z"
+    },
+    {
+      "endpoint": "https://www.wikidata.org/w/api.php",
+      "method": "wbgetentities and revision history",
+      "retrieved_at": "2026-09-10T19:51:13Z"
+    },
+    {
+      "endpoint": "https://vi.wikipedia.org/w/api.php",
+      "method": "pageprops, extracts, and revision history",
+      "retrieved_at": "2026-09-10T19:51:13Z"
     }
   ],
   "audit": {
-    "reviewed_rows": 5,
-    "superseded_decisions": 5,
+    "reviewed_rows": 6,
+    "superseded_decisions": 6,
     "existing_predecessor_items": 0,
-    "no_distinct_item_found": 5
+    "no_distinct_item_found": 6
   }
 }

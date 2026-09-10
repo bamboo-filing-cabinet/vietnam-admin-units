@@ -7246,6 +7246,22 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v60.json", "role": "saved eighth exhaustive-batch live search and entity evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-10.113",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10802081", "Q10810082"], "local_id": "w-08173-2025-07-01", "mapping_note": "current Quảng Yên commune selects Q10802081; replace the unrelated Q10810082 mapping from former Sông Lô", "outcome": "assign", "rationale": "Q10802081 owns the current `Quảng Yên, Phú Thọ` article and retains the former Thanh Ba parent, matching coordinates, and GeoNames 8200204. The official composition forms current Quảng Yên from Đại An, Đông Lĩnh, and the former Quảng Yên. Q10810082 is instead the former Quang Yên commune in Sông Lô, with a different parent, coordinates, and GeoNames 8138949; its article now redirects to Yên Lãng.", "wikidata_qid": "Q10802081"},
+        {"candidate_qids_checked": ["Q10828396", "Q10828398"], "local_id": "w-04663-2025-07-01", "mapping_note": "current Trung Tâm ward selects Q10828398; replace unrelated Q10828396 and retire Q10828398 from the historical Trung Tâm ward", "outcome": "assign", "rationale": "Q10828398 owns the current `Trung Tâm (phường)` article, has Nghĩa Lộ-area coordinates and GeoNames 8526377, and was updated to the current Lào Cai ward description after the 2025 merger. Q10828396 is the unrelated former Trung Tâm commune in Lục Yên, with its old district parent, different coordinates, and GeoNames 8526443.", "wikidata_qid": "Q10828398"}
+      ],
+      "reviewed_at": "2026-09-10T19:51:13Z",
+      "selection": {"input_status": "exhaustive-predecessor-gap-review-v61, including one related predecessor correction", "sample_numbers": [47, 48]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities, wbgetentities, and revision history", "retrieved_at": "2026-09-10T19:51:13Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and revision history", "retrieved_at": "2026-09-10T19:51:13Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced composition distinguishing current Quảng Yên and Trung Tâm from unrelated historical namesakes"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v61.json", "role": "saved ninth exhaustive-batch live search and entity evidence"}
+      ]
     }
   ],
   "schema_version": 1,
