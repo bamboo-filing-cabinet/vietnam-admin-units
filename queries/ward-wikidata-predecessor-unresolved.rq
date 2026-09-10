@@ -297,7 +297,6 @@ WHERE {
     "Cam Lo"@en
     "Cam Ly"@en
     "Cam Nhan"@en
-    "Cam Thach"@en
     "Cam Thanh"@en
     "Cam Thuong"@en
     "Cam Thuy"@en
@@ -2134,7 +2133,6 @@ WHERE {
     "Thach Khe"@en
     "Thach Khoi"@en
     "Thach Lac"@en
-    "Thach Lap"@en
     "Thach Tri"@en
     "Thach Trung"@en
     "Thach Xuan"@en
@@ -3220,7 +3218,6 @@ WHERE {
     "Cam Lâm"@vi
     "Cam Lộ"@vi
     "Cam Nhan"@vi
-    "Cam Thach"@vi
     "Cam Thanh"@vi
     "Cam Thuong"@vi
     "Cam Thuy"@vi
@@ -3536,7 +3533,6 @@ WHERE {
     "Cẩm Lý"@vi
     "Cẩm Lạc"@vi
     "Cẩm Thượng"@vi
-    "Cẩm Thạch"@vi
     "Cẩm Trung"@vi
     "Cẩm Xuyên"@vi
     "Cốc Lầu"@vi
@@ -7060,7 +7056,6 @@ WHERE {
     "Thach Khe"@vi
     "Thach Khoi"@vi
     "Thach Lac"@vi
-    "Thach Lap"@vi
     "Thach Tri"@vi
     "Thach Trung"@vi
     "Thach Xuan"@vi
@@ -7341,7 +7336,6 @@ WHERE {
     "Thạch Khôi"@vi
     "Thạch Kênh"@vi
     "Thạch Lạc"@vi
-    "Thạch Lập"@vi
     "Thạch Trung"@vi
     "Thạch Trị"@vi
     "Thạch Xuân"@vi
@@ -8961,7 +8955,6 @@ WHERE {
     "Xã Cẩm Hưng"@vi
     "Xã Cẩm Lý"@vi
     "Xã Cẩm Lạc"@vi
-    "Xã Cẩm Thạch"@vi
     "Xã Cẩm Trung"@vi
     "Xã Cốc Lầu"@vi
     "Xã Cốc Pàng"@vi
@@ -10177,7 +10170,6 @@ WHERE {
     "Xã Thạch Khê"@vi
     "Xã Thạch Kênh"@vi
     "Xã Thạch Lạc"@vi
-    "Xã Thạch Lập"@vi
     "Xã Thạch Trị"@vi
     "Xã Thạch Xuân"@vi
     "Xã Thạch Đà"@vi
@@ -11415,7 +11407,6 @@ WHERE {
     "Cam Lo"@en
     "Cam Ly"@en
     "Cam Nhan"@en
-    "Cam Thach"@en
     "Cam Thanh"@en
     "Cam Thuong"@en
     "Cam Thuy"@en
@@ -13252,7 +13243,6 @@ WHERE {
     "Thach Khe"@en
     "Thach Khoi"@en
     "Thach Lac"@en
-    "Thach Lap"@en
     "Thach Tri"@en
     "Thach Trung"@en
     "Thach Xuan"@en
@@ -14338,7 +14328,6 @@ WHERE {
     "Cam Lâm"@vi
     "Cam Lộ"@vi
     "Cam Nhan"@vi
-    "Cam Thach"@vi
     "Cam Thanh"@vi
     "Cam Thuong"@vi
     "Cam Thuy"@vi
@@ -14654,7 +14643,6 @@ WHERE {
     "Cẩm Lý"@vi
     "Cẩm Lạc"@vi
     "Cẩm Thượng"@vi
-    "Cẩm Thạch"@vi
     "Cẩm Trung"@vi
     "Cẩm Xuyên"@vi
     "Cốc Lầu"@vi
@@ -18178,7 +18166,6 @@ WHERE {
     "Thach Khe"@vi
     "Thach Khoi"@vi
     "Thach Lac"@vi
-    "Thach Lap"@vi
     "Thach Tri"@vi
     "Thach Trung"@vi
     "Thach Xuan"@vi
@@ -18459,7 +18446,6 @@ WHERE {
     "Thạch Khôi"@vi
     "Thạch Kênh"@vi
     "Thạch Lạc"@vi
-    "Thạch Lập"@vi
     "Thạch Trung"@vi
     "Thạch Trị"@vi
     "Thạch Xuân"@vi
@@ -20079,7 +20065,6 @@ WHERE {
     "Xã Cẩm Hưng"@vi
     "Xã Cẩm Lý"@vi
     "Xã Cẩm Lạc"@vi
-    "Xã Cẩm Thạch"@vi
     "Xã Cẩm Trung"@vi
     "Xã Cốc Lầu"@vi
     "Xã Cốc Pàng"@vi
@@ -21295,7 +21280,6 @@ WHERE {
     "Xã Thạch Khê"@vi
     "Xã Thạch Kênh"@vi
     "Xã Thạch Lạc"@vi
-    "Xã Thạch Lập"@vi
     "Xã Thạch Trị"@vi
     "Xã Thạch Xuân"@vi
     "Xã Thạch Đà"@vi

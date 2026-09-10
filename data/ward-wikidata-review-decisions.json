@@ -7161,6 +7161,24 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v55.json", "role": "saved third exhaustive-batch live search and entity evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-10.108",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10752551", "Q135207633"], "local_id": "w-15142-2025-07-01", "mapping_note": "current Cẩm Thạch commune selects Q135207633; release Q10752551 to the pre-2025 Cẩm Thủy commune", "outcome": "assign", "rationale": "Q135207633 owns the current `Cẩm Thạch` article, which documents the June 2025 formation from Cẩm Thành, Cẩm Liên, Cẩm Bình, and Cẩm Thạch. Q10752551 retains the former Cẩm Thủy district parent, historical coordinates, and GeoNames 8549787.", "wikidata_qid": "Q135207633"},
+        {"candidate_qids_checked": ["Q10826183", "Q135207575"], "local_id": "w-15085-2025-07-01", "mapping_note": "current Thạch Lập commune selects Q135207575; release Q10826183 to the pre-2025 Ngọc Lặc commune", "outcome": "assign", "rationale": "Q135207575 owns the current `Thạch Lập` article, which documents the June 2025 formation from Quang Trung, Đồng Thịnh, and Thạch Lập. Q10826183 retains the former Ngọc Lặc district parent, historical coordinates, and GeoNames 8549911.", "wikidata_qid": "Q135207575"},
+        {"candidate_qids_checked": ["Q10810449", "Q135106869"], "local_id": "w-16522-2025-07-01", "mapping_note": "current Quảng Phú ward selects Q135106869; release Q10810449 to the pre-2025 Thanh Hóa city ward", "outcome": "assign", "rationale": "Q135106869 owns the current `Quảng Phú, Thanh Hóa` article, which documents the June 2025 formation from seven predecessor wards. Q10810449 retains the former Thanh Hóa city parent, historical coordinates, and GeoNames 8550178.", "wikidata_qid": "Q135106869"},
+        {"candidate_qids_checked": ["Q10771052", "Q138709491"], "local_id": "w-10096-2025-07-01", "mapping_note": "current Hòa Phú commune selects Q138709491; release Q10771052 to the pre-2025 Ứng Hòa commune", "outcome": "assign", "rationale": "Q138709491 owns the current `Hòa Phú, Hà Nội` article, which documents the 2025 formation from the Chương Mỹ-lineage communes plus part of Kim Thư. Q10771052 instead retains the former Ứng Hòa district parent and exact historical Hòa Phú identity.", "wikidata_qid": "Q138709491"}
+      ],
+      "reviewed_at": "2026-09-10T16:42:14Z",
+      "selection": {"input_status": "exhaustive-predecessor-gap-review-v56", "sample_numbers": [6, 9, 20, 31]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-10T16:42:14Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and parse", "retrieved_at": "2026-09-10T16:42:14Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current Cẩm Thạch, Thạch Lập, Quảng Phú, and Hòa Phú from their historical namesakes"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v56.json", "role": "saved fourth exhaustive-batch live search and entity evidence"}
+      ]
     }
   ],
   "schema_version": 1,

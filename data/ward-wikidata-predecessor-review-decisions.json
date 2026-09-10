@@ -1112,6 +1112,27 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-10T16:00:52Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-10T16:00:52Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-10.50",
+      "selection": {"method": "frozen exhaustive review queue batch", "seed": "2026-09-10-predecessor-gap-exhaustive-review-v56", "population": 3043, "eligible_population": 1394, "sample_size": 50, "sample_numbers": [6, 9, 11, 20, 31, 48]},
+      "reviewed_at": "2026-09-10T16:42:14Z",
+      "decisions": [
+        {"local_id": "w-4011511-base", "name_vi": "Xã Cẩm Thạch", "outcome": "assign", "wikidata_qid": "Q10752551", "candidate_qids_checked": ["Q10752550", "Q10752551", "Q10752552", "Q135207633"], "mapping_note": "Q10752551 retains the former Cẩm Thủy district parent, historical coordinates, and GeoNames 8549787; Q135207633 owns the current Cẩm Thạch article and documents the 2025 merger of four predecessor communes"},
+        {"local_id": "w-4012111-base", "name_vi": "Xã Thạch Lập", "outcome": "assign", "wikidata_qid": "Q10826183", "candidate_qids_checked": ["Q10826183", "Q135207575"], "mapping_note": "Q10826183 retains the former Ngọc Lặc district parent, historical coordinates, and GeoNames 8549911; Q135207575 owns the current Thạch Lập article and documents the 2025 merger of three predecessor communes"},
+        {"local_id": "w-8132101-base", "name_vi": "Phường Dương Đông", "outcome": "assign", "wikidata_qid": "Q3277075", "candidate_qids_checked": ["Q3277075", "Q146695"], "mapping_note": "Q3277075 has the exact Dương Đông identity, former-ward class, Phú Quốc coordinates, GeoNames 1569973 and 9191678, and an article explicitly describing Dương Đông as a former ward; Q146695 is the broader current Phú Quốc special zone"},
+        {"local_id": "w-4014957-base", "name_vi": "Phường Quảng Phú", "outcome": "assign", "wikidata_qid": "Q10810449", "candidate_qids_checked": ["Q10810449", "Q135106869"], "mapping_note": "Q10810449 retains the former Thanh Hóa city parent, ward class, historical coordinates, and GeoNames 8550178; Q135106869 owns the current Quảng Phú article and documents the 2025 merger of seven predecessor wards"},
+        {"local_id": "w-1052517-base", "name_vi": "Xã Hòa Phú", "outcome": "assign", "wikidata_qid": "Q10771052", "candidate_qids_checked": ["Q10771052", "Q10771138", "Q138709491"], "mapping_note": "Q10771052 has the exact Hòa Phú name and former Ứng Hòa district parent; Q138709491 owns the distinct current Hòa Phú, Hà Nội article in the Chương Mỹ lineage, while Q10771138 remains assigned to the Hòa Xá successor"},
+        {"local_id": "w-7010103-base", "name_vi": "Phường Đa Kao", "outcome": "assign", "wikidata_qid": "Q31994881", "candidate_qids_checked": ["Q31994881", "Q32229505", "Q135026770"], "mapping_note": "Q31994881 has the exact Đa Kao identity, matching Quận 1 coordinates and GeoNames 8336114, and its article documents the 1988 creation of the former ward before describing the locality now split between Tân Định and Sài Gòn"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v56.json", "role": "saved fourth exhaustive-batch live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate coordinate-backed historical identities"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current successors from historical units"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition used to verify old-unit identities and successors"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-10T16:42:14Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and parse", "retrieved_at": "2026-09-10T16:42:14Z"}
+      ]
     }
   ]
 }
