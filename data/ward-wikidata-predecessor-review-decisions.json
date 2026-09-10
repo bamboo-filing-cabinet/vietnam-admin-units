@@ -1248,6 +1248,26 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities, wbgetentities, and revision history", "retrieved_at": "2026-09-10T20:14:52Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, redirects, and revision history", "retrieved_at": "2026-09-10T20:14:52Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-10.57",
+      "selection": {"method": "frozen exhaustive review queue batch", "seed": "2026-09-10-predecessor-gap-exhaustive-review-v63", "population": 3043, "eligible_population": 1394, "sample_size": 50, "sample_numbers": [1, 13, 17, 22], "related_current_corrections": ["w-15658-2025-07-01", "w-15763-2025-07-01", "w-15961-2025-07-01", "w-19753-2025-07-01"]},
+      "reviewed_at": "2026-09-10T20:33:32Z",
+      "decisions": [
+        {"local_id": "w-4012337-base", "name_vi": "Xã Xuân Chinh", "outcome": "assign", "wikidata_qid": "Q10834892", "candidate_qids_checked": ["Q10834892", "Q135232974"], "mapping_note": "Q10834892 retains the former Thường Xuân district parent, commune class, historical coordinates, GeoNames 8550018, and the pre-2025 article history; it explicitly links to replacement Q135232974, which owns the distinct current Xuân Chinh article"},
+        {"local_id": "w-4014765-base", "name_vi": "Xã Thọ Phú", "outcome": "assign", "wikidata_qid": "Q10826556", "candidate_qids_checked": ["Q10826556", "Q10948100", "Q135183662"], "mapping_note": "Q10826556 retains the former Triệu Sơn district parent, commune class, historical coordinates, GeoNames 8550245, and the pre-2025 article history; it explicitly links to replacement Q135183662, which owns the distinct current Thọ Phú article"},
+        {"local_id": "w-4014365-base", "name_vi": "Xã Hoằng Lộc", "outcome": "assign", "wikidata_qid": "Q10769206", "candidate_qids_checked": ["Q10769206", "Q135139555"], "mapping_note": "Q10769206 retains the former Hoằng Hóa district parent, commune class, historical coordinates, GeoNames 8549824, and the pre-2025 article history; it explicitly links to replacement Q135139555, which owns the distinct current Hoằng Lộc article"},
+        {"local_id": "w-4110919-base", "name_vi": "Xã Phú Xuân", "outcome": "assign", "wikidata_qid": "Q10806173", "candidate_qids_checked": ["Q10805939", "Q10806173", "Q131361646", "Q138709488"], "mapping_note": "Q10806173 retains the former Phú Vang district parent, commune class, historical coordinates, GeoNames 8656138, and the old Phú Xuân, Phú Vang article history; Q138709488 is the distinct ward item created for and owning the current Phú Xuân article"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v63.json", "role": "saved eleventh exhaustive-batch live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate the coordinate-backed historical identities"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current successors and namesakes from their historical components"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition used to verify old-unit identities and successors"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities, wbgetentities, and revision history", "retrieved_at": "2026-09-10T20:33:32Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and redirects", "retrieved_at": "2026-09-10T20:33:32Z"},
+        {"endpoint": "https://en.wikipedia.org/w/api.php", "method": "pageprops, extracts, and redirects for the Việt Hùng settlement candidate", "retrieved_at": "2026-09-10T20:33:32Z"}
+      ]
     }
   ]
 }

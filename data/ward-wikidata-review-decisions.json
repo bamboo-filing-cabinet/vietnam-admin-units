@@ -7279,6 +7279,24 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v62.json", "role": "saved tenth exhaustive-batch live search and entity evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-10.115",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10834892", "Q135232974"], "local_id": "w-15658-2025-07-01", "mapping_note": "current Xuân Chinh commune selects Q135232974; release Q10834892 to the pre-2025 Thường Xuân commune", "outcome": "assign", "rationale": "Q135232974 was created for and owns the current `Xuân Chinh` article. Q10834892 retains the former Thường Xuân district parent, historical coordinates, GeoNames 8550018, and an explicit replacement link to Q135232974.", "wikidata_qid": "Q135232974"},
+        {"candidate_qids_checked": ["Q10826556", "Q135183662"], "local_id": "w-15763-2025-07-01", "mapping_note": "current Thọ Phú commune selects Q135183662; release Q10826556 to the pre-2025 Triệu Sơn commune", "outcome": "assign", "rationale": "Q135183662 was created for and owns the current `Thọ Phú` article. Q10826556 retains the former Triệu Sơn district parent, historical coordinates, GeoNames 8550245, and an explicit replacement link to Q135183662.", "wikidata_qid": "Q135183662"},
+        {"candidate_qids_checked": ["Q10769206", "Q135139555"], "local_id": "w-15961-2025-07-01", "mapping_note": "current Hoằng Lộc commune selects Q135139555; release Q10769206 to the pre-2025 Hoằng Hóa commune", "outcome": "assign", "rationale": "Q135139555 was created for and owns the current `Hoằng Lộc` article. Q10769206 retains the former Hoằng Hóa district parent, historical coordinates, GeoNames 8549824, and an explicit replacement link to Q135139555.", "wikidata_qid": "Q135139555"},
+        {"candidate_qids_checked": ["Q10806173", "Q138709488"], "local_id": "w-19753-2025-07-01", "mapping_note": "current Phú Xuân ward selects Q138709488; release Q10806173 to the pre-2025 Phú Vang commune", "outcome": "assign", "rationale": "Q138709488 was created in March 2026 as a ward item and owns the current `Phú Xuân (phường)` article. Q10806173 retains the former Phú Vang district parent, commune class, historical coordinates, GeoNames 8656138, and the old `Phú Xuân, Phú Vang` article history.", "wikidata_qid": "Q138709488"}
+      ],
+      "reviewed_at": "2026-09-10T20:33:32Z",
+      "selection": {"input_status": "exhaustive-predecessor-gap-review-v63", "sample_numbers": [1, 13, 17, 22]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities, wbgetentities, and revision history", "retrieved_at": "2026-09-10T20:33:32Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and redirects", "retrieved_at": "2026-09-10T20:33:32Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced composition distinguishing current Xuân Chinh, Thọ Phú, Hoằng Lộc, and Phú Xuân from their historical components"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v63.json", "role": "saved eleventh exhaustive-batch live search and entity evidence"}
+      ]
     }
   ],
   "schema_version": 1,

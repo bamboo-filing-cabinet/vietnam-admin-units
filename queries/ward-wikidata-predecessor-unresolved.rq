@@ -888,7 +888,6 @@ WHERE {
     "Hoang Kim"@en
     "Hoang Lien"@en
     "Hoang Liet"@en
-    "Hoang Loc"@en
     "Hoang Phu"@en
     "Hoang Que"@en
     "Hoang Quy"@en
@@ -2224,7 +2223,6 @@ WHERE {
     "Thinh Vuong"@en
     "Tho Chau"@en
     "Tho Nghiep"@en
-    "Tho Phu"@en
     "Tho Son"@en
     "Tho Tang"@en
     "Tho Van"@en
@@ -4102,7 +4100,6 @@ WHERE {
     "Hoang Kim"@vi
     "Hoang Lien"@vi
     "Hoang Liet"@vi
-    "Hoang Loc"@vi
     "Hoang Phu"@vi
     "Hoang Que"@vi
     "Hoang Quy"@vi
@@ -4173,7 +4170,6 @@ WHERE {
     "Hoạt Giang"@vi
     "Hoả Lựu"@vi
     "Hoằng Giang"@vi
-    "Hoằng Lộc"@vi
     "Hoằng Phú"@vi
     "Hoằng Phụ"@vi
     "Hoằng Quý"@vi
@@ -7179,7 +7175,6 @@ WHERE {
     "Thiệu Tiến"@vi
     "Tho Chau"@vi
     "Tho Nghiep"@vi
-    "Tho Phu"@vi
     "Tho Son"@vi
     "Tho Tang"@vi
     "Tho Van"@vi
@@ -7749,7 +7744,6 @@ WHERE {
     "Thịnh Đán"@vi
     "Thịnh Đức"@vi
     "Thọ Nghiệp"@vi
-    "Thọ Phú"@vi
     "Thọ Sơn"@vi
     "Thọ Văn"@vi
     "Thọ Xuân"@vi
@@ -8590,7 +8584,6 @@ WHERE {
     "Xuân Bình"@vi
     "Xuân Bắc"@vi
     "Xuân Canh"@vi
-    "Xuân Chinh"@vi
     "Xuân Chính"@vi
     "Xuân Cảnh"@vi
     "Xuân Cẩm"@vi
@@ -9075,7 +9068,6 @@ WHERE {
     "Xã Hoạt Giang"@vi
     "Xã Hoả Lựu"@vi
     "Xã Hoằng Giang"@vi
-    "Xã Hoằng Lộc"@vi
     "Xã Hoằng Phú"@vi
     "Xã Hoằng Phụ"@vi
     "Xã Hoằng Quý"@vi
@@ -10175,7 +10167,6 @@ WHERE {
     "Xã Thịnh Trường"@vi
     "Xã Thịnh Đức"@vi
     "Xã Thọ Nghiệp"@vi
-    "Xã Thọ Phú"@vi
     "Xã Thọ Sơn"@vi
     "Xã Thọ Văn"@vi
     "Xã Thọ Xuân"@vi
@@ -10535,7 +10526,6 @@ WHERE {
     "Xã Xuân Bình"@vi
     "Xã Xuân Bắc"@vi
     "Xã Xuân Canh"@vi
-    "Xã Xuân Chinh"@vi
     "Xã Xuân Chính"@vi
     "Xã Xuân Cảnh"@vi
     "Xã Xuân Cẩm"@vi
@@ -11969,7 +11959,6 @@ WHERE {
     "Hoang Kim"@en
     "Hoang Lien"@en
     "Hoang Liet"@en
-    "Hoang Loc"@en
     "Hoang Phu"@en
     "Hoang Que"@en
     "Hoang Quy"@en
@@ -13305,7 +13294,6 @@ WHERE {
     "Thinh Vuong"@en
     "Tho Chau"@en
     "Tho Nghiep"@en
-    "Tho Phu"@en
     "Tho Son"@en
     "Tho Tang"@en
     "Tho Van"@en
@@ -15183,7 +15171,6 @@ WHERE {
     "Hoang Kim"@vi
     "Hoang Lien"@vi
     "Hoang Liet"@vi
-    "Hoang Loc"@vi
     "Hoang Phu"@vi
     "Hoang Que"@vi
     "Hoang Quy"@vi
@@ -15254,7 +15241,6 @@ WHERE {
     "Hoạt Giang"@vi
     "Hoả Lựu"@vi
     "Hoằng Giang"@vi
-    "Hoằng Lộc"@vi
     "Hoằng Phú"@vi
     "Hoằng Phụ"@vi
     "Hoằng Quý"@vi
@@ -18260,7 +18246,6 @@ WHERE {
     "Thiệu Tiến"@vi
     "Tho Chau"@vi
     "Tho Nghiep"@vi
-    "Tho Phu"@vi
     "Tho Son"@vi
     "Tho Tang"@vi
     "Tho Van"@vi
@@ -18830,7 +18815,6 @@ WHERE {
     "Thịnh Đán"@vi
     "Thịnh Đức"@vi
     "Thọ Nghiệp"@vi
-    "Thọ Phú"@vi
     "Thọ Sơn"@vi
     "Thọ Văn"@vi
     "Thọ Xuân"@vi
@@ -19671,7 +19655,6 @@ WHERE {
     "Xuân Bình"@vi
     "Xuân Bắc"@vi
     "Xuân Canh"@vi
-    "Xuân Chinh"@vi
     "Xuân Chính"@vi
     "Xuân Cảnh"@vi
     "Xuân Cẩm"@vi
@@ -20156,7 +20139,6 @@ WHERE {
     "Xã Hoạt Giang"@vi
     "Xã Hoả Lựu"@vi
     "Xã Hoằng Giang"@vi
-    "Xã Hoằng Lộc"@vi
     "Xã Hoằng Phú"@vi
     "Xã Hoằng Phụ"@vi
     "Xã Hoằng Quý"@vi
@@ -21256,7 +21238,6 @@ WHERE {
     "Xã Thịnh Trường"@vi
     "Xã Thịnh Đức"@vi
     "Xã Thọ Nghiệp"@vi
-    "Xã Thọ Phú"@vi
     "Xã Thọ Sơn"@vi
     "Xã Thọ Văn"@vi
     "Xã Thọ Xuân"@vi
@@ -21616,7 +21597,6 @@ WHERE {
     "Xã Xuân Bình"@vi
     "Xã Xuân Bắc"@vi
     "Xã Xuân Canh"@vi
-    "Xã Xuân Chinh"@vi
     "Xã Xuân Chính"@vi
     "Xã Xuân Cảnh"@vi
     "Xã Xuân Cẩm"@vi
