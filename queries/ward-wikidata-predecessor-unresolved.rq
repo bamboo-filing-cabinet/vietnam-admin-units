@@ -2304,6 +2304,7 @@ WHERE {
     "Tich Loc"@en
     "Tich Luong"@en
     "Tich Son"@en
+    "Tien Canh"@en
     "Tien Dien"@en
     "Tien Duong"@en
     "Tien Hai"@en
@@ -2483,7 +2484,6 @@ WHERE {
     "Van Ban"@en
     "Van Canh"@en
     "Van Dinh"@en
-    "Van Du"@en
     "Van Giang"@en
     "Van Ha"@en
     "Van Hai"@en
@@ -5359,7 +5359,6 @@ WHERE {
     "Nam Xuân"@vi
     "Nam Điền"@vi
     "Nam Đà"@vi
-    "Nam Đàn"@vi
     "Nam Đồng"@vi
     "Nanh Nghe"@vi
     "Nenh"@vi
@@ -7562,7 +7561,6 @@ WHERE {
     "Thị trấn Nam Ban"@vi
     "Thị trấn Nam Phước"@vi
     "Thị trấn Nam Sách"@vi
-    "Thị trấn Nam Đàn"@vi
     "Thị trấn Nghĩa Đàn"@vi
     "Thị trấn Nguyên Bình"@vi
     "Thị trấn Ngãi Giao"@vi
@@ -7710,7 +7708,6 @@ WHERE {
     "Thị trấn Vinh Quang"@vi
     "Thị trấn Việt Quang"@vi
     "Thị trấn Vân Canh"@vi
-    "Thị trấn Vân Du"@vi
     "Thị trấn Vân Đình"@vi
     "Thị trấn Văn Giang"@vi
     "Thị trấn Văn Quan"@vi
@@ -7811,6 +7808,7 @@ WHERE {
     "Tich Loc"@vi
     "Tich Luong"@vi
     "Tich Son"@vi
+    "Tien Canh"@vi
     "Tien Dien"@vi
     "Tien Duong"@vi
     "Tien Hai"@vi
@@ -7840,6 +7838,7 @@ WHERE {
     "Tinh Khe"@vi
     "Tinh Phong"@vi
     "Tinh Tuc"@vi
+    "Tiên Cảnh"@vi
     "Tiên Dương"@vi
     "Tiên Hiệp"@vi
     "Tiên Hải"@vi
@@ -8306,7 +8305,6 @@ WHERE {
     "Van Ban"@vi
     "Van Canh"@vi
     "Van Dinh"@vi
-    "Van Du"@vi
     "Van Giang"@vi
     "Van Ha"@vi
     "Van Hai"@vi
@@ -8437,7 +8435,6 @@ WHERE {
     "Vy Da"@vi
     "Vàng Danh"@vi
     "Vân Canh"@vi
-    "Vân Du"@vi
     "Vân Giang"@vi
     "Vân Hà"@vi
     "Vân Hồ"@vi
@@ -10228,6 +10225,7 @@ WHERE {
     "Xã Thụy Hùng"@vi
     "Xã Thụy Hương"@vi
     "Xã Thụy Vân"@vi
+    "Xã Tiên Cảnh"@vi
     "Xã Tiên Dương"@vi
     "Xã Tiên Hiệp"@vi
     "Xã Tiên Hải"@vi
@@ -13426,6 +13424,7 @@ WHERE {
     "Tich Loc"@en
     "Tich Luong"@en
     "Tich Son"@en
+    "Tien Canh"@en
     "Tien Dien"@en
     "Tien Duong"@en
     "Tien Hai"@en
@@ -13605,7 +13604,6 @@ WHERE {
     "Van Ban"@en
     "Van Canh"@en
     "Van Dinh"@en
-    "Van Du"@en
     "Van Giang"@en
     "Van Ha"@en
     "Van Hai"@en
@@ -16481,7 +16479,6 @@ WHERE {
     "Nam Xuân"@vi
     "Nam Điền"@vi
     "Nam Đà"@vi
-    "Nam Đàn"@vi
     "Nam Đồng"@vi
     "Nanh Nghe"@vi
     "Nenh"@vi
@@ -18684,7 +18681,6 @@ WHERE {
     "Thị trấn Nam Ban"@vi
     "Thị trấn Nam Phước"@vi
     "Thị trấn Nam Sách"@vi
-    "Thị trấn Nam Đàn"@vi
     "Thị trấn Nghĩa Đàn"@vi
     "Thị trấn Nguyên Bình"@vi
     "Thị trấn Ngãi Giao"@vi
@@ -18832,7 +18828,6 @@ WHERE {
     "Thị trấn Vinh Quang"@vi
     "Thị trấn Việt Quang"@vi
     "Thị trấn Vân Canh"@vi
-    "Thị trấn Vân Du"@vi
     "Thị trấn Vân Đình"@vi
     "Thị trấn Văn Giang"@vi
     "Thị trấn Văn Quan"@vi
@@ -18933,6 +18928,7 @@ WHERE {
     "Tich Loc"@vi
     "Tich Luong"@vi
     "Tich Son"@vi
+    "Tien Canh"@vi
     "Tien Dien"@vi
     "Tien Duong"@vi
     "Tien Hai"@vi
@@ -18962,6 +18958,7 @@ WHERE {
     "Tinh Khe"@vi
     "Tinh Phong"@vi
     "Tinh Tuc"@vi
+    "Tiên Cảnh"@vi
     "Tiên Dương"@vi
     "Tiên Hiệp"@vi
     "Tiên Hải"@vi
@@ -19428,7 +19425,6 @@ WHERE {
     "Van Ban"@vi
     "Van Canh"@vi
     "Van Dinh"@vi
-    "Van Du"@vi
     "Van Giang"@vi
     "Van Ha"@vi
     "Van Hai"@vi
@@ -19559,7 +19555,6 @@ WHERE {
     "Vy Da"@vi
     "Vàng Danh"@vi
     "Vân Canh"@vi
-    "Vân Du"@vi
     "Vân Giang"@vi
     "Vân Hà"@vi
     "Vân Hồ"@vi
@@ -21350,6 +21345,7 @@ WHERE {
     "Xã Thụy Hùng"@vi
     "Xã Thụy Hương"@vi
     "Xã Thụy Vân"@vi
+    "Xã Tiên Cảnh"@vi
     "Xã Tiên Dương"@vi
     "Xã Tiên Hiệp"@vi
     "Xã Tiên Hải"@vi

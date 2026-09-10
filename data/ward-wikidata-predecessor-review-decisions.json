@@ -292,14 +292,6 @@
           "wikidata_qid": "Q10800717",
           "candidate_qids_checked": ["Q10800717"],
           "mapping_note": "exact commune identity, aliases, coordinates, and GeoNames 8505622 identify Ngọc Động; its Quảng Uyên parent is the historical identity of the district renamed Quảng Hòa"
-        },
-        {
-          "local_id": "w-4010923-base",
-          "name_vi": "Xã Phú Xuân",
-          "outcome": "assign",
-          "wikidata_qid": "Q10806174",
-          "candidate_qids_checked": ["Q10806174"],
-          "mapping_note": "exact aliases, commune class, expected Quan Hóa parent, coordinates, GeoNames 8549778, and the Phú Xuân article identify the former commune"
         }
       ],
       "sources": [
@@ -1075,6 +1067,32 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition used to verify old-unit identities and successors"},
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-10T14:20:42Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-10T14:20:42Z"}
+      ]
+    },
+    {
+      "batch_id": "2026-09-10.48",
+      "selection": {"method": "frozen exhaustive review queue batch", "seed": "2026-09-10-predecessor-gap-exhaustive-review-v54", "population": 3043, "eligible_population": 1394, "sample_size": 50, "sample_numbers": [6, 11, 14, 15, 19, 24, 28, 32, 45, 49], "related_corrections": ["w-7090523-base"]},
+      "reviewed_at": "2026-09-10T15:20:58Z",
+      "decisions": [
+        {"local_id": "w-4013765-base", "name_vi": "Xã Phú Xuân", "outcome": "assign", "wikidata_qid": "Q86011144", "candidate_qids_checked": ["Q10806174", "Q10835148", "Q86011144", "Q135180040"], "mapping_note": "Q86011144 has the exact Phú Xuân commune name, former Thọ Xuân parent, and 2019 inception matching the Phú Yên-to-Phú Xuân rename; Q10806174 belongs to the separate Quan Hóa lineage"},
+        {"local_id": "w-1150965-base", "name_vi": "Xã Xuân Quang Động", "outcome": "assign", "wikidata_qid": "Q130494248", "candidate_qids_checked": ["Q130494248"], "mapping_note": "Q130494248 has the exact rare name, an explicit former Đông Hưng commune description, and the Xuân Quang Động article"},
+        {"local_id": "w-1011111-base", "name_vi": "Phường Thanh Xuân Trung", "outcome": "assign", "wikidata_qid": "Q10824970", "candidate_qids_checked": ["Q10824963", "Q10824970", "Q137323819"], "mapping_note": "Q10824970 owns the Thanh Xuân Trung article and retains the old ward class, historical coordinates, and GeoNames 8616116; Q137323819 owns the current Thanh Xuân ward article"},
+        {"local_id": "w-4013511-base", "name_vi": "Xã Yên Phú", "outcome": "assign", "wikidata_qid": "Q10838117", "candidate_qids_checked": ["Q10838117", "Q135163607"], "mapping_note": "Q10838117 retains the former Yên Định parent, historical coordinates, and GeoNames 8550322; Q135163607 owns the current Yên Phú article"},
+        {"local_id": "w-4033513-base", "name_vi": "Thị trấn Nam Đàn", "outcome": "assign", "wikidata_qid": "Q10797207", "candidate_qids_checked": ["Q10797207", "Q137222121"], "mapping_note": "Q10797207 retains the township class, former Nam Đàn parent, historical coordinates, and GeoNames 8627951; Q137222121 owns the distinct 2025 Nam Đàn commune article"},
+        {"local_id": "w-4011905-base", "name_vi": "Thị trấn Vân Du", "outcome": "assign", "wikidata_qid": "Q10833121", "candidate_qids_checked": ["Q10833121", "Q135209845"], "mapping_note": "Q10833121 retains the township class, former Thạch Thành parent, historical coordinates, and GeoNames 8549744; Q135209845 owns the 2025 Vân Du commune article"},
+        {"local_id": "w-5010107-base", "name_vi": "Phường Thanh Bình", "outcome": "assign", "wikidata_qid": "Q10824713", "candidate_qids_checked": ["Q10824713", "Q10827177"], "mapping_note": "Q10824713 retains the former Hải Châu parent, ward class, Đà Nẵng coordinates, and GeoNames 8657079; Q10827177 now owns the current Thạnh Bình article"},
+        {"local_id": "w-2091325-base", "name_vi": "Xã Công Sơn", "outcome": "assign", "wikidata_qid": "Q32265392", "candidate_qids_checked": ["Q10751966", "Q32265392"], "mapping_note": "Q32265392 is the GeoNames-backed historical locality item: its Cống Sơn label is a one-diacritic import typo, while its commune class, Cao Lộc-area coordinates, and GeoNames 8543006 match Công Sơn"},
+        {"local_id": "w-8170507-base", "name_vi": "Xã Lương Hòa", "outcome": "assign", "wikidata_qid": "Q10788328", "candidate_qids_checked": ["Q10788328", "Q10788330"], "mapping_note": "Q10788328 retains the former Châu Thành, Trà Vinh parent and historical coordinates; Q10788330 owns the current Lương Hòa, Vĩnh Long article in the separate Giồng Trôm lineage"},
+        {"local_id": "w-8032121-base", "name_vi": "Xã An Khánh", "outcome": "assign", "wikidata_qid": "Q10733196", "candidate_qids_checked": ["Q10733195", "Q10733196"], "mapping_note": "Q10733196 explicitly describes An Khánh in Châu Thành, Đồng Tháp and has matching coordinates and GeoNames 8312392; Q10733195 is the Bến Tre namesake"},
+        {"local_id": "w-7090523-base", "name_vi": "Xã Tân Hưng", "outcome": "assign", "wikidata_qid": "Q10830503", "candidate_qids_checked": ["Q2554807", "Q10830503"], "mapping_note": "Q10830503 retains the former Tân Châu parent, coordinates, and GeoNames 9081291; Q2554807 has the old Tân Hưng township coordinates and now owns the current Tân Hưng, Tây Ninh article"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v54.json", "role": "saved second exhaustive-batch live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate coordinate-backed historical identities"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current successors from historical units"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition used to verify old-unit identities and successors"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-10T15:20:58Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-10T15:20:58Z"}
       ]
     }
   ]

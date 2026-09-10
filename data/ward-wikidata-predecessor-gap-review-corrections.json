@@ -2,10 +2,10 @@
   "schema_version": 1,
   "scope": {
     "tier": "ward",
-    "purpose": "superseding corrections to predecessor-gap audit decisions",
+    "purpose": "superseding corrections to predecessor-gap decisions and mappings",
     "wikidata_write_performed": false
   },
-  "reviewed_at": "2026-09-10T14:00:36Z",
+  "reviewed_at": "2026-09-10T15:20:58Z",
   "batches": [
     {
       "batch_number": 1,
@@ -17,6 +17,27 @@
           "supersedes": "data/ward-wikidata-predecessor-gap-sample-v7-decisions.json#sample-5",
           "invalidated_wikidata_qid": "Q10830829",
           "reason_code": "same-name-candidate-belongs-to-huong-hoa-not-minh-hoa"
+        }
+      ]
+    },
+    {
+      "batch_number": 2,
+      "decisions": [
+        {
+          "sample_number": 44,
+          "local_id": "w-4010923-base",
+          "outcome": "no-distinct-item-found",
+          "supersedes": "data/ward-wikidata-predecessor-gap-sample-v11-decisions.json#sample-44 and predecessor review batch 2026-09-08.06",
+          "invalidated_wikidata_qid": "Q10806174",
+          "reason_code": "item-owns-current-whole-replacement-phu-xuan-article-and-no-separate-historical-item-exists"
+        },
+        {
+          "sample_number": 28,
+          "local_id": "w-5032117-base",
+          "outcome": "no-distinct-item-found",
+          "supersedes": "automatic predecessor mapping to Q10827177 exposed by exhaustive review v54 sample 28",
+          "invalidated_wikidata_qid": "Q10827177",
+          "reason_code": "item-now-owns-current-thanh-binh-article-and-no-separate-tien-canh-item-exists"
         }
       ]
     }
@@ -33,12 +54,30 @@
     {
       "path": "data/ward-history.json",
       "role": "canonical history places w-4070509-base in former Minh Hóa district"
+    },
+    {
+      "path": "data/ward-wikidata-predecessor-gap-sample-v54.json",
+      "role": "saved second exhaustive-batch evidence exposing repurposed current-unit items"
+    },
+    {
+      "path": "data/ward-2025-composition.json",
+      "role": "officially sourced composition distinguishing the 2025 current units from their historical components"
+    },
+    {
+      "endpoint": "https://www.wikidata.org/w/api.php",
+      "method": "wbgetentities",
+      "retrieved_at": "2026-09-10T15:20:58Z"
+    },
+    {
+      "endpoint": "https://vi.wikipedia.org/w/api.php",
+      "method": "pageprops and extracts",
+      "retrieved_at": "2026-09-10T15:20:58Z"
     }
   ],
   "audit": {
-    "reviewed_rows": 1,
-    "superseded_decisions": 1,
+    "reviewed_rows": 3,
+    "superseded_decisions": 3,
     "existing_predecessor_items": 0,
-    "no_distinct_item_found": 1
+    "no_distinct_item_found": 3
   }
 }

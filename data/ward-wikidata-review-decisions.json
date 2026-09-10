@@ -7123,6 +7123,28 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v53.json", "role": "saved first exhaustive-batch live search and entity evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-10.106",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10806174", "Q86011144"], "local_id": "w-14890-2025-07-01", "mapping_note": "current Phú Xuân commune selects Q10806174; release Q86011144 to the pre-2025 Thọ Xuân commune", "outcome": "assign", "rationale": "Q10806174 owns the current `Phú Xuân, Thanh Hóa` article and is the whole-replacement continuation of the former Quan Hóa commune. Q86011144 instead has the former Thọ Xuân parent and a 2019 inception matching the separate Phú Yên-to-Phú Xuân rename.", "wikidata_qid": "Q10806174"},
+        {"candidate_qids_checked": ["Q10824963", "Q10824970", "Q137323819"], "local_id": "w-00367-2025-07-01", "mapping_note": "current Thanh Xuân ward selects Q137323819; release Q10824970 to Thanh Xuân Trung and Q10824963 to the Sóc Sơn lineage", "outcome": "assign", "rationale": "Q137323819 owns the current `Thanh Xuân (phường)` article and describes the present Hà Nội ward. Q10824970 owns the Thanh Xuân Trung article and retains its historical coordinates, while Q10824963 belongs to the former Sóc Sơn commune.", "wikidata_qid": "Q137323819"},
+        {"candidate_qids_checked": ["Q10838117", "Q135163607"], "local_id": "w-15409-2025-07-01", "mapping_note": "current Yên Phú commune selects Q135163607; release Q10838117 to the pre-2025 Yên Định commune", "outcome": "assign", "rationale": "Q135163607 owns the current `Yên Phú, Thanh Hóa` article and describes the present commune. Q10838117 retains the former Yên Định parent, historical coordinates, and GeoNames 8550322.", "wikidata_qid": "Q135163607"},
+        {"candidate_qids_checked": ["Q10797207", "Q137222121"], "local_id": "w-17935-2025-07-01", "mapping_note": "current Nam Đàn commune selects Q137222121; release Q10797207 to the pre-2025 district-capital township", "outcome": "assign", "rationale": "Q137222121 owns the current `Nam Đàn (xã)` article, which documents its June 2025 formation. Q10797207 retains the township class, former Nam Đàn district parent, historical coordinates, and GeoNames 8627951.", "wikidata_qid": "Q137222121"},
+        {"candidate_qids_checked": ["Q10833121", "Q135209845"], "local_id": "w-15190-2025-07-01", "mapping_note": "current Vân Du commune selects Q135209845; release Q10833121 to the pre-2025 Thạch Thành township", "outcome": "assign", "rationale": "Q135209845 owns the current `Vân Du, Thanh Hóa` article, which explicitly documents formation from the township and two communes in June 2025. Q10833121 retains the old township class, Thạch Thành parent, and GeoNames 8549744.", "wikidata_qid": "Q135209845"},
+        {"candidate_qids_checked": ["Q10824713", "Q10827177"], "local_id": "w-20878-2025-07-01", "mapping_note": "current Thạnh Bình commune selects Q10827177; release Q10824713 to the pre-2025 Hải Châu ward", "outcome": "assign", "rationale": "Q10827177 now owns the current `Thạnh Bình, Đà Nẵng` article in the Tiên Cảnh lineage. Q10824713 instead retains the former Hải Châu ward parent, Thanh Bình name, historical urban coordinates, and GeoNames 8657079.", "wikidata_qid": "Q10827177"},
+        {"candidate_qids_checked": ["Q2554807", "Q10830503"], "local_id": "w-27721-2025-07-01", "mapping_note": "current Tân Hưng commune selects Q2554807; release Q10830503 to the pre-2025 Tân Châu commune", "outcome": "assign", "rationale": "Q2554807 owns the current `Tân Hưng, Tây Ninh` article and has the old district-capital coordinates and GeoNames 9101345. Q10830503 retains the separate former Tân Châu parent, coordinates, and GeoNames 9081291.", "wikidata_qid": "Q2554807"},
+        {"candidate_qids_checked": ["Q10788328", "Q10788330"], "local_id": "w-28987-2025-07-01", "mapping_note": "current Lương Hòa commune selects Q10788330; release Q10788328 to the pre-2025 Châu Thành, Trà Vinh commune", "outcome": "assign", "rationale": "Q10788330 owns the current `Lương Hòa, Vĩnh Long` article and lies in the former Giồng Trôm lineage. Q10788328 retains the former Châu Thành, Trà Vinh parent and its distinct historical coordinates.", "wikidata_qid": "Q10788330"}
+      ],
+      "reviewed_at": "2026-09-10T15:20:58Z",
+      "selection": {"input_status": "exhaustive-predecessor-gap-review-v54, including one related current-only correction", "sample_numbers": [6, 14, 15, 19, 24, 28, 39, 45]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-10T15:20:58Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-10T15:20:58Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current units from historical namesakes"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v54.json", "role": "saved second exhaustive-batch live search and entity evidence"}
+      ]
     }
   ],
   "schema_version": 1,

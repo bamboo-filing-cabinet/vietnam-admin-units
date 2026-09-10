@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "scope": {
+    "tier": "ward",
+    "purpose": "manual decisions for second exhaustive predecessor-gap review batch",
+    "wikidata_write_performed": false
+  },
+  "sampling": {
+    "method": "frozen exhaustive review queue batch",
+    "seed": "2026-09-10-predecessor-gap-exhaustive-review-v54",
+    "population": 3043,
+    "eligible_population": 1394,
+    "review_round": 54,
+    "sample_size": 50,
+    "batch_size": 10,
+    "batches": 5
+  },
+  "reviewed_at": "2026-09-10T15:20:58Z",
+  "batches": [
+    {
+      "batch_number": 1,
+      "decisions": [
+        {"sample_number": 1, "local_id": "w-2091523-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-wrong-location-items"},
+        {"sample_number": 2, "local_id": "w-1011715-base", "outcome": "no-distinct-item-found", "reason_code": "only-disambiguation-railway-station-or-current-successor-items"},
+        {"sample_number": 3, "local_id": "w-1171511-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-wrong-location-items"},
+        {"sample_number": 4, "local_id": "w-4033343-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-wrong-location-items"},
+        {"sample_number": 5, "local_id": "w-4010701-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-wrong-location-items"},
+        {"sample_number": 6, "local_id": "w-4013765-base", "outcome": "existing-predecessor-item-after-current-swap", "wikidata_qid": "Q86011144", "replacement_current_qid": "Q10806174", "reason_code": "old-tho-xuan-item-released-by-correct-current-phu-xuan-item"},
+        {"sample_number": 7, "local_id": "w-1110931-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-wrong-location-items"},
+        {"sample_number": 8, "local_id": "w-2090507-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-wrong-location-items"},
+        {"sample_number": 9, "local_id": "w-8090515-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 10, "local_id": "w-5071923-base", "outcome": "no-distinct-item-found", "reason_code": "only-disambiguation-current-successor-or-wrong-location-items"}
+      ]
+    },
+    {
+      "batch_number": 2,
+      "decisions": [
+        {"sample_number": 11, "local_id": "w-1150965-base", "outcome": "existing-predecessor-item", "wikidata_qid": "Q130494248", "reason_code": "exact-name-historical-dong-hung-description-and-article"},
+        {"sample_number": 12, "local_id": "w-7012725-base", "outcome": "no-distinct-item-found", "reason_code": "numbered-ward-candidates-belong-to-other-districts"},
+        {"sample_number": 13, "local_id": "w-1040375-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-wrong-location-items"},
+        {"sample_number": 14, "local_id": "w-1011111-base", "outcome": "existing-predecessor-item-after-current-swap", "wikidata_qid": "Q10824970", "replacement_current_qid": "Q137323819", "reason_code": "old-thanh-xuan-trung-article-released-by-distinct-current-ward-item"},
+        {"sample_number": 15, "local_id": "w-4013511-base", "outcome": "existing-predecessor-item-after-current-swap", "wikidata_qid": "Q10838117", "replacement_current_qid": "Q135163607", "reason_code": "old-yen-dinh-item-released-by-distinct-current-yen-phu-article"},
+        {"sample_number": 16, "local_id": "w-3010503-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-wrong-location-items"},
+        {"sample_number": 17, "local_id": "w-8030515-base", "outcome": "no-distinct-item-found", "reason_code": "only-disambiguation-current-successor-or-wrong-location-items"},
+        {"sample_number": 18, "local_id": "w-1060311-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 19, "local_id": "w-4033513-base", "outcome": "existing-predecessor-item-after-current-swap", "wikidata_qid": "Q10797207", "replacement_current_qid": "Q137222121", "reason_code": "old-nam-dan-township-item-released-by-distinct-2025-commune-article"},
+        {"sample_number": 20, "local_id": "w-1050551-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-district-or-non-target-items"}
+      ]
+    },
+    {
+      "batch_number": 3,
+      "decisions": [
+        {"sample_number": 21, "local_id": "w-4032533-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-wrong-location-items"},
+        {"sample_number": 22, "local_id": "w-8110739-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-wrong-location-items"},
+        {"sample_number": 23, "local_id": "w-7013107-base", "outcome": "no-distinct-item-found", "reason_code": "numbered-ward-candidates-belong-to-other-districts"},
+        {"sample_number": 24, "local_id": "w-4011905-base", "outcome": "existing-predecessor-item-after-current-swap", "wikidata_qid": "Q10833121", "replacement_current_qid": "Q135209845", "reason_code": "old-van-du-township-item-released-by-distinct-2025-commune-article"},
+        {"sample_number": 25, "local_id": "w-5031707-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-wrong-location-items"},
+        {"sample_number": 26, "local_id": "w-1071915-base", "outcome": "no-distinct-item-found", "reason_code": "exact-name-candidates-belong-to-other-districts"},
+        {"sample_number": 27, "local_id": "w-8190705-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-district-or-wrong-location-items"},
+        {"sample_number": 28, "local_id": "w-5010107-base", "outcome": "existing-predecessor-item-after-current-swap", "wikidata_qid": "Q10824713", "replacement_current_qid": "Q10827177", "reason_code": "old-hai-chau-ward-item-released-by-current-thanh-binh-article"},
+        {"sample_number": 29, "local_id": "w-8231109-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-disambiguation-or-wrong-location-items"},
+        {"sample_number": 30, "local_id": "w-8150515-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-wrong-location-items"}
+      ]
+    },
+    {
+      "batch_number": 4,
+      "decisions": [
+        {"sample_number": 31, "local_id": "w-2010305-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 32, "local_id": "w-2091325-base", "outcome": "existing-predecessor-item", "wikidata_qid": "Q32265392", "reason_code": "geonames-backed-cong-son-typo-item-matches-name-tier-and-cao-loc-coordinates"},
+        {"sample_number": 33, "local_id": "w-2051515-base", "outcome": "no-distinct-item-found", "reason_code": "only-disambiguation-current-successor-or-wrong-location-items"},
+        {"sample_number": 34, "local_id": "w-6053301-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 35, "local_id": "w-2211133-base", "outcome": "no-distinct-item-found", "reason_code": "current-item-repurposed-and-empty-duplicate-lacks-identity-evidence"},
+        {"sample_number": 36, "local_id": "w-7151113-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 37, "local_id": "w-2251235-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-district-township-or-disambiguation-items"},
+        {"sample_number": 38, "local_id": "w-6051101-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-non-target-items"},
+        {"sample_number": 39, "local_id": "w-8010301-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-and-other-exact-item-is-tan-chau-commune"},
+        {"sample_number": 40, "local_id": "w-5031313-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-non-target-items"}
+      ]
+    },
+    {
+      "batch_number": 5,
+      "decisions": [
+        {"sample_number": 41, "local_id": "w-4012705-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 42, "local_id": "w-8210901-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 43, "local_id": "w-2171819-base", "outcome": "no-distinct-item-found", "reason_code": "only-wrong-name-or-wrong-location-items"},
+        {"sample_number": 44, "local_id": "w-5110217-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 45, "local_id": "w-8170507-base", "outcome": "existing-predecessor-item-after-current-swap", "wikidata_qid": "Q10788328", "replacement_current_qid": "Q10788330", "reason_code": "old-chau-thanh-item-released-by-distinct-current-luong-hoa-article"},
+        {"sample_number": 46, "local_id": "w-2250109-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 47, "local_id": "w-7011723-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 48, "local_id": "w-2171501-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 49, "local_id": "w-8032121-base", "outcome": "existing-predecessor-item", "wikidata_qid": "Q10733196", "reason_code": "exact-name-dong-thap-district-coordinates-and-geonames-identity"},
+        {"sample_number": 50, "local_id": "w-1052331-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-non-target-items"}
+      ]
+    }
+  ],
+  "sources": [
+    {"path": "data/ward-wikidata-predecessor-gap-sample-v54.json", "role": "saved second exhaustive-batch live search and entity evidence"},
+    {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to confirm or reject coordinate-backed locality candidates"},
+    {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current successors from historical units"},
+    {"path": "data/ward-history.json", "role": "canonical predecessor composition used to verify old-unit identities and successors"},
+    {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-10T15:20:58Z"},
+    {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-10T15:20:58Z"}
+  ],
+  "audit": {
+    "reviewed_rows": 50,
+    "existing_predecessor_items": 10,
+    "current_mapping_swaps": 7,
+    "no_distinct_item_found": 40,
+    "sample_miss_rate": 0.2,
+    "creation_batch_authorized": false
+  }
+}
