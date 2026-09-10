@@ -30,6 +30,15 @@ from vn_admin_units.ward_reconcile_predecessors import (
     apply_matches as apply_predecessor_matches,
     apply_review_decisions as apply_predecessor_review_decisions,
 )
+from vn_admin_units.ward_reconcile_predecessors_article import (
+    ARTIFACT_PATH as PREDECESSOR_ARTICLE_ARTIFACT,
+)
+from vn_admin_units.ward_reconcile_predecessors_context import (
+    ARTIFACT_PATH as PREDECESSOR_CONTEXT_ARTIFACT,
+)
+from vn_admin_units.ward_reconcile_predecessors_geonames import (
+    ARTIFACT_PATH as PREDECESSOR_GEONAMES_ARTIFACT,
+)
 
 
 def _binding(value, *, lang=None):
@@ -498,6 +507,7 @@ def test_saved_snapshot_cache_and_mapping_are_reproducible():
         history,
         artifact,
         build_parent_qid_index(),
+        district_qid_index=build_district_qid_index(),
         broad_artifact=broad,
         review_decisions=review_decisions,
     )
@@ -505,13 +515,25 @@ def test_saved_snapshot_cache_and_mapping_are_reproducible():
         rows,
         json.loads(PREDECESSOR_ARTIFACT.read_text(encoding="utf-8")),
     )
+    rows = apply_predecessor_review_decisions(
+        rows,
+        json.loads(PREDECESSOR_REVIEW_DECISIONS.read_text(encoding="utf-8")),
+    )
     rows = apply_predecessor_matches(
         rows,
         json.loads(PREDECESSOR_BROAD_ARTIFACT.read_text(encoding="utf-8")),
     )
-    rows = apply_predecessor_review_decisions(
+    rows = apply_predecessor_matches(
         rows,
-        json.loads(PREDECESSOR_REVIEW_DECISIONS.read_text(encoding="utf-8")),
+        json.loads(PREDECESSOR_ARTICLE_ARTIFACT.read_text(encoding="utf-8")),
+    )
+    rows = apply_predecessor_matches(
+        rows,
+        json.loads(PREDECESSOR_CONTEXT_ARTIFACT.read_text(encoding="utf-8")),
+    )
+    rows = apply_predecessor_matches(
+        rows,
+        json.loads(PREDECESSOR_GEONAMES_ARTIFACT.read_text(encoding="utf-8")),
     )
     rows = apply_predecessor_creation_gaps(
         rows,
@@ -521,11 +543,11 @@ def test_saved_snapshot_cache_and_mapping_are_reproducible():
     audit = audit_mapping(history, artifact, rows, broad, review_decisions)
     assert audit["summary"]["status_counts"] == {
         "deferred-historical": 1188,
-        "gap": 3865,
-        "manual": 670,
-        "matched": 2666,
-        "verified": 6155,
+        "gap": 3043,
+        "manual": 903,
+        "matched": 2583,
+        "verified": 6827,
     }
-    assert audit["summary"]["review_decisions"] == 655
+    assert audit["summary"]["review_decisions"] == 738
     assert audit["summary"]["current_fold_collisions"] == 10
     assert audit["issues"] == []

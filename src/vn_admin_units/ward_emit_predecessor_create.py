@@ -42,7 +42,7 @@ MANIFEST_PATH = Path("data/ward-wikidata-create-predecessors.json")
 STATEMENTS_PATH = Path("statements/na-wards-create-predecessors.qs")
 PREFLIGHT_PATH = Path("data/ward-wikidata-create-predecessors-preflight.json")
 SAMPLE_DECISIONS_PATH = Path(
-    "data/ward-wikidata-predecessor-gap-sample-v2-decisions.json"
+    "data/ward-wikidata-predecessor-gap-sample-v52-decisions.json"
 )
 SAFE_GAP_CLASSIFICATIONS = {
     "assigned-item-only",
