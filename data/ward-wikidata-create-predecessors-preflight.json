@@ -7,12 +7,12 @@
     "wikidata_write_performed": false
   },
   "input_fingerprints": {
-    "manifest_content_sha256": "340676e4cff6796f98bd722519e11e7b6193182be55a51d1d18171e39a66d1b7",
+    "manifest_content_sha256": "f0d708f818aa9b1f958c5baf5005b50249a3b14726067737d73efa0d1f40e672",
     "data/ward-wikidata-predecessor-unresolved-candidates.json": "f42a8318ee3639fd5d0aec53e99b0d7073991f693a56d492c8e3608ecd9216a1",
     "data/ward-wikidata-predecessor-article-candidates.json": "1a2964ee5373eb39190d572004fb536deec9b303913650619057ca421b6be0c3",
     "data/ward-wikidata-predecessor-context-candidates.json": "b260d0ef72b922ab40edeae90e3b2219e2ba557776ca28304cae33770126252c",
     "data/ward-wikidata-predecessor-geonames-candidates.json": "ddfe0b1e843a2504cefb65e0b5466e4b8684341fe1cf545ef72c23d7c085ead3",
-    "data/ward-wikidata-predecessor-gap-sample-v52-decisions.json": "6e6cffe71688260cc1981f0375d410746f7bb34e59505e79c8f6567616b09a2b"
+    "data/ward-wikidata-predecessor-gap-review-progress.json": "ae62c710850ca5710b839217db08e1d07619c2c2a1794022eda721ccfa61da0d"
   },
   "evidence": {
     "qlever_retrieved_at": "2026-09-10T00:56:55Z",
@@ -25,12 +25,16 @@
     "clear_items": 3043,
     "needs_review_items": 0,
     "fresh": true,
-    "sample_reviewed_rows": 50,
-    "sample_existing_predecessor_items": 0,
-    "sample_creation_authorized": true,
-    "upload_ready": true
+    "reviewed_queue_rows": 0,
+    "pending_queue_rows": 1394,
+    "unreviewed_current_rows": 1394,
+    "review_complete": false,
+    "review_creation_authorized": false,
+    "upload_ready": false
   },
-  "issues": [],
+  "issues": [
+    "EXHAUSTIVE-REVIEW-INCOMPLETE 1394/1394 queue rows pending; 1394 current rows unreviewed"
+  ],
   "items": [
     {
       "local_id": "w-1010121-base",

@@ -5,7 +5,7 @@ from pathlib import Path
 from vn_admin_units.ward_emit_predecessor_create import (
     MANIFEST_PATH,
     PREFLIGHT_PATH,
-    SAMPLE_DECISIONS_PATH,
+    REVIEW_PROGRESS_PATH,
     STATEMENTS_PATH,
     build_manifest,
     build_preflight,
@@ -100,15 +100,52 @@ def test_preflight_requires_safe_classification_and_fresh_live_evidence():
     assert stale["issues"][0].startswith("STALE-PREFLIGHT")
 
 
+def test_preflight_blocks_until_exhaustive_review_is_complete():
+    manifest = {"items": [{
+        "local_id": "w-old", "name_vi": "Xã Cũ", "parent_qid": "Q1",
+    }]}
+    broad = {
+        "source": {"retrieved_at": "2026-09-04T12:00:00Z"},
+        "action_api_verification": {"retrieved_at": "2026-09-04T12:01:00Z"},
+        "review": [{
+            "local_id": "w-old", "classification": "no-broad-district-candidate",
+        }],
+    }
+    pending = {"audit": {
+        "queued_rows": 2,
+        "reviewed_queue_rows": 1,
+        "pending_queue_rows": 1,
+        "unreviewed_current_rows": 1,
+        "review_complete": False,
+        "creation_batch_authorized": False,
+    }}
+
+    status = build_preflight(
+        manifest,
+        broad,
+        review_progress=pending,
+        now=datetime(2026, 9, 4, 13, tzinfo=timezone.utc),
+    )
+
+    assert status["audit"]["reviewed_queue_rows"] == 1
+    assert status["audit"]["pending_queue_rows"] == 1
+    assert status["audit"]["review_creation_authorized"] is False
+    assert status["audit"]["upload_ready"] is False
+    assert status["issues"] == [
+        "EXHAUSTIVE-REVIEW-INCOMPLETE 1/2 queue rows pending; "
+        "1 current rows unreviewed",
+    ]
+
+
 def test_committed_predecessor_creation_package_is_complete_and_unique():
     manifest = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
     preflight = json.loads(PREFLIGHT_PATH.read_text(encoding="utf-8"))
     statements = STATEMENTS_PATH.read_text(encoding="utf-8")
 
-    assert SAMPLE_DECISIONS_PATH == Path(
-        "data/ward-wikidata-predecessor-gap-sample-v52-decisions.json"
+    assert REVIEW_PROGRESS_PATH == Path(
+        "data/ward-wikidata-predecessor-gap-review-progress.json"
     )
-    assert SAMPLE_DECISIONS_PATH.as_posix() in preflight["input_fingerprints"]
+    assert REVIEW_PROGRESS_PATH.as_posix() in preflight["input_fingerprints"]
     assert manifest["audit"]["items"] == 3043
     assert manifest["audit"]["type_counts"] == {
         "Phường": 481, "Thị trấn": 382, "Xã": 2180,
@@ -122,11 +159,16 @@ def test_committed_predecessor_creation_package_is_complete_and_unique():
         "clear_items": 3043,
         "needs_review_items": 0,
         "fresh": True,
-        "sample_reviewed_rows": 50,
-        "sample_existing_predecessor_items": 0,
-        "sample_creation_authorized": True,
-        "upload_ready": True,
+        "reviewed_queue_rows": 0,
+        "pending_queue_rows": 1394,
+        "unreviewed_current_rows": 1394,
+        "review_complete": False,
+        "review_creation_authorized": False,
+        "upload_ready": False,
     }
-    assert preflight["issues"] == []
+    assert preflight["issues"] == [
+        "EXHAUSTIVE-REVIEW-INCOMPLETE 1394/1394 queue rows pending; "
+        "1394 current rows unreviewed",
+    ]
     assert statements.count("CREATE\n") == 3043
     assert "\tP576\t" not in statements

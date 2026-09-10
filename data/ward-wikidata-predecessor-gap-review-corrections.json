@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "scope": {
+    "tier": "ward",
+    "purpose": "superseding corrections to predecessor-gap audit decisions",
+    "wikidata_write_performed": false
+  },
+  "reviewed_at": "2026-09-10T14:00:36Z",
+  "batches": [
+    {
+      "batch_number": 1,
+      "decisions": [
+        {
+          "sample_number": 5,
+          "local_id": "w-4070509-base",
+          "outcome": "no-distinct-item-found",
+          "supersedes": "data/ward-wikidata-predecessor-gap-sample-v7-decisions.json#sample-5",
+          "invalidated_wikidata_qid": "Q10830829",
+          "reason_code": "same-name-candidate-belongs-to-huong-hoa-not-minh-hoa"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "data/ward-wikidata-predecessor-gap-sample-v7.json",
+      "role": "saved search and entity evidence showing Q10830829 parented by Hướng Hóa"
+    },
+    {
+      "path": "mappings/wards-qid.csv",
+      "role": "canonical mapping assigns Q10830829 to w-4091517-base in former Hướng Hóa district"
+    },
+    {
+      "path": "data/ward-history.json",
+      "role": "canonical history places w-4070509-base in former Minh Hóa district"
+    }
+  ],
+  "audit": {
+    "reviewed_rows": 1,
+    "superseded_decisions": 1,
+    "existing_predecessor_items": 0,
+    "no_distinct_item_found": 1
+  }
+}

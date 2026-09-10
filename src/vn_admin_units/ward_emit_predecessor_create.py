@@ -41,8 +41,8 @@ COUNTRY_QID = "Q881"
 MANIFEST_PATH = Path("data/ward-wikidata-create-predecessors.json")
 STATEMENTS_PATH = Path("statements/na-wards-create-predecessors.qs")
 PREFLIGHT_PATH = Path("data/ward-wikidata-create-predecessors-preflight.json")
-SAMPLE_DECISIONS_PATH = Path(
-    "data/ward-wikidata-predecessor-gap-sample-v52-decisions.json"
+REVIEW_PROGRESS_PATH = Path(
+    "data/ward-wikidata-predecessor-gap-review-progress.json"
 )
 SAFE_GAP_CLASSIFICATIONS = {
     "assigned-item-only",
@@ -329,7 +329,7 @@ def build_preflight(
     manifest: dict,
     broad_artifact: dict,
     *,
-    sample_decisions: dict | None = None,
+    review_progress: dict | None = None,
     max_age_hours: float | None = None,
     now: datetime | None = None,
 ) -> dict:
@@ -368,14 +368,19 @@ def build_preflight(
         })
     if not fresh:
         issues.append(f"STALE-PREFLIGHT {age_hours:.2f}h")
-    sample_audit = (sample_decisions or {}).get("audit", {})
-    sample_reviewed = sample_audit.get("reviewed_rows", 0)
-    sample_existing = sample_audit.get("existing_predecessor_items", 0)
-    sample_authorized = sample_audit.get("creation_batch_authorized") is True
-    if sample_decisions is not None and not sample_authorized:
+    review_audit = (review_progress or {}).get("audit", {})
+    queued = review_audit.get("queued_rows", 0)
+    reviewed_queue = review_audit.get("reviewed_queue_rows", 0)
+    pending_queue = review_audit.get("pending_queue_rows", 0)
+    unreviewed_current = review_audit.get("unreviewed_current_rows", 0)
+    review_complete = review_audit.get("review_complete") is True
+    review_authorized = (
+        review_audit.get("creation_batch_authorized") is True
+    )
+    if review_progress is not None and not review_authorized:
         issues.append(
-            f"SAMPLED-AUDIT-FAILED {sample_existing}/{sample_reviewed} "
-            "existing predecessor items"
+            f"EXHAUSTIVE-REVIEW-INCOMPLETE {pending_queue}/{queued} "
+            f"queue rows pending; {unreviewed_current} current rows unreviewed"
         )
     clear = sum(row["status"] == "clear" for row in items)
     return {
@@ -395,8 +400,9 @@ def build_preflight(
             CONTEXT_ARTIFACT_PATH.as_posix(): _sha256(CONTEXT_ARTIFACT_PATH),
             GEONAMES_ARTIFACT_PATH.as_posix(): _sha256(GEONAMES_ARTIFACT_PATH),
             **({
-                SAMPLE_DECISIONS_PATH.as_posix(): _sha256(SAMPLE_DECISIONS_PATH),
-            } if sample_decisions is not None else {}),
+                REVIEW_PROGRESS_PATH.as_posix(): _sha256(REVIEW_PROGRESS_PATH),
+            } if review_progress is not None and REVIEW_PROGRESS_PATH.is_file()
+              else {}),
         },
         "evidence": {
             "qlever_retrieved_at": source_at,
@@ -411,9 +417,11 @@ def build_preflight(
             "clear_items": clear,
             "needs_review_items": len(items) - clear,
             "fresh": fresh,
-            "sample_reviewed_rows": sample_reviewed,
-            "sample_existing_predecessor_items": sample_existing,
-            "sample_creation_authorized": sample_authorized,
+            "reviewed_queue_rows": reviewed_queue,
+            "pending_queue_rows": pending_queue,
+            "unreviewed_current_rows": unreviewed_current,
+            "review_complete": review_complete,
+            "review_creation_authorized": review_authorized,
             "upload_ready": clear == len(items) and fresh and not issues,
         },
         "issues": issues,
@@ -438,9 +446,9 @@ def main(argv: list[str] | None = None) -> None:
     article = json.loads(ARTICLE_ARTIFACT_PATH.read_text(encoding="utf-8"))
     context = json.loads(CONTEXT_ARTIFACT_PATH.read_text(encoding="utf-8"))
     geonames = json.loads(GEONAMES_ARTIFACT_PATH.read_text(encoding="utf-8"))
-    sample_decisions = (
-        json.loads(SAMPLE_DECISIONS_PATH.read_text(encoding="utf-8"))
-        if SAMPLE_DECISIONS_PATH.is_file() else None
+    review_progress = (
+        json.loads(REVIEW_PROGRESS_PATH.read_text(encoding="utf-8"))
+        if REVIEW_PROGRESS_PATH.is_file() else None
     )
     fingerprints = {
         path.as_posix(): _sha256(path)
@@ -449,7 +457,7 @@ def main(argv: list[str] | None = None) -> None:
             BROAD_ARTIFACT_PATH, ARTICLE_ARTIFACT_PATH, CONTEXT_ARTIFACT_PATH,
             GEONAMES_ARTIFACT_PATH,
             REVIEW_DECISIONS_PATH,
-            *([SAMPLE_DECISIONS_PATH] if sample_decisions is not None else []),
+            *([REVIEW_PROGRESS_PATH] if review_progress is not None else []),
         )
     }
     fingerprints[f"{MAPPING.as_posix()}#qid-assignments"] = (
@@ -463,13 +471,13 @@ def main(argv: list[str] | None = None) -> None:
     )
     statements = render_statements(manifest)
     preflight = build_preflight(
-        manifest, broad, sample_decisions=sample_decisions,
+        manifest, broad, review_progress=review_progress,
     )
     runtime_preflight = (
         build_preflight(
             manifest,
             broad,
-            sample_decisions=sample_decisions,
+            review_progress=review_progress,
             max_age_hours=args.max_preflight_age_hours,
         ) if args.require_upload_ready else preflight
     )
