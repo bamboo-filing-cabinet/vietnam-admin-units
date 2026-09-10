@@ -7262,6 +7262,23 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v61.json", "role": "saved ninth exhaustive-batch live search and entity evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-10.114",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10835148", "Q135180040"], "local_id": "w-15574-2025-07-01", "mapping_note": "current Xuân Tín commune selects Q135180040; release Q10835148 to the pre-2025 Thọ Xuân commune", "outcome": "assign", "rationale": "Q135180040 was created for and owns the current `Xuân Tín` article. Q10835148 retains the former Thọ Xuân district parent, historical coordinates, GeoNames 8550289, and an explicit replacement link to Q135180040.", "wikidata_qid": "Q135180040"},
+        {"candidate_qids_checked": ["Q10838183", "Q135232416"], "local_id": "w-16264-2025-07-01", "mapping_note": "current Yên Thọ commune selects Q135232416; release Q10838183 to the pre-2025 Như Thanh commune", "outcome": "assign", "rationale": "Q135232416 was created for and owns the current `Yên Thọ` article. Q10838183 retains the former Như Thanh district parent, historical coordinates, GeoNames 8550005, and an explicit replacement link to Q135232416.", "wikidata_qid": "Q135232416"},
+        {"candidate_qids_checked": ["Q10752650", "Q135202411"], "local_id": "w-14959-2025-07-01", "mapping_note": "current Cổ Lũng commune selects Q135202411; release Q10752650 to the pre-2025 Bá Thước commune", "outcome": "assign", "rationale": "Q135202411 was created for and owns the current `Cổ Lũng` article. Q10752650 retains the former Bá Thước district parent, historical coordinates, GeoNames 8550025, and an explicit replacement link to Q135202411.", "wikidata_qid": "Q135202411"}
+      ],
+      "reviewed_at": "2026-09-10T20:14:52Z",
+      "selection": {"input_status": "exhaustive-predecessor-gap-review-v62", "sample_numbers": [6, 25, 35]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities, wbgetentities, and revision history", "retrieved_at": "2026-09-10T20:14:52Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, redirects, and revision history", "retrieved_at": "2026-09-10T20:14:52Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced composition distinguishing current Xuân Tín, Yên Thọ, and Cổ Lũng from their historical components"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v62.json", "role": "saved tenth exhaustive-batch live search and entity evidence"}
+      ]
     }
   ],
   "schema_version": 1,

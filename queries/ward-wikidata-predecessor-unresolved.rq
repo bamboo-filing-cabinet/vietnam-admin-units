@@ -424,7 +424,6 @@ WHERE {
     "Co Dong"@en
     "Co Le"@en
     "Co Loa"@en
-    "Co Lung"@en
     "Co Ma"@en
     "Co Nhue 1"@en
     "Co Phuc"@en
@@ -2648,7 +2647,6 @@ WHERE {
     "Xuan Tho 1"@en
     "Xuan Thoi Son"@en
     "Xuan Thuy"@en
-    "Xuan Tin"@en
     "Xuan Truc"@en
     "Xuan Truong"@en
     "Xuan Van"@en
@@ -3429,7 +3427,6 @@ WHERE {
     "Co Dong"@vi
     "Co Le"@vi
     "Co Loa"@vi
-    "Co Lung"@vi
     "Co Ma"@vi
     "Co Mạ"@vi
     "Co Nhue 1"@vi
@@ -3537,7 +3534,6 @@ WHERE {
     "Cốc San"@vi
     "Cổ Bi"@vi
     "Cổ Loa"@vi
-    "Cổ Lũng"@vi
     "Cổ Lễ"@vi
     "Cổ Nhuế 1"@vi
     "Cổ Phúc"@vi
@@ -8583,7 +8579,6 @@ WHERE {
     "Xuan Tho 1"@vi
     "Xuan Thoi Son"@vi
     "Xuan Thuy"@vi
-    "Xuan Tin"@vi
     "Xuan Truc"@vi
     "Xuan Truong"@vi
     "Xuan Van"@vi
@@ -8635,7 +8630,6 @@ WHERE {
     "Xuân Trúc"@vi
     "Xuân Trường"@vi
     "Xuân Tân"@vi
-    "Xuân Tín"@vi
     "Xuân Tăng"@vi
     "Xuân Viên"@vi
     "Xuân Vân"@vi
@@ -8946,7 +8940,6 @@ WHERE {
     "Xã Cốc San"@vi
     "Xã Cổ Bi"@vi
     "Xã Cổ Loa"@vi
-    "Xã Cổ Lũng"@vi
     "Xã Cổ Đô"@vi
     "Xã Cổ Đông"@vi
     "Xã Cỗ Đạm"@vi
@@ -10577,7 +10570,6 @@ WHERE {
     "Xã Xuân Trúc"@vi
     "Xã Xuân Trường"@vi
     "Xã Xuân Tân"@vi
-    "Xã Xuân Tín"@vi
     "Xã Xuân Viên"@vi
     "Xã Xuân Vân"@vi
     "Xã Xuân Ái"@vi
@@ -10624,7 +10616,6 @@ WHERE {
     "Xã Yên Thường"@vi
     "Xã Yên Thắng"@vi
     "Xã Yên Thịnh"@vi
-    "Xã Yên Thọ"@vi
     "Xã Yên Thổ"@vi
     "Xã Yên Trung"@vi
     "Xã Yên Trường"@vi
@@ -10873,7 +10864,6 @@ WHERE {
     "Yên Thắng"@vi
     "Yên Thế"@vi
     "Yên Thịnh"@vi
-    "Yên Thọ"@vi
     "Yên Thổ"@vi
     "Yên Trung"@vi
     "Yên Trường"@vi
@@ -11515,7 +11505,6 @@ WHERE {
     "Co Dong"@en
     "Co Le"@en
     "Co Loa"@en
-    "Co Lung"@en
     "Co Ma"@en
     "Co Nhue 1"@en
     "Co Phuc"@en
@@ -13739,7 +13728,6 @@ WHERE {
     "Xuan Tho 1"@en
     "Xuan Thoi Son"@en
     "Xuan Thuy"@en
-    "Xuan Tin"@en
     "Xuan Truc"@en
     "Xuan Truong"@en
     "Xuan Van"@en
@@ -14520,7 +14508,6 @@ WHERE {
     "Co Dong"@vi
     "Co Le"@vi
     "Co Loa"@vi
-    "Co Lung"@vi
     "Co Ma"@vi
     "Co Mạ"@vi
     "Co Nhue 1"@vi
@@ -14628,7 +14615,6 @@ WHERE {
     "Cốc San"@vi
     "Cổ Bi"@vi
     "Cổ Loa"@vi
-    "Cổ Lũng"@vi
     "Cổ Lễ"@vi
     "Cổ Nhuế 1"@vi
     "Cổ Phúc"@vi
@@ -19674,7 +19660,6 @@ WHERE {
     "Xuan Tho 1"@vi
     "Xuan Thoi Son"@vi
     "Xuan Thuy"@vi
-    "Xuan Tin"@vi
     "Xuan Truc"@vi
     "Xuan Truong"@vi
     "Xuan Van"@vi
@@ -19726,7 +19711,6 @@ WHERE {
     "Xuân Trúc"@vi
     "Xuân Trường"@vi
     "Xuân Tân"@vi
-    "Xuân Tín"@vi
     "Xuân Tăng"@vi
     "Xuân Viên"@vi
     "Xuân Vân"@vi
@@ -20037,7 +20021,6 @@ WHERE {
     "Xã Cốc San"@vi
     "Xã Cổ Bi"@vi
     "Xã Cổ Loa"@vi
-    "Xã Cổ Lũng"@vi
     "Xã Cổ Đô"@vi
     "Xã Cổ Đông"@vi
     "Xã Cỗ Đạm"@vi
@@ -21668,7 +21651,6 @@ WHERE {
     "Xã Xuân Trúc"@vi
     "Xã Xuân Trường"@vi
     "Xã Xuân Tân"@vi
-    "Xã Xuân Tín"@vi
     "Xã Xuân Viên"@vi
     "Xã Xuân Vân"@vi
     "Xã Xuân Ái"@vi
@@ -21715,7 +21697,6 @@ WHERE {
     "Xã Yên Thường"@vi
     "Xã Yên Thắng"@vi
     "Xã Yên Thịnh"@vi
-    "Xã Yên Thọ"@vi
     "Xã Yên Thổ"@vi
     "Xã Yên Trung"@vi
     "Xã Yên Trường"@vi
@@ -21964,7 +21945,6 @@ WHERE {
     "Yên Thắng"@vi
     "Yên Thế"@vi
     "Yên Thịnh"@vi
-    "Yên Thọ"@vi
     "Yên Thổ"@vi
     "Yên Trung"@vi
     "Yên Trường"@vi
