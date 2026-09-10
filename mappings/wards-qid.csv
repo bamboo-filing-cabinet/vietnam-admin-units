@@ -3812,7 +3812,7 @@ w-15058-2025-07-01,15058,Xã Đồng Lương,Xã,38,2025-07-01,,Q135197620,exist
 w-15061-2025-07-01,15061,Xã Ngọc Lặc,Xã,38,2025-07-01,,Q135207565,existing,manual,Q10800655|Q135207565,review 2026-09-08.75: current Ngọc Lặc commune selects Q135207565; release Q10800655 to the pre-2025 township
 w-15085-2025-07-01,15085,Xã Thạch Lập,Xã,38,2025-07-01,,Q135207575,existing,manual,Q10826183|Q135207575,review 2026-09-10.108: current Thạch Lập commune selects Q135207575; release Q10826183 to the pre-2025 Ngọc Lặc commune
 w-15091-2025-07-01,15091,Xã Ngọc Liên,Xã,38,2025-07-01,,Q135207587,existing,manual,Q10800634|Q16480888|Q135207587,review 2026-09-08.76: current Ngọc Liên commune selects Q135207587; release Q16480888 to the pre-2025 Ngọc Lặc commune
-w-15106-2025-07-01,15106,Xã Nguyệt Ấn,Xã,38,2025-07-01,,Q10800215,existing,matched,Q10800215,qlever-label+current-province+batched-wbgetentities
+w-15106-2025-07-01,15106,Xã Nguyệt Ấn,Xã,38,2025-07-01,,Q135207605,existing,manual,Q10800215|Q135207605,review 2026-09-10.109: current Nguyệt Ấn commune selects Q135207605; release Q10800215 to the pre-2025 Ngọc Lặc commune
 w-15112-2025-07-01,15112,Xã Kiên Thọ,Xã,38,2025-07-01,,Q135207610,existing,manual,Q10780301|Q135207610,review 2026-09-09.92: current Kiên Thọ commune selects Q135207610; release Q10780301 to the distinct pre-2025 Ngọc Lặc commune
 w-15124-2025-07-01,15124,Xã Minh Sơn,Xã,38,2025-07-01,,Q10793950,existing,matched,Q10793947|Q10793949|Q10793950|Q10793951|Q10793953,qlever-label+predecessor-district+batched-wbgetentities
 w-15127-2025-07-01,15127,Xã Cẩm Thủy,Xã,38,2025-07-01,,Q135207646,existing,manual,Q2221272|Q5024878|Q10752557|Q10752559|Q135207646,review 2026-09-02.24: current Cẩm Thủy xã page selects Q135207646
@@ -4651,7 +4651,7 @@ w-2031715-base,01600,Xã Đoài Khôn,Xã,049,,2020-01-31,,,deferred-historical,
 w-2031717-base,01603,Xã Phúc Sen,Xã,049,,2025-06-30,Q10806233,existing,verified,Q10806233,predecessor unique-matching-viwiki-article+exact-tier+different-name-successor+batched-wbgetentities
 w-2031719-base,01606,Xã Chí Thảo,Xã,049,,2025-06-30,Q10748313,existing,verified,Q10748313,predecessor unique-matching-viwiki-article+exact-tier+different-name-successor+batched-wbgetentities
 w-2031721-base,01597,Xã Cai Bộ,Xã,049,,2025-06-30,Q10743794,existing,verified,Q10743794,predecessor unique-matching-viwiki-article+exact-tier+different-name-successor+batched-wbgetentities
-w-2031723-base,01609,Xã Tự Do,Xã,049,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-2031723-base,01609,Xã Tự Do,Xã,049,,2025-06-30,Q10831914,existing,manual,Q922544|Q925425|Q10831913|Q10831914|Q18461173|Q137564701|Q140825930,"predecessor review 2026-09-10.51: Q10831914 has the exact Tự Do name, former Quảng Uyên district parent, Cao Bằng coordinates, and GeoNames 8476856; Q10771583 remains assigned to the Hạnh Phúc successor"
 w-2031725-base,01618,Xã Ngọc Động,Xã,049,,2025-06-30,Q10800717,existing,manual,Q10800717,"predecessor review 2026-09-08.06: exact commune identity, aliases, coordinates, and GeoNames 8505622 identify Ngọc Động; its Quảng Uyên parent is the historical identity of the district renamed Quảng Hòa"
 w-2031727-base,01612,Xã Hồng Định,Xã,049,,2020-01-31,,,deferred-historical,,
 w-2031729-base,01615,Xã Hồng Quang,Xã,049,,2025-06-30,Q10772174,existing,manual,Q10772171|Q10772172|Q10772173|Q10772174|Q10772175|Q10772177|Q10828211|Q16481328|Q32275357,"predecessor review 2026-09-10.47: Q10772174 retains the exact former commune identity, historical Quảng Uyên district parent, Cao Bằng coordinates, and GeoNames 8505621; Q10828211 remains assigned to the Bế Văn Đàn successor"
@@ -7717,7 +7717,7 @@ w-28504-2025-07-01,28504,Xã Long Tiên,Xã,82,2025-07-01,,Q10786931,existing,ma
 w-28516-2025-07-01,28516,Xã Ngũ Hiệp,Xã,82,2025-07-01,,Q10800464,existing,matched,Q10800464|Q10800465,qlever-label+current-province+batched-wbgetentities
 w-28519-2025-07-01,28519,Xã Châu Thành,Xã,82,2025-07-01,,Q136648958,existing,matched,Q10748255|Q10748256|Q10748257|Q10748259|Q10748261|Q136648958|Q136821637|Q136821909,qlever-label+current-province+batched-wbgetentities
 w-28525-2025-07-01,28525,Xã Tân Hương,Xã,82,2025-07-01,,Q10830515,existing,matched,Q10830514|Q10830515|Q10830516|Q10830518|Q10830519|Q10830521,qlever-label+current-province+batched-wbgetentities
-w-28537-2025-07-01,28537,Xã Long Hưng,Xã,82,2025-07-01,,Q10786831,existing,matched,Q2213087|Q2296463|Q10786829|Q10786831|Q10786833|Q10786836|Q10786837,qlever-label+current-province+batched-wbgetentities
+w-28537-2025-07-01,28537,Xã Long Hưng,Xã,82,2025-07-01,,Q10786830,existing,manual,Q2213087|Q2296463|Q10786829|Q10786830|Q10786831|Q10786833|Q10786836|Q10786837,review 2026-09-10.109: current Long Hưng commune selects Q10786830; release Q10786831 to the pre-2025 Gò Công ward
 w-28543-2025-07-01,28543,Xã Long Định,Xã,82,2025-07-01,,Q16480231,existing,matched,Q10786977|Q10786979|Q16480231,qlever-label+current-province+batched-wbgetentities
 w-28564-2025-07-01,28564,Xã Bình Trưng,Xã,82,2025-07-01,,Q11839566,existing,matched,Q2030836|Q3058727|Q5005110|Q10742593|Q10742594|Q10742597|Q11839566,qlever-label+current-province+batched-wbgetentities
 w-28576-2025-07-01,28576,Xã Vĩnh Kim,Xã,82,2025-07-01,,Q10833588,existing,matched,Q10833588|Q10833589|Q10833590|Q10833591,qlever-label+current-province+batched-wbgetentities
@@ -9062,7 +9062,7 @@ w-4012131-base,15103,Xã Ngọc Trung,Xã,389,,2025-06-30,Q10800689,existing,ver
 w-4012133-base,15106,Xã Phùng Giáo,Xã,389,,2025-06-30,Q10805833,existing,verified,Q10805833,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4012135-base,15109,Xã Phùng Minh,Xã,389,,2025-06-30,Q16481080,existing,verified,Q16481080,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4012137-base,15112,Xã Phúc Thịnh,Xã,389,,2025-06-30,Q10806254,existing,verified,Q10806254,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-4012139-base,15115,Xã Nguyệt Ấn,Xã,389,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4012139-base,15115,Xã Nguyệt Ấn,Xã,389,,2025-06-30,Q10800215,existing,manual,Q10800215|Q135207605,"predecessor review 2026-09-10.51: Q10800215 retains the former Ngọc Lặc district parent, historical coordinates, and GeoNames 8549942; Q135207605 owns the current Nguyệt Ấn article documenting its 2025 formation from three predecessor communes"
 w-4012141-base,15118,Xã Kiên Thọ,Xã,389,,2025-06-30,Q10780301,existing,manual,Q10780301|Q135207610,"predecessor review 2026-09-09.28: Q10780301 retains the former Ngọc Lặc commune identity, district parent, coordinates, and GeoNames 8549938; Q135207610 owns the current Kiên Thọ article and is reassigned to the distinct 2025 successor"
 w-4012143-base,15121,Xã Minh Tiến,Xã,389,,2025-06-30,Q10793978,existing,verified,Q10793978,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4012145-base,15124,Xã Minh Sơn,Xã,389,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
@@ -13564,7 +13564,7 @@ w-8070301-base,28294,Phường 3,Phường,816,,2024-04-30,,,deferred-historical
 w-8070303-base,28297,Phường 2,Phường,816,,2025-06-30,Q10806662,existing,verified,Q10806662,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8070305-base,28300,Phường 1,Phường,816,,2025-06-30,Q10806539,existing,verified,Q10806539,predecessor qualified-label+terminal-district+ward-class+batched-wbgetentities
 w-8070307-base,28303,Phường 1,Phường,816,,2024-04-30,,,deferred-historical,,
-w-8070309-base,28309,Phường Long Hưng,Phường,816,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8070309-base,28309,Phường Long Hưng,Phường,816,,2025-06-30,Q10786831,existing,manual,Q10786830|Q10786831,"predecessor review 2026-09-10.51: Q10786831 is explicitly a ward in former Gò Công city, has ward class, former-city parent, and matching Gò Công coordinates; Q10786830 owns the current Long Hưng, Đồng Tháp commune article and belongs to the separate Châu Thành lineage"
 w-8070311-base,28312,Phường Long Thuận,Phường,816,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
 w-8070313-base,28315,Phường Long Chánh,Phường,816,,2025-06-30,Q10786794,existing,verified,Q10786794,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8070315-base,28318,Phường Long Hòa,Phường,816,,2025-06-30,Q10786825,existing,verified,Q10786825,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities

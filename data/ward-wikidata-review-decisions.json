@@ -7179,6 +7179,22 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v56.json", "role": "saved fourth exhaustive-batch live search and entity evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-10.109",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10800215", "Q135207605"], "local_id": "w-15106-2025-07-01", "mapping_note": "current Nguyệt Ấn commune selects Q135207605; release Q10800215 to the pre-2025 Ngọc Lặc commune", "outcome": "assign", "rationale": "Q135207605 owns the current `Nguyệt Ấn` article, which documents the June 2025 formation from Phùng Giáo, Vân Am, and Nguyệt Ấn. Q10800215 retains the former Ngọc Lặc district parent, historical coordinates, and GeoNames 8549942.", "wikidata_qid": "Q135207605"},
+        {"candidate_qids_checked": ["Q10786830", "Q10786831"], "local_id": "w-28537-2025-07-01", "mapping_note": "current Long Hưng commune selects Q10786830; release Q10786831 to the pre-2025 Gò Công ward", "outcome": "assign", "rationale": "Q10786830 owns the current `Long Hưng, Đồng Tháp` article, has the commune class, current Đồng Tháp parent, and matching Châu Thành-area coordinates and GeoNames 8337871. Q10786831 is instead explicitly a ward in former Gò Công city, with ward class, former-city parent, and Gò Công coordinates.", "wikidata_qid": "Q10786830"}
+      ],
+      "reviewed_at": "2026-09-10T17:13:56Z",
+      "selection": {"input_status": "exhaustive-predecessor-gap-review-v57, including one related current/predecessor correction", "sample_numbers": [43, 45]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities, wbgetentities, and revision history", "retrieved_at": "2026-09-10T17:13:56Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and parse", "retrieved_at": "2026-09-10T17:13:56Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current Nguyệt Ấn and Long Hưng from historical units"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v57.json", "role": "saved fifth exhaustive-batch live search and entity evidence"}
+      ]
     }
   ],
   "schema_version": 1,

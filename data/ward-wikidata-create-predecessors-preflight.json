@@ -7,33 +7,33 @@
     "wikidata_write_performed": false
   },
   "input_fingerprints": {
-    "manifest_content_sha256": "a1f3d04a4f3fdf555765d134121d5faa60cb3bd01e3dd0e80167bda902e54df3",
-    "data/ward-wikidata-predecessor-unresolved-candidates.json": "5f1e4ec65a6d6d63bcb4e514169a3b0afa57b8e5dec8a8d887d04cfb87558ece",
-    "data/ward-wikidata-predecessor-article-candidates.json": "ea962f89876efa10d387ab7b5361f93ff12c1afd6143cedf6e758e8adffafd4f",
-    "data/ward-wikidata-predecessor-context-candidates.json": "0b13a488334ea80294991ad018373d4846be80a346da90624d354672e3c7f6a8",
-    "data/ward-wikidata-predecessor-geonames-candidates.json": "5103736319501880c04bd9cc18e160b3f032c452e7ff12aa014d9fab13228e63",
-    "data/ward-wikidata-predecessor-gap-review-progress.json": "0bf27735d6aa225fcca522e01d4b0c01aaa37bbdb0b8c6b39ca426a1f340ba0c"
+    "manifest_content_sha256": "a0d0e6efa766148aa9d8d8161700db5eaf0528766863e42353277ce5e4fd2a79",
+    "data/ward-wikidata-predecessor-unresolved-candidates.json": "436359eba44661470735307d79d02bc7bd345ad17cc68523e247b6bf0c0193e2",
+    "data/ward-wikidata-predecessor-article-candidates.json": "d16bcb5898dbc29bbc2faa695eb8dba57d7e82e79c15f5c9f1fcfec7e4faacc7",
+    "data/ward-wikidata-predecessor-context-candidates.json": "3ad496d958dfafc4f947b4666d892274732c713a78dd338b5084ac20e8b6f173",
+    "data/ward-wikidata-predecessor-geonames-candidates.json": "6d322352c2eb2d61673494114443ca972e9530d8536235b86f9c29b4edb2b986",
+    "data/ward-wikidata-predecessor-gap-review-progress.json": "ccac466b581026f286a8e08a7338a22566f521d90967287860f999f0a54ed6eb"
   },
   "evidence": {
-    "qlever_retrieved_at": "2026-09-10T16:48:37Z",
-    "action_api_retrieved_at": "2026-09-10T16:48:37Z",
+    "qlever_retrieved_at": "2026-09-10T17:21:19Z",
+    "action_api_retrieved_at": "2026-09-10T17:21:19Z",
     "age_hours_at_check": null,
     "max_age_hours": null
   },
   "audit": {
-    "items": 3023,
-    "clear_items": 3023,
+    "items": 3020,
+    "clear_items": 3020,
     "needs_review_items": 0,
     "fresh": true,
-    "reviewed_queue_rows": 200,
-    "pending_queue_rows": 1194,
-    "unreviewed_current_rows": 1193,
+    "reviewed_queue_rows": 250,
+    "pending_queue_rows": 1144,
+    "unreviewed_current_rows": 1142,
     "review_complete": false,
     "review_creation_authorized": false,
     "upload_ready": false
   },
   "issues": [
-    "EXHAUSTIVE-REVIEW-INCOMPLETE 1194/1394 queue rows pending; 1193 current rows unreviewed"
+    "EXHAUSTIVE-REVIEW-INCOMPLETE 1144/1394 queue rows pending; 1142 current rows unreviewed"
   ],
   "items": [
     {
@@ -1166,13 +1166,6 @@
     {
       "local_id": "w-2031709-base",
       "name_vi": "Xã Độc Lập",
-      "parent_qid": "Q16481406",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-2031723-base",
-      "name_vi": "Xã Tự Do",
       "parent_qid": "Q16481406",
       "classification": "no-broad-district-candidate",
       "status": "clear"
@@ -9487,13 +9480,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-4012139-base",
-      "name_vi": "Xã Nguyệt Ấn",
-      "parent_qid": "Q7022471",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-4012145-base",
       "name_vi": "Xã Minh Sơn",
       "parent_qid": "Q7022471",
@@ -17596,13 +17582,6 @@
       "local_id": "w-8070121-base",
       "name_vi": "Xã Mỹ Phong",
       "parent_qid": "Q33425",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-8070309-base",
-      "name_vi": "Phường Long Hưng",
-      "parent_qid": "Q5626082",
       "classification": "no-broad-district-candidate",
       "status": "clear"
     },
