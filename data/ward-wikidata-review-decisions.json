@@ -7108,6 +7108,21 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v51.json", "role": "saved fifty-first-round random-audit evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-10.105",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10838095", "Q10838096", "Q10838097", "Q10838098", "Q10838099", "Q10838100", "Q135164477"], "local_id": "w-15442-2025-07-01", "mapping_note": "current Yên Ninh commune selects Q135164477; release Q10838098 to the pre-2025 Yên Định commune", "outcome": "assign", "rationale": "Q135164477 owns the current `Yên Ninh` article, which explicitly documents the commune's June 2025 formation from Yên Hùng, Yên Thịnh, and Yên Ninh. Q10838098 retains the former Yên Định district parent, historical coordinates, and GeoNames 8550316.", "wikidata_qid": "Q135164477"}
+      ],
+      "reviewed_at": "2026-09-10T14:28:04Z",
+      "selection": {"input_status": "exhaustive-predecessor-gap-review-v53", "sample_numbers": [16]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-10T14:20:42Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-10T14:20:42Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current Yên Ninh from its namesake predecessor"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v53.json", "role": "saved first exhaustive-batch live search and entity evidence"}
+      ]
     }
   ],
   "schema_version": 1,

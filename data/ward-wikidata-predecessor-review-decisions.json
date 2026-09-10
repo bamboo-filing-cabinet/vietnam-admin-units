@@ -1059,6 +1059,23 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-10T00:50:20Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-10T00:50:20Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-10.47",
+      "selection": {"method": "frozen exhaustive review queue batch", "seed": "2026-09-10-predecessor-gap-exhaustive-review-v53", "population": 3043, "eligible_population": 1394, "sample_size": 50, "sample_numbers": [16, 44]},
+      "reviewed_at": "2026-09-10T14:28:04Z",
+      "decisions": [
+        {"local_id": "w-4013533-base", "name_vi": "Xã Yên Ninh", "outcome": "assign", "wikidata_qid": "Q10838098", "candidate_qids_checked": ["Q10838095", "Q10838096", "Q10838097", "Q10838098", "Q10838099", "Q10838100", "Q135164477"], "mapping_note": "Q10838098 retains the former Yên Định district parent, historical coordinates, and GeoNames 8550316; Q135164477 owns the current Yên Ninh article and is reassigned to the 2025 successor"},
+        {"local_id": "w-2031729-base", "name_vi": "Xã Hồng Quang", "outcome": "assign", "wikidata_qid": "Q10772174", "candidate_qids_checked": ["Q10772171", "Q10772172", "Q10772173", "Q10772174", "Q10772175", "Q10772177", "Q10828211", "Q16481328", "Q32275357"], "mapping_note": "Q10772174 retains the exact former commune identity, historical Quảng Uyên district parent, Cao Bằng coordinates, and GeoNames 8505621; Q10828211 remains assigned to the Bế Văn Đàn successor"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v53.json", "role": "saved first exhaustive-batch live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate the coordinate-backed historical identities"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current successors from historical units"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition used to verify old-unit identities and successors"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-10T14:20:42Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-10T14:20:42Z"}
+      ]
     }
   ]
 }

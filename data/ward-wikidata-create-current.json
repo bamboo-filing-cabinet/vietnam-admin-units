@@ -10,10 +10,10 @@
   },
   "input_fingerprints": {
     "data/ward-history.json": "c5d42635f1994be730cd6ebadaba3f0b1b7beb26cf4609114c8a7d7d96e80ba6",
-    "mappings/wards-qid.csv": "6895da76d26b13fa7c52bfce1d1d8aa84efecac03c2abe1f29570654cd17273d",
+    "mappings/wards-qid.csv": "edb05bff4f8ad671a1714d3e224bbff8e2197c5f33c6abfa2bd0c5a0b38ea6ad",
     "mappings/provinces-qid.csv": "fac70b6899cc23c1e9514d025b14b45fc807f80a9cbf542731cef6341b72d828",
     "data/ward-legal-sources.json": "cf616087017ce369d504ce34a2274d4f5a5ff0ba56139cdb968051ee3e5c84a7",
-    "data/ward-wikidata-review-decisions.json": "e8b143a9c52862669e1970fbadee8633ef38bed1170428d4936c3b3fba1dba73"
+    "data/ward-wikidata-review-decisions.json": "2aa0526c13a654b22593fb285192132ac4d89b68b5d4047d4d0d2b94fd0f2039"
   },
   "audit": {
     "items": 0,
