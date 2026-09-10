@@ -7195,6 +7195,23 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v57.json", "role": "saved fifth exhaustive-batch live search and entity evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-10.110",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10769211", "Q135139595"], "local_id": "w-15889-2025-07-01", "mapping_note": "current Hoằng Phú commune selects Q135139595; release Q10769211 to the pre-2025 Hoằng Hóa commune", "outcome": "assign", "rationale": "Q135139595 owns the current `Hoằng Phú` article, which documents the June 2025 formation from Hoằng Quý, Hoằng Kim, Hoằng Trung, and Hoằng Phú. Q10769211 retains the former Hoằng Hóa district parent, historical coordinates, and GeoNames 8549980.", "wikidata_qid": "Q135139595"},
+        {"candidate_qids_checked": ["Q10757344", "Q10829857"], "local_id": "w-08254-2025-07-01", "mapping_note": "current Dân Chủ commune selects Q10829857; release Q10757344 to the pre-2025 Hòa Bình city ward and retire Q10829857 from historical Trị Quận", "outcome": "assign", "rationale": "Q10829857 owns the current `Dân Chủ, Phú Thọ` article, which documents the June 2025 formation from Bảo Thanh, Trị Quận, Hạ Giáp, and Gia Thanh. Q10757344 retains the separate former Hòa Bình city parent and historical Dân Chủ coordinates.", "wikidata_qid": "Q10829857"},
+        {"candidate_qids_checked": ["Q10842032", "Q135183801"], "local_id": "w-15724-2025-07-01", "mapping_note": "current Đồng Tiến commune selects Q135183801; release Q10842032 to the pre-2025 Triệu Sơn commune", "outcome": "assign", "rationale": "Q135183801 owns the current `Đồng Tiến, Thanh Hóa` article, which documents the June 2025 formation from Đồng Lợi, Đồng Thắng, and Đồng Tiến. Q10842032 retains the former Triệu Sơn district parent, historical coordinates, and GeoNames 8550198.", "wikidata_qid": "Q135183801"}
+      ],
+      "reviewed_at": "2026-09-10T18:42:19Z",
+      "selection": {"input_status": "exhaustive-predecessor-gap-review-v58, including one related predecessor correction", "sample_numbers": [14, 21, 27]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities, wbgetentities, and revision history", "retrieved_at": "2026-09-10T18:34:42Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and parse", "retrieved_at": "2026-09-10T18:34:42Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current Hoằng Phú, Dân Chủ, and Đồng Tiến from historical units"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v58.json", "role": "saved sixth exhaustive-batch live search and entity evidence"}
+      ]
     }
   ],
   "schema_version": 1,

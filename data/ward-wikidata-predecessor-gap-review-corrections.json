@@ -5,7 +5,7 @@
     "purpose": "superseding corrections to predecessor-gap decisions and mappings",
     "wikidata_write_performed": false
   },
-  "reviewed_at": "2026-09-10T15:20:58Z",
+  "reviewed_at": "2026-09-10T18:42:19Z",
   "batches": [
     {
       "batch_number": 1,
@@ -40,6 +40,19 @@
           "reason_code": "item-now-owns-current-thanh-binh-article-and-no-separate-tien-canh-item-exists"
         }
       ]
+    },
+    {
+      "batch_number": 3,
+      "decisions": [
+        {
+          "sample_number": 21,
+          "local_id": "w-2171113-base",
+          "outcome": "no-distinct-item-found",
+          "supersedes": "automatic predecessor mapping to Q10829857 exposed by exhaustive review v58 sample 21",
+          "invalidated_wikidata_qid": "Q10829857",
+          "reason_code": "item-now-owns-current-dan-chu-article-and-no-separate-historical-tri-quan-item-exists"
+        }
+      ]
     }
   ],
   "sources": [
@@ -60,6 +73,10 @@
       "role": "saved second exhaustive-batch evidence exposing repurposed current-unit items"
     },
     {
+      "path": "data/ward-wikidata-predecessor-gap-sample-v58.json",
+      "role": "saved sixth exhaustive-batch evidence exposing the repurposed current Dân Chủ item"
+    },
+    {
       "path": "data/ward-2025-composition.json",
       "role": "officially sourced composition distinguishing the 2025 current units from their historical components"
     },
@@ -72,12 +89,22 @@
       "endpoint": "https://vi.wikipedia.org/w/api.php",
       "method": "pageprops and extracts",
       "retrieved_at": "2026-09-10T15:20:58Z"
+    },
+    {
+      "endpoint": "https://www.wikidata.org/w/api.php",
+      "method": "wbgetentities and revision history",
+      "retrieved_at": "2026-09-10T18:34:42Z"
+    },
+    {
+      "endpoint": "https://vi.wikipedia.org/w/api.php",
+      "method": "pageprops, extracts, and parse",
+      "retrieved_at": "2026-09-10T18:34:42Z"
     }
   ],
   "audit": {
-    "reviewed_rows": 3,
-    "superseded_decisions": 3,
+    "reviewed_rows": 4,
+    "superseded_decisions": 4,
     "existing_predecessor_items": 0,
-    "no_distinct_item_found": 3
+    "no_distinct_item_found": 4
   }
 }

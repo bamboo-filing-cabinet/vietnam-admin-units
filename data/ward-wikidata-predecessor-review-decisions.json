@@ -1151,6 +1151,25 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities, wbgetentities, and revision history", "retrieved_at": "2026-09-10T17:13:56Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and parse", "retrieved_at": "2026-09-10T17:13:56Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-10.52",
+      "selection": {"method": "frozen exhaustive review queue batch", "seed": "2026-09-10-predecessor-gap-exhaustive-review-v58", "population": 3043, "eligible_population": 1394, "sample_size": 50, "sample_numbers": [14, 21, 27, 31], "related_corrections": ["w-2171113-base"]},
+      "reviewed_at": "2026-09-10T18:42:19Z",
+      "decisions": [
+        {"local_id": "w-4014311-base", "name_vi": "Xã Hoằng Phú", "outcome": "assign", "wikidata_qid": "Q10769211", "candidate_qids_checked": ["Q10769211", "Q135139595"], "mapping_note": "Q10769211 retains the former Hoằng Hóa district parent, historical coordinates, and GeoNames 8549980; Q135139595 owns the current Hoằng Phú article documenting its 2025 formation from four predecessor communes"},
+        {"local_id": "w-3050121-base", "name_vi": "Phường Dân Chủ", "outcome": "assign", "wikidata_qid": "Q10757344", "candidate_qids_checked": ["Q10748641", "Q10757344", "Q10829857"], "mapping_note": "Q10757344 has the exact Dân Chủ identity, former Hòa Bình city parent, historical coordinates, and former-commune class; Q10829857 now owns the current Dân Chủ, Phú Thọ article and Q10748641 remains assigned to the Thống Nhất successor"},
+        {"local_id": "w-4014741-base", "name_vi": "Xã Đồng Tiến", "outcome": "assign", "wikidata_qid": "Q10842032", "candidate_qids_checked": ["Q10842032", "Q135183801"], "mapping_note": "Q10842032 retains the former Triệu Sơn district parent, historical coordinates, and GeoNames 8550198; Q135183801 owns the current Đồng Tiến, Thanh Hóa article documenting its 2025 formation from three predecessor communes"},
+        {"local_id": "w-8231311-base", "name_vi": "Xã Đất Mới", "outcome": "assign", "wikidata_qid": "Q10841369", "candidate_qids_checked": ["Q8079954", "Q10841369"], "mapping_note": "Q10841369 retains the exact former Đất Mới commune identity, old Năm Căn description, and revision history of the former Đất Mới, Năm Căn article; Q8079954 owns the current Đất Mới article and remains assigned to the 2025 successor"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v58.json", "role": "saved sixth exhaustive-batch live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate the coordinate-backed historical identities"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current successors from historical units"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition used to verify old-unit identities and successors"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities, wbgetentities, and revision history", "retrieved_at": "2026-09-10T18:34:42Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and parse", "retrieved_at": "2026-09-10T18:34:42Z"}
+      ]
     }
   ]
 }

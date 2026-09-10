@@ -2388,6 +2388,7 @@ WHERE {
     "Tri Phai"@en
     "Tri Phu"@en
     "Tri Qua"@en
+    "Tri Quan"@en
     "Tri Thuy"@en
     "Tri Ton"@en
     "Trieu Co"@en
@@ -7915,6 +7916,7 @@ WHERE {
     "Tri Phu"@vi
     "Tri Phú"@vi
     "Tri Qua"@vi
+    "Tri Quan"@vi
     "Tri Thuy"@vi
     "Tri Thủy"@vi
     "Tri Ton"@vi
@@ -8065,6 +8067,7 @@ WHERE {
     "Trần Văn Thời"@vi
     "Trần Đề"@vi
     "Trị An"@vi
+    "Trị Quận"@vi
     "Trịnh Tường"@vi
     "Trừ Văn Thố"@vi
     "Trực Hùng"@vi
@@ -10299,6 +10302,7 @@ WHERE {
     "Xã Trần Phán"@vi
     "Xã Trần Phú"@vi
     "Xã Trị An"@vi
+    "Xã Trị Quận"@vi
     "Xã Trịnh Tường"@vi
     "Xã Trừ Văn Thố"@vi
     "Xã Trực Hùng"@vi
@@ -13493,6 +13497,7 @@ WHERE {
     "Tri Phai"@en
     "Tri Phu"@en
     "Tri Qua"@en
+    "Tri Quan"@en
     "Tri Thuy"@en
     "Tri Ton"@en
     "Trieu Co"@en
@@ -19020,6 +19025,7 @@ WHERE {
     "Tri Phu"@vi
     "Tri Phú"@vi
     "Tri Qua"@vi
+    "Tri Quan"@vi
     "Tri Thuy"@vi
     "Tri Thủy"@vi
     "Tri Ton"@vi
@@ -19170,6 +19176,7 @@ WHERE {
     "Trần Văn Thời"@vi
     "Trần Đề"@vi
     "Trị An"@vi
+    "Trị Quận"@vi
     "Trịnh Tường"@vi
     "Trừ Văn Thố"@vi
     "Trực Hùng"@vi
@@ -21404,6 +21411,7 @@ WHERE {
     "Xã Trần Phán"@vi
     "Xã Trần Phú"@vi
     "Xã Trị An"@vi
+    "Xã Trị Quận"@vi
     "Xã Trịnh Tường"@vi
     "Xã Trừ Văn Thố"@vi
     "Xã Trực Hùng"@vi

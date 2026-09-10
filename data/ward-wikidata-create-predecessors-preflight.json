@@ -7,33 +7,33 @@
     "wikidata_write_performed": false
   },
   "input_fingerprints": {
-    "manifest_content_sha256": "a0d0e6efa766148aa9d8d8161700db5eaf0528766863e42353277ce5e4fd2a79",
-    "data/ward-wikidata-predecessor-unresolved-candidates.json": "436359eba44661470735307d79d02bc7bd345ad17cc68523e247b6bf0c0193e2",
-    "data/ward-wikidata-predecessor-article-candidates.json": "d16bcb5898dbc29bbc2faa695eb8dba57d7e82e79c15f5c9f1fcfec7e4faacc7",
-    "data/ward-wikidata-predecessor-context-candidates.json": "3ad496d958dfafc4f947b4666d892274732c713a78dd338b5084ac20e8b6f173",
-    "data/ward-wikidata-predecessor-geonames-candidates.json": "6d322352c2eb2d61673494114443ca972e9530d8536235b86f9c29b4edb2b986",
-    "data/ward-wikidata-predecessor-gap-review-progress.json": "ccac466b581026f286a8e08a7338a22566f521d90967287860f999f0a54ed6eb"
+    "manifest_content_sha256": "0292c2dec543ec8a51cc58a3a86b215fa0fd28b13c0953c8e74a7b257850dc09",
+    "data/ward-wikidata-predecessor-unresolved-candidates.json": "fbebc091441fbaec470335402c90e68ff167637f0b2042d34f3f03b78b2289cb",
+    "data/ward-wikidata-predecessor-article-candidates.json": "4ced3ce5b37b20fda9905b738bda6d1aac3322e2ce24fd45b1c9110865ec7cb3",
+    "data/ward-wikidata-predecessor-context-candidates.json": "919de5b0aac0b95811290a6cd3d2338e869b478bf8346b2e8e989167417d5141",
+    "data/ward-wikidata-predecessor-geonames-candidates.json": "87ca6fd4bb8ba869b606adcd2c444bb3bb276326778d86cdd48f11f35832e67e",
+    "data/ward-wikidata-predecessor-gap-review-progress.json": "8289efc089d3941cafca86e4238ae7a4ca66a56cce6a817cce66e888bcf62e8f"
   },
   "evidence": {
-    "qlever_retrieved_at": "2026-09-10T17:21:19Z",
-    "action_api_retrieved_at": "2026-09-10T17:21:19Z",
+    "qlever_retrieved_at": "2026-09-10T18:46:29Z",
+    "action_api_retrieved_at": "2026-09-10T18:46:30Z",
     "age_hours_at_check": null,
     "max_age_hours": null
   },
   "audit": {
-    "items": 3020,
-    "clear_items": 3020,
+    "items": 3017,
+    "clear_items": 3017,
     "needs_review_items": 0,
     "fresh": true,
-    "reviewed_queue_rows": 250,
-    "pending_queue_rows": 1144,
-    "unreviewed_current_rows": 1142,
+    "reviewed_queue_rows": 300,
+    "pending_queue_rows": 1094,
+    "unreviewed_current_rows": 1093,
     "review_complete": false,
     "review_creation_authorized": false,
     "upload_ready": false
   },
   "issues": [
-    "EXHAUSTIVE-REVIEW-INCOMPLETE 1144/1394 queue rows pending; 1142 current rows unreviewed"
+    "EXHAUSTIVE-REVIEW-INCOMPLETE 1094/1394 queue rows pending; 1093 current rows unreviewed"
   ],
   "items": [
     {
@@ -3628,13 +3628,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-3050121-base",
-      "name_vi": "Phường Dân Chủ",
-      "parent_qid": "Q130324",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-3050125-base",
       "name_vi": "Xã Hòa Bình",
       "parent_qid": "Q130324",
@@ -5723,6 +5716,13 @@
     {
       "local_id": "w-2171111-base",
       "name_vi": "Xã Trạm Thản",
+      "parent_qid": "Q7188256",
+      "classification": "assigned-item-only",
+      "status": "clear"
+    },
+    {
+      "local_id": "w-2171113-base",
+      "name_vi": "Xã Trị Quận",
       "parent_qid": "Q7188256",
       "classification": "assigned-item-only",
       "status": "clear"
@@ -9592,13 +9592,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-4014741-base",
-      "name_vi": "Xã Đồng Tiến",
-      "parent_qid": "Q7841466",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-4014765-base",
       "name_vi": "Xã Thọ Phú",
       "parent_qid": "Q7841466",
@@ -9624,13 +9617,6 @@
       "name_vi": "Xã Hoằng Giang",
       "parent_qid": "Q5874410",
       "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-4014311-base",
-      "name_vi": "Xã Hoằng Phú",
-      "parent_qid": "Q5874410",
-      "classification": "verification-rejected",
       "status": "clear"
     },
     {
@@ -21123,13 +21109,6 @@
     {
       "local_id": "w-8231301-base",
       "name_vi": "Thị Trấn Năm Căn",
-      "parent_qid": "Q724711",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-8231311-base",
-      "name_vi": "Xã Đất Mới",
       "parent_qid": "Q724711",
       "classification": "no-broad-district-candidate",
       "status": "clear"
