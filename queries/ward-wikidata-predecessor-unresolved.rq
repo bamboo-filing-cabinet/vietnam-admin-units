@@ -894,7 +894,6 @@ WHERE {
     "Hoang Phu"@en
     "Hoang Que"@en
     "Hoang Quy"@en
-    "Hoang Son"@en
     "Hoang Tan"@en
     "Hoang Thanh"@en
     "Hoang Tien"@en
@@ -4119,7 +4118,6 @@ WHERE {
     "Hoang Phu"@vi
     "Hoang Que"@vi
     "Hoang Quy"@vi
-    "Hoang Son"@vi
     "Hoang Tan"@vi
     "Hoang Thanh"@vi
     "Hoang Tien"@vi
@@ -4192,7 +4190,6 @@ WHERE {
     "Hoằng Phụ"@vi
     "Hoằng Quý"@vi
     "Hoằng Quỳ"@vi
-    "Hoằng Sơn"@vi
     "Hoằng Thanh"@vi
     "Hoằng Thành"@vi
     "Hoằng Tiến"@vi
@@ -9116,7 +9113,6 @@ WHERE {
     "Xã Hoằng Phụ"@vi
     "Xã Hoằng Quý"@vi
     "Xã Hoằng Quỳ"@vi
-    "Xã Hoằng Sơn"@vi
     "Xã Hoằng Thanh"@vi
     "Xã Hoằng Thành"@vi
     "Xã Hoằng Tiến"@vi
@@ -12021,7 +12017,6 @@ WHERE {
     "Hoang Phu"@en
     "Hoang Que"@en
     "Hoang Quy"@en
-    "Hoang Son"@en
     "Hoang Tan"@en
     "Hoang Thanh"@en
     "Hoang Tien"@en
@@ -15246,7 +15241,6 @@ WHERE {
     "Hoang Phu"@vi
     "Hoang Que"@vi
     "Hoang Quy"@vi
-    "Hoang Son"@vi
     "Hoang Tan"@vi
     "Hoang Thanh"@vi
     "Hoang Tien"@vi
@@ -15319,7 +15313,6 @@ WHERE {
     "Hoằng Phụ"@vi
     "Hoằng Quý"@vi
     "Hoằng Quỳ"@vi
-    "Hoằng Sơn"@vi
     "Hoằng Thanh"@vi
     "Hoằng Thành"@vi
     "Hoằng Tiến"@vi
@@ -20243,7 +20236,6 @@ WHERE {
     "Xã Hoằng Phụ"@vi
     "Xã Hoằng Quý"@vi
     "Xã Hoằng Quỳ"@vi
-    "Xã Hoằng Sơn"@vi
     "Xã Hoằng Thanh"@vi
     "Xã Hoằng Thành"@vi
     "Xã Hoằng Tiến"@vi

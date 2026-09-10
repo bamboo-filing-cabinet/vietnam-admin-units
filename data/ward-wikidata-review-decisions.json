@@ -7078,6 +7078,21 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v49.json", "role": "saved forty-ninth-round random-audit evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-09.103",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10769220", "Q135139589"], "local_id": "w-15910-2025-07-01", "mapping_note": "current Hoằng Sơn commune selects Q135139589; release Q10769220 to the pre-2025 Hoằng Hóa commune", "outcome": "assign", "rationale": "Q135139589 owns the current `Hoằng Sơn` article and describes the present Thanh Hóa commune. Q10769220 retains the former Hoằng Hóa district parent, historical coordinates, and GeoNames 8549995.", "wikidata_qid": "Q135139589"}
+      ],
+      "reviewed_at": "2026-09-09T21:28:09Z",
+      "selection": {"input_status": "random-predecessor-gap-audit-v50", "sample_numbers": [19]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T21:25:22Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T21:25:22Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current Hoằng Sơn from its namesake predecessor"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v50.json", "role": "saved fiftieth-round random-audit evidence"}
+      ]
     }
   ],
   "schema_version": 1,

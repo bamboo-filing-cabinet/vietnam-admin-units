@@ -1027,6 +1027,22 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T21:15:16Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T21:15:16Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-09.45",
+      "selection": {"method": "lowest SHA-256(seed + NUL + local_id)", "seed": "2026-09-09-predecessor-gap-audit-v50", "population": 3045, "sample_size": 50, "sample_numbers": [19]},
+      "reviewed_at": "2026-09-09T21:28:09Z",
+      "decisions": [
+        {"local_id": "w-4014323-base", "name_vi": "Xã Hoằng Sơn", "outcome": "assign", "wikidata_qid": "Q10769220", "candidate_qids_checked": ["Q10769220", "Q135139589"], "mapping_note": "Q10769220 retains the former Hoằng Hóa district parent, historical coordinates, and GeoNames 8549995; Q135139589 owns the current Hoằng Sơn article and is reassigned to the successor"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v50.json", "role": "saved fiftieth-round 50-row live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames record used to validate the coordinate-backed historical identity"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish the current successor from the historical unit"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition used to verify the old-unit identity and successor"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T21:25:22Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T21:25:22Z"}
+      ]
     }
   ]
 }

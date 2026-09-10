@@ -7,22 +7,22 @@
     "wikidata_write_performed": false
   },
   "input_fingerprints": {
-    "manifest_content_sha256": "e9c7b84d73a22ce2ed9deca32adeab57f8df89b29772ef2474fda72623d7085b",
-    "data/ward-wikidata-predecessor-unresolved-candidates.json": "55db2ffcf30c207ef5bd5555c9a18cccbf290c0c32ea57cad50533e7d113edbd",
-    "data/ward-wikidata-predecessor-article-candidates.json": "08b069a5ccff139cdefbf305a176fe6ccbf2e88536d5ebce2404cef74a059cf4",
-    "data/ward-wikidata-predecessor-context-candidates.json": "b49cb6566ec1931551ccfdcea1e57df2f11e53feb34eb9a1127a252448f2abd3",
-    "data/ward-wikidata-predecessor-geonames-candidates.json": "e6040eb289d7d56c11faad46ab85dd6e0666c4e9e1979a4d8dc6c27928429413",
+    "manifest_content_sha256": "41ab88dea69ec4dd44516531c9b00b2f962bfc984f75a7d9bdfe7369a1d5e65f",
+    "data/ward-wikidata-predecessor-unresolved-candidates.json": "e8870e2b2ffc24cd5efbb26026e31a14ecc9ceacb9809470997ab3231bb5a032",
+    "data/ward-wikidata-predecessor-article-candidates.json": "658c68519dcfe8e39bc45ef0ffb9a47a6c3f6316e7db3f0c62dba89aa1dae935",
+    "data/ward-wikidata-predecessor-context-candidates.json": "a4dec90fff3ec32e892561d4736b34e497cad48ffe10895b3c35522faf0e4039",
+    "data/ward-wikidata-predecessor-geonames-candidates.json": "75db2492c1331c3eb4e3c47e59dbe1650aa8108c9a842344823a2e1f85902ab7",
     "data/ward-wikidata-predecessor-gap-sample-v2-decisions.json": "82250c9c319a2b462e4dee20d963cf77b1884dbe1196cda47cc83485b603c2b4"
   },
   "evidence": {
-    "qlever_retrieved_at": "2026-09-09T21:21:48Z",
-    "action_api_retrieved_at": "2026-09-09T21:21:48Z",
+    "qlever_retrieved_at": "2026-09-10T00:46:14Z",
+    "action_api_retrieved_at": "2026-09-10T00:46:15Z",
     "age_hours_at_check": null,
     "max_age_hours": null
   },
   "audit": {
-    "items": 3045,
-    "clear_items": 3045,
+    "items": 3044,
+    "clear_items": 3044,
     "needs_review_items": 0,
     "fresh": true,
     "sample_reviewed_rows": 50,
@@ -9727,13 +9727,6 @@
       "name_vi": "Xã Hoằng Phú",
       "parent_qid": "Q5874410",
       "classification": "verification-rejected",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-4014323-base",
-      "name_vi": "Xã Hoằng Sơn",
-      "parent_qid": "Q5874410",
-      "classification": "no-broad-district-candidate",
       "status": "clear"
     },
     {

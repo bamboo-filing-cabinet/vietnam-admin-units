@@ -3877,7 +3877,7 @@ w-15865-2025-07-01,15865,Xã Hoằng Hóa,Xã,38,2025-07-01,,Q135116256,existing
 w-15868-2004-06-30,15868,Phường Tào Xuyên,Phường,380,2004-06-30,2019-11-30,,,deferred-historical,,
 w-15880-2025-07-01,15880,Xã Hoằng Giang,Xã,38,2025-07-01,,Q10769193,existing,matched,Q10768913|Q10769193,qlever-label+predecessor-district+batched-wbgetentities
 w-15889-2025-07-01,15889,Xã Hoằng Phú,Xã,38,2025-07-01,,Q10769211,existing,matched,Q10769211|Q10769214,broad-exact-vi+current-province+ward-class+batched-wbgetentities
-w-15910-2025-07-01,15910,Xã Hoằng Sơn,Xã,38,2025-07-01,,Q10769220,existing,matched,Q10769220|Q86008078,qlever-label+predecessor-district+batched-wbgetentities
+w-15910-2025-07-01,15910,Xã Hoằng Sơn,Xã,38,2025-07-01,,Q135139589,existing,manual,Q10769220|Q86008078|Q135139589,review 2026-09-09.103: current Hoằng Sơn commune selects Q135139589; release Q10769220 to the pre-2025 Hoằng Hóa commune
 w-15925-2025-07-01,15925,Phường Nguyệt Viên,Phường,38,2025-07-01,,Q135107850,existing,manual,Q135107850,review 2026-09-02.52: current Nguyệt Viên page selects Q135107850
 w-15961-2025-07-01,15961,Xã Hoằng Lộc,Xã,38,2025-07-01,,Q10769206,existing,matched,Q10769206,qlever-label+current-province+batched-wbgetentities
 w-15976-2025-07-01,15976,Xã Hoằng Châu,Xã,38,2025-07-01,,Q135139578,existing,manual,Q10768895|Q10769191|Q135139578,review 2026-09-09.100: current Hoằng Châu commune selects Q135139578; release Q10769191 to the pre-2025 Hoằng Hóa commune
@@ -9326,7 +9326,7 @@ w-4014315-base,15889,Xã Hoằng Kim,Xã,399,,2025-06-30,Q10769200,existing,veri
 w-4014317-base,15892,Xã Hoằng Trung,Xã,399,,2025-06-30,Q10769229,existing,verified,Q10769229,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4014319-base,15895,Xã Hoằng Trinh,Xã,399,,2025-06-30,Q10769228,existing,verified,Q10769228,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4014321-base,15898,Xã Hoằng Sơn,Xã,399,,2019-11-30,,,deferred-historical,,
-w-4014323-base,15901,Xã Hoằng Sơn,Xã,399,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4014323-base,15901,Xã Hoằng Sơn,Xã,399,,2025-06-30,Q10769220,existing,manual,Q10769220|Q135139589,"predecessor review 2026-09-09.45: Q10769220 retains the former Hoằng Hóa district parent, historical coordinates, and GeoNames 8549995; Q135139589 owns the current Hoằng Sơn article and is reassigned to the successor"
 w-4014325-base,15904,Xã Hoằng Xuyên,Xã,399,,2019-11-30,,,deferred-historical,,
 w-4014327-base,15907,Xã Hoằng Cát,Xã,399,,2025-06-30,Q10769192,existing,verified,Q10769192,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4014329-base,15910,Xã Hoằng Xuyên,Xã,399,,2025-06-30,Q10769237,existing,verified,Q10769237,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
