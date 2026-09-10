@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "scope": {
+    "tier": "ward",
+    "purpose": "manual decisions for seventh exhaustive predecessor-gap review batch",
+    "wikidata_write_performed": false
+  },
+  "sampling": {
+    "method": "frozen exhaustive review queue batch",
+    "seed": "2026-09-10-predecessor-gap-exhaustive-review-v59",
+    "population": 3043,
+    "eligible_population": 1394,
+    "review_round": 59,
+    "sample_size": 50,
+    "batch_size": 10,
+    "batches": 5
+  },
+  "reviewed_at": "2026-09-10T19:02:19Z",
+  "batches": [
+    {
+      "batch_number": 1,
+      "decisions": [
+        {"sample_number": 1, "local_id": "w-7151307-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-disambiguation-or-wrong-location-items"},
+        {"sample_number": 2, "local_id": "w-4091721-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 3, "local_id": "w-8171515-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 4, "local_id": "w-1071137-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-or-wrong-location-item"},
+        {"sample_number": 5, "local_id": "w-4070903-base", "outcome": "no-distinct-item-found", "reason_code": "no-exact-name-target-item-found"},
+        {"sample_number": 6, "local_id": "w-7131705-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 7, "local_id": "w-8070309-base", "outcome": "existing-predecessor-item", "wikidata_qid": "Q10786831", "reason_code": "former-go-cong-ward-item-already-released-by-v57-related-correction"},
+        {"sample_number": 8, "local_id": "w-4012329-base", "outcome": "existing-predecessor-item-after-current-swap", "wikidata_qid": "Q10826044", "replacement_current_qid": "Q135232446", "reason_code": "old-thuong-xuan-township-item-released-by-distinct-current-commune-article"},
+        {"sample_number": 9, "local_id": "w-6050101-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 10, "local_id": "w-27928-2004-06-30", "outcome": "no-distinct-item-found", "reason_code": "only-disambiguation-or-wrong-location-items"}
+      ]
+    },
+    {
+      "batch_number": 2,
+      "decisions": [
+        {"sample_number": 11, "local_id": "w-8191319-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 12, "local_id": "w-1131305-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 13, "local_id": "w-4014127-base", "outcome": "existing-predecessor-item-after-current-swap", "wikidata_qid": "Q10825277", "replacement_current_qid": "Q135162965", "reason_code": "old-thieu-quang-commune-item-released-by-distinct-current-commune-article"},
+        {"sample_number": 14, "local_id": "w-1052521-base", "outcome": "no-distinct-item-found", "reason_code": "no-exact-name-target-item-found"},
+        {"sample_number": 15, "local_id": "w-6031713-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 16, "local_id": "w-7070323-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 17, "local_id": "w-2070705-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 18, "local_id": "w-6011317-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 19, "local_id": "w-2131701-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successors-district-or-disambiguation-items"},
+        {"sample_number": 20, "local_id": "w-1111101-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-now-owns-current-successor-article"}
+      ]
+    },
+    {
+      "batch_number": 3,
+      "decisions": [
+        {"sample_number": 21, "local_id": "w-2252521-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 22, "local_id": "w-7110417-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 23, "local_id": "w-2051901-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successors-or-disambiguation-item"},
+        {"sample_number": 24, "local_id": "w-1110503-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-with-no-distinct-current-item"},
+        {"sample_number": 25, "local_id": "w-1131707-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-disambiguation-or-wrong-location-items"},
+        {"sample_number": 26, "local_id": "w-4031903-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 27, "local_id": "w-2031805-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 28, "local_id": "w-2130501-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successors-district-or-disambiguation-items"},
+        {"sample_number": 29, "local_id": "w-7130925-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 30, "local_id": "w-1090901-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"}
+      ]
+    },
+    {
+      "batch_number": 4,
+      "decisions": [
+        {"sample_number": 31, "local_id": "w-1150769-base", "outcome": "no-distinct-item-found", "reason_code": "no-exact-name-target-item-found"},
+        {"sample_number": 32, "local_id": "w-6053309-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 33, "local_id": "w-6032323-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 34, "local_id": "w-6050135-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-now-owns-current-successor-article"},
+        {"sample_number": 35, "local_id": "w-8010303-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successors-disambiguation-or-wrong-location-items"},
+        {"sample_number": 36, "local_id": "w-7012317-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 37, "local_id": "w-3050719-base", "outcome": "existing-predecessor-item", "wikidata_qid": "Q10828341", "reason_code": "exact-former-trung-minh-name-history-coordinates-and-geonames-identity"},
+        {"sample_number": 38, "local_id": "w-2050531-base", "outcome": "no-distinct-item-found", "reason_code": "only-disambiguation-wrong-location-or-unsupported-stub-items"},
+        {"sample_number": 39, "local_id": "w-4032319-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 40, "local_id": "w-4030115-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-renamed-current-successor"}
+      ]
+    },
+    {
+      "batch_number": 5,
+      "decisions": [
+        {"sample_number": 41, "local_id": "w-1090349-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-disambiguation-or-wrong-location-items"},
+        {"sample_number": 42, "local_id": "w-24540-2007-09-11", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 43, "local_id": "w-1041103-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 44, "local_id": "w-2250117-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 45, "local_id": "w-4014919-base", "outcome": "existing-predecessor-item-after-current-swap", "wikidata_qid": "Q10810437", "replacement_current_qid": "Q135140781", "reason_code": "old-quang-ninh-commune-item-released-by-distinct-current-commune-article"},
+        {"sample_number": 46, "local_id": "w-1090203-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 47, "local_id": "w-8190909-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 48, "local_id": "w-8170913-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 49, "local_id": "w-2091137-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 50, "local_id": "w-1130715-base", "outcome": "no-distinct-item-found", "reason_code": "only-current-successor-disambiguation-or-wrong-location-items"}
+      ]
+    }
+  ],
+  "sources": [
+    {"path": "data/ward-wikidata-predecessor-gap-sample-v59.json", "role": "saved seventh exhaustive-batch live search and entity evidence"},
+    {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate coordinate-backed identities and reject wrong-location candidates"},
+    {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current successors from historical units"},
+    {"path": "data/ward-history.json", "role": "canonical predecessor composition used to verify old-unit identities, name and type spans, and successors"},
+    {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-10T18:59:28Z"},
+    {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-10T18:59:28Z"}
+  ],
+  "audit": {
+    "reviewed_rows": 50,
+    "existing_predecessor_items": 5,
+    "current_mapping_swaps": 3,
+    "no_distinct_item_found": 45,
+    "sample_miss_rate": 0.1,
+    "creation_batch_authorized": false
+  }
+}

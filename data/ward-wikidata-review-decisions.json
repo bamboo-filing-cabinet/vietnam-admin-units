@@ -7212,6 +7212,23 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v58.json", "role": "saved sixth exhaustive-batch live search and entity evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-10.111",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10826044", "Q135232446"], "local_id": "w-15646-2025-07-01", "mapping_note": "current Thường Xuân commune selects Q135232446; release Q10826044 to the pre-2025 district-capital township", "outcome": "assign", "rationale": "Q135232446 owns the current `Thường Xuân (xã)` article, and the official composition records formation from the old township, Xuân Dương, Thọ Thanh, and Ngọc Phụng. Q10826044 retains the township class, former district parent, historical coordinates, and GeoNames 8550011.", "wikidata_qid": "Q135232446"},
+        {"candidate_qids_checked": ["Q10825277", "Q135162965"], "local_id": "w-15796-2025-07-01", "mapping_note": "current Thiệu Quang commune selects Q135162965; release Q10825277 to the pre-2025 Thiệu Hóa commune", "outcome": "assign", "rationale": "Q135162965 owns the current `Thiệu Quang` article, and the official composition distinguishes the current commune from old Thiệu Quang and four other components. Q10825277 retains the former Thiệu Hóa district parent, historical coordinates, and GeoNames 8550142.", "wikidata_qid": "Q135162965"},
+        {"candidate_qids_checked": ["Q10810437", "Q135140781"], "local_id": "w-16540-2025-07-01", "mapping_note": "current Quảng Ninh commune selects Q135140781; release Q10810437 to the pre-2025 Quảng Xương commune", "outcome": "assign", "rationale": "Q135140781 owns the current `Quảng Ninh, Thanh Hóa` article, and the official composition records formation from Quảng Nhân, Quảng Ninh, and Quảng Hải. Q10810437 retains the former Quảng Xương district parent, historical coordinates, and GeoNames 8550220.", "wikidata_qid": "Q135140781"}
+      ],
+      "reviewed_at": "2026-09-10T19:02:19Z",
+      "selection": {"input_status": "exhaustive-predecessor-gap-review-v59", "sample_numbers": [8, 13, 45]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-10T18:59:28Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-10T18:59:28Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current Thường Xuân, Thiệu Quang, and Quảng Ninh from their historical namesakes"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v59.json", "role": "saved seventh exhaustive-batch live search and entity evidence"}
+      ]
     }
   ],
   "schema_version": 1,

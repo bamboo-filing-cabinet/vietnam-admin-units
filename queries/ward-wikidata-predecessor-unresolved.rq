@@ -1849,7 +1849,6 @@ WHERE {
     "Quang Minh"@en
     "Quang Nghia"@en
     "Quang Nguyen"@en
-    "Quang Ninh"@en
     "Quang Phu"@en
     "Quang Son"@en
     "Quang Tan"@en
@@ -2217,7 +2216,6 @@ WHERE {
     "Thien Tan"@en
     "Thien Thuat"@en
     "Thiet Ong"@en
-    "Thieu Quang"@en
     "Thieu Tien"@en
     "Thinh Dan"@en
     "Thinh Duc"@en
@@ -2288,7 +2286,6 @@ WHERE {
     "Thuong Tan Loc"@en
     "Thuong Tin"@en
     "Thuong Trach"@en
-    "Thuong Xuan"@en
     "Thuy Bieu"@en
     "Thuy Chau"@en
     "Thuy Hung"@en
@@ -6607,7 +6604,6 @@ WHERE {
     "Quang Minh"@vi
     "Quang Nghia"@vi
     "Quang Nguyen"@vi
-    "Quang Ninh"@vi
     "Quang Phu"@vi
     "Quang Son"@vi
     "Quang Sơn"@vi
@@ -6681,7 +6677,6 @@ WHERE {
     "Quảng Lộc"@vi
     "Quảng Nghĩa"@vi
     "Quảng Nguyên"@vi
-    "Quảng Ninh"@vi
     "Quảng Phú"@vi
     "Quảng Sơn"@vi
     "Quảng Thủy"@vi
@@ -7170,7 +7165,6 @@ WHERE {
     "Thien Tan"@vi
     "Thien Thuat"@vi
     "Thiet Ong"@vi
-    "Thieu Quang"@vi
     "Thieu Tien"@vi
     "Thinh Dan"@vi
     "Thinh Duc"@vi
@@ -7190,7 +7184,6 @@ WHERE {
     "Thiện Mỹ"@vi
     "Thiện Thuật"@vi
     "Thiện Tân"@vi
-    "Thiệu Quang"@vi
     "Thiệu Tiến"@vi
     "Tho Chau"@vi
     "Tho Nghiep"@vi
@@ -7256,7 +7249,6 @@ WHERE {
     "Thuong Tan Loc"@vi
     "Thuong Tin"@vi
     "Thuong Trach"@vi
-    "Thuong Xuan"@vi
     "Thuy Bieu"@vi
     "Thuy Chau"@vi
     "Thuy Hung"@vi
@@ -7311,7 +7303,6 @@ WHERE {
     "Thường Nga"@vi
     "Thường Tân"@vi
     "Thường Tín"@vi
-    "Thường Xuân"@vi
     "Thượng Bằng La"@vi
     "Thượng Cát"@vi
     "Thượng Cốc"@vi
@@ -7631,7 +7622,6 @@ WHERE {
     "Thị trấn Thác Bà"@vi
     "Thị trấn Thông Nông"@vi
     "Thị trấn Thường Tín"@vi
-    "Thị trấn Thường Xuân"@vi
     "Thị trấn Thạch Hà"@vi
     "Thị trấn Thạnh Hóa"@vi
     "Thị trấn Thạnh Mỹ"@vi
@@ -9954,7 +9944,6 @@ WHERE {
     "Xã Quảng Lộc"@vi
     "Xã Quảng Nghĩa"@vi
     "Xã Quảng Nguyên"@vi
-    "Xã Quảng Ninh"@vi
     "Xã Quảng Phú"@vi
     "Xã Quảng Sơn"@vi
     "Xã Quảng Thủy"@vi
@@ -10114,7 +10103,6 @@ WHERE {
     "Xã Thiện Mỹ"@vi
     "Xã Thiện Thuật"@vi
     "Xã Thiện Tân"@vi
-    "Xã Thiệu Quang"@vi
     "Xã Thiệu Tiến"@vi
     "Xã Thu Cúc"@vi
     "Xã Thu Lũm"@vi
@@ -12958,7 +12946,6 @@ WHERE {
     "Quang Minh"@en
     "Quang Nghia"@en
     "Quang Nguyen"@en
-    "Quang Ninh"@en
     "Quang Phu"@en
     "Quang Son"@en
     "Quang Tan"@en
@@ -13326,7 +13313,6 @@ WHERE {
     "Thien Tan"@en
     "Thien Thuat"@en
     "Thiet Ong"@en
-    "Thieu Quang"@en
     "Thieu Tien"@en
     "Thinh Dan"@en
     "Thinh Duc"@en
@@ -13397,7 +13383,6 @@ WHERE {
     "Thuong Tan Loc"@en
     "Thuong Tin"@en
     "Thuong Trach"@en
-    "Thuong Xuan"@en
     "Thuy Bieu"@en
     "Thuy Chau"@en
     "Thuy Hung"@en
@@ -17716,7 +17701,6 @@ WHERE {
     "Quang Minh"@vi
     "Quang Nghia"@vi
     "Quang Nguyen"@vi
-    "Quang Ninh"@vi
     "Quang Phu"@vi
     "Quang Son"@vi
     "Quang Sơn"@vi
@@ -17790,7 +17774,6 @@ WHERE {
     "Quảng Lộc"@vi
     "Quảng Nghĩa"@vi
     "Quảng Nguyên"@vi
-    "Quảng Ninh"@vi
     "Quảng Phú"@vi
     "Quảng Sơn"@vi
     "Quảng Thủy"@vi
@@ -18279,7 +18262,6 @@ WHERE {
     "Thien Tan"@vi
     "Thien Thuat"@vi
     "Thiet Ong"@vi
-    "Thieu Quang"@vi
     "Thieu Tien"@vi
     "Thinh Dan"@vi
     "Thinh Duc"@vi
@@ -18299,7 +18281,6 @@ WHERE {
     "Thiện Mỹ"@vi
     "Thiện Thuật"@vi
     "Thiện Tân"@vi
-    "Thiệu Quang"@vi
     "Thiệu Tiến"@vi
     "Tho Chau"@vi
     "Tho Nghiep"@vi
@@ -18365,7 +18346,6 @@ WHERE {
     "Thuong Tan Loc"@vi
     "Thuong Tin"@vi
     "Thuong Trach"@vi
-    "Thuong Xuan"@vi
     "Thuy Bieu"@vi
     "Thuy Chau"@vi
     "Thuy Hung"@vi
@@ -18420,7 +18400,6 @@ WHERE {
     "Thường Nga"@vi
     "Thường Tân"@vi
     "Thường Tín"@vi
-    "Thường Xuân"@vi
     "Thượng Bằng La"@vi
     "Thượng Cát"@vi
     "Thượng Cốc"@vi
@@ -18740,7 +18719,6 @@ WHERE {
     "Thị trấn Thác Bà"@vi
     "Thị trấn Thông Nông"@vi
     "Thị trấn Thường Tín"@vi
-    "Thị trấn Thường Xuân"@vi
     "Thị trấn Thạch Hà"@vi
     "Thị trấn Thạnh Hóa"@vi
     "Thị trấn Thạnh Mỹ"@vi
@@ -21063,7 +21041,6 @@ WHERE {
     "Xã Quảng Lộc"@vi
     "Xã Quảng Nghĩa"@vi
     "Xã Quảng Nguyên"@vi
-    "Xã Quảng Ninh"@vi
     "Xã Quảng Phú"@vi
     "Xã Quảng Sơn"@vi
     "Xã Quảng Thủy"@vi
@@ -21223,7 +21200,6 @@ WHERE {
     "Xã Thiện Mỹ"@vi
     "Xã Thiện Thuật"@vi
     "Xã Thiện Tân"@vi
-    "Xã Thiệu Quang"@vi
     "Xã Thiệu Tiến"@vi
     "Xã Thu Cúc"@vi
     "Xã Thu Lũm"@vi

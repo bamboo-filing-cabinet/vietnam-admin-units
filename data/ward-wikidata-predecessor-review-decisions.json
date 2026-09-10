@@ -1170,6 +1170,25 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities, wbgetentities, and revision history", "retrieved_at": "2026-09-10T18:34:42Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and parse", "retrieved_at": "2026-09-10T18:34:42Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-10.53",
+      "selection": {"method": "frozen exhaustive review queue batch", "seed": "2026-09-10-predecessor-gap-exhaustive-review-v59", "population": 3043, "eligible_population": 1394, "sample_size": 50, "sample_numbers": [8, 13, 37, 45]},
+      "reviewed_at": "2026-09-10T19:02:19Z",
+      "decisions": [
+        {"local_id": "w-4012329-base", "name_vi": "Thị trấn Thường Xuân", "outcome": "assign", "wikidata_qid": "Q10826044", "candidate_qids_checked": ["Q10826044", "Q135232446"], "mapping_note": "Q10826044 retains the township class, former Thường Xuân district parent, historical coordinates, and GeoNames 8550011; Q135232446 owns the distinct current Thường Xuân commune article"},
+        {"local_id": "w-4014127-base", "name_vi": "Xã Thiệu Quang", "outcome": "assign", "wikidata_qid": "Q10825277", "candidate_qids_checked": ["Q10825277", "Q135162965"], "mapping_note": "Q10825277 retains the former Thiệu Hóa district parent, historical coordinates, and GeoNames 8550142; Q135162965 owns the distinct current Thiệu Quang article"},
+        {"local_id": "w-3050719-base", "name_vi": "Phường Trung Minh", "outcome": "assign", "wikidata_qid": "Q10828341", "candidate_qids_checked": ["Q10770929", "Q10828339", "Q10828340", "Q10828341"], "mapping_note": "Q10828341 has the exact Trung Minh name, Hòa Bình description, matching coordinates, and GeoNames 8551502; the canonical history records the same local entity as a commune through January 2021 and a ward thereafter, while Q10770929 remains on the Hòa Bình successor"},
+        {"local_id": "w-4014919-base", "name_vi": "Xã Quảng Ninh", "outcome": "assign", "wikidata_qid": "Q10810437", "candidate_qids_checked": ["Q10810437", "Q135140781"], "mapping_note": "Q10810437 retains the former Quảng Xương district parent, historical coordinates, and GeoNames 8550220; Q135140781 owns the distinct current Quảng Ninh, Thanh Hóa article"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v59.json", "role": "saved seventh exhaustive-batch live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate the coordinate-backed historical identities"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current successors from historical units"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition and name/type history used to verify old-unit identities"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-10T18:59:28Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-10T18:59:28Z"}
+      ]
     }
   ]
 }
