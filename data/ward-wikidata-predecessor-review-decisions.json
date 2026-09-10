@@ -1268,6 +1268,25 @@
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and redirects", "retrieved_at": "2026-09-10T20:33:32Z"},
         {"endpoint": "https://en.wikipedia.org/w/api.php", "method": "pageprops, extracts, and redirects for the Việt Hùng settlement candidate", "retrieved_at": "2026-09-10T20:33:32Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-10.58",
+      "selection": {"method": "frozen exhaustive review queue batch", "seed": "2026-09-10-predecessor-gap-exhaustive-review-v64", "population": 3043, "eligible_population": 1394, "sample_size": 50, "sample_numbers": [2, 40, 41, 45]},
+      "reviewed_at": "2026-09-10T20:48:05Z",
+      "decisions": [
+        {"local_id": "w-4033531-base", "name_vi": "Xã Hùng Tiến", "outcome": "assign", "wikidata_qid": "Q32272669", "candidate_qids_checked": ["Q10771241", "Q10771243", "Q10771411", "Q1320497", "Q32272669"], "mapping_note": "Q32272669 is a GeoNames-imported commune item created from the exact Xã Hùng Tiến, Nghệ An article; its Nam Đàn-area coordinates and GeoNames 8627941 match the former commune, while Q1320497 owns the current Kim Liên successor"},
+        {"local_id": "w-03002-2020-01-01", "name_vi": "Phường Sa Pả", "outcome": "assign", "wikidata_qid": "Q10812153", "candidate_qids_checked": ["Q1000140", "Q1877096", "Q7395483", "Q10812153"], "mapping_note": "Q10812153 has the exact Sa Pả name, Sa Pa parent, matching coordinates, GeoNames 8464766, and article history for the former ward; Q1000140 remains assigned to the broader current Sa Pa successor"},
+        {"local_id": "w-5090919-base", "name_vi": "Xã Sơn Long", "outcome": "assign", "wikidata_qid": "Q32301235", "candidate_qids_checked": ["Q10823324", "Q16480407", "Q32301235", "Q32301244", "Q86011921"], "mapping_note": "Q32301235 is a GeoNames-imported commune item created from the exact Xã Sơn Long, Phú Yên article; its Sơn Hòa-area coordinates and GeoNames 8719371 match the former commune, while Q86011921 owns the current Sơn Long successor and Q32301244 is the Quảng Ngãi namesake"},
+        {"local_id": "w-2090321-base", "name_vi": "Xã Quốc Khánh", "outcome": "assign", "wikidata_qid": "Q32299271", "candidate_qids_checked": ["Q10810894", "Q32299271", "Q86011324"], "mapping_note": "Q32299271 is a GeoNames-imported commune item created from the exact Xã Quốc Khánh article; its Tràng Định-area coordinates and GeoNames 8522196 match the former commune, while Q86011324 owns the current Quốc Khánh article and remains assigned to the broader 2025 successor"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v64.json", "role": "saved twelfth exhaustive-batch live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate the coordinate-backed historical identities"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current successors and namesakes from their historical components"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition used to verify old-unit identities and successors"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities, wbgetentities, and revision history", "retrieved_at": "2026-09-10T20:48:05Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and redirects", "retrieved_at": "2026-09-10T20:48:05Z"}
+      ]
     }
   ]
 }

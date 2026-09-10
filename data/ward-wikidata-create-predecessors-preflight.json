@@ -7,33 +7,33 @@
     "wikidata_write_performed": false
   },
   "input_fingerprints": {
-    "manifest_content_sha256": "e6b663b9c813c42729cb0e0a4513da4385a3b341d3cdf07eaad3ce500a6ce670",
-    "data/ward-wikidata-predecessor-unresolved-candidates.json": "25756ae43a99d605d827b2b710c31ffc911f1162e2e9e9079df768be8af175c0",
-    "data/ward-wikidata-predecessor-article-candidates.json": "7a0cc44834948792481cc25e6ec09f0147e6055fd8dc7d2f7e2c10deb820fc58",
-    "data/ward-wikidata-predecessor-context-candidates.json": "cb0b263e0de9afc7b8b1d8f3d5ddda8937837eda39c4063b266e9a26ea78b015",
-    "data/ward-wikidata-predecessor-geonames-candidates.json": "190ff9fc5b4fdb21ff4472d13bb657d4d793ff9295cbb8b559f74c7c3a6bae75",
-    "data/ward-wikidata-predecessor-gap-review-progress.json": "b35b7aee17cce84a2bf572fd71329ed755df9d5a9d210eab2eca0d7d94380c06"
+    "manifest_content_sha256": "d7ac6250725ba8de959534649b7e9299f285c3c511bd349b2edfbd3319781a7c",
+    "data/ward-wikidata-predecessor-unresolved-candidates.json": "daba524a52be90b691ea23450ac590e33bb550f20fe9067aebb45a0eda47de43",
+    "data/ward-wikidata-predecessor-article-candidates.json": "5eb3a06005b5adcc7efc98c686bff6deadc8c072fb6a7d1764629efa39f05130",
+    "data/ward-wikidata-predecessor-context-candidates.json": "c06c3cbff17388a79333dc821c4e760344de34a9fd919b5974af4efaed502277",
+    "data/ward-wikidata-predecessor-geonames-candidates.json": "0aeb5485a93c47a31f2ca344f230e27abe825f43f5bcb9eda5b7a7256307be3a",
+    "data/ward-wikidata-predecessor-gap-review-progress.json": "f0cc644afe6b5c9ae1313d7c5e0fc0eed77de13f49bed2a748143484eac256a7"
   },
   "evidence": {
-    "qlever_retrieved_at": "2026-09-10T20:36:32Z",
-    "action_api_retrieved_at": "2026-09-10T20:36:33Z",
+    "qlever_retrieved_at": "2026-09-10T20:50:54Z",
+    "action_api_retrieved_at": "2026-09-10T20:50:54Z",
     "age_hours_at_check": null,
     "max_age_hours": null
   },
   "audit": {
-    "items": 2996,
-    "clear_items": 2996,
+    "items": 2992,
+    "clear_items": 2992,
     "needs_review_items": 0,
     "fresh": true,
-    "reviewed_queue_rows": 550,
-    "pending_queue_rows": 844,
-    "unreviewed_current_rows": 844,
+    "reviewed_queue_rows": 600,
+    "pending_queue_rows": 794,
+    "unreviewed_current_rows": 794,
     "review_complete": false,
     "review_creation_authorized": false,
     "upload_ready": false
   },
   "issues": [
-    "EXHAUSTIVE-REVIEW-INCOMPLETE 844/1394 queue rows pending; 844 current rows unreviewed"
+    "EXHAUSTIVE-REVIEW-INCOMPLETE 794/1394 queue rows pending; 794 current rows unreviewed"
   ],
   "items": [
     {
@@ -2069,13 +2069,6 @@
     {
       "local_id": "w-2051301-base",
       "name_vi": "Phường Sa Pa",
-      "parent_qid": "Q7395483",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-03002-2020-01-01",
-      "name_vi": "Phường Sa Pả",
       "parent_qid": "Q7395483",
       "classification": "no-broad-district-candidate",
       "status": "clear"
@@ -4400,13 +4393,6 @@
     {
       "local_id": "w-2090305-base",
       "name_vi": "Xã Đoàn Kết",
-      "parent_qid": "Q251838",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-2090321-base",
-      "name_vi": "Xã Quốc Khánh",
       "parent_qid": "Q251838",
       "classification": "no-broad-district-candidate",
       "status": "clear"
@@ -10446,13 +10432,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-4033531-base",
-      "name_vi": "Xã Hùng Tiến",
-      "parent_qid": "Q2494246",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-4033533-base",
       "name_vi": "Xã Kim Liên",
       "parent_qid": "Q2494246",
@@ -12829,13 +12808,6 @@
       "local_id": "w-5090729-base",
       "name_vi": "Xã An Mỹ",
       "parent_qid": "Q7857222",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-5090919-base",
-      "name_vi": "Xã Sơn Long",
-      "parent_qid": "Q7560582",
       "classification": "no-broad-district-candidate",
       "status": "clear"
     },
