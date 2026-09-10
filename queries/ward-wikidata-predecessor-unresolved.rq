@@ -2215,7 +2215,6 @@ WHERE {
     "Thien My"@en
     "Thien Tan"@en
     "Thien Thuat"@en
-    "Thiet Ong"@en
     "Thieu Tien"@en
     "Thinh Dan"@en
     "Thinh Duc"@en
@@ -7164,7 +7163,6 @@ WHERE {
     "Thien My"@vi
     "Thien Tan"@vi
     "Thien Thuat"@vi
-    "Thiet Ong"@vi
     "Thieu Tien"@vi
     "Thinh Dan"@vi
     "Thinh Duc"@vi
@@ -7177,7 +7175,6 @@ WHERE {
     "Thiên Hương"@vi
     "Thiên Lộc"@vi
     "Thiên Đức"@vi
-    "Thiết Ống"@vi
     "Thiện Hòa"@vi
     "Thiện Hưng"@vi
     "Thiện Long"@vi
@@ -10096,7 +10093,6 @@ WHERE {
     "Xã Thanh Đức"@vi
     "Xã Thiên Lộc"@vi
     "Xã Thiên Đức"@vi
-    "Xã Thiết Ống"@vi
     "Xã Thiện Hòa"@vi
     "Xã Thiện Hưng"@vi
     "Xã Thiện Long"@vi
@@ -10439,6 +10435,7 @@ WHERE {
     "Xã Uy Nỗ"@vi
     "Xã Vinh Quang"@vi
     "Xã Vinh Quý"@vi
+    "Xã Vinh Thanh"@vi
     "Xã Việt Hùng"@vi
     "Xã Việt Hải"@vi
     "Xã Việt Hồng"@vi
@@ -13312,7 +13309,6 @@ WHERE {
     "Thien My"@en
     "Thien Tan"@en
     "Thien Thuat"@en
-    "Thiet Ong"@en
     "Thieu Tien"@en
     "Thinh Dan"@en
     "Thinh Duc"@en
@@ -18261,7 +18257,6 @@ WHERE {
     "Thien My"@vi
     "Thien Tan"@vi
     "Thien Thuat"@vi
-    "Thiet Ong"@vi
     "Thieu Tien"@vi
     "Thinh Dan"@vi
     "Thinh Duc"@vi
@@ -18274,7 +18269,6 @@ WHERE {
     "Thiên Hương"@vi
     "Thiên Lộc"@vi
     "Thiên Đức"@vi
-    "Thiết Ống"@vi
     "Thiện Hòa"@vi
     "Thiện Hưng"@vi
     "Thiện Long"@vi
@@ -21193,7 +21187,6 @@ WHERE {
     "Xã Thanh Đức"@vi
     "Xã Thiên Lộc"@vi
     "Xã Thiên Đức"@vi
-    "Xã Thiết Ống"@vi
     "Xã Thiện Hòa"@vi
     "Xã Thiện Hưng"@vi
     "Xã Thiện Long"@vi
@@ -21536,6 +21529,7 @@ WHERE {
     "Xã Uy Nỗ"@vi
     "Xã Vinh Quang"@vi
     "Xã Vinh Quý"@vi
+    "Xã Vinh Thanh"@vi
     "Xã Việt Hùng"@vi
     "Xã Việt Hải"@vi
     "Xã Việt Hồng"@vi

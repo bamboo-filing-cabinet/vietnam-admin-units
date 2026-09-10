@@ -188,11 +188,11 @@ def test_committed_graph_has_no_current_creation_gaps():
     }
     assert readiness["audit"]["distinct_reform_predecessors"] == 10_035
     assert readiness["audit"]["reform_edges"] == 10_586
-    assert readiness["audit"]["reconciled_reform_predecessors"] == 7_022
-    assert readiness["audit"]["reform_edges_with_both_qids"] == 7_417
+    assert readiness["audit"]["reconciled_reform_predecessors"] == 7_027
+    assert readiness["audit"]["reform_edges_with_both_qids"] == 7_422
     assert readiness["blockers"] == [{
         "gate": "historical_predecessor_qids",
-        "missing": 3_013,
+        "missing": 3_008,
         "resolution": (
             "reconcile the immediate pre-2025 predecessor set before "
             "lineage emission"

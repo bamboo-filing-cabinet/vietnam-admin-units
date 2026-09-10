@@ -1189,6 +1189,28 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-10T18:59:28Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-10T18:59:28Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-10.54",
+      "selection": {"method": "frozen exhaustive review queue batch", "seed": "2026-09-10-predecessor-gap-exhaustive-review-v60", "population": 3043, "eligible_population": 1394, "sample_size": 50, "sample_numbers": [2, 6, 9, 11, 17, 19], "related_corrections": ["w-4110933-base"]},
+      "reviewed_at": "2026-09-10T19:23:20Z",
+      "decisions": [
+        {"local_id": "w-4051351-base", "name_vi": "Phường Thạch Hưng", "outcome": "assign", "wikidata_qid": "Q10826153", "candidate_qids_checked": ["Q10826153", "Q32305917", "Q136950342"], "mapping_note": "Q10826153 is the original Thạch Hưng commune item, had its Vietnamese description updated to the ward identity in January 2025, and lost its article sitelink after the 2025 replacement; Q136950342 owns the distinct current Thành Sen article, while Q32305917 is an unlinked GeoNames duplicate"},
+        {"local_id": "w-4111523-base", "name_vi": "Xã Phú Vinh", "outcome": "assign", "wikidata_qid": "Q10806161", "candidate_qids_checked": ["Q10806161", "Q10823392", "Q10832676"], "mapping_note": "Q10806161 explicitly retains the former A Lưới parent, historical coordinates, GeoNames 8656090, and revision history of the former Phú Vinh, A Lưới article; Q10832676 now owns the unrelated current coastal Phú Vinh article and Q10823392 remains on the A Lưới 3 successor"},
+        {"local_id": "w-4012505-base", "name_vi": "Xã Xuân Bình", "outcome": "assign", "wikidata_qid": "Q10834882", "candidate_qids_checked": ["Q10834882", "Q135224933"], "mapping_note": "Q10834882 retains the former Như Xuân district parent, historical coordinates, GeoNames 8549952, and an explicit replacement link to Q135224933; Q135224933 owns the distinct current Xuân Bình article"},
+        {"local_id": "w-20705-2011-01-11", "name_vi": "Xã Đắc Tôi", "outcome": "assign", "wikidata_qid": "Q2228523", "candidate_qids_checked": ["Q2228523", "Q2798781"], "mapping_note": "Q2228523 has the rare exact Đắc Tôi name and commune class; its original and still-linked Dutch article explicitly places it in Nam Giang and records its 11 January 2011 split from La Dêê, while Q2798781 remains on the current La Dêê successor"},
+        {"local_id": "w-4011339-base", "name_vi": "Xã Thiết Ống", "outcome": "assign", "wikidata_qid": "Q10825191", "candidate_qids_checked": ["Q10825191", "Q135198190"], "mapping_note": "Q10825191 retains the former Bá Thước district parent, historical coordinates, GeoNames 8550082, and an explicit replacement link to Q135198190; Q135198190 owns the distinct current Thiết Ống article"},
+        {"local_id": "w-6031921-base", "name_vi": "Xã Ia Hrú", "outcome": "assign", "wikidata_qid": "Q32573425", "candidate_qids_checked": ["Q10772519", "Q32573425"], "mapping_note": "Q32573425 has the exact Ia Hru identity, commune class, historical Chư Pưh-area coordinates, and GeoNames 8701272; Q10772519 owns the current Ia Hrú article and remains assigned to the broader 2025 successor"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v60.json", "role": "saved eighth exhaustive-batch live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate the coordinate-backed historical identities"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current successors from historical units"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition used to verify old-unit identities and successors"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities, wbgetentities, and revision history", "retrieved_at": "2026-09-10T19:23:20Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-10T19:23:20Z"},
+        {"endpoint": "https://nl.wikipedia.org/w/api.php", "method": "pageprops and extracts for the original Đắc Tôi article", "retrieved_at": "2026-09-10T19:23:20Z"}
+      ]
     }
   ]
 }

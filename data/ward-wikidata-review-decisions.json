@@ -7229,6 +7229,23 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v59.json", "role": "saved seventh exhaustive-batch live search and entity evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-10.112",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10806161", "Q10832676"], "local_id": "w-19945-2025-07-01", "mapping_note": "current Phú Vinh commune selects Q10832676; release Q10806161 to the pre-2025 A Lưới commune and retire Q10832676 from historical Vinh Thanh", "outcome": "assign", "rationale": "Q10832676 now owns the current `Phú Vinh, Huế` article, which documents the 2025 formation from four former Phú Vang communes. Q10806161 retains the former A Lưới parent, historical coordinates, GeoNames 8656090, and the old `Phú Vinh, A Lưới` article history.", "wikidata_qid": "Q10832676"},
+        {"candidate_qids_checked": ["Q10834882", "Q135224933"], "local_id": "w-16177-2025-07-01", "mapping_note": "current Xuân Bình commune selects Q135224933; release Q10834882 to the pre-2025 Như Xuân commune", "outcome": "assign", "rationale": "Q135224933 was created for and owns the current `Xuân Bình` article. Q10834882 retains the former Như Xuân district parent, historical coordinates, GeoNames 8549952, and an explicit replacement link to Q135224933.", "wikidata_qid": "Q135224933"},
+        {"candidate_qids_checked": ["Q10825191", "Q135198190"], "local_id": "w-14980-2025-07-01", "mapping_note": "current Thiết Ống commune selects Q135198190; release Q10825191 to the pre-2025 Bá Thước commune", "outcome": "assign", "rationale": "Q135198190 was created for and owns the current `Thiết Ống` article. Q10825191 retains the former Bá Thước district parent, historical coordinates, GeoNames 8550082, and an explicit replacement link to Q135198190.", "wikidata_qid": "Q135198190"}
+      ],
+      "reviewed_at": "2026-09-10T19:23:20Z",
+      "selection": {"input_status": "exhaustive-predecessor-gap-review-v60, including one related predecessor correction", "sample_numbers": [6, 9, 17]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities, wbgetentities, and revision history", "retrieved_at": "2026-09-10T19:23:20Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-10T19:23:20Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current Phú Vinh, Xuân Bình, and Thiết Ống from their historical namesakes"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v60.json", "role": "saved eighth exhaustive-batch live search and entity evidence"}
+      ]
     }
   ],
   "schema_version": 1,
