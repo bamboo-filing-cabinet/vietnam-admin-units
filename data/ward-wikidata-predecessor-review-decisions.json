@@ -1043,6 +1043,22 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-09T21:25:22Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-09T21:25:22Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-09.46",
+      "selection": {"method": "lowest SHA-256(seed + NUL + local_id)", "seed": "2026-09-09-predecessor-gap-audit-v51", "population": 3044, "sample_size": 50, "sample_numbers": [3]},
+      "reviewed_at": "2026-09-10T00:52:24Z",
+      "decisions": [
+        {"local_id": "w-4015111-base", "name_vi": "Xã Trung Chính", "outcome": "assign", "wikidata_qid": "Q10828286", "candidate_qids_checked": ["Q10828283", "Q10828286", "Q119833993", "Q135159576"], "mapping_note": "Q10828286 retains the former Nông Cống district parent, historical coordinates, and GeoNames 8550173; Q135159576 owns the current Trung Chính article and is reassigned to the successor"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v51.json", "role": "saved fifty-first-round 50-row live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames record used to validate the coordinate-backed historical identity"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish the current successor from the historical unit"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition used to verify the old-unit identity and successor"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-10T00:50:20Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-10T00:50:20Z"}
+      ]
     }
   ]
 }

@@ -3909,7 +3909,7 @@ w-16258-2025-07-01,16258,Xã Xuân Thái,Xã,38,2025-07-01,,Q10835093,existing,m
 w-16264-2025-07-01,16264,Xã Yên Thọ,Xã,38,2025-07-01,,Q10838183,existing,matched,Q10838183|Q10838185|Q10838186|Q10838187|Q10838188,qlever-label+predecessor-district+batched-wbgetentities
 w-16273-2025-07-01,16273,Xã Thanh Kỳ,Xã,38,2025-07-01,,Q10824787,existing,matched,Q10824787,qlever-label+current-province+batched-wbgetentities
 w-16279-2025-07-01,16279,Xã Nông Cống,Xã,38,2025-07-01,,Q135141872,existing,manual,Q10801980|Q135141872,review 2026-09-08.79: current Nông Cống commune selects Q135141872; release Q10801980 to the pre-2025 township
-w-16297-2025-07-01,16297,Xã Trung Chính,Xã,38,2025-07-01,,Q10828286,existing,matched,Q10828284|Q10828286,qlever-label+current-province+batched-wbgetentities
+w-16297-2025-07-01,16297,Xã Trung Chính,Xã,38,2025-07-01,,Q135159576,existing,manual,Q10828284|Q10828286|Q135159576,review 2026-09-09.104: current Trung Chính commune selects Q135159576; release Q10828286 to the pre-2025 Nông Cống commune
 w-16309-2025-07-01,16309,Xã Thắng Lợi,Xã,38,2025-07-01,,Q135159322,existing,manual,Q10826430|Q10826432|Q10826435|Q10826436|Q10826437|Q10826438|Q10826439|Q135159322,review 2026-09-02.25: current Thắng Lợi page selects Q135159322
 w-16342-2025-07-01,16342,Xã Thăng Bình,Xã,38,2025-07-01,,Q135162025,existing,manual,Q32305308|Q135162025,review 2026-09-08.82: current Thăng Bình commune selects Q135162025; release Q32305308 to the pre-2025 Nông Cống commune
 w-16348-2025-07-01,16348,Xã Trường Văn,Xã,38,2025-07-01,,Q135160865,existing,manual,Q135160865,review 2026-09-02.25: current Trường Văn page selects Q135160865
@@ -9465,7 +9465,7 @@ w-4015103-base,16375,Xã Yên Mỹ,Xã,404,,2025-06-30,Q10838076,existing,verifi
 w-4015105-base,16282,Xã Tân Phúc,Xã,404,,2025-06-30,Q10830750,existing,verified,Q10830750,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4015107-base,16285,Xã Tân Thọ,Xã,404,,2025-06-30,Q10830891,existing,verified,Q10830891,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4015109-base,16291,Xã Tân Khang,Xã,404,,2025-06-30,Q10830555,existing,verified,Q10830555,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-4015111-base,16297,Xã Trung Chính,Xã,404,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4015111-base,16297,Xã Trung Chính,Xã,404,,2025-06-30,Q10828286,existing,manual,Q10828283|Q10828286|Q119833993|Q135159576,"predecessor review 2026-09-09.46: Q10828286 retains the former Nông Cống district parent, historical coordinates, and GeoNames 8550173; Q135159576 owns the current Trung Chính article and is reassigned to the successor"
 w-4015113-base,16303,Xã Trung Thành,Xã,404,,2025-06-30,Q10828374,existing,verified,Q10828374,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4015115-base,16300,Xã Trung Ý,Xã,404,,2019-11-30,,,deferred-historical,,
 w-4015117-base,16294,Xã Hoàng Giang,Xã,404,,2025-06-30,Q10768913,existing,verified,Q10768913,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities

@@ -7,22 +7,22 @@
     "wikidata_write_performed": false
   },
   "input_fingerprints": {
-    "manifest_content_sha256": "41ab88dea69ec4dd44516531c9b00b2f962bfc984f75a7d9bdfe7369a1d5e65f",
-    "data/ward-wikidata-predecessor-unresolved-candidates.json": "e8870e2b2ffc24cd5efbb26026e31a14ecc9ceacb9809470997ab3231bb5a032",
-    "data/ward-wikidata-predecessor-article-candidates.json": "658c68519dcfe8e39bc45ef0ffb9a47a6c3f6316e7db3f0c62dba89aa1dae935",
-    "data/ward-wikidata-predecessor-context-candidates.json": "a4dec90fff3ec32e892561d4736b34e497cad48ffe10895b3c35522faf0e4039",
-    "data/ward-wikidata-predecessor-geonames-candidates.json": "75db2492c1331c3eb4e3c47e59dbe1650aa8108c9a842344823a2e1f85902ab7",
+    "manifest_content_sha256": "a128a9150bd35d0061cbacd1e05389d7a00194ad757eff0b89c21b9ed0f84a7f",
+    "data/ward-wikidata-predecessor-unresolved-candidates.json": "f42a8318ee3639fd5d0aec53e99b0d7073991f693a56d492c8e3608ecd9216a1",
+    "data/ward-wikidata-predecessor-article-candidates.json": "1a2964ee5373eb39190d572004fb536deec9b303913650619057ca421b6be0c3",
+    "data/ward-wikidata-predecessor-context-candidates.json": "b260d0ef72b922ab40edeae90e3b2219e2ba557776ca28304cae33770126252c",
+    "data/ward-wikidata-predecessor-geonames-candidates.json": "ddfe0b1e843a2504cefb65e0b5466e4b8684341fe1cf545ef72c23d7c085ead3",
     "data/ward-wikidata-predecessor-gap-sample-v2-decisions.json": "82250c9c319a2b462e4dee20d963cf77b1884dbe1196cda47cc83485b603c2b4"
   },
   "evidence": {
-    "qlever_retrieved_at": "2026-09-10T00:46:14Z",
-    "action_api_retrieved_at": "2026-09-10T00:46:15Z",
+    "qlever_retrieved_at": "2026-09-10T00:56:55Z",
+    "action_api_retrieved_at": "2026-09-10T00:56:55Z",
     "age_hours_at_check": null,
     "max_age_hours": null
   },
   "audit": {
-    "items": 3044,
-    "clear_items": 3044,
+    "items": 3043,
+    "clear_items": 3043,
     "needs_review_items": 0,
     "fresh": true,
     "sample_reviewed_rows": 50,
@@ -9817,13 +9817,6 @@
       "local_id": "w-4012701-base",
       "name_vi": "Xã Thanh Kỳ",
       "parent_qid": "Q7023390",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-4015111-base",
-      "name_vi": "Xã Trung Chính",
-      "parent_qid": "Q10801978",
       "classification": "no-broad-district-candidate",
       "status": "clear"
     },
