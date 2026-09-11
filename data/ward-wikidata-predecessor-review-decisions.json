@@ -1461,6 +1461,28 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-11T16:38:36Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and historical page metadata", "retrieved_at": "2026-09-11T16:38:36Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-11.68",
+      "selection": {"method": "frozen exhaustive review queue batch", "seed": "2026-09-10-predecessor-gap-exhaustive-review-v74", "population": 3043, "eligible_population": 1394, "sample_size": 50, "sample_numbers": [4, 16, 19, 26, 34, 36, 40], "related_current_corrections": ["w-10792-2025-07-01", "w-15778-2025-07-01", "w-16591-2025-07-01", "w-18406-2025-07-01"]},
+      "reviewed_at": "2026-09-11T16:54:51Z",
+      "decisions": [
+        {"local_id": "w-8030731-base", "name_vi": "Phường An Bình B", "outcome": "assign", "wikidata_qid": "Q10733132", "candidate_qids_checked": ["Q10733132"], "mapping_note": "Q10733132 has the exact An Bình B name and GeoNames 9289562 for Xã An Bình B in Đồng Tháp, with coordinates matching the former Hồng Ngự unit; that unit is the only one of the name"},
+        {"local_id": "w-1070931-base", "name_vi": "Phường Thất Hùng", "outcome": "assign", "wikidata_qid": "Q32306573", "candidate_qids_checked": ["Q32306573"], "mapping_note": "Q32306573 carries GeoNames 8607247 for Xã Thất Hùng in Hải Dương with matching Kinh Môn coordinates; the sampled unit is the only Thất Hùng and was a commune before it became a ward"},
+        {"local_id": "w-4033707-base", "name_vi": "Xã Hưng Đạo", "outcome": "assign", "wikidata_qid": "Q32273352", "candidate_qids_checked": ["Q32273352", "Q32273361"], "mapping_note": "Q32273352 carries GeoNames 8627909, the only Xã Hưng Đạo record in Nghệ An, with coordinates matching the former Hưng Nguyên commune; Q32273361 is the Hải Phòng namesake"},
+        {"local_id": "w-1071531-base", "name_vi": "Xã An Thanh", "outcome": "assign", "wikidata_qid": "Q10733317", "candidate_qids_checked": ["Q10733317"], "mapping_note": "Q10733317 describes the former Tứ Kỳ commune and keeps that district parent and coordinates; it had been fold-matched to the unrelated current Xã An Thành, which owns its own article item Q138638767"},
+        {"local_id": "w-4015311-base", "name_vi": "Xã Các Sơn", "outcome": "assign", "wikidata_qid": "Q10751611", "candidate_qids_checked": ["Q10751611", "Q135110243"], "mapping_note": "Q10751611 retains the former Nghi Sơn parent, historical coordinates, and GeoNames 8550036; Q135110243 owns the current Các Sơn article documenting the 2025 merger of Anh Sơn and Các Sơn"},
+        {"local_id": "w-4014107-base", "name_vi": "Xã Thiệu Tiến", "outcome": "assign", "wikidata_qid": "Q10825280", "candidate_qids_checked": ["Q10825280", "Q135163036"], "mapping_note": "Q10825280 retains the former Thiệu Hóa parent, historical coordinates, and GeoNames 8550151; Q135163036 owns the current Thiệu Tiến article for the broader unit formed from Thiệu Ngọc, Thiệu Vũ, Thiệu Tiến and Thiệu Thành"},
+        {"local_id": "w-4051117-base", "name_vi": "Xã Kim Song Trường", "outcome": "assign", "wikidata_qid": "Q10779931", "candidate_qids_checked": ["Q10779931"], "mapping_note": "Q10779931 explicitly describes the former Kim Song Trường commune of old Can Lộc district and keeps that parent and GeoNames 8637829; it had been alias-matched to the unrelated current Xã Can Lộc, which instead takes Q10798707 because that item owns the current article"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v74.json", "role": "saved twenty-second exhaustive-batch live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate the An Bình B, Thất Hùng and Hưng Đạo identities"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced composition distinguishing current successors from their historical components"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-11T16:54:51Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and historical page metadata", "retrieved_at": "2026-09-11T16:54:51Z"}
+      ]
     }
   ]
 }

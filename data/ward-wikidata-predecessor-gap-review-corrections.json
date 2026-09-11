@@ -92,6 +92,19 @@
           "reason_code": "item-now-owns-current-lien-son-lao-cai-article-and-no-separate-historical-son-a-item-exists"
         }
       ]
+    },
+    {
+      "batch_number": 7,
+      "decisions": [
+        {
+          "sample_number": 40,
+          "local_id": "w-4051101-base",
+          "outcome": "no-distinct-item-found",
+          "supersedes": "automatic predecessor mapping to Q10798707 exposed by exhaustive review v74 sample 40",
+          "invalidated_wikidata_qid": "Q10798707",
+          "reason_code": "item-now-owns-current-can-loc-xa-article-and-no-separate-historical-thi-tran-nghen-item-exists"
+        }
+      ]
     }
   ],
   "sources": [
@@ -126,6 +139,10 @@
     {
       "path": "data/ward-wikidata-predecessor-gap-sample-v72.json",
       "role": "saved twentieth exhaustive-batch evidence exposing the repurposed current Liên Sơn item"
+    },
+    {
+      "path": "data/ward-wikidata-predecessor-gap-sample-v74.json",
+      "role": "saved twenty-second exhaustive-batch evidence exposing the repurposed current Can Lộc item"
     },
     {
       "path": "data/ward-2025-composition.json",
@@ -173,9 +190,9 @@
     }
   ],
   "audit": {
-    "reviewed_rows": 6,
-    "superseded_decisions": 6,
+    "reviewed_rows": 8,
+    "superseded_decisions": 8,
     "existing_predecessor_items": 0,
-    "no_distinct_item_found": 6
+    "no_distinct_item_found": 8
   }
 }

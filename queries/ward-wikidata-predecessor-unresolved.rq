@@ -271,7 +271,6 @@ WHERE {
     "Ca Dy"@en
     "Ca Na"@en
     "Ca Thanh"@en
-    "Cac Son"@en
     "Cai Be"@en
     "Cai Bo"@en
     "Cai Chien"@en
@@ -1092,7 +1091,6 @@ WHERE {
     "Kim Phu"@en
     "Kim Phuong"@en
     "Kim Son"@en
-    "Kim Song Truong"@en
     "Kim Tan"@en
     "Kim Thach"@en
     "Kim Thanh"@en
@@ -1483,6 +1481,7 @@ WHERE {
     "Ngai Giao"@en
     "Ngai Tu"@en
     "Ngam La"@en
+    "Nghen"@en
     "Nghi Cong Bac"@en
     "Nghi Duc"@en
     "Nghi Hung"@en
@@ -2201,7 +2200,6 @@ WHERE {
     "Thien My"@en
     "Thien Tan"@en
     "Thien Thuat"@en
-    "Thieu Tien"@en
     "Thinh Dan"@en
     "Thinh Duc"@en
     "Thinh Lang"@en
@@ -3164,7 +3162,6 @@ WHERE {
     "Ca Na"@vi
     "Ca Thanh"@vi
     "Ca Thành"@vi
-    "Cac Son"@vi
     "Cai Be"@vi
     "Cai Bo"@vi
     "Cai Bộ"@vi
@@ -3446,7 +3443,6 @@ WHERE {
     "Cà Dy"@vi
     "Cà Ná"@vi
     "Càng Long"@vi
-    "Các Sơn"@vi
     "Cái Bè"@vi
     "Cái Chiên"@vi
     "Cái Dầu"@vi
@@ -4564,8 +4560,6 @@ WHERE {
     "Kim Phú"@vi
     "Kim Phượng"@vi
     "Kim Son"@vi
-    "Kim Song Truong"@vi
-    "Kim Song Trường"@vi
     "Kim Sơn"@vi
     "Kim Tan"@vi
     "Kim Thach"@vi
@@ -5324,6 +5318,7 @@ WHERE {
     "Ngai Giao"@vi
     "Ngai Tu"@vi
     "Ngam La"@vi
+    "Nghen"@vi
     "Nghi Cong Bac"@vi
     "Nghi Công Bắc"@vi
     "Nghi Duc"@vi
@@ -5373,6 +5368,7 @@ WHERE {
     "Nghinh Tuong"@vi
     "Nghinh Tường"@vi
     "Nghiên Loan"@vi
+    "Nghèn"@vi
     "Nghĩa An"@vi
     "Nghĩa Chánh"@vi
     "Nghĩa Dân"@vi
@@ -7117,7 +7113,6 @@ WHERE {
     "Thien My"@vi
     "Thien Tan"@vi
     "Thien Thuat"@vi
-    "Thieu Tien"@vi
     "Thinh Dan"@vi
     "Thinh Duc"@vi
     "Thinh Lang"@vi
@@ -7135,7 +7130,6 @@ WHERE {
     "Thiện Mỹ"@vi
     "Thiện Thuật"@vi
     "Thiện Tân"@vi
-    "Thiệu Tiến"@vi
     "Tho Chau"@vi
     "Tho Nghiep"@vi
     "Tho Son"@vi
@@ -7488,6 +7482,7 @@ WHERE {
     "Thị trấn Nam Ban"@vi
     "Thị trấn Nam Phước"@vi
     "Thị trấn Nam Sách"@vi
+    "Thị trấn Nghèn"@vi
     "Thị trấn Nghĩa Đàn"@vi
     "Thị trấn Nguyên Bình"@vi
     "Thị trấn Ngãi Giao"@vi
@@ -8628,7 +8623,6 @@ WHERE {
     "Xã An Quy"@vi
     "Xã An Sinh"@vi
     "Xã An Sơn"@vi
-    "Xã An Thanh"@vi
     "Xã An Thạnh"@vi
     "Xã An Thạnh 1"@vi
     "Xã An Thạnh Thủy"@vi
@@ -8843,7 +8837,6 @@ WHERE {
     "Xã Cuor Đăng"@vi
     "Xã Cà Dy"@vi
     "Xã Cà Ná"@vi
-    "Xã Các Sơn"@vi
     "Xã Cái Chiên"@vi
     "Xã Cán Tỷ"@vi
     "Xã Cát Hanh"@vi
@@ -9248,7 +9241,6 @@ WHERE {
     "Xã Kim Nỗ"@vi
     "Xã Kim Phú"@vi
     "Xã Kim Phượng"@vi
-    "Xã Kim Song Trường"@vi
     "Xã Kim Sơn"@vi
     "Xã Kim Thành"@vi
     "Xã Kim Thạch"@vi
@@ -10025,7 +10017,6 @@ WHERE {
     "Xã Thiện Mỹ"@vi
     "Xã Thiện Thuật"@vi
     "Xã Thiện Tân"@vi
-    "Xã Thiệu Tiến"@vi
     "Xã Thu Cúc"@vi
     "Xã Thu Lũm"@vi
     "Xã Thung Nai"@vi
@@ -11279,7 +11270,6 @@ WHERE {
     "Ca Dy"@en
     "Ca Na"@en
     "Ca Thanh"@en
-    "Cac Son"@en
     "Cai Be"@en
     "Cai Bo"@en
     "Cai Chien"@en
@@ -12100,7 +12090,6 @@ WHERE {
     "Kim Phu"@en
     "Kim Phuong"@en
     "Kim Son"@en
-    "Kim Song Truong"@en
     "Kim Tan"@en
     "Kim Thach"@en
     "Kim Thanh"@en
@@ -12491,6 +12480,7 @@ WHERE {
     "Ngai Giao"@en
     "Ngai Tu"@en
     "Ngam La"@en
+    "Nghen"@en
     "Nghi Cong Bac"@en
     "Nghi Duc"@en
     "Nghi Hung"@en
@@ -13209,7 +13199,6 @@ WHERE {
     "Thien My"@en
     "Thien Tan"@en
     "Thien Thuat"@en
-    "Thieu Tien"@en
     "Thinh Dan"@en
     "Thinh Duc"@en
     "Thinh Lang"@en
@@ -14172,7 +14161,6 @@ WHERE {
     "Ca Na"@vi
     "Ca Thanh"@vi
     "Ca Thành"@vi
-    "Cac Son"@vi
     "Cai Be"@vi
     "Cai Bo"@vi
     "Cai Bộ"@vi
@@ -14454,7 +14442,6 @@ WHERE {
     "Cà Dy"@vi
     "Cà Ná"@vi
     "Càng Long"@vi
-    "Các Sơn"@vi
     "Cái Bè"@vi
     "Cái Chiên"@vi
     "Cái Dầu"@vi
@@ -15572,8 +15559,6 @@ WHERE {
     "Kim Phú"@vi
     "Kim Phượng"@vi
     "Kim Son"@vi
-    "Kim Song Truong"@vi
-    "Kim Song Trường"@vi
     "Kim Sơn"@vi
     "Kim Tan"@vi
     "Kim Thach"@vi
@@ -16332,6 +16317,7 @@ WHERE {
     "Ngai Giao"@vi
     "Ngai Tu"@vi
     "Ngam La"@vi
+    "Nghen"@vi
     "Nghi Cong Bac"@vi
     "Nghi Công Bắc"@vi
     "Nghi Duc"@vi
@@ -16381,6 +16367,7 @@ WHERE {
     "Nghinh Tuong"@vi
     "Nghinh Tường"@vi
     "Nghiên Loan"@vi
+    "Nghèn"@vi
     "Nghĩa An"@vi
     "Nghĩa Chánh"@vi
     "Nghĩa Dân"@vi
@@ -18125,7 +18112,6 @@ WHERE {
     "Thien My"@vi
     "Thien Tan"@vi
     "Thien Thuat"@vi
-    "Thieu Tien"@vi
     "Thinh Dan"@vi
     "Thinh Duc"@vi
     "Thinh Lang"@vi
@@ -18143,7 +18129,6 @@ WHERE {
     "Thiện Mỹ"@vi
     "Thiện Thuật"@vi
     "Thiện Tân"@vi
-    "Thiệu Tiến"@vi
     "Tho Chau"@vi
     "Tho Nghiep"@vi
     "Tho Son"@vi
@@ -18496,6 +18481,7 @@ WHERE {
     "Thị trấn Nam Ban"@vi
     "Thị trấn Nam Phước"@vi
     "Thị trấn Nam Sách"@vi
+    "Thị trấn Nghèn"@vi
     "Thị trấn Nghĩa Đàn"@vi
     "Thị trấn Nguyên Bình"@vi
     "Thị trấn Ngãi Giao"@vi
@@ -19636,7 +19622,6 @@ WHERE {
     "Xã An Quy"@vi
     "Xã An Sinh"@vi
     "Xã An Sơn"@vi
-    "Xã An Thanh"@vi
     "Xã An Thạnh"@vi
     "Xã An Thạnh 1"@vi
     "Xã An Thạnh Thủy"@vi
@@ -19851,7 +19836,6 @@ WHERE {
     "Xã Cuor Đăng"@vi
     "Xã Cà Dy"@vi
     "Xã Cà Ná"@vi
-    "Xã Các Sơn"@vi
     "Xã Cái Chiên"@vi
     "Xã Cán Tỷ"@vi
     "Xã Cát Hanh"@vi
@@ -20256,7 +20240,6 @@ WHERE {
     "Xã Kim Nỗ"@vi
     "Xã Kim Phú"@vi
     "Xã Kim Phượng"@vi
-    "Xã Kim Song Trường"@vi
     "Xã Kim Sơn"@vi
     "Xã Kim Thành"@vi
     "Xã Kim Thạch"@vi
@@ -21033,7 +21016,6 @@ WHERE {
     "Xã Thiện Mỹ"@vi
     "Xã Thiện Thuật"@vi
     "Xã Thiện Tân"@vi
-    "Xã Thiệu Tiến"@vi
     "Xã Thu Cúc"@vi
     "Xã Thu Lũm"@vi
     "Xã Thung Nai"@vi

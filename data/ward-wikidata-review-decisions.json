@@ -7451,6 +7451,24 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v73.json", "role": "saved twenty-first exhaustive-batch live search and entity evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-11.125",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10733317", "Q138638767"], "local_id": "w-10792-2025-07-01", "mapping_note": "current An Thành commune selects Q138638767; release Q10733317 to the former An Thanh commune in Tứ Kỳ", "outcome": "assign", "rationale": "Q138638767 owns the current `An Thành` article, which records the 2025 merger of Ngũ Phúc, Kim Tân and Kim Đính and places the unit in the former Kim Thành district. Q10733317 instead describes `An Thanh` in former Tứ Kỳ, keeps that district parent, and has Tứ Kỳ coordinates.", "wikidata_qid": "Q138638767"},
+        {"candidate_qids_checked": ["Q10751611", "Q135110243"], "local_id": "w-16591-2025-07-01", "mapping_note": "current Các Sơn commune selects Q135110243; release Q10751611 to the pre-2025 Nghi Sơn commune", "outcome": "assign", "rationale": "Q135110243 owns the current `Các Sơn` article, which records its 16 June 2025 formation from Anh Sơn and Các Sơn. Q10751611 instead retains the former Nghi Sơn parent, historical coordinates, and GeoNames 8550036.", "wikidata_qid": "Q135110243"},
+        {"candidate_qids_checked": ["Q10825280", "Q135163036"], "local_id": "w-15778-2025-07-01", "mapping_note": "current Thiệu Tiến commune selects Q135163036; release Q10825280 to the pre-2025 Thiệu Hóa commune", "outcome": "assign", "rationale": "Q135163036 owns the current `Thiệu Tiến` article for the unit formed from Thiệu Ngọc, Thiệu Vũ, Thiệu Tiến and Thiệu Thành. Q10825280 instead retains the former Thiệu Hóa parent, historical coordinates, and GeoNames 8550151.", "wikidata_qid": "Q135163036"},
+        {"candidate_qids_checked": ["Q10779931", "Q10798707"], "local_id": "w-18406-2025-07-01", "mapping_note": "current Can Lộc commune selects Q10798707; release Q10779931 to the former Kim Song Trường commune", "outcome": "assign", "rationale": "Q10798707 owns the current `Can Lộc (xã)` article for the unit formed from Thị trấn Nghèn, Thiên Lộc and Vượng Lộc, so it identifies the current commune; it was previously assigned to former Thị trấn Nghèn, which now returns to a reviewed creation gap. Q10779931 is instead the former Kim Song Trường commune item and was only alias-matched here.", "wikidata_qid": "Q10798707"}
+      ],
+      "reviewed_at": "2026-09-11T16:54:51Z",
+      "selection": {"input_status": "exhaustive-predecessor-gap-review-v74", "sample_numbers": [26, 34, 36, 40]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-11T16:54:51Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and historical page metadata", "retrieved_at": "2026-09-11T16:54:51Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced composition distinguishing the current merged units from their historical components"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v74.json", "role": "saved twenty-second exhaustive-batch live search and entity evidence"}
+      ]
     }
   ],
   "schema_version": 1,
