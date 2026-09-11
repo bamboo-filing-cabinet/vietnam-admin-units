@@ -1483,6 +1483,26 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-11T16:54:51Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and historical page metadata", "retrieved_at": "2026-09-11T16:54:51Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-11.69",
+      "selection": {"method": "frozen exhaustive review queue batch", "seed": "2026-09-10-predecessor-gap-exhaustive-review-v75", "population": 3043, "eligible_population": 1394, "sample_size": 50, "sample_numbers": [6, 14, 17, 31, 43], "related_current_corrections": ["w-16072-2025-07-01", "w-19669-2025-07-01", "w-23500-2025-07-01"]},
+      "reviewed_at": "2026-09-11T17:05:11Z",
+      "decisions": [
+        {"local_id": "w-4013935-base", "name_vi": "Xã Hoa Lộc", "outcome": "assign", "wikidata_qid": "Q10767744", "candidate_qids_checked": ["Q10767744", "Q135113622"], "mapping_note": "Q10767744 retains the former Hậu Lộc parent, historical coordinates, and GeoNames 8550057; Q135113622 owns the current Hoa Lộc article for the unit formed from Xuân Lộc, Hoa Lộc, Liên Lộc, Quang Lộc, Phú Lộc and Hòa Lộc"},
+        {"local_id": "w-8090115-base", "name_vi": "Phường Trường An", "outcome": "assign", "wikidata_qid": "Q10828777", "candidate_qids_checked": ["Q10828776", "Q10828777"], "mapping_note": "Q10828777 is described as a ward of thành phố Vĩnh Long and has matching city coordinates; its same-batch sibling Q10828776 covers the Thuận Hóa namesake, and only two units carry the name"},
+        {"local_id": "w-4091101-base", "name_vi": "Thị Trấn Ái Tử", "outcome": "assign", "wikidata_qid": "Q10838691", "candidate_qids_checked": ["Q10838691", "Q137837970"], "mapping_note": "Q10838691 retains the township class, the Thị trấn Ái Tử alias, the former Triệu Phong parent, and GeoNames 8650869; the current Ái Tử article says its territory excludes the old township, and that article belongs to Q137837970"},
+        {"local_id": "w-6011101-base", "name_vi": "Thị trấn Đắk Hà", "outcome": "assign", "wikidata_qid": "Q10841432", "candidate_qids_checked": ["Q10841431", "Q10841432"], "mapping_note": "Q10841432 retains the township class, the former Đăk Hà district parent, and GeoNames 8675966; Q10841431 owns the current Đăk Hà commune article in Quảng Ngãi"},
+        {"local_id": "w-2031705-base", "name_vi": "Xã Quảng Hưng", "outcome": "assign", "wikidata_qid": "Q10810374", "candidate_qids_checked": ["Q10810374"], "mapping_note": "Q10810374 carries GeoNames 8476887, the only Xã Quảng Hưng record in Cao Bằng, with matching coordinates and the pre-2020 Quảng Uyên parent of the sampled Quảng Hòa commune"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v75.json", "role": "saved twenty-third exhaustive-batch live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate the Quảng Hưng identity"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced composition distinguishing current successors from their historical components"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-11T17:05:11Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and historical page metadata", "retrieved_at": "2026-09-11T17:05:11Z"}
+      ]
     }
   ]
 }

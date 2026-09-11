@@ -7469,6 +7469,23 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v74.json", "role": "saved twenty-second exhaustive-batch live search and entity evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-11.126",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10767744", "Q135113622"], "local_id": "w-16072-2025-07-01", "mapping_note": "current Hoa Lộc commune selects Q135113622; release Q10767744 to the pre-2025 Hậu Lộc commune", "outcome": "assign", "rationale": "Q135113622 owns the current `Hoa Lộc` article for the unit formed from Xuân Lộc, Hoa Lộc, Liên Lộc, Quang Lộc, Phú Lộc and Hòa Lộc. Q10767744 instead retains the former Hậu Lộc parent, historical coordinates, and GeoNames 8550057.", "wikidata_qid": "Q135113622"},
+        {"candidate_qids_checked": ["Q10838691", "Q137837970"], "local_id": "w-19669-2025-07-01", "mapping_note": "current Ái Tử commune selects Q137837970; release Q10838691 to the former Ái Tử township", "outcome": "assign", "rationale": "The current `Ái Tử` article states that the commune's territory excludes the former thị trấn Ái Tử and records its formation from Triệu Ái, Triệu Giang and Triệu Long; that article belongs to Q137837970. Q10838691 instead retains the township class, the Thị trấn Ái Tử alias, the former Triệu Phong parent, and GeoNames 8650869.", "wikidata_qid": "Q137837970"},
+        {"candidate_qids_checked": ["Q10841431", "Q10841432"], "local_id": "w-23500-2025-07-01", "mapping_note": "current Đăk Hà commune selects Q10841431; release Q10841432 to the former Đăk Hà township", "outcome": "assign", "rationale": "Q10841431 owns the current `Đăk Hà (xã)` article and is parented by Quảng Ngãi province, matching the current commune formed from the old township and part of Hà Mòn. Q10841432 instead retains the township class, the former Đăk Hà district parent, and GeoNames 8675966.", "wikidata_qid": "Q10841431"}
+      ],
+      "reviewed_at": "2026-09-11T17:05:11Z",
+      "selection": {"input_status": "exhaustive-predecessor-gap-review-v75", "sample_numbers": [6, 17, 31]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-11T17:05:11Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and historical page metadata", "retrieved_at": "2026-09-11T17:05:11Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced composition distinguishing the current merged units from their historical components"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v75.json", "role": "saved twenty-third exhaustive-batch live search and entity evidence"}
+      ]
     }
   ],
   "schema_version": 1,

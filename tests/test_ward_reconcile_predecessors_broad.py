@@ -156,25 +156,25 @@ def test_committed_broad_artifact_and_query_are_reproducible():
         unresolved_rows(predecessor)
     )
     assert artifact["audit"] == {
-        "api_verified_candidates": 84,
-        "auto_matched_rows": 62,
-        "candidate_items": 10426,
+        "api_verified_candidates": 85,
+        "auto_matched_rows": 63,
+        "candidate_items": 10419,
         "classification_counts": {
             "ambiguous-verified-candidates": 2,
             "assigned-item-only": 848,
             "no-broad-candidate": 189,
-            "no-broad-district-candidate": 2458,
+            "no-broad-district-candidate": 2456,
             "qid-collision-preferred-exact-tier-other-row": 11,
-            "verification-rejected": 20,
-            "verified-unique": 62,
+            "verification-rejected": 19,
+            "verified-unique": 63,
         },
-        "query_result_rows": 15799,
-        "query_terms": 10992,
-        "rows_with_any_candidate": 2553,
+        "query_result_rows": 15791,
+        "query_terms": 10984,
+        "rows_with_any_candidate": 2551,
         "rows_with_district_candidate": 95,
-        "rows_with_verified_candidate": 75,
-        "shortlisted_qids": 84,
-        "unresolved_predecessor_rows": 3590,
-        "unresolved_rows": 3528,
+        "rows_with_verified_candidate": 76,
+        "shortlisted_qids": 85,
+        "unresolved_predecessor_rows": 3588,
+        "unresolved_rows": 3525,
     }
     assert not audit(artifact, predecessor, mapping)

@@ -40,7 +40,6 @@ WHERE {
     "AYun"@en
     "Ai Nghia"@en
     "Ai Quoc"@en
-    "Ai Tu"@en
     "An Bien"@en
     "An Binh"@en
     "An Binh A"@en
@@ -493,7 +492,6 @@ WHERE {
     "Dak Blo"@en
     "Dak Cam"@en
     "Dak Doa"@en
-    "Dak Ha"@en
     "Dak Koi"@en
     "Dak Lieng"@en
     "Dak Long"@en
@@ -2715,7 +2713,6 @@ WHERE {
     "AYun"@vi
     "Ai Nghia"@vi
     "Ai Quoc"@vi
-    "Ai Tu"@vi
     "An Bien"@vi
     "An Binh"@vi
     "An Binh A"@vi
@@ -3565,7 +3562,6 @@ WHERE {
     "Dak Blo"@vi
     "Dak Cam"@vi
     "Dak Doa"@vi
-    "Dak Ha"@vi
     "Dak Koi"@vi
     "Dak Lieng"@vi
     "Dak Long"@vi
@@ -7303,7 +7299,6 @@ WHERE {
     "Thắng Mố"@vi
     "Thắng Thuỷ"@vi
     "Thị Trấn Năm Căn"@vi
-    "Thị Trấn Ái Tử"@vi
     "Thị Trấn Óc Eo"@vi
     "Thị trấn A Lưới"@vi
     "Thị trấn An Châu"@vi
@@ -7673,7 +7668,6 @@ WHERE {
     "Thị trấn Đất Đỏ"@vi
     "Thị trấn Đầm Dơi"@vi
     "Thị trấn Đầm Hà"@vi
-    "Thị trấn Đắk Hà"@vi
     "Thị trấn Đắk Mil"@vi
     "Thị trấn Đắk Rve"@vi
     "Thị trấn Đắk Tô"@vi
@@ -10795,7 +10789,6 @@ WHERE {
     "Yết Kiêu"@vi
     "Ái Nghĩa"@vi
     "Ái Quốc"@vi
-    "Ái Tử"@vi
     "Ân Nghĩa"@vi
     "Ân Thi"@vi
     "Âu Cơ"@vi
@@ -10927,7 +10920,6 @@ WHERE {
     "Đắk Blà"@vi
     "Đắk Blô"@vi
     "Đắk Cấm"@vi
-    "Đắk Hà"@vi
     "Đắk Kôi"@vi
     "Đắk Liêng"@vi
     "Đắk Long"@vi
@@ -11039,7 +11031,6 @@ WHERE {
     "AYun"@en
     "Ai Nghia"@en
     "Ai Quoc"@en
-    "Ai Tu"@en
     "An Bien"@en
     "An Binh"@en
     "An Binh A"@en
@@ -11492,7 +11483,6 @@ WHERE {
     "Dak Blo"@en
     "Dak Cam"@en
     "Dak Doa"@en
-    "Dak Ha"@en
     "Dak Koi"@en
     "Dak Lieng"@en
     "Dak Long"@en
@@ -13714,7 +13704,6 @@ WHERE {
     "AYun"@vi
     "Ai Nghia"@vi
     "Ai Quoc"@vi
-    "Ai Tu"@vi
     "An Bien"@vi
     "An Binh"@vi
     "An Binh A"@vi
@@ -14564,7 +14553,6 @@ WHERE {
     "Dak Blo"@vi
     "Dak Cam"@vi
     "Dak Doa"@vi
-    "Dak Ha"@vi
     "Dak Koi"@vi
     "Dak Lieng"@vi
     "Dak Long"@vi
@@ -18302,7 +18290,6 @@ WHERE {
     "Thắng Mố"@vi
     "Thắng Thuỷ"@vi
     "Thị Trấn Năm Căn"@vi
-    "Thị Trấn Ái Tử"@vi
     "Thị Trấn Óc Eo"@vi
     "Thị trấn A Lưới"@vi
     "Thị trấn An Châu"@vi
@@ -18672,7 +18659,6 @@ WHERE {
     "Thị trấn Đất Đỏ"@vi
     "Thị trấn Đầm Dơi"@vi
     "Thị trấn Đầm Hà"@vi
-    "Thị trấn Đắk Hà"@vi
     "Thị trấn Đắk Mil"@vi
     "Thị trấn Đắk Rve"@vi
     "Thị trấn Đắk Tô"@vi
@@ -21794,7 +21780,6 @@ WHERE {
     "Yết Kiêu"@vi
     "Ái Nghĩa"@vi
     "Ái Quốc"@vi
-    "Ái Tử"@vi
     "Ân Nghĩa"@vi
     "Ân Thi"@vi
     "Âu Cơ"@vi
@@ -21926,7 +21911,6 @@ WHERE {
     "Đắk Blà"@vi
     "Đắk Blô"@vi
     "Đắk Cấm"@vi
-    "Đắk Hà"@vi
     "Đắk Kôi"@vi
     "Đắk Liêng"@vi
     "Đắk Long"@vi
