@@ -897,7 +897,6 @@ WHERE {
     "Hoang Van Thu"@en
     "Hoanh Bo"@en
     "Hoanh Mo"@en
-    "Hoat Giang"@en
     "Hoc Mon"@en
     "Hoi An"@en
     "Hoi Phu"@en
@@ -1826,7 +1825,6 @@ WHERE {
     "Quang Bach"@en
     "Quang Bi"@en
     "Quang Chieu"@en
-    "Quang Chinh"@en
     "Quang Diem"@en
     "Quang Duc"@en
     "Quang Ha"@en
@@ -4108,7 +4106,6 @@ WHERE {
     "Hoang Van Thu"@vi
     "Hoanh Bo"@vi
     "Hoanh Mo"@vi
-    "Hoat Giang"@vi
     "Hoc Mon"@vi
     "Hoi An"@vi
     "Hoi Phu"@vi
@@ -4165,7 +4162,6 @@ WHERE {
     "Hoàng Đồng"@vi
     "Hoành Bồ"@vi
     "Hoành Mô"@vi
-    "Hoạt Giang"@vi
     "Hoả Lựu"@vi
     "Hoằng Giang"@vi
     "Hoằng Phú"@vi
@@ -6567,7 +6563,6 @@ WHERE {
     "Quang Bach"@vi
     "Quang Bi"@vi
     "Quang Chieu"@vi
-    "Quang Chinh"@vi
     "Quang Chiểu"@vi
     "Quang Diem"@vi
     "Quang Diệm"@vi
@@ -6652,7 +6647,6 @@ WHERE {
     "Quản Bạ"@vi
     "Quảng Bạch"@vi
     "Quảng Bị"@vi
-    "Quảng Chính"@vi
     "Quảng Hoà"@vi
     "Quảng Hà"@vi
     "Quảng Hưng"@vi
@@ -9062,7 +9056,6 @@ WHERE {
     "Xã Hoàng Đan"@vi
     "Xã Hoàng Đồng"@vi
     "Xã Hoành Mô"@vi
-    "Xã Hoạt Giang"@vi
     "Xã Hoả Lựu"@vi
     "Xã Hoằng Giang"@vi
     "Xã Hoằng Phú"@vi
@@ -9909,7 +9902,6 @@ WHERE {
     "Xã Quản Bạ"@vi
     "Xã Quảng Bạch"@vi
     "Xã Quảng Bị"@vi
-    "Xã Quảng Chính"@vi
     "Xã Quảng Hoà"@vi
     "Xã Quảng Hưng"@vi
     "Xã Quảng Khê"@vi
@@ -11963,7 +11955,6 @@ WHERE {
     "Hoang Van Thu"@en
     "Hoanh Bo"@en
     "Hoanh Mo"@en
-    "Hoat Giang"@en
     "Hoc Mon"@en
     "Hoi An"@en
     "Hoi Phu"@en
@@ -12892,7 +12883,6 @@ WHERE {
     "Quang Bach"@en
     "Quang Bi"@en
     "Quang Chieu"@en
-    "Quang Chinh"@en
     "Quang Diem"@en
     "Quang Duc"@en
     "Quang Ha"@en
@@ -15174,7 +15164,6 @@ WHERE {
     "Hoang Van Thu"@vi
     "Hoanh Bo"@vi
     "Hoanh Mo"@vi
-    "Hoat Giang"@vi
     "Hoc Mon"@vi
     "Hoi An"@vi
     "Hoi Phu"@vi
@@ -15231,7 +15220,6 @@ WHERE {
     "Hoàng Đồng"@vi
     "Hoành Bồ"@vi
     "Hoành Mô"@vi
-    "Hoạt Giang"@vi
     "Hoả Lựu"@vi
     "Hoằng Giang"@vi
     "Hoằng Phú"@vi
@@ -17633,7 +17621,6 @@ WHERE {
     "Quang Bach"@vi
     "Quang Bi"@vi
     "Quang Chieu"@vi
-    "Quang Chinh"@vi
     "Quang Chiểu"@vi
     "Quang Diem"@vi
     "Quang Diệm"@vi
@@ -17718,7 +17705,6 @@ WHERE {
     "Quản Bạ"@vi
     "Quảng Bạch"@vi
     "Quảng Bị"@vi
-    "Quảng Chính"@vi
     "Quảng Hoà"@vi
     "Quảng Hà"@vi
     "Quảng Hưng"@vi
@@ -20128,7 +20114,6 @@ WHERE {
     "Xã Hoàng Đan"@vi
     "Xã Hoàng Đồng"@vi
     "Xã Hoành Mô"@vi
-    "Xã Hoạt Giang"@vi
     "Xã Hoả Lựu"@vi
     "Xã Hoằng Giang"@vi
     "Xã Hoằng Phú"@vi
@@ -20975,7 +20960,6 @@ WHERE {
     "Xã Quản Bạ"@vi
     "Xã Quảng Bạch"@vi
     "Xã Quảng Bị"@vi
-    "Xã Quảng Chính"@vi
     "Xã Quảng Hoà"@vi
     "Xã Quảng Hưng"@vi
     "Xã Quảng Khê"@vi

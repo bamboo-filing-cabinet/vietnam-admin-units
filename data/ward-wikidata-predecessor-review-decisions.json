@@ -1310,6 +1310,24 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities, wbgetentities, and revision history", "retrieved_at": "2026-09-10T21:03:57Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, redirects, and revision history", "retrieved_at": "2026-09-10T21:03:57Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-11.60",
+      "selection": {"method": "frozen exhaustive review queue batch", "seed": "2026-09-10-predecessor-gap-exhaustive-review-v66", "population": 3043, "eligible_population": 1394, "sample_size": 50, "sample_numbers": [8, 35, 47], "related_current_corrections": ["w-14875-2025-07-01", "w-15286-2025-07-01", "w-16489-2025-07-01"]},
+      "reviewed_at": "2026-09-11T13:36:41Z",
+      "decisions": [
+        {"local_id": "w-4013109-base", "name_vi": "Xã Hoạt Giang", "outcome": "assign", "wikidata_qid": "Q128214455", "candidate_qids_checked": ["Q128214455", "Q135113498"], "mapping_note": "Q128214455 retains the former Hà Trung parent and 1 December 2019 inception of the pre-2025 Hoạt Giang commune; Q135113498 owns the distinct current article documenting the broader 2025 merger"},
+        {"local_id": "w-4014939-base", "name_vi": "Xã Quảng Chính", "outcome": "assign", "wikidata_qid": "Q10810357", "candidate_qids_checked": ["Q10810355", "Q10810356", "Q10810357", "Q11062271", "Q135141623"], "mapping_note": "Q10810357 retains the former Quảng Xương parent, commune class, historical coordinates, and GeoNames 8549838; Q135141623 owns the distinct current article documenting the 2025 merger of four former communes"},
+        {"local_id": "w-8090325-base", "name_vi": "Xã Phú Quới", "outcome": "assign", "wikidata_qid": "Q32293945", "candidate_qids_checked": ["Q10806058", "Q32293945"], "mapping_note": "Q32293945 is a GeoNames-imported exact-name commune item whose GeoNames 8312525 coordinates match the former Phú Quới in Long Hồ; Q10806058 owns the current article documenting the 2025 merger of Phú Quới with Lộc Hòa, Hòa Phú, and Thạnh Quới"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v66.json", "role": "saved fourteenth exhaustive-batch live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames record used to validate the historical Phú Quới identity"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current successors from their historical components"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition and continuity used to distinguish the current-only Trung Sơn correction"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-10T21:17:12Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and article history", "retrieved_at": "2026-09-11T13:36:41Z"}
+      ]
     }
   ]
 }

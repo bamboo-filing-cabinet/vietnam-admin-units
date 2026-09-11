@@ -543,11 +543,11 @@ def test_saved_snapshot_cache_and_mapping_are_reproducible():
     audit = audit_mapping(history, artifact, rows, broad, review_decisions)
     assert audit["summary"]["status_counts"] == {
         "deferred-historical": 1188,
-        "gap": 2984,
-        "manual": 1000,
-        "matched": 2545,
-        "verified": 6827,
+        "gap": 2980,
+        "manual": 1006,
+        "matched": 2542,
+        "verified": 6828,
     }
-    assert audit["summary"]["review_decisions"] == 776
+    assert audit["summary"]["review_decisions"] == 779
     assert audit["summary"]["current_fold_collisions"] == 10
     assert audit["issues"] == []

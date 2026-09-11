@@ -7314,6 +7314,23 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v65.json", "role": "saved thirteenth exhaustive-batch live search and entity evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-11.117",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10828362", "Q10828363"], "local_id": "w-14875-2025-07-01", "mapping_note": "current Trung Sơn commune selects Q10828362; replace unrelated Q10828363 from the former Sầm Sơn ward", "outcome": "assign", "rationale": "Q10828362 owns the current `Trung Sơn, Thanh Hóa` article, whose history documents the same Quan Hóa commune from its 1963 formation through its direct administration by Thanh Hóa from 1 July 2025; its coordinates and GeoNames 8549676 match. Q10828363 is the unrelated former Trung Sơn ward in Sầm Sơn, with different coordinates and GeoNames 8549860.", "wikidata_qid": "Q10828362"},
+        {"candidate_qids_checked": ["Q128214455", "Q135113498"], "local_id": "w-15286-2025-07-01", "mapping_note": "current Hoạt Giang commune selects Q135113498; release Q128214455 to the pre-2025 Hà Trung commune", "outcome": "assign", "rationale": "Q135113498 owns the current `Hoạt Giang` article, which documents its 2025 formation from the former Hoạt Giang, Yên Dương, and portions of two other units. Q128214455 retains the former Hà Trung parent and 1 December 2019 inception of the pre-2025 commune.", "wikidata_qid": "Q135113498"},
+        {"candidate_qids_checked": ["Q10810357", "Q135141623"], "local_id": "w-16489-2025-07-01", "mapping_note": "current Quảng Chính commune selects Q135141623; release Q10810357 to the pre-2025 Quảng Xương commune", "outcome": "assign", "rationale": "Q135141623 owns the current `Quảng Chính` article, which documents its 2025 formation from four former communes. Q10810357 retains the former Quảng Xương parent, historical coordinates, and GeoNames 8549838.", "wikidata_qid": "Q135141623"}
+      ],
+      "reviewed_at": "2026-09-11T13:36:41Z",
+      "selection": {"input_status": "exhaustive-predecessor-gap-review-v66, including one current-only correction", "sample_numbers": [7, 8, 35]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-10T21:17:12Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and article history", "retrieved_at": "2026-09-11T13:36:41Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced composition distinguishing the current Hoạt Giang and Quảng Chính mergers and the continuing Trung Sơn commune"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v66.json", "role": "saved fourteenth exhaustive-batch live search and entity evidence"}
+      ]
     }
   ],
   "schema_version": 1,
