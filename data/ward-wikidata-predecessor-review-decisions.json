@@ -1586,6 +1586,23 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-11T17:41:17Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and revision content", "retrieved_at": "2026-09-11T17:41:17Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-11.74",
+      "selection": {"method": "frozen exhaustive review queue batch", "seed": "2026-09-10-predecessor-gap-exhaustive-review-v80", "population": 3043, "eligible_population": 1394, "sample_size": 50, "sample_numbers": [29, 39], "related_current_corrections": ["w-16033-2025-07-01"]},
+      "reviewed_at": "2026-09-11T17:47:00Z",
+      "decisions": [
+        {"local_id": "w-4014517-base", "name_vi": "Xã Đông Thanh", "outcome": "assign", "wikidata_qid": "Q10840844", "candidate_qids_checked": ["Q10840844", "Q135113513"], "mapping_note": "Q10840844 is described as the Đông Thanh commune of thành phố Thanh Hóa, keeps the Thanh Hóa city and Đông Sơn parents, coordinates, and GeoNames 8549688; it had been fold-matched to the unrelated current Xã Đông Thành, which owns Q135113513"},
+        {"local_id": "w-1012129-base", "name_vi": "Phường Đại Mỗ", "outcome": "assign", "wikidata_qid": "Q32599619", "candidate_qids_checked": ["Q32599619"], "mapping_note": "Q32599619 carries GeoNames 8616053, the only Xã Đại Mỗ record in Hà Nội, with Nam Từ Liêm coordinates"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v80.json", "role": "saved final exhaustive-batch live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate the Đại Mỗ identity"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced composition distinguishing current successors from their historical components"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-11T17:47:00Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and revision content", "retrieved_at": "2026-09-11T17:47:00Z"}
+      ]
     }
   ]
 }

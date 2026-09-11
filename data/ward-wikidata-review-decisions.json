@@ -7554,6 +7554,21 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v79.json", "role": "saved twenty-seventh exhaustive-batch live search and entity evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-11.131",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10840844", "Q135113513"], "local_id": "w-16033-2025-07-01", "mapping_note": "current Đông Thành commune selects Q135113513; release Q10840844 to the former Đông Thanh commune of thành phố Thanh Hóa", "outcome": "assign", "rationale": "Q135113513 has the alias `Xã Đông Thành` and owns the current `Đông Thành, Thanh Hóa` article; the official composition shows the commune was formed from Đồng Lộc, Cầu Lộc, Thành Lộc and Tuy Lộc. Q10840844 instead describes the Đông Thanh commune of thành phố Thanh Hóa and keeps its parents, coordinates, and GeoNames 8549688.", "wikidata_qid": "Q135113513"}
+      ],
+      "reviewed_at": "2026-09-11T17:47:00Z",
+      "selection": {"input_status": "exhaustive-predecessor-gap-review-v80", "sample_numbers": [29]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-11T17:47:00Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and revision content", "retrieved_at": "2026-09-11T17:47:00Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced composition distinguishing the current merged units from their historical components"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v80.json", "role": "saved final exhaustive-batch live search and entity evidence"}
+      ]
     }
   ],
   "schema_version": 1,
