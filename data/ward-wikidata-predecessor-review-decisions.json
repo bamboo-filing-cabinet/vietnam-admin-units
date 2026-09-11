@@ -1503,6 +1503,26 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-11T17:05:11Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and historical page metadata", "retrieved_at": "2026-09-11T17:05:11Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-11.70",
+      "selection": {"method": "frozen exhaustive review queue batch", "seed": "2026-09-10-predecessor-gap-exhaustive-review-v76", "population": 3043, "eligible_population": 1394, "sample_size": 50, "sample_numbers": [24, 26, 32, 35, 39], "related_current_corrections": ["w-16480-2025-07-01", "w-18652-2025-07-01"]},
+      "reviewed_at": "2026-09-11T17:18:40Z",
+      "decisions": [
+        {"local_id": "w-4014929-base", "name_vi": "Xã Quảng Yên", "outcome": "assign", "wikidata_qid": "Q10810534", "candidate_qids_checked": ["Q10810534", "Q135140312"], "mapping_note": "Q10810534 retains the former Quảng Xương parent, historical coordinates, and GeoNames 8550222; Q135140312 owns the current Quảng Yên article for the unit formed from Quảng Trạch, Quảng Long, Quảng Yên and Quảng Hòa"},
+        {"local_id": "w-2110969-base", "name_vi": "Phường Đội Cấn", "outcome": "assign", "wikidata_qid": "Q10842243", "candidate_qids_checked": ["Q10842242", "Q10842243", "Q10842244"], "mapping_note": "Q10842243 is labelled Đội Cấn, thành phố Tuyên Quang, described as a ward of that city, parented by Tuyên Quang, and carries GeoNames 8138343 for Xã Đội Cấn in Tuyên Quang; its second GeoNames value 8523076 is an unrelated Tân Bình township record"},
+        {"local_id": "w-1151305-base", "name_vi": "Xã Tây Sơn", "outcome": "assign", "wikidata_qid": "Q32588292", "candidate_qids_checked": ["Q32588292"], "mapping_note": "Q32588292 carries GeoNames 8569557 for Xã Tây Sơn in Thái Bình with coordinates in eastern Kiến Xương; the only other Thái Bình Tây Sơn ended in February 2020 and is a deferred historical row"},
+        {"local_id": "w-3051011-base", "name_vi": "Xã Hợp Phong", "outcome": "assign", "wikidata_qid": "Q86008301", "candidate_qids_checked": ["Q10744245", "Q86008301"], "mapping_note": "Q86008301 was created from the former Hợp Phong article, which now redirects to Cao Phong (xã), and retains the former Cao Phong district parent; Q10744245 owns the current article and stays on the successor"},
+        {"local_id": "w-4050113-base", "name_vi": "Phường Hà Huy Tập", "outcome": "assign", "wikidata_qid": "Q10770522", "candidate_qids_checked": ["Q10770522", "Q136950356"], "mapping_note": "Q10770522 is described as a ward of thành phố Hà Tĩnh and has that city's coordinates; the current Hà Huy Tập ward article says its territory is wholly different from the old ward and belongs to Q136950356"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v76.json", "role": "saved twenty-fourth exhaustive-batch live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate the Đội Cấn and Tây Sơn identities"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced composition distinguishing current successors from their historical components"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-11T17:18:40Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and revision content", "retrieved_at": "2026-09-11T17:18:40Z"}
+      ]
     }
   ]
 }

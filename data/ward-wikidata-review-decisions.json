@@ -7486,6 +7486,22 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v75.json", "role": "saved twenty-third exhaustive-batch live search and entity evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-11.127",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10810534", "Q135140312"], "local_id": "w-16480-2025-07-01", "mapping_note": "current Quảng Yên commune selects Q135140312; release Q10810534 to the pre-2025 Quảng Xương commune", "outcome": "assign", "rationale": "Q135140312 owns the current `Quảng Yên, Thanh Hóa` article for the unit formed from Quảng Trạch, Quảng Long, Quảng Yên and Quảng Hòa. Q10810534 instead retains the former Quảng Xương parent, historical coordinates, and GeoNames 8550222.", "wikidata_qid": "Q135140312"},
+        {"candidate_qids_checked": ["Q10770522", "Q136950356"], "local_id": "w-18652-2025-07-01", "mapping_note": "current Hà Huy Tập ward selects Q136950356; release Q10770522 to the former Hà Tĩnh city ward", "outcome": "assign", "rationale": "The current `Hà Huy Tập (phường)` article states that the 2025 ward has a wholly different boundary from the former Hà Huy Tập ward of thành phố Hà Tĩnh, which is now part of Thành Sen; that article belongs to Q136950356. The official composition confirms the current ward was formed from part of Đại Nài plus Thạch Đài and Tân Lâm Hương. Q10770522 instead describes the old city ward and carries its coordinates.", "wikidata_qid": "Q136950356"}
+      ],
+      "reviewed_at": "2026-09-11T17:18:40Z",
+      "selection": {"input_status": "exhaustive-predecessor-gap-review-v76", "sample_numbers": [24, 39]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-11T17:18:40Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and revision content", "retrieved_at": "2026-09-11T17:18:40Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced composition distinguishing the current merged units from their historical components"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v76.json", "role": "saved twenty-fourth exhaustive-batch live search and entity evidence"}
+      ]
     }
   ],
   "schema_version": 1,
