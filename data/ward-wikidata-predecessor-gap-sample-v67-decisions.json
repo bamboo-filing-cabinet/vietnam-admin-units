@@ -1,0 +1,364 @@
+{
+  "schema_version": 1,
+  "scope": {
+    "tier": "ward",
+    "purpose": "manual decisions for fifteenth exhaustive predecessor-gap review batch",
+    "wikidata_write_performed": false
+  },
+  "sampling": {
+    "method": "frozen exhaustive review queue batch",
+    "seed": "2026-09-10-predecessor-gap-exhaustive-review-v67",
+    "population": 3043,
+    "eligible_population": 1394,
+    "review_round": 67,
+    "sample_size": 50,
+    "batch_size": 10,
+    "batches": 5
+  },
+  "reviewed_at": "2026-09-11T13:53:22Z",
+  "batches": [
+    {
+      "batch_number": 1,
+      "decisions": [
+        {
+          "sample_number": 1,
+          "local_id": "w-2090501-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor-or-non-unit-items"
+        },
+        {
+          "sample_number": 2,
+          "local_id": "w-7090903-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation"
+        },
+        {
+          "sample_number": 3,
+          "local_id": "w-1012107-base",
+          "outcome": "existing-predecessor-item",
+          "wikidata_qid": "Q32293158",
+          "reason_code": "exact-geonames-imported-commune-item-matches-former-phu-dien-bac-tu-liem-location"
+        },
+        {
+          "sample_number": 4,
+          "local_id": "w-1071101-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 5,
+          "local_id": "w-8110515-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "only-current-successor-or-wrong-location-items"
+        },
+        {
+          "sample_number": 6,
+          "local_id": "w-8070311-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation"
+        },
+        {
+          "sample_number": 7,
+          "local_id": "w-4011929-base",
+          "outcome": "existing-predecessor-item-after-current-swap",
+          "wikidata_qid": "Q10825601",
+          "replacement_current_qid": "Q135210480",
+          "reason_code": "former-thach-thanh-item-retains-old-parent-coordinates-and-geonames-while-new-item-owns-current-merged-commune-article"
+        },
+        {
+          "sample_number": 8,
+          "local_id": "w-1090511-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "only-renamed-current-successor-or-wrong-location-items"
+        },
+        {
+          "sample_number": 9,
+          "local_id": "w-2050743-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 10,
+          "local_id": "w-4013749-base",
+          "outcome": "existing-predecessor-item-after-current-swap",
+          "wikidata_qid": "Q10818227",
+          "replacement_current_qid": "Q135179989",
+          "reason_code": "former-tho-xuan-township-item-retains-old-class-parent-coordinates-and-geonames-while-new-item-owns-current-merged-commune-article"
+        }
+      ]
+    },
+    {
+      "batch_number": 2,
+      "decisions": [
+        {
+          "sample_number": 11,
+          "local_id": "w-8130405-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation"
+        },
+        {
+          "sample_number": 12,
+          "local_id": "w-4032107-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-renamed-current-successor-or-wrong-location-item"
+        },
+        {
+          "sample_number": 13,
+          "local_id": "w-8131103-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "only-current-successor-or-disambiguation-and-wrong-location-items"
+        },
+        {
+          "sample_number": 14,
+          "local_id": "w-5050537-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 15,
+          "local_id": "w-7012305-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 16,
+          "local_id": "w-8050301-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation"
+        },
+        {
+          "sample_number": 17,
+          "local_id": "w-1060101-base",
+          "outcome": "existing-predecessor-item",
+          "wikidata_qid": "Q131304517",
+          "reason_code": "exact-name-article-item-explicitly-describes-former-tien-ninh-ve-ward-in-bac-ninh-city"
+        },
+        {
+          "sample_number": 18,
+          "local_id": "w-1150903-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 19,
+          "local_id": "w-8070745-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "only-current-successor-or-wrong-location-items"
+        },
+        {
+          "sample_number": 20,
+          "local_id": "w-03384-2005-06-21",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        }
+      ]
+    },
+    {
+      "batch_number": 3,
+      "decisions": [
+        {
+          "sample_number": 21,
+          "local_id": "w-2151715-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "only-current-successor-or-wrong-location-person-and-historical-name-items"
+        },
+        {
+          "sample_number": 22,
+          "local_id": "w-8210413-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 23,
+          "local_id": "w-1051711-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation-and-wrong-location-items"
+        },
+        {
+          "sample_number": 24,
+          "local_id": "w-4031315-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation-and-wrong-location-items"
+        },
+        {
+          "sample_number": 25,
+          "local_id": "w-17759-2009-01-07",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "no-correct-historical-unit-candidate-found"
+        },
+        {
+          "sample_number": 26,
+          "local_id": "w-2011737-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 27,
+          "local_id": "w-3031547-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 28,
+          "local_id": "w-2011103-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "only-current-successor-or-wrong-location-items"
+        },
+        {
+          "sample_number": 29,
+          "local_id": "w-8190503-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "qid-collision-resolves-to-current-successor-disambiguation-district-or-wrong-location-items"
+        },
+        {
+          "sample_number": 30,
+          "local_id": "w-31481-2006-11-11",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "only-renamed-current-successor-or-wrong-location-items"
+        }
+      ]
+    },
+    {
+      "batch_number": 4,
+      "decisions": [
+        {
+          "sample_number": 31,
+          "local_id": "w-1051529-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "only-current-successors-or-wrong-location-items"
+        },
+        {
+          "sample_number": 32,
+          "local_id": "w-8131701-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 33,
+          "local_id": "w-7010921-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "only-current-successor-or-numbered-wards-in-wrong-districts"
+        },
+        {
+          "sample_number": 34,
+          "local_id": "w-4014533-base",
+          "outcome": "existing-predecessor-item-after-current-swap",
+          "wikidata_qid": "Q8079941",
+          "replacement_current_qid": "Q135106881",
+          "reason_code": "former-thanh-hoa-city-commune-item-retains-old-class-parent-coordinates-and-geonames-while-new-item-owns-current-merged-ward-article"
+        },
+        {
+          "sample_number": 35,
+          "local_id": "w-2050811-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "only-renamed-current-successor-found"
+        },
+        {
+          "sample_number": 36,
+          "local_id": "w-8190913-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor-or-wrong-location-items"
+        },
+        {
+          "sample_number": 37,
+          "local_id": "w-5031539-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "only-renamed-current-successor-or-disambiguation-and-wrong-location-items"
+        },
+        {
+          "sample_number": 38,
+          "local_id": "w-2031321-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation-person-and-non-vietnam-items"
+        },
+        {
+          "sample_number": 39,
+          "local_id": "w-3031718-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "only-current-successor-or-wrong-location-items"
+        },
+        {
+          "sample_number": 40,
+          "local_id": "w-7110549-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "only-current-successors-or-wrong-location-and-non-unit-items"
+        }
+      ]
+    },
+    {
+      "batch_number": 5,
+      "decisions": [
+        {
+          "sample_number": 41,
+          "local_id": "w-4031359-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 42,
+          "local_id": "w-4033741-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "only-current-successor-or-disambiguation-and-wrong-location-items"
+        },
+        {
+          "sample_number": 43,
+          "local_id": "w-3030707-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 44,
+          "local_id": "w-8011311-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "only-current-successor-or-wrong-location-items"
+        },
+        {
+          "sample_number": 45,
+          "local_id": "w-4071303-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "no-broad-candidate-beyond-renamed-current-successor"
+        },
+        {
+          "sample_number": 46,
+          "local_id": "w-3030907-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 47,
+          "local_id": "w-4051327-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "only-renamed-current-successor-found"
+        },
+        {
+          "sample_number": 48,
+          "local_id": "w-8110943-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "same-geography-item-repurposed-to-current-successor"
+        },
+        {
+          "sample_number": 49,
+          "local_id": "w-8230309-base",
+          "outcome": "no-distinct-item-found",
+          "reason_code": "only-renamed-current-successor-or-wrong-location-items"
+        },
+        {
+          "sample_number": 50,
+          "local_id": "w-4010901-base",
+          "outcome": "existing-predecessor-item-after-current-swap",
+          "wikidata_qid": "Q10772086",
+          "replacement_current_qid": "Q135183814",
+          "reason_code": "former-quan-hoa-township-item-retains-old-class-parent-coordinates-and-geonames-while-new-item-owns-current-merged-commune-article"
+        }
+      ]
+    }
+  ],
+  "audit": {
+    "reviewed_rows": 50,
+    "existing_predecessor_items": 6,
+    "current_mapping_swaps": 4,
+    "no_distinct_item_found": 44,
+    "sample_miss_rate": 0.12,
+    "creation_batch_authorized": false
+  }
+}

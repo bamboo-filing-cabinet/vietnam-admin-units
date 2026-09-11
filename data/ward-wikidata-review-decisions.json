@@ -7331,6 +7331,24 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v66.json", "role": "saved fourteenth exhaustive-batch live search and entity evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-11.118",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10825601", "Q135210480"], "local_id": "w-15229-2025-07-01", "mapping_note": "current Thành Vinh commune selects Q135210480; release Q10825601 to the pre-2025 Thạch Thành commune", "outcome": "assign", "rationale": "Q135210480 owns the current `Thành Vinh (xã)` article, which documents its June 2025 formation from Thành Minh, Thành Mỹ, Thành Yên, and the former Thành Vinh commune. Q10825601 retains the former Thạch Thành district parent, historical coordinates, and GeoNames 8550108.", "wikidata_qid": "Q135210480"},
+        {"candidate_qids_checked": ["Q10818227", "Q135179989"], "local_id": "w-15553-2025-07-01", "mapping_note": "current Sao Vàng commune selects Q135179989; release Q10818227 to the pre-2025 Thọ Xuân township", "outcome": "assign", "rationale": "Q135179989 owns the current `Sao Vàng (xã)` article, which documents its June 2025 formation from the former township and three communes. Q10818227 retains the township class, former Thọ Xuân district parent, historical coordinates, and GeoNames 8550301.", "wikidata_qid": "Q135179989"},
+        {"candidate_qids_checked": ["Q8079941", "Q135106881"], "local_id": "w-16417-2025-07-01", "mapping_note": "current Đông Quang ward selects Q135106881; release Q8079941 to the pre-2025 Thanh Hóa city commune", "outcome": "assign", "rationale": "Q135106881 owns the current `Đông Quang` article, which documents its June 2025 formation from six complete former communes or wards and most of An Hưng. Q8079941 retains the commune class, former Thanh Hóa city and Đông Sơn parents, historical coordinates, and GeoNames 8549865.", "wikidata_qid": "Q135106881"},
+        {"candidate_qids_checked": ["Q10772086", "Q135183814"], "local_id": "w-14869-2025-07-01", "mapping_note": "current Hồi Xuân commune selects Q135183814; release Q10772086 to the pre-2025 Quan Hóa township", "outcome": "assign", "rationale": "Q135183814 owns the current `Hồi Xuân` article, which documents its June 2025 formation from the former Hồi Xuân township and Phú Nghiêm commune. Q10772086 retains the township class, former Quan Hóa district parent, historical coordinates, and GeoNames 8549804.", "wikidata_qid": "Q135183814"}
+      ],
+      "reviewed_at": "2026-09-11T13:53:22Z",
+      "selection": {"input_status": "exhaustive-predecessor-gap-review-v67", "sample_numbers": [7, 10, 34, 50]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-11T13:53:22Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-11T13:53:22Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced composition distinguishing the four current merged units from their historical components"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v67.json", "role": "saved fifteenth exhaustive-batch live search and entity evidence"}
+      ]
     }
   ],
   "schema_version": 1,

@@ -1328,6 +1328,27 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-10T21:17:12Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and article history", "retrieved_at": "2026-09-11T13:36:41Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-11.61",
+      "selection": {"method": "frozen exhaustive review queue batch", "seed": "2026-09-10-predecessor-gap-exhaustive-review-v67", "population": 3043, "eligible_population": 1394, "sample_size": 50, "sample_numbers": [3, 7, 10, 17, 34, 50], "related_current_corrections": ["w-15229-2025-07-01", "w-15553-2025-07-01", "w-16417-2025-07-01", "w-14869-2025-07-01"]},
+      "reviewed_at": "2026-09-11T13:53:22Z",
+      "decisions": [
+        {"local_id": "w-1012107-base", "name_vi": "Phường Phú Diễn", "outcome": "assign", "wikidata_qid": "Q32293158", "candidate_qids_checked": ["Q2103617", "Q10805915", "Q10805916", "Q10806188", "Q10806189", "Q32293158"], "mapping_note": "Q32293158 is a GeoNames-imported exact-name commune item whose Bắc Từ Liêm-area coordinates and GeoNames 8616047 match the former Phú Diễn local entity; Q10805916 stays on the current Phú Diễn successor"},
+        {"local_id": "w-4011929-base", "name_vi": "Xã Thành Vinh", "outcome": "assign", "wikidata_qid": "Q10825601", "candidate_qids_checked": ["Q10824945", "Q10825601", "Q135210480"], "mapping_note": "Q10825601 retains the former Thạch Thành district parent, commune class, historical coordinates, and GeoNames 8550108; Q135210480 owns the distinct current article documenting the 2025 merger of Thành Minh, Thành Mỹ, Thành Yên, and Thành Vinh"},
+        {"local_id": "w-4013749-base", "name_vi": "Thị trấn Sao Vàng", "outcome": "assign", "wikidata_qid": "Q10818227", "candidate_qids_checked": ["Q10818227", "Q120916906", "Q135179989"], "mapping_note": "Q10818227 retains the township class, former Thọ Xuân district parent, historical coordinates, and GeoNames 8550301; Q135179989 owns the distinct current article documenting the 2025 merger of the township with Thọ Lâm, Xuân Phú, and Xuân Sinh"},
+        {"local_id": "w-1060101-base", "name_vi": "Phường Tiền Ninh Vệ", "outcome": "assign", "wikidata_qid": "Q131304517", "candidate_qids_checked": ["Q131304517"], "mapping_note": "Q131304517 has the exact Tiền Ninh Vệ name, owns the exact former article, and explicitly describes a ward in Bắc Ninh city; Q18459099 remains assigned to the distinct current Kinh Bắc successor"},
+        {"local_id": "w-4014533-base", "name_vi": "Xã Đông Quang", "outcome": "assign", "wikidata_qid": "Q8079941", "candidate_qids_checked": ["Q682429", "Q1241382", "Q8079941", "Q10840826", "Q10840827", "Q10841987", "Q10841989", "Q10841990", "Q32601717", "Q32601727", "Q135106881"], "mapping_note": "Q8079941 retains the commune class, former Thanh Hóa city and Đông Sơn parents, historical coordinates, and GeoNames 8549865; Q135106881 owns the distinct current ward article documenting the broader 2025 merger"},
+        {"local_id": "w-4010901-base", "name_vi": "Thị trấn Hồi Xuân", "outcome": "assign", "wikidata_qid": "Q10772086", "candidate_qids_checked": ["Q10772086", "Q10772286", "Q135183814"], "mapping_note": "Q10772086 retains the township class, former Quan Hóa district parent, historical coordinates, and GeoNames 8549804; Q135183814 owns the distinct current article documenting the 2025 merger of the township with Phú Nghiêm commune"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v67.json", "role": "saved fifteenth exhaustive-batch live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate historical identities"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current successors from their historical components"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-11T13:53:22Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-11T13:53:22Z"}
+      ]
     }
   ]
 }

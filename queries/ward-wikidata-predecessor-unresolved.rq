@@ -902,7 +902,6 @@ WHERE {
     "Hoi Phu"@en
     "Hoi Son"@en
     "Hoi Thinh"@en
-    "Hoi Xuan"@en
     "Hon Dat"@en
     "Hon Nghe"@en
     "Hong Bach"@en
@@ -1900,7 +1899,6 @@ WHERE {
     "Sang Moc"@en
     "Sang Nhe"@en
     "Sao Dai Viet"@en
-    "Sao Vang"@en
     "Sen Phuong"@en
     "Si Ma Cai"@en
     "Si Pa Phin"@en
@@ -2192,7 +2190,6 @@ WHERE {
     "Thanh Tri"@en
     "Thanh Tru"@en
     "Thanh Tung"@en
-    "Thanh Vinh"@en
     "Thanh Xuan"@en
     "Thanh Xuan Trung"@en
     "Thanh Yen"@en
@@ -4111,7 +4108,6 @@ WHERE {
     "Hoi Phu"@vi
     "Hoi Son"@vi
     "Hoi Thinh"@vi
-    "Hoi Xuan"@vi
     "Hon Dat"@vi
     "Hon Nghe"@vi
     "Hong Bach"@vi
@@ -4387,7 +4383,6 @@ WHERE {
     "Hồ Thầu"@vi
     "Hồ Thị Kỷ"@vi
     "Hồ Đắc Kiện"@vi
-    "Hồi Xuân"@vi
     "Hồng Bạch"@vi
     "Hồng Châu"@vi
     "Hồng Dũng"@vi
@@ -6715,8 +6710,6 @@ WHERE {
     "Sang Moc"@vi
     "Sang Nhe"@vi
     "Sao Dai Viet"@vi
-    "Sao Vang"@vi
-    "Sao Vàng"@vi
     "Sao Đại Việt"@vi
     "Sen Phuong"@vi
     "Sen Phương"@vi
@@ -7123,7 +7116,6 @@ WHERE {
     "Thanh Tâm"@vi
     "Thanh Tân"@vi
     "Thanh Tùng"@vi
-    "Thanh Vinh"@vi
     "Thanh Xuan"@vi
     "Thanh Xuan Trung"@vi
     "Thanh Xuân"@vi
@@ -7263,7 +7255,6 @@ WHERE {
     "Thành Thới A"@vi
     "Thành Tâm"@vi
     "Thành Tô"@vi
-    "Thành Vinh"@vi
     "Thác Bà"@vi
     "Thác Mơ"@vi
     "Thái Bình"@vi
@@ -7446,7 +7437,6 @@ WHERE {
     "Thị trấn Hương Khê"@vi
     "Thị trấn Hạ Hoà"@vi
     "Thị trấn Hậu Nghĩa"@vi
-    "Thị trấn Hồi Xuân"@vi
     "Thị trấn Hội An"@vi
     "Thị trấn Hữu Lũng"@vi
     "Thị trấn Ia Ly"@vi
@@ -7574,7 +7564,6 @@ WHERE {
     "Thị trấn Quỹ Nhất"@vi
     "Thị trấn Rạng Đông"@vi
     "Thị trấn Sa Thầy"@vi
-    "Thị trấn Sao Vàng"@vi
     "Thị trấn Si Ma Cai"@vi
     "Thị trấn Sìn Hồ"@vi
     "Thị trấn Sóc Sơn"@vi
@@ -10093,7 +10082,6 @@ WHERE {
     "Xã Thành Sơn"@vi
     "Xã Thành Thịnh"@vi
     "Xã Thành Thới A"@vi
-    "Xã Thành Vinh"@vi
     "Xã Thái Bình"@vi
     "Xã Thái Hòa"@vi
     "Xã Thái Long"@vi
@@ -11960,7 +11948,6 @@ WHERE {
     "Hoi Phu"@en
     "Hoi Son"@en
     "Hoi Thinh"@en
-    "Hoi Xuan"@en
     "Hon Dat"@en
     "Hon Nghe"@en
     "Hong Bach"@en
@@ -12958,7 +12945,6 @@ WHERE {
     "Sang Moc"@en
     "Sang Nhe"@en
     "Sao Dai Viet"@en
-    "Sao Vang"@en
     "Sen Phuong"@en
     "Si Ma Cai"@en
     "Si Pa Phin"@en
@@ -13250,7 +13236,6 @@ WHERE {
     "Thanh Tri"@en
     "Thanh Tru"@en
     "Thanh Tung"@en
-    "Thanh Vinh"@en
     "Thanh Xuan"@en
     "Thanh Xuan Trung"@en
     "Thanh Yen"@en
@@ -15169,7 +15154,6 @@ WHERE {
     "Hoi Phu"@vi
     "Hoi Son"@vi
     "Hoi Thinh"@vi
-    "Hoi Xuan"@vi
     "Hon Dat"@vi
     "Hon Nghe"@vi
     "Hong Bach"@vi
@@ -15445,7 +15429,6 @@ WHERE {
     "Hồ Thầu"@vi
     "Hồ Thị Kỷ"@vi
     "Hồ Đắc Kiện"@vi
-    "Hồi Xuân"@vi
     "Hồng Bạch"@vi
     "Hồng Châu"@vi
     "Hồng Dũng"@vi
@@ -17773,8 +17756,6 @@ WHERE {
     "Sang Moc"@vi
     "Sang Nhe"@vi
     "Sao Dai Viet"@vi
-    "Sao Vang"@vi
-    "Sao Vàng"@vi
     "Sao Đại Việt"@vi
     "Sen Phuong"@vi
     "Sen Phương"@vi
@@ -18181,7 +18162,6 @@ WHERE {
     "Thanh Tâm"@vi
     "Thanh Tân"@vi
     "Thanh Tùng"@vi
-    "Thanh Vinh"@vi
     "Thanh Xuan"@vi
     "Thanh Xuan Trung"@vi
     "Thanh Xuân"@vi
@@ -18321,7 +18301,6 @@ WHERE {
     "Thành Thới A"@vi
     "Thành Tâm"@vi
     "Thành Tô"@vi
-    "Thành Vinh"@vi
     "Thác Bà"@vi
     "Thác Mơ"@vi
     "Thái Bình"@vi
@@ -18504,7 +18483,6 @@ WHERE {
     "Thị trấn Hương Khê"@vi
     "Thị trấn Hạ Hoà"@vi
     "Thị trấn Hậu Nghĩa"@vi
-    "Thị trấn Hồi Xuân"@vi
     "Thị trấn Hội An"@vi
     "Thị trấn Hữu Lũng"@vi
     "Thị trấn Ia Ly"@vi
@@ -18632,7 +18610,6 @@ WHERE {
     "Thị trấn Quỹ Nhất"@vi
     "Thị trấn Rạng Đông"@vi
     "Thị trấn Sa Thầy"@vi
-    "Thị trấn Sao Vàng"@vi
     "Thị trấn Si Ma Cai"@vi
     "Thị trấn Sìn Hồ"@vi
     "Thị trấn Sóc Sơn"@vi
@@ -21151,7 +21128,6 @@ WHERE {
     "Xã Thành Sơn"@vi
     "Xã Thành Thịnh"@vi
     "Xã Thành Thới A"@vi
-    "Xã Thành Vinh"@vi
     "Xã Thái Bình"@vi
     "Xã Thái Hòa"@vi
     "Xã Thái Long"@vi
