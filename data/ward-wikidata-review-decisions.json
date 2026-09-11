@@ -7349,6 +7349,27 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v67.json", "role": "saved fifteenth exhaustive-batch live search and entity evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-11.119",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10771190", "Q135224942"], "local_id": "w-16186-2025-07-01", "mapping_note": "current Hóa Quỳ commune selects Q135224942; release Q10771190 to the pre-2025 Như Xuân commune", "outcome": "assign", "rationale": "Q135224942 owns the current `Hóa Quỳ` article, which documents its June 2025 formation from Bình Lương and the former Hóa Quỳ. Q10771190 retains the former Như Xuân district parent, historical coordinates, and GeoNames 8549962.", "wikidata_qid": "Q135224942"},
+        {"candidate_qids_checked": ["Q10752739", "Q10830745"], "local_id": "w-27553-2025-07-01", "mapping_note": "current Củ Chi commune selects Q10830745; release Q10752739 to the pre-2025 Củ Chi township", "outcome": "assign", "rationale": "Q10830745 owns the current `Củ Chi (xã)` article, which documents its June 2025 formation from Tân Phú Trung, Tân Thông Hội, and Phước Vĩnh An. Q10752739 retains the township class, former Củ Chi district parent, and historical GeoNames identifiers.", "wikidata_qid": "Q10830745"},
+        {"candidate_qids_checked": ["Q10779673", "Q96385880"], "local_id": "w-22609-2025-07-01", "mapping_note": "current Khánh Vĩnh commune selects Q96385880; release Q10779673 to the pre-2025 district-capital township", "outcome": "assign", "rationale": "Q96385880 owns the current `Khánh Vĩnh (xã)` article, which documents its June 2025 formation from the former township, Sông Cầu, and Khánh Phú. Q10779673 retains the township class, former Khánh Vĩnh district parent, and GeoNames 8743020.", "wikidata_qid": "Q96385880"},
+        {"candidate_qids_checked": ["Q10769227", "Q135116290"], "local_id": "w-15991-2025-07-01", "mapping_note": "current Hoằng Tiến commune selects Q135116290; release Q10769227 to the pre-2025 Hoằng Hóa commune", "outcome": "assign", "rationale": "Q135116290 owns the current `Hoằng Tiến` article, which documents its June 2025 formation from four former communes. Q10769227 retains the former Hoằng Hóa district parent, historical coordinates, and GeoNames 8549759.", "wikidata_qid": "Q135116290"},
+        {"candidate_qids_checked": ["Q10831455", "Q135162328"], "local_id": "w-16363-2025-07-01", "mapping_note": "current Tượng Lĩnh commune selects Q135162328; release Q10831455 to the pre-2025 Nông Cống commune", "outcome": "assign", "rationale": "Q135162328 owns the current `Tượng Lĩnh` article, which documents its June 2025 formation from Tượng Sơn, Tượng Văn, and the former Tượng Lĩnh. Q10831455 retains the former Nông Cống district parent, historical coordinates, and GeoNames 8550129.", "wikidata_qid": "Q135162328"},
+        {"candidate_qids_checked": ["Q10833773", "Q18461388"], "local_id": "w-13741-2025-07-01", "mapping_note": "current Vụ Bản commune remains unresolved for creation; release the unrelated former Bình Lục commune Q10833773", "outcome": "retain-unresolved", "rationale": "The current `Vụ Bản (xã)` article documents its June 2025 formation from Gôi, Kim Thái, and Tam Thanh and reports no connected Wikidata item. Q10833773 instead has the Vũ Bản name and alias, former Bình Lục district parent, historical coordinates, GeoNames 8564019, and the old `Vũ Bản` article."},
+        {"candidate_qids_checked": ["Q5054228", "Q136470521"], "local_id": "w-20107-2025-07-01", "mapping_note": "current Phú Lộc commune selects Q136470521; release Q5054228 to the pre-2025 district-capital township", "outcome": "assign", "rationale": "Q136470521 owns the current `Phú Lộc, Huế` article, which documents its June 2025 formation from the former township, Lộc Trì, and Lộc Bình. Q5054228 retains the township class, former Phú Lộc district parent, historical coordinates, and GeoNames 8656120.", "wikidata_qid": "Q136470521"}
+      ],
+      "reviewed_at": "2026-09-11T14:15:59Z",
+      "selection": {"input_status": "exhaustive-predecessor-gap-review-v68, including one current item released to the CREATE workflow", "sample_numbers": [4, 7, 20, 35, 36, 38, 48]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-11T14:15:59Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-11T14:15:59Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced composition distinguishing the current merged units from their historical components"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v68.json", "role": "saved sixteenth exhaustive-batch live search and entity evidence"}
+      ]
     }
   ],
   "schema_version": 1,

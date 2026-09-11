@@ -5,7 +5,14 @@ SELECT DISTINCT ?item ?matchedTerm ?matchKind
 WHERE {
   {
     VALUES ?matchedTerm {
-
+    "Vu Ban"@en
+    "Vụ Bản"@en
+    "Xa Vu Ban"@en
+    "Xã Vụ Bản"@en
+    "Vu Ban"@vi
+    "Vụ Bản"@vi
+    "Xa Vu Ban"@vi
+    "Xã Vụ Bản"@vi
     }
     ?item rdfs:label ?matchedTerm .
     BIND("label" AS ?matchKind)
@@ -13,7 +20,14 @@ WHERE {
   UNION
   {
     VALUES ?matchedTerm {
-
+    "Vu Ban"@en
+    "Vụ Bản"@en
+    "Xa Vu Ban"@en
+    "Xã Vụ Bản"@en
+    "Vu Ban"@vi
+    "Vụ Bản"@vi
+    "Xa Vu Ban"@vi
+    "Xã Vụ Bản"@vi
     }
     ?item skos:altLabel ?matchedTerm .
     BIND("alias" AS ?matchKind)

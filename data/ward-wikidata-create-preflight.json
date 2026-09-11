@@ -7,21 +7,21 @@
     "wikidata_write_performed": false
   },
   "input_fingerprints": {
-    "data/ward-wikidata-create-current.json": "336e8374538e9ae76eedb1462d754f84d24b1cd84e70b8cf6423b220b68c42ef",
-    "mappings/wards-qid.csv": "cbce29b66bacc127cd8dbc21738250e97a14f4c4f2a71bdddca88dafd6bd7b43",
-    "data/ward-wikidata-review-decisions.json": "7f24f6a05bdc9cd946d2a292e3c163f29741c4d26e128547e5f6778ac0a933df",
+    "data/ward-wikidata-create-current.json": "daceb362e9b31a9742e7f7d3314b3b019ac81d9f0d527c6d846ed413d632e146",
+    "mappings/wards-qid.csv": "c1e731d37e01e0c3997714964cf3a3396f140accfad815e3018f1def32b32a53",
+    "data/ward-wikidata-review-decisions.json": "58e4cf9dbb406028c9eccdc7d29ab8f3f60c2ec6f51d0e63edf6b6f17229c24c",
     "data/ward-wikidata-create-preflight-decisions.json": "d21a3a585e5ffeef79b2c38d2451a315098139807775e31fceaf63884dedf5d9",
-    "queries/ward-wikidata-create-preflight.rq": "d18c0f6b2806a3a94e73461bfafc35f415b429981d15b8ad7c487fbf1c36e2f2"
+    "queries/ward-wikidata-create-preflight.rq": "57c155a1f8e84341949171c6feb3fb3b594b5f6d7cc9a1769776b5cf9e379fa9"
   },
   "sources": {
-    "retrieved_at": "2026-09-11T13:59:14Z",
+    "retrieved_at": "2026-09-11T14:21:38Z",
     "qlever": {
       "endpoint": "https://qlever.dev/api/wikidata",
       "query_path": "queries/ward-wikidata-create-preflight.rq",
-      "query_sha256": "d18c0f6b2806a3a94e73461bfafc35f415b429981d15b8ad7c487fbf1c36e2f2",
+      "query_sha256": "57c155a1f8e84341949171c6feb3fb3b594b5f6d7cc9a1769776b5cf9e379fa9",
       "query_meta": {
-        "query-time-ms": 17,
-        "result-size-total": 0
+        "query-time-ms": 121,
+        "result-size-total": 8
       }
     },
     "wikidata_search": {
@@ -38,18 +38,275 @@
     }
   },
   "audit": {
-    "items": 0,
-    "query_terms": 0,
-    "qlever_result_rows": 0,
-    "candidate_entities_verified": 0,
-    "search_requests": 0,
-    "article_pages_clear": 0,
+    "items": 1,
+    "query_terms": 8,
+    "qlever_result_rows": 8,
+    "candidate_entities_verified": 5,
+    "search_requests": 1,
+    "article_pages_clear": 1,
     "article_pages_linked": 0,
     "article_pages_needing_review": 0,
-    "item_status_counts": {},
-    "candidate_disposition_counts": {},
-    "uploadable_items": 0,
+    "item_status_counts": {
+      "clear": 1
+    },
+    "candidate_disposition_counts": {
+      "rejected": 4
+    },
+    "uploadable_items": 1,
     "upload_ready": true
   },
-  "items": []
+  "items": [
+    {
+      "sequence": 1,
+      "local_id": "w-13741-2025-07-01",
+      "name_vi": "Xã Vụ Bản",
+      "parent_code": "37",
+      "parent_name_vi": "Tỉnh Ninh Bình",
+      "status": "clear",
+      "article_check": {
+        "status": "clear",
+        "subject_pages": [
+          {
+            "title": "Vụ Bản (xã)",
+            "page_id": 19934580,
+            "last_revision_id": 75541416,
+            "touched": "2026-09-11T01:55:55Z",
+            "url": "https://vi.wikipedia.org/wiki/V%E1%BB%A5_B%E1%BA%A3n_(x%C3%A3)",
+            "missing": false,
+            "disambiguation": false,
+            "wikibase_item": "",
+            "extract": "Vụ Bản là một xã thuộc tỉnh Ninh Bình, Việt Nam. Đây là một trong 129 xã phường mới ở Ninh Bình được hình thành sau đợt sắp xếp đơn vị hành chính cấp xã năm 2025. Tên gọi xã Vụ Bản kế thừa tên gọi của huyện Vụ Bản, tỉnh Nam Định trước đây.\n\n",
+            "requested_title": "Vụ Bản, Ninh Bình",
+            "title_source": "province-disambiguated"
+          }
+        ],
+        "tested_pages": [
+          {
+            "title": "Vụ Bản (xã)",
+            "page_id": 19934580,
+            "last_revision_id": 75541416,
+            "touched": "2026-09-11T01:55:55Z",
+            "url": "https://vi.wikipedia.org/wiki/V%E1%BB%A5_B%E1%BA%A3n_(x%C3%A3)",
+            "missing": false,
+            "disambiguation": false,
+            "wikibase_item": "",
+            "extract": "Vụ Bản là một xã thuộc tỉnh Ninh Bình, Việt Nam. Đây là một trong 129 xã phường mới ở Ninh Bình được hình thành sau đợt sắp xếp đơn vị hành chính cấp xã năm 2025. Tên gọi xã Vụ Bản kế thừa tên gọi của huyện Vụ Bản, tỉnh Nam Định trước đây.\n\n",
+            "requested_title": "Vụ Bản (xã)",
+            "title_source": "prior-review-title"
+          },
+          {
+            "title": "Bình Giang, Ninh Bình",
+            "page_id": 19934125,
+            "last_revision_id": 75530302,
+            "touched": "2026-09-09T01:43:38Z",
+            "url": "https://vi.wikipedia.org/wiki/B%C3%ACnh_Giang,_Ninh_B%C3%ACnh",
+            "missing": false,
+            "disambiguation": false,
+            "wikibase_item": "Q136688028",
+            "extract": "Bình Giang là một xã thuộc tỉnh Ninh Bình, Việt Nam. Đây là một trong 129 xã phường mới ở Ninh Bình sau sáp nhập đơn vị hành chính cấp xã năm 2025.\n\n",
+            "requested_title": "Vũ Bản",
+            "title_source": "prior-review-title"
+          },
+          {
+            "title": "Vụ Bản (xã)",
+            "page_id": 19934580,
+            "last_revision_id": 75541416,
+            "touched": "2026-09-11T01:55:55Z",
+            "url": "https://vi.wikipedia.org/wiki/V%E1%BB%A5_B%E1%BA%A3n_(x%C3%A3)",
+            "missing": false,
+            "disambiguation": false,
+            "wikibase_item": "",
+            "extract": "Vụ Bản là một xã thuộc tỉnh Ninh Bình, Việt Nam. Đây là một trong 129 xã phường mới ở Ninh Bình được hình thành sau đợt sắp xếp đơn vị hành chính cấp xã năm 2025. Tên gọi xã Vụ Bản kế thừa tên gọi của huyện Vụ Bản, tỉnh Nam Định trước đây.\n\n",
+            "requested_title": "Vụ Bản, Ninh Bình",
+            "title_source": "province-disambiguated"
+          },
+          {
+            "title": "Vụ Bản (định hướng)",
+            "page_id": 1556529,
+            "last_revision_id": 75271404,
+            "touched": "2026-07-05T06:36:14Z",
+            "url": "https://vi.wikipedia.org/wiki/V%E1%BB%A5_B%E1%BA%A3n_(%C4%91%E1%BB%8Bnh_h%C6%B0%E1%BB%9Bng)",
+            "missing": false,
+            "disambiguation": true,
+            "wikibase_item": "Q10834243",
+            "extract": "Vụ Bản có thể là một trong số các địa danh Việt Nam sau đây:\n\nXã Vụ Bản, tỉnh Ninh Bình\nĐịa danh cũ\nHuyện Vụ Bản thuộc tỉnh Nam Định\nThị trấn Vụ Bản (huyện Lạc Sơn, tỉnh Hòa Bình); nay là một phần xã Lạc Sơn, tỉnh Phú Thọ",
+            "requested_title": "Vụ Bản",
+            "title_source": "short-name"
+          }
+        ]
+      },
+      "candidate_checks": [
+        {
+          "qid": "Q7943272",
+          "disposition": "rejected",
+          "reason_codes": [
+            "ended-by-current-reform"
+          ],
+          "exact_name": true,
+          "parent_codes": [
+            "37"
+          ],
+          "labels": {
+            "vi": "Vụ Bản",
+            "en": "Vụ Bản"
+          },
+          "aliases": [
+            "Huyện Vụ Bản",
+            "Vu Ban",
+            "Vụ Bản, Nam Định"
+          ],
+          "p31": [
+            "Q2582669"
+          ],
+          "p131": [
+            "Q36907"
+          ],
+          "p571": [],
+          "p576": [
+            "2025-07-01"
+          ],
+          "p625": [
+            {
+              "latitude": 20.383,
+              "longitude": 106.117,
+              "precision": 0.00027777777777778
+            }
+          ],
+          "sitelinks": {
+            "enwiki": "Vụ Bản district",
+            "viwiki": "Vụ Bản (huyện)"
+          },
+          "last_revision_id": 2519985014,
+          "modified": "2026-07-20T03:05:09Z",
+          "search_evidence": [],
+          "manual_rationale": "",
+          "manual_evidence": {}
+        },
+        {
+          "qid": "Q10833773",
+          "disposition": "rejected",
+          "reason_codes": [
+            "search-name-mismatch"
+          ],
+          "exact_name": false,
+          "parent_codes": [
+            "37"
+          ],
+          "labels": {
+            "vi": "Vũ Bản",
+            "en": "Vũ Bản"
+          },
+          "aliases": [
+            "Vu Ban",
+            "Vũ Bản, Bình Lục",
+            "Xã Vũ Bản"
+          ],
+          "p31": [
+            "Q2389082"
+          ],
+          "p131": [
+            "Q4914337"
+          ],
+          "p571": [],
+          "p576": [],
+          "p625": [
+            {
+              "latitude": 20.4775,
+              "longitude": 106.09166666667,
+              "precision": 0.00027777777777778
+            }
+          ],
+          "sitelinks": {
+            "viwiki": "Vũ Bản"
+          },
+          "last_revision_id": 2516429020,
+          "modified": "2026-07-11T20:59:37Z",
+          "search_evidence": [
+            {
+              "qid": "Q10833773",
+              "label": "Vũ Bản",
+              "description": "Xã tại Việt Nam",
+              "aliases": [
+                "Xã Vũ Bản"
+              ]
+            }
+          ],
+          "manual_rationale": "",
+          "manual_evidence": {}
+        },
+        {
+          "qid": "Q10834243",
+          "disposition": "rejected",
+          "reason_codes": [
+            "not-a-ward-tier-item"
+          ],
+          "exact_name": true,
+          "parent_codes": [],
+          "labels": {
+            "vi": "Vụ Bản (định hướng)",
+            "en": "Vụ Bản"
+          },
+          "aliases": [],
+          "p31": [
+            "Q4167410"
+          ],
+          "p131": [],
+          "p571": [],
+          "p576": [],
+          "p625": [],
+          "sitelinks": {
+            "viwiki": "Vụ Bản (định hướng)"
+          },
+          "last_revision_id": 2542043938,
+          "modified": "2026-09-08T02:42:03Z",
+          "search_evidence": [],
+          "manual_rationale": "",
+          "manual_evidence": {}
+        },
+        {
+          "qid": "Q18461388",
+          "disposition": "rejected",
+          "reason_codes": [
+            "assigned-to-other-current-unit"
+          ],
+          "exact_name": true,
+          "parent_codes": [
+            "25"
+          ],
+          "labels": {
+            "vi": "Vụ Bản",
+            "en": "Vụ Bản"
+          },
+          "aliases": [
+            "Thị Trấn Vụ Bản",
+            "Vu Ban"
+          ],
+          "p31": [
+            "Q1070942"
+          ],
+          "p131": [
+            "Q6467885"
+          ],
+          "p571": [],
+          "p576": [],
+          "p625": [
+            {
+              "latitude": 20.464166666667,
+              "longitude": 105.43666666667,
+              "precision": 0.00027777777777778
+            }
+          ],
+          "sitelinks": {
+            "enwiki": "Lạc Sơn, Phú Thọ",
+            "viwiki": "Lạc Sơn (xã)"
+          },
+          "last_revision_id": 2485272174,
+          "modified": "2026-04-28T04:23:24Z",
+          "search_evidence": [],
+          "manual_rationale": "",
+          "manual_evidence": {}
+        }
+      ]
+    }
+  ]
 }

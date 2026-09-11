@@ -10,18 +10,44 @@
   },
   "input_fingerprints": {
     "data/ward-history.json": "c5d42635f1994be730cd6ebadaba3f0b1b7beb26cf4609114c8a7d7d96e80ba6",
-    "mappings/wards-qid.csv": "cbce29b66bacc127cd8dbc21738250e97a14f4c4f2a71bdddca88dafd6bd7b43",
+    "mappings/wards-qid.csv": "c1e731d37e01e0c3997714964cf3a3396f140accfad815e3018f1def32b32a53",
     "mappings/provinces-qid.csv": "fac70b6899cc23c1e9514d025b14b45fc807f80a9cbf542731cef6341b72d828",
     "data/ward-legal-sources.json": "cf616087017ce369d504ce34a2274d4f5a5ff0ba56139cdb968051ee3e5c84a7",
-    "data/ward-wikidata-review-decisions.json": "7f24f6a05bdc9cd946d2a292e3c163f29741c4d26e128547e5f6778ac0a933df"
+    "data/ward-wikidata-review-decisions.json": "58e4cf9dbb406028c9eccdc7d29ab8f3f60c2ec6f51d0e63edf6b6f17229c24c"
   },
   "audit": {
-    "items": 0,
-    "statement_files": 0,
-    "review_groups": 0,
-    "type_counts": {},
-    "province_count": 0,
-    "official_reference_urls": 0
+    "items": 1,
+    "statement_files": 1,
+    "review_groups": 1,
+    "type_counts": {
+      "Xã": 1
+    },
+    "province_count": 1,
+    "official_reference_urls": 1
   },
-  "items": []
+  "items": [
+    {
+      "sequence": 1,
+      "review_group": 1,
+      "local_id": "w-13741-2025-07-01",
+      "gso_code": "13741",
+      "name_vi": "Xã Vụ Bản",
+      "description_vi": "xã thuộc tỉnh Ninh Bình, Việt Nam, thành lập năm 2025",
+      "loai_hinh": "Xã",
+      "type_qid": "Q2389082",
+      "country_qid": "Q881",
+      "parent_code": "37",
+      "parent_name_vi": "Tỉnh Ninh Bình",
+      "parent_qid": "Q36900",
+      "valid_from": "2025-07-01",
+      "creating_instrument_id": "1674/NQ-UBTVQH15@2025-07-01",
+      "reference_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf",
+      "candidate_qids_checked": [
+        "Q10833773",
+        "Q18461388"
+      ],
+      "review_note": "current Vụ Bản commune remains unresolved for creation; release the unrelated former Bình Lục commune Q10833773",
+      "review_rationale": "The current `Vụ Bản (xã)` article documents its June 2025 formation from Gôi, Kim Thái, and Tam Thanh and reports no connected Wikidata item. Q10833773 instead has the Vũ Bản name and alias, former Bình Lục district parent, historical coordinates, GeoNames 8564019, and the old `Vũ Bản` article."
+    }
+  ]
 }

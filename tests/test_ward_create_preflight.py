@@ -140,7 +140,10 @@ def test_committed_preflight_artifacts_match_current_manifest_when_present():
 
     assert PREFLIGHT_DECISIONS.is_file()
     assert report_issues(report, manifest) == []
-    assert report["audit"]["items"] == 0
+    assert report["audit"]["items"] == 1
+    assert [row["local_id"] for row in report["items"]] == [
+        "w-13741-2025-07-01",
+    ]
 
 
 def test_report_age_check_is_explicit_not_implicit(monkeypatch, tmp_path):
