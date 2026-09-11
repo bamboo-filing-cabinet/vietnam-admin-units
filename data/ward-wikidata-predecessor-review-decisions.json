@@ -1391,6 +1391,22 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-11T14:39:51Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, redirects, and revision history", "retrieved_at": "2026-09-11T14:39:51Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-11.64",
+      "selection": {"method": "frozen exhaustive review queue batch", "seed": "2026-09-10-predecessor-gap-exhaustive-review-v70", "population": 3043, "eligible_population": 1394, "sample_size": 50, "sample_numbers": [26], "related_current_corrections": ["w-32227-2025-07-01"]},
+      "reviewed_at": "2026-09-11T14:58:40Z",
+      "decisions": [
+        {"local_id": "w-8230925-base", "name_vi": "Xã Nguyễn Việt Khái", "outcome": "assign", "wikidata_qid": "Q7023126", "candidate_qids_checked": ["Q5202330", "Q7023126", "Q136675926"], "mapping_note": "Q7023126 retains the former Phú Tân district parent, commune class, historical coordinates, and GeoNames 9643241; Q136675926 owns the distinct current Nguyễn Việt Khái article, while the old commune merged into Cái Đôi Vàm"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v70.json", "role": "saved eighteenth exhaustive-batch live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames record used to validate the historical Nguyễn Việt Khái identity"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced composition distinguishing current Nguyễn Việt Khái from the old namesake incorporated into Cái Đôi Vàm"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-11T14:58:40Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and disambiguation article", "retrieved_at": "2026-09-11T14:58:40Z"}
+      ]
     }
   ]
 }

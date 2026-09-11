@@ -7,33 +7,33 @@
     "wikidata_write_performed": false
   },
   "input_fingerprints": {
-    "manifest_content_sha256": "c1de56b430aafb2e08fecb6aa742f88f2d00a962bffb38319848b442916f6846",
-    "data/ward-wikidata-predecessor-unresolved-candidates.json": "bf7381bf187c8cce6a84d4734a58ede3a78e19abdf725d5178f0a3b0eefe41aa",
-    "data/ward-wikidata-predecessor-article-candidates.json": "c3755be46493e2f5c20005f5d678c5421c0487be039e593d2d00c77502a9f0b7",
-    "data/ward-wikidata-predecessor-context-candidates.json": "53cbe93217a63bdf88def22ca4f9fd270a92e88007cc66e5aab1dcb354408924",
-    "data/ward-wikidata-predecessor-geonames-candidates.json": "f23f9a5eeac67eb9c5b6097233ac01e0d41affbc84e504239dc75e867a60b556",
-    "data/ward-wikidata-predecessor-gap-review-progress.json": "00f49f7143ac3318a18ff4d3e6b6b2b4734cac9ae275093425950f1267961bb8"
+    "manifest_content_sha256": "c395f83d64ffa00981cbf75357e1e1a30a20c3cd418f10bb56b2abbd7774d3c9",
+    "data/ward-wikidata-predecessor-unresolved-candidates.json": "c432141e02b239d982f5e5f7a52fc53b70e8282e72f71fa267b2be074e8dd46c",
+    "data/ward-wikidata-predecessor-article-candidates.json": "5432416246b3590320ebe0dfa53a0aec338f5c5de7d486826f9f48299e7bd9fd",
+    "data/ward-wikidata-predecessor-context-candidates.json": "18fa72e671a22a58f3b7c2bec3112cb3f5a23a22c718e0e6b0099fd6ebbfd8cf",
+    "data/ward-wikidata-predecessor-geonames-candidates.json": "eb8de5dd842584d3579ec5174c01dc1eb5a0c1b3b53fac1e22042f7626ba8543",
+    "data/ward-wikidata-predecessor-gap-review-progress.json": "f98874109f1b612a8806dcd9254bdd938271e0ad731095afc9825631ad5cd2c2"
   },
   "evidence": {
-    "qlever_retrieved_at": "2026-09-11T14:43:32Z",
-    "action_api_retrieved_at": "2026-09-11T14:43:32Z",
+    "qlever_retrieved_at": "2026-09-11T15:02:49Z",
+    "action_api_retrieved_at": "2026-09-11T15:02:49Z",
     "age_hours_at_check": null,
     "max_age_hours": null
   },
   "audit": {
-    "items": 2962,
-    "clear_items": 2962,
+    "items": 2961,
+    "clear_items": 2961,
     "needs_review_items": 0,
     "fresh": true,
-    "reviewed_queue_rows": 850,
-    "pending_queue_rows": 544,
-    "unreviewed_current_rows": 544,
+    "reviewed_queue_rows": 900,
+    "pending_queue_rows": 494,
+    "unreviewed_current_rows": 494,
     "review_complete": false,
     "review_creation_authorized": false,
     "upload_ready": false
   },
   "issues": [
-    "EXHAUSTIVE-REVIEW-INCOMPLETE 544/1394 queue rows pending; 544 current rows unreviewed"
+    "EXHAUSTIVE-REVIEW-INCOMPLETE 494/1394 queue rows pending; 494 current rows unreviewed"
   ],
   "items": [
     {
@@ -20752,13 +20752,6 @@
     {
       "local_id": "w-8230917-base",
       "name_vi": "Xã Phú Tân",
-      "parent_qid": "Q1001803",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-8230925-base",
-      "name_vi": "Xã Nguyễn Việt Khái",
       "parent_qid": "Q1001803",
       "classification": "no-broad-district-candidate",
       "status": "clear"

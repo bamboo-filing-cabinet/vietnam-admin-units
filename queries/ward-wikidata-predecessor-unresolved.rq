@@ -1558,7 +1558,6 @@ WHERE {
     "Nguyen Trai"@en
     "Nguyen Uy"@en
     "Nguyen Van Linh"@en
-    "Nguyen Viet Khai"@en
     "Nguyet Duc"@en
     "Nguyet Hoa"@en
     "Nha Be"@en
@@ -5445,7 +5444,6 @@ WHERE {
     "Nguyen Trai"@vi
     "Nguyen Uy"@vi
     "Nguyen Van Linh"@vi
-    "Nguyen Viet Khai"@vi
     "Nguyet Duc"@vi
     "Nguyet Hoa"@vi
     "Nguyên Bình"@vi
@@ -5456,7 +5454,6 @@ WHERE {
     "Nguyễn Nghiêm"@vi
     "Nguyễn Phích"@vi
     "Nguyễn Trãi"@vi
-    "Nguyễn Việt Khái"@vi
     "Nguyễn Văn Linh"@vi
     "Nguyễn Úy"@vi
     "Nguyệt Hóa"@vi
@@ -9606,7 +9603,6 @@ WHERE {
     "Xã Nguyễn Huệ"@vi
     "Xã Nguyễn Phích"@vi
     "Xã Nguyễn Trãi"@vi
-    "Xã Nguyễn Việt Khái"@vi
     "Xã Nguyễn Văn Linh"@vi
     "Xã Nguyễn Úy"@vi
     "Xã Nguyệt Hóa"@vi
@@ -12578,7 +12574,6 @@ WHERE {
     "Nguyen Trai"@en
     "Nguyen Uy"@en
     "Nguyen Van Linh"@en
-    "Nguyen Viet Khai"@en
     "Nguyet Duc"@en
     "Nguyet Hoa"@en
     "Nha Be"@en
@@ -16465,7 +16460,6 @@ WHERE {
     "Nguyen Trai"@vi
     "Nguyen Uy"@vi
     "Nguyen Van Linh"@vi
-    "Nguyen Viet Khai"@vi
     "Nguyet Duc"@vi
     "Nguyet Hoa"@vi
     "Nguyên Bình"@vi
@@ -16476,7 +16470,6 @@ WHERE {
     "Nguyễn Nghiêm"@vi
     "Nguyễn Phích"@vi
     "Nguyễn Trãi"@vi
-    "Nguyễn Việt Khái"@vi
     "Nguyễn Văn Linh"@vi
     "Nguyễn Úy"@vi
     "Nguyệt Hóa"@vi
@@ -20626,7 +20619,6 @@ WHERE {
     "Xã Nguyễn Huệ"@vi
     "Xã Nguyễn Phích"@vi
     "Xã Nguyễn Trãi"@vi
-    "Xã Nguyễn Việt Khái"@vi
     "Xã Nguyễn Văn Linh"@vi
     "Xã Nguyễn Úy"@vi
     "Xã Nguyệt Hóa"@vi

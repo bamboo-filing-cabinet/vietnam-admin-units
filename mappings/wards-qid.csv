@@ -8893,7 +8893,7 @@ w-32214-2004-11-23,32214,Xã Phú Thuận,Xã,972,2004-11-23,2025-06-30,Q7189882
 w-32214-2025-07-01,32214,Xã Phú Mỹ,Xã,96,2025-07-01,,Q10806022,existing,matched,Q2332949|Q7189880|Q10806017|Q10806018|Q10806020|Q10806021|Q10806022|Q10806024|Q10806025|Q18460229|Q32292875|Q32293706,qlever-label+current-province+batched-wbgetentities
 w-32218-2025-07-01,32218,Xã Phú Tân,Xã,96,2025-07-01,,Q7189885,existing,matched,Q2392572|Q2472332|Q2547770|Q7189885|Q10806146|Q10806150,qlever-label+current-province+batched-wbgetentities
 w-32221-2004-06-30,32221,Xã Tân Hải,Xã,972,2004-06-30,2025-06-30,Q7862074,existing,verified,Q7862074,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-32227-2025-07-01,32227,Xã Nguyễn Việt Khái,Xã,96,2025-07-01,,Q7023126,existing,matched,Q7023126,qlever-label+current-province+batched-wbgetentities
+w-32227-2025-07-01,32227,Xã Nguyễn Việt Khái,Xã,96,2025-07-01,,Q136675926,existing,manual,Q7023126|Q136675926,review 2026-09-11.121: current Nguyễn Việt Khái commune selects Q136675926; release Q7023126 to the pre-2025 Phú Tân commune that merged into Cái Đôi Vàm
 w-32228-2004-11-23,32228,Xã Rạch Chèo,Xã,972,2004-11-23,2025-06-30,Q10812057,existing,verified,Q10812057,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-32236-2025-07-01,32236,Xã Tân Ân,Xã,96,2025-07-01,,Q136675874,existing,matched,Q1862735|Q2126866|Q2390731|Q2396841|Q2646896|Q10733192|Q10830334|Q10830335|Q10830336|Q10830338|Q10830339|Q10830342|Q10830343|Q10830345|Q10830346|Q10830347|Q10830350|Q10830991|Q136675874,qlever-label+current-province+batched-wbgetentities
 w-32244-2009-06-05,32244,Thị trấn Rạch Gốc,Thị trấn,973,2009-06-05,2025-06-30,Q7386974,existing,verified,Q7386974,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -14516,7 +14516,7 @@ w-8230919-base,32146,Xã Tân Hưng Đông,Xã,969,,2025-06-30,Q7862070,existing
 w-8230921-base,32227,Xã Tân Hưng Tây,Xã,972,,2025-06-30,Q7862068,existing,verified,Q7862068,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8230923-base,32149,Xã Trần Thới,Xã,969,,2025-06-30,Q7849252,existing,verified,Q7849252,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8230924-base,32224,Xã Việt Thắng,Xã,972,,2025-06-30,Q10832898,existing,verified,Q10832898,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-8230925-base,32230,Xã Nguyễn Việt Khái,Xã,972,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8230925-base,32230,Xã Nguyễn Việt Khái,Xã,972,,2025-06-30,Q7023126,existing,manual,Q5202330|Q7023126|Q136675926,"predecessor review 2026-09-11.64: Q7023126 retains the former Phú Tân district parent, commune class, historical coordinates, and GeoNames 9643241; Q136675926 owns the distinct current Nguyễn Việt Khái article, while the old commune merged into Cái Đôi Vàm"
 w-8231101-base,32152,Thị trấn Đầm Dơi,Thị trấn,970,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
 w-8231103-base,32167,Xã Tân Thuận,Xã,970,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
 w-8231105-base,32164,Xã Tân Đức,Xã,970,,2025-06-30,Q7862109,existing,verified,Q7862109,predecessor qualified-label+terminal-district+ward-class+batched-wbgetentities

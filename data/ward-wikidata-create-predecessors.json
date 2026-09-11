@@ -12,29 +12,29 @@
   "input_fingerprints": {
     "data/ward-history.json": "c5d42635f1994be730cd6ebadaba3f0b1b7beb26cf4609114c8a7d7d96e80ba6",
     "mappings/districts-qid.csv": "11bf60f5a1d9ff7c9e384e62589c8a3091651d4910b87c736dc986f80401c021",
-    "data/ward-wikidata-predecessor-candidates.json": "6f70fce9decca19243d8dcb667947eafb4c1e679e3eb80100b596317596d9254",
-    "data/ward-wikidata-predecessor-unresolved-candidates.json": "bf7381bf187c8cce6a84d4734a58ede3a78e19abdf725d5178f0a3b0eefe41aa",
-    "data/ward-wikidata-predecessor-article-candidates.json": "c3755be46493e2f5c20005f5d678c5421c0487be039e593d2d00c77502a9f0b7",
-    "data/ward-wikidata-predecessor-context-candidates.json": "53cbe93217a63bdf88def22ca4f9fd270a92e88007cc66e5aab1dcb354408924",
-    "data/ward-wikidata-predecessor-geonames-candidates.json": "f23f9a5eeac67eb9c5b6097233ac01e0d41affbc84e504239dc75e867a60b556",
-    "data/ward-wikidata-predecessor-review-decisions.json": "8105d5dc93edc49b029115bbe9ac267e439372a10100489751741ff55060da2d",
-    "data/ward-wikidata-predecessor-gap-review-progress.json": "00f49f7143ac3318a18ff4d3e6b6b2b4734cac9ae275093425950f1267961bb8",
-    "mappings/wards-qid.csv#qid-assignments": "26c6debde7192bf094cb44ee0152a6e82176641af5060c0e530ea02f04f39891"
+    "data/ward-wikidata-predecessor-candidates.json": "3d6605ea18bc8ddc1e31500660416c8873f82785372fa5f6ae35f666404e5d1e",
+    "data/ward-wikidata-predecessor-unresolved-candidates.json": "c432141e02b239d982f5e5f7a52fc53b70e8282e72f71fa267b2be074e8dd46c",
+    "data/ward-wikidata-predecessor-article-candidates.json": "5432416246b3590320ebe0dfa53a0aec338f5c5de7d486826f9f48299e7bd9fd",
+    "data/ward-wikidata-predecessor-context-candidates.json": "18fa72e671a22a58f3b7c2bec3112cb3f5a23a22c718e0e6b0099fd6ebbfd8cf",
+    "data/ward-wikidata-predecessor-geonames-candidates.json": "eb8de5dd842584d3579ec5174c01dc1eb5a0c1b3b53fac1e22042f7626ba8543",
+    "data/ward-wikidata-predecessor-review-decisions.json": "bb808aaddba2eb5e741778cb82fd09d7746463781c1e44b55514645200424e63",
+    "data/ward-wikidata-predecessor-gap-review-progress.json": "f98874109f1b612a8806dcd9254bdd938271e0ad731095afc9825631ad5cd2c2",
+    "mappings/wards-qid.csv#qid-assignments": "738960f384553251579105a781e27087fb72fad4f70b466dcaf43a787a68fce3"
   },
   "audit": {
-    "items": 2962,
+    "items": 2961,
     "statement_files": 1,
     "review_groups": 297,
     "type_counts": {
       "Phường": 465,
       "Thị trấn": 371,
-      "Xã": 2126
+      "Xã": 2125
     },
     "district_count": 656,
     "official_reference_urls": 34,
-    "rows_excluding_assigned_qid": 2718,
+    "rows_excluding_assigned_qid": 2717,
     "primary_classification_counts": {
-      "current-item-repurposed": 1214,
+      "current-item-repurposed": 1213,
       "no-district-candidate": 1498,
       "no-name-candidate": 225,
       "qid-collision": 23,
@@ -43,24 +43,24 @@
     "broad_classification_counts": {
       "assigned-item-only": 818,
       "no-broad-candidate": 177,
-      "no-broad-district-candidate": 1941,
+      "no-broad-district-candidate": 1940,
       "qid-collision-preferred-exact-tier-other-row": 11,
       "verification-rejected": 15
     },
     "article_classification_counts": {
-      "no-exact-tier-name-candidate": 2305,
+      "no-exact-tier-name-candidate": 2304,
       "no-geographic-or-uniqueness-support": 45,
       "no-matching-viwiki-article": 598,
       "same-name-successor-risk": 14
     },
     "context_classification_counts": {
-      "no-exact-vietnamese-name-candidate": 2418,
+      "no-exact-vietnamese-name-candidate": 2417,
       "no-parent-or-successor-context": 540,
       "same-name-successor-risk": 4
     },
     "geonames_classification_counts": {
       "no-exact-geonames-gso-code": 472,
-      "no-exact-name-tier-candidate": 2490
+      "no-exact-name-tier-candidate": 2489
     }
   },
   "items": [
@@ -37876,6 +37876,7 @@
         "Q10824717",
         "Q10824720",
         "Q10824723",
+        "Q10824724",
         "Q10824785",
         "Q10826241",
         "Q18415883",
@@ -37894,6 +37895,7 @@
         "Q10824717",
         "Q10824720",
         "Q10824723",
+        "Q10824724",
         "Q10826241"
       ]
     },
@@ -82002,6 +82004,7 @@
         "Q10824717",
         "Q10824720",
         "Q10824723",
+        "Q10824724",
         "Q10824785",
         "Q10826241",
         "Q117068754"
@@ -82018,6 +82021,7 @@
         "Q10824717",
         "Q10824720",
         "Q10824723",
+        "Q10824724",
         "Q10826241"
       ]
     },
@@ -111240,6 +111244,7 @@
         "Q10824717",
         "Q10824720",
         "Q10824723",
+        "Q10824724",
         "Q10824785",
         "Q10826241",
         "Q18415883",
@@ -111258,6 +111263,7 @@
         "Q10824717",
         "Q10824720",
         "Q10824723",
+        "Q10824724",
         "Q10826241"
       ]
     },
@@ -115081,6 +115087,7 @@
         "Q10824717",
         "Q10824720",
         "Q10824723",
+        "Q10824724",
         "Q10824785",
         "Q10826241",
         "Q117068754"
@@ -115097,6 +115104,7 @@
         "Q10824717",
         "Q10824720",
         "Q10824723",
+        "Q10824724",
         "Q10826241"
       ]
     },
@@ -125604,40 +125612,6 @@
     },
     {
       "sequence": 2961,
-      "review_group": 297,
-      "local_id": "w-8230925-base",
-      "gso_code": "32230",
-      "name_vi": "Xã Nguyễn Việt Khái",
-      "description_vi": "xã cũ thuộc huyện Phú Tân, Việt Nam, giải thể năm 2025",
-      "loai_hinh": "Xã",
-      "type_qid": "Q2389082",
-      "country_qid": "Q881",
-      "parent_code": "972",
-      "parent_name_vi": "Huyện Phú Tân",
-      "parent_qid": "Q1001803",
-      "parent_mapping_local_id": "d-972-base",
-      "valid_from": null,
-      "valid_to": "2025-06-30",
-      "successor_qids": [
-        "Q5202330"
-      ],
-      "reference_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf",
-      "primary_classification": "current-item-repurposed",
-      "broad_classification": "no-broad-district-candidate",
-      "article_classification": "no-exact-tier-name-candidate",
-      "context_classification": "no-exact-vietnamese-name-candidate",
-      "geonames_classification": "no-exact-name-tier-candidate",
-      "candidate_qids_checked": [
-        "Q7023126",
-        "Q30608278",
-        "Q136675926"
-      ],
-      "current_or_assigned_qids_excluded": [
-        "Q7023126"
-      ]
-    },
-    {
-      "sequence": 2962,
       "review_group": 297,
       "local_id": "w-8231319-base",
       "gso_code": "32248",

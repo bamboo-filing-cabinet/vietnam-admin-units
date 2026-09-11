@@ -7386,6 +7386,21 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v69.json", "role": "saved seventeenth exhaustive-batch live search and entity evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-11.121",
+      "decisions": [
+        {"candidate_qids_checked": ["Q7023126", "Q136675926"], "local_id": "w-32227-2025-07-01", "mapping_note": "current Nguyễn Việt Khái commune selects Q136675926; release Q7023126 to the pre-2025 Phú Tân commune that merged into Cái Đôi Vàm", "outcome": "assign", "rationale": "Q136675926 owns the current `Nguyễn Việt Khái (xã)` article. Q7023126 instead retains the former Phú Tân district parent, historical coordinates, GeoNames 9643241, and the pre-2025 commune description; the disambiguation article explicitly places that old commune in current Cái Đôi Vàm.", "wikidata_qid": "Q136675926"}
+      ],
+      "reviewed_at": "2026-09-11T14:58:40Z",
+      "selection": {"input_status": "exhaustive-predecessor-gap-review-v70", "sample_numbers": [26]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-11T14:58:40Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and disambiguation article", "retrieved_at": "2026-09-11T14:58:40Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced composition distinguishing current Nguyễn Việt Khái from the old namesake incorporated into Cái Đôi Vàm"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v70.json", "role": "saved eighteenth exhaustive-batch live search and entity evidence"}
+      ]
     }
   ],
   "schema_version": 1,
