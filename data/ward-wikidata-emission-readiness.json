@@ -7,7 +7,7 @@
   },
   "input_fingerprints": {
     "data/ward-history.json": "c5d42635f1994be730cd6ebadaba3f0b1b7beb26cf4609114c8a7d7d96e80ba6",
-    "mappings/wards-qid.csv": "7f12b805f361fb009e7be8921da1dc0f5bdc04106a63403f01de5bd186eff8aa"
+    "mappings/wards-qid.csv": "0dcc53ecb38386322d5086e715f3f77f9282228ff10f21860514dc743fcf8084"
   },
   "audit": {
     "entities": 14544,
@@ -15,13 +15,13 @@
     "current_qids": 3320,
     "current_item_creation_gaps": 1,
     "historical_entities": 11223,
-    "historical_qids": 7074,
+    "historical_qids": 7075,
     "reform_edges": 10586,
     "distinct_reform_predecessors": 10035,
-    "reconciled_reform_predecessors": 7074,
+    "reconciled_reform_predecessors": 7075,
     "distinct_reform_successors": 3316,
     "reconciled_reform_successors": 3315,
-    "reform_edges_with_both_qids": 7467,
+    "reform_edges_with_both_qids": 7468,
     "reform_edges_with_official_reference": 10586
   },
   "gates": {
@@ -39,13 +39,13 @@
     },
     {
       "gate": "historical_predecessor_qids",
-      "missing": 2961,
+      "missing": 2960,
       "resolution": "reconcile the immediate pre-2025 predecessor set before lineage emission"
     }
   ],
   "current_creation_preflight": {
     "report_path": "data/ward-wikidata-create-preflight.json",
-    "retrieved_at": "2026-09-11T15:03:57Z",
+    "retrieved_at": "2026-09-11T15:46:20Z",
     "items": 1,
     "clear_items": 1,
     "duplicate_items": 0,

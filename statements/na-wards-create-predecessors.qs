@@ -7841,12 +7841,6 @@ LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 LAST	P131	Q8052193	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
-LAST	Lvi	"Phường Đông Sơn"
-LAST	Dvi	"phường cũ thuộc thành phố Thanh Hóa, Việt Nam, giải thể năm 2025"
-LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1686-nq.signed.pdf"
-LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1686-nq.signed.pdf"
-LAST	P131	Q36175	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1686-nq.signed.pdf"
-CREATE
 LAST	Lvi	"Xã Quang Trung"
 LAST	Dvi	"xã cũ thuộc thị xã Bỉm Sơn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1686-nq.signed.pdf"

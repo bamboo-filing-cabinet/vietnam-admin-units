@@ -1407,6 +1407,21 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-11T14:58:40Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and disambiguation article", "retrieved_at": "2026-09-11T14:58:40Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-11.65",
+      "selection": {"method": "frozen exhaustive review queue batch", "seed": "2026-09-10-predecessor-gap-exhaustive-review-v71", "population": 3043, "eligible_population": 1394, "sample_size": 50, "sample_numbers": [44], "related_current_corrections": ["w-16378-2025-07-01"]},
+      "reviewed_at": "2026-09-11T15:43:45Z",
+      "decisions": [
+        {"local_id": "w-4010107-base", "name_vi": "Phường Đông Sơn", "outcome": "assign", "wikidata_qid": "Q10840838", "candidate_qids_checked": ["Q5295770", "Q10840838", "Q135106865", "Q135107842"], "mapping_note": "Q10840838 retains the former Thanh Hóa city parent, historical coordinates, and GeoNames 8549710; Q135107842 owns the distinct current article, which explicitly excludes the old city ward and places that former ward in Hạc Thành"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v71.json", "role": "saved nineteenth exhaustive-batch live search and entity evidence"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced composition distinguishing the current Đông Sơn ward from the old city ward incorporated into Hạc Thành"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-11T15:43:45Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "pageprops, extracts, and revision history", "retrieved_at": "2026-09-11T15:43:45Z"}
+      ]
     }
   ]
 }
