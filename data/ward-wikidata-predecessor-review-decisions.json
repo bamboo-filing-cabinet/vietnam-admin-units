@@ -1563,6 +1563,29 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-11T17:35:07Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and revision content", "retrieved_at": "2026-09-11T17:35:07Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-11.73",
+      "selection": {"method": "frozen exhaustive review queue batch", "seed": "2026-09-10-predecessor-gap-exhaustive-review-v79", "population": 3043, "eligible_population": 1394, "sample_size": 50, "sample_numbers": [1, 11, 13, 29, 35, 37, 41, 46], "related_current_corrections": ["w-03166-2025-07-01", "w-08341-2025-07-01", "w-15124-2025-07-01", "w-15421-2025-07-01", "w-16234-2025-07-01"]},
+      "reviewed_at": "2026-09-11T17:41:17Z",
+      "decisions": [
+        {"local_id": "w-6032303-base", "name_vi": "Xã Ia RSai", "outcome": "assign", "wikidata_qid": "Q32276780", "candidate_qids_checked": ["Q32276780"], "mapping_note": "Q32276780 carries GeoNames 8701231, the only Xã Ia Rsai record in Gia Lai, with Krông Pa coordinates"},
+        {"local_id": "w-4012145-base", "name_vi": "Xã Minh Sơn", "outcome": "assign", "wikidata_qid": "Q10793950", "candidate_qids_checked": ["Q10793950", "Q135207598"], "mapping_note": "Q10793950 retains the former Ngọc Lặc parent, historical coordinates, and GeoNames 8549925; Q135207598 owns the current Minh Sơn article for the unit formed from Lam Sơn, Cao Ngọc, Minh Tiến and Minh Sơn"},
+        {"local_id": "w-4012727-base", "name_vi": "Xã Xuân Du", "outcome": "assign", "wikidata_qid": "Q10834901", "candidate_qids_checked": ["Q10834901", "Q135224985"], "mapping_note": "Q10834901 retains the former Như Thanh parent, historical coordinates, and GeoNames 8549997; Q135224985 owns the current Xuân Du article for the unit formed from Cán Khê, Xuân Du and Phượng Nghi"},
+        {"local_id": "w-3011101-base", "name_vi": "Thị trấn Mường Chà", "outcome": "assign", "wikidata_qid": "Q6951150", "candidate_qids_checked": ["Q6951150", "Q137392443"], "mapping_note": "Q6951150 retains the township class, the former Mường Chà district parent, and GeoNames 8425633; the current Xã Mường Chà was formed from Nậm Tin, Pa Tần, Chà Cang and Chà Nưa and owns Q137392443"},
+        {"local_id": "w-4013519-base", "name_vi": "Xã Yên Trường", "outcome": "assign", "wikidata_qid": "Q10838197", "candidate_qids_checked": ["Q10838197", "Q135163470"], "mapping_note": "Q10838197 retains the former Yên Định parent, historical coordinates, and GeoNames 8550320; Q135163470 owns the current Yên Trường article documenting the 2025 merger of Yên Trung, Yên Phong, Yên Thái and Yên Trường"},
+        {"local_id": "w-8010909-base", "name_vi": "Xã Nhơn Hòa Lập", "outcome": "assign", "wikidata_qid": "Q32290090", "candidate_qids_checked": ["Q32290090"], "mapping_note": "Q32290090 carries GeoNames 9101383 for Xã Nhơn Hoà Lập in Long An with Tân Thạnh coordinates"},
+        {"local_id": "w-7130935-base", "name_vi": "Xã Đông Hoà", "outcome": "assign", "wikidata_qid": "Q2508587", "candidate_qids_checked": ["Q2508587"], "mapping_note": "Q2508587 is described as the Trảng Bom commune and carries GeoNames 9075755 for Xã Đông Hòa in Đồng Nai with matching coordinates; it is the only Đông Hoà in Trảng Bom"},
+        {"local_id": "w-2171301-base", "name_vi": "Thị trấn Cẩm Khê", "outcome": "assign", "wikidata_qid": "Q16480394", "candidate_qids_checked": ["Q16480394", "Q138864507"], "mapping_note": "Q16480394 retains the township class, the former Cẩm Khê district parent, and GeoNames 8200214; Q138864507 owns the current Cẩm Khê commune article for the unit formed from the township, Minh Tân and Phong Thịnh"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v79.json", "role": "saved twenty-seventh exhaustive-batch live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate the Ia RSai, Nhơn Hòa Lập and Đông Hoà identities"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced composition distinguishing current successors from their historical components"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-11T17:41:17Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and revision content", "retrieved_at": "2026-09-11T17:41:17Z"}
+      ]
     }
   ]
 }

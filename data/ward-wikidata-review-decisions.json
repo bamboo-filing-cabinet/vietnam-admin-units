@@ -7535,6 +7535,25 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v78.json", "role": "saved twenty-sixth exhaustive-batch live search and entity evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-11.130",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10793950", "Q135207598"], "local_id": "w-15124-2025-07-01", "mapping_note": "current Minh Sơn commune selects Q135207598; release Q10793950 to the pre-2025 Ngọc Lặc commune", "outcome": "assign", "rationale": "Q135207598 owns the current `Minh Sơn, Thanh Hóa` article for the unit formed from Lam Sơn, Cao Ngọc, Minh Tiến and Minh Sơn. Q10793950 instead retains the former Ngọc Lặc parent, historical coordinates, and GeoNames 8549925.", "wikidata_qid": "Q135207598"},
+        {"candidate_qids_checked": ["Q10834901", "Q135224985"], "local_id": "w-16234-2025-07-01", "mapping_note": "current Xuân Du commune selects Q135224985; release Q10834901 to the pre-2025 Như Thanh commune", "outcome": "assign", "rationale": "Q135224985 owns the current `Xuân Du` article for the unit formed from Cán Khê, Xuân Du and Phượng Nghi. Q10834901 instead retains the former Như Thanh parent, historical coordinates, and GeoNames 8549997.", "wikidata_qid": "Q135224985"},
+        {"candidate_qids_checked": ["Q6951150", "Q137392443"], "local_id": "w-03166-2025-07-01", "mapping_note": "current Mường Chà commune selects Q137392443; release Q6951150 to the former Mường Chà township", "outcome": "assign", "rationale": "The official composition shows the current Xã Mường Chà was formed from Nậm Tin, Pa Tần, Chà Cang and Chà Nưa, none of which is the former township; Q137392443 owns the current `Mường Chà (xã)` article. Q6951150 instead retains the township class, the former Mường Chà district parent, and GeoNames 8425633.", "wikidata_qid": "Q137392443"},
+        {"candidate_qids_checked": ["Q10838197", "Q135163470"], "local_id": "w-15421-2025-07-01", "mapping_note": "current Yên Trường commune selects Q135163470; release Q10838197 to the pre-2025 Yên Định commune", "outcome": "assign", "rationale": "Q135163470 owns the current `Yên Trường` article, which records its 16 June 2025 formation from Yên Trung, Yên Phong, Yên Thái and Yên Trường. Q10838197 instead retains the former Yên Định parent, historical coordinates, and GeoNames 8550320.", "wikidata_qid": "Q135163470"},
+        {"candidate_qids_checked": ["Q16480394", "Q138864507"], "local_id": "w-08341-2025-07-01", "mapping_note": "current Cẩm Khê commune selects Q138864507; release Q16480394 to the former Cẩm Khê township", "outcome": "assign", "rationale": "Q138864507 owns the current `Cẩm Khê (xã)` article for the unit formed from the township, Minh Tân and Phong Thịnh. Q16480394 instead retains the township class, the former Cẩm Khê district parent, and GeoNames 8200214.", "wikidata_qid": "Q138864507"}
+      ],
+      "reviewed_at": "2026-09-11T17:41:17Z",
+      "selection": {"input_status": "exhaustive-predecessor-gap-review-v79", "sample_numbers": [11, 13, 29, 35, 46]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-11T17:41:17Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and revision content", "retrieved_at": "2026-09-11T17:41:17Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced composition distinguishing the current merged units from their historical components"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v79.json", "role": "saved twenty-seventh exhaustive-batch live search and entity evidence"}
+      ]
     }
   ],
   "schema_version": 1,

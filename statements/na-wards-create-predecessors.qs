@@ -1847,12 +1847,6 @@ LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1661
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1661-nq.signed.pdf"
 LAST	P131	Q10802179	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1661-nq.signed.pdf"
 CREATE
-LAST	Lvi	"Thị trấn Mường Chà"
-LAST	Dvi	"thị trấn cũ thuộc huyện Mường Chà, Việt Nam, giải thể năm 2025"
-LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1661-nq.signed.pdf"
-LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1661-nq.signed.pdf"
-LAST	P131	Q6813031	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1661-nq.signed.pdf"
-CREATE
 LAST	Lvi	"Xã Chà Tở"
 LAST	Dvi	"xã cũ thuộc huyện Nậm Pồ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1661-nq.signed.pdf"
@@ -4834,12 +4828,6 @@ LAST	Dvi	"xã cũ thuộc huyện Yên Lập, Việt Nam, giải thể năm 2025
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 LAST	P131	Q8052187	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
-CREATE
-LAST	Lvi	"Thị trấn Cẩm Khê"
-LAST	Dvi	"thị trấn cũ thuộc huyện Cẩm Khê, Việt Nam, giải thể năm 2025"
-LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
-LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
-LAST	P131	Q5024839	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Lvi	"Xã Tiên Lương"
 LAST	Dvi	"xã cũ thuộc huyện Cẩm Khê, Việt Nam, giải thể năm 2025"
@@ -7877,18 +7865,6 @@ LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1686
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1686-nq.signed.pdf"
 LAST	P131	Q7022471	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1686-nq.signed.pdf"
 CREATE
-LAST	Lvi	"Xã Minh Sơn"
-LAST	Dvi	"xã cũ thuộc huyện Ngọc Lặc, Việt Nam, giải thể năm 2025"
-LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1686-nq.signed.pdf"
-LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1686-nq.signed.pdf"
-LAST	P131	Q7022471	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1686-nq.signed.pdf"
-CREATE
-LAST	Lvi	"Xã Yên Trường"
-LAST	Dvi	"xã cũ thuộc huyện Yên Định, Việt Nam, giải thể năm 2025"
-LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1686-nq.signed.pdf"
-LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1686-nq.signed.pdf"
-LAST	P131	Q8052188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1686-nq.signed.pdf"
-CREATE
 LAST	Lvi	"Xã Bát Mọt"
 LAST	Dvi	"xã cũ thuộc huyện Thường Xuân, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1686-nq.signed.pdf"
@@ -7924,12 +7900,6 @@ LAST	Dvi	"xã cũ thuộc huyện Hậu Lộc, Việt Nam, giải thể năm 202
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1686-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1686-nq.signed.pdf"
 LAST	P131	Q5682295	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1686-nq.signed.pdf"
-CREATE
-LAST	Lvi	"Xã Xuân Du"
-LAST	Dvi	"xã cũ thuộc huyện Như Thanh, Việt Nam, giải thể năm 2025"
-LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1686-nq.signed.pdf"
-LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1686-nq.signed.pdf"
-LAST	P131	Q7023390	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1686-nq.signed.pdf"
 CREATE
 LAST	Lvi	"Xã Xuân Thái"
 LAST	Dvi	"xã cũ thuộc huyện Như Thanh, Việt Nam, giải thể năm 2025"
@@ -11555,12 +11525,6 @@ LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1664
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1664-nq.signed.pdf"
 LAST	P131	Q6438922	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1664-nq.signed.pdf"
 CREATE
-LAST	Lvi	"Xã Ia RSai"
-LAST	Dvi	"xã cũ thuộc huyện Krông Pa, Việt Nam, giải thể năm 2025"
-LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1664-nq.signed.pdf"
-LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1664-nq.signed.pdf"
-LAST	P131	Q6438922	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1664-nq.signed.pdf"
-CREATE
 LAST	Lvi	"Xã Uar"
 LAST	Dvi	"xã cũ thuộc huyện Krông Pa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1664-nq.signed.pdf"
@@ -13133,12 +13097,6 @@ LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.signed.pdf"
 LAST	P131	Q2540329	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.signed.pdf"
 CREATE
-LAST	Lvi	"Xã Đông Hoà"
-LAST	Dvi	"xã cũ thuộc huyện Trảng Bom, Việt Nam, giải thể năm 2025"
-LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.signed.pdf"
-LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.signed.pdf"
-LAST	P131	Q2540329	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.signed.pdf"
-CREATE
 LAST	Lvi	"Xã Hố Nai 3"
 LAST	Dvi	"xã cũ thuộc huyện Trảng Bom, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.signed.pdf"
@@ -14210,12 +14168,6 @@ CREATE
 LAST	Lvi	"Thị trấn Tân Thạnh"
 LAST	Dvi	"thị trấn cũ thuộc huyện Tân Thạnh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
-LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
-LAST	P131	Q7682141	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
-CREATE
-LAST	Lvi	"Xã Nhơn Hòa Lập"
-LAST	Dvi	"xã cũ thuộc huyện Tân Thạnh, Việt Nam, giải thể năm 2025"
-LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 LAST	P131	Q7682141	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE

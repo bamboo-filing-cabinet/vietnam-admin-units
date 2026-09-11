@@ -146,29 +146,29 @@ def test_committed_predecessor_creation_package_is_complete_and_unique():
         "data/ward-wikidata-predecessor-gap-review-progress.json"
     )
     assert REVIEW_PROGRESS_PATH.as_posix() in preflight["input_fingerprints"]
-    assert manifest["audit"]["items"] == 2924
+    assert manifest["audit"]["items"] == 2916
     assert manifest["audit"]["type_counts"] == {
-        "Phường": 456, "Thị trấn": 368, "Xã": 2100,
+        "Phường": 456, "Thị trấn": 366, "Xã": 2094,
     }
     assert len({
         (row["name_vi"], row["parent_qid"], row["type_qid"])
         for row in manifest["items"]
-    }) == 2924
+    }) == 2916
     assert preflight["audit"] == {
-        "items": 2924,
-        "clear_items": 2924,
+        "items": 2916,
+        "clear_items": 2916,
         "needs_review_items": 0,
         "fresh": True,
-        "reviewed_queue_rows": 1300,
-        "pending_queue_rows": 94,
-        "unreviewed_current_rows": 94,
+        "reviewed_queue_rows": 1350,
+        "pending_queue_rows": 44,
+        "unreviewed_current_rows": 44,
         "review_complete": False,
         "review_creation_authorized": False,
         "upload_ready": False,
     }
     assert preflight["issues"] == [
-        "EXHAUSTIVE-REVIEW-INCOMPLETE 94/1394 queue rows pending; "
-        "94 current rows unreviewed",
+        "EXHAUSTIVE-REVIEW-INCOMPLETE 44/1394 queue rows pending; "
+        "44 current rows unreviewed",
     ]
-    assert statements.count("CREATE\n") == 2924
+    assert statements.count("CREATE\n") == 2916
     assert "\tP576\t" not in statements

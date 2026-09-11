@@ -188,8 +188,8 @@ def test_committed_graph_tracks_preflighted_current_creation_gap():
     }
     assert readiness["audit"]["distinct_reform_predecessors"] == 10_035
     assert readiness["audit"]["reform_edges"] == 10_586
-    assert readiness["audit"]["reconciled_reform_predecessors"] == 7_111
-    assert readiness["audit"]["reform_edges_with_both_qids"] == 7_505
+    assert readiness["audit"]["reconciled_reform_predecessors"] == 7_119
+    assert readiness["audit"]["reform_edges_with_both_qids"] == 7_513
     assert readiness["blockers"] == [
         {
             "gate": "current_successor_qids",
@@ -201,7 +201,7 @@ def test_committed_graph_tracks_preflighted_current_creation_gap():
         },
         {
             "gate": "historical_predecessor_qids",
-            "missing": 2_924,
+            "missing": 2_916,
             "resolution": (
                 "reconcile the immediate pre-2025 predecessor set before "
                 "lineage emission"

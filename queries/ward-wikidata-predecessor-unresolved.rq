@@ -288,7 +288,6 @@ WHERE {
     "Cam Giang"@en
     "Cam Hiep Nam"@en
     "Cam Hung"@en
-    "Cam Khe"@en
     "Cam Lac"@en
     "Cam Lam"@en
     "Cam Linh"@en
@@ -1329,7 +1328,6 @@ WHERE {
     "Muong Bang"@en
     "Muong Bo"@en
     "Muong Bu"@en
-    "Muong Cha"@en
     "Muong Chanh"@en
     "Muong Chien"@en
     "Muong Chieng"@en
@@ -2590,7 +2588,6 @@ WHERE {
     "Xuan Dam"@en
     "Xuan Dinh"@en
     "Xuan Dong"@en
-    "Xuan Du"@en
     "Xuan Duong"@en
     "Xuan Giang"@en
     "Xuan Ha"@en
@@ -2671,7 +2668,6 @@ WHERE {
     "Yen Trach"@en
     "Yen Tri"@en
     "Yen Trung"@en
-    "Yen Truong"@en
     "Yen Tu"@en
     "Yen Vien"@en
     "Yet Kieu"@en
@@ -3177,7 +3173,6 @@ WHERE {
     "Cam Hiep Nam"@vi
     "Cam Hiệp Nam"@vi
     "Cam Hung"@vi
-    "Cam Khe"@vi
     "Cam Lac"@vi
     "Cam Lam"@vi
     "Cam Linh"@vi
@@ -3494,7 +3489,6 @@ WHERE {
     "Cẩm Giang"@vi
     "Cẩm Giàng"@vi
     "Cẩm Hưng"@vi
-    "Cẩm Khê"@vi
     "Cẩm Lý"@vi
     "Cẩm Lạc"@vi
     "Cẩm Thượng"@vi
@@ -5019,7 +5013,6 @@ WHERE {
     "Muong Bang"@vi
     "Muong Bo"@vi
     "Muong Bu"@vi
-    "Muong Cha"@vi
     "Muong Chanh"@vi
     "Muong Chien"@vi
     "Muong Chieng"@vi
@@ -5121,7 +5114,6 @@ WHERE {
     "Mường Chanh"@vi
     "Mường Chiên"@vi
     "Mường Chiềng"@vi
-    "Mường Chà"@vi
     "Mường Cơi"@vi
     "Mường Giôn"@vi
     "Mường Hoa"@vi
@@ -7354,7 +7346,6 @@ WHERE {
     "Thị trấn Cầu Kè"@vi
     "Thị trấn Cầu Ngang"@vi
     "Thị trấn Cẩm Giang"@vi
-    "Thị trấn Cẩm Khê"@vi
     "Thị trấn Cẩm Xuyên"@vi
     "Thị trấn Cổ Lễ"@vi
     "Thị trấn Cổ Phúc"@vi
@@ -7443,7 +7434,6 @@ WHERE {
     "Thị trấn Mèo Vạc"@vi
     "Thị trấn Mù Căng Chải"@vi
     "Thị trấn Măng Đen"@vi
-    "Thị trấn Mường Chà"@vi
     "Thị trấn Mường Khương"@vi
     "Thị trấn Mường Lát"@vi
     "Thị trấn Mường Tè"@vi
@@ -8467,7 +8457,6 @@ WHERE {
     "Xuan Dam"@vi
     "Xuan Dinh"@vi
     "Xuan Dong"@vi
-    "Xuan Du"@vi
     "Xuan Duong"@vi
     "Xuan Giang"@vi
     "Xuan Ha"@vi
@@ -8515,7 +8504,6 @@ WHERE {
     "Xuân Chính"@vi
     "Xuân Cảnh"@vi
     "Xuân Cẩm"@vi
-    "Xuân Du"@vi
     "Xuân Dương"@vi
     "Xuân Giang"@vi
     "Xuân Hoà"@vi
@@ -10441,7 +10429,6 @@ WHERE {
     "Xã Xuân Chính"@vi
     "Xã Xuân Cảnh"@vi
     "Xã Xuân Cẩm"@vi
-    "Xã Xuân Du"@vi
     "Xã Xuân Dương"@vi
     "Xã Xuân Giang"@vi
     "Xã Xuân Hoà"@vi
@@ -10520,7 +10507,6 @@ WHERE {
     "Xã Yên Thịnh"@vi
     "Xã Yên Thổ"@vi
     "Xã Yên Trung"@vi
-    "Xã Yên Trường"@vi
     "Xã Yên Trạch"@vi
     "Xã Yên Trị"@vi
     "Xã Yên Từ"@vi
@@ -10728,7 +10714,6 @@ WHERE {
     "Yen Trach"@vi
     "Yen Tri"@vi
     "Yen Trung"@vi
-    "Yen Truong"@vi
     "Yen Tu"@vi
     "Yen Vien"@vi
     "Yet Kieu"@vi
@@ -10766,7 +10751,6 @@ WHERE {
     "Yên Thịnh"@vi
     "Yên Thổ"@vi
     "Yên Trung"@vi
-    "Yên Trường"@vi
     "Yên Trạch"@vi
     "Yên Trị"@vi
     "Yên Từ"@vi
@@ -11265,7 +11249,6 @@ WHERE {
     "Cam Giang"@en
     "Cam Hiep Nam"@en
     "Cam Hung"@en
-    "Cam Khe"@en
     "Cam Lac"@en
     "Cam Lam"@en
     "Cam Linh"@en
@@ -12306,7 +12289,6 @@ WHERE {
     "Muong Bang"@en
     "Muong Bo"@en
     "Muong Bu"@en
-    "Muong Cha"@en
     "Muong Chanh"@en
     "Muong Chien"@en
     "Muong Chieng"@en
@@ -13567,7 +13549,6 @@ WHERE {
     "Xuan Dam"@en
     "Xuan Dinh"@en
     "Xuan Dong"@en
-    "Xuan Du"@en
     "Xuan Duong"@en
     "Xuan Giang"@en
     "Xuan Ha"@en
@@ -13648,7 +13629,6 @@ WHERE {
     "Yen Trach"@en
     "Yen Tri"@en
     "Yen Trung"@en
-    "Yen Truong"@en
     "Yen Tu"@en
     "Yen Vien"@en
     "Yet Kieu"@en
@@ -14154,7 +14134,6 @@ WHERE {
     "Cam Hiep Nam"@vi
     "Cam Hiệp Nam"@vi
     "Cam Hung"@vi
-    "Cam Khe"@vi
     "Cam Lac"@vi
     "Cam Lam"@vi
     "Cam Linh"@vi
@@ -14471,7 +14450,6 @@ WHERE {
     "Cẩm Giang"@vi
     "Cẩm Giàng"@vi
     "Cẩm Hưng"@vi
-    "Cẩm Khê"@vi
     "Cẩm Lý"@vi
     "Cẩm Lạc"@vi
     "Cẩm Thượng"@vi
@@ -15996,7 +15974,6 @@ WHERE {
     "Muong Bang"@vi
     "Muong Bo"@vi
     "Muong Bu"@vi
-    "Muong Cha"@vi
     "Muong Chanh"@vi
     "Muong Chien"@vi
     "Muong Chieng"@vi
@@ -16098,7 +16075,6 @@ WHERE {
     "Mường Chanh"@vi
     "Mường Chiên"@vi
     "Mường Chiềng"@vi
-    "Mường Chà"@vi
     "Mường Cơi"@vi
     "Mường Giôn"@vi
     "Mường Hoa"@vi
@@ -18331,7 +18307,6 @@ WHERE {
     "Thị trấn Cầu Kè"@vi
     "Thị trấn Cầu Ngang"@vi
     "Thị trấn Cẩm Giang"@vi
-    "Thị trấn Cẩm Khê"@vi
     "Thị trấn Cẩm Xuyên"@vi
     "Thị trấn Cổ Lễ"@vi
     "Thị trấn Cổ Phúc"@vi
@@ -18420,7 +18395,6 @@ WHERE {
     "Thị trấn Mèo Vạc"@vi
     "Thị trấn Mù Căng Chải"@vi
     "Thị trấn Măng Đen"@vi
-    "Thị trấn Mường Chà"@vi
     "Thị trấn Mường Khương"@vi
     "Thị trấn Mường Lát"@vi
     "Thị trấn Mường Tè"@vi
@@ -19444,7 +19418,6 @@ WHERE {
     "Xuan Dam"@vi
     "Xuan Dinh"@vi
     "Xuan Dong"@vi
-    "Xuan Du"@vi
     "Xuan Duong"@vi
     "Xuan Giang"@vi
     "Xuan Ha"@vi
@@ -19492,7 +19465,6 @@ WHERE {
     "Xuân Chính"@vi
     "Xuân Cảnh"@vi
     "Xuân Cẩm"@vi
-    "Xuân Du"@vi
     "Xuân Dương"@vi
     "Xuân Giang"@vi
     "Xuân Hoà"@vi
@@ -21418,7 +21390,6 @@ WHERE {
     "Xã Xuân Chính"@vi
     "Xã Xuân Cảnh"@vi
     "Xã Xuân Cẩm"@vi
-    "Xã Xuân Du"@vi
     "Xã Xuân Dương"@vi
     "Xã Xuân Giang"@vi
     "Xã Xuân Hoà"@vi
@@ -21497,7 +21468,6 @@ WHERE {
     "Xã Yên Thịnh"@vi
     "Xã Yên Thổ"@vi
     "Xã Yên Trung"@vi
-    "Xã Yên Trường"@vi
     "Xã Yên Trạch"@vi
     "Xã Yên Trị"@vi
     "Xã Yên Từ"@vi
@@ -21705,7 +21675,6 @@ WHERE {
     "Yen Trach"@vi
     "Yen Tri"@vi
     "Yen Trung"@vi
-    "Yen Truong"@vi
     "Yen Tu"@vi
     "Yen Vien"@vi
     "Yet Kieu"@vi
@@ -21743,7 +21712,6 @@ WHERE {
     "Yên Thịnh"@vi
     "Yên Thổ"@vi
     "Yên Trung"@vi
-    "Yên Trường"@vi
     "Yên Trạch"@vi
     "Yên Trị"@vi
     "Yên Từ"@vi
