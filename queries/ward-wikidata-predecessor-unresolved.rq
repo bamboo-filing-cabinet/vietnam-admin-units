@@ -1187,7 +1187,6 @@ WHERE {
     "Linh Ho"@en
     "Linh Nam"@en
     "Linh Son"@en
-    "Linh Toai"@en
     "Linh Truong"@en
     "Linh Xuan"@en
     "Lo Pang"@en
@@ -4723,7 +4722,6 @@ WHERE {
     "Linh Nam"@vi
     "Linh Son"@vi
     "Linh Sơn"@vi
-    "Linh Toai"@vi
     "Linh Truong"@vi
     "Linh Trường"@vi
     "Linh Xuan"@vi
@@ -4887,7 +4885,6 @@ WHERE {
     "Lăng"@vi
     "Lăng Can"@vi
     "Lĩnh Nam"@vi
-    "Lĩnh Toại"@vi
     "Lũng Cú"@vi
     "Lũng Hoà"@vi
     "Lũng Nặm"@vi
@@ -9352,7 +9349,6 @@ WHERE {
     "Xã Lý Quốc"@vi
     "Xã Lý Văn Lâm"@vi
     "Xã Lăng"@vi
-    "Xã Lĩnh Toại"@vi
     "Xã Lũng Cú"@vi
     "Xã Lũng Hoà"@vi
     "Xã Lũng Nặm"@vi
@@ -10595,7 +10591,6 @@ WHERE {
     "Xã Đông Thái"@vi
     "Xã Đông Thạnh"@vi
     "Xã Đông Thọ"@vi
-    "Xã Đông Tiến"@vi
     "Xã Đông Xuân"@vi
     "Xã Đăk Long"@vi
     "Xã Đăk Năng"@vi
@@ -10867,7 +10862,6 @@ WHERE {
     "Đông Thái"@vi
     "Đông Thạnh"@vi
     "Đông Thọ"@vi
-    "Đông Tiến"@vi
     "Đông Xuân"@vi
     "Đăk Long"@vi
     "Đăk Năng"@vi
@@ -12178,7 +12172,6 @@ WHERE {
     "Linh Ho"@en
     "Linh Nam"@en
     "Linh Son"@en
-    "Linh Toai"@en
     "Linh Truong"@en
     "Linh Xuan"@en
     "Lo Pang"@en
@@ -15714,7 +15707,6 @@ WHERE {
     "Linh Nam"@vi
     "Linh Son"@vi
     "Linh Sơn"@vi
-    "Linh Toai"@vi
     "Linh Truong"@vi
     "Linh Trường"@vi
     "Linh Xuan"@vi
@@ -15878,7 +15870,6 @@ WHERE {
     "Lăng"@vi
     "Lăng Can"@vi
     "Lĩnh Nam"@vi
-    "Lĩnh Toại"@vi
     "Lũng Cú"@vi
     "Lũng Hoà"@vi
     "Lũng Nặm"@vi
@@ -20343,7 +20334,6 @@ WHERE {
     "Xã Lý Quốc"@vi
     "Xã Lý Văn Lâm"@vi
     "Xã Lăng"@vi
-    "Xã Lĩnh Toại"@vi
     "Xã Lũng Cú"@vi
     "Xã Lũng Hoà"@vi
     "Xã Lũng Nặm"@vi
@@ -21586,7 +21576,6 @@ WHERE {
     "Xã Đông Thái"@vi
     "Xã Đông Thạnh"@vi
     "Xã Đông Thọ"@vi
-    "Xã Đông Tiến"@vi
     "Xã Đông Xuân"@vi
     "Xã Đăk Long"@vi
     "Xã Đăk Năng"@vi
@@ -21858,7 +21847,6 @@ WHERE {
     "Đông Thái"@vi
     "Đông Thạnh"@vi
     "Đông Thọ"@vi
-    "Đông Tiến"@vi
     "Đông Xuân"@vi
     "Đăk Long"@vi
     "Đăk Năng"@vi

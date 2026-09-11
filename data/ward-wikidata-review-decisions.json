@@ -7502,6 +7502,23 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v76.json", "role": "saved twenty-fourth exhaustive-batch live search and entity evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-11.128",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10841803", "Q135164867"], "local_id": "w-15448-2025-07-01", "mapping_note": "current Định Hòa commune selects Q135164867; release Q10841803 to the pre-2025 Yên Định commune", "outcome": "assign", "rationale": "Q135164867 owns the current `Định Hòa, Thanh Hóa` article for the unit formed from Định Hòa, Định Thành, Định Công, Định Bình and part of Thiệu Long. Q10841803 instead retains the former Yên Định parent, historical coordinates, and GeoNames 8550306.", "wikidata_qid": "Q135164867"},
+        {"candidate_qids_checked": ["Q128214460", "Q135113504"], "local_id": "w-15298-2025-07-01", "mapping_note": "current Lĩnh Toại commune selects Q135113504; release Q128214460 to the pre-2025 Hà Trung commune", "outcome": "assign", "rationale": "Q135113504 owns the current `Lĩnh Toại` article for the unit formed from Lĩnh Toại, Thái Lai, Hà Châu and Hà Hải. Q128214460 instead retains the former Hà Trung district parent.", "wikidata_qid": "Q135113504"},
+        {"candidate_qids_checked": ["Q10840877", "Q135107843"], "local_id": "w-15853-2025-07-01", "mapping_note": "current Đông Tiến ward selects Q135107843; release Q10840877 to the pre-2025 Thanh Hóa city commune", "outcome": "assign", "rationale": "Q135107843 owns the current `Đông Tiến` ward article; the official composition shows the ward was formed from seven predecessors, of which the sampled commune is one. Q10840877 instead retains the former Thanh Hóa city and Đông Sơn parents, historical coordinates, and GeoNames 8549689.", "wikidata_qid": "Q135107843"}
+      ],
+      "reviewed_at": "2026-09-11T17:26:53Z",
+      "selection": {"input_status": "exhaustive-predecessor-gap-review-v77", "sample_numbers": [15, 24, 29]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-11T17:26:53Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and revision content", "retrieved_at": "2026-09-11T17:26:53Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced composition distinguishing the current merged units from their historical components"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v77.json", "role": "saved twenty-fifth exhaustive-batch live search and entity evidence"}
+      ]
     }
   ],
   "schema_version": 1,

@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "scope": {
+    "tier": "ward",
+    "purpose": "manual decisions for twenty-fifth exhaustive predecessor-gap review batch",
+    "wikidata_write_performed": false
+  },
+  "sampling": {
+    "method": "frozen exhaustive review queue batch",
+    "seed": "2026-09-10-predecessor-gap-exhaustive-review-v77",
+    "population": 3043,
+    "eligible_population": 1394,
+    "review_round": 77,
+    "sample_size": 50,
+    "batch_size": 10,
+    "batches": 5
+  },
+  "reviewed_at": "2026-09-11T17:26:53Z",
+  "batches": [
+    {
+      "batch_number": 1,
+      "decisions": [
+        {"sample_number": 1, "local_id": "w-4070737-base", "outcome": "no-distinct-item-found", "reason_code": "no-quang-trach-item-among-disambiguation-and-wrong-location-items"},
+        {"sample_number": 2, "local_id": "w-4033169-base", "outcome": "no-distinct-item-found", "reason_code": "no-thanh-chuong-item-among-foreign-district-and-river-items"},
+        {"sample_number": 3, "local_id": "w-8030729-base", "outcome": "existing-predecessor-item", "wikidata_qid": "Q10733131", "reason_code": "exact-name-item-carries-geonames-9289563-xa-an-binh-a-in-dong-thap-with-matching-hong-ngu-coordinates-and-the-unit-is-unique"},
+        {"sample_number": 4, "local_id": "w-1130709-base", "outcome": "no-distinct-item-found", "reason_code": "no-y-yen-item-among-disambiguation-person-and-wrong-location-items"},
+        {"sample_number": 5, "local_id": "w-2051733-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 6, "local_id": "w-2011513-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 7, "local_id": "w-31264-2004-06-30", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 8, "local_id": "w-3050313-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 9, "local_id": "w-8050709-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-city-province-and-wrong-location-items"},
+        {"sample_number": 10, "local_id": "w-3031545-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"}
+      ]
+    },
+    {
+      "batch_number": 2,
+      "decisions": [
+        {"sample_number": 11, "local_id": "w-7150303-base", "outcome": "no-distinct-item-found", "reason_code": "former-township-item-repurposed-to-current-successor"},
+        {"sample_number": 12, "local_id": "w-8110307-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation-and-wrong-location-items"},
+        {"sample_number": 13, "local_id": "w-6031503-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 14, "local_id": "w-1061143-base", "outcome": "no-distinct-item-found", "reason_code": "no-luong-tai-item-among-disambiguation-foreign-and-wrong-location-items"},
+        {"sample_number": 15, "local_id": "w-4013537-base", "outcome": "existing-predecessor-item-after-current-swap", "wikidata_qid": "Q10841803", "replacement_current_qid": "Q135164867", "reason_code": "item-retains-former-yen-dinh-parent-coordinates-and-geonames-while-new-item-owns-current-five-unit-merger-article"},
+        {"sample_number": 16, "local_id": "w-5031915-base", "outcome": "no-distinct-item-found", "reason_code": "no-hiep-duc-township-item-among-district-disambiguation-and-wrong-location-items"},
+        {"sample_number": 17, "local_id": "w-8010911-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 18, "local_id": "w-8070731-base", "outcome": "no-distinct-item-found", "reason_code": "no-chau-thanh-item-among-accent-folded-wrong-location-items"},
+        {"sample_number": 19, "local_id": "w-6030501-base", "outcome": "no-distinct-item-found", "reason_code": "former-township-item-repurposed-to-renamed-current-successor-or-district-and-dam-items"},
+        {"sample_number": 20, "local_id": "w-3010935-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-river-fungus-and-disambiguation-items"}
+      ]
+    },
+    {
+      "batch_number": 3,
+      "decisions": [
+        {"sample_number": 21, "local_id": "w-5032115-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-renamed-current-successor-and-the-other-candidate-has-no-district-coordinates-or-geonames-support"},
+        {"sample_number": 22, "local_id": "w-1071311-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-person-ship-and-wrong-location-items"},
+        {"sample_number": 23, "local_id": "w-7013701-base", "outcome": "no-distinct-item-found", "reason_code": "former-township-item-repurposed-to-renamed-current-successor-or-district-and-disambiguation-items"},
+        {"sample_number": 24, "local_id": "w-4013119-base", "outcome": "existing-predecessor-item-after-current-swap", "wikidata_qid": "Q128214460", "replacement_current_qid": "Q135113504", "reason_code": "item-retains-the-former-ha-trung-parent-while-new-item-owns-current-four-commune-merger-article"},
+        {"sample_number": 25, "local_id": "w-2011931-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation-and-wrong-location-items"},
+        {"sample_number": 26, "local_id": "w-2050717-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 27, "local_id": "w-2091919-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation-and-wrong-location-items"},
+        {"sample_number": 28, "local_id": "w-23231-2005-09-20", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation-and-wrong-location-item"},
+        {"sample_number": 29, "local_id": "w-4014519-base", "outcome": "existing-predecessor-item-after-current-swap", "wikidata_qid": "Q10840877", "replacement_current_qid": "Q135107843", "reason_code": "item-retains-the-former-thanh-hoa-city-parents-coordinates-and-geonames-while-new-item-owns-current-seven-unit-merger-ward-article"},
+        {"sample_number": 30, "local_id": "w-1052137-base", "outcome": "no-distinct-item-found", "reason_code": "no-thuong-tin-item-among-current-successors-person-and-wrong-location-items"}
+      ]
+    },
+    {
+      "batch_number": 4,
+      "decisions": [
+        {"sample_number": 31, "local_id": "w-8010109-base", "outcome": "no-distinct-item-found", "reason_code": "no-correct-city-item-among-numbered-ward-candidates"},
+        {"sample_number": 32, "local_id": "w-1130125-base", "outcome": "no-distinct-item-found", "reason_code": "no-nam-dinh-city-item-found-among-the-fetched-candidates"},
+        {"sample_number": 33, "local_id": "w-1170903-base", "outcome": "no-distinct-item-found", "reason_code": "no-hoa-lu-ward-item-among-district-foreign-and-disambiguation-items"},
+        {"sample_number": 34, "local_id": "w-6071103-base", "outcome": "no-distinct-item-found", "reason_code": "former-township-item-repurposed-to-renamed-current-successor-or-river-and-accent-folded-items"},
+        {"sample_number": 35, "local_id": "w-4090531-base", "outcome": "no-distinct-item-found", "reason_code": "no-vinh-linh-item-among-non-unit-and-artwork-items"},
+        {"sample_number": 36, "local_id": "w-8091327-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 37, "local_id": "w-1090111-base", "outcome": "no-distinct-item-found", "reason_code": "no-hung-yen-city-item-found-because-the-opaque-geonames-candidate-8569643-is-thai-binh"},
+        {"sample_number": 38, "local_id": "w-6051105-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 39, "local_id": "w-8071503-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-foreign-and-wrong-location-items"},
+        {"sample_number": 40, "local_id": "w-2131111-base", "outcome": "existing-predecessor-item", "wikidata_qid": "Q131553568", "reason_code": "item-holds-the-exact-thanh-thinh-page-now-redirected-to-the-current-tran-yen-successor-and-the-name-belonged-to-one-unit-only"}
+      ]
+    },
+    {
+      "batch_number": 5,
+      "decisions": [
+        {"sample_number": 41, "local_id": "w-1050709-base", "outcome": "no-distinct-item-found", "reason_code": "no-phuc-tho-item-found-among-the-fetched-candidates"},
+        {"sample_number": 42, "local_id": "w-6030705-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 43, "local_id": "w-2210115-base", "outcome": "no-distinct-item-found", "reason_code": "no-bac-giang-city-item-among-non-unit-items"},
+        {"sample_number": 44, "local_id": "w-4110719-base", "outcome": "no-distinct-item-found", "reason_code": "no-matching-item-found-among-the-fetched-candidates"},
+        {"sample_number": 45, "local_id": "w-3050327-base", "outcome": "no-distinct-item-found", "reason_code": "no-da-bac-item-found-because-the-opaque-geonames-candidates-are-nam-dinh-and-thanh-hoa"},
+        {"sample_number": 46, "local_id": "w-7070927-base", "outcome": "no-distinct-item-found", "reason_code": "no-matching-item-found-among-the-fetched-candidates"},
+        {"sample_number": 47, "local_id": "w-6050309-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-river-item"},
+        {"sample_number": 48, "local_id": "w-5052523-base", "outcome": "no-distinct-item-found", "reason_code": "no-matching-item-found-among-the-fetched-candidates"},
+        {"sample_number": 49, "local_id": "w-7012711-base", "outcome": "no-distinct-item-found", "reason_code": "no-correct-district-item-among-numbered-ward-candidates"},
+        {"sample_number": 50, "local_id": "w-2251913-base", "outcome": "no-distinct-item-found", "reason_code": "no-ha-long-item-among-district-foreign-and-wrong-location-items"}
+      ]
+    }
+  ],
+  "audit": {
+    "reviewed_rows": 50,
+    "existing_predecessor_items": 5,
+    "current_mapping_swaps": 3,
+    "no_distinct_item_found": 45,
+    "sample_miss_rate": 0.1,
+    "creation_batch_authorized": false
+  }
+}
