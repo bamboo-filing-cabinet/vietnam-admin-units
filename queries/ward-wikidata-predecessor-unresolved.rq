@@ -2257,7 +2257,6 @@ WHERE {
     "Thuong Long"@en
     "Thuong Nga"@en
     "Thuong Nhat"@en
-    "Thuong Ninh"@en
     "Thuong Nong"@en
     "Thuong Quan"@en
     "Thuong Son"@en
@@ -2373,7 +2372,6 @@ WHERE {
     "Trinh Tuong"@en
     "Tru Van Tho"@en
     "Truc Hung"@en
-    "Truc Lam"@en
     "Trung An"@en
     "Trung Chai"@en
     "Trung Chinh"@en
@@ -6338,7 +6336,6 @@ WHERE {
     "Phường Trung Đô"@vi
     "Phường Trà Lồng"@vi
     "Phường Trí Quả"@vi
-    "Phường Trúc Lâm"@vi
     "Phường Trưng Vương"@vi
     "Phường Trương Quang Trọng"@vi
     "Phường Trường An"@vi
@@ -7178,7 +7175,6 @@ WHERE {
     "Thuong Long"@vi
     "Thuong Nga"@vi
     "Thuong Nhat"@vi
-    "Thuong Ninh"@vi
     "Thuong Nong"@vi
     "Thuong Quan"@vi
     "Thuong Son"@vi
@@ -7246,7 +7242,6 @@ WHERE {
     "Thượng Long"@vi
     "Thượng Lâm"@vi
     "Thượng Nhật"@vi
-    "Thượng Ninh"@vi
     "Thượng Nông"@vi
     "Thượng Quan"@vi
     "Thượng Sơn"@vi
@@ -7847,7 +7842,6 @@ WHERE {
     "Triệu Tân"@vi
     "Tru Van Tho"@vi
     "Truc Hung"@vi
-    "Truc Lam"@vi
     "Trung An"@vi
     "Trung Chai"@vi
     "Trung Chinh"@vi
@@ -7948,7 +7942,6 @@ WHERE {
     "Trí Phải"@vi
     "Trí Quả"@vi
     "Trùng Khánh"@vi
-    "Trúc Lâm"@vi
     "Trưng Vương"@vi
     "Trương Quang Trọng"@vi
     "Trường An"@vi
@@ -10048,7 +10041,6 @@ WHERE {
     "Xã Thượng Long"@vi
     "Xã Thượng Lâm"@vi
     "Xã Thượng Nhật"@vi
-    "Xã Thượng Ninh"@vi
     "Xã Thượng Nông"@vi
     "Xã Thượng Quan"@vi
     "Xã Thượng Sơn"@vi
@@ -13242,7 +13234,6 @@ WHERE {
     "Thuong Long"@en
     "Thuong Nga"@en
     "Thuong Nhat"@en
-    "Thuong Ninh"@en
     "Thuong Nong"@en
     "Thuong Quan"@en
     "Thuong Son"@en
@@ -13358,7 +13349,6 @@ WHERE {
     "Trinh Tuong"@en
     "Tru Van Tho"@en
     "Truc Hung"@en
-    "Truc Lam"@en
     "Trung An"@en
     "Trung Chai"@en
     "Trung Chinh"@en
@@ -17323,7 +17313,6 @@ WHERE {
     "Phường Trung Đô"@vi
     "Phường Trà Lồng"@vi
     "Phường Trí Quả"@vi
-    "Phường Trúc Lâm"@vi
     "Phường Trưng Vương"@vi
     "Phường Trương Quang Trọng"@vi
     "Phường Trường An"@vi
@@ -18163,7 +18152,6 @@ WHERE {
     "Thuong Long"@vi
     "Thuong Nga"@vi
     "Thuong Nhat"@vi
-    "Thuong Ninh"@vi
     "Thuong Nong"@vi
     "Thuong Quan"@vi
     "Thuong Son"@vi
@@ -18231,7 +18219,6 @@ WHERE {
     "Thượng Long"@vi
     "Thượng Lâm"@vi
     "Thượng Nhật"@vi
-    "Thượng Ninh"@vi
     "Thượng Nông"@vi
     "Thượng Quan"@vi
     "Thượng Sơn"@vi
@@ -18832,7 +18819,6 @@ WHERE {
     "Triệu Tân"@vi
     "Tru Van Tho"@vi
     "Truc Hung"@vi
-    "Truc Lam"@vi
     "Trung An"@vi
     "Trung Chai"@vi
     "Trung Chinh"@vi
@@ -18933,7 +18919,6 @@ WHERE {
     "Trí Phải"@vi
     "Trí Quả"@vi
     "Trùng Khánh"@vi
-    "Trúc Lâm"@vi
     "Trưng Vương"@vi
     "Trương Quang Trọng"@vi
     "Trường An"@vi
@@ -21033,7 +21018,6 @@ WHERE {
     "Xã Thượng Long"@vi
     "Xã Thượng Lâm"@vi
     "Xã Thượng Nhật"@vi
-    "Xã Thượng Ninh"@vi
     "Xã Thượng Nông"@vi
     "Xã Thượng Quan"@vi
     "Xã Thượng Sơn"@vi

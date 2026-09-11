@@ -7519,6 +7519,22 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v77.json", "role": "saved twenty-fifth exhaustive-batch live search and entity evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-11.129",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10828652", "Q135108143"], "local_id": "w-16624-2025-07-01", "mapping_note": "current Trúc Lâm ward selects Q135108143; release Q10828652 to the pre-2025 Nghi Sơn ward", "outcome": "assign", "rationale": "Q135108143 owns the current `Trúc Lâm (phường)` article; the official composition shows the ward was formed from Phú Sơn, Phú Lâm, Trúc Lâm and Tùng Lâm. Q10828652 instead retains the former Nghi Sơn parent, historical coordinates, and GeoNames 8550113.", "wikidata_qid": "Q135108143"},
+        {"candidate_qids_checked": ["Q10826086", "Q135224876"], "local_id": "w-16225-2025-07-01", "mapping_note": "current Thượng Ninh commune selects Q135224876; release Q10826086 to the pre-2025 Như Xuân commune", "outcome": "assign", "rationale": "Q135224876 owns the current `Thượng Ninh` article, which records its 16 June 2025 formation from Cát Tân, Cát Vân and Thượng Ninh. Q10826086 instead retains the former Như Xuân parent, historical coordinates, and GeoNames 8549960.", "wikidata_qid": "Q135224876"}
+      ],
+      "reviewed_at": "2026-09-11T17:35:07Z",
+      "selection": {"input_status": "exhaustive-predecessor-gap-review-v78", "sample_numbers": [45, 49]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-11T17:35:07Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and revision content", "retrieved_at": "2026-09-11T17:35:07Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced composition distinguishing the current merged units from their historical components"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v78.json", "role": "saved twenty-sixth exhaustive-batch live search and entity evidence"}
+      ]
     }
   ],
   "schema_version": 1,

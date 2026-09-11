@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "scope": {
+    "tier": "ward",
+    "purpose": "manual decisions for twenty-sixth exhaustive predecessor-gap review batch",
+    "wikidata_write_performed": false
+  },
+  "sampling": {
+    "method": "frozen exhaustive review queue batch",
+    "seed": "2026-09-10-predecessor-gap-exhaustive-review-v78",
+    "population": 3043,
+    "eligible_population": 1394,
+    "review_round": 78,
+    "sample_size": 50,
+    "batch_size": 10,
+    "batches": 5
+  },
+  "reviewed_at": "2026-09-11T17:35:07Z",
+  "batches": [
+    {
+      "batch_number": 1,
+      "decisions": [
+        {"sample_number": 1, "local_id": "w-6011305-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 2, "local_id": "w-1130307-base", "outcome": "existing-predecessor-item", "wikidata_qid": "Q32308888", "reason_code": "item-carries-geonames-8554471-the-only-xa-trung-thanh-record-in-the-merged-ninh-binh-province-with-vu-ban-coordinates"},
+        {"sample_number": 3, "local_id": "w-8190305-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation-and-wrong-location-unit-items"},
+        {"sample_number": 4, "local_id": "w-1151301-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation-and-district-or-foreign-division-items"},
+        {"sample_number": 5, "local_id": "w-8031117-base", "outcome": "no-distinct-item-found", "reason_code": "no-matching-district-item-among-the-name-candidates-namely-disambiguation-and-non-unit-and-wrong-location-unit-items"},
+        {"sample_number": 6, "local_id": "w-7110201-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation-and-district-or-foreign-division-items"},
+        {"sample_number": 7, "local_id": "w-21786-2005-11-30", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation-and-district-or-foreign-division-and-person-and-wrong-location-unit-items"},
+        {"sample_number": 8, "local_id": "w-2150521-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-non-unit-and-wrong-location-unit-items"},
+        {"sample_number": 9, "local_id": "w-1050741-base", "outcome": "existing-predecessor-item", "wikidata_qid": "Q10823786", "reason_code": "item-is-described-as-a-former-ha-noi-commune-and-holds-the-tam-hiep-phuc-tho-page-which-names-the-sampled-district"},
+        {"sample_number": 10, "local_id": "w-5071907-base", "outcome": "no-distinct-item-found", "reason_code": "no-matching-district-item-among-the-name-candidates-namely-disambiguation-and-wrong-location-unit-items"}
+      ]
+    },
+    {
+      "batch_number": 2,
+      "decisions": [
+        {"sample_number": 11, "local_id": "w-2092135-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 12, "local_id": "w-1171539-base", "outcome": "existing-predecessor-item", "wikidata_qid": "Q32601018", "reason_code": "item-carries-geonames-8553299-xa-dinh-hoa-with-kim-son-coordinates-and-only-one-former-dinh-hoa-existed-in-ninh-binh"},
+        {"sample_number": 13, "local_id": "w-4091503-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 14, "local_id": "w-7151311-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation-and-non-unit-and-person-and-wrong-location-unit-items"},
+        {"sample_number": 15, "local_id": "w-8170509-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation-and-wrong-location-unit-items"},
+        {"sample_number": 16, "local_id": "w-7070933-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation-and-wrong-location-unit-items"},
+        {"sample_number": 17, "local_id": "w-1090331-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation-and-person-and-wrong-location-unit-items"},
+        {"sample_number": 18, "local_id": "w-07682-2007-07-27", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation-and-district-or-foreign-division-and-non-unit-and-wrong-location-unit-items"},
+        {"sample_number": 19, "local_id": "w-7013921-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 20, "local_id": "w-8111531-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-non-unit-and-wrong-location-unit-items"}
+      ]
+    },
+    {
+      "batch_number": 3,
+      "decisions": [
+        {"sample_number": 21, "local_id": "w-7110101-base", "outcome": "no-distinct-item-found", "reason_code": "no-matching-district-item-among-the-name-candidates-namely-disambiguation-and-wrong-location-unit-items"},
+        {"sample_number": 22, "local_id": "w-4070101-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-bare-item-and-disambiguation-and-district-or-foreign-division-and-non-unit-and-wrong-location-unit-items"},
+        {"sample_number": 23, "local_id": "w-7091301-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-district-or-foreign-division-items"},
+        {"sample_number": 24, "local_id": "w-8230703-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-bare-item-and-river-items"},
+        {"sample_number": 25, "local_id": "w-2110547-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-bare-item-and-disambiguation-and-district-or-foreign-division-and-wrong-location-unit-items"},
+        {"sample_number": 26, "local_id": "w-2110705-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 27, "local_id": "w-1110521-base", "outcome": "existing-predecessor-item", "applied_wikidata_qid": "Q10824880", "reason_code": "q10824880-was-released-by-the-v73-thanh-son-correction-and-the-primary-pass-already-applied-it-here-this-rounds-live-search-did-not-return-the-now-assigned-item"},
+        {"sample_number": 28, "local_id": "w-4070941-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 29, "local_id": "w-8051303-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-bare-item-and-district-or-foreign-division-and-wrong-location-unit-items"},
+        {"sample_number": 30, "local_id": "w-4033123-base", "outcome": "no-distinct-item-found", "reason_code": "no-matching-district-item-among-the-name-candidates-namely-disambiguation-and-district-or-foreign-division-and-non-unit-and-wrong-location-unit-items"}
+      ]
+    },
+    {
+      "batch_number": 4,
+      "decisions": [
+        {"sample_number": 31, "local_id": "w-8130713-base", "outcome": "no-distinct-item-found", "reason_code": "no-name-matching-item-found-among-the-fetched-candidates"},
+        {"sample_number": 32, "local_id": "w-1151377-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-district-or-foreign-division-and-non-unit-and-wrong-location-unit-items"},
+        {"sample_number": 33, "local_id": "w-8171305-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 34, "local_id": "w-2090913-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation-and-person-and-wrong-location-unit-items"},
+        {"sample_number": 35, "local_id": "w-8230509-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 36, "local_id": "w-8090311-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation-and-non-unit-and-wrong-location-unit-items"},
+        {"sample_number": 37, "local_id": "w-7012319-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"},
+        {"sample_number": 38, "local_id": "w-7130703-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-bare-item-and-disambiguation-and-district-or-foreign-division-and-non-unit-and-wrong-location-unit-items"},
+        {"sample_number": 39, "local_id": "w-1051521-base", "outcome": "no-distinct-item-found", "reason_code": "no-name-matching-item-found-among-the-fetched-candidates"},
+        {"sample_number": 40, "local_id": "w-7110705-base", "outcome": "no-distinct-item-found", "reason_code": "no-matching-district-item-among-the-name-candidates-namely-disambiguation-and-wrong-location-unit-items"}
+      ]
+    },
+    {
+      "batch_number": 5,
+      "decisions": [
+        {"sample_number": 41, "local_id": "w-2110915-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation-and-wrong-location-unit-items"},
+        {"sample_number": 42, "local_id": "w-7110219-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation-and-person-and-wrong-location-unit-items"},
+        {"sample_number": 43, "local_id": "w-5031531-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-person-items"},
+        {"sample_number": 44, "local_id": "w-7150307-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation-and-person-and-wrong-location-unit-items"},
+        {"sample_number": 45, "local_id": "w-4015329-base", "outcome": "existing-predecessor-item-after-current-swap", "wikidata_qid": "Q10828652", "replacement_current_qid": "Q135108143", "reason_code": "item-retains-the-former-nghi-son-parent-coordinates-and-geonames-while-new-item-owns-current-four-unit-merger-ward-article"},
+        {"sample_number": 46, "local_id": "w-2011501-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation-and-district-or-foreign-division-and-wrong-location-unit-items"},
+        {"sample_number": 47, "local_id": "w-2170751-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation-and-non-unit-and-person-items"},
+        {"sample_number": 48, "local_id": "w-5031501-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor-or-disambiguation-and-person-and-wrong-location-unit-items"},
+        {"sample_number": 49, "local_id": "w-4012531-base", "outcome": "existing-predecessor-item-after-current-swap", "wikidata_qid": "Q10826086", "replacement_current_qid": "Q135224876", "reason_code": "item-retains-the-former-nhu-xuan-parent-coordinates-and-geonames-while-new-item-owns-current-cat-tan-cat-van-thuong-ninh-merger-article"},
+        {"sample_number": 50, "local_id": "w-2010717-base", "outcome": "no-distinct-item-found", "reason_code": "same-geography-item-repurposed-to-current-successor"}
+      ]
+    }
+  ],
+  "audit": {
+    "reviewed_rows": 50,
+    "existing_predecessor_items": 6,
+    "current_mapping_swaps": 2,
+    "no_distinct_item_found": 44,
+    "sample_miss_rate": 0.12,
+    "creation_batch_authorized": false
+  }
+}
