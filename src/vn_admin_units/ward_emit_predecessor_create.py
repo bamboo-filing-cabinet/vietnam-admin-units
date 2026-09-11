@@ -21,6 +21,7 @@ from vn_admin_units.core import p31_target, ref_s854
 from vn_admin_units.ward_reconcile import (
     DISTRICT_MAPPING,
     MAPPING,
+    PROVINCE_MAPPING,
     WARD_HISTORY,
     serialize_mapping,
     write_mapping,
@@ -111,31 +112,92 @@ def _district_parent(
     indexes: tuple[dict, dict],
     details: dict[str, dict],
 ) -> dict:
+    """Resolve the historical district item for a pre-2025 ward.
+
+    The ward's own district code is the authoritative key. The entity's
+    province echo can carry the 2025 successor province code, so a name plus
+    province lookup can land on a same-named district in another province.
+    The district code is used first, and the district name only narrows a code
+    that maps to more than one item.
+    """
     parent = entity["parent_spans"][-1]
-    province_code = entity["province_echo_spans"][-1]["code"]
-    identity = (
-        " ".join(parent["name_vi"].casefold().split()),
-        province_code,
-    )
     by_identity, by_code = indexes
-    qids = by_identity.get(identity, set()) or by_code.get(parent["code"], set())
+    folded_name = " ".join(parent["name_vi"].casefold().split())
+    qids = by_code.get(parent["code"], set())
+    if len(qids) > 1:
+        qids = {
+            qid for qid in qids
+            if " ".join(details[qid]["name_vi"].casefold().split()) == folded_name
+        }
+    elif not qids:
+        qids = {
+            qid for qid, row in details.items()
+            if " ".join(row["name_vi"].casefold().split()) == folded_name
+        }
     if len(qids) != 1:
         raise ValueError(
-            f"{entity['local_id']} has {len(qids)} district parents: {sorted(qids)}"
+            f"{entity['local_id']} has {len(qids)} district parents for code "
+            f"{parent['code']} ({parent['name_vi']}): {sorted(qids)}"
         )
     qid = next(iter(qids))
     return {
         "code": parent["code"],
         "name_vi": parent["name_vi"],
+        "province_code": details[qid]["parent_code"],
         "qid": qid,
         "mapping_local_id": details[qid]["local_id"],
     }
 
 
-def _description(entity: dict, parent: dict) -> str:
-    parent_name = parent["name_vi"][:1].lower() + parent["name_vi"][1:]
+def _folded(name: str) -> str:
+    return " ".join(name.casefold().split())
+
+
+def ambiguous_district_names(district_rows: list[dict]) -> set[str]:
+    """Folded district names that more than one district item carries.
+
+    Wikidata forbids two items from sharing a label and a description in the
+    same language. A description that names only the district is therefore not
+    safe when the district name is not unique.
+    """
+    by_name: dict[str, set[str]] = defaultdict(set)
+    for row in district_rows:
+        qid = row.get("wikidata_qid", "")
+        if qid:
+            by_name[_folded(row["name_vi"])].add(qid)
+    return {name for name, qids in by_name.items() if len(qids) > 1}
+
+
+def province_names(province_rows: list[dict]) -> dict[str, str]:
+    return {
+        row["gso_code"]: row["name_vi"]
+        for row in province_rows
+        if row.get("era") == "pre2025" and row.get("name_vi")
+    }
+
+
+def _lower_first(name: str) -> str:
+    return name[:1].lower() + name[1:]
+
+
+def _description(
+    entity: dict,
+    parent: dict,
+    *,
+    ambiguous_names: frozenset[str] = frozenset(),
+    provinces: dict[str, str] | None = None,
+) -> str:
+    place = _lower_first(parent["name_vi"])
+    if _folded(parent["name_vi"]) in ambiguous_names:
+        province = (provinces or {}).get(parent["province_code"], "")
+        if not province:
+            raise ValueError(
+                f"{entity['local_id']} needs a province name to disambiguate "
+                f"{parent['name_vi']} (province code {parent['province_code']})"
+            )
+        place = f"{place}, {_lower_first(province)}"
     return (
-        f"{entity['loai_hinh'].lower()} cũ thuộc {parent_name}, Việt Nam, "
+        f"{entity['loai_hinh'].lower()} cũ thuộc {place}, Việt Nam, "
         "giải thể năm 2025"
     )
 
@@ -147,6 +209,7 @@ def build_manifest(
     predecessor_artifact: dict,
     broad_artifact: dict,
     *,
+    province_rows: list[dict] | None = None,
     article_artifact: dict | None = None,
     context_artifact: dict | None = None,
     geonames_artifact: dict | None = None,
@@ -155,6 +218,8 @@ def build_manifest(
 ) -> dict:
     if review_group_size < 1:
         raise ValueError("review_group_size must be positive")
+    ambiguous_names = frozenset(ambiguous_district_names(district_rows))
+    provinces = province_names(province_rows or [])
     entities = {row["local_id"]: row for row in history["entities"]}
     mapping = {row["local_id"]: row for row in mapping_rows}
     reform_edges = [
@@ -224,7 +289,10 @@ def build_manifest(
             "local_id": row["local_id"],
             "gso_code": row["terminal_code"],
             "name_vi": entity["name_vi"],
-            "description_vi": _description(entity, parent),
+            "description_vi": _description(
+                entity, parent,
+                ambiguous_names=ambiguous_names, provinces=provinces,
+            ),
             "loai_hinh": entity["loai_hinh"],
             "type_qid": p31_target(entity["loai_hinh"]),
             "country_qid": COUNTRY_QID,
@@ -255,6 +323,16 @@ def build_manifest(
     ]
     if duplicate_keys:
         raise ValueError(f"duplicate predecessor CREATE identities: {duplicate_keys[:5]}")
+    duplicate_labels = [
+        key for key, count in Counter(
+            (row["name_vi"], row["description_vi"]) for row in entries
+        ).items() if count > 1
+    ]
+    if duplicate_labels:
+        raise ValueError(
+            "duplicate predecessor CREATE label and description pairs: "
+            f"{duplicate_labels[:5]}"
+        )
     return {
         "schema_version": 1,
         "scope": {
@@ -453,7 +531,8 @@ def main(argv: list[str] | None = None) -> None:
     fingerprints = {
         path.as_posix(): _sha256(path)
         for path in (
-            WARD_HISTORY, DISTRICT_MAPPING, PREDECESSOR_ARTIFACT_PATH,
+            WARD_HISTORY, DISTRICT_MAPPING, PROVINCE_MAPPING,
+            PREDECESSOR_ARTIFACT_PATH,
             BROAD_ARTIFACT_PATH, ARTICLE_ARTIFACT_PATH, CONTEXT_ARTIFACT_PATH,
             GEONAMES_ARTIFACT_PATH,
             REVIEW_DECISIONS_PATH,
@@ -465,6 +544,7 @@ def main(argv: list[str] | None = None) -> None:
     )
     manifest = build_manifest(
         history, mapping, districts, predecessor, broad,
+        province_rows=_read_csv(PROVINCE_MAPPING),
         article_artifact=article, context_artifact=context,
         geonames_artifact=geonames,
         input_fingerprints=fingerprints,

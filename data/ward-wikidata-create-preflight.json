@@ -14,13 +14,13 @@
     "queries/ward-wikidata-create-preflight.rq": "57c155a1f8e84341949171c6feb3fb3b594b5f6d7cc9a1769776b5cf9e379fa9"
   },
   "sources": {
-    "retrieved_at": "2026-09-11T17:47:37Z",
+    "retrieved_at": "2026-09-11T21:42:26Z",
     "qlever": {
       "endpoint": "https://qlever.dev/api/wikidata",
       "query_path": "queries/ward-wikidata-create-preflight.rq",
       "query_sha256": "57c155a1f8e84341949171c6feb3fb3b594b5f6d7cc9a1769776b5cf9e379fa9",
       "query_meta": {
-        "query-time-ms": 24,
+        "query-time-ms": 29,
         "result-size-total": 8
       }
     },

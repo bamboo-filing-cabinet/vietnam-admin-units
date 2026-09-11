@@ -13,6 +13,100 @@ from vn_admin_units.ward_emit_predecessor_create import (
 )
 
 
+def _same_name_district_fixture():
+    """Two wards whose districts share a name but sit in different provinces."""
+    def ward(local_id, code, name, district_code):
+        return {
+            "local_id": local_id, "gso_codes": [code], "name_vi": name,
+            "loai_hinh": "Thị trấn", "valid_from": None, "valid_to": "2025-06-30",
+            "parent_spans": [{"code": district_code, "name_vi": "Huyện Châu Thành"}],
+            # the echo carries the 2025 successor province code for both wards
+            "province_echo_spans": [{"code": "80"}],
+        }
+    old_a = ward("w-a", "90001", "Thị trấn Châu Thành", "708")
+    old_b = ward("w-b", "90002", "Thị trấn Châu Thành", "808")
+    new = {
+        "local_id": "w-new", "gso_codes": ["00001"], "name_vi": "Xã Mới",
+        "loai_hinh": "Xã", "valid_from": "2025-07-01", "valid_to": None,
+        "parent_spans": [{"code": "80"}], "province_echo_spans": [{"code": "80"}],
+    }
+    history = {
+        "entities": [old_a, old_b, new],
+        "lineage_edges": [
+            {"predecessor": "w-a", "successor": "w-new",
+             "effective_date": "2025-07-01",
+             "reference_url": "https://example.test/resolution.pdf"},
+            {"predecessor": "w-b", "successor": "w-new",
+             "effective_date": "2025-07-01",
+             "reference_url": "https://example.test/resolution.pdf"},
+        ],
+    }
+    mapping = [
+        {"local_id": "w-a", "terminal_code": "90001", "wikidata_qid": ""},
+        {"local_id": "w-b", "terminal_code": "90002", "wikidata_qid": ""},
+        {"local_id": "w-new", "terminal_code": "00001", "wikidata_qid": "Q2"},
+    ]
+    districts = [
+        {"local_id": "d-708", "terminal_code": "708", "name_vi": "Huyện Châu Thành",
+         "parent_code": "72", "wikidata_qid": "Q72"},
+        {"local_id": "d-808", "terminal_code": "808", "name_vi": "Huyện Châu Thành",
+         "parent_code": "80", "wikidata_qid": "Q80"},
+    ]
+    review = lambda key: {"review": [
+        {"local_id": "w-a", "classification": "assigned-item-only",
+         "candidate_qids": [], key: []},
+        {"local_id": "w-b", "classification": "assigned-item-only",
+         "candidate_qids": [], key: []},
+    ]}
+    return history, mapping, districts, review("current_qids_excluded"), review("assigned_qids_excluded")
+
+
+def test_manifest_prefers_the_ward_district_code_over_a_same_named_district():
+    history, mapping, districts, primary, broad = _same_name_district_fixture()
+    provinces = [
+        {"gso_code": "72", "era": "pre2025", "name_vi": "Tỉnh Tây Ninh"},
+        {"gso_code": "80", "era": "pre2025", "name_vi": "Tỉnh Long An"},
+    ]
+
+    manifest = build_manifest(
+        history, mapping, districts, primary, broad, province_rows=provinces,
+    )
+    by_id = {row["local_id"]: row for row in manifest["items"]}
+
+    # the province echo names 80 for both wards; the district code must win
+    assert by_id["w-a"]["parent_qid"] == "Q72"
+    assert by_id["w-b"]["parent_qid"] == "Q80"
+
+
+def test_manifest_disambiguates_descriptions_for_a_repeated_district_name():
+    history, mapping, districts, primary, broad = _same_name_district_fixture()
+    provinces = [
+        {"gso_code": "72", "era": "pre2025", "name_vi": "Tỉnh Tây Ninh"},
+        {"gso_code": "80", "era": "pre2025", "name_vi": "Tỉnh Long An"},
+    ]
+
+    manifest = build_manifest(
+        history, mapping, districts, primary, broad, province_rows=provinces,
+    )
+    by_id = {row["local_id"]: row for row in manifest["items"]}
+
+    # Wikidata forbids two items sharing a label and a description
+    assert by_id["w-a"]["description_vi"] != by_id["w-b"]["description_vi"]
+    assert "tỉnh Tây Ninh" in by_id["w-a"]["description_vi"]
+    assert "tỉnh Long An" in by_id["w-b"]["description_vi"]
+
+
+def test_manifest_refuses_to_emit_a_repeated_label_and_description():
+    history, mapping, districts, primary, broad = _same_name_district_fixture()
+
+    try:
+        build_manifest(history, mapping, districts, primary, broad)
+    except ValueError as error:
+        assert "province name to disambiguate" in str(error)
+    else:
+        raise AssertionError("expected a ValueError without province rows")
+
+
 def test_manifest_resolves_district_by_name_and_emits_referenced_base_item():
     old = {
         "local_id": "w-old",

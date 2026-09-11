@@ -7,12 +7,12 @@
     "wikidata_write_performed": false
   },
   "input_fingerprints": {
-    "manifest_content_sha256": "705afab2910f2b9e9d99c823c6006dc19678cc28f4d549512fc0b7932ac5b554",
+    "manifest_content_sha256": "c6a48f733e3e12202cff256006cf7d5109772824e985a4978838a984d8906010",
     "data/ward-wikidata-predecessor-unresolved-candidates.json": "986f4aacd1d6191ba2b0c53e5e7e8166a43d6e019ed48d0edbb91d4bd57807f2",
     "data/ward-wikidata-predecessor-article-candidates.json": "5ebb4cf49443c0224be6bd3017f992e181298705e99da03c2b23e0b898566055",
     "data/ward-wikidata-predecessor-context-candidates.json": "db0d0bbe95d1174ef06116293434d3d92ef45a43a8ad675e3445cc71ef32064d",
     "data/ward-wikidata-predecessor-geonames-candidates.json": "9dc56127e1fcd3c44ac12ac38af510852ae6048ec16ac3490f76ea3eb8e15b83",
-    "data/ward-wikidata-predecessor-gap-review-progress.json": "1bf7194d35801184cf2fbaea9ab6200070b5f893de47285be26da7b0b2ec0155"
+    "data/ward-wikidata-predecessor-gap-review-progress.json": "187249a0b202572e8b3037cb917d55dd15abdce4a3cc65c0fac627642418b4ee"
   },
   "evidence": {
     "qlever_retrieved_at": "2026-09-11T17:47:27Z",
@@ -14765,42 +14765,42 @@
     {
       "local_id": "w-7090901-base",
       "name_vi": "Thị trấn Châu Thành",
-      "parent_qid": "Q5088017",
+      "parent_qid": "Q5088023",
       "classification": "no-broad-district-candidate",
       "status": "clear"
     },
     {
       "local_id": "w-7090902-base",
       "name_vi": "Xã Hảo Đước",
-      "parent_qid": "Q5088017",
+      "parent_qid": "Q5088023",
       "classification": "assigned-item-only",
       "status": "clear"
     },
     {
       "local_id": "w-7090903-base",
       "name_vi": "Xã Phước Vinh",
-      "parent_qid": "Q5088017",
+      "parent_qid": "Q5088023",
       "classification": "no-broad-district-candidate",
       "status": "clear"
     },
     {
       "local_id": "w-7090913-base",
       "name_vi": "Xã Hòa Hội",
-      "parent_qid": "Q5088017",
+      "parent_qid": "Q5088023",
       "classification": "no-broad-district-candidate",
       "status": "clear"
     },
     {
       "local_id": "w-7090915-base",
       "name_vi": "Xã Thanh Điền",
-      "parent_qid": "Q5088017",
+      "parent_qid": "Q5088023",
       "classification": "no-broad-district-candidate",
       "status": "clear"
     },
     {
       "local_id": "w-7090919-base",
       "name_vi": "Xã Ninh Điền",
-      "parent_qid": "Q5088017",
+      "parent_qid": "Q5088023",
       "classification": "assigned-item-only",
       "status": "clear"
     },
@@ -18475,14 +18475,14 @@
     {
       "local_id": "w-8032111-base",
       "name_vi": "Xã Tân Nhuận Đông",
-      "parent_qid": "Q5088022",
+      "parent_qid": "Q5088012",
       "classification": "assigned-item-only",
       "status": "clear"
     },
     {
       "local_id": "w-8032105-base",
       "name_vi": "Xã Tân Phú Trung",
-      "parent_qid": "Q5088022",
+      "parent_qid": "Q5088012",
       "classification": "assigned-item-only",
       "status": "clear"
     },
@@ -18741,35 +18741,35 @@
     {
       "local_id": "w-8051901-base",
       "name_vi": "Thị trấn An Châu",
-      "parent_qid": "Q5088015",
+      "parent_qid": "Q1927178",
       "classification": "no-broad-district-candidate",
       "status": "clear"
     },
     {
       "local_id": "w-8051905-base",
       "name_vi": "Xã Cần Đăng",
-      "parent_qid": "Q5088015",
+      "parent_qid": "Q1927178",
       "classification": "assigned-item-only",
       "status": "clear"
     },
     {
       "local_id": "w-8051907-base",
       "name_vi": "Xã Vĩnh Hanh",
-      "parent_qid": "Q5088015",
+      "parent_qid": "Q1927178",
       "classification": "assigned-item-only",
       "status": "clear"
     },
     {
       "local_id": "w-8051913-base",
       "name_vi": "Xã Bình Hòa",
-      "parent_qid": "Q5088015",
+      "parent_qid": "Q1927178",
       "classification": "no-broad-district-candidate",
       "status": "clear"
     },
     {
       "local_id": "w-8051915-base",
       "name_vi": "Xã Vĩnh An",
-      "parent_qid": "Q5088015",
+      "parent_qid": "Q1927178",
       "classification": "no-broad-district-candidate",
       "status": "clear"
     },
