@@ -7370,6 +7370,22 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v68.json", "role": "saved sixteenth exhaustive-batch live search and entity evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-11.120",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10810305", "Q135000969"], "local_id": "w-15412-2025-07-01", "mapping_note": "current Quý Lộc commune selects Q135000969; release Q10810305 to the pre-2025 Yên Định township", "outcome": "assign", "rationale": "Q135000969 owns the current `Quý Lộc` article and has the current Thanh Hóa province parent. Q10810305 instead retains the former-township description, Yên Định district parent, historical coordinates, and GeoNames 8550325.", "wikidata_qid": "Q135000969"},
+        {"candidate_qids_checked": ["Q10787530", "Q10838038", "Q138637639"], "local_id": "w-08773-2025-07-01", "mapping_note": "current Yên Lãng commune selects Q10787530; release Q10838038 to the unrelated pre-2025 Thanh Sơn commune", "outcome": "assign", "rationale": "Q10787530 owns the current `Yên Lãng, Phú Thọ` article and represents Lãng Công, the primary predecessor of the current commune formed with Quang Yên. Q10838038 instead retains the former Thanh Sơn district parent, historical coordinates, and GeoNames 8225360 for the different old Yên Lãng that merged into Hương Cần.", "wikidata_qid": "Q10787530"}
+      ],
+      "reviewed_at": "2026-09-11T14:39:51Z",
+      "selection": {"input_status": "exhaustive-predecessor-gap-review-v69", "sample_numbers": [11, 41]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-11T14:39:51Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, redirects, and revision history", "retrieved_at": "2026-09-11T14:39:51Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced composition distinguishing the current Quý Lộc and Yên Lãng mergers from their historical components"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v69.json", "role": "saved seventeenth exhaustive-batch live search and entity evidence"}
+      ]
     }
   ],
   "schema_version": 1,

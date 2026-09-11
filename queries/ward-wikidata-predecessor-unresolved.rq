@@ -1867,7 +1867,6 @@ WHERE {
     "Quoi Thien"@en
     "Quy Hoa"@en
     "Quy Hop"@en
-    "Quy Loc"@en
     "Quy Mong"@en
     "Quy Nhat"@en
     "Quyet Tam"@en
@@ -6604,7 +6603,6 @@ WHERE {
     "Quoi Thien"@vi
     "Quy Hoa"@vi
     "Quy Hop"@vi
-    "Quy Loc"@vi
     "Quy Mong"@vi
     "Quy Mông"@vi
     "Quy Nhat"@vi
@@ -6625,7 +6623,6 @@ WHERE {
     "Quách Phẩm"@vi
     "Quán Triều"@vi
     "Quý Hòa"@vi
-    "Quý Lộc"@vi
     "Quản Bạ"@vi
     "Quảng Bạch"@vi
     "Quảng Bị"@vi
@@ -7540,7 +7537,6 @@ WHERE {
     "Thị trấn Phủ Thông"@vi
     "Thị trấn Pơng Drang"@vi
     "Thị trấn Quang Minh"@vi
-    "Thị trấn Quý Lộc"@vi
     "Thị trấn Quảng Hà"@vi
     "Thị trấn Quảng Phú"@vi
     "Thị trấn Quảng Uyên"@vi
@@ -12891,7 +12887,6 @@ WHERE {
     "Quoi Thien"@en
     "Quy Hoa"@en
     "Quy Hop"@en
-    "Quy Loc"@en
     "Quy Mong"@en
     "Quy Nhat"@en
     "Quyet Tam"@en
@@ -17628,7 +17623,6 @@ WHERE {
     "Quoi Thien"@vi
     "Quy Hoa"@vi
     "Quy Hop"@vi
-    "Quy Loc"@vi
     "Quy Mong"@vi
     "Quy Mông"@vi
     "Quy Nhat"@vi
@@ -17649,7 +17643,6 @@ WHERE {
     "Quách Phẩm"@vi
     "Quán Triều"@vi
     "Quý Hòa"@vi
-    "Quý Lộc"@vi
     "Quản Bạ"@vi
     "Quảng Bạch"@vi
     "Quảng Bị"@vi
@@ -18564,7 +18557,6 @@ WHERE {
     "Thị trấn Phủ Thông"@vi
     "Thị trấn Pơng Drang"@vi
     "Thị trấn Quang Minh"@vi
-    "Thị trấn Quý Lộc"@vi
     "Thị trấn Quảng Hà"@vi
     "Thị trấn Quảng Phú"@vi
     "Thị trấn Quảng Uyên"@vi

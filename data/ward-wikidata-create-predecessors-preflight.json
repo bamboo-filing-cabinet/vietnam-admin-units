@@ -7,33 +7,33 @@
     "wikidata_write_performed": false
   },
   "input_fingerprints": {
-    "manifest_content_sha256": "ad33fb9a3fb37805044380ba95e486c0673681fa0f399c23a39d0a769e81ecdb",
-    "data/ward-wikidata-predecessor-unresolved-candidates.json": "d9dac302e5734e40e1c1f77ad4cbc0b51e6979f3c59b069fc0ec808be19d7161",
-    "data/ward-wikidata-predecessor-article-candidates.json": "3eb3c4612628e814b4f173f5dee5d75fdb167def3239d65c4c8be10a287023f0",
-    "data/ward-wikidata-predecessor-context-candidates.json": "237ad6ce84eb99a01540cae5f414a6cc416c378b263393ac4eb04efce1f459b1",
-    "data/ward-wikidata-predecessor-geonames-candidates.json": "5c1208e2d9cdc29457aad2d28fa4476fa8d34249a0d375ba14756cbe12dab865",
-    "data/ward-wikidata-predecessor-gap-review-progress.json": "957cd45e948a29db1bd8a57ef42467e1fdfe95d75a1a430f77d2f78d31d584b6"
+    "manifest_content_sha256": "c1de56b430aafb2e08fecb6aa742f88f2d00a962bffb38319848b442916f6846",
+    "data/ward-wikidata-predecessor-unresolved-candidates.json": "bf7381bf187c8cce6a84d4734a58ede3a78e19abdf725d5178f0a3b0eefe41aa",
+    "data/ward-wikidata-predecessor-article-candidates.json": "c3755be46493e2f5c20005f5d678c5421c0487be039e593d2d00c77502a9f0b7",
+    "data/ward-wikidata-predecessor-context-candidates.json": "53cbe93217a63bdf88def22ca4f9fd270a92e88007cc66e5aab1dcb354408924",
+    "data/ward-wikidata-predecessor-geonames-candidates.json": "f23f9a5eeac67eb9c5b6097233ac01e0d41affbc84e504239dc75e867a60b556",
+    "data/ward-wikidata-predecessor-gap-review-progress.json": "00f49f7143ac3318a18ff4d3e6b6b2b4734cac9ae275093425950f1267961bb8"
   },
   "evidence": {
-    "qlever_retrieved_at": "2026-09-11T14:20:21Z",
-    "action_api_retrieved_at": "2026-09-11T14:20:21Z",
+    "qlever_retrieved_at": "2026-09-11T14:43:32Z",
+    "action_api_retrieved_at": "2026-09-11T14:43:32Z",
     "age_hours_at_check": null,
     "max_age_hours": null
   },
   "audit": {
-    "items": 2966,
-    "clear_items": 2966,
+    "items": 2962,
+    "clear_items": 2962,
     "needs_review_items": 0,
     "fresh": true,
-    "reviewed_queue_rows": 800,
-    "pending_queue_rows": 594,
-    "unreviewed_current_rows": 594,
+    "reviewed_queue_rows": 850,
+    "pending_queue_rows": 544,
+    "unreviewed_current_rows": 544,
     "review_complete": false,
     "review_creation_authorized": false,
     "upload_ready": false
   },
   "issues": [
-    "EXHAUSTIVE-REVIEW-INCOMPLETE 594/1394 queue rows pending; 594 current rows unreviewed"
+    "EXHAUSTIVE-REVIEW-INCOMPLETE 544/1394 queue rows pending; 544 current rows unreviewed"
   ],
   "items": [
     {
@@ -2830,13 +2830,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-3030731-base",
-      "name_vi": "Xã Phổng Ly",
-      "parent_qid": "Q430789",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-3030737-base",
       "name_vi": "Xã Mường Khiêng",
       "parent_qid": "Q430789",
@@ -4246,13 +4239,6 @@
     {
       "local_id": "w-2151317-base",
       "name_vi": "Xã Phú Lạc",
-      "parent_qid": "Q5209042",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-2151321-base",
-      "name_vi": "Xã Phú Thịnh",
       "parent_qid": "Q5209042",
       "classification": "no-broad-district-candidate",
       "status": "clear"
@@ -5968,13 +5954,6 @@
     {
       "local_id": "w-2171923-base",
       "name_vi": "Xã Tân Lập",
-      "parent_qid": "Q7710374",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-2171927-base",
-      "name_vi": "Xã Yên Lãng",
       "parent_qid": "Q7710374",
       "classification": "no-broad-district-candidate",
       "status": "clear"
@@ -9372,13 +9351,6 @@
       "name_vi": "Xã Lĩnh Toại",
       "parent_qid": "Q5636448",
       "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
-      "local_id": "w-4013513-base",
-      "name_vi": "Thị trấn Quý Lộc",
-      "parent_qid": "Q8052188",
-      "classification": "assigned-item-only",
       "status": "clear"
     },
     {

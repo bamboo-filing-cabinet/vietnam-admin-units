@@ -1372,6 +1372,25 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-11T14:15:59Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, and extracts", "retrieved_at": "2026-09-11T14:15:59Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-11.63",
+      "selection": {"method": "frozen exhaustive review queue batch", "seed": "2026-09-10-predecessor-gap-exhaustive-review-v69", "population": 3043, "eligible_population": 1394, "sample_size": 50, "sample_numbers": [11, 22, 41, 44], "related_current_corrections": ["w-15412-2025-07-01", "w-08773-2025-07-01"]},
+      "reviewed_at": "2026-09-11T14:39:51Z",
+      "decisions": [
+        {"local_id": "w-4013513-base", "name_vi": "Thị trấn Quý Lộc", "outcome": "assign", "wikidata_qid": "Q10810305", "candidate_qids_checked": ["Q10810305", "Q135000969"], "mapping_note": "Q10810305 retains the former-township description, Yên Định district parent, historical coordinates, and GeoNames 8550325; Q135000969 owns the distinct current Quý Lộc commune article"},
+        {"local_id": "w-2151321-base", "name_vi": "Xã Phú Thịnh", "outcome": "assign", "wikidata_qid": "Q31987982", "candidate_qids_checked": ["Q2367140", "Q2570219", "Q10806110", "Q10806111", "Q10806113", "Q10806114", "Q10806117", "Q10806118", "Q10806119", "Q31987982"], "mapping_note": "Q31987982 is an exact GeoNames-imported administrative item whose coordinates and GeoNames 9645359 match the former Phú Thịnh in Đại Từ; Q10806119 owns the distinct current merged commune article"},
+        {"local_id": "w-2171927-base", "name_vi": "Xã Yên Lãng", "outcome": "assign", "wikidata_qid": "Q10838038", "candidate_qids_checked": ["Q10787530", "Q10838037", "Q10838038", "Q16481480", "Q29550158", "Q138637639"], "mapping_note": "Q10838038 retains the former Thanh Sơn district parent, historical coordinates, and GeoNames 8225360; Q10787530 owns the current Yên Lãng, Phú Thọ article for the separate successor formed from Lãng Công and Quang Yên"},
+        {"local_id": "w-3030731-base", "name_vi": "Xã Phổng Ly", "outcome": "assign", "wikidata_qid": "Q131323915", "candidate_qids_checked": ["Q10825426", "Q131323915"], "mapping_note": "Q131323915 owns the exact former Phổng Ly article, whose revision history documents its February 2025 formation in Thuận Châu before the article redirected to the current Thuận Châu successor"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v69.json", "role": "saved seventeenth exhaustive-batch live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames record used to validate the historical Phú Thịnh identity"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced 2025 composition used to distinguish current successors from their historical components"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-11T14:39:51Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, redirects, and revision history", "retrieved_at": "2026-09-11T14:39:51Z"}
+      ]
     }
   ]
 }
