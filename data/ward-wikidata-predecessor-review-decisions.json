@@ -1441,6 +1441,26 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-11T16:00:19Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and historical page metadata", "retrieved_at": "2026-09-11T16:00:19Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-11.67",
+      "selection": {"method": "frozen exhaustive review queue batch", "seed": "2026-09-10-predecessor-gap-exhaustive-review-v73", "population": 3043, "eligible_population": 1394, "sample_size": 50, "sample_numbers": [16, 18, 32, 34, 35], "related_current_corrections": ["w-14434-2025-07-01", "w-15043-2025-07-01", "w-15664-2025-07-01", "w-16171-2025-07-01"]},
+      "reviewed_at": "2026-09-11T16:38:36Z",
+      "decisions": [
+        {"local_id": "w-4013303-base", "name_vi": "Xã Ba Đình", "outcome": "assign", "wikidata_qid": "Q11839350", "candidate_qids_checked": ["Q11839350", "Q135114131"], "mapping_note": "Q11839350 retains the former Nga Sơn district parent, historical coordinates, and GeoNames 8550388; Q135114131 owns the current Ba Đình article documenting the 2025 merger of Nga Vịnh, Nga Trường, Nga Thiện and Ba Đình"},
+        {"local_id": "w-4014701-base", "name_vi": "Thị trấn Triệu Sơn", "outcome": "assign", "wikidata_qid": "Q10828176", "candidate_qids_checked": ["Q10828176", "Q135183578"], "mapping_note": "Q10828176 retains the township class, former Triệu Sơn district parent, historical coordinates, and GeoNames 8550247; Q135183578 owns the current Triệu Sơn article documenting the 2025 merger of the township with Minh Sơn, Dân Lực, Dân Lý and Dân Quyền"},
+        {"local_id": "w-4032925-base", "name_vi": "Xã Đông Sơn", "outcome": "assign", "wikidata_qid": "Q32598518", "candidate_qids_checked": ["Q32598518", "Q32598526"], "mapping_note": "Q32598518 is an exact-name GeoNames-imported commune item whose GeoNames 8627773 is the only Nghệ An Xã Đông Sơn record and whose coordinates match the former Đô Lương commune; Q32598526 is the Ninh Bình namesake"},
+        {"local_id": "w-4011709-base", "name_vi": "Xã Giao An", "outcome": "assign", "wikidata_qid": "Q10761469", "candidate_qids_checked": ["Q10761469", "Q135197925"], "mapping_note": "Q10761469 retains the former Lang Chánh district parent, historical coordinates, and GeoNames 8549908; Q135197925 owns the current Giao An article documenting the 2025 merger of Giao Thiện and Giao An"},
+        {"local_id": "w-4030303-base", "name_vi": "Phường Nghi Thuỷ", "outcome": "assign", "wikidata_qid": "Q31991633", "candidate_qids_checked": ["Q31991633"], "mapping_note": "Q31991633 has the ward class and GeoNames 8627882 for Phường Nghi Thủy in Nghệ An, with Cửa Lò coordinates; Phường Nghi Thuỷ is the only unit of that name and merged into current 16732"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v73.json", "role": "saved twenty-first exhaustive-batch live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate the historical Đông Sơn and Nghi Thuỷ identities"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced composition distinguishing current successors from their historical components"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-11T16:38:36Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and historical page metadata", "retrieved_at": "2026-09-11T16:38:36Z"}
+      ]
     }
   ]
 }

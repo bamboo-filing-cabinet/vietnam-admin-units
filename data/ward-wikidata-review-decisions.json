@@ -7433,6 +7433,24 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v72.json", "role": "saved twentieth exhaustive-batch live search and entity evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-11.124",
+      "decisions": [
+        {"candidate_qids_checked": ["Q10824880", "Q131459574"], "local_id": "w-14434-2025-07-01", "mapping_note": "current Thanh Sơn commune selects Q131459574; release Q10824880 to the former Thanh Sơn commune in Thị xã Kim Bảng", "outcome": "assign", "rationale": "Q131459574 owns the current `Thanh Sơn, Ninh Bình` article, whose geography borders Cúc Phương, Nho Quan, Gia Tường and Phú Sơn and whose hamlets include Văn Phú, matching the 2025 merger of Thanh Sơn, Thượng Hòa and Văn Phú in former Nho Quan. Q10824880 is instead labelled `Thanh Sơn, Kim Bảng`, is parented by Thị xã Kim Bảng, and carries Kim Bảng coordinates.", "wikidata_qid": "Q131459574"},
+        {"candidate_qids_checked": ["Q11839350", "Q135114131"], "local_id": "w-16171-2025-07-01", "mapping_note": "current Ba Đình commune selects Q135114131; release Q11839350 to the pre-2025 Nga Sơn commune", "outcome": "assign", "rationale": "Q135114131 owns the current `Ba Đình (xã)` article, which records its 16 June 2025 formation from Nga Vịnh, Nga Trường, Nga Thiện and Ba Đình. Q11839350 instead retains the former Nga Sơn district parent, historical coordinates, and GeoNames 8550388.", "wikidata_qid": "Q135114131"},
+        {"candidate_qids_checked": ["Q10828176", "Q135183578"], "local_id": "w-15664-2025-07-01", "mapping_note": "current Triệu Sơn commune selects Q135183578; release Q10828176 to the former Triệu Sơn township", "outcome": "assign", "rationale": "Q135183578 owns the current `Triệu Sơn (xã)` article, which records its 16 June 2025 formation from thị trấn Triệu Sơn and the communes Minh Sơn, Dân Lực, Dân Lý and Dân Quyền. Q10828176 instead retains the township class, former Triệu Sơn district parent, historical coordinates, and GeoNames 8550247.", "wikidata_qid": "Q135183578"},
+        {"candidate_qids_checked": ["Q10761469", "Q135197925"], "local_id": "w-15043-2025-07-01", "mapping_note": "current Giao An commune selects Q135197925; release Q10761469 to the pre-2025 Lang Chánh commune", "outcome": "assign", "rationale": "Q135197925 owns the current `Giao An` article, which records its 16 June 2025 formation from Giao Thiện and Giao An. Q10761469 instead retains the former Lang Chánh district parent, historical coordinates, and GeoNames 8549908.", "wikidata_qid": "Q135197925"}
+      ],
+      "reviewed_at": "2026-09-11T16:38:36Z",
+      "selection": {"input_status": "exhaustive-predecessor-gap-review-v73, including one current-only wrong-location correction", "sample_numbers": [3, 16, 18, 34]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-11T16:38:36Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and historical page metadata", "retrieved_at": "2026-09-11T16:38:36Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced composition distinguishing the current merged units from their historical components"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v73.json", "role": "saved twenty-first exhaustive-batch live search and entity evidence"}
+      ]
     }
   ],
   "schema_version": 1,

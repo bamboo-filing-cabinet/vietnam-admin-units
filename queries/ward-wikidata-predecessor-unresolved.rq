@@ -748,7 +748,6 @@ WHERE {
     "Giang Son Dong"@en
     "Giang Son Tay"@en
     "Giang Vo"@en
-    "Giao An"@en
     "Giao Ha"@en
     "Giao Long"@en
     "Giao Thuy"@en
@@ -2375,7 +2374,6 @@ WHERE {
     "Tri Ton"@en
     "Trieu Co"@en
     "Trieu Loc"@en
-    "Trieu Son"@en
     "Trieu Tan"@en
     "Trinh Tuong"@en
     "Tru Van Tho"@en
@@ -2882,7 +2880,6 @@ WHERE {
     "Ba Vì"@vi
     "Ba Xa"@vi
     "Ba Xuyen"@vi
-    "Ba Đình"@vi
     "Ba Đồn"@vi
     "Ba Động"@vi
     "Bac Cuong"@vi
@@ -3909,7 +3906,6 @@ WHERE {
     "Giang Sơn Đông"@vi
     "Giang Vo"@vi
     "Giang Điền"@vi
-    "Giao An"@vi
     "Giao Ha"@vi
     "Giao Hà"@vi
     "Giao Long"@vi
@@ -7588,7 +7584,6 @@ WHERE {
     "Thị trấn Tiền Hải"@vi
     "Thị trấn Tiểu Cần"@vi
     "Thị trấn Tri Tôn"@vi
-    "Thị trấn Triệu Sơn"@vi
     "Thị trấn Trung Phước"@vi
     "Thị trấn Trà Cú"@vi
     "Thị trấn Trà Lĩnh"@vi
@@ -7859,12 +7854,10 @@ WHERE {
     "Tri Tôn"@vi
     "Trieu Co"@vi
     "Trieu Loc"@vi
-    "Trieu Son"@vi
     "Trieu Tan"@vi
     "Trinh Tuong"@vi
     "Triệu Cơ"@vi
     "Triệu Lộc"@vi
-    "Triệu Sơn"@vi
     "Triệu Tân"@vi
     "Tru Van Tho"@vi
     "Truc Hung"@vi
@@ -8659,7 +8652,6 @@ WHERE {
     "Xã Ba Vinh"@vi
     "Xã Ba Vì"@vi
     "Xã Ba Xa"@vi
-    "Xã Ba Đình"@vi
     "Xã Ba Động"@vi
     "Xã Bao La"@vi
     "Xã Biên Sơn"@vi
@@ -8978,7 +8970,6 @@ WHERE {
     "Xã Giang Sơn Tây"@vi
     "Xã Giang Sơn Đông"@vi
     "Xã Giang Điền"@vi
-    "Xã Giao An"@vi
     "Xã Giao Hà"@vi
     "Xã Giao Long"@vi
     "Xã Giáp Trung"@vi
@@ -11765,7 +11756,6 @@ WHERE {
     "Giang Son Dong"@en
     "Giang Son Tay"@en
     "Giang Vo"@en
-    "Giao An"@en
     "Giao Ha"@en
     "Giao Long"@en
     "Giao Thuy"@en
@@ -13392,7 +13382,6 @@ WHERE {
     "Tri Ton"@en
     "Trieu Co"@en
     "Trieu Loc"@en
-    "Trieu Son"@en
     "Trieu Tan"@en
     "Trinh Tuong"@en
     "Tru Van Tho"@en
@@ -13899,7 +13888,6 @@ WHERE {
     "Ba Vì"@vi
     "Ba Xa"@vi
     "Ba Xuyen"@vi
-    "Ba Đình"@vi
     "Ba Đồn"@vi
     "Ba Động"@vi
     "Bac Cuong"@vi
@@ -14926,7 +14914,6 @@ WHERE {
     "Giang Sơn Đông"@vi
     "Giang Vo"@vi
     "Giang Điền"@vi
-    "Giao An"@vi
     "Giao Ha"@vi
     "Giao Hà"@vi
     "Giao Long"@vi
@@ -18605,7 +18592,6 @@ WHERE {
     "Thị trấn Tiền Hải"@vi
     "Thị trấn Tiểu Cần"@vi
     "Thị trấn Tri Tôn"@vi
-    "Thị trấn Triệu Sơn"@vi
     "Thị trấn Trung Phước"@vi
     "Thị trấn Trà Cú"@vi
     "Thị trấn Trà Lĩnh"@vi
@@ -18876,12 +18862,10 @@ WHERE {
     "Tri Tôn"@vi
     "Trieu Co"@vi
     "Trieu Loc"@vi
-    "Trieu Son"@vi
     "Trieu Tan"@vi
     "Trinh Tuong"@vi
     "Triệu Cơ"@vi
     "Triệu Lộc"@vi
-    "Triệu Sơn"@vi
     "Triệu Tân"@vi
     "Tru Van Tho"@vi
     "Truc Hung"@vi
@@ -19676,7 +19660,6 @@ WHERE {
     "Xã Ba Vinh"@vi
     "Xã Ba Vì"@vi
     "Xã Ba Xa"@vi
-    "Xã Ba Đình"@vi
     "Xã Ba Động"@vi
     "Xã Bao La"@vi
     "Xã Biên Sơn"@vi
@@ -19995,7 +19978,6 @@ WHERE {
     "Xã Giang Sơn Tây"@vi
     "Xã Giang Sơn Đông"@vi
     "Xã Giang Điền"@vi
-    "Xã Giao An"@vi
     "Xã Giao Hà"@vi
     "Xã Giao Long"@vi
     "Xã Giáp Trung"@vi
