@@ -79,6 +79,19 @@
           "reason_code": "item-now-owns-current-trung-tam-article-and-no-separate-historical-ward-item-exists"
         }
       ]
+    },
+    {
+      "batch_number": 6,
+      "decisions": [
+        {
+          "sample_number": 36,
+          "local_id": "w-2131525-base",
+          "outcome": "no-distinct-item-found",
+          "supersedes": "automatic predecessor mapping to Q10823247 exposed by exhaustive review v72 sample 36",
+          "invalidated_wikidata_qid": "Q10823247",
+          "reason_code": "item-now-owns-current-lien-son-lao-cai-article-and-no-separate-historical-son-a-item-exists"
+        }
+      ]
     }
   ],
   "sources": [
@@ -109,6 +122,10 @@
     {
       "path": "data/ward-wikidata-predecessor-gap-sample-v61.json",
       "role": "saved ninth exhaustive-batch evidence exposing the repurposed current Trung Tâm item"
+    },
+    {
+      "path": "data/ward-wikidata-predecessor-gap-sample-v72.json",
+      "role": "saved twentieth exhaustive-batch evidence exposing the repurposed current Liên Sơn item"
     },
     {
       "path": "data/ward-2025-composition.json",

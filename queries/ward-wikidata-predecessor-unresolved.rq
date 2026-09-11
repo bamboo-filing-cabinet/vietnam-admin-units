@@ -1902,6 +1902,7 @@ WHERE {
     "Sin Thau"@en
     "Sinh Phinh"@en
     "Soc Son"@en
+    "Son A"@en
     "Son Binh"@en
     "Son Dien"@en
     "Son Dong"@en
@@ -6703,6 +6704,7 @@ WHERE {
     "Sin Thau"@vi
     "Sinh Phinh"@vi
     "Soc Son"@vi
+    "Son A"@vi
     "Son Binh"@vi
     "Son Dien"@vi
     "Son Dong"@vi
@@ -6778,6 +6780,7 @@ WHERE {
     "Sông Mã"@vi
     "Sông Ray"@vi
     "Sông Đốc"@vi
+    "Sơn A"@vi
     "Sơn Bình"@vi
     "Sơn Dung"@vi
     "Sơn Dương"@vi
@@ -9929,6 +9932,7 @@ WHERE {
     "Xã Sông Lô"@vi
     "Xã Sông Lũy"@vi
     "Xã Sông Ray"@vi
+    "Xã Sơn A"@vi
     "Xã Sơn Bình"@vi
     "Xã Sơn Dung"@vi
     "Xã Sơn Giang"@vi
@@ -12915,6 +12919,7 @@ WHERE {
     "Sin Thau"@en
     "Sinh Phinh"@en
     "Soc Son"@en
+    "Son A"@en
     "Son Binh"@en
     "Son Dien"@en
     "Son Dong"@en
@@ -17716,6 +17721,7 @@ WHERE {
     "Sin Thau"@vi
     "Sinh Phinh"@vi
     "Soc Son"@vi
+    "Son A"@vi
     "Son Binh"@vi
     "Son Dien"@vi
     "Son Dong"@vi
@@ -17791,6 +17797,7 @@ WHERE {
     "Sông Mã"@vi
     "Sông Ray"@vi
     "Sông Đốc"@vi
+    "Sơn A"@vi
     "Sơn Bình"@vi
     "Sơn Dung"@vi
     "Sơn Dương"@vi
@@ -20942,6 +20949,7 @@ WHERE {
     "Xã Sông Lô"@vi
     "Xã Sông Lũy"@vi
     "Xã Sông Ray"@vi
+    "Xã Sơn A"@vi
     "Xã Sơn Bình"@vi
     "Xã Sơn Dung"@vi
     "Xã Sơn Giang"@vi

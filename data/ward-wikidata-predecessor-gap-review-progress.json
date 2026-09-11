@@ -3,8 +3,8 @@
     "queued_rows": 1394,
     "reviewed_queue_rows": 1000,
     "pending_queue_rows": 394,
-    "current_manifest_rows": 2955,
-    "reviewed_current_rows": 2561,
+    "current_manifest_rows": 2956,
+    "reviewed_current_rows": 2562,
     "unreviewed_current_rows": 394,
     "unapplied_existing_rows": 0,
     "review_complete": false,
@@ -412,7 +412,7 @@
     "purpose": "exhaustive predecessor-gap review progress",
     "wikidata_write_performed": false
   },
-  "generated_at": "2026-09-11T16:03:37Z",
+  "generated_at": "2026-09-11T16:18:14Z",
   "input_fingerprints": {
     "data/ward-wikidata-predecessor-gap-review-queue.json": "4f066d4e0615d3ff8dd7024229ad7bd8cda36334d646bba7102c2e78d58f52ff",
     "data/ward-wikidata-predecessor-gap-sample-decisions.json": "270c322e7842056712fd29c48860a8507a548bbff1f79343e596aa72d3fa0d9d",
@@ -486,7 +486,7 @@
     "data/ward-wikidata-predecessor-gap-sample-v69-decisions.json": "63842ac75c4ce1fd9947c6a52514c189f107399a202778c59c40e3903b659740",
     "data/ward-wikidata-predecessor-gap-sample-v70-decisions.json": "a62f13b953503210550ebf030a15bc51077fc931f040b6c7ef08f0f3b94e3f09",
     "data/ward-wikidata-predecessor-gap-sample-v71-decisions.json": "299899364ba8db7a30c2ce03ca6d87e1606daa3b8195d544b501efaf5fd24829",
-    "data/ward-wikidata-predecessor-gap-sample-v72-decisions.json": "08ec160a79fdd672925941c843c6bcb1446e6ebe3413c160c8000d5caabe1cf8",
-    "data/ward-wikidata-predecessor-gap-review-corrections.json": "d0ae01ee8029c0fd0bd641377a54cb2ab5c4652487949f3925c0ca7faa055109"
+    "data/ward-wikidata-predecessor-gap-sample-v72-decisions.json": "c1066b4eb4b1603cd57549b0b8636a86a8a66e83c052c0d7d7201f906fedbaf2",
+    "data/ward-wikidata-predecessor-gap-review-corrections.json": "22156fe3d62ee839b8d0faf31eac5d43407553402963946dba2394ca9f349052"
   }
 }

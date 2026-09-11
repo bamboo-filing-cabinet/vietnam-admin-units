@@ -630,7 +630,7 @@ w-04609-2025-07-01,04609,Xã Phình Hồ,Xã,15,2025-07-01,,Q10805758,existing,m
 w-04630-2025-07-01,04630,Xã Tú Lệ,Xã,15,2025-07-01,,Q10831293,existing,matched,Q10831293,qlever-label+current-province+batched-wbgetentities
 w-04636-2025-07-01,04636,Xã Gia Hội,Xã,15,2025-07-01,,Q10761337,existing,matched,Q10761337|Q10805897,qlever-label+current-province+batched-wbgetentities
 w-04651-2025-07-01,04651,Xã Sơn Lương,Xã,15,2025-07-01,,Q10823337,existing,matched,Q10823337,qlever-label+current-province+batched-wbgetentities
-w-04660-2025-07-01,04660,Xã Liên Sơn,Xã,15,2025-07-01,,,,reviewed-unresolved,Q2320480|Q10786557|Q10786558|Q10786559|Q10786560|Q10786561|Q10786610|Q30923256,review 2026-09-11.123: current Liên Sơn commune remains unresolved for creation; release Q30923256 to the former Văn Chấn agricultural township
+w-04660-2025-07-01,04660,Xã Liên Sơn,Xã,15,2025-07-01,,Q10823247,existing,manual,Q2320480|Q10786557|Q10786558|Q10786559|Q10786560|Q10786561|Q10786610|Q10823247|Q30923256,review 2026-09-11.123: current Liên Sơn commune selects Q10823247; release Q30923256 to the former Văn Chấn agricultural township
 w-04663-2025-07-01,04663,Phường Trung Tâm,Phường,15,2025-07-01,,Q10828398,existing,manual,Q10828396|Q10828398,review 2026-09-10.113: current Trung Tâm ward selects Q10828398; replace unrelated Q10828396 and retire Q10828398 from the historical Trung Tâm ward
 w-04672-2025-07-01,04672,Xã Văn Chấn,Xã,15,2025-07-01,,Q10823389,existing,matched,Q10823389,qlever-label+current-province+batched-wbgetentities
 w-04681-2025-07-01,04681,Phường Cầu Thia,Phường,15,2025-07-01,,Q10752402,existing,manual,Q10752402,review 2026-09-02.09: current Lào Cai page selects Q10752402 despite missing P131
@@ -5638,7 +5638,7 @@ w-2131343-base,04771,Xã Vĩnh Kiên,Xã,141,,2025-06-30,Q10833592,existing,veri
 w-2131345-base,04774,Xã Yên Bình,Xã,141,,2024-11-30,,,deferred-historical,,
 w-2131347-base,04780,Xã Hán Đà,Xã,141,,2025-06-30,Q10770836,existing,verified,Q10770836,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-2131349-base,04786,Xã Đại Minh,Xã,141,,2025-06-30,Q10841116,existing,verified,Q10841116,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-2131501-base,04621,Thị trấn NT Liên Sơn,Thị trấn,140,,2025-06-30,Q30923256,existing,manual,Q30923256,"predecessor review 2026-09-11.66: Q30923256 retains the township class, former Văn Chấn parent, historical coordinates, and GeoNames 8526358 for Thị Trấn Nông Trường Liên Sơn; the distinct current Liên Sơn commune has no separate item or article and returns to reviewed CREATE"
+w-2131501-base,04621,Thị trấn NT Liên Sơn,Thị trấn,140,,2025-06-30,Q30923256,existing,manual,Q30923256,"predecessor review 2026-09-11.66: Q30923256 retains the township class, former Văn Chấn parent, historical coordinates, and GeoNames 8526358 for Thị Trấn Nông Trường Liên Sơn; Q10823247 owns the current Liên Sơn, Lào Cai article and moves to the current commune, so former Sơn A returns to a reviewed creation gap"
 w-2131503-base,04624,Xã Nghĩa Lộ,Xã,133,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
 w-2131505-base,04627,Thị trấn NT Trần Phú,Thị trấn,140,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
 w-2131507-base,04630,Xã Tú Lệ,Xã,140,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
@@ -5650,7 +5650,7 @@ w-2131517-base,04648,Xã Nậm Lành,Xã,140,,2025-06-30,Q10802152,existing,veri
 w-2131519-base,04651,Xã Sơn Lương,Xã,140,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
 w-2131521-base,04654,Xã Suối Quyền,Xã,140,,2025-06-30,Q10822294,existing,verified,Q10822294,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-2131523-base,04645,Xã An Lương,Xã,140,,2025-06-30,Q10733221,existing,verified,Q10733221,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-2131525-base,04660,Xã Sơn A,Xã,133,,2025-06-30,Q10823247,existing,verified,Q10823247,predecessor exact-folded-name+historical-district+ward-class+batched-wbgetentities
+w-2131525-base,04660,Xã Sơn A,Xã,133,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
 w-2131527-base,04294,Xã Nghĩa Lợi,Xã,133,,2025-06-30,Q32288081,existing,manual,Q7022345|Q10798790|Q10828396|Q10828398|Q32288081,"predecessor review 2026-09-10.55: Q32288081 is a GeoNames-imported commune item created from the Cebuano Xã Nghĩa Lợi article; its exact identity, Nghĩa Lộ-area coordinates, and GeoNames 8526376 match the former commune. Q10828398 owns the current Trung Tâm article, while Q10828396 is the unrelated former Trung Tâm commune in Lục Yên"
 w-2131529-base,04297,Xã Nghĩa Phúc,Xã,133,,2025-06-30,Q10798813,existing,verified,Q10798812|Q10798813|Q32288205,predecessor exact-vietnamese-name+exact-tier+historical-parent-or-successor-context+batched-wbgetentities
 w-2131531-base,04663,Xã Phù Nham,Xã,133,,2025-06-30,Q10805809,existing,verified,Q10805809,predecessor exact-folded-name+historical-district+ward-class+batched-wbgetentities

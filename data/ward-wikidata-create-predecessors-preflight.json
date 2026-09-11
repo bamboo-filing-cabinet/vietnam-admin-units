@@ -7,22 +7,22 @@
     "wikidata_write_performed": false
   },
   "input_fingerprints": {
-    "manifest_content_sha256": "4d187e2829280c3888b4af6a5c06cc423f463778831f6fccc0bd33b6e33a339a",
-    "data/ward-wikidata-predecessor-unresolved-candidates.json": "03781b10bb9ed87342710912d201b359e6981b7bf3f3be2f7454a500e9564a3f",
-    "data/ward-wikidata-predecessor-article-candidates.json": "d54fdfc268ea1377b3f79e1aa00b11112c18c2cfc9c379a9baa3fb687ed2b8f4",
-    "data/ward-wikidata-predecessor-context-candidates.json": "ef110192c1a16a80ee28255a4c7a9302d661ec7d232c3a4801e2c21b5d43ce05",
-    "data/ward-wikidata-predecessor-geonames-candidates.json": "e6dee1ddffbf6784b1b52403f5c4c97ac88faa5708ba1786b1261ba5ab15458f",
-    "data/ward-wikidata-predecessor-gap-review-progress.json": "b41a16e3e1d19280d9d9a9ed0b8f2f4feb3d76d659d3c185a94fb2d57b73e61d"
+    "manifest_content_sha256": "a5385581909b122daea2be9cf0b615a80aabc3dff9ea08d51d111cc9a3737748",
+    "data/ward-wikidata-predecessor-unresolved-candidates.json": "ce9afad13732a3633e20d1febbc8af35b88379ace9ca980e025c98b7e6fffe33",
+    "data/ward-wikidata-predecessor-article-candidates.json": "c5bbf94e4e944003b1abb409130a573ba01588f18b5487fe75800eef8e613644",
+    "data/ward-wikidata-predecessor-context-candidates.json": "5aa2cefaab451797ec559142befffa8b9143ce78c5bd6b6e4cf4881e143438f4",
+    "data/ward-wikidata-predecessor-geonames-candidates.json": "49c95b3db4030807aceadd151c4c5282e5ce99b31e4dba225f46d9088cb98375",
+    "data/ward-wikidata-predecessor-gap-review-progress.json": "5327c98272e402aceb7f1e7cd96ecee70d9ed0b86f6d0c2e6db4fbda975ea796"
   },
   "evidence": {
-    "qlever_retrieved_at": "2026-09-11T16:03:17Z",
-    "action_api_retrieved_at": "2026-09-11T16:03:18Z",
+    "qlever_retrieved_at": "2026-09-11T16:18:01Z",
+    "action_api_retrieved_at": "2026-09-11T16:18:01Z",
     "age_hours_at_check": null,
     "max_age_hours": null
   },
   "audit": {
-    "items": 2955,
-    "clear_items": 2955,
+    "items": 2956,
+    "clear_items": 2956,
     "needs_review_items": 0,
     "fresh": true,
     "reviewed_queue_rows": 1000,
@@ -3505,6 +3505,13 @@
       "local_id": "w-2131519-base",
       "name_vi": "Xã Sơn Lương",
       "parent_qid": "Q7913239",
+      "classification": "assigned-item-only",
+      "status": "clear"
+    },
+    {
+      "local_id": "w-2131525-base",
+      "name_vi": "Xã Sơn A",
+      "parent_qid": "Q7022345",
       "classification": "assigned-item-only",
       "status": "clear"
     },
