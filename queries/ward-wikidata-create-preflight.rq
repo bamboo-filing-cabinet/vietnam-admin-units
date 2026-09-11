@@ -5,13 +5,21 @@ SELECT DISTINCT ?item ?matchedTerm ?matchKind
 WHERE {
   {
     VALUES ?matchedTerm {
+    "Lien Son"@en
+    "Liên Sơn"@en
     "Vu Ban"@en
     "Vụ Bản"@en
+    "Xa Lien Son"@en
     "Xa Vu Ban"@en
+    "Xã Liên Sơn"@en
     "Xã Vụ Bản"@en
+    "Lien Son"@vi
+    "Liên Sơn"@vi
     "Vu Ban"@vi
     "Vụ Bản"@vi
+    "Xa Lien Son"@vi
     "Xa Vu Ban"@vi
+    "Xã Liên Sơn"@vi
     "Xã Vụ Bản"@vi
     }
     ?item rdfs:label ?matchedTerm .
@@ -20,13 +28,21 @@ WHERE {
   UNION
   {
     VALUES ?matchedTerm {
+    "Lien Son"@en
+    "Liên Sơn"@en
     "Vu Ban"@en
     "Vụ Bản"@en
+    "Xa Lien Son"@en
     "Xa Vu Ban"@en
+    "Xã Liên Sơn"@en
     "Xã Vụ Bản"@en
+    "Lien Son"@vi
+    "Liên Sơn"@vi
     "Vu Ban"@vi
     "Vụ Bản"@vi
+    "Xa Lien Son"@vi
     "Xa Vu Ban"@vi
+    "Xã Liên Sơn"@vi
     "Xã Vụ Bản"@vi
     }
     ?item skos:altLabel ?matchedTerm .

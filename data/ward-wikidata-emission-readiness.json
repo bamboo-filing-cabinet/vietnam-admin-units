@@ -7,21 +7,21 @@
   },
   "input_fingerprints": {
     "data/ward-history.json": "c5d42635f1994be730cd6ebadaba3f0b1b7beb26cf4609114c8a7d7d96e80ba6",
-    "mappings/wards-qid.csv": "0dcc53ecb38386322d5086e715f3f77f9282228ff10f21860514dc743fcf8084"
+    "mappings/wards-qid.csv": "067d82558d3b8dfad72eb124d07df6e8f92e7783b41e0381ecbe0fb8908ed7b6"
   },
   "audit": {
     "entities": 14544,
     "current_entities": 3321,
-    "current_qids": 3320,
-    "current_item_creation_gaps": 1,
+    "current_qids": 3319,
+    "current_item_creation_gaps": 2,
     "historical_entities": 11223,
-    "historical_qids": 7075,
+    "historical_qids": 7080,
     "reform_edges": 10586,
     "distinct_reform_predecessors": 10035,
-    "reconciled_reform_predecessors": 7075,
+    "reconciled_reform_predecessors": 7080,
     "distinct_reform_successors": 3316,
-    "reconciled_reform_successors": 3315,
-    "reform_edges_with_both_qids": 7468,
+    "reconciled_reform_successors": 3314,
+    "reform_edges_with_both_qids": 7470,
     "reform_edges_with_official_reference": 10586
   },
   "gates": {
@@ -29,17 +29,17 @@
     "lineage_endpoint_qids_ready": false,
     "official_event_references_ready": true,
     "ward_lineage_emit_ready": false,
-    "current_creation_upload_ready": true
+    "current_creation_upload_ready": false
   },
   "blockers": [
     {
       "gate": "current_successor_qids",
-      "missing": 1,
+      "missing": 2,
       "resolution": "create the reviewed current items and record their QIDs in mappings/wards-qid.csv"
     },
     {
       "gate": "historical_predecessor_qids",
-      "missing": 2960,
+      "missing": 2955,
       "resolution": "reconcile the immediate pre-2025 predecessor set before lineage emission"
     }
   ],
@@ -50,7 +50,15 @@
     "clear_items": 1,
     "duplicate_items": 0,
     "needs_review_items": 0,
-    "issues": [],
-    "upload_ready": true
+    "issues": [
+      "saved preflight query is missing or stale",
+      "preflight input fingerprint is stale: mappings/wards-qid.csv",
+      "preflight input fingerprint is stale: data/ward-wikidata-review-decisions.json",
+      "preflight query fingerprint is stale",
+      "preflight item count does not match CREATE manifest",
+      "preflight item rows do not exactly match CREATE manifest",
+      "preflight upload-ready flag does not match item rows"
+    ],
+    "upload_ready": false
   }
 }

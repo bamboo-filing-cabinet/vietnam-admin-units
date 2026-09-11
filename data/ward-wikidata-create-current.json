@@ -10,24 +10,46 @@
   },
   "input_fingerprints": {
     "data/ward-history.json": "c5d42635f1994be730cd6ebadaba3f0b1b7beb26cf4609114c8a7d7d96e80ba6",
-    "mappings/wards-qid.csv": "0dcc53ecb38386322d5086e715f3f77f9282228ff10f21860514dc743fcf8084",
+    "mappings/wards-qid.csv": "067d82558d3b8dfad72eb124d07df6e8f92e7783b41e0381ecbe0fb8908ed7b6",
     "mappings/provinces-qid.csv": "fac70b6899cc23c1e9514d025b14b45fc807f80a9cbf542731cef6341b72d828",
     "data/ward-legal-sources.json": "cf616087017ce369d504ce34a2274d4f5a5ff0ba56139cdb968051ee3e5c84a7",
-    "data/ward-wikidata-review-decisions.json": "40b50bbad16d14eef965f2f9c90d1b5780c6cecbd83984437fea25863474079a"
+    "data/ward-wikidata-review-decisions.json": "c6bae587d4211ddeb17cda97c4ae123484266f20599119f0b744a06ab2f259bc"
   },
   "audit": {
-    "items": 1,
+    "items": 2,
     "statement_files": 1,
     "review_groups": 1,
     "type_counts": {
-      "Xã": 1
+      "Xã": 2
     },
-    "province_count": 1,
-    "official_reference_urls": 1
+    "province_count": 2,
+    "official_reference_urls": 2
   },
   "items": [
     {
       "sequence": 1,
+      "review_group": 1,
+      "local_id": "w-04660-2025-07-01",
+      "gso_code": "04660",
+      "name_vi": "Xã Liên Sơn",
+      "description_vi": "xã thuộc tỉnh Lào Cai, Việt Nam, thành lập năm 2025",
+      "loai_hinh": "Xã",
+      "type_qid": "Q2389082",
+      "country_qid": "Q881",
+      "parent_code": "15",
+      "parent_name_vi": "Tỉnh Lào Cai",
+      "parent_qid": "Q36446",
+      "valid_from": "2025-07-01",
+      "creating_instrument_id": "1673/NQ-UBTVQH15@2025-07-01",
+      "reference_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf",
+      "candidate_qids_checked": [
+        "Q30923256"
+      ],
+      "review_note": "current Liên Sơn commune remains unresolved for creation; release Q30923256 to the former Văn Chấn agricultural township",
+      "review_rationale": "The current Liên Sơn commune was formed from the former NT Liên Sơn township, Sơn A, and Nghĩa Phúc, but no separate current item or article was found. Q30923256 retains the township class, former Văn Chấn parent, old coordinates, and GeoNames 8526358 for `Thị Trấn Nông Trường Liên Sơn`."
+    },
+    {
+      "sequence": 2,
       "review_group": 1,
       "local_id": "w-13741-2025-07-01",
       "gso_code": "13741",

@@ -1422,6 +1422,25 @@
         {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-11T15:43:45Z"},
         {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "pageprops, extracts, and revision history", "retrieved_at": "2026-09-11T15:43:45Z"}
       ]
+    },
+    {
+      "batch_id": "2026-09-11.66",
+      "selection": {"method": "frozen exhaustive review queue batch", "seed": "2026-09-10-predecessor-gap-exhaustive-review-v72", "population": 3043, "eligible_population": 1394, "sample_size": 50, "sample_numbers": [17, 36, 37, 44], "related_current_corrections": ["w-04660-2025-07-01", "w-15001-2025-07-01", "w-25531-2025-07-01"]},
+      "reviewed_at": "2026-09-11T16:00:19Z",
+      "decisions": [
+        {"local_id": "w-3050303-base", "name_vi": "Xã Nánh Nghê", "outcome": "assign", "wikidata_qid": "Q61128011", "candidate_qids_checked": ["Q10796367", "Q61128011"], "mapping_note": "Q61128011 has the exact Nánh Nghê name, former Đà Bắc parent and description, and historical Nánh Nghê article; the old commune merged into current Đức Nhàn"},
+        {"local_id": "w-2131501-base", "name_vi": "Thị trấn NT Liên Sơn", "outcome": "assign", "wikidata_qid": "Q30923256", "candidate_qids_checked": ["Q30923256"], "mapping_note": "Q30923256 retains the township class, former Văn Chấn parent, historical coordinates, and GeoNames 8526358 for Thị Trấn Nông Trường Liên Sơn; the distinct current Liên Sơn commune has no separate item or article and returns to reviewed CREATE"},
+        {"local_id": "w-4011105-base", "name_vi": "Xã Trung Hạ", "outcome": "assign", "wikidata_qid": "Q10828315", "candidate_qids_checked": ["Q10828315", "Q135184445"], "mapping_note": "Q10828315 retains the former Quan Sơn district parent, historical coordinates, and GeoNames 8549809; Q135184445 owns the distinct current article documenting the 2025 three-commune merger"},
+        {"local_id": "w-3030905-base", "name_vi": "Xã Xím Vàng", "outcome": "assign", "wikidata_qid": "Q32594888", "candidate_qids_checked": ["Q10836725", "Q32594888"], "mapping_note": "Q32594888 is an exact-name GeoNames-imported commune item whose coordinates and GeoNames 8545335 match the former Bắc Yên commune; Q10836725 owns the current Xím Vàng article for the broader successor formed with Hang Chú"}
+      ],
+      "sources": [
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v72.json", "role": "saved twentieth exhaustive-batch live search and entity evidence"},
+        {"path": "data/raw/geonames/VN-2026-09-04.zip", "role": "saved GeoNames records used to validate the historical Liên Sơn and Xím Vàng identities"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced composition distinguishing current successors from their historical components"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-11T16:00:19Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and historical page metadata", "retrieved_at": "2026-09-11T16:00:19Z"}
+      ]
     }
   ]
 }

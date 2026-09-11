@@ -7416,6 +7416,23 @@
         {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
         {"path": "data/ward-wikidata-predecessor-gap-sample-v71.json", "role": "saved nineteenth exhaustive-batch live search and entity evidence"}
       ]
+    },
+    {
+      "batch_id": "2026-09-11.123",
+      "decisions": [
+        {"candidate_qids_checked": ["Q30923256"], "local_id": "w-04660-2025-07-01", "mapping_note": "current Liên Sơn commune remains unresolved for creation; release Q30923256 to the former Văn Chấn agricultural township", "outcome": "retain-unresolved", "rationale": "The current Liên Sơn commune was formed from the former NT Liên Sơn township, Sơn A, and Nghĩa Phúc, but no separate current item or article was found. Q30923256 retains the township class, former Văn Chấn parent, old coordinates, and GeoNames 8526358 for `Thị Trấn Nông Trường Liên Sơn`."},
+        {"candidate_qids_checked": ["Q10828315", "Q135184445"], "local_id": "w-15001-2025-07-01", "mapping_note": "current Trung Hạ commune selects Q135184445; release Q10828315 to the pre-2025 Quan Sơn commune", "outcome": "assign", "rationale": "Q135184445 owns the current `Trung Hạ` article, which documents its June 2025 formation from Trung Tiến, Trung Xuân, and former Trung Hạ. Q10828315 instead retains the former Quan Sơn parent, historical coordinates, and GeoNames 8549809.", "wikidata_qid": "Q135184445"},
+        {"candidate_qids_checked": ["Q10830473", "Q10830475"], "local_id": "w-25531-2025-07-01", "mapping_note": "current Tân Hòa commune selects Q10830473; release unrelated Tân Thạnh commune Q10830475", "outcome": "assign", "rationale": "Q10830473 owns the current `Tân Hòa, Tây Ninh` article and has the correct Tây Ninh parent, local coordinates, and GeoNames 9081287. Q10830475 instead describes and locates a different Tân Hòa in former Tân Thạnh district, Long An.", "wikidata_qid": "Q10830473"}
+      ],
+      "reviewed_at": "2026-09-11T16:00:19Z",
+      "selection": {"input_status": "exhaustive-predecessor-gap-review-v72, including one current-only wrong-location correction", "sample_numbers": [36, 37, 48]},
+      "sources": [
+        {"endpoint": "https://www.wikidata.org/w/api.php", "method": "wbsearchentities and wbgetentities", "retrieved_at": "2026-09-11T16:00:19Z"},
+        {"endpoint": "https://vi.wikipedia.org/w/api.php", "method": "search, pageprops, extracts, and historical page metadata", "retrieved_at": "2026-09-11T16:00:19Z"},
+        {"path": "data/ward-2025-composition.json", "role": "officially sourced composition distinguishing the current merged units from their historical components"},
+        {"path": "data/ward-history.json", "role": "canonical predecessor composition"},
+        {"path": "data/ward-wikidata-predecessor-gap-sample-v72.json", "role": "saved twentieth exhaustive-batch live search and entity evidence"}
+      ]
     }
   ],
   "schema_version": 1,

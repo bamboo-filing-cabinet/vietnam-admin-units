@@ -7,21 +7,21 @@
     "wikidata_write_performed": false
   },
   "input_fingerprints": {
-    "data/ward-wikidata-create-current.json": "b7cd4f11635d78b3d2d5db14e01be1661d0772d2d1358ed1876243068d43b8be",
-    "mappings/wards-qid.csv": "0dcc53ecb38386322d5086e715f3f77f9282228ff10f21860514dc743fcf8084",
-    "data/ward-wikidata-review-decisions.json": "40b50bbad16d14eef965f2f9c90d1b5780c6cecbd83984437fea25863474079a",
+    "data/ward-wikidata-create-current.json": "6c0e45dfb26db0b57f4e31fff218d2a97ec0bf0d8f553a27e0daea24a29c6f76",
+    "mappings/wards-qid.csv": "067d82558d3b8dfad72eb124d07df6e8f92e7783b41e0381ecbe0fb8908ed7b6",
+    "data/ward-wikidata-review-decisions.json": "c6bae587d4211ddeb17cda97c4ae123484266f20599119f0b744a06ab2f259bc",
     "data/ward-wikidata-create-preflight-decisions.json": "d21a3a585e5ffeef79b2c38d2451a315098139807775e31fceaf63884dedf5d9",
-    "queries/ward-wikidata-create-preflight.rq": "57c155a1f8e84341949171c6feb3fb3b594b5f6d7cc9a1769776b5cf9e379fa9"
+    "queries/ward-wikidata-create-preflight.rq": "c0ce76b74b1a71440cffbc4b85e004c52fcca066765d328bf095785fbc541b93"
   },
   "sources": {
-    "retrieved_at": "2026-09-11T15:46:20Z",
+    "retrieved_at": "2026-09-11T16:03:52Z",
     "qlever": {
       "endpoint": "https://qlever.dev/api/wikidata",
       "query_path": "queries/ward-wikidata-create-preflight.rq",
-      "query_sha256": "57c155a1f8e84341949171c6feb3fb3b594b5f6d7cc9a1769776b5cf9e379fa9",
+      "query_sha256": "c0ce76b74b1a71440cffbc4b85e004c52fcca066765d328bf095785fbc541b93",
       "query_meta": {
-        "query-time-ms": 27,
-        "result-size-total": 8
+        "query-time-ms": 22,
+        "result-size-total": 37
       }
     },
     "wikidata_search": {
@@ -38,26 +38,693 @@
     }
   },
   "audit": {
-    "items": 1,
-    "query_terms": 8,
-    "qlever_result_rows": 8,
-    "candidate_entities_verified": 5,
-    "search_requests": 1,
+    "items": 2,
+    "query_terms": 16,
+    "qlever_result_rows": 37,
+    "candidate_entities_verified": 18,
+    "search_requests": 2,
     "article_pages_clear": 1,
-    "article_pages_linked": 0,
+    "article_pages_linked": 1,
     "article_pages_needing_review": 0,
     "item_status_counts": {
-      "clear": 1
+      "clear": 1,
+      "duplicate": 1
     },
     "candidate_disposition_counts": {
-      "rejected": 4
+      "duplicate": 1,
+      "rejected": 16
     },
     "uploadable_items": 1,
-    "upload_ready": true
+    "upload_ready": false
   },
   "items": [
     {
       "sequence": 1,
+      "local_id": "w-04660-2025-07-01",
+      "name_vi": "Xã Liên Sơn",
+      "parent_code": "15",
+      "parent_name_vi": "Tỉnh Lào Cai",
+      "status": "duplicate",
+      "article_check": {
+        "status": "duplicate",
+        "subject_pages": [
+          {
+            "title": "Liên Sơn, Lào Cai",
+            "page_id": 1252190,
+            "last_revision_id": 75291723,
+            "touched": "2026-09-09T01:43:38Z",
+            "url": "https://vi.wikipedia.org/wiki/Li%C3%AAn_S%C6%A1n,_L%C3%A0o_Cai",
+            "missing": false,
+            "disambiguation": false,
+            "wikibase_item": "Q10823247",
+            "extract": "Liên Sơn là một xã thuộc tỉnh Lào Cai, Việt Nam.",
+            "requested_title": "Liên Sơn, Lào Cai",
+            "title_source": "province-disambiguated"
+          }
+        ],
+        "tested_pages": [
+          {
+            "title": "Thị Trấn Nông Trường Liên Sơn",
+            "page_id": null,
+            "last_revision_id": null,
+            "touched": "",
+            "url": "https://vi.wikipedia.org/wiki/Th%E1%BB%8B_Tr%E1%BA%A5n_N%C3%B4ng_Tr%C6%B0%E1%BB%9Dng_Li%C3%AAn_S%C6%A1n",
+            "missing": true,
+            "disambiguation": false,
+            "wikibase_item": "",
+            "extract": "",
+            "requested_title": "Thị Trấn Nông Trường Liên Sơn",
+            "title_source": "prior-review-title"
+          },
+          {
+            "title": "Liên Sơn, Lào Cai",
+            "page_id": 1252190,
+            "last_revision_id": 75291723,
+            "touched": "2026-09-09T01:43:38Z",
+            "url": "https://vi.wikipedia.org/wiki/Li%C3%AAn_S%C6%A1n,_L%C3%A0o_Cai",
+            "missing": false,
+            "disambiguation": false,
+            "wikibase_item": "Q10823247",
+            "extract": "Liên Sơn là một xã thuộc tỉnh Lào Cai, Việt Nam.",
+            "requested_title": "Liên Sơn, Lào Cai",
+            "title_source": "province-disambiguated"
+          },
+          {
+            "title": "Liên Sơn (xã)",
+            "page_id": null,
+            "last_revision_id": null,
+            "touched": "",
+            "url": "https://vi.wikipedia.org/wiki/Li%C3%AAn_S%C6%A1n_(x%C3%A3)",
+            "missing": true,
+            "disambiguation": false,
+            "wikibase_item": "",
+            "extract": "",
+            "requested_title": "Liên Sơn (xã)",
+            "title_source": "tier-disambiguated"
+          },
+          {
+            "title": "Liên Sơn (định hướng)",
+            "page_id": 172770,
+            "last_revision_id": 75285486,
+            "touched": "2026-08-19T00:10:50Z",
+            "url": "https://vi.wikipedia.org/wiki/Li%C3%AAn_S%C6%A1n_(%C4%91%E1%BB%8Bnh_h%C6%B0%E1%BB%9Bng)",
+            "missing": false,
+            "disambiguation": true,
+            "wikibase_item": "Q416499",
+            "extract": "Liên Sơn có thể là một trong số các địa danh sau:",
+            "requested_title": "Liên Sơn",
+            "title_source": "short-name"
+          }
+        ]
+      },
+      "candidate_checks": [
+        {
+          "qid": "Q416499",
+          "disposition": "rejected",
+          "reason_codes": [
+            "not-a-ward-tier-item"
+          ],
+          "exact_name": true,
+          "parent_codes": [],
+          "labels": {
+            "vi": "Liên Sơn",
+            "en": "Liên Sơn"
+          },
+          "aliases": [],
+          "p31": [
+            "Q4167410"
+          ],
+          "p131": [],
+          "p571": [],
+          "p576": [],
+          "p625": [],
+          "sitelinks": {
+            "enwiki": "Liên Sơn",
+            "viwiki": "Liên Sơn (định hướng)"
+          },
+          "last_revision_id": 2538779063,
+          "modified": "2026-08-31T22:29:51Z",
+          "search_evidence": [],
+          "manual_rationale": "",
+          "manual_evidence": {}
+        },
+        {
+          "qid": "Q1023908",
+          "disposition": "rejected",
+          "reason_codes": [
+            "not-a-ward-tier-item"
+          ],
+          "exact_name": true,
+          "parent_codes": [],
+          "labels": {
+            "vi": "Liên Sơn",
+            "en": "Lianshan Zhuang and Yao Autonomous County"
+          },
+          "aliases": [],
+          "p31": [
+            "Q1336099"
+          ],
+          "p131": [
+            "Q59213"
+          ],
+          "p571": [],
+          "p576": [],
+          "p625": [
+            {
+              "latitude": 24.56939,
+              "longitude": 112.08204,
+              "precision": null
+            }
+          ],
+          "sitelinks": {
+            "enwiki": "Lianshan Zhuang and Yao Autonomous County",
+            "viwiki": "Liên Sơn, Thanh Viễn"
+          },
+          "last_revision_id": 2528630852,
+          "modified": "2026-08-08T02:04:52Z",
+          "search_evidence": [],
+          "manual_rationale": "",
+          "manual_evidence": {}
+        },
+        {
+          "qid": "Q1822775",
+          "disposition": "rejected",
+          "reason_codes": [
+            "not-a-ward-tier-item"
+          ],
+          "exact_name": true,
+          "parent_codes": [],
+          "labels": {
+            "en": "Lianshan District",
+            "vi": "Liên Sơn"
+          },
+          "aliases": [],
+          "p31": [
+            "Q1065118"
+          ],
+          "p131": [
+            "Q1054752",
+            "Q10564324",
+            "Q11272959",
+            "Q15132619",
+            "Q25390008",
+            "Q28996",
+            "Q4272684",
+            "Q697544",
+            "Q75379"
+          ],
+          "p571": [],
+          "p576": [],
+          "p625": [
+            {
+              "latitude": 40.75389,
+              "longitude": 120.8587,
+              "precision": null
+            }
+          ],
+          "sitelinks": {
+            "enwiki": "Lianshan District",
+            "viwiki": "Liên Sơn, Hồ Lô Đảo"
+          },
+          "last_revision_id": 2526608315,
+          "modified": "2026-08-03T03:36:15Z",
+          "search_evidence": [],
+          "manual_rationale": "",
+          "manual_evidence": {}
+        },
+        {
+          "qid": "Q2320480",
+          "disposition": "rejected",
+          "reason_codes": [
+            "different-current-province"
+          ],
+          "exact_name": true,
+          "parent_codes": [
+            "24"
+          ],
+          "labels": {
+            "vi": "Liên Sơn",
+            "en": "Liên Sơn"
+          },
+          "aliases": [],
+          "p31": [
+            "Q2389082"
+          ],
+          "p131": [
+            "Q1320221"
+          ],
+          "p571": [],
+          "p576": [],
+          "p625": [
+            {
+              "latitude": 21.41444444,
+              "longitude": 106.1147222,
+              "precision": 1e-05
+            }
+          ],
+          "sitelinks": {
+            "enwiki": "Liên Sơn, Bắc Giang"
+          },
+          "last_revision_id": 2505402301,
+          "modified": "2026-06-13T08:56:11Z",
+          "search_evidence": [],
+          "manual_rationale": "",
+          "manual_evidence": {}
+        },
+        {
+          "qid": "Q10786557",
+          "disposition": "rejected",
+          "reason_codes": [
+            "different-current-province"
+          ],
+          "exact_name": true,
+          "parent_codes": [
+            "20"
+          ],
+          "labels": {
+            "vi": "Liên Sơn",
+            "en": "Liên Sơn"
+          },
+          "aliases": [
+            "Lien Son"
+          ],
+          "p31": [
+            "Q2389082"
+          ],
+          "p131": [
+            "Q5095074"
+          ],
+          "p571": [],
+          "p576": [],
+          "p625": [
+            {
+              "latitude": 21.67527778,
+              "longitude": 106.7413889,
+              "precision": 1e-05
+            }
+          ],
+          "sitelinks": {},
+          "last_revision_id": 2505464244,
+          "modified": "2026-06-13T12:41:48Z",
+          "search_evidence": [],
+          "manual_rationale": "",
+          "manual_evidence": {}
+        },
+        {
+          "qid": "Q10786558",
+          "disposition": "rejected",
+          "reason_codes": [
+            "different-current-province"
+          ],
+          "exact_name": true,
+          "parent_codes": [
+            "37"
+          ],
+          "labels": {
+            "vi": "Liên Sơn",
+            "en": "Liên Sơn"
+          },
+          "aliases": [
+            "Lien Son",
+            "Liên Sơn, Gia Viễn, Ninh Bình",
+            "Xã Liên Sơn"
+          ],
+          "p31": [
+            "Q2389082"
+          ],
+          "p131": [
+            "Q5557813"
+          ],
+          "p571": [],
+          "p576": [],
+          "p625": [
+            {
+              "latitude": 20.372777777778,
+              "longitude": 105.82861111111,
+              "precision": 0.00027777777777778
+            }
+          ],
+          "sitelinks": {},
+          "last_revision_id": 2516115118,
+          "modified": "2026-07-11T01:19:44Z",
+          "search_evidence": [
+            {
+              "qid": "Q10786558",
+              "label": "Liên Sơn",
+              "description": "xã thuộc Gia Viễn",
+              "aliases": [
+                "Xã Liên Sơn"
+              ]
+            }
+          ],
+          "manual_rationale": "",
+          "manual_evidence": {}
+        },
+        {
+          "qid": "Q10786559",
+          "disposition": "rejected",
+          "reason_codes": [
+            "different-current-province"
+          ],
+          "exact_name": true,
+          "parent_codes": [
+            "37"
+          ],
+          "labels": {
+            "vi": "Liên Sơn",
+            "en": "Liên Sơn"
+          },
+          "aliases": [
+            "Lien Son"
+          ],
+          "p31": [
+            "Q2389082"
+          ],
+          "p131": [
+            "Q6408354"
+          ],
+          "p571": [],
+          "p576": [],
+          "p625": [
+            {
+              "latitude": 20.53944444,
+              "longitude": 105.8419444,
+              "precision": 1e-05
+            }
+          ],
+          "sitelinks": {},
+          "last_revision_id": 2515365651,
+          "modified": "2026-07-09T02:42:53Z",
+          "search_evidence": [],
+          "manual_rationale": "",
+          "manual_evidence": {}
+        },
+        {
+          "qid": "Q10786560",
+          "disposition": "rejected",
+          "reason_codes": [
+            "assigned-to-other-current-unit"
+          ],
+          "exact_name": true,
+          "parent_codes": [
+            "25"
+          ],
+          "labels": {
+            "vi": "Liên Sơn",
+            "en": "Liên Sơn"
+          },
+          "aliases": [
+            "Lien Son",
+            "Xã Liên Sơn"
+          ],
+          "p31": [
+            "Q2389082"
+          ],
+          "p131": [
+            "Q6704607"
+          ],
+          "p571": [],
+          "p576": [],
+          "p625": [
+            {
+              "latitude": 20.820555555556,
+              "longitude": 105.59361111111,
+              "precision": 0.00027777777777778
+            },
+            {
+              "latitude": 20.82611111,
+              "longitude": 105.5994444,
+              "precision": 1e-05
+            }
+          ],
+          "sitelinks": {
+            "viwiki": "Liên Sơn, Phú Thọ"
+          },
+          "last_revision_id": 2505464267,
+          "modified": "2026-06-13T12:41:57Z",
+          "search_evidence": [
+            {
+              "qid": "Q10786560",
+              "label": "Liên Sơn",
+              "description": "xã thuộc Phú Thọ",
+              "aliases": [
+                "Xã Liên Sơn"
+              ]
+            }
+          ],
+          "manual_rationale": "",
+          "manual_evidence": {}
+        },
+        {
+          "qid": "Q10786561",
+          "disposition": "rejected",
+          "reason_codes": [
+            "different-ward-tier"
+          ],
+          "exact_name": true,
+          "parent_codes": [
+            "66"
+          ],
+          "labels": {
+            "vi": "Liên Sơn",
+            "en": "Liên Sơn"
+          },
+          "aliases": [
+            "Lien Son",
+            "Thị Trấn Liên Sơn"
+          ],
+          "p31": [
+            "Q1070942"
+          ],
+          "p131": [
+            "Q36690",
+            "Q6474514"
+          ],
+          "p571": [],
+          "p576": [],
+          "p625": [
+            {
+              "latitude": 12.410555555556,
+              "longitude": 108.18055555556,
+              "precision": 0.00027777777777778
+            },
+            {
+              "latitude": 12.41166667,
+              "longitude": 108.1802778,
+              "precision": 1e-05
+            }
+          ],
+          "sitelinks": {
+            "enwiki": "Liên Sơn Lắk",
+            "viwiki": "Liên Sơn Lắk, Đắk Lắk"
+          },
+          "last_revision_id": 2477791619,
+          "modified": "2026-04-03T10:57:50Z",
+          "search_evidence": [],
+          "manual_rationale": "",
+          "manual_evidence": {}
+        },
+        {
+          "qid": "Q10786610",
+          "disposition": "rejected",
+          "reason_codes": [
+            "search-name-mismatch"
+          ],
+          "exact_name": false,
+          "parent_codes": [
+            "25"
+          ],
+          "labels": {
+            "vi": "Liễn Sơn",
+            "en": "Liễn Sơn"
+          },
+          "aliases": [
+            "Lien Son",
+            "Liễn Sơn, Lập Thạch",
+            "Xã Liễn Sơn"
+          ],
+          "p31": [
+            "Q2389082"
+          ],
+          "p131": [
+            "Q1001799"
+          ],
+          "p571": [],
+          "p576": [],
+          "p625": [
+            {
+              "latitude": 21.27805556,
+              "longitude": 105.4994444,
+              "precision": 1e-05
+            },
+            {
+              "latitude": 21.448333333333,
+              "longitude": 105.49611111111,
+              "precision": 0.00027777777777778
+            }
+          ],
+          "sitelinks": {
+            "viwiki": "Liễn Sơn"
+          },
+          "last_revision_id": 2513640687,
+          "modified": "2026-07-04T02:38:50Z",
+          "search_evidence": [
+            {
+              "qid": "Q10786610",
+              "label": "Liễn Sơn",
+              "description": "",
+              "aliases": [
+                "Xã Liễn Sơn"
+              ]
+            }
+          ],
+          "manual_rationale": "",
+          "manual_evidence": {}
+        },
+        {
+          "qid": "Q10823247",
+          "disposition": "duplicate",
+          "reason_codes": [
+            "owns-current-viwiki-page"
+          ],
+          "exact_name": false,
+          "parent_codes": [
+            "15"
+          ],
+          "labels": {
+            "vi": "Sơn A",
+            "en": "Sơn A"
+          },
+          "aliases": [],
+          "p31": [
+            "Q2389082"
+          ],
+          "p131": [
+            "Q7913239"
+          ],
+          "p571": [],
+          "p576": [],
+          "p625": [
+            {
+              "latitude": 21.634722222222,
+              "longitude": 104.50555555556,
+              "precision": 0.00027777777777778
+            },
+            {
+              "latitude": 21.63888889,
+              "longitude": 104.4972222,
+              "precision": 1e-05
+            }
+          ],
+          "sitelinks": {
+            "viwiki": "Liên Sơn, Lào Cai"
+          },
+          "last_revision_id": 2505476031,
+          "modified": "2026-06-13T13:31:23Z",
+          "search_evidence": [],
+          "manual_rationale": "",
+          "manual_evidence": {}
+        },
+        {
+          "qid": "Q30923256",
+          "disposition": "rejected",
+          "reason_codes": [
+            "different-ward-tier"
+          ],
+          "exact_name": true,
+          "parent_codes": [
+            "15"
+          ],
+          "labels": {
+            "vi": "Liên Sơn",
+            "en": "Liên Sơn"
+          },
+          "aliases": [
+            "Lien Son",
+            "Liên Sơn, Lào Cai",
+            "Xã Liên Sơn"
+          ],
+          "p31": [
+            "Q1070942"
+          ],
+          "p131": [
+            "Q7913239"
+          ],
+          "p571": [],
+          "p576": [],
+          "p625": [
+            {
+              "latitude": 21.652222,
+              "longitude": 104.490556,
+              "precision": 1e-06
+            },
+            {
+              "latitude": 21.655,
+              "longitude": 104.48611111111,
+              "precision": 0.00027777777777778
+            }
+          ],
+          "sitelinks": {},
+          "last_revision_id": 2499859460,
+          "modified": "2026-05-31T03:25:35Z",
+          "search_evidence": [
+            {
+              "qid": "Q30923256",
+              "label": "Liên Sơn",
+              "description": "xã thuộc tỉnh Lào Cai",
+              "aliases": [
+                "Xã Liên Sơn"
+              ]
+            }
+          ],
+          "manual_rationale": "",
+          "manual_evidence": {}
+        },
+        {
+          "qid": "Q141267126",
+          "disposition": "rejected",
+          "reason_codes": [
+            "assigned-to-other-current-unit"
+          ],
+          "exact_name": false,
+          "parent_codes": [
+            "66"
+          ],
+          "labels": {
+            "vi": "Xã Liên Sơn Lắk"
+          },
+          "aliases": [],
+          "p31": [
+            "Q2389082"
+          ],
+          "p131": [
+            "Q36690"
+          ],
+          "p571": [
+            "2025-07-01"
+          ],
+          "p576": [],
+          "p625": [],
+          "sitelinks": {
+            "viwiki": "Liên Sơn Lắk"
+          },
+          "last_revision_id": 2539745443,
+          "modified": "2026-09-03T16:02:15Z",
+          "search_evidence": [
+            {
+              "qid": "Q141267126",
+              "label": "Xã Liên Sơn Lắk",
+              "description": "xã thuộc tỉnh Đắk Lắk, Việt Nam, thành lập năm 2025",
+              "aliases": []
+            }
+          ],
+          "manual_rationale": "",
+          "manual_evidence": {}
+        }
+      ]
+    },
+    {
+      "sequence": 2,
       "local_id": "w-13741-2025-07-01",
       "name_vi": "Xã Vụ Bản",
       "parent_code": "37",
