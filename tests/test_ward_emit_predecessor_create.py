@@ -61,6 +61,47 @@ def _same_name_district_fixture():
     return history, mapping, districts, review("current_qids_excluded"), review("assigned_qids_excluded")
 
 
+def test_manifest_normalises_an_odd_tier_prefix_in_the_label():
+    old = {
+        "local_id": "w-old", "gso_codes": ["90001"],
+        # a few source names carry the tier in an odd case
+        "name_vi": "Thị Trấn Óc Eo", "loai_hinh": "Thị trấn",
+        "valid_from": None, "valid_to": "2025-06-30",
+        "parent_spans": [{"code": "447", "name_vi": "Huyện Kỳ Anh"}],
+        "province_echo_spans": [{"code": "42"}],
+    }
+    new = {
+        "local_id": "w-new", "gso_codes": ["00001"], "name_vi": "Xã Mới",
+        "loai_hinh": "Xã", "valid_from": "2025-07-01", "valid_to": None,
+        "parent_spans": [{"code": "42"}], "province_echo_spans": [{"code": "42"}],
+    }
+    history = {
+        "entities": [old, new],
+        "lineage_edges": [{
+            "predecessor": "w-old", "successor": "w-new",
+            "effective_date": "2025-07-01",
+            "reference_url": "https://example.test/resolution.pdf",
+        }],
+    }
+    mapping = [
+        {"local_id": "w-old", "terminal_code": "90001", "wikidata_qid": ""},
+        {"local_id": "w-new", "terminal_code": "00001", "wikidata_qid": "Q2"},
+    ]
+    districts = [{
+        "local_id": "d-447", "terminal_code": "447", "name_vi": "Huyện Kỳ Anh",
+        "parent_code": "42", "wikidata_qid": "Q1",
+    }]
+    primary = {"review": [{"local_id": "w-old", "classification": "assigned-item-only",
+                           "candidate_qids": [], "current_qids_excluded": []}]}
+    broad = {"review": [{"local_id": "w-old", "classification": "assigned-item-only",
+                         "candidate_qids": [], "assigned_qids_excluded": []}]}
+
+    manifest = build_manifest(history, mapping, districts, primary, broad)
+
+    assert manifest["items"][0]["name_vi"] == "Thị trấn Óc Eo"
+    assert manifest["items"][0]["description_vi"].startswith("thị trấn cũ thuộc ")
+
+
 def test_manifest_prefers_the_ward_district_code_over_a_same_named_district():
     history, mapping, districts, primary, broad = _same_name_district_fixture()
     provinces = [

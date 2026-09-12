@@ -180,6 +180,20 @@ def _lower_first(name: str) -> str:
     return name[:1].lower() + name[1:]
 
 
+def _label(entity: dict) -> str:
+    """The Vietnamese label, with the tier prefix in its canonical casing.
+
+    A few source names carry the tier in an odd case, for example
+    ``Thị Trấn Óc Eo``. Only the prefix is rewritten; the rest of the name and
+    every diacritic is left exactly as the source records it.
+    """
+    name = entity["name_vi"]
+    tier = entity["loai_hinh"]
+    if name.lower().startswith(tier.lower() + " "):
+        return tier + name[len(tier):]
+    return name
+
+
 def _description(
     entity: dict,
     parent: dict,
@@ -288,7 +302,7 @@ def build_manifest(
             "review_group": (sequence - 1) // review_group_size + 1,
             "local_id": row["local_id"],
             "gso_code": row["terminal_code"],
-            "name_vi": entity["name_vi"],
+            "name_vi": _label(entity),
             "description_vi": _description(
                 entity, parent,
                 ambiguous_names=ambiguous_names, provinces=provinces,

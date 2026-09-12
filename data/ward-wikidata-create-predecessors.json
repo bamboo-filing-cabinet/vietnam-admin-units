@@ -19,7 +19,7 @@
     "data/ward-wikidata-predecessor-context-candidates.json": "db0d0bbe95d1174ef06116293434d3d92ef45a43a8ad675e3445cc71ef32064d",
     "data/ward-wikidata-predecessor-geonames-candidates.json": "9dc56127e1fcd3c44ac12ac38af510852ae6048ec16ac3490f76ea3eb8e15b83",
     "data/ward-wikidata-predecessor-review-decisions.json": "be1881d75b3b8c27690adb8aacc6a4e614db3fe20ae19feb6716f2d973818376",
-    "data/ward-wikidata-predecessor-gap-review-progress.json": "187249a0b202572e8b3037cb917d55dd15abdce4a3cc65c0fac627642418b4ee",
+    "data/ward-wikidata-predecessor-gap-review-progress.json": "9004ae128c322d22ad8f677373b5ea4027ef3f51cf92af80b7db8fabe7323cb6",
     "mappings/wards-qid.csv#qid-assignments": "fd2134100b9f0977241624cc7f9d79ef35f8f37f156cfb37c5adf0ee7546e0ef"
   },
   "audit": {
@@ -112162,7 +112162,7 @@
       "review_group": 269,
       "local_id": "w-30688-2004-06-30",
       "gso_code": "30688",
-      "name_vi": "Thị Trấn Óc Eo",
+      "name_vi": "Thị trấn Óc Eo",
       "description_vi": "thị trấn cũ thuộc huyện Thoại Sơn, Việt Nam, giải thể năm 2025",
       "loai_hinh": "Thị trấn",
       "type_qid": "Q1070942",
@@ -123505,7 +123505,7 @@
       "review_group": 291,
       "local_id": "w-8231301-base",
       "gso_code": "32191",
-      "name_vi": "Thị Trấn Năm Căn",
+      "name_vi": "Thị trấn Năm Căn",
       "description_vi": "thị trấn cũ thuộc huyện Năm Căn, Việt Nam, giải thể năm 2025",
       "loai_hinh": "Thị trấn",
       "type_qid": "Q1070942",

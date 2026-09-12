@@ -16109,7 +16109,7 @@ LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.signed.pdf"
 LAST	P131	Q1626255	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.signed.pdf"
 CREATE
-LAST	Lvi	"Thị Trấn Óc Eo"
+LAST	Lvi	"Thị trấn Óc Eo"
 LAST	Dvi	"thị trấn cũ thuộc huyện Thoại Sơn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.signed.pdf"
@@ -17447,7 +17447,7 @@ LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
 LAST	P131	Q3593897	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
 CREATE
-LAST	Lvi	"Thị Trấn Năm Căn"
+LAST	Lvi	"Thị trấn Năm Căn"
 LAST	Dvi	"thị trấn cũ thuộc huyện Năm Căn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
