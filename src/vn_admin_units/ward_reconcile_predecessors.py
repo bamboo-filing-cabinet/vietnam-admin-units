@@ -542,6 +542,34 @@ def apply_creation_gaps(mapping_rows: list[dict], manifest: dict) -> list[dict]:
     return rows
 
 
+BATCH_OUTCOME_PATH = Path("data/ward-wikidata-predecessor-create-batch-296722.json")
+
+
+def apply_batch_outcomes(
+    mapping_rows: list[dict], batch_outcome: dict,
+) -> list[dict]:
+    """Apply confirmed QIDs from a QuickStatements batch outcome."""
+    rows = json.loads(json.dumps(mapping_rows))
+    by_id = {row["local_id"]: row for row in rows}
+    for item in batch_outcome.get("items", []):
+        qid = item.get("wikidata_qid")
+        if not qid:
+            continue
+        local_id = item["local_id"]
+        row = by_id.get(local_id)
+        if row is None:
+            continue
+        row.update({
+            "wikidata_qid": qid,
+            "qid_status": item.get("qid_status", "new"),
+            "match_status": "manual",
+            "match_notes": (
+                f"predecessor CREATE batch #{batch_outcome['batch']['id']}"
+            ),
+        })
+    return rows
+
+
 def audit(artifact: dict, mapping_rows: list[dict]) -> list[str]:
     issues = []
     review = artifact["review"]
@@ -684,6 +712,11 @@ def main(argv: list[str] | None = None) -> None:
             CREATION_MANIFEST_PATH.read_text(encoding="utf-8")
         )
         rendered_mapping = apply_creation_gaps(rendered_mapping, creation_manifest)
+    if BATCH_OUTCOME_PATH.is_file():
+        batch_outcome = json.loads(
+            BATCH_OUTCOME_PATH.read_text(encoding="utf-8")
+        )
+        rendered_mapping = apply_batch_outcomes(rendered_mapping, batch_outcome)
     if args.check:
         if not ARTIFACT_PATH.is_file() or (
             ARTIFACT_PATH.read_text(encoding="utf-8") != serialize_json(artifact)

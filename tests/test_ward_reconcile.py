@@ -23,9 +23,11 @@ from vn_admin_units.ward_reconcile import (
 )
 from vn_admin_units.ward_reconcile_predecessors import (
     ARTIFACT_PATH as PREDECESSOR_ARTIFACT,
+    BATCH_OUTCOME_PATH as PREDECESSOR_BATCH_OUTCOME,
     BROAD_ARTIFACT_PATH as PREDECESSOR_BROAD_ARTIFACT,
     CREATION_MANIFEST_PATH as PREDECESSOR_CREATION_MANIFEST,
     REVIEW_DECISIONS_PATH as PREDECESSOR_REVIEW_DECISIONS,
+    apply_batch_outcomes as apply_predecessor_batch_outcomes,
     apply_creation_gaps as apply_predecessor_creation_gaps,
     apply_matches as apply_predecessor_matches,
     apply_review_decisions as apply_predecessor_review_decisions,
@@ -539,12 +541,16 @@ def test_saved_snapshot_cache_and_mapping_are_reproducible():
         rows,
         json.loads(PREDECESSOR_CREATION_MANIFEST.read_text(encoding="utf-8")),
     )
+    rows = apply_predecessor_batch_outcomes(
+        rows,
+        json.loads(PREDECESSOR_BATCH_OUTCOME.read_text(encoding="utf-8")),
+    )
     assert MAPPING.read_text(encoding="utf-8") == serialize_mapping(rows)
     audit = audit_mapping(history, artifact, rows, broad, review_decisions)
     assert audit["summary"]["status_counts"] == {
         "deferred-historical": 1188,
-        "gap": 2913,
-        "manual": 1112,
+        "gap": 748,
+        "manual": 3277,
         "matched": 2500,
         "verified": 6831,
     }
