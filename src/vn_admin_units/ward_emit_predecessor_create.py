@@ -183,6 +183,23 @@ _TIER_EN: dict[str, str] = {
 }
 
 
+_VI_PARENT_TIER_EN: dict[str, str] = {
+    "Thành phố ": " city",
+    "Tỉnh ": " province",
+    "Quận ": " district",
+    "Huyện ": " district",
+    "Thị xã ": " town",
+    "Thị trấn ": " township",
+}
+
+
+def _en_parent(name: str) -> str:
+    for prefix, suffix in _VI_PARENT_TIER_EN.items():
+        if name.startswith(prefix):
+            return name[len(prefix):] + suffix
+    return name
+
+
 def _lower_first(name: str) -> str:
     return name[:1].lower() + name[1:]
 
@@ -231,7 +248,7 @@ def _description_en(
     provinces: dict[str, str] | None = None,
 ) -> str:
     tier = _TIER_EN.get(entity["loai_hinh"].lower(), entity["loai_hinh"].lower())
-    place = parent["name_vi"]
+    place = _en_parent(parent["name_vi"])
     if _folded(parent["name_vi"]) in ambiguous_names:
         province = (provinces or {}).get(parent["province_code"], "")
         if not province:
@@ -239,7 +256,7 @@ def _description_en(
                 f"{entity['local_id']} needs a province name to disambiguate "
                 f"{parent['name_vi']} (province code {parent['province_code']})"
             )
-        place = f"{place}, {province}"
+        place = f"{place}, {_en_parent(province)}"
     return f"former {tier} in {place}, Vietnam, dissolved 2025"
 
 

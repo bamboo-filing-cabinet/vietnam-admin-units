@@ -101,9 +101,26 @@ def _description(loai_hinh: str, parent_name: str) -> str:
     return f"{loai_hinh.lower()} thuộc {parent}, Việt Nam, thành lập năm 2025"
 
 
+_VI_PARENT_TIER_EN: dict[str, str] = {
+    "Thành phố ": " city",
+    "Tỉnh ": " province",
+    "Quận ": " district",
+    "Huyện ": " district",
+    "Thị xã ": " town",
+    "Thị trấn ": " township",
+}
+
+
+def _en_parent(name: str) -> str:
+    for prefix, suffix in _VI_PARENT_TIER_EN.items():
+        if name.startswith(prefix):
+            return name[len(prefix):] + suffix
+    return name
+
+
 def _description_en(loai_hinh: str, parent_name: str) -> str:
     tier = _TIER_EN.get(loai_hinh.lower(), loai_hinh.lower())
-    return f"{tier} in {parent_name}, Vietnam, established 2025"
+    return f"{tier} in {_en_parent(parent_name)}, Vietnam, established 2025"
 
 
 def build_current_creation_manifest(

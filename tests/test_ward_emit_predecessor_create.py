@@ -137,8 +137,8 @@ def test_manifest_disambiguates_descriptions_for_a_repeated_district_name():
     assert "tỉnh Tây Ninh" in by_id["w-a"]["description_vi"]
     assert "tỉnh Long An" in by_id["w-b"]["description_vi"]
     assert by_id["w-a"]["description_en"] != by_id["w-b"]["description_en"]
-    assert "Tỉnh Tây Ninh" in by_id["w-a"]["description_en"]
-    assert "Tỉnh Long An" in by_id["w-b"]["description_en"]
+    assert "Tây Ninh province" in by_id["w-a"]["description_en"]
+    assert "Long An province" in by_id["w-b"]["description_en"]
 
 
 def test_manifest_refuses_to_emit_a_repeated_label_and_description():
