@@ -405,7 +405,7 @@ def test_committed_predecessor_artifact_is_complete_and_collision_free():
 
     assert artifact["audit"] == {
         "predecessor_rows": 10035,
-        "current_assigned_qids": 3320,
+        "current_assigned_qids": 3321,
         "rows_with_current_qid_excluded": 4619,
         "rows_with_name_candidate": 8583,
         "rows_with_district_candidate": 6546,

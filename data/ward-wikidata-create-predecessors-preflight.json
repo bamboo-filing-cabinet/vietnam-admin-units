@@ -7,22 +7,22 @@
     "wikidata_write_performed": false
   },
   "input_fingerprints": {
-    "manifest_content_sha256": "ee076b913a8b0c0ec713ab148884999a278cee5f5de77d93e9c50aa44e5f8e2b",
-    "data/ward-wikidata-predecessor-unresolved-candidates.json": "986f4aacd1d6191ba2b0c53e5e7e8166a43d6e019ed48d0edbb91d4bd57807f2",
+    "manifest_content_sha256": "03ce671f3bfa8673393d13cc29e425f2750b6be483e0f8be6494cc36ff8e3633",
+    "data/ward-wikidata-predecessor-unresolved-candidates.json": "611d55bbccdd6e88d07a852b9e239856cf573200900048c7e7bf98f14b1a50af",
     "data/ward-wikidata-predecessor-article-candidates.json": "5ebb4cf49443c0224be6bd3017f992e181298705e99da03c2b23e0b898566055",
     "data/ward-wikidata-predecessor-context-candidates.json": "db0d0bbe95d1174ef06116293434d3d92ef45a43a8ad675e3445cc71ef32064d",
     "data/ward-wikidata-predecessor-geonames-candidates.json": "9dc56127e1fcd3c44ac12ac38af510852ae6048ec16ac3490f76ea3eb8e15b83",
     "data/ward-wikidata-predecessor-gap-review-progress.json": "9004ae128c322d22ad8f677373b5ea4027ef3f51cf92af80b7db8fabe7323cb6"
   },
   "evidence": {
-    "qlever_retrieved_at": "2026-09-11T17:47:27Z",
-    "action_api_retrieved_at": "2026-09-11T17:47:27Z",
+    "qlever_retrieved_at": "2026-11-23T01:51:02Z",
+    "action_api_retrieved_at": "2026-11-23T01:51:02Z",
     "age_hours_at_check": null,
     "max_age_hours": null
   },
   "audit": {
-    "items": 2914,
-    "clear_items": 2914,
+    "items": 2913,
+    "clear_items": 2913,
     "needs_review_items": 0,
     "fresh": true,
     "reviewed_queue_rows": 1394,
@@ -38,7 +38,7 @@
       "local_id": "w-1010121-base",
       "name_vi": "Phường Ngọc Hà",
       "parent_qid": "Q890194",
-      "classification": "no-broad-district-candidate",
+      "classification": "assigned-item-only",
       "status": "clear"
     },
     {
@@ -10685,7 +10685,7 @@
       "local_id": "w-4070915-base",
       "name_vi": "Thị trấn Phong Nha",
       "parent_qid": "Q590734",
-      "classification": "verification-rejected",
+      "classification": "no-broad-district-candidate",
       "status": "clear"
     },
     {
@@ -11784,7 +11784,7 @@
       "local_id": "w-5050701-base",
       "name_vi": "Thị trấn Trà Xuân",
       "parent_qid": "Q7831037",
-      "classification": "no-broad-candidate",
+      "classification": "assigned-item-only",
       "status": "clear"
     },
     {
@@ -12323,7 +12323,7 @@
       "local_id": "w-5090321-base",
       "name_vi": "Xã Xuân Phước",
       "parent_qid": "Q5295784",
-      "classification": "assigned-item-only",
+      "classification": "no-broad-district-candidate",
       "status": "clear"
     },
     {
@@ -13219,7 +13219,7 @@
       "local_id": "w-6030905-base",
       "name_vi": "Xã Ia Hrung",
       "parent_qid": "Q5980266",
-      "classification": "assigned-item-only",
+      "classification": "no-broad-candidate",
       "status": "clear"
     },
     {
@@ -17871,13 +17871,6 @@
       "status": "clear"
     },
     {
-      "local_id": "w-8090119-base",
-      "name_vi": "Phường Tân Hòa",
-      "parent_qid": "Q34789",
-      "classification": "no-broad-district-candidate",
-      "status": "clear"
-    },
-    {
       "local_id": "w-8090309-base",
       "name_vi": "Xã An Bình",
       "parent_qid": "Q3711115",
@@ -18518,7 +18511,7 @@
       "local_id": "w-8050301-base",
       "name_vi": "Phường Châu Phú B",
       "parent_qid": "Q373214",
-      "classification": "no-broad-candidate",
+      "classification": "assigned-item-only",
       "status": "clear"
     },
     {
@@ -19155,7 +19148,7 @@
       "local_id": "w-8132117-base",
       "name_vi": "Xã Thổ Châu",
       "parent_qid": "Q21683343",
-      "classification": "assigned-item-only",
+      "classification": "no-broad-district-candidate",
       "status": "clear"
     },
     {

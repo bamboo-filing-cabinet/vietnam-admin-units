@@ -13721,8 +13721,8 @@ w-8090111-base,29560,Phường 8,Phường,855,,2025-06-30,Q10806838,existing,ve
 w-8090113-base,29542,Phường 9,Phường,855,,2025-06-30,Q10806857,existing,verified,Q10806857,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8090115-base,29572,Phường Trường An,Phường,855,,2025-06-30,Q10828777,existing,manual,Q10828776|Q10828777,"predecessor review 2026-09-11.69: Q10828777 is described as a ward of thành phố Vĩnh Long and has matching city coordinates; its same-batch sibling Q10828776 covers the Thuận Hóa namesake, and only two units carry the name"
 w-8090117-base,29563,Phường Tân Ngãi,Phường,855,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
-w-8090119-base,29566,Phường Tân Hòa,Phường,855,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
-w-8090121-base,29569,Phường Tân Hội,Phường,855,,2025-06-30,Q10830542,existing,manual,Q10830534|Q10830542|Q10830695,"predecessor review 2026-09-08.05: exact name, former Vĩnh Long city description, and coordinates identify the pre-2025 Tân Hội ward; Q10830695 is the differently named successor"
+w-8090119-base,29566,Phường Tân Hòa,Phường,855,,2025-06-30,Q10830478,existing,verified,Q10830478,predecessor broad exact-vi-name+terminal-district+ward-class+batched-wbgetentities
+w-8090121-base,29569,Phường Tân Hội,Phường,855,,2025-06-30,Q10830542,existing,verified,Q10830542,predecessor broad exact-vi-name+terminal-district+ward-class+batched-wbgetentities
 w-8090301-base,29575,Thị trấn Long Hồ,Thị trấn,857,,2024-10-31,,,deferred-historical,,
 w-8090303-base,29578,Xã Đồng Phú,Xã,857,,2025-06-30,Q10841979,existing,verified,Q10841979,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8090305-base,29584,Xã Hòa Ninh,Xã,857,,2025-06-30,Q10771030,existing,verified,Q10771030,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities

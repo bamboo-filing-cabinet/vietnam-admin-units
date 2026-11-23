@@ -20383,14 +20383,6 @@ LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-
 LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 LAST	P131	Q34789	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
-LAST	Len	"Phường Tân Hòa"
-LAST	Lvi	"Phường Tân Hòa"
-LAST	Den	"former ward in Thành phố Vĩnh Long, Vietnam, dissolved 2025"
-LAST	Dvi	"phường cũ thuộc thành phố Vĩnh Long, Việt Nam, giải thể năm 2025"
-LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
-LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
-LAST	P131	Q34789	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
-CREATE
 LAST	Len	"Xã An Bình"
 LAST	Lvi	"Xã An Bình"
 LAST	Den	"former commune in Huyện Long Hồ, Vietnam, dissolved 2025"
