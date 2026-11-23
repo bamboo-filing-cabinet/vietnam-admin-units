@@ -118,6 +118,13 @@ def _en_parent(name: str) -> str:
     return name
 
 
+def _label_en(name_vi: str, loai_hinh: str) -> str:
+    """The English label: the bare place name without the Vietnamese tier prefix."""
+    if name_vi.lower().startswith(loai_hinh.lower() + " "):
+        return name_vi[len(loai_hinh) + 1:]
+    return name_vi
+
+
 def _description_en(loai_hinh: str, parent_name: str) -> str:
     tier = _TIER_EN.get(loai_hinh.lower(), loai_hinh.lower())
     return f"{tier} in {_en_parent(parent_name)}, Vietnam, established 2025"
@@ -187,6 +194,7 @@ def build_current_creation_manifest(
             "local_id": row["local_id"],
             "gso_code": row["terminal_code"],
             "name_vi": entity["name_vi"],
+            "name_en": _label_en(entity["name_vi"], entity["loai_hinh"]),
             "description_vi": _description(entity["loai_hinh"], province["name_vi"]),
             "description_en": _description_en(entity["loai_hinh"], province["name_vi"]),
             "loai_hinh": entity["loai_hinh"],
@@ -236,9 +244,10 @@ def _qs_string(value: str) -> str:
 def emit_creation_item(item: dict, *, viwiki_title: str = "") -> str:
     """Render one self-contained CREATE block without succession back-links."""
     ref = ref_s854(item["reference_url"])
+    name_en = item.get("name_en", item["name_vi"])
     lines = [
         "CREATE",
-        f"LAST\tLen\t{_qs_string(item['name_vi'])}",
+        f"LAST\tLen\t{_qs_string(name_en)}",
         f"LAST\tLvi\t{_qs_string(item['name_vi'])}",
         f"LAST\tDen\t{_qs_string(item['description_en'])}",
         f"LAST\tDvi\t{_qs_string(item['description_vi'])}",

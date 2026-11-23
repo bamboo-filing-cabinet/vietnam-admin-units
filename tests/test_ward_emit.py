@@ -92,6 +92,7 @@ def test_current_creation_manifest_is_reviewed_referenced_and_grouped():
 def test_creation_renderer_escapes_wikidata_strings():
     item = {
         "name_vi": 'Xã "Mẫu"',
+        "name_en": '"Mẫu"',
         "description_vi": "xã \\ mẫu",
         "description_en": 'commune \\ sample',
         "type_qid": "Q2389082",
@@ -103,7 +104,7 @@ def test_creation_renderer_escapes_wikidata_strings():
 
     rendered = emit_creation_item(item, viwiki_title='Mẫu "mới"')
 
-    assert 'LAST\tLen\t"Xã \\"Mẫu\\""' in rendered
+    assert 'LAST\tLen\t"\\"Mẫu\\""' in rendered
     assert 'LAST\tLvi\t"Xã \\"Mẫu\\""' in rendered
     assert 'LAST\tDen\t"commune \\\\ sample"' in rendered
     assert 'LAST\tDvi\t"xã \\\\ mẫu"' in rendered

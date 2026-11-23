@@ -204,7 +204,7 @@ def _lower_first(name: str) -> str:
     return name[:1].lower() + name[1:]
 
 
-def _label(entity: dict) -> str:
+def _label_vi(entity: dict) -> str:
     """The Vietnamese label, with the tier prefix in its canonical casing.
 
     A few source names carry the tier in an odd case, for example
@@ -215,6 +215,15 @@ def _label(entity: dict) -> str:
     tier = entity["loai_hinh"]
     if name.lower().startswith(tier.lower() + " "):
         return tier + name[len(tier):]
+    return name
+
+
+def _label_en(entity: dict) -> str:
+    """The English label: the bare place name without the Vietnamese tier prefix."""
+    name = entity["name_vi"]
+    tier = entity["loai_hinh"]
+    if name.lower().startswith(tier.lower() + " "):
+        return name[len(tier) + 1:]
     return name
 
 
@@ -346,7 +355,8 @@ def build_manifest(
             "review_group": (sequence - 1) // review_group_size + 1,
             "local_id": row["local_id"],
             "gso_code": row["terminal_code"],
-            "name_vi": _label(entity),
+            "name_vi": _label_vi(entity),
+            "name_en": _label_en(entity),
             "description_vi": _description(
                 entity, parent,
                 ambiguous_names=ambiguous_names, provinces=provinces,
@@ -447,7 +457,7 @@ def emit_item(item: dict) -> str:
     ref = ref_s854(item["reference_url"])
     return "\n".join([
         "CREATE",
-        f"LAST\tLen\t{_qs_string(item['name_vi'])}",
+        f"LAST\tLen\t{_qs_string(item['name_en'])}",
         f"LAST\tLvi\t{_qs_string(item['name_vi'])}",
         f"LAST\tDen\t{_qs_string(item['description_en'])}",
         f"LAST\tDvi\t{_qs_string(item['description_vi'])}",
