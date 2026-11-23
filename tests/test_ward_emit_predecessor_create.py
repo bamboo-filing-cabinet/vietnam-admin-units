@@ -100,6 +100,7 @@ def test_manifest_normalises_an_odd_tier_prefix_in_the_label():
 
     assert manifest["items"][0]["name_vi"] == "Thị trấn Óc Eo"
     assert manifest["items"][0]["description_vi"].startswith("thị trấn cũ thuộc ")
+    assert manifest["items"][0]["description_en"].startswith("former township in ")
 
 
 def test_manifest_prefers_the_ward_district_code_over_a_same_named_district():
@@ -135,6 +136,9 @@ def test_manifest_disambiguates_descriptions_for_a_repeated_district_name():
     assert by_id["w-a"]["description_vi"] != by_id["w-b"]["description_vi"]
     assert "tỉnh Tây Ninh" in by_id["w-a"]["description_vi"]
     assert "tỉnh Long An" in by_id["w-b"]["description_vi"]
+    assert by_id["w-a"]["description_en"] != by_id["w-b"]["description_en"]
+    assert "Tỉnh Tây Ninh" in by_id["w-a"]["description_en"]
+    assert "Tỉnh Long An" in by_id["w-b"]["description_en"]
 
 
 def test_manifest_refuses_to_emit_a_repeated_label_and_description():
@@ -204,6 +208,8 @@ def test_manifest_resolves_district_by_name_and_emits_referenced_base_item():
     assert manifest["items"][0]["parent_qid"] == "Q1"
     assert manifest["items"][0]["current_or_assigned_qids_excluded"] == ["Q9"]
     assert "CREATE\n" in rendered
+    assert "LAST\tLen\t" in rendered
+    assert "LAST\tDen\t" in rendered
     assert "LAST\tP131\tQ1" in rendered
     assert 'S854\t"https://example.test/resolution.pdf"' in rendered
     assert "\tP576\t" not in rendered

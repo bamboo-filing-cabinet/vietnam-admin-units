@@ -89,9 +89,21 @@ def _official_reference(entity: dict, sources_by_id: dict[str, dict]) -> tuple[s
     return instrument_id, url
 
 
+_TIER_EN: dict[str, str] = {
+    "phường": "ward",
+    "xã": "commune",
+    "thị trấn": "township",
+}
+
+
 def _description(loai_hinh: str, parent_name: str) -> str:
     parent = parent_name[:1].lower() + parent_name[1:]
     return f"{loai_hinh.lower()} thuộc {parent}, Việt Nam, thành lập năm 2025"
+
+
+def _description_en(loai_hinh: str, parent_name: str) -> str:
+    tier = _TIER_EN.get(loai_hinh.lower(), loai_hinh.lower())
+    return f"{tier} in {parent_name}, Vietnam, established 2025"
 
 
 def build_current_creation_manifest(
@@ -159,6 +171,7 @@ def build_current_creation_manifest(
             "gso_code": row["terminal_code"],
             "name_vi": entity["name_vi"],
             "description_vi": _description(entity["loai_hinh"], province["name_vi"]),
+            "description_en": _description_en(entity["loai_hinh"], province["name_vi"]),
             "loai_hinh": entity["loai_hinh"],
             "type_qid": type_qid,
             "country_qid": COUNTRY_QID,
@@ -208,7 +221,9 @@ def emit_creation_item(item: dict, *, viwiki_title: str = "") -> str:
     ref = ref_s854(item["reference_url"])
     lines = [
         "CREATE",
+        f"LAST\tLen\t{_qs_string(item['name_vi'])}",
         f"LAST\tLvi\t{_qs_string(item['name_vi'])}",
+        f"LAST\tDen\t{_qs_string(item['description_en'])}",
         f"LAST\tDvi\t{_qs_string(item['description_vi'])}",
     ]
     if viwiki_title:

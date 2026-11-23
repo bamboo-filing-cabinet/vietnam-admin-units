@@ -3665,7 +3665,7 @@ w-13693-2025-07-01,13693,Phường Đông A,Phường,37,2025-07-01,,Q139406734,
 w-13699-2025-07-01,13699,Phường Thành Nam,Phường,37,2025-07-01,,Q10841072,existing,manual,Q10824842|Q10841072,review 2026-09-02.49: current Thành Nam page selects predecessor item Q10841072
 w-13708-2004-06-30,13708,Phường Hưng Lộc,Phường,356,2004-06-30,2025-06-30,Q128242536,existing,verified,Q128242536,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-13708-2025-07-01,13708,Phường Mỹ Lộc,Phường,37,2025-07-01,,Q128243560,existing,matched,Q10796785|Q10796786|Q10796787|Q10796788|Q10796791|Q10796792|Q10796793|Q128243560|Q137258804,qlever-label+predecessor-district+batched-wbgetentities
-w-13741-2025-07-01,13741,Xã Vụ Bản,Xã,37,2025-07-01,,,,reviewed-unresolved,Q10833773|Q18461388,review 2026-09-11.119: current Vụ Bản commune remains unresolved for creation; release the unrelated former Bình Lục commune Q10833773
+w-13741-2025-07-01,13741,Xã Vụ Bản,Xã,37,2025-07-01,,Q142252267,new,manual,Q10833773|Q18461388|Q142252267,review 2026-09-11.119: current Vụ Bản commune created as Q142252267 via QuickStatements batch #296715 (2026-11-22)
 w-13750-2025-07-01,13750,Xã Minh Tân,Xã,37,2025-07-01,,Q10794011,existing,matched,Q2031714|Q10793996|Q10793998|Q10793999|Q10794001|Q10794002|Q10794003|Q10794005|Q10794006|Q10794007|Q10794009|Q10794011|Q10794012|Q128507932,qlever-label+current-province+batched-wbgetentities
 w-13753-2025-07-01,13753,Xã Hiển Khánh,Xã,37,2025-07-01,,Q10767643,existing,matched,Q10767643,qlever-label+current-province+batched-wbgetentities
 w-13777-2025-07-01,13777,Phường Trường Thi,Phường,37,2025-07-01,,Q10828904,existing,matched,Q10828904|Q10828905,qlever-label+current-province+batched-wbgetentities

@@ -7,7 +7,7 @@
     "wikidata_write_performed": false
   },
   "input_fingerprints": {
-    "manifest_content_sha256": "aa650a5420887c7714fe487b9ed76213973b345781467c017c4918c8a8cee74d",
+    "manifest_content_sha256": "ee076b913a8b0c0ec713ab148884999a278cee5f5de77d93e9c50aa44e5f8e2b",
     "data/ward-wikidata-predecessor-unresolved-candidates.json": "986f4aacd1d6191ba2b0c53e5e7e8166a43d6e019ed48d0edbb91d4bd57807f2",
     "data/ward-wikidata-predecessor-article-candidates.json": "5ebb4cf49443c0224be6bd3017f992e181298705e99da03c2b23e0b898566055",
     "data/ward-wikidata-predecessor-context-candidates.json": "db0d0bbe95d1174ef06116293434d3d92ef45a43a8ad675e3445cc71ef32064d",

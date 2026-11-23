@@ -93,6 +93,7 @@ def test_creation_renderer_escapes_wikidata_strings():
     item = {
         "name_vi": 'Xã "Mẫu"',
         "description_vi": "xã \\ mẫu",
+        "description_en": 'commune \\ sample',
         "type_qid": "Q2389082",
         "country_qid": "Q881",
         "parent_qid": "Q999",
@@ -102,7 +103,9 @@ def test_creation_renderer_escapes_wikidata_strings():
 
     rendered = emit_creation_item(item, viwiki_title='Mẫu "mới"')
 
+    assert 'LAST\tLen\t"Xã \\"Mẫu\\""' in rendered
     assert 'LAST\tLvi\t"Xã \\"Mẫu\\""' in rendered
+    assert 'LAST\tDen\t"commune \\\\ sample"' in rendered
     assert 'LAST\tDvi\t"xã \\\\ mẫu"' in rendered
     assert 'LAST\tSviwiki\t"Mẫu \\"mới\\""' in rendered
 
@@ -179,26 +182,18 @@ def test_committed_graph_tracks_preflighted_current_creation_gap():
     readiness = build_emission_readiness(history, mapping)
 
     assert manifest["audit"] == {
-        "items": 1,
-        "statement_files": 1,
-        "review_groups": 1,
-        "type_counts": {"Xã": 1},
-        "province_count": 1,
-        "official_reference_urls": 1,
+        "items": 0,
+        "statement_files": 0,
+        "review_groups": 0,
+        "type_counts": {},
+        "province_count": 0,
+        "official_reference_urls": 0,
     }
     assert readiness["audit"]["distinct_reform_predecessors"] == 10_035
     assert readiness["audit"]["reform_edges"] == 10_586
     assert readiness["audit"]["reconciled_reform_predecessors"] == 7_121
-    assert readiness["audit"]["reform_edges_with_both_qids"] == 7_519
+    assert readiness["audit"]["reform_edges_with_both_qids"] == 7_522
     assert readiness["blockers"] == [
-        {
-            "gate": "current_successor_qids",
-            "missing": 1,
-            "resolution": (
-                "create the reviewed current items and record their QIDs in "
-                "mappings/wards-qid.csv"
-            ),
-        },
         {
             "gate": "historical_predecessor_qids",
             "missing": 2_914,
@@ -217,8 +212,9 @@ def test_committed_creation_preflight_clears_manifest_item():
 
     status = build_current_creation_preflight_status(manifest)
 
-    assert status["items"] == 1
-    assert status["clear_items"] == 1
+    # All current creation gaps are now uploaded; manifest and preflight are empty.
+    assert status["items"] == 0
+    assert status["clear_items"] == 0
     assert status["duplicate_items"] == 0
     assert status["needs_review_items"] == 0
     assert status["issues"] == []
@@ -230,15 +226,12 @@ def test_committed_creation_preflight_clears_manifest_item():
     assert [row["local_id"] for row in report["items"]] == [
         row["local_id"] for row in manifest["items"]
     ]
-    assert [row["local_id"] for row in report["items"]] == [
-        "w-13741-2025-07-01",
-    ]
+    assert [row["local_id"] for row in report["items"]] == []
 
     statements = Path("statements/na-wards-create-current.qs").read_text(
         encoding="utf-8"
     )
-    assert statements.count("CREATE\n") == 1
-    assert 'LAST\tSviwiki\t"Vụ Bản (xã)"' in statements
+    assert statements.count("CREATE\n") == 0
 
 
 def test_creation_batch_outcomes_match_completed_mapping():
@@ -295,6 +288,5 @@ def test_creation_batch_outcomes_match_completed_mapping():
         assert mapping[row["local_id"]]["wikidata_qid"] == row["wikidata_qid"]
         assert mapping[row["local_id"]]["qid_status"] == "new"
         assert mapping[row["local_id"]]["match_status"] == "manual"
-    assert [row["local_id"] for row in current["items"]] == [
-        "w-13741-2025-07-01",
-    ]
+    # w-13741-2025-07-01 (Xã Vụ Bản) was uploaded as Q142252267; no pending gaps.
+    assert [row["local_id"] for row in current["items"]] == []

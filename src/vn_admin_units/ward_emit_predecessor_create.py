@@ -176,6 +176,13 @@ def province_names(province_rows: list[dict]) -> dict[str, str]:
     }
 
 
+_TIER_EN: dict[str, str] = {
+    "phường": "ward",
+    "xã": "commune",
+    "thị trấn": "township",
+}
+
+
 def _lower_first(name: str) -> str:
     return name[:1].lower() + name[1:]
 
@@ -214,6 +221,26 @@ def _description(
         f"{entity['loai_hinh'].lower()} cũ thuộc {place}, Việt Nam, "
         "giải thể năm 2025"
     )
+
+
+def _description_en(
+    entity: dict,
+    parent: dict,
+    *,
+    ambiguous_names: frozenset[str] = frozenset(),
+    provinces: dict[str, str] | None = None,
+) -> str:
+    tier = _TIER_EN.get(entity["loai_hinh"].lower(), entity["loai_hinh"].lower())
+    place = parent["name_vi"]
+    if _folded(parent["name_vi"]) in ambiguous_names:
+        province = (provinces or {}).get(parent["province_code"], "")
+        if not province:
+            raise ValueError(
+                f"{entity['local_id']} needs a province name to disambiguate "
+                f"{parent['name_vi']} (province code {parent['province_code']})"
+            )
+        place = f"{place}, {province}"
+    return f"former {tier} in {place}, Vietnam, dissolved 2025"
 
 
 def build_manifest(
@@ -304,6 +331,10 @@ def build_manifest(
             "gso_code": row["terminal_code"],
             "name_vi": _label(entity),
             "description_vi": _description(
+                entity, parent,
+                ambiguous_names=ambiguous_names, provinces=provinces,
+            ),
+            "description_en": _description_en(
                 entity, parent,
                 ambiguous_names=ambiguous_names, provinces=provinces,
             ),
@@ -399,7 +430,9 @@ def emit_item(item: dict) -> str:
     ref = ref_s854(item["reference_url"])
     return "\n".join([
         "CREATE",
+        f"LAST\tLen\t{_qs_string(item['name_vi'])}",
         f"LAST\tLvi\t{_qs_string(item['name_vi'])}",
+        f"LAST\tDen\t{_qs_string(item['description_en'])}",
         f"LAST\tDvi\t{_qs_string(item['description_vi'])}",
         f"LAST\tP31\t{item['type_qid']}\t{ref}",
         f"LAST\tP17\t{item['country_qid']}\t{ref}",
