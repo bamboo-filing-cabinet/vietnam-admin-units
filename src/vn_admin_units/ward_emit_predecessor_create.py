@@ -205,16 +205,16 @@ def _lower_first(name: str) -> str:
 
 
 def _label_vi(entity: dict) -> str:
-    """The Vietnamese label, with the tier prefix in its canonical casing.
+    """The Vietnamese label: the bare place name without the Vietnamese tier prefix.
 
-    A few source names carry the tier in an odd case, for example
-    ``Thị Trấn Óc Eo``. Only the prefix is rewritten; the rest of the name and
-    every diacritic is left exactly as the source records it.
+    Wikidata convention expresses the tier through P31 (instance of); the label
+    is the bare toponym.  A few source names carry the tier in an odd case
+    (e.g. ``Thị Trấn Óc Eo``), so the match is case-folded.
     """
     name = entity["name_vi"]
     tier = entity["loai_hinh"]
     if name.lower().startswith(tier.lower() + " "):
-        return tier + name[len(tier):]
+        return name[len(tier) + 1:]
     return name
 
 

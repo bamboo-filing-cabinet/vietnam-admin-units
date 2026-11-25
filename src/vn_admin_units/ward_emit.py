@@ -118,8 +118,12 @@ def _en_parent(name: str) -> str:
     return name
 
 
-def _label_en(name_vi: str, loai_hinh: str) -> str:
-    """The English label: the bare place name without the Vietnamese tier prefix."""
+def _label_bare(name_vi: str, loai_hinh: str) -> str:
+    """The bare place name without the Vietnamese tier prefix.
+
+    Wikidata convention expresses the tier through P31 (instance of); both
+    the Vietnamese and English labels use the bare toponym.
+    """
     if name_vi.lower().startswith(loai_hinh.lower() + " "):
         return name_vi[len(loai_hinh) + 1:]
     return name_vi
@@ -193,8 +197,8 @@ def build_current_creation_manifest(
             "review_group": (sequence - 1) // review_group_size + 1,
             "local_id": row["local_id"],
             "gso_code": row["terminal_code"],
-            "name_vi": entity["name_vi"],
-            "name_en": _label_en(entity["name_vi"], entity["loai_hinh"]),
+            "name_vi": _label_bare(entity["name_vi"], entity["loai_hinh"]),
+            "name_en": _label_bare(entity["name_vi"], entity["loai_hinh"]),
             "description_vi": _description(entity["loai_hinh"], province["name_vi"]),
             "description_en": _description_en(entity["loai_hinh"], province["name_vi"]),
             "loai_hinh": entity["loai_hinh"],

@@ -98,7 +98,7 @@ def test_manifest_normalises_an_odd_tier_prefix_in_the_label():
 
     manifest = build_manifest(history, mapping, districts, primary, broad)
 
-    assert manifest["items"][0]["name_vi"] == "Thị trấn Óc Eo"
+    assert manifest["items"][0]["name_vi"] == "Óc Eo"
     assert manifest["items"][0]["description_vi"].startswith("thị trấn cũ thuộc ")
     assert manifest["items"][0]["description_en"].startswith("former township in ")
 

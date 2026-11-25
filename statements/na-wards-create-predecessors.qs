@@ -1,6 +1,6 @@
 CREATE
 LAST	Len	"Cao Bồ"
-LAST	Lvi	"Xã Cao Bồ"
+LAST	Lvi	"Cao Bồ"
 LAST	Den	"former commune in Vị Xuyên district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Vị Xuyên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -8,7 +8,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.
 LAST	P131	Q7924334	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
 LAST	Len	"Thượng Sơn"
-LAST	Lvi	"Xã Thượng Sơn"
+LAST	Lvi	"Thượng Sơn"
 LAST	Den	"former commune in Vị Xuyên district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Vị Xuyên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -16,7 +16,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.
 LAST	P131	Q7924334	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
 LAST	Len	"Linh Hồ"
-LAST	Lvi	"Xã Linh Hồ"
+LAST	Lvi	"Linh Hồ"
 LAST	Den	"former commune in Vị Xuyên district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Vị Xuyên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -24,7 +24,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.
 LAST	P131	Q7924334	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
 LAST	Len	"Việt Lâm"
-LAST	Lvi	"Xã Việt Lâm"
+LAST	Lvi	"Việt Lâm"
 LAST	Den	"former commune in Vị Xuyên district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Vị Xuyên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -32,7 +32,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.
 LAST	P131	Q7924334	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
 LAST	Len	"Bạch Ngọc"
-LAST	Lvi	"Xã Bạch Ngọc"
+LAST	Lvi	"Bạch Ngọc"
 LAST	Den	"former commune in Vị Xuyên district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Vị Xuyên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -40,7 +40,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.
 LAST	P131	Q7924334	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
 LAST	Len	"Minh Sơn"
-LAST	Lvi	"Xã Minh Sơn"
+LAST	Lvi	"Minh Sơn"
 LAST	Den	"former commune in Bắc Mê district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bắc Mê, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -48,7 +48,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.
 LAST	P131	Q4838560	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
 LAST	Len	"Giáp Trung"
-LAST	Lvi	"Xã Giáp Trung"
+LAST	Lvi	"Giáp Trung"
 LAST	Den	"former commune in Bắc Mê district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bắc Mê, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -56,7 +56,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.
 LAST	P131	Q4838560	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
 LAST	Len	"Yên Cường"
-LAST	Lvi	"Xã Yên Cường"
+LAST	Lvi	"Yên Cường"
 LAST	Den	"former commune in Bắc Mê district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bắc Mê, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -64,7 +64,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.
 LAST	P131	Q4838560	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
 LAST	Len	"Vinh Quang"
-LAST	Lvi	"Thị trấn Vinh Quang"
+LAST	Lvi	"Vinh Quang"
 LAST	Den	"former township in Hoàng Su Phì district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Hoàng Su Phì, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -72,7 +72,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.
 LAST	P131	Q13636329	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
 LAST	Len	"Bản Máy"
-LAST	Lvi	"Xã Bản Máy"
+LAST	Lvi	"Bản Máy"
 LAST	Den	"former commune in Hoàng Su Phì district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hoàng Su Phì, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -80,7 +80,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.
 LAST	P131	Q13636329	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
 LAST	Len	"Thàng Tín"
-LAST	Lvi	"Xã Thàng Tín"
+LAST	Lvi	"Thàng Tín"
 LAST	Den	"former commune in Hoàng Su Phì district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hoàng Su Phì, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -88,7 +88,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.
 LAST	P131	Q13636329	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Tiến"
-LAST	Lvi	"Xã Tân Tiến"
+LAST	Lvi	"Tân Tiến"
 LAST	Den	"former commune in Hoàng Su Phì district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hoàng Su Phì, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -96,7 +96,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.
 LAST	P131	Q13636329	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
 LAST	Len	"Pờ Ly Ngài"
-LAST	Lvi	"Xã Pờ Ly Ngài"
+LAST	Lvi	"Pờ Ly Ngài"
 LAST	Den	"former commune in Hoàng Su Phì district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hoàng Su Phì, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -104,7 +104,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.
 LAST	P131	Q13636329	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
 LAST	Len	"Nậm Dịch"
-LAST	Lvi	"Xã Nậm Dịch"
+LAST	Lvi	"Nậm Dịch"
 LAST	Den	"former commune in Hoàng Su Phì district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hoàng Su Phì, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -112,7 +112,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.
 LAST	P131	Q13636329	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
 LAST	Len	"Hồ Thầu"
-LAST	Lvi	"Xã Hồ Thầu"
+LAST	Lvi	"Hồ Thầu"
 LAST	Den	"former commune in Hoàng Su Phì district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hoàng Su Phì, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -120,7 +120,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.
 LAST	P131	Q13636329	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
 LAST	Len	"Thông Nguyên"
-LAST	Lvi	"Xã Thông Nguyên"
+LAST	Lvi	"Thông Nguyên"
 LAST	Den	"former commune in Hoàng Su Phì district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hoàng Su Phì, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -128,7 +128,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.
 LAST	P131	Q13636329	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
 LAST	Len	"Xín Mần"
-LAST	Lvi	"Xã Xín Mần"
+LAST	Lvi	"Xín Mần"
 LAST	Den	"former commune in Xín Mần district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Xín Mần, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -136,7 +136,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.
 LAST	P131	Q374062	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
 LAST	Len	"Trung Thịnh"
-LAST	Lvi	"Xã Trung Thịnh"
+LAST	Lvi	"Trung Thịnh"
 LAST	Den	"former commune in Xín Mần district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Xín Mần, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -144,7 +144,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.
 LAST	P131	Q374062	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
 LAST	Len	"Pà Vầy Sủ"
-LAST	Lvi	"Xã Pà Vầy Sủ"
+LAST	Lvi	"Pà Vầy Sủ"
 LAST	Den	"former commune in Xín Mần district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Xín Mần, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -152,7 +152,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.
 LAST	P131	Q374062	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
 LAST	Len	"Nấm Dẩn"
-LAST	Lvi	"Xã Nấm Dẩn"
+LAST	Lvi	"Nấm Dẩn"
 LAST	Den	"former commune in Xín Mần district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Xín Mần, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -160,7 +160,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.
 LAST	P131	Q374062	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
 LAST	Len	"Quảng Nguyên"
-LAST	Lvi	"Xã Quảng Nguyên"
+LAST	Lvi	"Quảng Nguyên"
 LAST	Den	"former commune in Xín Mần district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Xín Mần, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -168,7 +168,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.
 LAST	P131	Q374062	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
 LAST	Len	"Khuôn Lùng"
-LAST	Lvi	"Xã Khuôn Lùng"
+LAST	Lvi	"Khuôn Lùng"
 LAST	Den	"former commune in Xín Mần district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Xín Mần, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -176,7 +176,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.
 LAST	P131	Q374062	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
 LAST	Len	"Việt Quang"
-LAST	Lvi	"Thị trấn Việt Quang"
+LAST	Lvi	"Việt Quang"
 LAST	Den	"former township in Bắc Quang district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Bắc Quang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -184,7 +184,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.
 LAST	P131	Q4838562	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
 LAST	Len	"Vĩnh Tuy"
-LAST	Lvi	"Thị trấn Vĩnh Tuy"
+LAST	Lvi	"Vĩnh Tuy"
 LAST	Den	"former township in Bắc Quang district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Bắc Quang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -192,7 +192,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.
 LAST	P131	Q4838562	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
 LAST	Len	"Đồng Tâm"
-LAST	Lvi	"Xã Đồng Tâm"
+LAST	Lvi	"Đồng Tâm"
 LAST	Den	"former commune in Bắc Quang district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bắc Quang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -200,7 +200,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.
 LAST	P131	Q4838562	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Quang"
-LAST	Lvi	"Xã Tân Quang"
+LAST	Lvi	"Tân Quang"
 LAST	Den	"former commune in Bắc Quang district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bắc Quang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -208,7 +208,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.
 LAST	P131	Q4838562	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
 LAST	Len	"Liên Hiệp"
-LAST	Lvi	"Xã Liên Hiệp"
+LAST	Lvi	"Liên Hiệp"
 LAST	Den	"former commune in Bắc Quang district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bắc Quang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -216,7 +216,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.
 LAST	P131	Q4838562	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
 LAST	Len	"Hùng An"
-LAST	Lvi	"Xã Hùng An"
+LAST	Lvi	"Hùng An"
 LAST	Den	"former commune in Bắc Quang district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bắc Quang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -224,7 +224,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.
 LAST	P131	Q4838562	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
 LAST	Len	"Đồng Yên"
-LAST	Lvi	"Xã Đồng Yên"
+LAST	Lvi	"Đồng Yên"
 LAST	Den	"former commune in Bắc Quang district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bắc Quang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -232,7 +232,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.
 LAST	P131	Q4838562	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
 LAST	Len	"Tiên Nguyên"
-LAST	Lvi	"Xã Tiên Nguyên"
+LAST	Lvi	"Tiên Nguyên"
 LAST	Den	"former commune in Quang Bình district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Quang Bình, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -240,7 +240,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.
 LAST	P131	Q7268847	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
 LAST	Len	"Yên Thành"
-LAST	Lvi	"Xã Yên Thành"
+LAST	Lvi	"Yên Thành"
 LAST	Den	"former commune in Quang Bình district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Quang Bình, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -248,7 +248,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.
 LAST	P131	Q7268847	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
 LAST	Len	"Yên Bình"
-LAST	Lvi	"Thị trấn Yên Bình"
+LAST	Lvi	"Yên Bình"
 LAST	Den	"former township in Quang Bình district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Quang Bình, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -256,7 +256,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.
 LAST	P131	Q7268847	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
 LAST	Len	"Bằng Lang"
-LAST	Lvi	"Xã Bằng Lang"
+LAST	Lvi	"Bằng Lang"
 LAST	Den	"former commune in Quang Bình district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Quang Bình, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -264,7 +264,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.
 LAST	P131	Q7268847	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
 LAST	Len	"Xuân Giang"
-LAST	Lvi	"Xã Xuân Giang"
+LAST	Lvi	"Xuân Giang"
 LAST	Den	"former commune in Quang Bình district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Quang Bình, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -272,7 +272,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.
 LAST	P131	Q7268847	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
 LAST	Len	"Tiên Yên"
-LAST	Lvi	"Xã Tiên Yên"
+LAST	Lvi	"Tiên Yên"
 LAST	Den	"former commune in Quang Bình district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Quang Bình, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
@@ -280,7 +280,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.
 LAST	P131	Q7268847	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1684-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Giang"
-LAST	Lvi	"Phường Tân Giang"
+LAST	Lvi	"Tân Giang"
 LAST	Den	"former ward in Cao Bằng city, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành phố Cao Bằng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
@@ -288,7 +288,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.
 LAST	P131	Q1034096	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
 CREATE
 LAST	Len	"Lý Bôn"
-LAST	Lvi	"Xã Lý Bôn"
+LAST	Lvi	"Lý Bôn"
 LAST	Den	"former commune in Bảo Lâm district, Cao Bằng province, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bảo Lâm, tỉnh Cao Bằng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
@@ -296,7 +296,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.
 LAST	P131	Q10743246	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
 CREATE
 LAST	Len	"Nam Quang"
-LAST	Lvi	"Xã Nam Quang"
+LAST	Lvi	"Nam Quang"
 LAST	Den	"former commune in Bảo Lâm district, Cao Bằng province, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bảo Lâm, tỉnh Cao Bằng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
@@ -304,7 +304,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.
 LAST	P131	Q10743246	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
 CREATE
 LAST	Len	"Quảng Lâm"
-LAST	Lvi	"Xã Quảng Lâm"
+LAST	Lvi	"Quảng Lâm"
 LAST	Den	"former commune in Bảo Lâm district, Cao Bằng province, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bảo Lâm, tỉnh Cao Bằng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
@@ -312,7 +312,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.
 LAST	P131	Q10743246	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
 CREATE
 LAST	Len	"Yên Thổ"
-LAST	Lvi	"Xã Yên Thổ"
+LAST	Lvi	"Yên Thổ"
 LAST	Den	"former commune in Bảo Lâm district, Cao Bằng province, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bảo Lâm, tỉnh Cao Bằng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
@@ -320,7 +320,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.
 LAST	P131	Q10743246	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
 CREATE
 LAST	Len	"Bảo Lạc"
-LAST	Lvi	"Thị trấn Bảo Lạc"
+LAST	Lvi	"Bảo Lạc"
 LAST	Den	"former township in Bảo Lạc district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Bảo Lạc, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
@@ -328,7 +328,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.
 LAST	P131	Q4857420	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
 CREATE
 LAST	Len	"Cốc Pàng"
-LAST	Lvi	"Xã Cốc Pàng"
+LAST	Lvi	"Cốc Pàng"
 LAST	Den	"former commune in Bảo Lạc district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bảo Lạc, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
@@ -336,7 +336,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.
 LAST	P131	Q4857420	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
 CREATE
 LAST	Len	"Cô Ba"
-LAST	Lvi	"Xã Cô Ba"
+LAST	Lvi	"Cô Ba"
 LAST	Den	"former commune in Bảo Lạc district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bảo Lạc, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
@@ -344,7 +344,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.
 LAST	P131	Q4857420	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
 CREATE
 LAST	Len	"Khánh Xuân"
-LAST	Lvi	"Xã Khánh Xuân"
+LAST	Lvi	"Khánh Xuân"
 LAST	Den	"former commune in Bảo Lạc district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bảo Lạc, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
@@ -352,7 +352,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.
 LAST	P131	Q4857420	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
 CREATE
 LAST	Len	"Xuân Trường"
-LAST	Lvi	"Xã Xuân Trường"
+LAST	Lvi	"Xuân Trường"
 LAST	Den	"former commune in Bảo Lạc district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bảo Lạc, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
@@ -360,7 +360,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.
 LAST	P131	Q4857420	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
 CREATE
 LAST	Len	"Hưng Đạo"
-LAST	Lvi	"Xã Hưng Đạo"
+LAST	Lvi	"Hưng Đạo"
 LAST	Den	"former commune in Bảo Lạc district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bảo Lạc, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
@@ -368,7 +368,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.
 LAST	P131	Q4857420	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
 CREATE
 LAST	Len	"Huy Giáp"
-LAST	Lvi	"Xã Huy Giáp"
+LAST	Lvi	"Huy Giáp"
 LAST	Den	"former commune in Bảo Lạc district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bảo Lạc, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
@@ -376,7 +376,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.
 LAST	P131	Q4857420	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
 CREATE
 LAST	Len	"Sơn Lộ"
-LAST	Lvi	"Xã Sơn Lộ"
+LAST	Lvi	"Sơn Lộ"
 LAST	Den	"former commune in Bảo Lạc district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bảo Lạc, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
@@ -384,7 +384,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.
 LAST	P131	Q4857420	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
 CREATE
 LAST	Len	"Thông Nông"
-LAST	Lvi	"Thị trấn Thông Nông"
+LAST	Lvi	"Thông Nông"
 LAST	Den	"former township in Hà Quảng district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Hà Quảng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
@@ -392,7 +392,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.
 LAST	P131	Q2647812	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
 CREATE
 LAST	Len	"Cần Yên"
-LAST	Lvi	"Xã Cần Yên"
+LAST	Lvi	"Cần Yên"
 LAST	Den	"former commune in Hà Quảng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hà Quảng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
@@ -400,7 +400,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.
 LAST	P131	Q2647812	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
 CREATE
 LAST	Len	"Thanh Long"
-LAST	Lvi	"Xã Thanh Long"
+LAST	Lvi	"Thanh Long"
 LAST	Den	"former commune in Hà Quảng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hà Quảng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
@@ -408,7 +408,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.
 LAST	P131	Q2647812	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
 CREATE
 LAST	Len	"Lũng Nặm"
-LAST	Lvi	"Xã Lũng Nặm"
+LAST	Lvi	"Lũng Nặm"
 LAST	Den	"former commune in Hà Quảng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hà Quảng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
@@ -416,7 +416,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.
 LAST	P131	Q2647812	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
 CREATE
 LAST	Len	"Trường Hà"
-LAST	Lvi	"Xã Trường Hà"
+LAST	Lvi	"Trường Hà"
 LAST	Den	"former commune in Hà Quảng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hà Quảng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
@@ -424,7 +424,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.
 LAST	P131	Q2647812	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
 CREATE
 LAST	Len	"Tổng Cọt"
-LAST	Lvi	"Xã Tổng Cọt"
+LAST	Lvi	"Tổng Cọt"
 LAST	Den	"former commune in Hà Quảng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hà Quảng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
@@ -432,7 +432,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.
 LAST	P131	Q2647812	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
 CREATE
 LAST	Len	"Ngọc Đào"
-LAST	Lvi	"Xã Ngọc Đào"
+LAST	Lvi	"Ngọc Đào"
 LAST	Den	"former commune in Hà Quảng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hà Quảng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
@@ -440,7 +440,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.
 LAST	P131	Q2647812	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
 CREATE
 LAST	Len	"Trà Lĩnh"
-LAST	Lvi	"Thị trấn Trà Lĩnh"
+LAST	Lvi	"Trà Lĩnh"
 LAST	Den	"former township in Trùng Khánh district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Trùng Khánh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
@@ -448,7 +448,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.
 LAST	P131	Q7847960	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
 CREATE
 LAST	Len	"Quang Hán"
-LAST	Lvi	"Xã Quang Hán"
+LAST	Lvi	"Quang Hán"
 LAST	Den	"former commune in Trùng Khánh district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Trùng Khánh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
@@ -456,7 +456,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.
 LAST	P131	Q7847960	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
 CREATE
 LAST	Len	"Quang Trung"
-LAST	Lvi	"Xã Quang Trung"
+LAST	Lvi	"Quang Trung"
 LAST	Den	"former commune in Trùng Khánh district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Trùng Khánh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
@@ -464,7 +464,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.
 LAST	P131	Q7847960	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
 CREATE
 LAST	Len	"Trùng Khánh"
-LAST	Lvi	"Thị trấn Trùng Khánh"
+LAST	Lvi	"Trùng Khánh"
 LAST	Den	"former township in Trùng Khánh district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Trùng Khánh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
@@ -472,7 +472,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.
 LAST	P131	Q7847960	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
 CREATE
 LAST	Len	"Đình Phong"
-LAST	Lvi	"Xã Đình Phong"
+LAST	Lvi	"Đình Phong"
 LAST	Den	"former commune in Trùng Khánh district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Trùng Khánh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
@@ -480,7 +480,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.
 LAST	P131	Q7847960	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
 CREATE
 LAST	Len	"Đàm Thuỷ"
-LAST	Lvi	"Xã Đàm Thuỷ"
+LAST	Lvi	"Đàm Thuỷ"
 LAST	Den	"former commune in Trùng Khánh district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Trùng Khánh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
@@ -488,7 +488,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.
 LAST	P131	Q7847960	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
 CREATE
 LAST	Len	"Đoài Dương"
-LAST	Lvi	"Xã Đoài Dương"
+LAST	Lvi	"Đoài Dương"
 LAST	Den	"former commune in Trùng Khánh district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Trùng Khánh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
@@ -496,7 +496,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.
 LAST	P131	Q7847960	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
 CREATE
 LAST	Len	"Lý Quốc"
-LAST	Lvi	"Xã Lý Quốc"
+LAST	Lvi	"Lý Quốc"
 LAST	Den	"former commune in Hạ Lang district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hạ Lang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
@@ -504,7 +504,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.
 LAST	P131	Q5636438	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
 CREATE
 LAST	Len	"Quang Long"
-LAST	Lvi	"Xã Quang Long"
+LAST	Lvi	"Quang Long"
 LAST	Den	"former commune in Hạ Lang district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hạ Lang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
@@ -512,7 +512,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.
 LAST	P131	Q5636438	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
 CREATE
 LAST	Len	"Vinh Quý"
-LAST	Lvi	"Xã Vinh Quý"
+LAST	Lvi	"Vinh Quý"
 LAST	Den	"former commune in Hạ Lang district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hạ Lang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
@@ -520,7 +520,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.
 LAST	P131	Q5636438	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
 CREATE
 LAST	Len	"Thống Nhất"
-LAST	Lvi	"Xã Thống Nhất"
+LAST	Lvi	"Thống Nhất"
 LAST	Den	"former commune in Hạ Lang district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hạ Lang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
@@ -528,7 +528,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.
 LAST	P131	Q5636438	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
 CREATE
 LAST	Len	"Quảng Uyên"
-LAST	Lvi	"Thị trấn Quảng Uyên"
+LAST	Lvi	"Quảng Uyên"
 LAST	Den	"former township in Quảng Hòa district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Quảng Hòa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
@@ -536,7 +536,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.
 LAST	P131	Q16481406	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
 CREATE
 LAST	Len	"Độc Lập"
-LAST	Lvi	"Xã Độc Lập"
+LAST	Lvi	"Độc Lập"
 LAST	Den	"former commune in Quảng Hòa district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Quảng Hòa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
@@ -544,7 +544,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.
 LAST	P131	Q16481406	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
 CREATE
 LAST	Len	"Hạnh Phúc"
-LAST	Lvi	"Xã Hạnh Phúc"
+LAST	Lvi	"Hạnh Phúc"
 LAST	Den	"former commune in Quảng Hòa district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Quảng Hòa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
@@ -552,7 +552,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.
 LAST	P131	Q16481406	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1657-nq.signed.pdf"
 CREATE
 LAST	Len	"Phong Dụ Thượng"
-LAST	Lvi	"Xã Phong Dụ Thượng"
+LAST	Lvi	"Phong Dụ Thượng"
 LAST	Den	"former commune in Văn Yên district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Văn Yên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
@@ -560,7 +560,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.
 LAST	P131	Q7913789	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
 LAST	Len	"Xuân Ái"
-LAST	Lvi	"Xã Xuân Ái"
+LAST	Lvi	"Xuân Ái"
 LAST	Den	"former commune in Văn Yên district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Văn Yên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
@@ -568,7 +568,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.
 LAST	P131	Q7913789	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
 LAST	Len	"Mỏ Vàng"
-LAST	Lvi	"Xã Mỏ Vàng"
+LAST	Lvi	"Mỏ Vàng"
 LAST	Den	"former commune in Văn Yên district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Văn Yên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
@@ -576,7 +576,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.
 LAST	P131	Q7913789	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
 LAST	Len	"Mù Căng Chải"
-LAST	Lvi	"Thị trấn Mù Căng Chải"
+LAST	Lvi	"Mù Căng Chải"
 LAST	Den	"former township in Mù Căng Chải district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Mù Căng Chải, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
@@ -584,7 +584,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.
 LAST	P131	Q10796264	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
 LAST	Len	"Nậm Có"
-LAST	Lvi	"Xã Nậm Có"
+LAST	Lvi	"Nậm Có"
 LAST	Den	"former commune in Mù Căng Chải district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Mù Căng Chải, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
@@ -592,7 +592,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.
 LAST	P131	Q10796264	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
 LAST	Len	"Khao Mang"
-LAST	Lvi	"Xã Khao Mang"
+LAST	Lvi	"Khao Mang"
 LAST	Den	"former commune in Mù Căng Chải district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Mù Căng Chải, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
@@ -600,7 +600,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.
 LAST	P131	Q10796264	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
 LAST	Len	"Lao Chải"
-LAST	Lvi	"Xã Lao Chải"
+LAST	Lvi	"Lao Chải"
 LAST	Den	"former commune in Mù Căng Chải district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Mù Căng Chải, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
@@ -608,7 +608,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.
 LAST	P131	Q10796264	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
 LAST	Len	"Dế Su Phình"
-LAST	Lvi	"Xã Dế Su Phình"
+LAST	Lvi	"Dế Su Phình"
 LAST	Den	"former commune in Mù Căng Chải district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Mù Căng Chải, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
@@ -616,7 +616,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.
 LAST	P131	Q10796264	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
 LAST	Len	"Chế Tạo"
-LAST	Lvi	"Xã Chế Tạo"
+LAST	Lvi	"Chế Tạo"
 LAST	Den	"former commune in Mù Căng Chải district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Mù Căng Chải, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
@@ -624,7 +624,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.
 LAST	P131	Q10796264	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
 LAST	Len	"Púng Luông"
-LAST	Lvi	"Xã Púng Luông"
+LAST	Lvi	"Púng Luông"
 LAST	Den	"former commune in Mù Căng Chải district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Mù Căng Chải, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
@@ -632,7 +632,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.
 LAST	P131	Q10796264	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
 LAST	Len	"Cổ Phúc"
-LAST	Lvi	"Thị trấn Cổ Phúc"
+LAST	Lvi	"Cổ Phúc"
 LAST	Den	"former township in Trấn Yên district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Trấn Yên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
@@ -640,7 +640,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.
 LAST	P131	Q7833347	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
 LAST	Len	"Quy Mông"
-LAST	Lvi	"Xã Quy Mông"
+LAST	Lvi	"Quy Mông"
 LAST	Den	"former commune in Trấn Yên district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Trấn Yên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
@@ -648,7 +648,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.
 LAST	P131	Q7833347	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
 LAST	Len	"Lương Thịnh"
-LAST	Lvi	"Xã Lương Thịnh"
+LAST	Lvi	"Lương Thịnh"
 LAST	Den	"former commune in Trấn Yên district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Trấn Yên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
@@ -656,7 +656,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.
 LAST	P131	Q7833347	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
 LAST	Len	"Âu Lâu"
-LAST	Lvi	"Xã Âu Lâu"
+LAST	Lvi	"Âu Lâu"
 LAST	Den	"former commune in Yên Bái city, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thành phố Yên Bái, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
@@ -664,7 +664,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.
 LAST	P131	Q26019	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
 LAST	Len	"Hợp Minh"
-LAST	Lvi	"Phường Hợp Minh"
+LAST	Lvi	"Hợp Minh"
 LAST	Den	"former ward in Yên Bái city, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành phố Yên Bái, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
@@ -672,7 +672,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.
 LAST	P131	Q26019	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
 LAST	Len	"Văn Phú"
-LAST	Lvi	"Xã Văn Phú"
+LAST	Lvi	"Văn Phú"
 LAST	Den	"former commune in Yên Bái city, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thành phố Yên Bái, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
@@ -680,7 +680,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.
 LAST	P131	Q26019	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
 LAST	Len	"Việt Hồng"
-LAST	Lvi	"Xã Việt Hồng"
+LAST	Lvi	"Việt Hồng"
 LAST	Den	"former commune in Trấn Yên district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Trấn Yên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
@@ -688,7 +688,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.
 LAST	P131	Q7833347	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
 LAST	Len	"Trạm Tấu"
-LAST	Lvi	"Thị trấn Trạm Tấu"
+LAST	Lvi	"Trạm Tấu"
 LAST	Den	"former township in Trạm Tấu district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Trạm Tấu, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
@@ -696,7 +696,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.
 LAST	P131	Q7833115	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
 LAST	Len	"Phình Hồ"
-LAST	Lvi	"Xã Phình Hồ"
+LAST	Lvi	"Phình Hồ"
 LAST	Den	"former commune in Trạm Tấu district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Trạm Tấu, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
@@ -704,7 +704,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.
 LAST	P131	Q7833115	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
 LAST	Len	"Trạm Tấu"
-LAST	Lvi	"Xã Trạm Tấu"
+LAST	Lvi	"Trạm Tấu"
 LAST	Den	"former commune in Trạm Tấu district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Trạm Tấu, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
@@ -712,7 +712,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.
 LAST	P131	Q7833115	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
 LAST	Len	"Hát Lìu"
-LAST	Lvi	"Xã Hát Lìu"
+LAST	Lvi	"Hát Lìu"
 LAST	Den	"former commune in Trạm Tấu district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Trạm Tấu, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
@@ -720,7 +720,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.
 LAST	P131	Q7833115	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
 LAST	Len	"Nghĩa Lộ"
-LAST	Lvi	"Xã Nghĩa Lộ"
+LAST	Lvi	"Nghĩa Lộ"
 LAST	Den	"former commune in Nghĩa Lộ town, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thị xã Nghĩa Lộ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
@@ -728,7 +728,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.
 LAST	P131	Q7022345	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
 LAST	Len	"NT Trần Phú"
-LAST	Lvi	"Thị trấn NT Trần Phú"
+LAST	Lvi	"NT Trần Phú"
 LAST	Den	"former township in Văn Chấn district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Văn Chấn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
@@ -736,7 +736,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.
 LAST	P131	Q7913239	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
 LAST	Len	"Tú Lệ"
-LAST	Lvi	"Xã Tú Lệ"
+LAST	Lvi	"Tú Lệ"
 LAST	Den	"former commune in Văn Chấn district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Văn Chấn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
@@ -744,7 +744,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.
 LAST	P131	Q7913239	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
 LAST	Len	"Gia Hội"
-LAST	Lvi	"Xã Gia Hội"
+LAST	Lvi	"Gia Hội"
 LAST	Den	"former commune in Văn Chấn district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Văn Chấn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
@@ -752,7 +752,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.
 LAST	P131	Q7913239	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
 LAST	Len	"Sơn Lương"
-LAST	Lvi	"Xã Sơn Lương"
+LAST	Lvi	"Sơn Lương"
 LAST	Den	"former commune in Văn Chấn district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Văn Chấn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
@@ -760,7 +760,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.
 LAST	P131	Q7913239	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
 LAST	Len	"Sơn Thịnh"
-LAST	Lvi	"Thị trấn Sơn Thịnh"
+LAST	Lvi	"Sơn Thịnh"
 LAST	Den	"former township in Văn Chấn district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Văn Chấn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
@@ -768,7 +768,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.
 LAST	P131	Q7913239	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
 LAST	Len	"Cát Thịnh"
-LAST	Lvi	"Xã Cát Thịnh"
+LAST	Lvi	"Cát Thịnh"
 LAST	Den	"former commune in Văn Chấn district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Văn Chấn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
@@ -776,7 +776,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.
 LAST	P131	Q7913239	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
 LAST	Len	"Chấn Thịnh"
-LAST	Lvi	"Xã Chấn Thịnh"
+LAST	Lvi	"Chấn Thịnh"
 LAST	Den	"former commune in Văn Chấn district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Văn Chấn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
@@ -784,7 +784,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.
 LAST	P131	Q7913239	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
 LAST	Len	"Thượng Bằng La"
-LAST	Lvi	"Xã Thượng Bằng La"
+LAST	Lvi	"Thượng Bằng La"
 LAST	Den	"former commune in Văn Chấn district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Văn Chấn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
@@ -792,7 +792,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.
 LAST	P131	Q7913239	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
 LAST	Len	"Nghĩa Tâm"
-LAST	Lvi	"Xã Nghĩa Tâm"
+LAST	Lvi	"Nghĩa Tâm"
 LAST	Den	"former commune in Văn Chấn district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Văn Chấn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
@@ -800,7 +800,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.
 LAST	P131	Q7913239	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
 LAST	Len	"Thác Bà"
-LAST	Lvi	"Thị trấn Thác Bà"
+LAST	Lvi	"Thác Bà"
 LAST	Den	"former township in Yên Bình district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Yên Bình, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
@@ -808,7 +808,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.
 LAST	P131	Q8052180	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
 LAST	Len	"Bảo Ái"
-LAST	Lvi	"Xã Bảo Ái"
+LAST	Lvi	"Bảo Ái"
 LAST	Den	"former commune in Yên Bình district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Yên Bình, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
@@ -816,7 +816,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.
 LAST	P131	Q8052180	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
 LAST	Len	"Yên Thành"
-LAST	Lvi	"Xã Yên Thành"
+LAST	Lvi	"Yên Thành"
 LAST	Den	"former commune in Yên Bình district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Yên Bình, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
@@ -824,7 +824,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.
 LAST	P131	Q8052180	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1673-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Hòa"
-LAST	Lvi	"Phường Tân Hòa"
+LAST	Lvi	"Tân Hòa"
 LAST	Den	"former ward in Hòa Bình city, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành phố Hòa Bình, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -832,7 +832,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q130324	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Hòa Bình"
-LAST	Lvi	"Xã Hòa Bình"
+LAST	Lvi	"Hòa Bình"
 LAST	Den	"former commune in Hòa Bình city, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thành phố Hòa Bình, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -840,7 +840,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q130324	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Thống Nhất"
-LAST	Lvi	"Phường Thống Nhất"
+LAST	Lvi	"Thống Nhất"
 LAST	Den	"former ward in Hòa Bình city, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành phố Hòa Bình, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -848,7 +848,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q130324	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Mường Chiềng"
-LAST	Lvi	"Xã Mường Chiềng"
+LAST	Lvi	"Mường Chiềng"
 LAST	Den	"former commune in Đà Bắc district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Đà Bắc, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -856,7 +856,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q5207197	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Pheo"
-LAST	Lvi	"Xã Tân Pheo"
+LAST	Lvi	"Tân Pheo"
 LAST	Den	"former commune in Đà Bắc district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Đà Bắc, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -864,7 +864,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q5207197	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Trung Thành"
-LAST	Lvi	"Xã Trung Thành"
+LAST	Lvi	"Trung Thành"
 LAST	Den	"former commune in Đà Bắc district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Đà Bắc, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -872,7 +872,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q5207197	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Cao Sơn"
-LAST	Lvi	"Xã Cao Sơn"
+LAST	Lvi	"Cao Sơn"
 LAST	Den	"former commune in Đà Bắc district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Đà Bắc, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -880,7 +880,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q5207197	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Thành"
-LAST	Lvi	"Xã Tân Thành"
+LAST	Lvi	"Tân Thành"
 LAST	Den	"former commune in Mai Châu district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Mai Châu, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -888,7 +888,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q6735119	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Tiền Phong"
-LAST	Lvi	"Xã Tiền Phong"
+LAST	Lvi	"Tiền Phong"
 LAST	Den	"former commune in Đà Bắc district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Đà Bắc, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -896,7 +896,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q5207197	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Kỳ Sơn"
-LAST	Lvi	"Phường Kỳ Sơn"
+LAST	Lvi	"Kỳ Sơn"
 LAST	Den	"former ward in Hòa Bình city, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành phố Hòa Bình, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -904,7 +904,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q130324	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Thịnh Minh"
-LAST	Lvi	"Xã Thịnh Minh"
+LAST	Lvi	"Thịnh Minh"
 LAST	Den	"former commune in Hòa Bình city, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thành phố Hòa Bình, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -912,7 +912,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q130324	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Lương Sơn"
-LAST	Lvi	"Thị trấn Lương Sơn"
+LAST	Lvi	"Lương Sơn"
 LAST	Den	"former township in Lương Sơn district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Lương Sơn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -920,7 +920,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q6704607	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Cao Sơn"
-LAST	Lvi	"Xã Cao Sơn"
+LAST	Lvi	"Cao Sơn"
 LAST	Den	"former commune in Lương Sơn district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Lương Sơn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -928,7 +928,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q6704607	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Liên Sơn"
-LAST	Lvi	"Xã Liên Sơn"
+LAST	Lvi	"Liên Sơn"
 LAST	Den	"former commune in Lương Sơn district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Lương Sơn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -936,7 +936,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q6704607	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Hùng Sơn"
-LAST	Lvi	"Xã Hùng Sơn"
+LAST	Lvi	"Hùng Sơn"
 LAST	Den	"former commune in Kim Bôi district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Kim Bôi, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -944,7 +944,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q5424530	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Cao Dương"
-LAST	Lvi	"Xã Cao Dương"
+LAST	Lvi	"Cao Dương"
 LAST	Den	"former commune in Lương Sơn district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Lương Sơn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -952,7 +952,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q6704607	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Xuân Thủy"
-LAST	Lvi	"Xã Xuân Thủy"
+LAST	Lvi	"Xuân Thủy"
 LAST	Den	"former commune in Kim Bôi district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Kim Bôi, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -960,7 +960,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q5424530	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Kim Lập"
-LAST	Lvi	"Xã Kim Lập"
+LAST	Lvi	"Kim Lập"
 LAST	Den	"former commune in Kim Bôi district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Kim Bôi, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -968,7 +968,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q5424530	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Hợp Tiến"
-LAST	Lvi	"Xã Hợp Tiến"
+LAST	Lvi	"Hợp Tiến"
 LAST	Den	"former commune in Kim Bôi district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Kim Bôi, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -976,7 +976,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q5424530	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Thanh Sơn"
-LAST	Lvi	"Xã Thanh Sơn"
+LAST	Lvi	"Thanh Sơn"
 LAST	Den	"former commune in Lương Sơn district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Lương Sơn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -984,7 +984,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q6704607	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Thanh Cao"
-LAST	Lvi	"Xã Thanh Cao"
+LAST	Lvi	"Thanh Cao"
 LAST	Den	"former commune in Lương Sơn district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Lương Sơn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -992,7 +992,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q6704607	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Kim Bôi"
-LAST	Lvi	"Xã Kim Bôi"
+LAST	Lvi	"Kim Bôi"
 LAST	Den	"former commune in Kim Bôi district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Kim Bôi, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -1000,7 +1000,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q5424530	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Nuông Dăm"
-LAST	Lvi	"Xã Nuông Dăm"
+LAST	Lvi	"Nuông Dăm"
 LAST	Den	"former commune in Kim Bôi district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Kim Bôi, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -1008,7 +1008,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q5424530	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Cao Phong"
-LAST	Lvi	"Thị trấn Cao Phong"
+LAST	Lvi	"Cao Phong"
 LAST	Den	"former township in Cao Phong district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Cao Phong, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -1016,7 +1016,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q2541057	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Thung Nai"
-LAST	Lvi	"Xã Thung Nai"
+LAST	Lvi	"Thung Nai"
 LAST	Den	"former commune in Cao Phong district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Cao Phong, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -1024,7 +1024,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q2541057	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Đại Sơn"
-LAST	Lvi	"Xã Đại Sơn"
+LAST	Lvi	"Đại Sơn"
 LAST	Den	"former commune in Sơn Động district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Sơn Động, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
@@ -1032,7 +1032,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.
 LAST	P131	Q1924571	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
 CREATE
 LAST	Len	"An Lạc"
-LAST	Lvi	"Xã An Lạc"
+LAST	Lvi	"An Lạc"
 LAST	Den	"former commune in Sơn Động district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Sơn Động, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
@@ -1040,7 +1040,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.
 LAST	P131	Q1924571	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
 CREATE
 LAST	Len	"Vĩnh An"
-LAST	Lvi	"Xã Vĩnh An"
+LAST	Lvi	"Vĩnh An"
 LAST	Den	"former commune in Sơn Động district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Sơn Động, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
@@ -1048,7 +1048,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.
 LAST	P131	Q1924571	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
 CREATE
 LAST	Len	"Tuấn Đạo"
-LAST	Lvi	"Xã Tuấn Đạo"
+LAST	Lvi	"Tuấn Đạo"
 LAST	Den	"former commune in Sơn Động district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Sơn Động, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
@@ -1056,7 +1056,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.
 LAST	P131	Q1924571	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
 CREATE
 LAST	Len	"Dương Hưu"
-LAST	Lvi	"Xã Dương Hưu"
+LAST	Lvi	"Dương Hưu"
 LAST	Den	"former commune in Sơn Động district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Sơn Động, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
@@ -1064,7 +1064,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.
 LAST	P131	Q1924571	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân An"
-LAST	Lvi	"Phường Tân An"
+LAST	Lvi	"Tân An"
 LAST	Den	"former ward in Bắc Giang city, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành phố Bắc Giang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
@@ -1072,7 +1072,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.
 LAST	P131	Q36736	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
 CREATE
 LAST	Len	"Đồng Sơn"
-LAST	Lvi	"Phường Đồng Sơn"
+LAST	Lvi	"Đồng Sơn"
 LAST	Den	"former ward in Bắc Giang city, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành phố Bắc Giang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
@@ -1080,7 +1080,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.
 LAST	P131	Q36736	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Tiến"
-LAST	Lvi	"Phường Tân Tiến"
+LAST	Lvi	"Tân Tiến"
 LAST	Den	"former ward in Bắc Giang city, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành phố Bắc Giang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
@@ -1088,7 +1088,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.
 LAST	P131	Q36736	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
 CREATE
 LAST	Len	"Tiền Phong"
-LAST	Lvi	"Phường Tiền Phong"
+LAST	Lvi	"Tiền Phong"
 LAST	Den	"former ward in Bắc Giang city, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành phố Bắc Giang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
@@ -1096,7 +1096,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.
 LAST	P131	Q36736	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
 CREATE
 LAST	Len	"Đồng Việt"
-LAST	Lvi	"Xã Đồng Việt"
+LAST	Lvi	"Đồng Việt"
 LAST	Den	"former commune in Bắc Giang city, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thành phố Bắc Giang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
@@ -1104,7 +1104,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.
 LAST	P131	Q36736	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
 CREATE
 LAST	Len	"Nếnh"
-LAST	Lvi	"Phường Nếnh"
+LAST	Lvi	"Nếnh"
 LAST	Den	"former ward in Thị Xã Việt Yên, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thị Xã Việt Yên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
@@ -1112,7 +1112,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.
 LAST	P131	Q2227688	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
 CREATE
 LAST	Len	"Vân Hà"
-LAST	Lvi	"Xã Vân Hà"
+LAST	Lvi	"Vân Hà"
 LAST	Den	"former commune in Thị Xã Việt Yên, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thị Xã Việt Yên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
@@ -1120,7 +1120,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.
 LAST	P131	Q2227688	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
 CREATE
 LAST	Len	"Đồng Tiến"
-LAST	Lvi	"Xã Đồng Tiến"
+LAST	Lvi	"Đồng Tiến"
 LAST	Den	"former commune in Hiệp Hòa district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hiệp Hòa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
@@ -1128,7 +1128,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.
 LAST	P131	Q2224873	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
 CREATE
 LAST	Len	"Hoàng Vân"
-LAST	Lvi	"Xã Hoàng Vân"
+LAST	Lvi	"Hoàng Vân"
 LAST	Den	"former commune in Hiệp Hòa district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hiệp Hòa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
@@ -1136,7 +1136,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.
 LAST	P131	Q2224873	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
 CREATE
 LAST	Len	"Toàn Thắng"
-LAST	Lvi	"Xã Toàn Thắng"
+LAST	Lvi	"Toàn Thắng"
 LAST	Den	"former commune in Hiệp Hòa district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hiệp Hòa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
@@ -1144,7 +1144,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.
 LAST	P131	Q2224873	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
 CREATE
 LAST	Len	"Sơn Thịnh"
-LAST	Lvi	"Xã Sơn Thịnh"
+LAST	Lvi	"Sơn Thịnh"
 LAST	Den	"former commune in Hiệp Hòa district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hiệp Hòa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
@@ -1152,7 +1152,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.
 LAST	P131	Q2224873	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
 CREATE
 LAST	Len	"Hùng Thái"
-LAST	Lvi	"Xã Hùng Thái"
+LAST	Lvi	"Hùng Thái"
 LAST	Den	"former commune in Hiệp Hòa district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hiệp Hòa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
@@ -1160,7 +1160,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.
 LAST	P131	Q2224873	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
 CREATE
 LAST	Len	"Hợp Thịnh"
-LAST	Lvi	"Xã Hợp Thịnh"
+LAST	Lvi	"Hợp Thịnh"
 LAST	Den	"former commune in Hiệp Hòa district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hiệp Hòa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
@@ -1168,7 +1168,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.
 LAST	P131	Q2224873	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
 CREATE
 LAST	Len	"Xuân Cẩm"
-LAST	Lvi	"Xã Xuân Cẩm"
+LAST	Lvi	"Xuân Cẩm"
 LAST	Den	"former commune in Hiệp Hòa district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hiệp Hòa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
@@ -1176,7 +1176,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.
 LAST	P131	Q2224873	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
 CREATE
 LAST	Len	"Nông Trang"
-LAST	Lvi	"Phường Nông Trang"
+LAST	Lvi	"Nông Trang"
 LAST	Den	"former ward in Việt Trì city, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành phố Việt Trì, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -1184,7 +1184,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q36082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Thanh Miếu"
-LAST	Lvi	"Phường Thanh Miếu"
+LAST	Lvi	"Thanh Miếu"
 LAST	Den	"former ward in Việt Trì city, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành phố Việt Trì, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -1192,7 +1192,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q36082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Vân Phú"
-LAST	Lvi	"Phường Vân Phú"
+LAST	Lvi	"Vân Phú"
 LAST	Den	"former ward in Việt Trì city, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành phố Việt Trì, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -1200,7 +1200,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q36082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Sông Lô"
-LAST	Lvi	"Xã Sông Lô"
+LAST	Lvi	"Sông Lô"
 LAST	Den	"former commune in Việt Trì city, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thành phố Việt Trì, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -1208,7 +1208,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q36082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Phong Châu"
-LAST	Lvi	"Phường Phong Châu"
+LAST	Lvi	"Phong Châu"
 LAST	Den	"former ward in Phú Thọ town, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thị xã Phú Thọ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -1216,7 +1216,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q2662189	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Âu Cơ"
-LAST	Lvi	"Phường Âu Cơ"
+LAST	Lvi	"Âu Cơ"
 LAST	Den	"former ward in Phú Thọ town, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thị xã Phú Thọ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -1224,7 +1224,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q2662189	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Đoan Hùng"
-LAST	Lvi	"Thị trấn Đoan Hùng"
+LAST	Lvi	"Đoan Hùng"
 LAST	Den	"former township in Đoan Hùng district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Đoan Hùng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -1232,7 +1232,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q5286481	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Hùng Xuyên"
-LAST	Lvi	"Xã Hùng Xuyên"
+LAST	Lvi	"Hùng Xuyên"
 LAST	Den	"former commune in Đoan Hùng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Đoan Hùng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -1240,7 +1240,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q5286481	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Bằng Luân"
-LAST	Lvi	"Xã Bằng Luân"
+LAST	Lvi	"Bằng Luân"
 LAST	Den	"former commune in Đoan Hùng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Đoan Hùng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -1248,7 +1248,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q5286481	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Chí Đám"
-LAST	Lvi	"Xã Chí Đám"
+LAST	Lvi	"Chí Đám"
 LAST	Den	"former commune in Đoan Hùng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Đoan Hùng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -1256,7 +1256,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q5286481	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Hợp Nhất"
-LAST	Lvi	"Xã Hợp Nhất"
+LAST	Lvi	"Hợp Nhất"
 LAST	Den	"former commune in Đoan Hùng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Đoan Hùng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -1264,7 +1264,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q5286481	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Tây Cốc"
-LAST	Lvi	"Xã Tây Cốc"
+LAST	Lvi	"Tây Cốc"
 LAST	Den	"former commune in Đoan Hùng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Đoan Hùng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -1272,7 +1272,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q5286481	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Chân Mộng"
-LAST	Lvi	"Xã Chân Mộng"
+LAST	Lvi	"Chân Mộng"
 LAST	Den	"former commune in Đoan Hùng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Đoan Hùng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -1280,7 +1280,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q5286481	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Hạ Hoà"
-LAST	Lvi	"Thị trấn Hạ Hoà"
+LAST	Lvi	"Hạ Hoà"
 LAST	Den	"former township in Hạ Hoà district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Hạ Hoà, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -1288,7 +1288,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q5636428	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Đan Thượng"
-LAST	Lvi	"Xã Đan Thượng"
+LAST	Lvi	"Đan Thượng"
 LAST	Den	"former commune in Hạ Hoà district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hạ Hoà, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -1296,7 +1296,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q5636428	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Tứ Hiệp"
-LAST	Lvi	"Xã Tứ Hiệp"
+LAST	Lvi	"Tứ Hiệp"
 LAST	Den	"former commune in Hạ Hoà district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hạ Hoà, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -1304,7 +1304,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q5636428	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Hiền Lương"
-LAST	Lvi	"Xã Hiền Lương"
+LAST	Lvi	"Hiền Lương"
 LAST	Den	"former commune in Hạ Hoà district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hạ Hoà, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -1312,7 +1312,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q5636428	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Yên Kỳ"
-LAST	Lvi	"Xã Yên Kỳ"
+LAST	Lvi	"Yên Kỳ"
 LAST	Den	"former commune in Hạ Hoà district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hạ Hoà, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -1320,7 +1320,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q5636428	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Văn Lang"
-LAST	Lvi	"Xã Văn Lang"
+LAST	Lvi	"Văn Lang"
 LAST	Den	"former commune in Hạ Hoà district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hạ Hoà, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -1328,7 +1328,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q5636428	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Vĩnh Chân"
-LAST	Lvi	"Xã Vĩnh Chân"
+LAST	Lvi	"Vĩnh Chân"
 LAST	Den	"former commune in Hạ Hoà district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hạ Hoà, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -1336,7 +1336,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q5636428	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Thanh Ba"
-LAST	Lvi	"Thị trấn Thanh Ba"
+LAST	Lvi	"Thanh Ba"
 LAST	Den	"former township in Thanh Ba district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Thanh Ba, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -1344,7 +1344,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q7710326	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Quảng Yên"
-LAST	Lvi	"Xã Quảng Yên"
+LAST	Lvi	"Quảng Yên"
 LAST	Den	"former commune in Thanh Ba district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thanh Ba, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -1352,7 +1352,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q7710326	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Hoàng Cương"
-LAST	Lvi	"Xã Hoàng Cương"
+LAST	Lvi	"Hoàng Cương"
 LAST	Den	"former commune in Thanh Ba district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thanh Ba, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -1360,7 +1360,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q7710326	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Chí Tiên"
-LAST	Lvi	"Xã Chí Tiên"
+LAST	Lvi	"Chí Tiên"
 LAST	Den	"former commune in Thanh Ba district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thanh Ba, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -1368,7 +1368,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q7710326	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Đông Thành"
-LAST	Lvi	"Xã Đông Thành"
+LAST	Lvi	"Đông Thành"
 LAST	Den	"former commune in Thanh Ba district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thanh Ba, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -1376,7 +1376,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q7710326	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Đỗ Xuyên"
-LAST	Lvi	"Xã Đỗ Xuyên"
+LAST	Lvi	"Đỗ Xuyên"
 LAST	Den	"former commune in Thanh Ba district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thanh Ba, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -1384,7 +1384,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q7710326	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Phú Mỹ"
-LAST	Lvi	"Xã Phú Mỹ"
+LAST	Lvi	"Phú Mỹ"
 LAST	Den	"former commune in Phù Ninh district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Phù Ninh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -1392,7 +1392,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q7188256	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Trạm Thản"
-LAST	Lvi	"Xã Trạm Thản"
+LAST	Lvi	"Trạm Thản"
 LAST	Den	"former commune in Phù Ninh district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Phù Ninh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -1400,7 +1400,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q7188256	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Bình Phú"
-LAST	Lvi	"Xã Bình Phú"
+LAST	Lvi	"Bình Phú"
 LAST	Den	"former commune in Phù Ninh district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Phù Ninh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
@@ -1408,7 +1408,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.
 LAST	P131	Q7188256	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1676-nq.signed.pdf"
 CREATE
 LAST	Len	"Trí Quả"
-LAST	Lvi	"Phường Trí Quả"
+LAST	Lvi	"Trí Quả"
 LAST	Den	"former ward in Thuận Thành town, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thị xã Thuận Thành, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
@@ -1416,7 +1416,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.
 LAST	P131	Q3711534	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
 CREATE
 LAST	Len	"Trạm Lộ"
-LAST	Lvi	"Phường Trạm Lộ"
+LAST	Lvi	"Trạm Lộ"
 LAST	Den	"former ward in Thuận Thành town, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thị xã Thuận Thành, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
@@ -1424,7 +1424,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.
 LAST	P131	Q3711534	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
 CREATE
 LAST	Len	"Ninh Xá"
-LAST	Lvi	"Phường Ninh Xá"
+LAST	Lvi	"Ninh Xá"
 LAST	Den	"former ward in Thuận Thành town, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thị xã Thuận Thành, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
@@ -1432,7 +1432,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.
 LAST	P131	Q3711534	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
 CREATE
 LAST	Len	"Song Liễu"
-LAST	Lvi	"Xã Song Liễu"
+LAST	Lvi	"Song Liễu"
 LAST	Den	"former commune in Thuận Thành town, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thị xã Thuận Thành, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
@@ -1440,7 +1440,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.
 LAST	P131	Q3711534	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
 CREATE
 LAST	Len	"Gia Bình"
-LAST	Lvi	"Thị trấn Gia Bình"
+LAST	Lvi	"Gia Bình"
 LAST	Den	"former township in Gia Bình district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Gia Bình, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
@@ -1448,7 +1448,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.
 LAST	P131	Q1924530	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
 CREATE
 LAST	Len	"Cao Đức"
-LAST	Lvi	"Xã Cao Đức"
+LAST	Lvi	"Cao Đức"
 LAST	Den	"former commune in Gia Bình district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Gia Bình, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
@@ -1456,7 +1456,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.
 LAST	P131	Q1924530	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
 CREATE
 LAST	Len	"Đại Lai"
-LAST	Lvi	"Xã Đại Lai"
+LAST	Lvi	"Đại Lai"
 LAST	Den	"former commune in Gia Bình district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Gia Bình, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
@@ -1464,7 +1464,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.
 LAST	P131	Q1924530	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
 CREATE
 LAST	Len	"Nhân Thắng"
-LAST	Lvi	"Thị trấn Nhân Thắng"
+LAST	Lvi	"Nhân Thắng"
 LAST	Den	"former township in Gia Bình district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Gia Bình, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
@@ -1472,7 +1472,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.
 LAST	P131	Q1924530	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
 CREATE
 LAST	Len	"Trung Kênh"
-LAST	Lvi	"Xã Trung Kênh"
+LAST	Lvi	"Trung Kênh"
 LAST	Den	"former commune in Lương Tài district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Lương Tài, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
@@ -1480,7 +1480,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.
 LAST	P131	Q3711124	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
 CREATE
 LAST	Len	"An Tập"
-LAST	Lvi	"Xã An Tập"
+LAST	Lvi	"An Tập"
 LAST	Den	"former commune in Lương Tài district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Lương Tài, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
@@ -1488,7 +1488,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.
 LAST	P131	Q3711124	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
 CREATE
 LAST	Len	"Quang Minh"
-LAST	Lvi	"Xã Quang Minh"
+LAST	Lvi	"Quang Minh"
 LAST	Den	"former commune in Lương Tài district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Lương Tài, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
@@ -1496,7 +1496,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.
 LAST	P131	Q3711124	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
 CREATE
 LAST	Len	"Trung Chính"
-LAST	Lvi	"Xã Trung Chính"
+LAST	Lvi	"Trung Chính"
 LAST	Den	"former commune in Lương Tài district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Lương Tài, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
@@ -1504,7 +1504,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.
 LAST	P131	Q3711124	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
 CREATE
 LAST	Len	"Lâm Thao"
-LAST	Lvi	"Xã Lâm Thao"
+LAST	Lvi	"Lâm Thao"
 LAST	Den	"former commune in Lương Tài district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Lương Tài, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
@@ -1512,7 +1512,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.
 LAST	P131	Q3711124	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1658-nq.signed.pdf"
 CREATE
 LAST	Len	"Văn Mỗ"
-LAST	Lvi	"Phường Văn Mỗ"
+LAST	Lvi	"Văn Mỗ"
 LAST	Den	"former ward in Hà Đông district, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc quận Hà Đông, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1520,7 +1520,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q546840	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Yên Nghĩa"
-LAST	Lvi	"Phường Yên Nghĩa"
+LAST	Lvi	"Yên Nghĩa"
 LAST	Den	"former ward in Hà Đông district, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc quận Hà Đông, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1528,7 +1528,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q546840	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Kiến Hưng"
-LAST	Lvi	"Phường Kiến Hưng"
+LAST	Lvi	"Kiến Hưng"
 LAST	Den	"former ward in Hà Đông district, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc quận Hà Đông, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1536,7 +1536,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q546840	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Phú Lương"
-LAST	Lvi	"Phường Phú Lương"
+LAST	Lvi	"Phú Lương"
 LAST	Den	"former ward in Hà Đông district, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc quận Hà Đông, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1544,7 +1544,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q546840	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Ngô Quyền"
-LAST	Lvi	"Phường Ngô Quyền"
+LAST	Lvi	"Ngô Quyền"
 LAST	Den	"former ward in Sơn Tây town, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thị xã Sơn Tây, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1552,7 +1552,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q1365138	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Cổ Đô"
-LAST	Lvi	"Xã Cổ Đô"
+LAST	Lvi	"Cổ Đô"
 LAST	Den	"former commune in Ba Vì district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ba Vì, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1560,7 +1560,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q1048617	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Phú Hồng"
-LAST	Lvi	"Xã Phú Hồng"
+LAST	Lvi	"Phú Hồng"
 LAST	Den	"former commune in Ba Vì district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ba Vì, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1568,7 +1568,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q1048617	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Minh Châu"
-LAST	Lvi	"Xã Minh Châu"
+LAST	Lvi	"Minh Châu"
 LAST	Den	"former commune in Ba Vì district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ba Vì, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1576,7 +1576,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q1048617	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Vật Lại"
-LAST	Lvi	"Xã Vật Lại"
+LAST	Lvi	"Vật Lại"
 LAST	Den	"former commune in Ba Vì district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ba Vì, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1584,7 +1584,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q1048617	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Chu Minh"
-LAST	Lvi	"Xã Chu Minh"
+LAST	Lvi	"Chu Minh"
 LAST	Den	"former commune in Ba Vì district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ba Vì, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1592,7 +1592,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q1048617	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Ba Vì"
-LAST	Lvi	"Xã Ba Vì"
+LAST	Lvi	"Ba Vì"
 LAST	Den	"former commune in Ba Vì district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ba Vì, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1600,7 +1600,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q1048617	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Yên Bài"
-LAST	Lvi	"Xã Yên Bài"
+LAST	Lvi	"Yên Bài"
 LAST	Den	"former commune in Ba Vì district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ba Vì, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1608,7 +1608,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q1048617	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Phúc Thọ"
-LAST	Lvi	"Thị trấn Phúc Thọ"
+LAST	Lvi	"Phúc Thọ"
 LAST	Den	"former township in Phúc Thọ district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Phúc Thọ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1616,7 +1616,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q5370345	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Nam Hà"
-LAST	Lvi	"Xã Nam Hà"
+LAST	Lvi	"Nam Hà"
 LAST	Den	"former commune in Phúc Thọ district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Phúc Thọ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1624,7 +1624,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q5370345	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Sen Phương"
-LAST	Lvi	"Xã Sen Phương"
+LAST	Lvi	"Sen Phương"
 LAST	Den	"former commune in Phúc Thọ district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Phúc Thọ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1632,7 +1632,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q5370345	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Tích Lộc"
-LAST	Lvi	"Xã Tích Lộc"
+LAST	Lvi	"Tích Lộc"
 LAST	Den	"former commune in Phúc Thọ district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Phúc Thọ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1640,7 +1640,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q5370345	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Long Thượng"
-LAST	Lvi	"Xã Long Thượng"
+LAST	Lvi	"Long Thượng"
 LAST	Den	"former commune in Phúc Thọ district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Phúc Thọ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1648,7 +1648,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q5370345	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Hát Môn"
-LAST	Lvi	"Xã Hát Môn"
+LAST	Lvi	"Hát Môn"
 LAST	Den	"former commune in Phúc Thọ district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Phúc Thọ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1656,7 +1656,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q5370345	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Thọ Xuân"
-LAST	Lvi	"Xã Thọ Xuân"
+LAST	Lvi	"Thọ Xuân"
 LAST	Den	"former commune in Đan Phượng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Đan Phượng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1664,7 +1664,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q5214204	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Lập"
-LAST	Lvi	"Xã Tân Lập"
+LAST	Lvi	"Tân Lập"
 LAST	Den	"former commune in Đan Phượng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Đan Phượng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1672,7 +1672,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q5214204	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Đan Phượng"
-LAST	Lvi	"Xã Đan Phượng"
+LAST	Lvi	"Đan Phượng"
 LAST	Den	"former commune in Đan Phượng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Đan Phượng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1680,7 +1680,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q5214204	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Trạm Trôi"
-LAST	Lvi	"Thị trấn Trạm Trôi"
+LAST	Lvi	"Trạm Trôi"
 LAST	Den	"former township in Hoài Đức district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Hoài Đức, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1688,7 +1688,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q864794	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Minh Khai"
-LAST	Lvi	"Xã Minh Khai"
+LAST	Lvi	"Minh Khai"
 LAST	Den	"former commune in Hoài Đức district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hoài Đức, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1696,7 +1696,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q864794	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Đức Giang"
-LAST	Lvi	"Xã Đức Giang"
+LAST	Lvi	"Đức Giang"
 LAST	Den	"former commune in Hoài Đức district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hoài Đức, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1704,7 +1704,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q864794	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Sơn Đồng"
-LAST	Lvi	"Xã Sơn Đồng"
+LAST	Lvi	"Sơn Đồng"
 LAST	Den	"former commune in Hoài Đức district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hoài Đức, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1712,7 +1712,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q864794	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Vân Canh"
-LAST	Lvi	"Xã Vân Canh"
+LAST	Lvi	"Vân Canh"
 LAST	Den	"former commune in Hoài Đức district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hoài Đức, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1720,7 +1720,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q864794	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"An Khánh"
-LAST	Lvi	"Xã An Khánh"
+LAST	Lvi	"An Khánh"
 LAST	Den	"former commune in Hoài Đức district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hoài Đức, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1728,7 +1728,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q864794	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Dương Nội"
-LAST	Lvi	"Phường Dương Nội"
+LAST	Lvi	"Dương Nội"
 LAST	Den	"former ward in Hoài Đức district, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc huyện Hoài Đức, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1736,7 +1736,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q864794	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Quốc Oai"
-LAST	Lvi	"Thị trấn Quốc Oai"
+LAST	Lvi	"Quốc Oai"
 LAST	Den	"former township in Quốc Oai district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Quốc Oai, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1744,7 +1744,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q5370368	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Phượng Sơn"
-LAST	Lvi	"Xã Phượng Sơn"
+LAST	Lvi	"Phượng Sơn"
 LAST	Den	"former commune in Quốc Oai district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Quốc Oai, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1752,7 +1752,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q5370368	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Liệp Nghĩa"
-LAST	Lvi	"Xã Liệp Nghĩa"
+LAST	Lvi	"Liệp Nghĩa"
 LAST	Den	"former commune in Quốc Oai district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Quốc Oai, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1760,7 +1760,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q5370368	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Hưng Đạo"
-LAST	Lvi	"Xã Hưng Đạo"
+LAST	Lvi	"Hưng Đạo"
 LAST	Den	"former commune in Quốc Oai district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Quốc Oai, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1768,7 +1768,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q5370368	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Lam Sơn"
-LAST	Lvi	"Xã Lam Sơn"
+LAST	Lvi	"Lam Sơn"
 LAST	Den	"former commune in Thạch Thất district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thạch Thất, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1776,7 +1776,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q5370376	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Hạ Bằng"
-LAST	Lvi	"Xã Hạ Bằng"
+LAST	Lvi	"Hạ Bằng"
 LAST	Den	"former commune in Thạch Thất district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thạch Thất, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1784,7 +1784,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q5370376	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Xuân Mai"
-LAST	Lvi	"Thị trấn Xuân Mai"
+LAST	Lvi	"Xuân Mai"
 LAST	Den	"former township in Chương Mỹ district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Chương Mỹ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1792,7 +1792,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q5116478	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Phú Nghĩa"
-LAST	Lvi	"Xã Phú Nghĩa"
+LAST	Lvi	"Phú Nghĩa"
 LAST	Den	"former commune in Chương Mỹ district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Chương Mỹ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1800,7 +1800,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q5116478	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Thụy Hương"
-LAST	Lvi	"Xã Thụy Hương"
+LAST	Lvi	"Thụy Hương"
 LAST	Den	"former commune in Chương Mỹ district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Chương Mỹ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1808,7 +1808,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q5116478	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Quảng Bị"
-LAST	Lvi	"Xã Quảng Bị"
+LAST	Lvi	"Quảng Bị"
 LAST	Den	"former commune in Chương Mỹ district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Chương Mỹ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1816,7 +1816,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q5116478	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Hồng Phú"
-LAST	Lvi	"Xã Hồng Phú"
+LAST	Lvi	"Hồng Phú"
 LAST	Den	"former commune in Chương Mỹ district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Chương Mỹ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1824,7 +1824,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q5116478	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Trần Phú"
-LAST	Lvi	"Xã Trần Phú"
+LAST	Lvi	"Trần Phú"
 LAST	Den	"former commune in Chương Mỹ district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Chương Mỹ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
@@ -1832,7 +1832,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.
 LAST	P131	Q5116478	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1656-nq.signed.pdf"
 CREATE
 LAST	Len	"Ngô Quyền"
-LAST	Lvi	"Xã Ngô Quyền"
+LAST	Lvi	"Ngô Quyền"
 LAST	Den	"former commune in Thanh Miện district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thanh Miện, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -1840,7 +1840,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q3031911	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"Lê Hồng"
-LAST	Lvi	"Xã Lê Hồng"
+LAST	Lvi	"Lê Hồng"
 LAST	Den	"former commune in Thanh Miện district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thanh Miện, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -1848,7 +1848,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q3031911	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"Chi Lăng Bắc"
-LAST	Lvi	"Xã Chi Lăng Bắc"
+LAST	Lvi	"Chi Lăng Bắc"
 LAST	Den	"former commune in Thanh Miện district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thanh Miện, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -1856,7 +1856,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q3031911	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"Hồng Phong"
-LAST	Lvi	"Xã Hồng Phong"
+LAST	Lvi	"Hồng Phong"
 LAST	Den	"former commune in Thanh Miện district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thanh Miện, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -1864,7 +1864,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q3031911	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"Gia Viên"
-LAST	Lvi	"Phường Gia Viên"
+LAST	Lvi	"Gia Viên"
 LAST	Den	"former ward in Ngô Quyền district, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc quận Ngô Quyền, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -1872,7 +1872,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q7022442	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"An Biên"
-LAST	Lvi	"Phường An Biên"
+LAST	Lvi	"An Biên"
 LAST	Den	"former ward in Lê Chân district, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc quận Lê Chân, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -1880,7 +1880,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q6506676	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"Thành Tô"
-LAST	Lvi	"Phường Thành Tô"
+LAST	Lvi	"Thành Tô"
 LAST	Den	"former ward in Hải An district, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc quận Hải An, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -1888,7 +1888,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q618911	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"Bắc Hà"
-LAST	Lvi	"Phường Bắc Hà"
+LAST	Lvi	"Bắc Hà"
 LAST	Den	"former ward in Kiến An district, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc quận Kiến An, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -1896,7 +1896,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q6405290	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"Ngọc Xuyên"
-LAST	Lvi	"Phường Ngọc Xuyên"
+LAST	Lvi	"Ngọc Xuyên"
 LAST	Den	"former ward in Đồ Sơn district, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc quận Đồ Sơn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -1904,7 +1904,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q1068284	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"Minh Đức"
-LAST	Lvi	"Phường Minh Đức"
+LAST	Lvi	"Minh Đức"
 LAST	Den	"former ward in Đồ Sơn district, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc quận Đồ Sơn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -1912,7 +1912,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q1068284	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"Bàng La"
-LAST	Lvi	"Phường Bàng La"
+LAST	Lvi	"Bàng La"
 LAST	Den	"former ward in Đồ Sơn district, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc quận Đồ Sơn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -1920,7 +1920,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q1068284	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"Lưu Kiếm"
-LAST	Lvi	"Phường Lưu Kiếm"
+LAST	Lvi	"Lưu Kiếm"
 LAST	Den	"former ward in Thuỷ Nguyên city, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành phố Thuỷ Nguyên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -1928,7 +1928,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q7799512	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"Ninh Sơn"
-LAST	Lvi	"Xã Ninh Sơn"
+LAST	Lvi	"Ninh Sơn"
 LAST	Den	"former commune in Thuỷ Nguyên city, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thành phố Thuỷ Nguyên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -1936,7 +1936,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q7799512	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"Lập Lễ"
-LAST	Lvi	"Phường Lập Lễ"
+LAST	Lvi	"Lập Lễ"
 LAST	Den	"former ward in Thuỷ Nguyên city, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành phố Thuỷ Nguyên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -1944,7 +1944,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q7799512	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"Thiên Hương"
-LAST	Lvi	"Phường Thiên Hương"
+LAST	Lvi	"Thiên Hương"
 LAST	Den	"former ward in Thuỷ Nguyên city, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành phố Thuỷ Nguyên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -1952,7 +1952,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q7799512	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"An Hưng"
-LAST	Lvi	"Phường An Hưng"
+LAST	Lvi	"An Hưng"
 LAST	Den	"former ward in Hồng Bàng district, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc quận Hồng Bàng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -1960,7 +1960,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q5965452	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"An Hồng"
-LAST	Lvi	"Phường An Hồng"
+LAST	Lvi	"An Hồng"
 LAST	Den	"former ward in Hồng Bàng district, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc quận Hồng Bàng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -1968,7 +1968,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q5965452	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"An Hải"
-LAST	Lvi	"Phường An Hải"
+LAST	Lvi	"An Hải"
 LAST	Den	"former ward in An Dương district, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc quận An Dương, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -1976,7 +1976,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q4749868	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"An Lão"
-LAST	Lvi	"Thị trấn An Lão"
+LAST	Lvi	"An Lão"
 LAST	Den	"former township in An Lão district, Hải Phòng city, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện An Lão, thành phố Hải Phòng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -1984,7 +1984,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q10733214	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"Bát Trang"
-LAST	Lvi	"Xã Bát Trang"
+LAST	Lvi	"Bát Trang"
 LAST	Den	"former commune in An Lão district, Hải Phòng city, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện An Lão, thành phố Hải Phòng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -1992,7 +1992,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q10733214	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"Hưng Đạo"
-LAST	Lvi	"Phường Hưng Đạo"
+LAST	Lvi	"Hưng Đạo"
 LAST	Den	"former ward in Dương Kinh district, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc quận Dương Kinh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -2000,7 +2000,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q5315878	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"Kiến Quốc"
-LAST	Lvi	"Xã Kiến Quốc"
+LAST	Lvi	"Kiến Quốc"
 LAST	Den	"former commune in Kiến Thuỵ district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Kiến Thuỵ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -2008,7 +2008,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q6405297	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"Minh Tân"
-LAST	Lvi	"Xã Minh Tân"
+LAST	Lvi	"Minh Tân"
 LAST	Den	"former commune in Kiến Thuỵ district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Kiến Thuỵ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -2016,7 +2016,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q6405297	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"Kiến Hưng"
-LAST	Lvi	"Xã Kiến Hưng"
+LAST	Lvi	"Kiến Hưng"
 LAST	Den	"former commune in Kiến Thuỵ district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Kiến Thuỵ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -2024,7 +2024,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q6405297	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"Tú Sơn"
-LAST	Lvi	"Xã Tú Sơn"
+LAST	Lvi	"Tú Sơn"
 LAST	Den	"former commune in Kiến Thuỵ district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Kiến Thuỵ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -2032,7 +2032,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q6405297	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"Tiên Lãng"
-LAST	Lvi	"Thị trấn Tiên Lãng"
+LAST	Lvi	"Tiên Lãng"
 LAST	Den	"former township in Tiên Lãng district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Tiên Lãng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -2040,7 +2040,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q7801035	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Minh"
-LAST	Lvi	"Xã Tân Minh"
+LAST	Lvi	"Tân Minh"
 LAST	Den	"former commune in Tiên Lãng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Tiên Lãng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -2048,7 +2048,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q7801035	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"Tiên Minh"
-LAST	Lvi	"Xã Tiên Minh"
+LAST	Lvi	"Tiên Minh"
 LAST	Den	"former commune in Tiên Lãng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Tiên Lãng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -2056,7 +2056,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q7801035	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"Nam Hưng"
-LAST	Lvi	"Xã Nam Hưng"
+LAST	Lvi	"Nam Hưng"
 LAST	Den	"former commune in Tiên Lãng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Tiên Lãng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -2064,7 +2064,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q7801035	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"Hùng Thắng"
-LAST	Lvi	"Xã Hùng Thắng"
+LAST	Lvi	"Hùng Thắng"
 LAST	Den	"former commune in Tiên Lãng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Tiên Lãng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -2072,7 +2072,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q7801035	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"Vĩnh Bảo"
-LAST	Lvi	"Thị trấn Vĩnh Bảo"
+LAST	Lvi	"Vĩnh Bảo"
 LAST	Den	"former township in Vĩnh Bảo district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Vĩnh Bảo, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -2080,7 +2080,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q10833526	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"Thắng Thuỷ"
-LAST	Lvi	"Xã Thắng Thuỷ"
+LAST	Lvi	"Thắng Thuỷ"
 LAST	Den	"former commune in Vĩnh Bảo district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Vĩnh Bảo, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -2088,7 +2088,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q10833526	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"Vĩnh Hoà"
-LAST	Lvi	"Xã Vĩnh Hoà"
+LAST	Lvi	"Vĩnh Hoà"
 LAST	Den	"former commune in Vĩnh Bảo district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Vĩnh Bảo, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -2096,7 +2096,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q10833526	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"Vĩnh Hưng"
-LAST	Lvi	"Xã Vĩnh Hưng"
+LAST	Lvi	"Vĩnh Hưng"
 LAST	Den	"former commune in Vĩnh Bảo district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Vĩnh Bảo, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -2104,7 +2104,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q10833526	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"Vĩnh Hải"
-LAST	Lvi	"Xã Vĩnh Hải"
+LAST	Lvi	"Vĩnh Hải"
 LAST	Den	"former commune in Vĩnh Bảo district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Vĩnh Bảo, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -2112,7 +2112,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q10833526	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"Hoà Bình"
-LAST	Lvi	"Xã Hoà Bình"
+LAST	Lvi	"Hoà Bình"
 LAST	Den	"former commune in Vĩnh Bảo district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Vĩnh Bảo, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -2120,7 +2120,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q10833526	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"Tiền Phong"
-LAST	Lvi	"Xã Tiền Phong"
+LAST	Lvi	"Tiền Phong"
 LAST	Den	"former commune in Vĩnh Bảo district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Vĩnh Bảo, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -2128,7 +2128,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q10833526	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"Cao Minh"
-LAST	Lvi	"Xã Cao Minh"
+LAST	Lvi	"Cao Minh"
 LAST	Den	"former commune in Vĩnh Bảo district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Vĩnh Bảo, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -2136,7 +2136,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q10833526	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"Cát Hải"
-LAST	Lvi	"Thị trấn Cát Hải"
+LAST	Lvi	"Cát Hải"
 LAST	Den	"former township in Cát Hải district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Cát Hải, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
@@ -2144,7 +2144,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.
 LAST	P131	Q140626481	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1669-nq.signed.pdf"
 CREATE
 LAST	Len	"Hồng Châu"
-LAST	Lvi	"Phường Hồng Châu"
+LAST	Lvi	"Hồng Châu"
 LAST	Den	"former ward in Hưng Yên city, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành phố Hưng Yên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -2152,7 +2152,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.
 LAST	P131	Q36485	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 CREATE
 LAST	Len	"Phương Nam"
-LAST	Lvi	"Xã Phương Nam"
+LAST	Lvi	"Phương Nam"
 LAST	Den	"former commune in Hưng Yên city, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thành phố Hưng Yên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -2160,7 +2160,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.
 LAST	P131	Q36485	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 CREATE
 LAST	Len	"Như Quỳnh"
-LAST	Lvi	"Thị trấn Như Quỳnh"
+LAST	Lvi	"Như Quỳnh"
 LAST	Den	"former township in Văn Lâm district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Văn Lâm, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -2168,7 +2168,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.
 LAST	P131	Q7913474	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 CREATE
 LAST	Len	"Lạc Đạo"
-LAST	Lvi	"Xã Lạc Đạo"
+LAST	Lvi	"Lạc Đạo"
 LAST	Den	"former commune in Văn Lâm district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Văn Lâm, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -2176,7 +2176,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.
 LAST	P131	Q7913474	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 CREATE
 LAST	Len	"Đại Đồng"
-LAST	Lvi	"Xã Đại Đồng"
+LAST	Lvi	"Đại Đồng"
 LAST	Den	"former commune in Văn Lâm district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Văn Lâm, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -2184,7 +2184,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.
 LAST	P131	Q7913474	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 CREATE
 LAST	Len	"Minh Hải"
-LAST	Lvi	"Xã Minh Hải"
+LAST	Lvi	"Minh Hải"
 LAST	Den	"former commune in Văn Lâm district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Văn Lâm, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -2192,7 +2192,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.
 LAST	P131	Q7913474	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 CREATE
 LAST	Len	"Văn Giang"
-LAST	Lvi	"Thị trấn Văn Giang"
+LAST	Lvi	"Văn Giang"
 LAST	Den	"former township in Văn Giang district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Văn Giang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -2200,7 +2200,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.
 LAST	P131	Q10833358	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 CREATE
 LAST	Len	"Phụng Công"
-LAST	Lvi	"Xã Phụng Công"
+LAST	Lvi	"Phụng Công"
 LAST	Den	"former commune in Văn Giang district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Văn Giang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -2208,7 +2208,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.
 LAST	P131	Q10833358	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 CREATE
 LAST	Len	"Nghĩa Trụ"
-LAST	Lvi	"Xã Nghĩa Trụ"
+LAST	Lvi	"Nghĩa Trụ"
 LAST	Den	"former commune in Văn Giang district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Văn Giang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -2216,7 +2216,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.
 LAST	P131	Q10833358	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 CREATE
 LAST	Len	"Long Hưng"
-LAST	Lvi	"Xã Long Hưng"
+LAST	Lvi	"Long Hưng"
 LAST	Den	"former commune in Văn Giang district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Văn Giang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -2224,7 +2224,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.
 LAST	P131	Q10833358	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Tiến"
-LAST	Lvi	"Xã Tân Tiến"
+LAST	Lvi	"Tân Tiến"
 LAST	Den	"former commune in Văn Giang district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Văn Giang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -2232,7 +2232,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.
 LAST	P131	Q10833358	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 CREATE
 LAST	Len	"Mễ Sở"
-LAST	Lvi	"Xã Mễ Sở"
+LAST	Lvi	"Mễ Sở"
 LAST	Den	"former commune in Văn Giang district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Văn Giang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -2240,7 +2240,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.
 LAST	P131	Q10833358	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 CREATE
 LAST	Len	"Nguyễn Văn Linh"
-LAST	Lvi	"Xã Nguyễn Văn Linh"
+LAST	Lvi	"Nguyễn Văn Linh"
 LAST	Den	"former commune in Yên Mỹ district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Yên Mỹ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -2248,7 +2248,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.
 LAST	P131	Q8052194	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Lập"
-LAST	Lvi	"Xã Tân Lập"
+LAST	Lvi	"Tân Lập"
 LAST	Den	"former commune in Yên Mỹ district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Yên Mỹ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -2256,7 +2256,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.
 LAST	P131	Q8052194	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 CREATE
 LAST	Len	"Việt Yên"
-LAST	Lvi	"Xã Việt Yên"
+LAST	Lvi	"Việt Yên"
 LAST	Den	"former commune in Yên Mỹ district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Yên Mỹ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -2264,7 +2264,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.
 LAST	P131	Q8052194	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Minh"
-LAST	Lvi	"Xã Tân Minh"
+LAST	Lvi	"Tân Minh"
 LAST	Den	"former commune in Yên Mỹ district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Yên Mỹ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -2272,7 +2272,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.
 LAST	P131	Q8052194	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 CREATE
 LAST	Len	"Dương Quang"
-LAST	Lvi	"Xã Dương Quang"
+LAST	Lvi	"Dương Quang"
 LAST	Den	"former commune in Mỹ Hào town, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thị xã Mỹ Hào, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -2280,7 +2280,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.
 LAST	P131	Q6945614	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 CREATE
 LAST	Len	"Hòa Phong"
-LAST	Lvi	"Xã Hòa Phong"
+LAST	Lvi	"Hòa Phong"
 LAST	Den	"former commune in Mỹ Hào town, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thị xã Mỹ Hào, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -2288,7 +2288,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.
 LAST	P131	Q6945614	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 CREATE
 LAST	Len	"Minh Đức"
-LAST	Lvi	"Phường Minh Đức"
+LAST	Lvi	"Minh Đức"
 LAST	Den	"former ward in Mỹ Hào town, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thị xã Mỹ Hào, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -2296,7 +2296,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.
 LAST	P131	Q6945614	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 CREATE
 LAST	Len	"Ngọc Lâm"
-LAST	Lvi	"Xã Ngọc Lâm"
+LAST	Lvi	"Ngọc Lâm"
 LAST	Den	"former commune in Mỹ Hào town, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thị xã Mỹ Hào, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -2304,7 +2304,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.
 LAST	P131	Q6945614	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 CREATE
 LAST	Len	"Ân Thi"
-LAST	Lvi	"Thị trấn Ân Thi"
+LAST	Lvi	"Ân Thi"
 LAST	Den	"former township in Ân Thi district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Ân Thi, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -2312,7 +2312,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.
 LAST	P131	Q4750228	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 CREATE
 LAST	Len	"Bắc Sơn"
-LAST	Lvi	"Xã Bắc Sơn"
+LAST	Lvi	"Bắc Sơn"
 LAST	Den	"former commune in Ân Thi district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ân Thi, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -2320,7 +2320,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.
 LAST	P131	Q4750228	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 CREATE
 LAST	Len	"Quang Vinh"
-LAST	Lvi	"Xã Quang Vinh"
+LAST	Lvi	"Quang Vinh"
 LAST	Den	"former commune in Ân Thi district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ân Thi, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -2328,7 +2328,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.
 LAST	P131	Q4750228	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 CREATE
 LAST	Len	"Xuân Trúc"
-LAST	Lvi	"Xã Xuân Trúc"
+LAST	Lvi	"Xuân Trúc"
 LAST	Den	"former commune in Ân Thi district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ân Thi, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -2336,7 +2336,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.
 LAST	P131	Q4750228	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 CREATE
 LAST	Len	"Hoàng Hoa Thám"
-LAST	Lvi	"Xã Hoàng Hoa Thám"
+LAST	Lvi	"Hoàng Hoa Thám"
 LAST	Den	"former commune in Ân Thi district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ân Thi, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -2344,7 +2344,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.
 LAST	P131	Q4750228	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 CREATE
 LAST	Len	"Nguyễn Trãi"
-LAST	Lvi	"Xã Nguyễn Trãi"
+LAST	Lvi	"Nguyễn Trãi"
 LAST	Den	"former commune in Ân Thi district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ân Thi, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -2352,7 +2352,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.
 LAST	P131	Q4750228	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 CREATE
 LAST	Len	"Tiền Phong"
-LAST	Lvi	"Xã Tiền Phong"
+LAST	Lvi	"Tiền Phong"
 LAST	Den	"former commune in Ân Thi district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ân Thi, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -2360,7 +2360,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.
 LAST	P131	Q4750228	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 CREATE
 LAST	Len	"Hồng Quang"
-LAST	Lvi	"Xã Hồng Quang"
+LAST	Lvi	"Hồng Quang"
 LAST	Den	"former commune in Ân Thi district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ân Thi, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -2368,7 +2368,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.
 LAST	P131	Q4750228	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 CREATE
 LAST	Len	"Bình Minh"
-LAST	Lvi	"Xã Bình Minh"
+LAST	Lvi	"Bình Minh"
 LAST	Den	"former commune in Khoái Châu district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Khoái Châu, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -2376,7 +2376,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.
 LAST	P131	Q6401931	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 CREATE
 LAST	Len	"Chí Minh"
-LAST	Lvi	"Xã Chí Minh"
+LAST	Lvi	"Chí Minh"
 LAST	Den	"former commune in Khoái Châu district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Khoái Châu, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -2384,7 +2384,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.
 LAST	P131	Q6401931	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 CREATE
 LAST	Len	"An Mỹ"
-LAST	Lvi	"Xã An Mỹ"
+LAST	Lvi	"An Mỹ"
 LAST	Den	"former commune in Quỳnh Phụ district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Quỳnh Phụ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -2392,7 +2392,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.
 LAST	P131	Q7273060	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 CREATE
 LAST	Len	"Minh Tân"
-LAST	Lvi	"Xã Minh Tân"
+LAST	Lvi	"Minh Tân"
 LAST	Den	"former commune in Đông Hưng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Đông Hưng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
@@ -2400,7 +2400,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.
 LAST	P131	Q5295738	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1666-nq.signed.pdf"
 CREATE
 LAST	Len	"Minh Tân"
-LAST	Lvi	"Xã Minh Tân"
+LAST	Lvi	"Minh Tân"
 LAST	Den	"former commune in Vụ Bản district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Vụ Bản, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2408,7 +2408,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q7943272	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Đại An"
-LAST	Lvi	"Xã Đại An"
+LAST	Lvi	"Đại An"
 LAST	Den	"former commune in Vụ Bản district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Vụ Bản, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2416,7 +2416,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q7943272	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Liên Minh"
-LAST	Lvi	"Xã Liên Minh"
+LAST	Lvi	"Liên Minh"
 LAST	Den	"former commune in Vụ Bản district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Vụ Bản, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2424,7 +2424,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q7943272	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Trung Nghĩa"
-LAST	Lvi	"Xã Trung Nghĩa"
+LAST	Lvi	"Trung Nghĩa"
 LAST	Den	"former commune in Ý Yên district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ý Yên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2432,7 +2432,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q8046189	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Minh"
-LAST	Lvi	"Xã Tân Minh"
+LAST	Lvi	"Tân Minh"
 LAST	Den	"former commune in Ý Yên district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ý Yên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2440,7 +2440,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q8046189	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Phú Hưng"
-LAST	Lvi	"Xã Phú Hưng"
+LAST	Lvi	"Phú Hưng"
 LAST	Den	"former commune in Ý Yên district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ý Yên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2448,7 +2448,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q8046189	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Hồng Quang"
-LAST	Lvi	"Xã Hồng Quang"
+LAST	Lvi	"Hồng Quang"
 LAST	Den	"former commune in Ý Yên district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ý Yên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2456,7 +2456,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q8046189	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Yên Đồng"
-LAST	Lvi	"Xã Yên Đồng"
+LAST	Lvi	"Yên Đồng"
 LAST	Den	"former commune in Ý Yên district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ý Yên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2464,7 +2464,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q8046189	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Rạng Đông"
-LAST	Lvi	"Thị trấn Rạng Đông"
+LAST	Lvi	"Rạng Đông"
 LAST	Den	"former township in Nghĩa Hưng district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Nghĩa Hưng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2472,7 +2472,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q7022335	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Đồng Thịnh"
-LAST	Lvi	"Xã Đồng Thịnh"
+LAST	Lvi	"Đồng Thịnh"
 LAST	Den	"former commune in Nghĩa Hưng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Nghĩa Hưng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2480,7 +2480,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q7022335	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Nghĩa Sơn"
-LAST	Lvi	"Xã Nghĩa Sơn"
+LAST	Lvi	"Nghĩa Sơn"
 LAST	Den	"former commune in Nghĩa Hưng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Nghĩa Hưng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2488,7 +2488,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q7022335	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Quỹ Nhất"
-LAST	Lvi	"Thị trấn Quỹ Nhất"
+LAST	Lvi	"Quỹ Nhất"
 LAST	Den	"former township in Nghĩa Hưng district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Nghĩa Hưng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2496,7 +2496,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q7022335	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Nghĩa Hùng"
-LAST	Lvi	"Xã Nghĩa Hùng"
+LAST	Lvi	"Nghĩa Hùng"
 LAST	Den	"former commune in Nghĩa Hưng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Nghĩa Hưng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2504,7 +2504,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q7022335	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Nghĩa Lâm"
-LAST	Lvi	"Xã Nghĩa Lâm"
+LAST	Lvi	"Nghĩa Lâm"
 LAST	Den	"former commune in Nghĩa Hưng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Nghĩa Hưng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2512,7 +2512,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q7022335	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Phúc Thắng"
-LAST	Lvi	"Xã Phúc Thắng"
+LAST	Lvi	"Phúc Thắng"
 LAST	Den	"former commune in Nghĩa Hưng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Nghĩa Hưng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2520,7 +2520,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q7022335	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Nam Điền"
-LAST	Lvi	"Xã Nam Điền"
+LAST	Lvi	"Nam Điền"
 LAST	Den	"former commune in Nam Trực district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Nam Trực, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2528,7 +2528,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q6961159	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Hồng Quang"
-LAST	Lvi	"Xã Hồng Quang"
+LAST	Lvi	"Hồng Quang"
 LAST	Den	"former commune in Nam Trực district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Nam Trực, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2536,7 +2536,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q6961159	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Nam Hồng"
-LAST	Lvi	"Xã Nam Hồng"
+LAST	Lvi	"Nam Hồng"
 LAST	Den	"former commune in Nam Trực district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Nam Trực, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2544,7 +2544,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q6961159	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Bình Minh"
-LAST	Lvi	"Xã Bình Minh"
+LAST	Lvi	"Bình Minh"
 LAST	Den	"former commune in Nam Trực district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Nam Trực, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2552,7 +2552,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q6961159	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Cổ Lễ"
-LAST	Lvi	"Thị trấn Cổ Lễ"
+LAST	Lvi	"Cổ Lễ"
 LAST	Den	"former township in Trực Ninh district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Trực Ninh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2560,7 +2560,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q7847140	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Cát Thành"
-LAST	Lvi	"Thị trấn Cát Thành"
+LAST	Lvi	"Cát Thành"
 LAST	Den	"former township in Trực Ninh district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Trực Ninh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2568,7 +2568,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q7847140	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Ninh Cường"
-LAST	Lvi	"Thị trấn Ninh Cường"
+LAST	Lvi	"Ninh Cường"
 LAST	Den	"former township in Trực Ninh district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Trực Ninh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2576,7 +2576,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q7847140	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Xuân Trường"
-LAST	Lvi	"Thị trấn Xuân Trường"
+LAST	Lvi	"Xuân Trường"
 LAST	Den	"former township in Xuân Trường district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Xuân Trường, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2584,7 +2584,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q8045182	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Xuân Hồng"
-LAST	Lvi	"Xã Xuân Hồng"
+LAST	Lvi	"Xuân Hồng"
 LAST	Den	"former commune in Xuân Trường district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Xuân Trường, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2592,7 +2592,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q8045182	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Xuân Giang"
-LAST	Lvi	"Xã Xuân Giang"
+LAST	Lvi	"Xuân Giang"
 LAST	Den	"former commune in Xuân Trường district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Xuân Trường, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2600,7 +2600,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q8045182	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Xuân Phúc"
-LAST	Lvi	"Xã Xuân Phúc"
+LAST	Lvi	"Xuân Phúc"
 LAST	Den	"former commune in Xuân Trường district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Xuân Trường, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2608,7 +2608,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q8045182	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Giao Thủy"
-LAST	Lvi	"Thị trấn Giao Thủy"
+LAST	Lvi	"Giao Thủy"
 LAST	Den	"former township in Giao Thủy district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Giao Thủy, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2616,7 +2616,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q5558564	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Giao Long"
-LAST	Lvi	"Xã Giao Long"
+LAST	Lvi	"Giao Long"
 LAST	Den	"former commune in Giao Thủy district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Giao Thủy, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2624,7 +2624,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q5558564	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Hải Anh"
-LAST	Lvi	"Xã Hải Anh"
+LAST	Lvi	"Hải Anh"
 LAST	Den	"former commune in Hải Hậu district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hải Hậu, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2632,7 +2632,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q5638933	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Hải Hưng"
-LAST	Lvi	"Xã Hải Hưng"
+LAST	Lvi	"Hải Hưng"
 LAST	Den	"former commune in Hải Hậu district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hải Hậu, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2640,7 +2640,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q5638933	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Hải Quang"
-LAST	Lvi	"Xã Hải Quang"
+LAST	Lvi	"Hải Quang"
 LAST	Den	"former commune in Hải Hậu district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hải Hậu, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2648,7 +2648,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q5638933	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Hải An"
-LAST	Lvi	"Xã Hải An"
+LAST	Lvi	"Hải An"
 LAST	Den	"former commune in Hải Hậu district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hải Hậu, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2656,7 +2656,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q5638933	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Hải Xuân"
-LAST	Lvi	"Xã Hải Xuân"
+LAST	Lvi	"Hải Xuân"
 LAST	Den	"former commune in Hải Hậu district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hải Hậu, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2664,7 +2664,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q5638933	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Nam Bình"
-LAST	Lvi	"Phường Nam Bình"
+LAST	Lvi	"Nam Bình"
 LAST	Den	"former ward in Hoa Lư city, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành phố Hoa Lư, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2672,7 +2672,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q10767737	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Trung Sơn"
-LAST	Lvi	"Phường Trung Sơn"
+LAST	Lvi	"Trung Sơn"
 LAST	Den	"former ward in Tam Điệp city, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành phố Tam Điệp, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2680,7 +2680,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q7680449	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Tây Sơn"
-LAST	Lvi	"Phường Tây Sơn"
+LAST	Lvi	"Tây Sơn"
 LAST	Den	"former ward in Tam Điệp city, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành phố Tam Điệp, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2688,7 +2688,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q7680449	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Bình"
-LAST	Lvi	"Phường Tân Bình"
+LAST	Lvi	"Tân Bình"
 LAST	Den	"former ward in Tam Điệp city, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành phố Tam Điệp, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2696,7 +2696,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q7680449	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Đông Sơn"
-LAST	Lvi	"Xã Đông Sơn"
+LAST	Lvi	"Đông Sơn"
 LAST	Den	"former commune in Tam Điệp city, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thành phố Tam Điệp, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2704,7 +2704,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q7680449	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Gia Lâm"
-LAST	Lvi	"Xã Gia Lâm"
+LAST	Lvi	"Gia Lâm"
 LAST	Den	"former commune in Nho Quan district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Nho Quan, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2712,7 +2712,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q7023368	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Gia Tường"
-LAST	Lvi	"Xã Gia Tường"
+LAST	Lvi	"Gia Tường"
 LAST	Den	"former commune in Nho Quan district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Nho Quan, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2720,7 +2720,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q7023368	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Cúc Phương"
-LAST	Lvi	"Xã Cúc Phương"
+LAST	Lvi	"Cúc Phương"
 LAST	Den	"former commune in Nho Quan district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Nho Quan, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2728,7 +2728,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q7023368	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Phú Sơn"
-LAST	Lvi	"Xã Phú Sơn"
+LAST	Lvi	"Phú Sơn"
 LAST	Den	"former commune in Nho Quan district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Nho Quan, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2736,7 +2736,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q7023368	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Nho Quan"
-LAST	Lvi	"Thị trấn Nho Quan"
+LAST	Lvi	"Nho Quan"
 LAST	Den	"former township in Nho Quan district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Nho Quan, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2744,7 +2744,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q7023368	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Thanh Sơn"
-LAST	Lvi	"Xã Thanh Sơn"
+LAST	Lvi	"Thanh Sơn"
 LAST	Den	"former commune in Nho Quan district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Nho Quan, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2752,7 +2752,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q7023368	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Quỳnh Lưu"
-LAST	Lvi	"Xã Quỳnh Lưu"
+LAST	Lvi	"Quỳnh Lưu"
 LAST	Den	"former commune in Nho Quan district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Nho Quan, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2760,7 +2760,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q7023368	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Phú Long"
-LAST	Lvi	"Xã Phú Long"
+LAST	Lvi	"Phú Long"
 LAST	Den	"former commune in Nho Quan district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Nho Quan, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2768,7 +2768,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q7023368	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Thịnh Vượng"
-LAST	Lvi	"Thị trấn Thịnh Vượng"
+LAST	Lvi	"Thịnh Vượng"
 LAST	Den	"former township in Gia Viễn district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Gia Viễn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2776,7 +2776,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q5557813	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Gia Hưng"
-LAST	Lvi	"Xã Gia Hưng"
+LAST	Lvi	"Gia Hưng"
 LAST	Den	"former commune in Gia Viễn district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Gia Viễn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2784,7 +2784,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q5557813	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Tiến Thắng"
-LAST	Lvi	"Xã Tiến Thắng"
+LAST	Lvi	"Tiến Thắng"
 LAST	Den	"former commune in Gia Viễn district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Gia Viễn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2792,7 +2792,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q5557813	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Ninh Giang"
-LAST	Lvi	"Phường Ninh Giang"
+LAST	Lvi	"Ninh Giang"
 LAST	Den	"former ward in Hoa Lư city, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành phố Hoa Lư, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2800,7 +2800,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q10767737	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Ninh Hòa"
-LAST	Lvi	"Xã Ninh Hòa"
+LAST	Lvi	"Ninh Hòa"
 LAST	Den	"former commune in Hoa Lư city, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thành phố Hoa Lư, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2808,7 +2808,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q10767737	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Ninh An"
-LAST	Lvi	"Xã Ninh An"
+LAST	Lvi	"Ninh An"
 LAST	Den	"former commune in Hoa Lư city, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thành phố Hoa Lư, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2816,7 +2816,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q10767737	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Khánh Thiện"
-LAST	Lvi	"Xã Khánh Thiện"
+LAST	Lvi	"Khánh Thiện"
 LAST	Den	"former commune in Yên Khánh district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Yên Khánh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2824,7 +2824,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q8052185	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Khánh Phú"
-LAST	Lvi	"Xã Khánh Phú"
+LAST	Lvi	"Khánh Phú"
 LAST	Den	"former commune in Yên Khánh district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Yên Khánh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2832,7 +2832,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q8052185	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Khánh Cường"
-LAST	Lvi	"Xã Khánh Cường"
+LAST	Lvi	"Khánh Cường"
 LAST	Den	"former commune in Yên Khánh district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Yên Khánh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2840,7 +2840,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q8052185	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Khánh Trung"
-LAST	Lvi	"Xã Khánh Trung"
+LAST	Lvi	"Khánh Trung"
 LAST	Den	"former commune in Yên Khánh district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Yên Khánh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
@@ -2848,7 +2848,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.
 LAST	P131	Q8052185	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1674-nq.signed.pdf"
 CREATE
 LAST	Len	"Hương Xuân"
-LAST	Lvi	"Xã Hương Xuân"
+LAST	Lvi	"Hương Xuân"
 LAST	Den	"former commune in Hương Khê district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hương Khê, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
@@ -2856,7 +2856,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.
 LAST	P131	Q1001809	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 CREATE
 LAST	Len	"Phúc Trạch"
-LAST	Lvi	"Xã Phúc Trạch"
+LAST	Lvi	"Phúc Trạch"
 LAST	Den	"former commune in Hương Khê district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hương Khê, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
@@ -2864,7 +2864,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.
 LAST	P131	Q1001809	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 CREATE
 LAST	Len	"Thạch Hà"
-LAST	Lvi	"Thị trấn Thạch Hà"
+LAST	Lvi	"Thạch Hà"
 LAST	Den	"former township in Thạch Hà district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Thạch Hà, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
@@ -2872,7 +2872,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.
 LAST	P131	Q7708870	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 CREATE
 LAST	Len	"Lộc Hà"
-LAST	Lvi	"Thị trấn Lộc Hà"
+LAST	Lvi	"Lộc Hà"
 LAST	Den	"former township in Thạch Hà district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Thạch Hà, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
@@ -2880,7 +2880,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.
 LAST	P131	Q7708870	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 CREATE
 LAST	Len	"Thạch Kênh"
-LAST	Lvi	"Xã Thạch Kênh"
+LAST	Lvi	"Thạch Kênh"
 LAST	Den	"former commune in Thạch Hà district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thạch Hà, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
@@ -2888,7 +2888,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.
 LAST	P131	Q7708870	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 CREATE
 LAST	Len	"Đỉnh Bàn"
-LAST	Lvi	"Xã Đỉnh Bàn"
+LAST	Lvi	"Đỉnh Bàn"
 LAST	Den	"former commune in Hà Tĩnh city, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thành phố Hà Tĩnh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
@@ -2896,7 +2896,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.
 LAST	P131	Q33996	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 CREATE
 LAST	Len	"Việt Tiến"
-LAST	Lvi	"Xã Việt Tiến"
+LAST	Lvi	"Việt Tiến"
 LAST	Den	"former commune in Thạch Hà district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thạch Hà, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
@@ -2904,7 +2904,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.
 LAST	P131	Q7708870	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 CREATE
 LAST	Len	"Thạch Khê"
-LAST	Lvi	"Xã Thạch Khê"
+LAST	Lvi	"Thạch Khê"
 LAST	Den	"former commune in Hà Tĩnh city, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thành phố Hà Tĩnh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
@@ -2912,7 +2912,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.
 LAST	P131	Q33996	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 CREATE
 LAST	Len	"Thạch Trị"
-LAST	Lvi	"Xã Thạch Trị"
+LAST	Lvi	"Thạch Trị"
 LAST	Den	"former commune in Hà Tĩnh city, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thành phố Hà Tĩnh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
@@ -2920,7 +2920,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.
 LAST	P131	Q33996	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 CREATE
 LAST	Len	"Thạch Lạc"
-LAST	Lvi	"Xã Thạch Lạc"
+LAST	Lvi	"Thạch Lạc"
 LAST	Den	"former commune in Hà Tĩnh city, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thành phố Hà Tĩnh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
@@ -2928,7 +2928,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.
 LAST	P131	Q33996	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 CREATE
 LAST	Len	"Lưu Vĩnh Sơn"
-LAST	Lvi	"Xã Lưu Vĩnh Sơn"
+LAST	Lvi	"Lưu Vĩnh Sơn"
 LAST	Den	"former commune in Thạch Hà district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thạch Hà, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
@@ -2936,7 +2936,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.
 LAST	P131	Q7708870	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 CREATE
 LAST	Len	"Thạch Xuân"
-LAST	Lvi	"Xã Thạch Xuân"
+LAST	Lvi	"Thạch Xuân"
 LAST	Den	"former commune in Thạch Hà district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thạch Hà, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
@@ -2944,7 +2944,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.
 LAST	P131	Q7708870	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 CREATE
 LAST	Len	"Nam Điền"
-LAST	Lvi	"Xã Nam Điền"
+LAST	Lvi	"Nam Điền"
 LAST	Den	"former commune in Thạch Hà district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thạch Hà, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
@@ -2952,7 +2952,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.
 LAST	P131	Q7708870	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 CREATE
 LAST	Len	"Mai Phụ"
-LAST	Lvi	"Xã Mai Phụ"
+LAST	Lvi	"Mai Phụ"
 LAST	Den	"former commune in Thạch Hà district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thạch Hà, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
@@ -2960,7 +2960,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.
 LAST	P131	Q7708870	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 CREATE
 LAST	Len	"Cẩm Xuyên"
-LAST	Lvi	"Thị trấn Cẩm Xuyên"
+LAST	Lvi	"Cẩm Xuyên"
 LAST	Den	"former township in Cẩm Xuyên district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Cẩm Xuyên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
@@ -2968,7 +2968,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.
 LAST	P131	Q5024880	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 CREATE
 LAST	Len	"Thiên Cầm"
-LAST	Lvi	"Thị trấn Thiên Cầm"
+LAST	Lvi	"Thiên Cầm"
 LAST	Den	"former township in Cẩm Xuyên district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Cẩm Xuyên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
@@ -2976,7 +2976,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.
 LAST	P131	Q5024880	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 CREATE
 LAST	Len	"Yên Hòa"
-LAST	Lvi	"Xã Yên Hòa"
+LAST	Lvi	"Yên Hòa"
 LAST	Den	"former commune in Cẩm Xuyên district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Cẩm Xuyên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
@@ -2984,7 +2984,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.
 LAST	P131	Q5024880	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 CREATE
 LAST	Len	"Cẩm Bình"
-LAST	Lvi	"Xã Cẩm Bình"
+LAST	Lvi	"Cẩm Bình"
 LAST	Den	"former commune in Hà Tĩnh city, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thành phố Hà Tĩnh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
@@ -2992,7 +2992,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.
 LAST	P131	Q33996	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 CREATE
 LAST	Len	"Nam Phúc Thăng"
-LAST	Lvi	"Xã Nam Phúc Thăng"
+LAST	Lvi	"Nam Phúc Thăng"
 LAST	Den	"former commune in Cẩm Xuyên district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Cẩm Xuyên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
@@ -3000,7 +3000,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.
 LAST	P131	Q5024880	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 CREATE
 LAST	Len	"Cẩm Duệ"
-LAST	Lvi	"Xã Cẩm Duệ"
+LAST	Lvi	"Cẩm Duệ"
 LAST	Den	"former commune in Cẩm Xuyên district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Cẩm Xuyên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
@@ -3008,7 +3008,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.
 LAST	P131	Q5024880	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 CREATE
 LAST	Len	"Cẩm Hưng"
-LAST	Lvi	"Xã Cẩm Hưng"
+LAST	Lvi	"Cẩm Hưng"
 LAST	Den	"former commune in Cẩm Xuyên district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Cẩm Xuyên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
@@ -3016,7 +3016,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.
 LAST	P131	Q5024880	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 CREATE
 LAST	Len	"Cẩm Trung"
-LAST	Lvi	"Xã Cẩm Trung"
+LAST	Lvi	"Cẩm Trung"
 LAST	Den	"former commune in Cẩm Xuyên district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Cẩm Xuyên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
@@ -3024,7 +3024,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.
 LAST	P131	Q5024880	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 CREATE
 LAST	Len	"Cẩm Lạc"
-LAST	Lvi	"Xã Cẩm Lạc"
+LAST	Lvi	"Cẩm Lạc"
 LAST	Den	"former commune in Cẩm Xuyên district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Cẩm Xuyên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
@@ -3032,7 +3032,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.
 LAST	P131	Q5024880	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 CREATE
 LAST	Len	"Kỳ Xuân"
-LAST	Lvi	"Xã Kỳ Xuân"
+LAST	Lvi	"Kỳ Xuân"
 LAST	Den	"former commune in Kỳ Anh district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Kỳ Anh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
@@ -3040,7 +3040,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.
 LAST	P131	Q6450589	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 CREATE
 LAST	Len	"Kỳ Khang"
-LAST	Lvi	"Xã Kỳ Khang"
+LAST	Lvi	"Kỳ Khang"
 LAST	Den	"former commune in Kỳ Anh district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Kỳ Anh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
@@ -3048,7 +3048,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.
 LAST	P131	Q6450589	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 CREATE
 LAST	Len	"Kỳ Ninh"
-LAST	Lvi	"Phường Kỳ Ninh"
+LAST	Lvi	"Kỳ Ninh"
 LAST	Den	"former ward in Kỳ Anh town, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thị xã Kỳ Anh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
@@ -3056,7 +3056,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.
 LAST	P131	Q20025826	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 CREATE
 LAST	Len	"Kỳ Văn"
-LAST	Lvi	"Xã Kỳ Văn"
+LAST	Lvi	"Kỳ Văn"
 LAST	Den	"former commune in Kỳ Anh district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Kỳ Anh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
@@ -3064,7 +3064,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.
 LAST	P131	Q6450589	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 CREATE
 LAST	Len	"Kỳ Thượng"
-LAST	Lvi	"Xã Kỳ Thượng"
+LAST	Lvi	"Kỳ Thượng"
 LAST	Den	"former commune in Kỳ Anh district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Kỳ Anh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
@@ -3072,7 +3072,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.
 LAST	P131	Q6450589	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 CREATE
 LAST	Len	"Lâm Hợp"
-LAST	Lvi	"Xã Lâm Hợp"
+LAST	Lvi	"Lâm Hợp"
 LAST	Den	"former commune in Kỳ Anh district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Kỳ Anh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
@@ -3080,7 +3080,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.
 LAST	P131	Q6450589	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 CREATE
 LAST	Len	"Kỳ Nam"
-LAST	Lvi	"Phường Kỳ Nam"
+LAST	Lvi	"Kỳ Nam"
 LAST	Den	"former ward in Kỳ Anh town, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thị xã Kỳ Anh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
@@ -3088,7 +3088,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.
 LAST	P131	Q20025826	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 CREATE
 LAST	Len	"Kỳ Lạc"
-LAST	Lvi	"Xã Kỳ Lạc"
+LAST	Lvi	"Kỳ Lạc"
 LAST	Den	"former commune in Kỳ Anh district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Kỳ Anh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
@@ -3096,7 +3096,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.
 LAST	P131	Q6450589	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1665-nq.signed.pdf"
 CREATE
 LAST	Len	"Đồng Sơn"
-LAST	Lvi	"Phường Đồng Sơn"
+LAST	Lvi	"Đồng Sơn"
 LAST	Den	"former ward in Thành Phố Đồng Hới, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành Phố Đồng Hới, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -3104,7 +3104,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.
 LAST	P131	Q1877	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Thành"
-LAST	Lvi	"Xã Tân Thành"
+LAST	Lvi	"Tân Thành"
 LAST	Den	"former commune in Minh Hóa district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Minh Hóa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -3112,7 +3112,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.
 LAST	P131	Q2673199	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 CREATE
 LAST	Len	"Đồng Lê"
-LAST	Lvi	"Thị trấn Đồng Lê"
+LAST	Lvi	"Đồng Lê"
 LAST	Den	"former township in Tuyên Hóa district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Tuyên Hóa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -3120,7 +3120,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.
 LAST	P131	Q2232329	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 CREATE
 LAST	Len	"Ba Đồn"
-LAST	Lvi	"Phường Ba Đồn"
+LAST	Lvi	"Ba Đồn"
 LAST	Den	"former ward in Ba Đồn town, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thị xã Ba Đồn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -3128,7 +3128,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.
 LAST	P131	Q83385	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 CREATE
 LAST	Len	"Quảng Lưu"
-LAST	Lvi	"Xã Quảng Lưu"
+LAST	Lvi	"Quảng Lưu"
 LAST	Den	"former commune in Quảng Trạch district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Quảng Trạch, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -3136,7 +3136,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.
 LAST	P131	Q2200829	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 CREATE
 LAST	Len	"Phù Cảnh"
-LAST	Lvi	"Xã Phù Cảnh"
+LAST	Lvi	"Phù Cảnh"
 LAST	Den	"former commune in Quảng Trạch district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Quảng Trạch, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -3144,7 +3144,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.
 LAST	P131	Q2200829	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 CREATE
 LAST	Len	"Quảng Lộc"
-LAST	Lvi	"Xã Quảng Lộc"
+LAST	Lvi	"Quảng Lộc"
 LAST	Den	"former commune in Ba Đồn town, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thị xã Ba Đồn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -3152,7 +3152,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.
 LAST	P131	Q83385	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 CREATE
 LAST	Len	"Hoàn Lão"
-LAST	Lvi	"Thị trấn Hoàn Lão"
+LAST	Lvi	"Hoàn Lão"
 LAST	Den	"former township in Bố Trạch district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Bố Trạch, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -3160,7 +3160,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.
 LAST	P131	Q590734	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 CREATE
 LAST	Len	"NT Việt Trung"
-LAST	Lvi	"Thị trấn NT Việt Trung"
+LAST	Lvi	"NT Việt Trung"
 LAST	Den	"former township in Bố Trạch district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Bố Trạch, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -3168,7 +3168,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.
 LAST	P131	Q590734	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 CREATE
 LAST	Len	"Hạ Mỹ"
-LAST	Lvi	"Xã Hạ Mỹ"
+LAST	Lvi	"Hạ Mỹ"
 LAST	Den	"former commune in Bố Trạch district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bố Trạch, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -3176,7 +3176,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.
 LAST	P131	Q590734	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 CREATE
 LAST	Len	"Bắc Trạch"
-LAST	Lvi	"Xã Bắc Trạch"
+LAST	Lvi	"Bắc Trạch"
 LAST	Den	"former commune in Bố Trạch district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bố Trạch, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -3184,7 +3184,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.
 LAST	P131	Q590734	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 CREATE
 LAST	Len	"Hải Phú"
-LAST	Lvi	"Xã Hải Phú"
+LAST	Lvi	"Hải Phú"
 LAST	Den	"former commune in Bố Trạch district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bố Trạch, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -3192,7 +3192,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.
 LAST	P131	Q590734	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 CREATE
 LAST	Len	"Thượng Trạch"
-LAST	Lvi	"Xã Thượng Trạch"
+LAST	Lvi	"Thượng Trạch"
 LAST	Den	"former commune in Bố Trạch district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bố Trạch, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -3200,7 +3200,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.
 LAST	P131	Q590734	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 CREATE
 LAST	Len	"Đồng Trạch"
-LAST	Lvi	"Xã Đồng Trạch"
+LAST	Lvi	"Đồng Trạch"
 LAST	Den	"former commune in Bố Trạch district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bố Trạch, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -3208,7 +3208,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.
 LAST	P131	Q590734	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 CREATE
 LAST	Len	"Phong Nha"
-LAST	Lvi	"Thị trấn Phong Nha"
+LAST	Lvi	"Phong Nha"
 LAST	Den	"former township in Bố Trạch district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Bố Trạch, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -3216,7 +3216,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.
 LAST	P131	Q590734	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 CREATE
 LAST	Len	"Hòa Trạch"
-LAST	Lvi	"Xã Hòa Trạch"
+LAST	Lvi	"Hòa Trạch"
 LAST	Den	"former commune in Bố Trạch district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bố Trạch, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -3224,7 +3224,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.
 LAST	P131	Q590734	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 CREATE
 LAST	Len	"Lý Nam"
-LAST	Lvi	"Xã Lý Nam"
+LAST	Lvi	"Lý Nam"
 LAST	Den	"former commune in Bố Trạch district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bố Trạch, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -3232,7 +3232,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.
 LAST	P131	Q590734	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 CREATE
 LAST	Len	"Trường Sơn"
-LAST	Lvi	"Xã Trường Sơn"
+LAST	Lvi	"Trường Sơn"
 LAST	Den	"former commune in Quảng Ninh district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Quảng Ninh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -3240,7 +3240,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.
 LAST	P131	Q596473	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 CREATE
 LAST	Len	"NT Lệ Ninh"
-LAST	Lvi	"Thị trấn NT Lệ Ninh"
+LAST	Lvi	"NT Lệ Ninh"
 LAST	Den	"former township in Lệ Thủy district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Lệ Thủy, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -3248,7 +3248,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.
 LAST	P131	Q153692	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 CREATE
 LAST	Len	"Kiến Giang"
-LAST	Lvi	"Thị trấn Kiến Giang"
+LAST	Lvi	"Kiến Giang"
 LAST	Den	"former township in Lệ Thủy district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Lệ Thủy, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -3256,7 +3256,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.
 LAST	P131	Q153692	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 CREATE
 LAST	Len	"Mỹ Thủy"
-LAST	Lvi	"Xã Mỹ Thủy"
+LAST	Lvi	"Mỹ Thủy"
 LAST	Den	"former commune in Lệ Thủy district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Lệ Thủy, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -3264,7 +3264,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.
 LAST	P131	Q153692	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 CREATE
 LAST	Len	"2"
-LAST	Lvi	"Phường 2"
+LAST	Lvi	"2"
 LAST	Den	"former ward in Đông Hà city, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành phố Đông Hà, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -3272,7 +3272,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.
 LAST	P131	Q33343	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 CREATE
 LAST	Len	"Đông Lương"
-LAST	Lvi	"Phường Đông Lương"
+LAST	Lvi	"Đông Lương"
 LAST	Den	"former ward in Đông Hà city, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành phố Đông Hà, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -3280,7 +3280,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.
 LAST	P131	Q33343	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 CREATE
 LAST	Len	"Bến Quan"
-LAST	Lvi	"Thị trấn Bến Quan"
+LAST	Lvi	"Bến Quan"
 LAST	Den	"former township in Vĩnh Linh district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Vĩnh Linh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -3288,7 +3288,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.
 LAST	P131	Q7932536	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 CREATE
 LAST	Len	"Kim Thạch"
-LAST	Lvi	"Xã Kim Thạch"
+LAST	Lvi	"Kim Thạch"
 LAST	Den	"former commune in Vĩnh Linh district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Vĩnh Linh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -3296,7 +3296,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.
 LAST	P131	Q7932536	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 CREATE
 LAST	Len	"Vĩnh Thủy"
-LAST	Lvi	"Xã Vĩnh Thủy"
+LAST	Lvi	"Vĩnh Thủy"
 LAST	Den	"former commune in Vĩnh Linh district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Vĩnh Linh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -3304,7 +3304,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.
 LAST	P131	Q7932536	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 CREATE
 LAST	Len	"Hiền Thành"
-LAST	Lvi	"Xã Hiền Thành"
+LAST	Lvi	"Hiền Thành"
 LAST	Den	"former commune in Vĩnh Linh district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Vĩnh Linh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -3312,7 +3312,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.
 LAST	P131	Q7932536	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 CREATE
 LAST	Len	"Cửa Tùng"
-LAST	Lvi	"Thị trấn Cửa Tùng"
+LAST	Lvi	"Cửa Tùng"
 LAST	Den	"former township in Vĩnh Linh district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Vĩnh Linh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -3320,7 +3320,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.
 LAST	P131	Q7932536	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 CREATE
 LAST	Len	"Khe Sanh"
-LAST	Lvi	"Thị trấn Khe Sanh"
+LAST	Lvi	"Khe Sanh"
 LAST	Den	"former township in Hướng Hóa district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Hướng Hóa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -3328,7 +3328,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.
 LAST	P131	Q5946114	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 CREATE
 LAST	Len	"Lao Bảo"
-LAST	Lvi	"Thị trấn Lao Bảo"
+LAST	Lvi	"Lao Bảo"
 LAST	Den	"former township in Hướng Hóa district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Hướng Hóa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
@@ -3336,7 +3336,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.
 LAST	P131	Q5946114	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1680-nq.signed.pdf"
 CREATE
 LAST	Len	"Đông Phú"
-LAST	Lvi	"Thị trấn Đông Phú"
+LAST	Lvi	"Đông Phú"
 LAST	Den	"former township in Quế Sơn district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Quế Sơn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3344,7 +3344,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q2193420	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Quế Phú"
-LAST	Lvi	"Xã Quế Phú"
+LAST	Lvi	"Quế Phú"
 LAST	Den	"former commune in Quế Sơn district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Quế Sơn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3352,7 +3352,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q2193420	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Trung Phước"
-LAST	Lvi	"Thị trấn Trung Phước"
+LAST	Lvi	"Trung Phước"
 LAST	Den	"former township in Quế Sơn district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Quế Sơn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3360,7 +3360,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q2193420	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Quế Thuận"
-LAST	Lvi	"Xã Quế Thuận"
+LAST	Lvi	"Quế Thuận"
 LAST	Den	"former commune in Quế Sơn district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Quế Sơn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3368,7 +3368,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q2193420	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Ninh Phước"
-LAST	Lvi	"Xã Ninh Phước"
+LAST	Lvi	"Ninh Phước"
 LAST	Den	"former commune in Quế Sơn district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Quế Sơn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3376,7 +3376,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q2193420	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Thạnh Mỹ"
-LAST	Lvi	"Thị trấn Thạnh Mỹ"
+LAST	Lvi	"Thạnh Mỹ"
 LAST	Den	"former township in Nam Giang district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Nam Giang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3384,7 +3384,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q2122896	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"La Dêê"
-LAST	Lvi	"Xã La Dêê"
+LAST	Lvi	"La Dêê"
 LAST	Den	"former commune in Nam Giang district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Nam Giang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3392,7 +3392,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q2122896	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Chà Vàl"
-LAST	Lvi	"Xã Chà Vàl"
+LAST	Lvi	"Chà Vàl"
 LAST	Den	"former commune in Nam Giang district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Nam Giang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3400,7 +3400,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q2122896	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Tà Bhinh"
-LAST	Lvi	"Xã Tà Bhinh"
+LAST	Lvi	"Tà Bhinh"
 LAST	Den	"former commune in Nam Giang district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Nam Giang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3408,7 +3408,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q2122896	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Cà Dy"
-LAST	Lvi	"Xã Cà Dy"
+LAST	Lvi	"Cà Dy"
 LAST	Den	"former commune in Nam Giang district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Nam Giang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3416,7 +3416,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q2122896	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Đắc Pring"
-LAST	Lvi	"Xã Đắc Pring"
+LAST	Lvi	"Đắc Pring"
 LAST	Den	"former commune in Nam Giang district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Nam Giang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3424,7 +3424,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q2122896	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Khâm Đức"
-LAST	Lvi	"Thị trấn Khâm Đức"
+LAST	Lvi	"Khâm Đức"
 LAST	Den	"former township in Phước Sơn district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Phước Sơn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3432,7 +3432,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q3091652	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Phước Hiệp"
-LAST	Lvi	"Xã Phước Hiệp"
+LAST	Lvi	"Phước Hiệp"
 LAST	Den	"former commune in Phước Sơn district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Phước Sơn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3440,7 +3440,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q3091652	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Phước Năng"
-LAST	Lvi	"Xã Phước Năng"
+LAST	Lvi	"Phước Năng"
 LAST	Den	"former commune in Phước Sơn district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Phước Sơn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3448,7 +3448,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q3091652	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Phước Chánh"
-LAST	Lvi	"Xã Phước Chánh"
+LAST	Lvi	"Phước Chánh"
 LAST	Den	"former commune in Phước Sơn district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Phước Sơn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3456,7 +3456,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q3091652	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Phước Thành"
-LAST	Lvi	"Xã Phước Thành"
+LAST	Lvi	"Phước Thành"
 LAST	Den	"former commune in Phước Sơn district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Phước Sơn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3464,7 +3464,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q3091652	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Quế Tân"
-LAST	Lvi	"Xã Quế Tân"
+LAST	Lvi	"Quế Tân"
 LAST	Den	"former commune in Hiệp Đức district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hiệp Đức, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3472,7 +3472,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q4846962	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Bình Lâm"
-LAST	Lvi	"Xã Bình Lâm"
+LAST	Lvi	"Bình Lâm"
 LAST	Den	"former commune in Hiệp Đức district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hiệp Đức, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3480,7 +3480,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q4846962	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Phước Trà"
-LAST	Lvi	"Xã Phước Trà"
+LAST	Lvi	"Phước Trà"
 LAST	Den	"former commune in Hiệp Đức district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hiệp Đức, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3488,7 +3488,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q4846962	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Bình"
-LAST	Lvi	"Thị trấn Tân Bình"
+LAST	Lvi	"Tân Bình"
 LAST	Den	"former township in Hiệp Đức district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Hiệp Đức, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3496,7 +3496,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q4846962	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Hà Lam"
-LAST	Lvi	"Thị trấn Hà Lam"
+LAST	Lvi	"Hà Lam"
 LAST	Den	"former township in Thăng Bình district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Thăng Bình, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3504,7 +3504,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q2083636	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Bình Dương"
-LAST	Lvi	"Xã Bình Dương"
+LAST	Lvi	"Bình Dương"
 LAST	Den	"former commune in Thăng Bình district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thăng Bình, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3512,7 +3512,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q2083636	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Bình Định"
-LAST	Lvi	"Xã Bình Định"
+LAST	Lvi	"Bình Định"
 LAST	Den	"former commune in Thăng Bình district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thăng Bình, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3520,7 +3520,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q2083636	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Bình Phú"
-LAST	Lvi	"Xã Bình Phú"
+LAST	Lvi	"Bình Phú"
 LAST	Den	"former commune in Thăng Bình district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thăng Bình, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3528,7 +3528,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q2083636	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Bình Sa"
-LAST	Lvi	"Xã Bình Sa"
+LAST	Lvi	"Bình Sa"
 LAST	Den	"former commune in Thăng Bình district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thăng Bình, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3536,7 +3536,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q2083636	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Tiên Kỳ"
-LAST	Lvi	"Thị trấn Tiên Kỳ"
+LAST	Lvi	"Tiên Kỳ"
 LAST	Den	"former township in Tiên Phước district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Tiên Phước, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3544,7 +3544,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q2604795	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Tiên Sơn"
-LAST	Lvi	"Xã Tiên Sơn"
+LAST	Lvi	"Tiên Sơn"
 LAST	Den	"former commune in Tiên Phước district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Tiên Phước, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3552,7 +3552,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q2604795	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Tiên Hiệp"
-LAST	Lvi	"Xã Tiên Hiệp"
+LAST	Lvi	"Tiên Hiệp"
 LAST	Den	"former commune in Tiên Phước district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Tiên Phước, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3560,7 +3560,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q2604795	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Tiên Cảnh"
-LAST	Lvi	"Xã Tiên Cảnh"
+LAST	Lvi	"Tiên Cảnh"
 LAST	Den	"former commune in Tiên Phước district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Tiên Phước, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3568,7 +3568,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q2604795	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Trà My"
-LAST	Lvi	"Thị trấn Trà My"
+LAST	Lvi	"Trà My"
 LAST	Den	"former township in Bắc Trà My district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Bắc Trà My, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3576,7 +3576,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q2009675	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Trà Đông"
-LAST	Lvi	"Xã Trà Đông"
+LAST	Lvi	"Trà Đông"
 LAST	Den	"former commune in Bắc Trà My district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bắc Trà My, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3584,7 +3584,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q2009675	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Trà Đốc"
-LAST	Lvi	"Xã Trà Đốc"
+LAST	Lvi	"Trà Đốc"
 LAST	Den	"former commune in Bắc Trà My district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bắc Trà My, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3592,7 +3592,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q2009675	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Trà Tân"
-LAST	Lvi	"Xã Trà Tân"
+LAST	Lvi	"Trà Tân"
 LAST	Den	"former commune in Bắc Trà My district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bắc Trà My, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3600,7 +3600,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q2009675	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Trà Giáp"
-LAST	Lvi	"Xã Trà Giáp"
+LAST	Lvi	"Trà Giáp"
 LAST	Den	"former commune in Bắc Trà My district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bắc Trà My, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3608,7 +3608,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q2009675	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Trà Leng"
-LAST	Lvi	"Xã Trà Leng"
+LAST	Lvi	"Trà Leng"
 LAST	Den	"former commune in Nam Trà My district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Nam Trà My, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3616,7 +3616,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q2613911	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Trà Tập"
-LAST	Lvi	"Xã Trà Tập"
+LAST	Lvi	"Trà Tập"
 LAST	Den	"former commune in Nam Trà My district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Nam Trà My, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3624,7 +3624,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q2613911	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Trà Mai"
-LAST	Lvi	"Xã Trà Mai"
+LAST	Lvi	"Trà Mai"
 LAST	Den	"former commune in Nam Trà My district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Nam Trà My, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3632,7 +3632,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q2613911	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Trà Vân"
-LAST	Lvi	"Xã Trà Vân"
+LAST	Lvi	"Trà Vân"
 LAST	Den	"former commune in Nam Trà My district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Nam Trà My, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3640,7 +3640,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q2613911	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Núi Thành"
-LAST	Lvi	"Thị trấn Núi Thành"
+LAST	Lvi	"Núi Thành"
 LAST	Den	"former township in Núi Thành district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Núi Thành, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3648,7 +3648,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q724739	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Tam Xuân II"
-LAST	Lvi	"Xã Tam Xuân II"
+LAST	Lvi	"Tam Xuân II"
 LAST	Den	"former commune in Núi Thành district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Núi Thành, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3656,7 +3656,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q724739	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Tam Anh Nam"
-LAST	Lvi	"Xã Tam Anh Nam"
+LAST	Lvi	"Tam Anh Nam"
 LAST	Den	"former commune in Núi Thành district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Núi Thành, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3664,7 +3664,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q724739	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Tam Hải"
-LAST	Lvi	"Xã Tam Hải"
+LAST	Lvi	"Tam Hải"
 LAST	Den	"former commune in Núi Thành district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Núi Thành, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3672,7 +3672,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q724739	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Tam Mỹ Tây"
-LAST	Lvi	"Xã Tam Mỹ Tây"
+LAST	Lvi	"Tam Mỹ Tây"
 LAST	Den	"former commune in Núi Thành district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Núi Thành, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
@@ -3680,7 +3680,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.
 LAST	P131	Q724739	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1659-nq.signed.pdf"
 CREATE
 LAST	Len	"Nghĩa Lộ"
-LAST	Lvi	"Phường Nghĩa Lộ"
+LAST	Lvi	"Nghĩa Lộ"
 LAST	Den	"former ward in Quảng Ngãi city, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành phố Quảng Ngãi, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.signed.pdf"
@@ -3688,7 +3688,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.
 LAST	P131	Q33994	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.signed.pdf"
 CREATE
 LAST	Len	"Bình Trị"
-LAST	Lvi	"Xã Bình Trị"
+LAST	Lvi	"Bình Trị"
 LAST	Den	"former commune in Bình Sơn district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bình Sơn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.signed.pdf"
@@ -3696,7 +3696,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.
 LAST	P131	Q4914341	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.signed.pdf"
 CREATE
 LAST	Len	"Bình Minh"
-LAST	Lvi	"Xã Bình Minh"
+LAST	Lvi	"Bình Minh"
 LAST	Den	"former commune in Bình Sơn district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bình Sơn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.signed.pdf"
@@ -3704,7 +3704,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.
 LAST	P131	Q4914341	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.signed.pdf"
 CREATE
 LAST	Len	"Bình Thanh"
-LAST	Lvi	"Xã Bình Thanh"
+LAST	Lvi	"Bình Thanh"
 LAST	Den	"former commune in Bình Sơn district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bình Sơn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.signed.pdf"
@@ -3712,7 +3712,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.
 LAST	P131	Q4914341	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.signed.pdf"
 CREATE
 LAST	Len	"Bình Chương"
-LAST	Lvi	"Xã Bình Chương"
+LAST	Lvi	"Bình Chương"
 LAST	Den	"former commune in Bình Sơn district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bình Sơn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.signed.pdf"
@@ -3720,7 +3720,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.
 LAST	P131	Q4914341	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.signed.pdf"
 CREATE
 LAST	Len	"Bình Tân Phú"
-LAST	Lvi	"Xã Bình Tân Phú"
+LAST	Lvi	"Bình Tân Phú"
 LAST	Den	"former commune in Bình Sơn district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bình Sơn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.signed.pdf"
@@ -3728,7 +3728,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.
 LAST	P131	Q4914341	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.signed.pdf"
 CREATE
 LAST	Len	"Trà Phong"
-LAST	Lvi	"Xã Trà Phong"
+LAST	Lvi	"Trà Phong"
 LAST	Den	"former commune in Trà Bồng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Trà Bồng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.signed.pdf"
@@ -3736,7 +3736,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.
 LAST	P131	Q7831037	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.signed.pdf"
 CREATE
 LAST	Len	"Hương Trà"
-LAST	Lvi	"Xã Hương Trà"
+LAST	Lvi	"Hương Trà"
 LAST	Den	"former commune in Trà Bồng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Trà Bồng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.signed.pdf"
@@ -3744,7 +3744,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.
 LAST	P131	Q7831037	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.signed.pdf"
 CREATE
 LAST	Len	"Trà Tây"
-LAST	Lvi	"Xã Trà Tây"
+LAST	Lvi	"Trà Tây"
 LAST	Den	"former commune in Trà Bồng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Trà Bồng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.signed.pdf"
@@ -3752,7 +3752,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.
 LAST	P131	Q7831037	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.signed.pdf"
 CREATE
 LAST	Len	"Tịnh Phong"
-LAST	Lvi	"Xã Tịnh Phong"
+LAST	Lvi	"Tịnh Phong"
 LAST	Den	"former commune in Sơn Tịnh district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Sơn Tịnh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.signed.pdf"
@@ -3760,7 +3760,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.
 LAST	P131	Q7560605	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.signed.pdf"
 CREATE
 LAST	Len	"Tịnh Khê"
-LAST	Lvi	"Xã Tịnh Khê"
+LAST	Lvi	"Tịnh Khê"
 LAST	Den	"former commune in Quảng Ngãi city, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thành phố Quảng Ngãi, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.signed.pdf"
@@ -3768,7 +3768,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.
 LAST	P131	Q33994	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.signed.pdf"
 CREATE
 LAST	Len	"La Hà"
-LAST	Lvi	"Thị trấn La Hà"
+LAST	Lvi	"La Hà"
 LAST	Den	"former township in Tư Nghĩa district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Tư Nghĩa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.signed.pdf"
@@ -3776,7 +3776,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.
 LAST	P131	Q7850532	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.signed.pdf"
 CREATE
 LAST	Len	"Di Lăng"
-LAST	Lvi	"Thị trấn Di Lăng"
+LAST	Lvi	"Di Lăng"
 LAST	Den	"former township in Sơn Hà district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Sơn Hà, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.signed.pdf"
@@ -3784,7 +3784,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.
 LAST	P131	Q7560580	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1677-nq.signed.pdf"
 CREATE
 LAST	Len	"Vạn Hưng"
-LAST	Lvi	"Xã Vạn Hưng"
+LAST	Lvi	"Vạn Hưng"
 LAST	Den	"former commune in Vạn Ninh district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Vạn Ninh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.signed.pdf"
@@ -3792,7 +3792,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.
 LAST	P131	Q7913545	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.signed.pdf"
 CREATE
 LAST	Len	"Ninh Quang"
-LAST	Lvi	"Xã Ninh Quang"
+LAST	Lvi	"Ninh Quang"
 LAST	Den	"former commune in Ninh Hòa town, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thị xã Ninh Hòa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.signed.pdf"
@@ -3800,7 +3800,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.
 LAST	P131	Q10801338	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.signed.pdf"
 CREATE
 LAST	Len	"Diên Lâm"
-LAST	Lvi	"Xã Diên Lâm"
+LAST	Lvi	"Diên Lâm"
 LAST	Den	"former commune in Diên Khánh district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Diên Khánh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.signed.pdf"
@@ -3808,7 +3808,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.
 LAST	P131	Q4460634	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.signed.pdf"
 CREATE
 LAST	Len	"Diên Điền"
-LAST	Lvi	"Xã Diên Điền"
+LAST	Lvi	"Diên Điền"
 LAST	Den	"former commune in Diên Khánh district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Diên Khánh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.signed.pdf"
@@ -3816,7 +3816,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.
 LAST	P131	Q4460634	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.signed.pdf"
 CREATE
 LAST	Len	"Diên Lạc"
-LAST	Lvi	"Xã Diên Lạc"
+LAST	Lvi	"Diên Lạc"
 LAST	Den	"former commune in Diên Khánh district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Diên Khánh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.signed.pdf"
@@ -3824,7 +3824,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.
 LAST	P131	Q4460634	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.signed.pdf"
 CREATE
 LAST	Len	"Suối Hiệp"
-LAST	Lvi	"Xã Suối Hiệp"
+LAST	Lvi	"Suối Hiệp"
 LAST	Den	"former commune in Diên Khánh district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Diên Khánh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.signed.pdf"
@@ -3832,7 +3832,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.
 LAST	P131	Q4460634	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.signed.pdf"
 CREATE
 LAST	Len	"Trường Sa"
-LAST	Lvi	"Thị trấn Trường Sa"
+LAST	Lvi	"Trường Sa"
 LAST	Den	"former township in Trường Sa district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Trường Sa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.signed.pdf"
@@ -3840,7 +3840,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.
 LAST	P131	Q1328612	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.signed.pdf"
 CREATE
 LAST	Len	"Đô Vinh"
-LAST	Lvi	"Phường Đô Vinh"
+LAST	Lvi	"Đô Vinh"
 LAST	Den	"former ward in Phan Rang-Tháp Chàm city, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành phố Phan Rang-Tháp Chàm, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.signed.pdf"
@@ -3848,7 +3848,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.
 LAST	P131	Q19013	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.signed.pdf"
 CREATE
 LAST	Len	"Bảo An"
-LAST	Lvi	"Phường Bảo An"
+LAST	Lvi	"Bảo An"
 LAST	Den	"former ward in Phan Rang-Tháp Chàm city, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành phố Phan Rang-Tháp Chàm, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.signed.pdf"
@@ -3856,7 +3856,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.
 LAST	P131	Q19013	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.signed.pdf"
 CREATE
 LAST	Len	"Lâm Sơn"
-LAST	Lvi	"Xã Lâm Sơn"
+LAST	Lvi	"Lâm Sơn"
 LAST	Den	"former commune in Ninh Sơn district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ninh Sơn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.signed.pdf"
@@ -3864,7 +3864,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.
 LAST	P131	Q7038781	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.signed.pdf"
 CREATE
 LAST	Len	"Vĩnh Hải"
-LAST	Lvi	"Xã Vĩnh Hải"
+LAST	Lvi	"Vĩnh Hải"
 LAST	Den	"former commune in Ninh Hải district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ninh Hải, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.signed.pdf"
@@ -3872,7 +3872,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.
 LAST	P131	Q7038767	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.signed.pdf"
 CREATE
 LAST	Len	"Xuân Hải"
-LAST	Lvi	"Xã Xuân Hải"
+LAST	Lvi	"Xuân Hải"
 LAST	Den	"former commune in Ninh Hải district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ninh Hải, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.signed.pdf"
@@ -3880,7 +3880,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.
 LAST	P131	Q7038767	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1667-nq.signed.pdf"
 CREATE
 LAST	Len	"Phan Rí Cửa"
-LAST	Lvi	"Thị trấn Phan Rí Cửa"
+LAST	Lvi	"Phan Rí Cửa"
 LAST	Den	"former township in Tuy Phong district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Tuy Phong, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
@@ -3888,7 +3888,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.
 LAST	P131	Q7857225	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
 CREATE
 LAST	Len	"Hàm Liêm"
-LAST	Lvi	"Xã Hàm Liêm"
+LAST	Lvi	"Hàm Liêm"
 LAST	Den	"former commune in Hàm Thuận Bắc district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hàm Thuận Bắc, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
@@ -3896,7 +3896,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.
 LAST	P131	Q5643880	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
 CREATE
 LAST	Len	"Hàm Thạnh"
-LAST	Lvi	"Xã Hàm Thạnh"
+LAST	Lvi	"Hàm Thạnh"
 LAST	Den	"former commune in Hàm Thuận Nam district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hàm Thuận Nam, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
@@ -3904,7 +3904,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.
 LAST	P131	Q5643882	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
 CREATE
 LAST	Len	"Hàm Kiệm"
-LAST	Lvi	"Xã Hàm Kiệm"
+LAST	Lvi	"Hàm Kiệm"
 LAST	Den	"former commune in Hàm Thuận Nam district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hàm Thuận Nam, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
@@ -3912,7 +3912,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.
 LAST	P131	Q5643882	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Lập"
-LAST	Lvi	"Xã Tân Lập"
+LAST	Lvi	"Tân Lập"
 LAST	Den	"former commune in Hàm Thuận Nam district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hàm Thuận Nam, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
@@ -3920,7 +3920,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.
 LAST	P131	Q5643882	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Thành"
-LAST	Lvi	"Xã Tân Thành"
+LAST	Lvi	"Tân Thành"
 LAST	Den	"former commune in Hàm Thuận Nam district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hàm Thuận Nam, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
@@ -3928,7 +3928,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.
 LAST	P131	Q5643882	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
 CREATE
 LAST	Len	"Bắc Ruộng"
-LAST	Lvi	"Xã Bắc Ruộng"
+LAST	Lvi	"Bắc Ruộng"
 LAST	Den	"former commune in Tánh Linh district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Tánh Linh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
@@ -3936,7 +3936,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.
 LAST	P131	Q7683199	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
 CREATE
 LAST	Len	"Nghị Đức"
-LAST	Lvi	"Xã Nghị Đức"
+LAST	Lvi	"Nghị Đức"
 LAST	Den	"former commune in Tánh Linh district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Tánh Linh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
@@ -3944,7 +3944,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.
 LAST	P131	Q7683199	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
 CREATE
 LAST	Len	"Đồng Kho"
-LAST	Lvi	"Xã Đồng Kho"
+LAST	Lvi	"Đồng Kho"
 LAST	Den	"former commune in Tánh Linh district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Tánh Linh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
@@ -3952,7 +3952,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.
 LAST	P131	Q7683199	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
 CREATE
 LAST	Len	"Suối Kiết"
-LAST	Lvi	"Xã Suối Kiết"
+LAST	Lvi	"Suối Kiết"
 LAST	Den	"former commune in Tánh Linh district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Tánh Linh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
@@ -3960,7 +3960,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.
 LAST	P131	Q7683199	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
 CREATE
 LAST	Len	"Trà Tân"
-LAST	Lvi	"Xã Trà Tân"
+LAST	Lvi	"Trà Tân"
 LAST	Den	"former commune in Đức Linh district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Đức Linh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
@@ -3968,7 +3968,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.
 LAST	P131	Q5311204	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Minh"
-LAST	Lvi	"Thị trấn Tân Minh"
+LAST	Lvi	"Tân Minh"
 LAST	Den	"former township in Hàm Tân district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Hàm Tân, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
@@ -3976,7 +3976,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.
 LAST	P131	Q5643878	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
 CREATE
 LAST	Len	"Phước Hội"
-LAST	Lvi	"Phường Phước Hội"
+LAST	Lvi	"Phước Hội"
 LAST	Den	"former ward in La Gi town, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thị xã La Gi, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
@@ -3984,7 +3984,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.
 LAST	P131	Q6462754	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Hải"
-LAST	Lvi	"Xã Tân Hải"
+LAST	Lvi	"Tân Hải"
 LAST	Den	"former commune in La Gi town, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thị xã La Gi, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
@@ -3992,7 +3992,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.
 LAST	P131	Q6462754	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
 CREATE
 LAST	Len	"Sơn Mỹ"
-LAST	Lvi	"Xã Sơn Mỹ"
+LAST	Lvi	"Sơn Mỹ"
 LAST	Den	"former commune in Hàm Tân district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hàm Tân, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
@@ -4000,7 +4000,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.
 LAST	P131	Q5643878	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1671-nq.signed.pdf"
 CREATE
 LAST	Len	"Ya Hội"
-LAST	Lvi	"Xã Ya Hội"
+LAST	Lvi	"Ya Hội"
 LAST	Den	"former commune in Đăk Pơ district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Đăk Pơ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1664-nq.signed.pdf"
@@ -4008,7 +4008,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1664-nq.
 LAST	P131	Q5209900	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1664-nq.signed.pdf"
 CREATE
 LAST	Len	"Kim Tân"
-LAST	Lvi	"Xã Kim Tân"
+LAST	Lvi	"Kim Tân"
 LAST	Den	"former commune in Ia Pa district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ia Pa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1664-nq.signed.pdf"
@@ -4016,7 +4016,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1664-nq.
 LAST	P131	Q5980269	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1664-nq.signed.pdf"
 CREATE
 LAST	Len	"Ia Hiao"
-LAST	Lvi	"Xã Ia Hiao"
+LAST	Lvi	"Ia Hiao"
 LAST	Den	"former commune in Phú Thiện district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Phú Thiện, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1664-nq.signed.pdf"
@@ -4024,7 +4024,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1664-nq.
 LAST	P131	Q7188269	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1664-nq.signed.pdf"
 CREATE
 LAST	Len	"Phú Túc"
-LAST	Lvi	"Thị trấn Phú Túc"
+LAST	Lvi	"Phú Túc"
 LAST	Den	"former township in Krông Pa district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Krông Pa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1664-nq.signed.pdf"
@@ -4032,7 +4032,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1664-nq.
 LAST	P131	Q6438922	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1664-nq.signed.pdf"
 CREATE
 LAST	Len	"Uar"
-LAST	Lvi	"Xã Uar"
+LAST	Lvi	"Uar"
 LAST	Den	"former commune in Krông Pa district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Krông Pa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1664-nq.signed.pdf"
@@ -4040,7 +4040,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1664-nq.
 LAST	P131	Q6438922	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1664-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Lập"
-LAST	Lvi	"Phường Tân Lập"
+LAST	Lvi	"Tân Lập"
 LAST	Den	"former ward in Buôn Ma Thuột city, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành phố Buôn Ma Thuột, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4048,7 +4048,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q33469	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân An"
-LAST	Lvi	"Phường Tân An"
+LAST	Lvi	"Tân An"
 LAST	Den	"former ward in Buôn Ma Thuột city, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành phố Buôn Ma Thuột, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4056,7 +4056,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q33469	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Thành Nhất"
-LAST	Lvi	"Phường Thành Nhất"
+LAST	Lvi	"Thành Nhất"
 LAST	Den	"former ward in Buôn Ma Thuột city, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành phố Buôn Ma Thuột, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4064,7 +4064,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q33469	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Tự An"
-LAST	Lvi	"Phường Tự An"
+LAST	Lvi	"Tự An"
 LAST	Den	"former ward in Buôn Ma Thuột city, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành phố Buôn Ma Thuột, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4072,7 +4072,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q33469	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Ea Kao"
-LAST	Lvi	"Xã Ea Kao"
+LAST	Lvi	"Ea Kao"
 LAST	Den	"former commune in Buôn Ma Thuột city, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thành phố Buôn Ma Thuột, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4080,7 +4080,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q33469	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Hòa Phú"
-LAST	Lvi	"Xã Hòa Phú"
+LAST	Lvi	"Hòa Phú"
 LAST	Den	"former commune in Buôn Ma Thuột city, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thành phố Buôn Ma Thuột, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4088,7 +4088,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q33469	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Ea Drăng"
-LAST	Lvi	"Thị trấn Ea Drăng"
+LAST	Lvi	"Ea Drăng"
 LAST	Den	"former township in Ea H'leo district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Ea H'leo, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4096,7 +4096,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q5324853	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Ea H'leo"
-LAST	Lvi	"Xã Ea H'leo"
+LAST	Lvi	"Ea H'leo"
 LAST	Den	"former commune in Ea H'leo district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ea H'leo, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4104,7 +4104,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q5324853	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Ea Wy"
-LAST	Lvi	"Xã Ea Wy"
+LAST	Lvi	"Ea Wy"
 LAST	Den	"former commune in Ea H'leo district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ea H'leo, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4112,7 +4112,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q5324853	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Ea Hiao"
-LAST	Lvi	"Xã Ea Hiao"
+LAST	Lvi	"Ea Hiao"
 LAST	Den	"former commune in Ea H'leo district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ea H'leo, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4120,7 +4120,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q5324853	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Ea Khal"
-LAST	Lvi	"Xã Ea Khal"
+LAST	Lvi	"Ea Khal"
 LAST	Den	"former commune in Ea H'leo district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ea H'leo, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4128,7 +4128,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q5324853	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Ea Súp"
-LAST	Lvi	"Thị trấn Ea Súp"
+LAST	Lvi	"Ea Súp"
 LAST	Den	"former township in Ea Súp district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Ea Súp, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4136,7 +4136,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q5324862	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Ia Lốp"
-LAST	Lvi	"Xã Ia Lốp"
+LAST	Lvi	"Ia Lốp"
 LAST	Den	"former commune in Ea Súp district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ea Súp, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4144,7 +4144,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q5324862	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Ea Rốk"
-LAST	Lvi	"Xã Ea Rốk"
+LAST	Lvi	"Ea Rốk"
 LAST	Den	"former commune in Ea Súp district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ea Súp, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4152,7 +4152,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q5324862	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Ia RVê"
-LAST	Lvi	"Xã Ia RVê"
+LAST	Lvi	"Ia RVê"
 LAST	Den	"former commune in Ea Súp district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ea Súp, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4160,7 +4160,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q5324862	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Ea Bung"
-LAST	Lvi	"Xã Ea Bung"
+LAST	Lvi	"Ea Bung"
 LAST	Den	"former commune in Ea Súp district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ea Súp, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4168,7 +4168,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q5324862	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Krông Na"
-LAST	Lvi	"Xã Krông Na"
+LAST	Lvi	"Krông Na"
 LAST	Den	"former commune in Buôn Đôn district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Buôn Đôn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4176,7 +4176,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q5003625	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Ea Wer"
-LAST	Lvi	"Xã Ea Wer"
+LAST	Lvi	"Ea Wer"
 LAST	Den	"former commune in Buôn Đôn district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Buôn Đôn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4184,7 +4184,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q5003625	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Ea Nuôl"
-LAST	Lvi	"Xã Ea Nuôl"
+LAST	Lvi	"Ea Nuôl"
 LAST	Den	"former commune in Buôn Đôn district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Buôn Đôn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4192,7 +4192,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q5003625	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Quảng Phú"
-LAST	Lvi	"Thị trấn Quảng Phú"
+LAST	Lvi	"Quảng Phú"
 LAST	Den	"former township in Cư M'gar district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Cư M'gar, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4200,7 +4200,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q5191805	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Ea Kiết"
-LAST	Lvi	"Xã Ea Kiết"
+LAST	Lvi	"Ea Kiết"
 LAST	Den	"former commune in Cư M'gar district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Cư M'gar, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4208,7 +4208,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q5191805	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Ea H'đinh"
-LAST	Lvi	"Xã Ea H'đinh"
+LAST	Lvi	"Ea H'đinh"
 LAST	Den	"former commune in Cư M'gar district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Cư M'gar, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4216,7 +4216,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q5191805	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Ea Tul"
-LAST	Lvi	"Xã Ea Tul"
+LAST	Lvi	"Ea Tul"
 LAST	Den	"former commune in Cư M'gar district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Cư M'gar, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4224,7 +4224,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q5191805	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Ea M'DRóh"
-LAST	Lvi	"Xã Ea M'DRóh"
+LAST	Lvi	"Ea M'DRóh"
 LAST	Den	"former commune in Cư M'gar district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Cư M'gar, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4232,7 +4232,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q5191805	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Cư M'gar"
-LAST	Lvi	"Xã Cư M'gar"
+LAST	Lvi	"Cư M'gar"
 LAST	Den	"former commune in Cư M'gar district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Cư M'gar, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4240,7 +4240,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q5191805	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"An Lạc"
-LAST	Lvi	"Phường An Lạc"
+LAST	Lvi	"An Lạc"
 LAST	Den	"former ward in Thị Xã Buôn Hồ, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thị Xã Buôn Hồ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4248,7 +4248,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q4998003	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Cư Pơng"
-LAST	Lvi	"Xã Cư Pơng"
+LAST	Lvi	"Cư Pơng"
 LAST	Den	"former commune in Krông Búk district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Krông Búk, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4256,7 +4256,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q6438917	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Pơng Drang"
-LAST	Lvi	"Thị trấn Pơng Drang"
+LAST	Lvi	"Pơng Drang"
 LAST	Den	"former township in Krông Búk district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Krông Búk, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4264,7 +4264,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q6438917	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Ea Drông"
-LAST	Lvi	"Xã Ea Drông"
+LAST	Lvi	"Ea Drông"
 LAST	Den	"former commune in Thị Xã Buôn Hồ, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thị Xã Buôn Hồ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4272,7 +4272,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q4998003	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Cư Bao"
-LAST	Lvi	"Xã Cư Bao"
+LAST	Lvi	"Cư Bao"
 LAST	Den	"former commune in Thị Xã Buôn Hồ, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thị Xã Buôn Hồ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4280,7 +4280,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q4998003	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Krông Năng"
-LAST	Lvi	"Thị trấn Krông Năng"
+LAST	Lvi	"Krông Năng"
 LAST	Den	"former township in Krông Năng district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Krông Năng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4288,7 +4288,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q6438921	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"ĐLiê Ya"
-LAST	Lvi	"Xã ĐLiê Ya"
+LAST	Lvi	"ĐLiê Ya"
 LAST	Den	"former commune in Krông Năng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Krông Năng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4296,7 +4296,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q6438921	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Tam Giang"
-LAST	Lvi	"Xã Tam Giang"
+LAST	Lvi	"Tam Giang"
 LAST	Den	"former commune in Krông Năng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Krông Năng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4304,7 +4304,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q6438921	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Phú Xuân"
-LAST	Lvi	"Xã Phú Xuân"
+LAST	Lvi	"Phú Xuân"
 LAST	Den	"former commune in Krông Năng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Krông Năng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4312,7 +4312,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q6438921	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Ea Kar"
-LAST	Lvi	"Thị trấn Ea Kar"
+LAST	Lvi	"Ea Kar"
 LAST	Den	"former township in Ea Kar district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Ea Kar, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4320,7 +4320,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q5324859	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Ea Knốp"
-LAST	Lvi	"Thị trấn Ea Knốp"
+LAST	Lvi	"Ea Knốp"
 LAST	Den	"former township in Ea Kar district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Ea Kar, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4328,7 +4328,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q5324859	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Ea Păl"
-LAST	Lvi	"Xã Ea Păl"
+LAST	Lvi	"Ea Păl"
 LAST	Den	"former commune in Ea Kar district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ea Kar, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4336,7 +4336,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q5324859	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Ea Ô"
-LAST	Lvi	"Xã Ea Ô"
+LAST	Lvi	"Ea Ô"
 LAST	Den	"former commune in Ea Kar district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ea Kar, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4344,7 +4344,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q5324859	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Cư Jang"
-LAST	Lvi	"Xã Cư Jang"
+LAST	Lvi	"Cư Jang"
 LAST	Den	"former commune in Ea Kar district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ea Kar, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4352,7 +4352,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q5324859	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"M'Đrắk"
-LAST	Lvi	"Thị trấn M'Đrắk"
+LAST	Lvi	"M'Đrắk"
 LAST	Den	"former township in M'Đrắk district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện M'Đrắk, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4360,7 +4360,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q10788943	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Cư Prao"
-LAST	Lvi	"Xã Cư Prao"
+LAST	Lvi	"Cư Prao"
 LAST	Den	"former commune in M'Đrắk district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện M'Đrắk, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4368,7 +4368,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q10788943	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Ea Riêng"
-LAST	Lvi	"Xã Ea Riêng"
+LAST	Lvi	"Ea Riêng"
 LAST	Den	"former commune in M'Đrắk district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện M'Đrắk, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4376,7 +4376,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q10788943	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Cư M'ta"
-LAST	Lvi	"Xã Cư M'ta"
+LAST	Lvi	"Cư M'ta"
 LAST	Den	"former commune in M'Đrắk district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện M'Đrắk, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4384,7 +4384,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q10788943	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Krông Á"
-LAST	Lvi	"Xã Krông Á"
+LAST	Lvi	"Krông Á"
 LAST	Den	"former commune in M'Đrắk district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện M'Đrắk, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4392,7 +4392,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q10788943	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Ea Trang"
-LAST	Lvi	"Xã Ea Trang"
+LAST	Lvi	"Ea Trang"
 LAST	Den	"former commune in M'Đrắk district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện M'Đrắk, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4400,7 +4400,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q10788943	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Dang Kang"
-LAST	Lvi	"Xã Dang Kang"
+LAST	Lvi	"Dang Kang"
 LAST	Den	"former commune in Krông Bông district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Krông Bông, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4408,7 +4408,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q6438916	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Cư Pui"
-LAST	Lvi	"Xã Cư Pui"
+LAST	Lvi	"Cư Pui"
 LAST	Den	"former commune in Krông Bông district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Krông Bông, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4416,7 +4416,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q6438916	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Hòa Sơn"
-LAST	Lvi	"Xã Hòa Sơn"
+LAST	Lvi	"Hòa Sơn"
 LAST	Den	"former commune in Krông Bông district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Krông Bông, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4424,7 +4424,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q6438916	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Yang Mao"
-LAST	Lvi	"Xã Yang Mao"
+LAST	Lvi	"Yang Mao"
 LAST	Den	"former commune in Krông Bông district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Krông Bông, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4432,7 +4432,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q6438916	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Phước An"
-LAST	Lvi	"Thị trấn Phước An"
+LAST	Lvi	"Phước An"
 LAST	Den	"former township in Krông Pắc district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Krông Pắc, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4440,7 +4440,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q6438923	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"KRông Búk"
-LAST	Lvi	"Xã KRông Búk"
+LAST	Lvi	"KRông Búk"
 LAST	Den	"former commune in Krông Pắc district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Krông Pắc, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4448,7 +4448,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q6438923	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Ea Phê"
-LAST	Lvi	"Xã Ea Phê"
+LAST	Lvi	"Ea Phê"
 LAST	Den	"former commune in Krông Pắc district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Krông Pắc, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4456,7 +4456,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q6438923	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Ea KNuec"
-LAST	Lvi	"Xã Ea KNuec"
+LAST	Lvi	"Ea KNuec"
 LAST	Den	"former commune in Krông Pắc district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Krông Pắc, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4464,7 +4464,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q6438923	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Tiến"
-LAST	Lvi	"Xã Tân Tiến"
+LAST	Lvi	"Tân Tiến"
 LAST	Den	"former commune in Krông Pắc district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Krông Pắc, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4472,7 +4472,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q6438923	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Vụ Bổn"
-LAST	Lvi	"Xã Vụ Bổn"
+LAST	Lvi	"Vụ Bổn"
 LAST	Den	"former commune in Krông Pắc district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Krông Pắc, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4480,7 +4480,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q6438923	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Buôn Trấp"
-LAST	Lvi	"Thị trấn Buôn Trấp"
+LAST	Lvi	"Buôn Trấp"
 LAST	Den	"former township in Krông A Na district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Krông A Na, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4488,7 +4488,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q6438915	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Ea Ktur"
-LAST	Lvi	"Xã Ea Ktur"
+LAST	Lvi	"Ea Ktur"
 LAST	Den	"former commune in Cư Kuin district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Cư Kuin, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4496,7 +4496,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q5191803	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Ea Na"
-LAST	Lvi	"Xã Ea Na"
+LAST	Lvi	"Ea Na"
 LAST	Den	"former commune in Krông A Na district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Krông A Na, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4504,7 +4504,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q6438915	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Dray Bhăng"
-LAST	Lvi	"Xã Dray Bhăng"
+LAST	Lvi	"Dray Bhăng"
 LAST	Den	"former commune in Cư Kuin district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Cư Kuin, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4512,7 +4512,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q5191803	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Hòa Hiệp"
-LAST	Lvi	"Xã Hòa Hiệp"
+LAST	Lvi	"Hòa Hiệp"
 LAST	Den	"former commune in Cư Kuin district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Cư Kuin, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4520,7 +4520,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q5191803	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Đắk Liêng"
-LAST	Lvi	"Xã Đắk Liêng"
+LAST	Lvi	"Đắk Liêng"
 LAST	Den	"former commune in Lắk district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Lắk, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4528,7 +4528,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q6474514	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Nam Ka"
-LAST	Lvi	"Xã Nam Ka"
+LAST	Lvi	"Nam Ka"
 LAST	Den	"former commune in Lắk district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Lắk, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
@@ -4536,7 +4536,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.
 LAST	P131	Q6474514	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1660-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Lợi"
-LAST	Lvi	"Xã Tân Lợi"
+LAST	Lvi	"Tân Lợi"
 LAST	Den	"former commune in Đồng Phú district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Đồng Phú, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.signed.pdf"
@@ -4544,7 +4544,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.
 LAST	P131	Q2353451	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.signed.pdf"
 CREATE
 LAST	Len	"Đak Nhau"
-LAST	Lvi	"Xã Đak Nhau"
+LAST	Lvi	"Đak Nhau"
 LAST	Den	"former commune in Bù Đăng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bù Đăng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.signed.pdf"
@@ -4552,7 +4552,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.
 LAST	P131	Q4982057	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.signed.pdf"
 CREATE
 LAST	Len	"Phú Sơn"
-LAST	Lvi	"Xã Phú Sơn"
+LAST	Lvi	"Phú Sơn"
 LAST	Den	"former commune in Bù Đăng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bù Đăng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.signed.pdf"
@@ -4560,7 +4560,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.
 LAST	P131	Q4982057	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.signed.pdf"
 CREATE
 LAST	Len	"Thọ Sơn"
-LAST	Lvi	"Xã Thọ Sơn"
+LAST	Lvi	"Thọ Sơn"
 LAST	Den	"former commune in Bù Đăng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bù Đăng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.signed.pdf"
@@ -4568,7 +4568,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.
 LAST	P131	Q4982057	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.signed.pdf"
 CREATE
 LAST	Len	"Bom Bo"
-LAST	Lvi	"Xã Bom Bo"
+LAST	Lvi	"Bom Bo"
 LAST	Den	"former commune in Bù Đăng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bù Đăng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.signed.pdf"
@@ -4576,7 +4576,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.
 LAST	P131	Q4982057	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.signed.pdf"
 CREATE
 LAST	Len	"Phước Sơn"
-LAST	Lvi	"Xã Phước Sơn"
+LAST	Lvi	"Phước Sơn"
 LAST	Den	"former commune in Bù Đăng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bù Đăng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.signed.pdf"
@@ -4584,7 +4584,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.
 LAST	P131	Q4982057	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.signed.pdf"
 CREATE
 LAST	Len	"Thành Tâm"
-LAST	Lvi	"Phường Thành Tâm"
+LAST	Lvi	"Thành Tâm"
 LAST	Den	"former ward in Chơn Thành town, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thị xã Chơn Thành, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.signed.pdf"
@@ -4592,7 +4592,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.
 LAST	P131	Q5104478	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Quan"
-LAST	Lvi	"Xã Tân Quan"
+LAST	Lvi	"Tân Quan"
 LAST	Den	"former commune in Hớn Quản district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Hớn Quản, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.signed.pdf"
@@ -4600,7 +4600,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.
 LAST	P131	Q10772337	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.signed.pdf"
 CREATE
 LAST	Len	"Minh Hưng"
-LAST	Lvi	"Phường Minh Hưng"
+LAST	Lvi	"Minh Hưng"
 LAST	Den	"former ward in Chơn Thành town, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thị xã Chơn Thành, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.signed.pdf"
@@ -4608,7 +4608,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.
 LAST	P131	Q5104478	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.signed.pdf"
 CREATE
 LAST	Len	"Nha Bích"
-LAST	Lvi	"Xã Nha Bích"
+LAST	Lvi	"Nha Bích"
 LAST	Den	"former commune in Chơn Thành town, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thị xã Chơn Thành, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.signed.pdf"
@@ -4616,7 +4616,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.
 LAST	P131	Q5104478	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1662-nq.signed.pdf"
 CREATE
 LAST	Len	"4"
-LAST	Lvi	"Phường 4"
+LAST	Lvi	"4"
 LAST	Den	"former ward in Tây Ninh city, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành phố Tây Ninh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4624,7 +4624,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q130391	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"2"
-LAST	Lvi	"Phường 2"
+LAST	Lvi	"2"
 LAST	Den	"former ward in Tây Ninh city, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành phố Tây Ninh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4632,7 +4632,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q130391	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Bình Minh"
-LAST	Lvi	"Xã Bình Minh"
+LAST	Lvi	"Bình Minh"
 LAST	Den	"former commune in Tây Ninh city, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thành phố Tây Ninh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4640,7 +4640,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q130391	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Ninh Thạnh"
-LAST	Lvi	"Phường Ninh Thạnh"
+LAST	Lvi	"Ninh Thạnh"
 LAST	Den	"former ward in Tây Ninh city, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành phố Tây Ninh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4648,7 +4648,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q130391	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Thạnh Bình"
-LAST	Lvi	"Xã Thạnh Bình"
+LAST	Lvi	"Thạnh Bình"
 LAST	Den	"former commune in Tân Biên district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Tân Biên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4656,7 +4656,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q7682015	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Châu"
-LAST	Lvi	"Thị trấn Tân Châu"
+LAST	Lvi	"Tân Châu"
 LAST	Den	"former township in Tân Châu district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Tân Châu, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4664,7 +4664,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q3711512	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Truông Mít"
-LAST	Lvi	"Xã Truông Mít"
+LAST	Lvi	"Truông Mít"
 LAST	Den	"former commune in Dương Minh Châu district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Dương Minh Châu, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4672,7 +4672,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q5315880	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Châu Thành"
-LAST	Lvi	"Thị trấn Châu Thành"
+LAST	Lvi	"Châu Thành"
 LAST	Den	"former township in Châu Thành district, Tây Ninh province, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Châu Thành, tỉnh Tây Ninh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4680,7 +4680,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q5088023	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Hảo Đước"
-LAST	Lvi	"Xã Hảo Đước"
+LAST	Lvi	"Hảo Đước"
 LAST	Den	"former commune in Châu Thành district, Tây Ninh province, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Châu Thành, tỉnh Tây Ninh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4688,7 +4688,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q5088023	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Phước Vinh"
-LAST	Lvi	"Xã Phước Vinh"
+LAST	Lvi	"Phước Vinh"
 LAST	Den	"former commune in Châu Thành district, Tây Ninh province, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Châu Thành, tỉnh Tây Ninh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4696,7 +4696,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q5088023	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Hòa Hội"
-LAST	Lvi	"Xã Hòa Hội"
+LAST	Lvi	"Hòa Hội"
 LAST	Den	"former commune in Châu Thành district, Tây Ninh province, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Châu Thành, tỉnh Tây Ninh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4704,7 +4704,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q5088023	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Thanh Điền"
-LAST	Lvi	"Xã Thanh Điền"
+LAST	Lvi	"Thanh Điền"
 LAST	Den	"former commune in Châu Thành district, Tây Ninh province, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Châu Thành, tỉnh Tây Ninh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4712,7 +4712,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q5088023	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Ninh Điền"
-LAST	Lvi	"Xã Ninh Điền"
+LAST	Lvi	"Ninh Điền"
 LAST	Den	"former commune in Châu Thành district, Tây Ninh province, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Châu Thành, tỉnh Tây Ninh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4720,7 +4720,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q5088023	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Long Hoa"
-LAST	Lvi	"Phường Long Hoa"
+LAST	Lvi	"Long Hoa"
 LAST	Den	"former ward in Hòa Thành town, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thị xã Hòa Thành, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4728,7 +4728,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q5874252	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Gò Dầu"
-LAST	Lvi	"Thị trấn Gò Dầu"
+LAST	Lvi	"Gò Dầu"
 LAST	Den	"former township in Gò Dầu district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Gò Dầu, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4736,7 +4736,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q5574744	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Thạnh Đức"
-LAST	Lvi	"Xã Thạnh Đức"
+LAST	Lvi	"Thạnh Đức"
 LAST	Den	"former commune in Gò Dầu district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Gò Dầu, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4744,7 +4744,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q5574744	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Phước Thạnh"
-LAST	Lvi	"Xã Phước Thạnh"
+LAST	Lvi	"Phước Thạnh"
 LAST	Den	"former commune in Gò Dầu district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Gò Dầu, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4752,7 +4752,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q5574744	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Khánh Hậu"
-LAST	Lvi	"Phường Khánh Hậu"
+LAST	Lvi	"Khánh Hậu"
 LAST	Den	"former ward in Tân An city, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành phố Tân An, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4760,7 +4760,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q25897	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Hưng"
-LAST	Lvi	"Thị trấn Tân Hưng"
+LAST	Lvi	"Tân Hưng"
 LAST	Den	"former township in Tân Hưng district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Tân Hưng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4768,7 +4768,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q7682061	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Hưng Điền"
-LAST	Lvi	"Xã Hưng Điền"
+LAST	Lvi	"Hưng Điền"
 LAST	Den	"former commune in Tân Hưng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Tân Hưng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4776,7 +4776,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q7682061	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Vĩnh Thạnh"
-LAST	Lvi	"Xã Vĩnh Thạnh"
+LAST	Lvi	"Vĩnh Thạnh"
 LAST	Den	"former commune in Tân Hưng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Tân Hưng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4784,7 +4784,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q7682061	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Vĩnh Hưng"
-LAST	Lvi	"Thị trấn Vĩnh Hưng"
+LAST	Lvi	"Vĩnh Hưng"
 LAST	Den	"former township in Vĩnh Hưng district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Vĩnh Hưng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4792,7 +4792,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q7932532	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Khánh Hưng"
-LAST	Lvi	"Xã Khánh Hưng"
+LAST	Lvi	"Khánh Hưng"
 LAST	Den	"former commune in Vĩnh Hưng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Vĩnh Hưng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4800,7 +4800,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q7932532	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Vĩnh Bình"
-LAST	Lvi	"Xã Vĩnh Bình"
+LAST	Lvi	"Vĩnh Bình"
 LAST	Den	"former commune in Vĩnh Hưng district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Vĩnh Hưng, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4808,7 +4808,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q7932532	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"1"
-LAST	Lvi	"Phường 1"
+LAST	Lvi	"1"
 LAST	Den	"former ward in Kiến Tường town, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thị xã Kiến Tường, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4816,7 +4816,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q10780333	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"2"
-LAST	Lvi	"Phường 2"
+LAST	Lvi	"2"
 LAST	Den	"former ward in Kiến Tường town, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thị xã Kiến Tường, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4824,7 +4824,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q10780333	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Bình Hiệp"
-LAST	Lvi	"Xã Bình Hiệp"
+LAST	Lvi	"Bình Hiệp"
 LAST	Den	"former commune in Kiến Tường town, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thị xã Kiến Tường, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4832,7 +4832,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q10780333	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Bình Tân"
-LAST	Lvi	"Xã Bình Tân"
+LAST	Lvi	"Bình Tân"
 LAST	Den	"former commune in Kiến Tường town, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thị xã Kiến Tường, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4840,7 +4840,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q10780333	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Tuyên Thạnh"
-LAST	Lvi	"Xã Tuyên Thạnh"
+LAST	Lvi	"Tuyên Thạnh"
 LAST	Den	"former commune in Kiến Tường town, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thị xã Kiến Tường, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4848,7 +4848,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q10780333	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"3"
-LAST	Lvi	"Phường 3"
+LAST	Lvi	"3"
 LAST	Den	"former ward in Kiến Tường town, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thị xã Kiến Tường, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4856,7 +4856,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q10780333	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Thạnh"
-LAST	Lvi	"Thị trấn Tân Thạnh"
+LAST	Lvi	"Tân Thạnh"
 LAST	Den	"former township in Tân Thạnh district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Tân Thạnh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4864,7 +4864,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q7682141	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Nhơn Ninh"
-LAST	Lvi	"Xã Nhơn Ninh"
+LAST	Lvi	"Nhơn Ninh"
 LAST	Den	"former commune in Tân Thạnh district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Tân Thạnh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4872,7 +4872,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q7682141	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Thạnh Hóa"
-LAST	Lvi	"Thị trấn Thạnh Hóa"
+LAST	Lvi	"Thạnh Hóa"
 LAST	Den	"former township in Thạnh Hóa district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Thạnh Hóa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4880,7 +4880,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q7710339	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Hiệp"
-LAST	Lvi	"Xã Tân Hiệp"
+LAST	Lvi	"Tân Hiệp"
 LAST	Den	"former commune in Thạnh Hóa district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thạnh Hóa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4888,7 +4888,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q7710339	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Thuận Bình"
-LAST	Lvi	"Xã Thuận Bình"
+LAST	Lvi	"Thuận Bình"
 LAST	Den	"former commune in Thạnh Hóa district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thạnh Hóa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4896,7 +4896,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q7710339	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Thạnh Phước"
-LAST	Lvi	"Xã Thạnh Phước"
+LAST	Lvi	"Thạnh Phước"
 LAST	Den	"former commune in Thạnh Hóa district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thạnh Hóa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4904,7 +4904,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q7710339	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Thạnh Phú"
-LAST	Lvi	"Xã Thạnh Phú"
+LAST	Lvi	"Thạnh Phú"
 LAST	Den	"former commune in Thạnh Hóa district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thạnh Hóa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4912,7 +4912,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q7710339	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Tây"
-LAST	Lvi	"Xã Tân Tây"
+LAST	Lvi	"Tân Tây"
 LAST	Den	"former commune in Thạnh Hóa district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thạnh Hóa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4920,7 +4920,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q7710339	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Đông Thành"
-LAST	Lvi	"Thị trấn Đông Thành"
+LAST	Lvi	"Đông Thành"
 LAST	Den	"former township in Đức Huệ district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Đức Huệ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4928,7 +4928,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q5311200	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Bình Thành"
-LAST	Lvi	"Xã Bình Thành"
+LAST	Lvi	"Bình Thành"
 LAST	Den	"former commune in Đức Huệ district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Đức Huệ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4936,7 +4936,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q5311200	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Mỹ Bình"
-LAST	Lvi	"Xã Mỹ Bình"
+LAST	Lvi	"Mỹ Bình"
 LAST	Den	"former commune in Đức Huệ district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Đức Huệ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4944,7 +4944,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q5311200	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Hậu Nghĩa"
-LAST	Lvi	"Thị trấn Hậu Nghĩa"
+LAST	Lvi	"Hậu Nghĩa"
 LAST	Den	"former township in Đức Hòa district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Đức Hòa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4952,7 +4952,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q5311201	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Đức Hòa"
-LAST	Lvi	"Thị trấn Đức Hòa"
+LAST	Lvi	"Đức Hòa"
 LAST	Den	"former township in Đức Hòa district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Đức Hòa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4960,7 +4960,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q5311201	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Hiệp Hòa"
-LAST	Lvi	"Xã Hiệp Hòa"
+LAST	Lvi	"Hiệp Hòa"
 LAST	Den	"former commune in Đức Hòa district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Đức Hòa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4968,7 +4968,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q5311201	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Phú"
-LAST	Lvi	"Xã Tân Phú"
+LAST	Lvi	"Tân Phú"
 LAST	Den	"former commune in Đức Hòa district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Đức Hòa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4976,7 +4976,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q5311201	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Bến Lức"
-LAST	Lvi	"Thị trấn Bến Lức"
+LAST	Lvi	"Bến Lức"
 LAST	Den	"former township in Bến Lức district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Bến Lức, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4984,7 +4984,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q4886082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Thạnh Lợi"
-LAST	Lvi	"Xã Thạnh Lợi"
+LAST	Lvi	"Thạnh Lợi"
 LAST	Den	"former commune in Bến Lức district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bến Lức, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -4992,7 +4992,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q4886082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Thạnh Hòa"
-LAST	Lvi	"Xã Thạnh Hòa"
+LAST	Lvi	"Thạnh Hòa"
 LAST	Den	"former commune in Bến Lức district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bến Lức, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -5000,7 +5000,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q4886082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Lương Hòa"
-LAST	Lvi	"Xã Lương Hòa"
+LAST	Lvi	"Lương Hòa"
 LAST	Den	"former commune in Bến Lức district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bến Lức, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -5008,7 +5008,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q4886082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"An Thạnh"
-LAST	Lvi	"Xã An Thạnh"
+LAST	Lvi	"An Thạnh"
 LAST	Den	"former commune in Bến Lức district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bến Lức, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -5016,7 +5016,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q4886082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Bình Đức"
-LAST	Lvi	"Xã Bình Đức"
+LAST	Lvi	"Bình Đức"
 LAST	Den	"former commune in Bến Lức district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bến Lức, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -5024,7 +5024,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q4886082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Mỹ Yên"
-LAST	Lvi	"Xã Mỹ Yên"
+LAST	Lvi	"Mỹ Yên"
 LAST	Den	"former commune in Bến Lức district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bến Lức, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -5032,7 +5032,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q4886082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Thủ Thừa"
-LAST	Lvi	"Thị trấn Thủ Thừa"
+LAST	Lvi	"Thủ Thừa"
 LAST	Den	"former township in Thủ Thừa district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Thủ Thừa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -5040,7 +5040,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q7799958	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Mỹ Thạnh"
-LAST	Lvi	"Xã Mỹ Thạnh"
+LAST	Lvi	"Mỹ Thạnh"
 LAST	Den	"former commune in Thủ Thừa district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thủ Thừa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -5048,7 +5048,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q7799958	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Mỹ An"
-LAST	Lvi	"Xã Mỹ An"
+LAST	Lvi	"Mỹ An"
 LAST	Den	"former commune in Thủ Thừa district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thủ Thừa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -5056,7 +5056,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q7799958	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Long"
-LAST	Lvi	"Xã Tân Long"
+LAST	Lvi	"Tân Long"
 LAST	Den	"former commune in Thủ Thừa district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thủ Thừa, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -5064,7 +5064,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q7799958	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Trụ"
-LAST	Lvi	"Thị trấn Tân Trụ"
+LAST	Lvi	"Tân Trụ"
 LAST	Den	"former township in Tân Trụ district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Tân Trụ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -5072,7 +5072,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q7682146	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Bình"
-LAST	Lvi	"Xã Tân Bình"
+LAST	Lvi	"Tân Bình"
 LAST	Den	"former commune in Tân Trụ district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Tân Trụ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -5080,7 +5080,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q7682146	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Cần Đước"
-LAST	Lvi	"Thị trấn Cần Đước"
+LAST	Lvi	"Cần Đước"
 LAST	Den	"former township in Cần Đước district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Cần Đước, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -5088,7 +5088,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q5029039	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Long Cang"
-LAST	Lvi	"Xã Long Cang"
+LAST	Lvi	"Long Cang"
 LAST	Den	"former commune in Cần Đước district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Cần Đước, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -5096,7 +5096,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q5029039	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Mỹ Lệ"
-LAST	Lvi	"Xã Mỹ Lệ"
+LAST	Lvi	"Mỹ Lệ"
 LAST	Den	"former commune in Cần Đước district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Cần Đước, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
@@ -5104,7 +5104,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.
 LAST	P131	Q5029039	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1682-nq.signed.pdf"
 CREATE
 LAST	Len	"Lộc Thuận"
-LAST	Lvi	"Xã Lộc Thuận"
+LAST	Lvi	"Lộc Thuận"
 LAST	Den	"former commune in Bình Đại district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bình Đại, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5112,7 +5112,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q3710726	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Thạnh Trị"
-LAST	Lvi	"Xã Thạnh Trị"
+LAST	Lvi	"Thạnh Trị"
 LAST	Den	"former commune in Bình Đại district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bình Đại, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5120,7 +5120,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q3710726	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Thạnh Phước"
-LAST	Lvi	"Xã Thạnh Phước"
+LAST	Lvi	"Thạnh Phước"
 LAST	Den	"former commune in Bình Đại district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bình Đại, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5128,7 +5128,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q3710726	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Thới Thuận"
-LAST	Lvi	"Xã Thới Thuận"
+LAST	Lvi	"Thới Thuận"
 LAST	Den	"former commune in Bình Đại district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Bình Đại, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5136,7 +5136,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q3710726	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Ba Tri"
-LAST	Lvi	"Thị trấn Ba Tri"
+LAST	Lvi	"Ba Tri"
 LAST	Den	"former township in Ba Tri district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Ba Tri, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5144,7 +5144,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q3710671	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Xuân"
-LAST	Lvi	"Xã Tân Xuân"
+LAST	Lvi	"Tân Xuân"
 LAST	Den	"former commune in Ba Tri district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ba Tri, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5152,7 +5152,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q3710671	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Mỹ Chánh"
-LAST	Lvi	"Xã Mỹ Chánh"
+LAST	Lvi	"Mỹ Chánh"
 LAST	Den	"former commune in Ba Tri district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ba Tri, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5160,7 +5160,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q3710671	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Bảo Thạnh"
-LAST	Lvi	"Xã Bảo Thạnh"
+LAST	Lvi	"Bảo Thạnh"
 LAST	Den	"former commune in Ba Tri district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ba Tri, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5168,7 +5168,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q3710671	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Phước Ngãi"
-LAST	Lvi	"Xã Phước Ngãi"
+LAST	Lvi	"Phước Ngãi"
 LAST	Den	"former commune in Ba Tri district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ba Tri, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5176,7 +5176,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q3710671	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"An Ngãi Trung"
-LAST	Lvi	"Xã An Ngãi Trung"
+LAST	Lvi	"An Ngãi Trung"
 LAST	Den	"former commune in Ba Tri district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ba Tri, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5184,7 +5184,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q3710671	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"An Hiệp"
-LAST	Lvi	"Xã An Hiệp"
+LAST	Lvi	"An Hiệp"
 LAST	Den	"former commune in Ba Tri district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ba Tri, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5192,7 +5192,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q3710671	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Thủy"
-LAST	Lvi	"Xã Tân Thủy"
+LAST	Lvi	"Tân Thủy"
 LAST	Den	"former commune in Ba Tri district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ba Tri, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5200,7 +5200,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q3710671	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Thạnh Phú"
-LAST	Lvi	"Thị trấn Thạnh Phú"
+LAST	Lvi	"Thạnh Phú"
 LAST	Den	"former township in Thạnh Phú district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Thạnh Phú, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5208,7 +5208,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q3711530	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Đại Điền"
-LAST	Lvi	"Xã Đại Điền"
+LAST	Lvi	"Đại Điền"
 LAST	Den	"former commune in Thạnh Phú district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thạnh Phú, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5216,7 +5216,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q3711530	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Quới Điền"
-LAST	Lvi	"Xã Quới Điền"
+LAST	Lvi	"Quới Điền"
 LAST	Den	"former commune in Thạnh Phú district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thạnh Phú, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5224,7 +5224,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q3711530	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"An Quy"
-LAST	Lvi	"Xã An Quy"
+LAST	Lvi	"An Quy"
 LAST	Den	"former commune in Thạnh Phú district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thạnh Phú, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5232,7 +5232,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q3711530	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Thạnh Hải"
-LAST	Lvi	"Xã Thạnh Hải"
+LAST	Lvi	"Thạnh Hải"
 LAST	Den	"former commune in Thạnh Phú district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thạnh Phú, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5240,7 +5240,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q3711530	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Thạnh Phong"
-LAST	Lvi	"Xã Thạnh Phong"
+LAST	Lvi	"Thạnh Phong"
 LAST	Den	"former commune in Thạnh Phú district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thạnh Phú, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5248,7 +5248,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q3711530	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Long Đức"
-LAST	Lvi	"Xã Long Đức"
+LAST	Lvi	"Long Đức"
 LAST	Den	"former commune in Trà Vinh city, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thành phố Trà Vinh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5256,7 +5256,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q36136	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Càng Long"
-LAST	Lvi	"Thị trấn Càng Long"
+LAST	Lvi	"Càng Long"
 LAST	Den	"former township in Càng Long district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Càng Long, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5264,7 +5264,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q5032333	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"An Trường"
-LAST	Lvi	"Xã An Trường"
+LAST	Lvi	"An Trường"
 LAST	Den	"former commune in Càng Long district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Càng Long, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5272,7 +5272,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q5032333	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân An"
-LAST	Lvi	"Xã Tân An"
+LAST	Lvi	"Tân An"
 LAST	Den	"former commune in Càng Long district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Càng Long, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5280,7 +5280,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q5032333	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Bình Phú"
-LAST	Lvi	"Xã Bình Phú"
+LAST	Lvi	"Bình Phú"
 LAST	Den	"former commune in Càng Long district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Càng Long, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5288,7 +5288,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q5032333	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Nhị Long"
-LAST	Lvi	"Xã Nhị Long"
+LAST	Lvi	"Nhị Long"
 LAST	Den	"former commune in Càng Long district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Càng Long, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5296,7 +5296,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q5032333	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Cầu Kè"
-LAST	Lvi	"Thị trấn Cầu Kè"
+LAST	Lvi	"Cầu Kè"
 LAST	Den	"former township in Cầu Kè district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Cầu Kè, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5304,7 +5304,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q5054229	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"An Phú Tân"
-LAST	Lvi	"Xã An Phú Tân"
+LAST	Lvi	"An Phú Tân"
 LAST	Den	"former commune in Cầu Kè district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Cầu Kè, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5312,7 +5312,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q5054229	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Phong Thạnh"
-LAST	Lvi	"Xã Phong Thạnh"
+LAST	Lvi	"Phong Thạnh"
 LAST	Den	"former commune in Cầu Kè district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Cầu Kè, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5320,7 +5320,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q5054229	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Tam Ngãi"
-LAST	Lvi	"Xã Tam Ngãi"
+LAST	Lvi	"Tam Ngãi"
 LAST	Den	"former commune in Cầu Kè district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Cầu Kè, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5328,7 +5328,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q5054229	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Thạnh Phú"
-LAST	Lvi	"Xã Thạnh Phú"
+LAST	Lvi	"Thạnh Phú"
 LAST	Den	"former commune in Cầu Kè district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Cầu Kè, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5336,7 +5336,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q5054229	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Tiểu Cần"
-LAST	Lvi	"Thị trấn Tiểu Cần"
+LAST	Lvi	"Tiểu Cần"
 LAST	Den	"former township in Tiểu Cần district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Tiểu Cần, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5344,7 +5344,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q7801156	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Hùng Hòa"
-LAST	Lvi	"Xã Hùng Hòa"
+LAST	Lvi	"Hùng Hòa"
 LAST	Den	"former commune in Tiểu Cần district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Tiểu Cần, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5352,7 +5352,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q7801156	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Tập Ngãi"
-LAST	Lvi	"Xã Tập Ngãi"
+LAST	Lvi	"Tập Ngãi"
 LAST	Den	"former commune in Tiểu Cần district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Tiểu Cần, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5360,7 +5360,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q7801156	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Hòa"
-LAST	Lvi	"Xã Tân Hòa"
+LAST	Lvi	"Tân Hòa"
 LAST	Den	"former commune in Tiểu Cần district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Tiểu Cần, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5368,7 +5368,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q7801156	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Châu Thành"
-LAST	Lvi	"Thị trấn Châu Thành"
+LAST	Lvi	"Châu Thành"
 LAST	Den	"former township in Châu Thành district, Trà Vinh province, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Châu Thành, tỉnh Trà Vinh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5376,7 +5376,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q5088024	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Song Lộc"
-LAST	Lvi	"Xã Song Lộc"
+LAST	Lvi	"Song Lộc"
 LAST	Den	"former commune in Châu Thành district, Trà Vinh province, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Châu Thành, tỉnh Trà Vinh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5384,7 +5384,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q5088024	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Nguyệt Hóa"
-LAST	Lvi	"Xã Nguyệt Hóa"
+LAST	Lvi	"Nguyệt Hóa"
 LAST	Den	"former commune in Châu Thành district, Trà Vinh province, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Châu Thành, tỉnh Trà Vinh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5392,7 +5392,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q5088024	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Hòa Thuận"
-LAST	Lvi	"Xã Hòa Thuận"
+LAST	Lvi	"Hòa Thuận"
 LAST	Den	"former commune in Châu Thành district, Trà Vinh province, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Châu Thành, tỉnh Trà Vinh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5400,7 +5400,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q5088024	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Hưng Mỹ"
-LAST	Lvi	"Xã Hưng Mỹ"
+LAST	Lvi	"Hưng Mỹ"
 LAST	Den	"former commune in Châu Thành district, Trà Vinh province, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Châu Thành, tỉnh Trà Vinh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5408,7 +5408,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q5088024	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Hòa Minh"
-LAST	Lvi	"Xã Hòa Minh"
+LAST	Lvi	"Hòa Minh"
 LAST	Den	"former commune in Châu Thành district, Trà Vinh province, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Châu Thành, tỉnh Trà Vinh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5416,7 +5416,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q5088024	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Long Hòa"
-LAST	Lvi	"Xã Long Hòa"
+LAST	Lvi	"Long Hòa"
 LAST	Den	"former commune in Châu Thành district, Trà Vinh province, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Châu Thành, tỉnh Trà Vinh, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5424,7 +5424,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q5088024	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Cầu Ngang"
-LAST	Lvi	"Thị trấn Cầu Ngang"
+LAST	Lvi	"Cầu Ngang"
 LAST	Den	"former township in Cầu Ngang district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Cầu Ngang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5432,7 +5432,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q5054232	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Mỹ Long"
-LAST	Lvi	"Thị trấn Mỹ Long"
+LAST	Lvi	"Mỹ Long"
 LAST	Den	"former township in Cầu Ngang district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Cầu Ngang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5440,7 +5440,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q5054232	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Vĩnh Kim"
-LAST	Lvi	"Xã Vĩnh Kim"
+LAST	Lvi	"Vĩnh Kim"
 LAST	Den	"former commune in Cầu Ngang district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Cầu Ngang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5448,7 +5448,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q5054232	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Nhị Trường"
-LAST	Lvi	"Xã Nhị Trường"
+LAST	Lvi	"Nhị Trường"
 LAST	Den	"former commune in Cầu Ngang district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Cầu Ngang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5456,7 +5456,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q5054232	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Hiệp Mỹ Tây"
-LAST	Lvi	"Xã Hiệp Mỹ Tây"
+LAST	Lvi	"Hiệp Mỹ Tây"
 LAST	Den	"former commune in Cầu Ngang district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Cầu Ngang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5464,7 +5464,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q5054232	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Trà Cú"
-LAST	Lvi	"Thị trấn Trà Cú"
+LAST	Lvi	"Trà Cú"
 LAST	Den	"former township in Trà Cú district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Trà Cú, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5472,7 +5472,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q7831038	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Tập Sơn"
-LAST	Lvi	"Xã Tập Sơn"
+LAST	Lvi	"Tập Sơn"
 LAST	Den	"former commune in Trà Cú district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Trà Cú, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5480,7 +5480,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q7831038	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Lưu Nghiệp Anh"
-LAST	Lvi	"Xã Lưu Nghiệp Anh"
+LAST	Lvi	"Lưu Nghiệp Anh"
 LAST	Den	"former commune in Trà Cú district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Trà Cú, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5488,7 +5488,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q7831038	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Đại An"
-LAST	Lvi	"Xã Đại An"
+LAST	Lvi	"Đại An"
 LAST	Den	"former commune in Trà Cú district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Trà Cú, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5496,7 +5496,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q7831038	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Long Hiệp"
-LAST	Lvi	"Xã Long Hiệp"
+LAST	Lvi	"Long Hiệp"
 LAST	Den	"former commune in Trà Cú district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Trà Cú, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5504,7 +5504,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q7831038	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Long Thành"
-LAST	Lvi	"Thị trấn Long Thành"
+LAST	Lvi	"Long Thành"
 LAST	Den	"former township in Duyên Hải district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Duyên Hải, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5512,7 +5512,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q5317676	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Long Hữu"
-LAST	Lvi	"Xã Long Hữu"
+LAST	Lvi	"Long Hữu"
 LAST	Den	"former commune in Duyên Hải town, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thị xã Duyên Hải, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5520,7 +5520,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q140626624	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Trường Long Hòa"
-LAST	Lvi	"Xã Trường Long Hòa"
+LAST	Lvi	"Trường Long Hòa"
 LAST	Den	"former commune in Duyên Hải town, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thị xã Duyên Hải, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5528,7 +5528,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q140626624	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Ngũ Lạc"
-LAST	Lvi	"Xã Ngũ Lạc"
+LAST	Lvi	"Ngũ Lạc"
 LAST	Den	"former commune in Duyên Hải district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Duyên Hải, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5536,7 +5536,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q5317676	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Long Vĩnh"
-LAST	Lvi	"Xã Long Vĩnh"
+LAST	Lvi	"Long Vĩnh"
 LAST	Den	"former commune in Duyên Hải district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Duyên Hải, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5544,7 +5544,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q5317676	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Đông Hải"
-LAST	Lvi	"Xã Đông Hải"
+LAST	Lvi	"Đông Hải"
 LAST	Den	"former commune in Duyên Hải district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Duyên Hải, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5552,7 +5552,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q5317676	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Ngãi"
-LAST	Lvi	"Phường Tân Ngãi"
+LAST	Lvi	"Tân Ngãi"
 LAST	Den	"former ward in Vĩnh Long city, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thành phố Vĩnh Long, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5560,7 +5560,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q34789	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"An Bình"
-LAST	Lvi	"Xã An Bình"
+LAST	Lvi	"An Bình"
 LAST	Den	"former commune in Long Hồ district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Long Hồ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5568,7 +5568,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q3711115	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Thanh Đức"
-LAST	Lvi	"Xã Thanh Đức"
+LAST	Lvi	"Thanh Đức"
 LAST	Den	"former commune in Long Hồ district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Long Hồ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5576,7 +5576,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q3711115	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Hạnh"
-LAST	Lvi	"Xã Tân Hạnh"
+LAST	Lvi	"Tân Hạnh"
 LAST	Den	"former commune in Long Hồ district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Long Hồ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5584,7 +5584,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q3711115	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Phước Hậu"
-LAST	Lvi	"Xã Phước Hậu"
+LAST	Lvi	"Phước Hậu"
 LAST	Den	"former commune in Long Hồ district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Long Hồ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5592,7 +5592,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q3711115	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Long Hồ"
-LAST	Lvi	"Thị trấn Long Hồ"
+LAST	Lvi	"Long Hồ"
 LAST	Den	"former township in Long Hồ district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Long Hồ, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5600,7 +5600,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q3711115	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Nhơn Phú"
-LAST	Lvi	"Xã Nhơn Phú"
+LAST	Lvi	"Nhơn Phú"
 LAST	Den	"former commune in Mang Thít district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Mang Thít, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5608,7 +5608,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q6748576	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Cái Nhum"
-LAST	Lvi	"Thị trấn Cái Nhum"
+LAST	Lvi	"Cái Nhum"
 LAST	Den	"former township in Mang Thít district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Mang Thít, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5616,7 +5616,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q6748576	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Bình Phước"
-LAST	Lvi	"Xã Bình Phước"
+LAST	Lvi	"Bình Phước"
 LAST	Den	"former commune in Mang Thít district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Mang Thít, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5624,7 +5624,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q6748576	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Long Hội"
-LAST	Lvi	"Xã Tân Long Hội"
+LAST	Lvi	"Tân Long Hội"
 LAST	Den	"former commune in Mang Thít district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Mang Thít, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5632,7 +5632,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q6748576	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Quới Thiện"
-LAST	Lvi	"Xã Quới Thiện"
+LAST	Lvi	"Quới Thiện"
 LAST	Den	"former commune in Vũng Liêm district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Vũng Liêm, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5640,7 +5640,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q7943654	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Quới An"
-LAST	Lvi	"Xã Quới An"
+LAST	Lvi	"Quới An"
 LAST	Den	"former commune in Vũng Liêm district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Vũng Liêm, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5648,7 +5648,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q7943654	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Hiếu Phụng"
-LAST	Lvi	"Xã Hiếu Phụng"
+LAST	Lvi	"Hiếu Phụng"
 LAST	Den	"former commune in Vũng Liêm district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Vũng Liêm, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5656,7 +5656,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q7943654	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Trung Ngãi"
-LAST	Lvi	"Xã Trung Ngãi"
+LAST	Lvi	"Trung Ngãi"
 LAST	Den	"former commune in Vũng Liêm district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Vũng Liêm, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5664,7 +5664,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q7943654	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Vĩnh Xuân"
-LAST	Lvi	"Xã Vĩnh Xuân"
+LAST	Lvi	"Vĩnh Xuân"
 LAST	Den	"former commune in Trà Ôn district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Trà Ôn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
@@ -5672,7 +5672,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.
 LAST	P131	Q10828559	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1687-nq.signed.pdf"
 CREATE
 LAST	Len	"Chợ Vàm"
-LAST	Lvi	"Thị trấn Chợ Vàm"
+LAST	Lvi	"Chợ Vàm"
 LAST	Den	"former township in Phú Tân district, An Giang province, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Phú Tân, tỉnh An Giang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.signed.pdf"
@@ -5680,7 +5680,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.
 LAST	P131	Q1319796	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.signed.pdf"
 CREATE
 LAST	Len	"Phú Lâm"
-LAST	Lvi	"Xã Phú Lâm"
+LAST	Lvi	"Phú Lâm"
 LAST	Den	"former commune in Phú Tân district, An Giang province, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Phú Tân, tỉnh An Giang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.signed.pdf"
@@ -5688,7 +5688,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.
 LAST	P131	Q1319796	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.signed.pdf"
 CREATE
 LAST	Len	"Hoà Lạc"
-LAST	Lvi	"Xã Hoà Lạc"
+LAST	Lvi	"Hoà Lạc"
 LAST	Den	"former commune in Phú Tân district, An Giang province, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Phú Tân, tỉnh An Giang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.signed.pdf"
@@ -5696,7 +5696,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.
 LAST	P131	Q1319796	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.signed.pdf"
 CREATE
 LAST	Len	"Phú An"
-LAST	Lvi	"Xã Phú An"
+LAST	Lvi	"Phú An"
 LAST	Den	"former commune in Phú Tân district, An Giang province, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Phú Tân, tỉnh An Giang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.signed.pdf"
@@ -5704,7 +5704,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.
 LAST	P131	Q1319796	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.signed.pdf"
 CREATE
 LAST	Len	"Bình Thạnh Đông"
-LAST	Lvi	"Xã Bình Thạnh Đông"
+LAST	Lvi	"Bình Thạnh Đông"
 LAST	Den	"former commune in Phú Tân district, An Giang province, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Phú Tân, tỉnh An Giang, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.signed.pdf"
@@ -5712,7 +5712,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.
 LAST	P131	Q1319796	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.signed.pdf"
 CREATE
 LAST	Len	"Cái Dầu"
-LAST	Lvi	"Thị trấn Cái Dầu"
+LAST	Lvi	"Cái Dầu"
 LAST	Den	"former township in Châu Phú district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Châu Phú, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.signed.pdf"
@@ -5720,7 +5720,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.
 LAST	P131	Q2232482	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.signed.pdf"
 CREATE
 LAST	Len	"Mỹ Đức"
-LAST	Lvi	"Xã Mỹ Đức"
+LAST	Lvi	"Mỹ Đức"
 LAST	Den	"former commune in Châu Phú district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Châu Phú, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.signed.pdf"
@@ -5728,7 +5728,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.
 LAST	P131	Q2232482	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.signed.pdf"
 CREATE
 LAST	Len	"Vĩnh Thạnh Trung"
-LAST	Lvi	"Thị trấn Vĩnh Thạnh Trung"
+LAST	Lvi	"Vĩnh Thạnh Trung"
 LAST	Den	"former township in Châu Phú district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Châu Phú, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.signed.pdf"
@@ -5736,7 +5736,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.
 LAST	P131	Q2232482	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.signed.pdf"
 CREATE
 LAST	Len	"Thạnh Mỹ Tây"
-LAST	Lvi	"Xã Thạnh Mỹ Tây"
+LAST	Lvi	"Thạnh Mỹ Tây"
 LAST	Den	"former commune in Châu Phú district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Châu Phú, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.signed.pdf"
@@ -5744,7 +5744,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.
 LAST	P131	Q2232482	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.signed.pdf"
 CREATE
 LAST	Len	"Bình Mỹ"
-LAST	Lvi	"Xã Bình Mỹ"
+LAST	Lvi	"Bình Mỹ"
 LAST	Den	"former commune in Châu Phú district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Châu Phú, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.signed.pdf"
@@ -5752,7 +5752,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.
 LAST	P131	Q2232482	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.signed.pdf"
 CREATE
 LAST	Len	"Chi Lăng"
-LAST	Lvi	"Phường Chi Lăng"
+LAST	Lvi	"Chi Lăng"
 LAST	Den	"former ward in Tịnh Biên town, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thị xã Tịnh Biên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.signed.pdf"
@@ -5760,7 +5760,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.
 LAST	P131	Q1319807	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.signed.pdf"
 CREATE
 LAST	Len	"Thới Sơn"
-LAST	Lvi	"Phường Thới Sơn"
+LAST	Lvi	"Thới Sơn"
 LAST	Den	"former ward in Tịnh Biên town, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thị xã Tịnh Biên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.signed.pdf"
@@ -5768,7 +5768,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.
 LAST	P131	Q1319807	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.signed.pdf"
 CREATE
 LAST	Len	"Tịnh Biên"
-LAST	Lvi	"Phường Tịnh Biên"
+LAST	Lvi	"Tịnh Biên"
 LAST	Den	"former ward in Tịnh Biên town, Vietnam, dissolved 2025"
 LAST	Dvi	"phường cũ thuộc thị xã Tịnh Biên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q687188	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.signed.pdf"
@@ -5776,7 +5776,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.
 LAST	P131	Q1319807	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.signed.pdf"
 CREATE
 LAST	Len	"An Cư"
-LAST	Lvi	"Xã An Cư"
+LAST	Lvi	"An Cư"
 LAST	Den	"former commune in Tịnh Biên town, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc thị xã Tịnh Biên, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.signed.pdf"
@@ -5784,7 +5784,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.
 LAST	P131	Q1319807	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.signed.pdf"
 CREATE
 LAST	Len	"Tri Tôn"
-LAST	Lvi	"Thị trấn Tri Tôn"
+LAST	Lvi	"Tri Tôn"
 LAST	Den	"former township in Tri Tôn district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Tri Tôn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.signed.pdf"
@@ -5792,7 +5792,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.
 LAST	P131	Q1320227	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1654-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Phú"
-LAST	Lvi	"Xã Tân Phú"
+LAST	Lvi	"Tân Phú"
 LAST	Den	"former commune in Thới Bình district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thới Bình, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
@@ -5800,7 +5800,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.
 LAST	P131	Q7786654	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Lộc"
-LAST	Lvi	"Xã Tân Lộc"
+LAST	Lvi	"Tân Lộc"
 LAST	Den	"former commune in Thới Bình district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thới Bình, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
@@ -5808,7 +5808,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.
 LAST	P131	Q7786654	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
 CREATE
 LAST	Len	"Hồ Thị Kỷ"
-LAST	Lvi	"Xã Hồ Thị Kỷ"
+LAST	Lvi	"Hồ Thị Kỷ"
 LAST	Den	"former commune in Thới Bình district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Thới Bình, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
@@ -5816,7 +5816,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.
 LAST	P131	Q7786654	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
 CREATE
 LAST	Len	"Trần Văn Thời"
-LAST	Lvi	"Thị trấn Trần Văn Thời"
+LAST	Lvi	"Trần Văn Thời"
 LAST	Den	"former township in Trần Văn Thời district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Trần Văn Thời, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
@@ -5824,7 +5824,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.
 LAST	P131	Q7833342	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
 CREATE
 LAST	Len	"Sông Đốc"
-LAST	Lvi	"Thị trấn Sông Đốc"
+LAST	Lvi	"Sông Đốc"
 LAST	Den	"former township in Trần Văn Thời district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Trần Văn Thời, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
@@ -5832,7 +5832,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.
 LAST	P131	Q7833342	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
 CREATE
 LAST	Len	"Khánh Bình Tây"
-LAST	Lvi	"Xã Khánh Bình Tây"
+LAST	Lvi	"Khánh Bình Tây"
 LAST	Den	"former commune in Trần Văn Thời district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Trần Văn Thời, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
@@ -5840,7 +5840,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.
 LAST	P131	Q7833342	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
 CREATE
 LAST	Len	"Khánh Bình"
-LAST	Lvi	"Xã Khánh Bình"
+LAST	Lvi	"Khánh Bình"
 LAST	Den	"former commune in Trần Văn Thời district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Trần Văn Thời, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
@@ -5848,7 +5848,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.
 LAST	P131	Q7833342	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
 CREATE
 LAST	Len	"Cái Nước"
-LAST	Lvi	"Thị trấn Cái Nước"
+LAST	Lvi	"Cái Nước"
 LAST	Den	"former township in Cái Nước district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Cái Nước, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
@@ -5856,7 +5856,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.
 LAST	P131	Q5017491	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
 CREATE
 LAST	Len	"Lương Thế Trân"
-LAST	Lvi	"Xã Lương Thế Trân"
+LAST	Lvi	"Lương Thế Trân"
 LAST	Den	"former commune in Cái Nước district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Cái Nước, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
@@ -5864,7 +5864,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.
 LAST	P131	Q5017491	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Hưng"
-LAST	Lvi	"Xã Tân Hưng"
+LAST	Lvi	"Tân Hưng"
 LAST	Den	"former commune in Cái Nước district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Cái Nước, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
@@ -5872,7 +5872,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.
 LAST	P131	Q5017491	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
 CREATE
 LAST	Len	"Hưng Mỹ"
-LAST	Lvi	"Xã Hưng Mỹ"
+LAST	Lvi	"Hưng Mỹ"
 LAST	Den	"former commune in Cái Nước district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Cái Nước, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
@@ -5880,7 +5880,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.
 LAST	P131	Q5017491	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
 CREATE
 LAST	Len	"Đầm Dơi"
-LAST	Lvi	"Thị trấn Đầm Dơi"
+LAST	Lvi	"Đầm Dơi"
 LAST	Den	"former township in Đầm Dơi district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Đầm Dơi, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
@@ -5888,7 +5888,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.
 LAST	P131	Q3593897	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
 CREATE
 LAST	Len	"Tạ An Khương"
-LAST	Lvi	"Xã Tạ An Khương"
+LAST	Lvi	"Tạ An Khương"
 LAST	Den	"former commune in Đầm Dơi district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Đầm Dơi, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
@@ -5896,7 +5896,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.
 LAST	P131	Q3593897	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
 CREATE
 LAST	Len	"Trần Phán"
-LAST	Lvi	"Xã Trần Phán"
+LAST	Lvi	"Trần Phán"
 LAST	Den	"former commune in Đầm Dơi district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Đầm Dơi, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
@@ -5904,7 +5904,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.
 LAST	P131	Q3593897	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Thuận"
-LAST	Lvi	"Xã Tân Thuận"
+LAST	Lvi	"Tân Thuận"
 LAST	Den	"former commune in Đầm Dơi district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Đầm Dơi, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
@@ -5912,7 +5912,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.
 LAST	P131	Q3593897	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
 CREATE
 LAST	Len	"Tân Tiến"
-LAST	Lvi	"Xã Tân Tiến"
+LAST	Lvi	"Tân Tiến"
 LAST	Den	"former commune in Đầm Dơi district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Đầm Dơi, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
@@ -5920,7 +5920,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.
 LAST	P131	Q3593897	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
 CREATE
 LAST	Len	"Quách Phẩm"
-LAST	Lvi	"Xã Quách Phẩm"
+LAST	Lvi	"Quách Phẩm"
 LAST	Den	"former commune in Đầm Dơi district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Đầm Dơi, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
@@ -5928,7 +5928,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.
 LAST	P131	Q3593897	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
 CREATE
 LAST	Len	"Thanh Tùng"
-LAST	Lvi	"Xã Thanh Tùng"
+LAST	Lvi	"Thanh Tùng"
 LAST	Den	"former commune in Đầm Dơi district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Đầm Dơi, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
@@ -5936,7 +5936,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.
 LAST	P131	Q3593897	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
 CREATE
 LAST	Len	"Năm Căn"
-LAST	Lvi	"Thị trấn Năm Căn"
+LAST	Lvi	"Năm Căn"
 LAST	Den	"former township in Năm Căn district, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Năm Căn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
@@ -5944,7 +5944,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.
 LAST	P131	Q724711	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
 CREATE
 LAST	Len	"Tam Giang"
-LAST	Lvi	"Xã Tam Giang"
+LAST	Lvi	"Tam Giang"
 LAST	Den	"former commune in Năm Căn district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Năm Căn, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
@@ -5952,7 +5952,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.
 LAST	P131	Q724711	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
 CREATE
 LAST	Len	"Cái Đôi Vàm"
-LAST	Lvi	"Thị trấn Cái Đôi Vàm"
+LAST	Lvi	"Cái Đôi Vàm"
 LAST	Den	"former township in Phú Tân district, Cà Mau province, Vietnam, dissolved 2025"
 LAST	Dvi	"thị trấn cũ thuộc huyện Phú Tân, tỉnh Cà Mau, Việt Nam, giải thể năm 2025"
 LAST	P31	Q1070942	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
@@ -5960,7 +5960,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.
 LAST	P131	Q1001803	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
 CREATE
 LAST	Len	"Phú Mỹ"
-LAST	Lvi	"Xã Phú Mỹ"
+LAST	Lvi	"Phú Mỹ"
 LAST	Den	"former commune in Phú Tân district, Cà Mau province, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Phú Tân, tỉnh Cà Mau, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
@@ -5968,7 +5968,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.
 LAST	P131	Q1001803	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
 CREATE
 LAST	Len	"Phú Tân"
-LAST	Lvi	"Xã Phú Tân"
+LAST	Lvi	"Phú Tân"
 LAST	Den	"former commune in Phú Tân district, Cà Mau province, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Phú Tân, tỉnh Cà Mau, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
@@ -5976,7 +5976,7 @@ LAST	P17	Q881	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.
 LAST	P131	Q1001803	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
 CREATE
 LAST	Len	"Đất Mũi"
-LAST	Lvi	"Xã Đất Mũi"
+LAST	Lvi	"Đất Mũi"
 LAST	Den	"former commune in Ngọc Hiển district, Vietnam, dissolved 2025"
 LAST	Dvi	"xã cũ thuộc huyện Ngọc Hiển, Việt Nam, giải thể năm 2025"
 LAST	P31	Q2389082	S854	"https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/1655-nq.signed.pdf"
