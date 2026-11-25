@@ -542,7 +542,10 @@ def apply_creation_gaps(mapping_rows: list[dict], manifest: dict) -> list[dict]:
     return rows
 
 
-BATCH_OUTCOME_PATH = Path("data/ward-wikidata-predecessor-create-batch-296722.json")
+BATCH_OUTCOME_PATHS = [
+    Path("data/ward-wikidata-predecessor-create-batch-296722.json"),
+    Path("data/ward-wikidata-predecessor-create-batch-297090.json"),
+]
 
 
 def apply_batch_outcomes(
@@ -712,11 +715,14 @@ def main(argv: list[str] | None = None) -> None:
             CREATION_MANIFEST_PATH.read_text(encoding="utf-8")
         )
         rendered_mapping = apply_creation_gaps(rendered_mapping, creation_manifest)
-    if BATCH_OUTCOME_PATH.is_file():
-        batch_outcome = json.loads(
-            BATCH_OUTCOME_PATH.read_text(encoding="utf-8")
-        )
-        rendered_mapping = apply_batch_outcomes(rendered_mapping, batch_outcome)
+    for batch_path in BATCH_OUTCOME_PATHS:
+        if batch_path.is_file():
+            batch_outcome = json.loads(
+                batch_path.read_text(encoding="utf-8")
+            )
+            rendered_mapping = apply_batch_outcomes(
+                rendered_mapping, batch_outcome,
+            )
     if args.check:
         if not ARTIFACT_PATH.is_file() or (
             ARTIFACT_PATH.read_text(encoding="utf-8") != serialize_json(artifact)

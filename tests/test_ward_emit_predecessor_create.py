@@ -287,17 +287,17 @@ def test_committed_predecessor_creation_package_is_complete_and_unique():
         "data/ward-wikidata-predecessor-gap-review-progress.json"
     )
     assert REVIEW_PROGRESS_PATH.as_posix() in preflight["input_fingerprints"]
-    assert manifest["audit"]["items"] == 748
+    assert manifest["audit"]["items"] == 226
     assert manifest["audit"]["type_counts"] == {
-        "Phường": 74, "Thị trấn": 117, "Xã": 557,
+        "Phường": 16, "Thị trấn": 44, "Xã": 166,
     }
     assert len({
         (row["name_vi"], row["parent_qid"], row["type_qid"])
         for row in manifest["items"]
-    }) == 748
+    }) == 226
     assert preflight["audit"] == {
-        "items": 748,
-        "clear_items": 748,
+        "items": 226,
+        "clear_items": 226,
         "needs_review_items": 0,
         "fresh": True,
         "reviewed_queue_rows": 1394,
@@ -308,5 +308,5 @@ def test_committed_predecessor_creation_package_is_complete_and_unique():
         "upload_ready": True,
     }
     assert preflight["issues"] == []
-    assert statements.count("CREATE\n") == 748
+    assert statements.count("CREATE\n") == 226
     assert "\tP576\t" not in statements
