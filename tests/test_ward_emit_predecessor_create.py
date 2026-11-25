@@ -287,17 +287,12 @@ def test_committed_predecessor_creation_package_is_complete_and_unique():
         "data/ward-wikidata-predecessor-gap-review-progress.json"
     )
     assert REVIEW_PROGRESS_PATH.as_posix() in preflight["input_fingerprints"]
-    assert manifest["audit"]["items"] == 73
-    assert manifest["audit"]["type_counts"] == {
-        "Phường": 1, "Thị trấn": 14, "Xã": 58,
-    }
-    assert len({
-        (row["name_vi"], row["parent_qid"], row["type_qid"])
-        for row in manifest["items"]
-    }) == 73
+    # All predecessor creation gaps are now uploaded; manifest is empty.
+    assert manifest["audit"]["items"] == 0
+    assert manifest["audit"]["type_counts"] == {}
     assert preflight["audit"] == {
-        "items": 73,
-        "clear_items": 73,
+        "items": 0,
+        "clear_items": 0,
         "needs_review_items": 0,
         "fresh": True,
         "reviewed_queue_rows": 1394,
@@ -308,5 +303,5 @@ def test_committed_predecessor_creation_package_is_complete_and_unique():
         "upload_ready": True,
     }
     assert preflight["issues"] == []
-    assert statements.count("CREATE\n") == 73
+    assert statements.count("CREATE\n") == 0
     assert "\tP576\t" not in statements
