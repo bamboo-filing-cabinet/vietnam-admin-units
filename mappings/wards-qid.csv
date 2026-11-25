@@ -3364,37 +3364,37 @@ w-1170303-base,14365,Phường Trung Sơn,Phường,370,,2025-06-30,Q142279851,n
 w-1170305-base,14368,Phường Nam Sơn,Phường,370,,2025-06-30,Q10797134,existing,verified,Q10797134,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-1170307-base,14371,Xã Yên Sơn,Xã,370,,2025-06-30,Q32596055,existing,manual,Q10838137|Q32596055,predecessor review 2026-09-08.05: coordinate-backed exact-name commune item Q32596055 and GeoNames 8553331 identify the former Tam Điệp commune; Q10838137 remains assigned to the 2025 ward
 w-1170309-base,14374,Phường Yên Bình,Phường,370,,2025-06-30,Q10837969,existing,verified,Q10837969,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-1170311-base,14380,Xã Đông Sơn,Xã,370,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-1170311-base,14380,Xã Đông Sơn,Xã,370,,2025-06-30,Q142280092,new,manual,,predecessor CREATE batch #297096
 w-1170313-base,14377,Xã Quang Sơn,Xã,370,,2025-06-30,Q32297227,existing,manual,Q10810027|Q10810030|Q10810463|Q32297227,"predecessor review 2026-09-08.08: exact commune alias, Tam Điệp-area coordinates, and GeoNames 8553330 identify the former Quang Sơn commune"
 w-1170501-base,14383,Thị trấn Nho Quan,Thị trấn,372,,2024-12-31,,,deferred-historical,,
 w-1170503-base,14386,Xã Xích Thổ,Xã,372,,2025-06-30,Q10836717,existing,verified,Q10836717,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-1170505-base,14389,Xã Gia Lâm,Xã,372,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-1170505-base,14389,Xã Gia Lâm,Xã,372,,2025-06-30,Q142280093,new,manual,,predecessor CREATE batch #297096
 w-1170507-base,14395,Xã Thạch Bình,Xã,372,,2025-06-30,Q10826138,existing,verified,Q10826138,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-1170509-base,14392,Xã Gia Sơn,Xã,372,,2025-06-30,Q10761377,existing,verified,Q10761377,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-1170511-base,14398,Xã Gia Thủy,Xã,372,,2025-06-30,Q10761390,existing,verified,Q10761390,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-1170513-base,14401,Xã Gia Tường,Xã,372,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-1170513-base,14401,Xã Gia Tường,Xã,372,,2025-06-30,Q142280094,new,manual,,predecessor CREATE batch #297096
 w-1170515-base,14410,Xã Đức Long,Xã,372,,2025-06-30,Q10842370,existing,verified,Q10842370,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-1170517-base,14407,Xã Phú Sơn,Xã,372,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-1170517-base,14407,Xã Phú Sơn,Xã,372,,2025-06-30,Q142280096,new,manual,,predecessor CREATE batch #297096
 w-1170519-base,14413,Xã Lạc Vân,Xã,372,,2025-06-30,Q10788457,existing,verified,Q10788457,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-1170521-base,14416,Xã Đồng Phong,Xã,372,,2025-06-30,Q10841976,existing,verified,Q10841976,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-1170523-base,14422,Xã Lạng Phong,Xã,372,,2024-12-31,,,deferred-historical,,
-w-1170525-base,14404,Xã Cúc Phương,Xã,372,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-1170525-base,14404,Xã Cúc Phương,Xã,372,,2025-06-30,Q142280095,new,manual,,predecessor CREATE batch #297096
 w-1170527-base,14419,Xã Yên Quang,Xã,372,,2025-06-30,Q10838131,existing,verified,Q10838131,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-1170529-base,14428,Thị trấn Nho Quan,Thị trấn,372,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-1170529-base,14428,Thị trấn Nho Quan,Thị trấn,372,,2025-06-30,Q142280097,new,manual,,predecessor CREATE batch #297096
 w-1170531-base,14425,Xã Thượng Hòa,Xã,372,,2025-06-30,Q10826067,existing,verified,Q10826067,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-1170533-base,14431,Xã Văn Phương,Xã,372,,2025-06-30,Q10833415,existing,verified,Q10833415,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-1170535-base,14443,Xã Văn Phú,Xã,372,,2025-06-30,Q10833410,existing,verified,Q10833410,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-1170537-base,14434,Xã Thanh Sơn,Xã,372,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-1170537-base,14434,Xã Thanh Sơn,Xã,372,,2025-06-30,Q142280098,new,manual,,predecessor CREATE batch #297096
 w-1170539-base,14440,Xã Sơn Thành,Xã,372,,2024-12-31,,,deferred-historical,,
 w-1170541-base,14437,Xã Phúc Sơn,Xã,372,,2025-06-30,Q142255000,new,manual,,predecessor CREATE batch #296722
 w-1170543-base,14449,Xã Kỳ Phú,Xã,372,,2025-06-30,Q10783721,existing,verified,Q10783721,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-1170545-base,14446,Xã Phú Lộc,Xã,372,,2025-06-30,Q10805999,existing,verified,Q10805999,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-1170547-base,14452,Xã Quỳnh Lưu,Xã,372,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-1170547-base,14452,Xã Quỳnh Lưu,Xã,372,,2025-06-30,Q142280099,new,manual,,predecessor CREATE batch #297096
 w-1170549-base,14455,Xã Sơn Hà,Xã,372,,2024-12-31,,,deferred-historical,,
 w-1170551-base,14461,Xã Quảng Lạc,Xã,372,,2025-06-30,Q10810407,existing,verified,Q10810407,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-1170553-base,14458,Xã Phú Long,Xã,372,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
-w-1170701-base,14464,Thị trấn Thịnh Vượng,Thị trấn,373,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
-w-1170703-base,14470,Xã Gia Hưng,Xã,373,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-1170553-base,14458,Xã Phú Long,Xã,372,,2025-06-30,Q142280100,new,manual,,predecessor CREATE batch #297096
+w-1170701-base,14464,Thị trấn Thịnh Vượng,Thị trấn,373,,2025-06-30,Q142280101,new,manual,,predecessor CREATE batch #297096
+w-1170703-base,14470,Xã Gia Hưng,Xã,373,,2025-06-30,Q142280103,new,manual,,predecessor CREATE batch #297096
 w-1170705-base,14467,Xã Gia Hòa,Xã,373,,2025-06-30,Q10761333,existing,verified,Q10761333,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-1170707-base,14473,Xã Liên Sơn,Xã,373,,2025-06-30,Q10786558,existing,verified,Q10786558,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-1170709-base,14476,Xã Gia Thanh,Xã,373,,2025-06-30,Q10761381,existing,verified,Q10761381,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -3407,7 +3407,7 @@ w-1170721-base,14500,Xã Gia Phương,Xã,373,,2025-06-30,Q10761370,existing,ver
 w-1170723-base,14488,Xã Gia Lập,Xã,373,,2025-06-30,Q10761352,existing,verified,Q10761352,predecessor broad exact-vi-name+terminal-district+ward-class+batched-wbgetentities
 w-1170725-base,14503,Xã Gia Tân,Xã,373,,2025-06-30,Q10761399,existing,verified,Q10761399,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-1170727-base,14494,Xã Gia Trấn,Xã,373,,2025-06-30,Q10761397,existing,verified,Q10761397,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-1170729-base,14506,Xã Tiến Thắng,Xã,373,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-1170729-base,14506,Xã Tiến Thắng,Xã,373,,2025-06-30,Q142280104,new,manual,,predecessor CREATE batch #297096
 w-1170731-base,14509,Xã Gia Trung,Xã,373,,2025-06-30,Q10761394,existing,verified,Q10761394,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-1170733-base,14512,Xã Gia Minh,Xã,373,,2025-06-30,Q10761359,existing,verified,Q10761359,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-1170735-base,14515,Xã Gia Lạc,Xã,373,,2025-06-30,Q10761351,existing,verified,Q10761351,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -3415,11 +3415,11 @@ w-1170737-base,14518,Xã Gia Tiến,Xã,373,,2024-12-31,,,deferred-historical,,
 w-1170739-base,14521,Xã Gia Sinh,Xã,373,,2025-06-30,Q10761374,existing,verified,Q10761374,predecessor broad exact-vi-name+terminal-district+ward-class+batched-wbgetentities
 w-1170741-base,14524,Xã Gia Phong,Xã,373,,2025-06-30,Q10761365,existing,verified,Q10761365,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-1170901-base,14344,Phường Ninh Khánh,Phường,374,,2025-06-30,Q10801352,existing,verified,Q10801352,predecessor unique-matching-viwiki-article+exact-tier+different-name-successor+batched-wbgetentities
-w-1170903-base,14530,Phường Ninh Giang,Phường,374,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-1170903-base,14530,Phường Ninh Giang,Phường,374,,2025-06-30,Q142280105,new,manual,,predecessor CREATE batch #297096
 w-1170905-base,14533,Xã Trường Yên,Xã,374,,2025-06-30,Q10828990,existing,verified,Q10828990,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-1170907-base,14536,Xã Ninh Khang,Xã,374,,2025-06-30,Q10801350,existing,verified,Q10801350,predecessor exact-vietnamese-name+exact-tier+historical-parent-or-successor-context+batched-wbgetentities
 w-1170909-base,14539,Xã Ninh Mỹ,Xã,374,,2024-12-31,,,deferred-historical,,
-w-1170911-base,14542,Xã Ninh Hòa,Xã,374,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-1170911-base,14542,Xã Ninh Hòa,Xã,374,,2025-06-30,Q142280106,new,manual,,predecessor CREATE batch #297096
 w-1170913-base,14347,Xã Ninh Nhất,Xã,374,,2025-06-30,Q10801359,existing,verified,Q10801359,predecessor unique-matching-viwiki-article+exact-tier+different-name-successor+batched-wbgetentities
 w-1170915-base,14545,Xã Ninh Xuân,Xã,374,,2024-12-31,,,deferred-historical,,
 w-1170917-base,14548,Xã Ninh Hải,Xã,374,,2024-12-31,,,deferred-historical,,
@@ -3429,7 +3429,7 @@ w-1170923-base,14353,Phường Ninh Phúc,Phường,374,,2025-06-30,Q10801363,ex
 w-1170925-base,14359,Phường Ninh Phong,Phường,374,,2025-06-30,Q10801360,existing,verified,Q10801360,predecessor unique-matching-viwiki-article+exact-tier+different-name-successor+batched-wbgetentities
 w-1170927-base,14551,Xã Ninh Hải,Xã,374,,2025-06-30,Q10801344,existing,verified,Q10801344|Q10801345,predecessor exact-vietnamese-name+exact-tier+historical-parent-or-successor-context+batched-wbgetentities
 w-1170929-base,14554,Xã Ninh Vân,Xã,374,,2025-06-30,Q10801396,existing,verified,Q10801396,predecessor qualified-label+terminal-district+ward-class+batched-wbgetentities
-w-1170931-base,14557,Xã Ninh An,Xã,374,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-1170931-base,14557,Xã Ninh An,Xã,374,,2025-06-30,Q142280107,new,manual,,predecessor CREATE batch #297096
 w-1171101-base,14701,Thị trấn Yên Thịnh,Thị trấn,377,,2025-06-30,Q10838179,existing,verified,Q10838179,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-1171103-base,14704,Xã Khánh Thượng,Xã,377,,2025-06-30,Q10779654,existing,verified,Q10779654,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-1171104-base,14710,Xã Mai Sơn,Xã,377,,2024-12-31,,,deferred-historical,,
@@ -3450,13 +3450,13 @@ w-1171129-base,14749,Xã Yên Thái,Xã,377,,2025-06-30,Q10838159,existing,verif
 w-1171131-base,14752,Xã Yên Lâm,Xã,377,,2025-06-30,Q10838035,existing,verified,Q10838035,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-11713-2025-07-01,11713,Xã Nghi Dương,Xã,31,2025-07-01,,Q10780320,existing,manual,Q1198654|Q10780320,review 2026-09-02.45: current Nghi Dương page selects predecessor item Q10780320
 w-1171301-base,14560,Thị trấn Yên Ninh,Thị trấn,375,,2025-06-30,Q10838097,existing,verified,Q10838097,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-1171303-base,14563,Xã Khánh Thiện,Xã,375,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
-w-1171305-base,14566,Xã Khánh Phú,Xã,375,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-1171303-base,14563,Xã Khánh Thiện,Xã,375,,2025-06-30,Q142280108,new,manual,,predecessor CREATE batch #297096
+w-1171305-base,14566,Xã Khánh Phú,Xã,375,,2025-06-30,Q142280109,new,manual,,predecessor CREATE batch #297096
 w-1171307-base,14569,Xã Khánh Hòa,Xã,375,,2025-06-30,Q10779589,existing,verified,Q10779589,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-1171309-base,14575,Xã Khánh An,Xã,375,,2025-06-30,Q10779561,existing,verified,Q10779561,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-1171311-base,14572,Xã Khánh Lợi,Xã,375,,2025-06-30,Q10779619,existing,verified,Q10779619,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-1171313-base,14584,Xã Khánh Thiện,Xã,375,,2024-12-31,,,deferred-historical,,
-w-1171315-base,14578,Xã Khánh Cường,Xã,375,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-1171315-base,14578,Xã Khánh Cường,Xã,375,,2025-06-30,Q142280110,new,manual,,predecessor CREATE batch #297096
 w-1171317-base,14590,Xã Khánh Trung,Xã,375,,2025-06-30,Q142279854,new,manual,,predecessor CREATE batch #297090
 w-1171319-base,14581,Xã Khánh Cư,Xã,375,,2025-06-30,Q10779574,existing,verified,Q10779574,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-1171321-base,14587,Xã Khánh Hải,Xã,375,,2025-06-30,Q10779596,existing,verified,Q10779596,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -4140,7 +4140,7 @@ w-18634-2025-07-01,18634,Xã Toàn Lưu,Xã,42,2025-07-01,,Q10826180,existing,ma
 w-18652-2025-07-01,18652,Phường Hà Huy Tập,Phường,42,2025-07-01,,Q136950356,existing,manual,Q10770520|Q10770522|Q136950356,review 2026-09-11.127: current Hà Huy Tập ward selects Q136950356; release Q10770522 to the former Hà Tĩnh city ward
 w-18667-2025-07-01,18667,Xã Thạch Xuân,Xã,42,2025-07-01,,Q10826221,existing,matched,Q10826221,qlever-label+current-province+batched-wbgetentities
 w-18673-2025-07-01,18673,Xã Cẩm Xuyên,Xã,42,2025-07-01,,Q10752569,existing,matched,Q10752569,qlever-label+current-province+batched-wbgetentities
-w-18676-2004-06-30,18676,Thị trấn Thiên Cầm,Thị trấn,446,2004-06-30,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-18676-2004-06-30,18676,Thị trấn Thiên Cầm,Thị trấn,446,2004-06-30,2025-06-30,Q142280126,new,manual,,predecessor CREATE batch #297096
 w-18676-2025-07-01,18676,Xã Thiên Cầm,Xã,42,2025-07-01,,Q10825119,existing,matched,Q10825119,qlever-label+current-province+batched-wbgetentities
 w-18682-2025-07-01,18682,Xã Yên Hòa,Xã,42,2025-07-01,,Q10752485,existing,manual,Q3943148|Q10752485|Q10837996|Q10838002|Q10838003|Q10838004|Q10838005|Q10838006|Q10838008|Q32595235|Q32595268,"review 2026-09-02.29: current Yên Hòa, Hà Tĩnh page selects predecessor item Q10752485"
 w-18685-2025-07-01,18685,Xã Cẩm Bình,Xã,42,2025-07-01,,Q10752467,existing,matched,Q10743988|Q10752465|Q10752466|Q10752467,qlever-label+current-province+batched-wbgetentities
@@ -5327,7 +5327,7 @@ w-20959-2025-07-01,20959,Xã Trà Vân,Xã,48,2025-07-01,,Q2394256,existing,matc
 w-20965-2025-07-01,20965,Xã Núi Thành,Xã,48,2025-07-01,,Q2467359,existing,matched,Q2467359,qlever-label+current-province+batched-wbgetentities
 w-20971-2025-07-01,20971,Xã Tam Xuân,Xã,48,2025-07-01,,Q2352265,existing,manual,Q2352265,review 2026-09-02.61: current Tam Xuân page selects predecessor item Q2352265
 w-20977-2025-07-01,20977,Xã Đức Phú,Xã,48,2025-07-01,,Q2688175,existing,manual,Q2688175|Q10842413|Q10842414|Q10842416,review 2026-09-02.34: current Đức Phú page selects Q2688175
-w-20984-2005-07-22,20984,Xã Tam Anh Nam,Xã,517,2005-07-22,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-20984-2005-07-22,20984,Xã Tam Anh Nam,Xã,517,2005-07-22,2025-06-30,Q142280168,new,manual,,predecessor CREATE batch #297096
 w-20984-2025-07-01,20984,Xã Tam Anh,Xã,48,2025-07-01,,Q2071565,existing,matched,Q2071565,qlever-label+current-province+batched-wbgetentities
 w-20992-2025-07-01,20992,Xã Tam Hải,Xã,48,2025-07-01,,Q2137486,existing,matched,Q2137486,qlever-label+current-province+batched-wbgetentities
 w-21004-2025-07-01,21004,Xã Tam Mỹ,Xã,48,2025-07-01,,Q1921509,existing,manual,Q1921509,review 2026-09-02.61: current Tam Mỹ page selects predecessor item Q1921509
@@ -5614,7 +5614,7 @@ w-2131153-base,04555,Xã Văn Lãng,Xã,141,,2020-01-31,,,deferred-historical,,
 w-2131155-base,04579,Xã Việt Hồng,Xã,138,,2025-06-30,Q142279579,new,manual,,predecessor CREATE batch #297090
 w-2131157-base,04582,Xã Vân Hội,Xã,138,,2025-06-30,Q10833132,existing,verified,Q10833132,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-2131301-base,04714,Thị trấn Yên Bình,Thị trấn,141,,2025-06-30,Q10837974,existing,verified,Q10837974,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-2131303-base,04717,Thị trấn Thác Bà,Thị trấn,141,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-2131303-base,04717,Thị trấn Thác Bà,Thị trấn,141,,2025-06-30,Q142280088,new,manual,,predecessor CREATE batch #297096
 w-2131305-base,04720,Xã Xuân Long,Xã,141,,2025-06-30,Q10834978,existing,verified,Q10834978,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-2131307-base,04729,Xã Ngọc Chấn,Xã,141,,2025-06-30,Q10800592,existing,verified,Q10800592,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-2131309-base,04723,Xã Tích Cốc,Xã,141,,2020-01-31,,,deferred-historical,,
@@ -5622,12 +5622,12 @@ w-2131311-base,04732,Xã Tân Nguyên,Xã,141,,2025-06-30,Q32586884,existing,ver
 w-2131313-base,04735,Xã Phúc Ninh,Xã,141,,2025-06-30,Q10806231,existing,verified,Q10806231,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-2131315-base,04741,Xã Mỹ Gia,Xã,141,,2025-06-30,Q10796717,existing,verified,Q10796717,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-2131317-base,04726,Xã Cảm Nhân,Xã,141,,2025-06-30,Q32264939,existing,manual,Q10752253|Q32264939,"predecessor review 2026-09-09.38: Q32264939 is the coordinate-backed former commune duplicate under the Cẩm Nhân spelling found in GeoNames 8526451; its coordinates match current Cảm Nhân within tens of metres, while Q10752253 owns the current article and remains assigned to the successor"
-w-2131319-base,04738,Xã Bảo Ái,Xã,141,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-2131319-base,04738,Xã Bảo Ái,Xã,141,,2025-06-30,Q142280089,new,manual,,predecessor CREATE batch #297096
 w-2131321-base,04750,Xã Cảm Ân,Xã,141,,2025-06-30,Q10752578,existing,verified,Q10752578,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-2131323-base,04744,Xã Xuân Lai,Xã,141,,2025-06-30,Q10834967,existing,verified,Q10834967,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-2131325-base,04756,Xã Tân Hương,Xã,141,,2025-06-30,Q10830519,existing,verified,Q10830519,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-2131327-base,04747,Xã Mông Sơn,Xã,141,,2025-06-30,Q65172466,existing,verified,Q65172466,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-2131329-base,04753,Xã Yên Thành,Xã,141,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-2131329-base,04753,Xã Yên Thành,Xã,141,,2025-06-30,Q142280090,new,manual,,predecessor CREATE batch #297096
 w-2131331-base,04768,Xã Đại Đồng,Xã,141,,2025-06-30,Q10841279,existing,verified,Q10841279,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-2131333-base,04759,Xã Phúc An,Xã,141,,2025-06-30,Q65172478,existing,verified,Q65172478,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-2131335-base,04783,Xã Phú Thịnh,Xã,141,,2025-06-30,Q10806117,existing,verified,Q10806117,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -5639,15 +5639,15 @@ w-2131345-base,04774,Xã Yên Bình,Xã,141,,2024-11-30,,,deferred-historical,,
 w-2131347-base,04780,Xã Hán Đà,Xã,141,,2025-06-30,Q10770836,existing,verified,Q10770836,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-2131349-base,04786,Xã Đại Minh,Xã,141,,2025-06-30,Q10841116,existing,verified,Q10841116,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-2131501-base,04621,Thị trấn NT Liên Sơn,Thị trấn,140,,2025-06-30,Q30923256,existing,manual,Q30923256,"predecessor review 2026-09-11.66: Q30923256 retains the township class, former Văn Chấn parent, historical coordinates, and GeoNames 8526358 for Thị Trấn Nông Trường Liên Sơn; Q10823247 owns the current Liên Sơn, Lào Cai article and moves to the current commune, so former Sơn A returns to a reviewed creation gap"
-w-2131503-base,04624,Xã Nghĩa Lộ,Xã,133,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
-w-2131505-base,04627,Thị trấn NT Trần Phú,Thị trấn,140,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
-w-2131507-base,04630,Xã Tú Lệ,Xã,140,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-2131503-base,04624,Xã Nghĩa Lộ,Xã,133,,2025-06-30,Q142280076,new,manual,,predecessor CREATE batch #297096
+w-2131505-base,04627,Thị trấn NT Trần Phú,Thị trấn,140,,2025-06-30,Q142280078,new,manual,,predecessor CREATE batch #297096
+w-2131507-base,04630,Xã Tú Lệ,Xã,140,,2025-06-30,Q142280079,new,manual,,predecessor CREATE batch #297096
 w-2131509-base,04633,Xã Nậm Búng,Xã,140,,2025-06-30,Q16480690,existing,verified,Q16480690,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-2131511-base,04636,Xã Gia Hội,Xã,140,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-2131511-base,04636,Xã Gia Hội,Xã,140,,2025-06-30,Q142280080,new,manual,,predecessor CREATE batch #297096
 w-2131513-base,04642,Xã Nậm Mười,Xã,140,,2025-06-30,Q10802165,existing,verified,Q10802165,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-2131515-base,04639,Xã Sùng Đô,Xã,140,,2025-06-30,Q10823141,existing,verified,Q10823141,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-2131517-base,04648,Xã Nậm Lành,Xã,140,,2025-06-30,Q10802152,existing,verified,Q10802152,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-2131519-base,04651,Xã Sơn Lương,Xã,140,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-2131519-base,04651,Xã Sơn Lương,Xã,140,,2025-06-30,Q142280082,new,manual,,predecessor CREATE batch #297096
 w-2131521-base,04654,Xã Suối Quyền,Xã,140,,2025-06-30,Q10822294,existing,verified,Q10822294,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-2131523-base,04645,Xã An Lương,Xã,140,,2025-06-30,Q10733221,existing,verified,Q10733221,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-2131525-base,04660,Xã Sơn A,Xã,133,,2025-06-30,Q142254255,new,manual,,predecessor CREATE batch #296722
@@ -5658,19 +5658,19 @@ w-2131533-base,04657,Xã Suối Giàng,Xã,140,,2025-06-30,Q10822263,existing,ve
 w-2131535-base,04666,Xã Nghĩa Sơn,Xã,140,,2025-06-30,Q10798823,existing,verified,Q10798823,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-2131537-base,04300,Xã Nghĩa An,Xã,133,,2025-06-30,Q32287695,existing,manual,Q10798722|Q32287665|Q32287695,"predecessor review 2026-09-08.18: Q32287695 has the exact former commune alias, Nghĩa Lộ-area coordinates, and GeoNames 8526372; Q32287665 and Q10798722 are differently located units, while the current successor keeps Q30923257"
 w-2131539-base,04675,Xã Thanh Lương,Xã,133,,2025-06-30,Q10824820,existing,verified,Q10824820,predecessor exact-folded-name+historical-district+ward-class+batched-wbgetentities
-w-2131541-base,04672,Thị trấn Sơn Thịnh,Thị trấn,140,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-2131541-base,04672,Thị trấn Sơn Thịnh,Thị trấn,140,,2025-06-30,Q142280083,new,manual,,predecessor CREATE batch #297096
 w-2131543-base,04678,Xã Hạnh Sơn,Xã,133,,2025-06-30,Q10771585,existing,verified,Q10771585,predecessor exact-folded-name+historical-district+ward-class+batched-wbgetentities
 w-2131545-base,04681,Xã Phúc Sơn,Xã,133,,2025-06-30,Q10806236,existing,verified,Q10806236,predecessor exact-folded-name+historical-district+ward-class+batched-wbgetentities
 w-2131547-base,04684,Xã Thạch Lương,Xã,133,,2025-06-30,Q10826181,existing,verified,Q10826181,predecessor exact-folded-name+historical-district+ward-class+batched-wbgetentities
 w-2131549-base,04669,Xã Suối Bu,Xã,140,,2025-06-30,Q10822229,existing,verified,Q10822229,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-2131551-base,04690,Xã Đồng Khê,Xã,140,,2025-06-30,Q10841933,existing,verified,Q10841933,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-2131553-base,04693,Xã Cát Thịnh,Xã,140,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-2131553-base,04693,Xã Cát Thịnh,Xã,140,,2025-06-30,Q142280084,new,manual,,predecessor CREATE batch #297096
 w-2131555-base,04696,Xã Tân Thịnh,Xã,140,,2025-06-30,Q10830886,existing,verified,Q10830886,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-2131557-base,04687,Xã Đại Lịch,Xã,140,,2025-06-30,Q10841112,existing,verified,Q10841112,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-2131559-base,04699,Xã Chấn Thịnh,Xã,140,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-2131559-base,04699,Xã Chấn Thịnh,Xã,140,,2025-06-30,Q142280085,new,manual,,predecessor CREATE batch #297096
 w-2131561-base,04702,Xã Bình Thuận,Xã,140,,2025-06-30,Q10742554,existing,verified,Q10742554,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-2131563-base,04705,Xã Thượng Bằng La,Xã,140,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
-w-2131565-base,04711,Xã Nghĩa Tâm,Xã,140,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-2131563-base,04705,Xã Thượng Bằng La,Xã,140,,2025-06-30,Q142280086,new,manual,,predecessor CREATE batch #297096
+w-2131565-base,04711,Xã Nghĩa Tâm,Xã,140,,2025-06-30,Q142280087,new,manual,,predecessor CREATE batch #297096
 w-2131567-base,04708,Xã Minh An,Xã,140,,2025-06-30,Q10793845,existing,verified,Q10793845,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-2131701-base,04585,Thị trấn Trạm Tấu,Thị trấn,139,,2025-06-30,Q142279580,new,manual,,predecessor CREATE batch #297090
 w-2131702-base,04618,Xã Hát Lìu,Xã,139,,2025-06-30,Q142279583,new,manual,,predecessor CREATE batch #297090
@@ -7024,7 +7024,7 @@ w-24211-2025-07-01,24211,Xã Ea Súp,Xã,66,2025-07-01,,Q10757819,existing,match
 w-24214-2025-07-01,24214,Xã Ia Lốp,Xã,66,2025-07-01,,Q10772543,existing,matched,Q10772543,qlever-label+current-province+batched-wbgetentities
 w-24215-2006-05-31,24215,Xã Ia JLơi,Xã,646,2006-05-31,2025-06-30,Q10772520,existing,verified,Q10772520,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-24217-2025-07-01,24217,Xã Ea Rốk,Xã,66,2025-07-01,,Q10757812,existing,matched,Q10757812,qlever-label+current-province+batched-wbgetentities
-w-24221-2006-05-31,24221,Xã Ia RVê,Xã,646,2006-05-31,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-24221-2006-05-31,24221,Xã Ia RVê,Xã,646,2006-05-31,2025-06-30,Q142280186,new,manual,,predecessor CREATE batch #297096
 w-24221-2025-07-01,24221,Xã Ia Rvê,Xã,66,2025-07-01,,Q10772577,existing,matched,Q10772577,qlever-label+current-province+batched-wbgetentities
 w-24229-2025-07-01,24229,Xã Ea Bung,Xã,66,2025-07-01,,Q10757761,existing,matched,Q10757761,qlever-label+current-province+batched-wbgetentities
 w-24235-2025-07-01,24235,Xã Buôn Đôn,Xã,66,2025-07-01,,Q6440527,existing,matched,Q6440527,qlever-label+current-province+batched-wbgetentities
@@ -8329,7 +8329,7 @@ w-3050101-base,04807,Phường Phương Lâm,Phường,148,,2025-06-30,Q10806311
 w-3050103-base,04804,Phường Đồng Tiến,Phường,148,,2025-06-30,Q10842034,existing,verified,Q10842034,predecessor exact-vietnamese-name+exact-tier+historical-parent-or-successor-context+batched-wbgetentities
 w-3050105-base,04810,Phường Chăm Mát,Phường,148,,2019-12-31,,,deferred-historical,,
 w-3050107-base,04801,Phường Tân Thịnh,Phường,148,,2025-06-30,Q10830887,existing,verified,Q10830887|Q10830888,predecessor exact-vietnamese-name+exact-tier+historical-parent-or-successor-context+batched-wbgetentities
-w-3050109-base,04792,Phường Tân Hòa,Phường,148,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-3050109-base,04792,Phường Tân Hòa,Phường,148,,2025-06-30,Q142280091,new,manual,,predecessor CREATE batch #297096
 w-3050111-base,04798,Phường Hữu Nghị,Phường,148,,2025-06-30,Q18458641,existing,verified,Q10772441|Q18458641,predecessor exact-vietnamese-name+exact-tier+historical-parent-or-successor-context+batched-wbgetentities
 w-3050113-base,04813,Xã Yên Mông,Xã,148,,2025-06-30,Q10838070,existing,verified,Q10838070|Q32595683,predecessor unique-matching-viwiki-article+exact-tier+different-name-successor+batched-wbgetentities
 w-3050115-base,04789,Phường Thái Bình,Phường,148,,2025-06-30,Q10825694,existing,verified,Q10825694,predecessor exact-vietnamese-name+exact-tier+historical-parent-or-successor-context+batched-wbgetentities
@@ -10128,73 +10128,73 @@ w-4051155-base,18484,Thị trấn Đồng Lộc,Thị trấn,443,,2025-06-30,Q14
 w-4051157-base,18481,Xã Quang Lộc,Xã,443,,2025-06-30,Q10810003,existing,verified,Q10810003,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4051159-base,18487,Xã Mỹ Lộc,Xã,443,,2025-06-30,Q10796785,existing,verified,Q10796785,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4051161-base,18490,Xã Sơn Lộc,Xã,443,,2025-06-30,Q10823344,existing,verified,Q10823344,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-4051301-base,18562,Thị trấn Thạch Hà,Thị trấn,445,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4051301-base,18562,Thị trấn Thạch Hà,Thị trấn,445,,2025-06-30,Q142280113,new,manual,,predecessor CREATE batch #297096
 w-4051303-base,18565,Xã Ngọc Sơn,Xã,445,,2025-06-30,Q10800676,existing,verified,Q10800676,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4051305-base,18592,Xã Thạch Liên,Xã,445,,2025-06-30,Q16480625,existing,verified,Q16480625,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-4051307-base,18586,Xã Thạch Kênh,Xã,445,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4051307-base,18586,Xã Thạch Kênh,Xã,445,,2025-06-30,Q142280115,new,manual,,predecessor CREATE batch #297096
 w-4051309-base,18610,Xã Việt Xuyên,Xã,445,,2019-12-31,,,deferred-historical,,
 w-4051311-base,18589,Xã Thạch Sơn,Xã,445,,2025-06-30,Q10826202,existing,verified,Q10826202,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-4051313-base,18568,Thị trấn Lộc Hà,Thị trấn,445,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4051313-base,18568,Thị trấn Lộc Hà,Thị trấn,445,,2025-06-30,Q142280114,new,manual,,predecessor CREATE batch #297096
 w-4051315-base,18577,Xã Thạch Mỹ,Xã,445,,2025-06-30,Q10826187,existing,verified,Q10826187,predecessor exact-folded-name+historical-district+ward-class+batched-wbgetentities
 w-4051317-base,18583,Xã Thạch Châu,Xã,445,,2025-06-30,Q10826143,existing,verified,Q10826143,predecessor exact-folded-name+historical-district+ward-class+batched-wbgetentities
 w-4051319-base,18580,Xã Thạch Kim,Xã,445,,2025-06-30,Q10826163,existing,verified,Q10826163,predecessor exact-folded-name+historical-district+ward-class+batched-wbgetentities
 w-4051321-base,18574,Xã Thạch Bàn,Xã,445,,2019-12-31,,,deferred-historical,,
-w-4051323-base,18601,Xã Việt Tiến,Xã,445,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4051323-base,18601,Xã Việt Tiến,Xã,445,,2025-06-30,Q142280117,new,manual,,predecessor CREATE batch #297096
 w-4051325-base,18607,Xã Thạch Long,Xã,445,,2025-06-30,Q10826173,existing,verified,Q10826173,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-4051327-base,18595,Xã Đỉnh Bàn,Xã,436,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4051327-base,18595,Xã Đỉnh Bàn,Xã,436,,2025-06-30,Q142280116,new,manual,,predecessor CREATE batch #297096
 w-4051329-base,18571,Xã Thạch Hải,Xã,436,,2025-06-30,Q10826157,existing,verified,Q10826157,predecessor exact-folded-name+historical-district+ward-class+batched-wbgetentities
 w-4051331-base,18613,Xã Thạch Tiến,Xã,445,,2019-12-31,,,deferred-historical,,
 w-4051333-base,18616,Xã Thạch Thanh,Xã,445,,2019-12-31,,,deferred-historical,,
 w-4051337-base,18100,Phường Thạch Hạ,Phường,436,,2025-06-30,Q10826156,existing,manual,Q10826148|Q10826156|Q10829425|Q32305932|Q136950365,"predecessor review 2026-09-09.44: Q10826156 owns the exact Thạch Hạ article and former-unit identity; Q32305932 supplies matching historical coordinates and GeoNames 8637888 for the same lineage, while Q136950365 owns the current Trần Phú article"
 w-4051339-base,18106,Xã Thạch Đồng,Xã,436,,2019-12-31,,,deferred-historical,,
-w-4051341-base,18670,Xã Mai Phụ,Xã,445,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4051341-base,18670,Xã Mai Phụ,Xã,445,,2025-06-30,Q142280124,new,manual,,predecessor CREATE batch #297096
 w-4051343-base,18103,Phường Đồng Môn,Phường,436,,2025-06-30,Q128503490,existing,verified,Q128503490,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4051345-base,18598,Xã Hộ Độ,Xã,436,,2025-06-30,Q10772251,existing,verified,Q10772251,predecessor exact-folded-name+historical-district+ward-class+batched-wbgetentities
-w-4051347-base,18604,Xã Thạch Khê,Xã,436,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
-w-4051349-base,18619,Xã Thạch Trị,Xã,436,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4051347-base,18604,Xã Thạch Khê,Xã,436,,2025-06-30,Q142280118,new,manual,,predecessor CREATE batch #297096
+w-4051349-base,18619,Xã Thạch Trị,Xã,436,,2025-06-30,Q142280119,new,manual,,predecessor CREATE batch #297096
 w-4051351-base,18109,Phường Thạch Hưng,Phường,436,,2025-06-30,Q10826153,existing,manual,Q10826153|Q32305917|Q136950342,"predecessor review 2026-09-10.54: Q10826153 is the original Thạch Hưng commune item, had its Vietnamese description updated to the ward identity in January 2025, and lost its article sitelink after the 2025 replacement; Q136950342 owns the distinct current Thành Sen article, while Q32305917 is an unlinked GeoNames duplicate"
 w-4051353-base,18628,Xã Tượng Sơn,Xã,436,,2025-06-30,Q10831460,existing,verified,Q10831460,predecessor exact-folded-name+historical-district+ward-class+batched-wbgetentities
-w-4051355-base,18622,Xã Thạch Lạc,Xã,436,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4051355-base,18622,Xã Thạch Lạc,Xã,436,,2025-06-30,Q142280120,new,manual,,predecessor CREATE batch #297096
 w-4051357-base,18625,Xã Thạch Ngọc,Xã,445,,2025-06-30,Q10826189,existing,verified,Q10826189,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-4051359-base,18634,Xã Lưu Vĩnh Sơn,Xã,445,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4051359-base,18634,Xã Lưu Vĩnh Sơn,Xã,445,,2025-06-30,Q142280121,new,manual,,predecessor CREATE batch #297096
 w-4051361-base,18640,Xã Thạch Lưu,Xã,445,,2019-12-31,,,deferred-historical,,
 w-4051363-base,18646,Xã Bắc Sơn,Xã,445,,2019-12-31,,,deferred-historical,,
 w-4051365-base,18643,Xã Thạch Đài,Xã,436,,2025-06-30,Q10826227,existing,verified,Q10826227,predecessor exact-folded-name+historical-district+ward-class+batched-wbgetentities
 w-4051367-base,18637,Xã Thạch Thắng,Xã,436,,2025-06-30,Q10826207,existing,verified,Q10826207,predecessor exact-folded-name+historical-district+ward-class+batched-wbgetentities
 w-4051369-base,18649,Xã Thạch Hội,Xã,436,,2025-06-30,Q10826158,existing,verified,Q10826158,predecessor exact-folded-name+historical-district+ward-class+batched-wbgetentities
 w-4051371-base,18631,Xã Thạch Văn,Xã,436,,2025-06-30,Q10826219,existing,verified,Q10826219,predecessor exact-folded-name+historical-district+ward-class+batched-wbgetentities
-w-4051373-base,18658,Xã Thạch Xuân,Xã,445,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4051373-base,18658,Xã Thạch Xuân,Xã,445,,2025-06-30,Q142280122,new,manual,,predecessor CREATE batch #297096
 w-4051375-base,18652,Xã Tân Lâm Hương,Xã,436,,2025-06-30,Q128500777,existing,verified,Q128500777,predecessor exact-folded-name+historical-district+ward-class+batched-wbgetentities
 w-4051377-base,18112,Xã Thạch Bình,Xã,436,,2025-06-30,Q32305858,existing,verified,Q32305858,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4051379-base,18661,Xã Thạch Hương,Xã,445,,2019-12-31,,,deferred-historical,,
-w-4051381-base,18667,Xã Nam Điền,Xã,445,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4051381-base,18667,Xã Nam Điền,Xã,445,,2025-06-30,Q142280123,new,manual,,predecessor CREATE batch #297096
 w-4051383-base,18664,Xã Nam Hương,Xã,445,,2019-12-31,,,deferred-historical,,
 w-4051385-base,18655,Xã Thạch Lâm,Xã,445,,2019-12-31,,,deferred-historical,,
-w-4051501-base,18673,Thị trấn Cẩm Xuyên,Thị trấn,446,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4051501-base,18673,Thị trấn Cẩm Xuyên,Thị trấn,446,,2025-06-30,Q142280125,new,manual,,predecessor CREATE batch #297096
 w-4051503-base,18691,Xã Cẩm Vịnh,Xã,436,,2025-06-30,Q10752570,existing,verified,Q10752570,predecessor exact-folded-name+historical-district+ward-class+batched-wbgetentities
-w-4051505-base,18685,Xã Cẩm Bình,Xã,436,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4051505-base,18685,Xã Cẩm Bình,Xã,436,,2025-06-30,Q142280128,new,manual,,predecessor CREATE batch #297096
 w-4051507-base,18688,Xã Cẩm Yên,Xã,446,,2019-12-31,,,deferred-historical,,
-w-4051509-base,18679,Xã Yên Hòa,Xã,446,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4051509-base,18679,Xã Yên Hòa,Xã,446,,2025-06-30,Q142280127,new,manual,,predecessor CREATE batch #297096
 w-4051511-base,18700,Xã Cẩm Nam,Xã,446,,2019-12-31,,,deferred-historical,,
 w-4051513-base,18682,Xã Cẩm Dương,Xã,446,,2025-06-30,Q10752473,existing,verified,Q10752473,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4051515-base,18694,Xã Cẩm Thành,Xã,446,,2025-06-30,Q10752543,existing,verified,Q10752543,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4051517-base,18697,Xã Cẩm Quang,Xã,446,,2025-06-30,Q10752525,existing,verified,Q10752525,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4051519-base,18703,Xã Cẩm Huy,Xã,446,,2019-12-31,,,deferred-historical,,
-w-4051521-base,18712,Xã Nam Phúc Thăng,Xã,446,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4051521-base,18712,Xã Nam Phúc Thăng,Xã,446,,2025-06-30,Q142280129,new,manual,,predecessor CREATE batch #297096
 w-4051525-base,18709,Xã Cẩm Nhượng,Xã,446,,2025-06-30,Q10752511,existing,verified,Q10752511,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4051527-base,18706,Xã Cẩm Thạch,Xã,446,,2025-06-30,Q10752552,existing,verified,Q10752552,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-4051529-base,18715,Xã Cẩm Duệ,Xã,446,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4051529-base,18715,Xã Cẩm Duệ,Xã,446,,2025-06-30,Q142280130,new,manual,,predecessor CREATE batch #297096
 w-4051531-base,18718,Xã Cẩm Phúc,Xã,446,,2019-12-31,,,deferred-historical,,
 w-4051533-base,18721,Xã Cẩm Lĩnh,Xã,446,,2025-06-30,Q10752500,existing,verified,Q10752500,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4051535-base,18724,Xã Cẩm Quan,Xã,446,,2025-06-30,Q10752524,existing,verified,Q10752524,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4051537-base,18727,Xã Cẩm Hà,Xã,446,,2025-06-30,Q10752483,existing,verified,Q10752483,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4051539-base,18739,Xã Cẩm Mỹ,Xã,446,,2025-06-30,Q18456860,existing,verified,Q18456860,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-4051541-base,18733,Xã Cẩm Hưng,Xã,446,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4051541-base,18733,Xã Cẩm Hưng,Xã,446,,2025-06-30,Q142280131,new,manual,,predecessor CREATE batch #297096
 w-4051543-base,18730,Xã Cẩm Lộc,Xã,446,,2025-06-30,Q10752503,existing,verified,Q10752503,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-4051545-base,18742,Xã Cẩm Trung,Xã,446,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4051545-base,18742,Xã Cẩm Trung,Xã,446,,2025-06-30,Q142280132,new,manual,,predecessor CREATE batch #297096
 w-4051547-base,18736,Xã Cẩm Thịnh,Xã,446,,2025-06-30,Q10752556,existing,verified,Q10752556,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4051549-base,18745,Xã Cẩm Sơn,Xã,446,,2025-06-30,Q10752536,existing,verified,Q10752536,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-4051551-base,18748,Xã Cẩm Lạc,Xã,446,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4051551-base,18748,Xã Cẩm Lạc,Xã,446,,2025-06-30,Q142280133,new,manual,,predecessor CREATE batch #297096
 w-4051553-base,18751,Xã Cẩm Minh,Xã,446,,2025-06-30,Q10752505,existing,verified,Q10752505,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4051701-base,18496,Thị trấn Hương Khê,Thị trấn,444,,2025-06-30,Q142255253,new,manual,,predecessor CREATE batch #296722
 w-4051703-base,18550,Xã Hương Trà,Xã,444,,2025-06-30,Q18458534,existing,verified,Q18458534,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -10210,18 +10210,18 @@ w-4051731-base,18517,Xã Hương Giang,Xã,444,,2025-06-30,Q142255256,new,manual
 w-4051733-base,18532,Xã Gia Phố,Xã,444,,2025-06-30,Q10761372,existing,verified,Q10761372,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4051735-base,18529,Xã Phú Gia,Xã,444,,2025-06-30,Q10805918,existing,verified,Q10805918,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4051737-base,18541,Xã Hương Vĩnh,Xã,444,,2025-06-30,Q10771515,existing,verified,Q10771515,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-4051739-base,18544,Xã Hương Xuân,Xã,444,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4051739-base,18544,Xã Hương Xuân,Xã,444,,2025-06-30,Q142280111,new,manual,,predecessor CREATE batch #297096
 w-4051741-base,18535,Xã Phú Phong,Xã,444,,2024-12-31,,,deferred-historical,,
 w-4051743-base,18520,Xã Lộc Yên,Xã,444,,2025-06-30,Q10788828,existing,verified,Q10788828,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4051745-base,18556,Xã Hương Lâm,Xã,444,,2025-06-30,Q10771476,existing,verified,Q10771476,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4051747-base,18559,Xã Hương Liên,Xã,444,,2025-06-30,Q10771465,existing,verified,Q10771465,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4051749-base,18538,Xã Hương Đô,Xã,444,,2025-06-30,Q142255258,new,manual,,predecessor CREATE batch #296722
-w-4051751-base,18547,Xã Phúc Trạch,Xã,444,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4051751-base,18547,Xã Phúc Trạch,Xã,444,,2025-06-30,Q142280112,new,manual,,predecessor CREATE batch #297096
 w-4051753-base,18553,Xã Hương Trạch,Xã,444,,2025-06-30,Q10771511,existing,verified,Q10771511,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4051901-base,18754,Phường Hưng Trí,Phường,449,,2025-06-30,Q10783690,existing,verified,Q10783690,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4051903-base,18760,Xã Kỳ Bắc,Xã,447,,2025-06-30,Q10783694,existing,verified,Q10783694,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4051905-base,18769,Xã Kỳ Tiến,Xã,447,,2025-06-30,Q10783740,existing,verified,Q10783740,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-4051907-base,18757,Xã Kỳ Xuân,Xã,447,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4051907-base,18757,Xã Kỳ Xuân,Xã,447,,2025-06-30,Q142280134,new,manual,,predecessor CREATE batch #297096
 w-4051909-base,18772,Xã Kỳ Giang,Xã,447,,2025-06-30,Q10783697,existing,verified,Q10783697,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4051911-base,18763,Xã Kỳ Phú,Xã,447,,2025-06-30,Q10783719,existing,verified,Q10783719,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4051913-base,18766,Xã Kỳ Phong,Xã,447,,2025-06-30,Q10783717,existing,verified,Q10783717,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -10229,9 +10229,9 @@ w-4051915-base,18844,Xã Kỳ Sơn,Xã,447,,2025-06-30,Q10783725,existing,verifi
 w-4051917-base,18793,Xã Kỳ Tây,Xã,447,,2025-06-30,Q10783748,existing,verified,Q10783748,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4051919-base,18826,Xã Kỳ Hợp,Xã,447,,2019-12-31,,,deferred-historical,,
 w-4051921-base,18838,Xã Lâm Hợp,Xã,447,,2025-06-30,Q142279855,new,manual,,predecessor CREATE batch #297090
-w-4051923-base,18778,Xã Kỳ Khang,Xã,447,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
-w-4051925-base,18784,Xã Kỳ Văn,Xã,447,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
-w-4051927-base,18850,Xã Kỳ Lạc,Xã,447,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4051923-base,18778,Xã Kỳ Khang,Xã,447,,2025-06-30,Q142280136,new,manual,,predecessor CREATE batch #297096
+w-4051925-base,18784,Xã Kỳ Văn,Xã,447,,2025-06-30,Q142280138,new,manual,,predecessor CREATE batch #297096
+w-4051927-base,18850,Xã Kỳ Lạc,Xã,447,,2025-06-30,Q142280141,new,manual,,predecessor CREATE batch #297096
 w-4051929-base,18808,Xã Kỳ Hà,Xã,449,,2025-06-30,Q10783700,existing,verified,Q10783700,predecessor unique-matching-viwiki-article+exact-tier+different-name-successor+batched-wbgetentities
 w-4051931-base,18817,Xã Kỳ Hưng,Xã,449,,2019-12-31,,,deferred-historical,,
 w-4051933-base,18802,Xã Kỳ Hải,Xã,447,,2025-06-30,Q10783703,existing,verified,Q10783703,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -10243,14 +10243,14 @@ w-4051943-base,18790,Xã Kỳ Thọ,Xã,447,,2025-06-30,Q10783737,existing,verif
 w-4051945-base,18832,Phường Kỳ Phương,Phường,449,,2025-06-30,Q10783722,existing,manual,Q10783722,"predecessor review 2026-09-08.15: the exact former ward description, Kỳ Anh parent, coordinate, and GeoNames 8637945 identify the predecessor"
 w-4051947-base,18796,Xã Kỳ Lợi,Xã,449,,2025-06-30,Q16481184,existing,verified,Q16481184,predecessor unique-matching-viwiki-article+exact-tier+different-name-successor+batched-wbgetentities
 w-4051949-base,18841,Phường Kỳ Liên,Phường,449,,2025-06-30,Q10783707,existing,verified,Q10783707,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-4051951-base,18781,Phường Kỳ Ninh,Phường,449,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4051951-base,18781,Phường Kỳ Ninh,Phường,449,,2025-06-30,Q142280137,new,manual,,predecessor CREATE batch #297096
 w-4051953-base,18775,Thị trấn Kỳ Đồng,Thị trấn,447,,2025-06-30,Q10783783,existing,verified,Q10783783,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4051955-base,18835,Phường Kỳ Long,Phường,449,,2025-06-30,Q10783708,existing,manual,Q10783708|Q136950424,"predecessor review 2026-09-09.31: Q10783708 retains the former Kỳ Anh ward identity, parent, coordinates, GeoNames 8637947, and old Kỳ Long article; Q136950424 owns the current Vũng Áng article and remains assigned to the 2025 successor"
 w-4051957-base,18820,Phường Kỳ Trinh,Phường,449,,2025-06-30,Q10783741,existing,manual,Q10783741|Q32279048|Q136950397,"predecessor review 2026-09-09.33: Q10783741 owns the Kỳ Trinh article and retains the former Kỳ Anh parent, exact ward description, and old aliases; Q32279048 is a coordinate-only duplicate, while Q136950397 owns the current Sông Trí article and remains assigned to the 2025 successor"
 w-4051959-base,18823,Phường Kỳ Thịnh,Phường,449,,2025-06-30,Q10783736,existing,manual,Q10783736|Q136950424,"predecessor review 2026-09-09.32: Q10783736 retains the former Kỳ Anh unit identity, old parent, coordinates, GeoNames 8637948, and Kỳ Thịnh article; Q136950424 owns the current Vũng Áng article and remains assigned to the 2025 successor"
-w-4051961-base,18799,Xã Kỳ Thượng,Xã,447,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
-w-4051963-base,18847,Phường Kỳ Nam,Phường,449,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
-w-4070101-base,18871,Phường Đồng Sơn,Phường,450,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4051961-base,18799,Xã Kỳ Thượng,Xã,447,,2025-06-30,Q142280139,new,manual,,predecessor CREATE batch #297096
+w-4051963-base,18847,Phường Kỳ Nam,Phường,449,,2025-06-30,Q142280140,new,manual,,predecessor CREATE batch #297096
+w-4070101-base,18871,Phường Đồng Sơn,Phường,450,,2025-06-30,Q142280142,new,manual,,predecessor CREATE batch #297096
 w-4070103-base,18859,Phường Bắc Lý,Phường,450,,2025-06-30,Q10743349,existing,verified,Q10743349,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4070105-base,18865,Phường Nam Lý,Phường,450,,2025-06-30,Q10797093,existing,verified,Q10797093,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4070107-base,18853,Phường Hải Thành,Phường,450,,2025-06-30,Q10771695,existing,verified,Q10771695,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -10264,7 +10264,7 @@ w-4070119-base,18898,Xã Đức Ninh,Xã,450,,2025-06-30,Q10842408,existing,veri
 w-4070121-base,18883,Xã Quang Phú,Xã,450,,2025-06-30,Q10810022,existing,verified,Q10810022,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4070123-base,18886,Xã Lộc Ninh,Xã,450,,2025-06-30,Q10788779,existing,verified,Q10788779,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4070125-base,18889,Xã Bảo Ninh,Xã,450,,2025-06-30,Q1989203,existing,verified,Q1989203,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-4070301-base,18949,Thị trấn Đồng Lê,Thị trấn,453,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4070301-base,18949,Thị trấn Đồng Lê,Thị trấn,453,,2025-06-30,Q142280144,new,manual,,predecessor CREATE batch #297096
 w-4070302-base,18967,Xã Lâm Hóa,Xã,453,,2025-06-30,Q6710831,existing,verified,Q6710831,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4070303-base,18952,Xã Hương Hóa,Xã,453,,2025-06-30,Q3942450,existing,verified,Q3942450,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4070305-base,18958,Xã Thanh Hóa,Xã,453,,2025-06-30,Q7710352,existing,verified,Q7710352,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -10287,7 +10287,7 @@ w-4070502-base,18904,Xã Dân Hóa,Xã,452,,2025-06-30,Q32266526,existing,verifi
 w-4070503-base,18916,Xã Hóa Thanh,Xã,452,,2024-11-30,,,deferred-historical,,
 w-4070505-base,18910,Xã Hóa Phúc,Xã,452,,2024-11-30,,,deferred-historical,,
 w-4070507-base,18913,Xã Hồng Hóa,Xã,452,,2025-06-30,Q5965451,existing,verified,Q5965451,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-4070509-base,18919,Xã Tân Thành,Xã,452,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4070509-base,18919,Xã Tân Thành,Xã,452,,2025-06-30,Q142280143,new,manual,,predecessor CREATE batch #297096
 w-4070511-base,18922,Xã Hóa Hợp,Xã,452,,2025-06-30,Q3943181,existing,verified,Q3943181,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4070513-base,18937,Xã Hóa Sơn,Xã,452,,2025-06-30,Q3943122,existing,verified,Q3943122,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4070515-base,18925,Xã Xuân Hóa,Xã,452,,2025-06-30,Q8045311,existing,verified,Q8045311,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -10297,7 +10297,7 @@ w-4070521-base,18943,Xã Trung Hóa,Xã,452,,2025-06-30,Q3943138,existing,verifi
 w-4070523-base,18931,Xã Minh Hóa,Xã,452,,2025-06-30,Q32283466,existing,verified,Q32283466,predecessor exact-geonames-gso-code+district-code+name+tier+coordinates
 w-4070525-base,18946,Xã Thượng Hóa,Xã,452,,2025-06-30,Q3943175,existing,verified,Q3943175,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4070527-base,18934,Xã Tân Hóa,Xã,452,,2025-06-30,Q3943116,existing,verified,Q3943116,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-4070701-base,19009,Phường Ba Đồn,Phường,458,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4070701-base,19009,Phường Ba Đồn,Phường,458,,2025-06-30,Q142280145,new,manual,,predecessor CREATE batch #297096
 w-4070703-base,19012,Xã Quảng Hợp,Xã,454,,2025-06-30,Q7273113,existing,verified,Q7273113,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4070705-base,19018,Xã Quảng Đông,Xã,454,,2025-06-30,Q7273124,existing,verified,Q7273124,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4070707-base,19015,Xã Quảng Kim,Xã,454,,2025-06-30,Q10810388,existing,verified,Q10810388,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -10315,11 +10315,11 @@ w-4070729-base,19078,Phường Quảng Phong,Phường,458,,2025-06-30,Q10810443
 w-4070731-base,19072,Xã Quảng Thanh,Xã,454,,2025-06-30,Q10810465,existing,verified,Q10810465,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4070733-base,19054,Xã Quảng Trường,Xã,454,,2020-01-31,,,deferred-historical,,
 w-4070735-base,19057,Xã Quảng Phương,Xã,454,,2025-06-30,Q7268857,existing,verified,Q7268857,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-4070737-base,19030,Xã Quảng Lưu,Xã,454,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4070737-base,19030,Xã Quảng Lưu,Xã,454,,2025-06-30,Q142280146,new,manual,,predecessor CREATE batch #297096
 w-4070739-base,19039,Xã Quảng Tiến,Xã,454,,2025-06-30,Q3943062,existing,verified,Q3943062,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4070741-base,19027,Xã Quảng Thạch,Xã,454,,2025-06-30,Q10810479,existing,verified,Q10810479,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4070743-base,19051,Xã Liên Trường,Xã,454,,2025-06-30,Q10810507,existing,verified,Q10810507,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-4070745-base,19063,Xã Phù Cảnh,Xã,454,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4070745-base,19063,Xã Phù Cảnh,Xã,454,,2025-06-30,Q142280147,new,manual,,predecessor CREATE batch #297096
 w-4070747-base,19048,Xã Cảnh Hóa,Xã,454,,2024-11-30,,,deferred-historical,,
 w-4070749-base,19069,Xã Quảng Tiên,Xã,458,,2025-06-30,Q10810496,existing,verified,Q3943062|Q10810496,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4070751-base,19075,Xã Quảng Trung,Xã,458,,2025-06-30,Q10810503,existing,verified,Q10810503,predecessor exact-folded-name+historical-district+ward-class+batched-wbgetentities
@@ -10327,18 +10327,18 @@ w-4070753-base,19096,Xã Quảng Thủy,Xã,458,,2025-06-30,Q32298509,existing,m
 w-4070755-base,19090,Xã Quảng Sơn,Xã,458,,2025-06-30,Q7273119,existing,verified,Q7273119,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4070757-base,19108,Xã Quảng Minh,Xã,458,,2025-06-30,Q10810421,existing,verified,Q10810421,predecessor exact-folded-name+historical-district+ward-class+batched-wbgetentities
 w-4070759-base,19105,Xã Quảng Hòa,Xã,458,,2025-06-30,Q16480102,existing,verified,Q16480102,predecessor exact-folded-name+historical-district+ward-class+batched-wbgetentities
-w-4070761-base,19093,Xã Quảng Lộc,Xã,458,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4070761-base,19093,Xã Quảng Lộc,Xã,458,,2025-06-30,Q142280148,new,manual,,predecessor CREATE batch #297096
 w-4070763-base,19084,Xã Quảng Tân,Xã,458,,2025-06-30,Q10810518,existing,verified,Q10810518,predecessor exact-folded-name+historical-district+ward-class+batched-wbgetentities
 w-4070765-base,19087,Xã Quảng Hải,Xã,458,,2025-06-30,Q10810378,existing,verified,Q10810378,predecessor exact-folded-name+historical-district+ward-class+batched-wbgetentities
 w-4070767-base,19099,Xã Quảng Văn,Xã,458,,2025-06-30,Q32580556,existing,verified,Q32580556,predecessor exact-vietnamese-name+exact-tier+historical-parent-or-successor-context+batched-wbgetentities
-w-4070901-base,19111,Thị trấn Hoàn Lão,Thị trấn,455,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
-w-4070903-base,19114,Thị trấn NT Việt Trung,Thị trấn,455,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
-w-4070905-base,19147,Xã Thượng Trạch,Xã,455,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4070901-base,19111,Thị trấn Hoàn Lão,Thị trấn,455,,2025-06-30,Q142280149,new,manual,,predecessor CREATE batch #297096
+w-4070903-base,19114,Thị trấn NT Việt Trung,Thị trấn,455,,2025-06-30,Q142280150,new,manual,,predecessor CREATE batch #297096
+w-4070905-base,19147,Xã Thượng Trạch,Xã,455,,2025-06-30,Q142280154,new,manual,,predecessor CREATE batch #297096
 w-4070907-base,19192,Xã Tân Trạch,Xã,455,,2025-06-30,Q7862104,existing,verified,Q7862104,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4070909-base,19138,Xã Phúc Trạch,Xã,455,,2025-06-30,Q7189891,existing,verified,Q7189891,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4070911-base,19129,Xã Lâm Trạch,Xã,455,,2025-06-30,Q3942512,existing,verified,Q3942512,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4070913-base,19117,Xã Xuân Trạch,Xã,455,,2025-06-30,Q8045318,existing,verified,Q8045318,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-4070915-base,19165,Thị trấn Phong Nha,Thị trấn,455,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4070915-base,19165,Thị trấn Phong Nha,Thị trấn,455,,2025-06-30,Q142280156,new,manual,,predecessor CREATE batch #297096
 w-4070917-base,19156,Xã Hưng Trạch,Xã,455,,2025-06-30,Q3942504,existing,verified,Q3942504,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4070919-base,19135,Xã Liên Trạch,Xã,455,,2025-06-30,Q3942522,existing,verified,Q3942522,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4070921-base,19141,Xã Cự Nẫm,Xã,455,,2025-06-30,Q10752812,existing,verified,Q10752812,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -10347,24 +10347,24 @@ w-4070925-base,19150,Xã Sơn Lộc,Xã,455,,2025-06-30,Q10823343,existing,verif
 w-4070927-base,19168,Xã Vạn Trạch,Xã,455,,2025-06-30,Q10834147,existing,verified,Q10834147,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4070929-base,19171,Xã Hoàn Trạch,Xã,455,,2020-01-31,,,deferred-historical,,
 w-4070931-base,19180,Xã Tây Trạch,Xã,455,,2025-06-30,Q10831089,existing,verified,Q10831089,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-4070933-base,19183,Xã Hòa Trạch,Xã,455,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4070933-base,19183,Xã Hòa Trạch,Xã,455,,2025-06-30,Q142280158,new,manual,,predecessor CREATE batch #297096
 w-4070935-base,19195,Xã Nam Trạch,Xã,455,,2024-11-30,,,deferred-historical,,
 w-4070937-base,19120,Xã Mỹ Trạch,Xã,455,,2024-11-30,,,deferred-historical,,
-w-4070939-base,19123,Xã Hạ Mỹ,Xã,455,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
-w-4070941-base,19126,Xã Bắc Trạch,Xã,455,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4070939-base,19123,Xã Hạ Mỹ,Xã,455,,2025-06-30,Q142280151,new,manual,,predecessor CREATE batch #297096
+w-4070941-base,19126,Xã Bắc Trạch,Xã,455,,2025-06-30,Q142280152,new,manual,,predecessor CREATE batch #297096
 w-4070943-base,19132,Xã Thanh Trạch,Xã,455,,2025-06-30,Q7710382,existing,verified,Q7710382,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-4070945-base,19144,Xã Hải Phú,Xã,455,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4070945-base,19144,Xã Hải Phú,Xã,455,,2025-06-30,Q142280153,new,manual,,predecessor CREATE batch #297096
 w-4070947-base,19153,Xã Phú Trạch,Xã,455,,2020-01-31,,,deferred-historical,,
 w-4070949-base,19162,Xã Đức Trạch,Xã,455,,2025-06-30,Q10842444,existing,verified,Q10842444,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-4070951-base,19159,Xã Đồng Trạch,Xã,455,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4070951-base,19159,Xã Đồng Trạch,Xã,455,,2025-06-30,Q142280155,new,manual,,predecessor CREATE batch #297096
 w-4070953-base,19177,Xã Trung Trạch,Xã,455,,2025-06-30,Q7847965,existing,verified,Q7847965,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4070955-base,19186,Xã Đại Trạch,Xã,455,,2025-06-30,Q10841168,existing,verified,Q10841168,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4070957-base,19189,Xã Nhân Trạch,Xã,455,,2025-06-30,Q2235067,existing,verified,Q2235067,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-4070959-base,19198,Xã Lý Nam,Xã,455,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4070959-base,19198,Xã Lý Nam,Xã,455,,2025-06-30,Q142280159,new,manual,,predecessor CREATE batch #297096
 w-4071101-base,19201,Thị trấn Quán Hàu,Thị trấn,456,,2024-11-30,,,deferred-historical,,
 w-4071102-base,19210,Xã Vĩnh Ninh,Xã,456,,2025-06-30,Q2221298,existing,verified,Q2221298,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4071103-base,19228,Xã Trường Xuân,Xã,456,,2025-06-30,Q7849237,existing,verified,Q7849237,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-4071105-base,19204,Xã Trường Sơn,Xã,456,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4071105-base,19204,Xã Trường Sơn,Xã,456,,2025-06-30,Q142280160,new,manual,,predecessor CREATE batch #297096
 w-4071107-base,19222,Xã Duy Ninh,Xã,456,,2025-06-30,Q1651284,existing,verified,Q1651284,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4071109-base,19219,Xã Hàm Ninh,Xã,456,,2025-06-30,Q8010890,existing,verified,Q8010890,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4071111-base,19231,Xã Hiền Ninh,Xã,456,,2025-06-30,Q5873090,existing,verified,Q5873090,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -10376,8 +10376,8 @@ w-4071121-base,19207,Xã Lương Ninh,Xã,456,,2024-11-30,,,deferred-historical,
 w-4071123-base,19213,Xã Võ Ninh,Xã,456,,2025-06-30,Q3969631,existing,verified,Q3969631,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4071125-base,19225,Xã Gia Ninh,Xã,456,,2025-06-30,Q3942440,existing,verified,Q3942440,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4071127-base,19216,Xã Hải Ninh,Xã,456,,2025-06-30,Q8010905,existing,verified,Q8010905,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-4071301-base,19249,Thị trấn Kiến Giang,Thị trấn,457,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
-w-4071303-base,19246,Thị trấn NT Lệ Ninh,Thị trấn,457,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4071301-base,19249,Thị trấn Kiến Giang,Thị trấn,457,,2025-06-30,Q142280162,new,manual,,predecessor CREATE batch #297096
+w-4071303-base,19246,Thị trấn NT Lệ Ninh,Thị trấn,457,,2025-06-30,Q142280161,new,manual,,predecessor CREATE batch #297096
 w-4071305-base,19318,Xã Kim Thủy,Xã,457,,2025-06-30,Q1626870,existing,verified,Q1626870,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4071307-base,19273,Xã Ngân Thủy,Xã,457,,2025-06-30,Q1626878,existing,verified,Q1626878,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4071308-base,19327,Xã Lâm Thủy,Xã,457,,2025-06-30,Q10787502,existing,verified,Q10787502,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -10392,7 +10392,7 @@ w-4071323-base,19264,Xã An Thủy,Xã,457,,2025-06-30,Q3348121,existing,verifie
 w-4071325-base,19300,Xã Xuân Thủy,Xã,457,,2025-06-30,Q8045320,existing,verified,Q8045320,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4071327-base,19267,Xã Phong Thủy,Xã,457,,2025-06-30,Q2248997,existing,verified,Q2248997,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4071329-base,19285,Xã Liên Thủy,Xã,457,,2025-06-30,Q3080379,existing,verified,Q3080379,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-4071331-base,19303,Xã Mỹ Thủy,Xã,457,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4071331-base,19303,Xã Mỹ Thủy,Xã,457,,2025-06-30,Q142280163,new,manual,,predecessor CREATE batch #297096
 w-4071333-base,19291,Xã Dương Thủy,Xã,457,,2025-06-30,Q3348102,existing,verified,Q3348102,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4071335-base,19294,Xã Tân Thủy,Xã,457,,2025-06-30,Q2235080,existing,verified,Q2235080,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4071337-base,19315,Xã Thái Thủy,Xã,457,,2025-06-30,Q2221238,existing,verified,Q2221238,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -10403,14 +10403,14 @@ w-4071345-base,19288,Xã Hưng Thủy,Xã,457,,2025-06-30,Q2221230,existing,veri
 w-4071347-base,19312,Xã Sen Thủy,Xã,457,,2025-06-30,Q2221220,existing,verified,Q2221220,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4071353-base,19255,Xã Ngư Thủy Bắc,Xã,457,,2025-06-30,Q7023305,existing,verified,Q7023305,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4090101-base,19333,Phường 1,Phường,461,,2025-06-30,Q10806569,existing,verified,Q10806569,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-4090103-base,19342,Phường 2,Phường,461,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4090103-base,19342,Phường 2,Phường,461,,2025-06-30,Q142280164,new,manual,,predecessor CREATE batch #297096
 w-4090105-base,19354,Phường 3,Phường,461,,2025-06-30,Q10806727,existing,verified,Q10806727,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4090107-base,19345,Phường 4,Phường,461,,2025-06-30,Q10806753,existing,verified,Q10806753,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4090109-base,19348,Phường 5,Phường,461,,2025-06-30,Q10806776,existing,verified,Q10806776,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4090111-base,19339,Phường Đông Thanh,Phường,461,,2025-06-30,Q10840843,existing,verified,Q10840843,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4090113-base,19330,Phường Đông Giang,Phường,461,,2025-06-30,Q10840713,existing,verified,Q10840713,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4090115-base,19336,Phường Đông Lễ,Phường,461,,2025-06-30,Q10840788,existing,verified,Q10840788,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-4090117-base,19351,Phường Đông Lương,Phường,461,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4090117-base,19351,Phường Đông Lương,Phường,461,,2025-06-30,Q142280165,new,manual,,predecessor CREATE batch #297096
 w-4090301-base,19357,Phường 1,Phường,462,,2025-06-30,Q10806570,existing,verified,Q2289898|Q10806570|Q20026130,predecessor exact-vietnamese-name+exact-tier+historical-parent-or-successor-context+batched-wbgetentities
 w-4090303-base,19360,Phường 2,Phường,462,,2025-06-30,Q10806686,existing,verified,Q2274458|Q2787467|Q5137044|Q10806661|Q10806683|Q10806684|Q10806686|Q24958260,predecessor exact-vietnamese-name+exact-tier+historical-parent-or-successor-context+batched-wbgetentities
 w-4090501-base,19363,Thị trấn Hồ Xá,Thị trấn,464,,2025-06-30,Q5874200,existing,verified,Q5874200,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -10428,7 +10428,7 @@ w-4090523-base,19384,Xã Kim Thạch,Xã,464,,2025-06-30,Q142279857,new,manual,,
 w-4090525-base,19405,Xã Vĩnh Lâm,Xã,464,,2025-06-30,Q10833597,existing,verified,Q10833597,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4090527-base,19399,Xã Vĩnh Hiền,Xã,464,,2019-12-31,,,deferred-historical,,
 w-4090529-base,19402,Xã Vĩnh Thủy,Xã,464,,2025-06-30,Q142279858,new,manual,,predecessor CREATE batch #297090
-w-4090531-base,19408,Xã Hiền Thành,Xã,464,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-4090531-base,19408,Xã Hiền Thành,Xã,464,,2025-06-30,Q142280166,new,manual,,predecessor CREATE batch #297096
 w-4090533-base,19417,Xã Vĩnh Hà,Xã,464,,2025-06-30,Q10833548,existing,verified,Q10833548,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4090535-base,19420,Xã Vĩnh Sơn,Xã,464,,2025-06-30,Q10833668,existing,verified,Q10833668,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-4090537-base,19411,Xã Vĩnh Tân,Xã,464,,2019-12-31,,,deferred-historical,,
@@ -10867,7 +10867,7 @@ w-5031541-base,20851,Xã Bình Nam,Xã,513,,2025-06-30,Q65171982,existing,verifi
 w-5031701-base,20641,Thị trấn Đông Phú,Thị trấn,509,,2025-06-30,Q142279862,new,manual,,predecessor CREATE batch #297090
 w-5031703-base,20674,Xã Quế Phước,Xã,519,,2024-12-31,,,deferred-historical,,
 w-5031705-base,20692,Xã Quế Lâm,Xã,509,,2025-06-30,Q2314666,existing,verified,Q2314666,predecessor exact-folded-name+historical-district+ward-class+batched-wbgetentities
-w-5031707-base,20668,Xã Ninh Phước,Xã,509,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-5031707-base,20668,Xã Ninh Phước,Xã,509,,2025-06-30,Q142280167,new,manual,,predecessor CREATE batch #297096
 w-5031709-base,20656,Thị trấn Trung Phước,Thị trấn,509,,2025-06-30,Q142279865,new,manual,,predecessor CREATE batch #297090
 w-5031711-base,20671,Xã Quế Lộc,Xã,509,,2025-06-30,Q2535075,existing,verified,Q2535075|Q32299108,predecessor unique-matching-viwiki-article+exact-tier+different-name-successor+batched-wbgetentities
 w-5031713-base,20683,Xã Quế Phong,Xã,509,,2025-06-30,Q14249826,existing,verified,Q14249826,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -11753,7 +11753,7 @@ w-6032103-base,24013,Xã Pờ Tó,Xã,635,,2025-06-30,Q142255641,new,manual,,pre
 w-6032105-base,24046,Xã Chư A Thai,Xã,638,,2025-06-30,Q142255643,new,manual,,predecessor CREATE batch #296722
 w-6032107-base,24052,Xã Ia Sol,Xã,638,,2025-06-30,Q10772584,existing,verified,Q10772584,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6032109-base,24016,Xã Chư Răng,Xã,635,,2025-06-30,Q10748667,existing,verified,Q10748667,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-6032110-base,24022,Xã Kim Tân,Xã,635,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-6032110-base,24022,Xã Kim Tân,Xã,635,,2025-06-30,Q142280169,new,manual,,predecessor CREATE batch #297096
 w-6032111-base,24025,Xã Chư Mố,Xã,635,,2025-06-30,Q10748660,existing,verified,Q10748660,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6032113-base,24028,Xã Ia Tul,Xã,635,,2025-06-30,Q32276860,existing,verified,Q32276860,predecessor exact-geonames-gso-code+district-code+name+tier+coordinates
 w-6032114-base,24034,Xã Ia Broăi,Xã,635,,2025-06-30,Q10772495,existing,verified,Q10772495,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -11761,12 +11761,12 @@ w-6032115-base,24055,Xã Ia Piar,Xã,638,,2025-06-30,Q10772564,existing,verified
 w-6032117-base,24031,Xã Ia Ma Rơn,Xã,635,,2025-06-30,Q10772544,existing,verified,Q10772544,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6032118-base,24019,Xã Ia KDăm,Xã,635,,2025-06-30,Q10772521,existing,verified,Q10772521,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6032119-base,24037,Xã Ia Trok,Xã,635,,2025-06-30,Q5980259,existing,verified,Q5980259,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-6032121-base,24061,Xã Ia Hiao,Xã,638,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-6032121-base,24061,Xã Ia Hiao,Xã,638,,2025-06-30,Q142280170,new,manual,,predecessor CREATE batch #297096
 w-6032123-base,24064,Xã Ia RBol,Xã,624,,2025-06-30,Q32276755,existing,manual,Q10772571|Q32276755,"predecessor review 2026-09-09.36: Q32276755 retains the exact former commune name and class, matching Ayun Pa-area coordinates, and GeoNames 8701247; Q10772571 owns the current Ia Rbol article and remains assigned to the 2025 successor"
 w-6032125-base,24067,Xã Ia Yeng,Xã,638,,2025-06-30,Q10772592,existing,verified,Q10772592,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6032127-base,24070,Xã Ia RTô,Xã,624,,2025-06-30,Q10772576,existing,verified,Q10772576,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6032128-base,24073,Xã Ia Sao,Xã,624,,2025-06-30,Q32276817,existing,manual,Q10772581|Q32276817,"predecessor review 2026-09-08.14: Q32276817 has the exact former commune alias, Ayun Pa-area coordinates, and GeoNames 8701246; Q10772581 owns the current Ia Sao article and remains assigned to the 2025 successor"
-w-6032301-base,24076,Thị trấn Phú Túc,Thị trấn,637,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-6032301-base,24076,Thị trấn Phú Túc,Thị trấn,637,,2025-06-30,Q142280171,new,manual,,predecessor CREATE batch #297096
 w-6032303-base,24079,Xã Ia RSai,Xã,637,,2025-06-30,Q32276780,existing,manual,Q32276780,"predecessor review 2026-09-11.73: Q32276780 carries GeoNames 8701231, the only Xã Ia Rsai record in Gia Lai, with Krông Pa coordinates"
 w-6032305-base,24082,Xã Ia RSươm,Xã,637,,2025-06-30,Q10772575,existing,verified,Q10772575,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6032307-base,24085,Xã Chư Gu,Xã,637,,2025-06-30,Q10748652,existing,verified,Q10748652,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -11777,44 +11777,44 @@ w-6032315-base,24097,Xã Phú Cần,Xã,637,,2025-06-30,Q10805912,existing,verif
 w-6032317-base,24100,Xã Ia HDreh,Xã,637,,2025-06-30,Q10772512,existing,verified,Q10772512,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6032319-base,24103,Xã Ia RMok,Xã,637,,2025-06-30,Q10772572,existing,verified,Q10772572,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6032321-base,24106,Xã Chư Ngọc,Xã,637,,2025-06-30,Q10748662,existing,verified,Q10748662,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-6032323-base,24109,Xã Uar,Xã,637,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-6032323-base,24109,Xã Uar,Xã,637,,2025-06-30,Q142280172,new,manual,,predecessor CREATE batch #297096
 w-6032325-base,24112,Xã Chư Rcăm,Xã,637,,2025-06-30,Q10748666,existing,verified,Q10748666,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6032327-base,24115,Xã Krông Năng,Xã,637,,2025-06-30,Q10781871,existing,verified,Q10781871,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-6050101-base,24118,Phường Tân Lập,Phường,643,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-6050101-base,24118,Phường Tân Lập,Phường,643,,2025-06-30,Q142280173,new,manual,,predecessor CREATE batch #297096
 w-6050103-base,24121,Phường Tân Hòa,Phường,643,,2025-06-30,Q10830459,existing,verified,Q10830459,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-6050105-base,24124,Phường Tân An,Phường,643,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-6050105-base,24124,Phường Tân An,Phường,643,,2025-06-30,Q142280174,new,manual,,predecessor CREATE batch #297096
 w-6050107-base,24127,Phường Thống Nhất,Phường,643,,2024-10-31,,,deferred-historical,,
-w-6050109-base,24130,Phường Thành Nhất,Phường,643,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-6050109-base,24130,Phường Thành Nhất,Phường,643,,2025-06-30,Q142280175,new,manual,,predecessor CREATE batch #297096
 w-6050111-base,24133,Phường Thành Công,Phường,643,,2025-06-30,Q10825541,existing,verified,Q10825541,predecessor qualified-label+terminal-district+ward-class+batched-wbgetentities
 w-6050113-base,24136,Phường Tân Lợi,Phường,643,,2025-06-30,Q10830654,existing,verified,Q10830654,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6050115-base,24139,Phường Thành Công,Phường,643,,2024-10-31,,,deferred-historical,,
 w-6050117-base,24142,Phường Tân Thành,Phường,643,,2025-06-30,Q10830819,existing,verified,Q10830819,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6050119-base,24145,Phường Tân Tiến,Phường,643,,2025-06-30,Q10830907,existing,verified,Q10830907,predecessor qualified-label+terminal-district+ward-class+batched-wbgetentities
-w-6050121-base,24148,Phường Tự An,Phường,643,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-6050121-base,24148,Phường Tự An,Phường,643,,2025-06-30,Q142280176,new,manual,,predecessor CREATE batch #297096
 w-6050123-base,24151,Phường Ea Tam,Phường,643,,2025-06-30,Q10757822,existing,verified,Q10757822,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6050125-base,24154,Phường Khánh Xuân,Phường,643,,2025-06-30,Q10779675,existing,verified,Q10779675,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6050127-base,24157,Xã Hòa Thuận,Xã,643,,2025-06-30,Q10771066,existing,verified,Q10771066,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6050129-base,24160,Xã Cư ÊBur,Xã,643,,2025-06-30,Q10752220,existing,verified,Q10752220,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6050131-base,24163,Xã Ea Tu,Xã,643,,2025-06-30,Q10757831,existing,verified,Q10757831,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6050133-base,24166,Xã Hòa Thắng,Xã,643,,2025-06-30,Q2228358,existing,verified,Q2228358,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-6050135-base,24169,Xã Ea Kao,Xã,643,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
-w-6050301-base,24181,Thị trấn Ea Drăng,Thị trấn,645,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
-w-6050303-base,24184,Xã Ea H'leo,Xã,645,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-6050135-base,24169,Xã Ea Kao,Xã,643,,2025-06-30,Q142280177,new,manual,,predecessor CREATE batch #297096
+w-6050301-base,24181,Thị trấn Ea Drăng,Thị trấn,645,,2025-06-30,Q142280179,new,manual,,predecessor CREATE batch #297096
+w-6050303-base,24184,Xã Ea H'leo,Xã,645,,2025-06-30,Q142280180,new,manual,,predecessor CREATE batch #297096
 w-6050305-base,24187,Xã Ea Sol,Xã,645,,2025-06-30,Q10757817,existing,verified,Q10757817,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6050307-base,24190,Xã Ea Ral,Xã,645,,2025-06-30,Q10757810,existing,verified,Q10757810,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-6050309-base,24193,Xã Ea Wy,Xã,645,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-6050309-base,24193,Xã Ea Wy,Xã,645,,2025-06-30,Q142280181,new,manual,,predecessor CREATE batch #297096
 w-6050311-base,24196,Xã Cư Mốt,Xã,645,,2025-06-30,Q10752209,existing,verified,Q10752209,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-6050313-base,24199,Xã Ea Hiao,Xã,645,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-6050313-base,24199,Xã Ea Hiao,Xã,645,,2025-06-30,Q142280182,new,manual,,predecessor CREATE batch #297096
 w-6050315-base,24202,Xã Ea Khal,Xã,645,,2025-06-30,Q142279946,new,manual,,predecessor CREATE batch #297090
 w-6050317-base,24205,Xã Dliê Yang,Xã,645,,2025-06-30,Q10756047,existing,verified,Q10756047,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6050319-base,24208,Xã Ea Nam,Xã,645,,2025-06-30,Q10757799,existing,verified,Q10757799,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-6050501-base,24211,Thị trấn Ea Súp,Thị trấn,646,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
-w-6050502-base,24214,Xã Ia Lốp,Xã,646,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
-w-6050503-base,24217,Xã Ea Rốk,Xã,646,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-6050501-base,24211,Thị trấn Ea Súp,Thị trấn,646,,2025-06-30,Q142280183,new,manual,,predecessor CREATE batch #297096
+w-6050502-base,24214,Xã Ia Lốp,Xã,646,,2025-06-30,Q142280184,new,manual,,predecessor CREATE batch #297096
+w-6050503-base,24217,Xã Ea Rốk,Xã,646,,2025-06-30,Q142280185,new,manual,,predecessor CREATE batch #297096
 w-6050504-base,24220,Xã Ya Tờ Mốt,Xã,646,,2025-06-30,Q10836785,existing,verified,Q10836785,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6050505-base,24223,Xã Ea Lê,Xã,646,,2025-06-30,Q10757793,existing,verified,Q10757793,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6050506-base,24226,Xã Cư KBang,Xã,646,,2025-06-30,Q10752199,existing,verified,Q10752199,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-6050507-base,24229,Xã Ea Bung,Xã,646,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-6050507-base,24229,Xã Ea Bung,Xã,646,,2025-06-30,Q142280187,new,manual,,predecessor CREATE batch #297096
 w-6050509-base,24232,Xã Cư M'Lan,Xã,646,,2025-06-30,Q10752207,existing,verified,Q10752207,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6050701-base,24343,Thị trấn Krông Năng,Thị trấn,650,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
 w-6050702-base,24346,Xã ĐLiê Ya,Xã,650,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
@@ -11837,17 +11837,17 @@ w-6050915-base,24331,Phường Thống Nhất,Phường,644,,2025-06-30,Q1082659
 w-6050917-base,24334,Xã Ea Siên,Xã,644,,2025-06-30,Q10757816,existing,verified,Q10757816,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6050919-base,24337,Xã Bình Thuận,Xã,644,,2025-06-30,Q10742549,existing,verified,Q10742549,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6050921-base,24340,Xã Cư Bao,Xã,644,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
-w-6051101-base,24235,Xã Krông Na,Xã,647,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-6051101-base,24235,Xã Krông Na,Xã,647,,2025-06-30,Q142280188,new,manual,,predecessor CREATE batch #297096
 w-6051103-base,24238,Xã Ea Huar,Xã,647,,2025-06-30,Q5324857,existing,verified,Q5324857,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-6051105-base,24241,Xã Ea Wer,Xã,647,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-6051105-base,24241,Xã Ea Wer,Xã,647,,2025-06-30,Q142280189,new,manual,,predecessor CREATE batch #297096
 w-6051106-base,24244,Xã Tân Hoà,Xã,647,,2025-06-30,Q7862063,existing,verified,Q7862063,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6051107-base,24247,Xã Cuôr KNia,Xã,647,,2025-06-30,Q5197137,existing,verified,Q5197137,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6051109-base,24250,Xã Ea Bar,Xã,647,,2025-06-30,Q5324852,existing,verified,Q5324852,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-6051111-base,24253,Xã Ea Nuôl,Xã,647,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-6051111-base,24253,Xã Ea Nuôl,Xã,647,,2025-06-30,Q142280190,new,manual,,predecessor CREATE batch #297096
 w-6051301-base,24256,Thị trấn Ea Pốk,Thị trấn,648,,2025-06-30,Q10757808,existing,verified,Q10757808,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-6051303-base,24259,Thị trấn Quảng Phú,Thị trấn,648,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-6051303-base,24259,Thị trấn Quảng Phú,Thị trấn,648,,2025-06-30,Q142280191,new,manual,,predecessor CREATE batch #297096
 w-6051305-base,24262,Xã Quảng Tiến,Xã,648,,2025-06-30,Q10810498,existing,verified,Q10810498,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-6051307-base,24265,Xã Ea Kiết,Xã,648,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-6051307-base,24265,Xã Ea Kiết,Xã,648,,2025-06-30,Q142280193,new,manual,,predecessor CREATE batch #297096
 w-6051309-base,24268,Xã Ea Tar,Xã,648,,2025-06-30,Q10757825,existing,verified,Q10757825,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6051311-base,24271,Xã Cư Dliê M'nông,Xã,648,,2025-06-30,Q11840135,existing,verified,Q11840135,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6051313-base,24274,Xã Ea H'đinh,Xã,648,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
@@ -11859,7 +11859,7 @@ w-6051323-base,24292,Xã Ea D'Rơng,Xã,648,,2025-06-30,Q10757764,existing,verif
 w-6051325-base,24295,Xã Ea M'nang,Xã,648,,2025-06-30,Q10757797,existing,verified,Q10757797,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6051327-base,24298,Xã Cư Suê,Xã,648,,2025-06-30,Q10752216,existing,verified,Q10752216,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6051329-base,24301,Xã Cuor Đăng,Xã,648,,2025-06-30,Q142255649,new,manual,,predecessor CREATE batch #296722
-w-6051501-base,24373,Thị trấn Ea Kar,Thị trấn,651,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-6051501-base,24373,Thị trấn Ea Kar,Thị trấn,651,,2025-06-30,Q142280194,new,manual,,predecessor CREATE batch #297096
 w-6051503-base,24376,Thị trấn Ea Knốp,Thị trấn,651,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
 w-6051505-base,24379,Xã Ea Sô,Xã,651,,2025-06-30,Q10757818,existing,verified,Q10757818,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6051507-base,24382,Xã Xuân Phú,Xã,651,,2025-06-30,Q10835032,existing,verified,Q10835032,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -11906,7 +11906,7 @@ w-6052105-base,24649,Xã Nam Dong,Xã,662,,2025-06-30,Q142255666,new,manual,,pre
 w-6052107-base,24178,Xã Hòa Xuân,Xã,643,,2025-06-30,Q142255645,new,manual,,predecessor CREATE batch #296722
 w-6052109-base,24652,Xã Đắk DRông,Xã,662,,2025-06-30,Q10841423,existing,verified,Q10841423,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6052111-base,24175,Xã Hòa Khánh,Xã,643,,2025-06-30,Q10770972,existing,verified,Q10770972,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-6052113-base,24172,Xã Hòa Phú,Xã,643,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-6052113-base,24172,Xã Hòa Phú,Xã,643,,2025-06-30,Q142280178,new,manual,,predecessor CREATE batch #297096
 w-6052115-base,24655,Xã Tâm Thắng,Xã,662,,2025-06-30,Q16480516,existing,verified,Q16480516,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6052116-base,24658,Xã Cư Knia,Xã,662,,2025-06-30,Q10752203,existing,verified,Q10752203,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6052117-base,24661,Xã Trúc Sơn,Xã,662,,2025-06-30,Q10828658,existing,verified,Q10828658,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -11916,7 +11916,7 @@ w-6052305-base,24544,Xã Ea Ktur,Xã,657,,2025-06-30,,new,gap,,provisional prede
 w-6052307-base,24547,Xã Ea Tiêu,Xã,657,,2025-06-30,Q10757828,existing,verified,Q10757828,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6052309-base,24550,Xã Ea BHốk,Xã,657,,2025-06-30,Q10757757,existing,verified,Q10757757,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6052311-base,24553,Xã Ea Hu,Xã,657,,2025-06-30,Q10757774,existing,verified,Q10757774,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-6052313-base,24559,Xã Ea Na,Xã,655,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-6052313-base,24559,Xã Ea Na,Xã,655,,2025-06-30,Q142280195,new,manual,,predecessor CREATE batch #297096
 w-6052315-base,24562,Xã Hòa Hiệp,Xã,657,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
 w-6052317-base,24565,Xã Ea Bông,Xã,655,,2025-06-30,Q10757763,existing,verified,Q10757763,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-6052319-base,24571,Xã Dur KMăl,Xã,655,,2025-06-30,Q142255655,new,manual,,predecessor CREATE batch #296722
@@ -13447,31 +13447,31 @@ w-8050715-base,30397,Xã Châu Phong,Xã,887,,2025-06-30,Q142256332,new,manual,,
 w-8050717-base,30400,Xã Phú Vĩnh,Xã,887,,2025-06-30,Q2943519,existing,verified,Q2943519,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8050719-base,30403,Xã Lê Chánh,Xã,887,,2025-06-30,Q1937076,existing,verified,Q1937076,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8050901-base,30406,Thị trấn Phú Mỹ,Thị trấn,888,,2025-06-30,Q142256333,new,manual,,predecessor CREATE batch #296722
-w-8050903-base,30409,Thị trấn Chợ Vàm,Thị trấn,888,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8050903-base,30409,Thị trấn Chợ Vàm,Thị trấn,888,,2025-06-30,Q142280210,new,manual,,predecessor CREATE batch #297096
 w-8050905-base,30412,Phường Long Sơn,Phường,887,,2025-06-30,Q2340743,existing,verified,Q2340743,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8050907-base,30418,Xã Phú Long,Xã,888,,2025-06-30,Q2763828,existing,verified,Q2763828,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-8050909-base,30421,Xã Phú Lâm,Xã,888,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8050909-base,30421,Xã Phú Lâm,Xã,888,,2025-06-30,Q142280211,new,manual,,predecessor CREATE batch #297096
 w-8050911-base,30424,Xã Phú Hiệp,Xã,888,,2025-06-30,Q7189867,existing,verified,Q7189867,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8050913-base,30427,Xã Phú Thạnh,Xã,888,,2025-06-30,Q2314900,existing,verified,Q2314900,predecessor broad exact-vi-name+terminal-district+ward-class+batched-wbgetentities
-w-8050915-base,30430,Xã Hoà Lạc,Xã,888,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8050915-base,30430,Xã Hoà Lạc,Xã,888,,2025-06-30,Q142280212,new,manual,,predecessor CREATE batch #297096
 w-8050917-base,30433,Xã Phú Thành,Xã,888,,2025-06-30,Q2795899,existing,verified,Q2795899,predecessor broad exact-vi-name+terminal-district+ward-class+batched-wbgetentities
-w-8050919-base,30436,Xã Phú An,Xã,888,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8050919-base,30436,Xã Phú An,Xã,888,,2025-06-30,Q142280213,new,manual,,predecessor CREATE batch #297096
 w-8050921-base,30439,Xã Phú Xuân,Xã,888,,2025-06-30,Q7189887,existing,verified,Q7189887,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8050923-base,30442,Xã Hiệp Xương,Xã,888,,2025-06-30,Q2669499,existing,verified,Q2669499,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8050925-base,30445,Xã Phú Bình,Xã,888,,2025-06-30,Q2294777,existing,verified,Q2294777,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8050927-base,30448,Xã Phú Thọ,Xã,888,,2025-06-30,Q2539078,existing,verified,Q2539078,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8050929-base,30451,Xã Phú Hưng,Xã,888,,2025-06-30,Q2792852,existing,verified,Q2792852,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-8050931-base,30454,Xã Bình Thạnh Đông,Xã,888,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8050931-base,30454,Xã Bình Thạnh Đông,Xã,888,,2025-06-30,Q142280214,new,manual,,predecessor CREATE batch #297096
 w-8050933-base,30457,Xã Tân Hòa,Xã,888,,2025-06-30,Q2347695,existing,verified,Q2347695,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-8051101-base,30463,Thị trấn Cái Dầu,Thị trấn,889,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8051101-base,30463,Thị trấn Cái Dầu,Thị trấn,889,,2025-06-30,Q142280215,new,manual,,predecessor CREATE batch #297096
 w-8051103-base,30466,Xã Khánh Hòa,Xã,889,,2025-06-30,Q4581371,existing,verified,Q4581371,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-8051105-base,30469,Xã Mỹ Đức,Xã,889,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8051105-base,30469,Xã Mỹ Đức,Xã,889,,2025-06-30,Q142280216,new,manual,,predecessor CREATE batch #297096
 w-8051107-base,30472,Xã Mỹ Phú,Xã,889,,2025-06-30,Q1844706,existing,verified,Q1844706,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8051109-base,30475,Xã Ô Long Vỹ,Xã,889,,2025-06-30,Q2564726,existing,verified,Q2564726,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-8051111-base,30478,Thị trấn Vĩnh Thạnh Trung,Thị trấn,889,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8051111-base,30478,Thị trấn Vĩnh Thạnh Trung,Thị trấn,889,,2025-06-30,Q142280217,new,manual,,predecessor CREATE batch #297096
 w-8051113-base,30484,Xã Bình Long,Xã,889,,2025-06-30,Q2746523,existing,verified,Q2746523,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-8051115-base,30481,Xã Thạnh Mỹ Tây,Xã,889,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
-w-8051117-base,30487,Xã Bình Mỹ,Xã,889,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8051115-base,30481,Xã Thạnh Mỹ Tây,Xã,889,,2025-06-30,Q142280218,new,manual,,predecessor CREATE batch #297096
+w-8051117-base,30487,Xã Bình Mỹ,Xã,889,,2025-06-30,Q142280219,new,manual,,predecessor CREATE batch #297096
 w-8051119-base,30490,Xã Bình Thủy,Xã,889,,2025-06-30,Q10742588,existing,verified,Q10742588,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8051121-base,30493,Xã Đào Hữu Cảnh,Xã,889,,2025-06-30,Q2103409,existing,verified,Q2103409,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8051123-base,30496,Xã Bình Phú,Xã,889,,2025-06-30,Q2641615,existing,verified,Q2641615,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -13480,16 +13480,16 @@ w-8051301-base,30502,Phường Nhà Bàng,Phường,890,,2025-06-30,Q2777003,exi
 w-8051303-base,30505,Phường Chi Lăng,Phường,890,,2025-06-30,Q142280044,new,manual,,predecessor CREATE batch #297090
 w-8051305-base,30511,Phường Nhơn Hưng,Phường,890,,2025-06-30,Q2486140,existing,verified,Q2486140,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8051307-base,30514,Phường An Phú,Phường,890,,2025-06-30,Q10733289,existing,verified,Q10733289,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-8051309-base,30517,Phường Thới Sơn,Phường,890,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
-w-8051311-base,30520,Phường Tịnh Biên,Phường,890,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8051309-base,30517,Phường Thới Sơn,Phường,890,,2025-06-30,Q142280220,new,manual,,predecessor CREATE batch #297096
+w-8051311-base,30520,Phường Tịnh Biên,Phường,890,,2025-06-30,Q142280221,new,manual,,predecessor CREATE batch #297096
 w-8051313-base,30523,Xã Văn Giáo,Xã,890,,2025-06-30,Q2046620,existing,verified,Q2046620,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-8051315-base,30526,Xã An Cư,Xã,890,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8051315-base,30526,Xã An Cư,Xã,890,,2025-06-30,Q142280222,new,manual,,predecessor CREATE batch #297096
 w-8051317-base,30529,Xã An Nông,Xã,890,,2025-06-30,Q2195898,existing,verified,Q2195898,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8051319-base,30532,Xã Vĩnh Trung,Xã,890,,2025-06-30,Q1914248,existing,verified,Q1914248,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8051321-base,30535,Xã Tân Lợi,Xã,890,,2025-06-30,Q5258919,existing,verified,Q5258919,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8051323-base,30538,Xã An Hảo,Xã,890,,2025-06-30,Q142256334,new,manual,,predecessor CREATE batch #296722
 w-8051325-base,30541,Xã Tân Lập,Xã,890,,2025-06-30,Q2794200,existing,verified,Q2794200,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-8051501-base,30544,Thị trấn Tri Tôn,Thị trấn,891,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8051501-base,30544,Thị trấn Tri Tôn,Thị trấn,891,,2025-06-30,Q142280223,new,manual,,predecessor CREATE batch #297096
 w-8051503-base,30550,Xã Lạc Quới,Xã,891,,2025-06-30,Q2262988,existing,verified,Q2262988,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8051505-base,30553,Xã Lê Trì,Xã,891,,2025-06-30,Q2347249,existing,verified,Q2347249,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8051507-base,30556,Xã Vĩnh Gia,Xã,891,,2025-06-30,Q142256337,new,manual,,predecessor CREATE batch #296722
@@ -13720,20 +13720,20 @@ w-8090109-base,29545,Phường 5,Phường,855,,2025-06-30,Q10806774,existing,ve
 w-8090111-base,29560,Phường 8,Phường,855,,2025-06-30,Q10806838,existing,verified,Q10806838,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8090113-base,29542,Phường 9,Phường,855,,2025-06-30,Q10806857,existing,verified,Q10806857,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8090115-base,29572,Phường Trường An,Phường,855,,2025-06-30,Q10828777,existing,manual,Q10828776|Q10828777,"predecessor review 2026-09-11.69: Q10828777 is described as a ward of thành phố Vĩnh Long and has matching city coordinates; its same-batch sibling Q10828776 covers the Thuận Hóa namesake, and only two units carry the name"
-w-8090117-base,29563,Phường Tân Ngãi,Phường,855,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8090117-base,29563,Phường Tân Ngãi,Phường,855,,2025-06-30,Q142280198,new,manual,,predecessor CREATE batch #297096
 w-8090119-base,29566,Phường Tân Hòa,Phường,855,,2025-06-30,Q10830478,existing,verified,Q10830478,predecessor broad exact-vi-name+terminal-district+ward-class+batched-wbgetentities
 w-8090121-base,29569,Phường Tân Hội,Phường,855,,2025-06-30,Q10830542,existing,verified,Q10830542,predecessor broad exact-vi-name+terminal-district+ward-class+batched-wbgetentities
 w-8090301-base,29575,Thị trấn Long Hồ,Thị trấn,857,,2024-10-31,,,deferred-historical,,
 w-8090303-base,29578,Xã Đồng Phú,Xã,857,,2025-06-30,Q10841979,existing,verified,Q10841979,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8090305-base,29584,Xã Hòa Ninh,Xã,857,,2025-06-30,Q10771030,existing,verified,Q10771030,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8090307-base,29581,Xã Bình Hòa Phước,Xã,857,,2025-06-30,Q10742410,existing,verified,Q10742410,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-8090309-base,29587,Xã An Bình,Xã,857,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8090309-base,29587,Xã An Bình,Xã,857,,2025-06-30,Q142280199,new,manual,,predecessor CREATE batch #297096
 w-8090311-base,29590,Xã Thanh Đức,Xã,857,,2025-06-30,Q142280043,new,manual,,predecessor CREATE batch #297090
-w-8090313-base,29593,Xã Tân Hạnh,Xã,857,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8090313-base,29593,Xã Tân Hạnh,Xã,857,,2025-06-30,Q142280200,new,manual,,predecessor CREATE batch #297096
 w-8090315-base,29599,Xã Long Phước,Xã,857,,2025-06-30,Q10786887,existing,verified,Q10786887,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-8090317-base,29596,Xã Phước Hậu,Xã,857,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8090317-base,29596,Xã Phước Hậu,Xã,857,,2025-06-30,Q142280201,new,manual,,predecessor CREATE batch #297096
 w-8090319-base,29605,Xã Lộc Hòa,Xã,857,,2025-06-30,Q10788761,existing,verified,Q10788761,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-8090321-base,29602,Thị trấn Long Hồ,Thị trấn,857,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8090321-base,29602,Thị trấn Long Hồ,Thị trấn,857,,2025-06-30,Q142280202,new,manual,,predecessor CREATE batch #297096
 w-8090323-base,29614,Xã Thạnh Quới,Xã,857,,2025-06-30,Q10826296,existing,verified,Q10826296,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8090325-base,29611,Xã Phú Quới,Xã,857,,2025-06-30,Q32293945,existing,manual,Q10806058|Q32293945,"predecessor review 2026-09-11.60: Q32293945 is a GeoNames-imported exact-name commune item whose GeoNames 8312525 coordinates match the former Phú Quới in Long Hồ; Q10806058 owns the current article documenting the 2025 merger of Phú Quới with Lộc Hòa, Hòa Phú, and Thạnh Quới"
 w-8090327-base,29617,Xã Hòa Phú,Xã,857,,2025-06-30,Q10771047,existing,verified,Q10771047,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -13742,15 +13742,15 @@ w-8090501-base,29620,Thị trấn Cái Nhum,Thị trấn,858,,2020-01-31,,,defer
 w-8090503-base,29623,Xã Mỹ An,Xã,858,,2025-06-30,Q10796685,existing,verified,Q10796685,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8090505-base,29635,Xã Long Mỹ,Xã,858,,2025-06-30,Q10786872,existing,verified,Q10786872,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8090507-base,29638,Xã Hòa Tịnh,Xã,858,,2025-06-30,Q10771128,existing,verified,Q10771128,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-8090509-base,29644,Xã Bình Phước,Xã,858,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8090509-base,29644,Xã Bình Phước,Xã,858,,2025-06-30,Q142280204,new,manual,,predecessor CREATE batch #297096
 w-8090511-base,29632,Xã Nhơn Phú,Xã,858,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
 w-8090513-base,29626,Xã Mỹ Phước,Xã,858,,2025-06-30,Q10796816,existing,verified,Q10796816,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-8090515-base,29641,Thị trấn Cái Nhum,Thị trấn,858,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8090515-base,29641,Thị trấn Cái Nhum,Thị trấn,858,,2025-06-30,Q142280203,new,manual,,predecessor CREATE batch #297096
 w-8090517-base,29629,Xã An Phước,Xã,858,,2025-06-30,Q10733298,existing,verified,Q10733298,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8090519-base,29647,Xã Chánh An,Xã,858,,2025-06-30,Q10748159,existing,verified,Q10748159,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8090521-base,29653,Xã Tân Long,Xã,858,,2025-06-30,Q10830589,existing,verified,Q10830589,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8090523-base,29650,Xã Tân An Hội,Xã,858,,2025-06-30,Q10830352,existing,verified,Q10830352,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-8090525-base,29656,Xã Tân Long Hội,Xã,858,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8090525-base,29656,Xã Tân Long Hội,Xã,858,,2025-06-30,Q142280205,new,manual,,predecessor CREATE batch #297096
 w-8090701-base,29770,Phường Cái Vồn,Phường,861,,2025-06-30,Q142256224,new,manual,,predecessor CREATE batch #296722
 w-8090703-base,29788,Xã Nguyễn Văn Thảnh,Xã,863,,2025-06-30,Q10799992,existing,verified,Q10799992,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8090705-base,29776,Xã Tân Thành,Xã,863,,2025-06-30,Q10830820,existing,verified,Q10830820,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -13793,7 +13793,7 @@ w-8091109-base,29833,Xã Thới Hòa,Xã,862,,2025-06-30,Q10826638,existing,veri
 w-8091111-base,29842,Xã Hựu Thành,Xã,862,,2025-06-30,Q10772461,existing,verified,Q10772461,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8091113-base,29848,Xã Thuận Thới,Xã,862,,2025-06-30,Q10825477,existing,verified,Q10825477,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8091115-base,29836,Xã Trà Côn,Xã,862,,2025-06-30,Q142256233,new,manual,,predecessor CREATE batch #296722
-w-8091117-base,29845,Xã Vĩnh Xuân,Xã,862,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8091117-base,29845,Xã Vĩnh Xuân,Xã,862,,2025-06-30,Q142280209,new,manual,,predecessor CREATE batch #297096
 w-8091119-base,29854,Xã Thiện Mỹ,Xã,862,,2024-10-31,,,deferred-historical,,
 w-8091121-base,29839,Xã Tân Mỹ,Xã,862,,2025-06-30,Q10830681,existing,verified,Q10830681,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8091123-base,29860,Xã Tích Thiện,Xã,862,,2025-06-30,Q10831144,existing,verified,Q10831144,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -13801,8 +13801,8 @@ w-8091125-base,29857,Xã Lục Sỹ Thành,Xã,862,,2025-06-30,Q142256234,new,ma
 w-8091127-base,29851,Xã Phú Thành,Xã,862,,2025-06-30,Q10806092,existing,verified,Q10806092,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8091301-base,29659,Thị trấn Vũng Liêm,Thị trấn,859,,2025-06-30,Q10833977,existing,verified,Q10833977,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8091303-base,29662,Xã Tân Quới Trung,Xã,859,,2025-06-30,Q10830781,existing,verified,Q10830781,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-8091305-base,29668,Xã Quới An,Xã,859,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
-w-8091307-base,29665,Xã Quới Thiện,Xã,859,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8091305-base,29668,Xã Quới An,Xã,859,,2025-06-30,Q142280207,new,manual,,predecessor CREATE batch #297096
+w-8091307-base,29665,Xã Quới Thiện,Xã,859,,2025-06-30,Q142280206,new,manual,,predecessor CREATE batch #297096
 w-8091309-base,29671,Xã Trung Chánh,Xã,859,,2025-06-30,Q10828281,existing,verified,Q10828281,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8091311-base,29683,Xã Trung Hiệp,Xã,859,,2025-06-30,Q142256214,new,manual,,predecessor CREATE batch #296722
 w-8091313-base,29677,Xã Thanh Bình,Xã,859,,2025-06-30,Q10824720,existing,verified,Q10824720,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -13812,7 +13812,7 @@ w-8091319-base,29686,Xã Hiếu Phụng,Xã,859,,2025-06-30,,new,gap,,provisiona
 w-8091321-base,29689,Xã Trung Thành Đông,Xã,859,,2025-06-30,Q10828385,existing,verified,Q10828385,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8091323-base,29695,Xã Trung Hiếu,Xã,859,,2025-06-30,Q20025165,existing,verified,Q20025165,predecessor qualified-label+terminal-district+ward-class+batched-wbgetentities
 w-8091325-base,29692,Xã Trung Thành,Xã,859,,2025-06-30,Q142256215,new,manual,,predecessor CREATE batch #296722
-w-8091327-base,29698,Xã Trung Ngãi,Xã,859,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8091327-base,29698,Xã Trung Ngãi,Xã,859,,2025-06-30,Q142280208,new,manual,,predecessor CREATE batch #297096
 w-8091329-base,29704,Xã Trung Nghĩa,Xã,859,,2025-06-30,Q10828348,existing,verified,Q10828348,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8091331-base,29701,Xã Hiếu Thuận,Xã,859,,2025-06-30,Q10767627,existing,verified,Q10767627,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8091333-base,29710,Xã Hiếu Nhơn,Xã,859,,2025-06-30,Q10767623,existing,verified,Q10767623,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -14238,7 +14238,7 @@ w-8170503-base,29377,Xã Đa Lộc,Xã,847,,2025-06-30,Q10840026,existing,verifi
 w-8170504-base,29380,Xã Mỹ Chánh,Xã,847,,2025-06-30,Q10796705,existing,verified,Q10796705,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8170505-base,29383,Xã Thanh Mỹ,Xã,847,,2025-06-30,Q10824838,existing,verified,Q10824838,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8170507-base,29389,Xã Lương Hòa,Xã,847,,2025-06-30,Q10788328,existing,manual,Q10788328|Q10788330,"predecessor review 2026-09-10.48: Q10788328 retains the former Châu Thành, Trà Vinh parent and historical coordinates; Q10788330 owns the current Lương Hòa, Vĩnh Long article in the separate Giồng Trôm lineage"
-w-8170509-base,29392,Xã Song Lộc,Xã,847,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8170509-base,29392,Xã Song Lộc,Xã,847,,2025-06-30,Q142280196,new,manual,,predecessor CREATE batch #297096
 w-8170511-base,29395,Xã Nguyệt Hóa,Xã,847,,2025-06-30,Q142280040,new,manual,,predecessor CREATE batch #297090
 w-8170513-base,29398,Xã Hòa Thuận,Xã,847,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
 w-8170515-base,29401,Xã Hòa Lợi,Xã,847,,2025-06-30,Q10771000,existing,verified,Q10771000,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -14299,7 +14299,7 @@ w-8171325-base,29506,Xã Long Hiệp,Xã,849,,2025-06-30,,new,gap,,provisional p
 w-8171327-base,29509,Xã Tân Hiệp,Xã,849,,2025-06-30,Q10830440,existing,verified,Q10830440,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8171501-base,29512,Phường 1,Phường,851,,2025-06-30,Q20026130,existing,verified,Q2289898|Q10806570|Q20026130,predecessor exact-vietnamese-name+exact-tier+historical-parent-or-successor-context+batched-wbgetentities
 w-8171503-base,29515,Xã Long Toàn,Xã,851,,2025-06-30,Q10786934,existing,verified,Q10786934,predecessor exact-vietnamese-name+exact-tier+historical-parent-or-successor-context+batched-wbgetentities
-w-8171505-base,29518,Xã Long Hữu,Xã,851,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8171505-base,29518,Xã Long Hữu,Xã,851,,2025-06-30,Q142280197,new,manual,,predecessor CREATE batch #297096
 w-8171507-base,29521,Xã Long Khánh,Xã,850,,2025-06-30,Q10786862,existing,verified,Q10786862,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8171509-base,29524,Xã Dân Thành,Xã,851,,2025-06-30,Q10757355,existing,verified,Q10757355|Q32266570,predecessor unique-matching-viwiki-article+exact-tier+different-name-successor+batched-wbgetentities
 w-8171511-base,29527,Xã Trường Long Hòa,Xã,851,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
@@ -14480,47 +14480,47 @@ w-8230301-base,32065,Thị trấn Thới Bình,Thị trấn,967,,2025-06-30,Q779
 w-8230303-base,32074,Xã Biển Bạch Đông,Xã,967,,2025-06-30,Q4919483,existing,verified,Q4919483,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8230305-base,32068,Xã Biển Bạch,Xã,967,,2025-06-30,Q142256641,new,manual,,predecessor CREATE batch #296722
 w-8230307-base,32071,Xã Trí Phải,Xã,967,,2025-06-30,Q142256643,new,manual,,predecessor CREATE batch #296722
-w-8230309-base,32080,Xã Tân Phú,Xã,967,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8230309-base,32080,Xã Tân Phú,Xã,967,,2025-06-30,Q142280224,new,manual,,predecessor CREATE batch #297096
 w-8230311-base,32077,Xã Thới Bình,Xã,967,,2025-06-30,Q142256644,new,manual,,predecessor CREATE batch #296722
 w-8230312-base,32083,Xã Tân Lộc Bắc,Xã,967,,2025-06-30,Q10830649,existing,verified,Q10830649,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8230313-base,32086,Xã Tân Lộc,Xã,967,,2025-06-30,Q142280046,new,manual,,predecessor CREATE batch #297090
 w-8230314-base,32089,Xã Tân Lộc Đông,Xã,967,,2025-06-30,Q10830652,existing,verified,Q10830652,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-8230315-base,32092,Xã Hồ Thị Kỷ,Xã,967,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8230315-base,32092,Xã Hồ Thị Kỷ,Xã,967,,2025-06-30,Q142280225,new,manual,,predecessor CREATE batch #297096
 w-8230501-base,32044,Thị trấn U Minh,Thị trấn,966,,2025-06-30,Q142256636,new,manual,,predecessor CREATE batch #296722
 w-8230503-base,32053,Xã Nguyễn Phích,Xã,966,,2025-06-30,Q142256638,new,manual,,predecessor CREATE batch #296722
 w-8230505-base,32047,Xã Khánh Hòa,Xã,966,,2025-06-30,Q6403512,existing,verified,Q6403512,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8230507-base,32050,Xã Khánh Tiến,Xã,966,,2025-06-30,Q6403524,existing,verified,Q6403524,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8230509-base,32056,Xã Khánh Lâm,Xã,966,,2025-06-30,Q142256639,new,manual,,predecessor CREATE batch #296722
 w-8230511-base,32059,Xã Khánh An,Xã,966,,2025-06-30,Q142256640,new,manual,,predecessor CREATE batch #296722
-w-8230701-base,32095,Thị trấn Trần Văn Thời,Thị trấn,968,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
-w-8230703-base,32098,Thị trấn Sông Đốc,Thị trấn,968,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8230701-base,32095,Thị trấn Trần Văn Thời,Thị trấn,968,,2025-06-30,Q142280226,new,manual,,predecessor CREATE batch #297096
+w-8230703-base,32098,Thị trấn Sông Đốc,Thị trấn,968,,2025-06-30,Q142280227,new,manual,,predecessor CREATE batch #297096
 w-8230705-base,32116,Xã Khánh Bình Đông,Xã,968,,2025-06-30,Q6403510,existing,verified,Q6403510,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8230707-base,32110,Xã Khánh Bình,Xã,968,,2025-06-30,Q142280047,new,manual,,predecessor CREATE batch #297090
 w-8230708-base,32101,Xã Khánh Bình Tây Bắc,Xã,968,,2025-06-30,Q6403509,existing,verified,Q6403509,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-8230709-base,32104,Xã Khánh Bình Tây,Xã,968,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8230709-base,32104,Xã Khánh Bình Tây,Xã,968,,2025-06-30,Q142280228,new,manual,,predecessor CREATE batch #297096
 w-8230711-base,32113,Xã Khánh Hưng,Xã,968,,2025-06-30,Q32277346,existing,manual,Q6403514|Q6403516|Q10779593|Q32277346,"predecessor review 2026-09-09.36: Q32277346 retains the exact former commune name and class, matching Trần Văn Thời-area coordinates, and GeoNames 9643214; Q6403516 owns the current Khánh Hưng article and remains assigned to the 2025 successor"
 w-8230713-base,32107,Xã Trần Hợi,Xã,968,,2025-06-30,Q7849246,existing,verified,Q7849246,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8230715-base,32122,Xã Lợi An,Xã,968,,2025-06-30,Q6711774,existing,verified,Q6711774,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8230717-base,32119,Xã Khánh Hải,Xã,968,,2025-06-30,Q6403518,existing,verified,Q6403518,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8230719-base,32125,Xã Phong Lạc,Xã,968,,2025-06-30,Q7187256,existing,verified,Q7187256,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-8230901-base,32128,Thị trấn Cái Nước,Thị trấn,969,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8230901-base,32128,Thị trấn Cái Nước,Thị trấn,969,,2025-06-30,Q142280229,new,manual,,predecessor CREATE batch #297096
 w-8230903-base,32212,Thị trấn Cái Đôi Vàm,Thị trấn,972,,2025-06-30,Q142280055,new,manual,,predecessor CREATE batch #297090
-w-8230905-base,32131,Xã Lương Thế Trân,Xã,969,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8230905-base,32131,Xã Lương Thế Trân,Xã,969,,2025-06-30,Q142280230,new,manual,,predecessor CREATE batch #297096
 w-8230907-base,32134,Xã Phú Hưng,Xã,969,,2025-06-30,Q7189871,existing,verified,Q7189871,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8230909-base,32140,Xã Hưng Mỹ,Xã,969,,2025-06-30,Q142280048,new,manual,,predecessor CREATE batch #297090
 w-8230911-base,32143,Xã Đông Thới,Xã,969,,2025-06-30,Q8079939,existing,verified,Q8079939,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8230913-base,32215,Xã Phú Mỹ,Xã,972,,2025-06-30,Q142280056,new,manual,,predecessor CREATE batch #297090
-w-8230915-base,32137,Xã Tân Hưng,Xã,969,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8230915-base,32137,Xã Tân Hưng,Xã,969,,2025-06-30,Q142280231,new,manual,,predecessor CREATE batch #297096
 w-8230917-base,32218,Xã Phú Tân,Xã,972,,2025-06-30,Q142280057,new,manual,,predecessor CREATE batch #297090
 w-8230919-base,32146,Xã Tân Hưng Đông,Xã,969,,2025-06-30,Q7862070,existing,verified,Q7862070,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8230921-base,32227,Xã Tân Hưng Tây,Xã,972,,2025-06-30,Q7862068,existing,verified,Q7862068,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8230923-base,32149,Xã Trần Thới,Xã,969,,2025-06-30,Q7849252,existing,verified,Q7849252,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8230924-base,32224,Xã Việt Thắng,Xã,972,,2025-06-30,Q10832898,existing,verified,Q10832898,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8230925-base,32230,Xã Nguyễn Việt Khái,Xã,972,,2025-06-30,Q7023126,existing,manual,Q5202330|Q7023126|Q136675926,"predecessor review 2026-09-11.64: Q7023126 retains the former Phú Tân district parent, commune class, historical coordinates, and GeoNames 9643241; Q136675926 owns the distinct current Nguyễn Việt Khái article, while the old commune merged into Cái Đôi Vàm"
-w-8231101-base,32152,Thị trấn Đầm Dơi,Thị trấn,970,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8231101-base,32152,Thị trấn Đầm Dơi,Thị trấn,970,,2025-06-30,Q142280232,new,manual,,predecessor CREATE batch #297096
 w-8231103-base,32167,Xã Tân Thuận,Xã,970,,2025-06-30,Q142280050,new,manual,,predecessor CREATE batch #297090
 w-8231105-base,32164,Xã Tân Đức,Xã,970,,2025-06-30,Q7862109,existing,verified,Q7862109,predecessor qualified-label+terminal-district+ward-class+batched-wbgetentities
-w-8231107-base,32161,Xã Trần Phán,Xã,970,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8231107-base,32161,Xã Trần Phán,Xã,970,,2025-06-30,Q142280233,new,manual,,predecessor CREATE batch #297096
 w-8231108-base,32170,Xã Tạ An Khương Nam,Xã,970,,2025-06-30,Q7862834,existing,verified,Q7862834,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8231109-base,32155,Xã Tạ An Khương,Xã,970,,2025-06-30,Q142280049,new,manual,,predecessor CREATE batch #297090
 w-8231110-base,32158,Xã Tạ An Khương Đông,Xã,970,,2025-06-30,Q7862835,existing,verified,Q7862835,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
@@ -14529,7 +14529,7 @@ w-8231112-base,32179,Xã Quách Phẩm Bắc,Xã,970,,2025-06-30,Q7273077,existi
 w-8231113-base,32182,Xã Quách Phẩm,Xã,970,,2025-06-30,Q142280052,new,manual,,predecessor CREATE batch #297090
 w-8231115-base,32176,Xã Tân Tiến,Xã,970,,2025-06-30,Q142280051,new,manual,,predecessor CREATE batch #297090
 w-8231117-base,32188,Xã Nguyễn Huân,Xã,970,,2025-06-30,Q7023089,existing,verified,Q7023089,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
-w-8231119-base,32185,Xã Thanh Tùng,Xã,970,,2025-06-30,,new,gap,,provisional predecessor creation gap after ward-class and broad district-scoped preflight
+w-8231119-base,32185,Xã Thanh Tùng,Xã,970,,2025-06-30,Q142280234,new,manual,,predecessor CREATE batch #297096
 w-8231301-base,32191,Thị Trấn Năm Căn,Thị trấn,971,,2025-06-30,Q142280053,new,manual,,predecessor CREATE batch #297090
 w-8231303-base,32194,Xã Hàm Rồng,Xã,971,,2025-06-30,Q5962907,existing,verified,Q5962907,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities
 w-8231305-base,32197,Xã Hiệp Tùng,Xã,971,,2025-06-30,Q5873107,existing,verified,Q5873107,predecessor exact-folded-name+terminal-district+ward-class+batched-wbgetentities

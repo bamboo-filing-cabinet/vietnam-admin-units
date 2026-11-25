@@ -545,6 +545,7 @@ def apply_creation_gaps(mapping_rows: list[dict], manifest: dict) -> list[dict]:
 BATCH_OUTCOME_PATHS = [
     Path("data/ward-wikidata-predecessor-create-batch-296722.json"),
     Path("data/ward-wikidata-predecessor-create-batch-297090.json"),
+    Path("data/ward-wikidata-predecessor-create-batch-297096.json"),
 ]
 
 
